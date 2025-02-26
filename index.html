@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Lessons</title>
+    <link rel="stylesheet" href="common/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Prevent caching for development -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+</head>
+<body>
+    <div class="container">
+        <div class="lesson-container">
+            <div class="lesson-header">
+                <h1 class="lesson-title">Interactive Science Lessons</h1>
+            </div>
+            
+            <p>Welcome to our interactive science lessons! Select a lesson below to get started:</p>
+            
+            <ul class="lesson-list" id="lessonList">
+                <!-- Lessons will be loaded here dynamically -->
+                <li class="loading-message">
+                    <i class="fas fa-spinner fa-spin"></i> Loading lessons...
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        // List of available lessons
+        // In a production environment, you might want to generate this list dynamically
+        // from your file system or a database
+        const lessons = [
+            {
+                id: 'lesson1',
+                title: 'Introduction to Light and Color',
+                description: 'Learn about the fundamental properties of light and color perception',
+                icon: 'fas fa-rainbow'
+            },
+            {
+                id: 'lesson2',
+                title: 'Sound Waves and Acoustics',
+                description: 'Explore the science of sound and how it travels through different mediums',
+                icon: 'fas fa-volume-up'
+            },
+            {
+                id: 'lesson3',
+                title: 'Our Solar System',
+                description: 'Journey through our solar system and learn about planets, moons, and other celestial bodies',
+                icon: 'fas fa-globe'
+            }
+            // Add more lessons as you create them
+        ];
+        
+        // Function to load lessons into the list
+        function loadLessonList() {
+            const lessonList = document.getElementById('lessonList');
+            
+            // Clear loading message
+            lessonList.innerHTML = '';
+            
+            // Check if any lessons are available
+            if (lessons.length === 0) {
+                lessonList.innerHTML = `
+                    <li class="error-message">
+                        <i class="fas fa-exclamation-triangle"></i> No lessons available.
+                    </li>
+                `;
+                return;
+            }
+            
+            // Add each lesson to the list
+            lessons.forEach(lesson => {
+                const listItem = document.createElement('li');
+                listItem.className = 'lesson-list-item';
+                
+                listItem.innerHTML = `
+                    <a href="lesson-player.html?lesson=${lesson.id}" class="lesson-list-link">
+                        <div class="lesson-list-icon">
+                            <i class="${lesson.icon}"></i>
+                        </div>
+                        <div class="lesson-list-details">
+                            <h3 class="lesson-list-title">${lesson.title}</h3>
+                            <p class="lesson-list-description">${lesson.description}</p>
+                        </div>
+                    </a>
+                `;
+                
+                lessonList.appendChild(listItem);
+            });
+        }
+        
+        // Load lessons when the page is loaded
+        document.addEventListener('DOMContentLoaded', loadLessonList);
+    </script>
+</body>
+</html>
