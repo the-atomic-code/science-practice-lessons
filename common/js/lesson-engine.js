@@ -20,13 +20,16 @@ let lessonState = {
  */
 async function loadLesson(lessonPath) {
     try {
-        // If lessonPath is just an ID rather than a full path, correct it
-        if (!lessonPath.includes('/')) {
-            const basePath = `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}`;
-            lessonPath = `${basePath}content/${lessonPath}/lesson.json`;
+        console.log("Attempting to fetch from path:", lessonPath);
+        
+        // Ensure we have the full path with proper structure
+        if (!lessonPath.includes('/content/') || !lessonPath.endsWith('/lesson.json')) {
+            // Fix malformed paths
+            const lessonId = getLessonPath();
+            const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+            lessonPath = `${window.location.origin}${basePath}content/${lessonId}/lesson.json`;
+            console.log("Corrected path to:", lessonPath);
         }
-
-        console.log("Final fetch path:", lessonPath);
         
         // Fetch the lesson data
         const response = await fetch(lessonPath);
@@ -57,20 +60,16 @@ async function loadLesson(lessonPath) {
         // Initialize first question
         initializeQuestion();
         
-        return lessonData;
-        
     } catch (error) {
         console.error('Error loading lesson:', error);
         document.getElementById('lesson-container').innerHTML = `
             <div class="container">
                 <div class="error-message">
-                    <h2><i class="fas fa-exclamation-triangle"></i> Error Loading Lesson</h2>
+                    <h2>Error Loading Lesson</h2>
                     <p>${error.message}</p>
-                    <p><a href="index.html">Return to lesson list</a></p>
                 </div>
             </div>
         `;
-        throw error;
     }
 }
 
@@ -142,17 +141,6 @@ function renderLesson(lessonData) {
         const questionElement = document.createElement('div');
         questionElement.id = `question${question.id}`;
         questionElement.className = 'question-container';
-        
-        // Check if this is a visual question (has image and options have images)
-        const isVisualQuestion = question.image && 
-                                question.options.some(option => option.image) &&
-                                (question.visualMode === true); // Add this flag in your JSON
-
-        // Add visual mode class if applicable
-        if (isVisualQuestion) {
-            questionElement.classList.add('visual-question');
-        }
-        
         questionElement.style.display = 'none'; // Hide initially
         
         // Build question HTML with support for images
@@ -163,17 +151,13 @@ function renderLesson(lessonData) {
             </h2>
         `;
         
-        // Add question image if present with improved handling
+        // Add question image if present
         if (question.image) {
             const imagePath = getImagePath(question.image, lessonData.id);
             questionHTML += `
-                <div class="image-container" id="question-image-container-${question.id}">
-                    <img src="${imagePath}" alt="Question ${question.id} image" class="question-image" 
-                         id="question-image-${question.id}" 
-                         onload="this.parentElement.classList.remove('loading')" 
-                         onerror="handleImageError(this, 'question')">
-                </div>
-            `;
+                <div class="question-image-container">
+                    <img src="${imagePath}" alt="Question ${question.id} image" class="question-image">
+                </div>`;
         }
         
         // Add options container
@@ -181,29 +165,14 @@ function renderLesson(lessonData) {
         
         // Add each option
         question.options.forEach((option, index) => {
-            // Determine if this is an image-heavy option
-            const hasImage = option.image ? true : false;
-            const optionClass = hasImage ? 'option image-option' : 'option';
-            
             questionHTML += `
-                <div class="${optionClass}" onclick="selectOption(${question.id}, ${index}, this)">
+                <div class="option" onclick="selectOption(${question.id}, ${index}, this)">
                     <div class="option-content">
-                        <span class="option-text">${option.text}</span>`;
-                        
-            // Add option image if present with improved handling
-            if (option.image) {
-                const optionImagePath = getImagePath(option.image, lessonData.id);
-                questionHTML += `
-                    <div class="option-image-container" id="option-image-container-${question.id}-${index}">
-                        <img src="${optionImagePath}" alt="Option ${index + 1}" class="option-image" 
-                             id="option-image-${question.id}-${index}"
-                             onload="this.parentElement.classList.remove('loading')" 
-                             onerror="handleImageError(this, 'option')">
-                    </div>
-                `;
-            }
-            
-            questionHTML += `
+                        <span class="option-text">${option.text}</span>
+                        ${option.image ? `
+                        <div class="option-image-container">
+                            <img src="${getImagePath(option.image, lessonData.id)}" alt="Option ${index + 1}" class="option-image">
+                        </div>` : ''}
                     </div>
                 </div>
                 <div class="explanation" id="explanation-${question.id}-${index}">
@@ -219,14 +188,12 @@ function renderLesson(lessonData) {
         questionHTML += `
             <div class="feedback" id="feedback-${question.id}"></div>
             
-            ${question.funFact ? `
             <div class="fun-fact" id="fun-fact-${question.id}">
                 <div class="fun-fact-title">
                     <i class="fas fa-lightbulb"></i> Fun Fact
                 </div>
-                <p>${question.funFact}</p>
+                <p>${question.funFact || 'No fun fact available for this question.'}</p>
             </div>
-            ` : ''}
             
             <div class="button-container">
                 <button class="check-answer-btn" id="check-${question.id}" onclick="checkAnswer(${question.id})">
@@ -245,45 +212,7 @@ function renderLesson(lessonData) {
         
         // Add the question to the container
         questionsContainer.appendChild(questionElement);
-        
-        // Mark image containers as loading
-        if (question.image) {
-            const imageContainer = document.getElementById(`question-image-container-${question.id}`);
-            if (imageContainer) {
-                imageContainer.classList.add('loading');
-            }
-        }
-        
-        // Mark option image containers as loading
-        question.options.forEach((option, index) => {
-            if (option.image) {
-                const optionImageContainer = document.getElementById(`option-image-container-${question.id}-${index}`);
-                if (optionImageContainer) {
-                    optionImageContainer.classList.add('loading');
-                }
-            }
-        });
     });
-
-}
-
-/**
- * Handles image loading errors
- * @param {HTMLImageElement} img - The image element that failed to load
- * @param {string} type - The type of image ('question' or 'option')
- */
-function handleImageError(img, type) {
-    // Add error class to parent container
-    img.parentElement.classList.remove('loading');
-    img.parentElement.classList.add('error');
-    
-    // Set fallback image and class
-    img.src = 'common/assets/images/image-placeholder.png';
-    img.alt = 'Image could not be loaded';
-    img.classList.add('broken-image');
-    
-    // Log the error
-    console.warn(`Failed to load ${type} image:`, img.src);
 }
 
 /**
@@ -298,13 +227,11 @@ function getImagePath(image, lessonId) {
         return image;
     }
     
-    // Handle relative paths with or without leading slash
-    if (image.startsWith('/')) {
-        return image.substring(1); // Remove leading slash
-    }
+    // Construct the base URL based on current location
+    const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
     
-    // Otherwise, construct a relative path to the lesson's images folder
-    return `content/${lessonId}/images/${image}`;
+    // Construct the full path to the image
+    return `${window.location.origin}${basePath}content/${lessonId}/images/${image}`;
 }
 
 /**
@@ -694,7 +621,7 @@ function getLessonId() {
     }
     
     // Fallback to lesson data
-    return lessonState.lessonData.id || 'unknown';
+    return lessonState.lessonData ? lessonState.lessonData.id : 'unknown';
 }
 
 /**
@@ -710,7 +637,6 @@ function getLessonPath() {
 window.selectOption = selectOption;
 window.checkAnswer = checkAnswer;
 window.showNextQuestion = showNextQuestion;
-window.handleImageError = handleImageError;
 
 // Initialize lesson if path is in URL
 document.addEventListener('DOMContentLoaded', () => {
