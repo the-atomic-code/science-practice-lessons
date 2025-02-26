@@ -393,6 +393,19 @@ button:active {
     background-color: #25a99d;
 }
 
+.complete-button {
+    background-color: var(--warning);
+    color: white;
+    font-weight: 600;
+    padding: 14px 28px;
+}
+
+.complete-button:hover {
+    background-color: #e58e1a;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 159, 28, 0.3);
+}
+
 .completion-message {
     background: linear-gradient(135deg, #4361ee, #4cc9f0);
     color: white;
@@ -571,6 +584,10 @@ button:active {
     button {
         padding: 10px 20px;
     }
+    
+    .complete-button {
+        padding: 12px 24px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -590,5 +607,15 @@ button:active {
     
     .time-display {
         align-self: flex-end;
+    }
+    
+    .button-container {
+        flex-wrap: wrap;
+    }
+    
+    .complete-button {
+        flex: 1 0 100%;
+        margin-top: 10px;
+        justify-content: center;
     }
 }
