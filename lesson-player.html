@@ -51,26 +51,11 @@
             
             // Load the lesson
             document.addEventListener('DOMContentLoaded', () => {
-                loadLesson(lessonPath)
-                    .then(() => {
-                        // Update page title with actual lesson title if available
-                        if (lessonState.lessonData && lessonState.lessonData.title) {
-                            document.title = lessonState.lessonData.title;
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Error loading lesson:', error);
-                        document.getElementById('lesson-container').innerHTML = `
-                            <div class="container">
-                                <div class="error-message">
-                                    <h2><i class="fas fa-exclamation-triangle"></i> Error Loading Lesson</h2>
-                                    <p>Sorry, we couldn't load the lesson "${lessonId}". Please check if the lesson ID is correct.</p>
-                                    <p><a href="index.html">Return to lesson list</a></p>
-                                </div>
-                            </div>
-                        `;
-                    });
-            });
+    // Just update the title once the lesson is loaded
+    if (lessonState.lessonData && lessonState.lessonData.title) {
+        document.title = lessonState.lessonData.title;
+    }
+});
         } else {
             // If no lesson ID is provided, show error message
             document.getElementById('lesson-container').innerHTML = `
