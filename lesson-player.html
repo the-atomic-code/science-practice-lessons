@@ -41,8 +41,10 @@
         // If lesson ID is provided, load the lesson
         if (lessonId) {
             // Construct the path to the lesson JSON file
-            const lessonPath = `content/${lessonId}/lesson.json`;
-            console.log('Attempting to load lesson from:', lessonPath);
+            //const lessonPath = `content/${lessonId}/lesson.json`;
+            const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+            const lessonPath = `${basePath}content/${lessonId}/lesson.json`;
+            console.log('Full lesson path:', lessonPath);
             
             // Update page title with lesson ID for now (will be updated with actual title once loaded)
             document.title = `Lesson: ${lessonId}`;
