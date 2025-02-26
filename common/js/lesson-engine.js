@@ -73,6 +73,9 @@ async function loadLesson(lessonPath) {
  */
 function renderLesson(lessonData) {
     const lessonContainer = document.getElementById('lesson-container');
+
+    // Clear any existing content including the loading message
+    lessonContainer.innerHTML = '';
     
     // Create the container structure
     const container = document.createElement('div');
