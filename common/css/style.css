@@ -202,11 +202,47 @@ body {
     margin-left: 5px;
 }
 
-.question-image {
+/* Updated image containers */
+.image-container {
     margin-top: 15px;
-    max-width: 100%;
     border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    min-height: 50px;
+    background-color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container.loading::before {
+    content: "\f110";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--primary);
+    animation: fa-spin 2s infinite linear;
+    position: absolute;
+}
+
+.image-container.error::before {
+    content: "\f1c5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--danger);
+    position: absolute;
+}
+
+/* Updated image styling */
+.question-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
     display: block;
+    margin: 0 auto;
+    max-height: 300px;
+    border-radius: 8px;
 }
 
 .options-container {
@@ -282,10 +318,29 @@ body {
     font-weight: 400;
 }
 
+/* Updated option image styling */
+.option-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: var(--light);
+    min-height: 40px;
+    position: relative;
+}
+
 .option-image {
     max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: contain;
     border-radius: 6px;
-    max-height: 200px;
+}
+
+.broken-image {
+    opacity: 0.5;
+    filter: grayscale(100%);
 }
 
 .explanation {
@@ -301,6 +356,11 @@ body {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fa-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 .feedback {
@@ -498,6 +558,30 @@ button:active {
     color: inherit;
 }
 
+/* Loading and error messages */
+.loading-message {
+    text-align: center;
+    padding: 20px;
+    color: var(--primary);
+}
+
+.loading-message i {
+    margin-right: 10px;
+}
+
+.error-message {
+    text-align: center;
+    padding: 20px;
+    color: var(--danger);
+    border: 1px solid var(--danger);
+    border-radius: var(--border-radius);
+    background-color: rgba(231, 29, 54, 0.05);
+}
+
+.error-message i {
+    margin-right: 10px;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .container {
@@ -519,5 +603,13 @@ button:active {
     
     button {
         padding: 10px 20px;
+    }
+    
+    .question-image {
+        max-height: 200px;
+    }
+    
+    .option-image {
+        max-height: 100px;
     }
 }
