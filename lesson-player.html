@@ -38,19 +38,13 @@
         // Get lesson ID from URL parameter
         const lessonId = getUrlParameter('lesson');
         
-        // If lesson ID is provided, load the lesson
+        // If lesson ID is provided, update the page title
         if (lessonId) {
-            
             // Update page title with lesson ID for now (will be updated with actual title once loaded)
             document.title = `Lesson: ${lessonId}`;
             
-            // Load the lesson
-            document.addEventListener('DOMContentLoaded', () => {
-                // Just update the title once the lesson is loaded
-                if (lessonState.lessonData && lessonState.lessonData.title) {
-                    document.title = lessonState.lessonData.title;
-                }
-        });
+            // The actual loading happens in lesson-engine.js
+            // The title will be updated automatically when the lesson is loaded
         } else {
             // If no lesson ID is provided, show error message
             document.getElementById('lesson-container').innerHTML = `
