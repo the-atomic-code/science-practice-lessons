@@ -219,12 +219,14 @@ function renderLesson(lessonData) {
         questionHTML += `
             <div class="feedback" id="feedback-${question.id}"></div>
             
+            ${question.funFact ? `
             <div class="fun-fact" id="fun-fact-${question.id}">
                 <div class="fun-fact-title">
                     <i class="fas fa-lightbulb"></i> Fun Fact
                 </div>
-                <p>${question.funFact || 'No fun fact available for this question.'}</p>
+                <p>${question.funFact}</p>
             </div>
+            ` : ''}
             
             <div class="button-container">
                 <button class="check-answer-btn" id="check-${question.id}" onclick="checkAnswer(${question.id})">
