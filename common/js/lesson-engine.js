@@ -72,7 +72,7 @@ async function loadLesson(lessonPath) {
  */
 function renderLesson(lessonData) {
     const lessonContainer = document.getElementById('lesson-container');
-
+    
     // Clear any existing content including the loading message
     lessonContainer.innerHTML = '';
     
@@ -144,10 +144,17 @@ function renderLesson(lessonData) {
             </h2>
         `;
         
-        // Add question image if present
+        // Add question image if present with improved handling
         if (question.image) {
             const imagePath = getImagePath(question.image, lessonData.id);
-            questionHTML += `<img src="${imagePath}" alt="Question ${question.id} image" class="question-image">`;
+            questionHTML += `
+                <div class="image-container" id="question-image-container-${question.id}">
+                    <img src="${imagePath}" alt="Question ${question.id} image" class="question-image" 
+                         id="question-image-${question.id}" 
+                         onload="this.parentElement.classList.remove('loading')" 
+                         onerror="handleImageError(this, 'question')">
+                </div>
+            `;
         }
         
         // Add options container
@@ -158,8 +165,22 @@ function renderLesson(lessonData) {
             questionHTML += `
                 <div class="option" onclick="selectOption(${question.id}, ${index}, this)">
                     <div class="option-content">
-                        <span class="option-text">${option.text}</span>
-                        ${option.image ? `<img src="${getImagePath(option.image, lessonData.id)}" alt="Option ${index + 1}" class="option-image">` : ''}
+                        <span class="option-text">${option.text}</span>`;
+                        
+            // Add option image if present with improved handling
+            if (option.image) {
+                const optionImagePath = getImagePath(option.image, lessonData.id);
+                questionHTML += `
+                    <div class="option-image-container" id="option-image-container-${question.id}-${index}">
+                        <img src="${optionImagePath}" alt="Option ${index + 1}" class="option-image" 
+                             id="option-image-${question.id}-${index}"
+                             onload="this.parentElement.classList.remove('loading')" 
+                             onerror="handleImageError(this, 'option')">
+                    </div>
+                `;
+            }
+            
+            questionHTML += `
                     </div>
                 </div>
                 <div class="explanation" id="explanation-${question.id}-${index}">
@@ -199,8 +220,48 @@ function renderLesson(lessonData) {
         
         // Add the question to the container
         questionsContainer.appendChild(questionElement);
+        
+        // Mark image containers as loading
+        if (question.image) {
+            const imageContainer = document.getElementById(`question-image-container-${question.id}`);
+            if (imageContainer) {
+                imageContainer.classList.add('loading');
+            }
+        }
+        
+        // Mark option image containers as loading
+        question.options.forEach((option, index) => {
+            if (option.image) {
+                const optionImageContainer = document.getElementById(`option-image-container-${question.id}-${index}`);
+                if (optionImageContainer) {
+                    optionImageContainer.classList.add('loading');
+                }
+            }
+        });
     });
 }
+
+/**
+ * Handles image loading errors
+ * @param {HTMLImageElement} img - The image element that failed to load
+ * @param {string} type - The type of image ('question' or 'option')
+ */
+function handleImageError(img, type) {
+    // Add error class to parent container
+    img.parentElement.classList.remove('loading');
+    img.parentElement.classList.add('error');
+    
+    // Set fallback image and class
+    img.src = 'common/assets/images/image-placeholder.png';
+    img.alt = 'Image could not be loaded';
+    img.classList.add('broken-image');
+    
+    // Log the error
+    console.warn(`Failed to load ${type} image:`, img.src);
+}
+
+// Make the image error handler available in the global scope
+window.handleImageError = handleImageError;
 
 /**
  * Gets the proper path for an image based on whether it's a relative path or full URL
@@ -212,6 +273,11 @@ function getImagePath(image, lessonId) {
     // If it starts with http or https, it's a full URL
     if (image.startsWith('http://') || image.startsWith('https://')) {
         return image;
+    }
+    
+    // Handle relative paths with or without leading slash
+    if (image.startsWith('/')) {
+        return image.substring(1); // Remove leading slash
     }
     
     // Otherwise, construct a relative path to the lesson's images folder
