@@ -86,6 +86,26 @@
         }
       ],
       "funFact": "A double rainbow occurs when light is reflected twice inside water droplets. That's why the colors in the secondary rainbow appear in reverse order!"
+    },
+    {
+      "id": 4,
+      "text": "Which of these diagrams correctly shows the water cycle?",
+      "image": "water-cycle-question.jpg",
+      "visualMode": true,
+      "options": [
+        {
+          "text": "Diagram A",
+          "image": "water-cycle-a.jpg",
+          "isCorrect": false,
+          "explanation": "This diagram incorrectly shows evaporation occurring after condensation."
+        },
+        {
+          "text": "Diagram B",
+          "image": "water-cycle-b.jpg",
+          "isCorrect": true,
+          "explanation": "Correct! This diagram accurately shows the complete water cycle."
+        }
+      ]
     }
   ]
 }
