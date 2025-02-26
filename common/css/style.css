@@ -202,47 +202,20 @@ body {
     margin-left: 5px;
 }
 
-/* Image containers */
-.image-container {
+.question-image-container {
     margin-top: 15px;
-    border-radius: 8px;
-    overflow: hidden;
-    position: relative;
-    min-height: 50px;
-    background-color: var(--light);
     display: flex;
     justify-content: center;
-    align-items: center;
+    overflow: hidden;
 }
 
-.image-container.loading::before {
-    content: "\f110";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 1.5rem;
-    color: var(--primary);
-    animation: fa-spin 2s infinite linear;
-    position: absolute;
-}
-
-.image-container.error::before {
-    content: "\f1c5";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 1.5rem;
-    color: var(--danger);
-    position: absolute;
-}
-
-/* Question image styling */
 .question-image {
     max-width: 100%;
     height: auto;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
-    max-height: 300px;
     border-radius: 8px;
+    display: block;
+    object-fit: contain;
+    max-height: 400px;
 }
 
 .options-container {
@@ -306,12 +279,11 @@ body {
     box-shadow: 0 0 0 2px rgba(231, 29, 54, 0.3);
 }
 
-/* Option content layout */
 .option-content {
     margin-left: 30px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
     width: calc(100% - 30px);
 }
 
@@ -319,88 +291,20 @@ body {
     font-weight: 400;
 }
 
-/* Option image styling */
 .option-image-container {
-    width: 100%;
+    margin-top: 8px;
     display: flex;
-    justify-content: center;
-    border-radius: 6px;
+    justify-content: flex-start;
     overflow: hidden;
-    background-color: var(--light);
-    min-height: 40px;
-    position: relative;
 }
 
 .option-image {
     max-width: 100%;
-    height: auto;
-    max-height: 200px;
-    object-fit: contain;
     border-radius: 6px;
-    padding: 5px;
-}
-
-/* For image-heavy options */
-.image-option .option-content {
-    display: grid;
-    grid-template-columns: 1fr; /* Single column for smaller screens */
-    gap: 12px;
-    align-items: center;
-}
-
-.broken-image {
-    opacity: 0.5;
-    filter: grayscale(100%);
-}
-
-/* Visual question mode for image-focused questions */
-.visual-question .question-image {
-    max-height: 400px; /* Larger images for visual questions */
-    margin: 20px auto;
-}
-
-.visual-question .option-image {
-    max-height: 250px; /* Larger option images for visual questions */
-}
-
-.visual-question .options-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-}
-
-.visual-question .option {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.visual-question .option-content {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin-left: 0;
-    width: 100%;
-}
-
-.visual-question .option::before {
-    left: 50%;
-    top: 15px;
-    transform: translateX(-50%);
-}
-
-.visual-question .option-text {
-    text-align: center;
-    margin-top: 25px;
-    font-weight: 500;
-}
-
-.visual-question .option-image-container {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 5px 5px;
+    height: auto;
+    object-fit: contain;
+    max-height: 150px;
+    display: block;
 }
 
 .explanation {
@@ -416,11 +320,6 @@ body {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fa-spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
 }
 
 .feedback {
@@ -618,41 +517,31 @@ button:active {
     color: inherit;
 }
 
-/* Loading and error messages */
 .loading-message {
     text-align: center;
-    padding: 20px;
-    color: var(--primary);
+    padding: 30px;
 }
 
-.loading-message i {
-    margin-right: 10px;
+.loading-message h2 {
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
 }
 
 .error-message {
-    text-align: center;
-    padding: 20px;
-    color: var(--danger);
-    border: 1px solid var(--danger);
+    background-color: rgba(231, 29, 54, 0.1);
     border-radius: var(--border-radius);
-    background-color: rgba(231, 29, 54, 0.05);
+    border-left: 5px solid var(--danger);
+    padding: 20px;
+    margin: 20px 0;
 }
 
-.error-message i {
-    margin-right: 10px;
+.error-message h2 {
+    color: var(--danger);
+    margin-top: 0;
 }
 
 /* Responsive design */
-@media (min-width: 576px) {
-    .image-option .option-content {
-        grid-template-columns: 1fr 1fr; /* Two columns for larger screens */
-    }
-    
-    .option-image {
-        max-height: 180px; /* Slightly smaller on medium screens */
-    }
-}
-
 @media (max-width: 768px) {
     .container {
         padding: 15px;
@@ -671,37 +560,35 @@ button:active {
         font-size: 1.1rem;
     }
     
-    button {
-        padding: 10px 20px;
-    }
-    
     .question-image {
-        max-height: 200px;
-    }
-    
-    .option-image {
-        max-height: 150px;
-    }
-    
-    .visual-question .options-container {
-        grid-template-columns: 1fr;
-    }
-    
-    .visual-question .question-image {
         max-height: 300px;
     }
     
-    .visual-question .option-image {
-        max-height: 200px;
+    .option-image {
+        max-height: 120px;
+    }
+    
+    button {
+        padding: 10px 20px;
     }
 }
 
 @media (max-width: 480px) {
-    .option-image {
-        max-height: 120px; /* Even smaller for mobile phones */
+    .question-image {
+        max-height: 250px;
     }
     
-    .visual-question .option-image {
-        max-height: 180px;
+    .option-image {
+        max-height: 100px;
+    }
+    
+    .lesson-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .time-display {
+        align-self: flex-end;
     }
 }
