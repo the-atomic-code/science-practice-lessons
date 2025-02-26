@@ -26,7 +26,6 @@ async function loadLesson(lessonPath) {
             lessonPath = `${basePath}content/${lessonPath}/lesson.json`;
         }
         
-        console.log("Final fetch path:", lessonPath);
         // Fetch the lesson data
         const response = await fetch(lessonPath);
         if (!response.ok) {
