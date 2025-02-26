@@ -25,6 +25,8 @@ async function loadLesson(lessonPath) {
             const basePath = `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}`;
             lessonPath = `${basePath}content/${lessonPath}/lesson.json`;
         }
+
+        console.log("Final fetch path:", lessonPath);
         
         // Fetch the lesson data
         const response = await fetch(lessonPath);
@@ -55,14 +57,20 @@ async function loadLesson(lessonPath) {
         // Initialize first question
         initializeQuestion();
         
+        return lessonData;
+        
     } catch (error) {
         console.error('Error loading lesson:', error);
         document.getElementById('lesson-container').innerHTML = `
-            <div class="error-message">
-                <h2>Error Loading Lesson</h2>
-                <p>${error.message}</p>
+            <div class="container">
+                <div class="error-message">
+                    <h2><i class="fas fa-exclamation-triangle"></i> Error Loading Lesson</h2>
+                    <p>${error.message}</p>
+                    <p><a href="index.html">Return to lesson list</a></p>
+                </div>
             </div>
         `;
+        throw error;
     }
 }
 
@@ -134,6 +142,17 @@ function renderLesson(lessonData) {
         const questionElement = document.createElement('div');
         questionElement.id = `question${question.id}`;
         questionElement.className = 'question-container';
+        
+        // Check if this is a visual question (has image and options have images)
+        const isVisualQuestion = question.image && 
+                                question.options.some(option => option.image) &&
+                                (question.visualMode === true); // Add this flag in your JSON
+
+        // Add visual mode class if applicable
+        if (isVisualQuestion) {
+            questionElement.classList.add('visual-question');
+        }
+        
         questionElement.style.display = 'none'; // Hide initially
         
         // Build question HTML with support for images
@@ -162,8 +181,12 @@ function renderLesson(lessonData) {
         
         // Add each option
         question.options.forEach((option, index) => {
+            // Determine if this is an image-heavy option
+            const hasImage = option.image ? true : false;
+            const optionClass = hasImage ? 'option image-option' : 'option';
+            
             questionHTML += `
-                <div class="option" onclick="selectOption(${question.id}, ${index}, this)">
+                <div class="${optionClass}" onclick="selectOption(${question.id}, ${index}, this)">
                     <div class="option-content">
                         <span class="option-text">${option.text}</span>`;
                         
@@ -239,6 +262,7 @@ function renderLesson(lessonData) {
             }
         });
     });
+
 }
 
 /**
@@ -259,9 +283,6 @@ function handleImageError(img, type) {
     // Log the error
     console.warn(`Failed to load ${type} image:`, img.src);
 }
-
-// Make the image error handler available in the global scope
-window.handleImageError = handleImageError;
 
 /**
  * Gets the proper path for an image based on whether it's a relative path or full URL
@@ -680,18 +701,14 @@ function getLessonId() {
  */
 function getLessonPath() {
     const urlParams = new URLSearchParams(window.location.search);
-    const lessonId = urlParams.get('lesson');
-    
-    if (!lessonId) return null;
-    
-    // Construct absolute path with origin
-    return `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}content/${lessonId}/lesson.json`;
+    return urlParams.get('lesson') || null;
 }
 
 // Make functions available in the global scope for event handlers
 window.selectOption = selectOption;
 window.checkAnswer = checkAnswer;
 window.showNextQuestion = showNextQuestion;
+window.handleImageError = handleImageError;
 
 // Initialize lesson if path is in URL
 document.addEventListener('DOMContentLoaded', () => {
