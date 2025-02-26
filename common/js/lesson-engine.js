@@ -20,7 +20,13 @@ let lessonState = {
  */
 async function loadLesson(lessonPath) {
     try {
-        console.log("Attempting to fetch from path:", lessonPath);
+        // If lessonPath is just an ID rather than a full path, correct it
+        if (!lessonPath.includes('/')) {
+            const basePath = `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}`;
+            lessonPath = `${basePath}content/${lessonPath}/lesson.json`;
+        }
+        
+        console.log("Final fetch path:", lessonPath);
         // Fetch the lesson data
         const response = await fetch(lessonPath);
         if (!response.ok) {
@@ -606,7 +612,12 @@ function getLessonId() {
  */
 function getLessonPath() {
     const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('lesson') || null;
+    const lessonId = urlParams.get('lesson');
+    
+    if (!lessonId) return null;
+    
+    // Construct absolute path with origin
+    return `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}content/${lessonId}/lesson.json`;
 }
 
 // Make functions available in the global scope for event handlers
