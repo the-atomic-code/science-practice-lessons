@@ -184,28 +184,49 @@ function renderLesson(lessonData) {
         
         questionHTML += `</div>`;
         
-        // Add feedback, fun fact, and buttons
-        questionHTML += `
-            <div class="feedback" id="feedback-${question.id}"></div>
-            
-            <div class="fun-fact" id="fun-fact-${question.id}">
-                <div class="fun-fact-title">
-                    <i class="fas fa-lightbulb"></i> Fun Fact
+        // Add feedback
+        questionHTML += `<div class="feedback" id="feedback-${question.id}"></div>`;
+        
+        // Add fun fact only if it exists
+        if (question.funFact) {
+            questionHTML += `
+                <div class="fun-fact" id="fun-fact-${question.id}">
+                    <div class="fun-fact-title">
+                        <i class="fas fa-lightbulb"></i> Fun Fact
+                    </div>
+                    <p>${question.funFact}</p>
                 </div>
-                <p>${question.funFact || 'No fun fact available for this question.'}</p>
-            </div>
-            
-            <div class="button-container">
-                <button class="check-answer-btn" id="check-${question.id}" onclick="checkAnswer(${question.id})">
-                    <i class="fas fa-check"></i> Check Answer
-                </button>
-                ${question.id < lessonData.questions.length ? `
+            `;
+        }
+        
+        // Add buttons
+        questionHTML += `<div class="button-container">`;
+        
+        // Check Answer button
+        questionHTML += `
+            <button class="check-answer-btn" id="check-${question.id}" onclick="checkAnswer(${question.id})">
+                <i class="fas fa-check"></i> Check Answer
+            </button>
+        `;
+        
+        // Next Question button (if not the last question)
+        if (question.id < lessonData.questions.length) {
+            questionHTML += `
                 <button class="next-button" id="next-${question.id}" onclick="showNextQuestion(${question.id})" style="display: none;">
                     <i class="fas fa-arrow-right"></i> Next Question
                 </button>
-                ` : ''}
-            </div>
-        `;
+            `;
+        } 
+        // Complete Lesson button (for the last question)
+        else {
+            questionHTML += `
+                <button class="complete-button" id="complete-button" onclick="completeLesson()" style="display: none;">
+                    <i class="fas fa-flag-checkered"></i> Complete Lesson
+                </button>
+            `;
+        }
+        
+        questionHTML += `</div>`;
         
         // Set the HTML content
         questionElement.innerHTML = questionHTML;
@@ -381,16 +402,19 @@ function handleCorrectAnswer(questionId, selectedElement, options) {
     feedbackElement.innerHTML = '<i class="fas fa-check-circle" style="margin-right: 8px;"></i> Correct! Well done!';
     feedbackElement.className = 'feedback correct-feedback';
     
-    // Show fun fact only after correct answer
+    // Show fun fact only after correct answer (if it exists)
     const funFact = document.getElementById(`fun-fact-${questionId}`);
-    funFact.style.display = 'block';
+    if (funFact) {
+        funFact.style.display = 'block';
+    }
     
-    // Show next button if not the last question
+    // Show appropriate navigation button
     if (questionId < lessonState.lessonData.questions.length) {
+        // If not the last question, show Next Question button
         document.getElementById(`next-${questionId}`).style.display = 'block';
     } else {
-        // If this is the last question and it's correct, check for completion
-        checkAllCompleted();
+        // If this is the last question, show Complete Lesson button
+        document.getElementById('complete-button').style.display = 'block';
     }
     
     // Hide check button
@@ -417,7 +441,9 @@ function handleIncorrectAnswer(questionId, selectedElement) {
     
     // Hide fun fact for incorrect answer
     const funFact = document.getElementById(`fun-fact-${questionId}`);
-    funFact.style.display = 'none';
+    if (funFact) {
+        funFact.style.display = 'none';
+    }
 }
 
 /**
@@ -453,6 +479,37 @@ function showNextQuestion(currentQuestionId) {
     
     // Update progress bar
     updateProgressBar();
+}
+
+/**
+ * Completes the lesson and shows the completion message
+ */
+function completeLesson() {
+    // Record completion time
+    lessonState.completionTime = new Date();
+    
+    // Stop the timer
+    clearInterval(lessonState.timerInterval);
+    
+    // Hide all questions with animation
+    const questionsContainer = document.getElementById('questions');
+    questionsContainer.style.opacity = '0';
+    questionsContainer.style.transform = 'translateY(-20px)';
+    questionsContainer.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    
+    setTimeout(() => {
+        questionsContainer.style.display = 'none';
+        
+        // Show completion message with animation
+        const completionMessage = document.getElementById('completionMessage');
+        completionMessage.style.display = 'block';
+        
+        // Create confetti effect
+        createConfetti();
+        
+        // Send completion data to Google Form
+        sendCompletionData();
+    }, 500);
 }
 
 /**
@@ -543,33 +600,9 @@ function checkAllCompleted() {
     // Check if all questions are completed
     const allCompleted = Object.values(lessonState.questionCompleted).every(completed => completed === true);
     
-    if (allCompleted) {
-        // Record completion time
-        lessonState.completionTime = new Date();
-        
-        // Stop the timer
-        clearInterval(lessonState.timerInterval);
-        
-        // Hide all questions with animation
-        const questionsContainer = document.getElementById('questions');
-        questionsContainer.style.opacity = '0';
-        questionsContainer.style.transform = 'translateY(-20px)';
-        questionsContainer.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-        
-        setTimeout(() => {
-            questionsContainer.style.display = 'none';
-            
-            // Show completion message with animation
-            const completionMessage = document.getElementById('completionMessage');
-            completionMessage.style.display = 'block';
-            
-            // Create confetti effect
-            createConfetti();
-            
-            // Send completion data to Google Form
-            sendCompletionData();
-        }, 500);
-    }
+    // We no longer automatically complete the lesson here
+    // The user must click the Complete Lesson button
+    return allCompleted;
 }
 
 /**
@@ -637,6 +670,7 @@ function getLessonPath() {
 window.selectOption = selectOption;
 window.checkAnswer = checkAnswer;
 window.showNextQuestion = showNextQuestion;
+window.completeLesson = completeLesson;
 
 // Initialize lesson if path is in URL
 document.addEventListener('DOMContentLoaded', () => {
