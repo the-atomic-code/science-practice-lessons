@@ -20,6 +20,7 @@ let lessonState = {
  */
 async function loadLesson(lessonPath) {
     try {
+        console.log("Attempting to fetch from path:", lessonPath);
         // Fetch the lesson data
         const response = await fetch(lessonPath);
         if (!response.ok) {
