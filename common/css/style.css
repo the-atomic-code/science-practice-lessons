@@ -202,7 +202,7 @@ body {
     margin-left: 5px;
 }
 
-/* Updated image containers */
+/* Image containers */
 .image-container {
     margin-top: 15px;
     border-radius: 8px;
@@ -234,7 +234,7 @@ body {
     position: absolute;
 }
 
-/* Updated image styling */
+/* Question image styling */
 .question-image {
     max-width: 100%;
     height: auto;
@@ -306,11 +306,12 @@ body {
     box-shadow: 0 0 0 2px rgba(231, 29, 54, 0.3);
 }
 
+/* Option content layout */
 .option-content {
     margin-left: 30px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
     width: calc(100% - 30px);
 }
 
@@ -318,7 +319,7 @@ body {
     font-weight: 400;
 }
 
-/* Updated option image styling */
+/* Option image styling */
 .option-image-container {
     width: 100%;
     display: flex;
@@ -333,14 +334,73 @@ body {
 .option-image {
     max-width: 100%;
     height: auto;
-    max-height: 150px;
+    max-height: 200px;
     object-fit: contain;
     border-radius: 6px;
+    padding: 5px;
+}
+
+/* For image-heavy options */
+.image-option .option-content {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+    gap: 12px;
+    align-items: center;
 }
 
 .broken-image {
     opacity: 0.5;
     filter: grayscale(100%);
+}
+
+/* Visual question mode for image-focused questions */
+.visual-question .question-image {
+    max-height: 400px; /* Larger images for visual questions */
+    margin: 20px auto;
+}
+
+.visual-question .option-image {
+    max-height: 250px; /* Larger option images for visual questions */
+}
+
+.visual-question .options-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.visual-question .option {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.visual-question .option-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 0;
+    width: 100%;
+}
+
+.visual-question .option::before {
+    left: 50%;
+    top: 15px;
+    transform: translateX(-50%);
+}
+
+.visual-question .option-text {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.visual-question .option-image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px 5px;
 }
 
 .explanation {
@@ -583,6 +643,16 @@ button:active {
 }
 
 /* Responsive design */
+@media (min-width: 576px) {
+    .image-option .option-content {
+        grid-template-columns: 1fr 1fr; /* Two columns for larger screens */
+    }
+    
+    .option-image {
+        max-height: 180px; /* Slightly smaller on medium screens */
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;
@@ -610,6 +680,28 @@ button:active {
     }
     
     .option-image {
-        max-height: 100px;
+        max-height: 150px;
+    }
+    
+    .visual-question .options-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .visual-question .question-image {
+        max-height: 300px;
+    }
+    
+    .visual-question .option-image {
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .option-image {
+        max-height: 120px; /* Even smaller for mobile phones */
+    }
+    
+    .visual-question .option-image {
+        max-height: 180px;
     }
 }
