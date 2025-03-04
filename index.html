@@ -20,6 +20,26 @@
             font-weight: 500;
             display: inline-block;
             margin-top: 5px;
+            margin-right: 8px;
+        }
+        
+        .lesson-id {
+            color: var(--dark);
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-top: 5px;
+            background-color: var(--light);
+            padding: 4px 8px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        
+        .lesson-meta {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 5px;
         }
     </style>
 </head>
@@ -47,7 +67,7 @@
         // from your file system or a database
         const lessons = [
             {
-                id: 'sample-lesson',
+                id: 'lesson1',
                 title: 'Introduction to Light and Color',
                 standard: 'MS-PS4-2'
             },
@@ -90,7 +110,10 @@
                     <a href="lesson-player.html?lesson=${lesson.id}" class="lesson-list-link">
                         <div class="lesson-list-details">
                             <h3 class="lesson-list-title">${lesson.title}</h3>
-                            <span class="standard-tag">NGSS: ${lesson.standard}</span>
+                            <div class="lesson-meta">
+                                <span class="lesson-id">ID: ${lesson.id}</span>
+                                <span class="standard-tag">NGSS: ${lesson.standard}</span>
+                            </div>
                         </div>
                     </a>
                 `;
