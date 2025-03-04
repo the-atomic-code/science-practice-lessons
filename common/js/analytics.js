@@ -29,8 +29,8 @@ function sendCompletionData() {
     // Create form fields with the specific entry IDs
     // Note: Update these field IDs to match your Google Form
     const fields = [
-        { name: 'entry.2090980253', value: studentId }, // StudentID
-        { name: 'entry.822636852', value: lessonId }, // LessonID
+        { name: 'entry.2090980253', value: studentId }, // student_id
+        { name: 'entry.822636852', value: lessonId }, // lesson_id
         { name: 'entry.1175798823', value: startedOnFormatted }, // StartedOn
         { name: 'entry.1532357843', value: completedOnFormatted }, // CompletedOn
         { name: 'entry.1386671773', value: Math.round(accuracy) } // Accuracy
