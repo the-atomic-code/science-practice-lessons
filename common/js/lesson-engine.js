@@ -22,7 +22,7 @@ async function loadLesson(lessonPath) {
     try {
         console.log("Attempting to fetch from path:", lessonPath);
         
-        // Construct the path to the lesson JSON file
+        // Ensure we have the full path with proper structure
         if (!lessonPath.includes('/content/') || !lessonPath.endsWith('.json')) {
             // Fix malformed paths
             const lessonId = getLessonPath();
