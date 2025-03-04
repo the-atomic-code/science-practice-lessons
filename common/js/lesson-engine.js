@@ -637,7 +637,7 @@ function createConfetti() {
  */
 function getStudentId() {
     const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('StudentID') || 'unknown';
+    return urlParams.get('student_id') || 'unknown';
 }
 
 /**
@@ -647,7 +647,7 @@ function getStudentId() {
 function getLessonId() {
     // First try from URL
     const urlParams = new URLSearchParams(window.location.search);
-    const urlLessonId = urlParams.get('lessonId');
+    const urlLessonId = urlParams.get('lesson_id');
     
     if (urlLessonId) {
         return urlLessonId;
@@ -663,7 +663,7 @@ function getLessonId() {
  */
 function getLessonPath() {
     const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('lesson') || null;
+    return urlParams.get('lesson_id') || null;
 }
 
 // Make functions available in the global scope for event handlers
