@@ -1,0 +1,416 @@
+{
+    "id": "lesson-94",
+    "title": "Engineering Design Process",
+    "questions": [
+        {
+            "id": 1,
+            "text": "Which of the following best describes a constraint in engineering design?",
+            "options": [
+                {
+                    "text": "A limitation placed on a design solution, such as available materials or cost",
+                    "isCorrect": 1,
+                    "explanation": "Constraints are limitations or restrictions placed on design solutions, like budget, materials, time, or other resources that engineers must work within."
+                },
+                {
+                    "text": "A requirement that determines if the design is successful",
+                    "isCorrect": 0,
+                    "explanation": "This actually describes criteria, not constraints. Criteria are the requirements that determine success, while constraints are limitations."
+                },
+                {
+                    "text": "A prototype built to test the design solution",
+                    "isCorrect": 0,
+                    "explanation": "A prototype is a preliminary model used to test a design, not a constraint. Constraints are limitations placed on the design process."
+                },
+                {
+                    "text": "An improvement made after testing the design",
+                    "isCorrect": 0,
+                    "explanation": "This describes optimization or iteration of the design, not a constraint. Constraints are the boundaries within which engineers must work."
+                }
+            ],
+            "funFact": "Engineers who designed the Mars rovers faced unique constraints like the extreme temperatures on Mars (-120\u00b0C to 25\u00b0C), limited power supply from solar panels, and the need for the rover to operate without any physical human intervention for years!"
+        },
+        {
+            "id": 2,
+            "text": "In the engineering design process, what is the primary purpose of using computer-aided design (CAD) models?",
+            "options": [
+                {
+                    "text": "To visualize how different parts of a system move and interact with each other",
+                    "isCorrect": 1,
+                    "explanation": "CAD models allow engineers to create detailed 3D visualizations that show how different components of a system work together and interact, helping them evaluate the design before building physical prototypes."
+                },
+                {
+                    "text": "To reduce the cost of building physical prototypes",
+                    "isCorrect": 0,
+                    "explanation": "While CAD models can help reduce costs, their primary purpose is to understand system interactions. Cost reduction is a secondary benefit."
+                },
+                {
+                    "text": "To make the final product look more attractive",
+                    "isCorrect": 0,
+                    "explanation": "Although CAD can help with aesthetics, its main purpose is functional - to understand and test how system components work together."
+                },
+                {
+                    "text": "To replace physical prototypes entirely",
+                    "isCorrect": 0,
+                    "explanation": "CAD models complement rather than replace physical prototypes. They help in understanding system interactions before building prototypes, but don't eliminate the need for physical testing."
+                }
+            ],
+            "funFact": "The first commercial CAD program was called Sketchpad, developed in 1963 by Ivan Sutherland at MIT. Users could draw directly on a computer screen with a light pen - revolutionary for its time!"
+        },
+        {
+            "id": 3,
+            "text": "What is the primary purpose of building a prototype during the engineering design process?",
+            "options": [
+                {
+                    "text": "To test and evaluate how well a design solution works before final production",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Prototypes are preliminary models built specifically to demonstrate and test the functionality of a design solution, allowing engineers to collect data and make improvements."
+                },
+                {
+                    "text": "To create a final product for immediate mass production",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Prototypes are not final products - they are preliminary models used for testing and improvement before final production."
+                },
+                {
+                    "text": "To showcase the design to potential investors",
+                    "isCorrect": 0,
+                    "explanation": "While prototypes might be shown to investors, their primary purpose is to test functionality and gather data for improvements, not for demonstration to investors."
+                },
+                {
+                    "text": "To determine the initial problem that needs to be solved",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Problem identification occurs in the early phase of the design process, while prototyping happens after solutions have been developed."
+                }
+            ],
+            "funFact": "The word 'prototype' comes from the Greek words 'protos' meaning 'first' and 'typos' meaning 'impression' or 'mold'. The aerospace industry often uses multiple rounds of prototyping, starting with small-scale models tested in wind tunnels before building full-size aircraft prototypes."
+        },
+        {
+            "id": 4,
+            "text": "During a brainstorming session for designing a new energy-efficient car, which of the following approaches would be most appropriate?",
+            "options": [
+                {
+                    "text": "Recording all ideas without judging them, even if they seem impractical at first",
+                    "isCorrect": 1,
+                    "explanation": "This is the correct approach to brainstorming. All ideas should be documented without judgment to encourage creativity and maximize potential solutions."
+                },
+                {
+                    "text": "Immediately evaluating each idea to keep only the practical ones",
+                    "isCorrect": 0,
+                    "explanation": "Evaluating ideas during brainstorming can limit creativity and prevent potentially valuable solutions from being considered."
+                },
+                {
+                    "text": "Only writing down ideas that meet all design criteria and constraints",
+                    "isCorrect": 0,
+                    "explanation": "Filtering ideas based on criteria during brainstorming can restrict innovative thinking and eliminate possibilities that could be adapted later."
+                },
+                {
+                    "text": "Focusing only on ideas similar to existing solutions",
+                    "isCorrect": 0,
+                    "explanation": "Limiting ideas to existing solutions defeats the purpose of brainstorming, which aims to generate new and innovative possibilities."
+                }
+            ],
+            "funFact": "The term 'brainstorming' was coined by advertising executive Alex Osborn in 1953. He found that groups generated twice as many ideas when they followed the principle of suspending judgment during initial idea generation."
+        },
+        {
+            "id": 5,
+            "text": "An engineer is working on improving a solar-powered car design. After testing the initial prototype, what should be the next step in optimizing the design?",
+            "options": [
+                {
+                    "text": "Analyze the test results and make targeted improvements based on the data",
+                    "isCorrect": 1,
+                    "explanation": "The optimization process involves analyzing test results and using that data to make specific improvements that better meet the design criteria and constraints."
+                },
+                {
+                    "text": "Start over with a completely new design",
+                    "isCorrect": 0,
+                    "explanation": "Starting over would waste valuable insights gained from testing. The engineering design process is iterative, building upon previous results."
+                },
+                {
+                    "text": "Declare the design process complete after the first test",
+                    "isCorrect": 0,
+                    "explanation": "A single test is rarely sufficient. Optimization requires multiple iterations of testing and improvement to achieve the best possible design."
+                },
+                {
+                    "text": "Skip the analysis and make random changes",
+                    "isCorrect": 0,
+                    "explanation": "Making random changes without analyzing test data is inefficient and unlikely to lead to optimal improvements in the design."
+                }
+            ],
+            "funFact": "The world's fastest solar-powered car reached speeds of over 88 mph during the World Solar Challenge in Australia. These vehicles become more efficient each year through rigorous testing and data-driven design improvements."
+        },
+        {
+            "id": 6,
+            "text": "An engineering team is testing three insulation materials for a new refrigerator design. The test results show:\nMaterial A: High heat retention, expensive, very durable\nMaterial B: Medium heat retention, low cost, medium durability\nMaterial C: Low heat retention, very low cost, highly durable\n\nWhich combination of characteristics would likely create the most effective composite solution for the refrigerator insulation?",
+            "options": [
+                {
+                    "text": "High heat retention from Material A, low cost from Material B, and low heat retention from Material C",
+                    "isCorrect": 0,
+                    "explanation": "This combination includes contradictory characteristics (high and low heat retention) which would not create an effective solution."
+                },
+                {
+                    "text": "High heat retention from Material A, low cost from Material B, and high durability from Material C",
+                    "isCorrect": 1,
+                    "explanation": "This combination takes the best features from each material - optimal heat retention, cost-effectiveness, and durability - to create an improved composite solution."
+                },
+                {
+                    "text": "Medium heat retention from Material B, low cost from Material C, and medium durability from Material B",
+                    "isCorrect": 0,
+                    "explanation": "This combination uses mostly average characteristics and doesn't utilize the superior features available from Material A."
+                },
+                {
+                    "text": "High heat retention from Material A, very low cost from Material C, and medium durability from Material B",
+                    "isCorrect": 0,
+                    "explanation": "While this includes good heat retention, it compromises on durability when a better durability option is available from Material C."
+                }
+            ],
+            "funFact": "Modern refrigerator insulation often uses a combination of different materials in layers, including polyurethane foam and vacuum-sealed panels, to achieve optimal performance while keeping costs reasonable."
+        },
+        {
+            "id": 7,
+            "text": "An engineering team is developing noise-canceling headphones and has tested three different designs. Here are their test results:\n\nDesign A: Excellent at canceling low frequencies (below 100 Hz), uses 30mW power, costs $50 to manufacture\nDesign B: Best at mid frequencies (100-1000 Hz), uses 40mW power, costs $45 to manufacture\nDesign C: Superior at high frequencies (above 1000 Hz), uses 25mW power, costs $60 to manufacture\n\nWhich combination of features would likely create the most effective overall solution?",
+            "options": [
+                {
+                    "text": "Design A's low frequency technology, Design B's mid-frequency technology, and Design C's high frequency performance",
+                    "isCorrect": 1,
+                    "explanation": "This combination takes the best performing aspects from each design - excellent low frequency cancellation from A, efficient mid-range performance from B, and superior high frequency handling from C, creating a comprehensive solution across the entire frequency spectrum."
+                },
+                {
+                    "text": "Design B's frequency technology, Design C's power system, and Design A's cost structure",
+                    "isCorrect": 0,
+                    "explanation": "While this combination considers power efficiency and cost, it misses the opportunity to optimize across all frequency ranges, which is crucial for noise cancellation performance."
+                },
+                {
+                    "text": "Design C's frequency technology and power system with Design B's cost structure",
+                    "isCorrect": 0,
+                    "explanation": "This combination only focuses on high frequencies and ignores the benefits of low and mid-range frequency cancellation, resulting in an incomplete solution."
+                },
+                {
+                    "text": "Use Design B entirely since it has the lowest manufacturing cost",
+                    "isCorrect": 0,
+                    "explanation": "Choosing a design based solely on cost ignores the performance benefits that could be gained by combining the best features from all designs."
+                }
+            ],
+            "funFact": "Active noise cancellation technology was first invented for helicopter pilots in the 1950s to help protect them from harmful noise levels during flight. Today, this technology has evolved to use sophisticated digital signal processing that can adapt to different types of noise in real-time!"
+        },
+        {
+            "id": 8,
+            "text": "Three different robotic grippers were tested for their performance. Here are the test results:\n\nGripper A: High grip strength, low precision, high energy usage\nGripper B: Low grip strength, high precision, low energy usage\nGripper C: Medium grip strength, medium precision, medium energy usage\n\nWhich combination of features would likely create the most effective gripper design?",
+            "options": [
+                {
+                    "text": "High grip strength from A, high precision from B, and low energy usage from B",
+                    "isCorrect": 1,
+                    "explanation": "This combination takes the best features from each design - strong grip capability from A and the excellent precision and energy efficiency from B, creating an optimal solution."
+                },
+                {
+                    "text": "Medium grip strength from C, medium precision from C, and medium energy usage from C",
+                    "isCorrect": 0,
+                    "explanation": "Using average performance features from a single design wouldn't create an improved solution - it's better to combine the best features from different designs."
+                },
+                {
+                    "text": "High grip strength from A, low precision from A, and high energy usage from A",
+                    "isCorrect": 0,
+                    "explanation": "Using all features from a single design that has some significant weaknesses (low precision, high energy usage) wouldn't result in an improved solution."
+                },
+                {
+                    "text": "Low grip strength from B, medium precision from C, and medium energy usage from C",
+                    "isCorrect": 0,
+                    "explanation": "This combination doesn't utilize the best features available - it actually incorporates some of the weaker aspects like low grip strength."
+                }
+            ],
+            "funFact": "Modern robotic grippers are becoming so advanced that some can now handle delicate objects like eggs and soft fruit without damage, while still maintaining enough strength to lift heavy industrial components - all in the same gripper!"
+        },
+        {
+            "id": 9,
+            "text": "Three water filtration systems were tested for their performance based on different factors. System A had the highest flow rate but removed only 85% of contaminants and needed replacement every month. System B had a moderate flow rate, removed 95% of contaminants, but needed replacement every 2 weeks. System C had the lowest flow rate, removed 98% of contaminants, and lasted for 3 months before replacement. Which combination of features would likely create the most effective new design?",
+            "options": [
+                {
+                    "text": "High flow rate from System A, contaminant removal rate from System C, and filter lifespan from System C",
+                    "isCorrect": 1,
+                    "explanation": "This combination takes the best features from each system - the efficient flow rate from A and the superior contaminant removal and durability from C, creating an optimal solution."
+                },
+                {
+                    "text": "Moderate flow rate from System B, contaminant removal from System B, and filter lifespan from System A",
+                    "isCorrect": 0,
+                    "explanation": "This combination doesn't utilize the best features available - it uses mid-range performance metrics when better options exist."
+                },
+                {
+                    "text": "Low flow rate from System C, contaminant removal from System A, and filter lifespan from System B",
+                    "isCorrect": 0,
+                    "explanation": "This combination actually combines some of the worst features - the lowest flow rate, lowest contaminant removal, and shortest lifespan."
+                },
+                {
+                    "text": "Keep System C as is without combining features from other systems",
+                    "isCorrect": 0,
+                    "explanation": "While System C has good contaminant removal and lifespan, its low flow rate is a significant limitation that could be improved by incorporating features from other designs."
+                }
+            ],
+            "funFact": "Modern water treatment plants often use a combination of different filtration technologies working together, including membrane filtration, activated carbon, and UV disinfection, each contributing its unique strengths to create highly effective water purification systems."
+        },
+        {
+            "id": 10,
+            "text": "A sports equipment company is testing three different running shoe designs. Design A has excellent impact absorption but is heavy and has moderate durability. Design B is lightweight with good durability but poor impact absorption. Design C has moderate impact absorption and durability but maintains a lightweight structure. As a design engineer, which combination of features would likely create the most effective running shoe?",
+            "options": [
+                {
+                    "text": "Impact absorption from Design A, lightweight structure from Design B, and durability from Design C",
+                    "isCorrect": 0,
+                    "explanation": "This combination doesn't optimize the best features from each design. Design B actually has better durability than Design C."
+                },
+                {
+                    "text": "Impact absorption from Design A, lightweight structure from Design C, and durability from Design B",
+                    "isCorrect": 1,
+                    "explanation": "This combination takes the best features from each design: excellent impact absorption (A), good durability (B), and lightweight structure (C) to create an optimal solution."
+                },
+                {
+                    "text": "Impact absorption from Design C, lightweight structure from Design B, and durability from Design A",
+                    "isCorrect": 0,
+                    "explanation": "This combination uses moderate impact absorption from C when excellent absorption is available from A, and only moderate durability from A when good durability is available from B."
+                },
+                {
+                    "text": "Use Design C's features entirely since it has moderate performance in all areas",
+                    "isCorrect": 0,
+                    "explanation": "Settling for moderate performance in all areas isn't optimal when better features are available from other designs that could be combined."
+                }
+            ],
+            "funFact": "The process of combining the best features from different designs is common in sports equipment development. The modern running shoe evolved from combining features like cushioning systems, lightweight materials, and durable outsoles that were originally developed separately."
+        },
+        {
+            "id": 11,
+            "text": "An engineering team is designing a solar-powered car for a competition. They have tested three different prototypes and collected data on speed, battery efficiency, and aerodynamic performance. Which approach would be most effective in developing an improved design?",
+            "options": [
+                {
+                    "text": "Select the prototype with the highest speed and use its design exactly as is",
+                    "isCorrect": 0,
+                    "explanation": "While speed is important, focusing on just one aspect ignores other crucial performance factors and misses the opportunity to combine the best features from different designs."
+                },
+                {
+                    "text": "Identify and combine the best features from each prototype to create an enhanced design",
+                    "isCorrect": 1,
+                    "explanation": "This approach allows engineers to analyze data from all prototypes and integrate the most successful characteristics into a superior solution that better meets all criteria."
+                },
+                {
+                    "text": "Start over with a completely new design, ignoring the test results from the prototypes",
+                    "isCorrect": 0,
+                    "explanation": "Disregarding valuable test data and insights from existing prototypes wastes resources and ignores potentially successful design elements."
+                },
+                {
+                    "text": "Choose the prototype that performed best in the most recent test",
+                    "isCorrect": 0,
+                    "explanation": "Relying on a single test result doesn't provide a complete picture of performance across all criteria and constraints."
+                }
+            ],
+            "funFact": "The world's fastest solar-powered car reached speeds of over 88 mph during the World Solar Challenge in Australia. These vehicles combine aerodynamic design principles from aerospace engineering with advanced solar technology and energy management systems."
+        },
+        {
+            "id": 12,
+            "text": "Three different car engine designs were tested for fuel efficiency, with the following results:\n\nEngine A: High compression ratio, lightweight materials, but basic fuel injection system\nTest results: 35 mpg, low emissions, moderate acceleration\n\nEngine B: Advanced fuel injection, moderate weight, aerodynamic design\nTest results: 40 mpg, moderate emissions, good acceleration\n\nEngine C: Hybrid electric-gas system, heavy weight, regenerative braking\nTest results: 45 mpg, very low emissions, slow acceleration\n\nWhich combination of features would likely create the most effective design for an energy-efficient engine?",
+            "options": [
+                {
+                    "text": "High compression ratio from Engine A, advanced fuel injection from Engine B, and regenerative braking from Engine C",
+                    "isCorrect": 1,
+                    "explanation": "This combination takes the best efficiency-boosting features from each design while avoiding their limitations, creating a potentially superior solution."
+                },
+                {
+                    "text": "Basic fuel injection from Engine A, moderate weight from Engine B, and hybrid system from Engine C",
+                    "isCorrect": 0,
+                    "explanation": "This combination includes some less effective features like basic fuel injection, which would limit the overall efficiency of the design."
+                },
+                {
+                    "text": "Lightweight materials from Engine A, aerodynamic design from Engine B, and heavy weight from Engine C",
+                    "isCorrect": 0,
+                    "explanation": "This combination contains contradictory features (lightweight and heavy weight) and misses key efficiency-boosting technologies."
+                },
+                {
+                    "text": "Just use Engine C's design since it has the highest mpg",
+                    "isCorrect": 0,
+                    "explanation": "While Engine C has the highest mpg, simply copying its entire design ignores the valuable features from other designs that could improve performance."
+                }
+            ],
+            "funFact": "Modern Formula 1 race cars use a combination of features similar to this question's optimal solution - including high compression ratios, advanced fuel injection systems, and energy recovery systems (like regenerative braking) to maximize both performance and efficiency."
+        },
+        {
+            "id": 13,
+            "text": "A robotics team is developing a rescue robot for disaster response. They have built three prototypes with different designs and components. The test data shows:\n\nPrototype A: Low cost ($2000), moves at 2 mph, can lift 50 lbs\n- Frame: $800\n- Motor system: $700\n- Lifting mechanism: $500\n\nPrototype B: High cost ($5000), moves at 5 mph, can lift 100 lbs\n- Frame: $2000\n- Motor system: $1500\n- Lifting mechanism: $1500\n\nPrototype C: Medium cost ($3500), moves at 3 mph, can lift 75 lbs\n- Frame: $1200\n- Motor system: $1300\n- Lifting mechanism: $1000\n\nBased on the criteria of keeping costs under $4000 while maximizing speed and lifting capacity, which combination of design features would create the most effective solution?",
+            "options": [
+                {
+                    "text": "Use Prototype A's frame, Prototype B's motor system, and Prototype B's lifting mechanism",
+                    "isCorrect": 1,
+                    "explanation": "This combination optimally balances the constraints by using the low-cost frame from A ($800), high-speed motor system from B ($1500), and powerful lifting mechanism from B ($1500). The total cost is $3800, which is under the $4000 limit, while maximizing both speed (5 mph) and lifting capacity (100 lbs)."
+                },
+                {
+                    "text": "Use all components from Prototype B since it has the highest performance specs",
+                    "isCorrect": 0,
+                    "explanation": "While Prototype B has the best performance, its high cost ($5000) exceeds the $4000 constraint, making this solution unfeasible"
+                },
+                {
+                    "text": "Use all components from Prototype A since it has the lowest cost",
+                    "isCorrect": 0,
+                    "explanation": "While this meets the cost constraint, it fails to maximize performance capabilities when better components could be integrated while staying under budget"
+                },
+                {
+                    "text": "Use Prototype C's components since it represents a middle ground",
+                    "isCorrect": 0,
+                    "explanation": "Taking the middle option fails to optimize the design by missing opportunities to combine the best features from each prototype"
+                },
+                {
+                    "text": "Use Prototype A's cost-efficient frame, Prototype B's lifting mechanism, and Prototype C's motor system",
+                    "isCorrect": 0,
+                    "explanation": "This combination uses the low-cost frame (A: $800), powerful lifting capability (B: $1500), and moderate-speed motors (C: $1300), costing $3600 total. However, it doesn't maximize speed as required, since B's motor system is faster than C's."
+                }
+            ],
+            "funFact": "In real-world robotics development, engineers often use a technique called 'modular design' where different components can be easily swapped out and recombined. This approach was pioneered in the 1960s during the space race to allow quick modifications to spacecraft designs."
+        },
+        {
+            "id": 14,
+            "text": "A team of engineers developed three prototype designs for a new eco-friendly water bottle. They tested each prototype for durability, insulation, and leak resistance on a scale of 1-10. Here are the results:\n\nPrototype A: Durability: 9, Insulation: 5, Leak Resistance: 7\nPrototype B: Durability: 6, Insulation: 9, Leak Resistance: 8\nPrototype C: Durability: 7, Insulation: 7, Leak Resistance: 6\n\nWhich characteristics from different prototypes should be combined to create the best possible water bottle design?",
+            "options": [
+                {
+                    "text": "Durability from Prototype A, Insulation from Prototype B, and Leak Resistance from Prototype B",
+                    "isCorrect": 1,
+                    "explanation": "This combination takes the highest-scoring features from each category: the best durability (9 from A) and the best insulation and leak resistance (9 and 8 from B), resulting in the optimal design solution."
+                },
+                {
+                    "text": "Durability from Prototype C, Insulation from Prototype C, and Leak Resistance from Prototype C",
+                    "isCorrect": 0,
+                    "explanation": "While Prototype C shows consistent performance across all categories (7,7,6), these scores are not the highest in any category and would not create the best possible design."
+                },
+                {
+                    "text": "Durability from Prototype A, Insulation from Prototype C, and Leak Resistance from Prototype A",
+                    "isCorrect": 0,
+                    "explanation": "This combination doesn't include the best insulation (from Prototype B) or the best leak resistance (from Prototype B), resulting in a suboptimal design."
+                },
+                {
+                    "text": "Durability from Prototype B, Insulation from Prototype B, and Leak Resistance from Prototype C",
+                    "isCorrect": 0,
+                    "explanation": "While this uses Prototype B's superior insulation, it doesn't incorporate the best durability (from Prototype A) and uses the lowest leak resistance score (from Prototype C)."
+                }
+            ],
+            "funFact": "Engineers often use a technique called 'design synthesis' where they combine the best features from multiple prototypes to create an improved design. This approach has led to breakthrough innovations in many products we use daily, from smartphones to athletic shoes!"
+        },
+        {
+            "id": 15,
+            "text": "A team of engineers is developing a new solar-powered car. They tested three different designs (A, B, C) multiple times under various conditions and recorded the following average speeds in miles per hour:\n\nSunny conditions: A=45, B=52, C=38\nPartly cloudy: A=42, B=48, C=35\nOvercast: A=38, B=40, C=33\n\nBased on this data, which characteristic would be most beneficial to incorporate into a new improved design?",
+            "options": [
+                {
+                    "text": "Design B's aerodynamic shape that consistently provided the highest speeds across all conditions",
+                    "isCorrect": 1,
+                    "explanation": "Design B performed best in all conditions, showing its aerodynamic features were effective regardless of weather, making it the most reliable characteristic to incorporate"
+                },
+                {
+                    "text": "Design A's solar panel configuration since it had the smallest speed reduction in cloudy conditions",
+                    "isCorrect": 0,
+                    "explanation": "While Design A showed good consistency, Design C actually had the smallest percentage speed reduction (13.2% compared to Design A's 15.6% and Design B's 23.1%). However, Design B's overall superior performance makes it a better choice despite having larger percentage drops in speed."
+                },
+                {
+                    "text": "Design C's energy storage system because it maintained the most stable speed ratio between conditions",
+                    "isCorrect": 0,
+                    "explanation": "While Design C maintained the most stable speed ratio between conditions (showing the smallest percentage drop in speed from sunny to overcast), it consistently performed the worst in absolute speed across all conditions, suggesting its characteristics would not improve the overall design."
+                },
+                {
+                    "text": "A combination of Designs A and C since they had complementary performance patterns",
+                    "isCorrect": 0,
+                    "explanation": "There's no evidence that A and C had complementary patterns - both performed worse than Design B in all conditions"
+                }
+            ],
+            "funFact": "The current world record for the fastest solar-powered car is 91.332 mph, set by the Sunswift 7 from the University of New South Wales in 2022. The car used advanced aerodynamics and highly efficient solar cells to achieve this speed."
+        }
+    ]
+}

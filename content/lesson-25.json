@@ -1,0 +1,416 @@
+{
+    "id": "lesson-25",
+    "title": "Collisions",
+    "questions": [
+        {
+            "id": 1,
+            "text": "Two bowling balls of equal mass are rolling on a bowling lane. Ball A is moving twice as fast as Ball B. When Ball A hits a stationary bowling pin, what will happen compared to when Ball B hits an identical pin?",
+            "options": [
+                {
+                    "text": "Ball A will make the pin move four times as far as Ball B",
+                    "isCorrect": 1,
+                    "explanation": "Since Ball A is moving twice as fast, it has four times the kinetic energy (KE = \u00bdmv\u00b2) to transfer during the collision. Because kinetic energy is proportional to the square of velocity, doubling the speed quadruples the energy, causing the pin to move approximately four times as far."
+                },
+                {
+                    "text": "Both balls will make the pin move the same distance",
+                    "isCorrect": 0,
+                    "explanation": "Even though the balls have equal mass, their different speeds mean they carry different amounts of energy to transfer during collision."
+                },
+                {
+                    "text": "Ball A will make the pin move half as far as Ball B",
+                    "isCorrect": 0,
+                    "explanation": "Higher speed means more energy transfer during collision, not less. The faster ball will make the pin move farther."
+                },
+                {
+                    "text": "The speed of the balls doesn't affect how far the pin moves",
+                    "isCorrect": 0,
+                    "explanation": "Speed is a crucial factor in energy transfer during collisions. Faster moving objects transfer more energy."
+                }
+            ],
+            "funFact": "Professional bowlers can throw bowling balls at speeds over 20 miles per hour! At these high speeds, the energy transferred during the collision with the pins is so great that pins can fly at speeds fast enough to break the pin-setting machines if they aren't properly protected."
+        },
+        {
+            "id": 2,
+            "text": "During a wildlife documentary, two male deer of different sizes are observed fighting over territory. If both deer are running at the same speed when they collide head-on, which statement about energy transfer during the collision is most likely true?",
+            "options": [
+                {
+                    "text": "The larger deer will transfer more energy to the smaller deer during the collision",
+                    "isCorrect": 1,
+                    "explanation": "Heavier objects carry more energy, so when two objects moving at the same speed collide, the heavier object transfers more energy to the lighter object"
+                },
+                {
+                    "text": "The smaller deer will transfer more energy to the larger deer during the collision",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because at the same speed, the heavier object (larger deer) carries more energy than the lighter object (smaller deer)"
+                },
+                {
+                    "text": "Both deer will transfer equal amounts of energy regardless of their size",
+                    "isCorrect": 0,
+                    "explanation": "Even at the same speed, objects of different weights carry different amounts of energy - the heavier object carries more energy"
+                },
+                {
+                    "text": "No energy will be transferred because they are moving at the same speed",
+                    "isCorrect": 0,
+                    "explanation": "Energy is always transferred during collisions, regardless of whether the objects are moving at the same or different speeds"
+                }
+            ],
+            "funFact": "Male deer battles are common during mating season and can be quite intense. The sound of their antlers clashing can be heard from far away - this is actually another example of energy transfer, as some collision energy converts to sound!"
+        },
+        {
+            "id": 3,
+            "text": "What happens when two objects collide?",
+            "options": [
+                {
+                    "text": "Energy is transferred and momentum is exchanged following conservation laws",
+                    "isCorrect": 1,
+                    "explanation": "When objects collide, energy can be transferred between objects and converted to different forms (motion, sound, heat), while momentum is exchanged according to conservation laws. These principles explain the changes in motion and effects we observe in collisions."
+                },
+                {
+                    "text": "Both objects disappear",
+                    "isCorrect": 0,
+                    "explanation": "Objects don't disappear during collisions. They may change direction or speed, but matter is conserved."
+                },
+                {
+                    "text": "Nothing happens to either object",
+                    "isCorrect": 0,
+                    "explanation": "Collisions always result in some form of energy transfer and can cause changes in motion, direction, or shape of objects."
+                },
+                {
+                    "text": "Energy is created out of nothing",
+                    "isCorrect": 0,
+                    "explanation": "Energy cannot be created or destroyed. In collisions, existing energy is transferred between objects."
+                }
+            ],
+            "funFact": "The study of collisions has led to important safety features in cars. Crumple zones are specially designed areas that absorb impact energy during a crash, helping protect passengers by controlling how energy transfers during the collision."
+        },
+        {
+            "id": 4,
+            "text": "During a collision between two elephants fighting over territory, if both elephants are charging at the same speed, which elephant is likely to transfer more energy to the other elephant?",
+            "options": [
+                {
+                    "text": "A 12,000-pound elephant",
+                    "isCorrect": 1,
+                    "explanation": "The heavier elephant carries more kinetic energy (KE = 1/2 mv\u00b2) when moving at the same speed as the lighter elephant. Since both elephants are moving at the same speed, mass becomes the determining factor, and the 12,000-pound elephant will transfer more energy during the collision."
+                },
+                {
+                    "text": "A 8,000-pound elephant",
+                    "isCorrect": 0,
+                    "explanation": "While this elephant is heavy, it has less mass than the 12,000-pound elephant. Since both elephants are moving at the same speed, the kinetic energy (KE = 1/2 mv\u00b2) of the 8,000-pound elephant is less, resulting in less energy transfer during the collision."
+                },
+                {
+                    "text": "Both elephants will transfer the same amount of energy",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the amount of energy transferred depends on the mass of the object when speed is equal. According to the kinetic energy formula (KE = 1/2 mv\u00b2), the heavier elephant will have more energy and transfer more during the collision."
+                },
+                {
+                    "text": "Neither elephant transfers energy during the collision",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because energy is always transferred during collisions. When objects collide, the kinetic energy from one object transfers to the other through the collision forces."
+                }
+            ],
+            "funFact": "Male African elephants can weigh up to 13,000 pounds - about the same as three large SUVs combined! This massive weight gives them tremendous energy transfer potential during collisions, which is one reason why their territorial disputes can be so intense."
+        },
+        {
+            "id": 5,
+            "text": "During a game of bowling, a bowling ball rolls down the lane and hits the pins. After the collision, which forms of energy are created as some of the ball's energy is transferred to the surrounding environment?",
+            "options": [
+                {
+                    "text": "Sound and heat energy",
+                    "isCorrect": 1,
+                    "explanation": "When objects collide, some energy is transferred to the surrounding environment in the form of sound waves and heat energy."
+                },
+                {
+                    "text": "Only sound energy",
+                    "isCorrect": 0,
+                    "explanation": "While sound is produced during collisions, heat is also generated as some energy is transferred to the surrounding air."
+                },
+                {
+                    "text": "Only heat energy",
+                    "isCorrect": 0,
+                    "explanation": "While heat is generated during collisions, sound is also produced as energy is transferred to the surrounding air."
+                },
+                {
+                    "text": "No energy is transferred to the environment",
+                    "isCorrect": 0,
+                    "explanation": "In collisions, some energy is always transferred to the surrounding environment - it doesn't just stay between the colliding objects."
+                }
+            ],
+            "funFact": "Professional bowlers can make their bowling balls roll at speeds over 20 miles per hour! At these high speeds, you can actually feel the heat and hear the loud sound when the ball collides with the pins due to the large amount of energy being transferred."
+        },
+        {
+            "id": 6,
+            "text": "During a basketball game, players often collide with each other. What happens to the temperature of the air around the players during these collisions?",
+            "options": [
+                {
+                    "text": "The air temperature increases slightly as some energy from the collision is transferred to the surrounding air",
+                    "isCorrect": 1,
+                    "explanation": "When objects collide, not all energy stays with the objects - some is transferred to the surrounding air as heat, causing a small increase in air temperature"
+                },
+                {
+                    "text": "The air temperature decreases as the colliding players absorb heat from the air",
+                    "isCorrect": 0,
+                    "explanation": "Collisions transfer energy to the surroundings rather than absorbing energy from them"
+                },
+                {
+                    "text": "The air temperature stays exactly the same because collisions only affect the players",
+                    "isCorrect": 0,
+                    "explanation": "Collisions don't just affect the colliding objects - some energy is always transferred to the surroundings"
+                },
+                {
+                    "text": "The air temperature changes randomly regardless of the collision",
+                    "isCorrect": 0,
+                    "explanation": "The temperature change in the air is not random but is directly related to energy transfer from the collision"
+                }
+            ],
+            "funFact": "The same principle of energy transfer to surroundings happens in car engines - about 70% of the energy from fuel combustion becomes heat that warms up the surrounding air rather than moving the car forward!"
+        },
+        {
+            "id": 7,
+            "text": "A drummer hits a drum with drumsticks at different intensities. Which statement correctly describes how energy is transferred when hitting the drum harder versus softer?",
+            "options": [
+                {
+                    "text": "When hitting harder, more energy is transferred, creating louder sound and more heat in the surrounding air",
+                    "isCorrect": 1,
+                    "explanation": "Hitting the drum with more force transfers more energy, which results in greater vibrations, producing louder sound and more heat energy in the air"
+                },
+                {
+                    "text": "The amount of sound energy produced is the same regardless of how hard you hit the drum",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because hitting with more force transfers more energy, resulting in louder sound"
+                },
+                {
+                    "text": "Hitting the drum harder only increases heat production but doesn't affect sound",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because increased force affects both sound production and heat generation through energy transfer"
+                },
+                {
+                    "text": "When hitting harder, all energy goes into sound with no heat produced",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because energy transfer during collision always produces both sound and some heat in the surrounding air"
+                }
+            ],
+            "funFact": "The world's loudest drum hit was recorded at 137.2 decibels - about as loud as a jet engine! This demonstrates how much energy can be transferred from motion to sound through percussion instruments."
+        },
+        {
+            "id": 8,
+            "text": "Two rubber balls of the same size are dropped from the same height onto a hard floor. Ball A bounces back up to almost the same height it was dropped from, while Ball B barely bounces and quickly comes to rest. Which statement best explains the difference in their behavior?",
+            "options": [
+                {
+                    "text": "Ball A converts most of its energy back into motion while Ball B loses most of its energy as heat and sound",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because Ball A demonstrates an elastic collision where most energy is preserved as motion, while Ball B shows an inelastic collision where energy is largely converted to heat and sound."
+                },
+                {
+                    "text": "Ball A has more energy to begin with than Ball B",
+                    "isCorrect": 0,
+                    "explanation": "Since both balls are the same size and dropped from the same height, they start with the same amount of energy."
+                },
+                {
+                    "text": "Ball A gains energy during the collision while Ball B does not",
+                    "isCorrect": 0,
+                    "explanation": "Objects cannot gain energy during a collision - energy can only be transferred or converted to other forms like heat and sound."
+                },
+                {
+                    "text": "Ball B transfers all its energy to the floor while Ball A does not touch the floor",
+                    "isCorrect": 0,
+                    "explanation": "Both balls contact the floor, and neither ball transfers all its energy to the floor. The difference is in how the energy is redistributed during the collision."
+                }
+            ],
+            "funFact": "Super balls, invented in 1964, can bounce up to 92% of the height they are dropped from thanks to their special synthetic rubber material that maximizes elastic energy return during collisions!"
+        },
+        {
+            "id": 9,
+            "text": "A car manufacturer is designing a new vehicle and wants to make it safer during collisions. Which feature would be most effective at protecting passengers by managing energy transfer during a crash?",
+            "options": [
+                {
+                    "text": "Crumple zones that deform and absorb impact energy",
+                    "isCorrect": 1,
+                    "explanation": "Crumple zones are specifically designed to absorb and dissipate collision energy through controlled deformation, reducing the energy transferred to passengers."
+                },
+                {
+                    "text": "A completely rigid frame that doesn't bend at all",
+                    "isCorrect": 0,
+                    "explanation": "A rigid frame would transfer more energy directly to the passengers since it cannot absorb the impact energy through deformation."
+                },
+                {
+                    "text": "Extra heavy doors to increase the car's weight",
+                    "isCorrect": 0,
+                    "explanation": "Simply adding weight doesn't help manage energy transfer during a collision and could actually make crashes more severe due to increased momentum."
+                },
+                {
+                    "text": "Stronger springs in the suspension system",
+                    "isCorrect": 0,
+                    "explanation": "While suspension helps with regular driving comfort, it isn't designed to significantly absorb collision energy or protect passengers during crashes."
+                }
+            ],
+            "funFact": "Modern Formula 1 race cars are designed to break apart during crashes! When pieces of the car fly off during an accident, they carry away energy that would otherwise be transferred to the driver, helping to make these high-speed races safer."
+        },
+        {
+            "id": 10,
+            "text": "In a complex machine, a metal ball rolls down a ramp and hits a wooden block, which then falls onto a suspended rope, causing a pulley to turn and lift a bucket of water. How does energy transfer through this series of events?",
+            "options": [
+                {
+                    "text": "The energy transfers from one object to the next through collisions, with each collision causing the next action in the sequence",
+                    "isCorrect": 1,
+                    "explanation": "Energy continuously transfers through the system as objects collide, with each collision passing energy to the next object to create the chain reaction"
+                },
+                {
+                    "text": "The energy disappears after the first collision and new energy is created for each subsequent action",
+                    "isCorrect": 0,
+                    "explanation": "Energy cannot disappear or be created - it transfers from one object to another during collisions"
+                },
+                {
+                    "text": "The energy stays only with the metal ball throughout the entire sequence of events",
+                    "isCorrect": 0,
+                    "explanation": "The energy does not stay with just one object - it transfers between objects during collisions"
+                },
+                {
+                    "text": "The energy skips some objects and only transfers between certain collisions",
+                    "isCorrect": 0,
+                    "explanation": "Energy transfers during each collision in the sequence, not selectively between certain objects"
+                }
+            ],
+            "funFact": "The famous domino effect is a perfect example of energy transfer through collisions - a single domino can trigger a chain reaction that can knock down millions of dominoes, with each collision passing energy to the next domino!"
+        },
+        {
+            "id": 11,
+            "text": "Two mountain goats are fighting over territory in the mountains. In Scenario A, both goats weigh about 150 pounds each. In Scenario B, one goat weighs 300 pounds while the other weighs 150 pounds. When the goats collide by butting heads, in which scenario would you expect to see the lighter goat pushed back more dramatically?",
+            "options": [
+                {
+                    "text": "Scenario A, because equal weights mean both goats will be pushed back equally",
+                    "isCorrect": 0,
+                    "explanation": "While equal weights would result in more balanced pushing, this scenario would actually result in less dramatic movement than when there's a significant weight difference"
+                },
+                {
+                    "text": "Scenario B, because the heavier goat has greater momentum during the collision",
+                    "isCorrect": 1,
+                    "explanation": "The heavier goat has greater momentum during the collision. According to conservation of momentum, this results in the lighter goat experiencing a more dramatic change in velocity, causing it to be pushed back more forcefully"
+                },
+                {
+                    "text": "Both scenarios would show the same result since the speed of collision matters more than weight",
+                    "isCorrect": 0,
+                    "explanation": "While speed is important, the mass of the colliding objects also significantly affects momentum and energy transfer during collisions"
+                },
+                {
+                    "text": "Neither scenario would show much difference since goats have special skull adaptations",
+                    "isCorrect": 0,
+                    "explanation": "While goats do have adaptations for head-butting, the physics of energy transfer still applies and mass differences affect collision outcomes"
+                }
+            ],
+            "funFact": "Mountain goats can withstand impacts of up to 60 times the force of gravity during their head-butting contests! They have special air pockets in their skulls that help absorb the shock of these powerful collisions."
+        },
+        {
+            "id": 12,
+            "text": "A student performs an experiment with two identical metal balls rolling down a ramp. In Trial 1, Ball A rolls down from a height of 1 meter and hits a stationary target. In Trial 2, Ball A rolls down from a height of 2 meters and hits an identical target. What will the student observe about the energy transfer in these trials?",
+            "options": [
+                {
+                    "text": "The energy transferred to the target will be greater in Trial 2 because Ball A has more speed at the bottom of the ramp",
+                    "isCorrect": 1,
+                    "explanation": "When Ball A starts from a greater height, it gains more speed while rolling down. Higher speed means more energy, resulting in greater energy transfer during collision."
+                },
+                {
+                    "text": "The energy transferred to the target will be the same in both trials because the balls have the same mass",
+                    "isCorrect": 0,
+                    "explanation": "While mass affects energy transfer, speed also matters. Even with identical masses, different speeds result in different amounts of energy transfer."
+                },
+                {
+                    "text": "No energy will be transferred in either trial because the target is stationary",
+                    "isCorrect": 0,
+                    "explanation": "Energy transfer occurs during collisions regardless of whether one object is stationary. The moving object transfers its energy to the stationary object."
+                },
+                {
+                    "text": "The energy transferred to the target will be less in Trial 2 because gravity slows the ball down more",
+                    "isCorrect": 0,
+                    "explanation": "Greater height actually leads to higher speed at the bottom due to gravitational potential energy converting to kinetic energy. Gravity helps the ball gain speed while rolling down."
+                }
+            ],
+            "funFact": "The principle behind this experiment is similar to what makes roller coasters work! The higher the initial drop, the more speed and energy the coaster gains to complete the rest of the track."
+        },
+        {
+            "id": 13,
+            "text": "When a drummer hits different surfaces with a drumstick, different amounts of energy are transferred into sound and heat. Which statement correctly describes what happens when a drumstick hits a cymbal compared to when it hits a wooden block?",
+            "options": [
+                {
+                    "text": "The cymbal produces more sound energy because it can vibrate more freely, while the wooden block transfers more energy into heat due to its rigid structure",
+                    "isCorrect": 1,
+                    "explanation": "The cymbal's thin metal structure allows it to vibrate efficiently, converting more collision energy into sound waves. The dense wooden block absorbs more energy as heat due to its rigid structure limiting vibrations."
+                },
+                {
+                    "text": "Both the cymbal and wooden block produce equal amounts of sound and heat energy since they are hit with the same force",
+                    "isCorrect": 0,
+                    "explanation": "Different materials transfer energy differently - the properties of the material determine how the collision energy is distributed between sound and heat, even when hit with the same force."
+                },
+                {
+                    "text": "The wooden block produces more sound energy because it is denser than the cymbal",
+                    "isCorrect": 0,
+                    "explanation": "While the wooden block is denser, its rigid structure actually restricts vibrations, resulting in less sound energy and more heat energy compared to the cymbal."
+                },
+                {
+                    "text": "Neither the cymbal nor the wooden block transfer any energy into heat - all energy becomes sound",
+                    "isCorrect": 0,
+                    "explanation": "In any collision, some energy is always converted to heat through friction and deformation, even if we can't feel it. The energy is not converted entirely into sound."
+                }
+            ],
+            "funFact": "The earliest cymbals were developed over 5,000 years ago in ancient Turkey, and their unique ability to convert mechanical energy into sustained sound made them important instruments in both religious ceremonies and military functions."
+        },
+        {
+            "id": 14,
+            "text": "Two cars of the same mass and speed collide head-on. Car A has modern crumple zones while Car B has an older rigid frame design. What will happen during the collision?",
+            "options": [
+                {
+                    "text": "Car A will experience less damage to its passenger compartment because the crumple zones absorb and spread out the collision energy",
+                    "isCorrect": 1,
+                    "explanation": "Crumple zones are designed to absorb collision energy by deforming, which reduces the energy transferred to the passenger compartment"
+                },
+                {
+                    "text": "Car B will experience less damage because its rigid frame is stronger",
+                    "isCorrect": 0,
+                    "explanation": "A rigid frame actually transfers more collision energy directly to the passenger compartment, causing more damage"
+                },
+                {
+                    "text": "Both cars will experience exactly the same damage because they have the same mass and speed",
+                    "isCorrect": 0,
+                    "explanation": "Even with same mass and speed, the way energy is transferred during collision depends on the car's structural design"
+                },
+                {
+                    "text": "Car A will experience more damage because crumple zones make the car weaker",
+                    "isCorrect": 0,
+                    "explanation": "Crumple zones are not a weakness - they are an engineered safety feature that helps protect passengers by managing collision energy"
+                }
+            ],
+            "funFact": "The concept of crumple zones was first patented by Mercedes-Benz in 1951, and this revolutionary safety feature has since saved countless lives by fundamentally changing how collision energy is managed in car accidents"
+        },
+        {
+            "id": 15,
+            "text": "Two objects have the same kinetic energy but different masses. If Object A has a mass of 2 kg, and Object B has a mass of 8 kg, how does the speed of Object A compare to the speed of Object B?",
+            "options": [
+                {
+                    "text": "Object A's speed is four times Object B's speed",
+                    "isCorrect": 0,
+                    "explanation": "This overestimates the speed difference. According to the kinetic energy formula KE = (1/2)mv\u00b2, if m_A = m_B/4, then v_A = 2v_B, not 4v_B."
+                },
+                {
+                    "text": "Object A's speed is equal to Object B's speed",
+                    "isCorrect": 0,
+                    "explanation": "For objects with different masses to have the same kinetic energy, they must have different speeds. The lighter object needs to move faster."
+                },
+                {
+                    "text": "Object A's speed is double the square root of Object B's speed",
+                    "isCorrect": 0,
+                    "explanation": "This relationship doesn't correctly account for how kinetic energy relates to mass and speed. For equal kinetic energy, v_A = \u221a(m_B/m_A) \u00d7 v_B, which simplifies to v_A = 2v_B in this case."
+                },
+                {
+                    "text": "Object A's speed is half of Object B's speed",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. For equal kinetic energy with less mass, Object A must move faster than Object B, not slower. The relationship is v_A = \u221a(m_B/m_A) \u00d7 v_B = 2v_B."
+                },
+                {
+                    "text": "Object A's speed is twice Object B's speed",
+                    "isCorrect": 1,
+                    "explanation": "Since Object A has 1/4 the mass of Object B, it must move at twice the speed to have the same kinetic energy. This is because kinetic energy = (1/2)mv\u00b2, so if m is reduced by 4, v must increase by 2 to keep the same energy."
+                }
+            ],
+            "funFact": "This principle is why smaller animals generally move faster than larger ones! A mouse's muscles need to move its tiny body much faster than an elephant's muscles to generate comparable amounts of kinetic energy for movement."
+        }
+    ]
+}

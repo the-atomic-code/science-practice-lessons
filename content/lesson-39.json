@@ -1,0 +1,406 @@
+{
+    "id": "lesson-39",
+    "title": "Magnets & Static Electricity",
+    "questions": [
+        {
+            "id": 1,
+            "text": "Which of the following best describes what a magnet is?",
+            "options": [
+                {
+                    "text": "An object that can attract some metals like iron",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. A magnet is an object that produces a magnetic field and can attract certain metals, particularly iron, nickel, and cobalt."
+                },
+                {
+                    "text": "An object that can attract all types of metals",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Magnets do not attract all metals. For example, aluminum and copper are not attracted to magnets."
+                },
+                {
+                    "text": "An object that can only attract other magnets",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While magnets can attract other magnets, they can also attract certain metals that are not magnets, like iron."
+                },
+                {
+                    "text": "An object that needs electricity to work",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While electromagnets need electricity to work, permanent magnets do not require electricity to produce their magnetic field."
+                }
+            ],
+            "funFact": "The Earth itself acts like a giant magnet! This is why compasses work - the magnetic needle in a compass aligns with Earth's magnetic field to point toward the magnetic north pole."
+        },
+        {
+            "id": 2,
+            "text": "What is the key characteristic that makes an electromagnet different from a permanent magnet?",
+            "options": [
+                {
+                    "text": "An electromagnet can be turned on and off using electricity",
+                    "isCorrect": 1,
+                    "explanation": "Electromagnets work by using electricity to create a magnetic field, which can be controlled by turning the electricity on or off"
+                },
+                {
+                    "text": "An electromagnet is stronger than a permanent magnet",
+                    "isCorrect": 0,
+                    "explanation": "The strength of an electromagnet depends on the amount of electricity used, while some permanent magnets can be very strong"
+                },
+                {
+                    "text": "An electromagnet only attracts iron objects",
+                    "isCorrect": 0,
+                    "explanation": "Both electromagnets and permanent magnets can attract magnetic materials like iron, nickel, and cobalt"
+                },
+                {
+                    "text": "An electromagnet has only one pole",
+                    "isCorrect": 0,
+                    "explanation": "Like permanent magnets, electromagnets have both north and south poles"
+                }
+            ],
+            "funFact": "The world's strongest electromagnet is at the National High Magnetic Field Laboratory in Florida. It can produce a magnetic field 2 million times stronger than Earth's magnetic field!"
+        },
+        {
+            "id": 3,
+            "text": "Which of the following metals will be attracted to a magnet?",
+            "options": [
+                {
+                    "text": "Iron",
+                    "isCorrect": 1,
+                    "explanation": "Iron is one of the few metals that is magnetic and will be attracted to magnets."
+                },
+                {
+                    "text": "Aluminum",
+                    "isCorrect": 0,
+                    "explanation": "Aluminum is not magnetic and will not be attracted to magnets, despite being a metal."
+                },
+                {
+                    "text": "Gold",
+                    "isCorrect": 0,
+                    "explanation": "Gold is not magnetic and will not be attracted to magnets, despite being a metal."
+                },
+                {
+                    "text": "Silver",
+                    "isCorrect": 0,
+                    "explanation": "Silver is not magnetic and will not be attracted to magnets, despite being a metal."
+                }
+            ],
+            "funFact": "While most metals are not magnetic, the strongest magnet in the world is made from a special combination of iron and a rare earth metal called neodymium. These magnets are so powerful they can lift over 1,000 times their own weight!"
+        },
+        {
+            "id": 4,
+            "text": "A student wants to investigate the invisible magnetic field around a bar magnet. Which method would best help the student visualize the magnetic field lines?",
+            "options": [
+                {
+                    "text": "Sprinkling iron filings around the magnet",
+                    "isCorrect": 1,
+                    "explanation": "Iron filings align themselves along the magnetic field lines when sprinkled near a magnet, making the invisible field visible."
+                },
+                {
+                    "text": "Using a thermometer near the magnet",
+                    "isCorrect": 0,
+                    "explanation": "A thermometer measures temperature, not magnetic fields. It cannot help visualize magnetic field lines."
+                },
+                {
+                    "text": "Shining a bright light on the magnet",
+                    "isCorrect": 0,
+                    "explanation": "Light cannot make magnetic fields visible. Magnetic fields are not affected by light."
+                },
+                {
+                    "text": "Placing the magnet in water",
+                    "isCorrect": 0,
+                    "explanation": "Water does not respond to magnetic fields in a way that would make them visible."
+                }
+            ],
+            "funFact": "Scientists have discovered that some animals, like sea turtles and certain birds, can actually detect Earth's magnetic field lines to help them navigate during migration. They have tiny magnetic particles in their brains that act like built-in compasses!"
+        },
+        {
+            "id": 5,
+            "text": "When experimenting with two bar magnets, a student notices that when certain ends are brought close together, they either push apart or come together. What happens when you bring the north pole of one magnet near the south pole of another magnet?",
+            "options": [
+                {
+                    "text": "The magnets attract and pull toward each other",
+                    "isCorrect": 1,
+                    "explanation": "North and south poles are opposite poles that attract each other, causing the magnets to pull together"
+                },
+                {
+                    "text": "The magnets repel and push away from each other",
+                    "isCorrect": 0,
+                    "explanation": "Repulsion occurs between like poles (north-north or south-south), not between opposite poles"
+                },
+                {
+                    "text": "Nothing happens between the magnets",
+                    "isCorrect": 0,
+                    "explanation": "Magnets always interact when their poles are brought close together - they don't remain neutral"
+                },
+                {
+                    "text": "The magnets cancel out each other's magnetic field",
+                    "isCorrect": 0,
+                    "explanation": "Magnetic fields don't cancel each other out when opposite poles are brought together - they actually combine to create attraction"
+                }
+            ],
+            "funFact": "The Earth's magnetic field is actually reversed - what we call the magnetic North Pole is actually a magnetic south pole, which is why the north pole of a compass needle points toward it!"
+        },
+        {
+            "id": 6,
+            "text": "An engineer is designing a magnetic door latch that uses two magnets - one attached to the door and one attached to the door frame. The latch needs to keep the door firmly closed but also allow it to be opened without too much effort. Which arrangement of the magnets would work best for this purpose?",
+            "options": [
+                {
+                    "text": "Place the magnets with their north poles facing each other",
+                    "isCorrect": 0,
+                    "explanation": "North poles repel each other, so this arrangement would push the door open instead of keeping it closed."
+                },
+                {
+                    "text": "Place the magnets with their south poles facing each other",
+                    "isCorrect": 0,
+                    "explanation": "South poles repel each other, so this arrangement would push the door open instead of keeping it closed."
+                },
+                {
+                    "text": "Place the magnets with north pole facing south pole, very close together",
+                    "isCorrect": 0,
+                    "explanation": "While this creates attraction, placing the magnets very close creates too strong a force, making the door too difficult to open."
+                },
+                {
+                    "text": "Place the magnets with north pole facing south pole, with a small gap between them",
+                    "isCorrect": 1,
+                    "explanation": "This creates the right amount of attractive force - strong enough to keep the door closed but not so strong that it's hard to open, since magnetic force decreases with distance."
+                }
+            ],
+            "funFact": "The world's strongest magnets, made from rare-earth elements like neodymium, are so powerful that two of them can create enough force to crush bones if they snap together! That's why engineers carefully consider magnetic strength in their designs."
+        },
+        {
+            "id": 7,
+            "text": "Two toy cars are rolling towards each other on a smooth table. You need to prevent them from colliding without physically touching them. Which of the following solutions using magnets would work best?",
+            "options": [
+                {
+                    "text": "Attach magnets to both cars with north poles facing each other",
+                    "isCorrect": 1,
+                    "explanation": "When two north poles face each other, they repel. This repulsion force will keep the cars from colliding without any physical contact."
+                },
+                {
+                    "text": "Attach magnets to both cars with north pole facing south pole",
+                    "isCorrect": 0,
+                    "explanation": "When north pole faces south pole, the magnets will attract each other, causing the cars to collide faster."
+                },
+                {
+                    "text": "Place a large magnet between the cars",
+                    "isCorrect": 0,
+                    "explanation": "A single magnet between the cars would attract both cars towards it, potentially causing a collision."
+                },
+                {
+                    "text": "Attach magnets to only one of the cars",
+                    "isCorrect": 0,
+                    "explanation": "Having a magnet on only one car won't create the repulsion force needed to prevent collision."
+                }
+            ],
+            "funFact": "The repulsion force between two magnets can be so strong that they can be used in magnetic levitation (maglev) trains, allowing them to float above the tracks and reach speeds over 300 mph!"
+        },
+        {
+            "id": 8,
+            "text": "A construction company needs to move heavy metal beams frequently throughout the day. They are considering two options: using permanent magnets or electromagnets attached to their crane. Which option would be more suitable for their needs and why?",
+            "options": [
+                {
+                    "text": "Electromagnets, because they can be turned on and off as needed for picking up and releasing the beams",
+                    "isCorrect": 1,
+                    "explanation": "Electromagnets are ideal for this situation because they provide control over the magnetic force - you can easily pick up the beams by turning the magnet on and release them by turning it off"
+                },
+                {
+                    "text": "Permanent magnets, because they are stronger than electromagnets",
+                    "isCorrect": 0,
+                    "explanation": "While permanent magnets can be very strong, their constant magnetic field makes it difficult to release objects when needed, which would be problematic for construction work"
+                },
+                {
+                    "text": "Permanent magnets, because they don't require any power source",
+                    "isCorrect": 0,
+                    "explanation": "Although permanent magnets don't need power, the inability to turn off their magnetic field makes them impractical for repeatedly picking up and releasing heavy objects"
+                },
+                {
+                    "text": "Electromagnets, because they are cheaper than permanent magnets",
+                    "isCorrect": 0,
+                    "explanation": "The choice of electromagnets isn't about cost - it's about the ability to control the magnetic force when needed"
+                }
+            ],
+            "funFact": "Construction cranes with electromagnets can lift up to 2,000 tons - that's about the weight of 400 elephants! The world's most powerful electromagnet can generate a magnetic field 2 million times stronger than Earth's magnetic field."
+        },
+        {
+            "id": 9,
+            "text": "A toy manufacturer wants to design a magnetic building set where specific blocks must connect in only one orientation. Which magnetic pole arrangement would ensure that Block A can only connect to Block B in the correct way?",
+            "options": [
+                {
+                    "text": "Place north poles on both faces of Block A and south poles on both faces of Block B",
+                    "isCorrect": 0,
+                    "explanation": "If both faces of Block A have north poles and both faces of Block B have south poles, the blocks would attract each other regardless of orientation, allowing them to connect in multiple ways rather than just one specific way."
+                },
+                {
+                    "text": "Place north poles on both blocks' connecting faces",
+                    "isCorrect": 0,
+                    "explanation": "Two north poles would repel each other, preventing the blocks from connecting."
+                },
+                {
+                    "text": "Place a north pole on one face of Block A and a south pole on the opposite face, with matching poles on Block B",
+                    "isCorrect": 1,
+                    "explanation": "This arrangement ensures the blocks can only connect in one orientation since opposite poles attract and like poles repel."
+                },
+                {
+                    "text": "Place alternating north and south poles on both faces of both blocks",
+                    "isCorrect": 0,
+                    "explanation": "Having both poles on each face would allow the blocks to connect in multiple orientations, defeating the purpose of controlled alignment."
+                }
+            ],
+            "funFact": "The same principle of controlled magnetic orientation is used in many modern electronic devices, like MacBook chargers and some tablet covers, to ensure they connect correctly every time!"
+        },
+        {
+            "id": 10,
+            "text": "A student is designing a magnetic levitation device using two bar magnets. Which orientation of the magnets would successfully keep one magnet floating above the other?",
+            "options": [
+                {
+                    "text": "Like poles facing each other (north-north or south-south)",
+                    "isCorrect": 1,
+                    "explanation": "When like poles (north-north or south-south) face each other, they repel, creating a force that can make one magnet float above the other"
+                },
+                {
+                    "text": "North pole of bottom magnet facing the south pole of top magnet",
+                    "isCorrect": 0,
+                    "explanation": "When north and south poles face each other, the magnets attract and will snap together rather than levitate"
+                },
+                {
+                    "text": "Any orientation will work as long as the magnets are strong enough",
+                    "isCorrect": 0,
+                    "explanation": "The orientation of magnetic poles matters significantly for levitation. Only repulsive forces between like poles can create levitation; magnetic strength alone cannot overcome attractive forces between unlike poles"
+                }
+            ],
+            "funFact": "Magnetic levitation (maglev) trains use electromagnetic repulsion to float above their tracks, allowing them to reach speeds over 300 miles per hour with very little friction!"
+        },
+        {
+            "id": 11,
+            "text": "You are designing a magnetic door latch system for a cabinet. Which material would be most effective for creating the latch?",
+            "options": [
+                {
+                    "text": "Iron",
+                    "isCorrect": 1,
+                    "explanation": "Iron is strongly attracted to magnets, making it an ideal material for a magnetic latch system. It can be easily magnetized and will create a strong holding force."
+                },
+                {
+                    "text": "Aluminum",
+                    "isCorrect": 0,
+                    "explanation": "Although aluminum is a metal, it is only very weakly paramagnetic and the attraction to magnets is too weak to be useful in a magnetic latch system, making it ineffective for this purpose."
+                },
+                {
+                    "text": "Plastic",
+                    "isCorrect": 0,
+                    "explanation": "Plastic is not magnetic and has no interaction with magnetic fields, so it would not work as part of a magnetic latch system."
+                },
+                {
+                    "text": "Wood",
+                    "isCorrect": 0,
+                    "explanation": "Wood is not magnetic and does not respond to magnetic fields, making it unsuitable for a magnetic latch system."
+                }
+            ],
+            "funFact": "The strongest magnets in the world are neodymium magnets, which are so powerful they can lift more than 1,000 times their own weight! However, they must be handled with extreme care as they can cause injury if they snap together suddenly."
+        },
+        {
+            "id": 12,
+            "text": "A compass needle always points toward Earth's magnetic North pole. What explains this behavior?",
+            "options": [
+                {
+                    "text": "The north pole of the compass needle is attracted to Earth's magnetic North pole",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While a compass needle does point north, it's actually the SOUTH pole of the compass needle that's attracted to Earth's magnetic North pole, because opposite magnetic poles attract."
+                },
+                {
+                    "text": "The south pole of the compass needle is attracted to Earth's magnetic North pole",
+                    "isCorrect": 1,
+                    "explanation": "Correct! The south pole of the compass needle is attracted to Earth's magnetic North pole because opposite magnetic poles attract each other. What we call the magnetic North pole is actually a magnetic south pole in terms of its magnetic polarity, but is named for its geographic location."
+                },
+                {
+                    "text": "The compass needle is affected by Earth's gravity",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. A compass works because of magnetic forces, not gravitational forces. The needle responds to Earth's magnetic field, not its gravitational pull."
+                },
+                {
+                    "text": "The compass needle contains electricity that points it north",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. Compass needles are permanent magnets that don't require electricity. They work purely through magnetic attraction with Earth's magnetic field."
+                }
+            ],
+            "funFact": "Earth's magnetic poles are actually not aligned exactly with its geographic poles - there is currently about an 11-degree difference! This is why navigators need to account for 'magnetic declination' when using a compass for precise navigation."
+        },
+        {
+            "id": 13,
+            "text": "A student wants to design an electromagnet to lift heavy metal objects. Which of the following changes would make the electromagnet strongest?",
+            "options": [
+                {
+                    "text": "Increasing the electrical current flowing through the wire",
+                    "isCorrect": 1,
+                    "explanation": "The strength of an electromagnet increases when more electrical current flows through the wire. This creates a stronger magnetic field capable of lifting heavier objects."
+                },
+                {
+                    "text": "Painting the electromagnet blue",
+                    "isCorrect": 0,
+                    "explanation": "The color of an electromagnet has no effect on its strength. The strength depends on the amount of electrical current and the number of wire coils."
+                },
+                {
+                    "text": "Keeping the electromagnet in sunlight",
+                    "isCorrect": 0,
+                    "explanation": "Sunlight does not affect the strength of an electromagnet. The strength is determined by the electrical current flowing through the wire."
+                },
+                {
+                    "text": "Making the electromagnet warmer",
+                    "isCorrect": 0,
+                    "explanation": "Temperature does not significantly affect the strength of an electromagnet. The key factor is the amount of electrical current flowing through the wire."
+                }
+            ],
+            "funFact": "The world's strongest electromagnet, located at the National High Magnetic Field Laboratory in Florida, can produce a magnetic field 2 million times stronger than Earth's magnetic field!"
+        },
+        {
+            "id": 14,
+            "text": "A construction company needs to load and unload heavy steel beams onto trucks. Which of the following statements correctly compares using an electromagnet versus a permanent magnet on their crane?",
+            "options": [
+                {
+                    "text": "An electromagnet would be better because it can be turned on to lift the beams and turned off to release them, while a permanent magnet would require physical force to separate the beams",
+                    "isCorrect": 1,
+                    "explanation": "Electromagnets can be easily controlled by switching the electric current on and off, making them ideal for lifting and releasing metal objects in construction"
+                },
+                {
+                    "text": "A permanent magnet would be better because it doesn't require any electricity to work and will never lose its magnetic force",
+                    "isCorrect": 0,
+                    "explanation": "While permanent magnets don't need electricity, they cannot be turned off, making it difficult to release the metal beams when needed"
+                },
+                {
+                    "text": "Both would work equally well since they have the same magnetic strength and can lift the same amount of weight",
+                    "isCorrect": 0,
+                    "explanation": "Electromagnets and permanent magnets can have different strengths, and electromagnets have the crucial advantage of being controllable"
+                },
+                {
+                    "text": "Neither would work well because magnetic forces are too weak to lift heavy steel beams",
+                    "isCorrect": 0,
+                    "explanation": "Strong magnets, especially industrial electromagnets, can generate powerful magnetic fields capable of lifting very heavy metal objects"
+                }
+            ],
+            "funFact": "The world's strongest electromagnet, located at the National High Magnetic Field Laboratory in Florida, can generate a magnetic field 2 million times stronger than Earth's magnetic field!"
+        },
+        {
+            "id": 15,
+            "text": "A science project requires designing a system to keep two fragile objects separated without physical contact. Which force would be more reliable for this purpose?",
+            "options": [
+                {
+                    "text": "Magnetic force would be more reliable because its strength can be precisely controlled by adjusting distance and magnet strength",
+                    "isCorrect": 1,
+                    "explanation": "Magnetic force is more reliable as its strength remains consistent over time, can be precisely controlled by adjusting distance or magnet strength, and works consistently in various environmental conditions"
+                },
+                {
+                    "text": "Static electricity would be more reliable because it can create stronger pushing forces",
+                    "isCorrect": 0,
+                    "explanation": "Static electricity is less reliable as its strength can vary with humidity, can discharge suddenly, and is harder to control precisely"
+                },
+                {
+                    "text": "Both forces would be equally reliable as they both work without contact",
+                    "isCorrect": 0,
+                    "explanation": "While both forces work without contact, they are not equally reliable. Magnetic forces provide more consistent and controllable repulsion compared to static electricity"
+                },
+                {
+                    "text": "Neither force would be reliable because they only work when objects are touching",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - both magnetic forces and static electricity can act at a distance without objects touching each other"
+                }
+            ],
+            "funFact": "The world's strongest magnets, like those used in MRI machines, are so powerful they can lift objects weighing thousands of pounds without any physical contact!"
+        }
+    ]
+}

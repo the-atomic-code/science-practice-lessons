@@ -1,0 +1,411 @@
+{
+    "id": "lesson-40",
+    "title": "Electric & Magnetic Fields",
+    "questions": [
+        {
+            "id": 1,
+            "text": "A student wants to make a stronger electromagnet using a wire coil. Which change would most effectively increase the strength of the electromagnet?",
+            "options": [
+                {
+                    "text": "Increasing the electric current flowing through the wire coil",
+                    "isCorrect": 1,
+                    "explanation": "Increasing the electric current directly strengthens the magnetic field produced by the electromagnet, making this the most effective method."
+                },
+                {
+                    "text": "Changing the color of the wire used in the coil",
+                    "isCorrect": 0,
+                    "explanation": "The color of the wire has no effect on the electromagnetic field strength. Only electrical and physical properties matter."
+                },
+                {
+                    "text": "Keeping the electromagnet at room temperature",
+                    "isCorrect": 0,
+                    "explanation": "While extreme temperatures can affect electromagnets, normal room temperature variations have minimal impact on electromagnetic field strength."
+                },
+                {
+                    "text": "Placing the electromagnet in direct sunlight",
+                    "isCorrect": 0,
+                    "explanation": "Exposure to sunlight does not significantly affect the strength of an electromagnet. The magnetic field depends on electrical current, not light."
+                }
+            ],
+            "funFact": "The world's strongest electromagnet, located at the National High Magnetic Field Laboratory in Florida, can produce a magnetic field that is about 2 million times stronger than Earth's magnetic field!"
+        },
+        {
+            "id": 2,
+            "text": "When you rub a balloon against your hair, both the balloon and hair become electrically charged. If two balloons are rubbed against your hair in the same way, what will happen when you bring these balloons close to each other?",
+            "options": [
+                {
+                    "text": "The balloons will attract each other because they have different charges",
+                    "isCorrect": 0,
+                    "explanation": "When rubbed against hair in the same way, both balloons acquire the same type of charge (negative). Objects with the same charge repel each other."
+                },
+                {
+                    "text": "The balloons will repel each other because they have the same charge",
+                    "isCorrect": 1,
+                    "explanation": "When rubbed against hair in the same way, both balloons acquire the same type of charge (negative). Objects with the same charge repel each other due to their electric fields."
+                },
+                {
+                    "text": "The balloons will not affect each other because they are not magnets",
+                    "isCorrect": 0,
+                    "explanation": "Even though they are not magnets, charged objects create electric fields that can exert forces on other charged objects, causing attraction or repulsion."
+                },
+                {
+                    "text": "The balloons will stick together because of gravity",
+                    "isCorrect": 0,
+                    "explanation": "The gravitational force between two balloons is extremely weak. The electric force between charged balloons is much stronger and will cause them to repel."
+                }
+            ],
+            "funFact": "The same principle of like charges repelling each other is used in Van de Graaff generators, which can create spectacular displays of standing hair when someone touches them. The hair strands all acquire the same charge and repel each other, causing them to stand up!"
+        },
+        {
+            "id": 3,
+            "text": "In a simplified classroom model of magnetism, two bar magnets are made of the same material, but one is twice as large as the other in all dimensions. In this simplified model where magnetic strength scales linearly with the magnet's size, if the smaller magnet can lift a paper clip from a distance of 2 centimeters, approximately how far away can the larger magnet lift the same paper clip?",
+            "options": [
+                {
+                    "text": "4 centimeters",
+                    "isCorrect": 1,
+                    "explanation": "In this simplified model, a magnet twice as large has twice the magnetic strength. Since the magnetic strength is doubled, the distance at which it can attract the paper clip is also doubled, from 2 centimeters to 4 centimeters. In reality, the relationship is more complex and depends on how the magnetic field diminishes with distance."
+                },
+                {
+                    "text": "1 centimeter",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. A larger magnet would have a stronger magnetic field, not weaker, so it would be able to attract objects from a greater distance, not a shorter distance."
+                },
+                {
+                    "text": "2 centimeters",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Since the larger magnet is made of the same material but is bigger, it would have a stronger magnetic field and could attract objects from a greater distance than the smaller magnet."
+                },
+                {
+                    "text": "The distance would stay the same",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The size of a magnet affects its field strength when made of the same material. A larger magnet would have a stronger field and could attract objects from farther away."
+                }
+            ],
+            "funFact": "The Earth's magnetic field is so vast that it extends tens of thousands of kilometers into space! This region, called the magnetosphere, helps protect our planet from harmful solar radiation and cosmic rays. In reality, magnetic fields decrease with the cube of distance (1/r\u00b3), making the relationship between magnet size and attraction distance more complex than in our simplified model."
+        },
+        {
+            "id": 4,
+            "text": "Which combination of components is essential to create a basic electromagnet?",
+            "options": [
+                {
+                    "text": "A coil of wire and an electric current",
+                    "isCorrect": 1,
+                    "explanation": "A basic electromagnet requires a coil of wire and electric current flowing through it. When current flows through the coiled wire, it creates a magnetic field, making it an electromagnet."
+                },
+                {
+                    "text": "Two permanent magnets",
+                    "isCorrect": 0,
+                    "explanation": "Permanent magnets are not needed to create an electromagnet. An electromagnet works using electricity, not permanent magnets."
+                },
+                {
+                    "text": "A battery and iron filings",
+                    "isCorrect": 0,
+                    "explanation": "While a battery can provide the necessary electric current, iron filings are used to visualize magnetic fields but are not needed to create an electromagnet."
+                },
+                {
+                    "text": "A compass and metal core",
+                    "isCorrect": 0,
+                    "explanation": "A compass is used to detect magnetic fields, and while a metal core can strengthen an electromagnet, neither is essential for creating a basic electromagnet."
+                }
+            ],
+            "funFact": "The first electromagnet was invented by William Sturgeon in 1825. His device could lift 4 kg of metal, but modern electromagnets can be powerful enough to lift entire cars in junkyards!"
+        },
+        {
+            "id": 5,
+            "text": "A student wants to build a stronger electromagnet using a wire coil and a battery. Which of the following changes would increase the strength of the electromagnet?",
+            "options": [
+                {
+                    "text": "Increasing the number of coils in the wire while keeping the same battery",
+                    "isCorrect": 1,
+                    "explanation": "Adding more coils of wire increases the strength of the electromagnetic field, making the electromagnet stronger while using the same power source."
+                },
+                {
+                    "text": "Decreasing the number of coils in the wire while keeping the same battery",
+                    "isCorrect": 0,
+                    "explanation": "Reducing the number of coils would actually weaken the electromagnetic field, resulting in a weaker electromagnet."
+                },
+                {
+                    "text": "Keeping the same number of coils but unraveling them to spread them farther apart",
+                    "isCorrect": 0,
+                    "explanation": "Spreading the coils farther apart would weaken the electromagnetic field since the field strength depends on the concentration of the coils."
+                },
+                {
+                    "text": "Using thinner wire with the same number of coils",
+                    "isCorrect": 0,
+                    "explanation": "Using thinner wire would actually increase resistance and potentially decrease current flow, which would not strengthen the electromagnet."
+                }
+            ],
+            "funFact": "The world's strongest electromagnet, located at the National High Magnetic Field Laboratory in Florida, can produce a magnetic field 2 million times stronger than Earth's magnetic field!"
+        },
+        {
+            "id": 6,
+            "text": "An engineer wants to make a stronger electromagnet to lift heavier metal objects in a recycling facility. Which of the following changes would increase the strength of the electromagnet?",
+            "options": [
+                {
+                    "text": "Increase the electric current flowing through the wire coil",
+                    "isCorrect": 1,
+                    "explanation": "Increasing the electric current through the wire coil directly increases the strength of the magnetic field, making the electromagnet stronger"
+                },
+                {
+                    "text": "Decrease the number of wire turns in the coil",
+                    "isCorrect": 0,
+                    "explanation": "Reducing the number of wire turns actually weakens the electromagnet. More turns create a stronger magnetic field"
+                },
+                {
+                    "text": "Replace the iron core with a plastic core",
+                    "isCorrect": 0,
+                    "explanation": "Using a plastic core would weaken the electromagnet. Metal cores, especially iron, help concentrate and strengthen the magnetic field"
+                },
+                {
+                    "text": "Increase the temperature of the wire",
+                    "isCorrect": 0,
+                    "explanation": "Increasing wire temperature does not strengthen the electromagnet. In fact, higher temperatures increase electrical resistance, which could reduce current flow"
+                }
+            ],
+            "funFact": "The world's strongest electromagnet, located at the National High Magnetic Field Laboratory in Florida, can produce a magnetic field 2 million times stronger than Earth's magnetic field!"
+        },
+        {
+            "id": 7,
+            "text": "Two balloons are rubbed with different materials. Balloon A is rubbed with wool and becomes positively charged. Balloon B is rubbed with silk. When brought near each other, the balloons attract. What is the most likely charge on Balloon B?",
+            "options": [
+                {
+                    "text": "Negative charge",
+                    "isCorrect": 1,
+                    "explanation": "Since Balloon A is positively charged and the balloons attract each other, Balloon B must have an opposite (negative) charge. Opposite charges attract each other."
+                },
+                {
+                    "text": "Positive charge",
+                    "isCorrect": 0,
+                    "explanation": "If Balloon B were positively charged like Balloon A, the balloons would repel each other since like charges repel."
+                },
+                {
+                    "text": "No charge",
+                    "isCorrect": 0,
+                    "explanation": "If Balloon B had no charge, there would be very little or no interaction between the balloons. The observed attraction indicates Balloon B must be charged."
+                },
+                {
+                    "text": "Both positive and negative charges",
+                    "isCorrect": 0,
+                    "explanation": "While objects can have regions of different charges, the overall charge after rubbing with silk would be predominantly one type - in this case negative."
+                }
+            ],
+            "funFact": "The ancient Greeks discovered static electricity by rubbing amber with fur. In fact, the word 'electricity' comes from 'elektron', the Greek word for amber!"
+        },
+        {
+            "id": 8,
+            "text": "In a speaker system, if you increase the number of wire turns in the electromagnet coil, how would it affect the sound production when the same electric current is applied?",
+            "options": [
+                {
+                    "text": "The sound would be louder because the magnetic field would be stronger",
+                    "isCorrect": 1,
+                    "explanation": "More wire turns create a stronger magnetic field, causing greater vibration of the speaker cone and producing louder sound"
+                },
+                {
+                    "text": "The sound would be softer because the resistance would increase",
+                    "isCorrect": 0,
+                    "explanation": "While resistance does increase with more wire turns, the magnetic field strength increases more significantly, leading to louder sound"
+                },
+                {
+                    "text": "The sound would remain the same because only current affects sound",
+                    "isCorrect": 0,
+                    "explanation": "Both current and number of wire turns affect magnetic field strength, which determines sound volume"
+                },
+                {
+                    "text": "The sound would become distorted because of interference",
+                    "isCorrect": 0,
+                    "explanation": "Adding more wire turns does not cause distortion - it simply increases the magnetic field strength uniformly"
+                }
+            ],
+            "funFact": "The world's largest speaker system, used at rock concerts, can produce sound levels over 130 decibels - about as loud as a military jet takeoff! These massive speakers use powerful electromagnets with thousands of wire turns to achieve such high volumes."
+        },
+        {
+            "id": 9,
+            "text": "An engineer wants to build an electromagnet by wrapping wire around an iron core. Which configuration would create the strongest magnetic field?",
+            "options": [
+                {
+                    "text": "10 turns of wire with 2 amperes of current",
+                    "isCorrect": 0,
+                    "explanation": "While this configuration would create a magnetic field, fewer turns of wire result in a weaker magnetic field compared to more turns with the same current."
+                },
+                {
+                    "text": "50 turns of wire with 2 amperes of current",
+                    "isCorrect": 1,
+                    "explanation": "More turns of wire around the core create a stronger magnetic field when the current remains constant. 50 turns would create the strongest field among these options."
+                },
+                {
+                    "text": "10 turns of wire with 1 ampere of current",
+                    "isCorrect": 0,
+                    "explanation": "Both fewer turns and less current result in a weaker magnetic field compared to configurations with more turns and higher current."
+                },
+                {
+                    "text": "25 turns of wire with 1 ampere of current",
+                    "isCorrect": 0,
+                    "explanation": "While this has more turns than some options, the combination of fewer turns than the correct answer and less current makes this configuration create a weaker magnetic field."
+                }
+            ],
+            "funFact": "The world's strongest electromagnet, located at the National High Magnetic Field Laboratory in Florida, can produce a magnetic field that is about 500,000 times stronger than Earth's magnetic field!"
+        },
+        {
+            "id": 10,
+            "text": "A student is comparing the magnetic force between two permanent magnets to the force between a permanent magnet and an electromagnet. The electromagnet is created by wrapping a wire around an iron core and connecting it to a battery to match the strength of the permanent magnet. Which statement correctly compares these forces?",
+            "options": [
+                {
+                    "text": "The force between the permanent magnets will always be stronger because electromagnets are temporary magnets.",
+                    "isCorrect": 0,
+                    "explanation": "The strength of a magnetic force doesn't depend on whether the magnet is permanent or electromagnetic. If their magnetic field strengths are equal, they will exert equal forces."
+                },
+                {
+                    "text": "The force between the permanent magnet and electromagnet will be equal to the force between the two permanent magnets if their magnetic field strengths are equal.",
+                    "isCorrect": 1,
+                    "explanation": "Magnetic force depends on the strength of the magnetic fields, not on how those fields are created. Equal strength magnets will exert equal forces regardless of their type."
+                },
+                {
+                    "text": "The force between the permanent magnet and electromagnet will be weaker because electromagnets lose some force through the wire.",
+                    "isCorrect": 0,
+                    "explanation": "Electromagnets don't inherently produce weaker forces. The force depends on the magnetic field strength, which can be adjusted by changing the current or number of wire turns."
+                },
+                {
+                    "text": "The force between the permanent magnet and electromagnet will be stronger because electromagnets combine electric and magnetic forces.",
+                    "isCorrect": 0,
+                    "explanation": "While electromagnets use electricity to create magnetism, they don't combine both forces to create stronger attraction. The magnetic force depends solely on the magnetic field strength."
+                }
+            ],
+            "funFact": "The world's strongest electromagnet, located at the National High Magnetic Field Laboratory, can produce a magnetic field 45 teslas strong - about 900,000 times stronger than Earth's magnetic field!"
+        },
+        {
+            "id": 11,
+            "text": "Why do like electric charges (positive-positive or negative-negative) repel each other while opposite charges (positive-negative) attract each other?",
+            "options": [
+                {
+                    "text": "Like charges create overlapping electric fields that push away from each other, while opposite charges create electric fields that pull toward each other",
+                    "isCorrect": 1,
+                    "explanation": "The electric fields created by like charges push outward in the same direction, causing repulsion. With opposite charges, the electric field of the positive charge points outward while the negative charge's field points inward, creating attraction."
+                },
+                {
+                    "text": "Like charges are too similar to bond together, while opposite charges can form chemical bonds",
+                    "isCorrect": 0,
+                    "explanation": "While chemical bonding does involve charges, the attraction and repulsion of electric charges is a physical phenomenon based on their electric fields, not chemical bonding."
+                },
+                {
+                    "text": "Like charges have too much energy to stay together, while opposite charges balance each other's energy",
+                    "isCorrect": 0,
+                    "explanation": "The attraction and repulsion of charges is not due to energy levels but rather the interaction of their electric fields."
+                },
+                {
+                    "text": "Like charges cancel each other out, while opposite charges complement each other",
+                    "isCorrect": 0,
+                    "explanation": "Charges do not cancel or complement each other - they interact through their electric fields which results in either attraction or repulsion."
+                }
+            ],
+            "funFact": "The force between two electric charges was first mathematically described by Charles-Augustin de Coulomb in 1785. This relationship, known as Coulomb's Law, shows that the electric force becomes four times weaker when the distance between charges doubles!"
+        },
+        {
+            "id": 12,
+            "text": "Which statement correctly compares how the strength of magnetic and electric fields changes with distance and other factors?",
+            "options": [
+                {
+                    "text": "Both magnetic and electric field strength increases with distance, but only magnetic field strength depends on the size of the source",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Both magnetic and electric field strength actually decrease with distance, not increase."
+                },
+                {
+                    "text": "Both magnetic and electric field strength decreases with distance, and both can be made stronger by increasing the source strength",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Both types of fields get weaker as distance increases, and both can be made stronger by increasing the source (larger magnet, stronger charge, more current in electromagnet)."
+                },
+                {
+                    "text": "Magnetic field strength decreases with distance while electric field strength remains constant regardless of distance",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Electric field strength also decreases with distance, it does not remain constant."
+                },
+                {
+                    "text": "Electric field strength depends only on the distance, while magnetic field strength depends only on the size of the magnet",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Both field types depend on multiple factors including distance and source strength, not just one factor."
+                }
+            ],
+            "funFact": "The Earth's magnetic field extends far into space, creating a protective bubble called the magnetosphere that shields us from harmful solar radiation. This field gets so weak at large distances that special satellites can detect when they've crossed its outer boundary!"
+        },
+        {
+            "id": 13,
+            "text": "When two bar magnets are placed near each other, in which orientation will they experience the strongest repulsive force?",
+            "options": [
+                {
+                    "text": "When their north poles are facing each other",
+                    "isCorrect": 1,
+                    "explanation": "Like poles repel each other, and when the north poles of two magnets directly face each other, they experience the maximum repulsive force"
+                },
+                {
+                    "text": "When their north and south poles are facing each other",
+                    "isCorrect": 0,
+                    "explanation": "When opposite poles face each other, the magnets attract rather than repel"
+                },
+                {
+                    "text": "When the magnets are placed side by side",
+                    "isCorrect": 0,
+                    "explanation": "When magnets are placed side by side, their magnetic fields are not directly aligned, resulting in a weaker interaction"
+                },
+                {
+                    "text": "When one magnet is placed perpendicular to the other",
+                    "isCorrect": 0,
+                    "explanation": "When magnets are placed perpendicular to each other, their magnetic fields interact minimally, resulting in very little force"
+                }
+            ],
+            "funFact": "The Earth itself acts like a giant bar magnet! However, what we call the magnetic north pole is actually a magnetic south pole, because it attracts the north pole of our compasses. This is why geographers had to define 'true north' separately from 'magnetic north'."
+        },
+        {
+            "id": 14,
+            "text": "When two bar magnets are placed near each other with their north poles facing each other, what pattern would iron filings form between them?",
+            "options": [
+                {
+                    "text": "The iron filings would form curved lines that repel away from each other between the magnets",
+                    "isCorrect": 1,
+                    "explanation": "When like poles face each other, they repel, creating magnetic field lines that curve away from each other between the magnets"
+                },
+                {
+                    "text": "The iron filings would form straight lines connecting the two magnets",
+                    "isCorrect": 0,
+                    "explanation": "Straight lines connecting magnets only form when opposite poles face each other and attract"
+                },
+                {
+                    "text": "The iron filings would form a random scattered pattern",
+                    "isCorrect": 0,
+                    "explanation": "Iron filings always align with magnetic field lines in a specific pattern, not randomly"
+                },
+                {
+                    "text": "The iron filings would collect only at the poles of the magnets",
+                    "isCorrect": 0,
+                    "explanation": "While the field is strongest at the poles, iron filings show the entire field pattern between the magnets"
+                }
+            ],
+            "funFact": "The Earth itself acts like a giant bar magnet, with its magnetic field protecting us from harmful solar radiation. Interestingly, the Earth's magnetic north pole is actually near the geographic south pole and vice versa!"
+        },
+        {
+            "id": 15,
+            "text": "A student is experimenting with an electromagnet and wants to increase its magnetic field strength. Which of the following changes would be most effective in achieving this goal?",
+            "options": [
+                {
+                    "text": "Increasing the electric current flowing through the wire coil",
+                    "isCorrect": 1,
+                    "explanation": "Increasing the electric current directly strengthens the magnetic field generated by the electromagnet. This is one of the most effective ways to increase an electromagnet's strength."
+                },
+                {
+                    "text": "Painting the wire coil with metallic paint",
+                    "isCorrect": 0,
+                    "explanation": "Adding paint to the wire coil would not affect the magnetic field strength. The magnetic field is generated by electric current flowing through the wire, not by the exterior coating."
+                },
+                {
+                    "text": "Connecting the electromagnet to a battery with lower voltage",
+                    "isCorrect": 0,
+                    "explanation": "Using a lower voltage battery would decrease the current flow, resulting in a weaker magnetic field. More current leads to a stronger magnetic field."
+                },
+                {
+                    "text": "Wrapping the wire coil with plastic insulation",
+                    "isCorrect": 0,
+                    "explanation": "Adding plastic insulation would not affect the magnetic field strength. The magnetic field is generated by the flow of electric current, not by external insulation."
+                }
+            ],
+            "funFact": "The world's strongest electromagnet, located at the National High Magnetic Field Laboratory in Florida, can generate a magnetic field that is about 2 million times stronger than Earth's magnetic field!"
+        }
+    ]
+}

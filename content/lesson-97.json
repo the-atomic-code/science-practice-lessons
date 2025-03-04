@@ -1,0 +1,416 @@
+{
+    "id": "lesson-97",
+    "title": "Introduction to Weather",
+    "questions": [
+        {
+            "id": 1,
+            "text": "Why is it important for communities to receive advanced warnings about thunderstorms?",
+            "options": [
+                {
+                    "text": "So people can get inside and stay safe before the storm hits",
+                    "isCorrect": 1,
+                    "explanation": "Thunderstorm warnings give people time to seek shelter and protect themselves from dangerous conditions like lightning, strong winds, and heavy rain."
+                },
+                {
+                    "text": "So people can plan outdoor activities during the storm",
+                    "isCorrect": 0,
+                    "explanation": "Planning outdoor activities during a thunderstorm is dangerous. Warnings are meant to help people avoid being outdoors during severe weather."
+                },
+                {
+                    "text": "So people can go outside to watch the storm",
+                    "isCorrect": 0,
+                    "explanation": "Going outside during a thunderstorm is very dangerous. Warnings are intended to keep people safely indoors, away from lightning and other hazards."
+                },
+                {
+                    "text": "So people know when to water their gardens",
+                    "isCorrect": 0,
+                    "explanation": "While storms provide natural watering, the purpose of warnings is to protect people's safety, not to help with garden planning."
+                }
+            ],
+            "funFact": "Lightning strikes the Earth about 100 times every second! That's why weather scientists developed sophisticated systems to track and predict thunderstorms, helping keep millions of people safe each year."
+        },
+        {
+            "id": 2,
+            "text": "How do weather scientists predict which direction a thunderstorm will move?",
+            "options": [
+                {
+                    "text": "By analyzing radar data, computer models, and prevailing weather patterns",
+                    "isCorrect": 1,
+                    "explanation": "Weather scientists use multiple tools including radar data, computer models, and analysis of prevailing weather patterns (such as the typical west-to-east movement in mid-latitudes) to predict storm movement accurately."
+                },
+                {
+                    "text": "By guessing randomly which way the storm might go",
+                    "isCorrect": 0,
+                    "explanation": "Scientists don't guess randomly - they use established patterns and scientific tools to make predictions."
+                },
+                {
+                    "text": "Only by waiting to see which direction the wind is currently blowing",
+                    "isCorrect": 0,
+                    "explanation": "While wind direction is one factor, meteorologists use multiple data sources and tools rather than relying on a single measurement to predict storm movement."
+                },
+                {
+                    "text": "Only by looking at where lightning strikes",
+                    "isCorrect": 0,
+                    "explanation": "Lightning locations alone don't determine storm movement - scientists rely on radar data, computer models, and analysis of weather patterns for predictions."
+                }
+            ],
+            "funFact": "While weather in North America often moves from west to east due to Earth's rotation and the Westerlies (winds between 30 and 60 degrees latitude), meteorologists use many tools including radar, satellites, and computer models to track storms with greater precision!"
+        },
+        {
+            "id": 3,
+            "text": "Why is it important for meteorologists to predict severe weather events like thunderstorms?",
+            "options": [
+                {
+                    "text": "So communities can prepare and stay safe",
+                    "isCorrect": 1,
+                    "explanation": "Weather forecasts allow people to take necessary precautions like staying indoors during severe storms, which helps keep everyone safe."
+                },
+                {
+                    "text": "To make the weather change direction",
+                    "isCorrect": 0,
+                    "explanation": "Meteorologists cannot change the weather's direction - they can only predict it to help people prepare."
+                },
+                {
+                    "text": "To stop the storms from happening",
+                    "isCorrect": 0,
+                    "explanation": "Weather forecasting cannot prevent storms from occurring; it can only warn people about them in advance."
+                },
+                {
+                    "text": "To make their jobs more interesting",
+                    "isCorrect": 0,
+                    "explanation": "The main purpose of weather forecasting is public safety, not entertainment for meteorologists."
+                }
+            ],
+            "funFact": "Modern weather forecasting uses supercomputers that can process over a quadrillion calculations per second to predict weather patterns! These powerful computers analyze data from satellites, weather balloons, and ground stations to help make accurate predictions."
+        },
+        {
+            "id": 4,
+            "text": "Which type of severe weather event produces lightning, heavy rain, and strong winds that can be dangerous if you are outdoors?",
+            "options": [
+                {
+                    "text": "Thunderstorms",
+                    "isCorrect": 1,
+                    "explanation": "Thunderstorms are characterized by lightning, thunder, heavy rain, and strong winds. It's important to seek shelter indoors during thunderstorms to stay safe."
+                },
+                {
+                    "text": "Light drizzle",
+                    "isCorrect": 0,
+                    "explanation": "Light drizzle is a gentle form of precipitation that doesn't include dangerous conditions like lightning or strong winds."
+                },
+                {
+                    "text": "Fog",
+                    "isCorrect": 0,
+                    "explanation": "While fog can reduce visibility, it doesn't produce lightning, heavy rain, or strong winds that make being outdoors dangerous."
+                },
+                {
+                    "text": "Light breeze",
+                    "isCorrect": 0,
+                    "explanation": "A light breeze is a gentle wind condition that isn't dangerous and doesn't include lightning or heavy rain."
+                }
+            ],
+            "funFact": "A bolt of lightning can heat the air around it to temperatures five times hotter than the sun's surface! This rapid heating causes the air to expand quickly, creating the booming sound we know as thunder."
+        },
+        {
+            "id": 5,
+            "text": "What conditions are necessary for snow to form in the atmosphere?",
+            "options": [
+                {
+                    "text": "Water vapor must undergo deposition into ice crystals in below-freezing temperatures",
+                    "isCorrect": 1,
+                    "explanation": "Snow forms when water vapor undergoes deposition (changing directly from gas to solid) to create ice crystals in below-freezing temperatures. These ice crystals then grow and eventually fall as snow."
+                },
+                {
+                    "text": "Clouds must be very dark and heavy",
+                    "isCorrect": 0,
+                    "explanation": "The color or weight of clouds does not determine whether precipitation falls as snow. The temperature of the air is the key factor."
+                },
+                {
+                    "text": "The ground must be frozen first",
+                    "isCorrect": 0,
+                    "explanation": "Snow formation occurs in the atmosphere, not at ground level. While frozen ground might help snow accumulate, it's not necessary for snow to form."
+                },
+                {
+                    "text": "The sun must be completely blocked by clouds",
+                    "isCorrect": 0,
+                    "explanation": "The amount of sunlight or cloud cover does not determine whether precipitation falls as snow. The air temperature is the crucial factor."
+                }
+            ],
+            "funFact": "The shape of snowflakes depends on the temperature and humidity of the air they form in. Around 32\u00b0F (0\u00b0C), snowflakes are generally flat and plate-like, while at around 23\u00b0F (-5\u00b0C), they form the classic six-sided star pattern!"
+        },
+        {
+            "id": 6,
+            "text": "A meteorologist has issued a severe thunderstorm warning for your area. What is the best action to take to stay safe?",
+            "options": [
+                {
+                    "text": "Stay inside a sturdy building away from windows",
+                    "isCorrect": 1,
+                    "explanation": "During a thunderstorm, being inside a sturdy building provides the best protection from lightning, strong winds, and flying debris."
+                },
+                {
+                    "text": "Stand under a tall tree for shelter",
+                    "isCorrect": 0,
+                    "explanation": "Standing under trees during a thunderstorm is very dangerous as trees can attract lightning and branches can fall during strong winds."
+                },
+                {
+                    "text": "Go outside to watch the storm",
+                    "isCorrect": 0,
+                    "explanation": "Being outside during a severe thunderstorm puts you at risk of being struck by lightning or hit by flying debris."
+                },
+                {
+                    "text": "Continue normal outdoor activities",
+                    "isCorrect": 0,
+                    "explanation": "Continuing outdoor activities during a severe thunderstorm warning puts you at risk of serious injury from lightning, strong winds, and flying debris."
+                }
+            ],
+            "funFact": "Lightning can heat the air around it to temperatures five times hotter than the surface of the sun! This extreme heat causes the air to expand rapidly, creating the loud boom we hear as thunder."
+        },
+        {
+            "id": 7,
+            "text": "During a severe thunderstorm warning in your area, which warning system would be most effective to alert people who are sleeping at night?",
+            "options": [
+                {
+                    "text": "Emergency weather siren",
+                    "isCorrect": 1,
+                    "explanation": "Emergency sirens are designed to be loud enough to wake people and can be heard even indoors, making them ideal for nighttime warnings."
+                },
+                {
+                    "text": "Weather forecast on TV",
+                    "isCorrect": 0,
+                    "explanation": "TV forecasts are not effective for sleeping people since their TVs are likely turned off at night."
+                },
+                {
+                    "text": "Weather website updates",
+                    "isCorrect": 0,
+                    "explanation": "Website updates require people to actively check them, which sleeping people cannot do."
+                },
+                {
+                    "text": "Digital weather display boards",
+                    "isCorrect": 0,
+                    "explanation": "Display boards outside would not be visible to people sleeping inside their homes."
+                }
+            ],
+            "funFact": "The first emergency warning sirens were developed during World War II to alert civilians about potential air raids. Today, these same types of sirens are used in many communities to warn about severe weather, particularly in areas prone to tornadoes."
+        },
+        {
+            "id": 8,
+            "text": "A weather forecast shows a severe thunderstorm approaching your area in the next hour. What is the safest action to take?",
+            "options": [
+                {
+                    "text": "Stay inside a sturdy building",
+                    "isCorrect": 1,
+                    "explanation": "During a thunderstorm, the safest place is inside a sturdy building where you are protected from lightning, strong winds, and heavy rain."
+                },
+                {
+                    "text": "Go outside to watch the storm",
+                    "isCorrect": 0,
+                    "explanation": "Standing outside during a thunderstorm is very dangerous due to the risk of lightning strikes, strong winds, and flying debris."
+                },
+                {
+                    "text": "Stand under a tall tree",
+                    "isCorrect": 0,
+                    "explanation": "Tall trees are often struck by lightning during thunderstorms and can fall during strong winds, making them very dangerous places to seek shelter."
+                },
+                {
+                    "text": "Continue outdoor activities",
+                    "isCorrect": 0,
+                    "explanation": "Continuing outdoor activities during a severe thunderstorm puts you at risk of injury from lightning, strong winds, and heavy rain."
+                }
+            ],
+            "funFact": "Lightning can heat the air around it to temperatures five times hotter than the surface of the Sun! This rapid heating causes the air to expand quickly, creating the loud boom we hear as thunder."
+        },
+        {
+            "id": 9,
+            "text": "A meteorologist has predicted that a severe thunderstorm will hit your town tomorrow afternoon. Which combination of preparations would be most effective to stay safe during the storm?",
+            "options": [
+                {
+                    "text": "Stay inside, keep away from windows, and have a battery-powered radio ready",
+                    "isCorrect": 1,
+                    "explanation": "These preparations help ensure safety by providing shelter from dangerous conditions and maintaining access to important weather updates"
+                },
+                {
+                    "text": "Build a snowwall, wear thick winter clothes, and stock up on salt",
+                    "isCorrect": 0,
+                    "explanation": "These preparations are more suitable for winter storms rather than thunderstorms"
+                },
+                {
+                    "text": "Set up a tent outside to watch the storm and collect rainwater",
+                    "isCorrect": 0,
+                    "explanation": "Being outside during a thunderstorm is dangerous due to lightning, strong winds, and potential flying debris"
+                },
+                {
+                    "text": "Open all windows to prevent pressure buildup and fly a kite to check wind speed",
+                    "isCorrect": 0,
+                    "explanation": "Opening windows during a storm can be dangerous, and flying a kite risks lightning strikes and injury"
+                }
+            ],
+            "funFact": "Lightning can heat the air around it to temperatures five times hotter than the surface of the sun! This is why meteorologists emphasize staying indoors during thunderstorms, as lightning can strike even when the storm appears far away."
+        },
+        {
+            "id": 10,
+            "text": "In Florida, summer afternoons often bring thunderstorms with heavy rain, lightning, and strong winds. What is the most appropriate way for people to prepare for and stay safe during these regular weather events?",
+            "options": [
+                {
+                    "text": "Stay indoors and away from windows when thunderstorms occur",
+                    "isCorrect": 1,
+                    "explanation": "This is the safest response to thunderstorms, as being indoors protects from lightning, heavy rain, and strong winds. Staying away from windows adds extra protection from severe weather conditions."
+                },
+                {
+                    "text": "Continue outdoor activities but carry an umbrella",
+                    "isCorrect": 0,
+                    "explanation": "Using an umbrella during a thunderstorm is dangerous as it can attract lightning. Additionally, being outdoors during severe weather puts you at risk from multiple hazards."
+                },
+                {
+                    "text": "Evacuate to another city until the storm passes",
+                    "isCorrect": 0,
+                    "explanation": "Evacuation is an extreme response that isn't necessary for typical thunderstorms. This would be more appropriate for major events like hurricanes."
+                },
+                {
+                    "text": "Stand under a tall tree for protection",
+                    "isCorrect": 0,
+                    "explanation": "This is extremely dangerous as tall trees are likely to attract lightning and can fall during strong winds. Trees do not provide safe shelter during thunderstorms."
+                }
+            ],
+            "funFact": "Lightning heats the air around it to temperatures five times hotter than the surface of the sun! This rapid heating causes the air to expand quickly, creating the booming sound we know as thunder."
+        },
+        {
+            "id": 11,
+            "text": "Which weather forecasting tool is most useful for tracking the movement of large storm systems across the country?",
+            "options": [
+                {
+                    "text": "Satellite",
+                    "isCorrect": 1,
+                    "explanation": "Satellites provide a broad view from space that allows meteorologists to see and track large weather systems as they move across regions."
+                },
+                {
+                    "text": "Thermometer",
+                    "isCorrect": 0,
+                    "explanation": "While thermometers are important for measuring temperature, they only provide data for a single location and cannot track storm movement."
+                },
+                {
+                    "text": "Wind vane",
+                    "isCorrect": 0,
+                    "explanation": "Wind vanes show local wind direction but cannot provide information about storm systems across large areas."
+                },
+                {
+                    "text": "Rain gauge",
+                    "isCorrect": 0,
+                    "explanation": "Rain gauges measure precipitation at a specific location but cannot track the movement of storm systems."
+                }
+            ],
+            "funFact": "The first weather satellite, TIROS-1, was launched in 1960. Today, there are dozens of weather satellites orbiting Earth, taking over 500,000 measurements of the atmosphere every day!"
+        },
+        {
+            "id": 12,
+            "text": "A weather forecast predicts that a large thunderstorm with strong winds and heavy rain will hit your town tomorrow afternoon. What is the most important safety precaution the community should take?",
+            "options": [
+                {
+                    "text": "Stay indoors during the storm",
+                    "isCorrect": 1,
+                    "explanation": "During severe thunderstorms, staying indoors is the safest option to protect yourself from dangerous conditions like lightning, strong winds, and heavy rain."
+                },
+                {
+                    "text": "Go outside to watch the storm",
+                    "isCorrect": 0,
+                    "explanation": "Going outside during a severe thunderstorm is dangerous and puts you at risk of being struck by lightning or hit by flying debris."
+                },
+                {
+                    "text": "Continue normal outdoor activities",
+                    "isCorrect": 0,
+                    "explanation": "Continuing outdoor activities during a severe thunderstorm is unsafe and could put you in danger from lightning, strong winds, and heavy rain."
+                },
+                {
+                    "text": "Ignore the weather forecast",
+                    "isCorrect": 0,
+                    "explanation": "Ignoring weather forecasts is dangerous because it prevents you from preparing for and staying safe during severe weather events."
+                }
+            ],
+            "funFact": "Lightning can heat the air around it to temperatures five times hotter than the surface of the sun! This is why meteorologists work hard to predict thunderstorms and warn communities, so everyone can stay safe indoors during these powerful natural events."
+        },
+        {
+            "id": 13,
+            "text": "A coastal town receives a hurricane warning from weather forecasters. Which technology would be MOST helpful for the residents to stay informed about the hurricane's path and make safety decisions?",
+            "options": [
+                {
+                    "text": "Weather satellites that provide images and data of the hurricane from space",
+                    "isCorrect": 1,
+                    "explanation": "Weather satellites provide comprehensive views of hurricanes, especially over oceans, tracking their formation, movement, and intensity. This data is essential for forecasting a hurricane's path days in advance, allowing residents to make informed decisions about evacuation and safety measures."
+                },
+                {
+                    "text": "Weather radar systems that track the hurricane's movement and intensity",
+                    "isCorrect": 0,
+                    "explanation": "Weather radar systems provide valuable data about the hurricane's precipitation patterns and intensity when it's near land, but their range is limited compared to satellites and they cannot track hurricanes over open ocean where much of the storm's development occurs."
+                },
+                {
+                    "text": "Thermometers that measure local temperature",
+                    "isCorrect": 0,
+                    "explanation": "While thermometers are useful weather tools, they only measure temperature and cannot track a hurricane's movement or predict its path."
+                },
+                {
+                    "text": "Wind vanes that show wind direction",
+                    "isCorrect": 0,
+                    "explanation": "Wind vanes only show local wind direction and cannot provide comprehensive information about a hurricane's path or intensity."
+                },
+                {
+                    "text": "Rain gauges that measure precipitation",
+                    "isCorrect": 0,
+                    "explanation": "Rain gauges only measure local rainfall amounts and cannot help track or predict a hurricane's movement or intensity."
+                }
+            ],
+            "funFact": "Modern weather satellites can track hurricanes from space by taking images every 30 seconds to 15 minutes, helping meteorologists predict a hurricane's path up to 5 days in advance!"
+        },
+        {
+            "id": 14,
+            "text": "Different types of severe weather require different response times from communities. Which of these weather events typically needs the LONGEST advance warning time for communities to prepare and respond effectively?",
+            "options": [
+                {
+                    "text": "A hurricane",
+                    "isCorrect": 1,
+                    "explanation": "Hurricanes require the longest warning time because communities need several days to implement evacuation plans, fortify buildings, and gather emergency supplies."
+                },
+                {
+                    "text": "A tornado",
+                    "isCorrect": 0,
+                    "explanation": "Tornadoes develop quickly and typically only provide minutes to hours of warning time, requiring immediate action rather than long-term preparation."
+                },
+                {
+                    "text": "A thunderstorm",
+                    "isCorrect": 0,
+                    "explanation": "Thunderstorms usually require only a few hours of warning time for basic preparations like moving indoors and securing loose objects."
+                },
+                {
+                    "text": "A winter storm",
+                    "isCorrect": 0,
+                    "explanation": "While winter storms need preparation time, they typically require 1-2 days of warning, less than hurricanes which need several days for evacuation and preparation."
+                }
+            ],
+            "funFact": "The National Hurricane Center begins issuing detailed forecasts for potential hurricanes up to 5 days before they might affect an area, which is one of the longest advance warning periods for any type of severe weather!"
+        },
+        {
+            "id": 15,
+            "text": "You are a weather safety planner in Minnesota. Based on historical weather data, which emergency preparation should be given the highest priority for the winter months?",
+            "options": [
+                {
+                    "text": "Storing extra blankets and winter clothing",
+                    "isCorrect": 1,
+                    "explanation": "Minnesota frequently experiences severe winter storms with extremely cold temperatures, making warm clothing and blankets essential emergency supplies."
+                },
+                {
+                    "text": "Building hurricane shelters",
+                    "isCorrect": 0,
+                    "explanation": "Hurricanes are extremely rare in Minnesota as it is not located near an ocean coast where hurricanes typically occur."
+                },
+                {
+                    "text": "Installing lightning rods",
+                    "isCorrect": 0,
+                    "explanation": "While thunderstorms can occur in Minnesota, severe winter weather poses a more frequent and serious threat during winter months."
+                },
+                {
+                    "text": "Creating dust storm barriers",
+                    "isCorrect": 0,
+                    "explanation": "Dust storms are not common in Minnesota's climate and are more typical in arid regions like deserts."
+                }
+            ],
+            "funFact": "The lowest temperature ever recorded in Minnesota was -60\u00b0F (-51\u00b0C) in Tower on February 2, 1996, demonstrating why winter weather preparation is crucial in this region!"
+        }
+    ]
+}

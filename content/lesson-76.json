@@ -1,0 +1,411 @@
+{
+    "id": "lesson-76",
+    "title": "Engineering Design Process",
+    "questions": [
+        {
+            "id": 1,
+            "text": "Which of the following scenarios represents a valid engineering design problem that engineers would work to solve?",
+            "options": [
+                {
+                    "text": "Designing a more energy-efficient solar-powered car",
+                    "isCorrect": 1,
+                    "explanation": "This is a valid engineering problem as it involves clear criteria (energy efficiency), potential constraints (cost, materials, technology limitations), and aims to solve a specific technical challenge while considering environmental impact."
+                },
+                {
+                    "text": "Deciding what color to paint a classroom",
+                    "isCorrect": 0,
+                    "explanation": "This is primarily an aesthetic decision that doesn't require engineering principles or solving technical problems. It doesn't involve the application of scientific or mathematical concepts."
+                },
+                {
+                    "text": "Choosing which movie to watch on the weekend",
+                    "isCorrect": 0,
+                    "explanation": "This is a personal preference decision that doesn't involve engineering principles, scientific concepts, or technical problem-solving."
+                },
+                {
+                    "text": "Selecting which grocery store to shop at",
+                    "isCorrect": 0,
+                    "explanation": "This is a consumer choice based on personal preferences and convenience, not an engineering problem that requires technical solutions or scientific principles."
+                }
+            ],
+            "funFact": "Engineers often work on projects that seem impossible at first! The first solar-powered car was built in 1955 by William G. Cobb of General Motors. Today, solar-powered vehicles are becoming increasingly efficient and some can reach speeds over 60 miles per hour!"
+        },
+        {
+            "id": 2,
+            "text": "What is the primary purpose of creating a prototype during the engineering design process?",
+            "options": [
+                {
+                    "text": "To test and evaluate the functionality of a design solution",
+                    "isCorrect": 1,
+                    "explanation": "Prototypes are preliminary models built specifically to test how well a design works and to collect data on how effectively it meets the criteria and constraints."
+                },
+                {
+                    "text": "To create an attractive final product for sale",
+                    "isCorrect": 0,
+                    "explanation": "Prototypes are not meant to be final products - they are working models used during the development phase to test and improve the design."
+                },
+                {
+                    "text": "To document the design process",
+                    "isCorrect": 0,
+                    "explanation": "While documentation is important, prototypes are built for testing functionality, not for documentation purposes. Documentation happens throughout the design process."
+                },
+                {
+                    "text": "To showcase the design to investors",
+                    "isCorrect": 0,
+                    "explanation": "Although prototypes may be shown to stakeholders, their main purpose is to test functionality and gather data for design improvements."
+                }
+            ],
+            "funFact": "The first computer mouse prototype, developed by Doug Engelbart in the 1960s, was made of wood! The rough prototype helped demonstrate the revolutionary concept of moving a cursor on a screen, even though it looked nothing like the sleek computer mice we use today."
+        },
+        {
+            "id": 3,
+            "text": "What is the primary purpose of using Computer-Aided Design (CAD) in engineering?",
+            "options": [
+                {
+                    "text": "To create and visualize three-dimensional models showing how parts interact",
+                    "isCorrect": 1,
+                    "explanation": "CAD is primarily used to create detailed 3D models that show how different components of a system move and work together, helping engineers visualize and refine their designs before building prototypes."
+                },
+                {
+                    "text": "To conduct research on existing solutions",
+                    "isCorrect": 0,
+                    "explanation": "While research is important in engineering, CAD is not primarily used for research purposes. Research typically involves gathering information from various sources about existing solutions and technologies."
+                },
+                {
+                    "text": "To document design problems and constraints",
+                    "isCorrect": 0,
+                    "explanation": "While CAD can help document aspects of a design, its primary purpose is not to document problems and constraints. These are typically documented through other means during the problem definition phase."
+                },
+                {
+                    "text": "To test material properties",
+                    "isCorrect": 0,
+                    "explanation": "Testing material properties is typically done through physical testing and experimentation, not through CAD software. CAD is used for modeling and visualization rather than material testing."
+                }
+            ],
+            "funFact": "Modern CAD software can do more than just create 3D models - it can simulate real-world physics, analyze structural integrity, and even optimize designs for manufacturing processes, helping engineers spot potential issues before anything is built!"
+        },
+        {
+            "id": 4,
+            "text": "In engineering design, which of the following best describes design criteria?",
+            "options": [
+                {
+                    "text": "The requirements that must be met for a design solution to be considered successful",
+                    "isCorrect": 1,
+                    "explanation": "Design criteria are the specific requirements that define what makes a solution successful, like performance targets or functionality goals."
+                },
+                {
+                    "text": "The limitations placed on the design solution",
+                    "isCorrect": 0,
+                    "explanation": "These are actually design constraints, not criteria. Constraints are limitations like budget, materials, or time restrictions."
+                },
+                {
+                    "text": "The steps followed to create a design",
+                    "isCorrect": 0,
+                    "explanation": "This describes the engineering design process itself, not the criteria. Criteria are about what the solution needs to achieve."
+                },
+                {
+                    "text": "The tools and materials available for the project",
+                    "isCorrect": 0,
+                    "explanation": "Available materials are actually constraints that limit what can be used, not criteria that define success."
+                }
+            ],
+            "funFact": "The first formal design criteria in engineering were developed during the Industrial Revolution in the 1800s, when engineers needed standardized ways to evaluate if steam engines and other machines would work safely and effectively."
+        },
+        {
+            "id": 5,
+            "text": "What is the primary purpose of research in the engineering design process?",
+            "options": [
+                {
+                    "text": "To gather information about existing solutions and enhance current ideas",
+                    "isCorrect": 1,
+                    "explanation": "Research helps engineers learn from existing solutions and improve their ideas by examining what has already been developed and what could be enhanced."
+                },
+                {
+                    "text": "To build multiple prototypes quickly",
+                    "isCorrect": 0,
+                    "explanation": "While prototypes are important, they come after research. Building prototypes is part of the testing and optimization phase, not the research phase."
+                },
+                {
+                    "text": "To present final results to stakeholders",
+                    "isCorrect": 0,
+                    "explanation": "Presenting results happens after a solution is developed and tested. Research occurs earlier in the process to inform the development of solutions."
+                },
+                {
+                    "text": "To determine the project budget",
+                    "isCorrect": 0,
+                    "explanation": "While budget considerations are important constraints, research primarily focuses on gathering technical information and understanding existing solutions."
+                }
+            ],
+            "funFact": "The Wright brothers conducted extensive research before building their first airplane, studying bird flight and reading every book they could find about aeronautics. This research was crucial to their success in developing the first powered aircraft!"
+        },
+        {
+            "id": 6,
+            "text": "An architectural firm is designing a new office building in an urban area. Which combination of factors would be most critical to consider as design constraints for creating an energy-efficient building?",
+            "options": [
+                {
+                    "text": "Initial construction costs and exterior aesthetic appeal",
+                    "isCorrect": 0,
+                    "explanation": "While construction costs are a constraint, focusing only on costs and aesthetics overlooks critical environmental and long-term efficiency factors that are essential for energy efficiency."
+                },
+                {
+                    "text": "Building height and number of parking spaces",
+                    "isCorrect": 0,
+                    "explanation": "Although these are building design considerations, they are not directly related to creating an energy-efficient structure."
+                },
+                {
+                    "text": "Insulation materials, window placement, and local climate patterns",
+                    "isCorrect": 1,
+                    "explanation": "These factors directly impact the building's energy efficiency by affecting heat retention, natural lighting, and heating/cooling needs based on environmental conditions."
+                },
+                {
+                    "text": "Construction timeline and available workforce",
+                    "isCorrect": 0,
+                    "explanation": "While these are important project management constraints, they don't significantly impact the building's long-term energy efficiency."
+                }
+            ],
+            "funFact": "Modern energy-efficient buildings can reduce energy consumption by up to 80% compared to conventional buildings through smart design choices like proper orientation, advanced insulation materials, and passive solar heating techniques."
+        },
+        {
+            "id": 7,
+            "text": "A coastal city is experiencing frequent flooding during storms and high tides. Engineers are tasked with designing a flood prevention system. Which scientific principle would most significantly limit the possible solutions?",
+            "options": [
+                {
+                    "text": "Gravity's effect on water flow",
+                    "isCorrect": 1,
+                    "explanation": "Gravity is a fundamental force that determines how water flows and accumulates, making it a key limiting factor in designing flood prevention systems. Any solution must work with gravity rather than against it."
+                },
+                {
+                    "text": "Wind patterns in the area",
+                    "isCorrect": 0,
+                    "explanation": "While wind patterns can influence flooding, they are generally less constraining than gravity and can be addressed through various design adaptations."
+                },
+                {
+                    "text": "Local wildlife populations",
+                    "isCorrect": 0,
+                    "explanation": "While wildlife impact is an important environmental consideration, it typically doesn't fundamentally limit the physical possibilities of flood prevention solutions like gravity does."
+                },
+                {
+                    "text": "Soil composition",
+                    "isCorrect": 0,
+                    "explanation": "Though soil composition affects construction methods, engineers can usually modify or work around soil conditions, making it less limiting than gravity."
+                }
+            ],
+            "funFact": "The Netherlands has been fighting against flooding for centuries and has developed some of the world's most innovative flood prevention systems, including the Maeslantkering storm surge barrier, which is as long as two Eiffel Towers laid down!"
+        },
+        {
+            "id": 8,
+            "text": "A city wants to develop a new recycling system to better manage its waste. Which of the following factors would be most important to consider as constraints when designing this system?",
+            "options": [
+                {
+                    "text": "The available budget, existing infrastructure, and collection schedules",
+                    "isCorrect": 1,
+                    "explanation": "Budget, infrastructure, and schedules are key practical constraints that directly impact the feasibility and sustainability of a recycling system. These factors determine what solutions are actually possible to implement."
+                },
+                {
+                    "text": "The color scheme and aesthetic design of recycling bins",
+                    "isCorrect": 0,
+                    "explanation": "While bin design has some importance for user engagement, it is a minor consideration compared to fundamental system constraints like budget and infrastructure that determine basic functionality."
+                },
+                {
+                    "text": "The number of awards the system might win",
+                    "isCorrect": 0,
+                    "explanation": "Winning awards should not be a primary consideration when designing a critical infrastructure system. The focus should be on practical constraints that affect the system's ability to serve its core purpose."
+                },
+                {
+                    "text": "The popularity of the system on social media",
+                    "isCorrect": 0,
+                    "explanation": "Social media reception is not a crucial constraint for designing an effective recycling system. The focus should be on practical limitations and requirements that affect the system's ability to function."
+                }
+            ],
+            "funFact": "San Francisco achieved an 80% waste diversion rate - one of the highest in North America - by carefully considering practical constraints when designing their recycling system, including innovative solutions for apartment buildings and businesses with space limitations."
+        },
+        {
+            "id": 9,
+            "text": "A group of farmers in an arid region needs to develop a new irrigation system to efficiently water their crops. Which of the following factors would be the most critical constraint to consider when designing this system?",
+            "options": [
+                {
+                    "text": "The amount of available water in the region's aquifer",
+                    "isCorrect": 1,
+                    "explanation": "Water availability is a crucial natural resource constraint that directly impacts the viability and sustainability of an irrigation system in an arid region."
+                },
+                {
+                    "text": "The color scheme of the irrigation equipment",
+                    "isCorrect": 0,
+                    "explanation": "While aesthetic considerations might matter, they are not critical constraints for a functional irrigation system design."
+                },
+                {
+                    "text": "The brand name of the irrigation components",
+                    "isCorrect": 0,
+                    "explanation": "The specific brand of components is less important than ensuring the system meets functional requirements within resource constraints."
+                },
+                {
+                    "text": "The packaging design for the system parts",
+                    "isCorrect": 0,
+                    "explanation": "Packaging design is not a critical constraint for the functionality or success of an irrigation system."
+                }
+            ],
+            "funFact": "Modern precision irrigation systems can reduce water usage by up to 50% compared to traditional flood irrigation methods, while simultaneously improving crop yields through more targeted water delivery."
+        },
+        {
+            "id": 10,
+            "text": "A team of biomedical engineers is developing a new robotic surgical assistant for minimally invasive procedures. Which safety consideration should be their highest priority when defining the design constraints?",
+            "options": [
+                {
+                    "text": "The maximum cost of manufacturing the device",
+                    "isCorrect": 0,
+                    "explanation": "While cost is a valid constraint, patient safety takes precedence over financial considerations in medical device development."
+                },
+                {
+                    "text": "The precision and reliability of the device's movement control systems",
+                    "isCorrect": 1,
+                    "explanation": "Precise control and reliability are crucial safety requirements for surgical robots, as even tiny errors could cause serious harm to patients during procedures."
+                },
+                {
+                    "text": "The aesthetic appearance of the device",
+                    "isCorrect": 0,
+                    "explanation": "While professional appearance matters, it is not a critical safety consideration for medical devices compared to their functional safety."
+                },
+                {
+                    "text": "The speed at which the device can complete procedures",
+                    "isCorrect": 0,
+                    "explanation": "Operating speed is important for efficiency but should not be prioritized over the safety and accuracy of the surgical procedure."
+                }
+            ],
+            "funFact": "The first surgical robot, PUMA 560, was used in 1985 for a neurosurgical biopsy. Since then, surgical robots have become increasingly sophisticated, with some modern systems capable of movements more precise than the human hand, operating at accuracies of less than 1 millimeter!"
+        },
+        {
+            "id": 11,
+            "text": "An architectural firm is designing sustainable housing for different regions across the country. Which factor would most significantly impact the precision of design criteria for these houses?",
+            "options": [
+                {
+                    "text": "The varying climate conditions in different regions",
+                    "isCorrect": 1,
+                    "explanation": "Climate variations across regions significantly impact housing design criteria, affecting choices in materials, insulation, energy systems, and overall structure to ensure sustainability and efficiency."
+                },
+                {
+                    "text": "The color preferences of potential homeowners",
+                    "isCorrect": 0,
+                    "explanation": "While color preferences matter for aesthetics, they don't significantly impact the core design criteria for sustainable housing solutions."
+                },
+                {
+                    "text": "The brand of construction tools available",
+                    "isCorrect": 0,
+                    "explanation": "Construction tool brands are interchangeable and don't meaningfully affect the fundamental design criteria for sustainable housing."
+                },
+                {
+                    "text": "The names of local construction companies",
+                    "isCorrect": 0,
+                    "explanation": "The names of construction companies are irrelevant to establishing precise design criteria for sustainable housing solutions."
+                }
+            ],
+            "funFact": "Sustainable housing designs can reduce energy consumption by up to 90% compared to conventional buildings through proper consideration of local climate conditions. The ancient Romans were pioneers in climate-adapted architecture, using different building techniques for homes in various parts of their empire."
+        },
+        {
+            "id": 12,
+            "text": "A city is planning to replace its coal power plant with a renewable energy system. They have three proposed designs:\n\nDesign A: A large solar farm that would cover 1000 acres of unused land\nDesign B: A wind farm with 50 turbines along the coastline\nDesign C: A combination of a smaller solar farm (500 acres) and 25 wind turbines\n\nAll three designs would meet the city's power needs, but they need to evaluate which best balances energy efficiency with environmental impact. Which design would likely be the most optimal solution?",
+            "options": [
+                {
+                    "text": "Design A, because solar panels have no moving parts and minimal impact on wildlife",
+                    "isCorrect": 0,
+                    "explanation": "While solar panels have minimal maintenance needs, large solar farms can significantly impact local ecosystems and require extensive land clearing"
+                },
+                {
+                    "text": "Design B, because wind turbines take up less ground space and produce power day and night",
+                    "isCorrect": 0,
+                    "explanation": "While wind turbines have a smaller footprint, they can impact bird migration patterns and marine ecosystems when placed along coastlines"
+                },
+                {
+                    "text": "Design C, because it combines the benefits of both technologies while reducing their individual environmental impacts",
+                    "isCorrect": 1,
+                    "explanation": "A hybrid approach reduces the environmental impact of each technology while maintaining reliable power generation through diversification"
+                },
+                {
+                    "text": "None of the designs, because renewable energy systems always have more environmental impact than traditional power plants",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - renewable energy systems typically have far less environmental impact than fossil fuel power plants when properly designed"
+                }
+            ],
+            "funFact": "Hybrid renewable energy systems are becoming increasingly popular worldwide. The Gullen Solar Farm in Australia was the world's first large-scale solar farm to be co-located with a wind farm, reducing costs by sharing existing infrastructure and maximizing land use efficiency."
+        },
+        {
+            "id": 13,
+            "text": "A team of biomedical engineers is developing a new wearable device to monitor heart rate and blood pressure for patients with cardiovascular conditions. Which factor should be given the highest priority when defining the design criteria for this device?",
+            "options": [
+                {
+                    "text": "Battery life of the device",
+                    "isCorrect": 0,
+                    "explanation": "While battery life is important, it is primarily a technical constraint rather than a critical safety or effectiveness criterion for medical monitoring."
+                },
+                {
+                    "text": "Accuracy of vital sign measurements",
+                    "isCorrect": 1,
+                    "explanation": "Accurate measurements are essential for patient safety and medical decision-making, making this the highest priority criterion for a medical monitoring device."
+                },
+                {
+                    "text": "Aesthetic appearance of the device",
+                    "isCorrect": 0,
+                    "explanation": "While aesthetics may affect patient acceptance, it should not take precedence over functional requirements for a medical device."
+                },
+                {
+                    "text": "Manufacturing cost",
+                    "isCorrect": 0,
+                    "explanation": "Although cost is an important constraint, it should not be prioritized over the primary function and safety requirements of a medical monitoring device."
+                }
+            ],
+            "funFact": "The first wearable heart rate monitor was invented in 1977 by Polar Electro for the Finnish National Cross Country Ski team as a training aid. Today's medical wearables can monitor multiple vital signs simultaneously and even detect early warning signs of health issues."
+        },
+        {
+            "id": 14,
+            "text": "A city is planning to develop a new waste management system. Which consideration would be MOST important in defining the design criteria for this system?",
+            "options": [
+                {
+                    "text": "The aesthetic appearance of waste collection bins",
+                    "isCorrect": 0,
+                    "explanation": "While aesthetics can be considered, it is not the most critical factor when designing a waste management system that impacts the entire community and environment."
+                },
+                {
+                    "text": "The combined impact on environmental sustainability and public health",
+                    "isCorrect": 1,
+                    "explanation": "This is the most important consideration as it addresses both environmental protection and community wellbeing, which are key criteria for any waste management solution."
+                },
+                {
+                    "text": "The speed of waste collection vehicles",
+                    "isCorrect": 0,
+                    "explanation": "While operational efficiency matters, it is a secondary consideration compared to broader environmental and health impacts of the waste management system."
+                },
+                {
+                    "text": "The color scheme of the recycling labels",
+                    "isCorrect": 0,
+                    "explanation": "Though clear labeling is helpful, it is a minor detail compared to the system's overall impact on environment and public health."
+                }
+            ],
+            "funFact": "Modern waste management systems can convert garbage into energy! Some facilities use thermal treatment to transform waste into electricity, providing power to thousands of homes while reducing landfill usage."
+        },
+        {
+            "id": 15,
+            "text": "A manufacturing company needs to optimize their process for producing electric vehicle batteries. Which factor should be considered most critical when defining this engineering problem?",
+            "options": [
+                {
+                    "text": "Production speed to meet market demand",
+                    "isCorrect": 0,
+                    "explanation": "While production speed is important, it doesn't account for safety and environmental impacts which are crucial for battery manufacturing."
+                },
+                {
+                    "text": "Environmental and safety impacts of the manufacturing process",
+                    "isCorrect": 1,
+                    "explanation": "Battery manufacturing involves hazardous materials and complex chemical processes. Environmental and safety considerations are paramount to protect workers, communities, and ecosystems."
+                },
+                {
+                    "text": "Cost of raw materials",
+                    "isCorrect": 0,
+                    "explanation": "While material costs affect profitability, they shouldn't override safety and environmental concerns in problem definition."
+                },
+                {
+                    "text": "Competition from other manufacturers",
+                    "isCorrect": 0,
+                    "explanation": "Market competition, while relevant to business success, is secondary to ensuring safe and environmentally sound manufacturing processes."
+                }
+            ],
+            "funFact": "Electric vehicle battery manufacturing facilities, often called 'gigafactories', can be so large that they're visible from space! Tesla's Gigafactory in Nevada is projected to be the largest building in the world by footprint when completed."
+        }
+    ]
+}

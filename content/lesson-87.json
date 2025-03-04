@@ -1,0 +1,411 @@
+{
+    "id": "lesson-87",
+    "title": "Solar & Lunar Eclipses",
+    "questions": [
+        {
+            "id": 1,
+            "text": "During a total lunar eclipse, Earth's atmosphere causes the Moon to appear reddish instead of completely dark. Which statement best explains this phenomenon?",
+            "options": [
+                {
+                    "text": "Earth's atmosphere bends the longer wavelengths of sunlight (red light) around Earth's edge, while scattering shorter wavelengths, allowing some reddish light to reach the Moon",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how Earth's atmosphere filters sunlight during a lunar eclipse, allowing red wavelengths to pass through while scattering other colors"
+                },
+                {
+                    "text": "The Moon's surface naturally reflects red light more strongly during eclipses",
+                    "isCorrect": 0,
+                    "explanation": "The Moon's surface reflection properties don't change during an eclipse - the reddish color comes from Earth's atmospheric effects on sunlight"
+                },
+                {
+                    "text": "Earth's shadow contains more red light than other colors",
+                    "isCorrect": 0,
+                    "explanation": "Earth's shadow itself doesn't contain colored light - the red appearance comes from how Earth's atmosphere affects sunlight passing through it"
+                },
+                {
+                    "text": "The Sun emits more red light during lunar eclipses",
+                    "isCorrect": 0,
+                    "explanation": "The Sun's emission spectrum doesn't change during eclipses - the red color is caused by Earth's atmosphere filtering the sunlight"
+                }
+            ],
+            "funFact": "This reddish appearance of the Moon during a total lunar eclipse is why it's often called a 'Blood Moon.' The same atmospheric effect that creates this red Moon also causes our sunrises and sunsets to appear reddish!"
+        },
+        {
+            "id": 2,
+            "text": "During which Moon phase is a solar eclipse possible to occur?",
+            "options": [
+                {
+                    "text": "New Moon",
+                    "isCorrect": 1,
+                    "explanation": "During new moon, the Moon's dark side faces Earth while its illuminated side faces the Sun, making it possible for the Moon to block sunlight from reaching Earth and create a solar eclipse."
+                },
+                {
+                    "text": "Full Moon",
+                    "isCorrect": 0,
+                    "explanation": "During full moon, the Moon's illuminated side faces Earth while its dark side faces away from the Sun, making it impossible for the Moon to block sunlight from reaching Earth."
+                },
+                {
+                    "text": "First Quarter",
+                    "isCorrect": 0,
+                    "explanation": "During first quarter, half of the Moon's illuminated side is visible from Earth, and its position relative to Earth and Sun makes it impossible to block sunlight from reaching Earth."
+                },
+                {
+                    "text": "Last Quarter",
+                    "isCorrect": 0,
+                    "explanation": "During last quarter, half of the Moon's illuminated side is visible from Earth, and its position relative to Earth and Sun makes it impossible to block sunlight from reaching Earth."
+                }
+            ],
+            "funFact": "A total solar eclipse only lasts a maximum of 7 minutes and 32 seconds in any one location on Earth. This is because the Moon's shadow moves across Earth's surface at over 1,000 miles per hour!"
+        },
+        {
+            "id": 3,
+            "text": "During a total solar eclipse, if the Moon were half its current size but maintained its current distance from Earth, what would we observe on Earth?",
+            "options": [
+                {
+                    "text": "A ring of sunlight would be visible around the Moon's dark outline",
+                    "isCorrect": 1,
+                    "explanation": "A smaller Moon would not completely cover the Sun's disk, creating an annular eclipse where a bright ring of sunlight remains visible around the Moon's edges"
+                },
+                {
+                    "text": "The eclipse would last twice as long",
+                    "isCorrect": 0,
+                    "explanation": "The Moon's size does not affect the duration of an eclipse. The duration depends on the Moon's orbital speed and the observer's location"
+                },
+                {
+                    "text": "The sky would become twice as dark",
+                    "isCorrect": 0,
+                    "explanation": "A smaller Moon would actually result in less darkness during the eclipse since more of the Sun's light would be visible around its edges"
+                },
+                {
+                    "text": "No eclipse would be visible from Earth",
+                    "isCorrect": 0,
+                    "explanation": "An eclipse would still occur, but it would be an annular eclipse rather than a total eclipse since the Moon would still pass between Earth and the Sun"
+                }
+            ],
+            "funFact": "The Moon is gradually moving away from Earth at a rate of about 3.8 centimeters per year. In the very distant future (about 600 million years), the Moon will appear too small to create total solar eclipses, and only annular eclipses will be possible!"
+        },
+        {
+            "id": 4,
+            "text": "During a lunar eclipse, which of the following statements best describes how Earth's shadow falls on the Moon?",
+            "options": [
+                {
+                    "text": "In a total lunar eclipse, Earth's shadow completely covers the Moon, while in a partial eclipse, only a portion of the Moon is covered, and in a penumbral eclipse, Earth's outer shadow creates a subtle dimming effect",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how Earth's shadow affects the Moon during the three types of lunar eclipses"
+                },
+                {
+                    "text": "All lunar eclipses result in complete darkness on the Moon's surface",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because only total lunar eclipses completely cover the Moon, while partial and penumbral eclipses result in partial coverage or subtle dimming"
+                },
+                {
+                    "text": "The Moon is always completely covered during any type of lunar eclipse",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect as only total lunar eclipses result in complete coverage of the Moon by Earth's shadow"
+                },
+                {
+                    "text": "Earth's shadow never completely covers the Moon during any type of lunar eclipse",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because during a total lunar eclipse, Earth's shadow does completely cover the Moon"
+                }
+            ],
+            "funFact": "Even during a total lunar eclipse when Earth's shadow completely covers the Moon, the Moon often appears reddish rather than completely dark. This occurs because Earth's atmosphere bends and filters sunlight, allowing red wavelengths to reach and illuminate the Moon's surface!"
+        },
+        {
+            "id": 5,
+            "text": "Why do the Sun and Moon appear to be approximately the same size when viewed from Earth, even though the Sun is much larger than the Moon?",
+            "options": [
+                {
+                    "text": "The Moon is about 400 times closer to Earth than the Sun, and about 400 times smaller than the Sun",
+                    "isCorrect": 1,
+                    "explanation": "This proportional relationship between size and distance creates the optical illusion that both celestial bodies appear similar in size from Earth's perspective"
+                },
+                {
+                    "text": "The Moon's atmosphere magnifies its apparent size to match the Sun",
+                    "isCorrect": 0,
+                    "explanation": "The Moon has no atmosphere, so this cannot be the reason for the apparent size similarity"
+                },
+                {
+                    "text": "The Sun shrinks in size when it appears on the horizon",
+                    "isCorrect": 0,
+                    "explanation": "The Sun does not actually change size - this is a common misconception. Any apparent size change is an optical illusion"
+                },
+                {
+                    "text": "Earth's atmosphere makes both objects appear the same size",
+                    "isCorrect": 0,
+                    "explanation": "While Earth's atmosphere can affect how celestial objects appear, it is not responsible for making the Sun and Moon appear similar in size"
+                }
+            ],
+            "funFact": "This remarkable size-distance ratio between the Sun and Moon is a cosmic coincidence that makes total solar eclipses possible, as the Moon can completely cover the Sun's disk while leaving the beautiful corona visible"
+        },
+        {
+            "id": 6,
+            "text": "Why does the Moon always show the same side towards Earth as it orbits?",
+            "options": [
+                {
+                    "text": "The Moon rotates once on its axis in the same time it takes to complete one orbit around Earth",
+                    "isCorrect": 1,
+                    "explanation": "The Moon's rotation period matches its orbital period, causing synchronous rotation where the same side always faces Earth"
+                },
+                {
+                    "text": "The Moon doesn't rotate at all as it orbits Earth",
+                    "isCorrect": 0,
+                    "explanation": "This is a common misconception. The Moon does rotate on its axis, but its rotation is synchronized with its orbit"
+                },
+                {
+                    "text": "The Moon rotates much faster than it orbits, but we can only see one side",
+                    "isCorrect": 0,
+                    "explanation": "If the Moon rotated faster than its orbit, we would see all sides of the Moon from Earth over time"
+                },
+                {
+                    "text": "Earth's gravity prevents the Moon from rotating at all",
+                    "isCorrect": 0,
+                    "explanation": "Earth's gravity influences the Moon but doesn't prevent its rotation. The Moon does rotate, just at a specific synchronized rate"
+                }
+            ],
+            "funFact": "This synchronous rotation of the Moon is called tidal locking and occurred gradually over millions of years due to gravitational forces between Earth and the Moon. Many other moons in our solar system are also tidally locked to their planets!"
+        },
+        {
+            "id": 7,
+            "text": "During a solar eclipse, what determines whether it will be a total eclipse or a partial eclipse from a particular location on Earth?",
+            "options": [
+                {
+                    "text": "The degree of alignment between the Sun, Moon, and the observer's location on Earth",
+                    "isCorrect": 1,
+                    "explanation": "The type of eclipse depends on whether the observer is in the Moon's umbra (total shadow) or penumbra (partial shadow), which is determined by the precise alignment of these celestial bodies."
+                },
+                {
+                    "text": "The time of day when the eclipse occurs",
+                    "isCorrect": 0,
+                    "explanation": "The time of day does not determine whether an eclipse is total or partial. It's the alignment between the Sun, Moon, and observer that matters."
+                },
+                {
+                    "text": "The season during which the eclipse occurs",
+                    "isCorrect": 0,
+                    "explanation": "The season has no direct effect on whether an eclipse is total or partial. Eclipses can be total or partial in any season."
+                },
+                {
+                    "text": "The distance between the Earth and Sun",
+                    "isCorrect": 0,
+                    "explanation": "While the Earth-Sun distance varies slightly throughout the year, this variation does not determine whether an eclipse is total or partial."
+                }
+            ],
+            "funFact": "The Moon's shadow during a total solar eclipse moves across Earth's surface at speeds ranging from 1,100 to 5,000 miles per hour, depending on the location and timing of the eclipse!"
+        },
+        {
+            "id": 8,
+            "text": "During a total solar eclipse, an observer in Los Angeles sees the Moon completely blocking the Sun, while an observer in New York City sees no eclipse at all. What best explains this difference?",
+            "options": [
+                {
+                    "text": "The Moon's shadow only falls on a narrow path across Earth's surface",
+                    "isCorrect": 1,
+                    "explanation": "During a solar eclipse, the Moon casts a narrow shadow (umbra) that moves across Earth's surface. Only observers within this path of totality can see a total solar eclipse."
+                },
+                {
+                    "text": "The Moon is too small to block the Sun for all locations on Earth at once",
+                    "isCorrect": 0,
+                    "explanation": "While the Moon is much smaller than the Sun, this isn't why different locations see different eclipse views. It's the Moon's shadow path that matters."
+                },
+                {
+                    "text": "The Moon rotates too quickly to block the Sun for both cities",
+                    "isCorrect": 0,
+                    "explanation": "The Moon's rotation doesn't affect eclipse visibility. The Moon's orbital movement and the narrow path of its shadow determine where the eclipse can be seen."
+                },
+                {
+                    "text": "The Sun is at different angles in the two cities",
+                    "isCorrect": 0,
+                    "explanation": "While the Sun appears at slightly different angles from different cities, this isn't what causes the difference in eclipse visibility. It's the path of the Moon's shadow that matters."
+                }
+            ],
+            "funFact": "The Moon's shadow moves across Earth's surface at speeds of up to 1,500 miles per hour during a solar eclipse! This means that any specific location typically experiences totality for only a few minutes."
+        },
+        {
+            "id": 9,
+            "text": "Why don't solar eclipses occur during every new moon phase?",
+            "options": [
+                {
+                    "text": "Because the Moon's orbital plane is tilted about 5\u00b0 relative to Earth's orbital plane around the Sun",
+                    "isCorrect": 1,
+                    "explanation": "The Moon's tilted orbital plane means it usually passes above or below the Sun's position from Earth's perspective during new moons, preventing an eclipse"
+                },
+                {
+                    "text": "Because the Moon is too small to block the Sun's light completely",
+                    "isCorrect": 0,
+                    "explanation": "The Moon is actually the perfect size and distance to completely block the Sun during a total solar eclipse"
+                },
+                {
+                    "text": "Because the Moon rotates too slowly on its axis",
+                    "isCorrect": 0,
+                    "explanation": "The Moon's rotation rate doesn't affect whether solar eclipses occur"
+                },
+                {
+                    "text": "Because the Moon is usually too far from Earth",
+                    "isCorrect": 0,
+                    "explanation": "The Moon's distance from Earth varies slightly but isn't the main reason why we don't see solar eclipses every new moon"
+                }
+            ],
+            "funFact": "In about 600 million years, total solar eclipses will no longer be possible from Earth because the Moon is gradually moving away from our planet at a rate of about 3.8 centimeters per year. Eventually, it will appear too small in the sky to completely cover the Sun's disk."
+        },
+        {
+            "id": 10,
+            "text": "During which lunar phase does an observer on Earth see the entire illuminated side of the Moon?",
+            "options": [
+                {
+                    "text": "Full Moon",
+                    "isCorrect": 1,
+                    "explanation": "During a full moon, the Moon is on the opposite side of Earth from the Sun, allowing Earth observers to see the entire illuminated surface."
+                },
+                {
+                    "text": "New Moon",
+                    "isCorrect": 0,
+                    "explanation": "During a new moon, the Moon is between Earth and the Sun, so its dark side faces Earth and we cannot see the illuminated surface."
+                },
+                {
+                    "text": "First Quarter",
+                    "isCorrect": 0,
+                    "explanation": "During first quarter, we see only half of the Moon's illuminated surface as the Moon is at a right angle to the Earth-Sun line."
+                },
+                {
+                    "text": "Last Quarter",
+                    "isCorrect": 0,
+                    "explanation": "During last quarter, we see only half of the Moon's illuminated surface as the Moon is at a right angle to the Earth-Sun line."
+                }
+            ],
+            "funFact": "The same side of the Moon always faces Earth because the Moon rotates on its axis at exactly the same rate that it orbits Earth - a phenomenon called tidal locking. This means we never see the far side of the Moon from Earth!"
+        },
+        {
+            "id": 11,
+            "text": "Why does a solar eclipse only occur during the new moon phase?",
+            "options": [
+                {
+                    "text": "During the new moon phase, the Moon is positioned directly between Earth and the Sun, allowing it to cast a shadow on Earth",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. During a new moon, the Moon is aligned between Earth and the Sun, making it possible for the Moon's shadow to fall on Earth, creating a solar eclipse"
+                },
+                {
+                    "text": "During the new moon phase, Earth is positioned between the Moon and the Sun",
+                    "isCorrect": 0,
+                    "explanation": "This describes a lunar eclipse, not a solar eclipse. When Earth is between the Moon and Sun, it creates a lunar eclipse during a full moon"
+                },
+                {
+                    "text": "During the new moon phase, the Moon is closest to Earth in its orbit",
+                    "isCorrect": 0,
+                    "explanation": "The Moon's distance from Earth (near or far) is not what determines solar eclipses - it's the alignment of the Sun, Moon, and Earth that matters"
+                },
+                {
+                    "text": "During the new moon phase, the Moon reflects more sunlight towards Earth",
+                    "isCorrect": 0,
+                    "explanation": "Actually, during the new moon phase, we see the dark side of the Moon from Earth because the sunlit side is facing away from us"
+                }
+            ],
+            "funFact": "The Moon's shadow during a total solar eclipse moves across Earth's surface at speeds over 1,000 miles per hour! This is why total solar eclipses at any given location typically last only a few minutes."
+        },
+        {
+            "id": 12,
+            "text": "During a total lunar eclipse, the Moon often appears reddish in color rather than completely dark. What causes this phenomenon?",
+            "options": [
+                {
+                    "text": "The Moon's natural red-colored surface minerals become visible during the eclipse",
+                    "isCorrect": 0,
+                    "explanation": "The Moon's surface is actually grey in color. The reddish appearance during an eclipse is not due to its surface composition."
+                },
+                {
+                    "text": "Earth's atmosphere bends and filters sunlight, allowing red wavelengths to reach the Moon",
+                    "isCorrect": 1,
+                    "explanation": "Earth's atmosphere refracts sunlight and scatters shorter wavelengths, while allowing longer red wavelengths to pass through and illuminate the Moon during the eclipse."
+                },
+                {
+                    "text": "The Sun's corona gives off red light during the eclipse",
+                    "isCorrect": 0,
+                    "explanation": "While the Sun's corona is visible during solar eclipses, it is not responsible for the Moon's red appearance during lunar eclipses."
+                },
+                {
+                    "text": "Light from nearby stars combines to create the red glow",
+                    "isCorrect": 0,
+                    "explanation": "Starlight is too faint to cause the Moon's red appearance during an eclipse. The color comes from filtered sunlight passing through Earth's atmosphere."
+                }
+            ],
+            "funFact": "This reddish appearance of the Moon during a total lunar eclipse has led to the popular term 'Blood Moon.' The same atmospheric effect that causes the Moon to appear red during an eclipse also causes our sunrises and sunsets to appear reddish in color!"
+        },
+        {
+            "id": 13,
+            "text": "During a total solar eclipse, scientists are able to observe the Sun's corona (outer atmosphere) which is normally invisible. Why is the corona only visible during a total solar eclipse?",
+            "options": [
+                {
+                    "text": "The Moon's shadow blocks the Sun's bright surface, allowing the much fainter corona to become visible",
+                    "isCorrect": 1,
+                    "explanation": "The Sun's surface is about a million times brighter than its corona, making the corona impossible to see normally. When the Moon completely blocks the Sun's bright surface during a total solar eclipse, the much fainter corona becomes visible."
+                },
+                {
+                    "text": "The Moon's gravity pulls the corona outward, making it larger and more visible",
+                    "isCorrect": 0,
+                    "explanation": "The Moon's gravity does not affect the Sun's corona. The corona is always present but normally hidden by the Sun's intense brightness."
+                },
+                {
+                    "text": "The Earth's atmosphere becomes clearer during a total solar eclipse",
+                    "isCorrect": 0,
+                    "explanation": "Earth's atmosphere does not become clearer during an eclipse. The visibility of the corona is due to the blocking of the Sun's bright surface by the Moon."
+                },
+                {
+                    "text": "The corona only forms during a total solar eclipse",
+                    "isCorrect": 0,
+                    "explanation": "The corona is always present around the Sun. It doesn't form only during eclipses - it's just that eclipses provide the only natural opportunity to see it."
+                }
+            ],
+            "funFact": "The Sun's corona reaches temperatures of over 1 million degrees Celsius, much hotter than the Sun's surface which is only about 5,500 degrees Celsius. This phenomenon, known as the coronal heating problem, remains one of solar physics' biggest mysteries!"
+        },
+        {
+            "id": 14,
+            "text": "Why does the Moon always show the same face towards Earth?",
+            "options": [
+                {
+                    "text": "The Moon rotates once on its axis in the same time it takes to complete one orbit around Earth",
+                    "isCorrect": 1,
+                    "explanation": "This synchronous rotation means that the Moon's orbital period equals its rotational period, causing the same side to always face Earth"
+                },
+                {
+                    "text": "The Moon does not rotate on its axis at all",
+                    "isCorrect": 0,
+                    "explanation": "This is a common misconception. The Moon does rotate on its axis, but its rotation is synchronized with its orbit around Earth"
+                },
+                {
+                    "text": "The Moon rotates faster than it orbits Earth",
+                    "isCorrect": 0,
+                    "explanation": "If the Moon rotated faster than its orbital period, we would see different sides of the Moon from Earth over time"
+                },
+                {
+                    "text": "Earth's gravity prevents the Moon from rotating",
+                    "isCorrect": 0,
+                    "explanation": "While Earth's gravity affects the Moon, it doesn't prevent rotation. The Moon's rotation is a result of gravitational effects over millions of years"
+                }
+            ],
+            "funFact": "This synchronized motion between the Moon's rotation and orbit is called tidal locking. It occurred over millions of years due to gravitational forces between Earth and the Moon. Many other moons in our solar system are also tidally locked to their planets!"
+        },
+        {
+            "id": 15,
+            "text": "During a lunar cycle, the Moon appears differently from Earth as it orbits. If the Moon is positioned between Earth and the Sun, with its illuminated half facing away from Earth, what phase of the Moon would be visible from Earth?",
+            "options": [
+                {
+                    "text": "New Moon",
+                    "isCorrect": 1,
+                    "explanation": "When the Moon is between Earth and the Sun, its illuminated side faces away from Earth while its dark side faces Earth, making it appear nearly invisible - this is the New Moon phase."
+                },
+                {
+                    "text": "Full Moon",
+                    "isCorrect": 0,
+                    "explanation": "A Full Moon occurs when the Moon is on the opposite side of Earth from the Sun, with its fully illuminated face visible from Earth."
+                },
+                {
+                    "text": "First Quarter",
+                    "isCorrect": 0,
+                    "explanation": "First Quarter occurs when the Moon is at a 90-degree angle to the right of the Earth-Sun line, making half of its illuminated surface visible from Earth."
+                },
+                {
+                    "text": "Last Quarter",
+                    "isCorrect": 0,
+                    "explanation": "Last Quarter occurs when the Moon is at a 90-degree angle to the left of the Earth-Sun line, making half of its illuminated surface visible from Earth."
+                }
+            ],
+            "funFact": "The word 'month' actually comes from the word 'Moon' - it originally represented the time it takes for the Moon to go through one complete cycle of phases (approximately 29.5 days), which we now call a lunar month!"
+        }
+    ]
+}

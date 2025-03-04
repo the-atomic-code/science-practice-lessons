@@ -1,0 +1,411 @@
+{
+    "id": "lesson-24",
+    "title": "Potential vs. Kinetic Energy",
+    "questions": [
+        {
+            "id": 1,
+            "text": "A roller coaster cart starts at the top of a hill, then travels down and goes through a loop. Which statement best describes the energy transformations during this motion?",
+            "options": [
+                {
+                    "text": "The potential energy at the top of the hill is converted to kinetic energy as the cart moves down, allowing it to complete the loop",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because gravitational potential energy due to height is converted to kinetic energy (motion) as the cart descends, following the law of energy conservation"
+                },
+                {
+                    "text": "The kinetic energy at the top of the hill is converted to potential energy as the cart moves down the track",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because at the top of the hill, the cart has maximum potential energy, not kinetic energy, and energy converts from potential to kinetic as it descends"
+                },
+                {
+                    "text": "The energy remains constant throughout the ride with no conversions between potential and kinetic energy",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because energy constantly converts between potential and kinetic forms throughout the ride as the cart's height and speed change"
+                },
+                {
+                    "text": "The cart gains new energy from the track to complete the loop",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the energy for completing the loop comes from the initial potential energy at the top of the hill, not from new energy being added by the track"
+                }
+            ],
+            "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure, stands at 456 feet (139 meters) tall - that's a lot of potential energy waiting to be converted to kinetic energy during the thrilling descent!"
+        },
+        {
+            "id": 2,
+            "text": "A scientist wants to maximize the potential energy of a book on a shelf. Which combination of changes would result in the greatest increase in potential energy?",
+            "options": [
+                {
+                    "text": "Place the book higher on the shelf and add more pages to increase its mass",
+                    "isCorrect": 1,
+                    "explanation": "Both height and mass affect potential energy. Increasing both factors will result in the maximum increase in potential energy."
+                },
+                {
+                    "text": "Place the book higher on the shelf but keep the same mass",
+                    "isCorrect": 0,
+                    "explanation": "While increasing height increases potential energy, keeping the same mass doesn't maximize the potential energy as much as increasing both factors would."
+                },
+                {
+                    "text": "Keep the book at the same height but increase its mass",
+                    "isCorrect": 0,
+                    "explanation": "While increasing mass increases potential energy, keeping the same height doesn't maximize the potential energy as much as increasing both factors would."
+                },
+                {
+                    "text": "Keep both the height and mass the same",
+                    "isCorrect": 0,
+                    "explanation": "Keeping both factors the same would not increase potential energy at all."
+                }
+            ],
+            "funFact": "The concept of potential energy is crucial in hydroelectric power generation. Water stored in dams has gravitational potential energy due to its height and mass, which is converted to electrical energy as it flows down through turbines."
+        },
+        {
+            "id": 3,
+            "text": "A car's speed increases from 30 mph to 60 mph. By what factor does its kinetic energy increase?",
+            "options": [
+                {
+                    "text": "2 times",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because kinetic energy is proportional to velocity squared (v\u00b2). When speed doubles, KE increases by a factor of 4, not 2."
+                },
+                {
+                    "text": "4 times",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because kinetic energy is proportional to velocity squared (v\u00b2). When speed doubles (60/30 = 2), KE increases by a factor of 2\u00b2 = 4."
+                },
+                {
+                    "text": "8 times",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While kinetic energy increases quadratically with velocity (proportional to v\u00b2), doubling the speed results in a factor of 4 increase, not 8."
+                },
+                {
+                    "text": "16 times",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The increase in kinetic energy when speed doubles is proportional to the square of the velocity ratio (2\u00b2), which equals 4, not 16."
+                }
+            ],
+            "funFact": "This squared relationship between speed and kinetic energy is why highway crashes at higher speeds are so much more devastating - a collision at 60 mph has four times the energy of a collision at 30 mph, making safety features like crumple zones critically important in modern vehicles."
+        },
+        {
+            "id": 4,
+            "text": "Which of the following best describes potential energy?",
+            "options": [
+                {
+                    "text": "Energy stored in an object due to its position",
+                    "isCorrect": 1,
+                    "explanation": "Potential energy is the energy stored in an object based on its position. For example, a ball at the top of a hill has potential energy due to its height."
+                },
+                {
+                    "text": "Energy produced when objects collide",
+                    "isCorrect": 0,
+                    "explanation": "This describes energy transfer during collisions, not potential energy. When objects collide, kinetic energy may be transferred between objects or converted to other forms."
+                },
+                {
+                    "text": "Energy that only exists in moving objects",
+                    "isCorrect": 0,
+                    "explanation": "This describes kinetic energy, which is energy of motion. Potential energy exists in stationary objects based on their position."
+                },
+                {
+                    "text": "Energy that disappears when objects stop moving",
+                    "isCorrect": 0,
+                    "explanation": "Energy cannot disappear - it is conserved but can be converted between different forms like potential and kinetic energy."
+                }
+            ],
+            "funFact": "The gravitational potential energy of a 1-kilogram object on Jupiter would be about 2.4 times greater than on Earth at the same height, due to Jupiter's stronger gravitational field. This is why objects would fall much faster on Jupiter!"
+        },
+        {
+            "id": 5,
+            "text": "When a rollercoaster car reaches the bottom of a steep drop, what observable evidence indicates that potential energy has been converted to kinetic energy?",
+            "options": [
+                {
+                    "text": "The car moves much faster and makes more noise",
+                    "isCorrect": 1,
+                    "explanation": "The increased speed and sound at the bottom demonstrate the conversion of potential energy to kinetic energy, showing up as motion energy and sound energy."
+                },
+                {
+                    "text": "The car gets heavier",
+                    "isCorrect": 0,
+                    "explanation": "The mass of the car remains constant throughout the ride. Changes in energy do not affect the object's mass."
+                },
+                {
+                    "text": "The track becomes warmer",
+                    "isCorrect": 0,
+                    "explanation": "While some energy is converted to heat through friction, this is not the primary or most observable evidence of the energy conversion at that moment."
+                },
+                {
+                    "text": "The car glows in the dark",
+                    "isCorrect": 0,
+                    "explanation": "Energy conversion in a rollercoaster does not produce visible light. This is a misconception about energy transformation."
+                }
+            ],
+            "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure, stands 456 feet tall. At its peak, riders have enormous potential energy which converts to kinetic energy during the descent. The coaster actually reaches its top speed of 128 mph during its initial hydraulic launch rather than the descent."
+        },
+        {
+            "id": 6,
+            "text": "Two identical cars are involved in a head-on collision. Car A is traveling at 60 mph while Car B is traveling at 30 mph. Which statement correctly describes the energy transfer during the collision?",
+            "options": [
+                {
+                    "text": "Car A transfers twice as much kinetic energy as Car B during the collision",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because kinetic energy is proportional to velocity squared (v\u00b2), not just velocity. The ratio of kinetic energies would be 4:1, not 2:1."
+                },
+                {
+                    "text": "Car A transfers four times as much kinetic energy as Car B during the collision",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Since kinetic energy is calculated as KE = \u00bdmv\u00b2, and the cars are identical (same mass), the ratio of their kinetic energies is (60)\u00b2:(30)\u00b2 = 3600:900 = 4:1."
+                },
+                {
+                    "text": "Both cars transfer the same amount of kinetic energy since they have the same mass",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While the cars do have the same mass, kinetic energy depends on both mass AND velocity squared. The different speeds result in different amounts of energy transfer."
+                },
+                {
+                    "text": "Car B transfers more kinetic energy since it experiences a greater change in velocity",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While both cars experience the same change in velocity during the collision, the initial kinetic energy of Car A is greater due to its higher initial speed."
+                }
+            ],
+            "funFact": "In modern cars, the energy transferred during collisions is carefully managed through crumple zones - areas designed to deform and absorb energy during impacts. These zones help convert dangerous kinetic energy into deformation of the vehicle structure, helping protect passengers."
+        },
+        {
+            "id": 7,
+            "text": "A roller coaster car is at the top of a loop and then travels to the bottom of the loop. What energy transformation occurs during this movement?",
+            "options": [
+                {
+                    "text": "At the top of the loop, the car has more potential energy which transforms into kinetic energy as it moves to the bottom of the loop",
+                    "isCorrect": 1,
+                    "explanation": "Due to its higher position, the car has more gravitational potential energy at the top. As it moves down, this potential energy converts to kinetic energy, making the car move faster at the bottom."
+                },
+                {
+                    "text": "At the top of the loop, the car has more kinetic energy which transforms into potential energy as it moves to the bottom of the loop",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because at the top position, the car has more potential energy due to height, not kinetic energy. The car actually moves faster (has more kinetic energy) at the bottom."
+                },
+                {
+                    "text": "The car has the same amount of potential and kinetic energy at both the top and bottom of the loop",
+                    "isCorrect": 0,
+                    "explanation": "Energy transforms between potential and kinetic forms as the car moves. The total energy remains constant, but the individual amounts of potential and kinetic energy change with position."
+                },
+                {
+                    "text": "No energy transformation occurs as the car moves from top to bottom of the loop",
+                    "isCorrect": 0,
+                    "explanation": "Energy definitely transforms as the car moves. The gravitational potential energy at the top converts to kinetic energy as the car moves down."
+                }
+            ],
+            "funFact": "The first complete vertical loop in a roller coaster was built in 1895 at Coney Island in Brooklyn, New York. However, due to the extreme forces experienced by riders, it was shut down after just a few weeks. Modern roller coasters use carefully calculated clothoid loop shapes instead of perfect circles to create a safer and more enjoyable ride experience!"
+        },
+        {
+            "id": 8,
+            "text": "Two balls are rolling at the same speed of 5 m/s. Ball A has a mass of 2 kg while Ball B has a mass of 4 kg. Which statement correctly compares their kinetic energies?",
+            "options": [
+                {
+                    "text": "Ball B has twice the kinetic energy of Ball A",
+                    "isCorrect": 1,
+                    "explanation": "Since both balls have the same velocity but Ball B has twice the mass, its kinetic energy will be twice that of Ball A. KE = \u00bdmv\u00b2, and mass is directly proportional to kinetic energy."
+                },
+                {
+                    "text": "Ball B has four times the kinetic energy of Ball A",
+                    "isCorrect": 0,
+                    "explanation": "While velocity squared affects kinetic energy exponentially, mass has a direct proportional relationship. Since only the mass is different (by a factor of 2), the kinetic energy only doubles."
+                },
+                {
+                    "text": "Both balls have the same kinetic energy",
+                    "isCorrect": 0,
+                    "explanation": "Even though the balls have the same velocity, their masses are different. Mass affects kinetic energy, so they cannot have the same kinetic energy."
+                },
+                {
+                    "text": "Ball B has half the kinetic energy of Ball A",
+                    "isCorrect": 0,
+                    "explanation": "This reverses the relationship. Since Ball B has more mass and the same velocity as Ball A, it must have more kinetic energy, not less."
+                }
+            ],
+            "funFact": "In sports like bowling, players use balls of different masses but try to achieve the same speed. A heavier bowling ball carries more kinetic energy to the pins, which can result in more pin action and potentially higher scores!"
+        },
+        {
+            "id": 9,
+            "text": "A wrecking ball with a mass of 2000 kg is used to demolish a concrete wall. If the mass of the wrecking ball is doubled to 4000 kg while maintaining the same height and speed, how will this change affect the kinetic energy transfer during impact?",
+            "options": [
+                {
+                    "text": "The kinetic energy transfer will double",
+                    "isCorrect": 1,
+                    "explanation": "Since kinetic energy is directly proportional to mass (KE = \u00bdmv\u00b2), doubling the mass while keeping velocity constant will double the kinetic energy transfer during impact."
+                },
+                {
+                    "text": "The kinetic energy transfer will quadruple",
+                    "isCorrect": 0,
+                    "explanation": "While kinetic energy is proportional to velocity squared (v\u00b2), it is only directly proportional to mass (m). Since only mass was doubled, the energy transfer doubles, not quadruples."
+                },
+                {
+                    "text": "The kinetic energy transfer will remain the same",
+                    "isCorrect": 0,
+                    "explanation": "Kinetic energy depends on mass, so changing the mass while keeping velocity constant will affect the energy transfer. It cannot remain the same when mass changes."
+                },
+                {
+                    "text": "The kinetic energy transfer will decrease by half",
+                    "isCorrect": 0,
+                    "explanation": "Increasing mass increases kinetic energy when velocity remains constant. The energy transfer cannot decrease when mass increases."
+                }
+            ],
+            "funFact": "The world's largest wrecking ball weighs approximately 12,000 kg (26,455 pounds) and was used in demolition projects during the 1990s. Large wrecking balls have been largely replaced by more precise demolition methods in modern construction, but they remain an iconic symbol of demolition work."
+        },
+        {
+            "id": 10,
+            "text": "A baseball player hits two identical balls with different bat speeds. For the first hit, the bat speed is 60 mph, and for the second hit, the bat speed is 30 mph. How will the kinetic energy transferred to the second ball compare to the first ball?",
+            "options": [
+                {
+                    "text": "The second ball will have 1/4 of the kinetic energy of the first ball",
+                    "isCorrect": 1,
+                    "explanation": "Since kinetic energy is proportional to velocity squared (KE = 1/2mv\u00b2), halving the speed results in 1/4 of the kinetic energy being transferred to the ball"
+                },
+                {
+                    "text": "The second ball will have 1/2 of the kinetic energy of the first ball",
+                    "isCorrect": 0,
+                    "explanation": "This would be true if kinetic energy was directly proportional to velocity, but it's actually proportional to velocity squared"
+                },
+                {
+                    "text": "Both balls will have the same kinetic energy",
+                    "isCorrect": 0,
+                    "explanation": "Different bat speeds will transfer different amounts of kinetic energy to the balls, even if the balls are identical"
+                },
+                {
+                    "text": "The second ball will have 2/3 of the kinetic energy of the first ball",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly assumes a linear relationship between bat speed and kinetic energy transfer"
+                }
+            ],
+            "funFact": "The fastest recorded baseball bat speed in MLB history is around 93.6 mph, achieved by Giancarlo Stanton. At such speeds, the kinetic energy transferred to the baseball can be enough to make it travel over 450 feet!"
+        },
+        {
+            "id": 11,
+            "text": "Two identical steel balls are dropped from different heights - one from 2 meters and one from 8 meters. How many times more damage will the ball dropped from 8 meters cause compared to the ball dropped from 2 meters?",
+            "options": [
+                {
+                    "text": "2 times more damage",
+                    "isCorrect": 0,
+                    "explanation": "This answer is incorrect because it suggests the damage increases by a factor of 2 when the height increases by a factor of 4. Since potential energy is directly proportional to height (E = mgh), and damage is related to this energy, the damage would increase by a factor of 4, not 2."
+                },
+                {
+                    "text": "4 times more damage",
+                    "isCorrect": 1,
+                    "explanation": "When height increases by a factor of 4 (from 2m to 8m), the potential energy increases by the same factor. This potential energy converts to kinetic energy before impact, resulting in 4 times more damage."
+                },
+                {
+                    "text": "8 times more damage",
+                    "isCorrect": 0,
+                    "explanation": "This answer overestimates the relationship between height and damage. While the height increased by a factor of 4, the damage doesn't increase by a factor of 8."
+                },
+                {
+                    "text": "16 times more damage",
+                    "isCorrect": 0,
+                    "explanation": "This answer incorrectly squares the height ratio. While energy relationships often involve squared terms, in this case the relationship between height and damage is directly proportional."
+                }
+            ],
+            "funFact": "Ancient warfare engineers used this principle in designing trebuchets - medieval siege weapons that could hurl huge stones. They discovered that doubling the height from which a projectile was released would quadruple its destructive power!"
+        },
+        {
+            "id": 12,
+            "text": "A wrecking ball is used to demolish a concrete wall. The wrecking ball is raised to a height of 20 meters before being released. What happens to the energy of the wrecking ball as it swings down towards the wall?",
+            "options": [
+                {
+                    "text": "The potential energy is converted to kinetic energy as the ball swings down",
+                    "isCorrect": 1,
+                    "explanation": "As the wrecking ball falls, gravitational potential energy decreases while kinetic energy increases, following the principle of energy conservation"
+                },
+                {
+                    "text": "The ball loses all its energy before hitting the wall",
+                    "isCorrect": 0,
+                    "explanation": "Energy is conserved, not lost. The gravitational potential energy is converted to kinetic energy during the fall"
+                },
+                {
+                    "text": "The energy remains as potential energy throughout the swing",
+                    "isCorrect": 0,
+                    "explanation": "The type of energy changes during the swing - from potential energy at the highest point to kinetic energy as it moves downward"
+                },
+                {
+                    "text": "The ball gains new energy from nowhere during the fall",
+                    "isCorrect": 0,
+                    "explanation": "Energy cannot be created from nothing. The energy present at impact comes from the initial potential energy due to the ball's height"
+                }
+            ],
+            "funFact": "The world's largest wrecking ball weighs approximately 12,000 pounds (5,443 kg). When dropped from a height of 20 meters, it can generate enough force to demolish reinforced concrete structures in a single strike!"
+        },
+        {
+            "id": 13,
+            "text": "A roller coaster car starts at the top of a 50-meter-high hill, then descends down a steep drop. As the car moves down the hill, what happens to its potential and kinetic energy, and what evidence would show this energy transfer?",
+            "options": [
+                {
+                    "text": "The potential energy decreases while kinetic energy increases, evidenced by the car moving faster as it descends",
+                    "isCorrect": 1,
+                    "explanation": "As the car loses height, gravitational potential energy converts to kinetic energy, causing the car to accelerate down the hill"
+                },
+                {
+                    "text": "Both potential and kinetic energy increase, evidenced by the car moving down the hill",
+                    "isCorrect": 0,
+                    "explanation": "Energy cannot be created - it can only transfer between forms. The total energy remains constant"
+                },
+                {
+                    "text": "The potential energy increases while kinetic energy decreases, evidenced by the car slowing down",
+                    "isCorrect": 0,
+                    "explanation": "When height decreases, potential energy decreases. The car speeds up rather than slows down during descent"
+                },
+                {
+                    "text": "Neither potential nor kinetic energy changes, evidenced by the car maintaining constant motion",
+                    "isCorrect": 0,
+                    "explanation": "Energy is constantly converting between potential and kinetic forms during the descent, not staying constant"
+                }
+            ],
+            "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure, stands at 456 feet (139 meters) tall. At its highest point, the cars have enormous potential energy that converts to kinetic energy during the 418-foot drop!"
+        },
+        {
+            "id": 14,
+            "text": "Two identical pendulums are set up at the same initial height, but one has a metal bob with twice the mass of the other wooden bob. If both pendulums are released simultaneously, how will their energy transfers and motion patterns compare?",
+            "options": [
+                {
+                    "text": "The metal bob will swing faster and transfer more energy because it has more mass",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - while the metal bob has more total energy, the period of oscillation and velocity are independent of mass due to conservation of energy principles"
+                },
+                {
+                    "text": "Both pendulums will swing with the same speed and period, but the metal bob will contain twice the total energy, transferring twice as much between potential and kinetic forms during each swing",
+                    "isCorrect": 1,
+                    "explanation": "Correct! The period and velocity are independent of mass, but the heavier bob transfers more total energy during each swing while maintaining the same motion pattern"
+                },
+                {
+                    "text": "The wooden bob will swing faster to compensate for its lower mass",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - the speed of the pendulum is determined by height and gravity, not mass. The pendulum's motion is independent of mass"
+                },
+                {
+                    "text": "Neither pendulum will transfer any energy since they return to their starting position",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - energy is continuously transferred between potential and kinetic forms during the swing, even though the pendulum returns to its starting position"
+                }
+            ],
+            "funFact": "The principle that a pendulum's period is independent of mass was first discovered by Galileo Galilei in the late 16th century by observing swinging chandeliers in the Pisa Cathedral. This discovery helped lay the groundwork for modern physics!"
+        },
+        {
+            "id": 15,
+            "text": "A student drops a rubber ball from a height of 2 meters and observes it bouncing multiple times. The student notices that each bounce reaches a lower height than the previous bounce. Which statement best explains why the maximum height of each bounce decreases?",
+            "options": [
+                {
+                    "text": "Some kinetic energy is converted to thermal energy and sound energy during each bounce, leaving less energy available for the next bounce",
+                    "isCorrect": 1,
+                    "explanation": "When the ball bounces, not all of its kinetic energy is converted back to potential energy - some is lost as heat and sound, resulting in lower subsequent bounces"
+                },
+                {
+                    "text": "The ball's mass decreases with each bounce, resulting in less potential energy at the maximum height",
+                    "isCorrect": 0,
+                    "explanation": "The mass of the ball remains constant throughout the bouncing. The decrease in bounce height is due to energy conversion to other forms, not mass loss"
+                },
+                {
+                    "text": "Gravity becomes stronger after each bounce, pulling the ball down with more force",
+                    "isCorrect": 0,
+                    "explanation": "Gravitational force remains constant throughout the bouncing. The decrease in bounce height is due to energy being converted to other forms like heat and sound"
+                },
+                {
+                    "text": "The air pressure increases above the ball with each bounce, preventing it from reaching its previous height",
+                    "isCorrect": 0,
+                    "explanation": "Air pressure does not significantly change during the bouncing process. The decrease in height is due to energy being converted to other forms during each collision"
+                }
+            ],
+            "funFact": "Super balls, invented in 1964, can bounce to about 92% of their original drop height due to their special synthetic rubber material that minimizes energy loss during collision. This is much higher than regular rubber balls which typically bounce to only about 50-60% of their original height!"
+        }
+    ]
+}

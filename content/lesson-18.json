@@ -1,0 +1,411 @@
+{
+    "id": "lesson-18",
+    "title": "What is Engineering?",
+    "questions": [
+        {
+            "id": 1,
+            "text": "Why is testing important in the engineering design process?",
+            "options": [
+                {
+                    "text": "To see if the design solves the problem and identify ways to improve it",
+                    "isCorrect": 1,
+                    "explanation": "Testing helps engineers evaluate if their solution works and reveals areas that need improvement, leading to better designs."
+                },
+                {
+                    "text": "To make sure the design looks nice",
+                    "isCorrect": 0,
+                    "explanation": "While appearance can be important, the main purpose of testing is to check functionality and effectiveness of the solution."
+                },
+                {
+                    "text": "To finish the project quickly",
+                    "isCorrect": 0,
+                    "explanation": "Testing is not about rushing to complete a project - it's about ensuring the solution works effectively."
+                },
+                {
+                    "text": "To prove the first design is perfect",
+                    "isCorrect": 0,
+                    "explanation": "Engineers expect to make multiple improvements through testing, rather than assuming their first design is perfect."
+                }
+            ],
+            "funFact": "The Wright brothers conducted over 1,000 test flights before achieving successful powered flight in 1903! Their systematic testing and improvements were crucial to developing their successful airplane design."
+        },
+        {
+            "id": 2,
+            "text": "Why do engineers create multiple versions of their designs when working on a project?",
+            "options": [
+                {
+                    "text": "To improve their designs based on test results and make them work better",
+                    "isCorrect": 1,
+                    "explanation": "Engineers create multiple versions to learn from testing and make improvements, getting closer to the best solution with each attempt."
+                },
+                {
+                    "text": "Because they enjoy starting over from scratch",
+                    "isCorrect": 0,
+                    "explanation": "Engineers don't create new versions just for fun - they do it purposefully to improve their designs based on what they learn."
+                },
+                {
+                    "text": "To make their projects take longer to complete",
+                    "isCorrect": 0,
+                    "explanation": "Creating multiple versions isn't about extending project time - it's about making the final solution better through testing and improvements."
+                },
+                {
+                    "text": "Because the first version always fails completely",
+                    "isCorrect": 0,
+                    "explanation": "First versions aren't always complete failures. Engineers create multiple versions to make continuous improvements, even if early versions partially work."
+                }
+            ],
+            "funFact": "Thomas Edison made over 1,000 attempts before successfully creating a working light bulb! Each version taught him something new and helped him improve his design until he finally succeeded."
+        },
+        {
+            "id": 3,
+            "text": "Why is making a sketch important when engineers are designing a solution to a problem?",
+            "options": [
+                {
+                    "text": "It helps engineers think through their design and plan the steps before building",
+                    "isCorrect": 1,
+                    "explanation": "Sketching allows engineers to visualize their ideas, think through potential issues, and plan the construction steps before using materials and resources."
+                },
+                {
+                    "text": "It makes the final product look more artistic and beautiful",
+                    "isCorrect": 0,
+                    "explanation": "The main purpose of engineering sketches is not about aesthetics, but rather about planning and communicating design ideas effectively."
+                },
+                {
+                    "text": "It proves to others that the engineer is talented at drawing",
+                    "isCorrect": 0,
+                    "explanation": "Engineering sketches don't need to be artistic masterpieces - their value comes from helping plan and communicate design concepts, not showcasing drawing talent."
+                },
+                {
+                    "text": "It takes up time so the engineer doesn't have to start building right away",
+                    "isCorrect": 0,
+                    "explanation": "Sketching isn't about delaying construction - it's a valuable planning tool that actually helps make the building process more efficient."
+                }
+            ],
+            "funFact": "Leonardo da Vinci was both an artist and an engineer who made detailed sketches of his inventions, including flying machines and robots, hundreds of years before technology made them possible. His engineering notebooks contained over 13,000 pages of notes and drawings!"
+        },
+        {
+            "id": 4,
+            "text": "A student designed a new toy car with special wheels that can drive on both smooth roads and rough terrain. How does the shape of the wheels help solve the problem of driving on different surfaces?",
+            "options": [
+                {
+                    "text": "The wheels have deep grooves and textures that can grip different surfaces",
+                    "isCorrect": 1,
+                    "explanation": "Deep grooves and textures on wheels provide better traction and grip on various surfaces, allowing the car to drive smoothly on both roads and rough terrain."
+                },
+                {
+                    "text": "The wheels are perfectly smooth to slide easily",
+                    "isCorrect": 0,
+                    "explanation": "Smooth wheels would have poor grip and could slip on rough terrain, making it difficult to drive on different surfaces."
+                },
+                {
+                    "text": "The wheels are very small to fit everywhere",
+                    "isCorrect": 0,
+                    "explanation": "The size of the wheels alone doesn't solve the problem of driving on different surfaces - the surface texture and grip are more important."
+                },
+                {
+                    "text": "The wheels are made of soft material that melts easily",
+                    "isCorrect": 0,
+                    "explanation": "Wheels that melt easily would not be durable and could be damaged quickly, making them unsuitable for any driving surface."
+                }
+            ],
+            "funFact": "The treads on car tires were inspired by tractors in the early 1900s. Before that, car tires were completely smooth, which made driving dangerous especially in wet conditions!"
+        },
+        {
+            "id": 5,
+            "text": "What is the most effective way engineers share their design ideas with others?",
+            "options": [
+                {
+                    "text": "Through sketches and drawings",
+                    "isCorrect": 1,
+                    "explanation": "Sketches and drawings are the primary tools engineers use to communicate their ideas, as they help visualize the design before building and make it easier for others to understand the concept."
+                },
+                {
+                    "text": "Through verbal descriptions only",
+                    "isCorrect": 0,
+                    "explanation": "While verbal descriptions can be helpful, they alone are not as effective as visual representations in communicating complex design ideas."
+                },
+                {
+                    "text": "Through written reports only",
+                    "isCorrect": 0,
+                    "explanation": "Written reports alone cannot effectively convey spatial and structural aspects of a design that are easily shown through visual representations."
+                },
+                {
+                    "text": "Through mathematical equations only",
+                    "isCorrect": 0,
+                    "explanation": "While mathematical equations are important in engineering, they alone cannot effectively communicate the complete design concept to others."
+                }
+            ],
+            "funFact": "Leonardo da Vinci, who was both an artist and an engineer, created detailed sketches of his inventions including flying machines and war devices. Many of these sketches were so well-designed that modern engineers have been able to build working models based on them!"
+        },
+        {
+            "id": 6,
+            "text": "A group of students wants to design a windmill to generate electricity. Which shape of blades would be most effective for capturing wind energy and converting it into rotational motion?",
+            "options": [
+                {
+                    "text": "Long, curved blades that can catch and redirect the wind",
+                    "isCorrect": 1,
+                    "explanation": "Curved blades are most effective because they work on the airfoil principle, similar to airplane wings, creating aerodynamic lift that efficiently converts wind energy into rotational motion. The curve helps direct the wind's force to create maximum turning power."
+                },
+                {
+                    "text": "Flat, rectangular blades that block the wind",
+                    "isCorrect": 0,
+                    "explanation": "Flat blades would mostly block the wind rather than effectively converting its energy into rotation. This would make the windmill less efficient at generating electricity."
+                },
+                {
+                    "text": "Small, circular blades that let wind pass through",
+                    "isCorrect": 0,
+                    "explanation": "Small circular blades would not capture enough wind energy. Most of the wind would pass around them without creating sufficient rotational force."
+                },
+                {
+                    "text": "Square blades positioned straight up",
+                    "isCorrect": 0,
+                    "explanation": "Square blades positioned straight up would not effectively convert wind energy into rotation. They would create too much resistance and might even break in strong winds."
+                }
+            ],
+            "funFact": "The largest wind turbine blades in the world are over 350 feet long - longer than a football field! Their special curved shape helps them capture massive amounts of wind energy while withstanding incredible forces."
+        },
+        {
+            "id": 7,
+            "text": "A student wants to design a maple seed that can spread far from the parent tree. Which shape would be best for this seed dispersal device?",
+            "options": [
+                {
+                    "text": "A wing-shaped seed that spins like a helicopter when falling",
+                    "isCorrect": 1,
+                    "explanation": "The wing shape allows the seed to catch the wind and spin while falling, helping it travel farther from the parent tree."
+                },
+                {
+                    "text": "A round seed that drops straight down",
+                    "isCorrect": 0,
+                    "explanation": "A round shape would cause the seed to fall straight down, preventing it from spreading far from the parent tree."
+                },
+                {
+                    "text": "A cube-shaped seed with flat sides",
+                    "isCorrect": 0,
+                    "explanation": "A cube shape would not help the seed travel far as it doesn't catch the wind effectively."
+                },
+                {
+                    "text": "A heavy cone-shaped seed that falls quickly",
+                    "isCorrect": 0,
+                    "explanation": "A heavy cone shape would make the seed fall quickly to the ground, not allowing it to spread far."
+                }
+            ],
+            "funFact": "Nature has evolved many creative seed shapes for dispersal. Some seeds have hooks to catch rides on animal fur, while others like dandelions have tiny parachutes made of fine hairs to float on the wind!"
+        },
+        {
+            "id": 8,
+            "text": "A team of students needs to design a bridge using pasta noodles that can hold a small toy car. Which type of sketch would be most helpful in communicating their bridge design to others?",
+            "options": [
+                {
+                    "text": "A detailed diagram showing the arrangement of pasta noodles from different angles with measurements and labels",
+                    "isCorrect": 1,
+                    "explanation": "A detailed diagram with multiple views and measurements is most effective because it clearly shows how the pasta pieces will be arranged to support weight and provides specific information needed to build the bridge."
+                },
+                {
+                    "text": "A simple picture of what the bridge will look like when finished",
+                    "isCorrect": 0,
+                    "explanation": "While a finished view is helpful, it doesn't provide enough detail about the structure and arrangement of materials needed to actually construct the bridge."
+                },
+                {
+                    "text": "A list of materials needed to build the bridge",
+                    "isCorrect": 0,
+                    "explanation": "Although knowing the materials is important, a list alone doesn't show how the pieces will be arranged to create a functional bridge structure."
+                },
+                {
+                    "text": "A drawing showing only the side view of the bridge",
+                    "isCorrect": 0,
+                    "explanation": "A single side view provides limited information and may miss important structural details that would be visible from other angles."
+                }
+            ],
+            "funFact": "The world's longest pasta bridge was built by engineering students and spanned 1.3 meters (over 4 feet) while supporting more than 400 times its own weight!"
+        },
+        {
+            "id": 9,
+            "text": "A student is designing a simple pulley system to lift heavy boxes onto a high shelf. Which feature of the pulley's shape is most important for it to work properly?",
+            "options": [
+                {
+                    "text": "The round wheel shape that allows the rope to move smoothly",
+                    "isCorrect": 1,
+                    "explanation": "The circular shape of the pulley wheel is crucial because it allows the rope to move smoothly around it with minimal friction, making it easier to lift heavy objects."
+                },
+                {
+                    "text": "The color of the pulley",
+                    "isCorrect": 0,
+                    "explanation": "The color of a pulley does not affect its function. The shape that allows movement is what matters for lifting objects."
+                },
+                {
+                    "text": "The size of the mounting bracket",
+                    "isCorrect": 0,
+                    "explanation": "While the mounting bracket is important for securing the pulley, it's not the most critical shape feature for the pulley's main function of lifting objects."
+                },
+                {
+                    "text": "The texture of the pulley surface",
+                    "isCorrect": 0,
+                    "explanation": "The texture of the pulley's surface is less important than its round shape for allowing smooth movement of the rope."
+                }
+            ],
+            "funFact": "While simple pulleys have existed since ancient times, complex pulley systems were developed by the ancient Greeks around 250 BCE. Archimedes is credited with inventing compound pulleys that could multiply force, making it much easier to lift extremely heavy objects."
+        },
+        {
+            "id": 10,
+            "text": "A student wants to design a paper airplane that can fly the farthest distance. Which shape-related change would most likely help achieve this goal?",
+            "options": [
+                {
+                    "text": "Making the wings longer and narrower",
+                    "isCorrect": 1,
+                    "explanation": "Longer, narrower wings typically help paper airplanes fly farther by reducing air resistance while maintaining lift"
+                },
+                {
+                    "text": "Making the wings shorter and wider",
+                    "isCorrect": 0,
+                    "explanation": "Shorter, wider wings create more air resistance, which can reduce flying distance"
+                },
+                {
+                    "text": "Making the nose completely flat",
+                    "isCorrect": 0,
+                    "explanation": "A flat nose creates more air resistance, making it harder for the plane to fly far"
+                },
+                {
+                    "text": "Making the wings curve downward",
+                    "isCorrect": 0,
+                    "explanation": "Downward-curved wings reduce lift, making the plane more likely to fall quickly"
+                }
+            ],
+            "funFact": "The world record for the longest paper airplane flight is 77.134 meters (252 feet 7 inches), set by Dillon Ruble and Garrett Jensen in 2022, breaking the previous record of 69.14 meters set in 2012!"
+        },
+        {
+            "id": 11,
+            "text": "When building a bridge across a river, which shape would provide the most stability and strength?",
+            "options": [
+                {
+                    "text": "Triangle structures",
+                    "isCorrect": 1,
+                    "explanation": "Triangles are the strongest shape for construction because they distribute force evenly and resist deformation. They maintain their shape even under pressure, making them ideal for bridges."
+                },
+                {
+                    "text": "Square structures",
+                    "isCorrect": 0,
+                    "explanation": "Square structures can collapse more easily under pressure because their shape can be deformed into parallelograms when force is applied to their corners."
+                },
+                {
+                    "text": "Circle structures",
+                    "isCorrect": 0,
+                    "explanation": "While circles are strong for some purposes, they are not practical for bridge construction as they don't effectively distribute weight across long spans."
+                },
+                {
+                    "text": "Rectangle structures",
+                    "isCorrect": 0,
+                    "explanation": "Like squares, rectangles can be easily deformed under pressure without additional support, making them less stable for bridge construction."
+                }
+            ],
+            "funFact": "The ancient Romans were master bridge builders who understood structural principles well. They primarily used semicircular arches, and many of their bridges are still standing today, over 2000 years later! The triangular truss design became a fundamental element in modern bridge construction because of its superior strength-to-weight ratio."
+        },
+        {
+            "id": 12,
+            "text": "How does the shape of modern LED light bulbs help them function better than traditional incandescent bulbs?",
+            "options": [
+                {
+                    "text": "The spiral or flat design helps spread heat more efficiently, allowing better cooling",
+                    "isCorrect": 1,
+                    "explanation": "Modern LED bulbs are designed with special shapes and heat sinks that help dissipate heat better, making them more efficient and longer-lasting."
+                },
+                {
+                    "text": "The rounded shape helps concentrate all the light in one direction",
+                    "isCorrect": 0,
+                    "explanation": "Light bulbs actually need to distribute light in multiple directions to be effective. A design that only concentrates light in one direction would not be very useful for general lighting."
+                },
+                {
+                    "text": "The larger size allows them to produce more light",
+                    "isCorrect": 0,
+                    "explanation": "The size of the bulb is not directly related to light output. Modern LED bulbs can produce bright light while being compact."
+                },
+                {
+                    "text": "The pointed tip helps them use less electricity",
+                    "isCorrect": 0,
+                    "explanation": "The shape of the tip does not affect electricity usage. Energy efficiency comes from the internal technology and overall design of the bulb."
+                }
+            ],
+            "funFact": "The first LED was invented in 1962, but it could only produce red light. It took scientists many years of work on different shapes and materials before they could create the bright white LEDs we use today!"
+        },
+        {
+            "id": 13,
+            "text": "A designer is creating a new soap dispenser. Which shape would work best for the container to help prevent it from falling over when used?",
+            "options": [
+                {
+                    "text": "A tall, narrow cylinder with a small base",
+                    "isCorrect": 0,
+                    "explanation": "A tall, narrow cylinder would be unstable and easily tip over due to its high center of gravity and small base area."
+                },
+                {
+                    "text": "A wide, stable base with a slightly narrower top",
+                    "isCorrect": 1,
+                    "explanation": "A wide base provides stability while the narrower top makes it comfortable to hold and use. This shape helps prevent tipping when pressing down on the pump."
+                },
+                {
+                    "text": "A perfect sphere with a flat bottom",
+                    "isCorrect": 0,
+                    "explanation": "A spherical shape would be difficult to grip and could roll if bumped, even with a flat bottom."
+                },
+                {
+                    "text": "A cube with equal sides",
+                    "isCorrect": 0,
+                    "explanation": "While a cube is stable, its equal sides make it less ergonomic for holding and using as a soap dispenser."
+                }
+            ],
+            "funFact": "Modern soap dispensers often use what's called a 'center of gravity design' where the bottom portion contains more liquid than the top, making them naturally more stable even when the container is almost empty!"
+        },
+        {
+            "id": 14,
+            "text": "A robotics team is designing a robot to pick up small plastic blocks and move them to a different location. Which shape would work best for the robot's gripper to successfully grab and hold the blocks?",
+            "options": [
+                {
+                    "text": "A flat paddle-like gripper",
+                    "isCorrect": 0,
+                    "explanation": "A flat surface would not be able to securely hold the blocks as they could easily slip off during movement."
+                },
+                {
+                    "text": "A C-shaped gripper with curved fingers",
+                    "isCorrect": 1,
+                    "explanation": "A C-shaped gripper with curved fingers can wrap around blocks, providing a secure grip from multiple sides to prevent dropping while moving."
+                },
+                {
+                    "text": "A pointed needle-like gripper",
+                    "isCorrect": 0,
+                    "explanation": "A pointed gripper would be too narrow and might damage the blocks instead of picking them up safely."
+                },
+                {
+                    "text": "A completely circular gripper",
+                    "isCorrect": 0,
+                    "explanation": "A circular shape without an opening would not be able to grab and release the blocks effectively."
+                }
+            ],
+            "funFact": "Industrial robots often use different types of grippers for different tasks. Some robots even have interchangeable grippers that can be swapped out automatically, allowing one robot to perform many different jobs!"
+        },
+        {
+            "id": 15,
+            "text": "Why do modern airplanes have wings that curve upward on top and are flatter on the bottom?",
+            "options": [
+                {
+                    "text": "The curved shape helps create lift by making air move faster over the top of the wing",
+                    "isCorrect": 1,
+                    "explanation": "The curved upper surface makes air travel faster over the top, creating lower pressure above the wing. This difference in pressure between the top and bottom surfaces generates lift, helping the plane fly."
+                },
+                {
+                    "text": "The curved shape makes the plane look more beautiful",
+                    "isCorrect": 0,
+                    "explanation": "While curved wings may look nice, their shape is designed for function rather than appearance. The curve serves the important purpose of generating lift."
+                },
+                {
+                    "text": "The curved shape helps the plane fly faster by reducing weight",
+                    "isCorrect": 0,
+                    "explanation": "The wing's curve is not related to the plane's weight or speed. Instead, it creates the necessary lift force for flight through air pressure differences."
+                },
+                {
+                    "text": "The curved shape helps the plane turn more easily",
+                    "isCorrect": 0,
+                    "explanation": "While wings do help with turning, their primary curved shape is designed to generate the lift needed for flight, not specifically for turning ability."
+                }
+            ],
+            "funFact": "The curved shape of airplane wings was inspired by birds! Early aviation pioneers like the Wright brothers studied how birds' wings were curved on top, which helped them develop the first successful airplane designs."
+        }
+    ]
+}
