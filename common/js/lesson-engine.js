@@ -22,12 +22,12 @@ async function loadLesson(lessonPath) {
     try {
         console.log("Attempting to fetch from path:", lessonPath);
         
-        // Ensure we have the full path with proper structure
-        if (!lessonPath.includes('/content/') || !lessonPath.endsWith('/lesson.json')) {
+        // Construct the path to the lesson JSON file
+        if (!lessonPath.includes('/content/') || !lessonPath.endsWith('.json')) {
             // Fix malformed paths
             const lessonId = getLessonPath();
             const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
-            lessonPath = `${window.location.origin}${basePath}content/${lessonId}/lesson.json`;
+            lessonPath = `${window.location.origin}${basePath}content/${lessonId}.json`;
             console.log("Corrected path to:", lessonPath);
         }
         
@@ -251,8 +251,8 @@ function getImagePath(image, lessonId) {
     // Construct the base URL based on current location
     const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
     
-    // Construct the full path to the image
-    return `${window.location.origin}${basePath}content/${lessonId}/images/${image}`;
+    // Construct the path to the shared images folder
+    return `${window.location.origin}${basePath}content/images/${image}`;
 }
 
 /**
