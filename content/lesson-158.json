@@ -4,45 +4,35 @@
     "questions": [
         {
             "id": 1,
-            "text": "A company plans to build a new housing development near a wetland ecosystem. Which human activity would most likely help maintain the biodiversity of this ecosystem while allowing for development?",
+            "text": "How do sea stars demonstrate the importance of keystone species in maintaining biodiversity within a tide pool ecosystem?",
             "options": [
                 {
-                    "text": "Creating protected corridors that connect fragments of habitat",
+                    "text": "They control the population of mussels and other prey species, preventing any single species from dominating the ecosystem",
                     "isCorrect": 1,
-                    "explanation": "Wildlife corridors allow animals to move between habitat areas, maintaining genetic diversity and access to resources, which helps preserve biodiversity even when development occurs."
+                    "explanation": "Sea stars are keystone predators that keep mussel populations in check, allowing other species to thrive and maintaining biodiversity in tide pools"
                 },
                 {
-                    "text": "Removing all predator species from the area",
+                    "text": "They clean the tide pool water through filter feeding",
                     "isCorrect": 0,
-                    "explanation": "Removing predators would disrupt the food web and ecosystem balance, potentially leading to overpopulation of prey species and reduced biodiversity."
+                    "explanation": "Sea stars are not filter feeders - this role is performed by organisms like mussels and barnacles"
                 },
                 {
-                    "text": "Introducing non-native species to replace displaced ones",
+                    "text": "They provide food for all other organisms in the tide pool",
                     "isCorrect": 0,
-                    "explanation": "Introducing non-native species often creates competition with native species and can lead to decreased biodiversity through displacement or extinction of local species."
+                    "explanation": "While sea stars are part of the food web, their main impact comes from being predators, not prey"
                 },
                 {
-                    "text": "Building a wall to separate the development from the wetland",
+                    "text": "They create shelter for other organisms by building reef structures",
                     "isCorrect": 0,
-                    "explanation": "Complete separation would prevent necessary movement of species between areas, leading to isolated populations and reduced genetic diversity."
+                    "explanation": "Sea stars don't build structures - this is more characteristic of coral or other reef-building organisms"
                 }
             ],
-            "funFact": "The world's longest wildlife corridor is the Yellowstone to Yukon Conservation Initiative (Y2Y), which spans 2,000 miles across Canada and the United States, helping maintain healthy populations of wide-ranging species like grizzly bears and wolves."
+            "funFact": "Some sea star species can regenerate entire new bodies from just a single arm, as long as a portion of the central disc remains attached. This remarkable ability helps maintain their populations even after injury from predators or environmental stress."
         },
         {
             "id": 2,
             "text": "Which statement best describes how food webs demonstrate the transfer of energy and matter in an ecosystem?",
             "options": [
-                {
-                    "text": "Food webs show how energy and matter move in a single direction from producers to top predators",
-                    "isCorrect": 0,
-                    "explanation": "While food webs do show energy transfer from producers upward, they demonstrate complex interconnections rather than just a single direction of flow"
-                },
-                {
-                    "text": "Food webs illustrate the complex interconnections of energy and matter transfer between different organisms at various trophic levels",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how food webs model the multiple pathways of energy and matter transfer between different organisms in an ecosystem"
-                },
                 {
                     "text": "Food webs only show what predators eat in an ecosystem",
                     "isCorrect": 0,
@@ -52,6 +42,16 @@
                     "text": "Food webs demonstrate that all organisms get their energy directly from the sun",
                     "isCorrect": 0,
                     "explanation": "While producers get energy directly from the sun, other organisms get their energy by consuming other organisms, which is shown in food webs"
+                },
+                {
+                    "text": "Food webs show how energy and matter move in a single direction from producers to top predators",
+                    "isCorrect": 0,
+                    "explanation": "While food webs do show energy transfer from producers upward, they demonstrate complex interconnections rather than just a single direction of flow"
+                },
+                {
+                    "text": "Food webs illustrate the complex interconnections of energy and matter transfer between different organisms at various trophic levels",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how food webs model the multiple pathways of energy and matter transfer between different organisms in an ecosystem"
                 }
             ],
             "funFact": "The longest known food chain in nature has six links - from algae to small crustaceans to small fish to larger fish to seals to polar bears. Most food chains are shorter because energy is lost at each transfer, making longer chains inefficient."
@@ -61,9 +61,9 @@
             "text": "Which of the following ecosystem services is essential for preventing soil loss and maintaining fertile agricultural land?",
             "options": [
                 {
-                    "text": "Soil erosion prevention through plant root systems",
-                    "isCorrect": 1,
-                    "explanation": "Plant root systems help hold soil in place, preventing erosion. This is a crucial ecosystem service that maintains soil fertility and supports agriculture."
+                    "text": "Decomposition of minerals",
+                    "isCorrect": 0,
+                    "explanation": "While decomposition is important for nutrient cycling, it's not directly responsible for preventing soil erosion and maintaining soil stability."
                 },
                 {
                     "text": "Water evaporation from soil surface",
@@ -76,9 +76,9 @@
                     "explanation": "Heat absorption by the ground is a physical process but not an ecosystem service that helps prevent soil loss or maintain agricultural land."
                 },
                 {
-                    "text": "Decomposition of minerals",
-                    "isCorrect": 0,
-                    "explanation": "While decomposition is important for nutrient cycling, it's not directly responsible for preventing soil erosion and maintaining soil stability."
+                    "text": "Soil erosion prevention through plant root systems",
+                    "isCorrect": 1,
+                    "explanation": "Plant root systems help hold soil in place, preventing erosion. This is a crucial ecosystem service that maintains soil fertility and supports agriculture."
                 }
             ],
             "funFact": "A single tree's root system can hold up to 7,000 pounds of soil in place, demonstrating the impressive natural engineering that helps protect our landscapes from erosion."
@@ -93,9 +93,9 @@
                     "explanation": "Bioindicators don't control conditions - they serve as early warning signs of environmental problems."
                 },
                 {
-                    "text": "By alerting scientists to potential problems in an ecosystem before serious damage occurs",
-                    "isCorrect": 1,
-                    "explanation": "Bioindicators act as early warning systems, helping detect environmental issues before they become severe problems."
+                    "text": "By producing chemicals that maintain ecosystem balance",
+                    "isCorrect": 0,
+                    "explanation": "Bioindicators don't maintain balance through chemical production - they indicate when balance is disturbed."
                 },
                 {
                     "text": "By removing harmful substances from the ecosystem automatically",
@@ -103,118 +103,69 @@
                     "explanation": "While some organisms can help clean ecosystems, bioindicators primarily serve as warning signs rather than cleanup agents."
                 },
                 {
-                    "text": "By producing chemicals that maintain ecosystem balance",
-                    "isCorrect": 0,
-                    "explanation": "Bioindicators don't maintain balance through chemical production - they indicate when balance is disturbed."
+                    "text": "By alerting scientists to potential problems in an ecosystem before serious damage occurs",
+                    "isCorrect": 1,
+                    "explanation": "Bioindicators act as early warning systems, helping detect environmental issues before they become severe problems."
                 }
             ],
             "funFact": "Lichens are excellent bioindicators of air quality because they are extremely sensitive to air pollution. Their presence or absence in an area can tell scientists a lot about local air quality conditions!"
         },
         {
             "id": 5,
-            "text": "Which of the following statements best describes the relationship between biodiversity and ecosystem health?",
+            "text": "A local farm has noticed a significant decline in its tomato crop yield over the past few years. After investigation, scientists discovered that the population of native bees in the area has decreased dramatically. How does this decline in bee population most likely affect the ecosystem services?",
             "options": [
                 {
-                    "text": "An ecosystem with high biodiversity is typically healthier as it maintains balance among different organisms and is more resilient to changes",
+                    "text": "The decline in bee population only affects wildflower aesthetics in natural areas",
+                    "isCorrect": 0,
+                    "explanation": "This understates the importance of bees. While they do affect wildflower populations, their impact extends far beyond aesthetics to crucial ecosystem services like crop pollination."
+                },
+                {
+                    "text": "The decline in bee population primarily reduces pollination services, leading to decreased crop production and potentially affecting food availability",
                     "isCorrect": 1,
-                    "explanation": "High biodiversity indicates a healthy ecosystem because diverse species help maintain ecological balance through various interactions and make the ecosystem more stable and resilient to environmental changes"
+                    "explanation": "Bees are crucial pollinators that facilitate plant reproduction. Their decline directly impacts crop yields through reduced pollination services, which is an essential ecosystem service."
                 },
                 {
-                    "text": "The health of an ecosystem depends only on the number of species present, regardless of their interactions",
+                    "text": "The decline in bee population mainly affects soil erosion control but has minimal impact on food production",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because ecosystem health depends not just on the number of species, but also on how these species interact and maintain balance in the ecosystem"
+                    "explanation": "While soil erosion control is an important ecosystem service, it is not directly linked to bee populations. Bees primarily impact ecosystem services through pollination."
                 },
                 {
-                    "text": "An ecosystem with fewer species is healthier because there is less competition for resources",
+                    "text": "The decline in bee population only affects honey production and has no impact on other ecosystem services",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because competition for resources is a natural part of ecosystem dynamics, and fewer species actually make an ecosystem more vulnerable to disruptions"
-                },
-                {
-                    "text": "The health of an ecosystem is unrelated to its biodiversity",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because biodiversity is a key indicator of ecosystem health - the variety of species and their interactions contribute to ecosystem stability and function"
+                    "explanation": "This is incorrect because bees provide much more than just honey production. Their primary ecosystem service is pollination, which is crucial for plant reproduction and food production."
                 }
             ],
-            "funFact": "The Amazon rainforest, one of Earth's most biodiverse ecosystems, contains about 10% of all known species on the planet! This incredible biodiversity helps maintain global climate patterns and provides numerous medicinal plants used in modern medicine."
+            "funFact": "A single bee colony can pollinate up to 300 million flowers each day! Globally, nearly 90% of wild flowering plants and 75% of leading food crops depend on animal pollinators, with bees being among the most important."
         },
         {
             "id": 6,
-            "text": "A local conservation group is working to protect an endangered butterfly species in a coastal meadow ecosystem. They are considering three approaches: A) Creating a restricted sanctuary where human access is completely prohibited, B) Developing an eco-tourism program that generates funds for conservation while allowing controlled visitor access, or C) Relocating the entire butterfly population to a different protected area. Which approach would likely be most effective in maintaining biodiversity while balancing scientific, economic, and social factors?",
+            "text": "A local farm has noticed a significant decline in the honeybee population in their area. What would be the most likely impact of this decline on both the ecosystem and human food resources?",
             "options": [
                 {
-                    "text": "Creating a completely restricted sanctuary (Approach A)",
-                    "isCorrect": 0,
-                    "explanation": "While this would provide maximum protection for the butterflies, it ignores important economic and social factors, potentially leading to reduced community support and limited funding for long-term conservation efforts."
-                },
-                {
-                    "text": "Developing an eco-tourism program (Approach B)",
+                    "text": "There would be a decrease in crop yields and reduced food availability for both humans and other organisms",
                     "isCorrect": 1,
-                    "explanation": "This approach balances scientific needs (protecting the species), economic factors (generating funds for conservation), and social considerations (allowing controlled public access and education), making it the most sustainable long-term solution."
+                    "explanation": "Honeybees are essential pollinators for many food crops. Their decline would reduce crop production, affecting both human food supplies and ecosystem biodiversity."
                 },
                 {
-                    "text": "Relocating the butterfly population (Approach C)",
+                    "text": "Only exotic flowers would be affected since honeybees exclusively pollinate decorative plants",
                     "isCorrect": 0,
-                    "explanation": "Relocating the entire population could disrupt the existing ecosystem relationships and might not address the root causes of species decline. It also ignores the importance of preserving species in their natural habitats."
+                    "explanation": "Honeybees pollinate many types of plants, including crucial food crops, not just decorative flowers."
+                },
+                {
+                    "text": "Only honey production would be affected, with no impact on other food resources",
+                    "isCorrect": 0,
+                    "explanation": "Beyond honey production, bees are crucial pollinators for many fruits, vegetables, and nuts that humans consume."
+                },
+                {
+                    "text": "The impact would be minimal since wind pollination can completely replace bee pollination",
+                    "isCorrect": 0,
+                    "explanation": "While some plants are wind-pollinated, many crops specifically require insect pollination. Wind cannot effectively replace bee pollination for most flowering plants."
                 }
             ],
-            "funFact": "Butterfly conservation efforts have led to unexpected benefits in many ecosystems. When protecting butterfly habitats, conservationists have discovered that these efforts also help protect numerous other species, including various plants, insects, and birds, demonstrating the interconnected nature of ecosystem conservation."
+            "funFact": "Honeybees contribute to the production of about one-third of the food we eat, including many fruits, nuts, and vegetables. A single bee colony can pollinate up to 300 million flowers each day!"
         },
         {
             "id": 7,
-            "text": "What role do decomposers play in maintaining the biodiversity and stability of an ecosystem?",
-            "options": [
-                {
-                    "text": "They break down dead organisms and recycle nutrients back into the ecosystem",
-                    "isCorrect": 1,
-                    "explanation": "Decomposers are essential for nutrient cycling as they break down dead organisms and return valuable nutrients to the soil, making them available for plants and other organisms"
-                },
-                {
-                    "text": "They only consume excess dead material to keep the ecosystem clean",
-                    "isCorrect": 0,
-                    "explanation": "While decomposers do break down dead material, their primary importance is recycling nutrients, not just cleaning the ecosystem"
-                },
-                {
-                    "text": "They compete with other organisms for food and space",
-                    "isCorrect": 0,
-                    "explanation": "While some competition may occur, the main role of decomposers is nutrient recycling, not competition with other organisms"
-                },
-                {
-                    "text": "They produce oxygen through photosynthesis",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - photosynthesis is carried out by plants and some other organisms, not decomposers"
-                }
-            ],
-            "funFact": "A single teaspoon of healthy soil can contain over one billion decomposers, including bacteria and fungi, working constantly to break down organic matter and maintain nutrient cycles!"
-        },
-        {
-            "id": 8,
-            "text": "A marine biologist is studying two coastal ecosystems - one with a healthy sea otter population and another where sea otters have recently disappeared. What is the most likely effect of sea otter removal on the kelp forest ecosystem?",
-            "options": [
-                {
-                    "text": "The kelp forest will thrive and expand due to reduced competition for nutrients",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Sea otters are keystone predators that control sea urchin populations. Without sea otters, sea urchins would multiply unchecked."
-                },
-                {
-                    "text": "The kelp forest will decline dramatically as sea urchins multiply and consume the kelp",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Sea otters are keystone predators that control sea urchin populations. Without sea otters, sea urchin populations explode and they overgraze the kelp forests, leading to ecosystem collapse."
-                },
-                {
-                    "text": "The kelp forest will remain unchanged as other species will fill the sea otter's role",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. As a keystone species, sea otters play a unique role that other species cannot easily replace."
-                },
-                {
-                    "text": "The kelp forest will temporarily decline but recover quickly on its own",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Without the keystone predator (sea otters), the ecosystem cannot maintain its balance and the kelp forest decline will be long-term."
-                }
-            ],
-            "funFact": "A single sea otter can eat up to 1,000 sea urchins per day! By controlling sea urchin populations, sea otters help protect kelp forests which provide habitat for numerous marine species and help reduce coastal erosion."
-        },
-        {
-            "id": 9,
             "text": "In a coastal tide pool ecosystem, sea stars are suddenly removed due to a disease outbreak. What would be the most likely impact on the ecosystem's biodiversity and stability?",
             "options": [
                 {
@@ -223,14 +174,14 @@
                     "explanation": "Sea stars are keystone species in tide pools - their role cannot be easily filled by other predators, making this incorrect."
                 },
                 {
-                    "text": "The mussel population would increase dramatically, reducing space for other species",
-                    "isCorrect": 1,
-                    "explanation": "Without sea stars to control mussel populations, mussels would dominate the ecosystem, reducing biodiversity by outcompeting other species for space."
-                },
-                {
                     "text": "The ecosystem biodiversity would increase as more species could thrive without predation",
                     "isCorrect": 0,
                     "explanation": "Removing a keystone predator typically decreases biodiversity rather than increases it, as it allows certain prey species to dominate."
+                },
+                {
+                    "text": "The mussel population would increase dramatically, reducing space for other species",
+                    "isCorrect": 1,
+                    "explanation": "Without sea stars to control mussel populations, mussels would dominate the ecosystem, reducing biodiversity by outcompeting other species for space."
                 },
                 {
                     "text": "Only the species that were direct prey of sea stars would be affected",
@@ -241,115 +192,110 @@
             "funFact": "Sea stars can regenerate their arms if they lose them! This remarkable ability helps maintain their important role in marine ecosystems, as they can recover from injury and continue controlling prey populations."
         },
         {
-            "id": 10,
-            "text": "Why are amphibians like frogs particularly useful as bioindicator species for monitoring ecosystem health?",
+            "id": 8,
+            "text": "A local conservation group is working to protect an endangered butterfly species in a coastal meadow ecosystem. They are considering three approaches: A) Creating a restricted sanctuary where human access is completely prohibited, B) Developing an eco-tourism program that generates funds for conservation while allowing controlled visitor access, or C) Relocating the entire butterfly population to a different protected area. Which approach would likely be most effective in maintaining biodiversity while balancing scientific, economic, and social factors?",
             "options": [
                 {
-                    "text": "They can detect environmental changes through both their permeable skin and their dual aquatic-terrestrial lifestyle",
+                    "text": "Developing an eco-tourism program (Approach B)",
                     "isCorrect": 1,
-                    "explanation": "Frogs are excellent bioindicators because their permeable skin makes them sensitive to environmental toxins and their life cycle in both water and land helps monitor multiple habitat conditions."
+                    "explanation": "This approach balances scientific needs (protecting the species), economic factors (generating funds for conservation), and social considerations (allowing controlled public access and education), making it the most sustainable long-term solution."
                 },
                 {
-                    "text": "They are the most numerous species in most ecosystems",
+                    "text": "Relocating the butterfly population (Approach C)",
                     "isCorrect": 0,
-                    "explanation": "While frogs are important members of ecosystems, they are not necessarily the most numerous species. Their value as bioindicators comes from their sensitivity to environmental changes."
+                    "explanation": "Relocating the entire population could disrupt the existing ecosystem relationships and might not address the root causes of species decline. It also ignores the importance of preserving species in their natural habitats."
                 },
                 {
-                    "text": "They can survive in any type of ecosystem condition",
+                    "text": "Creating a completely restricted sanctuary (Approach A)",
                     "isCorrect": 0,
-                    "explanation": "Actually, frogs are quite sensitive to environmental changes and cannot survive in all conditions. This sensitivity is what makes them good bioindicators."
-                },
-                {
-                    "text": "They are at the top of the food chain in ecosystems",
-                    "isCorrect": 0,
-                    "explanation": "Frogs are typically middle-level consumers in food webs, not top predators. Their role as bioindicators is related to their environmental sensitivity, not their trophic level."
+                    "explanation": "While this would provide maximum protection for the butterflies, it ignores important economic and social factors, potentially leading to reduced community support and limited funding for long-term conservation efforts."
                 }
             ],
-            "funFact": "Some species of frogs can actually change color based on environmental conditions like temperature and humidity, providing an additional visual indicator of environmental changes in their habitat!"
+            "funFact": "Butterfly conservation efforts have led to unexpected benefits in many ecosystems. When protecting butterfly habitats, conservationists have discovered that these efforts also help protect numerous other species, including various plants, insects, and birds, demonstrating the interconnected nature of ecosystem conservation."
+        },
+        {
+            "id": 9,
+            "text": "In a tide pool ecosystem, sea stars (a keystone species) were completely removed due to a disease. Which of the following is most likely to occur in this ecosystem?",
+            "options": [
+                {
+                    "text": "The population of mussels and clams will increase dramatically, leading to decreased diversity of other species",
+                    "isCorrect": 1,
+                    "explanation": "Sea stars are predators that control mussel and clam populations. Without this keystone species, these prey populations would grow unchecked, taking up more space and resources, which reduces habitat for other species."
+                },
+                {
+                    "text": "The ecosystem will remain stable since other predators will immediately take over the role of sea stars",
+                    "isCorrect": 0,
+                    "explanation": "Keystone species have unique roles that cannot be easily replaced by other species. The sudden removal of a keystone species typically leads to significant ecosystem changes."
+                },
+                {
+                    "text": "All other species in the tide pool will decrease in population due to lack of food",
+                    "isCorrect": 0,
+                    "explanation": "While some species might decline, not all species depend on sea stars for food. Some populations, particularly sea star prey like mussels and clams, would actually increase."
+                },
+                {
+                    "text": "The diversity of species will increase because more space becomes available",
+                    "isCorrect": 0,
+                    "explanation": "Without sea stars controlling mussel and clam populations, these species would dominate the space, actually reducing biodiversity rather than increasing it."
+                }
+            ],
+            "funFact": "The term 'keystone species' was coined in 1966 by zoologist Robert T. Paine, who conducted groundbreaking experiments with sea stars in tide pools along the Pacific Northwest coast. Just like a keystone in an arch, these species hold the ecosystem together, despite making up a relatively small portion of the total biomass."
+        },
+        {
+            "id": 10,
+            "text": "Which of the following scenarios would most likely disrupt the balance of an ecosystem and decrease its biodiversity?",
+            "options": [
+                {
+                    "text": "Equal competition between species for available resources",
+                    "isCorrect": 0,
+                    "explanation": "Equal competition for resources is a natural part of ecosystem dynamics and helps maintain biodiversity rather than decrease it."
+                },
+                {
+                    "text": "The presence of multiple food webs in the ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "Multiple food webs in an ecosystem actually contribute to its stability and biodiversity by providing various pathways for energy flow."
+                },
+                {
+                    "text": "The removal of a keystone species from the ecosystem",
+                    "isCorrect": 1,
+                    "explanation": "Keystone species play a crucial role in maintaining ecosystem balance. Their removal can cause dramatic changes in population levels of other species, leading to decreased biodiversity."
+                },
+                {
+                    "text": "The addition of new decomposers to the ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "Decomposers generally help maintain nutrient cycling in ecosystems. Adding more decomposers typically doesn't disrupt ecosystem balance."
+                }
+            ],
+            "funFact": "The grey wolf's removal from Yellowstone National Park in the 1920s showed how losing a keystone species can transform an ecosystem. When wolves were reintroduced in 1995, it triggered a cascade of positive changes, including the recovery of plant species and the return of various animals, demonstrating the powerful influence of keystone species on biodiversity."
         },
         {
             "id": 11,
-            "text": "A local farmer notices a significant decline in bee populations near their agricultural fields. What would be the most significant impact of this decline on both the farm and surrounding natural ecosystems?",
+            "text": "Why are frogs considered important bioindicators in monitoring ecosystem health?",
             "options": [
                 {
-                    "text": "Both crop yields and wild plant diversity would likely decrease due to reduced pollination",
+                    "text": "They are the most abundant species in most ecosystems",
+                    "isCorrect": 0,
+                    "explanation": "While frogs are present in many ecosystems, their importance as bioindicators is not related to their abundance but rather their sensitivity to environmental changes."
+                },
+                {
+                    "text": "They can detect environmental changes before they become visible to humans due to their sensitive skin and dual aquatic-terrestrial lifecycle",
                     "isCorrect": 1,
-                    "explanation": "Bees are crucial pollinators for both agricultural crops and wild plants. Their decline would reduce plant reproduction in both systems, affecting food production and ecosystem biodiversity."
+                    "explanation": "Frogs are excellent bioindicators because their permeable skin and complex lifecycle make them highly sensitive to environmental changes, acting as an early warning system for ecosystem problems."
                 },
                 {
-                    "text": "Only the farm's crop production would be affected, while natural ecosystems would remain stable",
+                    "text": "They eat all types of harmful insects that could damage the ecosystem",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because bees pollinate both agricultural and wild plants. Natural ecosystems would also be significantly impacted by pollinator loss."
+                    "explanation": "Although frogs do eat insects, their role as bioindicators is related to their sensitivity to environmental changes, not their feeding habits."
                 },
                 {
-                    "text": "The impact would be minimal since wind pollination would compensate for the loss of bees",
+                    "text": "They can survive in any type of environment regardless of pollution levels",
                     "isCorrect": 0,
-                    "explanation": "While some plants are wind-pollinated, many crops and wild plants depend specifically on insect pollination. Wind pollination cannot fully replace the role of bees."
-                },
-                {
-                    "text": "The ecosystem would quickly adapt by developing alternative pollination methods",
-                    "isCorrect": 0,
-                    "explanation": "Ecosystems cannot rapidly evolve new pollination methods. The loss of pollinators would have immediate and long-lasting effects on plant reproduction and biodiversity."
+                    "explanation": "This is incorrect - frogs are actually quite vulnerable to environmental changes and pollution, which is precisely why they make good bioindicators."
                 }
             ],
-            "funFact": "Approximately one-third of the world's food crops depend on pollinators, particularly bees. A single honey bee colony can pollinate up to 300 million flowers each day!"
+            "funFact": "Some species of frogs can actually change color based on environmental conditions! This remarkable ability, along with other unique characteristics, makes them excellent indicators of ecosystem health. Scientists often study frog populations to assess the impacts of climate change and pollution on natural habitats."
         },
         {
             "id": 12,
-            "text": "A national park manager needs to decide whether to allow guided hiking tours in a sensitive mountain ecosystem. Which approach would best balance human access with biodiversity conservation?",
-            "options": [
-                {
-                    "text": "Allow unlimited hiking access throughout the park to maximize visitor experience",
-                    "isCorrect": 0,
-                    "explanation": "Unrestricted access could damage fragile habitats and disturb wildlife, threatening the ecosystem's biodiversity."
-                },
-                {
-                    "text": "Designate specific trails and limit group sizes while monitoring ecosystem health",
-                    "isCorrect": 1,
-                    "explanation": "This balanced approach allows controlled human access while protecting sensitive areas and maintaining biodiversity through careful monitoring."
-                },
-                {
-                    "text": "Completely prohibit all human access to ensure maximum ecosystem protection",
-                    "isCorrect": 0,
-                    "explanation": "While this would protect biodiversity, it fails to balance conservation with the educational and recreational benefits that controlled access can provide."
-                },
-                {
-                    "text": "Allow hiking only during winter months when plants are dormant",
-                    "isCorrect": 0,
-                    "explanation": "Seasonal restrictions alone don't address year-round ecosystem impacts and may still allow damage to other components of biodiversity."
-                }
-            ],
-            "funFact": "The world's first national park, Yellowstone, established in 1872, pioneered the concept of balancing public access with ecosystem preservation. Its management strategies have influenced protected area policies worldwide."
-        },
-        {
-            "id": 13,
-            "text": "A small coastal town notices a sudden decline in its fish population after several sea star populations were affected by a disease. Which of the following best explains why the loss of sea stars had such a significant impact on the ecosystem?",
-            "options": [
-                {
-                    "text": "Sea stars are keystone species that help maintain ecosystem balance by controlling prey populations",
-                    "isCorrect": 1,
-                    "explanation": "Sea stars are keystone species that play a crucial role in maintaining ecosystem balance. Their removal can cause dramatic changes as prey populations grow unchecked, affecting multiple levels of the food web."
-                },
-                {
-                    "text": "Sea stars are the main food source for most fish species in coastal waters",
-                    "isCorrect": 0,
-                    "explanation": "While some fish may eat sea stars, they are not the main food source for most fish species. The impact of sea stars is primarily through their role as predators controlling other species' populations."
-                },
-                {
-                    "text": "Sea stars are the primary producers in marine ecosystems",
-                    "isCorrect": 0,
-                    "explanation": "Sea stars are consumers, not producers. Primary producers in marine ecosystems are typically algae and other photosynthetic organisms."
-                },
-                {
-                    "text": "Sea stars decompose organic matter needed by fish",
-                    "isCorrect": 0,
-                    "explanation": "While decomposition is important in ecosystems, sea stars are not decomposers. Their impact comes from their role as predators in the ecosystem."
-                }
-            ],
-            "funFact": "The impact of sea stars on coastal ecosystems was dramatically demonstrated during the 2013-2014 sea star wasting disease outbreak along the Pacific Coast, which led to significant changes in coastal ecosystem dynamics and demonstrated the interconnectedness of marine species."
-        },
-        {
-            "id": 14,
             "text": "In a kelp forest ecosystem, if sea otters were to significantly decline in numbers, what would be the most likely impact on the ecosystem?",
             "options": [
                 {
@@ -376,31 +322,85 @@
             "funFact": "A single sea otter can eat up to 1,000 sea urchins per day! This impressive appetite helps maintain the delicate balance of kelp forest ecosystems, as healthy kelp forests can sequester up to 20 times more carbon dioxide from the atmosphere than if they were absent."
         },
         {
-            "id": 15,
-            "text": "What is the primary role of conservation biologists in maintaining ecosystem health?",
+            "id": 13,
+            "text": "A national park manager needs to decide whether to allow guided hiking tours in a sensitive mountain ecosystem. Which approach would best balance human access with biodiversity conservation?",
             "options": [
                 {
-                    "text": "They study biodiversity and collect data on populations to assess ecosystem health and develop solutions to problems",
+                    "text": "Designate specific trails and limit group sizes while monitoring ecosystem health",
                     "isCorrect": 1,
-                    "explanation": "Conservation biologists gather data on different populations to determine ecosystem health and develop solutions when problems are identified, making this their primary role."
+                    "explanation": "This balanced approach allows controlled human access while protecting sensitive areas and maintaining biodiversity through careful monitoring."
                 },
                 {
-                    "text": "They focus only on protecting endangered species in national parks",
+                    "text": "Completely prohibit all human access to ensure maximum ecosystem protection",
                     "isCorrect": 0,
-                    "explanation": "While protecting endangered species is important, conservation biologists have a broader role that includes studying entire ecosystems and their biodiversity."
+                    "explanation": "While this would protect biodiversity, it fails to balance conservation with the educational and recreational benefits that controlled access can provide."
                 },
                 {
-                    "text": "They mainly work on maintaining food webs in marine ecosystems",
+                    "text": "Allow unlimited hiking access throughout the park to maximize visitor experience",
                     "isCorrect": 0,
-                    "explanation": "Conservation biologists work in all types of ecosystems, not just marine environments, and their work goes beyond just maintaining food webs."
+                    "explanation": "Unrestricted access could damage fragile habitats and disturb wildlife, threatening the ecosystem's biodiversity."
                 },
                 {
-                    "text": "They primarily enforce environmental laws and regulations",
+                    "text": "Allow hiking only during winter months when plants are dormant",
                     "isCorrect": 0,
-                    "explanation": "While conservation biologists may work within environmental regulations, their primary role is scientific study and solution development, not law enforcement."
+                    "explanation": "Seasonal restrictions alone don't address year-round ecosystem impacts and may still allow damage to other components of biodiversity."
                 }
             ],
-            "funFact": "Conservation biology emerged as a distinct field in the 1980s, combining principles from ecology, genetics, and social sciences to address the challenges of preserving Earth's biodiversity. These scientists often use advanced technologies like GPS tracking and DNA analysis to study and protect ecosystems."
+            "funFact": "The world's first national park, Yellowstone, established in 1872, pioneered the concept of balancing public access with ecosystem preservation. Its management strategies have influenced protected area policies worldwide."
+        },
+        {
+            "id": 14,
+            "text": "A local farmer notices a significant decline in bee populations near their agricultural fields. What would be the most significant impact of this decline on both the farm and surrounding natural ecosystems?",
+            "options": [
+                {
+                    "text": "Both crop yields and wild plant diversity would likely decrease due to reduced pollination",
+                    "isCorrect": 1,
+                    "explanation": "Bees are crucial pollinators for both agricultural crops and wild plants. Their decline would reduce plant reproduction in both systems, affecting food production and ecosystem biodiversity."
+                },
+                {
+                    "text": "The ecosystem would quickly adapt by developing alternative pollination methods",
+                    "isCorrect": 0,
+                    "explanation": "Ecosystems cannot rapidly evolve new pollination methods. The loss of pollinators would have immediate and long-lasting effects on plant reproduction and biodiversity."
+                },
+                {
+                    "text": "The impact would be minimal since wind pollination would compensate for the loss of bees",
+                    "isCorrect": 0,
+                    "explanation": "While some plants are wind-pollinated, many crops and wild plants depend specifically on insect pollination. Wind pollination cannot fully replace the role of bees."
+                },
+                {
+                    "text": "Only the farm's crop production would be affected, while natural ecosystems would remain stable",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because bees pollinate both agricultural and wild plants. Natural ecosystems would also be significantly impacted by pollinator loss."
+                }
+            ],
+            "funFact": "Approximately one-third of the world's food crops depend on pollinators, particularly bees. A single honey bee colony can pollinate up to 300 million flowers each day!"
+        },
+        {
+            "id": 15,
+            "text": "A small coastal town notices a sudden decline in its fish population after several sea star populations were affected by a disease. Which of the following best explains why the loss of sea stars had such a significant impact on the ecosystem?",
+            "options": [
+                {
+                    "text": "Sea stars decompose organic matter needed by fish",
+                    "isCorrect": 0,
+                    "explanation": "While decomposition is important in ecosystems, sea stars are not decomposers. Their impact comes from their role as predators in the ecosystem."
+                },
+                {
+                    "text": "Sea stars are keystone species that help maintain ecosystem balance by controlling prey populations",
+                    "isCorrect": 1,
+                    "explanation": "Sea stars are keystone species that play a crucial role in maintaining ecosystem balance. Their removal can cause dramatic changes as prey populations grow unchecked, affecting multiple levels of the food web."
+                },
+                {
+                    "text": "Sea stars are the primary producers in marine ecosystems",
+                    "isCorrect": 0,
+                    "explanation": "Sea stars are consumers, not producers. Primary producers in marine ecosystems are typically algae and other photosynthetic organisms."
+                },
+                {
+                    "text": "Sea stars are the main food source for most fish species in coastal waters",
+                    "isCorrect": 0,
+                    "explanation": "While some fish may eat sea stars, they are not the main food source for most fish species. The impact of sea stars is primarily through their role as predators controlling other species' populations."
+                }
+            ],
+            "funFact": "The impact of sea stars on coastal ecosystems was dramatically demonstrated during the 2013-2014 sea star wasting disease outbreak along the Pacific Coast, which led to significant changes in coastal ecosystem dynamics and demonstrated the interconnectedness of marine species."
         }
     ]
 }

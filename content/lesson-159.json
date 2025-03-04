@@ -4,12 +4,120 @@
     "questions": [
         {
             "id": 1,
+            "text": "What is a negative effect of burning trash in landfills?",
+            "options": [
+                {
+                    "text": "It helps clean the environment",
+                    "isCorrect": 0,
+                    "explanation": "Burning trash doesn't clean the environment - it adds pollutants to the air and can harm human health and the environment."
+                },
+                {
+                    "text": "It creates more space in the landfill",
+                    "isCorrect": 0,
+                    "explanation": "While burning may reduce trash volume, the environmental cost of air pollution outweighs any space-saving benefits."
+                },
+                {
+                    "text": "It makes the trash decompose faster",
+                    "isCorrect": 0,
+                    "explanation": "Burning trash doesn't help with decomposition - it actually creates new problems by releasing pollutants into the air."
+                },
+                {
+                    "text": "It releases harmful gases into the air causing pollution",
+                    "isCorrect": 1,
+                    "explanation": "When trash is burned, it releases chemicals and gases that contribute to air pollution and smog, making the air unhealthy to breathe."
+                }
+            ],
+            "funFact": "Many modern waste management facilities use special incinerators that capture harmful emissions and convert waste to energy, providing a cleaner alternative to open burning in landfills."
+        },
+        {
+            "id": 2,
+            "text": "Which of the following BEST explains why recycling helps preserve natural resources?",
+            "options": [
+                {
+                    "text": "Recycling makes natural resources grow faster in nature",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because recycling doesn't affect how quickly natural resources grow or replenish in nature"
+                },
+                {
+                    "text": "Recycling creates new natural resources that didn't exist before",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because recycling transforms existing materials - it doesn't create new natural resources"
+                },
+                {
+                    "text": "When we recycle materials like paper and plastic, we need fewer new resources from nature to make products",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because recycling allows us to reuse existing materials instead of extracting new raw materials from nature"
+                },
+                {
+                    "text": "Recycling only helps keep the environment clean but doesn't affect natural resources",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because recycling both helps keep the environment clean AND helps preserve natural resources by reducing the need for new raw materials"
+                }
+            ],
+            "funFact": "Did you know that recycling one aluminum can saves enough energy to run a TV for three hours? This shows how recycling not only saves natural resources but also helps conserve energy!"
+        },
+        {
+            "id": 3,
+            "text": "How does taking shorter showers help protect the environment?",
+            "options": [
+                {
+                    "text": "It saves electricity for lighting",
+                    "isCorrect": 0,
+                    "explanation": "While saving electricity is good for the environment, the main environmental benefit of shorter showers is water conservation, not electricity savings from lighting."
+                },
+                {
+                    "text": "It reduces water waste and conserves this important natural resource",
+                    "isCorrect": 1,
+                    "explanation": "Taking shorter showers directly reduces water consumption, helping conserve water which is a vital natural resource that needs to be protected."
+                },
+                {
+                    "text": "It reduces noise pollution",
+                    "isCorrect": 0,
+                    "explanation": "Shower noise is not a significant environmental concern. The environmental benefit of shorter showers comes from reducing water usage."
+                },
+                {
+                    "text": "It keeps the bathroom cleaner",
+                    "isCorrect": 0,
+                    "explanation": "While this might be a benefit, it's not related to environmental protection. The main environmental benefit comes from water conservation."
+                }
+            ],
+            "funFact": "An average 10-minute shower uses about 20 gallons of water. By reducing shower time by just 2 minutes, you can save 4 gallons of water every time you shower!"
+        },
+        {
+            "id": 4,
+            "text": "What is the main purpose of recycling?",
+            "options": [
+                {
+                    "text": "To turn old materials into new useful items",
+                    "isCorrect": 1,
+                    "explanation": "Recycling helps transform used materials like paper, plastic, and bottles into new products, reducing waste and conserving resources."
+                },
+                {
+                    "text": "To store trash in landfills",
+                    "isCorrect": 0,
+                    "explanation": "Storing trash in landfills is actually what we want to avoid through recycling, as landfills can cause pollution and take up valuable space."
+                },
+                {
+                    "text": "To burn waste materials",
+                    "isCorrect": 0,
+                    "explanation": "Burning waste can actually cause air pollution. Recycling aims to reuse materials rather than burn them."
+                },
+                {
+                    "text": "To make things look cleaner",
+                    "isCorrect": 0,
+                    "explanation": "While recycling does help keep our environment cleaner, its main purpose is to reuse materials to make new products."
+                }
+            ],
+            "funFact": "A single recycled aluminum can saves enough energy to run a TV for three hours! This shows how recycling not only saves materials but also helps conserve energy."
+        },
+        {
+            "id": 5,
             "text": "When factories and cars release smoke and chemicals into the air, what harmful effect does this have on our environment?",
             "options": [
                 {
-                    "text": "It creates smog and makes the air difficult to breathe",
-                    "isCorrect": 1,
-                    "explanation": "When smoke and chemicals mix in the air, they form smog which makes the air quality poor and can make it hard for people to breathe."
+                    "text": "It only affects plants but not humans",
+                    "isCorrect": 0,
+                    "explanation": "Air pollution affects both plants and humans - it can make it difficult for all living things to breathe clean air."
                 },
                 {
                     "text": "It makes the air colder",
@@ -17,130 +125,54 @@
                     "explanation": "Air pollution doesn't directly make the air colder - instead it creates harmful smog that affects air quality."
                 },
                 {
+                    "text": "It creates smog and makes the air difficult to breathe",
+                    "isCorrect": 1,
+                    "explanation": "When smoke and chemicals mix in the air, they form smog which makes the air quality poor and can make it hard for people to breathe."
+                },
+                {
                     "text": "It creates more oxygen in the air",
                     "isCorrect": 0,
                     "explanation": "Air pollution actually reduces air quality and doesn't create more oxygen - it adds harmful chemicals and particles to the air."
-                },
-                {
-                    "text": "It only affects plants but not humans",
-                    "isCorrect": 0,
-                    "explanation": "Air pollution affects both plants and humans - it can make it difficult for all living things to breathe clean air."
                 }
             ],
             "funFact": "On a clear day in Los Angeles in 1943, people suddenly couldn't see more than 3 blocks ahead due to thick smog. This event helped people realize how serious air pollution could be and led to some of the first air quality laws in the United States!"
         },
         {
-            "id": 2,
-            "text": "Which of the following correctly describes one of the three R's of environmental conservation?",
-            "options": [
-                {
-                    "text": "Reduce means to throw away things faster",
-                    "isCorrect": 0,
-                    "explanation": "Reduce actually means to use less of something, not to throw things away faster. Using less helps minimize waste and conserve resources."
-                },
-                {
-                    "text": "Reuse means to buy new things instead of old ones",
-                    "isCorrect": 0,
-                    "explanation": "Reuse means to use the same item multiple times instead of throwing it away, not buying new things. This helps decrease waste."
-                },
-                {
-                    "text": "Recycle means to make new items from old ones",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Recycling is the process of converting used materials into new products, which helps reduce waste and conserve resources."
-                },
-                {
-                    "text": "Reduce means to burn all your trash",
-                    "isCorrect": 0,
-                    "explanation": "Reduce means to use less, not to burn trash. Burning trash can actually cause air pollution and harm the environment."
-                }
-            ],
-            "funFact": "Did you know that recycling one aluminum can saves enough energy to run a TV for three hours? That's because making new aluminum cans from recycled ones uses 95% less energy than making them from raw materials!"
-        },
-        {
-            "id": 3,
-            "text": "How does taking shorter showers help protect the environment?",
-            "options": [
-                {
-                    "text": "It reduces water waste and conserves this important natural resource",
-                    "isCorrect": 1,
-                    "explanation": "Taking shorter showers directly reduces water consumption, helping conserve water which is a vital natural resource that needs to be protected."
-                },
-                {
-                    "text": "It keeps the bathroom cleaner",
-                    "isCorrect": 0,
-                    "explanation": "While this might be a benefit, it's not related to environmental protection. The main environmental benefit comes from water conservation."
-                },
-                {
-                    "text": "It saves electricity for lighting",
-                    "isCorrect": 0,
-                    "explanation": "While saving electricity is good for the environment, the main environmental benefit of shorter showers is water conservation, not electricity savings from lighting."
-                },
-                {
-                    "text": "It reduces noise pollution",
-                    "isCorrect": 0,
-                    "explanation": "Shower noise is not a significant environmental concern. The environmental benefit of shorter showers comes from reducing water usage."
-                }
-            ],
-            "funFact": "An average 10-minute shower uses about 20 gallons of water. By reducing shower time by just 2 minutes, you can save 4 gallons of water every time you shower!"
-        },
-        {
-            "id": 4,
-            "text": "When trash and chemicals collect on the ground, how does this affect the environment?",
-            "options": [
-                {
-                    "text": "The chemicals can wash into water sources and harm plants and animals",
-                    "isCorrect": 1,
-                    "explanation": "Chemicals from land pollution can be carried by rain into lakes, rivers, and groundwater, harming aquatic life and contaminating drinking water sources."
-                },
-                {
-                    "text": "The trash will quickly disappear on its own",
-                    "isCorrect": 0,
-                    "explanation": "Most trash does not disappear quickly - many materials take years or even centuries to decompose naturally."
-                },
-                {
-                    "text": "The chemicals will stay in one place and not spread",
-                    "isCorrect": 0,
-                    "explanation": "Chemicals can spread through soil and water, affecting areas far from where they were originally dumped."
-                },
-                {
-                    "text": "Only the immediate area where trash is dumped is affected",
-                    "isCorrect": 0,
-                    "explanation": "The effects of land pollution can spread far beyond the original dump site through water runoff and soil contamination."
-                }
-            ],
-            "funFact": "A single plastic bottle can take up to 450 years to completely decompose in nature. When it breaks down, it creates tiny pieces called microplastics that can spread throughout the environment and even end up in our food chain!"
-        },
-        {
-            "id": 5,
-            "text": "Which of these items can be recycled to make new products?",
-            "options": [
-                {
-                    "text": "Paper, plastic bottles, and glass containers",
-                    "isCorrect": 1,
-                    "explanation": "These common household items can all be recycled and transformed into new products, helping reduce waste in landfills"
-                },
-                {
-                    "text": "Used tissues and paper towels",
-                    "isCorrect": 0,
-                    "explanation": "Used tissues and paper towels are contaminated with germs and cannot be recycled - they should go in the trash"
-                },
-                {
-                    "text": "Food scraps and banana peels",
-                    "isCorrect": 0,
-                    "explanation": "While food waste can be composted, it cannot be recycled into new products through traditional recycling processes"
-                },
-                {
-                    "text": "Broken toys and used diapers",
-                    "isCorrect": 0,
-                    "explanation": "Most toys are made of mixed materials that cannot be recycled, and diapers are not recyclable due to contamination"
-                }
-            ],
-            "funFact": "One recycled plastic bottle saves enough energy to power a 60-watt light bulb for 3 hours! That's why recycling not only reduces waste but also helps conserve energy."
-        },
-        {
             "id": 6,
+            "text": "A family is deciding what to do with their fall leaves. Which method would be best for helping the environment?",
+            "options": [
+                {
+                    "text": "Composting the leaves in a backyard bin to create natural fertilizer",
+                    "isCorrect": 1,
+                    "explanation": "Composting leaves turns waste into useful fertilizer, reducing landfill use and providing natural nutrients for plants."
+                },
+                {
+                    "text": "Burning the leaves in a backyard fire pit",
+                    "isCorrect": 0,
+                    "explanation": "Burning leaves releases harmful chemicals and smoke into the air, contributing to air pollution."
+                },
+                {
+                    "text": "Blowing the leaves into the street",
+                    "isCorrect": 0,
+                    "explanation": "Leaves in streets can clog storm drains and wash into waterways, causing water pollution and flooding."
+                },
+                {
+                    "text": "Bagging the leaves and sending them to a landfill",
+                    "isCorrect": 0,
+                    "explanation": "Sending leaves to landfills wastes valuable space and prevents them from naturally decomposing into soil nutrients."
+                }
+            ],
+            "funFact": "One large tree can produce up to 50 pounds of leaves each year! When these leaves decompose naturally or through composting, they return valuable nutrients to the soil and help maintain healthy ecosystems."
+        },
+        {
+            "id": 7,
             "text": "A school wants to reduce their paper usage. Which of the following strategies would be most effective in reducing and reusing paper resources?",
             "options": [
+                {
+                    "text": "Making single-sided copies and recycling them after one use",
+                    "isCorrect": 0,
+                    "explanation": "This approach wastes paper by only using one side and doesn't take advantage of reuse opportunities before recycling."
+                },
                 {
                     "text": "Making double-sided copies and reusing paper that's only been written on one side",
                     "isCorrect": 1,
@@ -152,11 +184,6 @@
                     "explanation": "While using recycled paper is good, throwing away usable paper contradicts the principle of reducing and reusing resources."
                 },
                 {
-                    "text": "Making single-sided copies and recycling them after one use",
-                    "isCorrect": 0,
-                    "explanation": "This approach wastes paper by only using one side and doesn't take advantage of reuse opportunities before recycling."
-                },
-                {
                     "text": "Keeping all papers forever without recycling them",
                     "isCorrect": 0,
                     "explanation": "While this prevents immediate waste, it doesn't effectively manage resources and prevents paper from being recycled into new products."
@@ -165,45 +192,18 @@
             "funFact": "One tree can produce about 8,333 sheets of paper. By using both sides of each sheet, a school could save many trees each year!"
         },
         {
-            "id": 7,
-            "text": "A community group wants to organize a beach clean-up day. Which of the following activities would best help protect natural resources and reduce human impact on the environment?",
-            "options": [
-                {
-                    "text": "Collecting trash and sorting recyclable materials like plastic bottles and aluminum cans",
-                    "isCorrect": 1,
-                    "explanation": "Collecting and recycling waste prevents pollution of land and water while allowing materials to be reused, which helps conserve natural resources."
-                },
-                {
-                    "text": "Building new trash cans along the beach",
-                    "isCorrect": 0,
-                    "explanation": "While trash cans are useful, simply adding more containers doesn't address existing pollution or promote recycling of materials."
-                },
-                {
-                    "text": "Taking photographs of the dirty beach",
-                    "isCorrect": 0,
-                    "explanation": "Documentation alone doesn't actively help clean up or protect the environment - direct action is needed to reduce pollution and waste."
-                },
-                {
-                    "text": "Posting 'No Littering' signs",
-                    "isCorrect": 0,
-                    "explanation": "Signs may help prevent future littering but don't address existing pollution or promote recycling of materials already on the beach."
-                }
-            ],
-            "funFact": "During the 2019 International Coastal Cleanup, volunteers collected more than 20 million pieces of trash from beaches worldwide. Plastic bottles were one of the most common items found, with over 1.8 million collected!"
-        },
-        {
             "id": 8,
             "text": "Sarah wants to save water while getting ready for school in the morning. Which of the following choices would best reduce her water usage?",
             "options": [
                 {
-                    "text": "Taking a shorter shower instead of a long one",
-                    "isCorrect": 1,
-                    "explanation": "Taking shorter showers significantly reduces water consumption, saving many gallons of water each time."
-                },
-                {
                     "text": "Leaving the water running while brushing teeth",
                     "isCorrect": 0,
                     "explanation": "Leaving the water running wastes water unnecessarily. It's better to turn off the tap while brushing."
+                },
+                {
+                    "text": "Taking a shorter shower instead of a long one",
+                    "isCorrect": 1,
+                    "explanation": "Taking shorter showers significantly reduces water consumption, saving many gallons of water each time."
                 },
                 {
                     "text": "Taking a bath instead of a shower",
@@ -220,87 +220,141 @@
         },
         {
             "id": 9,
-            "text": "A family wants to handle their food waste in the most environmentally friendly way. Which of the following methods would be best for reducing their impact on the environment?",
+            "text": "Which of these grocery shopping choices best helps reduce environmental impact?",
             "options": [
                 {
-                    "text": "Create a compost bin in their backyard for fruit and vegetable scraps",
+                    "text": "Getting a new plastic bag each time you shop",
+                    "isCorrect": 0,
+                    "explanation": "Using new plastic bags every time creates unnecessary waste since these bags often end up in landfills and take hundreds of years to decompose."
+                },
+                {
+                    "text": "Double-bagging groceries for extra strength",
+                    "isCorrect": 0,
+                    "explanation": "Double-bagging uses twice as many plastic bags, which creates more waste and has a bigger negative impact on the environment."
+                },
+                {
+                    "text": "Carrying groceries without any bag",
+                    "isCorrect": 0,
+                    "explanation": "While this avoids using bags, it's not practical and could lead to dropped or damaged items, creating food waste which is also harmful to the environment."
+                },
+                {
+                    "text": "Using reusable cloth bags for carrying groceries",
                     "isCorrect": 1,
-                    "explanation": "Composting food waste creates nutrient-rich soil and reduces waste sent to landfills, helping both the land and reducing pollution"
-                },
-                {
-                    "text": "Dispose of all food waste in the regular trash",
-                    "isCorrect": 0,
-                    "explanation": "Sending food waste to landfills contributes to methane emissions and takes up valuable landfill space"
-                },
-                {
-                    "text": "Dump food waste in their backyard",
-                    "isCorrect": 0,
-                    "explanation": "Dumping food waste directly outdoors can attract pests and create unpleasant odors while polluting the soil"
-                },
-                {
-                    "text": "Rinse all food waste down the sink drain",
-                    "isCorrect": 0,
-                    "explanation": "Putting food waste down drains can clog pipes and burden water treatment facilities, potentially leading to water pollution"
+                    "explanation": "Reusable cloth bags can be used many times, reducing plastic waste and helping protect the environment by decreasing the number of disposable bags that end up in landfills."
                 }
             ],
-            "funFact": "When properly maintained, a compost pile can break down food waste into usable soil in just 2-3 months! This rich soil can then be used to grow new plants, creating a sustainable cycle that benefits gardens and reduces waste."
+            "funFact": "A single reusable shopping bag can replace hundreds of single-use plastic bags over its lifetime. Some studies estimate that a typical plastic shopping bag is used for only 12 minutes before being discarded!"
         },
         {
             "id": 10,
-            "text": "A family wants to reduce their impact on the environment through better waste management. Which of the following methods would be most effective in minimizing the amount of waste going to landfills?",
+            "text": "A student wants to dispose of plastic water bottles in a way that is best for the environment. Which of the following options should the student choose?",
             "options": [
                 {
-                    "text": "Sorting household items and recycling paper, plastic, and glass",
+                    "text": "Leave the plastic bottles on the ground outside",
+                    "isCorrect": 0,
+                    "explanation": "Littering plastic bottles pollutes the environment, can harm wildlife, and contributes to water pollution when rain washes them into waterways."
+                },
+                {
+                    "text": "Recycle the plastic bottles so they can be made into new products",
                     "isCorrect": 1,
-                    "explanation": "Recycling materials like paper, plastic, and glass allows them to be made into new products instead of taking up space in landfills and causing pollution."
+                    "explanation": "Recycling plastic bottles allows the material to be reused to make new products, reducing waste in landfills and saving natural resources."
                 },
                 {
-                    "text": "Burning all household waste in the backyard",
+                    "text": "Throw the plastic bottles in the regular trash",
                     "isCorrect": 0,
-                    "explanation": "Burning waste releases harmful chemicals into the air, causing air pollution and health problems. It's not an environmentally friendly solution."
+                    "explanation": "When plastic bottles go to landfills, they take hundreds of years to break down and can release harmful chemicals into the soil and water."
                 },
                 {
-                    "text": "Putting all waste into a single trash bin",
+                    "text": "Burn the plastic bottles in the backyard",
                     "isCorrect": 0,
-                    "explanation": "Mixing all waste together means recyclable materials end up in landfills instead of being reused, which increases environmental impact."
-                },
-                {
-                    "text": "Burying waste in the garden",
-                    "isCorrect": 0,
-                    "explanation": "Burying waste can contaminate soil and groundwater, harming plants and animals. It's not a proper way to manage waste."
+                    "explanation": "Burning plastic releases toxic chemicals and contributes to air pollution, which can be harmful to people, animals, and plants."
                 }
             ],
-            "funFact": "Did you know? An aluminum can that goes into a recycling bin can be back on the store shelf as a new can in as little as 60 days! This process can be repeated infinitely, as aluminum never wears out and can be recycled forever."
+            "funFact": "A single plastic bottle can take up to 450 years to decompose in nature, but when recycled, it can be transformed into new items like clothing, furniture, or even new bottles within just a few months!"
         },
         {
             "id": 11,
-            "text": "A city is planning to build a new landfill for waste disposal. Which location would be MOST likely to protect groundwater from pollution?",
+            "text": "A grocery store wants to reduce its environmental impact. Which packaging option would be most environmentally responsible for their fruits and vegetables?",
             "options": [
                 {
-                    "text": "On top of clay soil far from water sources",
+                    "text": "Reusable mesh bags that customers can bring back to the store",
                     "isCorrect": 1,
-                    "explanation": "Clay soil is dense and less permeable, which helps prevent contaminated water from seeping through and reaching groundwater. Placing landfills away from water sources further reduces pollution risks."
+                    "explanation": "Reusable bags can be used many times, reducing waste and the need for new materials. This follows the principles of reducing and reusing."
                 },
                 {
-                    "text": "Near a river for easy waste transportation",
+                    "text": "Single-use plastic bags that can be recycled",
                     "isCorrect": 0,
-                    "explanation": "Placing a landfill near a river increases the risk of water pollution. Harmful substances can easily leak into the river and contaminate both surface water and groundwater."
+                    "explanation": "While recyclable, single-use plastic bags still require new resources to produce and many end up in landfills. This is less environmentally friendly than reusable options."
                 },
                 {
-                    "text": "On sandy soil in a flat area",
+                    "text": "Individually wrapped items in plastic containers",
                     "isCorrect": 0,
-                    "explanation": "Sandy soil is very permeable, allowing contaminated water to easily pass through and reach groundwater. This would increase the risk of groundwater pollution."
+                    "explanation": "Individual plastic wrapping creates the most waste and uses the most resources, making it the least environmentally friendly option."
                 },
                 {
-                    "text": "In a low-lying area that collects rainwater",
+                    "text": "Disposable paper bags made from new materials",
                     "isCorrect": 0,
-                    "explanation": "Low-lying areas that collect water increase the chance of contaminated water spreading to surrounding areas and seeping into groundwater supplies."
+                    "explanation": "Using new materials for single-use bags requires cutting down trees and creates waste, even if the bags are biodegradable."
                 }
             ],
-            "funFact": "Modern landfills are actually engineered with multiple protective layers, including special plastic liners and monitoring systems, to help prevent groundwater contamination. These sophisticated designs are a far cry from the simple garbage dumps of the past!"
+            "funFact": "One reusable shopping bag can eliminate the use of hundreds of single-use plastic bags over its lifetime. Some reusable bags are made from recycled plastic bottles, giving those materials a second life while reducing waste!"
         },
         {
             "id": 12,
+            "text": "A family wants to reduce their impact on the environment. Which combination of actions would be most effective in reducing their environmental footprint?",
+            "options": [
+                {
+                    "text": "Taking shorter showers but using disposable water bottles",
+                    "isCorrect": 0,
+                    "explanation": "While shorter showers help conserve water, using disposable bottles still creates unnecessary waste."
+                },
+                {
+                    "text": "Taking longer showers and using disposable water bottles",
+                    "isCorrect": 0,
+                    "explanation": "Longer showers waste water, and disposable bottles create more plastic waste that ends up in landfills."
+                },
+                {
+                    "text": "Taking longer showers but using reusable water bottles",
+                    "isCorrect": 0,
+                    "explanation": "Using reusable bottles helps reduce waste, but longer showers waste valuable water resources."
+                },
+                {
+                    "text": "Taking shorter showers and using reusable water bottles",
+                    "isCorrect": 1,
+                    "explanation": "Shorter showers conserve water, while reusable bottles reduce plastic waste and landfill impact."
+                }
+            ],
+            "funFact": "A typical 10-minute shower uses about 20 gallons of water. By reducing shower time by just 2 minutes, a family of four could save approximately 5,800 gallons of water per year!"
+        },
+        {
+            "id": 13,
+            "text": "Your family has an old smartphone that no longer works. What would be the most environmentally responsible way to dispose of it?",
+            "options": [
+                {
+                    "text": "Throw it in the regular trash",
+                    "isCorrect": 0,
+                    "explanation": "Smartphones contain harmful chemicals that can leak into soil and water when thrown in regular trash and landfills."
+                },
+                {
+                    "text": "Bury it in the backyard",
+                    "isCorrect": 0,
+                    "explanation": "Burying electronics allows toxic materials to directly contaminate soil and potentially leak into groundwater."
+                },
+                {
+                    "text": "Break it apart and put pieces in different trash bins",
+                    "isCorrect": 0,
+                    "explanation": "Breaking electronics can release harmful substances and the pieces will still end up in landfills, causing pollution."
+                },
+                {
+                    "text": "Take it to an electronics recycling center",
+                    "isCorrect": 1,
+                    "explanation": "Electronics recycling centers safely handle hazardous materials and recover valuable components, preventing harmful substances from entering the environment."
+                }
+            ],
+            "funFact": "One million recycled cell phones can recover 35,274 pounds of copper, 772 pounds of silver, and 75 pounds of gold! This reduces the need for mining these metals from the Earth."
+        },
+        {
+            "id": 14,
             "text": "A family wants to reduce their impact on the environment. They have several ideas about how to handle their household waste. Which approach would be most effective in reducing pollution?",
             "options": [
                 {
@@ -327,85 +381,31 @@
             "funFact": "A single recycled aluminum can saves enough energy to power a television for three hours! This shows how small actions like recycling can make a big difference in conserving energy and protecting our environment."
         },
         {
-            "id": 13,
-            "text": "A homeowner wants to maintain their garden in a way that protects local wildlife and plants. Which of the following practices would be most environmentally friendly?",
-            "options": [
-                {
-                    "text": "Using natural compost instead of chemical fertilizers",
-                    "isCorrect": 1,
-                    "explanation": "Natural compost enriches soil without harmful chemicals that can harm wildlife and contaminate water sources"
-                },
-                {
-                    "text": "Spraying strong pesticides to kill all insects",
-                    "isCorrect": 0,
-                    "explanation": "Strong pesticides harm beneficial insects and can poison other wildlife that eat the insects or plants"
-                },
-                {
-                    "text": "Removing all native plants to plant exotic species",
-                    "isCorrect": 0,
-                    "explanation": "Native plants are important for local wildlife and maintaining the natural ecosystem balance"
-                },
-                {
-                    "text": "Frequently watering the lawn during hot afternoons",
-                    "isCorrect": 0,
-                    "explanation": "Watering during hot afternoons wastes water through evaporation and is not an efficient use of natural resources"
-                }
-            ],
-            "funFact": "A single teaspoon of healthy soil contains more living organisms than there are people on Earth! These microscopic creatures help break down organic matter and keep garden soil naturally fertile."
-        },
-        {
-            "id": 14,
-            "text": "A city is experiencing poor air quality due to pollution from vehicles and factories. Which combination of actions would be most effective in improving the air quality?",
-            "options": [
-                {
-                    "text": "Using electric vehicles, installing air filters in factories, and promoting public transportation",
-                    "isCorrect": 1,
-                    "explanation": "This combination addresses multiple sources of air pollution by reducing vehicle emissions, filtering industrial pollution, and decreasing the number of vehicles on the road."
-                },
-                {
-                    "text": "Planting more trees, using more cars, and building more factories",
-                    "isCorrect": 0,
-                    "explanation": "While planting trees helps clean the air, increasing car usage and factory production would add more pollution, making air quality worse."
-                },
-                {
-                    "text": "Installing air conditioners, using more gasoline vehicles, and building taller buildings",
-                    "isCorrect": 0,
-                    "explanation": "These actions would actually increase air pollution - air conditioners use energy, more gasoline vehicles create emissions, and building construction creates dust and pollution."
-                },
-                {
-                    "text": "Building more roads, using coal for energy, and removing air quality monitors",
-                    "isCorrect": 0,
-                    "explanation": "These actions would worsen air quality by encouraging more vehicle use, creating more emissions from coal burning, and reducing our ability to track air pollution levels."
-                }
-            ],
-            "funFact": "The city of Mexico City once had such severe air pollution that birds would fall from the sky. After implementing strict environmental policies including better public transport and industrial controls, the city's air quality has significantly improved!"
-        },
-        {
             "id": 15,
-            "text": "Emma is trying to decide how to take a bath. Which of the following choices would help reduce her impact on water resources the most?",
+            "text": "Sarah is going shopping and wants to make choices that help conserve natural resources. Which combination of shopping choices would have the least negative impact on the environment?",
             "options": [
                 {
-                    "text": "Take a 20-minute bath in a full bathtub",
-                    "isCorrect": 0,
-                    "explanation": "A full bathtub uses a lot of water, typically 30-50 gallons. Taking long baths wastes water resources."
-                },
-                {
-                    "text": "Take a 5-minute shower",
+                    "text": "Using a reusable shopping bag, buying items with minimal packaging, and choosing products made from recycled materials",
                     "isCorrect": 1,
-                    "explanation": "A short shower uses much less water than a bath, typically 10-25 gallons. This is the best choice for conserving water."
+                    "explanation": "This combination reduces waste through reuse, minimizes packaging waste, and supports recycling efforts, creating the smallest environmental impact"
                 },
                 {
-                    "text": "Take a 15-minute shower",
+                    "text": "Getting double-bagged plastic bags for safety, choosing pre-cut packaged produce, and buying single-serve containers",
                     "isCorrect": 0,
-                    "explanation": "While better than a bath, a long shower still uses more water than necessary. Shorter showers help conserve more water."
+                    "explanation": "This creates the most waste through extra bags, unnecessary packaging, and single-serve containers that use more resources"
                 },
                 {
-                    "text": "Take two short baths instead of one long bath",
+                    "text": "Getting new plastic bags each time, buying individually wrapped items, and choosing products in fancy packaging",
                     "isCorrect": 0,
-                    "explanation": "Taking multiple baths uses even more water than one bath. This would increase water usage rather than reduce it."
+                    "explanation": "This creates unnecessary waste through single-use bags and excess packaging, leading to more landfill waste and resource consumption"
+                },
+                {
+                    "text": "Using paper bags, buying bulk items in plastic containers, and choosing non-recyclable products",
+                    "isCorrect": 0,
+                    "explanation": "While bulk items reduce some packaging, using disposable bags and non-recyclable products still creates significant waste"
                 }
             ],
-            "funFact": "The average American family uses more than 300 gallons of water per day at home. About 20% of this indoor water usage comes from showers. By installing water-efficient showerheads and taking shorter showers, a family can save thousands of gallons of water each year!"
+            "funFact": "A single reusable shopping bag can replace hundreds of single-use plastic bags over its lifetime, preventing them from ending up in landfills or oceans where they can take up to 1,000 years to decompose!"
         }
     ]
 }

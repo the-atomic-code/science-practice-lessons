@@ -7,16 +7,6 @@
             "text": "Which senses do wolves primarily rely on to find their prey while hunting?",
             "options": [
                 {
-                    "text": "Both smell and sight",
-                    "isCorrect": 1,
-                    "explanation": "Wolves use their excellent sense of smell and sharp eyesight to locate and track their prey effectively."
-                },
-                {
-                    "text": "Only touch",
-                    "isCorrect": 0,
-                    "explanation": "While touch is a sense wolves have, it is not primarily used for finding prey. Smell and sight are much more important for hunting."
-                },
-                {
                     "text": "Only taste",
                     "isCorrect": 0,
                     "explanation": "Taste is not used to find prey. Wolves rely on their sense of smell and sight to locate food before they can taste it."
@@ -25,72 +15,28 @@
                     "text": "Only hearing",
                     "isCorrect": 0,
                     "explanation": "While wolves do have good hearing, they primarily rely on their sense of smell and sight to locate prey when hunting."
+                },
+                {
+                    "text": "Both smell and sight",
+                    "isCorrect": 1,
+                    "explanation": "Wolves use their excellent sense of smell and sharp eyesight to locate and track their prey effectively."
+                },
+                {
+                    "text": "Only touch",
+                    "isCorrect": 0,
+                    "explanation": "While touch is a sense wolves have, it is not primarily used for finding prey. Smell and sight are much more important for hunting."
                 }
             ],
             "funFact": "A wolf's sense of smell is about 100 times stronger than a human's! They can smell prey from over a mile away under the right conditions."
         },
         {
             "id": 2,
-            "text": "How do monkeys typically get to the food inside a hard nut?",
-            "options": [
-                {
-                    "text": "They use stones or hard surfaces to crack the nut open",
-                    "isCorrect": 1,
-                    "explanation": "Monkeys demonstrate tool use by banging nuts against hard surfaces or using stones to crack them open, allowing them to access the nutritious food inside."
-                },
-                {
-                    "text": "They wait for the nuts to naturally fall open",
-                    "isCorrect": 0,
-                    "explanation": "Monkeys don't passively wait for nuts to open - they actively work to access the food inside using tools or techniques."
-                },
-                {
-                    "text": "They only eat nuts that are already cracked",
-                    "isCorrect": 0,
-                    "explanation": "Monkeys have developed methods to open hard nuts themselves rather than limiting themselves to already opened ones."
-                },
-                {
-                    "text": "They use their teeth to bite through the shell",
-                    "isCorrect": 0,
-                    "explanation": "Most nut shells are too hard for monkeys to bite through directly - they need to use tools or techniques to crack them open."
-                }
-            ],
-            "funFact": "Some groups of capuchin monkeys have been using stone tools to crack nuts for at least 700 years! This tradition is passed down from one generation to the next, showing that animals can develop and maintain their own cultural practices."
-        },
-        {
-            "id": 3,
-            "text": "Which statement best describes how wolves hunt for their food?",
-            "options": [
-                {
-                    "text": "Wolves hunt in groups and use their senses of sight and smell to catch prey like deer and rabbits",
-                    "isCorrect": 1,
-                    "explanation": "Wolves are social hunters that work together in packs, making it easier to catch larger prey. Their excellent senses help them track and locate food."
-                },
-                {
-                    "text": "Wolves hunt alone and eat only plants and berries",
-                    "isCorrect": 0,
-                    "explanation": "Wolves are carnivores (meat-eaters), not herbivores. They do not eat plants and berries."
-                },
-                {
-                    "text": "Wolves climb trees to catch birds and squirrels",
-                    "isCorrect": 0,
-                    "explanation": "While wolves are skilled hunters, they do not climb trees to catch prey. They primarily hunt on the ground for larger mammals."
-                },
-                {
-                    "text": "Wolves use their tongues to smell and catch insects",
-                    "isCorrect": 0,
-                    "explanation": "This describes how some reptiles hunt, not wolves. Wolves use their nose to smell and rely on teeth and claws to catch larger prey."
-                }
-            ],
-            "funFact": "A wolf pack can bring down prey that's up to 10 times the size of an individual wolf! This remarkable feat is possible because of their coordinated hunting strategy and strong social bonds within the pack."
-        },
-        {
-            "id": 4,
             "text": "Which statement correctly describes how animals get their food?",
             "options": [
                 {
-                    "text": "All animals get their food from either plants or other animals",
-                    "isCorrect": 1,
-                    "explanation": "Animals must obtain their food from their environment, either by eating plants (like porcupines eating leaves and berries) or by eating other animals (like wolves eating rabbits and deer)"
+                    "text": "Animals only need water to survive, not food",
+                    "isCorrect": 0,
+                    "explanation": "Animals need both food and water to survive. Food provides the energy and nutrients animals need to live and grow"
                 },
                 {
                     "text": "All animals make their own food like plants do",
@@ -98,31 +44,26 @@
                     "explanation": "Unlike plants, animals cannot make their own food. They must get food by eating plants or other animals"
                 },
                 {
-                    "text": "Animals only need water to survive, not food",
-                    "isCorrect": 0,
-                    "explanation": "Animals need both food and water to survive. Food provides the energy and nutrients animals need to live and grow"
-                },
-                {
                     "text": "All animals can only eat other animals",
                     "isCorrect": 0,
                     "explanation": "While some animals eat other animals, many animals eat only plants, and some eat both plants and animals"
+                },
+                {
+                    "text": "All animals get their food from either plants or other animals",
+                    "isCorrect": 1,
+                    "explanation": "Animals must obtain their food from their environment, either by eating plants (like porcupines eating leaves and berries) or by eating other animals (like wolves eating rabbits and deer)"
                 }
             ],
             "funFact": "The largest carnivore (meat-eating animal) on land is the polar bear, while the largest herbivore (plant-eating animal) is the African bush elephant. This shows how animals of all sizes can thrive on different food sources!"
         },
         {
-            "id": 5,
+            "id": 3,
             "text": "What do all animals need to stay alive?",
             "options": [
                 {
                     "text": "Only food",
                     "isCorrect": 0,
                     "explanation": "While food is essential, animals need both food and water to survive. Animals cannot live with just food alone."
-                },
-                {
-                    "text": "Only water",
-                    "isCorrect": 0,
-                    "explanation": "While water is essential, animals need both food and water to survive. Animals cannot live with just water alone."
                 },
                 {
                     "text": "Both food and water",
@@ -133,66 +74,71 @@
                     "text": "Neither food nor water",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. No animal can survive without both food and water. These are basic needs for all animals."
+                },
+                {
+                    "text": "Only water",
+                    "isCorrect": 0,
+                    "explanation": "While water is essential, animals need both food and water to survive. Animals cannot live with just water alone."
                 }
             ],
             "funFact": "A camel can survive for several weeks without food by using the fat stored in its hump, but even they can typically only go about a week without water despite their famous ability to thrive in desert conditions!"
         },
         {
+            "id": 4,
+            "text": "Which feature helps a porcupine get food from trees?",
+            "options": [
+                {
+                    "text": "Long tail and soft fur",
+                    "isCorrect": 0,
+                    "explanation": "While porcupines have tails and fur, these features don't help them get food from trees. Their sharp claws and teeth are the key features for getting food."
+                },
+                {
+                    "text": "Sharp claws and teeth",
+                    "isCorrect": 1,
+                    "explanation": "Porcupines use their sharp claws to climb trees and their sharp teeth to eat bark and other plant parts from trees."
+                },
+                {
+                    "text": "Small eyes and short legs",
+                    "isCorrect": 0,
+                    "explanation": "Eyes help porcupines see and legs help them move, but these aren't the features that specifically help them get food from trees."
+                },
+                {
+                    "text": "Pointed ears and round nose",
+                    "isCorrect": 0,
+                    "explanation": "Ears and nose help porcupines with hearing and smelling, but these features don't help them get food from trees."
+                }
+            ],
+            "funFact": "Porcupines have over 30,000 quills on their body for protection, but these quills don't help them get food. The quills stay flat when they're climbing trees to eat!"
+        },
+        {
+            "id": 5,
+            "text": "Which of the following best describes what a porcupine eats to survive?",
+            "options": [
+                {
+                    "text": "Other small animals",
+                    "isCorrect": 0,
+                    "explanation": "Porcupines are not carnivores - they do not eat other animals. They are herbivores that eat only plant materials."
+                },
+                {
+                    "text": "Leaves, bark, and berries",
+                    "isCorrect": 1,
+                    "explanation": "Porcupines are herbivores that eat plant materials including leaves from trees, tree bark, and berries that grow on plants."
+                },
+                {
+                    "text": "Small insects and worms",
+                    "isCorrect": 0,
+                    "explanation": "Porcupines are not insectivores - they do not eat insects or worms. They are herbivores that eat only plant materials."
+                },
+                {
+                    "text": "Fish and water plants",
+                    "isCorrect": 0,
+                    "explanation": "Porcupines do not eat fish or aquatic plants. They feed on land plants, particularly trees and shrubs."
+                }
+            ],
+            "funFact": "A porcupine's sharp quills aren't just for defense - they also help the animal climb trees to reach tasty leaves and bark high up in the canopy!"
+        },
+        {
             "id": 6,
-            "text": "Which hunting behavior helps wolves catch their prey more effectively?",
-            "options": [
-                {
-                    "text": "Hunting in packs",
-                    "isCorrect": 1,
-                    "explanation": "Wolves hunt together in groups or packs, which makes it easier for them to catch and take down prey like deer and sheep. This cooperative hunting strategy increases their chances of success."
-                },
-                {
-                    "text": "Hunting alone at night",
-                    "isCorrect": 0,
-                    "explanation": "While wolves can hunt at night, hunting alone is not their most effective strategy. Working together as a group gives them a much better chance of catching prey."
-                },
-                {
-                    "text": "Hiding in trees",
-                    "isCorrect": 0,
-                    "explanation": "Wolves do not climb or hide in trees to catch their prey. They are ground hunters that rely on pack coordination and their speed to catch animals."
-                },
-                {
-                    "text": "Waiting by water holes",
-                    "isCorrect": 0,
-                    "explanation": "While wolves might find prey near water sources, simply waiting by water holes is not their primary hunting strategy. They actively hunt together as a pack to catch their prey."
-                }
-            ],
-            "funFact": "Wolf packs typically have a complex social structure with specific roles during hunting. The entire pack works together using howls and body language to coordinate their movements and surround their prey. This teamwork allows them to catch animals that would be too large or fast for a single wolf to catch alone."
-        },
-        {
-            "id": 7,
-            "text": "Which of the following animal behaviors shows the most effective way of getting food to survive?",
-            "options": [
-                {
-                    "text": "A wolf hunting alone instead of with its pack",
-                    "isCorrect": 0,
-                    "explanation": "Wolves are more successful when hunting in packs, as working together makes it easier to catch prey like deer or sheep."
-                },
-                {
-                    "text": "A porcupine using its sharp claws to climb trees for bark and leaves",
-                    "isCorrect": 1,
-                    "explanation": "This is an effective survival strategy because the porcupine uses its natural features (sharp claws) to access food sources that are readily available in its environment."
-                },
-                {
-                    "text": "A Savannah monitor trying to catch insects by looking at them",
-                    "isCorrect": 0,
-                    "explanation": "Savannah monitors primarily rely on their sense of smell through their tongue to locate insects, not just by sight alone."
-                },
-                {
-                    "text": "A monkey trying to eat nuts without cracking them first",
-                    "isCorrect": 0,
-                    "explanation": "Monkeys need to crack nuts open using tools or hard surfaces before they can access the food inside."
-                }
-            ],
-            "funFact": "Animals have evolved amazing specialized features for finding and getting food - some bats use echolocation to find insects in complete darkness, while woodpeckers have shock-absorbing skulls that let them safely peck into trees to find insects!"
-        },
-        {
-            "id": 8,
             "text": "A porcupine uses several features and behaviors to find and eat its food. Which of these behaviors helps the porcupine survive by getting food?",
             "options": [
                 {
@@ -219,67 +165,143 @@
             "funFact": "Porcupines have over 30,000 quills on their bodies, but these quills are actually modified hairs that help protect them from predators while they forage for food in trees and on the ground!"
         },
         {
-            "id": 9,
-            "text": "Which animal feature has evolved primarily to help locate and catch prey?",
+            "id": 7,
+            "text": "Which hunting behavior helps wolves catch their prey more effectively?",
             "options": [
                 {
-                    "text": "A wolf's sharp sense of smell",
+                    "text": "Hiding in trees",
+                    "isCorrect": 0,
+                    "explanation": "Wolves do not climb or hide in trees to catch their prey. They are ground hunters that rely on pack coordination and their speed to catch animals."
+                },
+                {
+                    "text": "Hunting in packs",
                     "isCorrect": 1,
-                    "explanation": "A wolf's keen sense of smell helps it track and locate prey from far distances, making it an essential feature for hunting and catching food."
+                    "explanation": "Wolves hunt together in groups or packs, which makes it easier for them to catch and take down prey like deer and sheep. This cooperative hunting strategy increases their chances of success."
                 },
                 {
-                    "text": "A porcupine's sharp claws",
+                    "text": "Hunting alone at night",
                     "isCorrect": 0,
-                    "explanation": "While porcupines have sharp claws, they primarily use them for climbing trees to reach leaves and bark, not for catching prey."
+                    "explanation": "While wolves can hunt at night, hunting alone is not their most effective strategy. Working together as a group gives them a much better chance of catching prey."
                 },
                 {
-                    "text": "A monkey's hands",
+                    "text": "Waiting by water holes",
                     "isCorrect": 0,
-                    "explanation": "Monkeys use their hands mainly for gathering food like nuts and fruits, and for tool use, not specifically for catching prey."
-                },
-                {
-                    "text": "A porcupine's teeth",
-                    "isCorrect": 0,
-                    "explanation": "Porcupines' teeth are adapted for eating plant material like bark and leaves, not for catching prey."
+                    "explanation": "While wolves might find prey near water sources, simply waiting by water holes is not their primary hunting strategy. They actively hunt together as a pack to catch their prey."
                 }
             ],
-            "funFact": "Wolves can smell their prey from up to 1.75 miles away in open areas, and their sense of smell is estimated to be 100 times more powerful than humans!"
+            "funFact": "Wolf packs typically have a complex social structure with specific roles during hunting. The entire pack works together using howls and body language to coordinate their movements and surround their prey. This teamwork allows them to catch animals that would be too large or fast for a single wolf to catch alone."
+        },
+        {
+            "id": 8,
+            "text": "A grizzly bear eats both berries from bushes and fish from rivers. What type of feeding pattern does this show?",
+            "options": [
+                {
+                    "text": "Herbivorous - eating only plants",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. While the bear does eat berries (plants), it also eats fish (animals), so it's not strictly herbivorous."
+                },
+                {
+                    "text": "Carnivorous - eating only animals",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. While the bear does eat fish (animals), it also eats berries (plants), so it's not strictly carnivorous."
+                },
+                {
+                    "text": "Omnivorous - eating both plants and animals",
+                    "isCorrect": 1,
+                    "explanation": "Correct! The bear shows an omnivorous feeding pattern by eating both plant material (berries) and animal material (fish)."
+                }
+            ],
+            "funFact": "Grizzly bears can eat up to 90 pounds of food per day during their peak feeding season as they prepare for winter hibernation!"
+        },
+        {
+            "id": 9,
+            "text": "Which of the following animal behaviors shows the most effective way of getting food to survive?",
+            "options": [
+                {
+                    "text": "A wolf hunting alone instead of with its pack",
+                    "isCorrect": 0,
+                    "explanation": "Wolves are more successful when hunting in packs, as working together makes it easier to catch prey like deer or sheep."
+                },
+                {
+                    "text": "A porcupine using its sharp claws to climb trees for bark and leaves",
+                    "isCorrect": 1,
+                    "explanation": "This is an effective survival strategy because the porcupine uses its natural features (sharp claws) to access food sources that are readily available in its environment."
+                },
+                {
+                    "text": "A Savannah monitor trying to catch insects by looking at them",
+                    "isCorrect": 0,
+                    "explanation": "Savannah monitors primarily rely on their sense of smell through their tongue to locate insects, not just by sight alone."
+                },
+                {
+                    "text": "A monkey trying to eat nuts without cracking them first",
+                    "isCorrect": 0,
+                    "explanation": "Monkeys need to crack nuts open using tools or hard surfaces before they can access the food inside."
+                }
+            ],
+            "funFact": "Animals have evolved amazing specialized features for finding and getting food - some bats use echolocation to find insects in complete darkness, while woodpeckers have shock-absorbing skulls that let them safely peck into trees to find insects!"
         },
         {
             "id": 10,
-            "text": "A Savannah monitor lizard has a special tongue that helps it find food. What is the main purpose of this unique tongue feature?",
+            "text": "Which animal behavior best shows how they use their environment to find food?",
             "options": [
                 {
-                    "text": "To smell and locate insects in its environment",
+                    "text": "A bear sleeping during winter months",
+                    "isCorrect": 0,
+                    "explanation": "While hibernation is a survival strategy, it's not directly related to how animals find food in their environment."
+                },
+                {
+                    "text": "A turtle hiding in its shell",
+                    "isCorrect": 0,
+                    "explanation": "This is a defense mechanism for protection, not a strategy for finding food in the environment."
+                },
+                {
+                    "text": "A bird building a nest in a tree",
+                    "isCorrect": 0,
+                    "explanation": "While nest building is important for survival, it's not specifically about finding food in the environment."
+                },
+                {
+                    "text": "A Savannah monitor using its tongue to smell and locate insects",
                     "isCorrect": 1,
-                    "explanation": "The Savannah monitor's tongue is specially adapted to detect scent particles in the air, helping it locate insects that it needs for food."
-                },
-                {
-                    "text": "To catch insects from far away",
-                    "isCorrect": 0,
-                    "explanation": "While the tongue is important for finding food, it doesn't actually catch insects from a distance - it's used for sensing their location through smell."
-                },
-                {
-                    "text": "To taste if the insects are safe to eat",
-                    "isCorrect": 0,
-                    "explanation": "The primary purpose of the specialized tongue is to detect and locate prey through smell, not to determine if food is safe to eat."
-                },
-                {
-                    "text": "To make sticky saliva that traps insects",
-                    "isCorrect": 0,
-                    "explanation": "The Savannah monitor's tongue is not used to produce sticky saliva - it's a sensory organ used to detect scents that lead to prey."
+                    "explanation": "This is correct because it shows how the animal directly uses its senses to interact with its environment to find food."
                 }
             ],
-            "funFact": "Many lizards, including Savannah monitors, use a behavior called 'tongue-flicking' where they repeatedly stick out their forked tongue to collect scent particles from the air. This helps them create a three-dimensional picture of their surroundings through smell!"
+            "funFact": "Many reptiles, like the Savannah monitor, have a special organ called the Jacobson's organ in their mouth that allows them to 'taste' the air and detect food particles from far away!"
         },
         {
             "id": 11,
+            "text": "How does the Savannah monitor lizard find and locate its prey in the wild?",
+            "options": [
+                {
+                    "text": "The Savannah monitor doesn't need special adaptations because it only eats plants",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - Savannah monitors are carnivores that eat various prey including insects, small mammals and birds, requiring specific adaptations to find and catch their prey"
+                },
+                {
+                    "text": "The Savannah monitor hunts in groups like wolves to catch its prey",
+                    "isCorrect": 0,
+                    "explanation": "Unlike wolves that hunt in packs, Savannah monitors are solitary hunters that rely on their sensory abilities"
+                },
+                {
+                    "text": "The Savannah monitor uses its forked tongue to collect scent particles, transferring them to specialized sensory organs to locate prey",
+                    "isCorrect": 1,
+                    "explanation": "The Savannah monitor's specialized tongue collects scent particles from the air and ground, which are then transferred to the Jacobson's organ in the roof of its mouth for analysis, allowing it to accurately locate prey"
+                },
+                {
+                    "text": "The Savannah monitor only uses its eyes to spot prey, unlike other animals that use multiple senses",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - the Savannah monitor primarily uses its tongue to smell and locate prey, not just vision"
+                }
+            ],
+            "funFact": "Many lizards, like the Savannah monitor, have a special organ called the Jacobson's organ in the roof of their mouth that works with their tongue to detect chemical signals in the air, helping them find food and avoid predators!"
+        },
+        {
+            "id": 12,
             "text": "A porcupine uses different body features to get its food. Which statement correctly describes how a porcupine's physical features help it obtain food?",
             "options": [
                 {
-                    "text": "Sharp claws help it climb trees to reach food while sharp teeth help it eat bark",
-                    "isCorrect": 1,
-                    "explanation": "Porcupines use their sharp claws to climb trees where they can access leaves and bark, and their sharp teeth are specially adapted to chew and eat tough tree bark."
+                    "text": "Claws help it catch small animals while teeth help it crack nuts",
+                    "isCorrect": 0,
+                    "explanation": "Porcupines are not predators and don't use their claws to catch animals. While they may eat some nuts, their teeth are primarily adapted for eating bark and leaves."
                 },
                 {
                     "text": "Sharp teeth help it catch insects while claws help it dig holes",
@@ -287,9 +309,9 @@
                     "explanation": "This is incorrect because porcupines are herbivores that eat plant material, not insects. They don't use their claws for digging holes."
                 },
                 {
-                    "text": "Claws help it catch small animals while teeth help it crack nuts",
-                    "isCorrect": 0,
-                    "explanation": "Porcupines are not predators and don't use their claws to catch animals. While they may eat some nuts, their teeth are primarily adapted for eating bark and leaves."
+                    "text": "Sharp claws help it climb trees to reach food while sharp teeth help it eat bark",
+                    "isCorrect": 1,
+                    "explanation": "Porcupines use their sharp claws to climb trees where they can access leaves and bark, and their sharp teeth are specially adapted to chew and eat tough tree bark."
                 },
                 {
                     "text": "Sharp teeth help it climb trees while claws help it gather berries",
@@ -300,13 +322,67 @@
             "funFact": "Porcupines are excellent climbers and can spend much of their time in trees. Their specialized curved claws work like hooks to grip tree bark, allowing them to climb even tall trees to reach fresh leaves and bark at the top!"
         },
         {
-            "id": 12,
+            "id": 13,
+            "text": "Which physical characteristic helps a porcupine get food from trees?",
+            "options": [
+                {
+                    "text": "Furry coat",
+                    "isCorrect": 0,
+                    "explanation": "A furry coat keeps porcupines warm but doesn't help them get food from trees."
+                },
+                {
+                    "text": "Long tail",
+                    "isCorrect": 0,
+                    "explanation": "While porcupines have tails, they don't use them to get food. The tail is mainly used for balance."
+                },
+                {
+                    "text": "Sharp claws",
+                    "isCorrect": 1,
+                    "explanation": "Sharp claws help porcupines climb trees to reach their food like leaves and bark."
+                },
+                {
+                    "text": "Spiny quills",
+                    "isCorrect": 0,
+                    "explanation": "Quills are used for protection against predators, not for getting food."
+                }
+            ],
+            "funFact": "Porcupines are such skilled climbers that they can even climb to the very tops of trees that are over 100 feet tall to reach tender young leaves and buds!"
+        },
+        {
+            "id": 14,
+            "text": "What pattern can you observe in how humans, wolves, and porcupines get their food to survive?",
+            "options": [
+                {
+                    "text": "Humans can eat both plants and animals, while wolves eat only meat and porcupines eat only plants",
+                    "isCorrect": 1,
+                    "explanation": "This correctly identifies the pattern - humans are omnivores (eat both), wolves are carnivores (eat meat), and porcupines are herbivores (eat plants)."
+                },
+                {
+                    "text": "All three get their food only by hunting other animals",
+                    "isCorrect": 0,
+                    "explanation": "Only wolves get their food exclusively by hunting other animals. Porcupines eat plants, and humans eat both plants and animals."
+                },
+                {
+                    "text": "None of these animals need food to survive",
+                    "isCorrect": 0,
+                    "explanation": "All animals, including humans, wolves, and porcupines, need food to survive and grow."
+                },
+                {
+                    "text": "Humans, wolves, and porcupines all need to eat only plants to survive",
+                    "isCorrect": 0,
+                    "explanation": "While porcupines eat plants, wolves are meat-eaters and humans eat both plants and animals to survive."
+                }
+            ],
+            "funFact": "Animals can be classified into three main groups based on their food habits: herbivores (plant-eaters), carnivores (meat-eaters), and omnivores (eat both plants and animals). This classification helps scientists understand food chains in nature!"
+        },
+        {
+            "id": 15,
             "text": "Why do wolves typically hunt in packs instead of hunting alone?",
             "options": [
                 {
-                    "text": "Hunting in packs makes it easier to catch larger prey and increases their chances of survival",
-                    "isCorrect": 1,
-                    "explanation": "Working together in a group allows wolves to successfully hunt larger animals and share the food, increasing their chances of survival"
+                    "text": "Wolves hunt in packs because they cannot smell prey when alone",
+                    "isCorrect": 0,
+                    "explanation": "Individual wolves have excellent sense of smell - they hunt in packs for better hunting success, not because of poor smell ability"
                 },
                 {
                     "text": "Wolves are afraid to hunt alone in the dark",
@@ -319,93 +395,12 @@
                     "explanation": "Wolves hunt both small and large prey, including deer and sheep, which are easier to catch when hunting as a group"
                 },
                 {
-                    "text": "Wolves hunt in packs because they cannot smell prey when alone",
-                    "isCorrect": 0,
-                    "explanation": "Individual wolves have excellent sense of smell - they hunt in packs for better hunting success, not because of poor smell ability"
+                    "text": "Hunting in packs makes it easier to catch larger prey and increases their chances of survival",
+                    "isCorrect": 1,
+                    "explanation": "Working together in a group allows wolves to successfully hunt larger animals and share the food, increasing their chances of survival"
                 }
             ],
             "funFact": "A wolf pack is actually a family group led by a male and female pair called the alpha pair. The rest of the pack usually consists of their offspring from previous years, working together as a family unit to hunt and survive."
-        },
-        {
-            "id": 13,
-            "text": "Which statement correctly describes how different animals get their food?",
-            "options": [
-                {
-                    "text": "All animals eat only plants to survive",
-                    "isCorrect": 0,
-                    "explanation": "While some animals like porcupines eat plants, not all animals are plant-eaters. Some animals eat other animals, and some eat both plants and animals."
-                },
-                {
-                    "text": "Some animals eat plants while others eat other animals",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Animals have different food sources - herbivores like porcupines eat plants, while carnivores like wolves eat other animals to survive."
-                },
-                {
-                    "text": "Animals don't need food if they have enough water",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. All animals need both food and water to survive. Food provides the energy and nutrients needed for living and growing."
-                },
-                {
-                    "text": "Animals can make their own food like plants do",
-                    "isCorrect": 0,
-                    "explanation": "Unlike plants, animals cannot make their own food. They must get their food from eating plants or other animals in their environment."
-                }
-            ],
-            "funFact": "The largest carnivore (meat-eater) on land is the polar bear, while the largest herbivore (plant-eater) is the African bush elephant. This shows how animals of very different sizes can thrive on completely different food sources!"
-        },
-        {
-            "id": 14,
-            "text": "Why do wolves often hunt in packs instead of hunting alone?",
-            "options": [
-                {
-                    "text": "It makes catching their prey easier and more successful",
-                    "isCorrect": 1,
-                    "explanation": "Hunting in packs allows wolves to work together, making it easier to catch larger prey like deer that would be difficult to catch alone."
-                },
-                {
-                    "text": "They get bored hunting by themselves",
-                    "isCorrect": 0,
-                    "explanation": "Wolves don't hunt in packs due to boredom - it's a survival strategy that helps them catch food more effectively."
-                },
-                {
-                    "text": "They are afraid of hunting alone",
-                    "isCorrect": 0,
-                    "explanation": "Wolves are capable hunters individually, but hunt in packs because it's more effective, not because of fear."
-                },
-                {
-                    "text": "They want to share their food with other wolves",
-                    "isCorrect": 0,
-                    "explanation": "While wolves do share food within their pack, they hunt together primarily because it improves their chances of catching prey."
-                }
-            ],
-            "funFact": "A wolf pack can bring down prey animals that are up to 10 times the size of an individual wolf! This amazing feat is possible because of their coordinated hunting strategies and teamwork."
-        },
-        {
-            "id": 15,
-            "text": "What pattern can you observe in how humans, wolves, and porcupines get their food to survive?",
-            "options": [
-                {
-                    "text": "Humans, wolves, and porcupines all need to eat only plants to survive",
-                    "isCorrect": 0,
-                    "explanation": "While porcupines eat plants, wolves are meat-eaters and humans eat both plants and animals to survive."
-                },
-                {
-                    "text": "Humans can eat both plants and animals, while wolves eat only meat and porcupines eat only plants",
-                    "isCorrect": 1,
-                    "explanation": "This correctly identifies the pattern - humans are omnivores (eat both), wolves are carnivores (eat meat), and porcupines are herbivores (eat plants)."
-                },
-                {
-                    "text": "None of these animals need food to survive",
-                    "isCorrect": 0,
-                    "explanation": "All animals, including humans, wolves, and porcupines, need food to survive and grow."
-                },
-                {
-                    "text": "All three get their food only by hunting other animals",
-                    "isCorrect": 0,
-                    "explanation": "Only wolves get their food exclusively by hunting other animals. Porcupines eat plants, and humans eat both plants and animals."
-                }
-            ],
-            "funFact": "Animals can be classified into three main groups based on their food habits: herbivores (plant-eaters), carnivores (meat-eaters), and omnivores (eat both plants and animals). This classification helps scientists understand food chains in nature!"
         }
     ]
 }

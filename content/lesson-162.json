@@ -4,13 +4,116 @@
     "questions": [
         {
             "id": 1,
-            "text": "A meteorologist predicts an 80% chance of rain tomorrow. What does this probability-based forecast most accurately tell us?",
+            "text": "Which statement accurately describes how air masses develop their characteristics?",
             "options": [
                 {
-                    "text": "It will rain for 80% of the day tomorrow",
+                    "text": "Air masses that form near the equator tend to be cold, while those forming over the poles tend to be warm",
                     "isCorrect": 0,
-                    "explanation": "This is a common misunderstanding. The percentage doesn't indicate how long it will rain during the day."
+                    "explanation": "This is incorrect. Air masses acquire temperature characteristics opposite to what's stated - equatorial air masses are warm while polar air masses are cold due to different levels of solar heating."
                 },
+                {
+                    "text": "Air masses that form over water tend to be dry, while those forming over land tend to be wet",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The moisture characteristics are opposite - air masses forming over water bodies tend to be more humid, while those forming over land tend to be drier."
+                },
+                {
+                    "text": "Air masses take on the temperature and moisture characteristics of the surface over which they form",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Air masses acquire the temperature and humidity characteristics of the region where they form - cold over poles, warm near equator, moist over oceans, and dry over land."
+                },
+                {
+                    "text": "Air masses maintain constant characteristics regardless of where they form",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Air masses don't have constant characteristics - they acquire different properties based on the temperature and moisture conditions of their formation regions."
+                }
+            ],
+            "funFact": "The largest and most influential air masses affecting North America form in Siberia, the North Pacific Ocean, the Gulf of Mexico, and northern Canada. These source regions create air masses that significantly impact weather patterns across the continent."
+        },
+        {
+            "id": 2,
+            "text": "When a warm air mass moving northward meets a cold air mass moving southward and neither mass is strong enough to push the other out of the way, what type of weather front forms?",
+            "options": [
+                {
+                    "text": "Occluded front",
+                    "isCorrect": 0,
+                    "explanation": "An occluded front occurs when a fast-moving cold front catches up to a warm front and lifts the warm air mass off the ground, which is different from the described scenario."
+                },
+                {
+                    "text": "Cold front",
+                    "isCorrect": 0,
+                    "explanation": "A cold front occurs when a cold air mass actively pushes a warm air mass out of the way, which is not happening in this scenario where neither air mass is strong enough to move the other."
+                },
+                {
+                    "text": "Warm front",
+                    "isCorrect": 0,
+                    "explanation": "A warm front forms when a warm air mass pushes a cold air mass out of the way, which is not occurring in this situation where the air masses are stuck in position."
+                },
+                {
+                    "text": "Stationary front",
+                    "isCorrect": 1,
+                    "explanation": "When two air masses meet and neither one has enough force to displace the other, a stationary front forms. This creates a boundary where the air masses remain relatively stable in their positions."
+                }
+            ],
+            "funFact": "Stationary fronts can persist for several days and often create cloudy conditions with light precipitation. The weather tends to remain consistent during this time, making it easier for meteorologists to forecast conditions in the affected area."
+        },
+        {
+            "id": 3,
+            "text": "When a cold front approaches, what sequence of weather changes typically occurs?",
+            "options": [
+                {
+                    "text": "The two air masses mix completely, resulting in moderate temperatures with no precipitation",
+                    "isCorrect": 0,
+                    "explanation": "Air masses don't completely mix at fronts - they maintain distinct characteristics and create weather changes at their boundaries"
+                },
+                {
+                    "text": "The warm air mass sinks below the cold air, causing gradual warming and increased humidity",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because warm air is less dense and rises above cold air, not sinks below it"
+                },
+                {
+                    "text": "The cold air mass moves around the warm air mass, leaving conditions unchanged",
+                    "isCorrect": 0,
+                    "explanation": "Cold fronts don't move around warm air masses - they force warm air upward, causing significant weather changes"
+                },
+                {
+                    "text": "The cold air mass pushes warm air upward, leading to cloud formation and possible precipitation, followed by temperature drop and clearing skies",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how a cold front works - the denser cold air forces warm air up, causing condensation and precipitation, followed by cooler temperatures"
+                }
+            ],
+            "funFact": "Cold fronts typically move 2-3 times faster than warm fronts, which is why weather changes associated with cold fronts often occur more suddenly and dramatically than those with warm fronts!"
+        },
+        {
+            "id": 4,
+            "text": "What typically occurs when a cold air mass collides with a warm air mass?",
+            "options": [
+                {
+                    "text": "The cold air mass pushes under the warm air mass, forcing it upward and potentially causing precipitation",
+                    "isCorrect": 1,
+                    "explanation": "When cold air meets warm air, the denser cold air slides beneath the warm air, pushing it upward. As the warm air rises and cools, it can form clouds and precipitation."
+                },
+                {
+                    "text": "Both air masses remain stationary and no weather changes occur",
+                    "isCorrect": 0,
+                    "explanation": "When air masses meet, they don't remain stationary. Their interaction creates weather fronts that lead to changes in weather conditions."
+                },
+                {
+                    "text": "The two air masses immediately mix together to form a moderate temperature air mass",
+                    "isCorrect": 0,
+                    "explanation": "Air masses don't instantly mix together. Instead, they form distinct boundaries called fronts where they meet, leading to specific weather patterns."
+                },
+                {
+                    "text": "The warm air mass pushes under the cold air mass, causing clear skies",
+                    "isCorrect": 0,
+                    "explanation": "Warm air is less dense than cold air, so it cannot push underneath cold air. The opposite occurs - cold air wedges under warm air."
+                }
+            ],
+            "funFact": "The speed at which a cold front moves can vary greatly - some cold fronts can move at speeds of up to 35 miles per hour! This rapid movement can lead to dramatic and sudden weather changes in a matter of hours."
+        },
+        {
+            "id": 5,
+            "text": "A meteorologist predicts an 80% chance of rain tomorrow. What does this probability-based forecast most accurately tell us?",
+            "options": [
                 {
                     "text": "Based on current air mass patterns and weather data, there is an 80% likelihood of rainfall occurring at some point tomorrow",
                     "isCorrect": 1,
@@ -22,6 +125,11 @@
                     "explanation": "The percentage is not about the geographical area that will receive rain, but rather the probability of rain occurring."
                 },
                 {
+                    "text": "It will rain for 80% of the day tomorrow",
+                    "isCorrect": 0,
+                    "explanation": "This is a common misunderstanding. The percentage doesn't indicate how long it will rain during the day."
+                },
+                {
                     "text": "The forecast is 80% accurate",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. The 80% refers to the probability of rain occurring, not the accuracy of the forecast itself."
@@ -30,144 +138,31 @@
             "funFact": "Modern weather forecasts are significantly more accurate than they were 50 years ago. A 5-day forecast today is as accurate as a 1-day forecast was in 1980, thanks to advances in technology and understanding of atmospheric patterns."
         },
         {
-            "id": 2,
-            "text": "Which statement accurately describes how air masses develop their characteristics?",
-            "options": [
-                {
-                    "text": "Air masses that form near the equator tend to be cold, while those forming over the poles tend to be warm",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Air masses acquire temperature characteristics opposite to what's stated - equatorial air masses are warm while polar air masses are cold due to different levels of solar heating."
-                },
-                {
-                    "text": "Air masses take on the temperature and moisture characteristics of the surface over which they form",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Air masses acquire the temperature and humidity characteristics of the region where they form - cold over poles, warm near equator, moist over oceans, and dry over land."
-                },
-                {
-                    "text": "Air masses maintain constant characteristics regardless of where they form",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Air masses don't have constant characteristics - they acquire different properties based on the temperature and moisture conditions of their formation regions."
-                },
-                {
-                    "text": "Air masses that form over water tend to be dry, while those forming over land tend to be wet",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The moisture characteristics are opposite - air masses forming over water bodies tend to be more humid, while those forming over land tend to be drier."
-                }
-            ],
-            "funFact": "The largest and most influential air masses affecting North America form in Siberia, the North Pacific Ocean, the Gulf of Mexico, and northern Canada. These source regions create air masses that significantly impact weather patterns across the continent."
-        },
-        {
-            "id": 3,
-            "text": "How does the movement of air molecules change when air temperature increases, and what effect does this have on air density?",
-            "options": [
-                {
-                    "text": "Molecules move faster and spread out, causing the air to become less dense and rise",
-                    "isCorrect": 1,
-                    "explanation": "When air is heated, molecules gain energy and move faster, spreading farther apart. This decreases the density of the air mass, causing it to rise above cooler, denser air."
-                },
-                {
-                    "text": "Molecules slow down and cluster together, causing the air to become more dense and rise",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - molecules actually move faster and spread apart when heated, not cluster together. Air rises when it becomes less dense, not more dense."
-                },
-                {
-                    "text": "Molecules move faster and spread out, causing the air to become more dense and sink",
-                    "isCorrect": 0,
-                    "explanation": "While molecules do move faster and spread out when heated, this makes the air less dense, not more dense. Less dense air rises rather than sinks."
-                },
-                {
-                    "text": "Molecules slow down and spread out, causing the air to become less dense and sink",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect on multiple counts - heated molecules move faster, not slower, and less dense air rises rather than sinks."
-                }
-            ],
-            "funFact": "The same principle that makes hot air rise is used in hot air balloons! By heating the air inside the balloon, it becomes less dense than the surrounding air, allowing the balloon to float upward. The average hot air balloon heats air to about 100\u00b0F (37.8\u00b0C) above the outside air temperature."
-        },
-        {
-            "id": 4,
-            "text": "What is the primary force that causes air masses to move around in Earth's atmosphere?",
-            "options": [
-                {
-                    "text": "Pressure gradient force",
-                    "isCorrect": 1,
-                    "explanation": "The pressure gradient force is the primary force that moves air masses. It occurs when there are differences in air pressure between areas, causing air to flow from high pressure to low pressure regions."
-                },
-                {
-                    "text": "Prevailing winds",
-                    "isCorrect": 0,
-                    "explanation": "Prevailing winds are the result of air masses moving, not the force that causes them to move. They are the consistent air flows that result from pressure differences and Earth's rotation."
-                },
-                {
-                    "text": "Ocean currents",
-                    "isCorrect": 0,
-                    "explanation": "While ocean currents can influence weather patterns and air movement, they are not the primary force moving air masses around the atmosphere."
-                },
-                {
-                    "text": "Mountain ranges",
-                    "isCorrect": 0,
-                    "explanation": "Mountain ranges can affect the movement of air masses by creating barriers, but they do not cause air masses to move around the atmosphere."
-                },
-                {
-                    "text": "Humidity differences",
-                    "isCorrect": 0,
-                    "explanation": "While humidity differences can affect local weather conditions, they are not the main force responsible for moving air masses around the atmosphere."
-                }
-            ],
-            "funFact": "The jet stream, a special type of prevailing wind that flows high in the atmosphere, can reach speeds over 250 miles per hour and plays a crucial role in moving weather systems across the globe!"
-        },
-        {
-            "id": 5,
-            "text": "When a cold front approaches, what sequence of weather changes typically occurs?",
-            "options": [
-                {
-                    "text": "The cold air mass pushes warm air upward, leading to cloud formation and possible precipitation, followed by temperature drop and clearing skies",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how a cold front works - the denser cold air forces warm air up, causing condensation and precipitation, followed by cooler temperatures"
-                },
-                {
-                    "text": "The warm air mass sinks below the cold air, causing gradual warming and increased humidity",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because warm air is less dense and rises above cold air, not sinks below it"
-                },
-                {
-                    "text": "The two air masses mix completely, resulting in moderate temperatures with no precipitation",
-                    "isCorrect": 0,
-                    "explanation": "Air masses don't completely mix at fronts - they maintain distinct characteristics and create weather changes at their boundaries"
-                },
-                {
-                    "text": "The cold air mass moves around the warm air mass, leaving conditions unchanged",
-                    "isCorrect": 0,
-                    "explanation": "Cold fronts don't move around warm air masses - they force warm air upward, causing significant weather changes"
-                }
-            ],
-            "funFact": "Cold fronts typically move 2-3 times faster than warm fronts, which is why weather changes associated with cold fronts often occur more suddenly and dramatically than those with warm fronts!"
-        },
-        {
             "id": 6,
-            "text": "Consider an air mass forming over the Gulf of Mexico. What characteristics would you expect this air mass to have?",
+            "text": "If air molecules move closer together as they cool down, what will happen to the air mass and its movement?",
             "options": [
                 {
-                    "text": "Warm and humid",
+                    "text": "The air mass will become less dense and rise above warmer air",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because when molecules move closer together, density increases, not decreases. Less dense air rises, but cooled air becomes more dense."
+                },
+                {
+                    "text": "The air mass will stay at the same level with no vertical movement",
+                    "isCorrect": 0,
+                    "explanation": "Air masses don't remain stationary when their density changes. The difference in density between warm and cool air causes vertical movement."
+                },
+                {
+                    "text": "The air mass will spread out horizontally but not move vertically",
+                    "isCorrect": 0,
+                    "explanation": "When air becomes denser, it primarily moves vertically downward due to gravity, not horizontally. Horizontal movement is mainly caused by pressure differences."
+                },
+                {
+                    "text": "The air mass will become denser and sink below warmer, less dense air",
                     "isCorrect": 1,
-                    "explanation": "The Gulf of Mexico is a warm body of water near the equator. Air masses take on the characteristics of the regions they form in, so an air mass forming over warm ocean water would become warm and pick up moisture, making it humid."
-                },
-                {
-                    "text": "Cold and dry",
-                    "isCorrect": 0,
-                    "explanation": "Cold and dry air masses typically form over polar regions or cold land masses, not over warm ocean waters like the Gulf of Mexico."
-                },
-                {
-                    "text": "Warm and dry",
-                    "isCorrect": 0,
-                    "explanation": "While the air mass would be warm due to the Gulf's location, it wouldn't be dry since it forms over water. Ocean water provides moisture making the air mass humid."
-                },
-                {
-                    "text": "Cold and humid",
-                    "isCorrect": 0,
-                    "explanation": "The Gulf of Mexico is in a warm region, so while the air mass would pick up moisture (humidity) from the ocean, it wouldn't be cold."
+                    "explanation": "When air cools, molecules move closer together, increasing density. Following the principle that denser substances sink in less dense substances, the cooled air mass will sink beneath warmer air."
                 }
             ],
-            "funFact": "The warm, humid air masses from the Gulf of Mexico are a major source of moisture for the United States and can lead to significant precipitation when they move northward, especially during spring and summer months, contributing to the region's farming success."
+            "funFact": "The same principle that makes cool air sink is responsible for the downdrafts in thunderstorms, where rapidly cooling air can create dramatic downward gusts reaching speeds of over 60 miles per hour!"
         },
         {
             "id": 7,
@@ -179,6 +174,11 @@
                     "explanation": "These conditions are typical of an approaching cold front - temperatures drop as cold air moves in, pressure rises, and wind direction shifts clockwise from SW to NW as the cold air mass advances."
                 },
                 {
+                    "text": "Occluded front",
+                    "isCorrect": 0,
+                    "explanation": "While occluded fronts can bring temperature changes, they typically show more complex pressure and wind patterns than the straightforward changes described."
+                },
+                {
                     "text": "Warm front",
                     "isCorrect": 0,
                     "explanation": "Warm fronts typically bring increasing temperatures, falling pressure, and winds shifting from SE to SW - opposite of the conditions described."
@@ -187,212 +187,126 @@
                     "text": "Stationary front",
                     "isCorrect": 0,
                     "explanation": "Stationary fronts show little change in temperature, pressure, or wind direction since neither air mass is moving significantly."
-                },
-                {
-                    "text": "Occluded front",
-                    "isCorrect": 0,
-                    "explanation": "While occluded fronts can bring temperature changes, they typically show more complex pressure and wind patterns than the straightforward changes described."
                 }
             ],
             "funFact": "The world's fastest recorded temperature drop occurred in Spearfish, South Dakota in 1943, when a cold front caused the temperature to plummet from 54\u00b0F to -4\u00b0F in just 27 minutes!"
         },
         {
             "id": 8,
-            "text": "A meteorologist observes two fronts approaching a region: a fast-moving cold front is catching up to a warm front. What type of front will form and what weather conditions are most likely to occur?",
+            "text": "When air in one region is heated more than surrounding areas, what sequence of molecular movement and air mass behavior will occur?",
             "options": [
                 {
-                    "text": "An occluded front will form, bringing heavy rainfall to the region",
+                    "text": "The heated molecules become completely stationary, allowing cooler air masses to pass through them",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Heating actually increases molecular motion rather than stopping it, and air masses don't pass through each other."
+                },
+                {
+                    "text": "The heated molecules move farther apart, making the air mass less dense and causing it to rise while cooler air moves in from the sides",
                     "isCorrect": 1,
-                    "explanation": "When a fast-moving cold front catches up to a warm front, it creates an occluded front. This typically results in heavy rainfall as the warm air mass gets lifted up from the ground."
+                    "explanation": "This is correct. Heating causes molecules to spread out, decreasing density. The less dense warm air rises while denser cool air moves in to replace it, creating a convection cell."
                 },
                 {
-                    "text": "A stationary front will form, leading to clear skies",
+                    "text": "The heated molecules move closer together, making the air mass denser and causing it to sink while cooler air moves in from the sides",
                     "isCorrect": 0,
-                    "explanation": "A stationary front forms when neither air mass is strong enough to push the other out of the way, not when a cold front overtakes a warm front. Stationary fronts don't typically result in clear skies."
+                    "explanation": "This is incorrect. When air is heated, molecules actually move farther apart, not closer together, making the air less dense."
                 },
                 {
-                    "text": "A warm front will form, causing light drizzle",
+                    "text": "The heated molecules maintain their spacing but move faster horizontally, pushing surrounding air masses away",
                     "isCorrect": 0,
-                    "explanation": "A warm front occurs when a warm air mass pushes a cold air mass out of the way. In this scenario, the cold front is overtaking the warm front, leading to occlusion."
-                },
-                {
-                    "text": "A cold front will form, leading to thunderstorms",
-                    "isCorrect": 0,
-                    "explanation": "While cold fronts can cause thunderstorms, this scenario describes the formation of an occluded front when the cold front catches up to the warm front."
+                    "explanation": "This is incorrect. Heated molecules primarily affect vertical air movement through changes in density, not horizontal pushing."
                 }
             ],
-            "funFact": "The word 'occluded' comes from the Latin word 'occludere' which means 'to close up.' This reflects how an occluded front forms when a cold front closes in on and overtakes a warm front, essentially cutting off the warm air from the ground."
+            "funFact": "The same principle that causes warm air to rise in the atmosphere also explains why hot air balloons float - the heated air inside the balloon is less dense than the surrounding cool air, creating lift!"
         },
         {
             "id": 9,
-            "text": "A meteorologist announces that there is a 70% chance of rain tomorrow. Which statement best explains why weather forecasts use probabilities instead of definite predictions?",
+            "text": "Consider an air mass forming over the Gulf of Mexico. What characteristics would you expect this air mass to have?",
             "options": [
                 {
-                    "text": "Weather patterns are complex with multiple factors interacting, making exact predictions impossible",
+                    "text": "Warm and humid",
                     "isCorrect": 1,
-                    "explanation": "Weather involves complex interactions between air masses, temperature, humidity, and pressure that can't be predicted with absolute certainty"
+                    "explanation": "The Gulf of Mexico is a warm body of water near the equator. Air masses take on the characteristics of the regions they form in, so an air mass forming over warm ocean water would become warm and pick up moisture, making it humid."
                 },
                 {
-                    "text": "Meteorologists don't have access to accurate weather measurement tools",
+                    "text": "Warm and dry",
                     "isCorrect": 0,
-                    "explanation": "Modern meteorologists actually have very sophisticated tools and technology for weather measurement"
+                    "explanation": "While the air mass would be warm due to the Gulf's location, it wouldn't be dry since it forms over water. Ocean water provides moisture making the air mass humid."
                 },
                 {
-                    "text": "Weather only follows random patterns that can't be understood",
+                    "text": "Cold and humid",
                     "isCorrect": 0,
-                    "explanation": "Weather patterns do follow scientific principles and can be studied, even if they can't be predicted with complete certainty"
+                    "explanation": "The Gulf of Mexico is in a warm region, so while the air mass would pick up moisture (humidity) from the ocean, it wouldn't be cold."
                 },
                 {
-                    "text": "Meteorologists prefer not to make definite statements to avoid responsibility",
+                    "text": "Cold and dry",
                     "isCorrect": 0,
-                    "explanation": "Using probabilities is based on scientific understanding of weather systems, not avoiding responsibility"
+                    "explanation": "Cold and dry air masses typically form over polar regions or cold land masses, not over warm ocean waters like the Gulf of Mexico."
                 }
             ],
-            "funFact": "The first scientific weather forecast was made by Robert FitzRoy in 1861, and his pioneering work laid the foundation for modern probabilistic weather forecasting methods used today."
+            "funFact": "The warm, humid air masses from the Gulf of Mexico are a major source of moisture for the United States and can lead to significant precipitation when they move northward, especially during spring and summer months, contributing to the region's farming success."
         },
         {
             "id": 10,
-            "text": "Consider two regions in North America: Region A at 40\u00b0N has clear skies with temperature 75\u00b0F and Region B at 45\u00b0N has cloudy skies with temperature 55\u00b0F. Given that the prevailing winds are blowing from north to south, what weather changes are likely to occur in Region A?",
+            "text": "Two air masses are approaching each other: one from the Arctic region that is cold and dry, and another from the Gulf of Mexico that is warm and moist. What weather conditions are most likely to occur when these air masses meet?",
             "options": [
                 {
-                    "text": "The temperature will decrease and clouds will likely form as the cooler air mass moves in",
+                    "text": "Severe thunderstorms with possible precipitation",
                     "isCorrect": 1,
-                    "explanation": "As the cooler air mass from Region B moves south with prevailing winds, it will push into Region A, creating a cold front that typically brings temperature drops and cloud formation"
+                    "explanation": "When cold, dry Arctic air meets warm, moist Gulf air, the cold air forces the warm air upward. This rapid lifting of warm, moist air leads to cloud formation and often results in severe thunderstorms."
                 },
                 {
-                    "text": "The temperature will increase and skies will remain clear",
+                    "text": "Light drizzle with no wind",
                     "isCorrect": 0,
-                    "explanation": "This contradicts how cold fronts work - when cooler air moves in from the north, temperatures typically decrease rather than increase"
+                    "explanation": "The dramatic temperature and humidity differences between Arctic and Gulf air masses typically produce more severe weather than just light drizzle."
                 },
                 {
-                    "text": "The weather will stay exactly the same regardless of the wind direction",
+                    "text": "High winds with no precipitation",
                     "isCorrect": 0,
-                    "explanation": "Weather conditions change as air masses move and interact. The prevailing winds moving cold air south will affect the weather in Region A"
+                    "explanation": "While strong winds often occur at frontal boundaries, the moisture content in the Gulf air mass would likely lead to precipitation as well."
                 },
                 {
-                    "text": "The temperature will remain the same but humidity will decrease",
+                    "text": "Clear skies with stable conditions",
                     "isCorrect": 0,
-                    "explanation": "When a cold front moves in, temperature changes are a primary effect. The scenario indicates cooler air moving south, which would definitely affect temperature"
+                    "explanation": "When contrasting air masses meet, unstable conditions typically occur rather than clear, stable weather."
                 }
             ],
-            "funFact": "The speed at which cold fronts typically move varies greatly - they can travel anywhere from 15 to 50 miles per hour! This is one reason why weather changes associated with cold fronts often seem to happen quite suddenly."
+            "funFact": "The largest recorded temperature change in 24 hours occurred in Loma, Montana, where the temperature rose from -54\u00b0F to 49\u00b0F (a 103\u00b0F change) due to the rapid replacement of an Arctic air mass with a warm air mass from the Pacific."
         },
         {
             "id": 11,
-            "text": "What best explains why wind forms when there are differences in air pressure between two regions?",
+            "text": "Why do meteorologists often express weather forecasts in terms of probability (like '80% chance of rain') rather than absolute certainty?",
             "options": [
                 {
-                    "text": "Air molecules in warmer regions spread out and become less dense, rising up while denser cold air moves in to take its place",
+                    "text": "Because weather only follows random patterns that can't be predicted at all",
+                    "isCorrect": 0,
+                    "explanation": "Weather patterns aren't random - they follow scientific principles. While they're complex, meteorologists can make reasonably accurate predictions based on air mass movements and other factors."
+                },
+                {
+                    "text": "Because weather patterns result from complex interactions between multiple air masses that can't be predicted with complete certainty",
                     "isCorrect": 1,
-                    "explanation": "When air warms, its molecules spread apart and become less dense, causing it to rise. The surrounding cooler, denser air then flows in to fill this space, creating wind."
+                    "explanation": "Multiple air masses with different temperatures and humidity levels interact in complex ways, making it impossible to predict weather with 100% certainty. Probability helps express this uncertainty scientifically."
                 },
                 {
-                    "text": "Air molecules always flow from low pressure areas to high pressure areas to create wind",
+                    "text": "Because meteorologists want to avoid being blamed for incorrect forecasts",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - air actually flows from high pressure to low pressure areas, not the other way around."
+                    "explanation": "Probabilistic forecasts aren't about avoiding blame - they're a scientific way to express the genuine uncertainty that exists in weather prediction due to the complex nature of weather systems."
                 },
                 {
-                    "text": "Wind forms because the Earth's rotation pushes air molecules in different directions",
+                    "text": "Because meteorologists don't have access to accurate weather measurement tools",
                     "isCorrect": 0,
-                    "explanation": "While Earth's rotation affects wind patterns, wind fundamentally forms due to air pressure differences caused by uneven heating of air."
-                },
-                {
-                    "text": "Air molecules maintain constant density regardless of temperature, but move at different speeds to create wind",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - air density does change with temperature, which is crucial for wind formation."
+                    "explanation": "Modern meteorologists actually have very sophisticated tools and technology. The uncertainty in weather predictions comes from the complexity of weather systems, not from a lack of tools."
                 }
             ],
-            "funFact": "The fastest wind speed ever recorded on Earth was 253 mph during Tropical Cyclone Olivia in 1996 at Barrow Island, Australia. That's faster than many passenger jets!"
+            "funFact": "The first public weather forecast was made in 1861 by Admiral Robert FitzRoy in Britain. His predictions were often ridiculed at first, but his methods of using air pressure and temperature observations to predict weather patterns formed the foundation of modern meteorology."
         },
         {
             "id": 12,
-            "text": "An occluded front forms when a fast-moving cold front catches up to a slow-moving warm front. What sequence of events explains why this typically results in heavy precipitation?",
-            "options": [
-                {
-                    "text": "The cold air mass lifts both warm and cool air masses upward, causing rapid condensation of moisture from both air masses simultaneously",
-                    "isCorrect": 1,
-                    "explanation": "When a cold front overtakes a warm front, it forces both the warm and cool air masses upward, causing their moisture to condense rapidly and create heavy precipitation"
-                },
-                {
-                    "text": "The warm air mass sinks beneath both cold air masses, causing moisture to evaporate quickly",
-                    "isCorrect": 0,
-                    "explanation": "Warm air is less dense and rises rather than sinks, making this process impossible in an occluded front"
-                },
-                {
-                    "text": "The three air masses mix horizontally, spreading moisture evenly across the region",
-                    "isCorrect": 0,
-                    "explanation": "Air masses maintain distinct boundaries and do not mix horizontally - vertical lifting is what causes precipitation in an occluded front"
-                },
-                {
-                    "text": "The cold air mass pushes the warm air mass sideways, causing gradual precipitation",
-                    "isCorrect": 0,
-                    "explanation": "In an occluded front, the cold air mass forces warm air upward rather than sideways, leading to more intense rather than gradual precipitation"
-                }
-            ],
-            "funFact": "The word 'occlude' comes from Latin, meaning 'to close up' or 'block.' This perfectly describes how an occluded front forms when a cold front blocks and lifts a warm front from the ground, essentially closing off its access to the surface!"
-        },
-        {
-            "id": 13,
-            "text": "How does the uneven heating of Earth's surface affect the formation and movement of air masses in the atmosphere?",
-            "options": [
-                {
-                    "text": "When air is heated unevenly, warm air becomes less dense and rises while cool air becomes denser and sinks, creating circulation patterns that move air masses",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how temperature differences cause air density changes, leading to vertical air movement and circulation patterns that drive air mass movement"
-                },
-                {
-                    "text": "The uneven heating causes all air masses to move in the same direction regardless of temperature",
-                    "isCorrect": 0,
-                    "explanation": "Air masses move in different directions based on temperature and density differences, not uniformly in one direction"
-                },
-                {
-                    "text": "Uneven heating has no effect on air mass movement since air masses are stationary",
-                    "isCorrect": 0,
-                    "explanation": "Air masses are not stationary - they actively move due to temperature and pressure differences caused by uneven heating"
-                },
-                {
-                    "text": "The uneven heating causes all air molecules to spread apart equally throughout the atmosphere",
-                    "isCorrect": 0,
-                    "explanation": "Air molecules do not spread equally - they become more spread out in warm air and more compressed in cold air, creating density differences"
-                }
-            ],
-            "funFact": "The largest air masses on Earth can be thousands of miles wide and can maintain their basic temperature and humidity characteristics for several days or even weeks as they move across land and ocean!"
-        },
-        {
-            "id": 14,
-            "text": "When a cold air mass collides with a warm air mass, what sequence of events leads to precipitation?",
-            "options": [
-                {
-                    "text": "The cold air mass forces the warm air mass upward, causing water vapor to condense into clouds and eventually fall as rain",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. As the cold air mass pushes the warm air mass up, the warm air cools at higher altitudes, causing water vapor to condense into clouds and eventually precipitate as rain."
-                },
-                {
-                    "text": "The warm air mass sinks below the cold air mass, causing water vapor to freeze and fall as snow",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Warm air is less dense and rises above cold air, not sinks below it."
-                },
-                {
-                    "text": "The two air masses mix together, creating a neutral temperature that causes immediate rainfall",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Precipitation occurs due to the lifting and cooling of warm air, not from the mixing of air masses to create a neutral temperature."
-                },
-                {
-                    "text": "The cold air mass absorbs moisture from the warm air mass and releases it as rain",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Cold air masses don't directly absorb moisture from warm air masses to create rain. The precipitation process involves the lifting and cooling of warm air."
-                }
-            ],
-            "funFact": "The speed at which a cold front moves can greatly affect the severity of the resulting weather. Fast-moving cold fronts typically create more dramatic and severe weather conditions, including powerful thunderstorms, compared to slower-moving cold fronts."
-        },
-        {
-            "id": 15,
             "text": "When a cold air mass meets a warm air mass, why does the cold air mass usually sink beneath the warm air mass?",
             "options": [
                 {
-                    "text": "In cold air masses, molecules are closer together making the air more dense, causing it to sink beneath less dense warm air",
-                    "isCorrect": 1,
-                    "explanation": "Cold air molecules move more slowly and pack more tightly together, creating denser air that sinks below warmer, less dense air where molecules are spread further apart"
+                    "text": "Cold air contains more water vapor which makes it heavier",
+                    "isCorrect": 0,
+                    "explanation": "Cold air actually holds less water vapor than warm air. The sinking is due to the closer spacing of molecules, not water content"
                 },
                 {
                     "text": "Cold air molecules naturally attract each other, pulling the mass downward",
@@ -400,9 +314,9 @@
                     "explanation": "Air molecules don't actively attract each other - their spacing is determined by temperature affecting their molecular motion"
                 },
                 {
-                    "text": "Cold air contains more water vapor which makes it heavier",
-                    "isCorrect": 0,
-                    "explanation": "Cold air actually holds less water vapor than warm air. The sinking is due to the closer spacing of molecules, not water content"
+                    "text": "In cold air masses, molecules are closer together making the air more dense, causing it to sink beneath less dense warm air",
+                    "isCorrect": 1,
+                    "explanation": "Cold air molecules move more slowly and pack more tightly together, creating denser air that sinks below warmer, less dense air where molecules are spread further apart"
                 },
                 {
                     "text": "Cold air masses have stronger winds that push them downward",
@@ -411,6 +325,87 @@
                 }
             ],
             "funFact": "The principle behind cold air sinking beneath warm air is the same reason hot air balloons rise - warm air is less dense than cold air. A hot air balloon can rise because the heated air inside is about 30% less dense than the cooler air outside!"
+        },
+        {
+            "id": 13,
+            "text": "When a cold air mass collides with a warm air mass, what sequence of events leads to precipitation?",
+            "options": [
+                {
+                    "text": "The cold air mass absorbs moisture from the warm air mass and releases it as rain",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Cold air masses don't directly absorb moisture from warm air masses to create rain. The precipitation process involves the lifting and cooling of warm air."
+                },
+                {
+                    "text": "The warm air mass sinks below the cold air mass, causing water vapor to freeze and fall as snow",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Warm air is less dense and rises above cold air, not sinks below it."
+                },
+                {
+                    "text": "The cold air mass forces the warm air mass upward, causing water vapor to condense into clouds and eventually fall as rain",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. As the cold air mass pushes the warm air mass up, the warm air cools at higher altitudes, causing water vapor to condense into clouds and eventually precipitate as rain."
+                },
+                {
+                    "text": "The two air masses mix together, creating a neutral temperature that causes immediate rainfall",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Precipitation occurs due to the lifting and cooling of warm air, not from the mixing of air masses to create a neutral temperature."
+                }
+            ],
+            "funFact": "The speed at which a cold front moves can greatly affect the severity of the resulting weather. Fast-moving cold fronts typically create more dramatic and severe weather conditions, including powerful thunderstorms, compared to slower-moving cold fronts."
+        },
+        {
+            "id": 14,
+            "text": "A strong westerly wind is blowing across the Pacific Ocean towards the California coast, carrying a warm, moist air mass. As this air mass encounters the tall Sierra Nevada mountain range, what weather changes are most likely to occur on the western side of the mountains?",
+            "options": [
+                {
+                    "text": "Strong winds but no precipitation as the air mass stays intact",
+                    "isCorrect": 0,
+                    "explanation": "When a moist air mass encounters mountains, the forced upward motion typically results in precipitation, not just wind"
+                },
+                {
+                    "text": "Clear skies and warmer temperatures as the air mass warms up",
+                    "isCorrect": 0,
+                    "explanation": "Rising air typically cools rather than warms, and moisture-laden air forced upward usually results in cloud formation, not clear skies"
+                },
+                {
+                    "text": "Dry conditions as the air mass loses moisture before reaching the mountains",
+                    "isCorrect": 0,
+                    "explanation": "The air mass doesn't lose its moisture before reaching the mountains - the moisture loss occurs during the upward movement over the mountains"
+                },
+                {
+                    "text": "Heavy rainfall and cloudy conditions as the air mass is forced upward and cools",
+                    "isCorrect": 1,
+                    "explanation": "As warm, moist air is forced up by mountains, it cools and condenses, forming clouds and precipitation on the windward (western) side"
+                }
+            ],
+            "funFact": "This weather pattern creates what's known as an 'orographic effect' or 'rain shadow.' While the western slopes receive abundant rainfall, the eastern side of the Sierra Nevada is much drier, creating the Great Basin Desert - a perfect example of how mountains can dramatically influence local weather patterns."
+        },
+        {
+            "id": 15,
+            "text": "How does the circulation of warm and cool air in a convection cell contribute to the development of local weather patterns?",
+            "options": [
+                {
+                    "text": "Warm air rises and cool air sinks, creating air movement that leads to wind and potential precipitation",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how temperature differences in a convection cell create air circulation, which is a fundamental process in weather pattern development"
+                },
+                {
+                    "text": "Cool air rises and warm air sinks, leading to stable weather conditions",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - warm air rises because it is less dense, while cool air sinks because it is more dense"
+                },
+                {
+                    "text": "Air temperature has no effect on vertical air movement",
+                    "isCorrect": 0,
+                    "explanation": "Temperature differences are actually crucial in creating vertical air movement in the atmosphere"
+                },
+                {
+                    "text": "Warm and cool air move horizontally only, causing wind patterns",
+                    "isCorrect": 0,
+                    "explanation": "While horizontal air movement occurs, vertical movement due to temperature differences is essential for weather pattern development"
+                }
+            ],
+            "funFact": "The largest convection cells on Earth are called Hadley cells, which extend from the equator to about 30 degrees latitude in both hemispheres. These massive air circulation patterns help distribute heat around the planet and influence global weather patterns!"
         }
     ]
 }

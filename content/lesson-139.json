@@ -4,255 +4,147 @@
     "questions": [
         {
             "id": 1,
-            "text": "How do snakes collect sensory information about smell differently from most other animals?",
+            "text": "What is the primary function of sense receptors in animals?",
             "options": [
                 {
-                    "text": "They use their tongues to collect scent molecules and transfer them to special organs in the roof of their mouths",
+                    "text": "To directly control animal behavior without brain involvement",
+                    "isCorrect": 0,
+                    "explanation": "Sense receptors don't control behavior directly - they must first send information to the brain, which then processes it and determines the appropriate response."
+                },
+                {
+                    "text": "To analyze and interpret environmental signals",
+                    "isCorrect": 0,
+                    "explanation": "Analysis and interpretation of signals happens in the brain, not in the sense receptors. Sense receptors only detect and transmit information."
+                },
+                {
+                    "text": "To send signals to the brain about environmental information",
                     "isCorrect": 1,
-                    "explanation": "Snakes have a unique way of smelling - they flick their tongues to collect scent particles, then transfer these to specialized organs called Jacobson's organs in the roof of their mouths for processing"
+                    "explanation": "Sense receptors are specialized to detect specific types of information from the environment and send these signals to the brain for processing."
                 },
                 {
-                    "text": "They smell directly through their nostrils like most other animals",
+                    "text": "To store memories of past experiences",
                     "isCorrect": 0,
-                    "explanation": "While snakes do have nostrils, they primarily rely on their tongue and specialized mouth organs for smelling, unlike most other animals that use their nose"
-                },
-                {
-                    "text": "They can only detect smells through their skin",
-                    "isCorrect": 0,
-                    "explanation": "Snakes do not detect smells through their skin - they use their specialized tongue and mouth system for smelling"
-                },
-                {
-                    "text": "They can smell only through their eyes",
-                    "isCorrect": 0,
-                    "explanation": "Snakes do not smell through their eyes - this is a misconception. Their unique smelling system involves their tongue and special organs in their mouth"
+                    "explanation": "Memory storage happens in the brain, not in the sense receptors. Sense receptors only detect and transmit information."
                 }
             ],
-            "funFact": "When you see a snake flicking its tongue rapidly, it's actually taking multiple 'smell samples' of its environment! This helps the snake create a kind of 3D chemical map of its surroundings, which is especially useful when tracking prey or detecting predators."
+            "funFact": "While humans have five main senses, some animals have additional sense receptors that can detect things we can't! For example, sharks have special receptors called ampullae of Lorenzini that can detect tiny electrical fields produced by other animals in the water."
         },
         {
             "id": 2,
-            "text": "Which of the following examples shows how animals use their senses to find food?",
+            "text": "When a frog hears a potential predator approaching, what is the primary role of its brain in processing this sensory information?",
             "options": [
                 {
-                    "text": "Termites follow scent trails left by other termites to locate food sources",
+                    "text": "The brain only focuses on amplifying the sound",
+                    "isCorrect": 0,
+                    "explanation": "Sound amplification happens in the ear, not the brain. The brain's role is to process and analyze the sound information to determine appropriate responses."
+                },
+                {
+                    "text": "The brain analyzes the sound and determines the appropriate survival response",
                     "isCorrect": 1,
-                    "explanation": "Termites use their sense of smell to detect chemical trails left by other termites, which guides them directly to food sources. This is an effective way of communicating food locations within the colony."
+                    "explanation": "This is correct because the brain's key function is to process sensory information and determine appropriate responses. The brain analyzes the sound to identify danger and triggers a survival response like fleeing."
                 },
                 {
-                    "text": "Birds change their feather color when they spot food on the ground",
+                    "text": "The brain stores the sound as a memory without taking immediate action",
                     "isCorrect": 0,
-                    "explanation": "Birds do not change their feather color to find food. This is incorrect and confuses camouflage adaptations with sensory behaviors used for finding food."
+                    "explanation": "While the brain can store information as memories, its primary role when detecting potential predators is to analyze the threat and determine an immediate response."
                 },
                 {
-                    "text": "Fish close their eyes when swimming towards food",
+                    "text": "The brain simply passes the sound information directly to the muscles",
                     "isCorrect": 0,
-                    "explanation": "Fish keep their eyes open while searching for food, as vision is one of their important senses for locating prey. Closing eyes would make it harder to find food."
-                },
-                {
-                    "text": "Butterflies taste food only after eating it",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because sensing taste while eating would not help in finding food. Animals need to use their senses before consuming food to locate it."
+                    "explanation": "The brain doesn't just relay information - it must first process and analyze the sensory input to determine the appropriate response."
                 }
             ],
-            "funFact": "Some species of sharks can detect tiny electrical fields produced by hidden prey, even if the prey is buried under sand! They have special organs called ampullae of Lorenzini that act like biological metal detectors to help them find food."
+            "funFact": "Frogs' brains can process sound information in as little as 3 milliseconds - one of the fastest auditory response times in the animal kingdom! This quick processing helps them escape predators rapidly."
         },
         {
             "id": 3,
-            "text": "When temperatures drop and daylight hours decrease in fall, different animals respond to these environmental changes in different ways. Which statement correctly explains why some birds migrate south while other animals hibernate?",
+            "text": "A dog learns to sit when it hears its owner whistle. Which statement best describes how the dog processes and responds to this sensory information?",
             "options": [
                 {
-                    "text": "Birds migrate because they can't detect temperature changes, while hibernating animals can detect temperature changes",
+                    "text": "The dog's ears directly control its muscles to make it sit without involving the brain",
                     "isCorrect": 0,
-                    "explanation": "Both migrating and hibernating animals can detect temperature changes. The different responses are survival strategies that have evolved over time."
+                    "explanation": "Sensory organs like ears don't directly control muscles - signals must be processed by the brain first."
                 },
                 {
-                    "text": "Birds and hibernating animals process the same sensory information about seasonal changes but respond differently based on their survival needs",
+                    "text": "The dog only responds because it can see its owner, not because of the whistle",
+                    "isCorrect": 0,
+                    "explanation": "The dog is specifically responding to the sound stimulus (whistle), not just visual cues from the owner."
+                },
+                {
+                    "text": "The dog's brain processes the whistle sound and recalls the trained behavior to sit",
                     "isCorrect": 1,
-                    "explanation": "Both types of animals detect the same environmental changes but have different behavioral responses that help them survive winter conditions in their own way."
+                    "explanation": "This shows correct understanding of how sensory information (whistle) is processed by the brain and connected to learned memories to produce a specific response (sitting)."
                 },
                 {
-                    "text": "Birds have more developed brains that allow them to navigate, while hibernating animals have simpler brains that only allow sleeping",
+                    "text": "The dog automatically knows from birth that whistling means to sit",
                     "isCorrect": 0,
-                    "explanation": "Brain complexity is not the reason for different responses. Both migration and hibernation are sophisticated survival behaviors requiring complex brain processing."
-                },
-                {
-                    "text": "Birds migrate because they can only sense changes in daylight, while hibernating animals can only sense temperature changes",
-                    "isCorrect": 0,
-                    "explanation": "Both types of animals can sense multiple environmental changes including both temperature and daylight hours. They don't have limited sensory abilities."
+                    "explanation": "Dogs are not born knowing what whistles mean - this is a learned response developed through training."
                 }
             ],
-            "funFact": "The Arctic Tern makes the longest annual migration of any animal, traveling up to 44,000 miles round trip between the Arctic and Antarctic! Meanwhile, some frogs can survive being nearly completely frozen during hibernation by producing a natural antifreeze in their blood."
+            "funFact": "Dogs can hear frequencies up to 65,000 Hz, while humans can only hear up to about 20,000 Hz. This is why dogs can hear high-pitched whistles that humans cannot detect!"
         },
         {
             "id": 4,
-            "text": "Which of the following best describes the function of taste buds in animals?",
+            "text": "A cheetah is chasing a gazelle across the savanna. Which factor would most likely slow down the cheetah's reaction time and reduce its chances of catching the prey?",
             "options": [
                 {
-                    "text": "Taste buds are specialized sense receptors that detect different flavors and send signals to the brain",
+                    "text": "Being in familiar territory",
+                    "isCorrect": 0,
+                    "explanation": "Familiarity with surroundings helps animals respond more effectively, improving rather than slowing down reaction time."
+                },
+                {
+                    "text": "Being well-rested and alert",
+                    "isCorrect": 0,
+                    "explanation": "Being well-rested and alert actually improves reaction time, making the cheetah more likely to catch its prey."
+                },
+                {
+                    "text": "Having not eaten for several days",
                     "isCorrect": 1,
-                    "explanation": "Taste buds are sense receptors located on the tongue that help detect different tastes and send this information to the brain for processing"
+                    "explanation": "Hunger weakens the body and affects brain function, which slows down reaction time and makes it harder for the cheetah to respond quickly to the gazelle's movements."
                 },
                 {
-                    "text": "Taste buds are small muscles that help move food around in the mouth",
+                    "text": "Having heightened adrenaline",
                     "isCorrect": 0,
-                    "explanation": "While the tongue has muscles to move food, taste buds are actually sensory receptors, not muscles"
-                },
-                {
-                    "text": "Taste buds store memories of different tastes in the tongue",
-                    "isCorrect": 0,
-                    "explanation": "Memories of tastes are stored in the brain, not in the taste buds themselves. Taste buds only detect and send signals"
-                },
-                {
-                    "text": "Taste buds directly control what foods an animal likes or dislikes",
-                    "isCorrect": 0,
-                    "explanation": "Food preferences are determined by the brain's processing of signals from taste buds, not by the taste buds themselves"
+                    "explanation": "Adrenaline actually improves reaction time by preparing the body for quick responses in dangerous or exciting situations."
                 }
             ],
-            "funFact": "A human tongue has about 2,000-10,000 taste buds, but taste receptors aren't just on the tongue - they can also be found on the roof of the mouth, in the throat, and even on the epiglottis. While there are no taste buds in the nose, smell receptors there work closely with taste buds to create our overall perception of flavor."
+            "funFact": "Cheetahs can process visual information so quickly that they can spot and react to prey movement in just 20 milliseconds - that's five to twenty times faster than the blink of a human eye, which takes 100-400 milliseconds!"
         },
         {
             "id": 5,
-            "text": "What is the correct sequence of steps when an animal processes sensory information?",
+            "text": "Which of the following are the main components of the nervous system that work together to process sensory information?",
             "options": [
                 {
-                    "text": "Sense receptor \u2192 Nervous system \u2192 Brain \u2192 Response",
+                    "text": "Brain, spinal cord, and nerves",
                     "isCorrect": 1,
-                    "explanation": "This is correct - sensory information is first detected by sense receptors, then travels through the nervous system to the brain, which processes it and determines the appropriate response."
+                    "explanation": "The brain, spinal cord, and nerves are the main components that work together to process sensory information. The nerves carry signals to and from the brain through the spinal cord."
                 },
                 {
-                    "text": "Brain \u2192 Sense receptor \u2192 Nervous system \u2192 Response",
+                    "text": "Heart, lungs, and blood vessels",
                     "isCorrect": 0,
-                    "explanation": "The brain cannot receive information before the sense receptors detect it. The process must start with the sense receptors."
+                    "explanation": "These organs are part of the circulatory and respiratory systems, not the nervous system. They don't directly process sensory information."
                 },
                 {
-                    "text": "Nervous system \u2192 Brain \u2192 Sense receptor \u2192 Response",
+                    "text": "Brain, muscles, and bones",
                     "isCorrect": 0,
-                    "explanation": "The nervous system cannot transmit signals before sense receptors detect information. The process must begin with sense receptors."
+                    "explanation": "While muscles and bones are important body parts, they are not components of the nervous system. They respond to signals from the nervous system but don't process sensory information."
                 },
                 {
-                    "text": "Sense receptor \u2192 Response \u2192 Nervous system \u2192 Brain",
+                    "text": "Stomach, liver, and intestines",
                     "isCorrect": 0,
-                    "explanation": "A response cannot occur before the brain processes the information. The information must travel through the nervous system to the brain first."
+                    "explanation": "These organs are part of the digestive system, not the nervous system. While they may have nerve connections, they are not primary components for processing sensory information."
                 }
             ],
-            "funFact": "The speed at which sensory signals travel through your nervous system can reach up to 268 miles per hour! This is why you can react so quickly when you touch something hot."
+            "funFact": "The human nervous system contains about 86 billion nerve cells called neurons, and these neurons can send signals at speeds of up to 268 miles per hour!"
         },
         {
             "id": 6,
-            "text": "A snake detects a mouse nearby using its tongue. What is most likely to happen next in the snake's sensory processing and response?",
-            "options": [
-                {
-                    "text": "The snake's tongue will directly send electrical signals to its muscles to strike at the mouse",
-                    "isCorrect": 0,
-                    "explanation": "Snakes don't process sensory information directly through their tongues. The information needs to be processed by the brain first."
-                },
-                {
-                    "text": "The scent information will be transferred to special organs in the roof of the mouth, sent to the brain, and then the brain will direct the snake's hunting response",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how snakes process scent information through special organs, then their brain, before responding."
-                },
-                {
-                    "text": "The snake's tongue will immediately release venom to paralyze the mouse",
-                    "isCorrect": 0,
-                    "explanation": "Snakes don't release venom through their tongues - their tongue is purely for sensing."
-                },
-                {
-                    "text": "The scent will be absorbed directly through the snake's scales to trigger an automatic hunting response",
-                    "isCorrect": 0,
-                    "explanation": "Snakes don't detect scents through their scales, and hunting responses aren't automatic - they require brain processing."
-                }
-            ],
-            "funFact": "The special scent-detecting organs in the roof of a snake's mouth are called the Jacobson's organs or vomeronasal organs. When a snake flicks its tongue, it's actually collecting scent particles from the air to deliver them to these organs!"
-        },
-        {
-            "id": 7,
-            "text": "As autumn approaches, migratory birds prepare for their journey south. Which combination of sensory information helps these birds determine when it's time to migrate?",
-            "options": [
-                {
-                    "text": "Changes in temperature, amount of daylight, and environmental smells",
-                    "isCorrect": 1,
-                    "explanation": "Birds process multiple types of sensory information through their brains to determine when to migrate. They detect decreasing temperatures, shorter days, and changing environmental smells that signal the approach of winter."
-                },
-                {
-                    "text": "Only the decreasing temperature of their environment",
-                    "isCorrect": 0,
-                    "explanation": "While temperature changes are important, birds don't rely on temperature alone. They process multiple types of sensory information to make migration decisions."
-                },
-                {
-                    "text": "The movement of other birds in their flock",
-                    "isCorrect": 0,
-                    "explanation": "Though birds often migrate in flocks, they don't primarily rely on other birds' behavior to determine when to migrate. Their brains process environmental sensory signals to trigger migration."
-                },
-                {
-                    "text": "The availability of food in their current location",
-                    "isCorrect": 0,
-                    "explanation": "While food availability can influence birds' behavior, the primary triggers for migration are environmental signals like changing daylight, temperature, and smells that indicate seasonal change."
-                }
-            ],
-            "funFact": "Some birds, like the Arctic Tern, can detect the Earth's magnetic field through specialized proteins in their eyes and possibly receptors in their beaks, which helps them navigate during migration. These birds make the longest annual migration of any animal, traveling up to 44,000 miles round trip!"
-        },
-        {
-            "id": 8,
-            "text": "A cheetah is chasing its prey after not eating for two days. How might its hunger likely affect its sensory processing and reaction time compared to a well-fed cheetah?",
-            "options": [
-                {
-                    "text": "The hungry cheetah will have faster reaction times due to heightened alertness from hunger",
-                    "isCorrect": 1,
-                    "explanation": "Hunger triggers the release of stress hormones like adrenaline, which increases alertness and speeds up reaction times to help find food"
-                },
-                {
-                    "text": "The hungry cheetah will have the exact same reaction time as when well-fed",
-                    "isCorrect": 0,
-                    "explanation": "Physical states like hunger significantly affect how animals process sensory information and react to stimuli"
-                },
-                {
-                    "text": "The hungry cheetah will be too weak to process sensory information properly",
-                    "isCorrect": 0,
-                    "explanation": "While extended hunger can eventually lead to weakness, initial hunger actually heightens sensory processing to help find food"
-                },
-                {
-                    "text": "The hungry cheetah will ignore all sensory information except smell",
-                    "isCorrect": 0,
-                    "explanation": "Although hunger may enhance certain senses, animals still need to process all sensory information to effectively hunt and avoid dangers"
-                }
-            ],
-            "funFact": "Cheetahs have specialized nerve pathways that allow them to process visual information extremely quickly. They can spot potential prey from several hundred meters away and maintain visual focus even while running at speeds of up to 70 mph (112 km/h)."
-        },
-        {
-            "id": 9,
-            "text": "When a frog hears a loud splashing sound in a pond, what sequence of events occurs as it processes and responds to this information?",
-            "options": [
-                {
-                    "text": "The frog's ears detect the sound \u2192 nervous system sends signals to brain \u2192 brain processes if it's a predator/prey \u2192 brain signals muscles to jump away or move toward sound",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how sensory information flows from detection through processing to response, allowing the frog to make appropriate survival decisions."
-                },
-                {
-                    "text": "The frog's brain detects the sound directly \u2192 muscles automatically jump \u2192 ears confirm if it was the right response",
-                    "isCorrect": 0,
-                    "explanation": "The brain doesn't detect sounds directly - sensory receptors (ears) must first detect and send the information to the brain for processing."
-                },
-                {
-                    "text": "The frog's muscles detect vibrations \u2192 jump immediately \u2192 brain processes what happened afterward",
-                    "isCorrect": 0,
-                    "explanation": "Immediate muscle reactions without brain processing would be ineffective - the frog needs to first process if the sound indicates danger or food."
-                },
-                {
-                    "text": "The frog's ears detect sound \u2192 muscles respond instantly \u2192 brain isn't involved in the process",
-                    "isCorrect": 0,
-                    "explanation": "The brain must be involved to process sensory information and determine appropriate responses - reactions aren't just automatic reflexes."
-                }
-            ],
-            "funFact": "Some frogs can hear both underwater and in air thanks to special middle ear adaptations. This dual hearing ability helps them detect predators and prey in both environments!"
-        },
-        {
-            "id": 10,
             "text": "A chameleon's special eye structure allows it to scan its environment in a unique way. How does this adaptation help the chameleon survive?",
             "options": [
                 {
-                    "text": "The chameleon can look in two different directions at once, helping it spot both predators and prey simultaneously",
-                    "isCorrect": 1,
-                    "explanation": "Chameleons' independently moving eyes allow them to observe their surroundings in a 360-degree field of vision, making them more effective at both hunting and avoiding predators"
+                    "text": "The chameleon's eyes help it change color to match its surroundings",
+                    "isCorrect": 0,
+                    "explanation": "While chameleons can change color, this ability is not related to their eye structure. Their color change is controlled by special cells in their skin"
                 },
                 {
                     "text": "The chameleon can see through solid objects to find hidden prey",
@@ -260,9 +152,9 @@
                     "explanation": "Chameleons cannot see through solid objects. Their special eye structure allows for wide-angle vision, not x-ray vision"
                 },
                 {
-                    "text": "The chameleon's eyes help it change color to match its surroundings",
-                    "isCorrect": 0,
-                    "explanation": "While chameleons can change color, this ability is not related to their eye structure. Their color change is controlled by special cells in their skin"
+                    "text": "The chameleon can look in two different directions at once, helping it spot both predators and prey simultaneously",
+                    "isCorrect": 1,
+                    "explanation": "Chameleons' independently moving eyes allow them to observe their surroundings in a 360-degree field of vision, making them more effective at both hunting and avoiding predators"
                 },
                 {
                     "text": "The chameleon's eyes glow in the dark to help it see at night",
@@ -273,67 +165,126 @@
             "funFact": "Chameleons have some of the fastest tongues in the animal kingdom - they can extend their tongues to catch prey in just 0.07 seconds, which is faster than a fighter jet!"
         },
         {
+            "id": 7,
+            "text": "When a dog hears a whistle at dinner time and comes running for food, what is happening in terms of sensory processing and learning?",
+            "options": [
+                {
+                    "text": "Dogs are naturally born knowing what whistle sounds mean",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Dogs are not born knowing what specific whistle sounds mean - they learn these associations through experience and training."
+                },
+                {
+                    "text": "The dog's brain has learned to connect the whistle sound with food through repeated experiences",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The dog's brain processes the whistle sound through its ears (sensory receptors), and through repeated experiences, forms a memory connecting this specific sound with receiving food, influencing its future behavior."
+                },
+                {
+                    "text": "The dog's sense of smell detects the food, and the whistle is irrelevant",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While dogs do have a strong sense of smell, in this case the whistle sound has been specifically linked to food through learning and memory formation."
+                },
+                {
+                    "text": "The whistle physically pulls the dog toward the food",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Sound waves don't physically pull animals - the dog's response is based on learned associations in its brain between the sound and food."
+                }
+            ],
+            "funFact": "Dogs can hear sounds at much higher frequencies than humans can - up to about 65,000 Hz compared to our maximum of about 20,000 Hz. This is why dog whistles are designed to produce ultrasonic frequencies that we can't hear but dogs can easily detect!"
+        },
+        {
+            "id": 8,
+            "text": "A bat emits high-pitched sound waves while flying at night. When these sound waves hit a moth, what sequence of events allows the bat to catch its prey?",
+            "options": [
+                {
+                    "text": "The moth hears the sound waves and flies toward the bat, making it easier for the bat to catch it",
+                    "isCorrect": 0,
+                    "explanation": "Moths actually try to avoid bats when they hear their sound waves, not fly toward them"
+                },
+                {
+                    "text": "The bat's eyes see the moth's shadow, send signals to the brain, which then directs the bat where to fly to catch it",
+                    "isCorrect": 0,
+                    "explanation": "Bats primarily use echolocation, not vision, to hunt at night"
+                },
+                {
+                    "text": "The sound waves bounce off the moth, return to the bat's ears, send signals to its brain, which processes the location and directs the bat's flight path",
+                    "isCorrect": 1,
+                    "explanation": "This correctly shows how echolocation works - from sound emission to echo reception to brain processing to behavioral response"
+                },
+                {
+                    "text": "The sound waves stun the moth, making it fall from the air, allowing the bat to easily catch it",
+                    "isCorrect": 0,
+                    "explanation": "Sound waves don't stun prey - they bounce back to help the bat locate the prey's position"
+                }
+            ],
+            "funFact": "Some moths have evolved special ears that can detect bat echolocation calls, allowing them to perform evasive flight maneuvers to escape their predators!"
+        },
+        {
+            "id": 9,
+            "text": "A shark swimming in the ocean detects electrical signals from a fish swimming nearby. Which sequence correctly describes how the shark processes this information and responds?",
+            "options": [
+                {
+                    "text": "Shark changes direction \u2192 Electrical sensors detect signals \u2192 Brain processes information",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is backwards. The behavioral response cannot occur before the sensory detection and processing."
+                },
+                {
+                    "text": "Brain detects electrical signals \u2192 Sensors process information \u2192 Shark changes direction",
+                    "isCorrect": 0,
+                    "explanation": "This reverses the role of sensors and brain. Sensors detect signals first, then the brain processes the information."
+                },
+                {
+                    "text": "Electrical sensors process information \u2192 Shark changes direction \u2192 Brain detects signals",
+                    "isCorrect": 0,
+                    "explanation": "Sensors only detect signals, they don't process information. The brain must process the information before behavior changes."
+                },
+                {
+                    "text": "Electrical sensors detect signals \u2192 Brain processes information \u2192 Shark changes direction to pursue prey",
+                    "isCorrect": 1,
+                    "explanation": "This is the correct sequence showing how sensory information flows from detection through brain processing to behavioral response."
+                }
+            ],
+            "funFact": "Sharks can detect electrical fields as small as one billionth of a volt - that's like being able to detect a battery from 1000 miles away! This amazing ability helps them find prey even when they can't see or smell it."
+        },
+        {
+            "id": 10,
+            "text": "How do different mammals process and respond to sound frequencies differently?",
+            "options": [
+                {
+                    "text": "Humans can hear higher frequency sounds than dogs and cats but respond more slowly",
+                    "isCorrect": 0,
+                    "explanation": "Humans actually hear a smaller range of frequencies than dogs and cats, particularly in the higher frequency range."
+                },
+                {
+                    "text": "All mammals can hear and respond to exactly the same range of sound frequencies",
+                    "isCorrect": 0,
+                    "explanation": "Different mammals have evolved to hear different ranges of frequencies based on their survival needs."
+                },
+                {
+                    "text": "Dogs and cats can hear higher frequency sounds than humans and respond more quickly to them",
+                    "isCorrect": 1,
+                    "explanation": "Dogs and cats have evolved to detect higher frequency sounds than humans and can respond faster to these sounds, which helps them detect prey and avoid predators."
+                },
+                {
+                    "text": "All mammals process sound frequencies at the same speed but respond differently",
+                    "isCorrect": 0,
+                    "explanation": "Different mammals not only hear different frequency ranges but also process and respond to sounds at different speeds based on their nervous systems."
+                }
+            ],
+            "funFact": "A dog's sense of hearing is so sophisticated that they can hear sounds up to four times farther away than humans can. They can also move each ear independently to better locate the source of a sound!"
+        },
+        {
             "id": 11,
-            "text": "Scientists are studying how animals improve their survival skills through practice. Which of the following best explains why repeated practice helps animals respond faster to threats?",
-            "options": [
-                {
-                    "text": "When animals repeatedly practice an action, their brain creates specific nerve pathways that make the response more efficient",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Through repetitive practice, the brain develops dedicated neural pathways that streamline information processing, leading to faster and more efficient responses."
-                },
-                {
-                    "text": "Practice makes animals permanently tired so they react faster to save energy",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. Being tired actually slows down reaction times rather than improving them. Practice improves efficiency through better neural connections."
-                },
-                {
-                    "text": "Animals remember to be scared from previous experiences, so they always react quickly",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. While past experiences influence behavior, faster reactions come from improved neural processing through practice, not just from remembered fear."
-                },
-                {
-                    "text": "Practice gives animals new sense organs that can detect danger faster",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. Practice doesn't create new sense organs - it improves how efficiently the brain processes information from existing sense organs."
-                }
-            ],
-            "funFact": "Some athletes can react to a starting pistol in just 0.1 seconds! This incredibly fast reaction time comes from years of practice that has optimized their brain's processing of sound signals and coordination of muscle movements."
-        },
-        {
-            "id": 12,
-            "text": "How do snakes and termites differ in their use of smell to find food?",
-            "options": [
-                {
-                    "text": "Snakes use their tongues to collect smells and process them in special organs, while termites follow scent trails left by other termites",
-                    "isCorrect": 1,
-                    "explanation": "Snakes have a unique way of smelling using their tongues and special organs in the roof of their mouths, while termites communicate through chemical trails to guide others to food sources"
-                },
-                {
-                    "text": "Both snakes and termites smell using their noses like most other animals",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - neither snakes nor termites smell using traditional noses. They have evolved specialized ways of detecting chemical signals"
-                },
-                {
-                    "text": "Termites use their antennae to smell, while snakes only use their eyes to find food",
-                    "isCorrect": 0,
-                    "explanation": "While termites do use their antennae, snakes do not rely primarily on vision for finding food - they use their specialized smell organs"
-                },
-                {
-                    "text": "Neither snakes nor termites use smell to find food",
-                    "isCorrect": 0,
-                    "explanation": "Both snakes and termites heavily rely on chemical detection (smell) to locate food sources, just in different ways"
-                }
-            ],
-            "funFact": "Some snakes can detect chemical signals from prey that passed by hours or even days ago! Their forked tongues help them determine which direction the smell is coming from by comparing the chemical concentrations detected by each fork."
-        },
-        {
-            "id": 13,
             "text": "A chameleon is sitting on a branch in a dense forest. How does its unique eye movement ability help protect it from predators?",
             "options": [
                 {
                     "text": "By allowing the chameleon to look in multiple directions simultaneously while staying still",
                     "isCorrect": 1,
                     "explanation": "Chameleons can move their eyes independently, allowing them to scan their surroundings in different directions without moving their body. This helps them detect predators approaching from any direction while remaining motionless and hidden."
+                },
+                {
+                    "text": "By helping the chameleon calculate exactly how far to jump to escape a predator",
+                    "isCorrect": 0,
+                    "explanation": "While chameleons are good jumpers, their independent eye movement is primarily used for detecting threats, not calculating jumping distances."
                 },
                 {
                     "text": "By helping the chameleon change its color faster when it sees a predator",
@@ -344,41 +295,90 @@
                     "text": "By allowing the chameleon to focus both eyes on a single predator for better depth perception",
                     "isCorrect": 0,
                     "explanation": "While chameleons can focus both eyes on one target when needed, the main survival advantage of their independent eye movement is the ability to watch different directions at once."
-                },
-                {
-                    "text": "By helping the chameleon calculate exactly how far to jump to escape a predator",
-                    "isCorrect": 0,
-                    "explanation": "While chameleons are good jumpers, their independent eye movement is primarily used for detecting threats, not calculating jumping distances."
                 }
             ],
             "funFact": "Chameleons have some of the most distinctive eyes in the animal kingdom - they can rotate and focus independently, giving them a full 360-degree arc of vision around their body. Each eye can move and focus separately, allowing them to watch two different objects simultaneously!"
         },
         {
-            "id": 14,
-            "text": "How does a bat's echolocation system work as a complete sensory system from detecting prey to taking action?",
+            "id": 12,
+            "text": "When fall approaches, both birds and bears detect environmental changes like temperature drops and shorter days. Why do birds migrate south while bears choose to hibernate?",
             "options": [
                 {
-                    "text": "The bat emits sound waves, which bounce off prey, return to its ears, get processed by the brain, and guide the bat's flight path to catch the prey",
+                    "text": "Birds cannot hibernate because they are warm-blooded, while bears can lower their body temperature",
+                    "isCorrect": 0,
+                    "explanation": "Both birds and bears are warm-blooded animals. The choice between migration and hibernation is not determined by their ability to regulate body temperature."
+                },
+                {
+                    "text": "Bears are too large to migrate, so they are forced to hibernate instead",
+                    "isCorrect": 0,
+                    "explanation": "Size is not the determining factor. Many large animals migrate, and some small animals hibernate. The response depends on the species' evolved survival strategies."
+                },
+                {
+                    "text": "Both responses are equally effective survival strategies based on each animal's unique way of processing and responding to the same sensory information",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes the complete pathway from sensing to action - sound emission, echo detection, brain processing, and behavioral response"
+                    "explanation": "Different animals can process the same environmental cues differently and respond with behaviors that best suit their survival needs. Birds migrate to find food and warmer conditions, while bears conserve energy through hibernation."
                 },
                 {
-                    "text": "The bat's eyes detect movement in the dark, send signals to the brain, which then directs the bat where to fly",
+                    "text": "Birds have better sensory receptors than bears, allowing them to detect the seasonal changes more accurately",
                     "isCorrect": 0,
-                    "explanation": "While bats have eyes, they primarily use echolocation, not vision, for hunting in the dark"
-                },
-                {
-                    "text": "The bat detects electrical signals from prey's movement, processes them in the brain, and responds by flying toward the signals",
-                    "isCorrect": 0,
-                    "explanation": "Bats do not detect electrical signals - this is a feature of sharks, not bats"
-                },
-                {
-                    "text": "The bat's ears pick up prey movements directly, send this information to the brain, which then guides flight",
-                    "isCorrect": 0,
-                    "explanation": "Bats don't just passively listen - they actively emit sounds and detect the echoes that bounce back"
+                    "explanation": "Both birds and bears have well-developed sensory systems capable of detecting seasonal changes. The difference in their responses is not due to better sensory abilities."
                 }
             ],
-            "funFact": "Bats can emit up to 200 sound pulses per second during the final moments of prey capture, allowing them to create an incredibly detailed 'sound picture' of their target's location and movement!"
+            "funFact": "Some birds, like the Common Poorwill, can actually enter a hibernation-like state called torpor, making them the only known birds capable of hibernating for extended periods. However, most birds still prefer migration as their primary winter survival strategy."
+        },
+        {
+            "id": 13,
+            "text": "A squirrel encounters a new type of nut it has never seen before. The first time it tries the nut, it tastes bitter and makes the squirrel feel sick. The next day, when the squirrel sees the same type of nut again, it quickly runs away. How does the squirrel's brain help it make this decision?",
+            "options": [
+                {
+                    "text": "The squirrel's brain combines its stored memory of getting sick with current visual information to avoid the dangerous nut",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because the brain processes both current sensory input (seeing the nut) and stored memories (getting sick) to guide behavior that helps the animal survive"
+                },
+                {
+                    "text": "The squirrel's nose directly signals its legs to run away without involving the brain",
+                    "isCorrect": 0,
+                    "explanation": "The brain must process sensory information and coordinate the response - sensory organs cannot directly control muscles without brain involvement"
+                },
+                {
+                    "text": "The squirrel remembers only the taste but has no memory of getting sick from the nut",
+                    "isCorrect": 0,
+                    "explanation": "The brain stores multiple types of related memories, including both sensory information and the consequences of an experience"
+                },
+                {
+                    "text": "The squirrel's instincts automatically tell it which nuts are dangerous without any prior experience",
+                    "isCorrect": 0,
+                    "explanation": "While some behaviors are instinctual, in this case the squirrel learned from experience rather than relying on inborn knowledge"
+                }
+            ],
+            "funFact": "Animals can learn to avoid dangerous foods after just one negative experience - this is called 'conditioned taste aversion' and it's one of the fastest and longest-lasting forms of learning in nature. This helps animals survive by quickly learning to avoid toxic substances."
+        },
+        {
+            "id": 14,
+            "text": "A snake has just detected a mouse nearby. How do different senses work together to help the snake create a complete picture of its prey?",
+            "options": [
+                {
+                    "text": "The snake's scales detect vibrations while its eyes focus on color changes",
+                    "isCorrect": 0,
+                    "explanation": "While snakes can detect vibrations, they primarily use their tongue for chemical sensing and heat-sensing pits along with vision to locate prey, not just scales and color detection."
+                },
+                {
+                    "text": "The snake's tongue collects scent molecules and transfers them to special organs, while its heat-sensing pits detect the mouse's body heat",
+                    "isCorrect": 1,
+                    "explanation": "Snakes use multiple senses together - their forked tongue collects scent particles to the Jacobson's organ, while heat-sensing pits detect infrared radiation from warm-blooded prey. This combination gives them precise information about prey location."
+                },
+                {
+                    "text": "The snake only uses its eyes to see the mouse's movement and nothing else",
+                    "isCorrect": 0,
+                    "explanation": "Snakes don't rely on vision alone. They use multiple senses working together to create a complete picture of their environment and prey."
+                },
+                {
+                    "text": "The snake uses echolocation like a bat while also watching for movement",
+                    "isCorrect": 0,
+                    "explanation": "Snakes do not use echolocation - this is a feature of bats and some marine mammals. Snakes primarily rely on chemical sensing, heat detection, and vision."
+                }
+            ],
+            "funFact": "Some pit vipers can detect temperature differences as small as 0.003 degrees Celsius with their heat-sensing pits! This remarkable sensitivity helps them detect warm-blooded prey even in complete darkness."
         },
         {
             "id": 15,
@@ -395,14 +395,14 @@
                     "explanation": "Being desperate for food does not overcome the physical effects of tiredness. Fatigue impairs the speed of sensory processing and reaction time"
                 },
                 {
-                    "text": "The cheetah's reaction time will stay the same regardless of being tired",
-                    "isCorrect": 0,
-                    "explanation": "Physical condition directly affects how quickly animals can process sensory information and react. Tiredness slows down these processes"
-                },
-                {
                     "text": "The cheetah's brain will stop processing sensory information completely",
                     "isCorrect": 0,
                     "explanation": "While tiredness slows down sensory processing, it does not stop it completely. The brain continues to process information, just more slowly"
+                },
+                {
+                    "text": "The cheetah's reaction time will stay the same regardless of being tired",
+                    "isCorrect": 0,
+                    "explanation": "Physical condition directly affects how quickly animals can process sensory information and react. Tiredness slows down these processes"
                 }
             ],
             "funFact": "Cheetahs can process visual information so quickly that they can spot and react to potential prey from over 100 meters away in just a fraction of a second when they're well-rested. This rapid sensory processing helps make them one of nature's most successful hunters!"

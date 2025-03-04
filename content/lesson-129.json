@@ -4,94 +4,62 @@
     "questions": [
         {
             "id": 1,
-            "text": "Oobleck is a fascinating substance made by mixing cornstarch and water. When you poke it quickly, it feels hard, but when you let your finger rest on it gently, it flows like a liquid. What makes Oobleck unique compared to regular substances?",
-            "options": [
-                {
-                    "text": "It can switch between solid-like and liquid-like behavior depending on how much force is applied to it",
-                    "isCorrect": 1,
-                    "explanation": "Oobleck is a non-Newtonian fluid that exhibits both solid and liquid properties depending on the force applied to it - acting solid under pressure but flowing like a liquid when left alone"
-                },
-                {
-                    "text": "It permanently changes from a solid to a liquid when heated",
-                    "isCorrect": 0,
-                    "explanation": "This describes a normal phase change like ice melting to water. Oobleck's behavior is reversible and depends on force, not temperature"
-                },
-                {
-                    "text": "It is always a solid but becomes softer when touched",
-                    "isCorrect": 0,
-                    "explanation": "Oobleck isn't always a solid - it can flow like a liquid when no pressure is applied"
-                },
-                {
-                    "text": "It is always a liquid but becomes colored when touched",
-                    "isCorrect": 0,
-                    "explanation": "Oobleck's unique property is its ability to change behavior between solid-like and liquid-like states, not any color changes"
-                }
-            ],
-            "funFact": "The name 'Oobleck' comes from a Dr. Seuss book called 'Bartholomew and the Oobleck' where a sticky green substance falls from the sky. Scientists call substances like Oobleck 'non-Newtonian fluids' because they don't follow Newton's laws of fluid behavior!"
-        },
-        {
-            "id": 2,
             "text": "A student has three identical glass jars. They put a rock in the first jar, water in the second jar, and leave the third jar empty. What will happen to the shape of each substance?",
             "options": [
-                {
-                    "text": "The rock will keep its shape, the water will take the jar's shape, and the air will fill the entire jar",
-                    "isCorrect": 1,
-                    "explanation": "Solids (like rocks) maintain their shape, liquids (like water) take the shape of their container, and gases (like air) fill their entire container"
-                },
-                {
-                    "text": "All three substances will keep their original shapes",
-                    "isCorrect": 0,
-                    "explanation": "Only solids maintain their shape. Liquids and gases change shape based on their container"
-                },
                 {
                     "text": "The rock and water will keep their shapes, but the air will fill the jar",
                     "isCorrect": 0,
                     "explanation": "While solids keep their shape, liquids take the shape of their container rather than maintaining a fixed shape"
                 },
                 {
+                    "text": "The rock will keep its shape, the water will take the jar's shape, and the air will fill the entire jar",
+                    "isCorrect": 1,
+                    "explanation": "Solids (like rocks) maintain their shape, liquids (like water) take the shape of their container, and gases (like air) fill their entire container"
+                },
+                {
                     "text": "All three substances will take the shape of the jars",
                     "isCorrect": 0,
                     "explanation": "Solids have a fixed shape that doesn't change with the container, unlike liquids and gases"
+                },
+                {
+                    "text": "All three substances will keep their original shapes",
+                    "isCorrect": 0,
+                    "explanation": "Only solids maintain their shape. Liquids and gases change shape based on their container"
                 }
             ],
             "funFact": "Some materials can behave like both a solid and a liquid depending on how they're handled. For example, cornstarch mixed with water (called oobleck) acts like a solid when you squeeze it but flows like a liquid when you let it rest!"
         },
         {
-            "id": 3,
-            "text": "Which of the following is made of matter?",
+            "id": 2,
+            "text": "Which statement correctly describes matter?",
             "options": [
                 {
-                    "text": "A happy memory",
-                    "isCorrect": 0,
-                    "explanation": "Memories are abstract concepts that do not have weight or take up space, so they are not matter."
-                },
-                {
-                    "text": "A balloon filled with air",
+                    "text": "Matter is anything that has mass and takes up space",
                     "isCorrect": 1,
-                    "explanation": "A balloon filled with air contains matter in two forms - the solid balloon material and the gas (air) inside it. Both have weight and take up space."
+                    "explanation": "This is correct. These are the two key characteristics that define matter - it must have mass and occupy space."
                 },
                 {
-                    "text": "A beautiful song",
+                    "text": "Matter is anything we can see with our eyes",
                     "isCorrect": 0,
-                    "explanation": "Songs are sound waves that do not have weight or occupy space, so they are not matter."
+                    "explanation": "This is incorrect. Some forms of matter, like air, cannot be seen but are still matter because they have mass and take up space."
                 },
                 {
-                    "text": "An exciting dream",
+                    "text": "Matter is anything that can be touched",
                     "isCorrect": 0,
-                    "explanation": "Dreams are experiences in our mind that do not have physical properties like weight or volume, so they are not matter."
+                    "explanation": "This is incorrect. Not all matter can be touched (like gases), but they are still matter because they have mass and occupy space."
+                },
+                {
+                    "text": "Matter is anything that exists in the universe",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Some things that exist, like dreams, feelings, and songs, are not matter because they don't have mass or take up space."
                 }
             ],
-            "funFact": "While sounds are not matter, they need matter to travel through! Sound waves move by creating vibrations in matter like air, water, or solid objects. That's why sound cannot travel through the vacuum of space - there's no matter to carry the vibrations!"
+            "funFact": "The smallest piece of matter that scientists have discovered is called a quark. Quarks are so tiny that it would take more than a trillion trillion of them to make something as big as a grain of sand!"
         },
         {
-            "id": 4,
+            "id": 3,
             "text": "When you pour water from a tall glass into a wide bowl, what happens to the water?",
             "options": [
-                {
-                    "text": "The water takes the shape of the bowl while keeping the same volume",
-                    "isCorrect": 1,
-                    "explanation": "Liquids take the shape of their container while maintaining their volume, which is a key property of liquids"
-                },
                 {
                     "text": "The water stays in the same shape as it was in the glass",
                     "isCorrect": 0,
@@ -103,12 +71,44 @@
                     "explanation": "Simply pouring water into a different container does not change its state from liquid to gas"
                 },
                 {
+                    "text": "The water takes the shape of the bowl while keeping the same volume",
+                    "isCorrect": 1,
+                    "explanation": "Liquids take the shape of their container while maintaining their volume, which is a key property of liquids"
+                },
+                {
                     "text": "The water spreads out and disappears",
                     "isCorrect": 0,
                     "explanation": "While the water spreads out to fill the bowl, it maintains its volume and does not disappear"
                 }
             ],
             "funFact": "Mercury is the only metal that is liquid at room temperature! All other metals are solid until they are heated to much higher temperatures."
+        },
+        {
+            "id": 4,
+            "text": "Which of the following statements correctly describes the three main states of matter?",
+            "options": [
+                {
+                    "text": "A solid is hard, a liquid is wet, and a gas has no weight",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because not all solids are hard (like cotton), not all liquids feel wet (like mercury), and gases do have weight - they are matter and all matter has weight."
+                },
+                {
+                    "text": "A solid keeps its shape, a liquid takes the shape of its container, and a gas fills its container",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes the key characteristics of all three states of matter. Solids maintain their shape, liquids conform to their containers, and gases expand to fill any container completely."
+                },
+                {
+                    "text": "A solid can be broken, a liquid can be poured, and a gas is invisible",
+                    "isCorrect": 0,
+                    "explanation": "While these are properties that some matter in these states may have, this doesn't correctly describe the defining characteristics of these states. Not all gases are invisible, and being breakable or pourable isn't what defines solids and liquids."
+                },
+                {
+                    "text": "A solid keeps its shape, a liquid fills its container, and a gas floats away",
+                    "isCorrect": 0,
+                    "explanation": "While solids do keep their shape, this incorrectly suggests that liquids fill containers completely (they take the shape but don't necessarily fill it) and incorrectly describes gases as simply floating away."
+                }
+            ],
+            "funFact": "At extremely high temperatures, there's actually a fourth state of matter called plasma, which can be found in lightning bolts and stars. In plasma, electrons break free from their atoms, creating an energetic and electrically charged gas!"
         },
         {
             "id": 5,
@@ -139,44 +139,17 @@
         },
         {
             "id": 6,
-            "text": "When scientists study different materials, they often find that multiple materials have similar properties. What scientific principle helps explain these patterns we observe in materials?",
-            "options": [
-                {
-                    "text": "Matter has common properties that can be used to group and classify materials",
-                    "isCorrect": 1,
-                    "explanation": "Materials share common properties because matter has distinct characteristics that can be observed and used to sort them into groups, like solids keeping their shape or liquids taking their container's shape."
-                },
-                {
-                    "text": "Each material is completely unique and has no properties in common with other materials",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Many materials share common properties, which is why we can classify them into groups like solids, liquids, and gases."
-                },
-                {
-                    "text": "Properties of materials are random and do not follow any patterns",
-                    "isCorrect": 0,
-                    "explanation": "Properties of materials are not random. They follow observable patterns that scientists use to study and classify different types of matter."
-                },
-                {
-                    "text": "Materials only share properties if they come from the same location",
-                    "isCorrect": 0,
-                    "explanation": "Materials can share properties regardless of where they come from. For example, all solids keep their shape whether they're from nature or made in a laboratory."
-                }
-            ],
-            "funFact": "Scientists have identified over 100 different elements, but they can be organized into groups based on similar properties in the periodic table. For example, all noble gases share the property of being unreactive with other elements!"
-        },
-        {
-            "id": 7,
             "text": "When ice cream is left out of the freezer on a hot day, which observation would best show that temperature has changed its properties?",
             "options": [
+                {
+                    "text": "The ice cream changes its flavor",
+                    "isCorrect": 0,
+                    "explanation": "Temperature changes affect the state of matter but do not change the fundamental properties like flavor."
+                },
                 {
                     "text": "The ice cream becomes a liquid and takes the shape of its container",
                     "isCorrect": 1,
                     "explanation": "When heated, ice cream changes from a solid to a liquid state, demonstrating how temperature can change a material's properties. As a liquid, it follows the basic property of taking its container's shape."
-                },
-                {
-                    "text": "The ice cream becomes lighter in weight",
-                    "isCorrect": 0,
-                    "explanation": "Temperature changes do not affect the weight of a material. The mass stays the same whether it's solid or liquid."
                 },
                 {
                     "text": "The ice cream disappears completely",
@@ -184,44 +157,76 @@
                     "explanation": "While ice cream changes form when heated, it doesn't disappear. Matter cannot be created or destroyed, only change its state."
                 },
                 {
-                    "text": "The ice cream changes its flavor",
+                    "text": "The ice cream becomes lighter in weight",
                     "isCorrect": 0,
-                    "explanation": "Temperature changes affect the state of matter but do not change the fundamental properties like flavor."
+                    "explanation": "Temperature changes do not affect the weight of a material. The mass stays the same whether it's solid or liquid."
                 }
             ],
             "funFact": "In some countries, special ice cream vendors use liquid nitrogen at -196\u00b0C (-320\u00b0F) to instantly freeze ice cream right in front of customers, demonstrating a dramatic state change from liquid to solid in seconds!"
         },
         {
-            "id": 8,
-            "text": "When you make ice cubes and then let them melt back into water, what causes the change between solid and liquid forms?",
+            "id": 7,
+            "text": "When ice cream is left out of the freezer on a hot summer day, it changes from a solid to a liquid. Why does this happen?",
             "options": [
                 {
-                    "text": "Temperature",
+                    "text": "The container shape makes the ice cream become liquid",
+                    "isCorrect": 0,
+                    "explanation": "The container shape doesn't cause state changes - temperature is what causes matter to change from solid to liquid."
+                },
+                {
+                    "text": "Temperature affects the state of matter, causing the ice cream to melt when heated",
                     "isCorrect": 1,
-                    "explanation": "Temperature determines whether water exists as solid ice or liquid water. When water is cold enough (below 0\u00b0C/32\u00b0F), it becomes ice, and when warmed above this temperature, it melts into liquid."
+                    "explanation": "Heat energy causes the particles in the solid ice cream to move faster, breaking the rigid structure and transforming it into a liquid."
                 },
                 {
-                    "text": "Weight",
+                    "text": "Ice cream naturally becomes liquid after being made",
                     "isCorrect": 0,
-                    "explanation": "The weight of water does not determine whether it is solid or liquid. The same amount of water weighs the same whether it is ice or liquid."
+                    "explanation": "Ice cream doesn't change state on its own - it requires heat energy to transform from solid to liquid."
                 },
                 {
-                    "text": "Container shape",
+                    "text": "Ice cream is both a solid and liquid at the same time",
                     "isCorrect": 0,
-                    "explanation": "While liquids take the shape of their container, the container shape itself doesn't cause water to change between solid and liquid forms."
-                },
-                {
-                    "text": "Color",
-                    "isCorrect": 0,
-                    "explanation": "Color is not responsible for changes between solid and liquid states. Water can change states while remaining clear or having the same color."
+                    "explanation": "A material can only be in one state of matter at a specific temperature, though it can change states when temperature changes."
                 }
             ],
-            "funFact": "Water is unique because it is one of very few substances that expands when it freezes. This is why ice floats in water and why frozen pipes can burst in winter!"
+            "funFact": "Different materials change states at different temperatures! Ice cream typically melts around 22-25\u00b0F (-5 to -4\u00b0C), chocolate melts at about 86\u00b0F (30\u00b0C), and iron doesn't melt until it reaches 2,800\u00b0F (1,538\u00b0C)!"
+        },
+        {
+            "id": 8,
+            "text": "A scientist is designing a container to keep ice cream frozen during delivery. Which property of materials should they consider most important when choosing what to make the container from?",
+            "options": [
+                {
+                    "text": "The weight of the material",
+                    "isCorrect": 0,
+                    "explanation": "While weight matters for transportation, it's not the most critical factor for keeping ice cream frozen. The material's ability to insulate and prevent heat transfer is more important."
+                },
+                {
+                    "text": "The color of the material",
+                    "isCorrect": 0,
+                    "explanation": "While color can affect heat absorption from radiation, it's not the most important property for maintaining frozen temperatures compared to the material's thermal insulating ability."
+                },
+                {
+                    "text": "The material's thermal conductivity or insulating properties",
+                    "isCorrect": 1,
+                    "explanation": "Materials with low thermal conductivity (good insulating properties) prevent heat transfer from the environment to the ice cream, keeping it frozen. This is the most crucial factor for maintaining frozen temperatures during delivery."
+                },
+                {
+                    "text": "The flexibility of the material",
+                    "isCorrect": 0,
+                    "explanation": "Though flexibility can be important for handling, the material's thermal insulation properties are more crucial for maintaining frozen conditions."
+                }
+            ],
+            "funFact": "Some materials used in modern cold storage containers can maintain their insulating properties even at temperatures as low as -80\u00b0C (-112\u00b0F), which is much colder than needed for ice cream storage!"
         },
         {
             "id": 9,
             "text": "A student is experimenting with a substance called oobleck (a mixture of cornstarch and water). When the student quickly pokes the substance, it feels hard like a solid. But when they slowly press their finger into it, it flows like a liquid. What does this observation tell us about the properties of materials?",
             "options": [
+                {
+                    "text": "All liquids will become solid when pressed quickly",
+                    "isCorrect": 0,
+                    "explanation": "This behavior is special to certain substances like oobleck - most liquids don't become solid-like when pressed quickly"
+                },
                 {
                     "text": "Some materials can show properties of both solids and liquids depending on how they are handled",
                     "isCorrect": 1,
@@ -236,44 +241,147 @@
                     "text": "The substance must be heated to show these different properties",
                     "isCorrect": 0,
                     "explanation": "Temperature change isn't causing these different properties - it's the amount and speed of force being applied that causes the substance to behave differently"
-                },
-                {
-                    "text": "All liquids will become solid when pressed quickly",
-                    "isCorrect": 0,
-                    "explanation": "This behavior is special to certain substances like oobleck - most liquids don't become solid-like when pressed quickly"
                 }
             ],
             "funFact": "Substances that behave like both solids and liquids are called 'non-Newtonian fluids.' Quicksand is another example of a non-Newtonian fluid - the more you struggle quickly in quicksand, the more solid-like it becomes!"
         },
         {
             "id": 10,
-            "text": "A student wants to test how flexible different materials are. Which of these methods would be the best way to compare their flexibility?",
+            "text": "A scientist wants to classify different metal samples in a laboratory. Which set of observable properties would be most helpful for sorting these metals into distinct groups?",
             "options": [
                 {
-                    "text": "Try to bend each material with the same amount of force and observe how much they bend",
+                    "text": "Temperature, taste, and smell",
+                    "isCorrect": 0,
+                    "explanation": "Temperature varies with environmental conditions, and tasting or smelling metals is unsafe. These properties are not reliable or safe ways to classify metals."
+                },
+                {
+                    "text": "Age, cost, and origin",
+                    "isCorrect": 0,
+                    "explanation": "These are not observable physical properties of metals. They are external factors that don't help identify the type of metal based on its inherent characteristics."
+                },
+                {
+                    "text": "Weight, size, and shape",
+                    "isCorrect": 0,
+                    "explanation": "These properties depend on the specific sample rather than the type of metal. The same metal can come in different weights, sizes, and shapes, making these characteristics unreliable for classification."
+                },
+                {
+                    "text": "Color, hardness, and shininess",
                     "isCorrect": 1,
-                    "explanation": "Using the same force to bend different materials allows for a fair comparison of their flexibility, keeping other variables constant"
-                },
-                {
-                    "text": "Drop each material from different heights and see if they break",
-                    "isCorrect": 0,
-                    "explanation": "This method tests the material's strength or brittleness rather than flexibility, and using different heights makes the comparison unfair"
-                },
-                {
-                    "text": "Heat each material and see how they change shape",
-                    "isCorrect": 0,
-                    "explanation": "This tests how materials respond to temperature changes rather than their natural flexibility at room temperature"
-                },
-                {
-                    "text": "Put different weights on each material and see which breaks first",
-                    "isCorrect": 0,
-                    "explanation": "This tests the material's strength under pressure rather than flexibility, and using different weights makes the comparison unfair"
+                    "explanation": "These properties are easily observable and provide distinct characteristics that can reliably differentiate between metals. Color helps identify specific metals, hardness indicates their strength, and shininess shows their luster."
                 }
             ],
-            "funFact": "Some materials can change their flexibility based on temperature! For example, rubber bands become more flexible when warm and more brittle when very cold."
+            "funFact": "Some metals can change their properties dramatically with temperature. For example, mercury is the only metal that exists as a liquid at room temperature, but it becomes a solid when cooled below -38.83\u00b0C (-37.89\u00b0F)!"
         },
         {
             "id": 11,
+            "text": "Why does a balloon filled with air change its shape when squeezed, while a marble maintains its shape no matter how you hold it?",
+            "options": [
+                {
+                    "text": "Gases like air have particles that can move freely and spread out to fill any space, while solids like marbles have particles fixed in place",
+                    "isCorrect": 1,
+                    "explanation": "The particles in gases can move around freely, allowing them to spread out and take the shape of any container. In solids, the particles are held tightly together in fixed positions, maintaining their shape."
+                },
+                {
+                    "text": "Marbles are heavier than air",
+                    "isCorrect": 0,
+                    "explanation": "The weight of an object doesn't determine whether it keeps its shape. It's the arrangement of particles and their behavior that matters."
+                },
+                {
+                    "text": "Balloons are more flexible than marbles",
+                    "isCorrect": 0,
+                    "explanation": "While balloons are flexible, this isn't why the air inside changes shape. It's the properties of the gas inside, not the balloon material, that allows it to change shape."
+                },
+                {
+                    "text": "Air doesn't have any shape at all",
+                    "isCorrect": 0,
+                    "explanation": "Air does have shape - it takes the shape of whatever contains it. Gases are a form of matter that fills their container completely."
+                }
+            ],
+            "funFact": "Some materials can actually behave like both solids and liquids! A substance called Oobleck, made from cornstarch and water, flows like a liquid when poured but becomes hard like a solid when pressure is applied to it."
+        },
+        {
+            "id": 12,
+            "text": "When a chocolate bar is left in a hot car on a summer day, it changes from a solid to a liquid. What best explains this change in the chocolate's state of matter?",
+            "options": [
+                {
+                    "text": "The heat causes the chocolate to lose its weight and mass",
+                    "isCorrect": 0,
+                    "explanation": "Matter keeps its mass even when changing states. The chocolate weighs the same whether solid or liquid."
+                },
+                {
+                    "text": "The chocolate transforms into a gas that looks like a liquid",
+                    "isCorrect": 0,
+                    "explanation": "Chocolate melts into a liquid state, not a gas. Gases would fill the entire container, while melted chocolate flows and takes the container's shape."
+                },
+                {
+                    "text": "The chocolate disappears and new liquid chocolate appears",
+                    "isCorrect": 0,
+                    "explanation": "The chocolate doesn't disappear - it's the same chocolate just changing from solid to liquid form due to temperature change."
+                },
+                {
+                    "text": "The increased temperature causes the chocolate molecules to move more freely, changing it from solid to liquid",
+                    "isCorrect": 1,
+                    "explanation": "Heat causes the molecules in the chocolate to move faster and more freely, making it change from a solid that keeps its shape to a liquid that takes the shape of its container."
+                }
+            ],
+            "funFact": "While simply melting chocolate turns it from solid to liquid, chocolatiers use a precise process called tempering. Tempering involves carefully heating, cooling, and reheating chocolate to specific temperatures to ensure that when it solidifies again, it has a perfect shine and satisfying snap!"
+        },
+        {
+            "id": 13,
+            "text": "A scientist needs to classify three objects based on their properties: a glass marble, a plastic water bottle, and a metal spoon. Which set of properties would be most useful for creating distinct groups?",
+            "options": [
+                {
+                    "text": "Temperature and texture",
+                    "isCorrect": 0,
+                    "explanation": "Temperature is not a reliable property for classification as it depends on environmental conditions. Texture alone may not distinguish between materials effectively."
+                },
+                {
+                    "text": "Hardness and flexibility",
+                    "isCorrect": 1,
+                    "explanation": "Hardness and flexibility are observable physical properties that can effectively distinguish between different materials - glass is hard and brittle, plastic is flexible, and metal is hard but less brittle than glass."
+                },
+                {
+                    "text": "Shape and size",
+                    "isCorrect": 0,
+                    "explanation": "Shape and size can vary widely even within the same material type, making them less reliable for classification of materials."
+                },
+                {
+                    "text": "Color and weight",
+                    "isCorrect": 0,
+                    "explanation": "Color and weight can vary significantly within the same material type and may not reliably distinguish between different materials."
+                }
+            ],
+            "funFact": "Materials scientists often use specialized tools like durometers to measure the hardness of materials on different scales. The Mohs scale, which ranges from 1 (talc) to 10 (diamond), is one famous example used to classify mineral hardness."
+        },
+        {
+            "id": 14,
+            "text": "Clay and modeling dough can be shaped into different forms while still being considered solids. Why is this possible?",
+            "options": [
+                {
+                    "text": "These materials have particles that can slide past each other while maintaining enough attraction to hold their new shape",
+                    "isCorrect": 1,
+                    "explanation": "Clay and similar materials are solids with unique molecular structures that allow flexibility while maintaining cohesion between particles"
+                },
+                {
+                    "text": "They constantly switch between being a solid and a liquid",
+                    "isCorrect": 0,
+                    "explanation": "These materials remain in the solid state during normal use - they don't undergo state changes when being molded"
+                },
+                {
+                    "text": "They are actually liquids that just move very slowly",
+                    "isCorrect": 0,
+                    "explanation": "While they can be shaped, they maintain their form without taking the shape of their container, so they are not liquids"
+                },
+                {
+                    "text": "They have no definite shape, so they must be liquids",
+                    "isCorrect": 0,
+                    "explanation": "Being able to change shape doesn't make something a liquid - these materials maintain their shape once molded unlike liquids"
+                }
+            ],
+            "funFact": "Some materials called 'memory metals' can be bent into different shapes but return to their original form when heated - demonstrating another fascinating way that solids can be flexible while maintaining their solid state!"
+        },
+        {
+            "id": 15,
             "text": "A wooden block and a rubber ball are both solids, but they have different properties. Which statement correctly compares these two objects?",
             "options": [
                 {
@@ -298,114 +406,6 @@
                 }
             ],
             "funFact": "Some materials can be both flexible and strong! Spider silk is one of nature's most amazing materials - it's five times stronger than steel by weight, yet flexible enough to stretch up to 30% longer without breaking."
-        },
-        {
-            "id": 12,
-            "text": "A scientist needs to classify three objects based on their properties: a glass marble, a plastic water bottle, and a metal spoon. Which set of properties would be most useful for creating distinct groups?",
-            "options": [
-                {
-                    "text": "Shape and size",
-                    "isCorrect": 0,
-                    "explanation": "Shape and size can vary widely even within the same material type, making them less reliable for classification of materials."
-                },
-                {
-                    "text": "Hardness and flexibility",
-                    "isCorrect": 1,
-                    "explanation": "Hardness and flexibility are observable physical properties that can effectively distinguish between different materials - glass is hard and brittle, plastic is flexible, and metal is hard but less brittle than glass."
-                },
-                {
-                    "text": "Color and weight",
-                    "isCorrect": 0,
-                    "explanation": "Color and weight can vary significantly within the same material type and may not reliably distinguish between different materials."
-                },
-                {
-                    "text": "Temperature and texture",
-                    "isCorrect": 0,
-                    "explanation": "Temperature is not a reliable property for classification as it depends on environmental conditions. Texture alone may not distinguish between materials effectively."
-                }
-            ],
-            "funFact": "Materials scientists often use specialized tools like durometers to measure the hardness of materials on different scales. The Mohs scale, which ranges from 1 (talc) to 10 (diamond), is one famous example used to classify mineral hardness."
-        },
-        {
-            "id": 13,
-            "text": "When you take an ice cube out of the freezer and leave it on the counter, what happens to its observable properties as the temperature increases?",
-            "options": [
-                {
-                    "text": "The ice cube (solid) melts into water (liquid), which then evaporates into water vapor (gas)",
-                    "isCorrect": 1,
-                    "explanation": "As temperature increases, the ice cube changes from solid to liquid to gas, demonstrating how temperature affects the state of matter"
-                },
-                {
-                    "text": "The ice cube immediately turns into water vapor, skipping the liquid state",
-                    "isCorrect": 0,
-                    "explanation": "At room temperature and normal pressure, ice doesn't sublimate (turn directly from solid to gas). Instead, it melts into liquid water first before some of that water evaporates."
-                },
-                {
-                    "text": "The ice cube stays solid but becomes smaller",
-                    "isCorrect": 0,
-                    "explanation": "When heated, ice doesn't just shrink while staying solid - it changes its state to liquid water"
-                },
-                {
-                    "text": "The ice cube never changes no matter how long you wait",
-                    "isCorrect": 0,
-                    "explanation": "Ice will change state when heated above its melting point (0\u00b0C/32\u00b0F)"
-                }
-            ],
-            "funFact": "The process of a solid changing directly into a gas (skipping the liquid phase) is called sublimation. While this doesn't happen with ice at room temperature, it does happen with dry ice (solid carbon dioxide) which turns directly into a gas at -78.5\u00b0C (-109.3\u00b0F)!"
-        },
-        {
-            "id": 14,
-            "text": "Oobleck is a fascinating substance that behaves strangely when you play with it. Which statement best explains why Oobleck sometimes feels hard like a solid and other times flows like a liquid?",
-            "options": [
-                {
-                    "text": "When pressure is applied, Oobleck particles temporarily lock together making it act like a solid. When left alone, the particles can move freely making it flow like a liquid.",
-                    "isCorrect": 1,
-                    "explanation": "This correctly explains how Oobleck's particles respond differently to pressure, causing it to switch between solid-like and liquid-like behavior."
-                },
-                {
-                    "text": "Oobleck changes its temperature rapidly, freezing into a solid when touched and melting into a liquid when released.",
-                    "isCorrect": 0,
-                    "explanation": "Temperature is not what causes Oobleck's changing properties. The changes happen too quickly to be related to freezing or melting."
-                },
-                {
-                    "text": "Oobleck contains two separate substances - one solid and one liquid - that separate when disturbed.",
-                    "isCorrect": 0,
-                    "explanation": "Oobleck is a single substance that changes properties. It does not separate into different materials."
-                },
-                {
-                    "text": "Oobleck transforms its chemical structure when touched, creating temporary chemical bonds.",
-                    "isCorrect": 0,
-                    "explanation": "No chemical changes occur in Oobleck. The changes in its properties are physical and related to how its particles interact under pressure."
-                }
-            ],
-            "funFact": "Oobleck gets its name from a Dr. Seuss book called 'Bartholomew and the Oobleck' where a mysterious green substance falls from the sky! Scientists call substances like Oobleck 'non-Newtonian fluids' because they don't follow Newton's normal rules for how liquids should behave."
-        },
-        {
-            "id": 15,
-            "text": "A builder needs to choose materials for different parts of a house. Which property makes glass the most suitable material for windows?",
-            "options": [
-                {
-                    "text": "Glass maintains its shape while allowing light to pass through",
-                    "isCorrect": 1,
-                    "explanation": "Glass is a solid that keeps its shape and has the unique property of transparency, making it perfect for windows that need to let light in while protecting from weather."
-                },
-                {
-                    "text": "Glass can flow like a liquid at room temperature",
-                    "isCorrect": 0,
-                    "explanation": "This is a common misconception. While glass may look smooth like a liquid, it is a solid at room temperature and maintains its shape."
-                },
-                {
-                    "text": "Glass changes shape to fit any window frame",
-                    "isCorrect": 0,
-                    "explanation": "Glass does not change shape to fit containers like liquids do. It must be cut to the correct size and shape during manufacturing."
-                },
-                {
-                    "text": "Glass expands to fill all available space",
-                    "isCorrect": 0,
-                    "explanation": "This is a property of gases, not solids like glass. Glass maintains a fixed shape and volume."
-                }
-            ],
-            "funFact": "Ancient Romans were the first to use glass for windows around 100 CE. Before that, windows were just holes in walls or were covered with thin sheets of marble or wooden shutters!"
         }
     ]
 }

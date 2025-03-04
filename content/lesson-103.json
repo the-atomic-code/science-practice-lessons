@@ -7,14 +7,14 @@
             "text": "What best explains how a bone bed forms in sedimentary rock layers?",
             "options": [
                 {
-                    "text": "When multiple animals die at once due to a sudden disaster like a volcanic eruption",
-                    "isCorrect": 0,
-                    "explanation": "While mass deaths can create fossil deposits, bone beds typically form over longer periods through gradual accumulation of remains, not sudden disasters."
-                },
-                {
                     "text": "When remains gradually accumulate on the seafloor and are buried by sediments over time",
                     "isCorrect": 1,
                     "explanation": "Bone beds form when animal remains collect over time on the seafloor and are buried by sediments like sand and clay, eventually becoming fossilized."
+                },
+                {
+                    "text": "When multiple animals die at once due to a sudden disaster like a volcanic eruption",
+                    "isCorrect": 0,
+                    "explanation": "While mass deaths can create fossil deposits, bone beds typically form over longer periods through gradual accumulation of remains, not sudden disasters."
                 },
                 {
                     "text": "When predators like sharks gather their prey in one location",
@@ -31,35 +31,40 @@
         },
         {
             "id": 2,
-            "text": "What role did the Colorado River play in forming the Grand Canyon over millions of years?",
+            "text": "How do scientists use rock layer patterns to understand an area's geological history?",
             "options": [
                 {
-                    "text": "The river gradually carved through the rock layers, exposing different levels of Earth's history",
+                    "text": "By examining the order of rock layers and the fossils within them - lower layers formed first and contain older fossils",
                     "isCorrect": 1,
-                    "explanation": "Over millions of years, the Colorado River continuously eroded the rock layers, creating the deep canyon and revealing the geological history preserved in its walls"
+                    "explanation": "Correct! Scientists study rock layers from bottom to top, as lower layers formed first. The types of fossils in each layer help reveal what the environment was like when that layer formed."
                 },
                 {
-                    "text": "The river quickly flooded the area, creating the canyon in a single catastrophic event",
+                    "text": "By looking only at the types of rocks present, regardless of their position or fossil content",
                     "isCorrect": 0,
-                    "explanation": "The Grand Canyon formed through gradual erosion over millions of years, not through a single flooding event"
+                    "explanation": "This is incorrect. Both the position of rock layers and their fossil content are crucial for understanding geological history, not just rock types alone."
                 },
                 {
-                    "text": "The river deposited sediments that built up to form the canyon walls",
+                    "text": "By studying the age of rocks - newer rocks are found at the bottom and older rocks at the top",
                     "isCorrect": 0,
-                    "explanation": "The canyon formed through erosion removing rock, not through deposition building up the walls"
+                    "explanation": "This is incorrect. The principle of superposition states that in undisturbed rock sequences, older rocks are at the bottom and newer rocks are at the top."
                 },
                 {
-                    "text": "The river had no role - the canyon was formed entirely by earthquakes",
+                    "text": "By measuring the thickness of rock layers - thicker layers indicate longer time periods",
                     "isCorrect": 0,
-                    "explanation": "While earthquakes can shape landscapes, the Grand Canyon was primarily formed by river erosion over time"
+                    "explanation": "This is incorrect. The thickness of a rock layer does not directly correspond to the length of time it represents. Other factors like deposition rate affect layer thickness."
                 }
             ],
-            "funFact": "The Grand Canyon's oldest rocks are about 1.8 billion years old! The colorful sedimentary layers visible in the canyon walls were formed by ancient seas, sand dunes, and other environments over hundreds of millions of years, long before dinosaurs existed."
+            "funFact": "The Grand Canyon's rock layers reveal over 2 billion years of Earth's history! The deepest layers at the bottom of the canyon contain rocks that formed before dinosaurs existed, when early simple life forms were just beginning to emerge."
         },
         {
             "id": 3,
             "text": "At a dig site, scientists discovered marine fossils (like shark teeth and whale bones) in a deep rock layer. In a higher rock layer at the same location, they found fossils of land animals and plants. What does this pattern of fossils tell us about how this environment changed over time?",
             "options": [
+                {
+                    "text": "The fossils were moved there by rivers",
+                    "isCorrect": 0,
+                    "explanation": "While rivers can move sediments, the clear pattern of marine fossils below and land fossils above indicates a change in the environment over time"
+                },
                 {
                     "text": "The area changed from being underwater to becoming dry land",
                     "isCorrect": 1,
@@ -74,104 +79,126 @@
                     "text": "The area has always been dry land",
                     "isCorrect": 0,
                     "explanation": "The marine fossils in the lower layer show that this area was once underwater"
-                },
-                {
-                    "text": "The fossils were moved there by rivers",
-                    "isCorrect": 0,
-                    "explanation": "While rivers can move sediments, the clear pattern of marine fossils below and land fossils above indicates a change in the environment over time"
                 }
             ],
             "funFact": "Scientists can find ancient seashells on top of Mount Everest! This tells us that parts of the highest mountain on Earth were once at the bottom of an ocean before being pushed up by moving tectonic plates."
         },
         {
             "id": 4,
-            "text": "Which of the following provides the strongest evidence that Sharktooth Hill in California was once covered by an ocean?",
+            "text": "When observing rock layers in the Earth's crust, which statement correctly describes how the ages of the layers are arranged?",
             "options": [
                 {
-                    "text": "The presence of fossilized marine animals like whales, sharks, and dolphins along with ocean-floor sediments",
+                    "text": "All rock layers in an area form at the same time",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Rock layers form gradually over long periods of time, not all at once. Each layer represents a different period of deposition."
+                },
+                {
+                    "text": "The oldest rock layers are found at the bottom, with newer layers stacked on top",
                     "isCorrect": 1,
-                    "explanation": "The combination of marine fossils and ocean sediments provides clear evidence that this area was once underwater, as these animals could only have lived in an ocean environment"
+                    "explanation": "This is correct. As sediments are deposited over time, newer layers form on top of older layers, creating a chronological sequence from oldest at the bottom to youngest at the top."
                 },
                 {
-                    "text": "The location being 100 miles from the current ocean",
+                    "text": "The newest rock layers are found at the bottom, with older layers stacked on top",
                     "isCorrect": 0,
-                    "explanation": "The current distance from the ocean doesn't tell us about past conditions, as landscapes can change dramatically over millions of years"
+                    "explanation": "This is incorrect. Sediments are deposited over time with newer layers forming on top, not bottom. The bottom layers are the oldest since they were deposited first."
                 },
                 {
-                    "text": "The presence of hills in the area",
+                    "text": "The age of rock layers is random and does not follow any pattern",
                     "isCorrect": 0,
-                    "explanation": "Hills can form through many different geological processes and don't specifically indicate that an area was once underwater"
-                },
-                {
-                    "text": "The depth of the fossils at 30 feet underground",
-                    "isCorrect": 0,
-                    "explanation": "While the depth of fossils is interesting, it doesn't specifically prove that the area was once ocean - fossils can be buried at various depths in many different environments"
+                    "explanation": "This is incorrect. Rock layers follow a consistent pattern of age, with older layers at the bottom and newer layers on top, unless they have been disturbed by geological processes."
                 }
             ],
-            "funFact": "The marine fossils found at Sharktooth Hill are approximately 15 million years old, from a time period called the Middle Miocene. During this period, much of what is now California's Central Valley was a vast marine environment with warm waters similar to today's Gulf of California!"
+            "funFact": "The principle of superposition, which states that younger layers of rock are found above older layers, was first proposed by Nicolas Steno in 1669. This fundamental principle of geology helps scientists understand Earth's history, just like reading the pages of a book from bottom to top!"
         },
         {
             "id": 5,
-            "text": "How do scientists typically determine the age of ancient fossils?",
+            "text": "At an ancient marine fossil site, scientists observe continuous sediment deposition throughout all layers, but notice the sediments suddenly stop containing fossils for a period of time, followed by a dense layer of marine fossils. Which explanation best accounts for this pattern?",
             "options": [
                 {
-                    "text": "They use radiometric dating methods that measure the decay of radioactive isotopes in surrounding rocks",
+                    "text": "The ocean water became anoxic (oxygen-depleted), making the area uninhabitable for marine life until oxygen levels later returned to normal",
                     "isCorrect": 1,
-                    "explanation": "Scientists primarily use radiometric dating methods like potassium-argon dating to determine the age of ancient fossils by measuring the decay of radioactive isotopes in the surrounding rock layers."
+                    "explanation": "Ocean anoxia allows sediments to continue accumulating but creates conditions where marine organisms cannot survive. When oxygen levels return to normal, marine life returns to the area and can create dense fossil layers as populations rebound."
                 },
                 {
-                    "text": "They count the number of rock layers above the fossil",
+                    "text": "A volcanic eruption killed all marine life in the area at once",
                     "isCorrect": 0,
-                    "explanation": "While rock layers can indicate relative age, the number of layers alone cannot determine the exact age of a fossil. Radiometric dating provides absolute age measurements."
+                    "explanation": "While volcanic activity can affect marine life, this wouldn't explain the period without fossils followed by a dense layer. A volcanic eruption would likely create a single mass mortality layer rather than this pattern."
                 },
                 {
-                    "text": "They measure how deep the fossil is buried underground",
+                    "text": "The ocean completely dried up and later refilled",
                     "isCorrect": 0,
-                    "explanation": "The depth of a fossil does not directly indicate its age, as geological processes can move rock layers. Scientists use radiometric dating methods to determine the actual age."
+                    "explanation": "If the ocean dried up, sediment deposition would be significantly altered, not continuous as observed. The site would show evidence of exposure like mud cracks or erosional surfaces, not continuous marine sedimentation."
                 },
                 {
-                    "text": "They look at the size and shape of the fossil",
+                    "text": "Predators like sharks consumed all marine life during that period",
                     "isCorrect": 0,
-                    "explanation": "Physical appearance of fossils cannot determine their age. Scientists analyze the radioactive elements in surrounding rocks to establish the age of fossils."
+                    "explanation": "Predation would not explain the gap in fossil deposits, as some remains would still be preserved, and predators cannot completely eliminate all fossilizable organisms from an ecosystem."
                 }
             ],
-            "funFact": "While radiocarbon dating works only for materials up to about 60,000 years old, other radiometric dating methods like potassium-argon dating can date materials billions of years old, allowing scientists to determine the age of dinosaur fossils that are millions of years old!"
+            "funFact": "Ocean anoxic events have occurred several times throughout Earth's history, sometimes affecting vast areas of ancient seas. These events are often associated with mass extinctions but also with exceptional fossil preservation in black shales due to limited decomposition in oxygen-poor environments."
         },
         {
             "id": 6,
-            "text": "Scientists discovered several layers of rock in a coastal area. The bottom layer contains fossils of land plants and dinosaur bones. The middle layer has fossils of fish and marine shells. The top layer shows fossils of land mammals. What can we conclude about how this landscape changed over time?",
+            "text": "At a dig site, scientists found several rock layers containing different types of fossils. From bottom to top, they discovered: Layer 1 with coral and fish fossils, Layer 2 with sand and seashells, Layer 3 with tree fossils and land animal bones, and Layer 4 with grassland plant fossils. What sequence of environmental changes occurred at this location over time, from oldest to most recent?",
             "options": [
                 {
-                    "text": "The area started as land, became an ocean, and then returned to being land",
+                    "text": "Forest \u2192 grassland \u2192 shallow ocean \u2192 deep ocean",
+                    "isCorrect": 0,
+                    "explanation": "This sequence suggests the environment changed from land to ocean, but the fossil evidence shows the opposite - the environment changed from ocean to land over time."
+                },
+                {
+                    "text": "Grassland \u2192 forest \u2192 shallow ocean \u2192 deep ocean",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is reversed. Remember that older rock layers are found at the bottom, so the sequence should be read from bottom to top, not top to bottom."
+                },
+                {
+                    "text": "Deep ocean \u2192 shallow ocean \u2192 forest \u2192 grassland",
                     "isCorrect": 1,
-                    "explanation": "The sequence of fossils from bottom to top (land plants/dinosaurs \u2192 marine life \u2192 land mammals) shows that this area transformed from land to ocean and back to land over time"
+                    "explanation": "Since older rock layers are at the bottom, the sequence from bottom to top shows the environmental changes over time. Coral and fish fossils indicate deep ocean, seashells suggest shallow ocean, tree and land animal fossils show forest environment, and grassland plant fossils indicate a grassland environment."
                 },
                 {
-                    "text": "The area has always been an ocean and never changed",
+                    "text": "Deep ocean \u2192 grassland \u2192 forest \u2192 shallow ocean",
                     "isCorrect": 0,
-                    "explanation": "The presence of land plants and animal fossils in the bottom and top layers shows that this area wasn't always covered by ocean"
-                },
-                {
-                    "text": "The area has always been land and never changed",
-                    "isCorrect": 0,
-                    "explanation": "The marine fossils in the middle layer clearly indicate that this area was once covered by ocean waters"
-                },
-                {
-                    "text": "The fossils were moved there by rivers and don't tell us about the landscape",
-                    "isCorrect": 0,
-                    "explanation": "While rivers can transport fossils, the clear layering pattern and types of fossils indicate these organisms lived and died in these environments"
+                    "explanation": "While this starts correctly with deep ocean, the sequence doesn't match the fossil evidence. The presence of seashells in Layer 2 indicates the environment was still marine before transitioning to land."
                 }
             ],
-            "funFact": "The Atlantic coastal plain of the United States has experienced similar changes, where marine fossils can be found hundreds of miles inland from today's coast. This shows how the shoreline has moved back and forth over millions of years due to changes in sea level!"
+            "funFact": "The transition from marine to terrestrial environments seen in rock layers is called a 'marine regression.' The opposite, when land becomes covered by ocean, is called a 'marine transgression.' These changes can occur over millions of years due to sea level changes or tectonic activity!"
         },
         {
             "id": 7,
+            "text": "At the Grand Canyon, you observe alternating layers of sedimentary rock with distinct patterns. The walls reveal horizontal layers, but in one section, there is a deep V-shaped cut through these layers with a river at the bottom. What Earth force most likely created this landscape feature?",
+            "options": [
+                {
+                    "text": "Water erosion from the river",
+                    "isCorrect": 1,
+                    "explanation": "Over millions of years, the flowing river cut through the rock layers, gradually carving the V-shaped canyon through the process of erosion."
+                },
+                {
+                    "text": "Volcanic activity",
+                    "isCorrect": 0,
+                    "explanation": "While volcanic activity can shape landscapes, the V-shaped cut with a river at the bottom is characteristic of water erosion, not volcanic processes."
+                },
+                {
+                    "text": "Wind erosion",
+                    "isCorrect": 0,
+                    "explanation": "While wind can erode rock, the presence of a river at the bottom of a V-shaped cut strongly indicates water erosion as the primary force."
+                },
+                {
+                    "text": "Earthquake faults",
+                    "isCorrect": 0,
+                    "explanation": "Earthquakes typically cause sudden breaks or shifts in rock layers, not gradual V-shaped cuts with rivers at the bottom."
+                }
+            ],
+            "funFact": "The Colorado River has been carving the Grand Canyon for approximately 6 million years, and continues to deepen it by about the thickness of a sheet of paper each year!"
+        },
+        {
+            "id": 8,
             "text": "Which geological process would most likely create a concentrated layer of marine animal fossils in one specific area?",
             "options": [
                 {
-                    "text": "A river temporarily stops flowing into the ocean, allowing animal remains to collect on the seafloor before being buried by sediments when the river flow resumes",
-                    "isCorrect": 1,
-                    "explanation": "When a river stops flowing, sediment deposition pauses, allowing animal remains to accumulate. When flow resumes, the concentrated remains get buried together, creating a dense fossil layer."
+                    "text": "Predators like sharks hunt and pile up their prey in one location",
+                    "isCorrect": 0,
+                    "explanation": "Predator activity would leave distinctive bite marks on the bones, and predators don't typically concentrate prey remains in one location."
                 },
                 {
                     "text": "A volcanic eruption quickly buries all marine life in the area under ash",
@@ -179,9 +206,9 @@
                     "explanation": "While volcanic events can preserve fossils, they typically create scattered remains rather than concentrated bone beds. Volcanic ash would also be visible in the rock layers."
                 },
                 {
-                    "text": "Predators like sharks hunt and pile up their prey in one location",
-                    "isCorrect": 0,
-                    "explanation": "Predator activity would leave distinctive bite marks on the bones, and predators don't typically concentrate prey remains in one location."
+                    "text": "A river temporarily stops flowing into the ocean, allowing animal remains to collect on the seafloor before being buried by sediments when the river flow resumes",
+                    "isCorrect": 1,
+                    "explanation": "When a river stops flowing, sediment deposition pauses, allowing animal remains to accumulate. When flow resumes, the concentrated remains get buried together, creating a dense fossil layer."
                 },
                 {
                     "text": "An earthquake suddenly shifts the ocean floor and traps marine life",
@@ -192,153 +219,94 @@
             "funFact": "Some of the richest marine fossil beds in the world were created when changes in ocean currents or climate temporarily altered sediment deposition patterns. These 'fossil lagerst\u00e4tten' provide exceptional snapshots of ancient marine ecosystems!"
         },
         {
-            "id": 8,
-            "text": "A paleontologist discovers fossils of ancient marine animals at the surface of a desert area. Which geological process most likely made these ancient fossils visible at the surface?",
-            "options": [
-                {
-                    "text": "Wind and water erosion wore away the younger rock layers above",
-                    "isCorrect": 1,
-                    "explanation": "Erosion by wind and water can remove younger rock layers over time, exposing older rock layers containing ancient fossils at the surface"
-                },
-                {
-                    "text": "Earthquakes pushed the older rock layers up to the surface",
-                    "isCorrect": 0,
-                    "explanation": "While earthquakes can affect rock layers, they typically don't expose fossils by pushing older layers up to the surface in this way"
-                },
-                {
-                    "text": "The fossils naturally moved upward through the rock layers",
-                    "isCorrect": 0,
-                    "explanation": "Fossils don't move up through rock layers on their own - they stay in the layer where they were originally preserved"
-                },
-                {
-                    "text": "Volcanic activity melted away the upper rock layers",
-                    "isCorrect": 0,
-                    "explanation": "Volcanic activity typically adds new rock layers rather than removing existing ones to expose fossils"
-                }
-            ],
-            "funFact": "The processes of erosion can remove rock at varying rates - from less than 0.01 millimeters per year in arid regions to more than 1 centimeter per year in mountainous regions. Over millions of years, this can expose rock layers that were originally buried deep underground!"
-        },
-        {
             "id": 9,
-            "text": "Which geological feature is most likely formed by the erosive action of a river over millions of years?",
+            "text": "At a dig site, scientists found fossils of ancient whales and dolphins in a rock layer that is now located in a dry, mountainous region 50 miles inland from the ocean. What does this geological evidence most likely indicate about this region's past climate and landscape?",
             "options": [
                 {
-                    "text": "A deep canyon with layered rock walls",
+                    "text": "The whales and dolphins traveled inland through ancient rivers that have since dried up",
+                    "isCorrect": 0,
+                    "explanation": "While whales can sometimes swim up rivers, finding numerous marine fossils far inland is better explained by the area being an ancient ocean rather than a river system."
+                },
+                {
+                    "text": "The fossils were transported to this location by ancient humans",
+                    "isCorrect": 0,
+                    "explanation": "The fossils are found within rock layers that formed millions of years ago, long before humans existed. Their placement within these layers shows they were naturally deposited when the rocks formed."
+                },
+                {
+                    "text": "This region was once covered by an ocean before geological processes caused the land to rise and water to recede",
                     "isCorrect": 1,
-                    "explanation": "Rivers can carve deep canyons through rock layers over millions of years through continuous erosion, creating steep walls that expose different rock layers."
+                    "explanation": "The presence of marine fossils in an inland area is strong evidence that the region was once underwater. Over millions of years, geological processes can cause significant changes in landscapes, turning ancient seabeds into dry land."
                 },
                 {
-                    "text": "A mountain range with jagged peaks",
+                    "text": "A massive flood carried these marine animals inland where they became fossilized",
                     "isCorrect": 0,
-                    "explanation": "Mountain ranges are typically formed by tectonic plate collisions and uplift, not by river erosion."
-                },
-                {
-                    "text": "A volcanic crater at a mountain top",
-                    "isCorrect": 0,
-                    "explanation": "Volcanic craters are formed by volcanic eruptions and the collapse of magma chambers, not by river erosion."
-                },
-                {
-                    "text": "A sand dune in a desert",
-                    "isCorrect": 0,
-                    "explanation": "Sand dunes are formed by wind depositing and shaping sand particles, not by river erosion."
+                    "explanation": "A single flood event would not explain the systematic deposition of marine fossils in distinct rock layers. The fossils indicate a long-term marine environment rather than a temporary flood."
                 }
             ],
-            "funFact": "The Colorado River has been carving the Grand Canyon for about 6 million years, creating one of Earth's most spectacular examples of river erosion. The canyon is up to 18 miles wide and over a mile deep!"
+            "funFact": "Some of the highest mountains in the world, including parts of the Himalayas, contain marine fossils at their peaks, showing that these massive mountains were once at the bottom of ancient oceans before being pushed upward by tectonic forces!"
         },
         {
             "id": 10,
-            "text": "Which conditions would be most likely to preserve animal remains and eventually form fossils in an ocean environment?",
+            "text": "In a cliff face showing multiple layers of sedimentary rock, scientists discovered fossils of ancient sea creatures. If they want to find the oldest fossils in this location, in which layer should they look?",
             "options": [
                 {
-                    "text": "Rapid burial by river sediments in calm ocean waters",
+                    "text": "Any layer, since fossils can move between layers",
+                    "isCorrect": 0,
+                    "explanation": "Fossils generally stay in their original layer and don't move between layers once they're formed in sedimentary rock."
+                },
+                {
+                    "text": "The top layer of rock",
+                    "isCorrect": 0,
+                    "explanation": "The top layer contains the most recent deposits and therefore the youngest fossils, not the oldest ones."
+                },
+                {
+                    "text": "The middle layer of rock",
+                    "isCorrect": 0,
+                    "explanation": "The middle layer would contain fossils that are younger than the bottom layer but older than the top layer."
+                },
+                {
+                    "text": "The bottom layer of rock",
                     "isCorrect": 1,
-                    "explanation": "Rapid burial by sediments in calm waters provides the best conditions for fossil formation by protecting remains from scavengers and decay while allowing mineralization to occur"
-                },
-                {
-                    "text": "Exposure to strong ocean currents and wave action",
-                    "isCorrect": 0,
-                    "explanation": "Strong currents and waves would likely scatter and damage remains, making preservation unlikely"
-                },
-                {
-                    "text": "Floating at the ocean surface for extended periods",
-                    "isCorrect": 0,
-                    "explanation": "Remains exposed at the surface would decompose quickly and be eaten by scavengers before they could fossilize"
-                },
-                {
-                    "text": "Accumulation in shallow tide pools near the shore",
-                    "isCorrect": 0,
-                    "explanation": "Tide pools are too exposed to air and wave action, which would prevent proper burial and preservation of remains"
+                    "explanation": "Since sedimentary rocks form layer by layer with newer layers on top, the bottom layer contains the oldest rocks and fossils."
                 }
             ],
-            "funFact": "The fastest-forming fossils, called 'instant fossils,' can form in just a few weeks under perfect conditions, though most fossils take thousands or millions of years to form. Some of the best-preserved fossils are found in ancient lake beds and river deltas where rapid burial occurred."
+            "funFact": "The principle of superposition, first proposed by Nicolas Steno in 1669, states that in undisturbed rock sequences, the oldest rocks are at the bottom. This fundamental principle helps scientists reconstruct billions of years of Earth's history!"
         },
         {
             "id": 11,
-            "text": "Two different geological cross-sections are shown below:\nSection A shows flat, parallel rock layers with marine fossils throughout.\nSection B shows similar rock layers that have been cut through by a deep V-shaped valley with a river at the bottom.\n\nWhat different geological processes likely shaped these two landscapes?",
+            "text": "At a dig site, scientists found multiple layers of rock containing fossils. The bottom layer contained fish and shark fossils, the middle layer had dolphin and whale fossils, and the top layer had plant fossils. What can we conclude about how this environment changed over time?",
             "options": [
                 {
-                    "text": "Section A was formed by gradual sediment deposition, while Section B was formed by both sediment deposition and river erosion",
+                    "text": "The environment changed from marine to terrestrial over time",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Section A shows undisturbed sedimentary layers formed by continuous deposition, while Section B shows these same layers later cut by a river creating a valley through erosion."
+                    "explanation": "The progression of fossils from marine fish and sharks to marine mammals (dolphins and whales) to land plants shows the environment gradually changed from ocean to land over time"
                 },
                 {
-                    "text": "Section A was formed by volcanic activity, while Section B was formed by an earthquake",
+                    "text": "The fossils were mixed up by earthquakes and don't show any pattern",
                     "isCorrect": 0,
-                    "explanation": "The parallel layers in both sections indicate sedimentary deposition, not volcanic activity. The V-shaped valley in Section B indicates river erosion rather than earthquake activity."
+                    "explanation": "While earthquakes can disturb rock layers, the clear progression of fossil types indicates an undisturbed sequence showing environmental change"
                 },
                 {
-                    "text": "Both sections were formed by the same process of river erosion at different times",
+                    "text": "The environment stayed constant as an ocean throughout time",
                     "isCorrect": 0,
-                    "explanation": "While Section B shows evidence of river erosion, Section A's undisturbed parallel layers indicate it was formed by sediment deposition without erosion."
+                    "explanation": "The presence of plant fossils in the top layer indicates the environment eventually became terrestrial (land-based), not remaining as a marine environment"
                 },
                 {
-                    "text": "Both sections were formed by the same process of mountain building pushing the layers upward",
+                    "text": "The environment changed from land to shallow ocean to deep ocean",
                     "isCorrect": 0,
-                    "explanation": "Neither section shows evidence of mountain building forces. Section A shows normal sediment deposition, while Section B shows both deposition and river erosion."
+                    "explanation": "This contradicts the principle that older layers are at the bottom. The bottom layer with fish fossils represents the oldest environment"
                 }
             ],
-            "funFact": "Rivers can take millions of years to carve deep valleys through rock layers. The Grand Canyon took about 70 million years to be carved to its current depth of about a mile deep by the Colorado River!"
+            "funFact": "When marine environments transform into land environments, this process is called 'marine regression.' The opposite process, when land becomes covered by ocean, is called 'marine transgression.' These changes can happen multiple times in the same area over millions of years!"
         },
         {
             "id": 12,
-            "text": "Scientists discovered fossils of marine animals in a desert region. Using radiometric dating, they found that the fossils are 20 million years old. What can they conclude about how this landscape has changed over time?",
-            "options": [
-                {
-                    "text": "The area was once covered by an ocean but has since become dry land",
-                    "isCorrect": 1,
-                    "explanation": "The presence of marine fossils in what is now a desert indicates this area was once underwater. Radiometric dating showing these fossils are 20 million years old tells us when this marine environment existed."
-                },
-                {
-                    "text": "The marine animals lived in an ancient desert lake that dried up",
-                    "isCorrect": 0,
-                    "explanation": "Marine animals typically live in oceans, not desert lakes. The types of fossils found indicate an ocean environment rather than a freshwater lake."
-                },
-                {
-                    "text": "The fossils were transported to this location by wind and water",
-                    "isCorrect": 0,
-                    "explanation": "While fossils can be moved by erosion, finding many marine fossils together in rock layers suggests they were preserved where the animals originally lived."
-                },
-                {
-                    "text": "The area has always been a desert but occasionally floods",
-                    "isCorrect": 0,
-                    "explanation": "Occasional flooding cannot explain the presence of marine animal fossils. The evidence suggests a more permanent ocean environment existed here millions of years ago."
-                }
-            ],
-            "funFact": "The Sahara Desert contains countless marine fossils, including those of whales! Around 100 million years ago, much of this region was covered by an ancient ocean called the Tethys Sea."
-        },
-        {
-            "id": 13,
             "text": "The Cliffside Valley shows layers of rock containing different types of fossils. The bottom layer has marine fossils like fish and shells. The middle layer contains plant fossils typical of shallow swamps. The top layer has fossils of land animals and plants. What does this evidence suggest about how the Cliffside Valley landscape formed over time?",
             "options": [
                 {
                     "text": "The area gradually changed from an ocean to a swamp and finally to dry land",
                     "isCorrect": 1,
                     "explanation": "The sequence of fossils from bottom to top shows a gradual transition from marine life to swamp life to land life, indicating the environment changed slowly over time through these stages."
-                },
-                {
-                    "text": "A sudden earthquake mixed up fossils from different environments",
-                    "isCorrect": 0,
-                    "explanation": "If an earthquake had mixed the fossils, they would appear scattered rather than in distinct ordered layers representing different environments."
                 },
                 {
                     "text": "The land animals drove out the marine animals",
@@ -349,51 +317,73 @@
                     "text": "A volcanic eruption suddenly changed the landscape multiple times",
                     "isCorrect": 0,
                     "explanation": "Volcanic activity would leave evidence like ash layers. The orderly fossil sequence suggests gradual environmental changes, not sudden volcanic events."
+                },
+                {
+                    "text": "A sudden earthquake mixed up fossils from different environments",
+                    "isCorrect": 0,
+                    "explanation": "If an earthquake had mixed the fossils, they would appear scattered rather than in distinct ordered layers representing different environments."
                 }
             ],
             "funFact": "Scientists can determine the ancient climate of an area by studying the types of fossils found there. For example, finding fossils of tropical plants in Antarctica tells us that this frozen continent was once much warmer!"
         },
         {
-            "id": 14,
-            "text": "Scientists have discovered marine fossils and silt deposits at a location that is currently 100 miles inland from the ocean. Which combination of evidence best supports the conclusion that this area was once underwater?",
+            "id": 13,
+            "text": "Scientists discovered a cliff face with several distinct rock layers. In the lowest layer, they found fossils of ocean creatures like fish and shells. The middle layer contained fossils of land plants and small mammals. The top layer had fossils of large land mammals. What is the most likely explanation for how this environment changed over time?",
             "options": [
                 {
-                    "text": "The presence of whale, shark, and dolphin fossils along with ocean-bottom silt deposits",
+                    "text": "The area changed from an ocean environment to a land environment, gradually becoming more suitable for larger mammals",
                     "isCorrect": 1,
-                    "explanation": "This combination provides strong evidence of an underwater environment, as these marine animals could only have lived in ocean waters, and silt deposits are characteristic of ocean bottom sediments."
+                    "explanation": "The sequence of fossils from bottom to top shows a clear pattern of environmental change - from marine life to land plants and eventually to large land mammals, indicating the area transformed from an ocean to dry land over time"
                 },
                 {
-                    "text": "The presence of fossils and the current distance from the ocean",
+                    "text": "Large land mammals lived there first, followed by small mammals and plants, and finally ocean creatures",
                     "isCorrect": 0,
-                    "explanation": "The current distance from the ocean alone doesn't provide evidence of past conditions. We need specific types of fossils and sediments to determine past environments."
+                    "explanation": "This contradicts the principle that lower rock layers are older than upper layers. The fossils in lower layers formed before those in upper layers"
                 },
                 {
-                    "text": "The depth at which the fossils were found",
+                    "text": "All these animals lived in the area at the same time but died in different places",
                     "isCorrect": 0,
-                    "explanation": "The depth of fossils alone doesn't indicate an underwater environment - fossils can be found at various depths in many different past environments."
+                    "explanation": "The distinct layers with different types of fossils indicate these organisms lived at different times, not simultaneously in different locations"
                 },
                 {
-                    "text": "The age of the fossils determined by radiocarbon dating",
+                    "text": "The animals repeatedly switched between living in water and on land as the seasons changed",
                     "isCorrect": 0,
-                    "explanation": "While dating tells us when the organisms lived, it doesn't directly tell us about the environment in which they lived. We need evidence of the environment itself."
+                    "explanation": "The changes shown in the rock layers occurred over millions of years, not seasonal cycles. The progression from marine to land fossils represents permanent environmental changes"
                 }
             ],
-            "funFact": "The Earth's tectonic movements can cause dramatic changes in landscapes over millions of years. Areas that were once deep underwater can become dry land, mountains, or even deserts! This process, called uplift, has created some of our highest mountain ranges, where you can sometimes find seashell fossils at the peak."
+            "funFact": "The process of an ocean environment changing into dry land is called 'marine regression.' This has happened many times in Earth's history and is one reason why we can find seashell fossils on mountain tops!"
+        },
+        {
+            "id": 14,
+            "text": "At Sharktooth Hill, scientists found marine fossils buried in silt layers 30 feet underground. What does this evidence suggest about how the landscape changed over time?",
+            "options": [
+                {
+                    "text": "A sudden earthquake instantly lifted the ocean floor, trapping all marine life at once",
+                    "isCorrect": 0,
+                    "explanation": "While earthquakes can cause geological changes, the orderly layers of fossils and sediments indicate a gradual process rather than a sudden event."
+                },
+                {
+                    "text": "The area transformed gradually from an ocean environment to dry land through continuous sediment deposition and geological processes",
+                    "isCorrect": 1,
+                    "explanation": "The presence of marine fossils in silt layers indicates this area was once underwater, and their preservation in orderly layers suggests a gradual transformation as sediments slowly accumulated over millions of years."
+                },
+                {
+                    "text": "The ocean suddenly dried up in a single catastrophic event",
+                    "isCorrect": 0,
+                    "explanation": "The organized layers of fossils and sediments show this was a gradual process over millions of years, not a sudden event."
+                },
+                {
+                    "text": "A volcanic eruption rapidly filled the ocean with ash, creating new land instantly",
+                    "isCorrect": 0,
+                    "explanation": "There is no evidence of volcanic ash in the rock layers, and the presence of well-preserved fossils in silt suggests normal marine sediment deposition."
+                }
+            ],
+            "funFact": "Ancient marine fossils can be found hundreds of miles inland from today's coastlines! This helps scientists map how oceans and continents have moved over millions of years, revealing that Earth's geography is constantly changing."
         },
         {
             "id": 15,
             "text": "At a dig site, scientists found rock layers containing different types of fossils. The bottom layer contains fossilized shells and fish bones, while the upper layer contains fossilized land plants and dinosaur bones. What does this pattern of fossils tell us about how this landscape changed over time?",
             "options": [
-                {
-                    "text": "The area was once underwater and later became dry land",
-                    "isCorrect": 1,
-                    "explanation": "The marine fossils (shells and fish) in the lower layer indicate the area was underwater first. The land-based fossils (plants and dinosaurs) in the upper layer show it later became dry land."
-                },
-                {
-                    "text": "The area was always dry land and animals from the ocean were carried there by rivers",
-                    "isCorrect": 0,
-                    "explanation": "If ocean animals were carried by rivers, we would see mixed layers of marine and land fossils, not distinct layers with marine fossils below land fossils."
-                },
                 {
                     "text": "The area was dry land that later became underwater",
                     "isCorrect": 0,
@@ -403,6 +393,16 @@
                     "text": "The fossils were randomly distributed and don't tell us anything about the landscape",
                     "isCorrect": 0,
                     "explanation": "The clear pattern of marine fossils below land fossils is not random. These layers provide important evidence about how the environment changed over time."
+                },
+                {
+                    "text": "The area was always dry land and animals from the ocean were carried there by rivers",
+                    "isCorrect": 0,
+                    "explanation": "If ocean animals were carried by rivers, we would see mixed layers of marine and land fossils, not distinct layers with marine fossils below land fossils."
+                },
+                {
+                    "text": "The area was once underwater and later became dry land",
+                    "isCorrect": 1,
+                    "explanation": "The marine fossils (shells and fish) in the lower layer indicate the area was underwater first. The land-based fossils (plants and dinosaurs) in the upper layer show it later became dry land."
                 }
             ],
             "funFact": "The process of an area changing from ocean to dry land is called 'emergence.' This has happened many times in Earth's history and can be caused by tectonic plate movement, changes in sea level, or the buildup of sediment over millions of years."

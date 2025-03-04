@@ -4,8 +4,94 @@
     "questions": [
         {
             "id": 1,
+            "text": "When a moving ball collides with a stationary ball, what happens to the energy of the moving ball?",
+            "options": [
+                {
+                    "text": "The energy is only converted to sound, with no transfer to the stationary ball",
+                    "isCorrect": 0,
+                    "explanation": "While some energy converts to sound, a significant portion transfers to the stationary ball, causing it to move."
+                },
+                {
+                    "text": "The energy disappears completely after the collision",
+                    "isCorrect": 0,
+                    "explanation": "Energy cannot disappear - it is transferred to other forms or objects according to the law of conservation of energy."
+                },
+                {
+                    "text": "The energy stays with the moving ball even after collision",
+                    "isCorrect": 0,
+                    "explanation": "The moving ball slows down after collision, which means it has lost some of its energy through transfer to the stationary ball and the environment."
+                },
+                {
+                    "text": "The energy is transferred to the stationary ball, causing it to move, and some energy converts to heat and sound",
+                    "isCorrect": 1,
+                    "explanation": "During collision, energy transfers from the moving ball to the stationary ball, making it move. Some energy also converts to heat and sound due to the impact."
+                }
+            ],
+            "funFact": "In perfectly elastic collisions, like those between atoms in a gas, almost all kinetic energy is conserved between the colliding objects. However, in everyday collisions like between billiard balls, some energy always converts to heat and sound!"
+        },
+        {
+            "id": 2,
+            "text": "When someone pedals a bicycle connected to a generator to power a light bulb, what happens to the energy during this process?",
+            "options": [
+                {
+                    "text": "The light bulb directly uses the motion energy from pedaling without any conversion",
+                    "isCorrect": 0,
+                    "explanation": "Light bulbs require electrical energy to work - they cannot directly use motion energy without it being converted first"
+                },
+                {
+                    "text": "The generator stores energy from pedaling to use later, like a battery",
+                    "isCorrect": 0,
+                    "explanation": "Generators convert energy in real-time - they don't store energy like batteries do"
+                },
+                {
+                    "text": "Motion energy from pedaling is converted to electrical energy by the generator, which then powers the light bulb",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes the energy transfer chain: motion energy from pedaling \u2192 electrical energy through generator \u2192 light energy from bulb"
+                },
+                {
+                    "text": "The generator creates new electrical energy from nothing to power the light bulb",
+                    "isCorrect": 0,
+                    "explanation": "Generators don't create new energy - they convert one form of energy to another following the law of conservation of energy"
+                }
+            ],
+            "funFact": "The world's first bicycle-powered generator was created in the late 1800s! Today, some gyms use exercise bikes connected to generators to help power their facilities, turning human workout energy into useful electricity."
+        },
+        {
+            "id": 3,
+            "text": "When you roast marshmallows over a campfire, what direction does the heat energy flow?",
+            "options": [
+                {
+                    "text": "From the cool marshmallow to the hot campfire",
+                    "isCorrect": 0,
+                    "explanation": "Heat energy cannot flow from a cooler object to a hotter object naturally. The marshmallow gets warm because it receives heat from the campfire, not the other way around."
+                },
+                {
+                    "text": "From the hot campfire to the cool marshmallow",
+                    "isCorrect": 1,
+                    "explanation": "Heat energy always flows from warmer objects to cooler objects. The hot campfire transfers heat to the cooler marshmallow, causing it to warm up and become soft."
+                },
+                {
+                    "text": "Heat energy stays in place and doesn't flow",
+                    "isCorrect": 0,
+                    "explanation": "Heat energy does transfer between objects - it is not stationary. When objects of different temperatures are near each other, heat flows from the warmer object to the cooler one."
+                },
+                {
+                    "text": "In both directions equally",
+                    "isCorrect": 0,
+                    "explanation": "Heat transfer is not equal in both directions. Heat energy always moves from warmer objects to cooler objects until they reach the same temperature."
+                }
+            ],
+            "funFact": "The same principle of heat flowing from hot to cold is what makes ice cream melt on a hot day - the warmer air transfers heat energy to the colder ice cream. This is also why we put hot soup in the refrigerator to cool it down, not the other way around!"
+        },
+        {
+            "id": 4,
             "text": "How does sunlight help plants create their own food?",
             "options": [
+                {
+                    "text": "Plants store sunlight as food in their leaves",
+                    "isCorrect": 0,
+                    "explanation": "Plants don't store sunlight directly as food. Instead, they use sunlight's energy to create food through the process of photosynthesis."
+                },
                 {
                     "text": "Plants use light energy to convert water and carbon dioxide into food through photosynthesis",
                     "isCorrect": 1,
@@ -20,104 +106,18 @@
                     "text": "Sunlight warms the soil which provides food to plants",
                     "isCorrect": 0,
                     "explanation": "Though sunlight does warm the soil, this warming alone doesn't provide food to plants. Plants need to actively use light energy to make their own food."
-                },
-                {
-                    "text": "Plants store sunlight as food in their leaves",
-                    "isCorrect": 0,
-                    "explanation": "Plants don't store sunlight directly as food. Instead, they use sunlight's energy to create food through the process of photosynthesis."
                 }
             ],
             "funFact": "Plants are so efficient at capturing and using light energy that scientists are studying them to develop better solar panels! This field of research is called bio-inspired solar energy harvesting."
-        },
-        {
-            "id": 2,
-            "text": "How does a battery convert and transfer energy to power an electronic device?",
-            "options": [
-                {
-                    "text": "It converts chemical energy into electrical energy that flows through wires",
-                    "isCorrect": 1,
-                    "explanation": "Batteries store chemical energy and convert it into electrical energy, which then flows through wires to power electronic devices."
-                },
-                {
-                    "text": "It creates new energy from nothing to power the device",
-                    "isCorrect": 0,
-                    "explanation": "Energy cannot be created or destroyed - batteries don't create new energy, they only convert stored chemical energy into electrical energy."
-                },
-                {
-                    "text": "It directly transfers light energy to the device",
-                    "isCorrect": 0,
-                    "explanation": "Batteries do not use light energy - they store and convert chemical energy into electrical energy."
-                },
-                {
-                    "text": "It only transfers heat energy to power the device",
-                    "isCorrect": 0,
-                    "explanation": "While batteries may produce some heat, they primarily work by converting chemical energy into electrical energy, not heat energy."
-                }
-            ],
-            "funFact": "The first battery was invented in 1800 by Alessandro Volta and was made by stacking alternating layers of zinc, cardboard soaked in saltwater, and silver. This 'voltaic pile' was the first device to produce a steady electric current and is why we measure electrical potential in 'volts'!"
-        },
-        {
-            "id": 3,
-            "text": "When you roast marshmallows over a campfire, what type of energy transfer causes the marshmallows to become soft and gooey?",
-            "options": [
-                {
-                    "text": "Heat energy transfers from the fire to the marshmallow through thermal radiation",
-                    "isCorrect": 1,
-                    "explanation": "Correct! The hot campfire transfers heat energy to the marshmallow through thermal radiation, causing it to warm up and become soft and gooey as the heat energy is absorbed."
-                },
-                {
-                    "text": "Light energy from the fire changes directly into softness in the marshmallow",
-                    "isCorrect": 0,
-                    "explanation": "While the fire produces light, it's actually the heat energy, not the light energy, that causes the marshmallow to become soft. Light and heat are different forms of energy."
-                },
-                {
-                    "text": "Sound energy from the crackling fire makes the marshmallow molecules vibrate and soften",
-                    "isCorrect": 0,
-                    "explanation": "The crackling sounds from the fire don't significantly affect the marshmallow. The softening is caused by heat energy transfer, not sound energy."
-                },
-                {
-                    "text": "The marshmallow generates its own heat energy when held near the fire",
-                    "isCorrect": 0,
-                    "explanation": "The marshmallow doesn't generate its own heat - it receives heat energy transferred from the fire. Energy is being transferred from a warmer object (fire) to a cooler object (marshmallow)."
-                }
-            ],
-            "funFact": "The process of marshmallows becoming brown and crispy on the outside is called the Maillard reaction - the same chemical process that gives browned foods like toast and seared steaks their distinctive flavors!"
-        },
-        {
-            "id": 4,
-            "text": "Which household appliance converts electrical energy into heat energy to perform its main function?",
-            "options": [
-                {
-                    "text": "Toaster",
-                    "isCorrect": 1,
-                    "explanation": "A toaster uses electric currents to heat up metal coils, converting electrical energy into heat energy to toast bread."
-                },
-                {
-                    "text": "Television",
-                    "isCorrect": 0,
-                    "explanation": "A television primarily converts electrical energy into light and sound energy to display images and produce audio."
-                },
-                {
-                    "text": "Radio",
-                    "isCorrect": 0,
-                    "explanation": "A radio primarily converts electrical energy into sound energy to play music and broadcast programs."
-                },
-                {
-                    "text": "Flashlight",
-                    "isCorrect": 0,
-                    "explanation": "A flashlight primarily converts electrical energy into light energy to illuminate dark spaces."
-                }
-            ],
-            "funFact": "The first electric toaster was invented in 1893 in Great Britain by Alan MacMasters, but it was a fire hazard because the heating element was not properly insulated. Modern toasters use nichrome wire as heating elements, which can reach temperatures of up to 1,000\u00b0F (538\u00b0C)!"
         },
         {
             "id": 5,
             "text": "Why is it incorrect to say that generators 'create' or 'produce' electricity?",
             "options": [
                 {
-                    "text": "Because generators transform one form of energy into another form",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Generators don't create new energy - they convert existing energy (like mechanical or kinetic energy) into electrical energy, following the law of conservation of energy."
+                    "text": "Because generators only transport electricity from one place to another",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While electrical energy can be transported, generators specifically transform one type of energy into electrical energy - they don't just move existing electricity."
                 },
                 {
                     "text": "Because generators only store energy in batteries",
@@ -125,9 +125,9 @@
                     "explanation": "This is incorrect. Generators don't store energy - they transform it. Batteries are separate devices that store electrical energy."
                 },
                 {
-                    "text": "Because generators only transport electricity from one place to another",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While electrical energy can be transported, generators specifically transform one type of energy into electrical energy - they don't just move existing electricity."
+                    "text": "Because generators transform one form of energy into another form",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Generators don't create new energy - they convert existing energy (like mechanical or kinetic energy) into electrical energy, following the law of conservation of energy."
                 },
                 {
                     "text": "Because generators can only work with existing electrical energy",
@@ -142,16 +142,6 @@
             "text": "A student is experimenting with a solar-powered calculator in different lighting conditions. Under which condition will the calculator receive the most energy to power its functions?",
             "options": [
                 {
-                    "text": "Direct sunlight on a clear day",
-                    "isCorrect": 1,
-                    "explanation": "Sunlight provides the most intense source of light energy, allowing maximum energy transfer to the calculator's solar cell for conversion to electrical energy."
-                },
-                {
-                    "text": "Indirect sunlight through a window",
-                    "isCorrect": 0,
-                    "explanation": "Window glass reduces the amount of light energy reaching the solar cell, resulting in less efficient energy transfer than direct sunlight."
-                },
-                {
                     "text": "Light from a desk lamp",
                     "isCorrect": 0,
                     "explanation": "Artificial light from a desk lamp provides less intense light energy than sunlight, resulting in reduced energy transfer to the solar cell."
@@ -160,6 +150,16 @@
                     "text": "Light reflected from a mirror",
                     "isCorrect": 0,
                     "explanation": "Reflected light loses some energy during reflection, making it less effective at transferring energy to the solar cell than direct light sources."
+                },
+                {
+                    "text": "Indirect sunlight through a window",
+                    "isCorrect": 0,
+                    "explanation": "Window glass reduces the amount of light energy reaching the solar cell, resulting in less efficient energy transfer than direct sunlight."
+                },
+                {
+                    "text": "Direct sunlight on a clear day",
+                    "isCorrect": 1,
+                    "explanation": "Sunlight provides the most intense source of light energy, allowing maximum energy transfer to the calculator's solar cell for conversion to electrical energy."
                 }
             ],
             "funFact": "The first solar-powered calculator was invented in 1978 by Sharp Corporation. This breakthrough technology helped make calculators more portable and environmentally friendly by eliminating the need for disposable batteries!"
@@ -169,14 +169,14 @@
             "text": "In a simple circuit with a battery, switch, and light bulb, what happens to create light when the switch is closed?",
             "options": [
                 {
+                    "text": "The light bulb generates its own energy when connected to the circuit",
+                    "isCorrect": 0,
+                    "explanation": "Light bulbs don't generate their own energy - they convert electrical energy from the battery into light energy."
+                },
+                {
                     "text": "Electrical energy from the battery flows through the wires and gets converted into light energy at the bulb",
                     "isCorrect": 1,
                     "explanation": "This is correct. The battery provides electrical energy that travels through the wires when the circuit is completed by closing the switch. At the light bulb, this electrical energy is converted into light energy."
-                },
-                {
-                    "text": "The switch creates new energy which powers the light bulb",
-                    "isCorrect": 0,
-                    "explanation": "Switches don't create energy - they only control the flow of existing electrical energy from the battery by completing or breaking the circuit."
                 },
                 {
                     "text": "Light energy travels from the battery through the wires to the bulb",
@@ -184,66 +184,66 @@
                     "explanation": "The energy from the battery is in electrical form, not light form. The conversion to light happens at the bulb itself."
                 },
                 {
-                    "text": "The light bulb generates its own energy when connected to the circuit",
+                    "text": "The switch creates new energy which powers the light bulb",
                     "isCorrect": 0,
-                    "explanation": "Light bulbs don't generate their own energy - they convert electrical energy from the battery into light energy."
+                    "explanation": "Switches don't create energy - they only control the flow of existing electrical energy from the battery by completing or breaking the circuit."
                 }
             ],
             "funFact": "The first practical incandescent light bulb, invented by Thomas Edison in 1879, could only stay lit for about 13.5 hours. Modern LED bulbs can last for up to 50,000 hours - that's more than 5 years of continuous use!"
         },
         {
             "id": 8,
-            "text": "In a long line of standing dominoes, when the first domino is pushed to fall, it causes all the other dominoes to fall one after another. Which statement best explains how energy transfers through this chain reaction?",
+            "text": "When a drummer hits a snare drum, how does the sound reach and vibrate a nearby cymbal?",
             "options": [
                 {
-                    "text": "The motion energy from each falling domino transfers to the next domino in line, causing it to fall, and this continues through the sequence",
+                    "text": "The drum creates light waves that make the cymbal vibrate",
+                    "isCorrect": 0,
+                    "explanation": "Drums create sound waves, not light waves. While both are forms of energy transfer, sound waves are mechanical waves that need a medium to travel."
+                },
+                {
+                    "text": "The drum sends electrical signals through the floor to the cymbal",
+                    "isCorrect": 0,
+                    "explanation": "Drums do not create electrical signals. The energy transfer occurs through sound waves in the air, not through electrical currents."
+                },
+                {
+                    "text": "The sound waves travel through the air, creating vibrations that move the cymbal",
                     "isCorrect": 1,
-                    "explanation": "When a moving domino hits a stationary one, it transfers its motion energy, causing the stationary domino to fall. This creates a chain of energy transfer through the entire sequence."
+                    "explanation": "Sound waves need a medium like air to travel. The drum creates vibrations that move through air molecules, reaching and vibrating the cymbal."
                 },
                 {
-                    "text": "Each domino creates new energy that powers the fall of the next domino",
+                    "text": "The sound waves jump directly from the drum to the cymbal without needing anything in between",
                     "isCorrect": 0,
-                    "explanation": "Energy cannot be created out of nothing. The energy is transferred from one domino to the next, not newly created by each domino."
-                },
-                {
-                    "text": "The first domino contains enough energy to make all the dominoes fall at once",
-                    "isCorrect": 0,
-                    "explanation": "The dominoes fall in sequence because energy transfers from one to the next. The first domino doesn't directly power the fall of all dominoes simultaneously."
-                },
-                {
-                    "text": "The dominoes fall because of gravity alone, with no energy transfer between them",
-                    "isCorrect": 0,
-                    "explanation": "While gravity plays a role, the dominoes fall in sequence because of motion energy transferring from one domino to the next through collisions."
+                    "explanation": "Sound cannot travel through empty space. It needs a medium like air to transfer energy from one place to another."
                 }
             ],
-            "funFact": "The world record for the longest domino chain reaction involved 4,491,863 dominoes! When they fell in sequence, this single chain reaction took several minutes to complete, demonstrating how energy can transfer through thousands of objects one after another."
+            "funFact": "Sound travels about 4.3 times faster through water than through air! This is why whales can communicate with each other over hundreds of miles in the ocean using low-frequency sounds."
         },
         {
             "id": 9,
-            "text": "A toy car rolls down a ramp and collides with a stationary tennis ball at the bottom. What happens to the car's motion energy during this collision?",
+            "text": "When someone speaks into a microphone connected to a speaker, what is the correct sequence of energy transfers that occurs?",
             "options": [
                 {
-                    "text": "The motion energy transfers from the car to the tennis ball, causing the ball to move and the car to slow down",
+                    "text": "Electrical energy \u2192 Sound energy \u2192 Electrical energy",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is backwards. The process begins with sound energy from your voice, not electrical energy. The electrical energy is the intermediate form."
+                },
+                {
+                    "text": "Light energy \u2192 Sound energy \u2192 Electrical energy",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect. Speaking into a microphone does not involve light energy. The process starts with sound energy from your voice, not light energy."
+                },
+                {
+                    "text": "Sound energy \u2192 Heat energy \u2192 Sound energy",
+                    "isCorrect": 0,
+                    "explanation": "While some heat energy may be produced as a byproduct, the main energy transfer in a microphone-speaker system is from sound to electrical to sound energy, not through heat energy."
+                },
+                {
+                    "text": "Sound energy \u2192 Electrical energy \u2192 Sound energy",
                     "isCorrect": 1,
-                    "explanation": "During the collision, the car's motion energy is transferred to the tennis ball. This is why we see the ball start moving while the car slows down - the energy hasn't disappeared, it has just moved from one object to another."
-                },
-                {
-                    "text": "The motion energy disappears completely when the car hits the ball",
-                    "isCorrect": 0,
-                    "explanation": "Energy cannot disappear - it always transfers to another object or changes form. In this case, the car's motion energy transfers to the ball and some is converted to heat and sound."
-                },
-                {
-                    "text": "The motion energy stays with the car and the ball moves on its own",
-                    "isCorrect": 0,
-                    "explanation": "Objects cannot move without receiving energy from somewhere. The ball moves because it receives motion energy transferred from the car during the collision."
-                },
-                {
-                    "text": "The motion energy splits into two separate energies that have nothing to do with each other",
-                    "isCorrect": 0,
-                    "explanation": "While the energy is shared between the two objects after collision, this is through direct transfer during the collision. The energies are connected through this transfer process, not separate independent energies."
+                    "explanation": "When you speak into a microphone, the sound waves (sound energy) are converted into electrical signals (electrical energy) by the microphone. These electrical signals travel through wires to the speaker, where they are converted back into sound waves (sound energy)."
                 }
             ],
-            "funFact": "In professional pool/billiards, players use this same principle of energy transfer through collisions to make precise shots. When the cue ball hits another ball, it transfers its motion energy, allowing players to predict and control where both balls will go!"
+            "funFact": "Alexander Graham Bell invented an early working microphone for his telephone in 1876, though other inventors like Elisha Gray and Thomas Edison also made important contributions to early microphone technology around the same time. The basic principle of converting sound waves to electrical signals and back is still used in modern microphones and speakers today, though the technology has become much more sophisticated!"
         },
         {
             "id": 10,
@@ -260,140 +260,103 @@
                     "explanation": "While electrical energy does create heat, it doesn't convert to heat first and then to light. Both transformations happen simultaneously when electricity flows through the heating elements."
                 },
                 {
-                    "text": "Light energy from the toaster creates heat energy which toasts the bread",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the energy flow. The electrical energy creates both heat and light directly - the light isn't what creates the heat to toast the bread."
-                },
-                {
                     "text": "Heat energy from the outlet is transferred through wires to toast the bread",
                     "isCorrect": 0,
                     "explanation": "Electrical energy, not heat energy, comes from the outlet. The electrical energy is then converted into heat energy inside the toaster."
+                },
+                {
+                    "text": "Light energy from the toaster creates heat energy which toasts the bread",
+                    "isCorrect": 0,
+                    "explanation": "This reverses the energy flow. The electrical energy creates both heat and light directly - the light isn't what creates the heat to toast the bread."
                 }
             ],
             "funFact": "The heating elements in toasters are usually made of nichrome, a special metal alloy that can heat up to around 1,000\u00b0F (538\u00b0C) in just seconds without melting. This material's high electrical resistance is what allows it to convert electrical energy into heat energy so efficiently!"
         },
         {
             "id": 11,
-            "text": "A student places two identical metal cans filled with water in different locations - one in direct sunlight and one in the shade. After 30 minutes, the water in the can placed in sunlight is warmer than the water in the can placed in shade. Which statement best explains this observation?",
+            "text": "In a science demonstration, a circuit contains three devices connected in series: a light bulb, a small motor, and a speaker. When the switch is closed, how is electrical energy transformed at each device?",
             "options": [
                 {
-                    "text": "Light energy from the sun is transferred to heat energy when absorbed by the metal can and water",
+                    "text": "All devices transform electrical energy into heat only",
+                    "isCorrect": 0,
+                    "explanation": "While some heat is produced, each device primarily transforms electrical energy into a different useful form of energy"
+                },
+                {
+                    "text": "The energy stays as electrical energy and just passes through each device",
+                    "isCorrect": 0,
+                    "explanation": "Electrical energy must be transformed into other forms of energy to make the devices work - it doesn't simply pass through unchanged"
+                },
+                {
+                    "text": "The bulb transforms electricity to light, the motor to motion, and the speaker to sound",
                     "isCorrect": 1,
-                    "explanation": "When sunlight hits the metal can and water, the light energy is absorbed and converted to heat energy, causing the temperature to increase."
+                    "explanation": "Each device transforms electrical energy into a different form - light energy in the bulb, mechanical (motion) energy in the motor, and sound energy in the speaker"
                 },
                 {
-                    "text": "The metal can in sunlight naturally produces more heat than the can in shade",
+                    "text": "All devices transform electrical energy into the same type of energy",
                     "isCorrect": 0,
-                    "explanation": "Metal cans don't produce heat on their own - they can only transfer heat after receiving energy from another source like sunlight."
-                },
-                {
-                    "text": "Heat energy from the shade makes the water cooler",
-                    "isCorrect": 0,
-                    "explanation": "Shade doesn't actively cool objects - it simply blocks light energy from reaching them, resulting in less heat energy being absorbed."
-                },
-                {
-                    "text": "Light energy stays as light and doesn't affect the water temperature",
-                    "isCorrect": 0,
-                    "explanation": "Light energy can be converted to heat energy when absorbed by materials like metal and water, causing temperature changes."
+                    "explanation": "Different devices are designed to transform electrical energy into different useful forms - not all into the same type"
                 }
             ],
-            "funFact": "The same principle of light energy converting to heat energy is used in solar water heaters, which can heat water for homes using only energy from the sun!"
+            "funFact": "The invention of devices that could transform electrical energy into light (light bulbs) revolutionized the world in the late 1800s. Before electric lights, people relied mainly on candles and gas lamps for lighting, which were much less efficient and more dangerous!"
         },
         {
             "id": 12,
-            "text": "A student plays a guitar string and notices that a nearby paper sheet vibrates slightly. Which statement best explains how the sound from the guitar string causes the paper to vibrate?",
+            "text": "A toy dinosaur roars and moves its arms when it detects loud sounds nearby. Which statement best explains how this toy works in terms of energy transfer?",
             "options": [
                 {
-                    "text": "The sound waves travel through the air and transfer energy to the paper, causing it to vibrate",
+                    "text": "The toy creates its own energy to move when it hears sounds",
+                    "isCorrect": 0,
+                    "explanation": "Energy cannot be created - it can only be transferred or converted from one form to another"
+                },
+                {
+                    "text": "Light energy from the environment powers the toy's movement when sound is detected",
+                    "isCorrect": 0,
+                    "explanation": "While light can transfer energy, this toy specifically responds to sound energy, not light energy"
+                },
+                {
+                    "text": "Sound energy is converted into mechanical energy through a mechanism that activates the toy's movement",
                     "isCorrect": 1,
-                    "explanation": "Sound waves are vibrations that transfer energy through a medium like air. When these waves reach the paper, they transfer their energy, making the paper vibrate."
+                    "explanation": "Sound waves hitting the toy's microphone are converted into electrical signals, which then power motors that create mechanical movement of the toy's parts"
                 },
                 {
-                    "text": "The guitar string releases heat energy that warms the paper and makes it move",
+                    "text": "Heat from the surrounding air causes the toy to move when sounds occur",
                     "isCorrect": 0,
-                    "explanation": "While playing a guitar string does produce a tiny amount of heat, the paper's vibration is caused by sound energy transfer, not heat energy."
-                },
-                {
-                    "text": "Light from the guitar string bounces off the paper causing it to shake",
-                    "isCorrect": 0,
-                    "explanation": "The vibration of the paper is not caused by light energy. The guitar string primarily produces sound energy that transfers through the air."
-                },
-                {
-                    "text": "The paper moves because of electrical energy produced by the guitar string",
-                    "isCorrect": 0,
-                    "explanation": "A regular guitar string does not produce electrical energy when played. The vibration of the paper is caused by sound energy transfer."
+                    "explanation": "The toy's movement is triggered by sound energy detection, not by heat energy from the air"
                 }
             ],
-            "funFact": "Some insects, like crickets, communicate by rubbing their wings together to create sound waves. These sound waves can travel through solid objects and even through the ground, allowing other crickets to detect the vibrations with special organs in their legs!"
+            "funFact": "Sound-activated toys use a special component called a piezoelectric sensor that converts sound wave vibrations into electrical signals - the same technology used in some musical instrument pickups and modern touchscreens!"
         },
         {
             "id": 13,
-            "text": "A scientist conducted an experiment by placing three identical metal cubes outside on a sunny day. One cube was painted black, one white, and one silver. After 30 minutes in direct sunlight, which cube would likely have the highest temperature?",
+            "text": "A student sets up a simple circuit with a battery, switch, and two identical light bulbs connected in series. When the switch is closed, both bulbs light up, but they appear dimmer than when a single bulb is used. What best explains why the bulbs are dimmer when connected in series?",
             "options": [
                 {
-                    "text": "The black cube",
+                    "text": "The total resistance of the circuit increases with two bulbs in series, reducing the current through the circuit",
                     "isCorrect": 1,
-                    "explanation": "Dark-colored surfaces absorb more light energy and convert it to heat energy more effectively than light-colored surfaces."
+                    "explanation": "In a series circuit, adding bulbs increases the total resistance. According to Ohm's Law (I = V/R), higher resistance results in lower current throughout the entire circuit. Since bulb brightness depends on power (P = I\u00b2R), less current means each bulb appears dimmer than when a single bulb is connected."
                 },
                 {
-                    "text": "The white cube",
+                    "text": "The second bulb blocks some of the electricity from reaching the first bulb",
                     "isCorrect": 0,
-                    "explanation": "White surfaces reflect most light energy rather than absorbing it, resulting in less heat energy transfer."
+                    "explanation": "This is incorrect - electricity doesn't get 'blocked' by components in a series circuit. The same current flows through all components."
                 },
                 {
-                    "text": "The silver cube",
+                    "text": "The light from one bulb interferes with the light from the other bulb",
                     "isCorrect": 0,
-                    "explanation": "Shiny metallic surfaces like silver are good at reflecting light energy, so they absorb less heat than dark surfaces."
+                    "explanation": "The dimness is not caused by light interference between bulbs. It's due to how electrical energy is distributed in the circuit."
                 },
                 {
-                    "text": "All cubes would have the same temperature",
+                    "text": "The battery provides less energy when powering two bulbs",
                     "isCorrect": 0,
-                    "explanation": "Despite being made of the same material, the surface color affects how much light energy is absorbed and converted to heat energy."
+                    "explanation": "The battery provides the same amount of energy regardless of the number of bulbs. It's how that energy is distributed that changes."
                 }
             ],
-            "funFact": "This principle of dark surfaces absorbing more heat is why polar bears, despite living in cold environments, have black skin under their white fur. The black skin helps them absorb and retain heat from the limited sunlight in their Arctic habitat!"
+            "funFact": "The same principle that makes series-connected holiday lights all go dark when one bulb burns out is what makes them share energy - they're all part of the same continuous path of electrical current!"
         },
         {
             "id": 14,
-            "text": "In a science demonstration, a student pedals a stationary bicycle that is connected to different electrical devices. When the student pedals, the bicycle's wheel spins a generator that powers these devices. Which sequence correctly shows how energy is transferred from the student to a light bulb connected to the generator?",
-            "options": [
-                {
-                    "text": "Motion energy \u2192 Electrical energy \u2192 Light energy",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because the motion of pedaling is first converted to electrical energy by the generator, which is then converted to light energy by the bulb."
-                },
-                {
-                    "text": "Light energy \u2192 Motion energy \u2192 Electrical energy",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. The energy transfer begins with motion (pedaling), not light energy."
-                },
-                {
-                    "text": "Electrical energy \u2192 Motion energy \u2192 Light energy",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. The electrical energy is produced from motion energy, not the other way around."
-                },
-                {
-                    "text": "Motion energy \u2192 Light energy \u2192 Electrical energy",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. The motion energy must first be converted to electrical energy before it can be converted to light energy."
-                }
-            ],
-            "funFact": "The same principle used in the bicycle generator is used in some exercise equipment at gyms! These 'green gyms' can actually convert human exercise energy into electricity to help power the building."
-        },
-        {
-            "id": 15,
             "text": "A toy car is powered by a small solar panel on its roof. When sunlight hits the solar panel, the car moves forward. Which sequence correctly shows how energy is transferred to make the car move?",
             "options": [
-                {
-                    "text": "Sunlight \u2192 Electrical energy \u2192 Mechanical energy (motion)",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. The solar panel converts sunlight into electrical energy, which then powers the motor to create mechanical energy that moves the car."
-                },
-                {
-                    "text": "Mechanical energy \u2192 Electrical energy \u2192 Sunlight",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the order of energy transfer. Energy transfer begins with sunlight, not mechanical energy."
-                },
                 {
                     "text": "Sunlight \u2192 Mechanical energy \u2192 Electrical energy",
                     "isCorrect": 0,
@@ -403,9 +366,46 @@
                     "text": "Electrical energy \u2192 Sunlight \u2192 Mechanical energy",
                     "isCorrect": 0,
                     "explanation": "Sunlight must come first in the sequence since it is the initial energy source that powers the entire system."
+                },
+                {
+                    "text": "Mechanical energy \u2192 Electrical energy \u2192 Sunlight",
+                    "isCorrect": 0,
+                    "explanation": "This reverses the order of energy transfer. Energy transfer begins with sunlight, not mechanical energy."
+                },
+                {
+                    "text": "Sunlight \u2192 Electrical energy \u2192 Mechanical energy (motion)",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The solar panel converts sunlight into electrical energy, which then powers the motor to create mechanical energy that moves the car."
                 }
             ],
             "funFact": "The same basic principle that powers this toy car is used in full-size solar-powered vehicles! In 1987, the first solar-powered car race (World Solar Challenge) was held in Australia, where cars traveled approximately 1,864 miles using nothing but energy from the sun."
+        },
+        {
+            "id": 15,
+            "text": "In a creative machine designed to water a plant, the following steps occur in sequence:\n1. A marble rolls down a ramp\n2. The marble hits a bell\n3. The bell's sound causes a sound sensor to activate\n4. The sensor turns on a small water pump\n\nWhich sequence correctly shows how energy is transferred through this system?",
+            "options": [
+                {
+                    "text": "Motion energy \u2192 Heat energy \u2192 Sound energy \u2192 Electrical energy",
+                    "isCorrect": 0,
+                    "explanation": "Though some heat is produced when the marble hits the bell, the main energy transfer is to sound energy, not heat energy."
+                },
+                {
+                    "text": "Motion energy \u2192 Sound energy \u2192 Electrical energy \u2192 Motion energy",
+                    "isCorrect": 1,
+                    "explanation": "This correctly shows how the marble's motion energy transfers to sound energy in the bell, which triggers the sound sensor to convert to electrical energy, finally becoming motion energy in the pump."
+                },
+                {
+                    "text": "Motion energy \u2192 Sound energy \u2192 Light energy \u2192 Electrical energy",
+                    "isCorrect": 0,
+                    "explanation": "While the sequence starts correctly with motion and sound energy, the system uses a sound sensor, not light energy, to trigger the electrical component."
+                },
+                {
+                    "text": "Electrical energy \u2192 Motion energy \u2192 Sound energy \u2192 Light energy",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect as it starts with electrical energy, when the system actually begins with the motion energy of the rolling marble."
+                }
+            ],
+            "funFact": "Rube Goldberg machines, named after American cartoonist Rube Goldberg, are complex devices that perform simple tasks through chain reactions. The world record for the largest Rube Goldberg machine had 412 steps and was built by Latvian students in 2012!"
         }
     ]
 }

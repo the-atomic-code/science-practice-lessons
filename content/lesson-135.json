@@ -4,60 +4,114 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which feature of a dandelion seed helps it travel long distances from its parent plant?",
+            "text": "Which of the following methods of seed dispersal helps plants spread their seeds to places far from the parent plant?",
             "options": [
                 {
-                    "text": "Light, feathery structures that catch the wind",
+                    "text": "Seeds only growing during the daytime",
+                    "isCorrect": 0,
+                    "explanation": "The time of day when seeds grow isn't related to seed dispersal. This doesn't help spread seeds to new locations."
+                },
+                {
+                    "text": "Seeds falling directly under the parent plant",
+                    "isCorrect": 0,
+                    "explanation": "Seeds that fall directly under the parent plant won't spread far and may struggle to grow due to competition for sunlight and nutrients."
+                },
+                {
+                    "text": "Seeds being stored underground by the parent plant",
+                    "isCorrect": 0,
+                    "explanation": "Plants don't store their seeds underground - this wouldn't help with dispersal. Seeds need to move away from the parent plant to grow successfully."
+                },
+                {
+                    "text": "Seeds sticking to animal fur and falling off in new locations",
                     "isCorrect": 1,
-                    "explanation": "Dandelion seeds have light, feathery structures that act like tiny parachutes, allowing them to be carried by the wind far from the parent plant. This is an effective way of seed dispersal."
-                },
-                {
-                    "text": "Sticky coating that attaches to animals",
-                    "isCorrect": 0,
-                    "explanation": "While some seeds do have sticky coatings to attach to animals, dandelion seeds don't use this method. They rely on wind dispersal."
-                },
-                {
-                    "text": "Sweet taste that attracts animals",
-                    "isCorrect": 0,
-                    "explanation": "Dandelion seeds don't attract animals with sweetness. This is more characteristic of fruits that use animals for seed dispersal."
-                },
-                {
-                    "text": "Hook-like structures that catch on fur",
-                    "isCorrect": 0,
-                    "explanation": "While some plants like burrs have hooks to catch on animal fur, dandelion seeds use wind dispersal instead of hooks."
+                    "explanation": "When seeds with hook-like structures stick to animal fur and fall off in new locations, they can travel far from the parent plant, allowing for wide dispersal."
                 }
             ],
-            "funFact": "A single dandelion flower head can produce up to 200 seeds, and these seeds can travel up to 5 miles from the parent plant when conditions are right!"
+            "funFact": "The burdock plant's seeds inspired the invention of Velcro! In 1941, George de Mestral noticed how burdock burrs stuck to his dog's fur, and after examining them under a microscope, he developed the hook-and-loop fastener system we now know as Velcro."
         },
         {
             "id": 2,
-            "text": "Which behavior of animals is most helpful in spreading seeds to new areas where plants can grow?",
+            "text": "How do bees help flowers reproduce through pollination?",
             "options": [
                 {
-                    "text": "Eating berries and fruits, then traveling to new areas",
+                    "text": "When bees drink nectar, pollen sticks to their bodies and gets transferred to other flowers they visit",
                     "isCorrect": 1,
-                    "explanation": "When animals eat fruits and berries, they digest the fruit but not the seeds. As they move to new areas, they deposit the seeds in their droppings, which helps spread plants to new locations."
+                    "explanation": "Bees transfer pollen between flowers as they collect nectar, which helps plants reproduce. The pollen sticks to their fuzzy bodies and rubs off on other flowers."
                 },
                 {
-                    "text": "Building nests in trees",
+                    "text": "Bees intentionally gather pollen in bags to share with other flowers",
                     "isCorrect": 0,
-                    "explanation": "While animals do build nests in trees, this behavior doesn't significantly help in spreading seeds to new areas where plants can grow."
+                    "explanation": "Pollination happens naturally as a side effect of bees collecting nectar - they don't deliberately collect and distribute pollen between flowers."
                 },
                 {
-                    "text": "Drinking water from streams",
+                    "text": "Bees eat the pollen and carry it in their stomachs to other flowers",
                     "isCorrect": 0,
-                    "explanation": "Drinking water is essential for animals but doesn't play a direct role in helping seeds spread to new areas."
+                    "explanation": "While bees do eat some pollen, pollination occurs when pollen sticks to their bodies externally, not through digestion."
                 },
                 {
-                    "text": "Hibernating during winter",
+                    "text": "Bees pull petals off flowers which releases the pollen into the air",
                     "isCorrect": 0,
-                    "explanation": "Hibernation is a survival strategy for animals during winter, but it doesn't help in spreading seeds to new areas."
+                    "explanation": "Bees don't damage flower petals to release pollen. The pollen transfer happens when they collect nectar from intact flowers."
                 }
             ],
-            "funFact": "Some plants have evolved to produce fruits that change color when ripe, signaling to animals that they're ready to eat. This clever strategy ensures their seeds are more likely to be dispersed when they're fully developed and ready to grow!"
+            "funFact": "A single honey bee can visit up to 5,000 flowers in a single day! Their fuzzy bodies are perfectly designed to pick up and transport pollen grains, making them one of nature's most efficient pollinators."
         },
         {
             "id": 3,
+            "text": "Why is it important for seeds to be dispersed away from their parent plant?",
+            "options": [
+                {
+                    "text": "Seeds need to be closer to other types of plants to grow better",
+                    "isCorrect": 0,
+                    "explanation": "While biodiversity is important, seeds don't specifically need to be near other types of plants to grow successfully."
+                },
+                {
+                    "text": "Seeds need to be in colder areas than their parent plant",
+                    "isCorrect": 0,
+                    "explanation": "Temperature requirements for seed growth are specific to the plant species, not related to distance from the parent plant."
+                },
+                {
+                    "text": "Seeds grow faster when they are far from their parent plant",
+                    "isCorrect": 0,
+                    "explanation": "The growth rate of seeds is not directly related to their distance from the parent plant."
+                },
+                {
+                    "text": "Seeds need better access to sunlight, water, and nutrients that might be limited under the parent plant",
+                    "isCorrect": 1,
+                    "explanation": "Parent plants already use most of the sunlight, water, and nutrients in their immediate area, making it difficult for new plants to grow there."
+                }
+            ],
+            "funFact": "Some plants, like the sandbox tree, can catapult their seeds up to 300 feet away from the parent plant with an explosive force that sounds like a miniature shotgun!"
+        },
+        {
+            "id": 4,
+            "text": "Which feature of a dandelion seed helps it travel long distances in the air?",
+            "options": [
+                {
+                    "text": "Light, fluffy structures that act like tiny parachutes",
+                    "isCorrect": 1,
+                    "explanation": "Dandelion seeds have light, feathery structures that catch the wind like tiny parachutes, allowing them to float and travel long distances from the parent plant."
+                },
+                {
+                    "text": "Sticky coating that makes them float",
+                    "isCorrect": 0,
+                    "explanation": "Dandelion seeds don't have a sticky coating. They rely on their light, fluffy structures to catch the wind and float."
+                },
+                {
+                    "text": "Hook-like structures that catch the wind",
+                    "isCorrect": 0,
+                    "explanation": "While some seeds have hooks to attach to animal fur, dandelion seeds use light, feathery structures, not hooks, to catch the wind."
+                },
+                {
+                    "text": "Heavy outer shell that helps them fly",
+                    "isCorrect": 0,
+                    "explanation": "A heavy outer shell would actually prevent the seeds from floating. Dandelion seeds are very light to enable wind dispersal."
+                }
+            ],
+            "funFact": "A single dandelion flower head can produce up to 200 seeds, and these seeds can travel up to 5 miles from their parent plant when conditions are just right!"
+        },
+        {
+            "id": 5,
             "text": "What makes an animal a pollinator?",
             "options": [
                 {
@@ -84,121 +138,13 @@
             "funFact": "While bees are famous pollinators, many unexpected animals can also be pollinators - including bats, lemurs, and even some lizards! These animals help pollinate specific plants that have evolved alongside them."
         },
         {
-            "id": 4,
-            "text": "How do bees help flowers reproduce through pollination?",
-            "options": [
-                {
-                    "text": "When bees drink nectar, pollen sticks to their bodies and gets transferred to other flowers they visit",
-                    "isCorrect": 1,
-                    "explanation": "Bees transfer pollen between flowers as they collect nectar, which helps plants reproduce. The pollen sticks to their fuzzy bodies and rubs off on other flowers."
-                },
-                {
-                    "text": "Bees eat the pollen and carry it in their stomachs to other flowers",
-                    "isCorrect": 0,
-                    "explanation": "While bees do eat some pollen, pollination occurs when pollen sticks to their bodies externally, not through digestion."
-                },
-                {
-                    "text": "Bees intentionally gather pollen in bags to share with other flowers",
-                    "isCorrect": 0,
-                    "explanation": "Pollination happens naturally as a side effect of bees collecting nectar - they don't deliberately collect and distribute pollen between flowers."
-                },
-                {
-                    "text": "Bees pull petals off flowers which releases the pollen into the air",
-                    "isCorrect": 0,
-                    "explanation": "Bees don't damage flower petals to release pollen. The pollen transfer happens when they collect nectar from intact flowers."
-                }
-            ],
-            "funFact": "A single honey bee can visit up to 5,000 flowers in a single day! Their fuzzy bodies are perfectly designed to pick up and transport pollen grains, making them one of nature's most efficient pollinators."
-        },
-        {
-            "id": 5,
-            "text": "Which plant structure would be most effective for wind-based seed dispersal?",
-            "options": [
-                {
-                    "text": "Light, feathery structures attached to seeds",
-                    "isCorrect": 1,
-                    "explanation": "Light, feathery structures help seeds float in the air and travel long distances with wind, like dandelion seeds."
-                },
-                {
-                    "text": "Heavy, dense seeds with smooth surfaces",
-                    "isCorrect": 0,
-                    "explanation": "Heavy seeds would fall straight to the ground and not be carried by wind effectively."
-                },
-                {
-                    "text": "Seeds with sticky surfaces",
-                    "isCorrect": 0,
-                    "explanation": "Sticky surfaces are adapted for animal dispersal by attaching to fur, not for wind dispersal."
-                },
-                {
-                    "text": "Seeds inside juicy fruits",
-                    "isCorrect": 0,
-                    "explanation": "Juicy fruits are adapted for animal dispersal through eating and digestion, not for wind dispersal."
-                }
-            ],
-            "funFact": "The maple tree's seeds have wing-like structures called samaras that spin like helicopters when falling, allowing them to travel up to 330 feet from the parent tree in strong winds!"
-        },
-        {
             "id": 6,
-            "text": "A scientist is studying different animals to understand which one would be most effective at pollinating flowers. Which of these animal features would be best suited for carrying pollen between flowers?",
-            "options": [
-                {
-                    "text": "A smooth, scaly body surface",
-                    "isCorrect": 0,
-                    "explanation": "Smooth, scaly surfaces don't easily pick up or hold pollen grains, making them ineffective for pollination."
-                },
-                {
-                    "text": "A fuzzy, hairy body surface",
-                    "isCorrect": 1,
-                    "explanation": "Fuzzy, hairy surfaces are excellent for catching and carrying pollen grains between flowers, making them highly effective for pollination."
-                },
-                {
-                    "text": "A wet, slimy body surface",
-                    "isCorrect": 0,
-                    "explanation": "Wet, slimy surfaces might cause pollen to clump or become damaged, making them poor choices for pollination."
-                },
-                {
-                    "text": "A hard, smooth shell",
-                    "isCorrect": 0,
-                    "explanation": "Hard, smooth shells don't provide any surface for pollen to stick to, making them ineffective for pollination."
-                }
-            ],
-            "funFact": "The tiny hairs on a bee's body are branched and electrostatically charged, which helps them collect up to 5 million pollen grains during a single flower-collecting trip!"
-        },
-        {
-            "id": 7,
-            "text": "A student is studying different types of seeds. Which seed characteristic would be most effective for wind dispersal?",
-            "options": [
-                {
-                    "text": "Light and feathery with hair-like structures",
-                    "isCorrect": 1,
-                    "explanation": "Light seeds with hair-like structures can easily be carried by the wind, allowing them to travel far from the parent plant"
-                },
-                {
-                    "text": "Heavy with a hard outer shell",
-                    "isCorrect": 0,
-                    "explanation": "Heavy seeds with hard shells are too heavy to be carried effectively by wind and are more likely to be dispersed by animals"
-                },
-                {
-                    "text": "Sticky with hook-like projections",
-                    "isCorrect": 0,
-                    "explanation": "Seeds with hooks are adapted for dispersal by animals, as they stick to fur or feathers rather than being carried by wind"
-                },
-                {
-                    "text": "Sweet and fleshy with bright colors",
-                    "isCorrect": 0,
-                    "explanation": "Sweet, colorful seeds are adapted to attract animals for eating and dispersal, not for wind dispersal"
-                }
-            ],
-            "funFact": "The dandelion's seeds can travel up to 5 miles in the wind before landing! Each dandelion flower head can produce over 100 seeds, all equipped with tiny parachute-like structures."
-        },
-        {
-            "id": 8,
             "text": "A scientist is studying how flowers get pollinated. She observes that flowers with deep, tubular shapes have the most successful pollination when visited by which type of animal?",
             "options": [
                 {
-                    "text": "Hummingbirds with long, thin beaks",
-                    "isCorrect": 1,
-                    "explanation": "Hummingbirds with long, thin beaks can reach deep into tubular flowers to access nectar, making them effective pollinators for these types of flowers."
+                    "text": "Beetles with flat bodies",
+                    "isCorrect": 0,
+                    "explanation": "Beetles with flat bodies cannot effectively reach into deep, tubular flowers to access nectar or transfer pollen."
                 },
                 {
                     "text": "Butterflies with short proboscis",
@@ -206,22 +152,86 @@
                     "explanation": "Butterflies with short proboscis cannot reach the nectar in deep, tubular flowers, making them less effective pollinators for these flowers."
                 },
                 {
-                    "text": "Beetles with flat bodies",
-                    "isCorrect": 0,
-                    "explanation": "Beetles with flat bodies cannot effectively reach into deep, tubular flowers to access nectar or transfer pollen."
-                },
-                {
                     "text": "Ants with small mandibles",
                     "isCorrect": 0,
                     "explanation": "Ants with small mandibles cannot reach deep into tubular flowers, and they are generally not effective pollinators due to their small size and inability to carry much pollen."
+                },
+                {
+                    "text": "Hummingbirds with long, thin beaks",
+                    "isCorrect": 1,
+                    "explanation": "Hummingbirds with long, thin beaks can reach deep into tubular flowers to access nectar, making them effective pollinators for these types of flowers."
                 }
             ],
             "funFact": "Some flowers and their pollinators have evolved together over millions of years, developing matching structures - like how the Darwin's orchid, with its foot-long nectar tube, evolved alongside a moth with an equally long proboscis!"
         },
         {
+            "id": 7,
+            "text": "Which physical feature of a pollinator is best matched with the type of flower it pollinates?",
+            "options": [
+                {
+                    "text": "A butterfly's long proboscis with deep, tubular flowers",
+                    "isCorrect": 1,
+                    "explanation": "Butterflies have long, thin proboscises that can reach deep into tubular flowers to access nectar, making them perfect pollinators for these types of flowers."
+                },
+                {
+                    "text": "A moth's smooth wings with large, wide flowers",
+                    "isCorrect": 0,
+                    "explanation": "Moths, like butterflies, have long proboscises and are better suited to pollinate deep, tubular flowers, not wide ones."
+                },
+                {
+                    "text": "A hummingbird's short beak with shallow, flat flowers",
+                    "isCorrect": 0,
+                    "explanation": "Hummingbirds actually have long beaks adapted for reaching deep into tubular flowers, not shallow ones."
+                },
+                {
+                    "text": "A bee's fuzzy body with closed, tight flowers",
+                    "isCorrect": 0,
+                    "explanation": "While bees do have fuzzy bodies that are great for collecting pollen, they need flowers that are open and accessible to land on and gather nectar from."
+                }
+            ],
+            "funFact": "Some flowers have evolved special ultraviolet patterns called 'nectar guides' that are invisible to humans but help guide pollinators directly to their nectar source - like a natural landing strip!"
+        },
+        {
+            "id": 8,
+            "text": "A dandelion seed has a light, feathery structure that looks like a tiny parachute attached to it. How does this structure help the dandelion plant spread its seeds?",
+            "options": [
+                {
+                    "text": "The feathery structure makes the seed more attractive to birds",
+                    "isCorrect": 0,
+                    "explanation": "The feathery structure is not meant to attract birds - it's specifically designed to catch the wind for dispersal."
+                },
+                {
+                    "text": "The feathery structure helps the seed float on water",
+                    "isCorrect": 0,
+                    "explanation": "Though some seeds do disperse through water, dandelion seeds are specifically adapted for wind dispersal rather than water dispersal."
+                },
+                {
+                    "text": "The feathery structure helps the seed stick to animal fur",
+                    "isCorrect": 0,
+                    "explanation": "While some seeds do stick to animal fur to disperse, dandelion seeds use their parachute-like structure for wind dispersal rather than attaching to animals."
+                },
+                {
+                    "text": "The feathery structure allows the seed to be carried by the wind over long distances",
+                    "isCorrect": 1,
+                    "explanation": "The parachute-like structure catches the wind, allowing the seed to float and travel far from the parent plant, which helps dandelions colonize new areas."
+                }
+            ],
+            "funFact": "A single dandelion flower head can produce up to 200 seeds, and these seeds can travel up to 5 miles from the parent plant when conditions are right!"
+        },
+        {
             "id": 9,
             "text": "A flower has bright red petals, produces sweet nectar, and has sticky pollen. Which pollinator is this flower most likely trying to attract?",
             "options": [
+                {
+                    "text": "Moths",
+                    "isCorrect": 0,
+                    "explanation": "Moths are usually attracted to white or pale flowers that bloom at night and have strong fragrances. Red flowers that are visible during the day wouldn't be effective at attracting moths."
+                },
+                {
+                    "text": "Bats",
+                    "isCorrect": 0,
+                    "explanation": "Bats are typically attracted to white or pale flowers that bloom at night, not bright red flowers. They rely more on smell than color to find flowers."
+                },
                 {
                     "text": "Hummingbirds",
                     "isCorrect": 1,
@@ -231,168 +241,45 @@
                     "text": "Wind",
                     "isCorrect": 0,
                     "explanation": "Wind pollination doesn't require bright colors or nectar since wind can't see or drink. Plants that rely on wind typically have light, dry pollen that can blow easily."
-                },
-                {
-                    "text": "Bats",
-                    "isCorrect": 0,
-                    "explanation": "Bats are typically attracted to white or pale flowers that bloom at night, not bright red flowers. They rely more on smell than color to find flowers."
-                },
-                {
-                    "text": "Moths",
-                    "isCorrect": 0,
-                    "explanation": "Moths are usually attracted to white or pale flowers that bloom at night and have strong fragrances. Red flowers that are visible during the day wouldn't be effective at attracting moths."
                 }
             ],
             "funFact": "Some flowers have evolved ultraviolet patterns on their petals that are invisible to humans but act as 'landing strips' to guide certain pollinators directly to their nectar and pollen!"
         },
         {
             "id": 10,
-            "text": "Look at the following flower characteristics:\n- Deep, tubular flowers with bright red or orange colors\n- Produces sweet nectar at the base of the tube\n- Has a long, narrow opening\n\nWhich pollinator would be best suited to pollinate this type of flower?",
+            "text": "A biologist observes different animal mouth structures to understand how effectively they can spread plant seeds. Which type of mouth structure would be most effective at dispersing seeds through eating and carrying fruits?",
             "options": [
                 {
-                    "text": "Hummingbird",
+                    "text": "A sharp, pointed beak designed for catching insects",
+                    "isCorrect": 0,
+                    "explanation": "While effective for catching insects, this type of beak is not well-suited for eating and carrying fruits to disperse seeds."
+                },
+                {
+                    "text": "A wide mouth with strong jaws that can swallow fruits whole",
                     "isCorrect": 1,
-                    "explanation": "Hummingbirds have long, thin beaks that can reach deep into tubular flowers to access nectar. They are also attracted to bright red and orange colors, making them perfect pollinators for these flowers."
+                    "explanation": "This mouth structure allows the animal to eat whole fruits and carry them away, helping disperse seeds when they are later eliminated through droppings."
                 },
                 {
-                    "text": "Butterfly",
+                    "text": "A long, thin beak specialized for drinking nectar",
                     "isCorrect": 0,
-                    "explanation": "While butterflies have long proboscises, they typically prefer flat, wide flowers that provide a landing platform. They are also more attracted to pink and purple colors."
+                    "explanation": "While excellent for pollination, this type of beak is not designed for eating and carrying fruits to disperse seeds."
                 },
                 {
-                    "text": "Bee",
+                    "text": "A flat beak designed for filtering small organisms from water",
                     "isCorrect": 0,
-                    "explanation": "Bees have shorter mouthparts and prefer open, shallow flowers where they can easily access nectar. They also tend to be more attracted to blue and yellow flowers."
-                },
-                {
-                    "text": "Beetle",
-                    "isCorrect": 0,
-                    "explanation": "Beetles have short mouthparts and typically pollinate open flowers with easily accessible pollen and nectar. They would not be able to reach the nectar in deep, tubular flowers."
+                    "explanation": "This type of mouth structure is specialized for filtering food from water and is not effective for eating and carrying fruits."
                 }
             ],
-            "funFact": "Some flowers have evolved specific shapes, colors, and nectar guides that match the characteristics of their primary pollinators. This relationship is called pollination syndrome, and it helps ensure successful pollination for the plant."
+            "funFact": "Some fruit-eating birds like toucans have specialized serrated edges on their beaks that help them grip and manipulate fruits, making them excellent seed dispersers. They can throw fruits back into their throats without crushing the seeds!"
         },
         {
             "id": 11,
-            "text": "Which statement best explains why seeds with hook-like structures are able to both stick to and eventually fall off animal fur?",
-            "options": [
-                {
-                    "text": "The hooks are strong enough to attach but can break off when animals move, allowing seeds to fall in new locations",
-                    "isCorrect": 0,
-                    "explanation": "The hooks don't actually break off - they are designed to temporarily catch and release from fur while staying intact"
-                },
-                {
-                    "text": "The curved shape of the hooks allows them to catch on fur temporarily and detach when animals brush against objects",
-                    "isCorrect": 1,
-                    "explanation": "The hook structure is perfectly suited for both attachment and eventual release through natural animal movement"
-                },
-                {
-                    "text": "The hooks dissolve over time, causing the seeds to fall off after they have traveled far enough",
-                    "isCorrect": 0,
-                    "explanation": "The hooks are stable structures that don't dissolve - they detach through physical movement"
-                },
-                {
-                    "text": "Animals actively remove the seeds from their fur when they reach a suitable growing location",
-                    "isCorrect": 0,
-                    "explanation": "The detachment is passive and happens naturally through movement, not through intentional animal behavior"
-                }
-            ],
-            "funFact": "This seed dispersal strategy inspired the invention of Velcro! In 1941, Swiss engineer George de Mestral examined burdock burrs that stuck to his dog's fur under a microscope and noticed their hook-and-loop structure, leading him to develop the famous fastening material."
-        },
-        {
-            "id": 12,
-            "text": "A plant species has seeds with small hooks that can attach to animal fur. Which environment would likely be more successful for this plant's seed dispersal?",
-            "options": [
-                {
-                    "text": "A grassland with many grazing animals",
-                    "isCorrect": 1,
-                    "explanation": "Grasslands with grazing animals provide many opportunities for seeds with hooks to attach to fur and be carried to new locations, making this an effective environment for this type of seed dispersal."
-                },
-                {
-                    "text": "A desert with strong winds",
-                    "isCorrect": 0,
-                    "explanation": "While wind can disperse some types of seeds, seeds with hooks are specifically adapted for animal dispersal. Strong winds would not effectively utilize the hook structures."
-                },
-                {
-                    "text": "A pond with flowing water",
-                    "isCorrect": 0,
-                    "explanation": "Seeds with hooks are adapted for attaching to animal fur, not for floating on water. Water dispersal typically requires different seed adaptations like air pockets or waterproof coatings."
-                },
-                {
-                    "text": "A forest with mostly tall trees",
-                    "isCorrect": 0,
-                    "explanation": "While forests have animals, tall trees would make it harder for the seeds to reach animal fur. These seeds would be more successful in environments where they can easily contact passing animals."
-                }
-            ],
-            "funFact": "The hook-and-loop design of these seeds inspired the invention of Velcro! In 1941, George de Mestral noticed how burdock seeds stuck to his dog's fur and examined them under a microscope, leading to this revolutionary invention."
-        },
-        {
-            "id": 13,
-            "text": "Which seed would travel farther on a windy day with strong gusts of wind versus a day with gentle, steady breezes?\n\nA) A maple seed would travel farther in strong gusts, while a dandelion seed would travel farther in gentle breezes\nB) A dandelion seed would travel farther in strong gusts, while a maple seed would travel farther in gentle breezes\nC) Both seeds would travel the same distance regardless of wind conditions\nD) Both seeds would travel farther in strong gusts than in gentle breezes",
-            "options": [
-                {
-                    "text": "A) A maple seed would travel farther in strong gusts, while a dandelion seed would travel farther in gentle breezes",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While maple seeds are heavier with a propeller-like structure and dandelion seeds have a lightweight parachute-like structure, both types actually travel farther in stronger winds than in gentle breezes."
-                },
-                {
-                    "text": "B) A dandelion seed would travel farther in strong gusts, while a maple seed would travel farther in gentle breezes",
-                    "isCorrect": 0,
-                    "explanation": "Both types of seeds generally travel farther in stronger winds. Gentle breezes don't provide enough force to carry either type of seed very far."
-                },
-                {
-                    "text": "C) Both seeds would travel the same distance regardless of wind conditions",
-                    "isCorrect": 0,
-                    "explanation": "Different seed structures respond differently to wind conditions. Their unique adaptations mean they won't travel the same distances."
-                },
-                {
-                    "text": "D) Both seeds would travel farther in strong gusts than in gentle breezes",
-                    "isCorrect": 1,
-                    "explanation": "Strong gusts provide more force to carry both types of seeds - the maple seed's propeller-like structure and the dandelion's parachute-like structure both benefit from stronger winds."
-                }
-            ],
-            "funFact": "Some dandelion seeds have been recorded traveling over 100 kilometers through the air! Their amazing flying ability is due to a bundle of about 100 filaments that form a specialized structure called a pappus, which creates a parachute effect."
-        },
-        {
-            "id": 14,
-            "text": "A scientist wants to study which seed dispersal method would be most consistent and reliable for spreading plant species across long distances. Which of the following mechanisms would likely provide the most dependable means of seeds traveling far from the parent plant?",
-            "options": [
-                {
-                    "text": "Seeds being eaten and later deposited by animals",
-                    "isCorrect": 1,
-                    "explanation": "Animals can travel long distances between eating fruits and depositing seeds through their droppings, allowing for widespread and consistent seed dispersal across different habitats"
-                },
-                {
-                    "text": "Seeds with hooks attaching to animal fur",
-                    "isCorrect": 0,
-                    "explanation": "While effective, seeds attached to fur typically fall off when animals groom or rub against objects, which may happen before traveling very far"
-                },
-                {
-                    "text": "Seeds carried by wind",
-                    "isCorrect": 0,
-                    "explanation": "While some lightweight wind-dispersed seeds can travel great distances in favorable conditions, wind dispersal is generally less predictable and less effective at consistently spreading seeds across very long distances than animal ingestion"
-                },
-                {
-                    "text": "Seeds transported by water",
-                    "isCorrect": 0,
-                    "explanation": "Water dispersal can move seeds long distances along waterways, but is limited to aquatic routes and coastal areas, making it less reliable for widespread terrestrial dispersal"
-                }
-            ],
-            "funFact": "Some birds like the Clark's Nutcracker can remember thousands of locations where they've buried seeds for up to 9 months, helping spread pine trees across vast mountain ranges!"
-        },
-        {
-            "id": 15,
             "text": "When a flower's pollen is located deep inside its petals, which type of pollinator would likely be most successful in transferring the pollen?",
             "options": [
                 {
                     "text": "A long-beaked hummingbird",
                     "isCorrect": 1,
                     "explanation": "Hummingbirds with long beaks can reach deep inside flowers to access nectar and pollen, making them effective pollinators for flowers with deep structures."
-                },
-                {
-                    "text": "A small ant",
-                    "isCorrect": 0,
-                    "explanation": "Ants are too small to effectively reach deep inside flowers and transfer pollen between plants."
                 },
                 {
                     "text": "A butterfly with short proboscis",
@@ -403,9 +290,122 @@
                     "text": "A beetle",
                     "isCorrect": 0,
                     "explanation": "Beetles typically pollinate open flowers and would struggle to access pollen located deep within flower structures."
+                },
+                {
+                    "text": "A small ant",
+                    "isCorrect": 0,
+                    "explanation": "Ants are too small to effectively reach deep inside flowers and transfer pollen between plants."
                 }
             ],
             "funFact": "Some flowers and their pollinators have co-evolved over millions of years - the length of a pollinator's feeding structure (like a bird's beak or butterfly's proboscis) often perfectly matches the depth of its preferred flower's nectar source!"
+        },
+        {
+            "id": 12,
+            "text": "Which statement best explains why seeds with hook-like structures are able to both stick to and eventually fall off animal fur?",
+            "options": [
+                {
+                    "text": "The hooks are strong enough to attach but can break off when animals move, allowing seeds to fall in new locations",
+                    "isCorrect": 0,
+                    "explanation": "The hooks don't actually break off - they are designed to temporarily catch and release from fur while staying intact"
+                },
+                {
+                    "text": "Animals actively remove the seeds from their fur when they reach a suitable growing location",
+                    "isCorrect": 0,
+                    "explanation": "The detachment is passive and happens naturally through movement, not through intentional animal behavior"
+                },
+                {
+                    "text": "The hooks dissolve over time, causing the seeds to fall off after they have traveled far enough",
+                    "isCorrect": 0,
+                    "explanation": "The hooks are stable structures that don't dissolve - they detach through physical movement"
+                },
+                {
+                    "text": "The curved shape of the hooks allows them to catch on fur temporarily and detach when animals brush against objects",
+                    "isCorrect": 1,
+                    "explanation": "The hook structure is perfectly suited for both attachment and eventual release through natural animal movement"
+                }
+            ],
+            "funFact": "This seed dispersal strategy inspired the invention of Velcro! In 1941, Swiss engineer George de Mestral examined burdock burrs that stuck to his dog's fur under a microscope and noticed their hook-and-loop structure, leading him to develop the famous fastening material."
+        },
+        {
+            "id": 13,
+            "text": "A scientist is studying seed dispersal in two different forest environments. Forest A has many mammals with thick fur like bears and deer, while Forest B has mostly birds. The scientist notices that plants with hook-like seeds are much more common in Forest A than Forest B. Why would hook-like seeds be more successful in Forest A?",
+            "options": [
+                {
+                    "text": "The hooks help seeds float better in the wind",
+                    "isCorrect": 0,
+                    "explanation": "Hook-like structures are not designed for wind dispersal - other adaptations like light, fluffy structures (like dandelion seeds) are better for wind dispersal"
+                },
+                {
+                    "text": "The hooks protect seeds from being eaten by mammals",
+                    "isCorrect": 0,
+                    "explanation": "Hook-like structures are not a defense mechanism against being eaten - they are specifically designed to help seeds attach to and travel with animals"
+                },
+                {
+                    "text": "The hooks allow seeds to easily attach to animal fur and travel to new locations",
+                    "isCorrect": 1,
+                    "explanation": "Hook-like structures on seeds are an adaptation that allows them to stick to animal fur and be carried to new locations, making this dispersal method very effective in areas with furry animals"
+                },
+                {
+                    "text": "Birds prefer to eat seeds without hooks",
+                    "isCorrect": 0,
+                    "explanation": "The presence of hooks is not related to whether birds eat the seeds - birds typically eat fleshy fruits and smooth seeds"
+                }
+            ],
+            "funFact": "The hook-and-loop design of Velcro was actually inspired by how plant burrs (seeds with hooks) stuck to inventor George de Mestral's dog's fur during a hunting trip in 1941!"
+        },
+        {
+            "id": 14,
+            "text": "A scientist is studying a flower that produces small, light pollen grains and has no colorful petals or sweet nectar. Which type of pollinator would most likely help this flower reproduce?",
+            "options": [
+                {
+                    "text": "Hummingbirds",
+                    "isCorrect": 0,
+                    "explanation": "Hummingbirds are attracted to flowers with bright colors (especially red) and sweet nectar. The described flower doesn't have these characteristics that would attract hummingbirds."
+                },
+                {
+                    "text": "Bees",
+                    "isCorrect": 0,
+                    "explanation": "Bees are attracted to flowers with bright colors and sweet nectar. They also need pollen that can stick to their bodies, which isn't a characteristic of this flower."
+                },
+                {
+                    "text": "Butterflies",
+                    "isCorrect": 0,
+                    "explanation": "Butterflies are attracted to brightly colored flowers with sweet nectar. The described flower lacks these features that would attract butterflies."
+                },
+                {
+                    "text": "Wind",
+                    "isCorrect": 1,
+                    "explanation": "Light pollen that can be carried by wind is a characteristic of wind-pollinated flowers. These flowers often lack bright colors and nectar since they don't need to attract animal pollinators."
+                }
+            ],
+            "funFact": "Grasses, such as corn and wheat, are examples of plants that rely on wind pollination. They produce enormous amounts of pollen - up to 50,000 grains per plant - because wind pollination is less precise than animal pollination!"
+        },
+        {
+            "id": 15,
+            "text": "A botanist is studying when different flowers produce nectar during the day. She notices that evening primrose flowers produce most of their nectar at night, while morning glory flowers produce most nectar early in the morning. What is the most likely explanation for this difference in nectar production timing?",
+            "options": [
+                {
+                    "text": "The flowers produce nectar randomly throughout the day",
+                    "isCorrect": 0,
+                    "explanation": "Nectar production follows specific timing patterns that have evolved to match pollinator activity, rather than being random"
+                },
+                {
+                    "text": "The flowers are adapting to when their main pollinators are most active",
+                    "isCorrect": 1,
+                    "explanation": "Different flowers have evolved to produce nectar when their specific pollinators are most active - moths for evening primrose at night, and bees for morning glory in early morning"
+                },
+                {
+                    "text": "The flowers are competing to avoid producing nectar at the same time",
+                    "isCorrect": 0,
+                    "explanation": "While flowers do compete for pollinators, their nectar production timing is primarily based on when their specific pollinators are active, not avoiding other flowers"
+                },
+                {
+                    "text": "The flowers only produce nectar when the temperature is just right",
+                    "isCorrect": 0,
+                    "explanation": "While temperature can affect nectar production, the timing is primarily evolved to match pollinator activity patterns rather than temperature"
+                }
+            ],
+            "funFact": "Some flowers even change their scent at different times of day! For example, some orchids release different fragrances during day and night to attract different types of pollinators active at those times."
         }
     ]
 }

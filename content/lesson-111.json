@@ -4,44 +4,125 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which of the following lists contains only nonrenewable resources?",
+            "text": "Which process describes the primary method of desalination that uses pressure to force seawater through a semi-permeable membrane, leaving salt behind?",
             "options": [
                 {
-                    "text": "Coal, natural gas, petroleum, uranium",
-                    "isCorrect": 1,
-                    "explanation": "These are all nonrenewable resources because they take millions of years to form and cannot be replenished at a rate comparable to their consumption."
+                    "text": "Electrolysis",
+                    "isCorrect": 0,
+                    "explanation": "Electrolysis uses electricity to break water into hydrogen and oxygen, not to separate salt from water."
                 },
+                {
+                    "text": "Filtration",
+                    "isCorrect": 0,
+                    "explanation": "While filtration can remove some impurities, it cannot effectively separate dissolved salt from water without special membrane technology like reverse osmosis."
+                },
+                {
+                    "text": "Distillation",
+                    "isCorrect": 0,
+                    "explanation": "Distillation is a heat-based desalination process that involves boiling seawater and collecting the pure water vapor, not a pressure-driven process using membranes."
+                },
+                {
+                    "text": "Reverse osmosis",
+                    "isCorrect": 1,
+                    "explanation": "Reverse osmosis is indeed a primary desalination method that uses pressure to force seawater through a semi-permeable membrane, leaving salt behind."
+                }
+            ],
+            "funFact": "The world's largest desalination plant, Sorek in Israel, can produce 627,000 cubic meters of water daily - enough to fill 251 Olympic swimming pools!"
+        },
+        {
+            "id": 2,
+            "text": "What is the primary purpose of wildlife preserves in species conservation?",
+            "options": [
+                {
+                    "text": "To create tourist attractions for viewing endangered species",
+                    "isCorrect": 0,
+                    "explanation": "While some preserves may allow controlled tourism, their main purpose is conservation and research, not entertainment."
+                },
+                {
+                    "text": "To breed endangered species for release into cities",
+                    "isCorrect": 0,
+                    "explanation": "While breeding programs may exist in preserves, the goal is to protect species in their natural habitats, not to introduce them into urban areas."
+                },
+                {
+                    "text": "To collect and store plant and animal specimens",
+                    "isCorrect": 0,
+                    "explanation": "Wildlife preserves focus on protecting living species in their natural habitats rather than collecting specimens."
+                },
+                {
+                    "text": "To provide protected areas for maintaining biodiversity and conducting scientific research",
+                    "isCorrect": 1,
+                    "explanation": "Wildlife preserves are designated protected areas that serve the dual purpose of protecting biodiversity and enabling scientific study of species and ecosystems."
+                }
+            ],
+            "funFact": "The world's largest wildlife preserve is the Northeast Greenland National Park, covering 972,001 square kilometers - almost half of Greenland! This massive preserve helps protect unique Arctic species like musk oxen, polar bears, and walruses."
+        },
+        {
+            "id": 3,
+            "text": "Which wildlife conservation practice has been most effective in protecting endangered species from extinction?",
+            "options": [
+                {
+                    "text": "Completely restricting human access to all natural areas",
+                    "isCorrect": 0,
+                    "explanation": "Total restriction of human access is neither practical nor necessary - sustainable coexistence between humans and wildlife is possible through well-managed conservation practices."
+                },
+                {
+                    "text": "Creating protected wildlife preserves and enforcing anti-poaching laws",
+                    "isCorrect": 1,
+                    "explanation": "Protected areas and enforced regulations provide safe habitats where endangered species can thrive without human interference, while anti-poaching laws prevent illegal hunting that threatens species survival."
+                },
+                {
+                    "text": "Only focusing on public education campaigns",
+                    "isCorrect": 0,
+                    "explanation": "While education is important, it alone cannot protect endangered species without also implementing direct conservation measures like habitat protection and anti-poaching enforcement."
+                },
+                {
+                    "text": "Relocating all endangered species to zoos",
+                    "isCorrect": 0,
+                    "explanation": "While zoos play a role in conservation, moving all endangered species to captivity would not maintain their natural habitats or allow them to fulfill their ecological roles in the wild."
+                }
+            ],
+            "funFact": "The American bison population dropped to fewer than 1,000 in 1889 due to overhunting, but thanks to wildlife conservation efforts including protected areas and hunting regulations, their numbers have rebounded to over 500,000 today!"
+        },
+        {
+            "id": 4,
+            "text": "Which of the following lists contains only nonrenewable resources?",
+            "options": [
                 {
                     "text": "Wind, solar energy, biomass, geothermal",
                     "isCorrect": 0,
                     "explanation": "These are all renewable resources because they are naturally replenished at a rate comparable to their consumption."
                 },
                 {
-                    "text": "Solar energy, natural gas, wind, biomass",
-                    "isCorrect": 0,
-                    "explanation": "This is a mix of renewable (solar energy, wind, biomass) and nonrenewable (natural gas) resources."
+                    "text": "Coal, natural gas, petroleum, uranium",
+                    "isCorrect": 1,
+                    "explanation": "These are all nonrenewable resources because they take millions of years to form and cannot be replenished at a rate comparable to their consumption."
                 },
                 {
                     "text": "Petroleum, hydropower, uranium, coal",
                     "isCorrect": 0,
                     "explanation": "This is a mix of renewable (hydropower) and nonrenewable (petroleum, uranium, coal) resources."
+                },
+                {
+                    "text": "Solar energy, natural gas, wind, biomass",
+                    "isCorrect": 0,
+                    "explanation": "This is a mix of renewable (solar energy, wind, biomass) and nonrenewable (natural gas) resources."
                 }
             ],
             "funFact": "The world's oldest known petroleum deposits were formed over 500 million years ago during the Cambrian period, long before the age of dinosaurs!"
         },
         {
-            "id": 2,
+            "id": 5,
             "text": "Which of the following individual actions would be most effective in conserving freshwater resources in a household?",
             "options": [
-                {
-                    "text": "Installing a low-flow showerhead",
-                    "isCorrect": 1,
-                    "explanation": "Low-flow showerheads can significantly reduce water consumption during showers, which are typically one of the largest sources of water usage in homes. This provides a continuous, long-term solution for water conservation."
-                },
                 {
                     "text": "Washing dishes immediately after every meal",
                     "isCorrect": 0,
                     "explanation": "Washing dishes immediately after each meal can actually waste more water compared to waiting to run a full dishwasher or doing all dishes at once. This method often uses more water than necessary."
+                },
+                {
+                    "text": "Running the washing machine half-full",
+                    "isCorrect": 0,
+                    "explanation": "Running the washing machine when it's not full wastes water. It's more efficient to wait until you have a full load to maximize water usage."
                 },
                 {
                     "text": "Watering plants during mid-day",
@@ -49,296 +130,242 @@
                     "explanation": "Watering plants during mid-day leads to increased water loss through evaporation. Early morning or late evening watering is more efficient as less water is lost to evaporation."
                 },
                 {
-                    "text": "Running the washing machine half-full",
-                    "isCorrect": 0,
-                    "explanation": "Running the washing machine when it's not full wastes water. It's more efficient to wait until you have a full load to maximize water usage."
+                    "text": "Installing a low-flow showerhead",
+                    "isCorrect": 1,
+                    "explanation": "Low-flow showerheads can significantly reduce water consumption during showers, which are typically one of the largest sources of water usage in homes. This provides a continuous, long-term solution for water conservation."
                 }
             ],
             "funFact": "A typical showerhead uses about 2.5 gallons of water per minute, while a low-flow showerhead uses only about 2 gallons or less per minute. Over a year, this small difference can save thousands of gallons of water per person!"
         },
         {
-            "id": 3,
-            "text": "Which characteristic of bioplastics makes them a more environmentally friendly alternative to traditional plastics?",
-            "options": [
-                {
-                    "text": "They break down naturally in the environment within a shorter time period",
-                    "isCorrect": 1,
-                    "explanation": "Bioplastics are biodegradable and decompose much faster than traditional plastics, helping reduce long-term accumulation in oceans and landfills"
-                },
-                {
-                    "text": "They are completely indestructible and never need to be replaced",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - being indestructible would actually be harmful as it would lead to permanent accumulation in the environment"
-                },
-                {
-                    "text": "They dissolve instantly when exposed to water",
-                    "isCorrect": 0,
-                    "explanation": "Instant dissolution would make bioplastics impractical for many uses, especially containers. They break down gradually through natural processes"
-                },
-                {
-                    "text": "They can be recycled an unlimited number of times without degrading",
-                    "isCorrect": 0,
-                    "explanation": "While recycling is beneficial, even bioplastics cannot be recycled infinitely. Their key benefit is biodegradability when they do enter the environment"
-                }
-            ],
-            "funFact": "Scientists have developed bioplastics made from materials like corn starch, mushrooms, and even algae! These innovative materials can help reduce plastic pollution while using renewable resources instead of petroleum-based products."
-        },
-        {
-            "id": 4,
-            "text": "Which wildlife conservation practice has been most effective in protecting endangered species from extinction?",
-            "options": [
-                {
-                    "text": "Creating protected wildlife preserves and enforcing anti-poaching laws",
-                    "isCorrect": 1,
-                    "explanation": "Protected areas and enforced regulations provide safe habitats where endangered species can thrive without human interference, while anti-poaching laws prevent illegal hunting that threatens species survival."
-                },
-                {
-                    "text": "Relocating all endangered species to zoos",
-                    "isCorrect": 0,
-                    "explanation": "While zoos play a role in conservation, moving all endangered species to captivity would not maintain their natural habitats or allow them to fulfill their ecological roles in the wild."
-                },
-                {
-                    "text": "Completely restricting human access to all natural areas",
-                    "isCorrect": 0,
-                    "explanation": "Total restriction of human access is neither practical nor necessary - sustainable coexistence between humans and wildlife is possible through well-managed conservation practices."
-                },
-                {
-                    "text": "Only focusing on public education campaigns",
-                    "isCorrect": 0,
-                    "explanation": "While education is important, it alone cannot protect endangered species without also implementing direct conservation measures like habitat protection and anti-poaching enforcement."
-                }
-            ],
-            "funFact": "The American bison population dropped to fewer than 1,000 in 1889 due to overhunting, but thanks to wildlife conservation efforts including protected areas and hunting regulations, their numbers have rebounded to over 500,000 today!"
-        },
-        {
-            "id": 5,
-            "text": "According to the U.S. Government Accountability Office (GAO), how many U.S. states are expected to face water shortages by 2024?",
-            "options": [
-                {
-                    "text": "40 states",
-                    "isCorrect": 1,
-                    "explanation": "The GAO predicts that 40 states will experience water shortages by 2024 due to increasing population and water consumption rates."
-                },
-                {
-                    "text": "25 states",
-                    "isCorrect": 0,
-                    "explanation": "This underestimates the severity of the predicted water crisis. The GAO projects that a significantly higher number of states will face shortages."
-                },
-                {
-                    "text": "10 states",
-                    "isCorrect": 0,
-                    "explanation": "This greatly underestimates the water scarcity issue. The GAO projects that many more states are expected to experience water shortages."
-                },
-                {
-                    "text": "50 states",
-                    "isCorrect": 0,
-                    "explanation": "While water scarcity is a serious concern, the GAO does not predict that all states will face shortages by 2024. Their prediction is for 40 states."
-                }
-            ],
-            "funFact": "The average American uses about 82 gallons of water per day at home! Simple conservation methods like fixing leaky faucets and using water-efficient appliances can save thousands of gallons per year."
-        },
-        {
             "id": 6,
-            "text": "A marine conservation group wants to protect a coral reef system that has been damaged by tourism and coastal development. Which approach would most effectively address both environmental and socioeconomic concerns?",
-            "options": [
-                {
-                    "text": "Establish a rotating schedule of restricted access zones while allowing sustainable tourism activities in other areas",
-                    "isCorrect": 1,
-                    "explanation": "This balanced approach allows for reef recovery through temporary closures while maintaining tourism income and jobs, addressing both environmental protection and economic needs."
-                },
-                {
-                    "text": "Completely close the entire reef system to all human activities indefinitely",
-                    "isCorrect": 0,
-                    "explanation": "While this would protect the reef, it ignores economic impacts on local communities that depend on tourism and would likely face strong opposition."
-                },
-                {
-                    "text": "Install water quality monitoring systems without any access restrictions",
-                    "isCorrect": 0,
-                    "explanation": "Monitoring alone without protective measures would not effectively prevent further damage to the reef system."
-                },
-                {
-                    "text": "Focus only on replanting coral in damaged areas",
-                    "isCorrect": 0,
-                    "explanation": "Restoration without addressing the underlying causes of damage would not provide long-term protection for the reef system."
-                }
-            ],
-            "funFact": "Coral reefs cover less than 1% of the ocean floor but support approximately 25% of all marine species, making them some of the most biodiverse ecosystems on Earth!"
-        },
-        {
-            "id": 7,
             "text": "A coastal city is experiencing severe freshwater shortages and is considering implementing desalination to meet its water needs. Which of the following statements most accurately compares the two main desalination technologies?",
             "options": [
-                {
-                    "text": "Reverse osmosis uses less energy than distillation and is generally more cost-effective for large-scale water production",
-                    "isCorrect": 1,
-                    "explanation": "Reverse osmosis is typically more energy-efficient than thermal distillation, making it the more economical choice for most large-scale desalination projects"
-                },
-                {
-                    "text": "Distillation is more energy-efficient than reverse osmosis and produces better quality water",
-                    "isCorrect": 0,
-                    "explanation": "While distillation can produce high-quality water, it requires more energy than reverse osmosis, making it less cost-effective for most applications"
-                },
                 {
                     "text": "Both technologies use the same amount of energy and are equally cost-effective",
                     "isCorrect": 0,
                     "explanation": "The technologies have different energy requirements and operational costs, with reverse osmosis generally being more energy-efficient"
                 },
                 {
+                    "text": "Reverse osmosis uses less energy than distillation and is generally more cost-effective for large-scale water production",
+                    "isCorrect": 1,
+                    "explanation": "Reverse osmosis is typically more energy-efficient than thermal distillation, making it the more economical choice for most large-scale desalination projects"
+                },
+                {
                     "text": "Neither technology is practical for large-scale water production due to their high energy costs",
                     "isCorrect": 0,
                     "explanation": "While both technologies do require significant energy, they are practically implemented in many regions where traditional water sources are scarce"
+                },
+                {
+                    "text": "Distillation is more energy-efficient than reverse osmosis and produces better quality water",
+                    "isCorrect": 0,
+                    "explanation": "While distillation can produce high-quality water, it requires more energy than reverse osmosis, making it less cost-effective for most applications"
                 }
             ],
             "funFact": "The world's largest desalination plant, Sorek in Israel, uses reverse osmosis technology and can produce 627,000 cubic meters of water daily - enough to supply water to 1.5 million people!"
         },
         {
-            "id": 8,
-            "text": "A growing city is experiencing increased water consumption and wants to implement effective conservation measures. Which approach would likely have the most significant impact on reducing freshwater usage while being practical to implement?",
+            "id": 7,
+            "text": "A suburban community is experiencing increasing conflicts between residents and local wildlife as new housing developments expand into natural habitats. Which monitoring and protection strategy would be most effective in reducing these conflicts while considering both wildlife conservation and community needs?",
             "options": [
                 {
-                    "text": "Installing low-flow showerheads and faucet aerators in all buildings",
+                    "text": "Create a comprehensive wildlife monitoring system using cameras in designated corridors and establish protected green spaces connecting habitats",
                     "isCorrect": 1,
-                    "explanation": "Low-flow fixtures are highly effective, relatively inexpensive to implement, and can reduce water consumption significantly without requiring major behavioral changes from residents."
+                    "explanation": "This solution effectively monitors wildlife movement patterns while preserving essential habitat connectivity, allowing animals to safely move between areas without entering residential spaces"
                 },
                 {
-                    "text": "Building a large-scale desalination plant",
+                    "text": "Remove all vegetation near residential areas to make them less attractive to wildlife",
                     "isCorrect": 0,
-                    "explanation": "While desalination can provide freshwater, it is expensive, energy-intensive, and doesn't address the core issue of conservation. It's not the most practical first step for most cities."
+                    "explanation": "Removing vegetation destroys natural habitats and can force wildlife into other areas, potentially creating new conflicts while damaging the local ecosystem"
                 },
                 {
-                    "text": "Banning all outdoor water usage",
+                    "text": "Build high fences around all residential properties to completely separate wildlife from human areas",
                     "isCorrect": 0,
-                    "explanation": "This is too extreme and could face significant public resistance. While it would reduce water usage, it's not a balanced or practical approach for most communities."
+                    "explanation": "Complete separation through fencing can fragment habitats and disrupt natural wildlife movement patterns, potentially leading to more serious problems for both wildlife and residents"
                 },
                 {
-                    "text": "Relying solely on public education campaigns",
+                    "text": "Install motion-sensor lighting systems throughout the community that automatically turn on when wildlife approaches residential areas",
                     "isCorrect": 0,
-                    "explanation": "While education is important, behavioral changes alone without infrastructure improvements typically have limited impact on overall water consumption."
+                    "explanation": "While motion sensors can alert residents to wildlife presence, bright lights can actually disturb natural wildlife behavior and may increase stress on animals, potentially leading to more conflicts"
                 }
             ],
-            "funFact": "A typical low-flow showerhead can save a household approximately 2,700 gallons of water per year - enough to do 88 loads of laundry!"
+            "funFact": "Wildlife corridors have been successfully implemented in many countries, with some spanning hundreds of miles! The Yellowstone to Yukon Conservation Initiative (Y2Y) is one of the largest wildlife corridors in North America, covering 2,000 miles and helping protect various species including grizzly bears, wolves, and elk."
+        },
+        {
+            "id": 8,
+            "text": "A farmer wants to monitor and reduce the impact of fertilizer runoff from their fields on a nearby stream. Which combination of management practices would be most effective in achieving this goal?",
+            "options": [
+                {
+                    "text": "Increase fertilizer application and measure stream water temperature daily",
+                    "isCorrect": 0,
+                    "explanation": "Increasing fertilizer would worsen runoff pollution. Temperature measurements alone don't effectively monitor nutrient pollution, and this solution lacks any prevention method."
+                },
+                {
+                    "text": "Create buffer zones but don't monitor water quality",
+                    "isCorrect": 0,
+                    "explanation": "While buffer zones help reduce runoff, without monitoring there's no way to measure their effectiveness or identify if additional measures are needed."
+                },
+                {
+                    "text": "Install water quality sensors but continue farming up to the stream's edge",
+                    "isCorrect": 0,
+                    "explanation": "While sensors would help monitor pollution, farming to the stream's edge without any buffer zone would not help reduce the runoff impact, making this an incomplete solution."
+                },
+                {
+                    "text": "Install water quality sensors in the stream and implement buffer zones of natural vegetation between fields and the stream",
+                    "isCorrect": 1,
+                    "explanation": "This approach combines monitoring (sensors) with an effective prevention method (buffer zones). Buffer zones filter out pollutants before they reach the water, while sensors provide data to track effectiveness."
+                }
+            ],
+            "funFact": "Riparian buffer zones, strips of vegetation along waterways, can remove up to 97% of soil sediments and 80% of nutrients from agricultural runoff before they reach the water, while also providing valuable wildlife habitat!"
         },
         {
             "id": 9,
-            "text": "A city is planning to establish a wildlife conservation area to protect several endangered species living within its boundaries. Which approach would be most effective in ensuring the long-term survival of these species?",
+            "text": "A manufacturing plant wants to implement a water recycling system to reduce its environmental impact. Which of the following solutions would be most effective and economically viable in the long term?",
             "options": [
                 {
-                    "text": "Creating a large wildlife preserve with diverse habitats and implementing strict regulations on human activities in and around the area",
+                    "text": "Install single-pass cooling systems that use fresh water once before disposal",
+                    "isCorrect": 0,
+                    "explanation": "Single-pass systems are wasteful as they don't reuse water, leading to higher water consumption and increased costs over time."
+                },
+                {
+                    "text": "Reduce production during peak water usage hours",
+                    "isCorrect": 0,
+                    "explanation": "While this might temporarily reduce water consumption, it doesn't provide a sustainable solution and could negatively impact business operations and productivity."
+                },
+                {
+                    "text": "Purchase water from alternative sources when local supplies are low",
+                    "isCorrect": 0,
+                    "explanation": "This is a temporary solution that doesn't address the core issue of water conservation and would likely result in higher long-term costs without environmental benefits."
+                },
+                {
+                    "text": "Install a closed-loop water recycling system that treats and reuses water within the facility",
                     "isCorrect": 1,
-                    "explanation": "This is the most comprehensive approach as it provides protected space for species to thrive while managing human impacts through regulations"
-                },
-                {
-                    "text": "Building tall fences around existing animal habitats to keep humans away from endangered species",
-                    "isCorrect": 0,
-                    "explanation": "Simply blocking human access doesn't address habitat quality or the broader ecosystem needs of the species"
-                },
-                {
-                    "text": "Relocating all endangered species to zoos where they can be protected from urban development",
-                    "isCorrect": 0,
-                    "explanation": "While zoos play a role in conservation, removing species from their natural habitat doesn't help maintain wild populations or protect ecosystems"
-                },
-                {
-                    "text": "Installing wildlife crossing signs throughout the city to warn people about the presence of endangered species",
-                    "isCorrect": 0,
-                    "explanation": "Warning signs alone don't provide actual protection or habitat preservation for endangered species"
+                    "explanation": "A closed-loop system allows multiple reuse cycles of the same water, significantly reducing freshwater consumption while providing long-term cost savings despite higher initial installation costs."
                 }
             ],
-            "funFact": "Wildlife preserves don't just protect endangered species - they often create 'umbrella effects' where protecting one species ends up benefiting many others that share the same habitat. For example, protecting tigers in India has helped preserve habitats for hundreds of other species!"
+            "funFact": "Some modern industrial water recycling systems can reuse the same water up to 10 times before it needs to be replaced, reducing a facility's water consumption by up to 90% compared to traditional systems."
         },
         {
             "id": 10,
-            "text": "A city wants to evaluate the effectiveness of its new recycling program. Which method would provide the most comprehensive data for monitoring the program's success while considering economic feasibility?",
+            "text": "A local environmental group wants to monitor plastic pollution in the nearby river. Which monitoring system would be most effective and cost-efficient for tracking plastic waste over time?",
             "options": [
                 {
-                    "text": "Track the percentage of waste diverted from landfills, measure contamination rates in recycling bins, and survey resident participation monthly",
+                    "text": "Install automated sensors with cameras that use AI to identify and count plastic debris flowing down the river",
+                    "isCorrect": 0,
+                    "explanation": "While automated sensors can provide continuous monitoring, they are very expensive to install and maintain, and may not accurately identify all types of plastic waste."
+                },
+                {
+                    "text": "Place nets across the entire width of the river to catch and weigh all plastic waste",
+                    "isCorrect": 0,
+                    "explanation": "Placing nets across the river would disrupt water flow and wildlife, potentially violate regulations, and require significant maintenance."
+                },
+                {
+                    "text": "Take daily water samples from the river mouth to test for microplastic concentration in a lab",
+                    "isCorrect": 0,
+                    "explanation": "Daily lab testing would be extremely expensive and time-consuming, and would only capture data from one location, missing larger plastic debris."
+                },
+                {
+                    "text": "Conduct monthly visual surveys at multiple points along the river, documenting plastic waste types and quantities using standardized forms",
                     "isCorrect": 1,
-                    "explanation": "This method provides comprehensive data by measuring actual waste reduction, quality of recycling, and community engagement while remaining economically feasible through monthly monitoring intervals"
-                },
-                {
-                    "text": "Install electronic sensors on every household recycling bin to track daily usage patterns",
-                    "isCorrect": 0,
-                    "explanation": "While this would provide detailed data, the cost of installing and maintaining sensors on every bin would be prohibitively expensive and exceed reasonable economic constraints"
-                },
-                {
-                    "text": "Compare the city's total waste output at the end of each year",
-                    "isCorrect": 0,
-                    "explanation": "This method is too infrequent and lacks specific details about recycling effectiveness, contamination issues, or participation rates needed to properly evaluate and improve the program"
-                },
-                {
-                    "text": "Record the weight of recyclables collected each week without tracking contamination or participation",
-                    "isCorrect": 0,
-                    "explanation": "Simply measuring weight of collected recyclables doesn't account for contamination or participation rates, making it impossible to accurately assess program effectiveness"
+                    "explanation": "Regular visual surveys at consistent locations provide reliable data on plastic pollution trends while being cost-effective and requiring minimal equipment."
                 }
             ],
-            "funFact": "Some advanced recycling facilities use artificial intelligence and robotics to sort materials, achieving sorting accuracies of up to 99% while processing several tons of recyclables per hour. However, these systems are currently too expensive for most cities to implement."
+            "funFact": "Scientists have developed special nets called 'manta trawls' that skim the surface of water bodies to collect samples of floating microplastics, helping researchers understand pollution patterns in different waterways around the world."
         },
         {
             "id": 11,
-            "text": "A wildlife conservation group is studying the decline of native bird species in an urban area where new housing developments are being built. Which approach would be most effective for monitoring and minimizing the impact of urban development on these bird populations?",
+            "text": "The world's human population has grown exponentially since the Industrial Revolution, leading to increased freshwater consumption. What is the primary causal relationship between population growth and water scarcity?",
             "options": [
                 {
-                    "text": "Create protected zones within the development area with native vegetation and nesting sites, while tracking bird population numbers over time",
+                    "text": "Population growth has caused all freshwater sources to become polluted",
+                    "isCorrect": 0,
+                    "explanation": "While pollution is a concern, this oversimplifies the issue and incorrectly suggests all freshwater sources are polluted"
+                },
+                {
+                    "text": "Population growth has led to higher water demand, while available freshwater sources remain limited",
                     "isCorrect": 1,
-                    "explanation": "This solution both monitors bird populations and minimizes habitat loss by preserving essential breeding areas, striking a balance between development and conservation."
+                    "explanation": "This correctly identifies the causal relationship - as population grows, water demand increases, but freshwater sources are finite, leading to scarcity"
                 },
                 {
-                    "text": "Completely stop all construction projects in the area to prevent any further habitat disturbance",
+                    "text": "Population growth has only affected water availability in urban areas",
                     "isCorrect": 0,
-                    "explanation": "While this would protect habitats, it's not a feasible solution as it ignores societal needs for housing and economic factors."
+                    "explanation": "This is incorrect as water scarcity affects both urban and rural areas due to overall increased consumption"
                 },
                 {
-                    "text": "Relocate all birds to a different area away from the development",
+                    "text": "Population growth has prevented rain from refilling freshwater sources",
                     "isCorrect": 0,
-                    "explanation": "Simply moving birds doesn't address the root cause of habitat loss and could disrupt established ecosystems in other areas."
-                },
-                {
-                    "text": "Document the decreasing bird population without taking any action",
-                    "isCorrect": 0,
-                    "explanation": "Only monitoring without taking steps to minimize impact doesn't fulfill the goal of protecting the species."
+                    "explanation": "This represents a misconception - population growth does not directly affect the natural water cycle or rainfall patterns"
                 }
             ],
-            "funFact": "Urban wildlife corridors, when properly designed, can increase bird species diversity by up to 75% in developed areas. Some cities have even seen the return of previously absent species after implementing these conservation measures."
+            "funFact": "While the Earth is often called the 'Blue Planet' because it appears to have abundant water, only about 0.3% of all water on Earth is usable freshwater found in surface sources like lakes and rivers!"
         },
         {
             "id": 12,
-            "text": "A wildlife conservation program aims to protect an endangered species of tigers in a region where human settlements are expanding. Which conservation strategy would be most effective in protecting the tigers while considering human needs?",
+            "text": "A coastal city is experiencing severe plastic pollution in its nearby ocean waters, threatening marine life and ecosystem health. Which solution would be most effective and feasible for monitoring and reducing plastic pollution in this area?",
             "options": [
                 {
-                    "text": "Establish protected wildlife corridors connecting existing habitats while working with local communities to develop sustainable practices",
+                    "text": "Completely banning all plastic products in the city immediately",
+                    "isCorrect": 0,
+                    "explanation": "While reducing plastic use is important, an immediate complete ban is not economically feasible and could cause significant disruption to essential services and businesses."
+                },
+                {
+                    "text": "Organizing monthly beach cleanups by volunteers",
+                    "isCorrect": 0,
+                    "explanation": "While beach cleanups are helpful, they only address plastics that have already reached the shore and don't provide systematic monitoring or prevention of ocean pollution."
+                },
+                {
+                    "text": "Using satellites to track ocean plastics without implementing any collection methods",
+                    "isCorrect": 0,
+                    "explanation": "Only monitoring without taking action to reduce pollution would not address the core problem. An effective solution needs both monitoring and reduction components."
+                },
+                {
+                    "text": "Installing advanced filtration systems at river mouths to capture plastics before they enter the ocean, combined with regular monitoring of plastic concentrations",
                     "isCorrect": 1,
-                    "explanation": "This solution balances both wildlife protection and human needs by creating safe passage for tigers while involving local communities in sustainable development"
-                },
-                {
-                    "text": "Relocate all human settlements away from tiger habitats to completely separate humans from wildlife",
-                    "isCorrect": 0,
-                    "explanation": "This approach is too extreme and doesn't consider human needs or economic impacts, making it impractical and potentially harmful to communities"
-                },
-                {
-                    "text": "Ban all human activities in areas where tigers are found without providing alternative solutions",
-                    "isCorrect": 0,
-                    "explanation": "Simply banning activities without offering alternatives isn't sustainable and could lead to conflicts between conservation efforts and human needs"
-                },
-                {
-                    "text": "Focus solely on increasing tiger population through breeding programs without addressing habitat protection",
-                    "isCorrect": 0,
-                    "explanation": "This approach ignores the crucial aspect of habitat protection and doesn't address the underlying issues of human-wildlife conflict"
+                    "explanation": "This solution addresses both monitoring and reduction of plastic pollution at a key entry point, while being technologically feasible and allowing for ongoing assessment of effectiveness."
                 }
             ],
-            "funFact": "Some successful tiger conservation programs have actually increased local economic opportunities through ecotourism, showing that wildlife protection can create benefits for both animals and nearby communities when properly managed."
+            "funFact": "Scientists have discovered that some bacteria have evolved to eat plastic in the ocean! A bacteria called Ideonella sakaiensis can break down PET plastic (commonly used in water bottles) into harmless substances, showing nature's remarkable ability to adapt to human-made materials."
         },
         {
             "id": 13,
-            "text": "A city is experiencing water shortages and needs to implement conservation measures. Which combination of approaches would be most effective and economically feasible for addressing the water shortage?",
+            "text": "A city planner is designing a new residential development and wants to minimize its environmental impact while meeting housing needs. Which approach would be most effective in achieving both goals?",
             "options": [
                 {
-                    "text": "Installing low-flow showerheads citywide and implementing morning/evening only watering schedules for landscaping",
-                    "isCorrect": 1,
-                    "explanation": "This combination is highly effective and economically feasible - low-flow fixtures significantly reduce water usage at a relatively low cost, while regulated watering schedules help prevent water waste without requiring expensive infrastructure."
+                    "text": "Build the development in a wetland area to keep costs low, adding water filtration systems later",
+                    "isCorrect": 0,
+                    "explanation": "Destroying wetlands damages critical ecosystems and natural water filtration systems. Later remediation is often less effective and more expensive than preservation."
                 },
+                {
+                    "text": "Construct large single-family homes with individual yards and no restrictions on water usage",
+                    "isCorrect": 0,
+                    "explanation": "This approach uses more land per person and increases water consumption, creating a larger environmental footprint without efficiently meeting housing needs."
+                },
+                {
+                    "text": "Build high-density apartment buildings with green spaces, efficient public transportation access, and water recycling systems",
+                    "isCorrect": 1,
+                    "explanation": "High-density housing with integrated environmental features reduces land usage while accommodating more people. Public transportation and water recycling systems minimize resource consumption per capita."
+                },
+                {
+                    "text": "Develop houses without considering environmental impacts to maximize immediate housing availability",
+                    "isCorrect": 0,
+                    "explanation": "Ignoring environmental impacts during development often leads to higher long-term costs and resource problems, making the housing less sustainable over time."
+                }
+            ],
+            "funFact": "Urban areas that incorporate green infrastructure like rain gardens and permeable pavements can reduce stormwater runoff by up to 90%, helping to prevent flooding and filter pollutants naturally."
+        },
+        {
+            "id": 14,
+            "text": "A city is experiencing water shortages and needs to implement conservation measures. Which combination of approaches would be most effective and economically feasible for addressing the water shortage?",
+            "options": [
                 {
                     "text": "Building a large-scale desalination plant and replacing all plumbing infrastructure in the city",
                     "isCorrect": 0,
                     "explanation": "While these measures would increase water supply, they are extremely expensive and energy-intensive. The high costs make this an impractical solution for most cities facing water shortages."
+                },
+                {
+                    "text": "Importing bottled water for drinking and using untreated river water for all other purposes",
+                    "isCorrect": 0,
+                    "explanation": "This is unsafe and unsustainable. Bottled water is extremely expensive for citywide use, and using untreated river water poses serious health risks and may violate environmental regulations."
                 },
                 {
                     "text": "Banning all outdoor water usage and requiring citizens to collect rainwater for all non-drinking needs",
@@ -346,66 +373,39 @@
                     "explanation": "This approach is too extreme and impractical. A complete outdoor water ban could harm essential vegetation, and relying solely on rainwater collection is unrealistic for meeting all non-drinking water needs."
                 },
                 {
-                    "text": "Importing bottled water for drinking and using untreated river water for all other purposes",
-                    "isCorrect": 0,
-                    "explanation": "This is unsafe and unsustainable. Bottled water is extremely expensive for citywide use, and using untreated river water poses serious health risks and may violate environmental regulations."
+                    "text": "Installing low-flow showerheads citywide and implementing morning/evening only watering schedules for landscaping",
+                    "isCorrect": 1,
+                    "explanation": "This combination is highly effective and economically feasible - low-flow fixtures significantly reduce water usage at a relatively low cost, while regulated watering schedules help prevent water waste without requiring expensive infrastructure."
                 }
             ],
             "funFact": "The average American home wastes 180 gallons of water per week from household leaks alone. Simple fixes like repairing leaks and installing water-efficient fixtures can save a typical family nearly 13,000 gallons of water per year!"
         },
         {
-            "id": 14,
-            "text": "The world's human population has grown exponentially since the Industrial Revolution, leading to increased freshwater consumption. What is the primary causal relationship between population growth and water scarcity?",
-            "options": [
-                {
-                    "text": "Population growth has led to higher water demand, while available freshwater sources remain limited",
-                    "isCorrect": 1,
-                    "explanation": "This correctly identifies the causal relationship - as population grows, water demand increases, but freshwater sources are finite, leading to scarcity"
-                },
-                {
-                    "text": "Population growth has caused all freshwater sources to become polluted",
-                    "isCorrect": 0,
-                    "explanation": "While pollution is a concern, this oversimplifies the issue and incorrectly suggests all freshwater sources are polluted"
-                },
-                {
-                    "text": "Population growth has prevented rain from refilling freshwater sources",
-                    "isCorrect": 0,
-                    "explanation": "This represents a misconception - population growth does not directly affect the natural water cycle or rainfall patterns"
-                },
-                {
-                    "text": "Population growth has only affected water availability in urban areas",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect as water scarcity affects both urban and rural areas due to overall increased consumption"
-                }
-            ],
-            "funFact": "While the Earth is often called the 'Blue Planet' because it appears to have abundant water, only about 0.3% of all water on Earth is usable freshwater found in surface sources like lakes and rivers!"
-        },
-        {
             "id": 15,
-            "text": "Which strategy would be most effective in monitoring and reducing plastic pollution in our oceans?",
+            "text": "A wildlife conservation program aims to protect an endangered species of tigers in a region where human settlements are expanding. Which conservation strategy would be most effective in protecting the tigers while considering human needs?",
             "options": [
                 {
-                    "text": "Installing tracking devices on plastic products to monitor their movement in oceans",
+                    "text": "Relocate all human settlements away from tiger habitats to completely separate humans from wildlife",
                     "isCorrect": 0,
-                    "explanation": "While tracking devices could help monitor plastic movement, they would add to plastic waste and wouldn't address the root cause of pollution."
+                    "explanation": "This approach is too extreme and doesn't consider human needs or economic impacts, making it impractical and potentially harmful to communities"
                 },
                 {
-                    "text": "Implementing a comprehensive system to track plastic production and mandate use of biodegradable alternatives",
+                    "text": "Focus solely on increasing tiger population through breeding programs without addressing habitat protection",
+                    "isCorrect": 0,
+                    "explanation": "This approach ignores the crucial aspect of habitat protection and doesn't address the underlying issues of human-wildlife conflict"
+                },
+                {
+                    "text": "Establish protected wildlife corridors connecting existing habitats while working with local communities to develop sustainable practices",
                     "isCorrect": 1,
-                    "explanation": "This strategy addresses both monitoring and reduction by tracking production and replacing non-biodegradable plastics with environmentally friendly alternatives."
+                    "explanation": "This solution balances both wildlife protection and human needs by creating safe passage for tigers while involving local communities in sustainable development"
                 },
                 {
-                    "text": "Conducting monthly ocean cleanups to remove plastic waste",
+                    "text": "Ban all human activities in areas where tigers are found without providing alternative solutions",
                     "isCorrect": 0,
-                    "explanation": "While cleanups help remove existing waste, they don't address continuous plastic production or provide effective monitoring of pollution sources."
-                },
-                {
-                    "text": "Creating more landfills to store plastic waste",
-                    "isCorrect": 0,
-                    "explanation": "Adding landfills doesn't reduce plastic production or provide monitoring capabilities, and may lead to other environmental issues."
+                    "explanation": "Simply banning activities without offering alternatives isn't sustainable and could lead to conflicts between conservation efforts and human needs"
                 }
             ],
-            "funFact": "Scientists have discovered bacteria that can break down PET plastic (commonly used in water bottles) in just six weeks, offering hope for natural solutions to plastic pollution. These bacteria were first discovered in 2016 at a waste site in Japan."
+            "funFact": "Some successful tiger conservation programs have actually increased local economic opportunities through ecotourism, showing that wildlife protection can create benefits for both animals and nearby communities when properly managed."
         }
     ]
 }

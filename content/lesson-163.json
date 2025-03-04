@@ -4,62 +4,67 @@
     "questions": [
         {
             "id": 1,
-            "text": "When you press a key on your keyboard, how does the computer process this input?",
+            "text": "How do programming languages help software developers write instructions for computers?",
             "options": [
                 {
-                    "text": "The computer receives the input as digital signals consisting of 1s and 0s",
+                    "text": "They allow computers to understand human language directly",
+                    "isCorrect": 0,
+                    "explanation": "Computers cannot understand human language directly. They only process binary instructions (1s and 0s), which is why programming languages are needed to translate human instructions."
+                },
+                {
+                    "text": "They directly convert human language into electrical signals",
+                    "isCorrect": 0,
+                    "explanation": "Programming languages don't directly create electrical signals. They first convert human-readable code into binary (1s and 0s) which then controls the computer's circuits."
+                },
+                {
+                    "text": "They eliminate the need for binary code in modern computers",
+                    "isCorrect": 0,
+                    "explanation": "Binary code is still fundamental to how computers work. Programming languages don't eliminate binary code - they just hide its complexity from programmers."
+                },
+                {
+                    "text": "They translate human-readable code into binary instructions that the computer can process",
                     "isCorrect": 1,
-                    "explanation": "Keyboards convert key presses into digital signals made of 1s and 0s that the computer can understand and process"
-                },
-                {
-                    "text": "The computer directly understands which letter was typed",
-                    "isCorrect": 0,
-                    "explanation": "Computers don't directly understand letters - all input must first be converted to digital signals"
-                },
-                {
-                    "text": "The keyboard sends continuous analog waves to the computer",
-                    "isCorrect": 0,
-                    "explanation": "Keyboards use digital signals, not analog waves, to communicate with computers"
-                },
-                {
-                    "text": "The key press creates an electrical current that the computer interprets",
-                    "isCorrect": 0,
-                    "explanation": "While electricity is involved, the computer specifically needs digital signals, not just electrical current"
+                    "explanation": "Programming languages act as intermediaries, converting human-readable instructions into binary code (1s and 0s) that computers can understand and execute."
                 }
             ],
-            "funFact": "The standard QWERTY keyboard layout was actually designed in the 1870s to prevent mechanical typewriter keys from jamming by placing frequently used letter combinations far apart - and we still use this layout today even though modern digital keyboards don't have this mechanical limitation!"
+            "funFact": "The first high-level programming language was Plankalk\u00fcl, developed by Konrad Zuse between 1942 and 1945. However, it wasn't actually implemented until 2000 - long after other programming languages like FORTRAN and COBOL became popular!"
         },
         {
             "id": 2,
-            "text": "A digital thermometer measures body temperature. Which statement best explains how it converts the continuous temperature measurement into a digital signal that can be displayed?",
+            "text": "A scientist needs to collect temperature measurements from deep-sea hydrothermal vents. Which type of measurement device would provide the most reliable and accurate data?",
             "options": [
                 {
-                    "text": "It takes samples of the temperature at regular intervals and converts those values into binary code (1s and 0s)",
+                    "text": "A color-changing temperature strip",
+                    "isCorrect": 0,
+                    "explanation": "Color-changing temperature strips would deteriorate in the corrosive environment of hydrothermal vents. They also have limited temperature ranges and precision, making them inadequate for the extreme and fluctuating temperatures found at deep-sea vents. Their readings cannot be automatically recorded or transmitted to the surface."
+                },
+                {
+                    "text": "A traditional glass thermometer with mercury",
+                    "isCorrect": 0,
+                    "explanation": "Glass mercury thermometers would likely break under the extreme pressure of deep-sea environments. Even if reinforced, they require direct observation to read, making them impractical for remote deep-sea locations. Additionally, their analog readings are difficult to record precisely under such extreme conditions."
+                },
+                {
+                    "text": "A digital temperature probe that converts temperature readings into binary code",
                     "isCorrect": 1,
-                    "explanation": "Digital thermometers use sampling to convert continuous temperature measurements into discrete digital values that can be processed and displayed"
+                    "explanation": "Digital temperature probes can be designed with protective casings to withstand high pressures and corrosive environments of deep-sea vents. They convert temperature readings into binary code, allowing for precise measurements even in extreme heat. The digital data can be reliably stored, transmitted to the surface, and analyzed without degradation."
                 },
                 {
-                    "text": "It directly measures temperature in binary form without any conversion needed",
+                    "text": "A bi-metallic strip thermometer",
                     "isCorrect": 0,
-                    "explanation": "Temperature is an analog measurement that must be converted to digital form - it cannot be measured directly in binary"
-                },
-                {
-                    "text": "It stores the exact continuous temperature wave without any conversion",
-                    "isCorrect": 0,
-                    "explanation": "Digital devices cannot store continuous analog signals directly - they must convert them to discrete digital values"
-                },
-                {
-                    "text": "It averages all temperature readings into a single analog value",
-                    "isCorrect": 0,
-                    "explanation": "Digital thermometers don't just average readings into an analog value - they convert analog measurements to digital form through sampling"
+                    "explanation": "Bi-metallic strip thermometers would likely malfunction under the high pressure and corrosive conditions of deep-sea vents. They are also limited in their temperature range and precision, making them unsuitable for the extreme temperatures around hydrothermal vents. Additionally, their analog measurements cannot be easily transmitted to the surface."
                 }
             ],
-            "funFact": "The first digital thermometer was invented in 1954 by Dr. Theodore Hannes Benzinger at the National Bureau of Standards. Modern digital thermometers can take thousands of temperature samples per second for extremely precise readings!"
+            "funFact": "Modern digital temperature probes can measure temperatures as precise as 0.001\u00b0C and can automatically log thousands of readings per second, revolutionizing our understanding of deep ocean thermal patterns!"
         },
         {
             "id": 3,
             "text": "Why is digital data storage more efficient than analog storage for music files?",
             "options": [
+                {
+                    "text": "Digital storage requires more physical space",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - digital storage actually requires less physical space than analog due to data compression capabilities."
+                },
                 {
                     "text": "Digital data can be compressed while maintaining sound quality",
                     "isCorrect": 1,
@@ -71,11 +76,6 @@
                     "explanation": "While analog may capture continuous sound waves, this actually makes storage less efficient as it cannot be compressed without losing quality."
                 },
                 {
-                    "text": "Digital storage requires more physical space",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - digital storage actually requires less physical space than analog due to data compression capabilities."
-                },
-                {
                     "text": "Analog signals can be sampled infinitely",
                     "isCorrect": 0,
                     "explanation": "Analog signals cannot be sampled infinitely - they take up continuous physical space and cannot be compressed like digital signals."
@@ -85,57 +85,57 @@
         },
         {
             "id": 4,
-            "text": "A music enthusiast wants to store their favorite songs for a long time and ensure the audio quality remains high. Which storage method would be most reliable for preserving the songs over many years?",
+            "text": "When converting an analog sound wave to a digital signal through sampling, measurements of the wave height are taken at:",
             "options": [
                 {
-                    "text": "Digital storage with periodic error checking and correction",
+                    "text": "Only at the highest points of the wave",
+                    "isCorrect": 0,
+                    "explanation": "Sampling only the peaks would miss critical information about the rest of the wave, resulting in an incomplete and inaccurate digital signal."
+                },
+                {
+                    "text": "Only at the lowest points of the wave",
+                    "isCorrect": 0,
+                    "explanation": "Sampling only the troughs would miss critical information about the rest of the wave, resulting in an incomplete and inaccurate digital signal."
+                },
+                {
+                    "text": "Random points along the wave",
+                    "isCorrect": 0,
+                    "explanation": "Random sampling would create an inconsistent and unreliable digital signal that wouldn't accurately represent the original analog wave."
+                },
+                {
+                    "text": "Regular, evenly spaced time intervals along the wave",
                     "isCorrect": 1,
-                    "explanation": "Digital storage allows for automatic detection and correction of errors, ensuring the data remains intact over time. The binary (0s and 1s) nature of digital signals makes it easy to identify and fix any degradation."
-                },
-                {
-                    "text": "Analog storage on magnetic tape",
-                    "isCorrect": 0,
-                    "explanation": "Magnetic tape deteriorates over time and each playback slightly degrades the quality. There is no way to correct errors once they occur in analog storage."
-                },
-                {
-                    "text": "Analog storage on vinyl records",
-                    "isCorrect": 0,
-                    "explanation": "Vinyl records are susceptible to physical damage and wear from repeated use. The analog signal quality gradually degrades and cannot be restored to its original state."
-                },
-                {
-                    "text": "Analog storage with regular backup copies",
-                    "isCorrect": 0,
-                    "explanation": "Even with regular backup copies, analog storage will still degrade each time it is copied. Each generation of copies will have slightly lower quality than the previous one."
+                    "explanation": "Sampling takes measurements at equal time intervals to accurately capture the wave pattern. This consistent spacing ensures a reliable digital representation of the analog signal."
                 }
             ],
-            "funFact": "The first commercial digital audio recordings were made in the late 1970s. Before this, professional recording studios used analog tape machines that were so large they often took up entire rooms!"
+            "funFact": "The sampling rate for CD-quality audio is 44,100 times per second! This high frequency was chosen because human ears can hear frequencies up to about 20,000 Hz, and sampling theory requires at least twice the highest frequency to accurately capture the sound."
         },
         {
             "id": 5,
-            "text": "Which statement correctly describes how binary code controls basic computer operations?",
+            "text": "Which statement correctly describes the fundamental difference between analog and digital signals?",
             "options": [
                 {
-                    "text": "Binary code uses 1s and 0s to turn specific circuits on and off, enabling the computer to perform complex tasks",
+                    "text": "Analog signals use continuous values while digital signals use only discrete values (1s and 0s)",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Binary code uses 1s to turn circuits on and 0s to turn circuits off, which allows computers to execute complex operations through these simple binary instructions."
+                    "explanation": "This is correct. Analog signals can take any value within a range continuously, while digital signals are limited to specific discrete values - typically just 1s and 0s in binary."
                 },
                 {
-                    "text": "Binary code directly creates images and sounds that we see and hear on the computer",
+                    "text": "Both analog and digital signals use only discrete values",
                     "isCorrect": 0,
-                    "explanation": "Binary code doesn't directly create images and sounds. It controls circuits that then get converted into forms we can understand through output devices like monitors and speakers."
+                    "explanation": "This is incorrect. While digital signals use discrete values, analog signals can take any value within a range continuously."
                 },
                 {
-                    "text": "Binary code works by sending continuous waves of electricity through the computer",
+                    "text": "Digital signals use continuous values while analog signals use only discrete values",
                     "isCorrect": 0,
-                    "explanation": "Binary code doesn't use continuous waves - it uses discrete on/off states (1s and 0s) rather than continuous signals to control computer operations."
+                    "explanation": "This is incorrect. It's the opposite - analog signals are continuous while digital signals use discrete values."
                 },
                 {
-                    "text": "Binary code stores exact copies of real-world objects inside the computer's memory",
+                    "text": "Both analog and digital signals use continuous values",
                     "isCorrect": 0,
-                    "explanation": "Binary code doesn't store exact copies of objects - it represents information through patterns of 1s and 0s that control electrical circuits."
+                    "explanation": "This is incorrect. While analog signals are continuous, digital signals use discrete values (1s and 0s), not continuous values."
                 }
             ],
-            "funFact": "The first electronic computer, ENIAC (1945), used decimal rather than binary numbers! The switch to binary systems came later because binary circuits were simpler and more reliable to build, leading to the foundation of modern computing."
+            "funFact": "The first digital audio recording was made in 1937 by British engineer Alec Reeves. However, the technology wasn't commercially viable until the 1970s when computers became powerful enough to process digital signals efficiently."
         },
         {
             "id": 6,
@@ -147,11 +147,6 @@
                     "explanation": "Digital signals can be transmitted over long distances without degradation and can be easily corrected to eliminate errors, making them ideal for transmitting critical medical data."
                 },
                 {
-                    "text": "An analog system that transmits vital signs as continuous wave signals",
-                    "isCorrect": 0,
-                    "explanation": "Analog signals deteriorate over long distances and can pick up interference, making them less reliable for transmitting critical medical data over 100 miles."
-                },
-                {
                     "text": "A hybrid system that alternates between digital and analog transmission",
                     "isCorrect": 0,
                     "explanation": "Switching between digital and analog would introduce unnecessary complexity and inherit the weaknesses of analog transmission, reducing reliability."
@@ -160,104 +155,28 @@
                     "text": "An analog system with signal boosters every 10 miles",
                     "isCorrect": 0,
                     "explanation": "Even with boosters, analog signals would still accumulate noise and distortion over the distance, making them less reliable than digital transmission."
+                },
+                {
+                    "text": "An analog system that transmits vital signs as continuous wave signals",
+                    "isCorrect": 0,
+                    "explanation": "Analog signals deteriorate over long distances and can pick up interference, making them less reliable for transmitting critical medical data over 100 miles."
                 }
             ],
             "funFact": "Modern telemedicine systems can transmit high-definition medical images and real-time vital signs data across continents using digital technology, allowing doctors to diagnose and treat patients thousands of miles away!"
         },
         {
             "id": 7,
-            "text": "NASA plans to send a spacecraft to explore a distant galaxy. Which characteristic of digital signals makes them most suitable for communicating with this spacecraft compared to analog signals?",
-            "options": [
-                {
-                    "text": "Digital signals can be corrected to remove noise and interference even after traveling long distances",
-                    "isCorrect": 1,
-                    "explanation": "Digital signals use binary code (1s and 0s), making it easier to detect and correct errors caused by interference during long-distance transmission"
-                },
-                {
-                    "text": "Digital signals travel faster than analog signals through space",
-                    "isCorrect": 0,
-                    "explanation": "Both digital and analog signals travel at the same speed through space, as they both use electromagnetic waves for transmission"
-                },
-                {
-                    "text": "Digital signals require less power to transmit than analog signals",
-                    "isCorrect": 0,
-                    "explanation": "The power requirement for transmission depends on various factors and is not inherently lower for digital signals"
-                },
-                {
-                    "text": "Digital signals can carry more information than analog signals",
-                    "isCorrect": 0,
-                    "explanation": "The amount of information that can be carried depends on the bandwidth, not whether the signal is digital or analog"
-                }
-            ],
-            "funFact": "The Voyager 1 spacecraft, launched in 1977, still communicates with Earth from over 14 billion miles away using digital signals. The signal is so weak by the time it reaches Earth that it has less power than a millionth of a billionth of a watt, yet we can still understand the message!"
-        },
-        {
-            "id": 8,
-            "text": "A telephone company is upgrading its communication infrastructure from traditional copper wire cables to fiber optic cables. What is the main advantage of this switch in terms of signal transmission?",
-            "options": [
-                {
-                    "text": "Digital signals in fiber optic cables can be corrected to remove interference, maintaining signal quality over long distances",
-                    "isCorrect": 1,
-                    "explanation": "Digital signals transmitted through fiber optic cables can be easily corrected because they only use two values (1s and 0s), allowing clear transmission over long distances without degradation"
-                },
-                {
-                    "text": "Analog signals in copper wires are more natural and therefore easier to decode at the receiving end",
-                    "isCorrect": 0,
-                    "explanation": "While analog signals are continuous like natural sound waves, they accumulate noise and degrade over distance, making them less reliable for long-distance communication"
-                },
-                {
-                    "text": "Digital signals require less maintenance since they don't need amplification",
-                    "isCorrect": 0,
-                    "explanation": "Both digital and analog signals may need amplification. The advantage of digital signals comes from their ability to be corrected, not from reduced maintenance needs"
-                },
-                {
-                    "text": "Fiber optic cables can carry more information because they use continuous waves",
-                    "isCorrect": 0,
-                    "explanation": "Fiber optic cables actually use digital signals, not continuous waves. Their advantage comes from signal clarity and error correction, not from using continuous waves"
-                }
-            ],
-            "funFact": "The first commercial fiber optic telephone system was installed in Chicago in 1977, and it could carry 672 simultaneous telephone conversations. Today's fiber optic cables can carry millions of calls simultaneously!"
-        },
-        {
-            "id": 9,
-            "text": "A band wants to broadcast their live performance to fans across the country. Which method would provide the clearest sound quality for listeners who are far away from the performance venue?",
-            "options": [
-                {
-                    "text": "Digital transmission through satellite radio",
-                    "isCorrect": 1,
-                    "explanation": "Digital signals can be corrected to remove noise and interference, maintaining clear sound quality even over long distances. Satellite radio uses digital transmission for this reason."
-                },
-                {
-                    "text": "AM radio broadcast",
-                    "isCorrect": 0,
-                    "explanation": "AM radio uses analog signals which deteriorate over distance, resulting in static and poor sound quality for distant listeners."
-                },
-                {
-                    "text": "FM radio broadcast",
-                    "isCorrect": 0,
-                    "explanation": "While FM generally has better quality than AM, it still uses analog signals that degrade over distance, causing static and loss of sound quality."
-                },
-                {
-                    "text": "Recording to vinyl and shipping records",
-                    "isCorrect": 0,
-                    "explanation": "While vinyl provides analog sound quality, physically shipping records would not allow for live broadcast and would be impractical for reaching distant listeners simultaneously."
-                }
-            ],
-            "funFact": "The switch from analog to digital TV broadcasting in the United States was completed in 2009, improving picture quality and freeing up valuable broadcast frequencies for emergency communications and mobile services."
-        },
-        {
-            "id": 10,
             "text": "Why do modern scientists prefer digital thermometers over traditional mercury thermometers for taking precise temperature measurements in their experiments?",
             "options": [
-                {
-                    "text": "Digital thermometers can more reliably record and store temperature data while eliminating measurement noise",
-                    "isCorrect": 1,
-                    "explanation": "Digital thermometers use electronic sensors and signal processing technology to measure temperature, allowing for higher precision, better accuracy, automatic data recording, and the ability to filter out measurement noise. Their integration with computers also facilitates data analysis and storage, which is crucial for scientific experiments."
-                },
                 {
                     "text": "Digital thermometers are faster at taking measurements than mercury thermometers",
                     "isCorrect": 0,
                     "explanation": "While digital thermometers may be faster, this is not the main reason scientists prefer them. The key advantage is their ability to provide more reliable and accurate measurements."
+                },
+                {
+                    "text": "Digital thermometers can more reliably record and store temperature data while eliminating measurement noise",
+                    "isCorrect": 1,
+                    "explanation": "Digital thermometers use electronic sensors and signal processing technology to measure temperature, allowing for higher precision, better accuracy, automatic data recording, and the ability to filter out measurement noise. Their integration with computers also facilitates data analysis and storage, which is crucial for scientific experiments."
                 },
                 {
                     "text": "Digital thermometers are cheaper to manufacture than mercury thermometers",
@@ -273,18 +192,121 @@
             "funFact": "The first digital thermometer was invented in 1954 by Dr. Theodore Hannes Benzinger while working at the National Bureau of Standards. Today, digital thermometers can achieve accuracy levels of \u00b10.001\u00b0C, which is crucial for many scientific applications like vaccine storage and chemical reactions."
         },
         {
+            "id": 8,
+            "text": "A digital thermometer is measuring body temperature. How does the process of sampling ensure accurate temperature readings?",
+            "options": [
+                {
+                    "text": "By continuously measuring temperature without any breaks",
+                    "isCorrect": 0,
+                    "explanation": "This describes analog measurement, not digital sampling. Digital sampling actually takes discrete measurements at intervals rather than continuous measurements."
+                },
+                {
+                    "text": "By averaging all temperature readings into a single value",
+                    "isCorrect": 0,
+                    "explanation": "Averaging all readings into one value would lose the detailed temperature information. Sampling maintains accuracy by converting individual measurements to digital format."
+                },
+                {
+                    "text": "By only recording the highest temperature detected",
+                    "isCorrect": 0,
+                    "explanation": "Recording only the peak temperature would miss important temperature variations. Accurate sampling requires converting multiple measurements across time."
+                },
+                {
+                    "text": "By taking measurements at regular intervals and converting each value into binary code (1s and 0s)",
+                    "isCorrect": 1,
+                    "explanation": "Sampling works by taking measurements at evenly spaced intervals and converting each analog value into digital binary code, allowing for accurate temperature representation in digital format."
+                }
+            ],
+            "funFact": "The first digital thermometer was invented in 1954 by Dr. Theodore Hannes Benzinger while working at the National Bureau of Standards. It revolutionized temperature measurement by providing quick, accurate readings without the hazards of mercury thermometers."
+        },
+        {
+            "id": 9,
+            "text": "A band wants to broadcast their live performance to fans across the country. Which method would provide the clearest sound quality for listeners who are far away from the performance venue?",
+            "options": [
+                {
+                    "text": "FM radio broadcast",
+                    "isCorrect": 0,
+                    "explanation": "While FM generally has better quality than AM, it still uses analog signals that degrade over distance, causing static and loss of sound quality."
+                },
+                {
+                    "text": "AM radio broadcast",
+                    "isCorrect": 0,
+                    "explanation": "AM radio uses analog signals which deteriorate over distance, resulting in static and poor sound quality for distant listeners."
+                },
+                {
+                    "text": "Recording to vinyl and shipping records",
+                    "isCorrect": 0,
+                    "explanation": "While vinyl provides analog sound quality, physically shipping records would not allow for live broadcast and would be impractical for reaching distant listeners simultaneously."
+                },
+                {
+                    "text": "Digital transmission through satellite radio",
+                    "isCorrect": 1,
+                    "explanation": "Digital signals can be corrected to remove noise and interference, maintaining clear sound quality even over long distances. Satellite radio uses digital transmission for this reason."
+                }
+            ],
+            "funFact": "The switch from analog to digital TV broadcasting in the United States was completed in 2009, improving picture quality and freeing up valuable broadcast frequencies for emergency communications and mobile services."
+        },
+        {
+            "id": 10,
+            "text": "A research laboratory needs to store important experimental data for long-term preservation and future analysis. Which storage method would be most reliable for maintaining data integrity over many years?",
+            "options": [
+                {
+                    "text": "Store the data digitally on multiple hard drives with regular backups",
+                    "isCorrect": 1,
+                    "explanation": "Digital storage allows data to be copied perfectly without degradation, can be easily backed up, and can be error-checked and corrected. This makes it the most reliable for long-term data preservation."
+                },
+                {
+                    "text": "Store the data as analog recordings on magnetic tape",
+                    "isCorrect": 0,
+                    "explanation": "Analog recordings on magnetic tape degrade over time, accumulate noise with each copy, and cannot be perfectly duplicated. The signal quality diminishes with each subsequent copy."
+                },
+                {
+                    "text": "Record the data on paper and store it in a climate-controlled facility",
+                    "isCorrect": 0,
+                    "explanation": "Paper records can degrade over time, are difficult to duplicate exactly, and cannot be easily backed up or error-checked. They are also more susceptible to physical damage."
+                },
+                {
+                    "text": "Record the data using mechanical gauges and dials",
+                    "isCorrect": 0,
+                    "explanation": "Mechanical recording methods are prone to wear and tear, cannot be easily duplicated, and may lose accuracy over time due to mechanical degradation."
+                }
+            ],
+            "funFact": "The world's first hard drive, the IBM 350 RAMAC from 1956, could store about 3.75 megabytes of data. Today's hard drives can store up to 20 terabytes - that's over 5 million times more storage capacity!"
+        },
+        {
             "id": 11,
+            "text": "A digital thermometer shows temperature readings as precise numerical values on its display. How does it convert the continuous temperature measurements into digital readings that a computer can process?",
+            "options": [
+                {
+                    "text": "Through a chemical reaction that changes color based on temperature",
+                    "isCorrect": 0,
+                    "explanation": "Color-changing chemical reactions are used in some analog thermometers but not in digital ones, which rely on electronic sensors and digital conversion."
+                },
+                {
+                    "text": "Through sampling - taking measurements at regular intervals and converting them to binary code (1s and 0s)",
+                    "isCorrect": 1,
+                    "explanation": "Digital thermometers use sampling to convert continuous temperature data into discrete digital values that computers can process as binary code."
+                },
+                {
+                    "text": "By directly displaying the exact continuous temperature values without any conversion",
+                    "isCorrect": 0,
+                    "explanation": "Computers cannot process continuous analog values directly - they need the data to be converted to digital format first."
+                },
+                {
+                    "text": "By rounding the temperature to the nearest whole number only",
+                    "isCorrect": 0,
+                    "explanation": "Digital conversion involves more than just rounding - it requires converting the continuous signal to binary code through sampling."
+                }
+            ],
+            "funFact": "The first digital thermometer was invented in 1954 by Dr. Gordon Johnston. Modern digital thermometers can take hundreds of temperature samples per second, allowing for very precise and quick readings!"
+        },
+        {
+            "id": 12,
             "text": "A space agency needs to send signals to a satellite orbiting Mars. Which feature of digital signal transmission makes it the most suitable choice for this long-distance communication?",
             "options": [
                 {
                     "text": "Digital signals can be easily corrected to remove noise and interference that occurs during transmission",
                     "isCorrect": 1,
                     "explanation": "Digital signals use discrete values (0s and 1s) which makes it possible to detect and correct errors, ensuring clear communication even across vast distances in space"
-                },
-                {
-                    "text": "Digital signals travel faster than analog signals through space",
-                    "isCorrect": 0,
-                    "explanation": "Both digital and analog signals travel at the same speed through space as they are both forms of electromagnetic waves"
                 },
                 {
                     "text": "Digital signals require less power to transmit than analog signals",
@@ -295,117 +317,95 @@
                     "text": "Digital signals can carry more information in a single transmission",
                     "isCorrect": 0,
                     "explanation": "The amount of information that can be transmitted depends on the bandwidth, not whether the signal is digital or analog"
+                },
+                {
+                    "text": "Digital signals travel faster than analog signals through space",
+                    "isCorrect": 0,
+                    "explanation": "Both digital and analog signals travel at the same speed through space as they are both forms of electromagnetic waves"
                 }
             ],
             "funFact": "The Mars Reconnaissance Orbiter can transmit data back to Earth at a rate of up to 6 megabits per second using digital signals - that's faster than many early home internet connections!"
         },
         {
-            "id": 12,
-            "text": "A space research organization needs to send signals to their satellite orbiting Earth. Which of the following best describes why digital signals would be more reliable than analog signals for this communication?",
-            "options": [
-                {
-                    "text": "Digital signals can be corrected to remove noise and interference since they only use specific values (1s and 0s), making them clearer over long distances",
-                    "isCorrect": 1,
-                    "explanation": "Digital signals using binary code can be easily corrected since any interference either changes a 1 to a 0 or vice versa, making it simple to detect and fix errors"
-                },
-                {
-                    "text": "Analog signals travel faster through space than digital signals, making them better for satellite communication",
-                    "isCorrect": 0,
-                    "explanation": "Both analog and digital signals travel at the same speed as they are both forms of electromagnetic waves"
-                },
-                {
-                    "text": "Digital signals require less power to transmit than analog signals",
-                    "isCorrect": 0,
-                    "explanation": "The power requirement for transmission depends on various factors and is not inherently lower for digital signals"
-                },
-                {
-                    "text": "Analog signals can carry more information than digital signals in a single transmission",
-                    "isCorrect": 0,
-                    "explanation": "Digital signals can actually carry more information through efficient encoding and compression techniques"
-                }
-            ],
-            "funFact": "The Mars Rover missions use digital signals to communicate with Earth across millions of miles of space. These signals take between 4 to 24 minutes to reach Earth, depending on the planets' positions!"
-        },
-        {
             "id": 13,
-            "text": "Which statement best compares the data storage methods used in hard drives and flash drives?",
+            "text": "How does binary code (1s and 0s) fundamentally control computer operations in a way that's different from analog signals?",
             "options": [
                 {
-                    "text": "Hard drives store data using magnetized areas while flash drives use electrical charges, but both methods allow for data correction if degradation occurs",
+                    "text": "Binary code turns specific circuits on (1) or off (0), allowing computers to perform complex tasks through millions of these simple operations",
                     "isCorrect": 1,
-                    "explanation": "This is correct because hard drives use magnetic storage by magnetizing/demagnetizing tiny areas, while flash drives use electrical charges, and both technologies include error correction capabilities"
+                    "explanation": "This is correct - computers work by using binary code to control circuits, with 1s turning circuits on and 0s turning them off. Complex operations are built from millions of these basic on/off instructions."
                 },
                 {
-                    "text": "Hard drives use electrical charges while flash drives use magnetic storage, and neither can correct degraded data",
+                    "text": "Binary code converts analog signals into sound waves that computers can understand",
                     "isCorrect": 0,
-                    "explanation": "This reverses the storage methods used by each device type and incorrectly states they cannot correct degraded data"
+                    "explanation": "This is incorrect - while computers can convert analog signals to digital format, binary code itself doesn't create sound waves. It controls circuits through on/off states."
                 },
                 {
-                    "text": "Both hard drives and flash drives use only magnetic storage methods, making them equally reliable",
+                    "text": "Binary code stores infinite values between 0 and 1 to process information",
                     "isCorrect": 0,
-                    "explanation": "This incorrectly states that both devices use magnetic storage, when flash drives actually use electrical charges"
+                    "explanation": "This is incorrect - binary code only uses two discrete values (0 and 1), not infinite values in between. This description better matches analog signals."
                 },
                 {
-                    "text": "Hard drives and flash drives both use electrical charges, but only hard drives can correct degraded data",
+                    "text": "Binary code creates smooth, continuous waves like analog signals but makes them more precise",
                     "isCorrect": 0,
-                    "explanation": "This incorrectly states that both use electrical charges and wrongly suggests only hard drives have error correction"
+                    "explanation": "This is incorrect - binary code is fundamentally different from analog signals. It doesn't create continuous waves but rather uses discrete on/off states."
                 }
             ],
-            "funFact": "The first hard drive, introduced by IBM in 1956, was the size of two refrigerators and could only store 3.75 megabytes of data - less than a single modern digital photo! Today's hard drives can store millions of times more data in a fraction of the space."
+            "funFact": "The first electronic computer, ENIAC (1945), used decimal rather than binary numbers! The switch to binary systems came later because they were more reliable and efficient, using just two states instead of ten."
         },
         {
             "id": 14,
-            "text": "When converting an analog sound wave to a digital signal through sampling, which statement best describes how the sampling frequency affects the quality of the digital representation?",
+            "text": "An audio engineer is comparing how analog and digital recordings of a symphony orchestra degrade over time. After 20 years of storage, which statement most accurately describes the difference in audio quality between the two formats?",
             "options": [
                 {
-                    "text": "Higher sampling frequency leads to a more accurate digital representation because more data points are captured from the original analog wave",
+                    "text": "Both recordings maintain exactly the same quality as when they were first recorded",
+                    "isCorrect": 0,
+                    "explanation": "While digital recordings can maintain their quality through error correction, analog recordings inevitably degrade over time due to physical wear and environmental factors."
+                },
+                {
+                    "text": "Both recordings degrade equally but in different ways",
+                    "isCorrect": 0,
+                    "explanation": "Digital and analog recordings do not degrade equally - digital information can be preserved perfectly through error correction, while analog signals gradually deteriorate."
+                },
+                {
+                    "text": "The analog recording maintains better quality because it captured more detail initially",
+                    "isCorrect": 0,
+                    "explanation": "Although analog recordings may capture continuous sound waves, their physical storage medium degrades over time, leading to loss of quality regardless of initial detail captured."
+                },
+                {
+                    "text": "The digital recording maintains its original quality while the analog recording shows noticeable degradation",
                     "isCorrect": 1,
-                    "explanation": "Taking more frequent samples captures more details of the original analog wave, resulting in a more faithful digital reproduction of the sound"
-                },
-                {
-                    "text": "Lower sampling frequency leads to a more accurate digital representation because fewer data points mean less chance of errors",
-                    "isCorrect": 0,
-                    "explanation": "Fewer samples actually mean more information is missed between samples, resulting in a less accurate representation of the original sound"
-                },
-                {
-                    "text": "Sampling frequency has no effect on the accuracy because digital signals are always perfect representations",
-                    "isCorrect": 0,
-                    "explanation": "The sampling frequency directly affects how well the digital signal matches the original analog wave - it's not automatically perfect"
-                },
-                {
-                    "text": "The sampling frequency only affects how loud the sound is, not the accuracy of the representation",
-                    "isCorrect": 0,
-                    "explanation": "Sampling frequency determines how well the wave shape is captured, which affects the overall quality of the sound reproduction, not just volume"
+                    "explanation": "Digital recordings store information as discrete 1s and 0s that can be perfectly preserved and corrected over time, while analog recordings gradually lose quality due to physical degradation of the storage medium."
                 }
             ],
-            "funFact": "The standard CD audio sampling rate is 44,100 samples per second, chosen because it can accurately capture frequencies up to 22,050 Hz - just above the maximum frequency most humans can hear (around 20,000 Hz)!"
+            "funFact": "The first successful digital audio recording was made in 1976 by Thomas Stockham, who used a computer to record a performance by the Santa Fe Opera. This breakthrough helped launch the digital audio revolution that would eventually lead to CDs and modern streaming formats."
         },
         {
             "id": 15,
-            "text": "How do high-level programming languages make it easier for programmers to create complex computer programs compared to writing directly in binary code?",
+            "text": "A scientist needs to measure and record temperature variations in a chemical reaction over 24 hours. Which feature of digital measurement instruments would be most beneficial for this experiment?",
             "options": [
                 {
-                    "text": "High-level languages automatically convert instructions into binary code, allowing programmers to write code in a more human-readable format",
+                    "text": "The ability to produce louder signal outputs",
+                    "isCorrect": 0,
+                    "explanation": "Signal volume is not relevant to digital measurement accuracy. Digital benefits come from data precision and storage capabilities."
+                },
+                {
+                    "text": "The ability to generate continuous wave patterns",
+                    "isCorrect": 0,
+                    "explanation": "Continuous wave patterns are actually a feature of analog signals, not digital ones. Digital signals use discrete values for more reliable data recording."
+                },
+                {
+                    "text": "The ability to store data for extended periods without degradation",
                     "isCorrect": 1,
-                    "explanation": "High-level programming languages act as an intermediary between human programmers and binary code, translating readable instructions into the 1s and 0s that computers understand"
+                    "explanation": "Digital instruments can store temperature readings accurately for long periods, allowing scientists to analyze the data later without worry of data loss or corruption."
                 },
                 {
-                    "text": "High-level languages eliminate the need for binary code entirely in modern computers",
+                    "text": "The ability to transmit signals faster than analog devices",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - computers still fundamentally operate using binary code (1s and 0s). High-level languages simply provide a layer of abstraction above the binary level"
-                },
-                {
-                    "text": "High-level languages make programs run faster than binary code",
-                    "isCorrect": 0,
-                    "explanation": "Programs written directly in binary code can actually run faster, but they are much more difficult to write and maintain. High-level languages prioritize programmer efficiency over execution speed"
-                },
-                {
-                    "text": "High-level languages allow computers to understand human language directly",
-                    "isCorrect": 0,
-                    "explanation": "Computers don't actually understand human language - high-level programming languages still need to be precisely structured and are converted to binary code for execution"
+                    "explanation": "While digital signals can be efficient, their main advantage in scientific measurement is reliability and storage capability, not transmission speed."
                 }
             ],
-            "funFact": "The first high-level programming language was Fortran, developed by IBM in 1957. Before that, programmers had to write instructions directly in machine code or assembly language, which made programming extremely time-consuming and error-prone!"
+            "funFact": "Modern digital thermometers can detect temperature changes as small as 0.001 degrees Celsius - that's about 1000 times more precise than traditional mercury thermometers!"
         }
     ]
 }

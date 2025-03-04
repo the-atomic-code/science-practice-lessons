@@ -4,12 +4,98 @@
     "questions": [
         {
             "id": 1,
+            "text": "A scientist is working on developing alternative fuel sources that can be produced quickly and sustainably at commercial scale with current technology. Which of the following renewable fuel sources can be produced in the shortest timeframe?",
+            "options": [
+                {
+                    "text": "Coal",
+                    "isCorrect": 0,
+                    "explanation": "Coal is a nonrenewable fossil fuel that requires millions of years to form from decomposed plant matter. It cannot be produced rapidly enough to meet ongoing fuel needs sustainably."
+                },
+                {
+                    "text": "Ethanol from corn",
+                    "isCorrect": 1,
+                    "explanation": "Corn can be grown and converted into ethanol in just a few months, making it a quickly renewable fuel source that can be produced at commercial scale with current technology. The established production infrastructure allows for efficient and sustainable fuel generation."
+                },
+                {
+                    "text": "Gasoline from oil",
+                    "isCorrect": 0,
+                    "explanation": "Gasoline from oil is not renewable - it takes millions of years for fossil fuels to form naturally, making it an unsustainable choice for rapid fuel production."
+                },
+                {
+                    "text": "Natural gas",
+                    "isCorrect": 0,
+                    "explanation": "Natural gas is a nonrenewable fossil fuel that takes millions of years to form naturally. It cannot be produced quickly enough to be considered an efficient renewable fuel source."
+                }
+            ],
+            "funFact": "Some cars today can run on E85 fuel, which is a mixture of 85% ethanol and 15% gasoline. This type of fuel produces fewer greenhouse gas emissions compared to regular gasoline and helps support agricultural economies."
+        },
+        {
+            "id": 2,
+            "text": "How has society's approach to energy needs changed over time?",
+            "options": [
+                {
+                    "text": "Energy needs have decreased over time as technology has become more efficient",
+                    "isCorrect": 0,
+                    "explanation": "While individual technologies have become more efficient, overall energy demand has increased with population growth and technological advancement."
+                },
+                {
+                    "text": "We have shifted from primarily using renewable energy sources to increasingly relying on fossil fuels, and are now working to transition back to renewable sources",
+                    "isCorrect": 1,
+                    "explanation": "This accurately reflects the historical transition from early renewable sources to fossil fuels during industrialization, and the current push toward renewable technologies due to environmental concerns and resource limitations."
+                },
+                {
+                    "text": "We started with fossil fuels and have only recently discovered renewable energy sources",
+                    "isCorrect": 0,
+                    "explanation": "This is historically inaccurate as renewable energy sources like wind and water power were used long before the widespread use of fossil fuels."
+                },
+                {
+                    "text": "We have consistently used the same energy sources throughout history without any major changes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect as our energy usage has evolved significantly over time, from early renewable sources to fossil fuels and now back toward renewables."
+                }
+            ],
+            "funFact": "In ancient times, windmills were used to grind grain and pump water, making wind one of humanity's earliest renewable energy sources. The Netherlands became famous for its windmills in the 14th century, using them to drain water from low-lying land!"
+        },
+        {
+            "id": 3,
+            "text": "How were fossil fuels like coal, oil, and natural gas formed?",
+            "options": [
+                {
+                    "text": "From prehistoric plants and animals that were buried under mud and rock, transformed by heat and pressure over millions of years",
+                    "isCorrect": 1,
+                    "explanation": "Fossil fuels formed when ancient plants and animals were buried deep underground, where heat and pressure converted them into energy-rich substances over millions of years."
+                },
+                {
+                    "text": "From rocks and minerals that naturally occur underground",
+                    "isCorrect": 0,
+                    "explanation": "While fossil fuels are found underground, they don't come from rocks and minerals - they formed from organic matter like dead plants and animals."
+                },
+                {
+                    "text": "From chemical reactions between water and underground minerals",
+                    "isCorrect": 0,
+                    "explanation": "Chemical reactions between water and minerals don't create fossil fuels - these fuels required ancient organic matter to form."
+                },
+                {
+                    "text": "From volcanic activity pushing materials together underground",
+                    "isCorrect": 0,
+                    "explanation": "Although volcanic activity affects underground materials, fossil fuels specifically formed from organic matter, not from volcanic processes."
+                }
+            ],
+            "funFact": "The word 'fossil' in fossil fuels comes from the fact that they're made from fossilized remains of prehistoric life forms that lived millions of years ago - some of the oil we use today comes from tiny marine organisms that lived before dinosaurs existed!"
+        },
+        {
+            "id": 4,
             "text": "Which of the following best describes the key difference between renewable and nonrenewable energy sources?",
             "options": [
                 {
                     "text": "Renewable energy sources can be replenished within a reasonable time frame, while nonrenewable sources take millions of years to form",
                     "isCorrect": 1,
                     "explanation": "This correctly captures the fundamental difference - renewable sources like wind, solar, and water can be naturally replenished quickly, while nonrenewable sources like fossil fuels took millions of years to form and cannot be readily replaced."
+                },
+                {
+                    "text": "Renewable energy is always clean and pollution-free, while nonrenewable energy always causes pollution",
+                    "isCorrect": 0,
+                    "explanation": "While renewable sources generally cause less pollution, they can still have environmental impacts. The key difference is about replenishment ability, not pollution levels."
                 },
                 {
                     "text": "Renewable energy is always free to use, while nonrenewable energy always costs money",
@@ -20,179 +106,66 @@
                     "text": "Renewable energy can only come from the sun, while nonrenewable energy comes from the ground",
                     "isCorrect": 0,
                     "explanation": "Renewable energy has many sources beyond just solar, including wind, water, and geothermal. The distinction is about replenishment time, not location."
-                },
-                {
-                    "text": "Renewable energy is always clean and pollution-free, while nonrenewable energy always causes pollution",
-                    "isCorrect": 0,
-                    "explanation": "While renewable sources generally cause less pollution, they can still have environmental impacts. The key difference is about replenishment ability, not pollution levels."
                 }
             ],
             "funFact": "The energy from the sun that reaches Earth in just one hour is more than the total amount of energy that all humans consume in an entire year! This shows the enormous potential of solar energy as a renewable resource."
         },
         {
-            "id": 2,
-            "text": "When designing a new solar power system for a community, which constraint would most likely limit the size and scale of the installation?",
-            "options": [
-                {
-                    "text": "Available budget for materials and installation",
-                    "isCorrect": 1,
-                    "explanation": "Cost is often the primary constraint in renewable energy projects. The budget determines how many solar panels can be purchased and installed."
-                },
-                {
-                    "text": "Amount of sunlight available",
-                    "isCorrect": 0,
-                    "explanation": "While available sunlight is an important constraint that varies by location and affects system efficiency, it typically doesn't limit the size and scale as much as financial constraints do. With sufficient budget, systems can be designed to work even in locations with moderate sunlight."
-                },
-                {
-                    "text": "Number of homes in the community",
-                    "isCorrect": 0,
-                    "explanation": "The number of homes affects the system requirements but doesn't necessarily constrain the design possibilities."
-                },
-                {
-                    "text": "Type of renewable energy being used",
-                    "isCorrect": 0,
-                    "explanation": "The choice of renewable energy type is a design decision, not a constraint that limits the implementation."
-                }
-            ],
-            "funFact": "The cost of solar panels has dropped by more than 80% since 2010, making solar power increasingly accessible for communities worldwide. This dramatic price reduction has helped remove some financial constraints that previously limited solar installations."
-        },
-        {
-            "id": 3,
-            "text": "What is a major environmental challenge associated with using nonrenewable energy sources like coal, oil, and natural gas?",
-            "options": [
-                {
-                    "text": "They release harmful chemicals into the air and water when burned",
-                    "isCorrect": 1,
-                    "explanation": "Burning fossil fuels releases pollutants that contaminate air and water, contributing to environmental problems like poor air quality and climate change."
-                },
-                {
-                    "text": "They take too long to extract from the ground",
-                    "isCorrect": 0,
-                    "explanation": "While extraction can be complex, the main environmental concern is not the time it takes, but rather the pollution created when fossil fuels are burned."
-                },
-                {
-                    "text": "They are too expensive to process",
-                    "isCorrect": 0,
-                    "explanation": "Cost is actually not the main environmental challenge - fossil fuels are relatively inexpensive to process. The key environmental issue is the pollution they create."
-                },
-                {
-                    "text": "They require too much storage space",
-                    "isCorrect": 0,
-                    "explanation": "Storage space requirements are not a major environmental concern. The primary environmental impact comes from the pollution created when fossil fuels are burned."
-                }
-            ],
-            "funFact": "Scientists estimate that burning fossil fuels releases about 35 billion tons of carbon dioxide into Earth's atmosphere each year. That's equivalent to the weight of about 190 million blue whales!"
-        },
-        {
-            "id": 4,
-            "text": "A city wants to switch from coal power plants to solar energy for generating electricity. What is the main advantage of this change for the environment and future generations?",
-            "options": [
-                {
-                    "text": "Solar energy can be replenished quickly and produces little to no pollution",
-                    "isCorrect": 1,
-                    "explanation": "Solar energy is renewable and clean, meaning it naturally replenishes daily and creates minimal environmental impact compared to fossil fuels."
-                },
-                {
-                    "text": "Solar energy is cheaper than coal energy",
-                    "isCorrect": 0,
-                    "explanation": "While solar energy costs have decreased, this isn't the main environmental advantage. The key benefit is its renewable nature and low pollution."
-                },
-                {
-                    "text": "Solar energy works better at night than coal",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Solar panels need sunlight to generate electricity and don't work at night. The main advantage is environmental sustainability."
-                },
-                {
-                    "text": "Solar energy creates more jobs than coal plants",
-                    "isCorrect": 0,
-                    "explanation": "While solar energy may create jobs, this isn't the main environmental advantage. The key benefit is its sustainability and low pollution."
-                }
-            ],
-            "funFact": "The amount of sunlight that hits Earth's surface in just one hour contains more energy than what the entire world's population consumes in a year!"
-        },
-        {
             "id": 5,
-            "text": "Which characteristic best distinguishes renewable energy sources from nonrenewable energy sources?",
+            "text": "You are designing an electric car and want to ensure it uses green energy. Which of the following scenarios would make your electric car most environmentally friendly?",
             "options": [
                 {
-                    "text": "The time required to replenish the energy source",
+                    "text": "Charging the car with electricity generated from wind turbines",
                     "isCorrect": 1,
-                    "explanation": "Renewable energy sources can be replenished relatively quickly (within a human lifetime), while nonrenewable sources take millions of years to form."
+                    "explanation": "Wind power is a renewable energy source that produces little to no pollution, making it a green energy option for powering electric vehicles."
                 },
                 {
-                    "text": "The cost of extracting the energy",
+                    "text": "Charging the car with electricity from a coal power plant",
                     "isCorrect": 0,
-                    "explanation": "The cost of extraction is not what makes an energy source renewable or nonrenewable - some renewable sources can be expensive to harness while some nonrenewable sources are relatively cheap to extract."
+                    "explanation": "Coal is a nonrenewable fossil fuel that produces significant pollution when burned, making the electric car less environmentally friendly even though it runs on electricity."
                 },
                 {
-                    "text": "The amount of energy produced",
+                    "text": "Using a larger battery to store more energy",
                     "isCorrect": 0,
-                    "explanation": "The amount of energy produced does not determine whether a source is renewable or nonrenewable - both types can produce varying amounts of energy."
+                    "explanation": "The size of the battery doesn't determine if the energy is green - what matters is the source of electricity used to charge it."
                 },
                 {
-                    "text": "The technology needed to use the energy",
+                    "text": "Charging the car during nighttime",
                     "isCorrect": 0,
-                    "explanation": "The technology required to harness energy does not determine whether a source is renewable or nonrenewable - both types may require simple or complex technology."
+                    "explanation": "The time of day when charging doesn't affect whether the energy source is green - the source of the electricity is what matters."
                 }
             ],
-            "funFact": "The sun provides more energy to Earth in one hour than humanity uses in an entire year! This makes solar energy one of the most abundant renewable energy sources available to us."
+            "funFact": "An electric car charged with renewable energy can reduce carbon emissions by up to 95% compared to a conventional gasoline vehicle. This shows how the source of electricity plays a crucial role in making electric vehicles truly environmentally friendly!"
         },
         {
             "id": 6,
-            "text": "A wind farm company needs to design an energy storage system to store excess energy during windy periods for use during calm periods. The requirements are to store 1000 megawatt-hours of energy, and the system must be built within 12 months using locally available materials. Which of the following solutions would best meet these criteria and constraints?",
+            "text": "A small coastal town wants to develop a sustainable energy system that combines multiple renewable energy sources. They have a budget of $2 million and need to complete the project within 2 years. The system must provide reliable power throughout the year and minimize environmental impact. Which combination of renewable energy sources would best meet their requirements?",
             "options": [
                 {
-                    "text": "A battery storage system using recycled electric vehicle batteries",
+                    "text": "Biomass and hydroelectric",
+                    "isCorrect": 0,
+                    "explanation": "Hydroelectric systems require significant infrastructure and can have major environmental impacts. Biomass needs constant fuel supply and can contribute to air pollution. This combination would likely exceed both the budget and time constraints."
+                },
+                {
+                    "text": "Geothermal and tidal power",
+                    "isCorrect": 0,
+                    "explanation": "While these are renewable sources, the installation of geothermal and tidal power systems typically requires more time and higher costs than the given constraints allow. They also need specific geological conditions that may not be available."
+                },
+                {
+                    "text": "Solar panels and wind turbines",
                     "isCorrect": 1,
-                    "explanation": "This solution meets both the storage capacity and time constraints while using readily available materials through recycling existing batteries."
+                    "explanation": "This combination is ideal because solar panels work best during sunny days while wind turbines can generate power during cloudy or nighttime conditions. Both technologies are well-established, can be installed within 2 years, and have minimal environmental impact."
                 },
                 {
-                    "text": "A new experimental nuclear fusion storage system",
+                    "text": "Solar panels alone",
                     "isCorrect": 0,
-                    "explanation": "While this could theoretically store enough energy, the technology is not yet available and would take many years to develop, exceeding the time constraint."
-                },
-                {
-                    "text": "A pumped hydroelectric storage system in a desert region",
-                    "isCorrect": 0,
-                    "explanation": "This would require significant water resources that aren't locally available in a desert region, violating the materials constraint."
-                },
-                {
-                    "text": "A compressed air storage system requiring rare earth minerals",
-                    "isCorrect": 0,
-                    "explanation": "The requirement for rare earth minerals violates the constraint of using locally available materials."
+                    "explanation": "While solar panels are cost-effective and quick to install, relying on a single energy source wouldn't provide reliable power throughout the year, especially during nighttime and cloudy days."
                 }
             ],
-            "funFact": "The largest battery storage system in the world is currently the Moss Landing Energy Storage Facility in California, which can store over 1,600 megawatt-hours of energy - enough to power 225,000 homes for four hours!"
+            "funFact": "The world's largest hybrid renewable energy park combining solar and wind power is being built in Gujarat, India. When completed, it will have the capacity to generate 30 gigawatts of electricity - enough to power about 18 million homes!"
         },
         {
             "id": 7,
-            "text": "A small town wants to reduce its dependence on gasoline for public buses. They are considering different biofuel options. Which of the following would best meet their needs while considering time and resource constraints?",
-            "options": [
-                {
-                    "text": "Using algae-based biodiesel that can be produced in local ponds within 2-3 months using existing water resources",
-                    "isCorrect": 1,
-                    "explanation": "Algae grows quickly, produces high-energy oils, and can be cultivated using local resources, making it a practical and efficient choice for the town's needs"
-                },
-                {
-                    "text": "Building a new underground oil drilling facility that would take 2 years to construct",
-                    "isCorrect": 0,
-                    "explanation": "This is a non-renewable option that requires significant time and resources to implement, and does not address the goal of reducing dependence on fossil fuels"
-                },
-                {
-                    "text": "Importing ethanol from a facility 1000 miles away",
-                    "isCorrect": 0,
-                    "explanation": "While ethanol is renewable, importing it from far away increases costs and doesn't utilize local resources effectively"
-                },
-                {
-                    "text": "Converting all buses to solar-powered vehicles immediately",
-                    "isCorrect": 0,
-                    "explanation": "While solar power is renewable, immediate conversion of all buses would be extremely costly and time-consuming, making it impractical as a short-term solution"
-                }
-            ],
-            "funFact": "A single acre of algae can produce up to 5,000 gallons of biodiesel per year, making it one of the most efficient biofuel sources in terms of land use compared to other crops used for fuel production."
-        },
-        {
-            "id": 8,
             "text": "A city wants to build an electric vehicle charging station powered by renewable energy. They have a budget of $500,000 and a space of 1000 square feet. Which of the following design proposals would best meet their needs while staying within the constraints?",
             "options": [
                 {
@@ -219,85 +192,107 @@
             "funFact": "The world's largest electric vehicle charging station, located in Shenzhen, China, can charge 637 buses simultaneously and is powered by a combination of solar panels and the power grid!"
         },
         {
-            "id": 9,
-            "text": "A manufacturing facility currently relies entirely on coal power for its operations, producing 1000 tons of CO2 emissions annually. The facility has a $500,000 budget and 6 months to implement changes to reduce emissions while maintaining their production capacity. Which solution best meets these criteria and constraints?",
+            "id": 8,
+            "text": "A growing suburban community in a sunny region with limited open land and a moderate budget wants to decrease its reliance on fossil fuels over the next 5 years. Given these constraints, which renewable energy solution would be most practical to implement?",
             "options": [
                 {
-                    "text": "Install solar panels to provide 50% of power needs and continue using coal for the remainder",
+                    "text": "Building a geothermal power plant",
+                    "isCorrect": 0,
+                    "explanation": "While geothermal energy is renewable, building a power plant requires extensive geological surveys, high initial costs, and typically takes longer than 5 years to implement. It's not the most practical solution given the timeline."
+                },
+                {
+                    "text": "Installing solar panels on residential rooftops",
                     "isCorrect": 1,
-                    "explanation": "This balanced approach allows for significant emissions reduction while staying within budget and timeline constraints. Solar panels can be installed within 6 months and the hybrid approach ensures production isn't disrupted."
+                    "explanation": "Solar panels are a practical solution because they can be installed quickly, have relatively predictable costs, require minimal maintenance, and can be scaled based on available resources. They can also be installed gradually across the community over the 5-year period."
                 },
                 {
-                    "text": "Switch completely to wind power with a new wind farm",
+                    "text": "Growing corn for ethanol production",
                     "isCorrect": 0,
-                    "explanation": "While wind power is renewable, building a wind farm typically takes 12-18 months and would exceed both the timeline and budget constraints."
+                    "explanation": "While ethanol is renewable, converting suburban land to corn production would require significant land use changes and may not be feasible in a suburban setting. The infrastructure needed for ethanol production would also be costly and time-consuming to develop."
                 },
                 {
-                    "text": "Continue with coal power but install advanced filters",
+                    "text": "Constructing a hydroelectric dam",
                     "isCorrect": 0,
-                    "explanation": "This solution would have minimal impact on emissions reduction while still requiring significant cost, making it less effective at meeting the primary goal."
-                },
-                {
-                    "text": "Convert entirely to solar power immediately",
-                    "isCorrect": 0,
-                    "explanation": "A complete conversion to solar would exceed the budget and might risk production capacity due to intermittent nature of solar power without proper storage systems."
+                    "explanation": "Building a dam requires significant infrastructure changes, environmental impact studies, and substantial funding. The 5-year timeline and typical suburban setting make this an impractical choice."
                 }
             ],
-            "funFact": "Industrial facilities that implement hybrid renewable energy systems often see a return on investment within 5-7 years through reduced energy costs, while also benefiting from government incentives for clean energy adoption."
+            "funFact": "The cost of solar panels has dropped by more than 80% since 2010, making them increasingly accessible for residential and community use. A typical home solar panel system can offset about 100,000 pounds of carbon dioxide over its lifetime - equivalent to driving a car for 100,000 miles!"
+        },
+        {
+            "id": 9,
+            "text": "A school district plans to build a new elementary school and wants to use renewable energy for all its power needs. They have the following options:\n\nOption A: Install solar panels on the roof - Cost: $500,000, Installation time: 3 months\nOption B: Build a small wind farm nearby - Cost: $800,000, Installation time: 6 months\nOption C: Use geothermal energy - Cost: $1,200,000, Installation time: 12 months\n\nThe district has a budget of $600,000 and needs the school ready in 4 months. Which energy solution best meets both their budget and time constraints while providing reliable renewable energy?",
+            "options": [
+                {
+                    "text": "Wind farm",
+                    "isCorrect": 0,
+                    "explanation": "While wind power is renewable, this option exceeds both the budget ($800,000 > $600,000) and time (6 months > 4 months) constraints."
+                },
+                {
+                    "text": "Solar panels",
+                    "isCorrect": 1,
+                    "explanation": "Solar panels meet both the budget ($500,000 < $600,000) and time (3 months < 4 months) constraints while providing reliable renewable energy from sunlight."
+                },
+                {
+                    "text": "Geothermal energy",
+                    "isCorrect": 0,
+                    "explanation": "Though geothermal is a reliable renewable source, it greatly exceeds both the budget ($1,200,000 > $600,000) and time (12 months > 4 months) constraints."
+                }
+            ],
+            "funFact": "Schools across America are increasingly turning to solar energy - the number of schools using solar power has grown 81% in the past decade, helping districts save millions in electricity costs while teaching students about renewable energy!"
         },
         {
             "id": 10,
-            "text": "A coastal town wants to switch from using coal power plants to renewable energy sources while protecting the local marine ecosystem. Which of the following solutions would best meet both their energy needs and environmental concerns?",
+            "text": "A family wants to install a renewable energy system on their house to reduce their environmental impact and energy bills. They have $15,000 to spend and 400 square feet of south-facing roof space. Which solution would best meet their needs and constraints?",
             "options": [
                 {
-                    "text": "Install solar panels along the coastline",
+                    "text": "Cover the entire 400 square feet of roof with solar panels for $25,000",
+                    "isCorrect": 0,
+                    "explanation": "Although this would maximize renewable energy production, it exceeds the budget constraint of $15,000, making it not viable for the family's situation."
+                },
+                {
+                    "text": "Install a geothermal heat pump system for $30,000",
+                    "isCorrect": 0,
+                    "explanation": "While geothermal energy is renewable and efficient, this solution is twice the available budget and doesn't make use of the available roof space."
+                },
+                {
+                    "text": "Install a large wind turbine in the backyard for $20,000",
+                    "isCorrect": 0,
+                    "explanation": "While wind power is renewable, this option exceeds the budget constraint of $15,000 and may not be suitable for a residential area due to size and noise concerns."
+                },
+                {
+                    "text": "Install a small solar panel system covering 200 square feet of roof space for $12,000",
                     "isCorrect": 1,
-                    "explanation": "Solar panels produce clean energy without harming marine life, can be installed on existing structures or unused land, and provide reliable power from abundant sunlight near the coast."
-                },
-                {
-                    "text": "Build a nuclear power plant by the ocean",
-                    "isCorrect": 0,
-                    "explanation": "While nuclear power is low in emissions, it requires extensive water for cooling and poses potential risks to marine ecosystems if there are accidents or waste disposal issues."
-                },
-                {
-                    "text": "Place large turbines in marine migration paths",
-                    "isCorrect": 0,
-                    "explanation": "While ocean turbines generate renewable energy, placing them in migration paths could harm marine life and disrupt important ecological patterns."
-                },
-                {
-                    "text": "Continue using the existing coal plant",
-                    "isCorrect": 0,
-                    "explanation": "Coal plants are non-renewable and release pollutants that can harm marine life and contribute to ocean acidification, failing to meet both the renewable energy and environmental protection goals."
+                    "explanation": "This solution stays within both the budget and space constraints while providing renewable energy. Solar panels are an efficient use of roof space and a proven technology for residential renewable energy."
                 }
             ],
-            "funFact": "Coastal areas are often ideal locations for solar power because they typically receive 20% more sunlight than inland regions due to light reflection from water surfaces and fewer obstacles blocking the sun."
+            "funFact": "The average residential solar panel system can pay for itself in energy savings within 5-10 years, while continuing to generate clean energy for 25-30 years or more!"
         },
         {
             "id": 11,
-            "text": "An engineer is designing a new electric car and needs to consider various criteria and constraints. Which of the following comparisons between electric and gasoline-powered cars would be most important to consider for environmental impact and long-term sustainability?",
+            "text": "A growing coastal city wants to transition from coal power plants to renewable energy sources within the next 5 years. Which combination of factors would present the most feasible solution for the city's energy needs?",
             "options": [
                 {
-                    "text": "Electric cars have higher initial costs but lower environmental impact, while gasoline cars have lower initial costs but higher environmental impact",
+                    "text": "Solar panels and wind turbines, considering the coastal location provides consistent wind and sunny conditions",
                     "isCorrect": 1,
-                    "explanation": "This correctly identifies the key trade-off between cost and environmental impact, which is crucial for sustainable design"
+                    "explanation": "Coastal areas typically have both abundant sunlight and strong, consistent wind patterns, making this combination highly effective and reliable for meeting energy needs while staying within infrastructure constraints."
                 },
                 {
-                    "text": "Electric cars and gasoline cars have similar environmental impacts, so cost should be the only consideration",
+                    "text": "Converting all existing coal plants to natural gas operations",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because electric and gasoline cars have significantly different environmental impacts, especially when powered by renewable energy"
+                    "explanation": "While this might be cheaper initially, natural gas is still a non-renewable resource and wouldn't meet the goal of transitioning to renewable energy sources."
                 },
                 {
-                    "text": "Gasoline cars are more sustainable because the fuel infrastructure already exists",
+                    "text": "Solely solar panels, installed across all available city rooftops",
                     "isCorrect": 0,
-                    "explanation": "Existing infrastructure alone doesn't make gasoline cars more sustainable, as they still rely on non-renewable fossil fuels"
+                    "explanation": "Relying only on solar panels could lead to energy shortages during cloudy periods or at night, and may not meet the full energy demands of a growing city."
                 },
                 {
-                    "text": "Electric cars are worse for the environment because batteries are not recyclable",
+                    "text": "Geothermal energy systems installed throughout the city",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because many battery components can be recycled, and the overall environmental impact of electric cars is lower"
+                    "explanation": "While geothermal energy is renewable, installing it throughout an existing city would be extremely costly and time-consuming, likely exceeding the 5-year timeframe."
                 }
             ],
-            "funFact": "The first electric car was actually invented in 1832, nearly 50 years before the first gasoline-powered car! However, limitations in battery technology at the time prevented widespread adoption."
+            "funFact": "Some coastal cities are now developing floating solar farms that can be placed on the ocean, combining the benefits of solar power while preserving valuable land space for other uses!"
         },
         {
             "id": 12,
@@ -314,98 +309,98 @@
                     "explanation": "While LED bulbs are energy-efficient and a good investment, the impact would be relatively small compared to other options given the available budget."
                 },
                 {
-                    "text": "Buy a new energy-efficient refrigerator for $2000",
-                    "isCorrect": 0,
-                    "explanation": "An energy-efficient refrigerator would help reduce energy consumption, but the cost-benefit ratio isn't as favorable as other options within the given budget."
-                },
-                {
                     "text": "Install new windows for $4800",
                     "isCorrect": 0,
                     "explanation": "While new windows can improve insulation, the high cost and moderate energy savings make this a less effective solution compared to solar panels for the same price range."
+                },
+                {
+                    "text": "Buy a new energy-efficient refrigerator for $2000",
+                    "isCorrect": 0,
+                    "explanation": "An energy-efficient refrigerator would help reduce energy consumption, but the cost-benefit ratio isn't as favorable as other options within the given budget."
                 }
             ],
             "funFact": "The average residential solar panel system can eliminate 3-4 tons of carbon emissions each year \u2013 the equivalent of planting over 100 trees!"
         },
         {
             "id": 13,
-            "text": "How has battery technology for electric vehicles evolved to meet changing energy needs and environmental concerns?",
-            "options": [
-                {
-                    "text": "Modern batteries can store more energy and charge faster than earlier versions, making electric vehicles more practical for everyday use",
-                    "isCorrect": 1,
-                    "explanation": "This correctly reflects how battery technology has improved to address the needs for longer driving ranges and faster charging times, making electric vehicles a more viable alternative to traditional fuel vehicles."
-                },
-                {
-                    "text": "Battery technology has remained unchanged since electric vehicles were first introduced",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Battery technology has undergone significant improvements over time to address limitations in energy storage, charging speed, and efficiency."
-                },
-                {
-                    "text": "Batteries have become larger and heavier to store more energy",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Modern battery technology actually aims to pack more energy into smaller, lighter packages through improved materials and design."
-                },
-                {
-                    "text": "Electric vehicle batteries can now only be charged using fossil fuel-generated electricity",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Electric vehicle batteries can be charged using any source of electricity, including renewable sources like solar and wind power."
-                }
-            ],
-            "funFact": "The first electric cars in the 1800s used simple rechargeable batteries and were more popular than gasoline-powered cars. Today's electric vehicle batteries can last over 300,000 miles and some can be charged to 80% capacity in less than 30 minutes!"
-        },
-        {
-            "id": 14,
             "text": "A city wants to reduce its dependency on fossil fuels in transportation over the next 5 years. Which proposal would be most practical to implement considering both material availability and time constraints?",
             "options": [
-                {
-                    "text": "Gradually replace city buses with electric vehicles powered by solar charging stations",
-                    "isCorrect": 1,
-                    "explanation": "This solution is feasible within 5 years, uses available technology, and can be implemented in phases using existing materials and infrastructure."
-                },
                 {
                     "text": "Build an entirely new underground magnetic levitation train system",
                     "isCorrect": 0,
                     "explanation": "This would require extensive new infrastructure, massive material resources, and would take much longer than 5 years to complete."
                 },
                 {
-                    "text": "Convert all private vehicles to run on algae-based biofuel",
-                    "isCorrect": 0,
-                    "explanation": "While algae biofuel is renewable, converting all private vehicles and establishing large-scale algae production within 5 years is not realistic."
-                },
-                {
                     "text": "Install personal wind turbines for every household to charge their cars",
                     "isCorrect": 0,
                     "explanation": "This would require too many materials, face zoning restrictions, and not all locations have sufficient wind resources for effective charging."
+                },
+                {
+                    "text": "Gradually replace city buses with electric vehicles powered by solar charging stations",
+                    "isCorrect": 1,
+                    "explanation": "This solution is feasible within 5 years, uses available technology, and can be implemented in phases using existing materials and infrastructure."
+                },
+                {
+                    "text": "Convert all private vehicles to run on algae-based biofuel",
+                    "isCorrect": 0,
+                    "explanation": "While algae biofuel is renewable, converting all private vehicles and establishing large-scale algae production within 5 years is not realistic."
                 }
             ],
             "funFact": "The world's largest electric bus fleet is in Shenzhen, China, where over 16,000 buses are fully electric. This transition from diesel to electric buses took less than a decade and has significantly reduced the city's carbon emissions."
         },
         {
-            "id": 15,
-            "text": "An engineer is designing a wave energy converter to harness ocean wave power. Which criterion would be most important to consider when developing this renewable energy solution?",
+            "id": 14,
+            "text": "A community wants to invest in biofuel production to reduce dependence on fossil fuels. They are comparing two methods: growing algae for biodiesel and growing corn for ethanol. Which criteria would be most important to consider when choosing between these two methods?",
             "options": [
                 {
-                    "text": "The ability to replenish the wave energy source quickly",
+                    "text": "Only the transportation distance to gas stations",
                     "isCorrect": 0,
-                    "explanation": "Ocean waves are naturally replenished and continuous, so this is not a key design consideration. The focus should be on effectively capturing and converting the available energy."
+                    "explanation": "While distribution is a factor, it alone doesn't address the fundamental production constraints and resource requirements that need to be considered when choosing between these methods."
                 },
                 {
-                    "text": "The cost and durability of materials used in construction",
+                    "text": "The growth time, available land area, and production costs",
                     "isCorrect": 1,
-                    "explanation": "The materials must withstand harsh ocean conditions while being cost-effective to make the solution practical and sustainable over time."
+                    "explanation": "These criteria directly affect the feasibility and efficiency of biofuel production. Algae grows quickly in smaller spaces but requires special equipment, while corn needs more land and seasonal growing time."
                 },
                 {
-                    "text": "The potential to completely replace fossil fuel energy",
+                    "text": "Only the fuel burning temperature and engine type",
                     "isCorrect": 0,
-                    "explanation": "While renewable energy is important, expecting one solution to completely replace fossil fuels is unrealistic. A mix of different renewable sources is more practical."
+                    "explanation": "While these are technical considerations, they don't address the main production challenges and resource constraints that affect the success of implementing either method."
                 },
                 {
-                    "text": "The speed at which waves move across the ocean",
+                    "text": "Only the color and smell of the final fuel",
                     "isCorrect": 0,
-                    "explanation": "Wave speed alone is not the most critical factor. The device needs to effectively capture wave energy regardless of varying wave speeds."
+                    "explanation": "Physical properties like color and smell are not relevant criteria for choosing between production methods. The focus should be on practical aspects of production and resource use."
                 }
             ],
-            "funFact": "The world's first commercial wave energy device, called Pelamis, was installed in Portugal in 2008. It looked like a giant sea snake and could generate enough electricity to power approximately 1,500 homes!"
+            "funFact": "Algae can produce up to 60 times more oil per acre than land-based plants like corn, making it one of the most space-efficient sources of biofuel!"
+        },
+        {
+            "id": 15,
+            "text": "An engineer is designing a new electric car and needs to consider various criteria and constraints. Which of the following comparisons between electric and gasoline-powered cars would be most important to consider for environmental impact and long-term sustainability?",
+            "options": [
+                {
+                    "text": "Electric cars are worse for the environment because batteries are not recyclable",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because many battery components can be recycled, and the overall environmental impact of electric cars is lower"
+                },
+                {
+                    "text": "Gasoline cars are more sustainable because the fuel infrastructure already exists",
+                    "isCorrect": 0,
+                    "explanation": "Existing infrastructure alone doesn't make gasoline cars more sustainable, as they still rely on non-renewable fossil fuels"
+                },
+                {
+                    "text": "Electric cars and gasoline cars have similar environmental impacts, so cost should be the only consideration",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because electric and gasoline cars have significantly different environmental impacts, especially when powered by renewable energy"
+                },
+                {
+                    "text": "Electric cars have higher initial costs but lower environmental impact, while gasoline cars have lower initial costs but higher environmental impact",
+                    "isCorrect": 1,
+                    "explanation": "This correctly identifies the key trade-off between cost and environmental impact, which is crucial for sustainable design"
+                }
+            ],
+            "funFact": "The first electric car was actually invented in 1832, nearly 50 years before the first gasoline-powered car! However, limitations in battery technology at the time prevented widespread adoption."
         }
     ]
 }

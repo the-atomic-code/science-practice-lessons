@@ -4,6 +4,33 @@
     "questions": [
         {
             "id": 1,
+            "text": "A student wants to see what's on the other side of a window. Which property of glass makes this possible?",
+            "options": [
+                {
+                    "text": "Glass is opaque",
+                    "isCorrect": 0,
+                    "explanation": "Opaque materials block all light from passing through and create shadows, making it impossible to see through them."
+                },
+                {
+                    "text": "Glass is translucent",
+                    "isCorrect": 0,
+                    "explanation": "Translucent materials only allow some light to pass through and create a blurry view, like wax paper or frosted glass."
+                },
+                {
+                    "text": "Glass produces its own light",
+                    "isCorrect": 0,
+                    "explanation": "Glass does not produce its own light - it simply allows light to pass through it completely."
+                },
+                {
+                    "text": "Glass is transparent",
+                    "isCorrect": 1,
+                    "explanation": "Glass is transparent, which means light can pass completely through it, allowing us to see objects clearly on the other side."
+                }
+            ],
+            "funFact": "Ancient Romans were the first to use glass for windows around 100 CE. Before that, windows were just holes in walls or were covered with materials like thin sheets of marble or paper!"
+        },
+        {
+            "id": 2,
             "text": "Which of the following objects would completely block light and create a dark shadow?",
             "options": [
                 {
@@ -17,22 +44,59 @@
                     "explanation": "A plastic water bottle is typically transparent, allowing light to pass through it without creating a shadow."
                 },
                 {
-                    "text": "A sheet of wax paper",
-                    "isCorrect": 0,
-                    "explanation": "Wax paper is translucent - it allows some light to pass through, creating only a partial shadow."
-                },
-                {
                     "text": "A clean glass window",
                     "isCorrect": 0,
                     "explanation": "A clean glass window is transparent, allowing light to pass through completely without creating a shadow."
+                },
+                {
+                    "text": "A sheet of wax paper",
+                    "isCorrect": 0,
+                    "explanation": "Wax paper is translucent - it allows some light to pass through, creating only a partial shadow."
                 }
             ],
             "funFact": "The darkest natural material known is Vantablack, which absorbs 99.965% of visible light that hits it. It's so opaque that when applied to a 3D object, it makes it appear completely flat!"
         },
         {
-            "id": 2,
+            "id": 3,
+            "text": "When a student shines a flashlight on different materials to study how light interacts with them, which statement correctly matches a material with how it affects light?",
+            "options": [
+                {
+                    "text": "A wooden block allows most light to pass through it easily",
+                    "isCorrect": 0,
+                    "explanation": "Wood is opaque, meaning it blocks all light from passing through and creates a dark shadow. It does not allow light to pass through."
+                },
+                {
+                    "text": "A sheet of glass completely blocks all light and creates a dark shadow",
+                    "isCorrect": 0,
+                    "explanation": "Glass is actually transparent, allowing light to pass through it with very little blocking. It does not create a dark shadow."
+                },
+                {
+                    "text": "A piece of wax paper allows all light to pass through clearly",
+                    "isCorrect": 0,
+                    "explanation": "Wax paper is translucent, not transparent. It only allows some light to pass through while blocking some light, making objects appear blurry through it."
+                },
+                {
+                    "text": "A piece of tissue paper lets some light pass through while blocking some light",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Tissue paper is translucent, meaning it allows some light to pass through while partially blocking light, creating a faint shadow."
+                }
+            ],
+            "funFact": "The property of transparency in materials has many practical applications in our daily lives. For example, greenhouses use transparent glass or plastic to let sunlight through while keeping heat inside, allowing plants to grow even in cold weather!"
+        },
+        {
+            "id": 4,
             "text": "Which of the following best describes what happens when light shines through a translucent object?",
             "options": [
+                {
+                    "text": "All light bounces back with no shadow",
+                    "isCorrect": 0,
+                    "explanation": "This describes reflective objects, not translucent ones. Translucent objects allow some light to pass through"
+                },
+                {
+                    "text": "No light passes through at all, creating a dark shadow",
+                    "isCorrect": 0,
+                    "explanation": "This describes opaque objects, not translucent ones. Opaque objects block all light"
+                },
                 {
                     "text": "Some light passes through while some light is blocked, creating a light shadow",
                     "isCorrect": 1,
@@ -42,157 +106,120 @@
                     "text": "All light passes through completely with no shadow",
                     "isCorrect": 0,
                     "explanation": "This describes transparent objects, not translucent ones. Translucent objects partially block light"
-                },
-                {
-                    "text": "No light passes through at all, creating a dark shadow",
-                    "isCorrect": 0,
-                    "explanation": "This describes opaque objects, not translucent ones. Opaque objects block all light"
-                },
-                {
-                    "text": "All light bounces back with no shadow",
-                    "isCorrect": 0,
-                    "explanation": "This describes reflective objects, not translucent ones. Translucent objects allow some light to pass through"
                 }
             ],
             "funFact": "The word 'translucent' comes from Latin words meaning 'shining through.' Clouds are naturally translucent - that's why we can still see the sun's light on a cloudy day, even though it appears dimmer than on a clear day!"
         },
         {
-            "id": 3,
-            "text": "When a student shines a flashlight on different materials to study how light interacts with them, which statement correctly matches a material with how it affects light?",
-            "options": [
-                {
-                    "text": "A sheet of glass completely blocks all light and creates a dark shadow",
-                    "isCorrect": 0,
-                    "explanation": "Glass is actually transparent, allowing light to pass through it with very little blocking. It does not create a dark shadow."
-                },
-                {
-                    "text": "A piece of tissue paper lets some light pass through while blocking some light",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Tissue paper is translucent, meaning it allows some light to pass through while partially blocking light, creating a faint shadow."
-                },
-                {
-                    "text": "A wooden block allows most light to pass through it easily",
-                    "isCorrect": 0,
-                    "explanation": "Wood is opaque, meaning it blocks all light from passing through and creates a dark shadow. It does not allow light to pass through."
-                },
-                {
-                    "text": "A piece of wax paper allows all light to pass through clearly",
-                    "isCorrect": 0,
-                    "explanation": "Wax paper is translucent, not transparent. It only allows some light to pass through while blocking some light, making objects appear blurry through it."
-                }
-            ],
-            "funFact": "The property of transparency in materials has many practical applications in our daily lives. For example, greenhouses use transparent glass or plastic to let sunlight through while keeping heat inside, allowing plants to grow even in cold weather!"
-        },
-        {
-            "id": 4,
-            "text": "What is the best explanation for why we can see a tree in a park during the day?",
-            "options": [
-                {
-                    "text": "Light from the sun hits the tree and reflects to our eyes",
-                    "isCorrect": 1,
-                    "explanation": "Objects become visible when light shines on them and reflects to our eyes. The sun provides light that hits the tree, allowing us to see it."
-                },
-                {
-                    "text": "The tree produces its own light",
-                    "isCorrect": 0,
-                    "explanation": "Trees are not light sources - they do not produce their own light. They are visible because light from other sources (like the sun) reflects off them."
-                },
-                {
-                    "text": "Trees are naturally visible without any light",
-                    "isCorrect": 0,
-                    "explanation": "Objects cannot be seen without light. We need light to shine on objects to make them visible to our eyes."
-                },
-                {
-                    "text": "The tree absorbs darkness making it visible",
-                    "isCorrect": 0,
-                    "explanation": "Objects don't become visible by absorbing darkness. Visibility requires light to shine on objects and reflect to our eyes."
-                }
-            ],
-            "funFact": "While most objects need light to be visible, some living organisms like fireflies and deep-sea creatures can produce their own light through a process called bioluminescence!"
-        },
-        {
             "id": 5,
-            "text": "Which of the following is NOT a light source commonly found inside a home?",
+            "text": "A student wants to create a shadow puppet show. Which material would work best for making a clear, dark shadow on the wall?",
             "options": [
                 {
-                    "text": "Television screen",
+                    "text": "Wax paper",
                     "isCorrect": 0,
-                    "explanation": "A television screen is a common light source found inside homes as it emits light to display images and videos."
+                    "explanation": "Wax paper is translucent, allowing some light to pass through. This would create a faint, unclear shadow that wouldn't work well for shadow puppets."
                 },
                 {
-                    "text": "Lightning",
+                    "text": "Cardboard",
                     "isCorrect": 1,
-                    "explanation": "Lightning is a natural light source that occurs outside during storms, not inside homes."
+                    "explanation": "Cardboard is an opaque material that completely blocks light, creating a clear, dark shadow perfect for shadow puppets."
                 },
                 {
-                    "text": "Table lamp",
+                    "text": "Aluminum foil",
                     "isCorrect": 0,
-                    "explanation": "Table lamps are common artificial light sources found in homes for illumination."
+                    "explanation": "While aluminum foil blocks light, it also reflects light in different directions, which could create unwanted light effects during the shadow puppet show."
                 },
                 {
-                    "text": "Candle",
+                    "text": "Clear plastic",
                     "isCorrect": 0,
-                    "explanation": "Candles are traditional light sources that can be found and used inside homes."
+                    "explanation": "Clear plastic is transparent, allowing most light to pass through. It would not create a visible shadow needed for shadow puppets."
                 }
             ],
-            "funFact": "The first electric light bulb for homes, invented by Thomas Edison in 1879, could only last for about 14.5 hours. Modern LED bulbs can last up to 50,000 hours - that's more than 5 years of continuous use!"
+            "funFact": "Shadow puppetry is one of the oldest forms of entertainment, dating back over 2000 years to ancient China. The art form spread across Asia and later to Europe, combining light, shadows, and storytelling in creative ways!"
         },
         {
             "id": 6,
-            "text": "A student is investigating shadows using a flashlight and different objects. How will the shadow's appearance change when the flashlight is moved farther away from an opaque book?",
+            "text": "A science teacher wants to demonstrate how light travels through different materials. Which combination of materials would be best to show transparent, translucent, and opaque properties in that order?",
             "options": [
                 {
-                    "text": "The shadow will become larger and darker",
+                    "text": "Cardboard, clear glass, wax paper",
                     "isCorrect": 0,
-                    "explanation": "While shadows may appear larger when a light source is moved away, they actually become less dark due to more scattered light reaching the shadow area."
+                    "explanation": "This order is incorrect. Clear glass should be first as transparent, wax paper second as translucent, and cardboard last as opaque."
                 },
                 {
-                    "text": "The shadow will become larger and lighter",
+                    "text": "Clear glass, cardboard, wax paper",
+                    "isCorrect": 0,
+                    "explanation": "This order is incorrect. While clear glass is correctly first as transparent, cardboard and wax paper are in the wrong order."
+                },
+                {
+                    "text": "Wax paper, cardboard, clear glass",
+                    "isCorrect": 0,
+                    "explanation": "This order is incorrect. Clear glass should be first as transparent, wax paper second as translucent, and cardboard last as opaque."
+                },
+                {
+                    "text": "Clear glass, wax paper, cardboard",
                     "isCorrect": 1,
-                    "explanation": "As the light source moves farther away, the shadow becomes larger and appears lighter because more scattered light can reach the shadow area from the surroundings."
-                },
-                {
-                    "text": "The shadow will become smaller and darker",
-                    "isCorrect": 0,
-                    "explanation": "Shadows actually become larger, not smaller, when the light source moves farther away from an opaque object."
-                },
-                {
-                    "text": "The shadow will stay the same size and darkness",
-                    "isCorrect": 0,
-                    "explanation": "The size and darkness of a shadow changes based on the distance between the light source and the object - it does not remain constant."
+                    "explanation": "Clear glass allows all light to pass through (transparent), wax paper allows some light to pass through (translucent), and cardboard blocks all light (opaque)."
                 }
             ],
-            "funFact": "The study of shadows helped ancient Greek mathematician Eratosthenes calculate the circumference of Earth over 2,000 years ago by measuring shadows cast by poles in different cities!"
+            "funFact": "The ancient Romans were the first to use glass for windows, though their glass was much less transparent than modern window glass. They discovered that adding manganese dioxide to the glass made it clearer and more transparent!"
         },
         {
             "id": 7,
-            "text": "Which set of materials would create the darkest shadows when placed in the path of a flashlight beam?",
+            "text": "A student wants to create a gentle glow effect for a night light by placing different materials in front of a flashlight. Which combination of materials would create a soft, partial light that's not too bright but still visible?",
             "options": [
                 {
-                    "text": "A basketball, a wooden board, and a metal plate",
+                    "text": "Clear plastic and glass",
+                    "isCorrect": 0,
+                    "explanation": "Clear plastic and glass are transparent materials that would allow all light to pass through, making the light too bright for a gentle night light effect."
+                },
+                {
+                    "text": "A piece of wax paper and tissue paper",
                     "isCorrect": 1,
-                    "explanation": "These are all opaque materials that completely block light, creating the darkest shadows."
+                    "explanation": "Both wax paper and tissue paper are translucent materials that allow some light to pass through while blocking some, creating a soft, diffused glow perfect for a night light."
                 },
                 {
-                    "text": "A clear glass window, a plastic water bottle, and a drinking glass",
+                    "text": "Cardboard and metal",
                     "isCorrect": 0,
-                    "explanation": "These are transparent materials that allow most light to pass through, creating little to no shadow."
+                    "explanation": "Cardboard and metal are opaque materials that would block all light, creating complete darkness rather than a gentle glow."
                 },
                 {
-                    "text": "Wax paper, tissue paper, and sunglasses",
+                    "text": "A mirror and aluminum foil",
                     "isCorrect": 0,
-                    "explanation": "These are translucent materials that allow some light to pass through, creating only light shadows."
-                },
-                {
-                    "text": "A mirror, aluminum foil, and a shiny spoon",
-                    "isCorrect": 0,
-                    "explanation": "These materials reflect light rather than blocking it completely, redirecting the light beam instead of creating the darkest shadows."
+                    "explanation": "Mirrors and aluminum foil would reflect the light rather than creating a soft glow, potentially redirecting the bright beam to unwanted directions."
                 }
             ],
-            "funFact": "Vantablack is a human-made material that absorbs 99.965% of visible light that hits it, making it so dark that the human eye has trouble recognizing any shadows or contours on its surface!"
+            "funFact": "The technique of using translucent materials to create soft lighting is commonly used in photography and filmmaking. Professional photographers often use materials like tissue paper or special diffusion filters to create gentle, flattering lighting for portraits."
         },
         {
             "id": 8,
+            "text": "If you stack two pieces of wax paper together and shine a flashlight through them, how will the amount of light passing through compare to shining the flashlight through just one piece of wax paper?",
+            "options": [
+                {
+                    "text": "More light will pass through two pieces compared to one piece",
+                    "isCorrect": 0,
+                    "explanation": "Adding more translucent material blocks more light rather than allowing more light to pass through"
+                },
+                {
+                    "text": "The same amount of light will pass through both cases",
+                    "isCorrect": 0,
+                    "explanation": "Each piece of wax paper blocks some light, so two pieces will block more light than one piece"
+                },
+                {
+                    "text": "No light will pass through two pieces",
+                    "isCorrect": 0,
+                    "explanation": "While two pieces block more light than one piece, they are still translucent and will allow some light to pass through"
+                },
+                {
+                    "text": "Less light will pass through two pieces compared to one piece",
+                    "isCorrect": 1,
+                    "explanation": "Each piece of wax paper blocks some light, so stacking them means more light gets blocked overall"
+                }
+            ],
+            "funFact": "The study of how light passes through multiple layers of materials is important in designing window systems. Modern windows often use multiple panes with special coatings to control how much light and heat enter buildings!"
+        },
+        {
+            "id": 9,
             "text": "A student is conducting an experiment with a flashlight and different materials. If they shine the flashlight through a clear glass window and then onto a wooden door, what will happen to the light?",
             "options": [
                 {
@@ -201,14 +228,14 @@
                     "explanation": "While light can pass through transparent materials like glass, it cannot pass through opaque materials like wood."
                 },
                 {
-                    "text": "The light will pass through the glass window but will be blocked by the wooden door",
-                    "isCorrect": 1,
-                    "explanation": "Glass is transparent, allowing light to pass through, while wood is opaque and blocks light, creating a shadow."
-                },
-                {
                     "text": "The light will be blocked by both the glass window and the wooden door",
                     "isCorrect": 0,
                     "explanation": "Clear glass is transparent and allows light to pass through it, so the light would not be blocked by the glass window."
+                },
+                {
+                    "text": "The light will pass through the glass window but will be blocked by the wooden door",
+                    "isCorrect": 1,
+                    "explanation": "Glass is transparent, allowing light to pass through, while wood is opaque and blocks light, creating a shadow."
                 },
                 {
                     "text": "The light will be partially blocked by both materials",
@@ -219,115 +246,61 @@
             "funFact": "The speed at which light travels through glass is slightly slower than its speed in air. This is why we see light bend (refract) when it passes through glass or water!"
         },
         {
-            "id": 9,
-            "text": "Which of the following statements about light sources is most accurate?",
-            "options": [
-                {
-                    "text": "Natural light sources like the sun and lightning are always brighter than artificial light sources",
-                    "isCorrect": 0,
-                    "explanation": "The brightness of a light source doesn't depend on whether it's natural or artificial. Some artificial light sources can be very bright."
-                },
-                {
-                    "text": "Both natural and artificial light sources can produce light that helps us see objects",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Whether natural (like the sun) or artificial (like a lamp), any light source can illuminate objects and make them visible to our eyes."
-                },
-                {
-                    "text": "Artificial light sources only work when natural light is present",
-                    "isCorrect": 0,
-                    "explanation": "Artificial light sources work independently and don't need natural light to function. They can produce light in complete darkness."
-                },
-                {
-                    "text": "Only artificial light sources can create shadows",
-                    "isCorrect": 0,
-                    "explanation": "Both natural and artificial light sources can create shadows when light is blocked by opaque objects."
-                }
-            ],
-            "funFact": "Lightning, a natural light source, can be up to five times hotter than the surface of the sun! When lightning strikes, it can heat the surrounding air to about 50,000 degrees Fahrenheit, making it one of nature's most intense light sources."
-        },
-        {
             "id": 10,
-            "text": "A science teacher wants to demonstrate how light travels through different materials. Which combination of materials would be best to show transparent, translucent, and opaque properties in that order?",
+            "text": "When a bright flashlight beam shines on different objects, which object will create the darkest shadow on the wall behind it?",
             "options": [
                 {
-                    "text": "Clear glass, wax paper, cardboard",
+                    "text": "A sheet of wax paper",
+                    "isCorrect": 0,
+                    "explanation": "Wax paper is translucent, allowing some light to pass through, which creates a lighter shadow"
+                },
+                {
+                    "text": "A clear glass window",
+                    "isCorrect": 0,
+                    "explanation": "Clear glass is transparent, allowing most light to pass through, so it creates virtually no shadow"
+                },
+                {
+                    "text": "A plastic basketball",
                     "isCorrect": 1,
-                    "explanation": "Clear glass allows all light to pass through (transparent), wax paper allows some light to pass through (translucent), and cardboard blocks all light (opaque)."
+                    "explanation": "A plastic basketball is an opaque object that completely blocks light, creating the darkest possible shadow"
                 },
                 {
-                    "text": "Wax paper, cardboard, clear glass",
+                    "text": "A piece of tissue paper",
                     "isCorrect": 0,
-                    "explanation": "This order is incorrect. Clear glass should be first as transparent, wax paper second as translucent, and cardboard last as opaque."
-                },
-                {
-                    "text": "Cardboard, clear glass, wax paper",
-                    "isCorrect": 0,
-                    "explanation": "This order is incorrect. Clear glass should be first as transparent, wax paper second as translucent, and cardboard last as opaque."
-                },
-                {
-                    "text": "Clear glass, cardboard, wax paper",
-                    "isCorrect": 0,
-                    "explanation": "This order is incorrect. While clear glass is correctly first as transparent, cardboard and wax paper are in the wrong order."
+                    "explanation": "Tissue paper is translucent, letting some light pass through, resulting in a partial shadow"
                 }
             ],
-            "funFact": "The ancient Romans were the first to use glass for windows, though their glass was much less transparent than modern window glass. They discovered that adding manganese dioxide to the glass made it clearer and more transparent!"
+            "funFact": "The darkest type of shadow, called an umbra, occurs during a total solar eclipse when the Moon completely blocks the Sun's light from reaching parts of Earth!"
         },
         {
             "id": 11,
-            "text": "A student is conducting an experiment with a flashlight and different materials. When shining the flashlight on a white wall through each material, what pattern will appear on the wall when using a clear glass panel?",
+            "text": "A student uses a laser pointer to study how different materials affect light. What will happen when the laser beam hits a mirror?",
             "options": [
                 {
-                    "text": "A bright circle of light with almost no change in intensity",
+                    "text": "The laser beam will scatter in all directions",
+                    "isCorrect": 0,
+                    "explanation": "Mirrors reflect light in a specific direction based on the angle the light hits the mirror. They don't scatter light in all directions."
+                },
+                {
+                    "text": "The laser beam will pass straight through the mirror",
+                    "isCorrect": 0,
+                    "explanation": "Mirrors are not transparent - they do not allow light to pass through them. Instead, they reflect light."
+                },
+                {
+                    "text": "The laser beam will change direction and reflect off the mirror",
                     "isCorrect": 1,
-                    "explanation": "Clear glass is transparent, allowing nearly all light to pass through without blocking or scattering it, resulting in a bright, clear circle of light on the wall."
+                    "explanation": "Mirrors are reflective materials that change the direction of light beams. When light hits a mirror, it bounces off at the same angle it hit the mirror."
                 },
                 {
-                    "text": "A dim, fuzzy circle of light",
+                    "text": "The laser beam will create a dark shadow behind the mirror",
                     "isCorrect": 0,
-                    "explanation": "A dim, fuzzy circle is characteristic of translucent materials like tissue paper, not transparent materials like clear glass."
-                },
-                {
-                    "text": "A dark shadow with no light visible",
-                    "isCorrect": 0,
-                    "explanation": "A complete shadow occurs with opaque materials that block all light, not with transparent materials like clear glass."
-                },
-                {
-                    "text": "Multiple scattered spots of light",
-                    "isCorrect": 0,
-                    "explanation": "Scattered spots of light would occur with materials that significantly diffuse light, not with transparent materials like clear glass."
+                    "explanation": "While mirrors do block light from passing through them, the main effect we observe is reflection, not shadow formation."
                 }
             ],
-            "funFact": "The transparency of glass is so important that scientists have developed 'ultra-transparent glass' that can transmit up to 99.95% of light, making it nearly invisible to the human eye!"
+            "funFact": "The ancient Egyptians used polished copper mirrors as early as 3000 BCE. They considered mirrors so valuable that they often included them in tombs for use in the afterlife!"
         },
         {
             "id": 12,
-            "text": "When observing how light interacts with different materials in a home, which statement correctly explains why the background appears differently behind a glass window, a shower curtain, and a wooden door?",
-            "options": [
-                {
-                    "text": "The glass window is transparent allowing all light through, the shower curtain is translucent allowing some light through, and the wooden door is opaque blocking all light.",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how light interacts with these materials. Transparent materials like glass allow all light to pass through, translucent materials like shower curtains allow partial light, and opaque materials like wooden doors block all light."
-                },
-                {
-                    "text": "The glass window is translucent allowing some light through, the shower curtain is opaque blocking all light, and the wooden door is transparent allowing all light.",
-                    "isCorrect": 0,
-                    "explanation": "This incorrectly categorizes the materials. Glass windows are transparent, not translucent; shower curtains are translucent, not opaque; and wooden doors are opaque, not transparent."
-                },
-                {
-                    "text": "All three materials allow the same amount of light to pass through, but they appear different due to their colors.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The amount of light passing through these materials varies significantly. Their appearance is not just due to color but primarily due to how much light they allow to pass through."
-                },
-                {
-                    "text": "The glass window is opaque blocking all light, the shower curtain is transparent allowing all light, and the wooden door is translucent allowing some light.",
-                    "isCorrect": 0,
-                    "explanation": "This completely reverses the properties of these materials. Glass is transparent, not opaque; shower curtains are translucent, not transparent; and wooden doors are opaque, not translucent."
-                }
-            ],
-            "funFact": "Ancient Romans were the first to use glass for windows around 100 CE. Before that, many civilizations used thin sheets of marble, mica, or other materials that were translucent rather than transparent!"
-        },
-        {
-            "id": 13,
             "text": "A student wants to read a book through different materials. Which material would allow the student to read the text most clearly?",
             "options": [
                 {
@@ -349,31 +322,58 @@
             "funFact": "The ancient Romans were among the first to use glass windows in their buildings. They discovered that clear glass allowed them to keep their buildings warm while still letting in light to read and work!"
         },
         {
-            "id": 14,
-            "text": "A student uses a laser pointer to study how different materials affect light. What will happen when the laser beam hits a mirror?",
+            "id": 13,
+            "text": "When observing how light interacts with different materials in a home, which statement correctly explains why the background appears differently behind a glass window, a shower curtain, and a wooden door?",
             "options": [
                 {
-                    "text": "The laser beam will change direction and reflect off the mirror",
+                    "text": "The glass window is transparent allowing all light through, the shower curtain is translucent allowing some light through, and the wooden door is opaque blocking all light.",
                     "isCorrect": 1,
-                    "explanation": "Mirrors are reflective materials that change the direction of light beams. When light hits a mirror, it bounces off at the same angle it hit the mirror."
+                    "explanation": "This correctly describes how light interacts with these materials. Transparent materials like glass allow all light to pass through, translucent materials like shower curtains allow partial light, and opaque materials like wooden doors block all light."
                 },
                 {
-                    "text": "The laser beam will pass straight through the mirror",
+                    "text": "All three materials allow the same amount of light to pass through, but they appear different due to their colors.",
                     "isCorrect": 0,
-                    "explanation": "Mirrors are not transparent - they do not allow light to pass through them. Instead, they reflect light."
+                    "explanation": "This is incorrect. The amount of light passing through these materials varies significantly. Their appearance is not just due to color but primarily due to how much light they allow to pass through."
                 },
                 {
-                    "text": "The laser beam will create a dark shadow behind the mirror",
+                    "text": "The glass window is translucent allowing some light through, the shower curtain is opaque blocking all light, and the wooden door is transparent allowing all light.",
                     "isCorrect": 0,
-                    "explanation": "While mirrors do block light from passing through them, the main effect we observe is reflection, not shadow formation."
+                    "explanation": "This incorrectly categorizes the materials. Glass windows are transparent, not translucent; shower curtains are translucent, not opaque; and wooden doors are opaque, not transparent."
                 },
                 {
-                    "text": "The laser beam will scatter in all directions",
+                    "text": "The glass window is opaque blocking all light, the shower curtain is transparent allowing all light, and the wooden door is translucent allowing some light.",
                     "isCorrect": 0,
-                    "explanation": "Mirrors reflect light in a specific direction based on the angle the light hits the mirror. They don't scatter light in all directions."
+                    "explanation": "This completely reverses the properties of these materials. Glass is transparent, not opaque; shower curtains are translucent, not transparent; and wooden doors are opaque, not translucent."
                 }
             ],
-            "funFact": "The ancient Egyptians used polished copper mirrors as early as 3000 BCE. They considered mirrors so valuable that they often included them in tombs for use in the afterlife!"
+            "funFact": "Ancient Romans were the first to use glass for windows around 100 CE. Before that, many civilizations used thin sheets of marble, mica, or other materials that were translucent rather than transparent!"
+        },
+        {
+            "id": 14,
+            "text": "When experimenting with different household items, Lily notices how light from her desk lamp interacts differently with various objects. She observes that a clear drinking glass allows her to see through it clearly, a paper towel makes objects behind it look fuzzy, and a hardcover book completely blocks the view. How would these objects be classified based on their interaction with light?",
+            "options": [
+                {
+                    "text": "The glass is transparent, the paper towel is translucent, and the book is opaque",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because transparent objects like glass allow all light to pass through, translucent objects like paper towels allow some light through, and opaque objects like books block all light"
+                },
+                {
+                    "text": "All three objects are translucent because some light reaches the other side",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because only objects that allow some but not all light through are translucent. Glass allows all light through (transparent) and books block all light (opaque)"
+                },
+                {
+                    "text": "The glass is translucent, the paper towel is opaque, and the book is transparent",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because glass allows all light through (transparent), not just some light (translucent), and books block all light (opaque), not allow it through (transparent)"
+                },
+                {
+                    "text": "The glass is opaque, the paper towel is transparent, and the book is translucent",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because glass does not block light (opaque), paper towels only allow some light through (translucent), and books block all light (opaque)"
+                }
+            ],
+            "funFact": "The word 'transparent' comes from Medieval Latin 'transparens', which means 'showing through'. This term was first used in the 1610s to describe materials that allowed light to pass through them!"
         },
         {
             "id": 15,
@@ -385,6 +385,11 @@
                     "explanation": "Clear plastic is transparent, allowing all light to pass through, making the toy completely visible. Wax paper is translucent (partially blocks light) and cardboard is opaque (blocks all light), so the toy won't be clearly visible in Boxes B and C."
                 },
                 {
+                    "text": "None of the boxes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because Box A, made of clear plastic, is transparent and will allow light to pass through, making the toy clearly visible."
+                },
+                {
                     "text": "Both Box A and Box B",
                     "isCorrect": 0,
                     "explanation": "While Box A (clear plastic) allows clear visibility, Box B (wax paper) is translucent and only allows some light through, making the toy appear blurry or unclear."
@@ -393,11 +398,6 @@
                     "text": "All three boxes",
                     "isCorrect": 0,
                     "explanation": "Only Box A (clear plastic) allows clear visibility. Box B (wax paper) makes objects appear blurry, and Box C (cardboard) completely blocks light, making the toy invisible."
-                },
-                {
-                    "text": "None of the boxes",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because Box A, made of clear plastic, is transparent and will allow light to pass through, making the toy clearly visible."
                 }
             ],
             "funFact": "The human eye can detect a single photon of light in complete darkness! This incredible sensitivity helps explain why we can see stars that are trillions of miles away, even though very few photons from them reach Earth."

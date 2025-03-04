@@ -4,125 +4,93 @@
     "questions": [
         {
             "id": 1,
-            "text": "In a grassland ecosystem, a hawk eats a mouse that has been eating seeds. If we start with 1000 units of energy in the seeds, approximately how many units of energy would be available to the hawk?",
+            "text": "What is the primary reason apex predators like lions and eagles are essential for maintaining a healthy ecosystem?",
             "options": [
                 {
-                    "text": "10 units",
+                    "text": "They keep prey populations balanced by preventing overgrazing and overpopulation",
                     "isCorrect": 1,
-                    "explanation": "Only about 10% of energy is transferred between each trophic level. From seeds to mouse, energy reduces to 100 units, and from mouse to hawk it reduces further to 10 units."
+                    "explanation": "Apex predators control prey populations, preventing them from becoming too large and damaging the ecosystem through overgrazing or consuming too many resources."
                 },
                 {
-                    "text": "100 units",
+                    "text": "They compete with decomposers to break down dead organisms",
                     "isCorrect": 0,
-                    "explanation": "This represents the energy available to the mouse (10% of 1000), but not what reaches the hawk. Energy decreases further when transferred to the hawk."
+                    "explanation": "Apex predators do not compete with decomposers. Decomposers have a separate role in breaking down dead organisms and recycling nutrients."
                 },
                 {
-                    "text": "500 units",
+                    "text": "They help plants grow faster through their hunting activities",
                     "isCorrect": 0,
-                    "explanation": "This is too high - much more energy is lost between trophic levels. About 90% of energy is lost as heat at each step in the food chain."
+                    "explanation": "While apex predators indirectly affect plant growth by controlling herbivore populations, they do not directly help plants grow faster through hunting."
                 },
                 {
-                    "text": "1000 units",
+                    "text": "They provide food for smaller animals in the ecosystem",
                     "isCorrect": 0,
-                    "explanation": "Energy cannot remain constant through a food chain. Most energy is lost as heat at each trophic level, so the hawk receives much less than the initial energy."
+                    "explanation": "This is incorrect. Apex predators are at the top of the food web and are not typically prey for other animals except decomposers after death."
                 }
             ],
-            "funFact": "Due to this loss of energy at each trophic level, most food chains don't extend beyond 4-5 levels. This is why there are usually more herbivores than carnivores in an ecosystem!"
+            "funFact": "The reintroduction of wolves to Yellowstone National Park in 1995 demonstrated the importance of apex predators. Their presence changed elk behavior, allowing vegetation to recover, which in turn benefited many other species and even influenced the park's river systems!"
         },
         {
             "id": 2,
-            "text": "Which organisms play a crucial role in an ecosystem by breaking down dead plants and animals and recycling nutrients back into the soil?",
-            "options": [
-                {
-                    "text": "Bacteria and fungi",
-                    "isCorrect": 1,
-                    "explanation": "Bacteria and fungi are the primary decomposers that break down dead organisms and recycle nutrients back into the soil, making them available for plants to use."
-                },
-                {
-                    "text": "Lions and tigers",
-                    "isCorrect": 0,
-                    "explanation": "Lions and tigers are apex predators that hunt and eat other animals. They do not break down dead organisms into nutrients."
-                },
-                {
-                    "text": "Trees and grasses",
-                    "isCorrect": 0,
-                    "explanation": "Trees and grasses are producers that make their own food through photosynthesis. They do not break down dead organisms."
-                },
-                {
-                    "text": "Zebras and deer",
-                    "isCorrect": 0,
-                    "explanation": "Zebras and deer are herbivores that eat plants. They do not break down dead organisms into nutrients."
-                }
-            ],
-            "funFact": "A single teaspoon of healthy soil can contain over 1 billion bacteria! These tiny decomposers work continuously to break down organic matter, which is essential for maintaining soil fertility and supporting plant growth."
-        },
-        {
-            "id": 3,
             "text": "Which of the following best describes how matter cycles between organisms and their environment in an ecosystem?",
             "options": [
-                {
-                    "text": "Matter moves in a one-way path from plants to animals to decomposers and is lost from the ecosystem",
-                    "isCorrect": 0,
-                    "explanation": "Matter actually cycles continuously in an ecosystem rather than being lost. It is transformed and reused through various processes."
-                },
-                {
-                    "text": "Plants take in matter from soil and air, animals eat plants or other animals, and decomposers break down dead organisms returning nutrients to the soil",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how matter cycles through an ecosystem, with plants, animals, and decomposers all playing important roles in transforming and transferring matter."
-                },
                 {
                     "text": "Only plants and animals exchange matter with the environment while decomposers just break down waste",
                     "isCorrect": 0,
                     "explanation": "Decomposers play a crucial role in cycling matter by breaking down dead organisms and returning nutrients to the soil, which plants can then use."
                 },
                 {
+                    "text": "Matter moves in a one-way path from plants to animals to decomposers and is lost from the ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "Matter actually cycles continuously in an ecosystem rather than being lost. It is transformed and reused through various processes."
+                },
+                {
                     "text": "Matter only moves between living organisms and doesn't interact with the environment",
                     "isCorrect": 0,
                     "explanation": "Matter constantly moves between organisms and their environment through processes like photosynthesis, respiration, and decomposition."
+                },
+                {
+                    "text": "Plants take in matter from soil and air, animals eat plants or other animals, and decomposers break down dead organisms returning nutrients to the soil",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how matter cycles through an ecosystem, with plants, animals, and decomposers all playing important roles in transforming and transferring matter."
                 }
             ],
             "funFact": "A single teaspoon of rich soil can contain up to 1 billion bacteria, along with numerous fungi and other decomposers, all working together to break down dead material and recycle nutrients in the ecosystem!"
         },
         {
-            "id": 4,
-            "text": "What is the primary role of decomposers like bacteria and fungi in an ecosystem?",
+            "id": 3,
+            "text": "What role do decomposers like bacteria and fungi play in maintaining a healthy ecosystem?",
             "options": [
                 {
-                    "text": "They break down dead organisms and return nutrients to the soil",
+                    "text": "They break down dead organisms and return nutrients to the soil for plants to use",
                     "isCorrect": 1,
-                    "explanation": "Decomposers play a crucial role in recycling nutrients by breaking down dead plants and animals and converting them into nutrients that can be used by plants"
+                    "explanation": "Decomposers are essential because they recycle nutrients by breaking down dead plants and animals into simpler materials that enrich the soil"
                 },
                 {
-                    "text": "They produce their own food using sunlight",
+                    "text": "They hunt and eat other living animals to get energy",
                     "isCorrect": 0,
-                    "explanation": "This is actually what producers like plants do through photosynthesis, not decomposers"
+                    "explanation": "This describes predators, not decomposers. Decomposers feed on dead organisms, not living ones"
                 },
                 {
-                    "text": "They hunt and eat other living animals",
+                    "text": "They create oxygen through photosynthesis",
                     "isCorrect": 0,
-                    "explanation": "This describes predators, not decomposers. Decomposers break down dead organisms, not hunt living ones"
+                    "explanation": "This is what plants do through photosynthesis, not decomposers. Decomposers break down dead matter"
                 },
                 {
-                    "text": "They store extra nutrients for winter",
+                    "text": "They produce their own food using sunlight like plants do",
                     "isCorrect": 0,
-                    "explanation": "While some organisms store nutrients, this is not the primary role of decomposers. Their main function is breaking down dead matter"
+                    "explanation": "This describes producers like plants, not decomposers. Decomposers get energy by breaking down dead matter"
                 }
             ],
-            "funFact": "A single teaspoon of healthy soil can contain more than one billion bacteria! These microscopic decomposers work constantly to break down organic matter and keep nutrients cycling through the ecosystem."
+            "funFact": "A single teaspoon of healthy soil can contain over 1 billion bacteria and several yards of fungal filaments, all working as decomposers to recycle nutrients!"
         },
         {
-            "id": 5,
+            "id": 4,
             "text": "In the African savannah ecosystem, which of the following statements correctly describes the feeding relationships between animals?",
             "options": [
                 {
                     "text": "Zebras feed on lions and cheetahs to obtain energy",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Zebras are herbivores that feed on plants like grasses. They are prey for lions and cheetahs, not predators."
-                },
-                {
-                    "text": "Lions, cheetahs, and hyenas all feed on zebras as their prey",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Lions, cheetahs, and hyenas are all predators that hunt and consume zebras, making zebras their prey in this ecosystem."
                 },
                 {
                     "text": "Hyenas and cheetahs avoid hunting the same prey animals",
@@ -133,120 +101,44 @@
                     "text": "Lions exclusively feed on cheetahs and hyenas",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Lions do not primarily feed on other predators. They hunt herbivores like zebras and other prey animals."
+                },
+                {
+                    "text": "Lions, cheetahs, and hyenas all feed on zebras as their prey",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Lions, cheetahs, and hyenas are all predators that hunt and consume zebras, making zebras their prey in this ecosystem."
                 }
             ],
             "funFact": "A single lion can eat up to 40 kg of meat in one meal! However, they might not eat again for several days after such a large feast. This feast-or-famine pattern is common among large predators in nature."
         },
         {
+            "id": 5,
+            "text": "In a grassland ecosystem, a hawk catches and eats a mouse that had previously eaten grass seeds. How does energy flow between these organisms?",
+            "options": [
+                {
+                    "text": "The hawk and mouse create their own energy without needing the grass",
+                    "isCorrect": 0,
+                    "explanation": "Animals cannot create their own energy. They must obtain it by consuming other organisms, and all energy ultimately comes from the sun through plants."
+                },
+                {
+                    "text": "Energy flows from the grass to the mouse to the hawk, with some energy being lost as heat at each step",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Energy flows through the food chain from producers (grass) to primary consumers (mouse) to secondary consumers (hawk), with some energy being lost as heat at each transfer."
+                },
+                {
+                    "text": "All energy is recycled between the grass, mouse, and hawk in a closed loop",
+                    "isCorrect": 0,
+                    "explanation": "Energy is not recycled in ecosystems. It flows through the system and is partially lost as heat at each transfer."
+                },
+                {
+                    "text": "Energy flows from the hawk to the mouse to the grass with no energy loss",
+                    "isCorrect": 0,
+                    "explanation": "Energy flows from producers to consumers, not the other way around. Also, some energy is always lost as heat during transfers."
+                }
+            ],
+            "funFact": "A hawk typically needs to eat multiple prey animals to maintain its energy needs because only about 10% of the energy from one trophic level is transferred to the next level in a food chain. The rest is lost as heat!"
+        },
+        {
             "id": 6,
-            "text": "In a forest ecosystem, a disease causes the wolf population to suddenly decrease by 90%. What is the most likely immediate effect on the ecosystem?",
-            "options": [
-                {
-                    "text": "The deer population will likely increase significantly",
-                    "isCorrect": 1,
-                    "explanation": "When apex predators like wolves decline, their prey (deer) populations typically increase due to reduced predation pressure"
-                },
-                {
-                    "text": "The grass in the forest will become more abundant",
-                    "isCorrect": 0,
-                    "explanation": "With more deer, grass would actually decrease due to increased grazing pressure"
-                },
-                {
-                    "text": "The decomposer population will increase dramatically",
-                    "isCorrect": 0,
-                    "explanation": "Decomposer populations are more directly influenced by the amount of dead matter than by predator-prey relationships"
-                },
-                {
-                    "text": "The forest ecosystem will quickly find a new balance",
-                    "isCorrect": 0,
-                    "explanation": "Sudden changes in predator populations typically cause significant disruptions that take time to stabilize"
-                }
-            ],
-            "funFact": "When wolves were reintroduced to Yellowstone National Park in 1995, it triggered a cascade of ecological changes that even altered the flow of rivers, demonstrating how deeply interconnected species are in an ecosystem"
-        },
-        {
-            "id": 7,
-            "text": "Imagine an ecosystem where all the decomposers suddenly disappeared. What would be the most immediate consequence for this ecosystem?",
-            "options": [
-                {
-                    "text": "Dead plants and animals would accumulate and nutrients would not return to the soil",
-                    "isCorrect": 1,
-                    "explanation": "Decomposers break down dead organisms and recycle nutrients back into the soil. Without them, dead matter would pile up and nutrients would be locked in the dead material instead of being returned to the soil for use by plants."
-                },
-                {
-                    "text": "All the plants would immediately die",
-                    "isCorrect": 0,
-                    "explanation": "While plants would eventually be affected due to lack of nutrients, this wouldn't be the immediate effect. Plants can continue to grow for some time using existing soil nutrients."
-                },
-                {
-                    "text": "All the animals would immediately starve",
-                    "isCorrect": 0,
-                    "explanation": "Animals would still have their normal food sources available. The immediate impact would be on dead matter decomposition, not on living organisms."
-                },
-                {
-                    "text": "The temperature of the ecosystem would rise dramatically",
-                    "isCorrect": 0,
-                    "explanation": "While decomposers do release heat during decomposition, their absence would not cause a dramatic temperature change in the ecosystem."
-                }
-            ],
-            "funFact": "A single gram of soil can contain up to one billion bacteria, all working as decomposers to break down organic matter. These microscopic recyclers are essential for maintaining healthy ecosystems worldwide!"
-        },
-        {
-            "id": 8,
-            "text": "In a grassland ecosystem, a herd of zebras dies due to a disease. What happens to the matter from their bodies over time?",
-            "options": [
-                {
-                    "text": "The matter disappears completely from the ecosystem",
-                    "isCorrect": 0,
-                    "explanation": "Matter cannot disappear from an ecosystem. It is recycled through decomposition."
-                },
-                {
-                    "text": "The matter remains unchanged in the soil forever",
-                    "isCorrect": 0,
-                    "explanation": "Dead matter does not remain unchanged. It is broken down by decomposers into simpler nutrients."
-                },
-                {
-                    "text": "The matter is broken down by decomposers and recycled as nutrients in the soil",
-                    "isCorrect": 1,
-                    "explanation": "Decomposers like bacteria and fungi break down dead organisms and convert them into nutrients that plants can use from the soil."
-                },
-                {
-                    "text": "The matter transforms into air and floats away",
-                    "isCorrect": 0,
-                    "explanation": "While some matter may be released as gases during decomposition, most of it is converted into soil nutrients by decomposers."
-                }
-            ],
-            "funFact": "A single gram of soil can contain up to one billion bacteria! These microscopic decomposers work constantly to break down dead matter and keep nutrients cycling through ecosystems."
-        },
-        {
-            "id": 9,
-            "text": "In a grassland ecosystem, a mouse eats grass seeds and is later eaten by an owl. Which statement correctly describes the direction of energy flow in this relationship?",
-            "options": [
-                {
-                    "text": "Energy flows from the grass to the mouse to the owl",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because energy always flows from producers (grass) through primary consumers (mouse) to secondary consumers (owl) in a food chain"
-                },
-                {
-                    "text": "Energy flows from the owl to the mouse to the grass",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because energy flows up the food chain, not down. It starts with producers and moves to consumers"
-                },
-                {
-                    "text": "Energy flows equally in both directions between all organisms",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because energy flows in one direction only, it doesn't flow back and forth between organisms"
-                },
-                {
-                    "text": "Energy flows directly from the grass to the owl",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because energy must pass through each level of the food chain - it cannot skip levels"
-                }
-            ],
-            "funFact": "An owl can consume up to 1,000 mice per year! However, not all the energy from these mice goes to the owl's growth - about 90% of energy is lost as heat at each step of a food chain, which is why food chains rarely have more than 4-5 steps."
-        },
-        {
-            "id": 10,
             "text": "Which of the following food web configurations would create the most stable ecosystem?",
             "options": [
                 {
@@ -255,9 +147,9 @@
                     "explanation": "Having only one apex predator creates vulnerability - if that species declines, herbivore populations could grow unchecked and overgraze plants"
                 },
                 {
-                    "text": "An ecosystem with many interconnected food chains, multiple apex predators, diverse plant species, and active decomposers",
-                    "isCorrect": 1,
-                    "explanation": "Multiple interconnected food chains with redundancy at each level provides stability - if one species declines, others can fulfill similar ecological roles"
+                    "text": "An ecosystem with many plant species but few consumer species",
+                    "isCorrect": 0,
+                    "explanation": "Without enough consumers, plant populations could grow unchecked and compete for resources, destabilizing the ecosystem"
                 },
                 {
                     "text": "An ecosystem with just a few very strong species at each level of the food chain",
@@ -265,26 +157,134 @@
                     "explanation": "Limited diversity makes the ecosystem vulnerable - if any one species declines, there aren't enough alternatives to maintain ecosystem functions"
                 },
                 {
-                    "text": "An ecosystem with many plant species but few consumer species",
-                    "isCorrect": 0,
-                    "explanation": "Without enough consumers, plant populations could grow unchecked and compete for resources, destabilizing the ecosystem"
+                    "text": "An ecosystem with many interconnected food chains, multiple apex predators, diverse plant species, and active decomposers",
+                    "isCorrect": 1,
+                    "explanation": "Multiple interconnected food chains with redundancy at each level provides stability - if one species declines, others can fulfill similar ecological roles"
                 }
             ],
             "funFact": "The most stable ecosystems on Earth are often found in coral reefs, where thousands of species interact in complex food webs. A single cubic meter of coral reef can contain over 1,000 different species!"
+        },
+        {
+            "id": 7,
+            "text": "Which of the following scenarios would most likely represent a balanced ecosystem?",
+            "options": [
+                {
+                    "text": "1,000 zebras and 1,000 lions in a savannah ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "This ratio is unbalanced because there are too many predators compared to prey. The lion population would quickly deplete the zebra population, leading to the collapse of both populations."
+                },
+                {
+                    "text": "10 zebras and 100 lions in a savannah ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "This ratio is severely unbalanced with too many predators and too few prey. The zebra population would be quickly eliminated, followed by the collapse of the lion population due to lack of food."
+                },
+                {
+                    "text": "1,000 zebras and 0 lions in a savannah ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "This scenario lacks apex predators, which would lead to overpopulation of zebras. The zebras would likely overgraze the vegetation, potentially damaging the entire ecosystem."
+                },
+                {
+                    "text": "1,000 zebras and 10 lions in a savannah ecosystem",
+                    "isCorrect": 1,
+                    "explanation": "This ratio is balanced because there are enough prey animals (zebras) to sustain the predator population (lions), while the number of predators can effectively control the prey population without depleting it."
+                }
+            ],
+            "funFact": "In natural ecosystems, the biomass of predators is typically about 10% of the biomass of their prey. This is known as the '10% rule' of energy transfer between trophic levels, as approximately 90% of energy is lost as heat when moving up each level in the food chain."
+        },
+        {
+            "id": 8,
+            "text": "A new species of large fish that feeds on smaller fish has been introduced to a lake ecosystem. What is the most likely impact on the lake's food web?",
+            "options": [
+                {
+                    "text": "The ecosystem will remain unchanged because food webs are always stable",
+                    "isCorrect": 0,
+                    "explanation": "Food webs can be disrupted by new species. The introduction of a new predator will affect the balance of the ecosystem by changing prey populations and their relationships with other organisms."
+                },
+                {
+                    "text": "The algae population will decrease because the new fish species will eat both small fish and algae",
+                    "isCorrect": 0,
+                    "explanation": "The question specifies that the new fish species feeds on smaller fish, not algae. Misunderstanding the feeding relationships leads to incorrect predictions about population changes."
+                },
+                {
+                    "text": "The population of smaller fish will increase because they will adapt quickly to the new predator",
+                    "isCorrect": 0,
+                    "explanation": "Prey species cannot adapt quickly enough to avoid immediate population decline when faced with a new predator. Evolution of defense mechanisms takes many generations."
+                },
+                {
+                    "text": "The population of smaller fish will decrease, leading to an increase in the algae they normally feed on",
+                    "isCorrect": 1,
+                    "explanation": "When a new predator is introduced, it reduces the population of its prey (smaller fish). With fewer small fish eating algae, the algae population would increase due to reduced consumption."
+                }
+            ],
+            "funFact": "The introduction of the Nile Perch into Lake Victoria in Africa is a real-world example of how a new predator can impact an ecosystem. After its introduction in the 1950s, this large predatory fish caused the extinction of hundreds of native fish species, dramatically altering the lake's ecosystem."
+        },
+        {
+            "id": 9,
+            "text": "In a grassland ecosystem, a mouse eats grass seeds and is later eaten by an owl. Which statement correctly describes the direction of energy flow in this relationship?",
+            "options": [
+                {
+                    "text": "Energy flows directly from the grass to the owl",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because energy must pass through each level of the food chain - it cannot skip levels"
+                },
+                {
+                    "text": "Energy flows equally in both directions between all organisms",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because energy flows in one direction only, it doesn't flow back and forth between organisms"
+                },
+                {
+                    "text": "Energy flows from the owl to the mouse to the grass",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because energy flows up the food chain, not down. It starts with producers and moves to consumers"
+                },
+                {
+                    "text": "Energy flows from the grass to the mouse to the owl",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because energy always flows from producers (grass) through primary consumers (mouse) to secondary consumers (owl) in a food chain"
+                }
+            ],
+            "funFact": "An owl can consume up to 1,000 mice per year! However, not all the energy from these mice goes to the owl's growth - about 90% of energy is lost as heat at each step of a food chain, which is why food chains rarely have more than 4-5 steps."
+        },
+        {
+            "id": 10,
+            "text": "Consider four different food chains in an ecosystem:\nChain 1: Grass \u2192 Rabbit \u2192 Fox \u2192 Eagle\nChain 2: Grass \u2192 Mouse \u2192 Snake\nChain 3: Grass \u2192 Deer \u2192 Wolf\nChain 4: Grass \u2192 Grasshopper \u2192 Bird\n\nWhich food chain would likely support the smallest population of top consumers (the animal at the end of each chain)?",
+            "options": [
+                {
+                    "text": "Chain 1",
+                    "isCorrect": 1,
+                    "explanation": "Chain 1 has the most steps, so it would support the smallest population of eagles at the top. This is because energy is lost at each step of the food chain as heat, leaving less energy available for the next level."
+                },
+                {
+                    "text": "Chain 4",
+                    "isCorrect": 0,
+                    "explanation": "Chain 4 has three steps, allowing more energy to reach birds than eagles in Chain 1, which means it can support a larger population of these top consumers."
+                },
+                {
+                    "text": "Chain 3",
+                    "isCorrect": 0,
+                    "explanation": "Chain 3 has three steps, so wolves would receive more energy than eagles in Chain 1, supporting a larger population of these top predators."
+                },
+                {
+                    "text": "Chain 2",
+                    "isCorrect": 0,
+                    "explanation": "Chain 2 has only three steps, meaning more energy would be available for snakes compared to eagles in Chain 1, allowing for a larger population of these top consumers."
+                }
+            ],
+            "funFact": "In most ecosystems, only about 10% of the energy available at one trophic level is transferred to the next level. This means that in a four-step food chain, the top predator receives only about 0.1% of the energy that was initially available in the plants!"
         },
         {
             "id": 11,
             "text": "In a forest ecosystem, if all decomposers like bacteria and fungi suddenly disappeared, what would be the most significant impact?",
             "options": [
                 {
+                    "text": "The temperature of the ecosystem would increase dramatically",
+                    "isCorrect": 0,
+                    "explanation": "While decomposition produces some heat, the absence of decomposers would not significantly affect the ecosystem's temperature."
+                },
+                {
                     "text": "Dead organisms and waste would accumulate, and plants would eventually run out of nutrients",
                     "isCorrect": 1,
                     "explanation": "Decomposers break down dead organisms and waste, recycling nutrients back into the soil for plants to use. Without them, these materials would pile up and nutrients would be locked in dead matter."
-                },
-                {
-                    "text": "All plants would immediately die due to lack of carbon dioxide",
-                    "isCorrect": 0,
-                    "explanation": "While decomposers do release CO2, plants would still receive carbon dioxide from other sources like animal respiration and atmospheric CO2."
                 },
                 {
                     "text": "Herbivores would thrive because there would be more plants",
@@ -292,117 +292,117 @@
                     "explanation": "Without decomposers, plants would actually struggle due to lack of nutrients in the soil, leading to fewer, not more, plants for herbivores."
                 },
                 {
-                    "text": "The temperature of the ecosystem would increase dramatically",
+                    "text": "All plants would immediately die due to lack of carbon dioxide",
                     "isCorrect": 0,
-                    "explanation": "While decomposition produces some heat, the absence of decomposers would not significantly affect the ecosystem's temperature."
+                    "explanation": "While decomposers do release CO2, plants would still receive carbon dioxide from other sources like animal respiration and atmospheric CO2."
                 }
             ],
             "funFact": "A single teaspoon of healthy soil can contain over 1 billion bacteria, along with thousands of species of fungi and other microorganisms, all working together to decompose organic matter and recycle nutrients!"
         },
         {
             "id": 12,
-            "text": "In a grassland ecosystem, a disease causes a significant decline in the grass population. How would this change affect the rest of the ecosystem?",
+            "text": "An ecosystem has two different food relationships: (1) A simple food chain where grass \u2192 rabbits \u2192 foxes, and (2) A more complex food web where grass and shrubs \u2192 rabbits and mice \u2192 foxes and owls. Which system is likely to be more stable if the rabbit population suddenly decreases?",
             "options": [
                 {
-                    "text": "Only the zebras and deer would be affected since they directly eat grass",
+                    "text": "Both systems would be equally stable since they have the same number of trophic levels",
                     "isCorrect": 0,
-                    "explanation": "This answer overlooks the interconnected nature of food webs. Changes at producer level affect not just herbivores but also the carnivores that eat them and decomposers."
+                    "explanation": "The number of trophic levels alone doesn't determine stability - the interconnections between species play a crucial role"
                 },
                 {
-                    "text": "The population of all consumers would decrease, with the greatest impact on herbivores followed by carnivores",
+                    "text": "The simple food chain, because energy transfer is more direct and efficient",
+                    "isCorrect": 0,
+                    "explanation": "Simple food chains are actually less stable because if one species is affected, it directly impacts all other species in the chain with no alternative food sources"
+                },
+                {
+                    "text": "The complex food web, because predators have alternative food sources and the impact is distributed",
                     "isCorrect": 1,
-                    "explanation": "This is correct because less grass means less food for herbivores, leading to their population decline, which in turn means less food for carnivores. The effect cascades through the food web but diminishes at each level."
+                    "explanation": "Food webs provide multiple feeding relationships, so if rabbits decrease, predators can eat mice instead, helping maintain ecosystem balance"
                 },
                 {
-                    "text": "Only the apex predators would be affected since they control the ecosystem",
+                    "text": "Neither system would be stable because all ecosystems require rabbits",
                     "isCorrect": 0,
-                    "explanation": "While apex predators are important, they would not be the only ones affected. The impact starts at the producer level and affects all levels of consumers."
-                },
-                {
-                    "text": "The ecosystem would remain stable because animals can find other food sources",
-                    "isCorrect": 0,
-                    "explanation": "This incorrectly assumes that organisms can easily switch food sources. Many species are adapted to specific food sources and cannot readily change their diet."
+                    "explanation": "Ecosystems don't depend on any single species - many different species can fill similar roles in an ecosystem"
                 }
             ],
-            "funFact": "The largest recorded cascade effect in an ecosystem occurred in Yellowstone National Park when wolves were reintroduced. Their presence changed not only animal populations but even the flow of rivers due to changes in grazing patterns!"
+            "funFact": "The Arctic food web is so intricate that the loss of sea ice affects not just polar bears, but also affects plankton, fish, seals, and even land animals like Arctic foxes and snow owls, showing how interconnected species are in maintaining ecosystem stability."
         },
         {
             "id": 13,
-            "text": "What is the primary role of decomposers like bacteria and fungi in maintaining a healthy ecosystem?",
+            "text": "In a food chain, why is there typically a maximum of only 4 steps from producer to top predator?",
             "options": [
                 {
-                    "text": "They break down dead organisms and return nutrients to the soil for plants to use",
+                    "text": "Each level in the food chain loses energy as heat, leaving less energy available for the next level",
                     "isCorrect": 1,
-                    "explanation": "Decomposers play a crucial role by breaking down dead plants and animals, converting them into nutrients that enrich the soil and can be used by plants again, completing the nutrient cycle."
+                    "explanation": "When organisms use energy for life processes, some energy is released as heat at each level. This means less energy is available for organisms at higher levels."
                 },
                 {
-                    "text": "They produce their own food using sunlight like plants do",
+                    "text": "Decomposers break down the food chain after 4 steps",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - decomposers do not perform photosynthesis. Plants are the producers that make their own food using sunlight."
+                    "explanation": "While decomposers are important in recycling nutrients, they don't limit food chain length. The limitation comes from energy loss at each level."
                 },
                 {
-                    "text": "They hunt and eat other living organisms for food",
+                    "text": "The sun can only provide enough energy for 4 levels of organisms",
                     "isCorrect": 0,
-                    "explanation": "This describes predators, not decomposers. Decomposers break down dead organic matter rather than hunting living organisms."
+                    "explanation": "The sun provides abundant energy. The limitation comes from how that energy is lost as heat when transferred between levels, not from the initial amount of solar energy."
                 },
                 {
-                    "text": "They prevent new plants from growing in the ecosystem",
+                    "text": "Most animals prefer to eat plants directly rather than other animals",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - decomposers actually help plants grow by providing nutrients in the soil through decomposition of dead matter."
+                    "explanation": "This is incorrect. Many animals are carnivores and prefer eating other animals. The limit on food chain length is due to energy loss, not feeding preferences."
                 }
             ],
-            "funFact": "A single teaspoon of healthy soil can contain over 1 billion bacteria and several yards of fungal filaments, all working as decomposers to break down organic matter!"
+            "funFact": "Only about 10% of the energy from one trophic level is transferred to the next level in a food chain. This means that if plants capture 1000 units of energy from the sun, only 1 unit of that original energy would be available at the fourth trophic level!"
         },
         {
             "id": 14,
-            "text": "In a grassland ecosystem, what would likely happen if a disease caused the rabbit population to decrease significantly?",
+            "text": "In a forest ecosystem, if the owl population significantly decreases due to disease, which of the following changes would most likely occur?",
             "options": [
                 {
-                    "text": "The grass population would increase and fox population would decrease",
+                    "text": "Decomposer populations would immediately increase due to more dead owls",
+                    "isCorrect": 0,
+                    "explanation": "While decomposers would break down dead owls, this temporary increase would be minimal compared to the larger ecosystem changes caused by the reduction in predation."
+                },
+                {
+                    "text": "Snake population would decrease because owls are their main food source",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because snakes are not typically eaten by owls. Instead, both owls and snakes are predators that often eat similar prey like mice."
+                },
+                {
+                    "text": "Mouse population would increase, leading to more plant consumption and reduced plant population",
                     "isCorrect": 1,
-                    "explanation": "With fewer rabbits eating grass, the grass population would grow. Since foxes rely on rabbits for food, the fox population would decline due to reduced food availability."
+                    "explanation": "Owls are predators that control mouse populations. With fewer owls, mouse populations would grow, leading to increased consumption of plants and seeds, ultimately reducing plant populations."
                 },
                 {
-                    "text": "Both grass and fox populations would decrease",
+                    "text": "Plant population would increase because there are fewer owls eating plants",
                     "isCorrect": 0,
-                    "explanation": "While the fox population would decrease due to less food, the grass population would actually increase since there would be fewer rabbits eating it."
-                },
-                {
-                    "text": "Both grass and fox populations would increase",
-                    "isCorrect": 0,
-                    "explanation": "While the grass population would increase due to less grazing, the fox population would decrease due to less food availability, not increase."
-                },
-                {
-                    "text": "The grass population would decrease and fox population would increase",
-                    "isCorrect": 0,
-                    "explanation": "This is the opposite of what would happen. With fewer rabbits, grass would face less grazing pressure and increase, while foxes would have less food and decrease."
+                    "explanation": "This is incorrect because owls don't eat plants - they are carnivores. The impact on plants would actually be negative due to increased herbivore populations."
                 }
             ],
-            "funFact": "Population changes can have ripple effects throughout an ecosystem. In the 1990s, the reintroduction of wolves to Yellowstone National Park led to changes in elk behavior and population, which then affected tree growth, beaver populations, and even river patterns!"
+            "funFact": "A single owl can eat up to 1,000 mice per year! This shows how one predator species can have a massive impact on controlling prey populations and maintaining ecosystem balance."
         },
         {
             "id": 15,
             "text": "Which statement best explains why food webs provide a more accurate model of feeding relationships in ecosystems compared to food chains?",
             "options": [
                 {
-                    "text": "Food webs show multiple feeding relationships between organisms, while food chains only show a single linear sequence of who eats whom.",
-                    "isCorrect": 1,
-                    "explanation": "Food webs more accurately represent nature by showing how most organisms eat and are eaten by multiple species, creating an interconnected network of feeding relationships."
-                },
-                {
-                    "text": "Food webs only show predator-prey relationships, while food chains show all types of feeding relationships.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Food webs actually show all types of feeding relationships, including predator-prey, herbivore-plant, and decomposer relationships."
-                },
-                {
                     "text": "Food webs only focus on large animals, while food chains include all organisms in an ecosystem.",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Food webs include all organisms in an ecosystem, from tiny decomposers to large predators, while food chains show just one linear pathway."
                 },
                 {
+                    "text": "Food webs show multiple feeding relationships between organisms, while food chains only show a single linear sequence of who eats whom.",
+                    "isCorrect": 1,
+                    "explanation": "Food webs more accurately represent nature by showing how most organisms eat and are eaten by multiple species, creating an interconnected network of feeding relationships."
+                },
+                {
                     "text": "Food webs only show relationships during one season, while food chains show relationships throughout the year.",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Both food webs and food chains can show feeding relationships that occur throughout the year, but food webs show more complex interactions."
+                },
+                {
+                    "text": "Food webs only show predator-prey relationships, while food chains show all types of feeding relationships.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Food webs actually show all types of feeding relationships, including predator-prey, herbivore-plant, and decomposer relationships."
                 }
             ],
             "funFact": "The largest known food web studied by scientists contains over 700 species and nearly 16,000 feeding connections! It describes the marine ecosystem around Antarctica, which includes various types of plankton, fish, seals, whales, and many other organisms."

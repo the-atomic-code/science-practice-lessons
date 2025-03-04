@@ -4,67 +4,8 @@
     "questions": [
         {
             "id": 1,
-            "text": "When studying Earth's climate patterns, how can scientists determine if significant changes are occurring?",
-            "options": [
-                {
-                    "text": "By observing a single unusually hot day",
-                    "isCorrect": 0,
-                    "explanation": "A single hot day is just weather variation and doesn't indicate climate change. Climate patterns must be studied over long periods."
-                },
-                {
-                    "text": "By monitoring temperature changes over many years",
-                    "isCorrect": 1,
-                    "explanation": "Scientists can detect climate change by analyzing temperature patterns over long time periods, typically years or decades, to identify sustained changes."
-                },
-                {
-                    "text": "By checking daily weather forecasts",
-                    "isCorrect": 0,
-                    "explanation": "Daily weather forecasts show short-term variations in weather, not long-term climate patterns."
-                },
-                {
-                    "text": "By measuring rainfall for one month",
-                    "isCorrect": 0,
-                    "explanation": "One month of rainfall data is too short to determine climate changes. Climate patterns require years of data collection."
-                }
-            ],
-            "funFact": "The world's longest continuous temperature record comes from the Central England Temperature dataset, which has daily measurements dating back to 1772 - giving scientists over 250 years of data to study climate patterns!"
-        },
-        {
-            "id": 2,
-            "text": "A meteorologist notices that it has been much hotter than usual in their city for the past 5 years. Which of the following best describes what this observation indicates?",
-            "options": [
-                {
-                    "text": "A change in the climate of the region",
-                    "isCorrect": 1,
-                    "explanation": "Long-term changes in weather patterns over years indicate changes in climate. If temperatures are consistently higher for multiple years, this represents a climate change rather than just weather variation."
-                },
-                {
-                    "text": "A temporary weather pattern",
-                    "isCorrect": 0,
-                    "explanation": "Weather refers to day-to-day variations in atmospheric conditions. Five years of consistently higher temperatures is too long to be considered just a weather pattern."
-                },
-                {
-                    "text": "A normal summer season",
-                    "isCorrect": 0,
-                    "explanation": "While summers are typically warmer, unusually high temperatures persisting for 5 years across all seasons goes beyond normal seasonal patterns."
-                },
-                {
-                    "text": "A weather forecast error",
-                    "isCorrect": 0,
-                    "explanation": "Weather forecast errors are short-term prediction mistakes. Actual temperature measurements over 5 years represent real data, not forecast errors."
-                }
-            ],
-            "funFact": "Scientists study tree rings to learn about climate history! Each ring shows a year of growth - wider rings usually mean better growing conditions with warmer temperatures and more rainfall, while narrow rings often indicate colder or drier years."
-        },
-        {
-            "id": 3,
             "text": "Which of the following statements best explains how climate affects the plants and animals that can survive in a particular region?",
             "options": [
-                {
-                    "text": "The climate determines the long-term temperature and precipitation patterns that make an area suitable for specific plants and animals",
-                    "isCorrect": 1,
-                    "explanation": "Climate patterns over years determine what types of plants and animals can thrive in a region by establishing consistent conditions they need for survival."
-                },
                 {
                     "text": "Daily weather changes determine which plants and animals can live in an area",
                     "isCorrect": 0,
@@ -76,6 +17,11 @@
                     "explanation": "Most plants and animals are adapted to specific climate conditions over many generations and cannot quickly adapt to different climates."
                 },
                 {
+                    "text": "The climate determines the long-term temperature and precipitation patterns that make an area suitable for specific plants and animals",
+                    "isCorrect": 1,
+                    "explanation": "Climate patterns over years determine what types of plants and animals can thrive in a region by establishing consistent conditions they need for survival."
+                },
+                {
                     "text": "The types of plants and animals in a region have no relationship to the climate",
                     "isCorrect": 0,
                     "explanation": "There is a strong relationship between climate and the types of organisms that can survive in an area - they are highly dependent on climate conditions."
@@ -84,13 +30,67 @@
             "funFact": "The Arctic tundra and the Amazon rainforest have completely different sets of plants and animals because they have such different climates. While the tundra has animals like caribou adapted to extreme cold, the rainforest has species like toucans adapted to warm, wet conditions."
         },
         {
+            "id": 2,
+            "text": "How do meteorologists work together to make accurate weather predictions for large regions?",
+            "options": [
+                {
+                    "text": "They only use local weather station data from their immediate area",
+                    "isCorrect": 0,
+                    "explanation": "Using only local data would provide an incomplete picture since weather systems move across large regions"
+                },
+                {
+                    "text": "They make predictions based solely on historical weather patterns",
+                    "isCorrect": 0,
+                    "explanation": "While historical data is useful, current measurements and data from multiple sources are essential for accurate predictions"
+                },
+                {
+                    "text": "They collect data from multiple locations, share information, and use satellite data to make coordinated predictions",
+                    "isCorrect": 1,
+                    "explanation": "This collaborative approach allows meteorologists to track weather patterns across regions and make more accurate forecasts"
+                },
+                {
+                    "text": "Each meteorologist makes independent predictions without sharing data",
+                    "isCorrect": 0,
+                    "explanation": "Working independently would limit accuracy since weather patterns affect large areas and require comprehensive data collection"
+                }
+            ],
+            "funFact": "The first weather satellite, TIROS-1, was launched in 1960. Today, there are approximately 15-20 dedicated weather satellites in orbit, along with hundreds of other Earth observation satellites that help meteorologists track weather patterns and make forecasts worldwide!"
+        },
+        {
+            "id": 3,
+            "text": "A farmer is planning to grow crops in a new region. What climate information would be MOST helpful for the farmer to make successful crop choices?",
+            "options": [
+                {
+                    "text": "The average temperature and rainfall patterns over many years",
+                    "isCorrect": 1,
+                    "explanation": "Long-term climate data helps farmers choose crops that will thrive in the typical conditions of that region throughout their growing season."
+                },
+                {
+                    "text": "The current wind speed and direction",
+                    "isCorrect": 0,
+                    "explanation": "Current wind conditions are short-term weather data that don't help predict long-term growing conditions for crops."
+                },
+                {
+                    "text": "The daily weather forecast for the next week",
+                    "isCorrect": 0,
+                    "explanation": "Daily weather forecasts are too short-term to make long-term crop planning decisions. Farmers need to understand typical conditions over longer periods."
+                },
+                {
+                    "text": "Yesterday's highest and lowest temperatures",
+                    "isCorrect": 0,
+                    "explanation": "A single day's temperature range is weather data, not climate data, and is not useful for long-term crop planning."
+                }
+            ],
+            "funFact": "The world's oldest continuously operating weather station is at the Observatorium Hohenpei\u00dfenberg in Germany, which has been recording daily weather observations since 1781, providing invaluable information for agriculture and climate research!"
+        },
+        {
             "id": 4,
             "text": "How do tropical climates near the equator differ from polar climates?",
             "options": [
                 {
-                    "text": "Tropical climates are always warm while polar climates are very cold",
-                    "isCorrect": 1,
-                    "explanation": "Regions near the equator receive direct sunlight throughout the year, leading to consistently warm temperatures. Polar regions receive less direct sunlight, resulting in very cold temperatures with snow and ice coverage."
+                    "text": "Tropical climates change between hot and cold while polar climates stay the same",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Tropical climates maintain warm temperatures year-round, while polar climates maintain cold temperatures with some seasonal variation."
                 },
                 {
                     "text": "Tropical climates are very cold while polar climates are always warm",
@@ -103,42 +103,69 @@
                     "explanation": "This is incorrect. Tropical and polar climates have very different temperature patterns due to their different locations and amounts of sunlight received."
                 },
                 {
-                    "text": "Tropical climates change between hot and cold while polar climates stay the same",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Tropical climates maintain warm temperatures year-round, while polar climates maintain cold temperatures with some seasonal variation."
+                    "text": "Tropical climates are always warm while polar climates are very cold",
+                    "isCorrect": 1,
+                    "explanation": "Regions near the equator receive direct sunlight throughout the year, leading to consistently warm temperatures. Polar regions receive less direct sunlight, resulting in very cold temperatures with snow and ice coverage."
                 }
             ],
             "funFact": "The Arctic and Antarctic (polar regions) can experience periods of 24-hour darkness in winter and 24-hour daylight in summer due to Earth's tilt, while tropical regions near the equator have roughly equal day and night lengths throughout the year!"
         },
         {
             "id": 5,
-            "text": "In San Diego, California, the climate is generally warm and sunny throughout the year. However, on a particular day in June, it was cloudy with light rain. Which statement best explains this situation?",
+            "text": "How do scientists determine if a region's climate is changing over time?",
             "options": [
                 {
-                    "text": "The daily weather can vary from the typical climate pattern",
+                    "text": "By observing weather conditions for a single day",
+                    "isCorrect": 0,
+                    "explanation": "A single day's weather observation is too short to determine climate change. Weather varies day-to-day and doesn't reflect long-term patterns."
+                },
+                {
+                    "text": "By comparing weather data collected over many years",
                     "isCorrect": 1,
-                    "explanation": "While climate describes long-term weather patterns, daily weather can fluctuate. A single rainy day in an otherwise sunny climate is a normal weather variation."
+                    "explanation": "Scientists analyze weather patterns over long periods, typically years, to identify changes in climate. This helps distinguish between normal weather variations and true climate changes."
                 },
                 {
-                    "text": "The climate of San Diego must have permanently changed",
+                    "text": "By watching the daily weather forecast",
                     "isCorrect": 0,
-                    "explanation": "Climate changes occur over many years, not based on a single day's weather. One rainy day doesn't indicate a climate change."
+                    "explanation": "Daily weather forecasts only predict short-term conditions and don't provide enough information about long-term climate patterns."
                 },
                 {
-                    "text": "The weather and climate must always match exactly",
+                    "text": "By measuring temperature during one season",
                     "isCorrect": 0,
-                    "explanation": "Weather and climate don't always match exactly. Climate is the average over years, while weather can vary day-to-day."
-                },
-                {
-                    "text": "It's impossible to have rain in a warm climate",
-                    "isCorrect": 0,
-                    "explanation": "Warm climates can still experience rainfall. Many tropical regions have both warm temperatures and frequent precipitation."
+                    "explanation": "Measuring temperature for just one season is insufficient. Climate patterns must be studied across multiple seasons over many years."
                 }
             ],
-            "funFact": "In Miami, Florida, which has a warm, sunny climate, it actually rains more often than in Seattle, Washington, which is famous for its rainy climate! Miami averages 61.9 inches of rain annually while Seattle averages 37.7 inches."
+            "funFact": "The world's longest continuous temperature record comes from the Central England Temperature dataset, which has daily measurements dating back to 1772! This extensive record helps scientists understand how climate has changed over centuries."
         },
         {
             "id": 6,
+            "text": "In a remote village in northern Alaska, people build houses with thick insulation, small windows, and raised foundations. What does this suggest about the climate in this region?",
+            "options": [
+                {
+                    "text": "The climate has frequent rainfall and high humidity",
+                    "isCorrect": 0,
+                    "explanation": "While this climate would require some building adaptations, the specific features mentioned (thick insulation, small windows) are more typical of cold climate adaptations"
+                },
+                {
+                    "text": "The climate is consistently cold with frequent snowfall",
+                    "isCorrect": 1,
+                    "explanation": "These building adaptations are typical responses to a cold climate - thick insulation retains heat, small windows minimize heat loss, and raised foundations prevent permafrost melting"
+                },
+                {
+                    "text": "The climate is hot and dry year-round",
+                    "isCorrect": 0,
+                    "explanation": "Hot climates typically call for different building adaptations like large windows for ventilation and thin walls to release heat, not the features described"
+                },
+                {
+                    "text": "The climate changes drastically every month",
+                    "isCorrect": 0,
+                    "explanation": "While weather can vary day-to-day, these permanent building features suggest adapting to a consistent climate pattern rather than frequent changes"
+                }
+            ],
+            "funFact": "The coldest permanently inhabited place on Earth is Oymyakon, Russia, where buildings are similarly designed to cope with winter temperatures that can drop below -60\u00b0F (-51\u00b0C)!"
+        },
+        {
+            "id": 7,
             "text": "A weather station recorded the following average monthly temperatures over 10 years for a mystery location:\n\nJan: 82\u00b0F\nFeb: 82\u00b0F\nMar: 83\u00b0F\nApr: 84\u00b0F\nMay: 83\u00b0F\nJun: 82\u00b0F\nJul: 81\u00b0F\nAug: 82\u00b0F\nSep: 82\u00b0F\nOct: 82\u00b0F\nNov: 81\u00b0F\nDec: 81\u00b0F\n\nWhat type of climate does this location most likely have?",
             "options": [
                 {
@@ -147,14 +174,14 @@
                     "explanation": "The consistently high temperatures around 82\u00b0F throughout the year with very little variation is characteristic of a tropical climate near the equator."
                 },
                 {
-                    "text": "Polar",
-                    "isCorrect": 0,
-                    "explanation": "Polar climates have very cold temperatures year-round, often below freezing, not the warm temperatures shown here."
-                },
-                {
                     "text": "Subtropical",
                     "isCorrect": 0,
                     "explanation": "While subtropical climates are warm, they show more seasonal temperature variation than what is shown in this data."
+                },
+                {
+                    "text": "Polar",
+                    "isCorrect": 0,
+                    "explanation": "Polar climates have very cold temperatures year-round, often below freezing, not the warm temperatures shown here."
                 },
                 {
                     "text": "Desert",
@@ -165,36 +192,19 @@
             "funFact": "The most stable temperatures on Earth are found in the tropical rainforest of Singapore, where the average monthly temperature varies by only about 2\u00b0F throughout the entire year!"
         },
         {
-            "id": 7,
-            "text": "In a coastal city, the daily weather reports show temperatures varying between 60\u00b0F and 75\u00b0F during June. Over the past 30 years, June temperatures in this city have typically ranged from 65\u00b0F to 70\u00b0F. Which statement best describes the relationship between weather and climate in this city?",
-            "options": [
-                {
-                    "text": "The daily temperature variations represent the climate, while the 30-year pattern represents the weather.",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the definitions of weather and climate. Weather refers to daily variations, while climate describes long-term patterns."
-                },
-                {
-                    "text": "The daily temperature variations represent the weather, while the 30-year pattern represents the climate.",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Weather describes day-to-day variations in conditions, while climate refers to long-term patterns observed over many years."
-                },
-                {
-                    "text": "Both the daily variations and 30-year pattern represent weather since they both measure temperature.",
-                    "isCorrect": 0,
-                    "explanation": "Temperature measurements alone don't determine whether something is weather or climate - the time scale is what matters."
-                },
-                {
-                    "text": "Neither represents weather or climate since they only measure temperature and not other conditions.",
-                    "isCorrect": 0,
-                    "explanation": "Temperature is one of several important measurements for both weather and climate, even if used alone."
-                }
-            ],
-            "funFact": "The longest continuous weather records in the world come from the Central England Temperature series, which has daily temperature readings dating back to 1772! This extensive dataset helps scientists understand both weather patterns and climate changes over centuries."
-        },
-        {
             "id": 8,
             "text": "In a certain region, scientists observe the following characteristics:\n- Plants with thick, waxy leaves that store water\n- Animals that are mostly nocturnal (active at night)\n- Very few tall trees\n- Many small rodents that burrow underground\n- Plants with long root systems\n\nWhich type of climate would you expect in this region?",
             "options": [
+                {
+                    "text": "Coastal climate",
+                    "isCorrect": 0,
+                    "explanation": "Coastal climates usually have plants adapted to salt spray and high moisture, not water conservation. The described characteristics suggest adaptations to dry conditions."
+                },
+                {
+                    "text": "Polar climate",
+                    "isCorrect": 0,
+                    "explanation": "Polar climates are characterized by plants and animals adapted to extreme cold, not heat and drought. Polar regions typically have plants that grow close to the ground and animals with thick fur."
+                },
                 {
                     "text": "Desert climate",
                     "isCorrect": 1,
@@ -204,159 +214,144 @@
                     "text": "Tropical climate",
                     "isCorrect": 0,
                     "explanation": "Tropical climates typically have abundant rainfall and dense vegetation with many tall trees, unlike the characteristics described which show adaptations to dry conditions."
-                },
-                {
-                    "text": "Polar climate",
-                    "isCorrect": 0,
-                    "explanation": "Polar climates are characterized by plants and animals adapted to extreme cold, not heat and drought. Polar regions typically have plants that grow close to the ground and animals with thick fur."
-                },
-                {
-                    "text": "Coastal climate",
-                    "isCorrect": 0,
-                    "explanation": "Coastal climates usually have plants adapted to salt spray and high moisture, not water conservation. The described characteristics suggest adaptations to dry conditions."
                 }
             ],
             "funFact": "The Namibian desert beetle has evolved a unique way to survive in extremely dry conditions - it collects water from morning fog on its bumpy back! The water droplets roll down the bumps straight into the beetle's mouth."
         },
         {
             "id": 9,
-            "text": "A region near the coast has high mountains on one side and ocean on the other side. Which climate pattern would you most likely expect in this region?",
+            "text": "In a coastal city, the daily weather reports show temperatures varying between 60\u00b0F and 75\u00b0F during June. Over the past 30 years, June temperatures in this city have typically ranged from 65\u00b0F to 70\u00b0F. Which statement best describes the relationship between weather and climate in this city?",
             "options": [
                 {
-                    "text": "Consistent temperatures year-round with moderate rainfall due to ocean effects",
+                    "text": "The daily temperature variations represent the weather, while the 30-year pattern represents the climate.",
                     "isCorrect": 1,
-                    "explanation": "Coastal areas typically have more moderate temperatures due to the ocean's influence. The mountains can trap moisture from the ocean, leading to regular rainfall patterns."
+                    "explanation": "Correct! Weather describes day-to-day variations in conditions, while climate refers to long-term patterns observed over many years."
                 },
                 {
-                    "text": "Extreme temperature variations between seasons with very little rainfall",
+                    "text": "Neither represents weather or climate since they only measure temperature and not other conditions.",
                     "isCorrect": 0,
-                    "explanation": "This pattern is more characteristic of mid-continental regions far from oceans. Coastal areas usually have more moderate temperature variations."
+                    "explanation": "Temperature is one of several important measurements for both weather and climate, even if used alone."
                 },
                 {
-                    "text": "Constant high temperatures with almost no rainfall throughout the year",
+                    "text": "Both the daily variations and 30-year pattern represent weather since they both measure temperature.",
                     "isCorrect": 0,
-                    "explanation": "This pattern is more typical of desert regions. Coastal areas with mountains usually receive regular rainfall from ocean moisture."
+                    "explanation": "Temperature measurements alone don't determine whether something is weather or climate - the time scale is what matters."
                 },
                 {
-                    "text": "Below freezing temperatures year-round with heavy snowfall",
+                    "text": "The daily temperature variations represent the climate, while the 30-year pattern represents the weather.",
                     "isCorrect": 0,
-                    "explanation": "This climate pattern is more characteristic of polar regions. Coastal areas generally have more moderate temperatures due to ocean influences."
+                    "explanation": "This reverses the definitions of weather and climate. Weather refers to daily variations, while climate describes long-term patterns."
                 }
             ],
-            "funFact": "The world's largest temperate rainforest, the Pacific Temperate Rainforest, exists because of this exact geographical setup - ocean meeting mountains along the coast. It stretches from Alaska to Northern California and receives enormous amounts of rainfall each year!"
+            "funFact": "The longest continuous weather records in the world come from the Central England Temperature series, which has daily temperature readings dating back to 1772! This extensive dataset helps scientists understand both weather patterns and climate changes over centuries."
         },
         {
             "id": 10,
-            "text": "Scientists have recorded the following temperature data for a coastal city over the past 30 years:\n- Average summer temperature has increased by 3\u00b0F\n- Number of days over 90\u00b0F per year has doubled\n- Winter temperatures show small random variations year to year\n\nWhat does this data most likely indicate?",
+            "text": "In San Diego, California, the temperature is usually warm and mild throughout the year, averaging around 70\u00b0F (21\u00b0C). However, today's weather report shows it will be an unusually cold 55\u00b0F (13\u00b0C) with rain. What does this tell us about the difference between weather and climate?",
             "options": [
                 {
-                    "text": "Normal weather variations that occur naturally",
+                    "text": "The weather and climate are the same thing, so this must be a mistake in the forecast",
                     "isCorrect": 0,
-                    "explanation": "Weather variations are short-term changes that happen day-to-day or season-to-season. The consistent increase over 30 years is too long to be weather variation."
+                    "explanation": "Weather and climate are different - weather is short-term daily conditions while climate is the long-term average pattern."
                 },
                 {
-                    "text": "A shift in the region's climate",
+                    "text": "Cold weather is impossible in San Diego's climate",
+                    "isCorrect": 0,
+                    "explanation": "While San Diego's climate is typically warm, its weather can still vary and include occasional cold days. No climate completely prevents weather variations."
+                },
+                {
+                    "text": "San Diego's climate is changing because of this cold day",
+                    "isCorrect": 0,
+                    "explanation": "A single day of unusual weather doesn't indicate climate change. Climate patterns are measured over many years, not individual days."
+                },
+                {
+                    "text": "The weather today contradicts San Diego's climate, showing that day-to-day weather can vary from typical climate patterns",
                     "isCorrect": 1,
-                    "explanation": "The sustained temperature changes over 30 years represent long-term climate patterns rather than short-term weather variations. The consistent warming trend indicates climate change."
-                },
-                {
-                    "text": "Temporary effects of ocean currents",
-                    "isCorrect": 0,
-                    "explanation": "While ocean currents can affect temperatures, their effects are usually shorter-term. The 30-year consistent trend is too long to be explained by temporary ocean current changes."
-                },
-                {
-                    "text": "Regular seasonal temperature cycles",
-                    "isCorrect": 0,
-                    "explanation": "Seasonal cycles repeat yearly and don't show a continuous increasing trend over decades. This data shows a long-term warming pattern beyond normal seasonal changes."
+                    "explanation": "This is correct. Climate represents long-term patterns, while weather can vary daily. One cold day doesn't change San Diego's overall warm climate."
                 }
             ],
-            "funFact": "The world's longest continuous temperature record comes from the Central England Temperature dataset, which has daily measurements dating back to 1772! This kind of long-term data helps scientists understand how climate changes over time."
+            "funFact": "The city of San Diego experiences what meteorologists call a 'Mediterranean climate,' characterized by warm, dry summers and mild winters. This type of climate is found in only five regions of the world!"
         },
         {
             "id": 11,
-            "text": "Three different locations show the following characteristics:\n\nLocation A:\n- Trees with large leaves to capture sunlight\n- Colorful birds and insects active year-round\n- Continuous plant growth and flowering\n\nLocation B:\n- Animals with thick white fur\n- Plants that stay small and close to the ground\n- Very few insects or flowering plants\n\nLocation C:\n- Plants that can survive periods of drought\n- Animals active during cooler parts of day\n- Moderate seasonal changes\n\nWhich climate zone matches each location?",
+            "text": "A town in Minnesota typically experiences average summer temperatures around 75\u00b0F (24\u00b0C). During one week in July, the temperatures were unusually cold, ranging from 55-60\u00b0F (13-16\u00b0C). Local residents are debating whether this indicates climate change. Which statement best explains this situation?",
             "options": [
                 {
-                    "text": "Location A: Tropical, Location B: Polar, Location C: Subtropical",
+                    "text": "This indicates the climate is changing to become colder",
+                    "isCorrect": 0,
+                    "explanation": "Climate changes are identified through data collected over many years, not from a single week of unusual temperatures."
+                },
+                {
+                    "text": "Summer temperatures should never vary this much from the average",
+                    "isCorrect": 0,
+                    "explanation": "Daily and weekly weather naturally varies from average temperatures, even during summer months."
+                },
+                {
+                    "text": "The temperature measurements must be incorrect",
+                    "isCorrect": 0,
+                    "explanation": "While unusual, these temperatures are possible and represent normal weather variability, not measurement errors."
+                },
+                {
+                    "text": "This cold week represents a short-term weather variation, not a climate change",
                     "isCorrect": 1,
-                    "explanation": "The continuous growth and year-round activity in Location A matches tropical climates. The thick fur and limited plant life in Location B indicates polar climate. Location C's adaptations for heat and moderate seasons match subtropical regions."
-                },
-                {
-                    "text": "Location A: Subtropical, Location B: Tropical, Location C: Polar",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The continuous growth in Location A isn't typical of subtropical regions. Location B's adaptations for extreme cold don't match tropical climates. Location C's drought adaptations don't match polar conditions."
-                },
-                {
-                    "text": "Location A: Polar, Location B: Subtropical, Location C: Tropical",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The year-round activity in Location A doesn't match polar conditions. Location B's thick fur and limited vegetation isn't characteristic of subtropical regions. Location C's seasonal changes aren't typical of tropical climates."
+                    "explanation": "Weather varies day-to-day while climate represents long-term patterns over years. One cold week is too short to indicate climate change."
                 }
             ],
-            "funFact": "Animals and plants often develop similar adaptations in similar climates, even when they're on different continents! This is called convergent evolution - where different species independently evolve similar traits to cope with similar environmental challenges."
+            "funFact": "The largest recorded temperature swing in a single day occurred in Loma, Montana, where the temperature rose from -54\u00b0F to +49\u00b0F (-48\u00b0C to +9\u00b0C) in just 24 hours on January 15, 1972!"
         },
         {
             "id": 12,
-            "text": "Different regions on Earth experience varying temperature ranges throughout the year. Which of these locations typically shows the greatest difference between its warmest and coldest months?",
+            "text": "Scientists have collected temperature and rainfall data for two different cities over the past 10 years. City A's average monthly temperatures vary between 75-80\u00b0F in summer and 65-70\u00b0F in winter, with rainfall of 3-4 inches per month throughout the year. City B's temperatures range from 85-95\u00b0F in summer and 35-45\u00b0F in winter, with rainfall varying from 1-2 inches in winter to 8-10 inches in summer months. Which city has a more stable climate?",
             "options": [
                 {
-                    "text": "A coastal city near the equator",
-                    "isCorrect": 0,
-                    "explanation": "Equatorial regions maintain relatively stable temperatures year-round due to consistent solar radiation and moderating effects of nearby oceans."
-                },
-                {
-                    "text": "A city in the middle of a large continent far from the equator",
+                    "text": "City A",
                     "isCorrect": 1,
-                    "explanation": "Continental regions far from the equator experience extreme temperature variations between seasons due to significant differences in solar radiation and lack of oceanic influence."
+                    "explanation": "City A shows less variation in both temperature and rainfall throughout the year, indicating a more stable climate pattern that can be used to make reliable predictions."
                 },
                 {
-                    "text": "A small island in the Pacific Ocean",
+                    "text": "Both cities have equally stable climates",
                     "isCorrect": 0,
-                    "explanation": "Islands surrounded by ocean have relatively stable temperatures throughout the year because water moderates temperature extremes."
+                    "explanation": "The data shows clear differences in stability - City A has much smaller variations in both temperature and rainfall compared to City B."
                 },
                 {
-                    "text": "A city along the Mediterranean coast",
+                    "text": "City B",
                     "isCorrect": 0,
-                    "explanation": "Mediterranean coastal regions have moderate temperature variations due to the sea's influence, which helps keep winters mild and summers from getting too hot."
+                    "explanation": "City B shows large variations in both temperature (60\u00b0F range) and rainfall (up to 9 inches difference), indicating a less stable climate with more extreme seasonal changes."
                 }
             ],
-            "funFact": "The city of Verkhoyansk in Russia holds one of the world's records for the greatest temperature range, where temperatures can vary from about -70\u00b0F in winter to 100\u00b0F in summer - that's a difference of 170\u00b0F!"
+            "funFact": "Some of the most stable climates in the world are found near the equator, where temperatures and rainfall remain relatively constant throughout the year. For example, Singapore experiences temperature variations of only about 2\u00b0C (3.6\u00b0F) between its warmest and coolest months!"
         },
         {
             "id": 13,
-            "text": "Commonwealth Bay in Antarctica experiences average wind speeds of 50 mph. If scientists observe several days with wind speeds of only 5-10 mph during winter, this would most likely represent:",
+            "text": "A city has experienced unusually high temperatures for the past 5 years, with average summer temperatures 3\u00b0F higher than historical records. The city's meteorologists have recorded the following observations:\n- Daily temperatures continue to fluctuate normally between hot and cool days\n- The 5-year trend shows consistently higher average temperatures compared to the previous 25 years\n- Similar temperature increases are observed in nearby cities\n\nWhat do these observations most likely indicate?",
             "options": [
                 {
-                    "text": "A typical variation in daily weather",
+                    "text": "A change in the region's climate",
                     "isCorrect": 1,
-                    "explanation": "Daily weather conditions can vary significantly from the climate average. Even in very windy areas, occasional calm days are normal weather variations."
+                    "explanation": "The sustained increase in average temperatures over multiple years, affecting multiple cities in the region, indicates a climate change rather than normal weather variations."
                 },
                 {
-                    "text": "A permanent change in climate",
+                    "text": "A malfunction in temperature measuring equipment",
                     "isCorrect": 0,
-                    "explanation": "A few days of unusual conditions don't indicate climate change. Climate patterns are measured over many years, not just days or weeks."
+                    "explanation": "Equipment malfunction is unlikely since multiple cities show the same trend, and daily temperature fluctuations are still recorded normally."
                 },
                 {
-                    "text": "A sign that the climate records are incorrect",
+                    "text": "A temporary weather pattern",
                     "isCorrect": 0,
-                    "explanation": "Short-term variations don't invalidate long-term climate data. Weather stations have accurately recorded Commonwealth Bay's consistently high average wind speeds."
+                    "explanation": "Weather patterns typically show short-term variations over days or weeks, not consistent changes over multiple years across an entire region."
                 },
                 {
-                    "text": "The start of a new climate pattern",
+                    "text": "An urban heat island effect",
                     "isCorrect": 0,
-                    "explanation": "Climate patterns can't be determined from a few calm days. Climate changes are identified through data collected over many years."
+                    "explanation": "While urban areas can be warmer than surrounding areas, this effect wouldn't explain similar temperature increases in multiple cities over a 5-year period."
                 }
             ],
-            "funFact": "The strong winds in Commonwealth Bay are called katabatic winds - they occur when cold, dense air from the Antarctic plateau flows downhill towards the coast due to gravity, reaching incredibly high speeds!"
+            "funFact": "Scientists can study past climates going back thousands of years by analyzing ice cores from glaciers, which trap tiny air bubbles containing information about ancient temperatures and atmospheric conditions!"
         },
         {
             "id": 14,
             "text": "Two weather stations, Station A and Station B, recorded temperature readings for 30 days in July. Station A's temperatures ranged from 75\u00b0F to 85\u00b0F. Station B's temperatures varied between 65\u00b0F and 95\u00b0F. Which station showed more day-to-day weather variability?",
             "options": [
-                {
-                    "text": "Station A showed more variability with a 10\u00b0F range",
-                    "isCorrect": 0,
-                    "explanation": "A smaller temperature range (10\u00b0F) indicates less variability in daily weather conditions"
-                },
                 {
                     "text": "Station B showed more variability with a 30\u00b0F range",
                     "isCorrect": 1,
@@ -368,6 +363,11 @@
                     "explanation": "The stations had different temperature ranges (10\u00b0F vs 30\u00b0F), showing different levels of variability"
                 },
                 {
+                    "text": "Station A showed more variability with a 10\u00b0F range",
+                    "isCorrect": 0,
+                    "explanation": "A smaller temperature range (10\u00b0F) indicates less variability in daily weather conditions"
+                },
+                {
                     "text": "Variability cannot be determined from temperature ranges",
                     "isCorrect": 0,
                     "explanation": "Temperature range is a valid indicator of weather variability when comparing locations over the same time period"
@@ -377,30 +377,30 @@
         },
         {
             "id": 15,
-            "text": "A farmer in northern Canada wants to start growing crops. Which climate factor should be most important in deciding what crops to plant?",
+            "text": "Scientists are studying two regions: Region A receives less than 1 inch of rain every few years and has very few plants, while Region B receives daily rainfall and has dense vegetation. How do these rainfall patterns affect the types of organisms that can survive in each region?",
             "options": [
                 {
-                    "text": "The average yearly temperature of the region",
+                    "text": "Region A would support more diverse life forms than Region B because organisms prefer dry conditions",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Regions with very little rainfall like Region A typically support less biodiversity because water is essential for life processes."
+                },
+                {
+                    "text": "Both regions would support the same types of organisms because rainfall doesn't affect biodiversity",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Rainfall patterns significantly influence which organisms can survive in an area, affecting both plant and animal life."
+                },
+                {
+                    "text": "Region B would support more diverse life forms because regular rainfall provides the water needed for many different organisms",
                     "isCorrect": 1,
-                    "explanation": "Temperature is crucial in northern regions as many crops require specific temperature ranges to grow successfully. The cold climate of northern Canada limits which crops can survive and thrive there."
+                    "explanation": "Correct! Regular rainfall in Region B allows for greater biodiversity because water is essential for life processes and supports a variety of plant life, which in turn supports many animal species."
                 },
                 {
-                    "text": "The daily changes in wind direction",
+                    "text": "Neither region would support life because organisms need moderate rainfall to survive",
                     "isCorrect": 0,
-                    "explanation": "While wind patterns can affect farming, daily wind changes are part of weather variations rather than climate patterns and are less crucial for long-term crop planning."
-                },
-                {
-                    "text": "The color of the soil",
-                    "isCorrect": 0,
-                    "explanation": "Though soil quality matters for farming, it's not a climate factor and can often be modified with fertilizers and amendments. Climate conditions are more limiting for crop selection."
-                },
-                {
-                    "text": "The distance to the nearest city",
-                    "isCorrect": 0,
-                    "explanation": "The distance to urban areas affects transportation and marketing but is not a climate factor that determines which crops can survive in the region."
+                    "explanation": "This is incorrect. While moderate rainfall is ideal for many organisms, both very dry and very wet regions can support life - just different types adapted to those conditions."
                 }
             ],
-            "funFact": "Some farmers in cold climates use greenhouses to create artificial microclimates, allowing them to grow crops that wouldn't normally survive in their region. The world's northernmost greenhouse is located in Svalbard, Norway, just 650 miles from the North Pole!"
+            "funFact": "The variety of life forms that can exist in an area is called biodiversity. The Amazon Rainforest, which receives abundant rainfall, contains about 10% of all known species on Earth, while some desert regions might only have a few hundred species adapted to survive with minimal water!"
         }
     ]
 }

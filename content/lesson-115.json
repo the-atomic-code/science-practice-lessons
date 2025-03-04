@@ -4,17 +4,44 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which key difference between the North and South Polar zones affects their climate patterns?",
+            "text": "At which latitude lines does the Tropical Zone lie on Earth?",
             "options": [
                 {
-                    "text": "The North Pole is covered by an ocean while the South Pole is a continent",
-                    "isCorrect": 1,
-                    "explanation": "The Arctic Ocean in the north can moderate temperatures through heat exchange with water, while Antarctica's continental landmass leads to more extreme cold conditions"
+                    "text": "Between 66.5\u00b0N and 66.5\u00b0S",
+                    "isCorrect": 0,
+                    "explanation": "These latitude lines mark the Arctic and Antarctic Circles, which are much farther from the Equator than the Tropical Zone"
                 },
+                {
+                    "text": "Between 30\u00b0N and 30\u00b0S",
+                    "isCorrect": 0,
+                    "explanation": "This range extends beyond the Tropical Zone into the subtropical regions"
+                },
+                {
+                    "text": "Between 0\u00b0 (Equator) and 45\u00b0N",
+                    "isCorrect": 0,
+                    "explanation": "This only covers part of the Northern Hemisphere and doesn't include the Southern portion of the Tropical Zone"
+                },
+                {
+                    "text": "Between 23.5\u00b0N (Tropic of Cancer) and 23.5\u00b0S (Tropic of Capricorn)",
+                    "isCorrect": 1,
+                    "explanation": "The Tropical Zone is bounded by these two latitude lines, with the Equator running through its middle at 0\u00b0"
+                }
+            ],
+            "funFact": "The Tropical Zone makes up about 36% of Earth's surface and is home to approximately one-third of the world's population. This region experiences only two seasons - wet and dry - instead of the four seasons found in temperate regions!"
+        },
+        {
+            "id": 2,
+            "text": "Which key difference between the North and South Polar zones affects their climate patterns?",
+            "options": [
                 {
                     "text": "The South Pole receives more sunlight than the North Pole",
                     "isCorrect": 0,
                     "explanation": "Both poles receive similar amounts of sunlight based on their latitudes, with seasonal variations due to Earth's tilt"
+                },
+                {
+                    "text": "The South Pole has more ice coverage than the North Pole",
+                    "isCorrect": 0,
+                    "explanation": "While Antarctica has more permanent ice coverage, this is a result of it being a continent rather than an inherent polar zone characteristic"
                 },
                 {
                     "text": "The North Pole has stronger wind patterns than the South Pole",
@@ -22,49 +49,44 @@
                     "explanation": "Wind patterns at both poles are influenced by similar factors like the Coriolis effect and global circulation patterns"
                 },
                 {
-                    "text": "The South Pole has more ice coverage than the North Pole",
-                    "isCorrect": 0,
-                    "explanation": "While Antarctica has more permanent ice coverage, this is a result of it being a continent rather than an inherent polar zone characteristic"
+                    "text": "The North Pole is covered by an ocean while the South Pole is a continent",
+                    "isCorrect": 1,
+                    "explanation": "The Arctic Ocean in the north can moderate temperatures through heat exchange with water, while Antarctica's continental landmass leads to more extreme cold conditions"
                 }
             ],
             "funFact": "The average thickness of Antarctic ice is about 2,133 meters (7,000 feet), which is more than twice the average elevation of the United States above sea level!"
         },
         {
-            "id": 2,
-            "text": "What explains the formation of rainforests and deserts based on air movement patterns?",
+            "id": 3,
+            "text": "Which statement best describes how climate zones are distributed on Earth from the equator to the poles?",
             "options": [
                 {
-                    "text": "Rainforests form where air rises and water vapor condenses, while deserts form where air sinks and becomes drier",
+                    "text": "The Temperate Zone lies at the equator, with Tropical Zones in the mid-latitudes, and Polar Zones at the poles",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly places the Temperate Zone at the equator and Tropical Zones in mid-latitudes. The Tropical Zone is actually centered on the equator."
+                },
+                {
+                    "text": "The Tropical Zone lies between the Tropic of Cancer and Tropic of Capricorn, followed by Temperate Zones in the mid-latitudes, and Polar Zones near the poles",
                     "isCorrect": 1,
-                    "explanation": "Rising air leads to condensation and precipitation, creating wet conditions for rainforests. Sinking air prevents precipitation and creates dry conditions for deserts."
+                    "explanation": "This correctly describes the progression of climate zones from the equator to the poles. The Tropical Zone experiences consistent warmth, Temperate Zones have varying climates, and Polar Zones are consistently cold."
                 },
                 {
-                    "text": "Rainforests form where air sinks and water vapor condenses, while deserts form where air rises and becomes drier",
+                    "text": "Climate zones are randomly distributed across Earth with no specific pattern from equator to poles",
                     "isCorrect": 0,
-                    "explanation": "This reverses the correct relationship. Sinking air actually prevents condensation and precipitation, while rising air promotes it."
+                    "explanation": "Climate zones follow a clear pattern based on latitude due to differences in solar energy received at different distances from the equator."
                 },
                 {
-                    "text": "Both rainforests and deserts form in areas where air rises and water vapor condenses",
+                    "text": "The Tropical Zone is only at the equator, followed directly by Polar Zones extending to both poles",
                     "isCorrect": 0,
-                    "explanation": "Rising air and condensation lead to wet conditions suitable for rainforests, not deserts which require dry conditions from sinking air."
-                },
-                {
-                    "text": "Both rainforests and deserts form in areas where air sinks and becomes drier",
-                    "isCorrect": 0,
-                    "explanation": "Sinking air and dry conditions are only associated with desert formation. Rainforests require rising air and condensation."
+                    "explanation": "This is incorrect as it omits the Temperate Zones, which exist between the Tropical and Polar zones and cover significant portions of Earth's surface."
                 }
             ],
-            "funFact": "The world's largest hot desert (Sahara) is in Africa, while the largest rainforest (Amazon) is in South America. These dramatic contrasts demonstrate how global air circulation patterns create entirely different climate zones at similar latitudes on different continents."
+            "funFact": "While the Tropical Zone only extends about 23.5 degrees north and south of the equator, it contains approximately 36% of Earth's landmass and is home to roughly one-third of the world's population!"
         },
         {
-            "id": 3,
+            "id": 4,
             "text": "Which factor primarily drives ocean currents near the surface of the Earth?",
             "options": [
-                {
-                    "text": "Global wind patterns",
-                    "isCorrect": 1,
-                    "explanation": "Surface ocean currents are primarily driven by global wind patterns. These winds create friction with the water surface, causing the water to move and form currents."
-                },
                 {
                     "text": "Moon's gravitational pull",
                     "isCorrect": 0,
@@ -76,6 +98,11 @@
                     "explanation": "While ocean floor features can influence the direction and speed of currents, they are not the primary driver of surface ocean currents."
                 },
                 {
+                    "text": "Global wind patterns",
+                    "isCorrect": 1,
+                    "explanation": "Surface ocean currents are primarily driven by global wind patterns. These winds create friction with the water surface, causing the water to move and form currents."
+                },
+                {
                     "text": "Water temperature differences",
                     "isCorrect": 0,
                     "explanation": "Temperature differences primarily drive deep ocean currents through density changes, but surface currents are mainly driven by global wind patterns."
@@ -84,85 +111,58 @@
             "funFact": "The Gulf Stream, one of Earth's strongest ocean currents, transports about 100 times more water than all the world's rivers combined and moves at speeds of up to 5.6 miles per hour!"
         },
         {
-            "id": 4,
-            "text": "When air is heated near Earth's surface, what typically happens to its density and movement?",
-            "options": [
-                {
-                    "text": "The heated air becomes less dense and rises, while cooler air sinks to take its place",
-                    "isCorrect": 1,
-                    "explanation": "When air is heated, its molecules spread out, making it less dense than the surrounding cooler air. This causes the warm air to rise while denser cool air sinks to fill the space, creating convection currents."
-                },
-                {
-                    "text": "The heated air becomes more dense and sinks, while cooler air rises to take its place",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Heating air causes it to become less dense, not more dense. Hot air rises because it is less dense than cool air."
-                },
-                {
-                    "text": "The heated air remains at the same level and moves horizontally only",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Changes in air temperature lead to vertical movement due to density differences, not just horizontal movement."
-                },
-                {
-                    "text": "The heated air and cool air mix together and stay at the same level",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Different temperature air masses don't simply mix and stay at the same level - they create vertical movement patterns based on their density differences."
-                }
-            ],
-            "funFact": "This principle of hot air rising is what allows hot air balloons to float! By heating the air inside the balloon, it becomes less dense than the surrounding cool air, causing the balloon to rise. When the air is allowed to cool, the balloon descends."
-        },
-        {
             "id": 5,
-            "text": "Why do regions in the Tropical Zone experience only two seasons (wet and dry) while regions in the Temperate Zone experience four distinct seasons?",
+            "text": "In which direction do air currents get deflected due to the Coriolis effect?",
             "options": [
                 {
-                    "text": "The Tropical Zone receives consistent direct sunlight throughout the year, leading to stable temperatures with variations only in precipitation patterns",
+                    "text": "To the right in both hemispheres",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While air currents are deflected to the right in the Northern Hemisphere, they are deflected to the left in the Southern Hemisphere."
+                },
+                {
+                    "text": "To the left in both hemispheres",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While air currents are deflected to the left in the Southern Hemisphere, they are deflected to the right in the Northern Hemisphere."
+                },
+                {
+                    "text": "To the right in the Northern Hemisphere and to the left in the Southern Hemisphere",
                     "isCorrect": 1,
-                    "explanation": "The Tropical Zone gets direct sunlight year-round due to its location between the Tropics of Cancer and Capricorn, resulting in constant warm temperatures. Seasonal changes are based on rainfall patterns rather than temperature variations."
+                    "explanation": "Due to Earth's rotation, air currents are deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This deflection creates global wind patterns that influence climate."
                 },
                 {
-                    "text": "The Tropical Zone is closer to the ocean, which creates only two seasons",
+                    "text": "To the left in the Northern Hemisphere and to the right in the Southern Hemisphere",
                     "isCorrect": 0,
-                    "explanation": "Proximity to oceans affects climate but is not the reason for two seasons. Both coastal and inland areas in the Tropical Zone experience wet and dry seasons."
-                },
-                {
-                    "text": "The rotation of Earth only affects seasonal changes in the Temperate Zone",
-                    "isCorrect": 0,
-                    "explanation": "Earth's rotation affects all climate zones. The tilt of Earth's axis and its revolution around the Sun create seasonal changes, but the effect varies by latitude."
-                },
-                {
-                    "text": "The Tropical Zone has stronger winds that prevent the formation of four seasons",
-                    "isCorrect": 0,
-                    "explanation": "Wind patterns influence climate but are not responsible for the number of seasons. The two seasons in the Tropical Zone are due to consistent solar radiation patterns."
+                    "explanation": "This is incorrect. The deflection directions are reversed. The Coriolis effect causes deflection to the right in the Northern Hemisphere and to the left in the Southern Hemisphere."
                 }
             ],
-            "funFact": "The wet season in tropical rainforests can receive up to 100 inches of rainfall annually, which is why these regions support some of the most diverse ecosystems on Earth despite having only two seasons!"
+            "funFact": "The Coriolis effect is so significant that it even influences the rotation direction of large hurricanes - they spin counterclockwise in the Northern Hemisphere and clockwise in the Southern Hemisphere!"
         },
         {
             "id": 6,
-            "text": "On Mount Everest, a climber observes temperature changes while ascending from base camp to the summit. Which statement best explains why the temperature generally decreases as altitude increases?",
+            "text": "Why does the equator experience significantly higher average temperatures compared to the polar regions throughout the year?",
             "options": [
                 {
-                    "text": "The air becomes less dense at higher altitudes, resulting in less heat energy being retained",
+                    "text": "The equator is physically closer to the Sun than the poles",
+                    "isCorrect": 0,
+                    "explanation": "The difference in distance from the Sun between the equator and poles is negligible compared to the total distance from Earth to the Sun. The temperature difference is due to the angle of incoming sunlight, not distance."
+                },
+                {
+                    "text": "The equator's surface is naturally better at absorbing heat",
+                    "isCorrect": 0,
+                    "explanation": "The ability to absorb heat depends on surface properties like color and material, not latitude. The temperature difference is due to the angle of incoming solar radiation."
+                },
+                {
+                    "text": "The Sun's rays strike the equator more directly (at a steeper angle), concentrating more solar energy in a smaller area",
                     "isCorrect": 1,
-                    "explanation": "At higher altitudes, air pressure is lower, causing air to expand and cool (adiabatic cooling). Additionally, the air becomes thinner and less dense, which means fewer air molecules are present to hold heat energy, leading to lower temperatures"
+                    "explanation": "When sunlight hits Earth at a steeper angle (closer to 90\u00b0), more energy is concentrated in a smaller area, leading to higher temperatures. This happens consistently at the equator."
                 },
                 {
-                    "text": "The mountain blocks sunlight from reaching higher altitudes, causing them to be colder",
+                    "text": "The equator has less atmosphere for sunlight to travel through",
                     "isCorrect": 0,
-                    "explanation": "Higher altitudes actually receive similar or sometimes more direct sunlight than lower altitudes. The temperature decrease is related to air density, not blocked sunlight"
-                },
-                {
-                    "text": "Snow and ice at higher altitudes make the temperature colder",
-                    "isCorrect": 0,
-                    "explanation": "While snow and ice can contribute to cold temperatures, they are a result of the cold temperatures at high altitudes, not the primary cause"
-                },
-                {
-                    "text": "Wind speeds are faster at higher altitudes, which removes all the heat",
-                    "isCorrect": 0,
-                    "explanation": "Although winds can affect how cold it feels, the primary reason for temperature decrease with altitude is the decrease in air density and pressure"
+                    "explanation": "The thickness of the atmosphere is relatively constant around Earth. The temperature difference is caused by the angle at which sunlight strikes Earth's surface, not atmospheric thickness."
                 }
             ],
-            "funFact": "For every 1,000 meters (3,281 feet) increase in altitude, the temperature typically drops by about 6.5\u00b0C (11.7\u00b0F). This rate of temperature change with altitude is known as the environmental lapse rate!"
+            "funFact": "The temperature difference between the equator and poles drives global wind patterns known as the trade winds, which were crucial for sailing ships during the age of exploration and still influence global weather patterns today!"
         },
         {
             "id": 7,
@@ -174,9 +174,9 @@
                     "explanation": "Desert regions experience larger temperature variations because land heats up and cools down more quickly than water. Coastal areas have more moderate temperature changes due to the ocean's ability to absorb and release heat slowly."
                 },
                 {
-                    "text": "Both cities will experience the same temperature variations regardless of their location",
+                    "text": "Temperature variations in both cities will depend only on their latitude",
                     "isCorrect": 0,
-                    "explanation": "Location greatly affects temperature variations. The presence of large water bodies significantly influences local temperature patterns, so these cities would not experience the same variations."
+                    "explanation": "While latitude affects average temperatures, local geography like proximity to water bodies plays a crucial role in daily temperature variations. The presence of oceans or large land masses significantly impacts temperature patterns."
                 },
                 {
                     "text": "City B will experience larger temperature swings between day and night compared to City A",
@@ -184,71 +184,54 @@
                     "explanation": "This is incorrect because oceans moderate temperature changes in coastal areas. The ocean's high heat capacity means it takes longer to heat up and cool down, leading to smaller temperature variations in nearby coastal areas."
                 },
                 {
-                    "text": "Temperature variations in both cities will depend only on their latitude",
+                    "text": "Both cities will experience the same temperature variations regardless of their location",
                     "isCorrect": 0,
-                    "explanation": "While latitude affects average temperatures, local geography like proximity to water bodies plays a crucial role in daily temperature variations. The presence of oceans or large land masses significantly impacts temperature patterns."
+                    "explanation": "Location greatly affects temperature variations. The presence of large water bodies significantly influences local temperature patterns, so these cities would not experience the same variations."
                 }
             ],
             "funFact": "The world's most extreme temperature variations tend to occur in continental deserts far from oceans. For example, in the Lout Desert of Iran, surface temperatures can swing from scorching hot to near freezing in a single day due to the absence of water bodies to moderate temperatures!"
         },
         {
             "id": 8,
-            "text": "A mountain range runs north-south along the western coast of a continent. The western side of the mountains receives abundant rainfall throughout the year, while the eastern side experiences much drier conditions. What best explains this rainfall pattern?",
+            "text": "San Francisco (USA) and Lisbon (Portugal) are both coastal cities located at approximately 38\u00b0N latitude, yet they experience different climate patterns. San Francisco has cool summers with average July temperatures around 18\u00b0C (64\u00b0F), while Lisbon has warm summers with average July temperatures around 24\u00b0C (75\u00b0F). What best explains this temperature difference?",
             "options": [
                 {
-                    "text": "Moist air from the ocean rises up the western slope, cools and releases precipitation, then descends as dry air on the eastern side",
+                    "text": "San Francisco receives less direct sunlight throughout the year",
+                    "isCorrect": 0,
+                    "explanation": "At the same latitude, both cities receive similar amounts of direct sunlight throughout the year. The temperature difference is mainly due to the different ocean currents affecting each city's climate."
+                },
+                {
+                    "text": "San Francisco has more cloudy days than Lisbon",
+                    "isCorrect": 0,
+                    "explanation": "While cloud cover can affect temperature, it is not the primary reason for this consistent temperature difference. Ocean currents play a much more significant role in creating these regional climate patterns."
+                },
+                {
+                    "text": "Lisbon is closer to the equator than San Francisco",
+                    "isCorrect": 0,
+                    "explanation": "Both cities are at approximately the same latitude (38\u00b0N), so their distance from the equator is nearly identical. The temperature difference is primarily due to the influence of different ocean currents."
+                },
+                {
+                    "text": "The cold California Current flows along San Francisco's coast while the warm Gulf Stream influences Lisbon's climate",
                     "isCorrect": 1,
-                    "explanation": "This is the rain shadow effect. As warm, moist air is forced up the mountain, it cools and condenses, causing precipitation on the windward side. The now-dry air descends on the leeward side, creating drier conditions."
-                },
-                {
-                    "text": "The eastern side is closer to the equator and therefore receives less rainfall",
-                    "isCorrect": 0,
-                    "explanation": "Rainfall patterns in this case are not determined by distance from the equator, but by the interaction between air masses and the mountain range."
-                },
-                {
-                    "text": "Ocean currents only carry moisture to the western side of mountains",
-                    "isCorrect": 0,
-                    "explanation": "While ocean currents influence climate, this rainfall pattern is caused by the mountain's effect on air movement, not ocean currents directly."
-                },
-                {
-                    "text": "The mountain blocks sunlight from reaching the eastern side, preventing evaporation and rainfall",
-                    "isCorrect": 0,
-                    "explanation": "Mountains do not significantly block sunlight to create rainfall patterns. The pattern is caused by the movement and cooling of air masses over the mountain."
+                    "explanation": "Ocean currents strongly influence coastal climates. The cold California Current brings cool water from the north along the western U.S. coast, moderating San Francisco's temperatures. Lisbon is influenced by the North Atlantic Drift (an extension of the Gulf Stream system), which helps maintain warmer waters near European shores, leading to warmer temperatures."
                 }
             ],
-            "funFact": "The driest desert in North America, Death Valley, exists partially due to this rain shadow effect. Multiple mountain ranges to its west force air to drop its moisture before reaching the valley, creating an extremely arid environment with less than 2 inches of rain annually."
+            "funFact": "Ocean currents transport an enormous amount of heat around the planet. The Gulf Stream alone carries about 100 times more energy than all the world's power plants combined, making it one of Earth's most powerful climate-regulating features!"
         },
         {
             "id": 9,
-            "text": "A scientist is conducting an experiment to compare how different surfaces absorb solar energy. She sets up identical containers with equal amounts of water, soil, and ice under direct sunlight for 1 hour. Which statement correctly describes how these surfaces will respond to solar heating?",
-            "options": [
-                {
-                    "text": "The soil temperature will increase most rapidly, followed by water, then ice",
-                    "isCorrect": 1,
-                    "explanation": "Soil heats up most quickly because it has a lower heat capacity than water and absorbs solar energy more readily. Water changes temperature more slowly due to its high heat capacity, while ice requires additional energy for phase change."
-                },
-                {
-                    "text": "The water temperature will increase most rapidly, followed by soil, then ice",
-                    "isCorrect": 0,
-                    "explanation": "Water actually heats up more slowly than soil due to its higher heat capacity, which means it requires more energy to increase its temperature by the same amount."
-                },
-                {
-                    "text": "All three surfaces will heat up at the same rate",
-                    "isCorrect": 0,
-                    "explanation": "Different surfaces have different heat capacities and reflective properties, causing them to absorb and retain heat at different rates."
-                },
-                {
-                    "text": "The ice temperature will increase most rapidly, followed by water, then soil",
-                    "isCorrect": 0,
-                    "explanation": "Ice actually warms up most slowly because energy is first used for phase change (melting) before temperature increase can occur."
-                }
-            ],
-            "funFact": "The reason oceans moderate coastal climates is due to water's high heat capacity. It takes about 4 times more energy to raise the temperature of water by 1\u00b0C compared to the same mass of soil!"
-        },
-        {
-            "id": 10,
             "text": "What best explains why many tropical rainforests form near the equator where air masses rise, while deserts often form around 30\u00b0 latitude where air masses sink?",
             "options": [
+                {
+                    "text": "Rising air is warmer which plants prefer, while sinking air is colder making it harder for plants to grow",
+                    "isCorrect": 0,
+                    "explanation": "Temperature alone does not determine rainforest or desert formation. The crucial factor is how air movement affects water vapor and precipitation patterns."
+                },
+                {
+                    "text": "Rising air moves faster and brings more nutrients from the soil, while sinking air moves slower and removes nutrients",
+                    "isCorrect": 0,
+                    "explanation": "The speed of air movement and soil nutrients are not the primary factors in rainforest or desert formation. The relationship between air movement and water vapor is the key."
+                },
                 {
                     "text": "Rising air causes water vapor to condense and form precipitation, while sinking air leads to drier conditions as water vapor dissipates",
                     "isCorrect": 1,
@@ -258,78 +241,127 @@
                     "text": "Rising air contains more oxygen which plants need, while sinking air has less oxygen making plant growth difficult",
                     "isCorrect": 0,
                     "explanation": "The amount of oxygen in rising versus sinking air is not what determines rainforest or desert formation. The key factor is the behavior of water vapor in these air movements."
-                },
-                {
-                    "text": "Rising air moves faster and brings more nutrients from the soil, while sinking air moves slower and removes nutrients",
-                    "isCorrect": 0,
-                    "explanation": "The speed of air movement and soil nutrients are not the primary factors in rainforest or desert formation. The relationship between air movement and water vapor is the key."
-                },
-                {
-                    "text": "Rising air is warmer which plants prefer, while sinking air is colder making it harder for plants to grow",
-                    "isCorrect": 0,
-                    "explanation": "Temperature alone does not determine rainforest or desert formation. The crucial factor is how air movement affects water vapor and precipitation patterns."
                 }
             ],
             "funFact": "The world's largest desert, the Sahara, and one of the largest rainforests, the Amazon, form at these different latitudes due to global air circulation patterns called Hadley cells. These cells create predictable bands of rising and sinking air around the Earth!"
         },
         {
-            "id": 11,
-            "text": "How do the effects of solar radiation on climate patterns differ between tropical and temperate zones throughout the year?",
+            "id": 10,
+            "text": "On Mount Everest, a climber observes temperature changes while ascending from base camp to the summit. Which statement best explains why the temperature generally decreases as altitude increases?",
             "options": [
                 {
-                    "text": "Tropical zones experience consistent temperatures year-round due to direct sunlight, while temperate zones have seasonal variations due to changing solar angles",
+                    "text": "Snow and ice at higher altitudes make the temperature colder",
+                    "isCorrect": 0,
+                    "explanation": "While snow and ice can contribute to cold temperatures, they are a result of the cold temperatures at high altitudes, not the primary cause"
+                },
+                {
+                    "text": "Wind speeds are faster at higher altitudes, which removes all the heat",
+                    "isCorrect": 0,
+                    "explanation": "Although winds can affect how cold it feels, the primary reason for temperature decrease with altitude is the decrease in air density and pressure"
+                },
+                {
+                    "text": "The mountain blocks sunlight from reaching higher altitudes, causing them to be colder",
+                    "isCorrect": 0,
+                    "explanation": "Higher altitudes actually receive similar or sometimes more direct sunlight than lower altitudes. The temperature decrease is related to air density, not blocked sunlight"
+                },
+                {
+                    "text": "The air becomes less dense at higher altitudes, resulting in less heat energy being retained",
                     "isCorrect": 1,
-                    "explanation": "The tropical zone receives direct sunlight year-round, leading to stable warm temperatures. Temperate zones receive varying angles of sunlight throughout the year, causing distinct seasonal temperature changes."
-                },
-                {
-                    "text": "Both tropical and temperate zones experience the same seasonal temperature variations throughout the year",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because tropical zones maintain relatively stable temperatures while temperate zones experience significant seasonal changes."
-                },
-                {
-                    "text": "Tropical zones experience more extreme seasonal changes than temperate zones",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the actual pattern. Tropical zones have more stable temperatures while temperate zones experience greater seasonal variations."
-                },
-                {
-                    "text": "Temperate zones receive more direct sunlight than tropical zones throughout the year",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because tropical zones receive more direct sunlight throughout the year compared to temperate zones."
+                    "explanation": "At higher altitudes, air pressure is lower, causing air to expand and cool (adiabatic cooling). Additionally, the air becomes thinner and less dense, which means fewer air molecules are present to hold heat energy, leading to lower temperatures"
                 }
             ],
-            "funFact": "The most stable temperatures on Earth are found near the equator, where daily temperature variations often exceed seasonal temperature variations. For example, in Singapore, the difference between the average temperature of the hottest and coolest months is only about 2\u00b0C (3.6\u00b0F)!"
+            "funFact": "For every 1,000 meters (3,281 feet) increase in altitude, the temperature typically drops by about 6.5\u00b0C (11.7\u00b0F). This rate of temperature change with altitude is known as the environmental lapse rate!"
+        },
+        {
+            "id": 11,
+            "text": "How does the distribution of solar energy across different latitudes affect Earth's climate zones?",
+            "options": [
+                {
+                    "text": "Polar regions receive more concentrated solar energy than equatorial regions, creating colder temperatures at the equator",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Polar regions actually receive less concentrated solar energy than equatorial regions, which is why they have colder temperatures."
+                },
+                {
+                    "text": "Solar energy only affects daytime temperatures and has no impact on climate zones",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Solar energy distribution is a primary factor in determining climate zones, affecting both day and night temperatures as well as precipitation patterns."
+                },
+                {
+                    "text": "Areas near the equator receive more direct sunlight and have higher temperatures, while polar regions receive less direct sunlight and have lower temperatures",
+                    "isCorrect": 1,
+                    "explanation": "Correct! The equator receives more direct sunlight (hitting at a 90\u00b0 angle), concentrating solar energy in a smaller area. Polar regions receive sunlight at a smaller angle, spreading the same amount of energy over a larger area."
+                },
+                {
+                    "text": "Solar energy is distributed equally across all latitudes, resulting in uniform climate zones worldwide",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Solar energy is not distributed equally across latitudes. The angle at which sunlight hits Earth varies by latitude, affecting the amount of energy received."
+                }
+            ],
+            "funFact": "The difference in solar energy received between the equator and poles is so significant that the equator can receive up to 2.5 times more solar energy per square meter than the polar regions!"
         },
         {
             "id": 12,
-            "text": "Which statement correctly explains the relationship between air movement patterns and the formation of rainforests and deserts?",
+            "text": "How do oceanic and atmospheric circulation patterns work together to create distinct regional climates on Earth?",
             "options": [
                 {
-                    "text": "Rising air leads to desert formation because water vapor evaporates quickly, while sinking air creates rainforests due to moisture accumulation",
+                    "text": "Ocean currents and wind patterns stay confined within specific latitude bands and don't transfer heat between different climate zones",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. The relationship is actually the opposite - rising air leads to rainforest formation while sinking air leads to desert formation."
+                    "explanation": "Circulation patterns transport heat and moisture across latitude bands rather than staying confined within them"
                 },
                 {
-                    "text": "Rising air creates rainforests through cloud formation and precipitation, while sinking air creates deserts through reduced moisture content",
+                    "text": "Ocean currents only move north to south while wind patterns only move east to west, creating separate circulation systems that don't interact",
+                    "isCorrect": 0,
+                    "explanation": "Ocean currents and wind patterns move in multiple directions and interact with each other in complex ways rather than being limited to single directions"
+                },
+                {
+                    "text": "Ocean currents and wind patterns move randomly across the Earth's surface, randomly distributing heat and moisture to different regions",
+                    "isCorrect": 0,
+                    "explanation": "Circulation patterns are not random but follow predictable patterns based on density differences, Earth's rotation, and other physical factors"
+                },
+                {
+                    "text": "Ocean currents and air masses flow from areas of higher density to lower density, distributing heat globally through a complex system of clockwise circulation in the Northern Hemisphere and counterclockwise in the Southern Hemisphere",
                     "isCorrect": 1,
-                    "explanation": "Correct! When air rises, water vapor condenses to form clouds and precipitation, leading to rainforest formation. When air sinks, moisture is reduced, creating dry conditions that can form deserts."
-                },
-                {
-                    "text": "Neither rising nor sinking air affects the formation of rainforests and deserts, which are determined solely by latitude",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Air movement patterns play a crucial role in determining precipitation and moisture levels that lead to the formation of different climate features."
-                },
-                {
-                    "text": "Both rising and sinking air create similar conditions that can lead to either rainforests or deserts depending on the temperature",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Rising and sinking air create distinctly different conditions - rising air increases moisture while sinking air reduces it, leading to different climate features."
+                    "explanation": "This correctly describes how density differences drive circulation patterns that distribute heat globally, with the Coriolis effect causing directional patterns in each hemisphere"
                 }
             ],
-            "funFact": "The world's largest rainforest, the Amazon, experiences a remarkable phenomenon called 'flying rivers' - massive amounts of water vapor that rise from the forest canopy and travel through the atmosphere, carrying more water than the Amazon River itself!"
+            "funFact": "The Gulf Stream, one of Earth's major ocean currents, transports about 100 times more water than all of Earth's rivers combined and helps keep Northern Europe much warmer than other regions at similar latitudes!"
         },
         {
             "id": 13,
+            "text": "How does the presence of large water bodies influence the climate of coastal regions compared to continental interiors?",
+            "options": [
+                {
+                    "text": "Continental interiors have more stable temperatures due to their distance from variable ocean temperatures",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Continental interiors actually experience more extreme temperature variations due to the absence of water bodies' moderating effect."
+                },
+                {
+                    "text": "Coastal regions experience smaller temperature variations compared to continental interiors due to water's thermal properties",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Water can absorb and release heat more slowly than land, which moderates temperature changes in coastal areas throughout the year."
+                },
+                {
+                    "text": "Coastal regions experience more extreme temperature variations than continental interiors due to ocean currents",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Coastal regions actually experience more moderate temperature variations due to water's higher heat capacity and ability to regulate temperatures."
+                },
+                {
+                    "text": "Coastal regions and continental interiors experience identical temperature patterns regardless of water bodies",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The presence of large water bodies significantly affects temperature patterns, creating distinct differences between coastal and interior regions."
+                }
+            ],
+            "funFact": "The moderating effect of oceans on coastal climates is so significant that locations at the same latitude can have vastly different climates. For example, London, UK (51\u00b0N) has much milder winters than Irkutsk, Russia (52\u00b0N), despite being at similar latitudes, due to London's proximity to the Atlantic Ocean and the warm Gulf Stream current."
+        },
+        {
+            "id": 14,
             "text": "In the North Atlantic Ocean, the Gulf Stream carries warm water from the Caribbean Sea towards Europe. How does this ocean current influence the climate of Western Europe?",
             "options": [
+                {
+                    "text": "Western Europe has more extreme seasonal temperature changes due to the current's temperature variations",
+                    "isCorrect": 0,
+                    "explanation": "Ocean currents actually help moderate temperature extremes rather than causing them, due to water's high heat capacity"
+                },
                 {
                     "text": "Western Europe experiences milder winters than regions at similar latitudes in North America due to heat transfer from the warm current",
                     "isCorrect": 1,
@@ -344,68 +376,36 @@
                     "text": "The climate of Western Europe is unaffected by ocean currents because land temperatures are controlled only by latitude",
                     "isCorrect": 0,
                     "explanation": "This ignores the significant influence of ocean currents on coastal climates through heat and moisture transfer between water and air"
-                },
-                {
-                    "text": "Western Europe has more extreme seasonal temperature changes due to the current's temperature variations",
-                    "isCorrect": 0,
-                    "explanation": "Ocean currents actually help moderate temperature extremes rather than causing them, due to water's high heat capacity"
                 }
             ],
             "funFact": "Cities like London, which lies at about 51\u00b0N latitude, have much milder winters than Canadian cities at similar latitudes. For example, London's average January temperature is 5\u00b0C (41\u00b0F), while Saskatoon, Saskatchewan at 52\u00b0N has an average January temperature of -17\u00b0C (1.4\u00b0F)!"
         },
         {
-            "id": 14,
-            "text": "What key difference between the Arctic and Antarctic regions significantly influences their climate patterns?",
-            "options": [
-                {
-                    "text": "The Arctic is dominated by an ocean surrounded by land masses, while Antarctica is a continent surrounded by ocean",
-                    "isCorrect": 1,
-                    "explanation": "This fundamental geographic difference creates distinct climate patterns. The ocean in the Arctic moderates temperature fluctuations, while Antarctica's continental ice sheet leads to more extreme and stable cold conditions."
-                },
-                {
-                    "text": "The Arctic experiences constant daylight while Antarctica experiences constant darkness",
-                    "isCorrect": 0,
-                    "explanation": "Both polar regions actually experience similar patterns of seasonal daylight and darkness due to Earth's tilt. This is not the key difference affecting their climate patterns."
-                },
-                {
-                    "text": "The Arctic has higher average temperatures than Antarctica year-round",
-                    "isCorrect": 0,
-                    "explanation": "While the Arctic generally has milder temperatures than Antarctica, this is a result of the fundamental geographic difference, not the primary difference itself."
-                },
-                {
-                    "text": "The Arctic has more precipitation than Antarctica throughout the year",
-                    "isCorrect": 0,
-                    "explanation": "While precipitation patterns differ between the poles, this is a consequence of their geographic configurations rather than the primary difference between these regions."
-                }
-            ],
-            "funFact": "Antarctica is the coldest, windiest, and driest continent on Earth. Despite being surrounded by ocean, its interior receives less precipitation than the Sahara Desert, technically making it a cold desert!"
-        },
-        {
             "id": 15,
-            "text": "When observing global wind patterns, how does the Coriolis effect influence wind direction differently in the Northern and Southern hemispheres?",
+            "text": "At which latitude would solar radiation deliver the most thermal energy per unit area of Earth's surface?",
             "options": [
                 {
-                    "text": "Winds deflect to the right in the Northern Hemisphere and to the left in the Southern Hemisphere",
+                    "text": "0\u00b0 (Equator)",
                     "isCorrect": 1,
-                    "explanation": "Due to Earth's rotation, the Coriolis effect causes winds to curve to the right in the Northern Hemisphere and to the left in the Southern Hemisphere, creating distinct circulation patterns"
+                    "explanation": "At the Equator, solar radiation strikes Earth's surface at a 90\u00b0 angle, delivering maximum energy per unit area since the rays are most concentrated and travel through less atmosphere."
                 },
                 {
-                    "text": "Winds deflect to the left in the Northern Hemisphere and to the right in the Southern Hemisphere",
+                    "text": "23.5\u00b0 South",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - the direction of deflection is opposite to what actually occurs due to the Coriolis effect"
+                    "explanation": "At 23.5\u00b0 South (Tropic of Capricorn), solar radiation strikes at an angle, delivering less energy per unit area than at the Equator, though more than at higher latitudes."
                 },
                 {
-                    "text": "Winds move straight from north to south in both hemispheres",
+                    "text": "45\u00b0 North",
                     "isCorrect": 0,
-                    "explanation": "Wind patterns are not straight - they are curved due to the Coriolis effect caused by Earth's rotation"
+                    "explanation": "At 45\u00b0 North, solar radiation strikes Earth's surface at an angle, spreading the same amount of energy over a larger area and resulting in less energy per unit area than at the Equator."
                 },
                 {
-                    "text": "Wind direction is not affected by the Coriolis effect in either hemisphere",
+                    "text": "90\u00b0 North (North Pole)",
                     "isCorrect": 0,
-                    "explanation": "The Coriolis effect significantly impacts wind patterns in both hemispheres, causing predictable deflections"
+                    "explanation": "At the North Pole, solar radiation strikes Earth's surface at a very low angle, spreading the same amount of energy over the largest possible area and resulting in minimal energy per unit area."
                 }
             ],
-            "funFact": "The Coriolis effect is so powerful that it even influences the rotation of hurricanes - they spin counterclockwise in the Northern Hemisphere and clockwise in the Southern Hemisphere!"
+            "funFact": "The difference in solar energy received at various latitudes is so significant that the Equator receives about 2.5 times more solar energy per unit area than the poles, leading to the distinct temperature patterns we observe in tropical and polar regions!"
         }
     ]
 }

@@ -4,66 +4,93 @@
     "questions": [
         {
             "id": 1,
-            "text": "When someone unexpectedly claps their hands near you, what are two possible ways your brain might process this sensory information?",
+            "text": "How do electrical impulses in the nervous system help transmit sensory information?",
             "options": [
                 {
-                    "text": "You might jump immediately AND store the memory to be more prepared next time",
-                    "isCorrect": 1,
-                    "explanation": "The brain can process sensory information both for immediate responses (like jumping) and create memories for future situations."
+                    "text": "Electrical impulses stay in one place and vibrate to communicate information",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - electrical impulses must travel through nerve cells to transmit information, they don't simply vibrate in place"
                 },
+                {
+                    "text": "Electrical impulses only store memories but don't cause immediate responses",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because electrical signals can lead to both immediate behavioral responses and memory storage in the brain"
+                },
+                {
+                    "text": "Electrical impulses travel from sensory receptors through nerve cells to the brain, allowing for immediate responses or memory storage",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how electrical signals from sensory receptors are transmitted through neurons to the brain, where they can trigger immediate reactions or be stored as memories"
+                },
+                {
+                    "text": "Electrical impulses only travel from the brain to muscles, causing movement",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because signals travel both to and from the brain - sensory information travels from receptors to the brain, while motor commands travel from brain to muscles"
+                }
+            ],
+            "funFact": "The speed at which electrical impulses travel through your neurons can reach up to 268 miles per hour! This incredible speed allows your body to react almost instantly to stimuli like touching something hot or hearing a sudden loud noise."
+        },
+        {
+            "id": 2,
+            "text": "When someone unexpectedly claps their hands near you, what are two possible ways your brain might process this sensory information?",
+            "options": [
                 {
                     "text": "You might jump immediately but cannot form any memory of the event",
                     "isCorrect": 0,
                     "explanation": "The brain can both create immediate responses and store memories - these processes aren't mutually exclusive."
                 },
                 {
-                    "text": "You can only store the memory but cannot react immediately",
-                    "isCorrect": 0,
-                    "explanation": "The brain is capable of producing immediate responses to stimuli, not just storing memories of events."
+                    "text": "You might jump immediately AND store the memory to be more prepared next time",
+                    "isCorrect": 1,
+                    "explanation": "The brain can process sensory information both for immediate responses (like jumping) and create memories for future situations."
                 },
                 {
                     "text": "Neither immediate reaction nor memory formation is possible from sudden sounds",
                     "isCorrect": 0,
                     "explanation": "Our sensory receptors and brain are well-equipped to both react to and remember sudden sensory inputs like loud sounds."
+                },
+                {
+                    "text": "You can only store the memory but cannot react immediately",
+                    "isCorrect": 0,
+                    "explanation": "The brain is capable of producing immediate responses to stimuli, not just storing memories of events."
                 }
             ],
             "funFact": "The time between hearing a sudden sound and your body's startled response is incredibly fast - just 20-40 milliseconds! This quick reaction, known as the acoustic startle reflex, happens before you're even consciously aware of the sound."
         },
         {
-            "id": 2,
-            "text": "Which type of stimulus would be detected by the sensory receptors in your ears when you hear a loud car horn?",
+            "id": 3,
+            "text": "When someone accidentally touches a hot stove, they quickly pull their hand away. Later, they are more cautious around stoves. How does this experience affect their future behavior?",
             "options": [
                 {
-                    "text": "Mechanical stimulus",
+                    "text": "The brain stores the painful experience as a memory, which helps them recognize and avoid similar dangers in the future",
                     "isCorrect": 1,
-                    "explanation": "Sound waves are mechanical vibrations that travel through the air and are detected by specialized receptors in our ears."
+                    "explanation": "The sensory receptors in the skin send pain signals to the brain, which processes and stores this experience as a memory. This stored information helps in making safer decisions when encountering similar situations later."
                 },
                 {
-                    "text": "Chemical stimulus",
+                    "text": "The hand develops permanent resistance to heat, preventing future burns",
                     "isCorrect": 0,
-                    "explanation": "Chemical stimuli are detected by receptors in our nose and tongue for smell and taste, not by our ears."
+                    "explanation": "The skin does not develop permanent heat resistance from a burn. The change in behavior comes from the brain learning from and remembering the experience, not from physical changes in the hand."
                 },
                 {
-                    "text": "Electromagnetic stimulus",
+                    "text": "The pain receptors become permanently more sensitive to all temperatures",
                     "isCorrect": 0,
-                    "explanation": "Electromagnetic stimuli like light are detected by receptors in our eyes, not by our ears."
+                    "explanation": "Pain receptors don't become permanently more sensitive after a burn. The changed behavior comes from the brain learning from and remembering the experience, not from changes in the sensory receptors."
                 },
                 {
-                    "text": "Thermal stimulus",
+                    "text": "The muscles in the hand remember the movement and automatically pull away from all objects",
                     "isCorrect": 0,
-                    "explanation": "Thermal (temperature) stimuli are detected by receptors in our skin, not by our ears."
+                    "explanation": "Muscles don't have memory. The brain processes and stores the experience, allowing for selective responses to potentially dangerous situations, not automatic withdrawal from all objects."
                 }
             ],
-            "funFact": "The human ear can detect sounds ranging from 20 to 20,000 Hertz, but some animals like dolphins can hear sounds up to 100,000 Hertz! This helps them use echolocation to navigate and find food underwater."
+            "funFact": "The time between touching something hot and pulling away your hand is incredibly fast - about 0.3 seconds! This rapid response is called a reflex arc, where signals travel directly through the spinal cord before reaching the brain, allowing for super-quick reactions to protect us from harm."
         },
         {
-            "id": 3,
+            "id": 4,
             "text": "When you accidentally touch a hot pan on the stove, what body systems work together to make you quickly pull your hand away?",
             "options": [
                 {
-                    "text": "The nervous system and muscular system work together - nerves detect the heat and send signals to your brain, which then signals muscles to move your hand",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. The nervous system's sensory receptors detect the heat stimulus and send signals to the brain, which then sends commands through motor neurons to the muscles to contract and move the hand away."
+                    "text": "The digestive system and circulatory system work together to provide energy for moving the hand",
+                    "isCorrect": 0,
+                    "explanation": "While these systems support body functions, the immediate reaction to heat involves the nervous system detecting the stimulus and the muscular system executing the movement."
                 },
                 {
                     "text": "Only the muscular system is involved since it's responsible for all body movements",
@@ -76,53 +103,26 @@
                     "explanation": "Though the nervous system detects the heat and pain, it needs the muscular system to actually move the hand away from danger."
                 },
                 {
-                    "text": "The digestive system and circulatory system work together to provide energy for moving the hand",
-                    "isCorrect": 0,
-                    "explanation": "While these systems support body functions, the immediate reaction to heat involves the nervous system detecting the stimulus and the muscular system executing the movement."
+                    "text": "The nervous system and muscular system work together - nerves detect the heat and send signals to your brain, which then signals muscles to move your hand",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The nervous system's sensory receptors detect the heat stimulus and send signals to the brain, which then sends commands through motor neurons to the muscles to contract and move the hand away."
                 }
             ],
             "funFact": "This quick withdrawal response is called a reflex arc and can happen in as little as 20-30 milliseconds - that's faster than you can blink! The signal doesn't even need to reach your brain first; it can be processed by your spinal cord to trigger an immediate response."
-        },
-        {
-            "id": 4,
-            "text": "When you hear a loud car horn while walking, you immediately jump back onto the sidewalk. In this situation, which combination of body systems worked together to help you respond quickly?",
-            "options": [
-                {
-                    "text": "Nervous system and muscular system - your ears detected the sound and sent signals to your brain, which then directed your muscles to move",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because your ears (sensory receptors) detected the sound stimulus, sent signals through the nervous system to your brain, which then sent signals to your muscles to create the jumping movement"
-                },
-                {
-                    "text": "Digestive system and circulatory system - your body needed energy from food to power the movement",
-                    "isCorrect": 0,
-                    "explanation": "While these systems provide energy, they are not directly responsible for the immediate response to the sound stimulus"
-                },
-                {
-                    "text": "Respiratory system and skeletal system - you needed oxygen and bones to make the movement",
-                    "isCorrect": 0,
-                    "explanation": "Although these systems support movement, they are not the primary systems responsible for detecting and responding to the sudden sound"
-                },
-                {
-                    "text": "Muscular system only - your muscles automatically moved without any input from other systems",
-                    "isCorrect": 0,
-                    "explanation": "Muscles cannot respond to environmental stimuli on their own - they need signals from the nervous system to know when and how to move"
-                }
-            ],
-            "funFact": "Your body can process and respond to sudden sounds in about 150-200 milliseconds - still faster than you can consciously think about it! This quick response system evolved to help protect us from danger."
         },
         {
             "id": 5,
             "text": "How does sensory information travel from receptors in your skin to your brain when you touch something hot?",
             "options": [
                 {
+                    "text": "The heat directly activates brain cells without going through nerve cells",
+                    "isCorrect": 0,
+                    "explanation": "Heat stimulus must first be detected by sensory receptors and converted to electrical signals that travel through nerve cells to reach the brain"
+                },
+                {
                     "text": "The sensory receptors send electrical signals through nerve cells directly to the brain",
                     "isCorrect": 1,
                     "explanation": "Sensory receptors in the skin detect the heat stimulus and convert it into electrical signals that travel along nerve cells to reach the brain, allowing for immediate response"
-                },
-                {
-                    "text": "The sensory receptors release chemicals that flow through the bloodstream to the brain",
-                    "isCorrect": 0,
-                    "explanation": "While chemicals are involved in nerve signaling, sensory information travels as electrical signals through nerve cells, not through the bloodstream"
                 },
                 {
                     "text": "The muscles send mechanical waves through tissues to reach the brain",
@@ -130,15 +130,123 @@
                     "explanation": "Sensory information does not travel through mechanical waves in tissues - it travels as electrical signals through specialized nerve cells"
                 },
                 {
-                    "text": "The heat directly activates brain cells without going through nerve cells",
+                    "text": "The sensory receptors release chemicals that flow through the bloodstream to the brain",
                     "isCorrect": 0,
-                    "explanation": "Heat stimulus must first be detected by sensory receptors and converted to electrical signals that travel through nerve cells to reach the brain"
+                    "explanation": "While chemicals are involved in nerve signaling, sensory information travels as electrical signals through nerve cells, not through the bloodstream"
                 }
             ],
             "funFact": "The speed at which sensory signals travel through nerve cells can reach up to 268 miles per hour! This incredibly fast transmission allows us to react quickly to dangerous stimuli like touching something hot, helping prevent injury."
         },
         {
             "id": 6,
+            "text": "When a person experiences a headache and takes pain medication, what is the correct sequence of events involving sensory receptors and the brain?",
+            "options": [
+                {
+                    "text": "Medication numbs the pain receptors first, which prevents them from detecting any pain signals",
+                    "isCorrect": 0,
+                    "explanation": "Pain medication doesn't work by numbing receptors - pain receptors continue to function normally even when pain medication is present."
+                },
+                {
+                    "text": "Pain receptors send signals to the brain, the brain processes these as pain, and medication either reduces inflammation at pain sites or alters how the brain interprets these signals",
+                    "isCorrect": 1,
+                    "explanation": "This correctly shows how pain signals travel to the brain and how pain medications work - either by reducing inflammation at the source (like NSAIDs) which decreases signal intensity, or by changing how the brain processes pain signals (like opioids)."
+                },
+                {
+                    "text": "The brain directly senses the headache without involving pain receptors, and medication works directly on the brain",
+                    "isCorrect": 0,
+                    "explanation": "The brain cannot directly sense pain - it relies on signals from pain receptors throughout the body to detect pain."
+                },
+                {
+                    "text": "Pain receptors detect the headache, send signals to the brain, and medication blocks these pain signals from reaching the brain",
+                    "isCorrect": 0,
+                    "explanation": "While pain receptors do detect the headache, pain medication actually works by affecting chemical processes in the body, not by blocking signals from reaching the brain."
+                }
+            ],
+            "funFact": "Different types of pain medications work in unique ways - some reduce inflammation, while others affect specific neurotransmitters in the brain. This is why certain pain medications work better for different types of pain!"
+        },
+        {
+            "id": 7,
+            "text": "While studying for a test, you're sitting in a noisy cafeteria. You hear someone call your name, smell fresh pizza, and feel your phone vibrate in your pocket. How does your brain likely process and respond to these simultaneous sensory inputs?",
+            "options": [
+                {
+                    "text": "The brain prioritizes your name being called, as it's personally relevant and could signal important information",
+                    "isCorrect": 1,
+                    "explanation": "The brain gives higher priority to personally relevant stimuli like hearing your name, as this could signal important information requiring immediate attention."
+                },
+                {
+                    "text": "The brain only processes the strongest sensory input (the noise in the cafeteria)",
+                    "isCorrect": 0,
+                    "explanation": "The brain doesn't simply respond to the strongest stimulus. It evaluates the importance of each input rather than just their intensity."
+                },
+                {
+                    "text": "The brain ignores all sensory inputs except the most recent one",
+                    "isCorrect": 0,
+                    "explanation": "The brain doesn't simply focus on the most recent input. It can process multiple inputs and prioritize them based on their significance."
+                },
+                {
+                    "text": "The brain processes all sensory inputs equally and responds to them simultaneously",
+                    "isCorrect": 0,
+                    "explanation": "The brain doesn't process all sensory inputs equally. It prioritizes inputs based on importance and relevance to survival or immediate needs."
+                }
+            ],
+            "funFact": "This ability of the brain to filter and prioritize sensory information is called the 'cocktail party effect' - where you can focus on a specific conversation in a crowded, noisy room while filtering out other conversations and background noise."
+        },
+        {
+            "id": 8,
+            "text": "When someone hears a loud car honking sound for the first time, they might jump in surprise. However, if they live near a busy street and hear car honks regularly, they often stop being startled by the sound. What best explains this change in behavior?",
+            "options": [
+                {
+                    "text": "The ears become physically less sensitive to the sound of car honks over time",
+                    "isCorrect": 0,
+                    "explanation": "The ears don't become physically less sensitive to sounds just from repeated exposure. The change in response happens in how the brain processes and interprets the sensory information."
+                },
+                {
+                    "text": "The nervous system stops sending signals to the brain when it hears car honks",
+                    "isCorrect": 0,
+                    "explanation": "The nervous system continues to send signals to the brain for all sensory inputs. The difference is in how the brain processes and responds to these signals based on past experiences."
+                },
+                {
+                    "text": "The person's hearing gets damaged from repeated exposure to loud sounds",
+                    "isCorrect": 0,
+                    "explanation": "This adaptation in response is not due to hearing damage. It's a normal learning process where the brain adjusts its response based on stored memories and experiences."
+                },
+                {
+                    "text": "The brain stores the memory of previous car honks and learns to recognize them as non-threatening, reducing the startle response",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The brain processes and stores sensory experiences as memories, which then influence future responses to similar stimuli. Past experiences with car honks help the brain recognize them as familiar and non-threatening."
+                }
+            ],
+            "funFact": "This process of getting used to repeated stimuli is called habituation and is found across many species, from humans to simple organisms like sea slugs. It's an important survival mechanism that helps organisms focus on new or important stimuli while ignoring familiar, non-threatening ones."
+        },
+        {
+            "id": 9,
+            "text": "A student suffers damage to their taste receptors on their tongue after a severe burn injury. Which of the following impacts would you expect from this sensory impairment?",
+            "options": [
+                {
+                    "text": "The student would lose their ability to taste but retain all their old taste memories",
+                    "isCorrect": 0,
+                    "explanation": "While old taste memories would remain, new taste memories cannot form without functioning taste receptors sending signals to the brain."
+                },
+                {
+                    "text": "The student would only lose their ability to taste sweet foods",
+                    "isCorrect": 0,
+                    "explanation": "A severe burn affecting taste receptors would likely damage multiple types of taste receptors, not just those for sweetness."
+                },
+                {
+                    "text": "The student would permanently lose their ability to create any new memories",
+                    "isCorrect": 0,
+                    "explanation": "Damage to taste receptors would only affect taste-related memories and behaviors, not all memory formation."
+                },
+                {
+                    "text": "The student would lose both their ability to taste food and form memories of new tastes",
+                    "isCorrect": 1,
+                    "explanation": "Damaged taste receptors cannot send signals to the brain, affecting both immediate taste perception and the ability to form new taste-related memories."
+                }
+            ],
+            "funFact": "Our taste buds regenerate every 10-14 days naturally. However, if the deeper tissue containing the taste bud stem cells is damaged, the ability to regenerate taste buds can be permanently affected."
+        },
+        {
+            "id": 10,
             "text": "When you touch a hot pan, you quickly pull your hand away. How does your body process this sensory information and respond so quickly?",
             "options": [
                 {
@@ -152,184 +260,135 @@
                     "explanation": "This describes the correct pathway for a withdrawal reflex. Pain receptors in skin detect heat, send signals to the spinal cord via sensory neurons, and the spinal cord triggers immediate muscle response through motor neurons, while simultaneously sending the information to the brain."
                 },
                 {
-                    "text": "Your muscles automatically react to heat without any signal processing",
-                    "isCorrect": 0,
-                    "explanation": "Muscles cannot react on their own - they need signals from the nervous system (specifically motor neurons from the spinal cord in this reflex) to contract or relax."
-                },
-                {
                     "text": "The heat directly causes muscle contraction without involving any sensory system",
                     "isCorrect": 0,
                     "explanation": "Heat cannot directly cause muscle movement - the nervous system must detect and process the stimulus first through a reflex arc involving the spinal cord."
+                },
+                {
+                    "text": "Your muscles automatically react to heat without any signal processing",
+                    "isCorrect": 0,
+                    "explanation": "Muscles cannot react on their own - they need signals from the nervous system (specifically motor neurons from the spinal cord in this reflex) to contract or relax."
                 }
             ],
             "funFact": "The quick hand-withdrawal response to heat is called a reflex arc and can happen in as little as 20-30 milliseconds - that's faster than the blink of an eye! This speed is possible because the response is coordinated by the spinal cord without needing to wait for brain processing, though the brain does receive the information afterward and stores this experience as a memory to help avoid similar dangerous situations in the future."
-        },
-        {
-            "id": 7,
-            "text": "When someone eats a spicy pepper, which of the following best explains how our body processes and stores this sensory experience?",
-            "options": [
-                {
-                    "text": "The pain receptors in the mouth send signals to the brain, which both triggers an immediate response like sweating and stores the memory of the spicy experience for future reference",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how sensory receptors send signals that the brain processes both for immediate responses and memory storage"
-                },
-                {
-                    "text": "The pain receptors directly cause the body's reactions without involving the brain",
-                    "isCorrect": 0,
-                    "explanation": "Pain receptors cannot trigger responses on their own - they must send signals to the brain first"
-                },
-                {
-                    "text": "The brain only stores the memory of the spicy sensation but doesn't cause any immediate reactions",
-                    "isCorrect": 0,
-                    "explanation": "The brain processes sensory signals for both immediate responses and memory storage, not just memory"
-                },
-                {
-                    "text": "The spicy sensation is just an illusion and no actual signals are sent to the brain",
-                    "isCorrect": 0,
-                    "explanation": "The spicy sensation involves real signals sent from pain receptors to the brain, not an illusion"
-                }
-            ],
-            "funFact": "The spicy sensation from peppers is actually not a taste but a form of pain detection! The chemical capsaicin in spicy peppers triggers pain receptors that are normally meant to detect heat, which is why spicy foods feel 'hot'."
-        },
-        {
-            "id": 8,
-            "text": "When a person touches a hot surface, they quickly pull their hand away. This rapid response involves multiple body systems working together. Which statement best explains how the nervous and muscular systems interact in this situation?",
-            "options": [
-                {
-                    "text": "The sensory receptors in the skin send signals through nerves to the spinal cord, which can trigger an immediate muscle response, while the brain also receives signals for conscious pain perception",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes a reflex arc where sensory receptors detect heat, send signals through the nervous system to the spinal cord for immediate response, and to the brain for conscious perception of pain"
-                },
-                {
-                    "text": "The muscles directly detect the heat and automatically contract without involving the nervous system",
-                    "isCorrect": 0,
-                    "explanation": "Muscles cannot directly detect heat - they rely on sensory receptors in the skin and signals from the nervous system to respond"
-                },
-                {
-                    "text": "The brain first feels the heat and then activates the skin's sensory receptors to move the hand",
-                    "isCorrect": 0,
-                    "explanation": "The process begins with sensory receptors in the skin, not the brain. The brain receives signals from these receptors rather than activating them"
-                },
-                {
-                    "text": "The hand moves away due to muscle memory alone, without any input from sensory receptors or the brain",
-                    "isCorrect": 0,
-                    "explanation": "While muscle memory exists, this rapid response requires active input from sensory receptors and the nervous system to coordinate the movement"
-                }
-            ],
-            "funFact": "This type of rapid, automatic response is called a reflex arc. Some reflex arcs are so quick that the signal doesn't even need to reach your brain - it can be processed in the spinal cord, allowing for response times as fast as 20-50 milliseconds!"
-        },
-        {
-            "id": 9,
-            "text": "When a person experiences a headache and takes pain medication, what is the correct sequence of events involving sensory receptors and the brain?",
-            "options": [
-                {
-                    "text": "Pain receptors detect the headache, send signals to the brain, and medication blocks these pain signals from reaching the brain",
-                    "isCorrect": 0,
-                    "explanation": "While pain receptors do detect the headache, pain medication actually works by affecting chemical processes in the body, not by blocking signals from reaching the brain."
-                },
-                {
-                    "text": "Pain receptors send signals to the brain, the brain processes these as pain, and medication either reduces inflammation at pain sites or alters how the brain interprets these signals",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how pain signals travel to the brain and how pain medications work - either by reducing inflammation at the source (like NSAIDs) which decreases signal intensity, or by changing how the brain processes pain signals (like opioids)."
-                },
-                {
-                    "text": "Medication numbs the pain receptors first, which prevents them from detecting any pain signals",
-                    "isCorrect": 0,
-                    "explanation": "Pain medication doesn't work by numbing receptors - pain receptors continue to function normally even when pain medication is present."
-                },
-                {
-                    "text": "The brain directly senses the headache without involving pain receptors, and medication works directly on the brain",
-                    "isCorrect": 0,
-                    "explanation": "The brain cannot directly sense pain - it relies on signals from pain receptors throughout the body to detect pain."
-                }
-            ],
-            "funFact": "Different types of pain medications work in unique ways - some reduce inflammation, while others affect specific neurotransmitters in the brain. This is why certain pain medications work better for different types of pain!"
-        },
-        {
-            "id": 10,
-            "text": "When you touch a hot stove, you quickly pull your hand away. Over time, you learn to be more careful around stoves. How does this experience demonstrate the relationship between sensory stimuli and the nervous system's response?",
-            "options": [
-                {
-                    "text": "The immediate withdrawal reflex and the learned caution represent both immediate response and memory formation",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how a single stimulus can trigger both an immediate protective response through sensory receptors and form a lasting memory that influences future behavior"
-                },
-                {
-                    "text": "Only the immediate hand withdrawal matters, as the brain doesn't store this type of sensory information",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the brain does store sensory experiences as memories, which help shape future behaviors and responses"
-                },
-                {
-                    "text": "The learned caution is the only important response, as immediate reflexes aren't controlled by the brain",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because both immediate reflexes and learned responses are important, and reflexes are indeed processed through the nervous system"
-                },
-                {
-                    "text": "Neither response involves the brain since they are both automatic reactions",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because both the immediate reflex and learned behavior involve neural processing in the brain"
-                }
-            ],
-            "funFact": "Pain signals travel at speeds between 0.5-2 meters per second, which is actually slower than many other nerve signals in your body. This means it takes closer to 0.1-0.5 seconds for a pain signal to travel from your finger to your brain!"
         },
         {
             "id": 11,
             "text": "If someone experiences damage to their taste buds on their tongue, how would this affect their ability to process and remember different flavors?",
             "options": [
                 {
-                    "text": "They would lose both their ability to taste new foods and their memories of past taste experiences",
-                    "isCorrect": 0,
-                    "explanation": "While damage to taste buds affects new taste sensations, existing taste memories are preserved in the brain and aren't affected by receptor damage"
-                },
-                {
                     "text": "They would keep their old taste memories but couldn't form new ones until the taste buds heal",
                     "isCorrect": 1,
                     "explanation": "Damage to sensory receptors only affects new incoming sensations. Previously stored memories remain intact in the brain's memory centers"
                 },
                 {
-                    "text": "Their taste memories would gradually fade away over time",
+                    "text": "They would lose both their ability to taste new foods and their memories of past taste experiences",
                     "isCorrect": 0,
-                    "explanation": "Taste memories are stored in the brain, not in the taste buds. Damage to taste receptors doesn't cause existing memories to fade"
+                    "explanation": "While damage to taste buds affects new taste sensations, existing taste memories are preserved in the brain and aren't affected by receptor damage"
                 },
                 {
                     "text": "They would immediately lose all ability to taste but keep their memories temporarily",
                     "isCorrect": 0,
                     "explanation": "While they would lose immediate taste sensation, stored memories are permanent and don't disappear just because receptors are damaged"
+                },
+                {
+                    "text": "Their taste memories would gradually fade away over time",
+                    "isCorrect": 0,
+                    "explanation": "Taste memories are stored in the brain, not in the taste buds. Damage to taste receptors doesn't cause existing memories to fade"
                 }
             ],
             "funFact": "Taste buds typically regenerate every 10-14 days. This is why when you burn your tongue on hot food, your sense of taste usually returns within about 2 weeks!"
         },
         {
             "id": 12,
-            "text": "When you accidentally touch a hot stove, your hand immediately pulls away before you even realize what happened. This rapid response occurs because:",
+            "text": "When you touch a hot stove, your hand pulls away almost instantly. However, you also remember not to touch hot stoves in the future. How does your brain process this sensory information differently for the immediate reaction versus the long-term memory?",
             "options": [
                 {
-                    "text": "Pain receptors in your skin send signals directly to your muscles, bypassing the brain completely",
+                    "text": "The immediate reaction and memory formation use exactly the same neural pathways and processing",
                     "isCorrect": 0,
-                    "explanation": "While the response is quick, pain signals don't bypass the brain entirely. They travel to the spinal cord which coordinates the immediate withdrawal reflex, while signals also travel to the brain for conscious perception."
+                    "explanation": "This is incorrect. While both involve the brain, immediate reactions use faster reflex pathways while memory formation involves more complex processing and storage mechanisms."
                 },
                 {
-                    "text": "Pain receptors send signals to your spinal cord, which coordinates an immediate withdrawal reflex, while signals also travel to your brain for conscious perception and memory formation",
+                    "text": "Only the immediate reaction involves sensory receptors, while memory formation happens independently",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Both processes begin with sensory receptors - the same sensory input can trigger both an immediate response and form a memory."
+                },
+                {
+                    "text": "The immediate reaction uses quick reflex pathways for fast response, while memory formation involves more complex processing for long-term storage",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes a spinal reflex arc. The spinal cord processes and responds to the danger signal quickly, while parallel signals travel to the brain for conscious awareness and memory formation."
+                    "explanation": "Correct! The brain processes sensory information through rapid reflex pathways for immediate survival responses, while simultaneously processing it through slower pathways for memory formation and learning."
                 },
                 {
-                    "text": "Your muscles automatically respond to heat without any involvement of pain receptors or the nervous system",
+                    "text": "The immediate reaction bypasses the brain completely, while the memory is processed and stored in the brain",
                     "isCorrect": 0,
-                    "explanation": "Muscles cannot detect heat or respond on their own - they need signals from sensory receptors through the nervous system."
-                },
-                {
-                    "text": "The pain memory from previous burns causes your muscles to react without any new sensory input",
-                    "isCorrect": 0,
-                    "explanation": "While past experiences influence behavior, immediate reactions to heat require new sensory input from pain receptors."
+                    "explanation": "This is incorrect. Both immediate reactions and memories involve brain processing - the immediate reaction is processed quickly through reflex pathways but still involves the brain."
                 }
             ],
-            "funFact": "The time it takes for a pain signal to travel from your finger to your brain is about 0.01 seconds, making pain reflexes among the fastest sensory responses in the human body!"
+            "funFact": "The speed of a reflex reaction can be as fast as 0.1 seconds because the signal travels through a simpler neural pathway called a reflex arc, while forming and storing memories can take several seconds to minutes as it involves more complex brain processes like consolidation."
         },
         {
             "id": 13,
+            "text": "When someone takes pain medication like aspirin for a headache, how does it affect the way pain signals are processed in the body?",
+            "options": [
+                {
+                    "text": "The medication makes the brain produce more happy signals",
+                    "isCorrect": 0,
+                    "explanation": "While some pain medications may affect mood, their primary function is reducing inflammation and the sensitivity of pain receptors rather than producing 'happy' signals."
+                },
+                {
+                    "text": "The medication removes the source of pain completely",
+                    "isCorrect": 0,
+                    "explanation": "Pain medications don't actually remove what's causing the pain - they just reduce inflammation and the sensitivity of pain receptors, making the pain less noticeable."
+                },
+                {
+                    "text": "The medication makes the brain forget about the pain",
+                    "isCorrect": 0,
+                    "explanation": "Pain medications don't affect memory - they work primarily by interfering with the production of substances that sensitize pain receptors, not by affecting memory processes."
+                },
+                {
+                    "text": "The medication reduces inflammation and decreases the sensitivity of pain receptors",
+                    "isCorrect": 1,
+                    "explanation": "Pain medications like aspirin work by inhibiting enzymes called cyclooxygenases (COX), which reduces the production of prostaglandins. Prostaglandins sensitize pain receptors and promote inflammation, so by reducing their levels, these medications decrease pain sensation."
+                }
+            ],
+            "funFact": "Different types of pain medications work in slightly different ways - NSAIDs like aspirin reduce inflammation by inhibiting enzymes, while opioids work directly on the nervous system. This is why doctors sometimes recommend combining different types of pain relievers for more effective pain management!"
+        },
+        {
+            "id": 14,
+            "text": "When you hear a loud car horn while walking, multiple sensory systems work together to help you understand and react to the situation. Which combination of sensory systems most likely helps you determine the direction and potential danger of the approaching car?",
+            "options": [
+                {
+                    "text": "Hearing and vision working together to detect sound direction and see the car's location",
+                    "isCorrect": 1,
+                    "explanation": "Your auditory system helps locate the sound's direction while your visual system confirms the car's position, allowing your brain to process both inputs for a quick response"
+                },
+                {
+                    "text": "Smell and touch combining to detect exhaust fumes",
+                    "isCorrect": 0,
+                    "explanation": "While you might smell exhaust or feel vibrations, these senses wouldn't help determine the car's direction or immediate danger effectively"
+                },
+                {
+                    "text": "Only hearing is needed since sound is enough to determine danger",
+                    "isCorrect": 0,
+                    "explanation": "While hearing is important, relying on sound alone may not give complete information about the car's exact location and movement"
+                },
+                {
+                    "text": "Touch and taste working together to sense vibrations",
+                    "isCorrect": 0,
+                    "explanation": "Touch can detect vibrations but taste is not involved in detecting car movements. These senses wouldn't provide enough information about direction and danger"
+                }
+            ],
+            "funFact": "The brain can process visual information in as little as 13 milliseconds, and sound information in about 50 milliseconds. This rapid processing of multiple sensory inputs helps us react quickly to potential dangers in our environment."
+        },
+        {
+            "id": 15,
             "text": "When you simultaneously hear a loud noise and see a bright flash of light, your brain processes this information in a specific way. What happens in terms of sensory processing and response?",
             "options": [
+                {
+                    "text": "The brain stores both inputs as memories first before generating any immediate response",
+                    "isCorrect": 0,
+                    "explanation": "For potentially threatening stimuli, the brain generates immediate behavioral responses before creating memories, as quick reactions may be crucial for survival."
+                },
                 {
                     "text": "The brain processes both stimuli with equal priority and generates separate responses for each",
                     "isCorrect": 0,
@@ -344,68 +403,9 @@
                     "text": "The brain only processes the sound input since auditory signals are always prioritized over visual signals",
                     "isCorrect": 0,
                     "explanation": "The brain doesn't automatically prioritize auditory signals over visual ones. The priority depends on the context and potential significance of each signal."
-                },
-                {
-                    "text": "The brain stores both inputs as memories first before generating any immediate response",
-                    "isCorrect": 0,
-                    "explanation": "For potentially threatening stimuli, the brain generates immediate behavioral responses before creating memories, as quick reactions may be crucial for survival."
                 }
             ],
             "funFact": "Your brain processes different types of sensory information at different speeds - touch signals travel to your brain at about 150 miles per hour, while pain signals move much slower at just 2 miles per hour!"
-        },
-        {
-            "id": 14,
-            "text": "How does the processing of touch sensations differ from the processing of taste sensations in our body?",
-            "options": [
-                {
-                    "text": "Touch receptors respond to mechanical pressure while taste receptors respond to chemical substances",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Touch receptors are mechanical receptors that respond to physical pressure, while taste receptors are chemical receptors that respond to different molecules in food."
-                },
-                {
-                    "text": "Touch receptors are only found in fingers while taste receptors are only found on the tongue",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Touch receptors are found throughout our skin, not just in fingers. Similarly, taste receptors are found not only on the tongue but also in other parts of the mouth."
-                },
-                {
-                    "text": "Touch sensations are processed instantly while taste sensations take several minutes to process",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Both touch and taste sensations are processed quickly by our nervous system, though they use different types of receptors and pathways."
-                },
-                {
-                    "text": "Touch receptors can only detect one type of stimulus while taste receptors can detect multiple types",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Touch receptors can detect various types of mechanical stimuli including pressure, vibration, and texture. Taste receptors detect different chemical substances."
-                }
-            ],
-            "funFact": "Our sense of taste is actually a combination of both taste and smell! When you have a cold and your nose is blocked, food often tastes bland because about 80% of what we consider 'taste' actually comes from our sense of smell."
-        },
-        {
-            "id": 15,
-            "text": "How do different sensory receptors in the body process and respond to environmental stimuli?",
-            "options": [
-                {
-                    "text": "Each type of sensory receptor responds to a specific type of stimulus and sends signals to different parts of the body independently",
-                    "isCorrect": 0,
-                    "explanation": "While sensory receptors are specialized for specific stimuli, they all send signals to the brain, not independently to different body parts."
-                },
-                {
-                    "text": "All sensory receptors process stimuli in the same way regardless of the type of input received",
-                    "isCorrect": 0,
-                    "explanation": "Different sensory receptors are specialized to process different types of stimuli - mechanical, chemical, or electromagnetic."
-                },
-                {
-                    "text": "Each type of sensory receptor responds to specific stimuli, converts them to signals, and sends these signals to the brain for processing",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how sensory receptors work - they are specialized for specific inputs, convert stimuli to nerve signals, and send them to the brain for processing."
-                },
-                {
-                    "text": "Sensory receptors store and process all information locally without involving the brain",
-                    "isCorrect": 0,
-                    "explanation": "Sensory receptors don't process or store information themselves - they send signals to the brain where processing and memory storage occurs."
-                }
-            ],
-            "funFact": "Your body has about 20 different types of specialized nerve endings just in your skin alone! These help you sense everything from light touch to temperature to pain, allowing you to interact safely with your environment."
         }
     ]
 }

@@ -4,87 +4,6 @@
     "questions": [
         {
             "id": 1,
-            "text": "A student wants to design a new lunchbox to keep food warm for longer during school days. Which of the following would be most important to consider when developing this solution?",
-            "options": [
-                {
-                    "text": "The maximum temperature the lunchbox can safely reach",
-                    "isCorrect": 0,
-                    "explanation": "While safety is important, this focuses on a technical detail rather than addressing the basic needs and constraints of the design problem."
-                },
-                {
-                    "text": "The cost, materials, and time needed to create the lunchbox",
-                    "isCorrect": 1,
-                    "explanation": "This considers the key constraints that affect whether the solution is practical and can actually be implemented to meet users' needs."
-                },
-                {
-                    "text": "The color schemes available for the lunchbox design",
-                    "isCorrect": 0,
-                    "explanation": "While appearance may be nice to consider, it is not one of the essential criteria or constraints that determine if the solution meets the basic need."
-                },
-                {
-                    "text": "The number of different food compartments to include",
-                    "isCorrect": 0,
-                    "explanation": "Although this is a design feature, it doesn't address the primary constraints that affect whether the solution can be successfully developed."
-                }
-            ],
-            "funFact": "The first commercial lunchbox with a thermos was introduced in 1935. The thermos itself was invented in 1892 by Sir James Dewar, who created a special vacuum-sealed flask that could keep liquids at their original temperature for extended periods."
-        },
-        {
-            "id": 2,
-            "text": "A town wants to build a new park for children to play. Why might the town consider multiple different designs for the park?",
-            "options": [
-                {
-                    "text": "Different designs might meet the requirements in different ways while working within budget and space limits",
-                    "isCorrect": 1,
-                    "explanation": "Various solutions can satisfy the same requirements while dealing with constraints like cost and space differently. Each design might have its own unique advantages."
-                },
-                {
-                    "text": "The town should only consider one design to save time",
-                    "isCorrect": 0,
-                    "explanation": "Considering multiple designs helps find the best solution. Looking at just one design might miss better alternatives that could work better within the constraints."
-                },
-                {
-                    "text": "Multiple designs are needed because the first design will always fail",
-                    "isCorrect": 0,
-                    "explanation": "The first design isn't guaranteed to fail. Multiple designs are considered to find the optimal solution, not because initial designs always fail."
-                },
-                {
-                    "text": "Different designs are needed because no solution can meet all the requirements",
-                    "isCorrect": 0,
-                    "explanation": "It is possible for solutions to meet all requirements. Multiple designs help find the best way to meet requirements while working within constraints."
-                }
-            ],
-            "funFact": "The world's first planned public park was Birkenhead Park in England, opened in 1847. It inspired the design of many parks worldwide, including Central Park in New York City, showing how one successful design solution can influence future projects!"
-        },
-        {
-            "id": 3,
-            "text": "Over the past century, which technological advancement has significantly evolved to meet changing human needs and improve people's daily lives?",
-            "options": [
-                {
-                    "text": "Modern antibiotics and vaccines",
-                    "isCorrect": 1,
-                    "explanation": "Antibiotics and vaccines have continuously evolved to combat new diseases and infections, directly addressing changing human health needs and saving countless lives worldwide."
-                },
-                {
-                    "text": "Magic 8 balls for decision making",
-                    "isCorrect": 0,
-                    "explanation": "Magic 8 balls are toys that provide random answers and are not based on scientific evidence or technological advancement to meet real human needs."
-                },
-                {
-                    "text": "Palm reading techniques",
-                    "isCorrect": 0,
-                    "explanation": "Palm reading is not a scientific or technological advancement and has not evolved based on evidence or changing human needs."
-                },
-                {
-                    "text": "Astrological predictions",
-                    "isCorrect": 0,
-                    "explanation": "Astrology is not based on scientific evidence and has not evolved to address real human needs through technological advancement."
-                }
-            ],
-            "funFact": "The discovery of penicillin in 1928 by Alexander Fleming was actually a lucky accident! He noticed that mold growing on a contaminated petri dish had created a bacteria-free zone, leading to the development of the first antibiotic that revolutionized medicine."
-        },
-        {
-            "id": 4,
             "text": "A community wants to improve their water conservation efforts. Which of the following would be considered an improvement in their existing water usage system?",
             "options": [
                 {
@@ -111,63 +30,122 @@
             "funFact": "Smart water meters can detect leaks as small as one drop per second, which could save up to 3,000 gallons of water per year in a single household!"
         },
         {
-            "id": 5,
+            "id": 2,
             "text": "A team of engineers is designing a new type of solar-powered light for outdoor use. Which criteria would be MOST important to determine if their solution is successful?",
             "options": [
-                {
-                    "text": "How many different colors the light can display",
-                    "isCorrect": 0,
-                    "explanation": "While color options might be nice, they are not essential for the core function of an outdoor solar light. The primary purpose is to provide reliable illumination."
-                },
-                {
-                    "text": "Whether the light works reliably in outdoor conditions",
-                    "isCorrect": 1,
-                    "explanation": "For an outdoor solar light, reliability in its intended environment is a crucial criterion for success. This directly addresses the basic need for consistent lighting."
-                },
                 {
                     "text": "How stylish the light looks compared to other lights",
                     "isCorrect": 0,
                     "explanation": "While appearance matters, it is secondary to the functional requirements. A light that looks good but doesn't work well fails to meet the basic need."
                 },
                 {
+                    "text": "How many different colors the light can display",
+                    "isCorrect": 0,
+                    "explanation": "While color options might be nice, they are not essential for the core function of an outdoor solar light. The primary purpose is to provide reliable illumination."
+                },
+                {
                     "text": "If the light can be installed in under 5 minutes",
                     "isCorrect": 0,
                     "explanation": "While ease of installation is a consideration, it is not the most critical criterion for success. A light that works reliably is more important than quick installation."
+                },
+                {
+                    "text": "Whether the light works reliably in outdoor conditions",
+                    "isCorrect": 1,
+                    "explanation": "For an outdoor solar light, reliability in its intended environment is a crucial criterion for success. This directly addresses the basic need for consistent lighting."
                 }
             ],
             "funFact": "Solar-powered lights have come a long way since their invention in the 1940s. Modern solar lights can store enough energy to work for several days even during cloudy weather, thanks to improved battery technology and efficient LED bulbs!"
         },
         {
-            "id": 6,
-            "text": "A group of students wants to design a new microscope for their school's science lab. Which of the following would be the most important criteria to consider in their design?",
+            "id": 3,
+            "text": "Which of the following design problems would be considered 'simple' and appropriate for an initial engineering project?",
             "options": [
                 {
-                    "text": "The microscope should have the ability to magnify specimens clearly and be easy for students to operate",
+                    "text": "Creating a fully automated smart home system that controls temperature, lighting, and security",
+                    "isCorrect": 0,
+                    "explanation": "This is too complex for an initial project as it involves multiple interconnected systems, advanced technology, and numerous variables to consider."
+                },
+                {
+                    "text": "Designing a basic bird feeder with specific size requirements and a $20 budget",
                     "isCorrect": 1,
-                    "explanation": "The primary purpose of a microscope is to observe specimens, so clear magnification and ease of use are essential criteria that directly relate to its function and purpose."
+                    "explanation": "This is a simple design problem with clear criteria (size requirements) and constraints (budget), making it appropriate for an initial engineering project."
                 },
                 {
-                    "text": "The microscope should be painted in bright colors that match the school colors",
+                    "text": "Developing a new vaccine to prevent a disease",
                     "isCorrect": 0,
-                    "explanation": "While appearance might be nice, it doesn't affect the microscope's primary function and shouldn't be a main criterion in the design process."
+                    "explanation": "This is an extremely complex problem requiring advanced scientific knowledge, extensive testing, and significant resources beyond the scope of a simple design problem."
                 },
                 {
-                    "text": "The microscope should be able to take photographs and post them to social media",
+                    "text": "Building a rocket capable of reaching outer space",
                     "isCorrect": 0,
-                    "explanation": "While digital capabilities might be useful, they aren't essential to the basic function of a microscope and would likely add unnecessary cost and complexity."
-                },
-                {
-                    "text": "The microscope should be portable enough to fit in a student's backpack",
-                    "isCorrect": 0,
-                    "explanation": "While portability might be convenient, it could compromise the stability and quality of observations, which are more important for a school laboratory microscope."
+                    "explanation": "This involves complex physics, advanced materials, and safety considerations that make it far too complicated for a simple design problem."
                 }
             ],
-            "funFact": "The first compound microscope was invented in the late 16th century by Dutch spectacle makers Hans and Zacharias Janssen. Today's most powerful electron microscopes can magnify objects up to 10 million times their actual size!"
+            "funFact": "The Wright brothers started with simple design problems before tackling flight - they first practiced engineering by designing and building printing presses and bicycle parts. This step-by-step approach helped them develop the problem-solving skills needed for their famous invention."
         },
         {
-            "id": 7,
+            "id": 4,
+            "text": "A group of students wants to develop a solution to protect their phones from breaking when dropped. Which of the following approaches best demonstrates identifying if they need a new tool or improvement to an existing one?",
+            "options": [
+                {
+                    "text": "Research current phone cases on the market and identify specific features that could be enhanced for better protection",
+                    "isCorrect": 1,
+                    "explanation": "This approach shows proper evaluation of existing solutions and identifies potential improvements needed, which helps determine if enhancing current tools would solve the problem."
+                },
+                {
+                    "text": "Count how many students have broken their phones in the past year",
+                    "isCorrect": 0,
+                    "explanation": "While this provides data about the problem, it doesn't help evaluate whether existing solutions need improvement or if a new tool is required."
+                },
+                {
+                    "text": "Ask other students if they want a new phone case design",
+                    "isCorrect": 0,
+                    "explanation": "Simply asking for opinions without analyzing the problem and existing solutions doesn't help determine if a new tool or improvement is needed."
+                },
+                {
+                    "text": "Immediately start designing a completely new protective device without looking at existing solutions",
+                    "isCorrect": 0,
+                    "explanation": "Starting a new design without evaluating existing solutions could lead to wasting time reinventing something that just needs improvement."
+                }
+            ],
+            "funFact": "The first commercial phone case was created in 1983 for the Motorola DynaTAC, which was also the world's first commercial portable cellular phone. Today, the phone case industry is worth billions of dollars and involves extensive engineering and materials science research."
+        },
+        {
+            "id": 5,
+            "text": "When designing a new educational tablet for elementary school students, which of the following would be considered a criterion (required feature) for success?",
+            "options": [
+                {
+                    "text": "The tablet must have a battery life of at least 8 hours",
+                    "isCorrect": 1,
+                    "explanation": "A specific battery life requirement is a criterion because it defines a measurable feature that the solution must have to be considered successful."
+                },
+                {
+                    "text": "The tablet should be manufactured in multiple countries",
+                    "isCorrect": 0,
+                    "explanation": "Manufacturing location is not a required feature for the tablet's success in meeting educational needs - it's more of a business decision."
+                },
+                {
+                    "text": "The project should be completed within $1 million",
+                    "isCorrect": 0,
+                    "explanation": "A budget limit is actually a constraint (limitation) on the project, not a criterion (required feature) for the success of the final product."
+                },
+                {
+                    "text": "The development team should include 20 engineers",
+                    "isCorrect": 0,
+                    "explanation": "The number of engineers on the development team is not a criterion - it's related to the development process rather than a required feature of the final product."
+                }
+            ],
+            "funFact": "The first educational tablet computer, the Dynabook, was conceptualized in 1972 by Alan Kay at Xerox PARC. It was designed specifically for children's learning but was never actually built - however, it inspired many of today's tablets and laptops!"
+        },
+        {
+            "id": 6,
             "text": "A group of environmental scientists wants to develop a new system for collecting data about air quality in their city. They need to measure pollutant levels accurately while staying within their budget. Which of the following solutions best addresses both their needs and constraints?",
             "options": [
+                {
+                    "text": "Rely on existing weather stations to estimate air quality without adding any new equipment",
+                    "isCorrect": 0,
+                    "explanation": "This would be the cheapest option but wouldn't provide the specific pollutant measurements needed for accurate air quality assessment"
+                },
                 {
                     "text": "Install high-precision sensors at multiple locations with real-time data transmission capabilities, automated maintenance, and daily calibration checks",
                     "isCorrect": 0,
@@ -179,11 +157,6 @@
                     "explanation": "This solution balances the need for accurate data collection with reasonable cost and maintenance requirements"
                 },
                 {
-                    "text": "Rely on existing weather stations to estimate air quality without adding any new equipment",
-                    "isCorrect": 0,
-                    "explanation": "This would be the cheapest option but wouldn't provide the specific pollutant measurements needed for accurate air quality assessment"
-                },
-                {
                     "text": "Purchase a single advanced monitoring station and place it in the city center",
                     "isCorrect": 0,
                     "explanation": "While within budget, a single station wouldn't provide adequate coverage to measure air quality across the entire city"
@@ -192,72 +165,40 @@
             "funFact": "Scientists often use something called a 'particulate matter sensor' in air quality monitoring, which can detect particles as small as 2.5 micrometers - about 30 times smaller than the width of a human hair!"
         },
         {
+            "id": 7,
+            "text": "A team of scientists wants to create a new system for organizing and storing their research data. Which of the following criteria would be most important to consider when designing this system?",
+            "options": [
+                {
+                    "text": "The system should focus on aesthetic design over functionality",
+                    "isCorrect": 0,
+                    "explanation": "While user interface is important, prioritizing aesthetics over functionality would not meet the primary need of efficient data management."
+                },
+                {
+                    "text": "The system should allow multiple scientists to access and update data simultaneously while maintaining accuracy",
+                    "isCorrect": 1,
+                    "explanation": "This is crucial for scientific collaboration and maintaining data integrity, which are essential features for modern scientific research."
+                },
+                {
+                    "text": "The system should only allow access to senior scientists to prevent data tampering",
+                    "isCorrect": 0,
+                    "explanation": "Limiting access to only senior scientists would hinder collaboration and slow down research progress."
+                },
+                {
+                    "text": "The system should automatically delete old data to save storage space",
+                    "isCorrect": 0,
+                    "explanation": "Automatically deleting old data could result in the loss of valuable historical information that might be needed for future research."
+                }
+            ],
+            "funFact": "The Human Genome Project, completed in 2003, generated about 200 terabytes of data. This massive undertaking helped scientists develop many of the modern data storage and sharing systems used in scientific research today."
+        },
+        {
             "id": 8,
-            "text": "A growing population in a developing country needs more food production. Which agricultural technology solution would best address this need while considering practical constraints?",
-            "options": [
-                {
-                    "text": "Implement automated irrigation systems across all farmland immediately",
-                    "isCorrect": 0,
-                    "explanation": "While automated irrigation is beneficial, implementing it across all farmland immediately would be extremely costly and time-consuming, making it impractical for a developing country."
-                },
-                {
-                    "text": "Start with improved seed varieties in selected regions",
-                    "isCorrect": 1,
-                    "explanation": "Using improved seed varieties is cost-effective, can be implemented quickly, and requires minimal new infrastructure, making it a practical first step to increase food production."
-                },
-                {
-                    "text": "Build climate-controlled greenhouses nationwide",
-                    "isCorrect": 0,
-                    "explanation": "Building nationwide climate-controlled greenhouses would require massive infrastructure investment and time, making it unrealistic given resource constraints."
-                },
-                {
-                    "text": "Convert all farms to organic farming methods",
-                    "isCorrect": 0,
-                    "explanation": "While organic farming has benefits, complete conversion would require extensive training, reduce initial yields, and take many years to implement."
-                }
-            ],
-            "funFact": "The development of high-yield, disease-resistant wheat varieties in the 1960s led to the Green Revolution, which helped prevent predicted food shortages and saved an estimated billion people from starvation."
-        },
-        {
-            "id": 9,
-            "text": "A school science laboratory wants to improve its system for conducting multiple experiments efficiently. Which design solution would best address both the material and time constraints while meeting the success criteria of enabling more students to conduct experiments simultaneously?",
-            "options": [
-                {
-                    "text": "Install mobile experiment stations with essential equipment that can be moved between classrooms",
-                    "isCorrect": 1,
-                    "explanation": "Mobile stations maximize resource usage by allowing equipment to be shared between different classes and locations, addressing both material constraints and time efficiency"
-                },
-                {
-                    "text": "Purchase duplicate sets of expensive equipment for each student",
-                    "isCorrect": 0,
-                    "explanation": "While this would allow simultaneous experiments, it violates material constraints by requiring excessive costly equipment that may not always be in use"
-                },
-                {
-                    "text": "Schedule fewer but longer laboratory sessions",
-                    "isCorrect": 0,
-                    "explanation": "This would reduce efficiency and limit the number of students who can conduct experiments, failing to meet the criteria of enabling more simultaneous experiments"
-                },
-                {
-                    "text": "Remove all safety equipment to make more space",
-                    "isCorrect": 0,
-                    "explanation": "This violates basic laboratory safety requirements and doesn't appropriately address the design constraints while potentially creating new problems"
-                }
-            ],
-            "funFact": "Modern science laboratories often use modular design principles similar to those used in spacecraft, where efficiently organized workspaces can be quickly reconfigured for different types of experiments while maintaining safety and functionality."
-        },
-        {
-            "id": 10,
             "text": "A community wants to improve their local park's playground equipment to better serve children with disabilities. Which factor would be most important to consider first when designing new inclusive playground equipment?",
             "options": [
                 {
                     "text": "The cost of installing colorful decorations on the equipment",
                     "isCorrect": 0,
                     "explanation": "While aesthetics matter, the primary focus should be on meeting the functional needs of children with disabilities rather than decorative elements."
-                },
-                {
-                    "text": "The specific needs of children with different abilities who will use the equipment",
-                    "isCorrect": 1,
-                    "explanation": "Understanding the specific needs of the users is crucial for designing effective solutions that will truly serve the community's requirements."
                 },
                 {
                     "text": "The historical design patterns of playground equipment",
@@ -268,45 +209,77 @@
                     "text": "The maximum number of children who can play at once",
                     "isCorrect": 0,
                     "explanation": "While capacity is a consideration, the primary focus should be on ensuring the equipment meets the specific needs of children with disabilities."
+                },
+                {
+                    "text": "The specific needs of children with different abilities who will use the equipment",
+                    "isCorrect": 1,
+                    "explanation": "Understanding the specific needs of the users is crucial for designing effective solutions that will truly serve the community's requirements."
                 }
             ],
             "funFact": "Universal design in playgrounds not only helps children with disabilities but often ends up benefiting all children. For example, wider slides originally designed for children with mobility devices are also great for parent-child sliding and group play!"
         },
         {
-            "id": 11,
-            "text": "When Benjamin Franklin conducted his famous kite experiment in 1752, what was the main constraint that limited his ability to study electricity safely?",
+            "id": 9,
+            "text": "A science classroom needs to update its old microscopes. The teacher has the following requirements and limitations:\n- Must be able to magnify up to 400x\n- Should have LED illumination\n- Total budget is $2000\n- Must be delivered within 1 month\n- Need at least 5 microscopes\n\nWhich of the following options would best meet these criteria?",
             "options": [
                 {
-                    "text": "Available materials and tools for insulation",
+                    "text": "Purchase 5 advanced digital microscopes at $500 each with 1000x magnification and LED lighting, delivery in 2 weeks",
+                    "isCorrect": 0,
+                    "explanation": "While these microscopes exceed the magnification requirement and meet the delivery timeline, at $2500 total they exceed the budget constraint of $2000."
+                },
+                {
+                    "text": "Purchase 5 premium microscopes at $350 each with 400x magnification and LED lighting, delivery in 6 weeks",
+                    "isCorrect": 0,
+                    "explanation": "Although within budget at $1750 and meeting magnification and lighting requirements, the delivery time exceeds the 1-month constraint."
+                },
+                {
+                    "text": "Purchase 10 simple microscopes at $150 each with 100x magnification and standard lighting, delivery in 1 week",
+                    "isCorrect": 0,
+                    "explanation": "While this option is within budget at $1500 and meets the quantity and delivery requirements, it fails to meet the required magnification and LED lighting specifications."
+                },
+                {
+                    "text": "Purchase 6 basic microscopes at $300 each with 400x magnification and LED lighting, delivery in 3 weeks",
                     "isCorrect": 1,
-                    "explanation": "The lack of proper insulating materials and safety equipment was a major constraint in Franklin's time, making his experiments particularly dangerous."
-                },
-                {
-                    "text": "The cost of experimental equipment",
-                    "isCorrect": 0,
-                    "explanation": "While cost was always a consideration, the primary limitation was not financial but rather the lack of appropriate materials and technology for safe experimentation."
-                },
-                {
-                    "text": "The time required to conduct experiments",
-                    "isCorrect": 0,
-                    "explanation": "Time constraints were not the main limiting factor in Franklin's electrical experiments. The primary concern was safety due to material limitations."
-                },
-                {
-                    "text": "The size of his kite",
-                    "isCorrect": 0,
-                    "explanation": "The kite's size was not the main constraint. The primary limitation was the lack of proper safety materials to protect against electrical shock."
+                    "explanation": "This option meets all criteria: sufficient magnification, LED lighting, within budget at $1800, delivery within a month, and provides more than 5 microscopes."
                 }
             ],
-            "funFact": "Modern electrical safety equipment like rubber gloves and insulated tools weren't invented until the late 1800s. The first rubber insulated electrical wire wasn't patented until 1879, more than 100 years after Franklin's experiments!"
+            "funFact": "Modern LED illumination in microscopes not only provides better clarity and contrast compared to traditional tungsten lighting, but also generates less heat and uses up to 90% less energy, making them more efficient and safer for long-term use in classrooms."
         },
         {
-            "id": 12,
+            "id": 10,
+            "text": "A team of scientists wants to create a new online platform for sharing their research findings with other scientists worldwide. Which of the following design criteria and constraints should they consider to make their platform successful?",
+            "options": [
+                {
+                    "text": "The platform should focus on visual appeal and entertainment features without budget constraints",
+                    "isCorrect": 0,
+                    "explanation": "This ignores practical constraints like budget and emphasizes non-essential features over the core purpose of scientific communication."
+                },
+                {
+                    "text": "The platform should require minimal technical knowledge to use, be accessible 24/7, and stay within the research department's budget",
+                    "isCorrect": 1,
+                    "explanation": "This option considers key constraints (budget, technical requirements) and criteria (accessibility, ease of use) that would make the platform successful for scientists to share their findings."
+                },
+                {
+                    "text": "The platform should only allow sharing of completed research papers and be accessible during business hours",
+                    "isCorrect": 0,
+                    "explanation": "This is too restrictive - limiting access to business hours and only completed papers would hinder scientific collaboration and information sharing."
+                },
+                {
+                    "text": "The platform should require extensive training to use and only be available to scientists in specific countries",
+                    "isCorrect": 0,
+                    "explanation": "Making the platform complex to use and geographically restricted would limit scientific collaboration and defeat the purpose of sharing research findings globally."
+                }
+            ],
+            "funFact": "The first major online scientific research sharing platform, arXiv, was created in 1991 by physicist Paul Ginsparg at Los Alamos National Laboratory. It revolutionized how scientists share their findings by making research papers freely accessible online."
+        },
+        {
+            "id": 11,
             "text": "A scientist is designing an experiment to test if different types of soil affect plant growth. She wants to ensure accurate results but has limited resources. Which of the following represents the best approach to balance scientific accuracy with practical constraints?",
             "options": [
                 {
-                    "text": "Test all types of soil available worldwide to get the most comprehensive results, regardless of time and cost",
+                    "text": "Test one plant in each soil type for just one week to save time",
                     "isCorrect": 0,
-                    "explanation": "While comprehensive testing would provide thorough results, it's not practical due to time and resource constraints. Scientists need to work within reasonable boundaries."
+                    "explanation": "This approach is too limited to provide reliable results. Using only one sample and a short time frame wouldn't account for variables or natural growth patterns."
                 },
                 {
                     "text": "Select 3-4 common soil types, use multiple plants per soil type, and maintain controlled conditions for 8 weeks",
@@ -319,22 +292,17 @@
                     "explanation": "While this saves resources, it doesn't generate new evidence or follow scientific practices. Experiments are essential for testing hypotheses and gathering data."
                 },
                 {
-                    "text": "Test one plant in each soil type for just one week to save time",
+                    "text": "Test all types of soil available worldwide to get the most comprehensive results, regardless of time and cost",
                     "isCorrect": 0,
-                    "explanation": "This approach is too limited to provide reliable results. Using only one sample and a short time frame wouldn't account for variables or natural growth patterns."
+                    "explanation": "While comprehensive testing would provide thorough results, it's not practical due to time and resource constraints. Scientists need to work within reasonable boundaries."
                 }
             ],
             "funFact": "Scientists often use statistical methods to determine the minimum sample size needed for reliable results. This helps them design experiments that are both scientifically valid and resource-efficient."
         },
         {
-            "id": 13,
+            "id": 12,
             "text": "A student wants to document and share their science experiment observations with their classmates. They have access to a notebook, a computer, and 30 minutes to complete the documentation. Which approach would be most effective for sharing their findings within these constraints?",
             "options": [
-                {
-                    "text": "Write detailed observations in the notebook and create a simple digital presentation",
-                    "isCorrect": 1,
-                    "explanation": "This approach balances time and available resources effectively, allowing for both detailed documentation and clear communication with classmates."
-                },
                 {
                     "text": "Create an elaborate video demonstration with special effects",
                     "isCorrect": 0,
@@ -349,63 +317,90 @@
                     "text": "Type a lengthy research paper on the computer",
                     "isCorrect": 0,
                     "explanation": "This approach would exceed the time constraint and may not be the most engaging way to share findings with classmates."
+                },
+                {
+                    "text": "Write detailed observations in the notebook and create a simple digital presentation",
+                    "isCorrect": 1,
+                    "explanation": "This approach balances time and available resources effectively, allowing for both detailed documentation and clear communication with classmates."
                 }
             ],
             "funFact": "Scientists often use multiple methods to document their work - famous scientists like Marie Curie kept detailed laboratory notebooks while also writing scientific papers and giving presentations to share their discoveries with the world."
         },
         {
-            "id": 14,
-            "text": "A student is conducting an experiment to test different materials for making a sound-proof headphone cover. Which of the following demonstrates the best scientific approach considering time and resource limitations?",
+            "id": 13,
+            "text": "A student wants to design a simple microscope to observe plant cells. Which of the following criteria and constraints should be considered when evaluating different solutions?",
             "options": [
                 {
-                    "text": "Testing all available materials at once without keeping records to save time",
+                    "text": "Using only expensive materials to ensure quality",
                     "isCorrect": 0,
-                    "explanation": "Testing all materials simultaneously without documentation makes it impossible to determine which material works best and doesn't follow scientific practices of controlled experimentation."
+                    "explanation": "This focuses too much on expensive materials while ignoring other important criteria and constraints like time and practical material availability."
                 },
                 {
-                    "text": "Testing one material at a time, recording results, and comparing data within the available two-week period",
+                    "text": "Making the most powerful microscope possible regardless of cost",
+                    "isCorrect": 0,
+                    "explanation": "This approach ignores practical constraints like cost and available materials, which are essential considerations in any design solution."
+                },
+                {
+                    "text": "Only the magnification power of the microscope",
+                    "isCorrect": 0,
+                    "explanation": "This is incomplete as it only considers one criterion (magnification) while ignoring important constraints like cost, materials, and time limitations."
+                },
+                {
+                    "text": "Cost of lenses, available materials, and time needed for assembly",
                     "isCorrect": 1,
-                    "explanation": "This approach follows scientific practices by controlling variables, collecting evidence systematically, and working within time constraints while ensuring reliable results."
-                },
-                {
-                    "text": "Waiting to get expensive materials from other countries before starting the experiment",
-                    "isCorrect": 0,
-                    "explanation": "This approach doesn't consider resource constraints and unnecessarily delays the investigation when suitable local materials might be available."
-                },
-                {
-                    "text": "Asking friends which material they think would work best without testing",
-                    "isCorrect": 0,
-                    "explanation": "Making decisions based on opinions rather than experimental evidence does not follow scientific practices and won't provide reliable results."
+                    "explanation": "This is correct because it includes both criteria (quality lenses for observation) and constraints (cost, materials, time) that need to be considered for a successful solution."
                 }
             ],
-            "funFact": "Sound-proofing technology has evolved significantly since its first use in the early 1900s. Modern acoustic engineers use sophisticated computer models to test materials virtually before physical testing, saving both time and resources while developing better solutions!"
+            "funFact": "Antonie van Leeuwenhoek, in the late 1600s, created powerful single-lens microscopes that were the first to allow observation of bacteria. Though compound microscopes were invented earlier around 1590-1610, his simple design proved that effective solutions don't always require the most complex or expensive materials."
+        },
+        {
+            "id": 14,
+            "text": "A school is planning to build a new science lab. They need to evaluate different design options based on the following criteria:\n- Must include 10 workstations\n- Must have proper ventilation\n- Must be completed within 3 months\nThey have three proposals:\nProposal 1: Uses high-quality materials, takes 4 months, includes 12 workstations with excellent ventilation\nProposal 2: Uses standard materials, takes 2 months, includes 8 workstations with good ventilation\nProposal 3: Uses standard materials, takes 3 months, includes 10 workstations with good ventilation\n\nWhich proposal best meets all the specified criteria and constraints?",
+            "options": [
+                {
+                    "text": "Proposal 2",
+                    "isCorrect": 0,
+                    "explanation": "Although this proposal meets the time constraint, it fails to meet the required number of workstations (only 8 instead of 10)."
+                },
+                {
+                    "text": "Proposal 3",
+                    "isCorrect": 1,
+                    "explanation": "This proposal meets all criteria and constraints: 10 workstations, good ventilation, and completion within 3 months using standard materials."
+                },
+                {
+                    "text": "Proposal 1",
+                    "isCorrect": 0,
+                    "explanation": "While this proposal exceeds some requirements (12 workstations, excellent ventilation), it fails to meet the time constraint of 3 months as it takes 4 months to complete."
+                }
+            ],
+            "funFact": "When designing scientific laboratories, ventilation is crucial not just for comfort but for safety! Modern labs often have specialized ventilation systems that can exchange the entire room's air up to 12 times per hour to remove potentially harmful fumes and maintain air quality."
         },
         {
             "id": 15,
-            "text": "How have scientific tools and equipment evolved to help scientists understand the shape of the Earth?",
+            "text": "A group of scientists wants to develop a new microscope to study tiny organisms in pond water. Which of the following would be a constraint they need to consider in their design process?",
             "options": [
                 {
-                    "text": "Modern telescopes and satellites have provided accurate measurements and imagery, replacing simple visual observations",
+                    "text": "The microscope needs to be easy for students to use",
+                    "isCorrect": 0,
+                    "explanation": "This is a criterion (desired feature) for the microscope's success, not a constraint that limits the design process."
+                },
+                {
+                    "text": "The microscope's total cost must stay within their $5000 budget",
                     "isCorrect": 1,
-                    "explanation": "Advanced equipment like telescopes and satellites have allowed scientists to make precise measurements and capture images that clearly show Earth's spherical shape."
+                    "explanation": "Budget/cost is a key constraint that limits what materials and features can be included in the design."
                 },
                 {
-                    "text": "Scientists stopped using all old tools and only rely on computers now",
+                    "text": "The microscope must be able to magnify objects at least 400 times",
                     "isCorrect": 0,
-                    "explanation": "Scientists use a combination of both traditional and modern tools. Computers are important but they work alongside other scientific instruments."
+                    "explanation": "This is actually a criterion (required feature) for the microscope's success, not a constraint that limits the design process."
                 },
                 {
-                    "text": "The tools have remained the same but scientists interpret data differently",
+                    "text": "The microscope should produce clear, focused images",
                     "isCorrect": 0,
-                    "explanation": "Scientific tools have significantly improved over time, allowing for more accurate measurements and observations than were possible in the past."
-                },
-                {
-                    "text": "Scientists no longer need tools because they already know everything about Earth's shape",
-                    "isCorrect": 0,
-                    "explanation": "Scientists continue to use and develop new tools to make more precise measurements and discoveries about Earth and its properties."
+                    "explanation": "This is a criterion (required feature) that defines success, not a constraint that limits the design process."
                 }
             ],
-            "funFact": "The first photo of Earth from space was taken in 1946 using a camera mounted on a V-2 rocket. This breakthrough image helped revolutionize our understanding of Earth's shape and led to even more advanced space-based observation tools."
+            "funFact": "The first compound microscope was invented in the late 16th century by Dutch spectacle makers Hans Janssen and his son Zacharias. Their invention could magnify objects up to 9 times. Modern microscopes can magnify objects up to 2000 times!"
         }
     ]
 }

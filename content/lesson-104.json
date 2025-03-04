@@ -4,33 +4,6 @@
     "questions": [
         {
             "id": 1,
-            "text": "A scientist fills two identical balloons - one with helium and one with sulfur hexafluoride. When released indoors at room temperature, what will happen to these balloons?",
-            "options": [
-                {
-                    "text": "The helium balloon will rise and the sulfur hexafluoride balloon will sink",
-                    "isCorrect": 1,
-                    "explanation": "Helium is less dense than air, so it rises, while sulfur hexafluoride is about six times denser than air, causing it to sink."
-                },
-                {
-                    "text": "Both balloons will rise because all gases float in air",
-                    "isCorrect": 0,
-                    "explanation": "Not all gases rise in air - it depends on their density compared to air. Only gases less dense than air will rise."
-                },
-                {
-                    "text": "Both balloons will sink because they are weighed down by the gas",
-                    "isCorrect": 0,
-                    "explanation": "The behavior of gas-filled balloons depends on the relative density of the gas compared to air, not just the presence of gas inside them."
-                },
-                {
-                    "text": "The sulfur hexafluoride balloon will rise and the helium balloon will sink",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - helium is less dense than air while sulfur hexafluoride is more dense than air, so their behaviors would be the opposite of this."
-                }
-            ],
-            "funFact": "Sulfur hexafluoride is so dense that you can actually float a toy boat on it, just like you would float a boat on water! This demonstrates how gases with different densities can create layers, similar to how oil floats on water."
-        },
-        {
-            "id": 2,
             "text": "Which statement best defines matter?",
             "options": [
                 {
@@ -57,6 +30,33 @@
             "funFact": "The air in an empty room might seem like nothing, but it actually contains about 1.2 kilograms (2.6 pounds) of matter per cubic meter! This is why empty balloons get heavier when we fill them with air."
         },
         {
+            "id": 2,
+            "text": "A student has two identical-sized balls - a golf ball and a ping pong ball. The golf ball feels much heavier than the ping pong ball. What property best explains why these same-sized balls have different weights?",
+            "options": [
+                {
+                    "text": "Magnetism",
+                    "isCorrect": 0,
+                    "explanation": "Magnetic properties do not determine an object's weight. Magnetism refers to whether a material is attracted to magnets."
+                },
+                {
+                    "text": "Color",
+                    "isCorrect": 0,
+                    "explanation": "The color of an object does not affect its weight. Color is a physical property that relates to how light interacts with a material's surface."
+                },
+                {
+                    "text": "Density",
+                    "isCorrect": 1,
+                    "explanation": "Density measures how tightly packed particles are in a material. Golf balls have more tightly packed particles than ping pong balls, making them denser and therefore heavier despite being the same size."
+                },
+                {
+                    "text": "Shape",
+                    "isCorrect": 0,
+                    "explanation": "Both balls are the same shape and size, so shape cannot explain their different weights. Shape only describes the external form of an object."
+                }
+            ],
+            "funFact": "The density of a typical golf ball is about 1.15 grams per cubic centimeter, while a ping pong ball's density is only about 0.08 grams per cubic centimeter - that's about 14 times less dense!"
+        },
+        {
             "id": 3,
             "text": "Which of the following correctly describes the three main forms of matter?",
             "options": [
@@ -64,6 +64,11 @@
                     "text": "Solids have a fixed shape and volume, liquids take the shape of their container with fixed volume, and gases expand to fill their container completely",
                     "isCorrect": 1,
                     "explanation": "This accurately describes the defining characteristics of all three forms of matter. Solids maintain their shape and volume, liquids flow but maintain volume, and gases expand to fill available space."
+                },
+                {
+                    "text": "Solids, liquids and gases all maintain their own shape regardless of their container",
+                    "isCorrect": 0,
+                    "explanation": "Only solids maintain their shape. Liquids take the shape of their container while maintaining volume, and gases expand to completely fill any container."
                 },
                 {
                     "text": "Solids can flow easily, liquids maintain their shape, and gases have fixed volume",
@@ -74,28 +79,50 @@
                     "text": "Solids take the shape of their container, liquids expand in all directions, and gases have fixed shapes",
                     "isCorrect": 0,
                     "explanation": "This mixes up the properties - solids keep their shape (don't take container shape), gases (not liquids) expand in all directions, and gases don't have fixed shapes."
-                },
-                {
-                    "text": "Solids, liquids and gases all maintain their own shape regardless of their container",
-                    "isCorrect": 0,
-                    "explanation": "Only solids maintain their shape. Liquids take the shape of their container while maintaining volume, and gases expand to completely fill any container."
                 }
             ],
             "funFact": "At extremely high temperatures and pressures, matter can exist in a fourth state called plasma, where electrons separate from atoms creating an ionized gas. Lightning and the Sun are examples of matter in plasma form!"
         },
         {
             "id": 4,
-            "text": "Which statement correctly explains why a golf ball sinks in water while a ping pong ball floats?",
+            "text": "A company wants to design a new picnic cooler for keeping drinks cold. Which material property is most important to consider when choosing what to make the cooler from?",
             "options": [
                 {
-                    "text": "The particles in a golf ball are packed more tightly together than in a ping pong ball, giving it a higher density than water.",
+                    "text": "The material should be a good insulator",
                     "isCorrect": 1,
-                    "explanation": "This is correct. The golf ball has particles packed closer together, making it denser than water, causing it to sink. The ping pong ball has particles spaced further apart, making it less dense than water, causing it to float."
+                    "explanation": "A good insulator prevents heat transfer, helping keep drinks cold for longer periods. This is why materials like Styrofoam are commonly used for coolers."
                 },
+                {
+                    "text": "The material should be highly soluble in water",
+                    "isCorrect": 0,
+                    "explanation": "A material that dissolves in water would be a poor choice for a cooler, as it would break down when exposed to condensation or spills."
+                },
+                {
+                    "text": "The material should be magnetic",
+                    "isCorrect": 0,
+                    "explanation": "Magnetic properties are not relevant for keeping drinks cold. Whether a material is magnetic or not does not affect its ability to maintain temperature."
+                },
+                {
+                    "text": "The material should be very dense",
+                    "isCorrect": 0,
+                    "explanation": "Density is not directly related to keeping drinks cold. In fact, many good insulators like Styrofoam have low density."
+                }
+            ],
+            "funFact": "Modern coolers often use a double-wall construction with vacuum insulation, similar to what's used in high-end thermal coffee mugs. This technology can keep items cold for several days because a vacuum is one of the best insulators known!"
+        },
+        {
+            "id": 5,
+            "text": "Which statement correctly explains why a golf ball sinks in water while a ping pong ball floats?",
+            "options": [
                 {
                     "text": "The golf ball is heavier because it has more particles than the ping pong ball.",
                     "isCorrect": 0,
                     "explanation": "While the golf ball is heavier, it's not because it has more particles. The difference is in how tightly the particles are packed together, which affects density."
+                },
+                {
+                    "text": "The golf ball sinks because it is made of metal, while the ping pong ball floats because it is made of plastic.",
+                    "isCorrect": 0,
+                    "explanation": "The material type alone doesn't determine if something floats or sinks. Golf balls aren't made of metal, and it's the arrangement of particles (density) that determines floating."
                 },
                 {
                     "text": "The ping pong ball contains air, while the golf ball is completely solid.",
@@ -103,75 +130,26 @@
                     "explanation": "While the ping pong ball does contain air, this alone doesn't explain density. The key is how tightly packed the particles are in each ball's material."
                 },
                 {
-                    "text": "The golf ball sinks because it is made of metal, while the ping pong ball floats because it is made of plastic.",
-                    "isCorrect": 0,
-                    "explanation": "The material type alone doesn't determine if something floats or sinks. Golf balls aren't made of metal, and it's the arrangement of particles (density) that determines floating."
+                    "text": "The particles in a golf ball are packed more tightly together than in a ping pong ball, giving it a higher density than water.",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The golf ball has particles packed closer together, making it denser than water, causing it to sink. The ping pong ball has particles spaced further apart, making it less dense than water, causing it to float."
                 }
             ],
             "funFact": "The world's largest golf ball is located in Lockport, Illinois, and stands 32 feet tall! Despite its massive size, if you could place it in a giant pool of water, it would still sink because the density of its materials remains the same regardless of size."
         },
         {
-            "id": 5,
-            "text": "A chef is designing a new cooking pot and needs to choose the best material for the handle. What is the most important property of matter to consider when selecting the material for the pot handle?",
-            "options": [
-                {
-                    "text": "Thermal conductivity",
-                    "isCorrect": 1,
-                    "explanation": "Thermal conductivity is the most important property to consider because the handle should not conduct heat well to prevent burns when holding the pot. Materials with low thermal conductivity like plastic are safer choices for pot handles."
-                },
-                {
-                    "text": "Magnetism",
-                    "isCorrect": 0,
-                    "explanation": "While magnetism is an important property of matter, it is not relevant for pot handle safety. Whether the handle is magnetic or not does not affect how hot it gets when cooking."
-                },
-                {
-                    "text": "Solubility",
-                    "isCorrect": 0,
-                    "explanation": "Solubility refers to how well a substance dissolves in liquid. This property is not important for pot handles since they should not dissolve in water or other cooking liquids."
-                },
-                {
-                    "text": "Density",
-                    "isCorrect": 0,
-                    "explanation": "While density affects how heavy the handle would be, it is not the most important safety consideration. The handle's ability to resist heat transfer is more critical for preventing burns."
-                }
-            ],
-            "funFact": "Early cooking pots from ancient civilizations often had wooden handles attached to clay or metal pots. The ancient engineers understood that wood's poor heat conductivity made it a safer material for handles, even though they didn't have the scientific terminology to describe thermal conductivity!"
-        },
-        {
             "id": 6,
-            "text": "A scientist needs to determine which liquid would be better for removing nail polish - water or acetone. What property of these liquids should the scientist test to make this decision?",
-            "options": [
-                {
-                    "text": "Solubility of nail polish in each liquid",
-                    "isCorrect": 1,
-                    "explanation": "Testing how well nail polish dissolves in each liquid will directly show which liquid is better for nail polish removal. Acetone's ability to dissolve nail polish makes it the effective choice."
-                },
-                {
-                    "text": "Density of each liquid",
-                    "isCorrect": 0,
-                    "explanation": "While density is a property of liquids, it doesn't determine how well a liquid can remove nail polish. A liquid's density only tells us how heavy it is compared to its volume."
-                },
-                {
-                    "text": "Magnetism of each liquid",
-                    "isCorrect": 0,
-                    "explanation": "Magnetic properties don't affect a liquid's ability to remove nail polish. Neither water nor acetone is magnetic, and magnetism isn't relevant for nail polish removal."
-                },
-                {
-                    "text": "Color of each liquid",
-                    "isCorrect": 0,
-                    "explanation": "The color of a liquid doesn't determine its ability to remove nail polish. Both water and acetone are clear, colorless liquids, but they have very different abilities to dissolve nail polish."
-                }
-            ],
-            "funFact": "Acetone is found naturally in the human body in small amounts! It's produced when your body breaks down fat for energy. However, the acetone used in nail polish removers is manufactured specifically for that purpose."
-        },
-        {
-            "id": 7,
             "text": "An engineer needs to select a material for a bridge support beam. The beam needs to be strong enough to hold heavy weights without breaking. Which property should the engineer measure to compare different materials for this purpose?",
             "options": [
                 {
                     "text": "Tensile strength",
                     "isCorrect": 1,
                     "explanation": "Tensile strength measures a material's resistance to breaking under tension. This is crucial for bridge support beams which must withstand heavy loads without breaking or deforming. Engineers use this property to select materials that can bear the required weight."
+                },
+                {
+                    "text": "Magnetism",
+                    "isCorrect": 0,
+                    "explanation": "Magnetism measures whether a material is attracted to magnets. This property does not help determine if a material is strong enough for bridge supports."
                 },
                 {
                     "text": "Solubility",
@@ -182,23 +160,23 @@
                     "text": "Conductivity",
                     "isCorrect": 0,
                     "explanation": "Conductivity measures how well a material conducts heat or electricity. While important for some applications, it does not indicate the material's strength for bridge supports."
-                },
-                {
-                    "text": "Magnetism",
-                    "isCorrect": 0,
-                    "explanation": "Magnetism measures whether a material is attracted to magnets. This property does not help determine if a material is strong enough for bridge supports."
                 }
             ],
             "funFact": "The Golden Gate Bridge in San Francisco uses steel with high tensile strength in its support structures. These steel supports are so strong that they can hold up to 894,000 tons of weight!"
         },
         {
-            "id": 8,
+            "id": 7,
             "text": "A company is designing outdoor patio furniture and needs to choose materials that will withstand various weather conditions. Which combination of properties should they test to select the most durable materials?",
             "options": [
                 {
                     "text": "Solubility in water and response to magnetic forces",
                     "isCorrect": 0,
                     "explanation": "While solubility is relevant for weather resistance, magnetic properties don't indicate durability. Materials can be durable regardless of their magnetic properties."
+                },
+                {
+                    "text": "Thermal conductivity and magnetic properties",
+                    "isCorrect": 0,
+                    "explanation": "Neither of these properties directly relates to a material's ability to withstand weather conditions. A material could have either property and still degrade outdoors."
                 },
                 {
                     "text": "Solubility in water and thermal conductivity",
@@ -209,78 +187,122 @@
                     "text": "Solubility in water and resistance to rusting",
                     "isCorrect": 1,
                     "explanation": "This is the best combination to test. Materials that don't dissolve in water and resist rusting will be most durable in outdoor conditions where they face rain and moisture regularly."
-                },
-                {
-                    "text": "Thermal conductivity and magnetic properties",
-                    "isCorrect": 0,
-                    "explanation": "Neither of these properties directly relates to a material's ability to withstand weather conditions. A material could have either property and still degrade outdoors."
                 }
             ],
             "funFact": "Stainless steel, a popular choice for outdoor furniture, contains chromium which forms an invisible protective layer when exposed to air, making it highly resistant to rusting and corrosion!"
         },
         {
-            "id": 9,
+            "id": 8,
             "text": "A jewelry maker needs to identify pure silver from other metals. Which combination of properties would be the most reliable way to distinguish pure silver?",
             "options": [
-                {
-                    "text": "Magnetic attraction and color",
-                    "isCorrect": 0,
-                    "explanation": "While color can help identify metals, silver's color can be similar to other metals. Magnetic properties aren't useful here as silver is not magnetic, but several other metals are also non-magnetic."
-                },
                 {
                     "text": "Electrical conductivity and thermal conductivity",
                     "isCorrect": 1,
                     "explanation": "Silver has the highest electrical and thermal conductivity of all metals. Testing both these properties together provides a reliable way to identify pure silver."
                 },
                 {
-                    "text": "Solubility in water and hardness",
+                    "text": "Magnetic attraction and color",
                     "isCorrect": 0,
-                    "explanation": "Silver is not soluble in water, and while hardness can be tested, many metals have similar hardness levels. These properties aren't distinctive enough for silver identification."
+                    "explanation": "While color can help identify metals, silver's color can be similar to other metals. Magnetic properties aren't useful here as silver is not magnetic, but several other metals are also non-magnetic."
                 },
                 {
                     "text": "Reflectivity and magnetic attraction",
                     "isCorrect": 0,
                     "explanation": "While silver is highly reflective, many other metals are also reflective. Magnetic attraction isn't helpful as silver is non-magnetic, but so are many other metals."
+                },
+                {
+                    "text": "Solubility in water and hardness",
+                    "isCorrect": 0,
+                    "explanation": "Silver is not soluble in water, and while hardness can be tested, many metals have similar hardness levels. These properties aren't distinctive enough for silver identification."
                 }
             ],
             "funFact": "Pure silver has been valued for thousands of years not just for its beauty, but also for its amazing conductivity properties. It's such a good conductor that even today, despite its high cost, it's used in specialized electronics where maximum conductivity is crucial!"
         },
         {
-            "id": 10,
-            "text": "A boat builder is designing a new sailboat and needs to choose materials that won't break down in water. Which property should they primarily test to ensure the materials will last in water?",
+            "id": 9,
+            "text": "Three commercial thermoses are available - one made of stainless steel with vacuum insulation, one made of plastic, and one made of glass. You want to keep your hot chocolate warm for a long time. Which thermos would typically be the best choice?",
             "options": [
                 {
-                    "text": "Water resistance",
-                    "isCorrect": 1,
-                    "explanation": "Water resistance indicates how well a material resists deterioration when exposed to water for extended periods. Testing this property helps identify materials that won't break down due to water absorption, rot, or other water-related degradation."
+                    "text": "Plastic thermos",
+                    "isCorrect": 0,
+                    "explanation": "While plastic has lower thermal conductivity than stainless steel, most plastic thermoses don't use effective vacuum insulation technology, making them less efficient at retaining heat over long periods."
                 },
                 {
-                    "text": "Solubility",
-                    "isCorrect": 0,
-                    "explanation": "While solubility measures how easily a substance dissolves in water, most boat building materials (like fiberglass, metals, and wood) don't dissolve in water. Instead, they face other issues like corrosion, rot, or water absorption that are better measured by water resistance tests."
+                    "text": "Stainless steel thermos",
+                    "isCorrect": 1,
+                    "explanation": "Modern stainless steel thermoses typically use vacuum insulation (double walls with vacuum between them) which dramatically reduces heat transfer. This design, combined with durability and tight seals, makes them the best choice for keeping drinks hot longer."
                 },
+                {
+                    "text": "Glass thermos",
+                    "isCorrect": 0,
+                    "explanation": "Glass has lower thermal conductivity than stainless steel, and original vacuum flasks were made of glass. However, modern glass thermoses are more fragile and often lack the advanced vacuum insulation of premium stainless steel options."
+                }
+            ],
+            "funFact": "The first vacuum flask (thermos) was invented in 1892 by Sir James Dewar, who used two glass walls with a vacuum between them to minimize heat transfer. Modern stainless steel vacuum flasks use the same principle but with more durable materials and improved sealing technology!"
+        },
+        {
+            "id": 10,
+            "text": "A kitchen designer is selecting materials for pot handles. Which property should they focus on to ensure the handles are safe to touch during cooking?",
+            "options": [
                 {
                     "text": "Magnetism",
                     "isCorrect": 0,
-                    "explanation": "While magnetism is an important property of materials, it doesn't tell us whether a material will deteriorate when exposed to water for long periods."
+                    "explanation": "While magnetism is an important property of matter, it doesn't affect how hot a handle gets during cooking. The handle's ability to conduct heat is more important for safety."
                 },
                 {
                     "text": "Density",
                     "isCorrect": 0,
-                    "explanation": "Density determines if something floats or sinks in water, but it doesn't indicate whether the material will deteriorate in water over time."
+                    "explanation": "Although density is an important property of matter, it doesn't determine how hot a handle will get. A material's ability to conduct heat is what matters for handle safety."
                 },
                 {
                     "text": "Thermal conductivity",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Materials with low thermal conductivity, like plastic, are ideal for pot handles because they prevent heat from transferring easily from the hot pot to the handle, keeping it safe to touch."
+                },
+                {
+                    "text": "Solubility",
                     "isCorrect": 0,
-                    "explanation": "Thermal conductivity measures how well a material conducts heat, but this property doesn't tell us if the material will stay intact in water."
+                    "explanation": "Solubility refers to how well a material dissolves in liquid. This property isn't relevant to whether a handle will become too hot to touch during cooking."
                 }
             ],
-            "funFact": "Ancient Egyptian boats were made from cedar wood imported from Lebanon because this wood contained natural oils and chemicals that made it highly resistant to water damage and decay, allowing their boats to last for many years on the Nile River."
+            "funFact": "Space shuttle tiles were designed with extremely low thermal conductivity - so low that you could hold one edge of a tile while the other edge was glowing red hot at 2,200\u00b0F (1,204\u00b0C)!"
         },
         {
             "id": 11,
+            "text": "A small aluminum boat is placed in a container filled with sulfur hexafluoride gas. What explains why the boat floats on the gas instead of sinking to the bottom?",
+            "options": [
+                {
+                    "text": "The boat's shape creates air pressure that pushes it down",
+                    "isCorrect": 0,
+                    "explanation": "Air pressure is not responsible for the boat floating. The boat floats because it contains air that is less dense than the sulfur hexafluoride gas below it."
+                },
+                {
+                    "text": "The sulfur hexafluoride gas dissolves the bottom of the boat making it lighter",
+                    "isCorrect": 0,
+                    "explanation": "Sulfur hexafluoride gas does not dissolve aluminum. The floating occurs because of density differences, not chemical reactions."
+                },
+                {
+                    "text": "The aluminum boat is magnetic and is pulled upward",
+                    "isCorrect": 0,
+                    "explanation": "Aluminum is not magnetic, and magnetism is not responsible for the floating. The floating is due to differences in density."
+                },
+                {
+                    "text": "The air inside the boat is less dense than the sulfur hexafluoride gas",
+                    "isCorrect": 1,
+                    "explanation": "The aluminum boat contains air, which is less dense than sulfur hexafluoride gas. Objects float when they are less dense than the substance they are placed in."
+                }
+            ],
+            "funFact": "Sulfur hexafluoride gas is so dense that you can actually pour it from one container to another like a liquid, even though it's a gas! This property makes it useful in various industrial applications, including as an electrical insulator in high-voltage equipment."
+        },
+        {
+            "id": 12,
             "text": "Which of the following statements correctly explains why salt dissolves in water but not in nail polish remover (acetone)?",
             "options": [
+                {
+                    "text": "Salt always dissolves in any liquid, it just takes longer in acetone",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Salt does not dissolve in all liquids. Some substances are insoluble in certain liquids regardless of time."
+                },
                 {
                     "text": "Salt has different solubility properties in water versus acetone due to the different chemical structures of these liquids",
                     "isCorrect": 1,
@@ -295,122 +317,90 @@
                     "text": "Water is a stronger liquid than acetone, so it can break down salt better",
                     "isCorrect": 0,
                     "explanation": "The strength of a liquid is not what determines solubility. Each substance has specific solubility properties with different solvents."
-                },
-                {
-                    "text": "Salt always dissolves in any liquid, it just takes longer in acetone",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Salt does not dissolve in all liquids. Some substances are insoluble in certain liquids regardless of time."
                 }
             ],
             "funFact": "The ancient Romans used salt as a form of payment for their soldiers, which is where we get the word 'salary' from - it comes from 'sal,' the Latin word for salt!"
         },
         {
-            "id": 12,
-            "text": "A scientist has two balls of exactly the same size - a golf ball and a ping-pong ball. The golf ball feels much heavier than the ping-pong ball. What explains this difference in weight?",
-            "options": [
-                {
-                    "text": "The particles in the golf ball are packed more tightly together than in the ping-pong ball",
-                    "isCorrect": 1,
-                    "explanation": "Correct! The golf ball has a higher density because its particles are packed more closely together, resulting in more mass in the same volume."
-                },
-                {
-                    "text": "The golf ball contains more air than the ping-pong ball",
-                    "isCorrect": 0,
-                    "explanation": "Actually, the ping-pong ball contains more air. The golf ball is heavier because its solid material particles are packed more tightly together."
-                },
-                {
-                    "text": "The golf ball is larger in size than the ping-pong ball",
-                    "isCorrect": 0,
-                    "explanation": "The question states that both balls are exactly the same size. The difference in weight is due to how tightly packed the particles are, not the size."
-                },
-                {
-                    "text": "The golf ball and ping-pong ball are made of the same material",
-                    "isCorrect": 0,
-                    "explanation": "The balls are made of different materials. The golf ball material has particles packed more tightly together, making it denser than the ping-pong ball material."
-                }
-            ],
-            "funFact": "A golf ball typically weighs about 45.93 grams while a ping-pong ball weighs only about 2.7 grams - that's about 17 times heavier! This dramatic difference in weight demonstrates how much density affects the weight of objects."
-        },
-        {
             "id": 13,
-            "text": "A chef is designing a new line of cooking pots and needs to choose the best material for the handles. Which property of materials should be most important in selecting the handle material?",
+            "text": "A scientist needs to store a highly reactive chemical solution. Which container material would be the safest choice?",
             "options": [
                 {
-                    "text": "Thermal conductivity",
-                    "isCorrect": 0,
-                    "explanation": "Materials with high thermal conductivity would make poor handles as they would quickly become too hot to touch, potentially causing burns."
-                },
-                {
-                    "text": "Thermal insulation",
+                    "text": "Glass container",
                     "isCorrect": 1,
-                    "explanation": "Materials that are good thermal insulators (poor heat conductors) are ideal for pot handles as they prevent heat transfer from the pot to the user's hand, ensuring safety during cooking."
+                    "explanation": "Glass is chemically inert and does not react with most chemicals, making it the safest choice for storing reactive solutions among these options."
                 },
                 {
-                    "text": "Magnetic properties",
+                    "text": "Styrofoam container",
                     "isCorrect": 0,
-                    "explanation": "Whether a material is magnetic or not is not relevant for pot handle safety or functionality."
+                    "explanation": "Styrofoam can be dissolved by many chemicals and is not suitable for storing reactive solutions."
                 },
                 {
-                    "text": "Solubility",
+                    "text": "Regular consumer plastic container",
                     "isCorrect": 0,
-                    "explanation": "How well a material dissolves in water or other liquids is not a relevant property for pot handle safety or functionality."
+                    "explanation": "Regular consumer plastics can dissolve or react with many chemicals, making them unsuitable for storing reactive solutions. Note that certain specialized laboratory-grade plastics are designed for chemical storage, but regular plastic containers are not."
+                },
+                {
+                    "text": "Aluminum container",
+                    "isCorrect": 0,
+                    "explanation": "Aluminum can react with many chemicals and may corrode, making it unsafe for storing reactive solutions."
                 }
             ],
-            "funFact": "Many modern kitchen utensils use special composite materials that combine durability with excellent thermal insulation. Some of these materials can withstand temperatures up to 500\u00b0F (260\u00b0C) while staying cool enough to touch!"
+            "funFact": "Ancient alchemists invented many of the glass containers still used in chemistry labs today. The word 'beaker' comes from the Old Norse word 'bikarr,' meaning a large drinking vessel!"
         },
         {
             "id": 14,
-            "text": "A scientist wants to identify which of two metal samples contains iron. Which method would be most reliable for distinguishing between the samples?",
+            "text": "A science lab needs to store acetone for a chemical experiment. Which container material would be the safest choice?",
             "options": [
                 {
-                    "text": "Testing each sample with a magnet",
+                    "text": "Plastic container",
+                    "isCorrect": 0,
+                    "explanation": "Many plastics can be dissolved or damaged by acetone, making them unsafe for acetone storage."
+                },
+                {
+                    "text": "Glass container",
                     "isCorrect": 1,
-                    "explanation": "Iron is attracted to magnets, while many other metals are not. Using a magnet is a reliable way to identify iron-containing materials through their magnetic properties."
+                    "explanation": "Glass is chemically inert and won't react with acetone. It's the safest choice as acetone cannot dissolve or damage glass."
                 },
                 {
-                    "text": "Looking at the color of each sample",
+                    "text": "Cardboard container",
                     "isCorrect": 0,
-                    "explanation": "Color alone is not a reliable way to identify iron, as many different metals can appear similar in color."
+                    "explanation": "Cardboard would quickly become soaked with acetone and fall apart, creating a dangerous spill."
                 },
                 {
-                    "text": "Measuring the weight of each sample",
+                    "text": "Styrofoam container",
                     "isCorrect": 0,
-                    "explanation": "Weight alone cannot identify iron, as samples of different metals could have the same weight depending on their size."
-                },
-                {
-                    "text": "Testing if the samples float in water",
-                    "isCorrect": 0,
-                    "explanation": "While density can be useful for some materials, many metals including iron will sink in water, making this an unreliable method for identifying iron specifically."
+                    "explanation": "Styrofoam would be dissolved by acetone, causing the container to leak and create a hazardous situation."
                 }
             ],
-            "funFact": "The Earth's magnetic field is created by molten iron moving in the planet's outer core. This magnetic field helps protect us from harmful solar radiation and helps animals like sea turtles and birds navigate during migration!"
+            "funFact": "Acetone is commonly used as nail polish remover because of its ability to dissolve certain materials. This same property that makes it effective at removing nail polish is also why it must be stored carefully in appropriate containers!"
         },
         {
             "id": 15,
-            "text": "A space agency is designing a new spacecraft that will travel close to the Sun. The heat shield of the spacecraft needs to withstand extremely high temperatures. Which material would be most suitable for constructing the heat shield?",
+            "text": "Why is stainless steel commonly used for making kitchen utensils like knives and forks instead of regular iron?",
             "options": [
                 {
-                    "text": "Aluminum",
+                    "text": "Stainless steel is lighter than iron, making it easier to handle utensils",
                     "isCorrect": 0,
-                    "explanation": "Although aluminum is lightweight, it has poor heat resistance and would melt at high temperatures, making it unsuitable for a heat shield."
+                    "explanation": "This is incorrect - stainless steel is not significantly lighter than iron. The main advantage is its rust resistance while maintaining strength."
                 },
                 {
-                    "text": "Ceramic",
+                    "text": "Stainless steel conducts heat better than iron",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - heat conductivity is not the main reason stainless steel is preferred. In fact, regular iron generally conducts heat slightly better than stainless steel."
+                },
+                {
+                    "text": "Stainless steel is magnetic while iron is not",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - both iron and many types of stainless steel can be magnetic. Magnetism is not the key property that makes stainless steel better for utensils."
+                },
+                {
+                    "text": "Stainless steel is resistant to rusting while maintaining strength and hardness",
                     "isCorrect": 1,
-                    "explanation": "Ceramic materials can withstand very high temperatures without melting or deforming, making them ideal for heat shields on spacecraft."
-                },
-                {
-                    "text": "Plastic",
-                    "isCorrect": 0,
-                    "explanation": "Plastic has very low heat resistance and would melt quickly at high temperatures, making it a poor choice for a heat shield."
-                },
-                {
-                    "text": "Styrofoam",
-                    "isCorrect": 0,
-                    "explanation": "Styrofoam would melt and deteriorate at high temperatures, making it completely unsuitable for a heat shield."
+                    "explanation": "Stainless steel combines the strength and hardness needed for utensils while being resistant to rust, making it ideal for kitchen use where items frequently contact water and food."
                 }
             ],
-            "funFact": "The Parker Solar Probe, launched in 2018, uses a special carbon-composite heat shield that helps it survive temperatures up to 2,500\u00b0F (1,370\u00b0C) as it studies the Sun's outer corona!"
+            "funFact": "The 'stainless' in stainless steel comes from chromium, which forms an invisible protective layer when exposed to oxygen. This layer self-repairs when scratched, continuously protecting the metal from rust!"
         }
     ]
 }

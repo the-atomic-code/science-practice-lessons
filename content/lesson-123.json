@@ -4,93 +4,12 @@
     "questions": [
         {
             "id": 1,
-            "text": "What is photosynthesis?",
-            "options": [
-                {
-                    "text": "The process where plants use sunlight, carbon dioxide, and water to produce sugar and oxygen",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Photosynthesis is the chemical process where plants combine carbon dioxide and water using energy from sunlight to produce sugar for food and release oxygen."
-                },
-                {
-                    "text": "The process where plants break down sugar to release energy",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Breaking down sugar for energy is cellular respiration, not photosynthesis."
-                },
-                {
-                    "text": "The process where plants absorb water and minerals from soil",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While plants do absorb water and minerals from soil, this is not photosynthesis."
-                },
-                {
-                    "text": "The process where plants convert oxygen into carbon dioxide",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Plants use carbon dioxide and release oxygen during photosynthesis, not the other way around."
-                }
-            ],
-            "funFact": "Photosynthesis is responsible for producing all of Earth's oxygen. Scientists estimate that between 50-80% comes from phytoplankton (microscopic marine organisms), while the rest comes from land plants!"
-        },
-        {
-            "id": 2,
-            "text": "Which statement best explains how energy from the sun drives the cycling of matter between plants and animals?",
-            "options": [
-                {
-                    "text": "Plants convert sunlight, carbon dioxide, and water into sugar and oxygen through photosynthesis. Animals eat plants for energy and breathe the oxygen, while releasing carbon dioxide that plants use again.",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how solar energy enables plants to produce food and oxygen, which animals then use, creating a continuous cycle of matter."
-                },
-                {
-                    "text": "Animals absorb sunlight directly and convert it into energy, while plants only need water and minerals from the soil to grow.",
-                    "isCorrect": 0,
-                    "explanation": "Animals cannot directly convert sunlight into energy - they must get their energy by eating plants or other animals. Plants need sunlight, CO2, and water for photosynthesis."
-                },
-                {
-                    "text": "Plants get their energy from the soil, and animals get their energy by breathing in oxygen from the air.",
-                    "isCorrect": 0,
-                    "explanation": "Plants get energy from sunlight, not soil. Animals get energy from eating food, not from breathing oxygen. Oxygen is used to break down food for energy."
-                },
-                {
-                    "text": "Sunlight provides warmth to both plants and animals, which is all they need to survive and grow.",
-                    "isCorrect": 0,
-                    "explanation": "While warmth is important, plants need sunlight specifically for photosynthesis to make food, and animals need to eat food (plants or other animals) to get energy."
-                }
-            ],
-            "funFact": "Photosynthesis is remarkable - a large tree can produce enough oxygen in a year to support two to four people! However, most of Earth's oxygen (50-80%) is actually produced by marine phytoplankton. Both forests and oceans are crucial for Earth's ecological balance."
-        },
-        {
-            "id": 3,
-            "text": "Which organisms, besides plants, use photosynthesis to make their own food?",
-            "options": [
-                {
-                    "text": "Algae and cyanobacteria",
-                    "isCorrect": 1,
-                    "explanation": "Both algae and cyanobacteria are photosynthetic organisms that can convert sunlight, carbon dioxide, and water into sugar and oxygen."
-                },
-                {
-                    "text": "Fungi and heterotrophic bacteria",
-                    "isCorrect": 0,
-                    "explanation": "Fungi and heterotrophic bacteria cannot perform photosynthesis. They get their energy by breaking down organic matter."
-                },
-                {
-                    "text": "Worms and insects",
-                    "isCorrect": 0,
-                    "explanation": "Worms and insects are animals that cannot perform photosynthesis. They must consume other organisms for energy."
-                },
-                {
-                    "text": "Mushrooms and molds",
-                    "isCorrect": 0,
-                    "explanation": "Mushrooms and molds are types of fungi that cannot perform photosynthesis. They obtain energy by decomposing other organisms."
-                }
-            ],
-            "funFact": "Cyanobacteria, often called blue-green algae, are thought to be responsible for creating Earth's oxygen-rich atmosphere billions of years ago through photosynthesis. This event is known as the Great Oxidation Event!"
-        },
-        {
-            "id": 4,
             "text": "Which statement correctly describes how plants and animals obtain their food for survival?",
             "options": [
                 {
-                    "text": "Plants make their own food through photosynthesis while animals must eat other organisms",
-                    "isCorrect": 1,
-                    "explanation": "Plants use sunlight, carbon dioxide, and water to produce sugar through photosynthesis, while animals must obtain energy by consuming plants or other animals."
+                    "text": "Plants get their food from soil while animals eat other organisms",
+                    "isCorrect": 0,
+                    "explanation": "Plants don't get their food from soil - they make it through photosynthesis using sunlight, carbon dioxide and water. Soil provides minerals but not food."
                 },
                 {
                     "text": "Both plants and animals need to eat other organisms to get their food",
@@ -98,9 +17,9 @@
                     "explanation": "Only animals need to eat other organisms. Plants can produce their own food through photosynthesis."
                 },
                 {
-                    "text": "Plants get their food from soil while animals eat other organisms",
-                    "isCorrect": 0,
-                    "explanation": "Plants don't get their food from soil - they make it through photosynthesis using sunlight, carbon dioxide and water. Soil provides minerals but not food."
+                    "text": "Plants make their own food through photosynthesis while animals must eat other organisms",
+                    "isCorrect": 1,
+                    "explanation": "Plants use sunlight, carbon dioxide, and water to produce sugar through photosynthesis, while animals must obtain energy by consuming plants or other animals."
                 },
                 {
                     "text": "Both plants and animals can make their own food using sunlight",
@@ -111,72 +30,121 @@
             "funFact": "Some sea slugs can incorporate chloroplasts from algae they eat into their bodies, allowing them to photosynthesize like plants - a process called kleptoplasty! However, they still need to eat other organisms since this provides only supplemental nutrition."
         },
         {
-            "id": 5,
-            "text": "Which statement correctly describes where photosynthesis takes place in organisms?",
+            "id": 2,
+            "text": "What happens to the sugar produced during photosynthesis in plants?",
             "options": [
                 {
-                    "text": "At the molecular level within specialized cellular structures like chloroplasts or thylakoid membranes",
+                    "text": "It can be used immediately or stored for later use",
                     "isCorrect": 1,
-                    "explanation": "Photosynthesis occurs at the molecular level where individual molecules like carbon dioxide and water interact, specifically within specialized structures such as chloroplasts in plants/algae or thylakoid membranes in cyanobacteria"
+                    "explanation": "Plants can either use the sugar right away for energy and growth, or store it for future needs."
                 },
                 {
-                    "text": "Only in the visible green parts of plants that we can see with our eyes",
+                    "text": "It is all converted to oxygen",
                     "isCorrect": 0,
-                    "explanation": "While photosynthesis occurs in green parts of plants, the actual process happens at a much smaller, molecular scale that cannot be seen with the naked eye"
+                    "explanation": "Oxygen is released as a byproduct of photosynthesis, but sugar is not converted into oxygen."
                 },
                 {
-                    "text": "Just on the surface of leaves where sunlight hits directly",
+                    "text": "It must be used immediately for energy",
                     "isCorrect": 0,
-                    "explanation": "Photosynthesis happens within cells at the molecular level, not just on the surface where light hits"
+                    "explanation": "Plants have the ability to both use and store sugar, they don't have to use it right away."
                 },
                 {
-                    "text": "Only in large organisms that can be seen without a microscope",
+                    "text": "It can only be stored for later use",
                     "isCorrect": 0,
-                    "explanation": "Photosynthesis occurs in organisms of all sizes, including microscopic ones like cyanobacteria, always at the molecular level"
+                    "explanation": "While plants can store sugar, they aren't limited to only storing it."
                 }
             ],
-            "funFact": "The smallest known photosynthetic organism is a type of cyanobacteria called Prochlorococcus, which is so tiny that about 100 of them could fit across the width of a human hair! Despite their microscopic size, these organisms produce about 20% of Earth's oxygen."
+            "funFact": "Plants store excess sugar in various forms, including starch in their roots, stems, and leaves. This is why starchy vegetables like potatoes can taste sweeter when cooked - as the starch breaks down into simpler sugars. Other root vegetables like carrots taste sweet primarily due to their natural sugar content."
+        },
+        {
+            "id": 3,
+            "text": "In an enclosed ecosystem containing both plants and fish, how do plants help fish survive through the process of photosynthesis?",
+            "options": [
+                {
+                    "text": "Plants and fish do not interact with each other in terms of gas exchange",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Plants and fish have a vital relationship through gas exchange - plants produce oxygen that fish need, and use the carbon dioxide that fish release."
+                },
+                {
+                    "text": "Plants produce oxygen that fish use for respiration while using the carbon dioxide released by fish",
+                    "isCorrect": 1,
+                    "explanation": "During photosynthesis, plants use carbon dioxide and water to produce sugar and oxygen. Fish use this oxygen for respiration and release carbon dioxide, creating a beneficial cycle."
+                },
+                {
+                    "text": "Plants release carbon dioxide that fish need to breathe while absorbing oxygen from fish",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Plants produce oxygen and use carbon dioxide, not the other way around. Fish need oxygen to survive and release carbon dioxide."
+                },
+                {
+                    "text": "Plants only provide food for fish but do not affect the gases in the ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "Plants do more than just provide food. They play a crucial role in gas exchange by producing oxygen that fish need for survival and using carbon dioxide that fish release."
+                }
+            ],
+            "funFact": "The relationship between plants and animals through gas exchange is so efficient that many aquarists use live aquatic plants to help maintain healthy oxygen levels in their fish tanks, reducing the need for artificial aeration!"
+        },
+        {
+            "id": 4,
+            "text": "A student observes a squirrel eating acorns from an oak tree. Which statement best describes how the squirrel obtains the energy it needs for survival?",
+            "options": [
+                {
+                    "text": "The squirrel gets its energy by breaking down minerals in the acorns",
+                    "isCorrect": 0,
+                    "explanation": "While acorns contain some minerals, the energy comes from the sugars and other nutrients made by the oak tree through photosynthesis."
+                },
+                {
+                    "text": "The squirrel gets its energy from the acorns, which contain stored energy originally captured from the sun by the oak tree",
+                    "isCorrect": 1,
+                    "explanation": "Plants make food using sunlight through photosynthesis. When animals eat plants or plant parts like acorns, they obtain this stored energy."
+                },
+                {
+                    "text": "The squirrel creates its own energy by digesting the acorns",
+                    "isCorrect": 0,
+                    "explanation": "Animals cannot create their own energy - they must obtain it from the food they eat, which ultimately comes from plants."
+                },
+                {
+                    "text": "The squirrel gets its energy directly from sunlight, just like the oak tree",
+                    "isCorrect": 0,
+                    "explanation": "Only plants and some other organisms like algae can directly use sunlight to make their food through photosynthesis. Animals cannot do this."
+                }
+            ],
+            "funFact": "A single oak tree can produce up to 10,000 acorns in a good year, though squirrels will typically only eat a small portion of them. The rest may sprout into new oak trees or provide food for other animals like deer, birds, and mice - all getting their energy that was originally captured from the sun!"
+        },
+        {
+            "id": 5,
+            "text": "Which organisms, besides plants, use photosynthesis to make their own food?",
+            "options": [
+                {
+                    "text": "Mushrooms and molds",
+                    "isCorrect": 0,
+                    "explanation": "Mushrooms and molds are types of fungi that cannot perform photosynthesis. They obtain energy by decomposing other organisms."
+                },
+                {
+                    "text": "Algae and cyanobacteria",
+                    "isCorrect": 1,
+                    "explanation": "Both algae and cyanobacteria are photosynthetic organisms that can convert sunlight, carbon dioxide, and water into sugar and oxygen."
+                },
+                {
+                    "text": "Worms and insects",
+                    "isCorrect": 0,
+                    "explanation": "Worms and insects are animals that cannot perform photosynthesis. They must consume other organisms for energy."
+                },
+                {
+                    "text": "Fungi and heterotrophic bacteria",
+                    "isCorrect": 0,
+                    "explanation": "Fungi and heterotrophic bacteria cannot perform photosynthesis. They get their energy by breaking down organic matter."
+                }
+            ],
+            "funFact": "Cyanobacteria, often called blue-green algae, are thought to be responsible for creating Earth's oxygen-rich atmosphere billions of years ago through photosynthesis. This event is known as the Great Oxidation Event!"
         },
         {
             "id": 6,
-            "text": "Which of the following scenarios correctly demonstrates the law of conservation of mass during photosynthesis?",
-            "options": [
-                {
-                    "text": "6 CO\u2082 + 6 H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 6 O\u2082",
-                    "isCorrect": 1,
-                    "explanation": "This equation correctly shows that the number of atoms of each element is the same on both sides. 6 carbons, 12 hydrogens, and 18 oxygens appear on each side, demonstrating conservation of mass."
-                },
-                {
-                    "text": "6 CO\u2082 + 6 H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 3 O\u2082",
-                    "isCorrect": 0,
-                    "explanation": "This equation is incorrect because only 3 O\u2082 molecules on the right side means 6 oxygen atoms are missing, violating conservation of mass."
-                },
-                {
-                    "text": "3 CO\u2082 + 6 H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 6 O\u2082",
-                    "isCorrect": 0,
-                    "explanation": "This equation is incorrect because it starts with only 3 carbon atoms (in CO\u2082) but produces a sugar molecule with 6 carbons, which violates conservation of mass."
-                },
-                {
-                    "text": "6 CO\u2082 + 3 H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 6 O\u2082",
-                    "isCorrect": 0,
-                    "explanation": "This equation is incorrect because it starts with only 6 hydrogen atoms (in H\u2082O) but produces a sugar molecule with 12 hydrogens. Additionally, there are 15 oxygen atoms on the left side but 18 on the right side. Both imbalances violate conservation of mass."
-                }
-            ],
-            "funFact": "The process of photosynthesis produces about 100 billion tons of sugar each year on Earth! This massive conversion of carbon dioxide to sugar helps regulate Earth's carbon cycle and provides the foundation for most food chains."
-        },
-        {
-            "id": 7,
             "text": "Which molecular sequence correctly shows how water molecules (H2O) are used in photosynthesis?",
             "options": [
                 {
-                    "text": "Water molecules are split into hydrogen and oxygen, with the hydrogen combining with carbon dioxide to form sugar and the oxygen being released",
-                    "isCorrect": 1,
-                    "explanation": "During photosynthesis, water molecules are split using energy from sunlight. The hydrogen atoms combine with CO2 to form glucose (sugar), while oxygen is released as a byproduct."
-                },
-                {
-                    "text": "Water molecules remain intact and directly combine with carbon dioxide to form sugar, releasing oxygen gas",
+                    "text": "Water molecules are broken down into oxygen only, which is then used to form sugar with carbon dioxide",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because water molecules must be split first - they don't combine directly with CO2 while remaining intact."
+                    "explanation": "This reverses the role of water's components - it's the hydrogen from water, not the oxygen, that helps form sugar with CO2."
                 },
                 {
                     "text": "Water molecules are converted directly into oxygen gas, while carbon dioxide forms sugar on its own",
@@ -184,211 +152,238 @@
                     "explanation": "Water molecules aren't simply converted to oxygen - they must be split, with their hydrogen atoms being used to form sugar with CO2."
                 },
                 {
-                    "text": "Water molecules are broken down into oxygen only, which is then used to form sugar with carbon dioxide",
+                    "text": "Water molecules remain intact and directly combine with carbon dioxide to form sugar, releasing oxygen gas",
                     "isCorrect": 0,
-                    "explanation": "This reverses the role of water's components - it's the hydrogen from water, not the oxygen, that helps form sugar with CO2."
+                    "explanation": "This is incorrect because water molecules must be split first - they don't combine directly with CO2 while remaining intact."
+                },
+                {
+                    "text": "Water molecules are split into hydrogen and oxygen, with the hydrogen combining with carbon dioxide to form sugar and the oxygen being released",
+                    "isCorrect": 1,
+                    "explanation": "During photosynthesis, water molecules are split using energy from sunlight. The hydrogen atoms combine with CO2 to form glucose (sugar), while oxygen is released as a byproduct."
                 }
             ],
             "funFact": "The process of splitting water molecules during photosynthesis is so powerful that it produces enough oxygen to maintain Earth's atmospheric oxygen levels. Plants perform this chemical feat about 100 trillion times per second worldwide!"
         },
         {
-            "id": 8,
-            "text": "During photosynthesis, plants combine carbon dioxide and water using energy from sunlight to produce glucose and oxygen. In this reaction, which of the following correctly represents the missing product if 6CO\u2082 + 6H\u2082O \u2192 ? + 6O\u2082",
+            "id": 7,
+            "text": "A plant has just finished producing sugar through photosynthesis. Which of the following best describes how the plant can use this sugar?",
             "options": [
                 {
-                    "text": "C\u2086H\u2081\u2082O\u2086",
+                    "text": "The plant can either use the sugar immediately for energy or store it for later growth and survival",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Plants combine 6 molecules of CO\u2082 and 6 molecules of H\u2082O to produce one molecule of glucose (C\u2086H\u2081\u2082O\u2086) and 6 molecules of O\u2082."
+                    "explanation": "Plants have the flexibility to either use sugar right away for energy or store it for future needs like growth and survival"
                 },
                 {
-                    "text": "C\u2086H\u2086O\u2086",
+                    "text": "The plant can only store the sugar as starch and cannot use it for immediate energy needs",
                     "isCorrect": 0,
-                    "explanation": "This molecule has too few hydrogen atoms. The glucose produced in photosynthesis must have 12 hydrogen atoms to balance the equation."
+                    "explanation": "Plants can both use sugar immediately for energy AND store it - they're not limited to just storing it"
                 },
                 {
-                    "text": "C\u2086H\u2081\u2082O\u2081\u2082",
+                    "text": "The plant must use all the sugar immediately for energy, or it will go to waste",
                     "isCorrect": 0,
-                    "explanation": "This molecule has too many oxygen atoms. The correct glucose molecule should have 6 oxygen atoms, not 12."
+                    "explanation": "Plants can either use sugar immediately OR store it for later use - they don't have to use it all at once"
                 },
                 {
-                    "text": "C\u2086H\u2086O\u2081\u2082",
+                    "text": "The plant must wait for darkness before it can use any of the sugar for energy",
                     "isCorrect": 0,
-                    "explanation": "This molecule has both too few hydrogen atoms and too many oxygen atoms. The correct glucose molecule should have 12 hydrogen atoms and 6 oxygen atoms."
+                    "explanation": "Plants can use sugar anytime they need it, not just during darkness"
                 }
             ],
-            "funFact": "The glucose molecule produced during photosynthesis can be stored in plants in various forms. Plants often convert glucose into sucrose (table sugar) by combining it with another sugar called fructose, for storage and transportation throughout their tissues!"
+            "funFact": "Plants are amazing energy managers! They store excess sugar in various forms, including starch in potato tubers and sucrose in sugarcane stems. Some trees even convert sugar into antifreeze compounds during winter to protect their cells from freezing."
+        },
+        {
+            "id": 8,
+            "text": "Which of the following microorganisms can perform photosynthesis to produce their own food?",
+            "options": [
+                {
+                    "text": "E. coli bacteria",
+                    "isCorrect": 0,
+                    "explanation": "E. coli bacteria cannot perform photosynthesis. They obtain energy by breaking down organic compounds in their environment."
+                },
+                {
+                    "text": "Cyanobacteria",
+                    "isCorrect": 1,
+                    "explanation": "Cyanobacteria, also known as blue-green algae, can perform photosynthesis using sunlight, carbon dioxide, and water to produce sugar and oxygen."
+                },
+                {
+                    "text": "Salmonella bacteria",
+                    "isCorrect": 0,
+                    "explanation": "Salmonella bacteria cannot perform photosynthesis. They need to obtain energy by consuming organic matter from their environment."
+                },
+                {
+                    "text": "Influenza virus",
+                    "isCorrect": 0,
+                    "explanation": "Viruses are not capable of photosynthesis and cannot produce their own food. They must invade living cells to obtain energy and materials."
+                }
+            ],
+            "funFact": "Cyanobacteria are believed to be responsible for creating Earth's oxygen-rich atmosphere billions of years ago through photosynthesis. This event, known as the Great Oxidation Event, made Earth habitable for oxygen-using life forms!"
         },
         {
             "id": 9,
-            "text": "A rabbit eats a carrot in a garden. Trace how the energy from the sun ultimately reaches the rabbit through this food chain. What is the correct sequence of energy transfer?",
+            "text": "In an enclosed aquarium system with fish and aquatic plants, which statement correctly describes the gas exchange relationship between photosynthesis and cellular respiration?",
             "options": [
                 {
-                    "text": "Sun \u2192 Carrot (converts sunlight to sugar through photosynthesis) \u2192 Rabbit (eats carrot and uses stored energy)",
+                    "text": "Fish release carbon dioxide which plants use for photosynthesis, while plants release oxygen which fish use for respiration",
                     "isCorrect": 1,
-                    "explanation": "This correctly shows how solar energy is first captured by the carrot through photosynthesis to make sugar, which is then consumed by the rabbit for energy."
+                    "explanation": "This correctly shows how fish and plants complement each other - fish produce CO2 through respiration which plants use in photosynthesis to produce oxygen that fish need."
                 },
                 {
-                    "text": "Sun \u2192 Rabbit (absorbs sunlight directly) \u2192 Carrot (stores the energy)",
+                    "text": "Both fish and plants release oxygen during the day and carbon dioxide at night",
                     "isCorrect": 0,
-                    "explanation": "Animals cannot directly convert sunlight into usable energy. Only plants and some other organisms can perform photosynthesis."
+                    "explanation": "While plants photosynthesize during day, fish constantly release CO2 through respiration. Plants do release some CO2 through respiration but primarily produce oxygen."
                 },
                 {
-                    "text": "Carrot \u2192 Sun \u2192 Rabbit",
+                    "text": "Neither organism releases gases - they only absorb gases from the water",
                     "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. The sun must be the initial energy source, and energy flows from the sun to plants to animals."
+                    "explanation": "Both organisms are actively involved in gas exchange. Fish release CO2 and absorb O2, while plants release O2 and absorb CO2 during photosynthesis."
                 },
                 {
-                    "text": "Sun \u2192 Rabbit \u2192 Carrot (stores leftover energy)",
+                    "text": "Fish release oxygen which plants use to produce glucose, while plants release carbon dioxide which fish use for respiration",
                     "isCorrect": 0,
-                    "explanation": "Energy cannot flow backwards in a food chain. Plants must first capture solar energy through photosynthesis before animals can access it."
+                    "explanation": "This reverses the actual gas exchange. Plants produce oxygen through photosynthesis, while fish produce carbon dioxide through respiration."
                 }
             ],
-            "funFact": "The amount of solar energy that reaches Earth in just one hour could meet the world's energy needs for an entire year! However, only about 1% of the sunlight that falls on a plant is actually converted into energy through photosynthesis."
+            "funFact": "The gas exchange process of photosynthesis was crucial in making Earth's atmosphere oxygen-rich billions of years ago when photosynthetic microorganisms like cyanobacteria first evolved. Today, the symbiotic relationship between aquatic plants and animals like fish is a small-scale model of this ancient process, and continues to be a key reason why our planet can support complex life!"
         },
         {
             "id": 10,
-            "text": "In a fish tank, there is a goldfish and an aquatic plant. Which sequence correctly shows how energy and matter flow between the fish, plant, and gases in the water?",
+            "text": "Scientists studying ancient glaciers found that Earth's atmosphere contained very little oxygen billions of years ago. Over time, oxygen levels gradually increased. Which explanation best describes how organisms contributed to this change in atmospheric oxygen levels?",
             "options": [
                 {
-                    "text": "The fish releases carbon dioxide \u2192 The plant uses carbon dioxide, water, and sunlight to make sugar \u2192 The plant releases oxygen \u2192 The fish uses oxygen",
+                    "text": "Early photosynthetic organisms like cyanobacteria released oxygen as a byproduct, gradually increasing oxygen levels in the atmosphere over millions of years",
                     "isCorrect": 1,
-                    "explanation": "This is the correct cycle. The fish produces carbon dioxide through respiration, which the plant uses along with water and sunlight during photosynthesis to produce sugar and oxygen. The fish then uses this oxygen for its survival."
+                    "explanation": "Correct! Early photosynthetic organisms used carbon dioxide and water to produce sugar, releasing oxygen as a byproduct. As these organisms multiplied over millions of years, the accumulation of oxygen led to significant changes in Earth's atmosphere."
                 },
                 {
-                    "text": "The fish releases oxygen \u2192 The plant uses oxygen and water to make sugar \u2192 The plant releases carbon dioxide \u2192 The fish uses carbon dioxide",
+                    "text": "Volcanic eruptions released large amounts of oxygen into the atmosphere over time",
                     "isCorrect": 0,
-                    "explanation": "This reverses the roles of oxygen and carbon dioxide. Fish consume oxygen and release carbon dioxide, while plants consume carbon dioxide and release oxygen during photosynthesis."
+                    "explanation": "Volcanic eruptions typically release gases like carbon dioxide, sulfur dioxide, and water vapor, not oxygen. They did not contribute to increasing atmospheric oxygen levels."
                 },
                 {
-                    "text": "The plant releases carbon dioxide \u2192 The fish uses carbon dioxide to make sugar \u2192 The fish releases oxygen \u2192 The plant uses oxygen",
+                    "text": "The decomposition of dead organisms released oxygen into the atmosphere",
                     "isCorrect": 0,
-                    "explanation": "This incorrectly suggests that fish can perform photosynthesis. Only plants and some other organisms like algae and cyanobacteria can perform photosynthesis to make sugar."
+                    "explanation": "Decomposition actually consumes oxygen rather than produces it. The increase in atmospheric oxygen levels came from photosynthetic organisms."
                 },
                 {
-                    "text": "The fish uses sunlight to make sugar \u2192 The fish releases oxygen \u2192 The plant uses oxygen to survive \u2192 The plant releases carbon dioxide",
+                    "text": "Ancient animals released more oxygen through respiration than modern animals do, causing oxygen levels to rise",
                     "isCorrect": 0,
-                    "explanation": "This wrongly suggests that fish can use sunlight to make sugar. Plants are the ones that use sunlight for photosynthesis, while fish must obtain energy by eating other organisms."
+                    "explanation": "Animals consume oxygen through respiration rather than produce it. They cannot be responsible for increasing atmospheric oxygen levels."
                 }
             ],
-            "funFact": "The oxygen-carbon dioxide cycle in a fish tank represents a delicate balance. In well-maintained aquariums, this cycle can create a semi-closed ecosystem. The concept of balanced aquariums was developed in the mid-20th century, drawing inspiration from ecological principles of gas exchange between organisms."
+            "funFact": "The Great Oxidation Event, which occurred about 2.4 billion years ago, was one of the most significant changes in Earth's history. The oxygen produced by ancient cyanobacteria during this period not only changed the composition of our atmosphere but also made complex life forms possible!"
         },
         {
             "id": 11,
-            "text": "A student is studying energy flow in an ecosystem and wants to understand why eating vegetables provides more energy than eating meat from animals that eat those vegetables. Which statement best explains this phenomenon?",
+            "text": "In a sealed terrarium containing plants and small insects, which statement correctly describes how matter cycles between the organisms to maintain balance?",
             "options": [
                 {
-                    "text": "When animals consume plants, they convert about 90% of the plant's energy into their own tissues",
+                    "text": "The insects provide all the carbon dioxide needed by plants, making the system completely self-sufficient",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. Animals are actually very inefficient at converting plant energy into their tissues, only converting about 10% of the energy they consume."
+                    "explanation": "While insects do provide some carbon dioxide, the statement oversimplifies the complex balance needed in a terrarium system"
                 },
+                {
+                    "text": "Plants only release oxygen, while insects only consume sugar",
+                    "isCorrect": 0,
+                    "explanation": "This is incomplete - plants also produce and use sugar, while insects use oxygen and release carbon dioxide as part of respiration"
+                },
+                {
+                    "text": "Plants create new matter from sunlight, while insects break down matter completely into energy",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because matter cannot be created or destroyed - sunlight provides energy, not matter, and matter is transformed but not eliminated during respiration"
+                },
+                {
+                    "text": "Plants use carbon dioxide and water to produce sugar and oxygen, while insects use oxygen and sugar to produce carbon dioxide and water",
+                    "isCorrect": 1,
+                    "explanation": "This accurately describes the complementary processes of photosynthesis in plants and cellular respiration in insects, showing how matter cycles between organisms"
+                }
+            ],
+            "funFact": "The concept of a balanced terrarium was first discovered by accident in 1842 by Dr. Nathaniel Ward when he noticed ferns growing inside a sealed glass jar, leading to the invention of 'Wardian cases' that revolutionized the transport of plants across oceans during the Victorian era."
+        },
+        {
+            "id": 12,
+            "text": "A student is studying energy flow in an ecosystem and wants to understand why eating vegetables provides more energy than eating meat from animals that eat those vegetables. Which statement best explains this phenomenon?",
+            "options": [
                 {
                     "text": "About 10% of the energy is transferred from one trophic level to the next, making direct plant consumption more efficient",
                     "isCorrect": 1,
                     "explanation": "Correct! At each trophic level, only about 10% of energy is transferred to the next level. Therefore, eating plants directly provides more energy than eating animals that ate those plants."
                 },
                 {
-                    "text": "Plants and animals store energy differently, making plant energy more accessible to humans",
+                    "text": "When animals consume plants, they convert about 90% of the plant's energy into their own tissues",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. While plants and animals do store energy differently, this is not the main reason why eating plants provides more energy than eating meat."
+                    "explanation": "This is incorrect. Animals are actually very inefficient at converting plant energy into their tissues, only converting about 10% of the energy they consume."
                 },
                 {
                     "text": "The energy in meat is partially destroyed during the animal's digestive process",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Energy cannot be destroyed according to the law of conservation of energy. It is instead converted to other forms like heat during metabolic processes."
+                },
+                {
+                    "text": "Plants and animals store energy differently, making plant energy more accessible to humans",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While plants and animals do store energy differently, this is not the main reason why eating plants provides more energy than eating meat."
                 }
             ],
             "funFact": "The inefficiency of energy transfer between trophic levels is one reason why many large predators need to eat frequently and maintain large hunting territories. For example, a lion needs to eat about 40 different prey animals per year to get enough energy to survive!"
         },
         {
-            "id": 12,
-            "text": "A student observes that a plant grows bigger over time even though it only receives water, sunlight, and carbon dioxide. How does this growth occur through the process of photosynthesis?",
-            "options": [
-                {
-                    "text": "The plant converts sunlight energy, carbon dioxide, and water into sugar molecules which are used for growth, while releasing oxygen",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes photosynthesis where plants use sunlight energy to convert CO2 and H2O into glucose (sugar) for growth, releasing O2 as a byproduct"
-                },
-                {
-                    "text": "The plant absorbs sunlight directly which combines with water to create new plant material",
-                    "isCorrect": 0,
-                    "explanation": "Plants cannot directly use sunlight to create new material - they must first convert it to chemical energy through photosynthesis"
-                },
-                {
-                    "text": "The plant takes in soil nutrients which are converted to plant material using sunlight",
-                    "isCorrect": 0,
-                    "explanation": "While plants do need soil nutrients, new plant material primarily comes from CO2 in the air being converted to sugar through photosynthesis"
-                },
-                {
-                    "text": "The plant grows by combining the oxygen from the air with water to make sugar",
-                    "isCorrect": 0,
-                    "explanation": "Plants use CO2, not O2, from the air to make sugar. In fact, O2 is released as a byproduct of photosynthesis"
-                }
-            ],
-            "funFact": "A single leaf can contain about half a million chloroplasts - the tiny cellular factories where photosynthesis occurs. These chloroplasts work together to produce enough sugar to support the plant's growth and survival."
-        },
-        {
             "id": 13,
-            "text": "Compare the molecular outcomes of photosynthesis and cellular respiration: Which of the following statements correctly describes how these processes complement each other in the cycling of matter?",
+            "text": "In a closed ecosystem, if all plants suddenly stopped releasing oxygen during photosynthesis, which of the following would most likely occur?",
             "options": [
                 {
-                    "text": "Photosynthesis produces glucose and oxygen using carbon dioxide and water, while cellular respiration uses glucose and oxygen to produce carbon dioxide and water",
+                    "text": "Both plants and animals would eventually die",
                     "isCorrect": 1,
-                    "explanation": "This accurately describes how the two processes are complementary - the products of one process serve as reactants for the other, creating a cycle of matter"
+                    "explanation": "Both plants and animals require oxygen for cellular respiration. Without oxygen production from photosynthesis, neither could survive long-term."
                 },
                 {
-                    "text": "Photosynthesis and cellular respiration both produce glucose and oxygen as their final products",
+                    "text": "Only the animals would die while the plants would continue to thrive",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - while photosynthesis produces glucose and oxygen, cellular respiration consumes these molecules and produces carbon dioxide and water"
+                    "explanation": "Plants also need oxygen for cellular respiration to break down stored energy. Both plants and animals would be affected."
                 },
                 {
-                    "text": "Photosynthesis breaks down glucose for energy while cellular respiration builds glucose from simpler molecules",
+                    "text": "Animals would adapt to use carbon dioxide for respiration instead",
                     "isCorrect": 0,
-                    "explanation": "This reverses the processes - photosynthesis builds glucose from simpler molecules, while cellular respiration breaks it down"
+                    "explanation": "Animals cannot adapt to use carbon dioxide for respiration. They specifically require oxygen for cellular respiration to survive."
                 },
                 {
-                    "text": "Both processes only occur in plants and convert matter into energy that disappears from the ecosystem",
+                    "text": "Plants would switch to producing a different gas that animals could use",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - cellular respiration occurs in all organisms, and matter cycles through ecosystems rather than disappearing"
+                    "explanation": "Plants cannot simply switch to producing a different gas. Oxygen production is a fundamental part of the photosynthesis process."
                 }
             ],
-            "funFact": "The oxygen we breathe today was likely a water molecule just a few weeks ago! Plants break apart water molecules during photosynthesis and release the oxygen atoms as O2 gas, continuously refreshing Earth's oxygen supply."
+            "funFact": "Scientists estimate that about 50-80% of Earth's oxygen is produced by microscopic organisms in the ocean called phytoplankton, making them even more important oxygen producers than land plants!"
         },
         {
             "id": 14,
-            "text": "A scientist is studying how different environmental conditions affect photosynthesis in a greenhouse. She observes that when CO2 levels are decreased while keeping light and water constant, the plants show reduced growth. What would most likely happen to the ecosystem's energy flow if this reduced CO2 condition continues for an extended period?",
+            "text": "Scientists have found evidence that Earth's atmosphere contained very little oxygen billions of years ago. Which explanation best describes how oxygen levels increased over time?",
             "options": [
                 {
-                    "text": "The plants would produce less sugar and oxygen, leading to decreased energy available for other organisms in the ecosystem",
+                    "text": "The breakdown of water molecules by UV radiation created oxygen in the atmosphere",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. While UV radiation can break down some water molecules in the upper atmosphere, this process alone cannot account for the significant increase in Earth's oxygen levels. Photosynthetic organisms were the main source."
+                },
+                {
+                    "text": "Oxygen was trapped in glaciers and was released as they melted",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. While glaciers can trap air bubbles containing oxygen, they did not create the oxygen. The oxygen that became trapped in glaciers was originally produced by photosynthetic organisms."
+                },
+                {
+                    "text": "The evolution of photosynthetic organisms like cyanobacteria gradually released oxygen as a byproduct, leading to increased atmospheric oxygen levels",
                     "isCorrect": 1,
-                    "explanation": "With reduced CO2, plants can't produce as much sugar through photosynthesis, resulting in less stored energy for themselves and less energy available for consumers that depend on them"
+                    "explanation": "Correct! Early photosynthetic organisms like cyanobacteria used sunlight, water, and CO2 to produce sugar, releasing oxygen as a byproduct. As these organisms became more abundant, oxygen accumulated in the atmosphere over millions of years."
                 },
                 {
-                    "text": "The plants would adapt immediately by using more water to compensate for the lack of CO2",
+                    "text": "Volcanic eruptions released large amounts of oxygen into the atmosphere",
                     "isCorrect": 0,
-                    "explanation": "Plants cannot simply substitute water for CO2 in photosynthesis - both are necessary reactants and serve different purposes in the process"
-                },
-                {
-                    "text": "The ecosystem's energy flow would remain unchanged because plants can get energy directly from the sun",
-                    "isCorrect": 0,
-                    "explanation": "While plants use sunlight for energy, they need CO2 to produce sugar. They cannot use sunlight directly as a substitute for CO2"
-                },
-                {
-                    "text": "The plants would switch to getting their energy from soil nutrients instead of photosynthesis",
-                    "isCorrect": 0,
-                    "explanation": "Plants cannot switch from photosynthesis to getting energy from soil nutrients. They require photosynthesis to produce their food"
+                    "explanation": "Incorrect. Volcanic eruptions typically release gases like carbon dioxide, water vapor, and sulfur dioxide, not oxygen. The increase in atmospheric oxygen was primarily due to photosynthetic organisms."
                 }
             ],
-            "funFact": "During the Carboniferous period (359-299 million years ago), CO2 levels were much higher than today, leading to explosive plant growth that created many of our current coal deposits!"
+            "funFact": "The dramatic increase in Earth's oxygen levels due to photosynthetic organisms, known as the Great Oxidation Event, occurred about 2.4 billion years ago. This event was so significant that it caused many of the existing anaerobic organisms to go extinct, as they could not survive in an oxygen-rich environment!"
         },
         {
             "id": 15,
             "text": "In plants, how do photosynthesis and cellular respiration work together to maintain energy balance?",
             "options": [
-                {
-                    "text": "Plants only use photosynthesis and do not need cellular respiration",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Plants need both processes - photosynthesis to make food and cellular respiration to break down that food for energy."
-                },
                 {
                     "text": "Photosynthesis makes sugar and oxygen during the day, while cellular respiration uses these products for energy both day and night",
                     "isCorrect": 1,
@@ -398,6 +393,11 @@
                     "text": "Cellular respiration happens during the day and photosynthesis happens at night",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Photosynthesis requires sunlight and occurs during the day, while cellular respiration happens continuously."
+                },
+                {
+                    "text": "Plants only use photosynthesis and do not need cellular respiration",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Plants need both processes - photosynthesis to make food and cellular respiration to break down that food for energy."
                 },
                 {
                     "text": "Plants switch between photosynthesis and cellular respiration depending on their energy needs",

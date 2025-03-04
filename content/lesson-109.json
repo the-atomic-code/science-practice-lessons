@@ -7,63 +7,63 @@
             "text": "Under which conditions is dew most likely to form near the ground?",
             "options": [
                 {
-                    "text": "During cold nights when water vapor in the air condenses on cool surfaces near the ground",
-                    "isCorrect": 1,
-                    "explanation": "Dew forms when warm, moist air comes into contact with cooler surfaces near the ground during the night, causing water vapor to condense into liquid water droplets."
-                },
-                {
                     "text": "During hot afternoons when water evaporates rapidly from the ground",
                     "isCorrect": 0,
                     "explanation": "Hot temperatures promote evaporation rather than condensation, making dew formation unlikely during hot afternoons."
                 },
                 {
-                    "text": "During windy conditions when water vapor is mixed throughout the air",
-                    "isCorrect": 0,
-                    "explanation": "Wind typically prevents dew formation by mixing air layers and keeping water vapor from settling and condensing near the ground."
-                },
-                {
                     "text": "During rainfall when water droplets fall from clouds",
                     "isCorrect": 0,
                     "explanation": "Dew is formed by condensation of water vapor near the ground, not from falling rain droplets from clouds."
+                },
+                {
+                    "text": "During cold nights when water vapor in the air condenses on cool surfaces near the ground",
+                    "isCorrect": 1,
+                    "explanation": "Dew forms when warm, moist air comes into contact with cooler surfaces near the ground during the night, causing water vapor to condense into liquid water droplets."
+                },
+                {
+                    "text": "During windy conditions when water vapor is mixed throughout the air",
+                    "isCorrect": 0,
+                    "explanation": "Wind typically prevents dew formation by mixing air layers and keeping water vapor from settling and condensing near the ground."
                 }
             ],
             "funFact": "The amount of dew that forms overnight can be significant - in some regions, dew formation can contribute up to 0.5 millimeters of water per night, which helps sustain plant life in areas with limited rainfall!"
         },
         {
             "id": 2,
-            "text": "What primary energy source drives the process of water evaporation from Earth's surface in the water cycle?",
+            "text": "Which of the following forms of precipitation can occur during the water cycle?",
             "options": [
                 {
-                    "text": "The Sun",
+                    "text": "Rain and snow only",
+                    "isCorrect": 0,
+                    "explanation": "This is incomplete. While rain and snow are common forms of precipitation, hail is also a form of precipitation in the water cycle."
+                },
+                {
+                    "text": "Snow and hail only",
+                    "isCorrect": 0,
+                    "explanation": "This is incomplete. While snow and hail are forms of frozen precipitation, rain (liquid water) is also a form of precipitation."
+                },
+                {
+                    "text": "Rain, snow, and hail",
                     "isCorrect": 1,
-                    "explanation": "Solar energy from the Sun provides the heat necessary to transform liquid water into water vapor through evaporation."
+                    "explanation": "Correct! Water can fall from clouds as liquid water (rain), frozen water (snow), or big pieces of frozen water (hail)."
                 },
                 {
-                    "text": "Wind",
+                    "text": "Rain only",
                     "isCorrect": 0,
-                    "explanation": "While wind helps distribute water vapor in the atmosphere, it is not the primary energy source causing evaporation."
-                },
-                {
-                    "text": "Earth's core",
-                    "isCorrect": 0,
-                    "explanation": "Although Earth's core produces heat, it is not the main energy source driving surface water evaporation in the water cycle."
-                },
-                {
-                    "text": "Lightning",
-                    "isCorrect": 0,
-                    "explanation": "Lightning is a weather phenomenon that occurs during storms but does not drive the evaporation process in the water cycle."
+                    "explanation": "This is incomplete. While rain is the most common form of precipitation, water can also fall as snow and hail."
                 }
             ],
-            "funFact": "The Sun evaporates approximately 1,000 billion tons of water from Earth's surface every day - that's enough to fill more than 400 million Olympic-sized swimming pools!"
+            "funFact": "The largest hailstone ever recorded in the United States fell in Vivian, South Dakota in 2010. It measured 8 inches in diameter and weighed nearly 2 pounds!"
         },
         {
             "id": 3,
             "text": "When water vapor in the atmosphere transforms into liquid water droplets, what is the key factor that causes this change?",
             "options": [
                 {
-                    "text": "A decrease in temperature causes the water vapor to condense into liquid droplets",
-                    "isCorrect": 1,
-                    "explanation": "As water vapor rises and encounters cooler temperatures in the atmosphere, it condenses into liquid water droplets, forming clouds"
+                    "text": "Wind pushes water vapor molecules together until they form liquid droplets",
+                    "isCorrect": 0,
+                    "explanation": "While wind moves water vapor around, it's not what causes the vapor to condense into liquid droplets - temperature change is the key factor"
                 },
                 {
                     "text": "An increase in temperature causes the water vapor to condense into liquid droplets",
@@ -71,9 +71,9 @@
                     "explanation": "Higher temperatures actually cause liquid water to evaporate into water vapor, not the other way around"
                 },
                 {
-                    "text": "Wind pushes water vapor molecules together until they form liquid droplets",
-                    "isCorrect": 0,
-                    "explanation": "While wind moves water vapor around, it's not what causes the vapor to condense into liquid droplets - temperature change is the key factor"
+                    "text": "A decrease in temperature causes the water vapor to condense into liquid droplets",
+                    "isCorrect": 1,
+                    "explanation": "As water vapor rises and encounters cooler temperatures in the atmosphere, it condenses into liquid water droplets, forming clouds"
                 },
                 {
                     "text": "Pressure from other clouds squeezes water vapor into liquid droplets",
@@ -85,126 +85,62 @@
         },
         {
             "id": 4,
-            "text": "Why does water become cleaner when it evaporates?",
+            "text": "Which of the following scenarios best demonstrates the process of evaporation in the water cycle?",
             "options": [
                 {
-                    "text": "Water molecules evaporate while most dissolved substances and particles remain behind",
+                    "text": "A puddle of water disappearing from the sidewalk on a hot sunny day",
                     "isCorrect": 1,
-                    "explanation": "When water evaporates, only the water molecules turn into vapor while dissolved substances and particles remain behind due to their different physical properties (like higher boiling points), effectively purifying the water"
+                    "explanation": "This correctly shows evaporation as the sun's heat causes liquid water to turn into water vapor and rise into the air"
                 },
                 {
-                    "text": "Water molecules filter out impurities during evaporation",
+                    "text": "Ice cubes melting in a glass",
                     "isCorrect": 0,
-                    "explanation": "Water molecules don't actively filter impurities - they simply change state while impurities stay behind"
+                    "explanation": "This shows melting, which is water changing from solid to liquid form, not evaporation which is liquid to gas"
                 },
                 {
-                    "text": "The sun's heat destroys all impurities during evaporation",
+                    "text": "Morning dew forming on grass",
                     "isCorrect": 0,
-                    "explanation": "The sun's heat causes evaporation but doesn't destroy impurities - they simply remain behind in liquid form"
+                    "explanation": "This is actually condensation, where water vapor turns into liquid water, not evaporation"
                 },
                 {
-                    "text": "Impurities dissolve into the air during evaporation",
+                    "text": "Rain falling from clouds",
                     "isCorrect": 0,
-                    "explanation": "Impurities don't dissolve into the air - they remain in their original form while only water converts to vapor"
+                    "explanation": "This is precipitation, where water droplets fall from clouds, not evaporation which involves water rising into the air"
                 }
             ],
-            "funFact": "This natural purification process through evaporation and condensation is the same process that creates fresh water from the salty ocean, providing most of Earth's drinking water through rain and snow!"
+            "funFact": "The sun evaporates about 1,000 billion tons of water from Earth's surface every day! That's enough to fill about 400 million Olympic-sized swimming pools."
         },
         {
             "id": 5,
-            "text": "Which statement best describes how the hydrosphere and atmosphere interact during the water cycle?",
+            "text": "Which statement best describes how water continuously moves between Earth's surface and atmosphere?",
             "options": [
                 {
-                    "text": "Water vapor in the atmosphere condenses to form clouds and returns to the hydrosphere as precipitation",
+                    "text": "Water moves randomly between the surface and atmosphere without any pattern",
+                    "isCorrect": 0,
+                    "explanation": "Water movement follows a clear pattern in the water cycle through evaporation, condensation, and precipitation - it is not random"
+                },
+                {
+                    "text": "Water moves from the surface to clouds and stays there permanently",
+                    "isCorrect": 0,
+                    "explanation": "Water does not stay permanently in clouds - it returns to Earth's surface through precipitation, continuing the cycle"
+                },
+                {
+                    "text": "Water evaporates from the surface, forms clouds through condensation, and returns as precipitation in a repeating cycle",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes the interaction between atmosphere and hydrosphere, as water vapor in the air condenses into clouds and returns to Earth's water bodies through precipitation"
+                    "explanation": "This correctly describes the continuous cycle of water moving from Earth's surface to the atmosphere and back through evaporation, condensation, and precipitation"
                 },
                 {
-                    "text": "Groundwater directly transforms into clouds without changing state",
+                    "text": "Water only moves from the atmosphere to Earth's surface through rain",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because water must first evaporate (change from liquid to gas) before it can form clouds"
-                },
-                {
-                    "text": "Rain clouds form when cold air freezes lakes and oceans",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because clouds form through condensation of water vapor, not by freezing of water bodies"
-                },
-                {
-                    "text": "Precipitation occurs when the atmosphere pulls water directly from oceans",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because precipitation occurs when water vapor condenses in the atmosphere, not through direct pulling of water from oceans"
+                    "explanation": "This is incomplete - water also moves from Earth's surface to the atmosphere through evaporation, and precipitation can occur as snow and hail, not just rain"
                 }
             ],
-            "funFact": "The amount of water on Earth has remained relatively constant for billions of years - the same water molecules have been cycling between the hydrosphere and atmosphere since the time of dinosaurs!"
+            "funFact": "The same water molecules have been cycling between Earth's surface and atmosphere for billions of years - the water you drink today could have once been part of a prehistoric ocean or even a dinosaur's body!"
         },
         {
             "id": 6,
-            "text": "On a cool morning, you notice tiny water droplets on the grass in your backyard. What explains the formation of these water droplets?",
-            "options": [
-                {
-                    "text": "Water vapor in the warm air near the ground condenses when it comes in contact with the cold grass surface",
-                    "isCorrect": 1,
-                    "explanation": "When warm air containing water vapor comes in contact with the cold grass surface, the air cools down and the water vapor condenses into liquid water droplets (dew) because cold air can hold less water vapor than warm air"
-                },
-                {
-                    "text": "The grass releases water through its leaves which freezes due to the cold morning temperature",
-                    "isCorrect": 0,
-                    "explanation": "While plants do release water through their leaves (transpiration), dew forms when water vapor in the air condenses on cold surfaces, not from water released by plants"
-                },
-                {
-                    "text": "Underground water rises through the soil and collects on grass blades",
-                    "isCorrect": 0,
-                    "explanation": "Dew forms through condensation of water vapor in the air, not from groundwater moving up through the soil"
-                },
-                {
-                    "text": "Rain water from clouds falls in very small droplets onto the grass",
-                    "isCorrect": 0,
-                    "explanation": "Dew is not a form of precipitation like rain. It forms when water vapor in the air condenses on cold surfaces near the ground"
-                }
-            ],
-            "funFact": "The amount of dew that forms can be so significant that in some arid regions, plants and small animals rely on dew as an important source of water, especially during dry seasons!"
-        },
-        {
-            "id": 7,
-            "text": "In a coastal region, summer temperatures are consistently higher than winter temperatures. How does this seasonal temperature difference affect the interaction between the atmosphere and hydrosphere, leading to changes in local weather patterns?",
-            "options": [
-                {
-                    "text": "Higher summer temperatures increase evaporation rates, leading to more water vapor in the atmosphere and a greater chance of precipitation",
-                    "isCorrect": 1,
-                    "explanation": "Warmer temperatures cause more water to evaporate from bodies of water, increasing atmospheric moisture and the likelihood of precipitation through the water cycle"
-                },
-                {
-                    "text": "Higher summer temperatures cause water to freeze more quickly, leading to increased snowfall",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because higher temperatures cause water to remain liquid or evaporate rather than freeze"
-                },
-                {
-                    "text": "Temperature changes have no effect on the movement of water between the atmosphere and hydrosphere",
-                    "isCorrect": 0,
-                    "explanation": "Temperature is a key factor in the water cycle, directly affecting the rate of evaporation and condensation"
-                },
-                {
-                    "text": "Higher summer temperatures decrease evaporation rates, leading to less precipitation",
-                    "isCorrect": 0,
-                    "explanation": "This is the opposite of what actually occurs - higher temperatures increase, not decrease, evaporation rates"
-                }
-            ],
-            "funFact": "The rate of evaporation can vary significantly with temperature - for every 10\u00b0C increase in temperature, the rate of evaporation roughly doubles, which is why we see more thunderstorms during warm summer months!"
-        },
-        {
-            "id": 8,
             "text": "How does the water cycle contribute to the distribution of precipitation across different regions on Earth?",
             "options": [
-                {
-                    "text": "Water vapor from warm ocean regions rises and travels through the atmosphere, leading to varied precipitation patterns in different locations",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because the water cycle moves water vapor from warmer areas through atmospheric circulation, resulting in different amounts of precipitation across regions"
-                },
-                {
-                    "text": "All regions on Earth receive equal amounts of precipitation because water vapor distributes evenly in the atmosphere",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because atmospheric circulation and temperature differences cause uneven distribution of water vapor and precipitation"
-                },
                 {
                     "text": "Precipitation only occurs in regions directly above large bodies of water",
                     "isCorrect": 0,
@@ -214,176 +150,218 @@
                     "text": "The amount of precipitation in a region depends solely on its elevation",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because while elevation can affect precipitation, many factors including temperature, wind patterns, and distance from water sources influence precipitation patterns"
+                },
+                {
+                    "text": "All regions on Earth receive equal amounts of precipitation because water vapor distributes evenly in the atmosphere",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because atmospheric circulation and temperature differences cause uneven distribution of water vapor and precipitation"
+                },
+                {
+                    "text": "Water vapor from warm ocean regions rises and travels through the atmosphere, leading to varied precipitation patterns in different locations",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because the water cycle moves water vapor from warmer areas through atmospheric circulation, resulting in different amounts of precipitation across regions"
                 }
             ],
             "funFact": "The Amazon rainforest creates its own weather system! About half of the rainfall in the Amazon comes from water that has been recycled through the forest's own water cycle, where trees release water vapor through transpiration."
         },
         {
-            "id": 9,
-            "text": "When the sun heats up a pond on a hot summer day, what effect does this have on the movement of water between the pond's surface and the atmosphere?",
+            "id": 7,
+            "text": "You notice water droplets forming on the outside of a glass filled with ice-cold lemonade on a warm summer day. Which of the following best explains the interaction between Earth's systems that causes this phenomenon?",
             "options": [
                 {
-                    "text": "The increased temperature causes water molecules to gain energy and evaporate more quickly into the atmosphere as water vapor",
+                    "text": "Ice inside the glass melts and creates the water droplets on the outside",
+                    "isCorrect": 0,
+                    "explanation": "The water droplets on the outside do not come from melting ice inside. They form when water vapor in the air condenses on the cold glass surface"
+                },
+                {
+                    "text": "The cold liquid inside the glass moves through tiny holes in the glass to appear on the outside",
+                    "isCorrect": 0,
+                    "explanation": "Glass is not porous and liquid cannot seep through it. The water droplets come from water vapor in the air, not from inside the glass"
+                },
+                {
+                    "text": "Water vapor in the warm air cools when it contacts the cold glass surface and condenses into liquid water droplets",
                     "isCorrect": 1,
-                    "explanation": "Higher temperatures provide more energy to water molecules, causing them to break free from liquid form and enter the atmosphere as water vapor more rapidly"
+                    "explanation": "This correctly describes how the atmosphere (containing water vapor) interacts with temperature changes to form condensation on the cold surface - demonstrating interaction between hydrosphere and atmosphere"
                 },
                 {
-                    "text": "The increased temperature causes water molecules to slow down and remain in the pond",
+                    "text": "The glass sweats out water when it becomes cold",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - higher temperatures actually increase molecular motion, not decrease it"
-                },
-                {
-                    "text": "The increased temperature has no effect on water movement between the pond and atmosphere",
-                    "isCorrect": 0,
-                    "explanation": "Temperature directly affects the rate of evaporation - higher temperatures lead to faster evaporation"
-                },
-                {
-                    "text": "The increased temperature causes water vapor in the air to condense more quickly back into the pond",
-                    "isCorrect": 0,
-                    "explanation": "Higher temperatures actually promote evaporation, not condensation. Condensation occurs when temperatures decrease"
+                    "explanation": "Glass is an inorganic material that cannot 'sweat'. The water droplets form from water vapor in the air condensing on the cold surface"
                 }
             ],
-            "funFact": "The energy required to evaporate one gram of water at room temperature is about 540 calories - that's why sweating helps cool us down, as evaporation of sweat from our skin removes heat energy from our bodies!"
+            "funFact": "This same process of condensation is responsible for the formation of morning dew on grass - when warm, moist air contacts the cooler ground surface overnight, water vapor condenses into tiny droplets"
+        },
+        {
+            "id": 8,
+            "text": "When the temperature drops below freezing in a cloud containing water vapor, which sequence correctly describes how hail forms?",
+            "options": [
+                {
+                    "text": "Water vapor condenses and freezes simultaneously into hail",
+                    "isCorrect": 0,
+                    "explanation": "Condensation and freezing do not occur simultaneously in hail formation. These are separate processes that happen in sequence, with condensation occurring first."
+                },
+                {
+                    "text": "Water vapor turns into snow, which then melts and refreezes into hail as it falls",
+                    "isCorrect": 0,
+                    "explanation": "Hail does not form from melted snow. It forms from water droplets that freeze and grow larger through repeated upward and downward movement in clouds."
+                },
+                {
+                    "text": "Water vapor freezes directly into large hailstones that fall immediately",
+                    "isCorrect": 0,
+                    "explanation": "Water vapor cannot directly freeze into large hailstones. Hail formation requires multiple steps of condensation and freezing as droplets are carried up and down by air currents."
+                },
+                {
+                    "text": "Water vapor condenses into droplets, freezes into small ice particles, and grows larger as they are carried up and down by air currents",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes hail formation. Water vapor first condenses into liquid droplets, which then freeze. These ice particles are carried up and down by updrafts, collecting more layers of water that freeze, making them larger."
+                }
+            ],
+            "funFact": "The largest hailstone ever recorded in the United States fell in Vivian, South Dakota in 2010. It measured 8 inches in diameter and weighed nearly 2 pounds! The multiple layers visible in large hailstones tell the story of their journey up and down through the cloud."
+        },
+        {
+            "id": 9,
+            "text": "If the average global temperature increases by several degrees, how would this change likely affect the water cycle?",
+            "options": [
+                {
+                    "text": "The water cycle would stop completely because all water would remain as vapor",
+                    "isCorrect": 0,
+                    "explanation": "The water cycle is continuous - even with higher temperatures, water vapor still condenses and falls as precipitation when conditions are right"
+                },
+                {
+                    "text": "More water would evaporate and there would be more water vapor in the atmosphere",
+                    "isCorrect": 1,
+                    "explanation": "Higher temperatures increase the rate of evaporation, causing more liquid water to turn into water vapor and enter the atmosphere"
+                },
+                {
+                    "text": "Less water would evaporate because there would be less water available on Earth",
+                    "isCorrect": 0,
+                    "explanation": "The total amount of water on Earth remains constant - temperature affects the rate of evaporation, not the amount of available water"
+                },
+                {
+                    "text": "There would be no change in the water cycle because temperature doesn't affect evaporation",
+                    "isCorrect": 0,
+                    "explanation": "Temperature directly affects the rate of evaporation - warmer temperatures cause faster evaporation of liquid water"
+                }
+            ],
+            "funFact": "The water cycle moves about 500,000 cubic kilometers of water through Earth's atmosphere every year - that's enough to cover the entire United States in about 167 feet (51 meters) of water!"
         },
         {
             "id": 10,
-            "text": "In a coastal region, scientists are studying how ocean currents affect the local weather patterns. They notice that warm ocean currents moving along the coast create a specific interaction with the atmosphere. What is the most likely effect of this interaction between the ocean (hydrosphere) and the atmosphere on the coastal climate?",
+            "text": "At Lake Summit, situated high in the mountains, meteorologists observe a regular pattern of afternoon thunderstorms during summer months. Which explanation best describes how the hydrosphere and atmosphere interact to create this weather pattern?",
             "options": [
                 {
-                    "text": "The warm ocean currents cause the air above to warm and rise, leading to increased cloud formation and rainfall in the coastal area",
+                    "text": "Wind carries clouds from other regions to drop rain into the lake, with no local evaporation involved.",
+                    "isCorrect": 0,
+                    "explanation": "While wind can move clouds, the regular pattern of afternoon storms involves local evaporation from the lake interacting with atmospheric conditions."
+                },
+                {
+                    "text": "The lake absorbs heat from the mountain rocks, causing the air above to become permanently cloudy.",
+                    "isCorrect": 0,
+                    "explanation": "Cloud formation requires the process of evaporation and condensation, not just heat transfer from rocks. Clouds also don't become permanent features over lakes."
+                },
+                {
+                    "text": "Cold mountain air pushes down into the lake, forcing water to turn directly into clouds without evaporation.",
+                    "isCorrect": 0,
+                    "explanation": "Water must first evaporate into water vapor before it can form clouds - it cannot skip this step and turn directly from liquid to clouds."
+                },
+                {
+                    "text": "The sun heats the lake water, causing evaporation. As the warm, moist air rises up the mountain slopes, it cools and condenses to form clouds and precipitation.",
                     "isCorrect": 1,
-                    "explanation": "Warm ocean currents heat the air above, causing it to rise and cool, which leads to cloud formation and increased precipitation along the coast"
-                },
-                {
-                    "text": "The warm ocean currents cause the air above to cool and sink, creating clear skies and dry conditions in the coastal area",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because warm water causes air to rise, not sink. Sinking air typically leads to clear conditions, but this isn't what happens over warm water"
-                },
-                {
-                    "text": "The warm ocean currents have no effect on the air temperature or weather patterns in the coastal area",
-                    "isCorrect": 0,
-                    "explanation": "Ocean currents significantly influence local weather patterns through their interaction with the atmosphere - they don't have zero effect"
-                },
-                {
-                    "text": "The warm ocean currents cause the air to become completely still, preventing any wind or weather changes in the coastal area",
-                    "isCorrect": 0,
-                    "explanation": "Warm ocean currents actually create air movement by heating the air above them, not stopping air movement completely"
+                    "explanation": "This correctly describes how solar heating causes water to evaporate from the lake (hydrosphere), and the interaction with air movement and temperature changes (atmosphere) leads to cloud formation and precipitation."
                 }
             ],
-            "funFact": "The Gulf Stream, one of Earth's most powerful ocean currents, keeps the coast of Western Europe much warmer than other places at similar latitudes. Without it, places like London would be as cold as cities in Canada!"
+            "funFact": "Mountain lakes can create their own microclimates! The interaction between large bodies of water and mountain topography often leads to predictable daily weather patterns that locals can almost set their watches by - a phenomenon known as diurnal thunderstorms."
         },
         {
             "id": 11,
-            "text": "During the process of evaporation, why does water become cleaner when it changes from liquid to vapor?",
+            "text": "During summer, a lake in a mountain region experiences both rain and hail storms. Why does the same water from clouds fall as different forms of precipitation?",
             "options": [
                 {
-                    "text": "Water molecules vaporize at normal environmental temperatures, while most impurities require much higher temperatures to change state",
+                    "text": "The size of water droplets in clouds determines the form of precipitation",
+                    "isCorrect": 0,
+                    "explanation": "The size of droplets alone does not determine the form of precipitation. Temperature changes in the atmosphere determine whether water freezes or remains liquid."
+                },
+                {
+                    "text": "The speed of wind determines whether water falls as rain or hail",
+                    "isCorrect": 0,
+                    "explanation": "While wind can affect precipitation patterns, it does not determine whether water falls as rain or hail. Temperature is the key factor."
+                },
+                {
+                    "text": "The temperature changes at different altitudes determine whether water droplets freeze or remain liquid as they fall",
                     "isCorrect": 1,
-                    "explanation": "During evaporation, water molecules gain enough energy to overcome intermolecular forces and change to vapor at temperatures where most dissolved solids and other impurities remain in liquid or solid form. This difference in vaporization points is the primary mechanism of purification during evaporation."
+                    "explanation": "As water droplets fall through different temperature layers in the atmosphere, they can either remain liquid (rain) or freeze (hail) depending on the temperatures they encounter."
                 },
                 {
-                    "text": "The sun's heat destroys all impurities in the water during evaporation",
+                    "text": "The amount of water vapor in clouds determines whether it falls as rain or hail",
                     "isCorrect": 0,
-                    "explanation": "The sun's heat doesn't destroy impurities - it only provides energy for water molecules to change from liquid to vapor"
-                },
-                {
-                    "text": "Impurities and water molecules rise together but separate in the clouds",
-                    "isCorrect": 0,
-                    "explanation": "Impurities don't rise with water vapor during evaporation - they stay behind because they're too heavy to evaporate"
-                },
-                {
-                    "text": "Wind carries away the impurities while leaving clean water behind",
-                    "isCorrect": 0,
-                    "explanation": "Wind doesn't selectively remove impurities from water - the separation happens during the evaporation process itself"
+                    "explanation": "The form of precipitation is determined by temperature, not the amount of water vapor. The same amount of water vapor can become different forms of precipitation."
                 }
             ],
-            "funFact": "This natural purification process through evaporation is similar to how we make distilled water in laboratories and industries. When water is distilled, it goes through evaporation and condensation to produce extremely pure water that's used in medical facilities and scientific research."
+            "funFact": "The largest hailstone ever recorded in the United States fell in Vivian, South Dakota in 2010. It was 8 inches in diameter and weighed nearly 2 pounds!"
         },
         {
             "id": 12,
-            "text": "When hanging wet clothes outside to dry on a sunny day, which interaction between Earth's systems best explains the drying process?",
+            "text": "How does the sun's energy influence the rate of water evaporation in the water cycle?",
             "options": [
                 {
-                    "text": "The sun's heat causes water to evaporate from the clothes into the atmosphere while wind speeds up this process",
+                    "text": "Lower temperatures from reduced sunlight increase evaporation",
+                    "isCorrect": 0,
+                    "explanation": "This is the opposite of what occurs - lower temperatures actually slow down the evaporation process"
+                },
+                {
+                    "text": "Higher temperatures from the sun cause water to evaporate more quickly",
                     "isCorrect": 1,
-                    "explanation": "This is correct because solar energy causes the liquid water in clothes to transform into water vapor (evaporation), and air movement helps carry away the water vapor, accelerating the drying process"
+                    "explanation": "The sun's heat provides energy for water molecules to break free from liquid form and become water vapor more rapidly at higher temperatures"
                 },
                 {
-                    "text": "The clothes absorb heat from the ground which breaks down the water molecules",
+                    "text": "Only wind speed affects evaporation rates, not the sun",
                     "isCorrect": 0,
-                    "explanation": "While the ground does warm up in sunlight, the primary drying mechanism is evaporation caused by solar heat, not heat from the ground breaking down water molecules"
+                    "explanation": "While wind can influence evaporation, the sun's energy is the main factor determining how quickly water evaporates"
                 },
                 {
-                    "text": "The atmosphere pulls water directly from the clothes through gravity",
+                    "text": "The sun's energy has no effect on evaporation rates",
                     "isCorrect": 0,
-                    "explanation": "Gravity actually works in the opposite direction, pulling water downward. The movement of water into the air occurs through evaporation, not gravitational pull"
-                },
-                {
-                    "text": "Plants near the clothesline absorb the water from the wet clothes",
-                    "isCorrect": 0,
-                    "explanation": "While plants do absorb water vapor from the air, they are not directly involved in drying clothes. The water moves from clothes to the atmosphere through evaporation"
+                    "explanation": "This is incorrect - the sun's energy is actually the primary driver of evaporation in the water cycle"
                 }
             ],
-            "funFact": "The average load of wet laundry contains about 2-3 liters of water that needs to evaporate during the drying process. On a warm, breezy day, this evaporation can happen in just a few hours!"
+            "funFact": "On a hot summer day, a small pond can lose several thousand gallons of water through evaporation alone! This is why outdoor pools often need to be refilled regularly during hot weather."
         },
         {
             "id": 13,
-            "text": "Which statement correctly describes how temperature affects the movement of water between the atmosphere and Earth's surface during evaporation?",
+            "text": "How does the interaction between the atmosphere and hydrosphere contribute to cloud formation in the water cycle?",
             "options": [
                 {
-                    "text": "Higher temperatures increase the rate of evaporation by providing more energy for water molecules to become water vapor",
+                    "text": "When air pressure increases, it pushes water vapor together to form clouds instantly",
+                    "isCorrect": 0,
+                    "explanation": "Cloud formation depends on cooling and condensation of water vapor, not just air pressure changes pushing water vapor together"
+                },
+                {
+                    "text": "When water vapor in the atmosphere rises and cools, it condenses into tiny water droplets that form clouds",
                     "isCorrect": 1,
-                    "explanation": "This is correct because increased heat energy causes water molecules to move faster and break free from liquid form more readily, accelerating the evaporation process"
+                    "explanation": "This correctly describes how atmospheric temperature changes affect water vapor from the hydrosphere, leading to condensation and cloud formation"
                 },
                 {
-                    "text": "Temperature has no effect on evaporation since it only depends on wind speed",
+                    "text": "When water droplets in clouds become too cold, they freeze and immediately fall as precipitation",
                     "isCorrect": 0,
-                    "explanation": "While wind can affect evaporation, temperature is a crucial factor as it provides the energy needed for water to change from liquid to gas"
+                    "explanation": "While cold temperatures can lead to precipitation, cloud formation occurs through condensation of water vapor, not through freezing of existing water droplets"
                 },
                 {
-                    "text": "Lower temperatures increase evaporation by making water molecules move faster",
+                    "text": "When wind moves water vapor horizontally across the sky, it compresses it into clouds",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because lower temperatures actually reduce molecular movement and slow down evaporation"
-                },
-                {
-                    "text": "Evaporation only occurs at the boiling point temperature of water",
-                    "isCorrect": 0,
-                    "explanation": "Evaporation can occur at any temperature, not just at the boiling point. The rate simply increases with higher temperatures. Even frozen water can undergo a form of evaporation called sublimation."
+                    "explanation": "While wind can move clouds, cloud formation occurs through the cooling and condensation of rising water vapor, not through compression by wind"
                 }
             ],
-            "funFact": "While it might seem counterintuitive, even frozen water can undergo evaporation! This process, called sublimation, allows ice to transform directly into water vapor without first becoming liquid water. This is why snow and ice can slowly disappear even on cold winter days."
+            "funFact": "A typical cumulus cloud weighs around 1.1 million pounds due to all its water droplets! However, the cloud stays afloat because these droplets are so tiny and spread out over a large area that they're carried by air currents."
         },
         {
             "id": 14,
-            "text": "What explains why water vapor in the atmosphere forms different types of condensation at different heights?",
-            "options": [
-                {
-                    "text": "Temperature differences at various heights cause water vapor to condense differently, forming dew near the ground, fog at low altitudes, and clouds at higher altitudes",
-                    "isCorrect": 1,
-                    "explanation": "Temperature variations at different heights affect how water vapor condenses. Near the ground, dew forms when surfaces cool below the dew point temperature (typically at night). Fog develops when air near the ground cools to its dew point or when warm and cold air masses mix. At higher altitudes where temperatures are cooler, water vapor condenses into clouds."
-                },
-                {
-                    "text": "The amount of water vapor determines whether dew, fog, or clouds form, with more vapor creating clouds and less vapor creating dew",
-                    "isCorrect": 0,
-                    "explanation": "The type of condensation formed is not determined by the amount of water vapor, but rather by the temperature conditions at different heights in the atmosphere."
-                },
-                {
-                    "text": "Wind patterns control where water vapor condenses, pushing some vapor down to form dew and other vapor up to form clouds",
-                    "isCorrect": 0,
-                    "explanation": "While wind can move water vapor, it's not the primary factor in determining whether dew, fog, or clouds form. Temperature differences at various heights are the key factor."
-                },
-                {
-                    "text": "The speed of condensation determines the type of formation, with faster condensation creating clouds and slower condensation creating dew",
-                    "isCorrect": 0,
-                    "explanation": "The speed of condensation is not what determines whether dew, fog, or clouds form. The determining factor is the temperature conditions at different heights in the atmosphere."
-                }
-            ],
-            "funFact": "The temperature at which water vapor begins to condense is called the dew point. When the air temperature equals the dew point near the ground, dew forms on surfaces - which is why we often see dew early in the morning when temperatures are coolest!"
-        },
-        {
-            "id": 15,
             "text": "How do different forms of precipitation in the water cycle demonstrate the various states of water?",
             "options": [
+                {
+                    "text": "All forms of precipitation start as snow in clouds before changing into rain or hail",
+                    "isCorrect": 0,
+                    "explanation": "Precipitation doesn't always start as snow. The form of precipitation depends on atmospheric conditions like temperature and altitude"
+                },
                 {
                     "text": "Rain represents liquid water, snow represents frozen water, and hail represents compacted frozen water droplets that form in thunderstorms",
                     "isCorrect": 1,
@@ -398,14 +376,36 @@
                     "text": "Rain is liquid water, while snow and hail are water vapor that becomes visible",
                     "isCorrect": 0,
                     "explanation": "Snow and hail are not water vapor - they are solid forms of water. Water vapor is the gaseous state of water and is invisible"
-                },
-                {
-                    "text": "All forms of precipitation start as snow in clouds before changing into rain or hail",
-                    "isCorrect": 0,
-                    "explanation": "Precipitation doesn't always start as snow. The form of precipitation depends on atmospheric conditions like temperature and altitude"
                 }
             ],
             "funFact": "The largest hailstone ever recorded in the United States fell in Vivian, South Dakota in 2010. It measured 8 inches in diameter and weighed nearly 2 pounds! It took multiple trips up and down in the thunderstorm's powerful updrafts to grow to this extraordinary size."
+        },
+        {
+            "id": 15,
+            "text": "When hanging wet clothes outside to dry on a sunny day, which interaction between Earth's systems best explains the drying process?",
+            "options": [
+                {
+                    "text": "Plants near the clothesline absorb the water from the wet clothes",
+                    "isCorrect": 0,
+                    "explanation": "While plants do absorb water vapor from the air, they are not directly involved in drying clothes. The water moves from clothes to the atmosphere through evaporation"
+                },
+                {
+                    "text": "The sun's heat causes water to evaporate from the clothes into the atmosphere while wind speeds up this process",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because solar energy causes the liquid water in clothes to transform into water vapor (evaporation), and air movement helps carry away the water vapor, accelerating the drying process"
+                },
+                {
+                    "text": "The atmosphere pulls water directly from the clothes through gravity",
+                    "isCorrect": 0,
+                    "explanation": "Gravity actually works in the opposite direction, pulling water downward. The movement of water into the air occurs through evaporation, not gravitational pull"
+                },
+                {
+                    "text": "The clothes absorb heat from the ground which breaks down the water molecules",
+                    "isCorrect": 0,
+                    "explanation": "While the ground does warm up in sunlight, the primary drying mechanism is evaporation caused by solar heat, not heat from the ground breaking down water molecules"
+                }
+            ],
+            "funFact": "The average load of wet laundry contains about 2-3 liters of water that needs to evaporate during the drying process. On a warm, breezy day, this evaporation can happen in just a few hours!"
         }
     ]
 }

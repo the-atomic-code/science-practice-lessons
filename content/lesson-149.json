@@ -7,11 +7,6 @@
             "text": "Which evidence helped scientists support the theory that continents were once connected but have moved apart over time?",
             "options": [
                 {
-                    "text": "Similar fossils found on different continents that are now separated by oceans",
-                    "isCorrect": 1,
-                    "explanation": "Finding the same types of fossils on different continents that are now far apart strongly suggests these land masses were once connected, allowing the same species to live across them."
-                },
-                {
                     "text": "The current speed of wind patterns across the oceans",
                     "isCorrect": 0,
                     "explanation": "Wind patterns do not provide evidence of past continental positions. They are temporary atmospheric phenomena rather than geological evidence."
@@ -25,14 +20,105 @@
                     "text": "The temperature differences between continents",
                     "isCorrect": 0,
                     "explanation": "Current temperature variations between continents are due to factors like latitude and climate patterns, not their past positions."
+                },
+                {
+                    "text": "Similar fossils found on different continents that are now separated by oceans",
+                    "isCorrect": 1,
+                    "explanation": "Finding the same types of fossils on different continents that are now far apart strongly suggests these land masses were once connected, allowing the same species to live across them."
                 }
             ],
             "funFact": "The first scientist to propose continental drift, Alfred Wegener, was initially inspired by noticing that the coastlines of South America and Africa seemed to fit together like puzzle pieces. This observation, combined with fossil evidence, led to one of Earth science's most important discoveries!"
         },
         {
             "id": 2,
+            "text": "When an oceanic plate meets a continental plate at a convergent boundary, what typically happens?",
+            "options": [
+                {
+                    "text": "The continental plate slides beneath the oceanic plate",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because continental plates are less dense than oceanic plates, so they would not sink beneath them"
+                },
+                {
+                    "text": "The plates merge together to form a new type of plate",
+                    "isCorrect": 0,
+                    "explanation": "Plates don't merge to form new types of plates. They either move over, under, or past each other at their boundaries"
+                },
+                {
+                    "text": "The oceanic plate slides beneath the continental plate due to its higher density",
+                    "isCorrect": 1,
+                    "explanation": "Oceanic plates are denser than continental plates, so when they meet, the denser oceanic plate subducts (goes underneath) the less dense continental plate"
+                },
+                {
+                    "text": "Both plates rise up equally to form mountains",
+                    "isCorrect": 0,
+                    "explanation": "While mountain formation commonly occurs at convergent boundaries between oceanic and continental plates, both plates don't rise up equally. Typically, the continental margin is compressed and uplifted while the oceanic plate subducts."
+                }
+            ],
+            "funFact": "The deepest known point on Earth, the Challenger Deep in the Mariana Trench, was formed by oceanic plate subduction. It reaches depths of about 36,000 feet below sea level - that's deeper than Mount Everest is tall!"
+        },
+        {
+            "id": 3,
+            "text": "Which statement best explains the relationship between the Ring of Fire and tectonic plate boundaries?",
+            "options": [
+                {
+                    "text": "The Ring of Fire has no connection to tectonic plates and is just a random pattern of volcanoes and earthquakes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - there is a clear correlation between the Ring of Fire and plate boundaries"
+                },
+                {
+                    "text": "The Ring of Fire causes tectonic plates to move and create earthquakes",
+                    "isCorrect": 0,
+                    "explanation": "This reverses cause and effect - plate movements create the Ring of Fire, not the other way around"
+                },
+                {
+                    "text": "The Ring of Fire only occurs where transform boundaries exist between plates",
+                    "isCorrect": 0,
+                    "explanation": "The Ring of Fire includes various types of plate boundaries, not just transform boundaries"
+                },
+                {
+                    "text": "The Ring of Fire exists because tectonic plate boundaries in this region create conditions for frequent earthquakes and volcanic activity",
+                    "isCorrect": 1,
+                    "explanation": "The Ring of Fire aligns with tectonic plate boundaries where plates interact, causing seismic and volcanic activity"
+                }
+            ],
+            "funFact": "The Ring of Fire includes over 450 volcanoes and is responsible for about 90% of the world's earthquakes. This region spans roughly 40,000 kilometers (25,000 miles) in a horseshoe shape around the Pacific Ocean."
+        },
+        {
+            "id": 4,
+            "text": "Which statement correctly describes how tectonic plates interact at their boundaries?",
+            "options": [
+                {
+                    "text": "At all three types of boundaries - convergent, divergent, and transform - plates always move towards each other",
+                    "isCorrect": 0,
+                    "explanation": "Plates don't always move towards each other. They move apart at divergent boundaries and slide horizontally at transform boundaries."
+                },
+                {
+                    "text": "At convergent boundaries plates move together, at divergent boundaries plates move apart, and at transform boundaries plates slide past each other",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes all three types of plate boundaries: convergent (moving together), divergent (moving apart), and transform (sliding past)."
+                },
+                {
+                    "text": "At convergent boundaries plates slide past each other, at divergent boundaries plates move together, and at transform boundaries plates move apart",
+                    "isCorrect": 0,
+                    "explanation": "This mixes up all three boundary types. Plates move together at convergent boundaries, apart at divergent boundaries, and slide past each other at transform boundaries."
+                },
+                {
+                    "text": "At convergent boundaries plates move apart, at divergent boundaries plates move together, and at transform boundaries plates slide past each other",
+                    "isCorrect": 0,
+                    "explanation": "This reverses the definitions of convergent and divergent boundaries. Convergent boundaries are where plates move together, while divergent boundaries are where plates move apart."
+                }
+            ],
+            "funFact": "The fastest moving tectonic plates can move up to 15 centimeters per year - about three times faster than your fingernails grow! The Nazca Plate in the Pacific Ocean is one of the fastest, moving at about 10 centimeters per year."
+        },
+        {
+            "id": 5,
             "text": "What evidence supports the hypothesis that all continents were once joined together as a supercontinent called Pangea?",
             "options": [
+                {
+                    "text": "Only the existence of earthquakes along continental boundaries",
+                    "isCorrect": 0,
+                    "explanation": "Current seismic activity shows present-day plate movement but does not directly prove past continental connections"
+                },
                 {
                     "text": "Matching rock formations and fossil records found on different continents, along with the complementary shapes of continental coastlines",
                     "isCorrect": 1,
@@ -47,137 +133,41 @@
                     "text": "Only the presence of mountains on different continents",
                     "isCorrect": 0,
                     "explanation": "Mountain formation alone does not prove continents were once connected - mountains can form through various tectonic processes"
-                },
-                {
-                    "text": "Only the existence of earthquakes along continental boundaries",
-                    "isCorrect": 0,
-                    "explanation": "Current seismic activity shows present-day plate movement but does not directly prove past continental connections"
                 }
             ],
             "funFact": "The name 'Pangea' comes from Ancient Greek, meaning 'all Earth.' When Pangea existed about 240 million years ago, you could have walked from what is now North America to Africa without crossing any oceans!"
         },
         {
-            "id": 3,
-            "text": "Which statement correctly describes how tectonic plates interact at their boundaries?",
-            "options": [
-                {
-                    "text": "At convergent boundaries plates move apart, at divergent boundaries plates move together, and at transform boundaries plates slide past each other",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the definitions of convergent and divergent boundaries. Convergent boundaries are where plates move together, while divergent boundaries are where plates move apart."
-                },
-                {
-                    "text": "At convergent boundaries plates move together, at divergent boundaries plates move apart, and at transform boundaries plates slide past each other",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes all three types of plate boundaries: convergent (moving together), divergent (moving apart), and transform (sliding past)."
-                },
-                {
-                    "text": "At all three types of boundaries - convergent, divergent, and transform - plates always move towards each other",
-                    "isCorrect": 0,
-                    "explanation": "Plates don't always move towards each other. They move apart at divergent boundaries and slide horizontally at transform boundaries."
-                },
-                {
-                    "text": "At convergent boundaries plates slide past each other, at divergent boundaries plates move together, and at transform boundaries plates move apart",
-                    "isCorrect": 0,
-                    "explanation": "This mixes up all three boundary types. Plates move together at convergent boundaries, apart at divergent boundaries, and slide past each other at transform boundaries."
-                }
-            ],
-            "funFact": "The fastest moving tectonic plates can move up to 15 centimeters per year - about three times faster than your fingernails grow! The Nazca Plate in the Pacific Ocean is one of the fastest, moving at about 10 centimeters per year."
-        },
-        {
-            "id": 4,
-            "text": "What is the primary role of seismologists in studying plate tectonics and what tool do they rely on most for their research?",
-            "options": [
-                {
-                    "text": "They use seismographs to collect data about earthquakes' size, location, and depth to understand plate movements and assess seismic risk",
-                    "isCorrect": 1,
-                    "explanation": "Seismologists primarily study earthquakes using seismographs to gather detailed data about their characteristics, which helps in understanding plate movements and assessing future seismic hazards"
-                },
-                {
-                    "text": "They use telescopes to observe plate movements from satellites in space",
-                    "isCorrect": 0,
-                    "explanation": "While satellite data can be useful, seismologists primarily use seismographs, not telescopes, to study plate tectonics and earthquake activity"
-                },
-                {
-                    "text": "They use thermometers to measure the temperature of magma from volcanoes",
-                    "isCorrect": 0,
-                    "explanation": "While temperature measurements are important in volcanic studies, this is more the role of volcanologists. Seismologists focus on earthquake data using seismographs"
-                },
-                {
-                    "text": "They use barometers to measure pressure changes in the Earth's crust",
-                    "isCorrect": 0,
-                    "explanation": "Barometers measure atmospheric pressure, not the type of data seismologists need to study plate tectonics and earthquakes"
-                }
-            ],
-            "funFact": "The world's most sensitive seismograph can detect ground movements as small as 1 nanometer - about the width of a strand of DNA! This incredible sensitivity allows scientists to detect earthquakes happening anywhere on Earth."
-        },
-        {
-            "id": 5,
-            "text": "Which statement best explains the relationship between the Ring of Fire and tectonic plate boundaries?",
-            "options": [
-                {
-                    "text": "The Ring of Fire exists because tectonic plate boundaries in this region create conditions for frequent earthquakes and volcanic activity",
-                    "isCorrect": 1,
-                    "explanation": "The Ring of Fire aligns with tectonic plate boundaries where plates interact, causing seismic and volcanic activity"
-                },
-                {
-                    "text": "The Ring of Fire has no connection to tectonic plates and is just a random pattern of volcanoes and earthquakes",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - there is a clear correlation between the Ring of Fire and plate boundaries"
-                },
-                {
-                    "text": "The Ring of Fire only occurs where transform boundaries exist between plates",
-                    "isCorrect": 0,
-                    "explanation": "The Ring of Fire includes various types of plate boundaries, not just transform boundaries"
-                },
-                {
-                    "text": "The Ring of Fire causes tectonic plates to move and create earthquakes",
-                    "isCorrect": 0,
-                    "explanation": "This reverses cause and effect - plate movements create the Ring of Fire, not the other way around"
-                }
-            ],
-            "funFact": "The Ring of Fire includes over 450 volcanoes and is responsible for about 90% of the world's earthquakes. This region spans roughly 40,000 kilometers (25,000 miles) in a horseshoe shape around the Pacific Ocean."
-        },
-        {
             "id": 6,
-            "text": "Scientists observe that rocks on the seafloor get progressively older as you move away from mid-ocean ridges towards the continents. What is the most likely explanation for this pattern?",
+            "text": "The Pacific Ring of Fire shows a high concentration of earthquakes and volcanic activity. What does this pattern suggest about tectonic plate interactions in this region?",
             "options": [
                 {
-                    "text": "New seafloor rock forms at mid-ocean ridges and spreads outward over time",
+                    "text": "There are no plate boundaries in this region, but the crust is naturally unstable",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because earthquake patterns directly correspond to plate boundaries, not random crustal instability"
+                },
+                {
+                    "text": "Multiple plate boundaries converge in this region, causing increased seismic activity",
                     "isCorrect": 1,
-                    "explanation": "This is correct. At mid-ocean ridges, hot magma rises and creates new seafloor rock. As more rock forms, the older rock is pushed away from the ridge, creating a pattern of oldest rocks furthest from the ridge."
+                    "explanation": "The Ring of Fire's earthquake patterns align with plate boundaries where plates meet and interact, particularly through convergent boundaries, leading to frequent seismic activity"
                 },
                 {
-                    "text": "Older rocks sink deeper into the ocean over time",
+                    "text": "The earthquakes are unrelated to plate boundaries",
                     "isCorrect": 0,
-                    "explanation": "While rocks can sink, this doesn't explain the systematic age pattern from mid-ocean ridges to continents. The age pattern is due to seafloor spreading, not sinking."
+                    "explanation": "Earthquake patterns strongly correlate with plate boundaries and are direct evidence of plate interactions"
                 },
                 {
-                    "text": "Ocean currents deposit newer rocks near the ridges",
+                    "text": "A single large plate is breaking apart, causing earthquakes",
                     "isCorrect": 0,
-                    "explanation": "Ocean currents don't create the age pattern of seafloor rocks. The pattern comes from new rock formation at ridges through volcanic activity and plate tectonics."
-                },
-                {
-                    "text": "Rocks near continents erode faster than rocks near ridges",
-                    "isCorrect": 0,
-                    "explanation": "Erosion rates don't create the observed age pattern. The systematic age progression is due to the continuous formation of new rock at mid-ocean ridges."
+                    "explanation": "The Ring of Fire is actually caused by multiple plates interacting, not a single plate breaking apart"
                 }
             ],
-            "funFact": "The process of seafloor spreading is so slow that it moves at about the same rate as your fingernails grow - just a few centimeters per year. Despite this slow speed, over millions of years, this process has created all of Earth's ocean basins!"
+            "funFact": "The Pacific Ring of Fire is home to about 75% of Earth's active volcanoes and about 90% of the world's earthquakes occur along this horseshoe-shaped zone!"
         },
         {
             "id": 7,
             "text": "Scientists have discovered a pattern of magnetic stripes in the oceanic crust on both sides of mid-ocean ridges. Which explanation best accounts for this symmetrical arrangement of magnetic stripes?",
             "options": [
-                {
-                    "text": "New oceanic crust forms at mid-ocean ridges and records Earth's magnetic field, creating matching patterns as the seafloor spreads in opposite directions",
-                    "isCorrect": 1,
-                    "explanation": "When new oceanic crust forms, magnetic minerals align with Earth's magnetic field and are preserved as the rock cools, creating symmetrical patterns on both sides as seafloor spreading occurs"
-                },
-                {
-                    "text": "Ocean currents deposit magnetic minerals in symmetrical patterns on the seafloor",
-                    "isCorrect": 0,
-                    "explanation": "Ocean currents do not create the magnetic patterns - these patterns are formed during the creation of new oceanic crust through seafloor spreading"
-                },
                 {
                     "text": "Earthquakes cause magnetic minerals to align in symmetrical patterns",
                     "isCorrect": 0,
@@ -187,66 +177,49 @@
                     "text": "The magnetic stripes are caused by changes in ocean temperature over time",
                     "isCorrect": 0,
                     "explanation": "Ocean temperature changes do not create magnetic stripes - they are formed by the preservation of Earth's magnetic field in newly formed oceanic crust"
+                },
+                {
+                    "text": "Ocean currents deposit magnetic minerals in symmetrical patterns on the seafloor",
+                    "isCorrect": 0,
+                    "explanation": "Ocean currents do not create the magnetic patterns - these patterns are formed during the creation of new oceanic crust through seafloor spreading"
+                },
+                {
+                    "text": "New oceanic crust forms at mid-ocean ridges and records Earth's magnetic field, creating matching patterns as the seafloor spreads in opposite directions",
+                    "isCorrect": 1,
+                    "explanation": "When new oceanic crust forms, magnetic minerals align with Earth's magnetic field and are preserved as the rock cools, creating symmetrical patterns on both sides as seafloor spreading occurs"
                 }
             ],
             "funFact": "Earth's magnetic field has reversed polarity many times throughout history - about every 200,000 to 300,000 years on average. These reversals are recorded in the magnetic stripes of oceanic crust, creating a kind of magnetic tape recorder of Earth's magnetic history!"
         },
         {
             "id": 8,
-            "text": "Similar fossils of the same extinct plant species have been discovered in both South America and Africa. Which explanation best supports how these fossils ended up on two different continents?",
+            "text": "Geologists found similar rock formations in South America and Africa that are about 200 million years old. Which conclusion about these continents is best supported by this evidence?",
             "options": [
                 {
-                    "text": "The continents of South America and Africa were once connected as part of a larger landmass, allowing the same plant species to live across both regions",
+                    "text": "These rock formations appeared after the continents separated",
+                    "isCorrect": 0,
+                    "explanation": "The age of the rocks (200 million years) indicates they formed before the separation of the continents, not after"
+                },
+                {
+                    "text": "The rock formations developed independently on each continent at the same time",
+                    "isCorrect": 0,
+                    "explanation": "It would be extremely unlikely for identical rock formations to develop independently on separate continents, especially given other evidence like matching continental shapes"
+                },
+                {
+                    "text": "Rocks from one continent were carried to the other by ocean currents",
+                    "isCorrect": 0,
+                    "explanation": "Ocean currents cannot transport large rock formations across oceans. The rock formations are part of the continental structure itself"
+                },
+                {
+                    "text": "South America and Africa were once connected as part of the same landmass",
                     "isCorrect": 1,
-                    "explanation": "The presence of identical fossils on different continents is strong evidence that these landmasses were once joined together, allowing the same species to exist across the connected regions before the continents separated"
-                },
-                {
-                    "text": "The plant species developed independently on both continents through convergent evolution",
-                    "isCorrect": 0,
-                    "explanation": "While convergent evolution can lead to similar traits, it's extremely unlikely for identical species to evolve independently on different continents"
-                },
-                {
-                    "text": "Birds carried the plant seeds across the Atlantic Ocean between the continents",
-                    "isCorrect": 0,
-                    "explanation": "The fossils are from extinct species that existed millions of years ago, long before the current separation of the continents, making seed dispersal across the modern Atlantic Ocean impossible"
-                },
-                {
-                    "text": "Ancient humans transported the plants between the continents for cultivation",
-                    "isCorrect": 0,
-                    "explanation": "The fossils are from species that went extinct millions of years ago, long before humans existed"
+                    "explanation": "Similar rock formations of the same age on different continents provide strong evidence that these continents were once joined together before being separated by plate tectonic movements"
                 }
             ],
-            "funFact": "The matching coastlines of South America and Africa were one of the first clues that led scientists to develop the theory of continental drift. When these continents are moved closer together, they fit like pieces of a puzzle, with their geological features and fossil records lining up perfectly!"
+            "funFact": "The matching rock formations between South America and Africa include the Permian-aged Karoo-Ventana fold belt, which extends for over 2000 kilometers when the continents are fitted together!"
         },
         {
             "id": 9,
-            "text": "Which evidence best supports the idea that South America and Africa were once connected as part of a larger continent?",
-            "options": [
-                {
-                    "text": "The complementary shapes of the eastern coast of South America and the western coast of Africa",
-                    "isCorrect": 1,
-                    "explanation": "The matching coastlines of South America and Africa provide strong evidence that these continents were once joined together, like pieces of a puzzle."
-                },
-                {
-                    "text": "The presence of volcanoes along both continents",
-                    "isCorrect": 0,
-                    "explanation": "While both continents have volcanoes, their presence alone doesn't indicate the continents were once connected, as volcanoes can form in many geological settings."
-                },
-                {
-                    "text": "The similar climate zones in both continents",
-                    "isCorrect": 0,
-                    "explanation": "Similar climates are primarily due to latitude and current geographical conditions, not past continental connections."
-                },
-                {
-                    "text": "The presence of mountains on both continents",
-                    "isCorrect": 0,
-                    "explanation": "Mountains can form through various geological processes and their presence alone doesn't indicate that continents were once connected."
-                }
-            ],
-            "funFact": "The continental shelves of South America and Africa match up so well that when they're fitted together at the 2000-meter depth contour (rather than just the visible coastline), the fit is even more remarkable!"
-        },
-        {
-            "id": 10,
             "text": "The high concentration of earthquakes and volcanic activity along the Pacific Ocean's Ring of Fire is primarily explained by which geological process?",
             "options": [
                 {
@@ -273,121 +246,62 @@
             "funFact": "The Ring of Fire accounts for approximately 90% of all earthquakes on Earth and contains about 75% of the world's active volcanoes, making it the most geologically active region on our planet!"
         },
         {
-            "id": 11,
-            "text": "Which geological feature would most likely form at a convergent boundary where two tectonic plates collide?",
+            "id": 10,
+            "text": "Which type of plate boundary would most likely result in the formation of mountain ranges like the Himalayas?",
             "options": [
                 {
-                    "text": "Mountain ranges",
+                    "text": "Divergent boundary",
+                    "isCorrect": 0,
+                    "explanation": "Divergent boundaries create valleys or rifts as plates move apart, not mountain ranges."
+                },
+                {
+                    "text": "Transform boundary",
+                    "isCorrect": 0,
+                    "explanation": "Transform boundaries where plates slide past each other typically create fault lines, not mountain ranges."
+                },
+                {
+                    "text": "Convergent boundary",
                     "isCorrect": 1,
-                    "explanation": "When tectonic plates converge, the collision causes uplift of rock and creates mountain ranges, like the Himalayas"
-                },
-                {
-                    "text": "Mid-ocean ridges",
-                    "isCorrect": 0,
-                    "explanation": "Mid-ocean ridges form at divergent boundaries where plates move apart, not at convergent boundaries"
-                },
-                {
-                    "text": "Rift valleys",
-                    "isCorrect": 0,
-                    "explanation": "Rift valleys form at divergent boundaries where plates separate, not at convergent boundaries"
-                },
-                {
-                    "text": "Transform faults",
-                    "isCorrect": 0,
-                    "explanation": "Transform faults occur where plates slide past each other horizontally, not where they collide"
+                    "explanation": "When two plates converge or move toward each other, the collision can force land upward creating mountain ranges through a process called uplift."
                 }
             ],
-            "funFact": "The Himalayas continue to grow about 5 millimeters (0.2 inches) taller each year due to the ongoing collision between the Indian and Eurasian tectonic plates!"
+            "funFact": "The Himalayas continue to grow about 5 millimeters per year as the Indian Plate keeps pushing northward into the Eurasian Plate. Mount Everest, the highest peak in the Himalayas, grows approximately 4 millimeters taller every year!"
+        },
+        {
+            "id": 11,
+            "text": "Scientists discovered identical fossil remains of an extinct reptile species in both South America and Africa. What is the most likely explanation for finding the same fossils on these two different continents?",
+            "options": [
+                {
+                    "text": "The continents were once connected, allowing the species to live across both regions",
+                    "isCorrect": 1,
+                    "explanation": "Matching fossils on different continents provide strong evidence that these landmasses were once joined together, allowing species to live across what are now separate continents."
+                },
+                {
+                    "text": "Early humans must have transported the fossils between continents",
+                    "isCorrect": 0,
+                    "explanation": "These fossils are much older than human civilization, so they could not have been transported by humans. Their distribution is evidence of ancient continental connections."
+                },
+                {
+                    "text": "The species evolved independently on both continents",
+                    "isCorrect": 0,
+                    "explanation": "It is extremely unlikely for exactly the same species to evolve independently on different continents - the matching fossils indicate a shared geographic history."
+                },
+                {
+                    "text": "The animals must have swum across the Atlantic Ocean",
+                    "isCorrect": 0,
+                    "explanation": "This species lived long before the Atlantic Ocean existed, and it would have been impossible for them to swim such vast distances."
+                }
+            ],
+            "funFact": "The first major discovery of matching fossils across continents was made in the 1920s when scientists found fossils of Mesosaurus, a small aquatic reptile, in both South America and Africa. This discovery became one of the key pieces of evidence supporting the theory of continental drift."
         },
         {
             "id": 12,
-            "text": "The Himalayan Mountains continue to grow taller due to the collision between the Indian and Eurasian tectonic plates. Which statement best explains how this mountain formation process occurs?",
-            "options": [
-                {
-                    "text": "When the two plates converge, the force of collision pushes the rock layers upward, creating mountains through uplift",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how convergent boundaries create mountains through uplift when plates collide and push rock layers upward"
-                },
-                {
-                    "text": "The plates slide past each other horizontally, causing friction that builds up mountains over time",
-                    "isCorrect": 0,
-                    "explanation": "This describes a transform boundary where plates slide past each other, which does not typically create mountains"
-                },
-                {
-                    "text": "The plates move apart, allowing magma to rise and create volcanic mountains",
-                    "isCorrect": 0,
-                    "explanation": "This describes a divergent boundary which can create underwater ridges but is not how the Himalayas formed"
-                },
-                {
-                    "text": "Erosion of the surrounding landscape makes the mountains appear taller over time",
-                    "isCorrect": 0,
-                    "explanation": "While erosion can affect mountain appearance, it does not explain the actual growth of the Himalayas through plate collision"
-                }
-            ],
-            "funFact": "The Himalayas are growing at approximately 5 millimeters per year and contain 9 of the world's 10 highest peaks, including Mount Everest, which continues to grow slightly taller each year due to ongoing tectonic activity."
-        },
-        {
-            "id": 13,
-            "text": "Rock layers containing similar fossils of the fern Glossopteris are found in South America, Africa, India, Antarctica, and Australia. What does this evidence suggest about these continents?",
-            "options": [
-                {
-                    "text": "These continents were once connected as part of a larger landmass",
-                    "isCorrect": 1,
-                    "explanation": "The presence of identical fossils across multiple continents indicates they were once joined together, allowing the same species to live across these regions before the continents separated."
-                },
-                {
-                    "text": "The fern species independently evolved in each continent",
-                    "isCorrect": 0,
-                    "explanation": "It is extremely unlikely for the exact same species to evolve independently in multiple locations. The matching fossils are better explained by the continents being previously connected."
-                },
-                {
-                    "text": "Birds carried the fern seeds across the oceans",
-                    "isCorrect": 0,
-                    "explanation": "The vast distances between these continents make it improbable that birds dispersed the seeds. Additionally, this wouldn't explain the presence of identical fossil specimens from the same time period."
-                },
-                {
-                    "text": "Ocean currents transported the ferns between continents",
-                    "isCorrect": 0,
-                    "explanation": "Ocean currents could not explain the widespread distribution of identical fossil specimens, especially considering some of these continents are separated by multiple ocean basins."
-                }
-            ],
-            "funFact": "Glossopteris was a woody tree-like plant that grew up to 30 meters tall and dominated the Southern Hemisphere during the Permian period (299-252 million years ago). Its distinctive leaf fossils were one of the key pieces of evidence that helped scientists develop the theory of continental drift."
-        },
-        {
-            "id": 14,
-            "text": "The Pacific Ring of Fire is characterized by frequent earthquakes and volcanic activity. Which feature best explains why this region experiences such high geological activity?",
-            "options": [
-                {
-                    "text": "The region contains numerous plate boundaries where tectonic plates interact",
-                    "isCorrect": 1,
-                    "explanation": "Correct! The Ring of Fire follows major plate boundaries where plates converge, diverge, or transform past each other, leading to frequent earthquakes and volcanic activity."
-                },
-                {
-                    "text": "The region has higher temperatures at the Earth's surface",
-                    "isCorrect": 0,
-                    "explanation": "Surface temperature does not cause geological activity. The activity is due to plate tectonic interactions at boundaries."
-                },
-                {
-                    "text": "The ocean water pressure causes the plates to move more",
-                    "isCorrect": 0,
-                    "explanation": "Ocean water pressure does not drive plate movement. Plate motion is driven by convection currents in Earth's mantle."
-                },
-                {
-                    "text": "The region has softer rocks that break more easily",
-                    "isCorrect": 0,
-                    "explanation": "Rock composition is not the main factor. The geological activity is caused by the interaction of tectonic plates at their boundaries."
-                }
-            ],
-            "funFact": "The Ring of Fire includes over 450 volcanoes and is home to approximately 90% of the world's earthquakes. This horseshoe-shaped region stretches about 40,000 kilometers (25,000 miles) along the Pacific Ocean's edges."
-        },
-        {
-            "id": 15,
             "text": "When an oceanic plate collides with a continental plate, what geological process occurs and what feature is likely to form?",
             "options": [
                 {
-                    "text": "The oceanic plate slides beneath the continental plate due to higher density, forming deep ocean trenches",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes subduction, where the denser oceanic plate moves under the less dense continental plate, creating trenches"
+                    "text": "The continental plate slides beneath the oceanic plate, forming volcanic islands",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the less dense continental plate would not slide beneath the denser oceanic plate"
                 },
                 {
                     "text": "The plates move sideways past each other, creating transform faults",
@@ -400,12 +314,93 @@
                     "explanation": "This describes a divergent boundary, not what happens when oceanic and continental plates collide"
                 },
                 {
-                    "text": "The continental plate slides beneath the oceanic plate, forming volcanic islands",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the less dense continental plate would not slide beneath the denser oceanic plate"
+                    "text": "The oceanic plate slides beneath the continental plate due to higher density, forming deep ocean trenches",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes subduction, where the denser oceanic plate moves under the less dense continental plate, creating trenches"
                 }
             ],
             "funFact": "The Mariana Trench, Earth's deepest point at about 36,000 feet below sea level, was formed through subduction! That's deeper than Mount Everest is tall, and it continues to deepen as the Pacific Plate subducts beneath the Philippine Plate."
+        },
+        {
+            "id": 13,
+            "text": "Scientists discovered that the rocks near a mid-ocean ridge in the Pacific Ocean are 2 million years old, while rocks 100 kilometers away from the ridge are 4 million years old. Based on this data, what is the approximate rate at which the seafloor has been moving away from the ridge?",
+            "options": [
+                {
+                    "text": "100 kilometers per million years",
+                    "isCorrect": 0,
+                    "explanation": "This represents using the total distance without dividing by the time difference between the rock ages (2 million years)."
+                },
+                {
+                    "text": "25 kilometers per million years",
+                    "isCorrect": 0,
+                    "explanation": "This represents half the actual rate. The calculation needs to consider the total distance divided by the time difference between the rock ages."
+                },
+                {
+                    "text": "2 kilometers per million years",
+                    "isCorrect": 0,
+                    "explanation": "This is much too slow and does not correctly use the relationship between distance and time difference in rock ages."
+                },
+                {
+                    "text": "50 kilometers per million years",
+                    "isCorrect": 1,
+                    "explanation": "Since the rocks moved 100 km in 2 million years (from 2 to 4 million years old), the rate is 100 km \u00f7 2 million years = 50 km per million years."
+                }
+            ],
+            "funFact": "The fastest-moving tectonic plates today are moving at about 100 millimeters per year, or 100 kilometers per million years. This is about the same speed at which your fingernails grow!"
+        },
+        {
+            "id": 14,
+            "text": "The Pacific Ring of Fire is characterized by frequent earthquakes and volcanic activity. Which feature best explains why this region experiences such high geological activity?",
+            "options": [
+                {
+                    "text": "The region contains numerous plate boundaries where tectonic plates interact",
+                    "isCorrect": 1,
+                    "explanation": "Correct! The Ring of Fire follows major plate boundaries where plates converge, diverge, or transform past each other, leading to frequent earthquakes and volcanic activity."
+                },
+                {
+                    "text": "The region has softer rocks that break more easily",
+                    "isCorrect": 0,
+                    "explanation": "Rock composition is not the main factor. The geological activity is caused by the interaction of tectonic plates at their boundaries."
+                },
+                {
+                    "text": "The ocean water pressure causes the plates to move more",
+                    "isCorrect": 0,
+                    "explanation": "Ocean water pressure does not drive plate movement. Plate motion is driven by convection currents in Earth's mantle."
+                },
+                {
+                    "text": "The region has higher temperatures at the Earth's surface",
+                    "isCorrect": 0,
+                    "explanation": "Surface temperature does not cause geological activity. The activity is due to plate tectonic interactions at boundaries."
+                }
+            ],
+            "funFact": "The Ring of Fire includes over 450 volcanoes and is home to approximately 90% of the world's earthquakes. This horseshoe-shaped region stretches about 40,000 kilometers (25,000 miles) along the Pacific Ocean's edges."
+        },
+        {
+            "id": 15,
+            "text": "Which of the following pieces of evidence best supports the theory of continental drift?",
+            "options": [
+                {
+                    "text": "The presence of earthquakes along plate boundaries",
+                    "isCorrect": 0,
+                    "explanation": "While earthquakes occur at plate boundaries, they only show current plate activity and don't provide evidence of past continental connections."
+                },
+                {
+                    "text": "The existence of volcanoes near ocean ridges",
+                    "isCorrect": 0,
+                    "explanation": "Volcanoes near ocean ridges show current plate activity but don't provide direct evidence of past continental positions."
+                },
+                {
+                    "text": "Similar fossils of extinct species found on different continents that are now separated by oceans",
+                    "isCorrect": 1,
+                    "explanation": "Finding the same fossil species on continents now separated by vast oceans strongly suggests these landmasses were once connected, as these species could not have crossed the oceans."
+                },
+                {
+                    "text": "The current movement of tectonic plates measured by GPS satellites",
+                    "isCorrect": 0,
+                    "explanation": "While modern GPS measurements show plate movement, this is current data and doesn't directly prove past continental connections."
+                }
+            ],
+            "funFact": "One of the most compelling fossil examples supporting continental drift is Mesosaurus, a small freshwater reptile found only in South America and Africa. Since Mesosaurus could not swim across oceans, its fossils indicate these continents were once joined."
         }
     ]
 }

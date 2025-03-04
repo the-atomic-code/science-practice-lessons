@@ -4,17 +4,39 @@
     "questions": [
         {
             "id": 1,
+            "text": "Which of the following best describes what a constellation is?",
+            "options": [
+                {
+                    "text": "A group of planets that move together across the night sky",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Constellations are made up of stars, not planets. Planets move independently across the background of stars."
+                },
+                {
+                    "text": "A group of stars that form a recognizable pattern or shape in the night sky",
+                    "isCorrect": 1,
+                    "explanation": "This is the correct definition. Constellations are patterns of stars that appear to form recognizable shapes when viewed from Earth."
+                },
+                {
+                    "text": "A collection of stars that are all the same size and brightness",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Stars in a constellation can vary greatly in their size and brightness. The pattern they form is what makes them a constellation."
+                },
+                {
+                    "text": "A cluster of stars that are physically close to each other in space",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Stars in a constellation may appear close together from Earth but can actually be very far apart from each other in space."
+                }
+            ],
+            "funFact": "The International Astronomical Union officially recognizes 88 constellations covering the entire night sky. Many of these constellations were named thousands of years ago after mythological characters, animals, and objects!"
+        },
+        {
+            "id": 2,
             "text": "Why do we need to add an extra day (February 29) to our calendar every four years?",
             "options": [
                 {
-                    "text": "Because it takes Earth 365.25 days to orbit the Sun, and adding a day every 4 years keeps our calendar aligned with Earth's orbit",
-                    "isCorrect": 1,
-                    "explanation": "Each Earth orbit takes 365.25 days, so after 4 years, we accumulate one extra day (4 \u00d7 0.25 = 1). Adding February 29 keeps our calendar synchronized with Earth's motion around the Sun."
-                },
-                {
-                    "text": "Because Earth's rotation is gradually slowing down, and we need to adjust for this change",
+                    "text": "Because Earth's axis tilts a little more every four years",
                     "isCorrect": 0,
-                    "explanation": "While Earth's rotation is very slowly changing, this is not why we have leap years. Leap years compensate for Earth's orbital period being 365.25 days rather than exactly 365 days."
+                    "explanation": "Earth's axial tilt remains relatively constant and is not related to leap years. Leap years exist because Earth's orbital period is not an exact number of days."
                 },
                 {
                     "text": "Because the Moon's gravity pulls on Earth differently every four years",
@@ -22,49 +44,22 @@
                     "explanation": "The Moon's gravitational effect on Earth does not change significantly over four-year periods. Leap years are needed to match our calendar with Earth's 365.25-day orbit around the Sun."
                 },
                 {
-                    "text": "Because Earth's axis tilts a little more every four years",
+                    "text": "Because Earth's rotation is gradually slowing down, and we need to adjust for this change",
                     "isCorrect": 0,
-                    "explanation": "Earth's axial tilt remains relatively constant and is not related to leap years. Leap years exist because Earth's orbital period is not an exact number of days."
+                    "explanation": "While Earth's rotation is very slowly changing, this is not why we have leap years. Leap years compensate for Earth's orbital period being 365.25 days rather than exactly 365 days."
+                },
+                {
+                    "text": "Because it takes Earth 365.25 days to orbit the Sun, and adding a day every 4 years keeps our calendar aligned with Earth's orbit",
+                    "isCorrect": 1,
+                    "explanation": "Each Earth orbit takes 365.25 days, so after 4 years, we accumulate one extra day (4 \u00d7 0.25 = 1). Adding February 29 keeps our calendar synchronized with Earth's motion around the Sun."
                 }
             ],
             "funFact": "The ancient Egyptians were the first to discover that a year is slightly longer than 365 days. They noticed that the annual flooding of the Nile River occurred about 6 hours later each year when they used a 365-day calendar!"
         },
         {
-            "id": 2,
-            "text": "A student is measuring the length of her shadow at different times during a sunny day. At which time would her shadow be the shortest?",
-            "options": [
-                {
-                    "text": "12:00 PM (noon)",
-                    "isCorrect": 1,
-                    "explanation": "At noon, the sun is at its highest point in the sky, making shadows the shortest because light travels the most direct path to Earth."
-                },
-                {
-                    "text": "9:00 AM",
-                    "isCorrect": 0,
-                    "explanation": "In the morning, the sun is lower in the sky, creating longer shadows as light travels at an angle to reach Earth."
-                },
-                {
-                    "text": "3:00 PM",
-                    "isCorrect": 0,
-                    "explanation": "In the afternoon, the sun is lower in the sky, creating longer shadows as light travels at an angle to reach Earth."
-                },
-                {
-                    "text": "6:00 PM",
-                    "isCorrect": 0,
-                    "explanation": "Near sunset, the sun is very low in the sky, creating the longest shadows of the day as light travels at a very sharp angle to reach Earth."
-                }
-            ],
-            "funFact": "Ancient Egyptians used shadow measurements from obelisks to create some of the world's first sundials, helping them divide their day into hours. These giant monuments acted like precise timekeepers based on the same shadow principles we observe today!"
-        },
-        {
             "id": 3,
             "text": "Why do we see different constellations in the night sky during different seasons of the year?",
             "options": [
-                {
-                    "text": "As Earth orbits the sun, our view of space changes since we can only see stars in the direction away from the sun",
-                    "isCorrect": 1,
-                    "explanation": "Earth's orbit causes our nighttime view to face different directions in space throughout the year, letting us see different star patterns in different seasons"
-                },
                 {
                     "text": "The stars move to different positions in space each season",
                     "isCorrect": 0,
@@ -76,6 +71,11 @@
                     "explanation": "Daily rotation causes stars to appear to move across the sky each night, but doesn't explain seasonal changes in which constellations are visible"
                 },
                 {
+                    "text": "As Earth orbits the sun, our view of space changes since we can only see stars in the direction away from the sun",
+                    "isCorrect": 1,
+                    "explanation": "Earth's orbit causes our nighttime view to face different directions in space throughout the year, letting us see different star patterns in different seasons"
+                },
+                {
                     "text": "The sun blocks different stars each season as it moves around Earth",
                     "isCorrect": 0,
                     "explanation": "This reflects the incorrect geocentric model - the sun doesn't move around Earth, Earth orbits the sun"
@@ -85,13 +85,35 @@
         },
         {
             "id": 4,
-            "text": "How does a Foucault pendulum provide evidence that the Earth rotates on its axis?",
+            "text": "How long does it take Earth to complete one full orbit around the Sun?",
             "options": [
                 {
-                    "text": "The pendulum's swing path appears to change over time while the pendulum actually maintains the same path",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. The pendulum maintains its original swing path, but because Earth rotates beneath it, the path appears to change relative to the ground, proving Earth's rotation."
+                    "text": "365 days",
+                    "isCorrect": 0,
+                    "explanation": "While our regular calendar year is 365 days, Earth actually takes slightly longer than this to complete one orbit around the Sun."
                 },
+                {
+                    "text": "365.25 days",
+                    "isCorrect": 1,
+                    "explanation": "Earth takes approximately 365.25 days to complete one full orbit around the Sun. This is why we add an extra day to our calendar every four years (leap year) to account for the 0.25 days."
+                },
+                {
+                    "text": "366 days",
+                    "isCorrect": 0,
+                    "explanation": "366 days is the number of days in a leap year, but this is not the actual time Earth takes to orbit the Sun. The orbital period is 365.25 days."
+                },
+                {
+                    "text": "364 days",
+                    "isCorrect": 0,
+                    "explanation": "364 days is less than the actual time Earth takes to orbit the Sun. The correct orbital period is 365.25 days."
+                }
+            ],
+            "funFact": "While Earth takes 365.25 days to orbit the Sun, other planets have very different orbital periods. Mercury completes its orbit in just 88 days, while Jupiter takes about 12 Earth years to make one trip around the Sun!"
+        },
+        {
+            "id": 5,
+            "text": "How does a Foucault pendulum provide evidence that the Earth rotates on its axis?",
+            "options": [
                 {
                     "text": "The pendulum swings faster during the day and slower at night",
                     "isCorrect": 0,
@@ -103,6 +125,11 @@
                     "explanation": "The pendulum swings back and forth in a plane, not in a circle. It's the apparent change in this straight-line path that shows Earth's rotation."
                 },
                 {
+                    "text": "The pendulum's swing path appears to change over time while the pendulum actually maintains the same path",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The pendulum maintains its original swing path, but because Earth rotates beneath it, the path appears to change relative to the ground, proving Earth's rotation."
+                },
+                {
                     "text": "The pendulum automatically adjusts its direction to point toward the sun",
                     "isCorrect": 0,
                     "explanation": "The pendulum does not track the sun or adjust its direction. It maintains its original swing direction while Earth rotates beneath it."
@@ -111,40 +138,13 @@
             "funFact": "The first public demonstration of the Foucault pendulum was in 1851 in Paris, where L\u00e9on Foucault suspended a 67-meter long pendulum from the dome of the Panth\u00e9on. The spectacular demonstration finally proved to the public that Earth rotates, making this complex scientific concept visible to everyone!"
         },
         {
-            "id": 5,
-            "text": "Why did ancient astronomers believe that the Earth was at the center of the universe?",
-            "options": [
-                {
-                    "text": "Because the Sun appears to move across the sky each day",
-                    "isCorrect": 1,
-                    "explanation": "Early astronomers based their geocentric model on their daily observation of the Sun appearing to move across the sky, which made it seem like everything revolved around Earth."
-                },
-                {
-                    "text": "Because they could see Earth was the largest planet",
-                    "isCorrect": 0,
-                    "explanation": "Ancient astronomers could not determine the relative sizes of planets. In fact, Earth is not the largest planet - Jupiter and Saturn are much larger."
-                },
-                {
-                    "text": "Because they had telescopes showing Earth's position",
-                    "isCorrect": 0,
-                    "explanation": "The geocentric model was developed long before telescopes were invented. Telescopes were actually crucial in eventually disproving the geocentric model."
-                },
-                {
-                    "text": "Because the stars appeared fixed in position",
-                    "isCorrect": 0,
-                    "explanation": "While stars appear fixed in position over short time periods, this observation alone would not indicate Earth was the center of the universe."
-                }
-            ],
-            "funFact": "The geocentric model was the accepted view of the universe for over 1000 years until Nicolaus Copernicus proposed the heliocentric (Sun-centered) model in 1543. However, it took many more years and evidence from scientists like Galileo for the heliocentric model to become widely accepted."
-        },
-        {
             "id": 6,
             "text": "If it is 9:00 AM in New York (Eastern Time Zone), what time of day would people be experiencing in Los Angeles (Pacific Time Zone), which is 3 hours behind New York?",
             "options": [
                 {
-                    "text": "6:00 AM - Early morning",
-                    "isCorrect": 1,
-                    "explanation": "Since Los Angeles is 3 hours behind New York, when it's 9:00 AM in New York, it's 6:00 AM in Los Angeles - early morning with the sun rising."
+                    "text": "9:00 AM - Same time as New York",
+                    "isCorrect": 0,
+                    "explanation": "Different time zones have different times to account for Earth's rotation. Los Angeles and New York cannot have the same time as they are in different time zones."
                 },
                 {
                     "text": "12:00 PM - Noon",
@@ -152,9 +152,9 @@
                     "explanation": "This would be incorrect because moving westward means time decreases. Los Angeles is 3 hours behind, not ahead of New York."
                 },
                 {
-                    "text": "9:00 AM - Same time as New York",
-                    "isCorrect": 0,
-                    "explanation": "Different time zones have different times to account for Earth's rotation. Los Angeles and New York cannot have the same time as they are in different time zones."
+                    "text": "6:00 AM - Early morning",
+                    "isCorrect": 1,
+                    "explanation": "Since Los Angeles is 3 hours behind New York, when it's 9:00 AM in New York, it's 6:00 AM in Los Angeles - early morning with the sun rising."
                 },
                 {
                     "text": "3:00 AM - Middle of night",
@@ -169,9 +169,9 @@
             "text": "During different seasons of the year, we observe different constellations in the night sky. Why do we see Orion constellation only during winter months in the Northern Hemisphere?",
             "options": [
                 {
-                    "text": "Earth's position in its orbit allows us to see Orion in the direction away from the Sun during winter nights",
-                    "isCorrect": 1,
-                    "explanation": "As Earth orbits the Sun, our night side faces different directions in space throughout the year. During winter, our night view points toward the part of space where Orion is located."
+                    "text": "The stars in Orion shine brighter during winter",
+                    "isCorrect": 0,
+                    "explanation": "The stars in constellations maintain relatively constant brightness. Their visibility depends on Earth's position in its orbit, not changes in their brightness."
                 },
                 {
                     "text": "Orion moves closer to Earth during winter months",
@@ -179,9 +179,9 @@
                     "explanation": "Constellations don't actually move closer or farther from Earth seasonally. Their apparent visibility is due to Earth's orbital position relative to the Sun."
                 },
                 {
-                    "text": "The stars in Orion shine brighter during winter",
-                    "isCorrect": 0,
-                    "explanation": "The stars in constellations maintain relatively constant brightness. Their visibility depends on Earth's position in its orbit, not changes in their brightness."
+                    "text": "Earth's position in its orbit allows us to see Orion in the direction away from the Sun during winter nights",
+                    "isCorrect": 1,
+                    "explanation": "As Earth orbits the Sun, our night side faces different directions in space throughout the year. During winter, our night view points toward the part of space where Orion is located."
                 },
                 {
                     "text": "Orion only exists during winter months and disappears in other seasons",
@@ -193,8 +193,72 @@
         },
         {
             "id": 8,
+            "text": "During a year-long observation in the Northern Hemisphere, students measured the length of shadows cast by a flagpole at exactly noon on the first day of each season. Which pattern would they most likely observe in their measurements?",
+            "options": [
+                {
+                    "text": "Shadow lengths would randomly vary without any pattern",
+                    "isCorrect": 0,
+                    "explanation": "Shadow lengths follow a predictable pattern based on Earth's orbit and tilt, not random variation."
+                },
+                {
+                    "text": "Shadow lengths would be shortest in summer and longest in winter",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because during summer in the Northern Hemisphere, the sun appears highest in the sky at noon, creating shorter shadows. In winter, the sun appears lower in the sky at noon, creating longer shadows."
+                },
+                {
+                    "text": "Shadow lengths would be longest in summer and shortest in winter",
+                    "isCorrect": 0,
+                    "explanation": "This is the opposite of what actually occurs in the Northern Hemisphere. Summer shadows are shorter because the sun appears higher in the sky at noon."
+                },
+                {
+                    "text": "Shadow lengths would be the same throughout the year",
+                    "isCorrect": 0,
+                    "explanation": "Shadow lengths change throughout the year due to Earth's tilted axis and its orbit around the sun, which affects the sun's apparent height in the sky."
+                }
+            ],
+            "funFact": "Ancient Egyptians used shadow measurements from tall obelisks to create some of the world's first calendars! They noticed that the shortest shadow at noon occurred on the summer solstice, helping them track the changing seasons."
+        },
+        {
+            "id": 9,
+            "text": "If you analyze a full year of sunrise and sunset data, which statement correctly describes the relationship between seasons and daylight hours in the Northern Hemisphere?",
+            "options": [
+                {
+                    "text": "Winter days have more hours of daylight than summer days",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - winter actually has fewer daylight hours than summer in the Northern Hemisphere"
+                },
+                {
+                    "text": "Daylight hours only change during spring and fall",
+                    "isCorrect": 0,
+                    "explanation": "Daylight hours gradually change throughout the entire year, not just during spring and fall"
+                },
+                {
+                    "text": "All seasons have equal hours of daylight",
+                    "isCorrect": 0,
+                    "explanation": "The hours of daylight actually vary throughout the year due to Earth's tilted axis and its orbit around the sun"
+                },
+                {
+                    "text": "Summer days have more hours of daylight than winter days",
+                    "isCorrect": 1,
+                    "explanation": "During summer, the Northern Hemisphere experiences longer days with more daylight hours due to Earth's tilt and position in its orbit around the sun"
+                }
+            ],
+            "funFact": "At the North Pole, there is a period of about 6 months of continuous daylight in summer and 6 months of continuous darkness in winter - this phenomenon is known as the midnight sun and polar night!"
+        },
+        {
+            "id": 10,
             "text": "In June, the constellation Orion is not visible in the night sky from Earth, but becomes visible again in December. What best explains this pattern?",
             "options": [
+                {
+                    "text": "Orion is only visible when Earth's axis points toward it",
+                    "isCorrect": 0,
+                    "explanation": "Earth's axis maintains a constant tilt throughout its orbit. The changing visibility of constellations is due to Earth's position in orbit, not the direction of its axis."
+                },
+                {
+                    "text": "Earth's rotation makes Orion visible only at certain times of year",
+                    "isCorrect": 0,
+                    "explanation": "Earth's daily rotation affects which stars we see over the course of a night, not over months. The yearly pattern of constellation visibility is due to Earth's orbit around the Sun."
+                },
                 {
                     "text": "Earth's position in its orbit around the Sun allows us to see Orion only during certain months",
                     "isCorrect": 1,
@@ -204,105 +268,19 @@
                     "text": "Orion moves away from Earth during summer months",
                     "isCorrect": 0,
                     "explanation": "Stars and constellations don't actually move closer or further from Earth over the course of months. Their apparent visibility changes due to Earth's motion around the Sun."
-                },
-                {
-                    "text": "Earth's rotation makes Orion visible only at certain times of year",
-                    "isCorrect": 0,
-                    "explanation": "Earth's daily rotation affects which stars we see over the course of a night, not over months. The yearly pattern of constellation visibility is due to Earth's orbit around the Sun."
-                },
-                {
-                    "text": "Orion is only visible when Earth's axis points toward it",
-                    "isCorrect": 0,
-                    "explanation": "Earth's axis maintains a constant tilt throughout its orbit. The changing visibility of constellations is due to Earth's position in orbit, not the direction of its axis."
                 }
             ],
             "funFact": "The constellation Orion is named after a hunter in Greek mythology. Ancient civilizations around the world saw different patterns in these same stars - to the Ancient Egyptians, these stars represented Osiris, while the Aboriginal Australians saw them as a canoe!"
         },
         {
-            "id": 9,
-            "text": "A student measures the length of a flagpole's shadow at exactly 3:00 PM every day for several months. Which statement best describes how the shadow's length would change from summer to winter?",
-            "options": [
-                {
-                    "text": "The shadow would become longer in winter compared to summer",
-                    "isCorrect": 1,
-                    "explanation": "In winter, the sun appears lower in the sky compared to summer, causing objects to cast longer shadows"
-                },
-                {
-                    "text": "The shadow would become shorter in winter compared to summer",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - when the sun is lower in the sky during winter, shadows are actually longer, not shorter"
-                },
-                {
-                    "text": "The shadow length would stay exactly the same throughout the year",
-                    "isCorrect": 0,
-                    "explanation": "Shadow lengths change throughout the year due to the Earth's tilt and orbit around the sun affecting the sun's apparent position in the sky"
-                },
-                {
-                    "text": "The shadow would completely disappear during winter months",
-                    "isCorrect": 0,
-                    "explanation": "Shadows don't disappear in winter - they are actually longer during winter months due to the sun's lower position in the sky"
-                }
-            ],
-            "funFact": "Ancient Egyptians used shadow measurements from obelisks to create some of the world's first calendars! By tracking how shadow lengths changed throughout the year, they could determine when important agricultural seasons would occur."
-        },
-        {
-            "id": 10,
-            "text": "A student observes the position of a bright star near a tall building at exactly 9 PM on January 1st and again at 9 PM on July 1st. The student notices that the star appears to be in slightly different positions relative to the building. What is the most likely explanation for this apparent change in the star's position?",
-            "options": [
-                {
-                    "text": "The star has moved to a different location in space",
-                    "isCorrect": 0,
-                    "explanation": "Stars do move through space, but their actual movement is too slow to be noticed over just 6 months."
-                },
-                {
-                    "text": "The building has shifted position slightly",
-                    "isCorrect": 0,
-                    "explanation": "Buildings normally don't shift enough to cause noticeable changes in star positions, unless there's significant structural damage."
-                },
-                {
-                    "text": "Earth's position in its orbit has changed, causing a shift in our viewing angle",
-                    "isCorrect": 1,
-                    "explanation": "This is stellar parallax - when Earth's position changes in its orbit around the Sun, our viewing angle to distant stars changes slightly, making them appear to shift position."
-                },
-                {
-                    "text": "The rotation of Earth has changed its axis slightly",
-                    "isCorrect": 0,
-                    "explanation": "While Earth's axis does experience tiny wobbles, these changes are too small to cause noticeable shifts in star positions over 6 months."
-                }
-            ],
-            "funFact": "Stellar parallax was first accurately measured in 1838 by Friedrich Bessel for the star 61 Cygni. This discovery provided one of the first concrete proofs that Earth orbits the Sun, helping to disprove the geocentric model of the universe!"
-        },
-        {
             "id": 11,
-            "text": "A student in Chicago, Illinois (42\u00b0N latitude) collected data on sunrise and sunset times throughout the year and noticed the following pattern in daylight hours:\n\nJune: 15 hours of daylight\nJuly: 14 hours of daylight\nAugust: 13 hours of daylight\nSeptember: 12 hours of daylight\n\nBased on this pattern, approximately how many hours of daylight would you expect in December?",
-            "options": [
-                {
-                    "text": "9 hours",
-                    "isCorrect": 1,
-                    "explanation": "The data shows daylight hours decreasing by about 1 hour each month from June to September. Following this pattern, December would have around 9 hours of daylight (September: 12 hours \u2192 October: 11 hours \u2192 November: 10 hours \u2192 December: 9 hours), which is correct for mid-latitude locations in the Northern Hemisphere like Chicago."
-                },
-                {
-                    "text": "15 hours",
-                    "isCorrect": 0,
-                    "explanation": "15 hours of daylight occurs during summer months. December is in winter when days are shortest in the Northern Hemisphere due to Earth's tilt and orbital position."
-                },
-                {
-                    "text": "12 hours",
-                    "isCorrect": 0,
-                    "explanation": "12 hours of daylight typically occurs during spring and fall equinoxes (around March and September). December has fewer daylight hours in the Northern Hemisphere."
-                },
-                {
-                    "text": "6 hours",
-                    "isCorrect": 0,
-                    "explanation": "While December has shorter days, 6 hours would be too extreme for mid-latitude locations like Chicago. Only places near the Arctic Circle experience such short winter days."
-                }
-            ],
-            "funFact": "The city of Troms\u00f8, Norway experiences a phenomenon called 'polar night' where the sun doesn't rise at all for about 2 months in winter, and 'midnight sun' where the sun doesn't set for about 2 months in summer!"
-        },
-        {
-            "id": 12,
             "text": "A student measures the length of a flag pole's shadow at different times throughout a day and records the following data:\n\n9:00 AM - 12 feet long, pointing west\n12:00 PM - 6 feet long\n3:00 PM - 12 feet long, pointing east\n\nBased on this shadow pattern, which direction is Earth rotating?",
             "options": [
+                {
+                    "text": "The data is insufficient to determine the direction",
+                    "isCorrect": 0,
+                    "explanation": "The shadow data clearly shows movement from west to east throughout the day, which is sufficient to determine that Earth rotates from west to east."
+                },
                 {
                     "text": "From west to east",
                     "isCorrect": 1,
@@ -317,95 +295,117 @@
                     "text": "From north to south",
                     "isCorrect": 0,
                     "explanation": "Earth's rotation occurs around its north-south axis, not from north to south. The shadow pattern shows an east-west movement due to Earth's west to east rotation."
-                },
-                {
-                    "text": "The data is insufficient to determine the direction",
-                    "isCorrect": 0,
-                    "explanation": "The shadow data clearly shows movement from west to east throughout the day, which is sufficient to determine that Earth rotates from west to east."
                 }
             ],
             "funFact": "Earth rotates at approximately 1,037 miles per hour at the equator, but you don't feel this amazing speed because everything on Earth, including the atmosphere, moves with it!"
         },
         {
-            "id": 13,
-            "text": "A student observes the night sky throughout the year and records which constellations are visible each month. Which of the following statements is correct about the visibility of constellations?",
+            "id": 12,
+            "text": "A scientist sets up a Foucault pendulum in the Northern Hemisphere and observes its swing pattern over several hours. The pendulum initially swings in a north-south direction, but after 6 hours, its swing pattern has shifted clockwise by 45 degrees. What does this observation suggest about Earth?",
             "options": [
                 {
-                    "text": "Some constellations are visible all year long, while others can only be seen during specific seasons",
+                    "text": "Earth is orbiting around the Sun",
+                    "isCorrect": 0,
+                    "explanation": "While Earth does orbit the Sun, this motion occurs over a year and would not cause the observed short-term changes in the pendulum's swing pattern."
+                },
+                {
+                    "text": "The pendulum is malfunctioning",
+                    "isCorrect": 0,
+                    "explanation": "The observed pattern is exactly what we expect from a properly functioning Foucault pendulum on a rotating Earth, not a malfunction."
+                },
+                {
+                    "text": "Earth is rotating eastward on its axis",
                     "isCorrect": 1,
-                    "explanation": "As Earth orbits the sun, our view of the night sky changes. While some constellations remain visible throughout the year, others are only visible during certain months due to Earth's position in its orbit."
+                    "explanation": "The apparent change in the pendulum's swing direction is evidence of Earth's rotation. As Earth rotates eastward, the pendulum's swing pattern appears to rotate clockwise relative to the surface."
                 },
                 {
-                    "text": "All constellations are visible throughout the entire year",
+                    "text": "Earth is rotating westward on its axis",
                     "isCorrect": 0,
-                    "explanation": "Not all constellations are visible year-round. Our view of the night sky changes as Earth moves around the sun, making some constellations only visible during certain seasons."
-                },
-                {
-                    "text": "Constellations are only visible during summer months",
-                    "isCorrect": 0,
-                    "explanation": "Constellations can be seen during all seasons, not just summer. Different constellations become visible at different times of the year as Earth orbits the sun."
-                },
-                {
-                    "text": "The visibility of constellations changes every night randomly",
-                    "isCorrect": 0,
-                    "explanation": "The visibility of constellations follows a predictable pattern based on Earth's orbit around the sun. It is not random but follows a yearly cycle."
+                    "explanation": "If Earth rotated westward, the pendulum's swing pattern would appear to rotate counterclockwise, not clockwise as observed."
                 }
             ],
-            "funFact": "The ancient Greeks identified 48 constellations, while today the International Astronomical Union recognizes 88 official constellations covering the entire night sky of both the Northern and Southern hemispheres!"
+            "funFact": "The first public demonstration of the Foucault pendulum was in 1851 at the Panth\u00e9on in Paris. The 67-meter-long pendulum amazed visitors as it traced different patterns throughout the day, providing the first simple and direct evidence that Earth rotates!"
+        },
+        {
+            "id": 13,
+            "text": "A student living in New York calls their friend in California at 9:00 AM New York time. What time is it in California when the friend receives the call?",
+            "options": [
+                {
+                    "text": "3:00 PM",
+                    "isCorrect": 0,
+                    "explanation": "This difference is too large. The continental United States spans only 4 time zones, with a maximum difference of 3 hours between the east and west coasts."
+                },
+                {
+                    "text": "6:00 AM",
+                    "isCorrect": 1,
+                    "explanation": "Due to Earth's rotation, New York is 3 hours ahead of California. When it's 9:00 AM in New York, it's 6:00 AM in California."
+                },
+                {
+                    "text": "12:00 PM",
+                    "isCorrect": 0,
+                    "explanation": "This would mean California is ahead of New York, which is incorrect. Due to Earth's rotation from east to west, California is actually behind New York."
+                },
+                {
+                    "text": "9:00 AM",
+                    "isCorrect": 0,
+                    "explanation": "This would be true if both locations were in the same time zone, but they're not. California is 3 hours behind New York due to Earth's rotation."
+                }
+            ],
+            "funFact": "The International Date Line in the Pacific Ocean marks where one calendar day changes to the next. When crossing this line heading west, you gain a day, and when heading east, you lose a day - all because of Earth's rotation!"
         },
         {
             "id": 14,
-            "text": "During different seasons throughout the year, different constellations are visible in the night sky. What is the main reason why we can only see certain constellations during specific seasons?",
+            "text": "A student measured the shadow of a flagpole at different times throughout a sunny day. At 9:00 AM, the shadow was long and pointed west. At 12:00 PM (noon), the shadow was very short. At 3:00 PM, the shadow was long again but pointed east. What causes these changes in the shadow's length and direction?",
             "options": [
                 {
-                    "text": "As Earth orbits the sun, our view of space changes because we can only see stars in the direction away from the sun",
+                    "text": "The flagpole is moving throughout the day, causing its shadow to change position",
+                    "isCorrect": 0,
+                    "explanation": "The flagpole remains stationary - the changes in shadow are caused by Earth's rotation making the Sun appear to move across the sky"
+                },
+                {
+                    "text": "Clouds blocking different amounts of sunlight throughout the day cause the shadow changes",
+                    "isCorrect": 0,
+                    "explanation": "Cloud cover can affect shadow intensity but does not cause the systematic changes in shadow length and direction throughout the day"
+                },
+                {
+                    "text": "The Sun orbits around Earth each day, causing shadows to change as it moves across the sky",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - the Sun does not orbit Earth. The apparent movement of the Sun is caused by Earth's rotation on its axis"
+                },
+                {
+                    "text": "Earth's rotation makes the Sun appear to move across the sky, causing shadows to change length and direction as our position relative to the Sun changes",
                     "isCorrect": 1,
-                    "explanation": "Earth's position in its orbit determines which direction we face when looking at the night sky. We can only see stars that are in the direction opposite to the sun."
-                },
-                {
-                    "text": "The stars move to different positions around Earth throughout the year",
-                    "isCorrect": 0,
-                    "explanation": "Stars maintain relatively fixed positions in space. It is Earth's movement that changes our view of them, not the movement of the stars themselves."
-                },
-                {
-                    "text": "Earth's daily rotation causes different stars to be visible in different seasons",
-                    "isCorrect": 0,
-                    "explanation": "While Earth's rotation causes day and night, it is Earth's yearly orbit around the sun that determines which constellations are visible in different seasons."
-                },
-                {
-                    "text": "The sun blocks different stars at random times throughout the year",
-                    "isCorrect": 0,
-                    "explanation": "The pattern of visible constellations is not random but follows a predictable cycle based on Earth's orbital position relative to the sun."
+                    "explanation": "As Earth rotates, the Sun appears to move from east to west, causing shadows to move in the opposite direction and change length based on the Sun's apparent height in the sky"
                 }
             ],
-            "funFact": "Ancient civilizations used the seasonal appearance of certain constellations to create agricultural calendars. For example, the ancient Egyptians knew it was time to prepare for the annual Nile flooding when the star Sirius first became visible in the pre-dawn sky."
+            "funFact": "Ancient civilizations used shadow patterns to create sundials, which were one of the earliest tools for telling time. The ancient Egyptians built massive obelisks that functioned as giant sundials to track time throughout the day!"
         },
         {
             "id": 15,
-            "text": "Four students at different locations around the world used sundials to track the Sun's position throughout the day. Which observation correctly describes how Earth's rotation affects the apparent movement of the Sun?",
+            "text": "A student in Chicago, Illinois (42\u00b0N latitude) collected data on sunrise and sunset times throughout the year and noticed the following pattern in daylight hours:\n\nJune: 15 hours of daylight\nJuly: 14 hours of daylight\nAugust: 13 hours of daylight\nSeptember: 12 hours of daylight\n\nBased on this pattern, approximately how many hours of daylight would you expect in December?",
             "options": [
                 {
-                    "text": "The Sun appears to move from east to west at all locations due to Earth's counterclockwise rotation.",
+                    "text": "9 hours",
                     "isCorrect": 1,
-                    "explanation": "Earth rotates counterclockwise when viewed from above the North Pole, causing the Sun to appear to move from east to west at all locations on Earth."
+                    "explanation": "The data shows daylight hours decreasing by about 1 hour each month from June to September. Following this pattern, December would have around 9 hours of daylight (September: 12 hours \u2192 October: 11 hours \u2192 November: 10 hours \u2192 December: 9 hours), which is correct for mid-latitude locations in the Northern Hemisphere like Chicago."
                 },
                 {
-                    "text": "The Sun appears to move from west to east at all locations due to Earth's clockwise rotation.",
+                    "text": "6 hours",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. Earth's rotation causes the Sun to appear to move from east to west, not west to east."
+                    "explanation": "While December has shorter days, 6 hours would be too extreme for mid-latitude locations like Chicago. Only places near the Arctic Circle experience such short winter days."
                 },
                 {
-                    "text": "The Sun appears to move in different directions at different locations due to Earth's tilt.",
+                    "text": "12 hours",
                     "isCorrect": 0,
-                    "explanation": "While Earth's tilt affects seasonal changes, it does not affect the direction of the Sun's apparent daily motion, which is always east to west."
+                    "explanation": "12 hours of daylight typically occurs during spring and fall equinoxes (around March and September). December has fewer daylight hours in the Northern Hemisphere."
                 },
                 {
-                    "text": "The Sun appears stationary while the shadows move due to Earth's orbit around the Sun.",
+                    "text": "15 hours",
                     "isCorrect": 0,
-                    "explanation": "The daily apparent motion of the Sun is caused by Earth's rotation on its axis, not its orbital motion around the Sun."
+                    "explanation": "15 hours of daylight occurs during summer months. December is in winter when days are shortest in the Northern Hemisphere due to Earth's tilt and orbital position."
                 }
             ],
-            "funFact": "The speed of Earth's rotation at the equator is approximately 1,037 miles per hour! However, as you move closer to the poles, the rotation speed decreases, reaching nearly zero at the poles themselves."
+            "funFact": "The city of Troms\u00f8, Norway experiences a phenomenon called 'polar night' where the sun doesn't rise at all for about 2 months in winter, and 'midnight sun' where the sun doesn't set for about 2 months in summer!"
         }
     ]
 }

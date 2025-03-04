@@ -4,125 +4,12 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which of the following types of motion would you observe when watching a child playing on a swing at a playground?",
-            "options": [
-                {
-                    "text": "A combination of up-down and forward-back motion",
-                    "isCorrect": 1,
-                    "explanation": "A swing follows a predictable pattern that combines both up-down and forward-back movements, creating a smooth arc through the air."
-                },
-                {
-                    "text": "Only straight line motion",
-                    "isCorrect": 0,
-                    "explanation": "Swings do not move in a straight line - they follow a curved path that combines multiple types of motion."
-                },
-                {
-                    "text": "Only circular motion",
-                    "isCorrect": 0,
-                    "explanation": "While swings do move in curves, they don't make complete circles. The motion is better described as a combination of up-down and forward-back movements."
-                },
-                {
-                    "text": "Only side-to-side motion",
-                    "isCorrect": 0,
-                    "explanation": "While swings may appear to move side-to-side from certain angles, their true motion combines both up-down and forward-back movements."
-                }
-            ],
-            "funFact": "The physics behind swings has been studied since the 1600s! Galileo Galilei discovered that the time it takes for a swing to complete one back-and-forth motion (called its period) depends only on the length of the swing's chains, not how high the person swings."
-        },
-        {
-            "id": 2,
-            "text": "A team of engineers is designing a new race car. Why would they focus on making the car's shape more streamlined?",
-            "options": [
-                {
-                    "text": "To reduce air resistance and help the car move faster",
-                    "isCorrect": 1,
-                    "explanation": "Streamlined shapes help reduce air resistance, allowing vehicles to move through the air more easily and efficiently, resulting in faster speeds."
-                },
-                {
-                    "text": "To make the car look more attractive to buyers",
-                    "isCorrect": 0,
-                    "explanation": "While streamlined shapes may look appealing, the primary purpose is functional - to reduce air resistance, not for aesthetic reasons."
-                },
-                {
-                    "text": "To make the car easier to steer around corners",
-                    "isCorrect": 0,
-                    "explanation": "Steering ability is more related to the car's suspension and steering system rather than its streamlined shape."
-                },
-                {
-                    "text": "To reduce the amount of fuel the engine needs",
-                    "isCorrect": 0,
-                    "explanation": "While reduced air resistance can improve fuel efficiency, this is a secondary benefit. The primary purpose of streamlining is to reduce air resistance for better speed and performance."
-                }
-            ],
-            "funFact": "The peregrine falcon, the fastest animal in the world, can reach speeds over 240 mph during its hunting dive thanks to its streamlined body shape that minimizes air resistance!"
-        },
-        {
-            "id": 3,
-            "text": "Which of the following best describes a situation where friction is helpful and necessary?",
-            "options": [
-                {
-                    "text": "Car tires gripping the road while turning on a rainy day",
-                    "isCorrect": 1,
-                    "explanation": "The treads on car tires are specifically designed to create friction with the road, which helps prevent sliding during turns. This is especially important in wet conditions."
-                },
-                {
-                    "text": "A bowling ball sliding smoothly down the lane",
-                    "isCorrect": 0,
-                    "explanation": "In bowling, less friction is desired to allow the ball to slide smoothly. That's why bowling lanes are oiled to reduce friction."
-                },
-                {
-                    "text": "An air hockey puck gliding across the table",
-                    "isCorrect": 0,
-                    "explanation": "Air hockey tables are designed to minimize friction by pumping air through tiny holes, allowing the puck to glide easily."
-                },
-                {
-                    "text": "A racing car with a streamlined design",
-                    "isCorrect": 0,
-                    "explanation": "Streamlined designs are used to reduce friction (specifically air resistance) to help vehicles move faster through the air."
-                }
-            ],
-            "funFact": "Formula 1 race cars use special tire compounds that can get so hot from friction during a race that they can reach temperatures of over 200\u00b0F (93\u00b0C)! This heat actually helps the tires grip the track better."
-        },
-        {
-            "id": 4,
-            "text": "What best describes a pendulum and its motion?",
-            "options": [
-                {
-                    "text": "A weight suspended from a fixed point that swings back and forth in a repeating pattern",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes a pendulum - it consists of a weight hanging from a fixed point and creates a predictable back-and-forth swinging motion pattern."
-                },
-                {
-                    "text": "A weight that bounces up and down on a spring",
-                    "isCorrect": 0,
-                    "explanation": "While this describes oscillating motion, it is not a pendulum. A pendulum swings back and forth rather than bouncing up and down."
-                },
-                {
-                    "text": "A weight that spins around in circles",
-                    "isCorrect": 0,
-                    "explanation": "This describes circular motion, not the back-and-forth swinging motion of a pendulum."
-                },
-                {
-                    "text": "A weight that moves in random directions",
-                    "isCorrect": 0,
-                    "explanation": "A pendulum moves in a regular, predictable pattern, not randomly."
-                }
-            ],
-            "funFact": "One of the world's largest pendulum installations is the Foucault Pendulum at the Panth\u00e9on in Paris. The longer a pendulum is, the slower it swings - a relationship discovered by Galileo in the 17th century. The period of a pendulum is proportional to the square root of its length."
-        },
-        {
-            "id": 5,
             "text": "Which of the following activities demonstrates friction creating heat?",
             "options": [
                 {
-                    "text": "Rubbing your hands together on a cold day",
-                    "isCorrect": 1,
-                    "explanation": "When you rub your hands together, friction between the surfaces creates heat energy, warming up your hands."
-                },
-                {
-                    "text": "Blowing on hot soup to cool it down",
+                    "text": "Opening a window to let fresh air in",
                     "isCorrect": 0,
-                    "explanation": "Blowing on hot soup involves cooling through evaporation, not friction creating heat."
+                    "explanation": "Opening a window simply allows air exchange and does not involve friction creating heat."
                 },
                 {
                     "text": "Putting ice cubes in a glass of water",
@@ -130,103 +17,130 @@
                     "explanation": "Adding ice to water involves heat transfer from water to ice, not friction creating heat."
                 },
                 {
-                    "text": "Opening a window to let fresh air in",
+                    "text": "Blowing on hot soup to cool it down",
                     "isCorrect": 0,
-                    "explanation": "Opening a window simply allows air exchange and does not involve friction creating heat."
+                    "explanation": "Blowing on hot soup involves cooling through evaporation, not friction creating heat."
+                },
+                {
+                    "text": "Rubbing your hands together on a cold day",
+                    "isCorrect": 1,
+                    "explanation": "When you rub your hands together, friction between the surfaces creates heat energy, warming up your hands."
                 }
             ],
             "funFact": "Ancient humans discovered how to make fire by creating friction between two pieces of wood. This revolutionary discovery helped early humans cook food, stay warm, and protect themselves from predators!"
         },
         {
+            "id": 2,
+            "text": "If you have two pendulums with different string lengths, how will their swinging speeds compare?",
+            "options": [
+                {
+                    "text": "Both pendulums will swing at the same speed regardless of string length",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The length of the string directly affects the swinging speed of a pendulum."
+                },
+                {
+                    "text": "The pendulum with the shorter string will swing faster than the pendulum with the longer string",
+                    "isCorrect": 1,
+                    "explanation": "Correct! A shorter string length results in faster swinging motion because the pendulum has less distance to travel in each swing."
+                },
+                {
+                    "text": "The pendulum with the longer string will swing faster than the pendulum with the shorter string",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. A longer string actually makes a pendulum swing more slowly."
+                },
+                {
+                    "text": "The string length has no effect on the swinging speed - only the weight of the pendulum matters",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The string length is what determines the swinging speed, not the weight of the pendulum."
+                }
+            ],
+            "funFact": "The relationship between a pendulum's length and its swing time was first discovered by Galileo Galilei in the late 16th century. He noticed this pattern while observing a swinging chandelier in a cathedral!"
+        },
+        {
+            "id": 3,
+            "text": "Which of the following types of motion would you observe when watching a child playing on a swing at a playground?",
+            "options": [
+                {
+                    "text": "Only straight line motion",
+                    "isCorrect": 0,
+                    "explanation": "Swings do not move in a straight line - they follow a curved path that combines multiple types of motion."
+                },
+                {
+                    "text": "Only side-to-side motion",
+                    "isCorrect": 0,
+                    "explanation": "While swings may appear to move side-to-side from certain angles, their true motion combines both up-down and forward-back movements."
+                },
+                {
+                    "text": "A combination of up-down and forward-back motion",
+                    "isCorrect": 1,
+                    "explanation": "A swing follows a predictable pattern that combines both up-down and forward-back movements, creating a smooth arc through the air."
+                },
+                {
+                    "text": "Only circular motion",
+                    "isCorrect": 0,
+                    "explanation": "While swings do move in curves, they don't make complete circles. The motion is better described as a combination of up-down and forward-back movements."
+                }
+            ],
+            "funFact": "The physics behind swings has been studied since the 1600s! Galileo Galilei discovered that the time it takes for a swing to complete one back-and-forth motion (called its period) depends only on the length of the swing's chains, not how high the person swings."
+        },
+        {
+            "id": 4,
+            "text": "A team of engineers is designing a new race car. Why would they focus on making the car's shape more streamlined?",
+            "options": [
+                {
+                    "text": "To reduce the amount of fuel the engine needs",
+                    "isCorrect": 0,
+                    "explanation": "While reduced air resistance can improve fuel efficiency, this is a secondary benefit. The primary purpose of streamlining is to reduce air resistance for better speed and performance."
+                },
+                {
+                    "text": "To make the car easier to steer around corners",
+                    "isCorrect": 0,
+                    "explanation": "Steering ability is more related to the car's suspension and steering system rather than its streamlined shape."
+                },
+                {
+                    "text": "To make the car look more attractive to buyers",
+                    "isCorrect": 0,
+                    "explanation": "While streamlined shapes may look appealing, the primary purpose is functional - to reduce air resistance, not for aesthetic reasons."
+                },
+                {
+                    "text": "To reduce air resistance and help the car move faster",
+                    "isCorrect": 1,
+                    "explanation": "Streamlined shapes help reduce air resistance, allowing vehicles to move through the air more easily and efficiently, resulting in faster speeds."
+                }
+            ],
+            "funFact": "The peregrine falcon, the fastest animal in the world, can reach speeds over 240 mph during its hunting dive thanks to its streamlined body shape that minimizes air resistance!"
+        },
+        {
+            "id": 5,
+            "text": "Which of the following best explains why both air hockey tables and bowling lanes are designed to reduce friction?",
+            "options": [
+                {
+                    "text": "So players can make more accurate shots",
+                    "isCorrect": 0,
+                    "explanation": "While reduced friction may help with accuracy, this is not the main purpose of reducing friction in these games."
+                },
+                {
+                    "text": "To make the games more challenging",
+                    "isCorrect": 0,
+                    "explanation": "Reducing friction actually makes these games more playable, not more challenging."
+                },
+                {
+                    "text": "To prevent damage to the playing surface",
+                    "isCorrect": 0,
+                    "explanation": "While reduced friction may help protect surfaces, this is not the primary reason for reducing friction in these games."
+                },
+                {
+                    "text": "To allow smooth, continuous motion of the puck/ball",
+                    "isCorrect": 1,
+                    "explanation": "Air hockey tables use air through tiny holes and bowling lanes use oil coating specifically to reduce friction and allow smoother motion of the puck/ball."
+                }
+            ],
+            "funFact": "The air pumped through an air hockey table can flow at speeds of up to 75 cubic feet per minute! This powerful airflow creates a near-frictionless cushion that allows the puck to glide effortlessly across the surface."
+        },
+        {
             "id": 6,
-            "text": "During a baseball game, a batter is preparing to hit an approaching ball. What aspect of the ball's motion pattern would be most helpful for timing the swing correctly?",
-            "options": [
-                {
-                    "text": "The observed speed and trajectory of the pitched ball",
-                    "isCorrect": 1,
-                    "explanation": "By observing the speed and trajectory of the pitched ball, the batter can predict when the ball will reach the plate and time their swing accordingly."
-                },
-                {
-                    "text": "The color of the ball against the sky",
-                    "isCorrect": 0,
-                    "explanation": "While visibility is important, the color of the ball does not create a motion pattern that helps predict when to swing."
-                },
-                {
-                    "text": "The spinning motion of the ball's stitches",
-                    "isCorrect": 0,
-                    "explanation": "While the spin of the ball affects its trajectory, observing the spinning stitches alone doesn't help predict when the ball will reach the plate."
-                },
-                {
-                    "text": "The sound of the ball leaving the pitcher's hand",
-                    "isCorrect": 0,
-                    "explanation": "The sound of the pitch doesn't create a predictable pattern that helps determine when the ball will arrive at the plate."
-                }
-            ],
-            "funFact": "Professional baseball players typically have just a fraction of a second (about 0.4 seconds) to recognize a pitch, predict its path, decide whether to swing, and make contact with the ball!"
-        },
-        {
-            "id": 7,
-            "text": "A car is driving on a mountain road that has many curves. Which combination of motion patterns would help the car navigate safely?",
-            "options": [
-                {
-                    "text": "Straight motion followed by circular motion at each turn",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because cars move straight on straight sections and follow circular patterns while turning, allowing for smooth and safe navigation of curved roads."
-                },
-                {
-                    "text": "Only straight motion throughout the road",
-                    "isCorrect": 0,
-                    "explanation": "Using only straight motion would cause the car to drive off the road at curves, making it unsafe."
-                },
-                {
-                    "text": "Continuous zig-zag motion throughout the road",
-                    "isCorrect": 0,
-                    "explanation": "Continuous zig-zag motion would be unstable and dangerous, as it doesn't match the road's natural curves."
-                },
-                {
-                    "text": "Only circular motion throughout the road",
-                    "isCorrect": 0,
-                    "explanation": "Using only circular motion would be inefficient and unsafe, as straight sections of the road require straight motion."
-                }
-            ],
-            "funFact": "Race car drivers use a technique called 'racing line' where they carefully plan their combination of straight and circular motions to take turns at the highest possible speed while maintaining safety. This same principle applies to everyday driving, just at slower speeds!"
-        },
-        {
-            "id": 8,
-            "text": "A racing team wants to design new tires for their car to improve performance on the track. Which tire tread pattern would provide the best balance between speed and control?",
-            "options": [
-                {
-                    "text": "A completely smooth tire with no treads",
-                    "isCorrect": 0,
-                    "explanation": "While smooth tires reduce friction and increase speed, they provide very poor grip and control, making them dangerous on the track."
-                },
-                {
-                    "text": "A tire with deep, wide treads in a zigzag pattern",
-                    "isCorrect": 0,
-                    "explanation": "Very deep and wide treads create too much friction, significantly reducing speed without providing additional beneficial grip."
-                },
-                {
-                    "text": "A tire with shallow, evenly spaced diagonal grooves",
-                    "isCorrect": 1,
-                    "explanation": "Shallow diagonal grooves provide an optimal balance - enough grip for control while minimizing friction that would slow the car down."
-                },
-                {
-                    "text": "A tire with random, uneven tread patterns",
-                    "isCorrect": 0,
-                    "explanation": "Random, uneven patterns create inconsistent friction and grip, making the car's motion unpredictable and harder to control."
-                }
-            ],
-            "funFact": "Formula 1 race cars actually use different tire treads for different weather conditions. In dry conditions, they use nearly smooth tires called 'slicks' for maximum speed, but switch to deeply grooved tires in wet conditions for better grip!"
-        },
-        {
-            "id": 9,
             "text": "A merry-go-round at a playground rotates at a constant speed, and a red seat is fixed on its edge. Which observation would be most useful in predicting when the red seat will return to its starting position?",
             "options": [
-                {
-                    "text": "The time it takes for one complete rotation of the merry-go-round",
-                    "isCorrect": 1,
-                    "explanation": "The time for one complete rotation creates a predictable pattern that repeats, allowing accurate prediction of when the seat will return to its starting point."
-                },
                 {
                     "text": "The color of other seats on the merry-go-round",
                     "isCorrect": 0,
@@ -238,6 +152,11 @@
                     "explanation": "The number of children riding the merry-go-round doesn't affect the rotation pattern when the merry-go-round is spinning at a constant speed, so it can't help predict when the seat will return to its starting position."
                 },
                 {
+                    "text": "The time it takes for one complete rotation of the merry-go-round",
+                    "isCorrect": 1,
+                    "explanation": "The time for one complete rotation creates a predictable pattern that repeats, allowing accurate prediction of when the seat will return to its starting point."
+                },
+                {
                     "text": "The temperature of the playground equipment",
                     "isCorrect": 0,
                     "explanation": "The temperature of the equipment is not related to the pattern of rotation and cannot help predict the seat's position."
@@ -246,40 +165,121 @@
             "funFact": "The circular motion of a merry-go-round is similar to the motion of planets around the sun! Just as we can predict when a planet will complete one orbit using its period of revolution, we can predict when any point on a merry-go-round will complete one rotation using its period of rotation."
         },
         {
-            "id": 10,
-            "text": "A student is experimenting with a pendulum using different string lengths. If it takes 2 seconds for one complete swing with a 30cm string, approximately how long will it take for one complete swing if the string length is reduced to 15cm?",
+            "id": 7,
+            "text": "When playing jump rope, what pattern of motion at the rope's tip is most helpful for timing your jumps?",
             "options": [
                 {
-                    "text": "1.4 seconds",
+                    "text": "A side-to-side swaying motion",
+                    "isCorrect": 0,
+                    "explanation": "Side-to-side swaying would not create the necessary motion for jump rope - the rope needs to rotate in a circular pattern to pass under the jumper."
+                },
+                {
+                    "text": "A circular up-and-over motion",
                     "isCorrect": 1,
-                    "explanation": "When the string length is halved, the time period decreases by a factor of \u221a2 (approximately 1.4). So 2 seconds \u00f7 \u221a2 \u2248 1.4 seconds."
+                    "explanation": "The rope's tip follows a consistent circular pattern moving up, over, and down, making it predictable when to jump as it completes each rotation."
                 },
                 {
-                    "text": "1 second",
+                    "text": "A straight up-and-down motion",
                     "isCorrect": 0,
-                    "explanation": "This assumes the time period is directly proportional to string length, which is incorrect. The relationship involves a square root."
+                    "explanation": "The rope's tip does not move straight up and down - it follows a circular path to complete each rotation."
                 },
                 {
-                    "text": "4 seconds",
+                    "text": "A random zig-zag motion",
                     "isCorrect": 0,
-                    "explanation": "This incorrectly assumes the time period increases when string length decreases. Actually, shorter strings swing faster."
-                },
-                {
-                    "text": "2 seconds",
-                    "isCorrect": 0,
-                    "explanation": "This assumes the string length doesn't affect the time period, which is incorrect. Shorter strings result in faster swings."
+                    "explanation": "Random zig-zag motions are not predictable patterns and would make it very difficult to time jumps correctly."
                 }
             ],
-            "funFact": "Galileo Galilei discovered the properties of pendulums by watching a swinging chandelier in a cathedral! He noticed that regardless of how far the chandelier swung, it took the same amount of time to complete each swing - a property known as isochronism."
+            "funFact": "The world record for the most skips in one hour is 12,960, set in 2019! Success at this level requires precise timing and recognition of the rope's rotating pattern of motion."
+        },
+        {
+            "id": 8,
+            "text": "In an air hockey game, why is the puck's motion more predictable compared to sliding it on a regular table surface?",
+            "options": [
+                {
+                    "text": "The air cushion makes the puck bounce more frequently off the table edges",
+                    "isCorrect": 0,
+                    "explanation": "The air cushion doesn't cause more bouncing - it actually helps the puck glide smoothly without unnecessary deflections"
+                },
+                {
+                    "text": "The air pressure makes the puck's motion completely random",
+                    "isCorrect": 0,
+                    "explanation": "The air cushion creates consistent conditions that make the motion more predictable, not random"
+                },
+                {
+                    "text": "The puck moves slower due to the air resistance",
+                    "isCorrect": 0,
+                    "explanation": "The air cushion actually reduces friction, allowing the puck to move faster compared to a regular table surface"
+                },
+                {
+                    "text": "The reduced friction from the air cushion allows the puck to maintain its speed and direction more consistently",
+                    "isCorrect": 1,
+                    "explanation": "With minimal friction due to the air cushion, the puck maintains its velocity and direction better, making its motion pattern more predictable"
+                }
+            ],
+            "funFact": "Professional air hockey tables can pump air through thousands of tiny holes at rates up to 50 cubic feet per minute, creating a nearly frictionless playing surface that allows the puck to glide at speeds over 80 miles per hour!"
+        },
+        {
+            "id": 9,
+            "text": "For precise formation flying, airplane pilots must consider air resistance and aerodynamics. What modification to their planes' design would help them maintain tight formations during their routine?",
+            "options": [
+                {
+                    "text": "Increasing surface area to catch more air",
+                    "isCorrect": 0,
+                    "explanation": "Increasing surface area would create more air resistance, making it harder to maintain precise formation patterns."
+                },
+                {
+                    "text": "Adding more powerful engines",
+                    "isCorrect": 0,
+                    "explanation": "More powerful engines alone wouldn't help maintain formation patterns - the key is reducing air resistance through better aerodynamics."
+                },
+                {
+                    "text": "Making the planes more streamlined to reduce air resistance",
+                    "isCorrect": 1,
+                    "explanation": "A streamlined design reduces air resistance, allowing planes to maintain steady patterns of motion with less disruption from air friction."
+                },
+                {
+                    "text": "Making the planes heavier to resist wind",
+                    "isCorrect": 0,
+                    "explanation": "Adding weight would not help maintain formation and could make the planes less maneuverable while increasing fuel consumption."
+                }
+            ],
+            "funFact": "The U.S. Navy's Blue Angels flight demonstration team flies their F/A-18 Hornets as close as 18 inches apart during formation maneuvers! Their precise patterns are possible due to extensive training and aircraft with excellent aerodynamic design."
+        },
+        {
+            "id": 10,
+            "text": "During a baseball game, a batter is preparing to hit an approaching ball. What aspect of the ball's motion pattern would be most helpful for timing the swing correctly?",
+            "options": [
+                {
+                    "text": "The color of the ball against the sky",
+                    "isCorrect": 0,
+                    "explanation": "While visibility is important, the color of the ball does not create a motion pattern that helps predict when to swing."
+                },
+                {
+                    "text": "The observed speed and trajectory of the pitched ball",
+                    "isCorrect": 1,
+                    "explanation": "By observing the speed and trajectory of the pitched ball, the batter can predict when the ball will reach the plate and time their swing accordingly."
+                },
+                {
+                    "text": "The sound of the ball leaving the pitcher's hand",
+                    "isCorrect": 0,
+                    "explanation": "The sound of the pitch doesn't create a predictable pattern that helps determine when the ball will arrive at the plate."
+                },
+                {
+                    "text": "The spinning motion of the ball's stitches",
+                    "isCorrect": 0,
+                    "explanation": "While the spin of the ball affects its trajectory, observing the spinning stitches alone doesn't help predict when the ball will reach the plate."
+                }
+            ],
+            "funFact": "Professional baseball players typically have just a fraction of a second (about 0.4 seconds) to recognize a pitch, predict its path, decide whether to swing, and make contact with the ball!"
         },
         {
             "id": 11,
             "text": "A student is conducting an experiment with a toy car on different surfaces. The student rolls the toy car with the same initial force on a smooth wooden floor and then on a rough carpet. On which surface will the car's motion be more predictable and why?",
             "options": [
                 {
-                    "text": "The smooth wooden floor, because less friction means the car will maintain a more consistent speed and direction",
-                    "isCorrect": 1,
-                    "explanation": "With less friction on the smooth surface, the car's motion experiences less random interference, making its path and speed more predictable"
+                    "text": "Neither surface will be predictable because friction always creates random patterns",
+                    "isCorrect": 0,
+                    "explanation": "While friction affects motion, it doesn't always create random patterns - especially on consistent surfaces"
                 },
                 {
                     "text": "The rough carpet, because more friction means the car will stay on its path better",
@@ -292,96 +292,69 @@
                     "explanation": "The amount of friction significantly affects motion patterns, even with the same initial force"
                 },
                 {
-                    "text": "Neither surface will be predictable because friction always creates random patterns",
-                    "isCorrect": 0,
-                    "explanation": "While friction affects motion, it doesn't always create random patterns - especially on consistent surfaces"
+                    "text": "The smooth wooden floor, because less friction means the car will maintain a more consistent speed and direction",
+                    "isCorrect": 1,
+                    "explanation": "With less friction on the smooth surface, the car's motion experiences less random interference, making its path and speed more predictable"
                 }
             ],
             "funFact": "Engineers who design bobsled tracks use this principle of predictable motion on smooth surfaces. They carefully polish the ice to reduce friction, allowing teams to achieve precise, predictable runs at speeds over 80 mph!"
         },
         {
             "id": 12,
-            "text": "A student sets up a curved track and releases a ball from one end. The student marks the ball's position every 2 seconds and notices that the ball takes 3 seconds to roll from one end to the other. If the ball continues rolling back and forth with the same pattern, at what time will the ball be back at its starting position again?",
+            "text": "Consider two types of motion: a swing moving back and forth at a playground and a soccer ball being dribbled through a zigzag pattern on a field. Which type of motion would be easier to predict the object's future position and why?",
             "options": [
                 {
-                    "text": "6 seconds",
+                    "text": "The soccer ball's motion, because you can see it moving on the ground",
+                    "isCorrect": 0,
+                    "explanation": "While visible, the zigzag motion of a dribbled soccer ball is less predictable due to varying angles, speeds, and potential direction changes"
+                },
+                {
+                    "text": "The swing's motion, because it follows a regular repeating pattern in a fixed path",
                     "isCorrect": 1,
-                    "explanation": "Since it takes 3 seconds to go from one end to the other, the ball will complete a round trip and return to its starting position after 6 seconds."
+                    "explanation": "A swing moves in a consistent, pendulum-like pattern that repeats predictably, making it easier to determine where it will be at any point in its cycle"
                 },
                 {
-                    "text": "3 seconds",
+                    "text": "Neither motion is predictable because they both keep moving",
                     "isCorrect": 0,
-                    "explanation": "At 3 seconds, the ball has only reached the opposite end of the track, not the starting position."
+                    "explanation": "Continuous motion doesn't mean unpredictable - many moving objects follow patterns that make their future positions predictable"
                 },
                 {
-                    "text": "8 seconds",
+                    "text": "Both motions are equally predictable since they both involve movement",
                     "isCorrect": 0,
-                    "explanation": "This answer doesn't follow the pattern. The ball completes a round trip in 6 seconds."
-                },
-                {
-                    "text": "12 seconds",
-                    "isCorrect": 0,
-                    "explanation": "This would be the second time the ball returns to its starting position, not the first."
+                    "explanation": "Not all movements are equally predictable - regular, repeating patterns are more predictable than irregular or varying movements"
                 }
             ],
-            "funFact": "Scientists use similar patterns to study ocean waves! Just like the rolling ball, waves have regular patterns that help researchers predict when and where waves will arrive at beaches around the world."
+            "funFact": "The precise, predictable motion of pendulums made them perfect for keeping time - pendulum clocks were the most accurate timepieces for nearly 300 years until they were replaced by electronic timekeeping!"
         },
         {
             "id": 13,
-            "text": "Two toy cars are racing down a straight track: Car A has a rounded, streamlined shape like a teardrop, while Car B is shaped like a rectangular box. If both cars start with the same speed, which car is more likely to maintain its pattern of motion for a longer time?",
+            "text": "A student observes a pendulum swinging back and forth. The pendulum starts with a large swing but gradually swings in smaller and smaller arcs. What explains this pattern of motion and how could it be used to predict the pendulum's future movement?",
             "options": [
                 {
-                    "text": "Car A, because its streamlined shape reduces air resistance",
+                    "text": "Only the initial swing matters since the pendulum will stop immediately after due to friction",
+                    "isCorrect": 0,
+                    "explanation": "While friction (air resistance) does affect the motion, it gradually reduces the swing size rather than stopping it immediately"
+                },
+                {
+                    "text": "The combined effects of gravity pulling down and air resistance slowing the pendulum will cause it to swing in progressively smaller arcs until it eventually stops",
                     "isCorrect": 1,
-                    "explanation": "The streamlined shape of Car A reduces air resistance, allowing it to maintain its motion pattern longer as less friction force acts to slow it down."
+                    "explanation": "Gravity provides the force for the back-and-forth motion while air resistance gradually reduces the pendulum's energy, creating a predictable pattern of decreasing swing sizes"
                 },
                 {
-                    "text": "Car B, because its box shape creates more stability",
+                    "text": "The pendulum will continue swinging in the same size arcs forever because gravity provides constant force",
                     "isCorrect": 0,
-                    "explanation": "While Car B might be stable, its box shape creates more air resistance, which increases friction and causes it to slow down faster."
+                    "explanation": "This ignores the effects of air resistance which gradually reduces the pendulum's energy over time"
                 },
                 {
-                    "text": "Both cars will maintain their motion patterns for the same time",
+                    "text": "The pendulum's motion is random and cannot be predicted because multiple forces are acting on it",
                     "isCorrect": 0,
-                    "explanation": "Different shapes create different amounts of air resistance, so the cars will not maintain their motion patterns for the same time."
-                },
-                {
-                    "text": "Car B, because its flat front pushes through the air better",
-                    "isCorrect": 0,
-                    "explanation": "A flat front actually creates more air resistance than a streamlined shape, making it harder for Car B to maintain its motion."
+                    "explanation": "Even with multiple forces, the pendulum follows a regular pattern that can be observed and predicted"
                 }
             ],
-            "funFact": "The fastest cars in the world use streamlining principles inspired by teardrop shapes, which are considered one of the most aerodynamically efficient forms for minimizing air resistance!"
+            "funFact": "One of the most famous pendulum displays is the Foucault pendulum at the Panth\u00e9on in Paris. The period of a pendulum is proportional to the square root of its length - longer pendulums swing more slowly, which is why grandfather clocks have such long pendulums."
         },
         {
             "id": 14,
-            "text": "A student conducted an experiment with a pendulum, swinging it 10 times and measuring how long it takes to complete one full swing. Here are the times (in seconds) for each swing: 2.03, 2.10, 2.02, 2.09, 2.04, 2.11, 2.02, 2.10, 2.03, 2.09. Based on this data, what can we conclude about the pendulum's motion?",
-            "options": [
-                {
-                    "text": "The motion is predictable enough for practical purposes, showing a consistent pattern between approximately 2.0 and 2.1 seconds",
-                    "isCorrect": 1,
-                    "explanation": "The small variations between measurements (ranging from 2.02 to 2.11 seconds) show a very consistent pattern that would be reliable enough for practical applications like timekeeping"
-                },
-                {
-                    "text": "The motion is completely random and cannot be predicted",
-                    "isCorrect": 0,
-                    "explanation": "The data shows a clear pattern with measurements consistently falling within a narrow range between 2.02 and 2.11 seconds, not random motion"
-                },
-                {
-                    "text": "The pendulum is steadily slowing down",
-                    "isCorrect": 0,
-                    "explanation": "The times fluctuate slightly but show no overall increasing trend, so there is no evidence of slowing"
-                },
-                {
-                    "text": "The pendulum is steadily speeding up",
-                    "isCorrect": 0,
-                    "explanation": "The times fluctuate slightly but show no overall decreasing trend, so there is no evidence of speeding up"
-                }
-            ],
-            "funFact": "The regularity of pendulum motion was first noticed by Galileo Galilei while watching a swinging chandelier in a cathedral. This discovery eventually led to the development of pendulum clocks, which were the most accurate timepieces for nearly 300 years!"
-        },
-        {
-            "id": 15,
             "text": "A student is measuring the swing time of a pendulum. Initially, the pendulum takes exactly 2 seconds to complete one full swing. After several minutes, the student notices that each swing is taking slightly longer and the pendulum's height is gradually decreasing. Can the student still predict where the pendulum will be 30 seconds from now?",
             "options": [
                 {
@@ -390,14 +363,14 @@
                     "explanation": "While pendulums do follow patterns, friction gradually changes their motion over time, making exact predictions impossible"
                 },
                 {
-                    "text": "No, because friction is completely random and makes the pendulum's motion unpredictable",
-                    "isCorrect": 0,
-                    "explanation": "Friction is not random - it follows consistent patterns as it gradually slows down the pendulum"
-                },
-                {
                     "text": "Yes, but the prediction needs to account for the gradual slowing down pattern",
                     "isCorrect": 1,
                     "explanation": "Even though friction slows the pendulum, the gradual change follows a pattern that can be used to predict future positions"
+                },
+                {
+                    "text": "No, because friction is completely random and makes the pendulum's motion unpredictable",
+                    "isCorrect": 0,
+                    "explanation": "Friction is not random - it follows consistent patterns as it gradually slows down the pendulum"
                 },
                 {
                     "text": "No, once friction affects a pendulum's motion, no predictions are possible",
@@ -406,6 +379,33 @@
                 }
             ],
             "funFact": "The Foucault pendulum, first demonstrated by physicist L\u00e9on Foucault in 1851, was used to provide visual proof of Earth's rotation. Its plane of oscillation appears to rotate over time due to Earth's rotation beneath it."
+        },
+        {
+            "id": 15,
+            "text": "A student is playing with a swing set and notices that when they pump their legs while swinging, they go higher and higher in a regular pattern. If they stop pumping their legs, what change would you predict in the swing's motion pattern?",
+            "options": [
+                {
+                    "text": "The swing will start moving in random directions",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because even as the swing slows down, it maintains its back-and-forth pattern, just with decreasing height"
+                },
+                {
+                    "text": "The swing will gradually swing lower and slower until it stops",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because friction and air resistance create forces that reduce the swing's motion over time in a predictable pattern"
+                },
+                {
+                    "text": "The swing will suddenly stop moving",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the changes in motion due to friction happen gradually, not suddenly"
+                },
+                {
+                    "text": "The swing will maintain the same height and speed indefinitely",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because friction and air resistance will act on the swing, gradually reducing its motion"
+                }
+            ],
+            "funFact": "The largest swing in the world is located in Amsterdam, Netherlands, and swings riders over the edge of a building at a height of 100 meters (328 feet)! The swing's motion follows the same physics principles as a playground swing, just on a much larger scale."
         }
     ]
 }

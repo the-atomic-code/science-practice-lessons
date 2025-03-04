@@ -4,71 +4,93 @@
     "questions": [
         {
             "id": 1,
-            "text": "Juan is exploring his basement when there is a power outage. He has a flashlight with him but hasn't turned it on yet. There are several items in the basement including a basketball, a glass vase, and some books. Which statement correctly explains why Juan cannot see these objects in the dark basement?",
+            "text": "Emily is exploring a completely dark basement with no windows. She finds a few objects: a small rubber ball, a glowing stick, and a regular wooden stick. Which of these objects will she be able to see in the dark basement?",
             "options": [
                 {
-                    "text": "The objects need light shining on them to be visible",
+                    "text": "Only the glowing stick",
                     "isCorrect": 1,
-                    "explanation": "Objects can only be seen when light shines on them or if they produce their own light. In complete darkness, there is no light available to illuminate the objects, making them invisible to our eyes."
+                    "explanation": "Only objects that produce their own light (like the glowing stick) can be seen in complete darkness. Objects that don't produce their own light need to be illuminated by a light source to be visible."
                 },
                 {
-                    "text": "The objects have disappeared in the dark",
+                    "text": "None of the objects",
                     "isCorrect": 0,
-                    "explanation": "Objects don't disappear in darkness - they are still there but cannot be seen because there is no light to illuminate them."
+                    "explanation": "While regular objects need light to be visible, objects that produce their own light (like the glowing stick) can be seen even in complete darkness."
                 },
                 {
-                    "text": "The objects have turned transparent in the dark",
+                    "text": "The rubber ball and the glowing stick",
                     "isCorrect": 0,
-                    "explanation": "Objects do not change their properties in darkness. Whether an object is transparent, translucent, or opaque remains the same regardless of lighting conditions."
+                    "explanation": "The rubber ball cannot be seen in complete darkness because it doesn't produce its own light and there is no light source to illuminate it."
                 },
                 {
-                    "text": "Juan's eyes need more time to adjust to see in complete darkness",
+                    "text": "All three objects",
                     "isCorrect": 0,
-                    "explanation": "While eyes do adjust to low light conditions, they cannot see objects in complete darkness. Some light is always needed to see objects."
+                    "explanation": "In complete darkness, objects that don't produce their own light (like the rubber ball and wooden stick) cannot be seen because there is no light source to illuminate them."
                 }
             ],
-            "funFact": "Some animals like cats can see much better than humans in low light conditions because they have a special reflective layer behind their retina called the tapetum lucidum. However, even cats cannot see in complete darkness - they still need some light to see objects!"
+            "funFact": "Glowing sticks contain special chemicals that produce light through a process called chemiluminescence - the same process that makes fireflies glow! This is different from most light sources, which produce light through heat (like light bulbs) or nuclear reactions (like the Sun)."
         },
         {
             "id": 2,
-            "text": "Which of the following objects is opaque and completely blocks light from passing through it?",
+            "text": "Why do glass windows not create noticeable shadows when light shines through them?",
             "options": [
                 {
-                    "text": "A basketball",
+                    "text": "Because glass is transparent and allows most light to pass through it",
                     "isCorrect": 1,
-                    "explanation": "A basketball is an opaque object that completely blocks light from passing through it, creating a full shadow behind it."
+                    "explanation": "Glass is transparent, which means most light can pass through it with minimal blocking. Since only a small amount of light (typically around 5-10%) is blocked through reflection and absorption, glass creates only very faint shadows that are usually not noticeable."
                 },
                 {
-                    "text": "A tissue paper",
+                    "text": "Because glass absorbs all the light",
                     "isCorrect": 0,
-                    "explanation": "Tissue paper is translucent, meaning it allows some light to pass through while blocking some light, creating a partial shadow."
+                    "explanation": "If glass absorbed all light, it would appear dark and create a shadow. Instead, glass allows light to pass through it."
                 },
                 {
-                    "text": "A glass window",
+                    "text": "Because glass creates its own light",
                     "isCorrect": 0,
-                    "explanation": "A glass window is transparent, allowing most light to pass through it without creating a shadow."
+                    "explanation": "Glass does not create its own light - it is not a light source. It simply allows light from other sources to pass through it."
                 },
                 {
-                    "text": "A plastic water bottle",
+                    "text": "Because glass reflects all the light",
                     "isCorrect": 0,
-                    "explanation": "A plastic water bottle is typically transparent, allowing light to pass through it with minimal blockage."
+                    "explanation": "While glass does reflect some light, it primarily allows light to pass through it. If it reflected all light, we wouldn't be able to see through it."
                 }
             ],
-            "funFact": "The word 'opaque' comes from the Latin word 'opacus' which means 'shaded' or 'dark'. Graphite, a form of carbon, is a completely opaque material that, combined with its ability to leave marks when rubbed against paper, makes it ideal for use in pencils!"
+            "funFact": "Some modern buildings use 'smart glass' that can change from transparent to opaque with the flip of a switch! This special glass contains particles that realign when electricity passes through them, blocking light and creating privacy when needed."
         },
         {
             "id": 3,
+            "text": "Which of the following objects produces its own light rather than reflecting light from other sources?",
+            "options": [
+                {
+                    "text": "A white t-shirt",
+                    "isCorrect": 0,
+                    "explanation": "A white t-shirt only reflects light from other sources. It needs external illumination to be visible and cannot produce its own light."
+                },
+                {
+                    "text": "A silver spoon",
+                    "isCorrect": 0,
+                    "explanation": "A silver spoon, though shiny, only reflects light from other sources. It cannot generate its own light and needs external illumination to be visible."
+                },
+                {
+                    "text": "A mirror",
+                    "isCorrect": 0,
+                    "explanation": "A mirror does not produce its own light - it only reflects light from other sources. Without an external light source, a mirror cannot be seen in darkness."
+                },
+                {
+                    "text": "A glow stick",
+                    "isCorrect": 1,
+                    "explanation": "A glow stick produces its own light through a chemical reaction, making it a light source that can be seen even in complete darkness."
+                }
+            ],
+            "funFact": "Some living organisms like fireflies and certain deep-sea creatures can produce their own light through a process called bioluminescence. This natural ability to create light helps them communicate, find food, or attract mates in dark environments."
+        },
+        {
+            "id": 4,
             "text": "When a shadow forms behind an object, what property of the object is responsible for creating the shadow?",
             "options": [
                 {
                     "text": "The object is opaque",
                     "isCorrect": 1,
                     "explanation": "Opaque objects block light completely, preventing it from passing through. This creates a dark shadow on the other side of the object."
-                },
-                {
-                    "text": "The object is transparent",
-                    "isCorrect": 0,
-                    "explanation": "Transparent objects allow light to pass through them completely, so they do not create shadows."
                 },
                 {
                     "text": "The object is translucent",
@@ -79,132 +101,100 @@
                     "text": "The object is a light source",
                     "isCorrect": 0,
                     "explanation": "Light sources emit light rather than block it, so they don't create shadows themselves."
+                },
+                {
+                    "text": "The object is transparent",
+                    "isCorrect": 0,
+                    "explanation": "Transparent objects allow light to pass through them completely, so they do not create shadows."
                 }
             ],
             "funFact": "The world's largest shadow ever created was during a total solar eclipse, when the Moon's shadow covered an area of about 10,000 kilometers long and 267 kilometers wide on Earth's surface!"
         },
         {
-            "id": 4,
-            "text": "Which of the following contains only natural sources of light?",
-            "options": [
-                {
-                    "text": "Sun, stars, and lightning",
-                    "isCorrect": 1,
-                    "explanation": "These are all natural sources of light that occur in nature without human intervention. The sun is Earth's main light source, stars produce their own light, and lightning is a natural electrical phenomenon that produces light."
-                },
-                {
-                    "text": "Sun, flashlight, and campfire",
-                    "isCorrect": 0,
-                    "explanation": "While the sun is a natural light source, flashlights are artificial (made by humans), and campfires, though using natural materials, are created by humans."
-                },
-                {
-                    "text": "Stars, lamp, and television",
-                    "isCorrect": 0,
-                    "explanation": "Only stars are natural light sources in this list. Lamps and televisions are artificial light sources created by humans using electricity."
-                },
-                {
-                    "text": "Lightning, headlights, and candles",
-                    "isCorrect": 0,
-                    "explanation": "Only lightning is a natural light source. Headlights and candles are artificial light sources created by humans."
-                }
-            ],
-            "funFact": "The sun is so bright that it produces more energy in one second than humanity has used throughout its entire history! This energy comes from nuclear fusion reactions happening deep inside the sun."
-        },
-        {
             "id": 5,
-            "text": "A student is exploring a completely dark room. Which statement correctly describes what happens when she turns on a flashlight?",
+            "text": "When shining a flashlight through different materials, which statement correctly describes why translucent objects create lighter shadows compared to opaque objects?",
             "options": [
                 {
-                    "text": "Objects in the room become visible only when the flashlight beam illuminates them",
+                    "text": "Translucent objects let all light pass through without blocking any",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. This describes transparent objects. Translucent objects block some light while allowing some to pass through."
+                },
+                {
+                    "text": "Translucent objects allow some light to pass through while blocking the rest of the light",
                     "isCorrect": 1,
-                    "explanation": "Objects require light to be seen. When the flashlight beam illuminates objects, they reflect light to our eyes, making them visible."
+                    "explanation": "Correct! Translucent materials like tissue paper or wax paper partially block light, allowing some light to pass through, which creates lighter shadows compared to opaque objects."
                 },
                 {
-                    "text": "All objects in the room instantly become visible regardless of where the flashlight points",
+                    "text": "Translucent objects reflect all the light back without letting any pass through",
                     "isCorrect": 0,
-                    "explanation": "Objects only become visible when light reaches them. The flashlight beam must directly or indirectly illuminate objects for them to be seen."
+                    "explanation": "Incorrect. This describes opaque objects, which block all light. Translucent objects allow some light to pass through."
                 },
                 {
-                    "text": "Objects in the room create their own light to become visible",
+                    "text": "Translucent objects absorb all the light without creating any shadow",
                     "isCorrect": 0,
-                    "explanation": "Most objects do not produce their own light. They need an external light source, like the flashlight, to be visible."
-                },
-                {
-                    "text": "Objects in the room are always visible, the flashlight just makes them brighter",
-                    "isCorrect": 0,
-                    "explanation": "Without any light, objects cannot be seen at all. Light is necessary for vision, not just for making objects brighter."
+                    "explanation": "Incorrect. Translucent objects do create shadows, but they are lighter than shadows from opaque objects because some light passes through."
                 }
             ],
-            "funFact": "Our eyes are incredibly sensitive to light! In perfect darkness, a healthy human eye can detect a single photon of light, which is the smallest possible particle of light that exists."
+            "funFact": "The word 'translucent' comes from Latin words 'trans' meaning 'through' and 'lucere' meaning 'to shine.' Many sea creatures like jellyfish are naturally translucent, which helps them blend in with their ocean environment!"
         },
         {
             "id": 6,
-            "text": "Which of the following objects produce their own light? Select all that apply:\n1. A glow stick\n2. A mirror\n3. A candle\n4. A white sheet of paper",
+            "text": "A scientist is testing how light interacts with different materials. She shines a flashlight on three objects: a glass window, a sheet of wax paper, and a wooden door. Which statement correctly describes how light interacts with each material?",
             "options": [
                 {
-                    "text": "1 and 3 only",
+                    "text": "Light cannot pass through any of the three materials.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Both glass and wax paper allow light to pass through them, either completely or partially. Only wood blocks all light."
+                },
+                {
+                    "text": "Light passes partially through all three materials.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While wax paper allows some light to pass through, glass allows all light through and wood blocks all light."
+                },
+                {
+                    "text": "Light passes completely through all three materials.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Only glass allows all light to pass through. Wax paper allows some light through, and wood blocks all light."
+                },
+                {
+                    "text": "Light passes completely through the glass window, partially through the wax paper, and cannot pass through the wooden door.",
                     "isCorrect": 1,
-                    "explanation": "Glow sticks and candles are both light sources that produce their own light. Mirrors and white paper only reflect light from other sources."
-                },
-                {
-                    "text": "1, 2, and 3",
-                    "isCorrect": 0,
-                    "explanation": "While glow sticks and candles produce their own light, mirrors do not. Mirrors only reflect light from other sources."
-                },
-                {
-                    "text": "2 and 4 only",
-                    "isCorrect": 0,
-                    "explanation": "Neither mirrors nor white paper produce their own light. They are only visible when light from other sources shines on them."
-                },
-                {
-                    "text": "3 only",
-                    "isCorrect": 0,
-                    "explanation": "While candles do produce their own light, glow sticks also produce their own light through a chemical reaction."
+                    "explanation": "This is correct because glass is transparent (allows all light through), wax paper is translucent (allows some light through), and wood is opaque (blocks all light)."
                 }
             ],
-            "funFact": "The chemical reaction that makes glow sticks light up is called chemiluminescence. This is the same process that makes fireflies glow at night!"
+            "funFact": "Some animals, like cats, have a special reflective layer behind their retinas called the tapetum lucidum that allows them to see better in low light conditions. This is why their eyes appear to glow when light shines on them in the dark!"
         },
         {
             "id": 7,
-            "text": "Imagine you are exploring three different rooms in a house. Room A is completely dark with no windows or lights. Room B has a dim night light. Room C has bright sunlight coming through the windows. In which room(s) would you be able to see the furniture clearly?",
+            "text": "You have three different materials layered in front of a flashlight in this order: a sheet of clear glass, a piece of tissue paper, and a wooden board. What will happen to the light from the flashlight as it tries to pass through these materials?",
             "options": [
                 {
-                    "text": "Only in Room A",
-                    "isCorrect": 0,
-                    "explanation": "Objects cannot be seen in complete darkness because there is no light to illuminate them."
-                },
-                {
-                    "text": "Only in Room C",
+                    "text": "The light will pass through the glass, then become dimmer through the tissue paper, and finally be completely blocked by the wooden board",
                     "isCorrect": 1,
-                    "explanation": "Room C has bright sunlight which provides enough illumination to see objects clearly. While Room B has some light, it might not be bright enough for clear visibility. Room A has no light, so objects would not be visible."
+                    "explanation": "This is correct because glass is transparent (allowing all light through), tissue paper is translucent (allowing some light through), and wood is opaque (blocking all light)."
                 },
                 {
-                    "text": "In both Rooms A and C",
+                    "text": "The light will pass completely through all three materials",
                     "isCorrect": 0,
-                    "explanation": "Objects in Room A would not be visible since there is no light source to illuminate them."
+                    "explanation": "This is incorrect because while light can pass through transparent glass and partially through translucent tissue paper, it cannot pass through the opaque wooden board at all."
                 },
                 {
-                    "text": "In all three rooms",
+                    "text": "The light will not pass through any of the materials",
                     "isCorrect": 0,
-                    "explanation": "Objects need sufficient light to be seen clearly. Room A has no light, and Room B's dim light might not provide enough illumination for clear visibility."
+                    "explanation": "This is incorrect because light can pass through transparent glass completely and through translucent tissue paper partially, though it will be blocked by the opaque wooden board."
+                },
+                {
+                    "text": "The light will be completely blocked by the tissue paper",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because tissue paper is translucent, meaning it allows some light to pass through, though the light becomes dimmer."
                 }
             ],
-            "funFact": "Our eyes need about 30 minutes to fully adjust to darkness. This is why astronomers often wait for 30 minutes in the dark before making detailed observations of the night sky!"
+            "funFact": "Some animals, like deep-sea creatures, can create their own light through a process called bioluminescence. They use this ability to communicate, attract prey, or confuse predators in the darkness of the deep ocean where no sunlight can reach!"
         },
         {
             "id": 8,
             "text": "A student is experimenting with a cardboard box that has a small hole on one side and can be completely sealed. Inside the box, there is a small toy car. If the student seals the box completely in a dark room, what will happen when they look through the hole?",
             "options": [
-                {
-                    "text": "They will be able to see the toy car clearly because their eyes will adjust to the darkness",
-                    "isCorrect": 0,
-                    "explanation": "Even when our eyes adjust to darkness, we cannot see objects without any light to illuminate them"
-                },
-                {
-                    "text": "They will not be able to see the toy car at all because there is no light to illuminate it",
-                    "isCorrect": 1,
-                    "explanation": "Objects can only be seen when light shines on them or if they produce their own light"
-                },
                 {
                     "text": "They will see a faint outline of the toy car because some light always exists in darkness",
                     "isCorrect": 0,
@@ -214,100 +204,78 @@
                     "text": "They will see the toy car because the hole lets in enough light to see inside the box",
                     "isCorrect": 0,
                     "explanation": "In a completely dark room, even the hole cannot let in light because there is no light source in the room"
+                },
+                {
+                    "text": "They will not be able to see the toy car at all because there is no light to illuminate it",
+                    "isCorrect": 1,
+                    "explanation": "Objects can only be seen when light shines on them or if they produce their own light"
+                },
+                {
+                    "text": "They will be able to see the toy car clearly because their eyes will adjust to the darkness",
+                    "isCorrect": 0,
+                    "explanation": "Even when our eyes adjust to darkness, we cannot see objects without any light to illuminate them"
                 }
             ],
             "funFact": "The human eye is incredibly sensitive and can detect just a few photons of light, but it still needs some light to see. Deep sea creatures that live in complete darkness have evolved either to produce their own light through bioluminescence or to live without vision entirely!"
         },
         {
             "id": 9,
-            "text": "You are camping in a forest on a moonless night. There are several objects around your tent: a glowing firefly, a white t-shirt, and a black backpack. Without using any artificial light, which of these objects would you be able to see?",
+            "text": "Imagine you are exploring three different rooms in a house. Room A is completely dark with no windows or lights. Room B has a dim night light. Room C has bright sunlight coming through the windows. In which room(s) would you be able to see the furniture clearly?",
             "options": [
                 {
-                    "text": "Only the glowing firefly",
+                    "text": "Only in Room C",
                     "isCorrect": 1,
-                    "explanation": "The firefly produces its own light through bioluminescence, making it visible even in complete darkness. The t-shirt and backpack cannot be seen without an external light source illuminating them."
+                    "explanation": "Room C has bright sunlight which provides enough illumination to see objects clearly. While Room B has some light, it might not be bright enough for clear visibility. Room A has no light, so objects would not be visible."
                 },
                 {
-                    "text": "The firefly and the white t-shirt",
+                    "text": "Only in Room A",
                     "isCorrect": 0,
-                    "explanation": "While the firefly is visible because it produces its own light, the white t-shirt cannot be seen in complete darkness despite being light-colored. All objects that don't produce their own light need external illumination to be visible."
+                    "explanation": "Objects cannot be seen in complete darkness because there is no light to illuminate them."
                 },
                 {
-                    "text": "All three objects",
+                    "text": "In all three rooms",
                     "isCorrect": 0,
-                    "explanation": "Only objects that either produce their own light or are illuminated by a light source can be seen. On a moonless night with no artificial light, only the self-illuminating firefly would be visible."
+                    "explanation": "Objects need sufficient light to be seen clearly. Room A has no light, and Room B's dim light might not provide enough illumination for clear visibility."
                 },
                 {
-                    "text": "None of the objects",
+                    "text": "In both Rooms A and C",
                     "isCorrect": 0,
-                    "explanation": "While the t-shirt and backpack would indeed be invisible without illumination, the firefly produces its own light through bioluminescence and would therefore be visible in the darkness."
+                    "explanation": "Objects in Room A would not be visible since there is no light source to illuminate them."
                 }
             ],
-            "funFact": "Fireflies produce light through a chemical reaction called bioluminescence. This process is nearly 100% efficient, meaning almost all the energy is converted to light with very little heat produced. In comparison, a regular incandescent light bulb converts only about 10% of its energy to light, with 90% lost as heat!"
+            "funFact": "Our eyes need about 30 minutes to fully adjust to darkness. This is why astronomers often wait for 30 minutes in the dark before making detailed observations of the night sky!"
         },
         {
             "id": 10,
-            "text": "Sarah observes her backyard at three different times during the day: dawn (early morning), noon (middle of day), and dusk (evening). At which time would objects in her backyard be most visible, and why?",
+            "text": "Which of the following natural phenomena create their own light and which ones only reflect light from other sources?\n\n1. Stars in the night sky\n2. The Moon\n3. Lightning during a storm\n4. Fireflies glowing at night\n\nSelect the correct combination:",
             "options": [
                 {
-                    "text": "At noon, because this is when the sun provides the most direct light to illuminate objects",
+                    "text": "Stars, lightning, and fireflies create their own light; the Moon reflects light",
                     "isCorrect": 1,
-                    "explanation": "When the sun is highest in the sky at noon, it provides maximum illumination, making objects most visible. More light means better visibility of objects."
+                    "explanation": "Stars generate light through nuclear fusion, lightning produces light through electrical discharge, and fireflies create light through bioluminescence. The Moon only reflects sunlight and doesn't produce its own light."
                 },
                 {
-                    "text": "At dawn, because morning light is clearer than other times",
+                    "text": "Only stars create their own light; others reflect light",
                     "isCorrect": 0,
-                    "explanation": "While objects are visible at dawn, the amount of sunlight is less than at noon. The sun is low on the horizon, providing less direct illumination."
+                    "explanation": "While stars do create their own light, lightning and fireflies also generate their own light. Only the Moon reflects light (from the Sun)."
                 },
                 {
-                    "text": "At dusk, because our eyes adjust better to dim light",
+                    "text": "All of them create their own light",
                     "isCorrect": 0,
-                    "explanation": "Though our eyes do adjust to lower light conditions, the reduced amount of sunlight at dusk means objects are less visible than at noon, regardless of eye adjustment."
+                    "explanation": "The Moon does not create its own light - it only reflects sunlight. The other objects (stars, lightning, and fireflies) do create their own light."
                 },
                 {
-                    "text": "All times are equal because the sun is still present",
+                    "text": "Stars and lightning create their own light; fireflies and the Moon reflect light",
                     "isCorrect": 0,
-                    "explanation": "The amount of sunlight varies significantly throughout the day. Just because the sun is present doesn't mean it provides the same amount of illumination at all times."
+                    "explanation": "This is incorrect because fireflies do create their own light through a chemical process called bioluminescence. They don't reflect light from other sources."
                 }
             ],
-            "funFact": "The human eye can adapt to different light levels amazingly well! In bright sunlight, our eyes can detect an object that's 100 trillion times brighter than the faintest object we can see in the dark. This is why we can see reasonably well both at dawn and noon, even though noon is much brighter."
+            "funFact": "Fireflies produce light through a fascinating chemical reaction called bioluminescence. The light they produce is called 'cold light' because nearly 100% of the energy goes into making light rather than heat, making it one of the most efficient light-producing processes known to science!"
         },
         {
             "id": 11,
-            "text": "When a teacher shines a flashlight on three different objects - a clear glass window, a piece of wax paper, and a wooden block - she notices they cast different types of shadows. Why does the wooden block create the darkest shadow?",
-            "options": [
-                {
-                    "text": "Because the wooden block is opaque and blocks all light from passing through it",
-                    "isCorrect": 1,
-                    "explanation": "Opaque objects like wood completely block light from passing through, creating the darkest shadows because no light reaches the other side."
-                },
-                {
-                    "text": "Because the wooden block is translucent and lets some light pass through",
-                    "isCorrect": 0,
-                    "explanation": "Wood is not translucent - it is opaque. Translucent materials like wax paper allow some light to pass through, creating lighter shadows."
-                },
-                {
-                    "text": "Because the wooden block is transparent and lets all light pass through",
-                    "isCorrect": 0,
-                    "explanation": "Wood is not transparent. Transparent materials like clear glass let most light pass through and create very faint or no shadows."
-                },
-                {
-                    "text": "Because the wooden block absorbs and then reflects all the light back",
-                    "isCorrect": 0,
-                    "explanation": "While wood does reflect some light, the dark shadow is created because it blocks light from passing through, not because it reflects light back."
-                }
-            ],
-            "funFact": "The darkest human-made substance known is Vantablack, which absorbs 99.965% of visible light that hits it. When light shines on an object coated in Vantablack, it creates an extremely dark shadow that appears almost like a void!"
-        },
-        {
-            "id": 12,
             "text": "You have a glow-in-the-dark star sticker on your bedroom wall. In which situation would you be able to see the star sticker?",
             "options": [
-                {
-                    "text": "Only when the room lights are on",
-                    "isCorrect": 0,
-                    "explanation": "The star sticker can be seen both when the lights are on (due to reflected light) and for some time after the lights are turned off (due to its self-produced light)."
-                },
                 {
                     "text": "Only in complete darkness",
                     "isCorrect": 0,
@@ -319,6 +287,11 @@
                     "explanation": "The star sticker is visible when lights are on because it reflects light, and remains visible for some time in darkness because it produces its own light from stored energy."
                 },
                 {
+                    "text": "Only when the room lights are on",
+                    "isCorrect": 0,
+                    "explanation": "The star sticker can be seen both when the lights are on (due to reflected light) and for some time after the lights are turned off (due to its self-produced light)."
+                },
+                {
                     "text": "Never, because stickers cannot produce or reflect light",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. The sticker can both reflect light when room lights are on and produce its own light in darkness due to its glow-in-the-dark properties."
@@ -327,72 +300,45 @@
             "funFact": "Glow-in-the-dark objects contain phosphors, special chemicals that store light energy and slowly release it over time. These phosphors were first discovered in 1602 by Italian cobbler Vincenzo Casciarolo when he found a strange glowing stone!"
         },
         {
+            "id": 12,
+            "text": "A student is reading a book in a dark room. When they turn on a flashlight and point it at the book, they can see the book clearly. Why can the book be seen only after turning on the flashlight?",
+            "options": [
+                {
+                    "text": "The book becomes transparent when the flashlight is turned on",
+                    "isCorrect": 0,
+                    "explanation": "Books are opaque objects. They do not become transparent when light shines on them. The light reflects off the book's surface making it visible."
+                },
+                {
+                    "text": "The book starts glowing on its own when the flashlight is turned on",
+                    "isCorrect": 0,
+                    "explanation": "Books are not light sources and cannot glow on their own. They need external light to be visible."
+                },
+                {
+                    "text": "The flashlight illuminates the book, allowing light to reflect off it and reach our eyes",
+                    "isCorrect": 1,
+                    "explanation": "Objects become visible when light shines on them and reflects back to our eyes. The flashlight provides the necessary light for us to see the book."
+                },
+                {
+                    "text": "The flashlight removes darkness from the room",
+                    "isCorrect": 0,
+                    "explanation": "Darkness is not a substance that can be removed. It is simply the absence of light. The flashlight provides light that makes objects visible."
+                }
+            ],
+            "funFact": "Our eyes are amazing light detectors! They can detect even a single photon of light, though we need about 5-9 photons to actually consciously see something. This is why we can see stars that are billions of light years away!"
+        },
+        {
             "id": 13,
-            "text": "In a completely dark room, there are three objects: a lit candle, a mirror, and a wooden block. Which of these objects can be seen in the darkness?",
-            "options": [
-                {
-                    "text": "Only the lit candle",
-                    "isCorrect": 1,
-                    "explanation": "A lit candle produces its own light, making it visible even in darkness. The mirror and wooden block need external light to be seen."
-                },
-                {
-                    "text": "The lit candle and the mirror",
-                    "isCorrect": 0,
-                    "explanation": "While the lit candle produces its own light and can be seen, the mirror needs external light to reflect and be visible. In complete darkness, a mirror cannot reflect any light."
-                },
-                {
-                    "text": "All three objects",
-                    "isCorrect": 0,
-                    "explanation": "Only objects that produce their own light (like the lit candle) can be seen in complete darkness. The mirror and wooden block need external light to be visible."
-                },
-                {
-                    "text": "None of the objects",
-                    "isCorrect": 0,
-                    "explanation": "The lit candle produces its own light and can be seen in darkness. While the other objects need external light to be visible, the candle is a light source itself."
-                }
-            ],
-            "funFact": "Fireflies are one of nature's most fascinating examples of organisms that produce their own light through a process called bioluminescence. This allows them to be visible in complete darkness, just like other light sources!"
-        },
-        {
-            "id": 14,
-            "text": "Why can we see trees, buildings, and other objects clearly during the day but not at night?",
-            "options": [
-                {
-                    "text": "Because the sun provides natural light during the day that illuminates these objects",
-                    "isCorrect": 1,
-                    "explanation": "The sun is Earth's main light source. During the day, sunlight illuminates objects, making them visible to our eyes. Without this illumination at night, we cannot see objects clearly."
-                },
-                {
-                    "text": "Because objects only exist during the day and disappear at night",
-                    "isCorrect": 0,
-                    "explanation": "Objects continue to exist whether it is day or night. We just cannot see them clearly in darkness because there is no light to illuminate them."
-                },
-                {
-                    "text": "Because our eyes only work during the day",
-                    "isCorrect": 0,
-                    "explanation": "Our eyes work both during day and night. The difference in visibility is due to the presence or absence of light, not because of how our eyes function."
-                },
-                {
-                    "text": "Because objects stop reflecting light at night",
-                    "isCorrect": 0,
-                    "explanation": "Objects maintain their physical properties at all times. They don't stop reflecting light at night - there is simply no light (or very little light) for them to reflect."
-                }
-            ],
-            "funFact": "The human eye is incredibly sensitive to light! In complete darkness, after about 30 minutes of adaptation, your eyes become about 100,000 times more sensitive to light than they are in daylight."
-        },
-        {
-            "id": 15,
             "text": "A white t-shirt is observed under three different lighting conditions. How would the t-shirt appear in each situation?\n\nSituation 1: Outside on a sunny day\nSituation 2: Inside a room with only a small nightlight\nSituation 3: Inside a completely dark closet",
             "options": [
-                {
-                    "text": "1: Bright white, 2: Dim grayish, 3: Not visible",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because objects are only visible when light illuminates them. The amount of light determines how well we can see the object. In bright sunlight, the t-shirt appears bright white. In dim light, less light reaches our eyes making it appear grayish. In complete darkness, no light reaches the t-shirt so it cannot be seen."
-                },
                 {
                     "text": "1: Bright white, 2: Bright white, 3: Dark gray",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because the amount of light affects how well we can see objects. The t-shirt cannot appear equally bright in both sunlight and dim light, and it cannot be seen at all (not even as dark gray) in complete darkness."
+                },
+                {
+                    "text": "1: Bright white, 2: Dim grayish, 3: Not visible",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because objects are only visible when light illuminates them. The amount of light determines how well we can see the object. In bright sunlight, the t-shirt appears bright white. In dim light, less light reaches our eyes making it appear grayish. In complete darkness, no light reaches the t-shirt so it cannot be seen."
                 },
                 {
                     "text": "1: Bright white, 2: Dim grayish, 3: Dark gray",
@@ -406,6 +352,60 @@
                 }
             ],
             "funFact": "Our eyes have special cells called rods and cones. Cones help us see colors in bright light, while rods help us see in dim light but can't detect colors well - that's why things often appear grayish in low light conditions!"
+        },
+        {
+            "id": 14,
+            "text": "Two identical rooms contain the same furniture and objects. Room A has sunlight coming through its windows, while Room B has all windows covered and no lights turned on. Why can you see the objects in Room A but not in Room B?",
+            "options": [
+                {
+                    "text": "Objects in Room A can be seen because light is illuminating them, while objects in Room B cannot be seen due to absence of light",
+                    "isCorrect": 1,
+                    "explanation": "Objects become visible only when light shines on them or when they produce their own light. In Room A, sunlight illuminates the objects making them visible, while the absence of light in Room B makes objects invisible to our eyes."
+                },
+                {
+                    "text": "The objects in Room B are different from Room A",
+                    "isCorrect": 0,
+                    "explanation": "Both rooms contain identical objects. The only difference is the presence of light in Room A and absence of light in Room B, which affects our ability to see the objects."
+                },
+                {
+                    "text": "Objects in Room B are invisible because darkness makes them disappear",
+                    "isCorrect": 0,
+                    "explanation": "Objects don't disappear in darkness - they are still there but cannot be seen because there is no light to illuminate them. Darkness is simply the absence of light."
+                },
+                {
+                    "text": "Our eyes work better in Room A than in Room B",
+                    "isCorrect": 0,
+                    "explanation": "Our eyes function the same way in both rooms. The difference in visibility is due to the presence or absence of light, not due to any change in how our eyes work."
+                }
+            ],
+            "funFact": "The human eye is incredibly sensitive to light! In complete darkness, after about 30 minutes of adaptation, the human eye can detect a single photon - the smallest possible particle of light. However, we need at least 5-7 photons striking our retina in quick succession to actually consciously see something."
+        },
+        {
+            "id": 15,
+            "text": "When a teacher shines a flashlight on three different objects - a clear glass window, a piece of wax paper, and a wooden block - she notices they cast different types of shadows. Why does the wooden block create the darkest shadow?",
+            "options": [
+                {
+                    "text": "Because the wooden block is opaque and blocks all light from passing through it",
+                    "isCorrect": 1,
+                    "explanation": "Opaque objects like wood completely block light from passing through, creating the darkest shadows because no light reaches the other side."
+                },
+                {
+                    "text": "Because the wooden block is transparent and lets all light pass through",
+                    "isCorrect": 0,
+                    "explanation": "Wood is not transparent. Transparent materials like clear glass let most light pass through and create very faint or no shadows."
+                },
+                {
+                    "text": "Because the wooden block is translucent and lets some light pass through",
+                    "isCorrect": 0,
+                    "explanation": "Wood is not translucent - it is opaque. Translucent materials like wax paper allow some light to pass through, creating lighter shadows."
+                },
+                {
+                    "text": "Because the wooden block absorbs and then reflects all the light back",
+                    "isCorrect": 0,
+                    "explanation": "While wood does reflect some light, the dark shadow is created because it blocks light from passing through, not because it reflects light back."
+                }
+            ],
+            "funFact": "The darkest human-made substance known is Vantablack, which absorbs 99.965% of visible light that hits it. When light shines on an object coated in Vantablack, it creates an extremely dark shadow that appears almost like a void!"
         }
     ]
 }

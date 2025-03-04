@@ -4,89 +4,99 @@
     "questions": [
         {
             "id": 1,
-            "text": "What is the main reason scientists count and monitor the number of different plants and animals in an area?",
+            "text": "Which characteristic makes rainforests one of Earth's most diverse habitats?",
             "options": [
                 {
-                    "text": "To determine if the environment is healthy",
+                    "text": "Sandy soil conditions",
+                    "isCorrect": 0,
+                    "explanation": "Sandy soil typically supports less plant life. Rainforest soil is rich in nutrients from decomposing organic matter."
+                },
+                {
+                    "text": "High rainfall and abundant plant growth",
                     "isCorrect": 1,
-                    "explanation": "Scientists monitor biodiversity to assess ecosystem health. A decline in the number of species can indicate environmental problems."
+                    "explanation": "Rainforests receive lots of rain which helps many plants grow, providing food and shelter for numerous animal species."
                 },
                 {
-                    "text": "To find new places to build houses",
+                    "text": "Lack of predators",
                     "isCorrect": 0,
-                    "explanation": "Scientists don't count species primarily for construction purposes. Their focus is on understanding and protecting ecosystems."
+                    "explanation": "Rainforests have many predators - the diversity includes both predator and prey species."
                 },
                 {
-                    "text": "To choose good spots for hiking",
+                    "text": "Extreme temperatures",
                     "isCorrect": 0,
-                    "explanation": "While biodiversity surveys can inform recreational activities, this isn't the main purpose. Scientists study biodiversity to monitor ecosystem health."
-                },
-                {
-                    "text": "To name new species they discover",
-                    "isCorrect": 0,
-                    "explanation": "While scientists do name newly discovered species, counting existing species is primarily done to monitor ecosystem health, not to find new ones."
+                    "explanation": "While rainforests are warm, extreme temperatures actually limit biodiversity rather than promote it."
                 }
             ],
-            "funFact": "Scientists sometimes discover new species while conducting biodiversity surveys! In 2020 alone, researchers described over 500 previously unknown species, including colorful slugs, tiny frogs, and unusual plants."
+            "funFact": "The Amazon Rainforest alone contains about 40,000 plant species, 1,300 bird species, 430 mammal species, and 378 reptile species!"
         },
         {
             "id": 2,
-            "text": "Which statement best describes why many animals living in a pond need to stay in or near water?",
+            "text": "What is the main way skunks protect themselves from predators?",
             "options": [
                 {
-                    "text": "Water provides them with essential habitat needs for survival like breathing and moving",
+                    "text": "By playing dead",
+                    "isCorrect": 0,
+                    "explanation": "While some animals play dead to avoid predators, skunks rely on their spray defense rather than playing dead."
+                },
+                {
+                    "text": "By running very fast",
+                    "isCorrect": 0,
+                    "explanation": "While skunks can run, this is not their main defense mechanism. They are actually relatively slow compared to many predators."
+                },
+                {
+                    "text": "By spraying a stinky liquid",
                     "isCorrect": 1,
-                    "explanation": "Many pond animals like fish and frogs have special adaptations that require water for breathing, movement, and other life functions"
+                    "explanation": "Skunks have special glands that produce a strong-smelling liquid that they spray to defend themselves from predators."
                 },
                 {
-                    "text": "They only eat plants that grow underwater",
+                    "text": "By hiding in trees",
                     "isCorrect": 0,
-                    "explanation": "While some pond animals eat aquatic plants, many eat insects, small fish, or other food sources. Their need for water goes beyond just food"
-                },
-                {
-                    "text": "The water protects them from all predators",
-                    "isCorrect": 0,
-                    "explanation": "Water provides some protection, but many predators can still catch pond animals. The main reason they need water is for survival functions"
-                },
-                {
-                    "text": "They cannot regulate their body temperature on land",
-                    "isCorrect": 0,
-                    "explanation": "While some pond animals do use water for temperature regulation, this isn't the main reason most pond animals need to stay in water"
+                    "explanation": "Skunks are not good climbers and typically stay on the ground. They don't use trees for protection."
                 }
             ],
-            "funFact": "Some pond animals like salamanders and frogs start their lives completely underwater with gills, but develop lungs as they grow up, allowing them to spend time both in water and on land!"
+            "funFact": "A skunk's spray can reach up to 10-15 feet away and the smell can last for days or even weeks! That's why most predators learn quickly to stay away from skunks after just one encounter."
         },
         {
             "id": 3,
-            "text": "What is a habitat?",
+            "text": "Which best describes how raccoons find their food?",
             "options": [
                 {
-                    "text": "The natural place where a plant or animal lives and grows",
+                    "text": "They only eat fruits and berries from trees",
+                    "isCorrect": 0,
+                    "explanation": "Raccoons don't limit themselves to just fruits and berries. They have a much more varied diet."
+                },
+                {
+                    "text": "They search everywhere for food and eat whatever they can find",
                     "isCorrect": 1,
-                    "explanation": "A habitat is the natural environment where plants and animals make their home and find what they need to survive."
+                    "explanation": "Raccoons are scavengers that look for food anywhere they can find it, including garbage cans, making them very adaptable animals."
                 },
                 {
-                    "text": "Any place with lots of trees",
+                    "text": "They hunt only at night and catch live prey",
                     "isCorrect": 0,
-                    "explanation": "While some habitats have trees, not all do. A habitat can be any natural environment where organisms live, like deserts, ponds, or grasslands."
+                    "explanation": "While raccoons are active at night, they don't just hunt live prey. They have more flexible feeding habits."
                 },
                 {
-                    "text": "A place built by humans",
+                    "text": "They wait for other animals to bring them food",
                     "isCorrect": 0,
-                    "explanation": "Habitats are natural environments, not artificially constructed spaces. Though some animals adapt to human-built environments, these aren't their natural habitats."
-                },
-                {
-                    "text": "Only places with water",
-                    "isCorrect": 0,
-                    "explanation": "While some habitats contain water (like ponds and oceans), many habitats are on land (like forests and deserts). A habitat can be any natural environment suitable for living things."
+                    "explanation": "Raccoons are independent animals that find their own food rather than relying on other animals."
                 }
             ],
-            "funFact": "Some animals, like hermit crabs, carry portable shelters with them! They use empty shells as mobile homes, switching to larger ones as they grow. Their actual habitat is the shoreline or ocean floor where they find food and interact with other organisms."
+            "funFact": "Raccoons have very sensitive front paws with five finger-like toes that help them find and grab food. They often dip their food in water and appear to be washing it, which is why they're sometimes called 'washing bears' in other languages!"
         },
         {
             "id": 4,
             "text": "Which animals would you most likely find in a desert habitat?",
             "options": [
+                {
+                    "text": "Monkeys, toucans, and parrots",
+                    "isCorrect": 0,
+                    "explanation": "These animals are typically found in rainforests where there are many trees and abundant rainfall, not in desert environments."
+                },
+                {
+                    "text": "Frogs, fish, and dragonflies",
+                    "isCorrect": 0,
+                    "explanation": "These animals need lots of water to survive and are typically found near ponds and wetlands, not in dry desert environments."
+                },
                 {
                     "text": "Foxes, snakes, and lizards",
                     "isCorrect": 1,
@@ -96,78 +106,46 @@
                     "text": "Penguins, seals, and polar bears",
                     "isCorrect": 0,
                     "explanation": "These animals are adapted to cold climates and are typically found in polar regions, not in hot desert environments."
-                },
-                {
-                    "text": "Frogs, fish, and dragonflies",
-                    "isCorrect": 0,
-                    "explanation": "These animals need lots of water to survive and are typically found near ponds and wetlands, not in dry desert environments."
-                },
-                {
-                    "text": "Monkeys, toucans, and parrots",
-                    "isCorrect": 0,
-                    "explanation": "These animals are typically found in rainforests where there are many trees and abundant rainfall, not in desert environments."
                 }
             ],
             "funFact": "Many desert animals have special adaptations to survive in hot, dry conditions. For example, desert lizards primarily regulate body temperature through behavioral methods like seeking shade or sun, and many desert mammals have specialized kidneys that allow them to conserve water by producing highly concentrated urine!"
         },
         {
             "id": 5,
-            "text": "Why do many desert animals create underground burrows?",
+            "text": "What is the main reason scientists count and monitor the number of different plants and animals in an area?",
             "options": [
                 {
-                    "text": "To stay cool and hide from predators",
+                    "text": "To name new species they discover",
+                    "isCorrect": 0,
+                    "explanation": "While scientists do name newly discovered species, counting existing species is primarily done to monitor ecosystem health, not to find new ones."
+                },
+                {
+                    "text": "To choose good spots for hiking",
+                    "isCorrect": 0,
+                    "explanation": "While biodiversity surveys can inform recreational activities, this isn't the main purpose. Scientists study biodiversity to monitor ecosystem health."
+                },
+                {
+                    "text": "To find new places to build houses",
+                    "isCorrect": 0,
+                    "explanation": "Scientists don't count species primarily for construction purposes. Their focus is on understanding and protecting ecosystems."
+                },
+                {
+                    "text": "To determine if the environment is healthy",
                     "isCorrect": 1,
-                    "explanation": "Desert animals dig underground burrows both to escape the intense heat of the desert and to protect themselves from predators that might hunt them."
-                },
-                {
-                    "text": "To store water during rainy seasons",
-                    "isCorrect": 0,
-                    "explanation": "While some desert animals do store food, they primarily create burrows for protection from heat and predators, not for storing water."
-                },
-                {
-                    "text": "To sleep during winter months",
-                    "isCorrect": 0,
-                    "explanation": "While some animals do hibernate, desert animals mainly use burrows year-round for protection from heat and predators, not specifically for winter sleeping."
-                },
-                {
-                    "text": "To find food more easily",
-                    "isCorrect": 0,
-                    "explanation": "Desert animals don't primarily create burrows to find food - they dig them for protection from the harsh desert environment and predators."
+                    "explanation": "Scientists monitor biodiversity to assess ecosystem health. A decline in the number of species can indicate environmental problems."
                 }
             ],
-            "funFact": "Some desert animals, like the kangaroo rat, can live their entire lives without ever drinking water! They get all the moisture they need from the seeds they eat."
+            "funFact": "Scientists sometimes discover new species while conducting biodiversity surveys! In 2020 alone, researchers described over 500 previously unknown species, including colorful slugs, tiny frogs, and unusual plants."
         },
         {
             "id": 6,
-            "text": "A scientist wants to compare the plant and animal diversity between a desert and a rainforest. Which method would be most effective for gathering this information?",
-            "options": [
-                {
-                    "text": "Count the total number of organisms in each habitat",
-                    "isCorrect": 0,
-                    "explanation": "Simply counting total organisms doesn't tell us about diversity - we need to know about different types of species, not just total numbers"
-                },
-                {
-                    "text": "Record different types of species observed during systematic surveys of both areas",
-                    "isCorrect": 1,
-                    "explanation": "This method focuses on identifying distinct species, which directly measures biodiversity in each habitat"
-                },
-                {
-                    "text": "Measure the temperature and rainfall in both areas",
-                    "isCorrect": 0,
-                    "explanation": "While environmental conditions affect biodiversity, measuring them alone doesn't tell us about the variety of species present"
-                },
-                {
-                    "text": "Study only the largest animals in each habitat",
-                    "isCorrect": 0,
-                    "explanation": "Looking at only large animals misses many species and wouldn't give an accurate picture of total biodiversity"
-                }
-            ],
-            "funFact": "Scientists sometimes use special tools called camera traps to study biodiversity. These motion-activated cameras can capture photos of shy or nocturnal animals that are rarely seen during daytime surveys!"
-        },
-        {
-            "id": 7,
             "text": "Why do skunks rarely get attacked by other animals in their habitat?",
             "options": [
+                {
+                    "text": "They hide underground all the time",
+                    "isCorrect": 0,
+                    "explanation": "While skunks do use burrows, they are active above ground and don't rely on hiding as their primary defense"
+                },
                 {
                     "text": "They release a powerful defensive spray that deters predators",
                     "isCorrect": 1,
@@ -179,11 +157,6 @@
                     "explanation": "Skunks are not particularly fast runners. Their main defense is their spray, not speed"
                 },
                 {
-                    "text": "They hide underground all the time",
-                    "isCorrect": 0,
-                    "explanation": "While skunks do use burrows, they are active above ground and don't rely on hiding as their primary defense"
-                },
-                {
                     "text": "They are too large for predators to attack",
                     "isCorrect": 0,
                     "explanation": "Skunks are actually medium-sized animals and could be prey for larger predators if not for their defensive spray"
@@ -192,34 +165,88 @@
             "funFact": "A skunk's spray is so powerful that it can be detected by humans up to a mile away! The spray contains special chemicals called thiols that make it incredibly smelly and can cause temporary blindness if it gets in the eyes."
         },
         {
-            "id": 8,
-            "text": "Which group of organisms would most likely be found living together in a pond habitat?",
+            "id": 7,
+            "text": "Two ponds are located near each other. Pond A has many types of plants growing in and around it, including cattails, water lilies, and algae. Pond B has very few plants. Which pond is likely to support more different types of animals and why?",
             "options": [
                 {
-                    "text": "Frogs, fish, water lilies, and dragonflies",
+                    "text": "Pond B, because fewer plants mean more open space for animals to live",
+                    "isCorrect": 0,
+                    "explanation": "Open space alone doesn't support animal diversity. Animals need plants for food and shelter."
+                },
+                {
+                    "text": "Pond A, but only because plants attract predators that eat other animals",
+                    "isCorrect": 0,
+                    "explanation": "While predators are part of the ecosystem, plants primarily support animal diversity by providing food and shelter, not just by attracting predators."
+                },
+                {
+                    "text": "Pond A, because more plant species provide more food sources and habitats for different animals",
                     "isCorrect": 1,
-                    "explanation": "These organisms are commonly found in pond habitats because they all need water to survive and thrive. Frogs and fish live in water, water lilies grow in ponds, and dragonflies are often found near water where they hunt insects."
+                    "explanation": "Plants provide food and shelter for many animals. More plant diversity means more niches for different animal species to occupy."
                 },
                 {
-                    "text": "Cacti, lizards, snakes, and scorpions",
+                    "text": "Both ponds would support the same number of animal species",
                     "isCorrect": 0,
-                    "explanation": "These organisms are typically found in desert habitats where it's hot and dry, not in wet pond environments. They have adaptations for surviving with little water."
-                },
-                {
-                    "text": "Raccoons, skunks, mice, and oak trees",
-                    "isCorrect": 0,
-                    "explanation": "While these organisms might occasionally visit a pond, they are more commonly found in woodland or backyard environments. They don't depend on water bodies for their primary habitat."
-                },
-                {
-                    "text": "Palm trees, monkeys, parrots, and tree frogs",
-                    "isCorrect": 0,
-                    "explanation": "These organisms are typically found in rainforest habitats where there are tall trees and high rainfall, not in pond environments."
+                    "explanation": "Areas with more plant diversity typically support greater animal diversity due to more available resources and habitats."
                 }
             ],
-            "funFact": "A single pond can contain thousands of different species! In addition to visible plants and animals, ponds are home to countless microscopic organisms like algae, bacteria, and tiny invertebrates that form the base of the pond's food web."
+            "funFact": "A single pond with diverse plant life can support hundreds of different animal species, from microscopic organisms to large mammals that visit to drink water!"
+        },
+        {
+            "id": 8,
+            "text": "Which combination of environmental conditions would most likely support the highest biodiversity in an area?",
+            "options": [
+                {
+                    "text": "Warm temperature with high rainfall and abundant vegetation",
+                    "isCorrect": 1,
+                    "explanation": "Warm temperatures and high rainfall promote plant growth, creating diverse habitats and food sources that support many different species of animals"
+                },
+                {
+                    "text": "Cold temperature with low rainfall and sparse vegetation",
+                    "isCorrect": 0,
+                    "explanation": "These harsh conditions make survival difficult for many species, resulting in lower biodiversity"
+                },
+                {
+                    "text": "Moderate temperature with frozen ground year-round",
+                    "isCorrect": 0,
+                    "explanation": "Permanently frozen ground restricts plant growth and makes it difficult for many species to find food and shelter"
+                },
+                {
+                    "text": "Hot temperature with very low rainfall and few plants",
+                    "isCorrect": 0,
+                    "explanation": "Extreme heat and lack of water limits plant growth and makes survival challenging for many species"
+                }
+            ],
+            "funFact": "The Amazon rainforest contains about 10% of all known species on Earth in just 0.5% of Earth's surface area, making it the most biodiverse place on the planet!"
         },
         {
             "id": 9,
+            "text": "In a local pond, which seasonal change would likely result in observing the MOST different types of animals?",
+            "options": [
+                {
+                    "text": "Winter freezing when ice forms",
+                    "isCorrect": 0,
+                    "explanation": "During winter freezing, many animals are dormant, hibernating, or have migrated away, reducing the observable biodiversity."
+                },
+                {
+                    "text": "Fall cooling when leaves drop",
+                    "isCorrect": 0,
+                    "explanation": "Fall cooling signals many animals to prepare for winter by migrating or becoming less active, reducing the number of observable species."
+                },
+                {
+                    "text": "Summer drought when water levels drop",
+                    "isCorrect": 0,
+                    "explanation": "Lower water levels during summer drought can stress aquatic organisms and cause them to seek deeper water or other habitats, decreasing observable biodiversity."
+                },
+                {
+                    "text": "Spring warming when temperatures rise",
+                    "isCorrect": 1,
+                    "explanation": "Spring warming brings increased activity as animals emerge from winter dormancy, migrate back to the area, and become more active for breeding season, making more species observable."
+                }
+            ],
+            "funFact": "Some pond animals have amazing adaptations to seasonal changes. For example, wood frogs can survive being completely frozen during winter - their bodies produce a natural antifreeze that protects their vital organs!"
+        },
+        {
+            "id": 10,
             "text": "A community of organisms including frogs, water plants, dragonflies, and small fish needs a new habitat. Which characteristics would be most suitable for these organisms to thrive together?",
             "options": [
                 {
@@ -246,94 +273,67 @@
             "funFact": "Pond ecosystems can support more than 1,000 different species in just a small area! These microhabitats are like nature's apartments, with different species living at different depths and areas of the pond."
         },
         {
-            "id": 10,
-            "text": "A scientist is studying two similar areas of land. Area A receives 50 inches of rainfall per year, while Area B receives only 10 inches of rainfall per year. What would you expect about the biodiversity in these areas?",
-            "options": [
-                {
-                    "text": "Area A likely has higher biodiversity because more rainfall supports more plant growth and animal life",
-                    "isCorrect": 1,
-                    "explanation": "More rainfall allows for greater plant growth, which provides food and shelter for more animal species, leading to higher biodiversity"
-                },
-                {
-                    "text": "Area B likely has higher biodiversity because animals prefer dry conditions",
-                    "isCorrect": 0,
-                    "explanation": "While some animals are adapted to dry conditions, areas with more rainfall generally support more diverse life forms"
-                },
-                {
-                    "text": "Both areas would have exactly the same biodiversity regardless of rainfall",
-                    "isCorrect": 0,
-                    "explanation": "Rainfall significantly affects the types and numbers of organisms that can survive in an area"
-                },
-                {
-                    "text": "Rainfall has no effect on biodiversity",
-                    "isCorrect": 0,
-                    "explanation": "Rainfall is a crucial factor that influences the types and abundance of life in an ecosystem"
-                }
-            ],
-            "funFact": "The Amazon rainforest, which receives over 100 inches of rain annually, contains about 10% of all known species on Earth despite covering only about 2% of the Earth's surface!"
-        },
-        {
             "id": 11,
-            "text": "A scientist is comparing how animals survive in the desert versus the rainforest. Which adaptation would be most beneficial for an animal living in the desert but NOT in the rainforest?",
+            "text": "Scientists studied two different areas: Area A has 50 different types of plants and Area B has only 5 different types of plants. Which statement is most likely true about the number of different animal species in these areas?",
             "options": [
                 {
-                    "text": "Being active at night and sleeping during the day",
+                    "text": "Both areas will have the same number of animal species",
+                    "isCorrect": 0,
+                    "explanation": "The number of animal species usually varies with plant diversity and is not the same across different areas"
+                },
+                {
+                    "text": "The number of plant species has no effect on animal species",
+                    "isCorrect": 0,
+                    "explanation": "Plant and animal diversity are closely connected because plants provide essential resources for animals to survive"
+                },
+                {
+                    "text": "Area A likely has more animal species than Area B",
                     "isCorrect": 1,
-                    "explanation": "Desert animals often become nocturnal to avoid the intense daytime heat, while this adaptation isn't as crucial in rainforests where temperatures are more stable"
+                    "explanation": "Areas with higher plant diversity typically support more animal species because plants provide food and shelter for many different animals"
                 },
                 {
-                    "text": "Having bright colorful feathers",
+                    "text": "Area B likely has more animal species than Area A",
                     "isCorrect": 0,
-                    "explanation": "Bright colors are more common and beneficial in rainforests for camouflage and attracting mates, but could make desert animals more visible to predators"
-                },
-                {
-                    "text": "Being able to climb trees quickly",
-                    "isCorrect": 0,
-                    "explanation": "Tree climbing is more beneficial in rainforests with abundant trees, but less useful in deserts where trees are scarce"
-                },
-                {
-                    "text": "Having a diet of mostly leaves",
-                    "isCorrect": 0,
-                    "explanation": "Eating leaves is more practical in rainforests where vegetation is abundant, but not in deserts where plants are sparse"
+                    "explanation": "Areas with fewer plant species usually support fewer animal species because there are limited food sources and habitats available"
                 }
             ],
-            "funFact": "Some desert animals like the kangaroo rat can survive their entire lives without ever drinking water - they get all the moisture they need from the seeds they eat!"
+            "funFact": "The Amazon rainforest, which has the highest plant diversity on Earth with over 40,000 plant species, is also home to more than 1,300 bird species, 430 mammal species, and millions of insect species!"
         },
         {
             "id": 12,
-            "text": "In a forest habitat, some animals are active during the day while others are active at night. How does this difference in activity patterns help maintain biodiversity in the forest?",
+            "text": "In a pond ecosystem, if all the frogs were to suddenly disappear, what would most likely happen to the biodiversity of the pond?",
             "options": [
                 {
-                    "text": "It allows different animals to share the same resources by being active at different times",
+                    "text": "All other animals in the pond would thrive better",
+                    "isCorrect": 0,
+                    "explanation": "The removal of frogs would not benefit all animals. Some species depend on frogs for food, while others might be overwhelmed by increasing insect populations."
+                },
+                {
+                    "text": "Only the plants would be affected",
+                    "isCorrect": 0,
+                    "explanation": "The disappearance of frogs would affect both plants and animals in the ecosystem, not just plants, as frogs play a role in controlling insect populations that affect many species."
+                },
+                {
+                    "text": "The pond ecosystem would remain exactly the same",
+                    "isCorrect": 0,
+                    "explanation": "Ecosystems are interconnected. The loss of any species affects other species that depend on it for food or that it feeds upon."
+                },
+                {
+                    "text": "The number of insects would likely increase, while fish populations might decrease",
                     "isCorrect": 1,
-                    "explanation": "When animals are active at different times, they can use the same resources without competing directly with each other, supporting greater biodiversity"
-                },
-                {
-                    "text": "It forces all animals to hunt only during the daytime",
-                    "isCorrect": 0,
-                    "explanation": "Many animals are actually adapted to hunt at night, not just during the day"
-                },
-                {
-                    "text": "It makes all animals compete for food at the same time",
-                    "isCorrect": 0,
-                    "explanation": "Different activity patterns actually reduce competition by spreading resource use across different times"
-                },
-                {
-                    "text": "It prevents animals from living in the same habitat",
-                    "isCorrect": 0,
-                    "explanation": "Different activity patterns actually allow more animals to share the same habitat"
+                    "explanation": "Frogs eat insects and are eaten by fish. Without frogs, insect populations would grow unchecked, while fish would lose a food source, affecting the pond's biodiversity."
                 }
             ],
-            "funFact": "Some animals, like owls, have special adaptations like large eyes and excellent hearing that help them be successful nighttime hunters, while others like eagles have sharp color vision perfect for daytime hunting!"
+            "funFact": "A single frog can eat up to 100 insects in one night! This makes them incredibly important in maintaining the balance of their ecosystem and controlling insect populations."
         },
         {
             "id": 13,
             "text": "How do the plants and animals in a forest change from summer to winter?",
             "options": [
                 {
-                    "text": "Many animals hibernate and some trees lose their leaves, reducing visible biodiversity",
-                    "isCorrect": 1,
-                    "explanation": "During winter, many animals hibernate and deciduous trees lose their leaves, making fewer species observable compared to summer"
+                    "text": "More animals and plants become visible in winter",
+                    "isCorrect": 0,
+                    "explanation": "Winter typically shows reduced visible biodiversity as many species hibernate, migrate, or become dormant until spring"
                 },
                 {
                     "text": "The number of plants and animals stays exactly the same all year",
@@ -341,71 +341,71 @@
                     "explanation": "The observable biodiversity changes significantly between seasons as animals adapt their behaviors and plants go through seasonal cycles"
                 },
                 {
+                    "text": "Many animals hibernate and some trees lose their leaves, reducing visible biodiversity",
+                    "isCorrect": 1,
+                    "explanation": "During winter, many animals hibernate and deciduous trees lose their leaves, making fewer species observable compared to summer"
+                },
+                {
                     "text": "All animals migrate away and plants die completely in winter",
                     "isCorrect": 0,
                     "explanation": "While some animals migrate and plants become dormant, not all species leave or die - many remain and adapt to winter conditions"
-                },
-                {
-                    "text": "More animals and plants become visible in winter",
-                    "isCorrect": 0,
-                    "explanation": "Winter typically shows reduced visible biodiversity as many species hibernate, migrate, or become dormant until spring"
                 }
             ],
             "funFact": "Some animals change color to adapt to seasonal changes - like the snowshoe hare which turns white in winter to blend in with snow and brown in summer to match the forest floor!"
         },
         {
             "id": 14,
-            "text": "A city installed new street lights in a local park that stays on all night. After a few months, residents noticed fewer fireflies and moths in the park compared to before. What is the most likely effect of these lights on the park's biodiversity?",
+            "text": "In a forest habitat, some animals are active during the day while others are active at night. How does this difference in activity patterns help maintain biodiversity in the forest?",
             "options": [
                 {
-                    "text": "The artificial lights have disrupted the natural behaviors of nocturnal insects, causing them to move to darker areas",
+                    "text": "It forces all animals to hunt only during the daytime",
+                    "isCorrect": 0,
+                    "explanation": "Many animals are actually adapted to hunt at night, not just during the day"
+                },
+                {
+                    "text": "It prevents animals from living in the same habitat",
+                    "isCorrect": 0,
+                    "explanation": "Different activity patterns actually allow more animals to share the same habitat"
+                },
+                {
+                    "text": "It allows different animals to share the same resources by being active at different times",
                     "isCorrect": 1,
-                    "explanation": "Artificial lights can interfere with nocturnal animals' natural behaviors like feeding and mating, causing them to leave the area and reduce local biodiversity"
+                    "explanation": "When animals are active at different times, they can use the same resources without competing directly with each other, supporting greater biodiversity"
                 },
                 {
-                    "text": "The lights have attracted more insects to the park, increasing biodiversity",
+                    "text": "It makes all animals compete for food at the same time",
                     "isCorrect": 0,
-                    "explanation": "While lights do attract insects temporarily, constant artificial light typically reduces insect populations over time rather than increasing biodiversity"
-                },
-                {
-                    "text": "The lights have no effect on insects or other wildlife in the park",
-                    "isCorrect": 0,
-                    "explanation": "Artificial lighting does impact wildlife, especially nocturnal species that have evolved to live in natural day-night cycles"
-                },
-                {
-                    "text": "The lights have made the park safer for all animals by helping them see better at night",
-                    "isCorrect": 0,
-                    "explanation": "Most wildlife is adapted to natural darkness cycles, and artificial light can actually interfere with their natural behaviors and survival strategies"
+                    "explanation": "Different activity patterns actually reduce competition by spreading resource use across different times"
                 }
             ],
-            "funFact": "Fireflies use their natural bioluminescence to communicate and find mates. Artificial lights can make it harder for fireflies to see each other's signals, which affects their ability to reproduce and maintain their population in an area."
+            "funFact": "Some animals, like owls, have special adaptations like large eyes and excellent hearing that help them be successful nighttime hunters, while others like eagles have sharp color vision perfect for daytime hunting!"
         },
         {
             "id": 15,
-            "text": "Compare a tropical rainforest and a polar region. Which environment would likely have greater biodiversity and why?",
+            "text": "Two neighborhoods were studied to compare plant and animal diversity. Neighborhood A has many trees, gardens, and undeveloped areas. Neighborhood B has mostly buildings and paved areas with few plants. Which factor most likely contributes to Neighborhood A having greater biodiversity?",
             "options": [
                 {
-                    "text": "The tropical rainforest, because its warm temperatures and abundant rainfall support many different types of plants and animals",
+                    "text": "More varied habitats for different species to live in",
                     "isCorrect": 1,
-                    "explanation": "Rainforests have ideal conditions for life with warm temperatures, lots of rain, and abundant plant growth that provides food and shelter for many species"
+                    "explanation": "Different habitats support different types of plants and animals. Areas with diverse environments like gardens, trees, and natural spaces provide more opportunities for various species to thrive."
                 },
                 {
-                    "text": "The polar region, because cold temperatures help organisms survive longer",
+                    "text": "Better weather conditions",
                     "isCorrect": 0,
-                    "explanation": "Cold temperatures actually make survival more challenging and limit the variety of species that can live in polar regions"
+                    "explanation": "Since both neighborhoods are in the same area, they experience the same weather conditions. Weather isn't the factor causing differences in biodiversity between these neighborhoods."
                 },
                 {
-                    "text": "Both would have equal biodiversity since they are both natural environments",
+                    "text": "More people living in the area",
                     "isCorrect": 0,
-                    "explanation": "Different environments can support very different levels of biodiversity based on their conditions - not all natural environments are equally suitable for supporting diverse life"
+                    "explanation": "The number of people in an area doesn't directly increase biodiversity. In fact, highly populated areas often have less biodiversity due to habitat loss."
                 },
                 {
-                    "text": "The polar region, because ice and snow provide more places to hide",
+                    "text": "More artificial lighting",
                     "isCorrect": 0,
-                    "explanation": "While ice and snow can provide some shelter, the harsh conditions and limited plant growth in polar regions restrict the number of species that can survive there"
+                    "explanation": "Artificial lighting can actually disturb natural wildlife patterns and decrease biodiversity. It's not a factor that would increase the variety of living things in an area."
                 }
             ],
-            "funFact": "While tropical rainforests cover only about 6% of Earth's land surface, they are home to more than half of the world's plant and animal species!"
+            "funFact": "Urban wildlife can be surprisingly diverse! Cities with more green spaces, like parks and community gardens, can support hundreds of different species of birds, insects, and small mammals. Some cities even have special 'wildlife corridors' to help animals move safely between different natural areas."
         }
     ]
 }

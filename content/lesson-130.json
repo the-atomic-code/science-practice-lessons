@@ -4,120 +4,66 @@
     "questions": [
         {
             "id": 1,
-            "text": "A student wants to understand if a region is experiencing unusual temperatures. Which measurement would be most helpful in determining this?",
+            "text": "The Atacama Desert is known to be the driest place on Earth that is inhabited by humans. What characteristic best explains why this desert has such little rainfall?",
             "options": [
                 {
-                    "text": "The temperature for the past 3 days",
+                    "text": "It has very high temperatures year-round",
                     "isCorrect": 0,
-                    "explanation": "This is too short a time period and only shows weather variations, not whether the temperatures are truly unusual for that region."
+                    "explanation": "High temperatures alone don't explain the extreme lack of rainfall. Many hot regions still receive significant precipitation."
                 },
                 {
-                    "text": "The average temperatures recorded over the past 10 years",
+                    "text": "It has only received rain four times in nearly four decades",
+                    "isCorrect": 0,
+                    "explanation": "This is actually a result of the dry climate, not the cause of it. This observation describes the effect of the climate conditions rather than explaining why the desert is so dry."
+                },
+                {
+                    "text": "It has climate conditions similar to Mars",
+                    "isCorrect": 0,
+                    "explanation": "While the Atacama Desert does have conditions similar to Mars, this is a comparison rather than an explanation for why it receives so little rainfall."
+                },
+                {
+                    "text": "It has consistent weather patterns that prevent rainfall",
                     "isCorrect": 1,
-                    "explanation": "Long-term temperature records over many years help identify the climate pattern and can show if current temperatures are unusual compared to the typical pattern."
-                },
-                {
-                    "text": "Yesterday's highest and lowest temperatures",
-                    "isCorrect": 0,
-                    "explanation": "A single day's temperature range only shows weather variation and cannot indicate if temperatures are unusual for that region."
-                },
-                {
-                    "text": "The temperature forecast for next week",
-                    "isCorrect": 0,
-                    "explanation": "Weather forecasts are short-term predictions and don't help determine if temperatures are unusual compared to the typical pattern."
+                    "explanation": "Correct! The Atacama Desert's extremely dry climate is due to consistent weather patterns that prevent rainfall, including the rain shadow effect of the Andes Mountains (which blocks moisture from the Amazon), the cold Humboldt Current offshore (which reduces evaporation and stabilizes the air), and persistent high pressure systems that inhibit precipitation."
                 }
             ],
-            "funFact": "The longest continuous temperature record in the world comes from the Central England Temperature dataset, which has daily measurements dating back to 1772, helping scientists understand climate patterns over centuries!"
+            "funFact": "The Atacama Desert is so dry that some weather stations in the region have never recorded any rainfall at all! Scientists even test Mars rovers here because the conditions are the closest they can find on Earth to those on Mars."
         },
         {
             "id": 2,
-            "text": "Which of the following best describes the characteristics of polar climates?",
+            "text": "Why do meteorologists collect and study weather data over many years instead of just looking at current conditions?",
             "options": [
                 {
-                    "text": "Very cold temperatures with snow and ice covering the land",
+                    "text": "To understand climate patterns and make predictions about seasonal weather",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes polar climates, which are characterized by extremely cold temperatures and permanent snow and ice cover."
+                    "explanation": "Collecting data over many years helps identify long-term patterns and typical conditions for each season, which helps distinguish between normal weather variations and significant climate changes."
                 },
                 {
-                    "text": "Warm temperatures year-round with frequent rainfall",
+                    "text": "To keep their weather instruments calibrated",
                     "isCorrect": 0,
-                    "explanation": "This describes tropical climates near the equator, not polar climates which are extremely cold."
+                    "explanation": "Weather instruments are calibrated through regular maintenance and testing, not through long-term data collection."
                 },
                 {
-                    "text": "Hot summers and mild winters with moderate rainfall",
+                    "text": "To determine what the weather will be like tomorrow",
                     "isCorrect": 0,
-                    "explanation": "This describes subtropical climates, not polar climates which remain cold throughout the year."
+                    "explanation": "Daily weather forecasts primarily rely on current conditions and recent weather patterns, not long-term historical data."
                 },
                 {
-                    "text": "Dry conditions with very little precipitation all year",
+                    "text": "To record the highest and lowest temperatures ever",
                     "isCorrect": 0,
-                    "explanation": "This describes desert climates, not polar climates which are characterized by cold temperatures and snow cover."
+                    "explanation": "While extreme temperatures are recorded, the main purpose of long-term data collection is to understand typical patterns, not just record extremes."
                 }
             ],
-            "funFact": "Antarctica's interior is considered a frozen desert, receiving very little precipitation - typically less than 10 inches per year. The extremely cold temperatures mean that what little moisture falls remains frozen, accumulating over thousands of years to form thick ice sheets."
+            "funFact": "The longest continuous weather record in the world comes from the Radcliffe Observatory in Oxford, England, which has been recording daily temperature and rainfall since 1815, helping scientists understand climate changes over two centuries!"
         },
         {
             "id": 3,
-            "text": "How do satellites help meteorologists predict the weather?",
-            "options": [
-                {
-                    "text": "They track weather patterns and provide data to computers for analysis",
-                    "isCorrect": 1,
-                    "explanation": "Satellites help track weather patterns from space and send this data to computers, allowing meteorologists to analyze large-scale weather movements and make accurate forecasts."
-                },
-                {
-                    "text": "They directly create weather forecasts without human input",
-                    "isCorrect": 0,
-                    "explanation": "While satellites provide important data, they don't create forecasts on their own. Meteorologists need to interpret the data and use their expertise to make predictions."
-                },
-                {
-                    "text": "They only measure air temperature",
-                    "isCorrect": 0,
-                    "explanation": "Satellites do much more than just measure temperature - they track various weather patterns and conditions across large areas."
-                },
-                {
-                    "text": "They control the weather conditions",
-                    "isCorrect": 0,
-                    "explanation": "Satellites only observe and gather data about weather conditions - they cannot control or influence the weather itself."
-                }
-            ],
-            "funFact": "The first weather satellite, TIROS-1, was launched by NASA in 1960. Today, there are dozens of weather satellites orbiting Earth, taking over a million weather observations every day!"
-        },
-        {
-            "id": 4,
-            "text": "What is the main purpose of weather stations and what kind of data do they collect to help meteorologists make weather predictions?",
-            "options": [
-                {
-                    "text": "Weather stations combine multiple instruments to collect data on temperature, wind speed, air pressure, and precipitation",
-                    "isCorrect": 1,
-                    "explanation": "Weather stations use various instruments like thermometers, anemometers, barometers, and rain gauges to collect comprehensive weather data that helps predict weather patterns."
-                },
-                {
-                    "text": "Weather stations only measure temperature and rainfall to determine if it will be hot or rainy",
-                    "isCorrect": 0,
-                    "explanation": "This is incomplete - weather stations collect multiple types of data beyond just temperature and rainfall to make accurate predictions."
-                },
-                {
-                    "text": "Weather stations are just TV studios where meteorologists film their weather forecasts",
-                    "isCorrect": 0,
-                    "explanation": "While meteorologists present forecasts from studios, weather stations are scientific facilities that collect important weather data using various instruments."
-                },
-                {
-                    "text": "Weather stations only track clouds using satellite images to predict storms",
-                    "isCorrect": 0,
-                    "explanation": "While satellite data is useful, weather stations collect many types of ground-level data beyond just cloud tracking."
-                }
-            ],
-            "funFact": "The oldest continuously operating weather station in the world is the Hohenpei\u00dfenberg Meteorological Observatory in Germany, which has been collecting weather data since 1781 - that's over 240 years of weather records!"
-        },
-        {
-            "id": 5,
             "text": "What are the typical characteristics of a tropical climate near the Earth's equator?",
             "options": [
                 {
-                    "text": "Always warm temperatures with little seasonal variation, and typically high rainfall often with wet and dry seasons",
-                    "isCorrect": 1,
-                    "explanation": "Tropical climates near the equator maintain consistently warm temperatures throughout the year due to receiving direct sunlight year-round, and they typically receive high amounts of rainfall, often distributed in distinct wet and dry seasons rather than temperature-based seasons."
+                    "text": "Consistently cold temperatures year-round",
+                    "isCorrect": 0,
+                    "explanation": "This describes polar climates. Tropical regions near the equator are characterized by warm temperatures."
                 },
                 {
                     "text": "Extreme temperature changes between seasons",
@@ -130,71 +76,103 @@
                     "explanation": "This describes polar or subarctic climates. Tropical climates do not experience cold winters."
                 },
                 {
-                    "text": "Consistently cold temperatures year-round",
-                    "isCorrect": 0,
-                    "explanation": "This describes polar climates. Tropical regions near the equator are characterized by warm temperatures."
+                    "text": "Always warm temperatures with little seasonal variation, and typically high rainfall often with wet and dry seasons",
+                    "isCorrect": 1,
+                    "explanation": "Tropical climates near the equator maintain consistently warm temperatures throughout the year due to receiving direct sunlight year-round, and they typically receive high amounts of rainfall, often distributed in distinct wet and dry seasons rather than temperature-based seasons."
                 }
             ],
             "funFact": "The word 'tropical' comes from the ancient Greek word 'tropikos,' which refers to the Tropic of Cancer and Tropic of Capricorn - the two latitude lines that mark the boundaries of the area receiving direct sunlight during the year!"
         },
         {
-            "id": 6,
-            "text": "Which weather conditions would you typically expect to find in a tropical climate zone near the equator?",
+            "id": 4,
+            "text": "A student wants to understand if a region is experiencing unusual temperatures. Which measurement would be most helpful in determining this?",
             "options": [
                 {
-                    "text": "Consistently warm temperatures with frequent rainfall",
+                    "text": "Yesterday's highest and lowest temperatures",
+                    "isCorrect": 0,
+                    "explanation": "A single day's temperature range only shows weather variation and cannot indicate if temperatures are unusual for that region."
+                },
+                {
+                    "text": "The temperature for the past 3 days",
+                    "isCorrect": 0,
+                    "explanation": "This is too short a time period and only shows weather variations, not whether the temperatures are truly unusual for that region."
+                },
+                {
+                    "text": "The average temperatures recorded over the past 10 years",
                     "isCorrect": 1,
-                    "explanation": "Tropical climates near the equator are characterized by warm temperatures throughout the year and regular precipitation patterns."
+                    "explanation": "Long-term temperature records over many years help identify the climate pattern and can show if current temperatures are unusual compared to the typical pattern."
                 },
                 {
-                    "text": "Extremely cold temperatures with constant snow",
+                    "text": "The temperature forecast for next week",
                     "isCorrect": 0,
-                    "explanation": "These conditions are typical of polar climates, not tropical zones near the equator."
-                },
-                {
-                    "text": "Hot summers and freezing winters",
-                    "isCorrect": 0,
-                    "explanation": "This describes a temperate climate with distinct seasons, not a tropical climate which maintains relatively consistent temperatures year-round."
-                },
-                {
-                    "text": "Very dry conditions with little to no rainfall",
-                    "isCorrect": 0,
-                    "explanation": "These conditions are more characteristic of desert climates, not tropical regions which typically receive significant rainfall."
+                    "explanation": "Weather forecasts are short-term predictions and don't help determine if temperatures are unusual compared to the typical pattern."
                 }
             ],
-            "funFact": "The Amazon rainforest, located in a tropical climate zone, creates its own weather patterns! The trees release so much water vapor that they generate their own rainfall through a process called transpiration, creating up to 50% of the region's precipitation."
+            "funFact": "The longest continuous temperature record in the world comes from the Central England Temperature dataset, which has daily measurements dating back to 1772, helping scientists understand climate patterns over centuries!"
+        },
+        {
+            "id": 5,
+            "text": "Which of the following best describes the characteristics of polar climates?",
+            "options": [
+                {
+                    "text": "Dry conditions with very little precipitation all year",
+                    "isCorrect": 0,
+                    "explanation": "This describes desert climates, not polar climates which are characterized by cold temperatures and snow cover."
+                },
+                {
+                    "text": "Hot summers and mild winters with moderate rainfall",
+                    "isCorrect": 0,
+                    "explanation": "This describes subtropical climates, not polar climates which remain cold throughout the year."
+                },
+                {
+                    "text": "Warm temperatures year-round with frequent rainfall",
+                    "isCorrect": 0,
+                    "explanation": "This describes tropical climates near the equator, not polar climates which are extremely cold."
+                },
+                {
+                    "text": "Very cold temperatures with snow and ice covering the land",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes polar climates, which are characterized by extremely cold temperatures and permanent snow and ice cover."
+                }
+            ],
+            "funFact": "Antarctica's interior is considered a frozen desert, receiving very little precipitation - typically less than 10 inches per year. The extremely cold temperatures mean that what little moisture falls remains frozen, accumulating over thousands of years to form thick ice sheets."
+        },
+        {
+            "id": 6,
+            "text": "A meteorologist collected wind direction data for a coastal city over different seasons. Here's what they found for each season:\n\nSpring: NW, NW, W, NW, W, NW, NW, W, NW, NW\nSummer: SW, S, SW, S, SW, SW, S, SW, S, SW\nFall: SE, E, SE, SE, E, SE, E, SE, SE, E\nWinter: NW, NW, N, NW, N, NW, NW, N, NW, N\n\nWhat is the predominant (most common) wind direction in Summer?",
+            "options": [
+                {
+                    "text": "South (S)",
+                    "isCorrect": 0,
+                    "explanation": "While South (S) does appear in the summer data, it only shows up 4 times, less frequently than Southwest (SW)."
+                },
+                {
+                    "text": "Southeast (SE)",
+                    "isCorrect": 0,
+                    "explanation": "Southeast (SE) is the predominant wind direction in fall, not summer."
+                },
+                {
+                    "text": "Northwest (NW)",
+                    "isCorrect": 0,
+                    "explanation": "Northwest (NW) is actually the predominant wind direction in winter and spring, not summer."
+                },
+                {
+                    "text": "Southwest (SW)",
+                    "isCorrect": 1,
+                    "explanation": "Looking at the summer data, SW appears 6 times out of 10 measurements, making it the most common wind direction for summer."
+                }
+            ],
+            "funFact": "Wind patterns often change with seasons due to differences in heating and cooling between land and water. In many coastal areas, winds tend to blow onshore during summer days when the land heats up faster than the water, creating a sea breeze!"
         },
         {
             "id": 7,
-            "text": "A scientist is studying two cities - Miami and Phoenix. Miami experiences frequent rainfall throughout the year, while Phoenix receives very little rain. Based on this precipitation pattern, which statement about relative humidity is most likely true?",
-            "options": [
-                {
-                    "text": "Miami typically has higher relative humidity than Phoenix",
-                    "isCorrect": 1,
-                    "explanation": "Areas with frequent rainfall like Miami tend to have higher relative humidity because more water vapor is present in the air due to regular precipitation and evaporation."
-                },
-                {
-                    "text": "Phoenix typically has higher relative humidity than Miami",
-                    "isCorrect": 0,
-                    "explanation": "Phoenix receives very little rainfall and is located in a desert climate, which means there is less water vapor in the air, resulting in lower relative humidity."
-                },
-                {
-                    "text": "Both cities have the same relative humidity",
-                    "isCorrect": 0,
-                    "explanation": "Different precipitation patterns indicate different amounts of water vapor in the air, so these cities would not have the same relative humidity."
-                },
-                {
-                    "text": "Relative humidity cannot be predicted from precipitation patterns",
-                    "isCorrect": 0,
-                    "explanation": "Precipitation patterns are closely related to humidity levels - areas with more frequent rainfall typically have higher humidity due to more water vapor in the air."
-                }
-            ],
-            "funFact": "The Atacama Desert in Chile, one of the driest places on Earth, can go years without rainfall and has humidity levels close to 0%, while tropical rainforests can have humidity levels reaching 100%!"
-        },
-        {
-            "id": 8,
             "text": "A meteorologist recorded these measurements at a weather station on Tuesday:\nTemperature: 75\u00b0F\nWind speed: 5 mph\nBarometric pressure: 30.1 inches\n\nOn Wednesday, the measurements were:\nTemperature: 73\u00b0F\nWind speed: 8 mph\nBarometric pressure: 29.5 inches\n\nWhich change in measurements most likely indicates an approaching storm system?",
             "options": [
+                {
+                    "text": "All of these changes together are needed to indicate a storm",
+                    "isCorrect": 0,
+                    "explanation": "While multiple measurements can help predict weather, the pressure change alone is significant enough to indicate an approaching storm system."
+                },
                 {
                     "text": "The 2-degree drop in temperature",
                     "isCorrect": 0,
@@ -209,56 +187,68 @@
                     "text": "The 0.6 inch drop in barometric pressure",
                     "isCorrect": 1,
                     "explanation": "A significant drop in barometric pressure often indicates an approaching storm system, as lower pressure typically brings unsettled weather conditions."
-                },
-                {
-                    "text": "All of these changes together are needed to indicate a storm",
-                    "isCorrect": 0,
-                    "explanation": "While multiple measurements can help predict weather, the pressure change alone is significant enough to indicate an approaching storm system."
                 }
             ],
             "funFact": "The fastest recorded drop in barometric pressure in history occurred during a typhoon in the Pacific Ocean in 1979, when the pressure plummeted 2.42 inches in just 24 hours!"
         },
         {
-            "id": 9,
-            "text": "Looking at weather data for a coastal city in California over the past 10 years, summers have consistently shown average temperatures between 75-80\u00b0F with morning fog. Based on this pattern, which weather conditions are most likely for this coming summer?",
+            "id": 8,
+            "text": "A meteorologist is analyzing weather station data to predict an approaching storm. Which combination of instrument measurements would most reliably indicate that a storm is coming?",
             "options": [
                 {
-                    "text": "Average temperatures 75-80\u00b0F with morning fog",
+                    "text": "Rising temperature and increasing humidity",
+                    "isCorrect": 0,
+                    "explanation": "While humidity often increases before a storm, temperature changes alone are not reliable storm indicators. These measurements could simply indicate a warm front moving through."
+                },
+                {
+                    "text": "Rising temperature and clear skies",
+                    "isCorrect": 0,
+                    "explanation": "Rising temperature with clear skies usually indicates fair weather conditions and is not typically associated with approaching storms."
+                },
+                {
+                    "text": "Falling barometer reading and increasing wind speed",
                     "isCorrect": 1,
-                    "explanation": "Historical weather patterns are good predictors of future seasonal conditions. Since this pattern has been consistent for 10 years, it's most likely to continue."
+                    "explanation": "A falling barometer indicates decreasing air pressure, which often precedes storms. Combined with increasing wind speeds, these measurements are reliable indicators of an approaching storm system."
                 },
                 {
-                    "text": "Average temperatures 90-95\u00b0F with clear mornings",
+                    "text": "Steady barometer reading and calm winds",
                     "isCorrect": 0,
-                    "explanation": "This prediction ignores the established pattern of moderate temperatures and morning fog that has been consistent for many years in this coastal area."
-                },
-                {
-                    "text": "Average temperatures 60-65\u00b0F with afternoon thunderstorms",
-                    "isCorrect": 0,
-                    "explanation": "This prediction doesn't match the historical pattern and suggests conditions more typical of spring or fall rather than summer in this region."
-                },
-                {
-                    "text": "Average temperatures 85-90\u00b0F with high humidity",
-                    "isCorrect": 0,
-                    "explanation": "While these conditions might occur occasionally, they don't match the consistent pattern observed over the past decade in this coastal area."
+                    "explanation": "Steady barometer readings and calm winds typically indicate stable weather conditions, not an approaching storm."
                 }
             ],
-            "funFact": "Coastal fog, often called marine layer, forms when warm air meets cool ocean water. This natural air conditioning helps keep coastal areas cooler in summer than inland regions, sometimes creating temperature differences of 20\u00b0F or more between beaches and nearby inland areas!"
+            "funFact": "The word 'barometer' comes from the Greek words 'baros' meaning weight and 'metron' meaning measure. The first barometer was invented by Evangelista Torricelli in 1643, revolutionizing weather prediction by allowing scientists to measure atmospheric pressure changes!"
+        },
+        {
+            "id": 9,
+            "text": "A scientist is studying two cities - Miami and Phoenix. Miami experiences frequent rainfall throughout the year, while Phoenix receives very little rain. Based on this precipitation pattern, which statement about relative humidity is most likely true?",
+            "options": [
+                {
+                    "text": "Both cities have the same relative humidity",
+                    "isCorrect": 0,
+                    "explanation": "Different precipitation patterns indicate different amounts of water vapor in the air, so these cities would not have the same relative humidity."
+                },
+                {
+                    "text": "Phoenix typically has higher relative humidity than Miami",
+                    "isCorrect": 0,
+                    "explanation": "Phoenix receives very little rainfall and is located in a desert climate, which means there is less water vapor in the air, resulting in lower relative humidity."
+                },
+                {
+                    "text": "Miami typically has higher relative humidity than Phoenix",
+                    "isCorrect": 1,
+                    "explanation": "Areas with frequent rainfall like Miami tend to have higher relative humidity because more water vapor is present in the air due to regular precipitation and evaporation."
+                },
+                {
+                    "text": "Relative humidity cannot be predicted from precipitation patterns",
+                    "isCorrect": 0,
+                    "explanation": "Precipitation patterns are closely related to humidity levels - areas with more frequent rainfall typically have higher humidity due to more water vapor in the air."
+                }
+            ],
+            "funFact": "The Atacama Desert in Chile, one of the driest places on Earth, can go years without rainfall and has humidity levels close to 0%, while tropical rainforests can have humidity levels reaching 100%!"
         },
         {
             "id": 10,
             "text": "A city typically experiences temperatures around 85\u00b0F during summer days. One summer day, the temperature unexpectedly drops to 75\u00b0F. What does this temperature change represent?",
             "options": [
-                {
-                    "text": "A change in the city's climate",
-                    "isCorrect": 0,
-                    "explanation": "Climate refers to weather patterns over many years. A single day's temperature change is too brief to indicate climate change."
-                },
-                {
-                    "text": "A daily weather variation",
-                    "isCorrect": 1,
-                    "explanation": "This is a normal day-to-day weather fluctuation. While the climate determines typical summer temperatures around 85\u00b0F, individual days can be warmer or cooler."
-                },
                 {
                     "text": "The start of a new season",
                     "isCorrect": 0,
@@ -268,132 +258,78 @@
                     "text": "A permanent temperature shift",
                     "isCorrect": 0,
                     "explanation": "A single cooler day doesn't indicate a permanent change. Daily temperatures naturally fluctuate while staying within the typical range for that climate."
+                },
+                {
+                    "text": "A daily weather variation",
+                    "isCorrect": 1,
+                    "explanation": "This is a normal day-to-day weather fluctuation. While the climate determines typical summer temperatures around 85\u00b0F, individual days can be warmer or cooler."
+                },
+                {
+                    "text": "A change in the city's climate",
+                    "isCorrect": 0,
+                    "explanation": "Climate refers to weather patterns over many years. A single day's temperature change is too brief to indicate climate change."
                 }
             ],
             "funFact": "Temperature variations can be quite extreme! The greatest recorded temperature change in a 24-hour period occurred in Loma, Montana, where the temperature rose from -54\u00b0F to 49\u00b0F (a 103-degree change) on January 15, 1972."
         },
         {
             "id": 11,
-            "text": "A meteorologist recorded the following weather measurements in a city:\n- Average temperature: 85\u00b0F\n- Precipitation: 4.5 inches\n- Wind speed: 8 mph\n- Humidity: High\n- Many thunderstorms\nWhich season do these measurements most likely represent?",
-            "options": [
-                {
-                    "text": "Summer",
-                    "isCorrect": 1,
-                    "explanation": "High temperatures, significant precipitation, and frequent thunderstorms are typical characteristics of summer weather in many regions."
-                },
-                {
-                    "text": "Winter",
-                    "isCorrect": 0,
-                    "explanation": "Winter typically has much lower temperatures and precipitation often falls as snow rather than rain."
-                },
-                {
-                    "text": "Spring",
-                    "isCorrect": 0,
-                    "explanation": "While spring can have thunderstorms, the average temperature of 85\u00b0F is too high for typical spring weather."
-                },
-                {
-                    "text": "Fall",
-                    "isCorrect": 0,
-                    "explanation": "Fall temperatures are usually moderate, and thunderstorms are less frequent than in summer."
-                }
-            ],
-            "funFact": "The most active time for thunderstorms in North America is during the summer months. This is because thunderstorms need warm, moist air to form - conditions that are most common during summer afternoons and evenings."
-        },
-        {
-            "id": 12,
-            "text": "A meteorologist collected daily temperature readings in a coastal city throughout the year. The data showed the following patterns:\n\nSpring (March-May): Temperatures varied between 45\u00b0F and 75\u00b0F\nSummer (June-August): Temperatures stayed between 70\u00b0F and 80\u00b0F\nFall (September-November): Temperatures varied between 42\u00b0F and 70\u00b0F\nWinter (December-February): Temperatures stayed between 35\u00b0F and 45\u00b0F\n\nWhich season showed the most variable weather conditions in terms of temperature?",
-            "options": [
-                {
-                    "text": "Spring",
-                    "isCorrect": 1,
-                    "explanation": "Spring showed a temperature range of 30\u00b0F (from 45\u00b0F to 75\u00b0F), which is the largest variation among all seasons."
-                },
-                {
-                    "text": "Summer",
-                    "isCorrect": 0,
-                    "explanation": "Summer showed a temperature range of only 10\u00b0F (from 70\u00b0F to 80\u00b0F), which indicates relatively stable conditions."
-                },
-                {
-                    "text": "Fall",
-                    "isCorrect": 0,
-                    "explanation": "Fall showed a temperature range of 28\u00b0F (from 42\u00b0F to 70\u00b0F), which is slightly less than spring's range."
-                },
-                {
-                    "text": "Winter",
-                    "isCorrect": 0,
-                    "explanation": "Winter showed a temperature range of only 10\u00b0F (from 35\u00b0F to 45\u00b0F), indicating relatively stable cold conditions."
-                }
-            ],
-            "funFact": "Temperature variations in coastal areas are typically less extreme than inland areas because large bodies of water help moderate temperature changes. This effect is called maritime influence!"
-        },
-        {
-            "id": 13,
             "text": "Scientists collected annual rainfall data from two locations over 5 years:\n\nLocation A (Desert City):\n2019: 2.1 inches\n2020: 1.9 inches\n2021: 2.0 inches\n2022: 2.2 inches\n2023: 1.8 inches\n\nLocation B (Coastal Town):\n2019: 45 inches\n2020: 15 inches\n2021: 52 inches\n2022: 22 inches\n2023: 38 inches\n\nWhich location has more predictable precipitation patterns?",
             "options": [
-                {
-                    "text": "Location A (Desert City)",
-                    "isCorrect": 1,
-                    "explanation": "Location A shows very consistent rainfall amounts (between 1.8-2.2 inches) each year, making its precipitation pattern more predictable, even though the amount is low."
-                },
                 {
                     "text": "Location B (Coastal Town)",
                     "isCorrect": 0,
                     "explanation": "Location B shows large variations in rainfall (from 15 to 52 inches) between years, making its precipitation pattern less predictable, even though the amount is higher."
                 },
                 {
-                    "text": "Both locations are equally predictable",
-                    "isCorrect": 0,
-                    "explanation": "The data shows that Location A has much less variation between years compared to Location B, so they are not equally predictable."
-                },
-                {
                     "text": "Neither location is predictable",
                     "isCorrect": 0,
                     "explanation": "While Location B shows high variability, Location A shows a clear, predictable pattern with minimal variation between years."
+                },
+                {
+                    "text": "Location A (Desert City)",
+                    "isCorrect": 1,
+                    "explanation": "Location A shows very consistent rainfall amounts (between 1.8-2.2 inches) each year, making its precipitation pattern more predictable, even though the amount is low."
+                },
+                {
+                    "text": "Both locations are equally predictable",
+                    "isCorrect": 0,
+                    "explanation": "The data shows that Location A has much less variation between years compared to Location B, so they are not equally predictable."
                 }
             ],
             "funFact": "The Atacama Desert in Chile is so predictably dry that some weather stations there have never recorded any rainfall! Scientists use this predictable climate to test space equipment because the conditions are similar to Mars."
         },
         {
-            "id": 14,
-            "text": "Compare the following two regions:\nRegion A: Located near the equator, has year-round warm temperatures and frequent rainfall\nRegion B: Located near the North Pole, has long periods of extreme cold and snow\n\nWhich statement best explains why these regions have such different weather patterns?",
+            "id": 12,
+            "text": "Oymyakon experiences average winter temperatures of -59\u00b0F, but occasionally has days that are much warmer. Despite these warmer days, why is it still classified as having the coldest climate among inhabited places?",
             "options": [
                 {
-                    "text": "The equatorial region receives more direct sunlight throughout the year, while the polar region receives indirect sunlight at an angle",
+                    "text": "Because the warm days only occur during summer months",
+                    "isCorrect": 0,
+                    "explanation": "While seasonal variations exist, the classification is based on the overall temperature patterns throughout the year, not just summer temperatures."
+                },
+                {
+                    "text": "Because no other inhabited place has any days below -59\u00b0F",
+                    "isCorrect": 0,
+                    "explanation": "Other places may experience similarly cold individual days. The classification is based on long-term average temperatures, not single cold days."
+                },
+                {
+                    "text": "Because climate is determined by weather patterns over many years, not individual warm days",
                     "isCorrect": 1,
-                    "explanation": "Correct! The amount and angle of sunlight a region receives determines its climate. Equatorial regions receive direct sunlight year-round, leading to consistently warm temperatures, while polar regions receive indirect sunlight at an angle, resulting in colder temperatures."
+                    "explanation": "Climate is measured over long periods, typically years. Occasional warm days don't change the overall long-term pattern of extremely cold temperatures."
                 },
                 {
-                    "text": "The equatorial region has more clouds, while the polar region has clearer skies",
+                    "text": "Because weather reporters say it's the coldest place",
                     "isCorrect": 0,
-                    "explanation": "While cloud cover can affect daily weather, it's not the main reason for the different climates. The fundamental difference comes from the amount and angle of sunlight these regions receive."
-                },
-                {
-                    "text": "The equatorial region has more plants that make it warmer, while the polar region has ice that makes it colder",
-                    "isCorrect": 0,
-                    "explanation": "While vegetation and ice do influence local temperatures, they are results of the climate, not the primary cause. The main factor is the amount and angle of sunlight received."
-                },
-                {
-                    "text": "The equatorial region is closer to the sun, while the polar region is farther from the sun",
-                    "isCorrect": 0,
-                    "explanation": "This is a common misconception. The distance from the sun doesn't vary significantly between these regions. The key difference is the angle at which sunlight reaches these areas."
+                    "explanation": "Classifications are based on scientific data collected over many years, not on weather reports."
                 }
             ],
-            "funFact": "The temperature difference between the hottest and coldest places on Earth can be more than 180\u00b0F (100\u00b0C)! The highest temperature ever recorded was 134\u00b0F (56.7\u00b0C) in Death Valley, California, while the lowest was -128.6\u00b0F (-89.2\u00b0C) in Antarctica."
+            "funFact": "In Oymyakon, the ground is permanently frozen (permafrost) up to 450 meters (1,476 feet) deep, and residents must keep their cars running all day during winter to prevent the engines from freezing completely!"
         },
         {
-            "id": 15,
+            "id": 13,
             "text": "Why would scientists choose to test Mars rovers in the Atacama Desert of Chile rather than other locations on Earth?",
             "options": [
-                {
-                    "text": "The Atacama Desert experiences similar weather patterns and landscape conditions to Mars",
-                    "isCorrect": 1,
-                    "explanation": "The Atacama Desert has an extremely dry climate and terrain similar to Mars, making it an ideal location for testing Mars rovers in Earth-like conditions that most closely match the Martian environment."
-                },
-                {
-                    "text": "The Atacama Desert has the windiest conditions on Earth",
-                    "isCorrect": 0,
-                    "explanation": "While the Atacama Desert is very dry, Commonwealth Bay in Antarctica holds the record for windiest conditions with average wind speeds of 50 mph, not the Atacama Desert."
-                },
                 {
                     "text": "The Atacama Desert has extremely cold temperatures like Mars",
                     "isCorrect": 0,
@@ -403,9 +339,73 @@
                     "text": "The Atacama Desert has the most advanced weather stations",
                     "isCorrect": 0,
                     "explanation": "Weather stations are found globally and the presence of weather stations was not the reason for choosing the Atacama Desert. The similar climate and landscape to Mars were the key factors."
+                },
+                {
+                    "text": "The Atacama Desert experiences similar weather patterns and landscape conditions to Mars",
+                    "isCorrect": 1,
+                    "explanation": "The Atacama Desert has an extremely dry climate and terrain similar to Mars, making it an ideal location for testing Mars rovers in Earth-like conditions that most closely match the Martian environment."
+                },
+                {
+                    "text": "The Atacama Desert has the windiest conditions on Earth",
+                    "isCorrect": 0,
+                    "explanation": "While the Atacama Desert is very dry, Commonwealth Bay in Antarctica holds the record for windiest conditions with average wind speeds of 50 mph, not the Atacama Desert."
                 }
             ],
             "funFact": "The Atacama Desert is so dry that some weather stations there have never recorded any rainfall, and parts of the desert may not have received significant rainfall for over 500 years! These extreme conditions make it one of the most Mars-like places on Earth."
+        },
+        {
+            "id": 14,
+            "text": "Looking at the average monthly temperatures in Phoenix, Arizona over the past 10 years, which months typically show summer conditions with the highest temperatures?",
+            "options": [
+                {
+                    "text": "July and August",
+                    "isCorrect": 1,
+                    "explanation": "July and August consistently show the highest temperatures in Phoenix, representing typical summer conditions based on long-term temperature patterns."
+                },
+                {
+                    "text": "September and October",
+                    "isCorrect": 0,
+                    "explanation": "These months show declining temperatures as autumn approaches, not the peak temperatures characteristic of summer conditions."
+                },
+                {
+                    "text": "March and April",
+                    "isCorrect": 0,
+                    "explanation": "While temperatures start warming up in spring months like March and April, they don't reach the peak summer temperatures typical of July and August."
+                },
+                {
+                    "text": "May and June",
+                    "isCorrect": 0,
+                    "explanation": "Although May and June are warm months, the highest temperatures in Phoenix typically occur later in the summer during July and August."
+                }
+            ],
+            "funFact": "Phoenix, Arizona holds the record for the most days in a year above 100\u00b0F (37.8\u00b0C). In 2020, the city experienced 145 days of temperatures at or above 100\u00b0F, breaking the previous record of 143 days set in 1989!"
+        },
+        {
+            "id": 15,
+            "text": "A meteorologist recorded the following weather measurements in a city:\n- Average temperature: 85\u00b0F\n- Precipitation: 4.5 inches\n- Wind speed: 8 mph\n- Humidity: High\n- Many thunderstorms\nWhich season do these measurements most likely represent?",
+            "options": [
+                {
+                    "text": "Spring",
+                    "isCorrect": 0,
+                    "explanation": "While spring can have thunderstorms, the average temperature of 85\u00b0F is too high for typical spring weather."
+                },
+                {
+                    "text": "Summer",
+                    "isCorrect": 1,
+                    "explanation": "High temperatures, significant precipitation, and frequent thunderstorms are typical characteristics of summer weather in many regions."
+                },
+                {
+                    "text": "Fall",
+                    "isCorrect": 0,
+                    "explanation": "Fall temperatures are usually moderate, and thunderstorms are less frequent than in summer."
+                },
+                {
+                    "text": "Winter",
+                    "isCorrect": 0,
+                    "explanation": "Winter typically has much lower temperatures and precipitation often falls as snow rather than rain."
+                }
+            ],
+            "funFact": "The most active time for thunderstorms in North America is during the summer months. This is because thunderstorms need warm, moist air to form - conditions that are most common during summer afternoons and evenings."
         }
     ]
 }

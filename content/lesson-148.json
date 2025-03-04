@@ -4,125 +4,71 @@
     "questions": [
         {
             "id": 1,
-            "text": "What primarily determines whether a sound wave will be reflected or transmitted when it encounters a material?",
+            "text": "Which material property is most important for effective sound absorption in music studios?",
             "options": [
                 {
-                    "text": "The acoustic impedance mismatch between materials",
+                    "text": "Transparency",
+                    "isCorrect": 0,
+                    "explanation": "Transparency is related to light waves, not sound waves. It has little to do with a material's ability to absorb sound."
+                },
+                {
+                    "text": "Reflectivity",
+                    "isCorrect": 0,
+                    "explanation": "High reflectivity would actually be counterproductive in a music studio, as it would create unwanted echoes rather than absorbing the sound."
+                },
+                {
+                    "text": "Porosity",
                     "isCorrect": 1,
-                    "explanation": "When a sound wave encounters a boundary between two materials with different acoustic impedances, some energy is reflected and some is transmitted. The greater the difference in acoustic impedance (which depends on density and elastic properties), the more energy is reflected rather than transmitted."
+                    "explanation": "Porous materials like foam padding are most effective at absorbing sound waves because they have many small air pockets that convert sound energy into heat through friction."
                 },
                 {
-                    "text": "The color of the material",
+                    "text": "Low density",
                     "isCorrect": 0,
-                    "explanation": "The color of a material affects light waves but not sound waves. Sound wave behavior is determined by the wave's properties and the material's physical characteristics, not its color."
-                },
-                {
-                    "text": "The temperature of the material",
-                    "isCorrect": 0,
-                    "explanation": "While temperature can affect how waves travel through a medium, it is not the primary factor in determining whether a sound wave will be reflected or transmitted."
-                },
-                {
-                    "text": "The shape of the material",
-                    "isCorrect": 0,
-                    "explanation": "While the shape of a material can influence how waves are directed after reflection, it is not the primary factor in determining whether a wave will be reflected or transmitted in the first place."
+                    "explanation": "While density affects sound absorption, it's not the most important factor. Low density materials may actually allow sound to pass through rather than absorb it."
                 }
             ],
-            "funFact": "The principle of sound wave reflection and transmission is used in medical ultrasound imaging. The different densities of tissues in our body cause ultrasound waves to be reflected differently, allowing doctors to create detailed images of internal organs!"
+            "funFact": "Some of the most advanced music studios use specialized acoustic foam shaped into pyramids or wedges. This geometric design increases the surface area available for sound absorption and helps trap sound waves in the angles of the foam."
         },
         {
             "id": 2,
-            "text": "What is the key difference between sound waves and light waves in terms of their ability to travel?",
+            "text": "Which property of a sound wave determines how loud the sound is?",
             "options": [
                 {
-                    "text": "Sound waves require a medium to travel through, while light waves do not need a medium",
+                    "text": "Speed",
+                    "isCorrect": 0,
+                    "explanation": "The speed of a sound wave is determined by the medium it travels through and does not affect the loudness of the sound."
+                },
+                {
+                    "text": "Amplitude",
                     "isCorrect": 1,
-                    "explanation": "Sound waves must travel through matter (like air, water, or solids) to propagate, while light waves can travel through a vacuum, like space"
+                    "explanation": "The amplitude of a sound wave directly determines its loudness. Higher amplitude means more energy and therefore a louder sound."
                 },
                 {
-                    "text": "Light waves require a medium to travel through, while sound waves do not need a medium",
+                    "text": "Wavelength",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - it's actually the opposite. Sound waves need a medium, while light waves can travel through empty space"
+                    "explanation": "Wavelength determines the pitch of a sound, not its loudness. Longer wavelengths produce lower pitches while shorter wavelengths produce higher pitches."
                 },
                 {
-                    "text": "Both sound waves and light waves require a medium to travel through",
+                    "text": "Frequency",
                     "isCorrect": 0,
-                    "explanation": "While sound waves do require a medium, light waves can travel through empty space without needing any medium"
-                },
-                {
-                    "text": "Neither sound waves nor light waves require a medium to travel through",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because sound waves must have a medium to travel through, even though light waves can travel without one"
+                    "explanation": "Frequency determines the pitch of a sound, not its loudness. Higher frequencies produce higher pitches while lower frequencies produce lower pitches."
                 }
             ],
-            "funFact": "The speed of light in a vacuum is approximately 300,000 kilometers per second, making it the fastest-moving phenomenon in the universe. However, when light travels through different materials like water or glass, it actually slows down!"
+            "funFact": "The loudest sound ever recorded was the 1883 eruption of Krakatoa volcano in Indonesia. The explosion was so powerful that its sound waves circled Earth multiple times and were detected even 5 days after the initial explosion!"
         },
         {
             "id": 3,
-            "text": "When white light shines on a green leaf, what happens to the different wavelengths of light?",
-            "options": [
-                {
-                    "text": "The leaf absorbs all wavelengths except green, which is reflected",
-                    "isCorrect": 1,
-                    "explanation": "Leaves contain chlorophyll which absorbs red and blue wavelengths of light while reflecting green wavelengths, making leaves appear green to our eyes"
-                },
-                {
-                    "text": "The leaf reflects all wavelengths except green, which is absorbed",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - if green light was absorbed and all other colors reflected, the leaf would appear magenta (red + blue) to our eyes"
-                },
-                {
-                    "text": "The leaf transmits all wavelengths of light equally",
-                    "isCorrect": 0,
-                    "explanation": "Leaves do not transmit all wavelengths equally - they selectively absorb and reflect different wavelengths"
-                },
-                {
-                    "text": "The leaf converts all wavelengths into green light",
-                    "isCorrect": 0,
-                    "explanation": "Leaves cannot convert light from one wavelength to another - they can only absorb, reflect or transmit existing wavelengths"
-                }
-            ],
-            "funFact": "During autumn, as chlorophyll breaks down, other pigments like carotenoids become visible, causing leaves to appear yellow, orange, or red. These pigments were present all along but were masked by the abundant green chlorophyll!"
-        },
-        {
-            "id": 4,
-            "text": "When sound waves hit a foam padding in a recording studio, what happens to the wave's energy?",
-            "options": [
-                {
-                    "text": "The energy is converted into heat and other forms of energy",
-                    "isCorrect": 1,
-                    "explanation": "When sound waves are absorbed by foam padding, their energy is converted into thermal energy (heat) and other forms, reducing the amplitude of the wave"
-                },
-                {
-                    "text": "The energy completely disappears",
-                    "isCorrect": 0,
-                    "explanation": "Energy cannot disappear - it must be converted to other forms according to the law of conservation of energy"
-                },
-                {
-                    "text": "The energy bounces back unchanged",
-                    "isCorrect": 0,
-                    "explanation": "While some sound may reflect, foam padding primarily absorbs sound energy rather than reflecting it back"
-                },
-                {
-                    "text": "The energy passes straight through",
-                    "isCorrect": 0,
-                    "explanation": "Foam padding is designed to absorb sound energy rather than allow it to pass through as transmission"
-                }
-            ],
-            "funFact": "Concert halls often use specially designed acoustic panels that can absorb up to 100% of certain sound frequencies while reflecting others, allowing for optimal sound quality throughout the venue"
-        },
-        {
-            "id": 5,
             "text": "What does reverberation mean in the context of sound waves?",
             "options": [
-                {
-                    "text": "The continuous reflection of sound waves in an enclosed space, creating a prolonged sound effect",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Reverberation occurs when sound waves repeatedly bounce off surfaces in a space, causing the sound to persist even after the original source has stopped."
-                },
                 {
                     "text": "The complete absorption of sound waves by surfaces in a room",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Absorption reduces sound waves by converting them to heat energy, which is different from reverberation."
+                },
+                {
+                    "text": "The transmission of sound waves through walls and other barriers",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Transmission refers to sound waves passing through materials, not the repeated reflection that creates reverberation."
                 },
                 {
                     "text": "The initial reflection of a sound wave off a single surface",
@@ -130,156 +76,237 @@
                     "explanation": "This is incorrect. A single reflection is just an echo, while reverberation involves multiple ongoing reflections."
                 },
                 {
-                    "text": "The transmission of sound waves through walls and other barriers",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Transmission refers to sound waves passing through materials, not the repeated reflection that creates reverberation."
+                    "text": "The continuous reflection of sound waves in an enclosed space, creating a prolonged sound effect",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Reverberation occurs when sound waves repeatedly bounce off surfaces in a space, causing the sound to persist even after the original source has stopped."
                 }
             ],
             "funFact": "Concert halls are specifically designed to create optimal reverberation times - typically between 1.5 to 2.5 seconds for classical music. Too much reverberation can make speech unclear, while too little can make music sound flat and lifeless!"
         },
         {
-            "id": 6,
-            "text": "A concert hall designer wants to reduce echo during performances. Which material property would be most effective for the walls of the concert hall?",
+            "id": 4,
+            "text": "When someone yells 'Hello!' near a cliff face, they hear an echo a moment later. What is the main reason this echo occurs?",
             "options": [
                 {
-                    "text": "Soft, porous materials like foam padding",
+                    "text": "The sound waves are absorbed by the cliff and released later",
+                    "isCorrect": 0,
+                    "explanation": "When sound waves are absorbed, they are converted to other forms of energy like heat and do not create an echo."
+                },
+                {
+                    "text": "The sound waves are reflected off the dense cliff surface",
                     "isCorrect": 1,
-                    "explanation": "Soft, porous materials are excellent sound absorbers that convert sound wave energy into heat, reducing echo and reverberation."
+                    "explanation": "Sound waves bounce off dense surfaces like cliffs because the density is too high for the waves to pass through, causing them to reflect back to the listener as an echo."
                 },
                 {
-                    "text": "Smooth, hard surfaces like polished marble",
+                    "text": "The air molecules store the sound and release it later",
                     "isCorrect": 0,
-                    "explanation": "Smooth, hard surfaces reflect sound waves strongly, creating more echo and reverberation rather than reducing it."
+                    "explanation": "Air molecules don't store and release sound waves - they simply allow the waves to travel through them."
                 },
                 {
-                    "text": "Transparent materials like glass",
+                    "text": "The sound waves are transmitted through the cliff",
                     "isCorrect": 0,
-                    "explanation": "Glass surfaces are highly reflective to sound waves and would increase echo rather than reduce it."
-                },
-                {
-                    "text": "Metallic surfaces like aluminum panels",
-                    "isCorrect": 0,
-                    "explanation": "Metal surfaces are highly reflective to sound waves and would increase echo rather than absorb the sound."
+                    "explanation": "While some sound can be transmitted through materials, an echo occurs due to reflection, not transmission through the cliff."
                 }
             ],
-            "funFact": "The Royal Albert Hall in London originally had such severe echo problems that it was nicknamed the 'Giant Potato Crisp.' In 1969, large fiberglass acoustic diffusers were installed from the ceiling, nicknamed 'mushrooms,' which solved the acoustic issues."
+            "funFact": "The world's longest echo was recorded in an underground fuel depot in Scotland, where a single sound took 112 seconds to fade away completely!"
+        },
+        {
+            "id": 5,
+            "text": "What is the key difference between sound waves and light waves in terms of their ability to travel?",
+            "options": [
+                {
+                    "text": "Neither sound waves nor light waves require a medium to travel through",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because sound waves must have a medium to travel through, even though light waves can travel without one"
+                },
+                {
+                    "text": "Light waves require a medium to travel through, while sound waves do not need a medium",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - it's actually the opposite. Sound waves need a medium, while light waves can travel through empty space"
+                },
+                {
+                    "text": "Sound waves require a medium to travel through, while light waves do not need a medium",
+                    "isCorrect": 1,
+                    "explanation": "Sound waves must travel through matter (like air, water, or solids) to propagate, while light waves can travel through a vacuum, like space"
+                },
+                {
+                    "text": "Both sound waves and light waves require a medium to travel through",
+                    "isCorrect": 0,
+                    "explanation": "While sound waves do require a medium, light waves can travel through empty space without needing any medium"
+                }
+            ],
+            "funFact": "The speed of light in a vacuum is approximately 300,000 kilometers per second, making it the fastest-moving phenomenon in the universe. However, when light travels through different materials like water or glass, it actually slows down!"
+        },
+        {
+            "id": 6,
+            "text": "When a beam of white light shines through a piece of colored glass, what happens to the light waves?",
+            "options": [
+                {
+                    "text": "All wavelengths of light are transmitted equally through the glass",
+                    "isCorrect": 0,
+                    "explanation": "Colored glass selectively transmits and absorbs different wavelengths, not all wavelengths equally"
+                },
+                {
+                    "text": "The glass predominantly transmits wavelengths that correspond to its color while absorbing most other wavelengths",
+                    "isCorrect": 1,
+                    "explanation": "Colored glass allows through a range of wavelengths that match its apparent color, while substantially absorbing other wavelengths of light"
+                },
+                {
+                    "text": "All wavelengths of light are reflected off the glass surface",
+                    "isCorrect": 0,
+                    "explanation": "While some reflection occurs at the glass surface, this is not what gives colored glass its properties"
+                },
+                {
+                    "text": "The glass converts all wavelengths into the color we see",
+                    "isCorrect": 0,
+                    "explanation": "Glass does not convert wavelengths from one color to another - it selectively transmits and absorbs existing wavelengths"
+                }
+            ],
+            "funFact": "The stained glass windows in medieval cathedrals were created by adding different metal compounds to the glass during manufacturing - copper for red and green, cobalt for blue, and gold for deep ruby red colors. These metals cause the glass to selectively transmit specific wavelengths of light!"
         },
         {
             "id": 7,
             "text": "A student shouts towards two different surfaces - a smooth concrete wall and a wall covered with thick foam padding. What will happen to the sound wave properties when the wave reflects off each surface?",
             "options": [
                 {
-                    "text": "The wave reflected from concrete will maintain most of its amplitude, while the wave reflected from foam will have significantly reduced amplitude",
-                    "isCorrect": 1,
-                    "explanation": "Concrete is a dense material that reflects most sound energy, preserving wave amplitude. Foam padding absorbs much of the sound energy, resulting in a reflected wave with reduced amplitude."
-                },
-                {
                     "text": "Both surfaces will reflect the waves with the same amplitude as the original wave",
                     "isCorrect": 0,
                     "explanation": "Different materials interact with waves differently. Some materials like foam absorb more energy than others, reducing the amplitude of reflected waves."
                 },
                 {
-                    "text": "The wave reflected from foam will maintain its amplitude, while the wave reflected from concrete will have reduced amplitude",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Foam absorbs more sound energy than concrete, so waves reflected from foam will have lower amplitude than those reflected from concrete."
+                    "text": "The wave reflected from concrete will maintain most of its amplitude, while the wave reflected from foam will have significantly reduced amplitude",
+                    "isCorrect": 1,
+                    "explanation": "Concrete is a dense material that reflects most sound energy, preserving wave amplitude. Foam padding absorbs much of the sound energy, resulting in a reflected wave with reduced amplitude."
                 },
                 {
                     "text": "Neither surface will reflect any waves - all sound will be completely absorbed",
                     "isCorrect": 0,
                     "explanation": "While materials can absorb sound waves, they typically don't absorb 100% of the energy. Some portion of the wave is usually reflected, especially off dense materials like concrete."
+                },
+                {
+                    "text": "The wave reflected from foam will maintain its amplitude, while the wave reflected from concrete will have reduced amplitude",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Foam absorbs more sound energy than concrete, so waves reflected from foam will have lower amplitude than those reflected from concrete."
                 }
             ],
             "funFact": "Concert halls often use a combination of reflective and absorptive surfaces to create the perfect acoustic environment. Hard surfaces reflect sound to help it reach the audience, while strategic placement of absorptive materials prevents unwanted echoes!"
         },
         {
             "id": 8,
-            "text": "A drummer plays two different beats on their drum set. Beat A has higher amplitude waves than Beat B. Which statement correctly compares the energy transfer and sound experience between these two beats?",
+            "text": "When white light shines on a red balloon, what happens to the different wavelengths of light?",
             "options": [
                 {
-                    "text": "Beat A transfers more energy and sounds louder than Beat B",
+                    "text": "The balloon absorbs all wavelengths except red, which is reflected back to our eyes",
                     "isCorrect": 1,
-                    "explanation": "Higher amplitude waves transfer more energy, resulting in louder sounds. This is why Beat A, with higher amplitude waves, produces a louder sound than Beat B."
+                    "explanation": "Red objects appear red because they reflect red wavelengths while absorbing all other colors of light"
                 },
                 {
-                    "text": "Beat A transfers less energy and sounds quieter than Beat B",
+                    "text": "The balloon reflects all wavelengths of light equally",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. Higher amplitude waves (Beat A) transfer more energy, not less, and produce louder sounds, not quieter ones."
+                    "explanation": "If this were true, the balloon would appear white, not red"
                 },
                 {
-                    "text": "Both beats transfer the same amount of energy and sound equally loud",
+                    "text": "The balloon transmits red light and blocks all other wavelengths",
                     "isCorrect": 0,
-                    "explanation": "Different amplitudes result in different amounts of energy transfer. Since Beat A has higher amplitude, it transfers more energy and sounds louder than Beat B."
+                    "explanation": "The balloon is not transparent - it reflects red light rather than transmitting it through"
                 },
                 {
-                    "text": "The amplitude of the waves has no effect on energy transfer or loudness",
+                    "text": "The balloon absorbs red light and reflects all other wavelengths",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. Amplitude directly affects both energy transfer and loudness - higher amplitude waves transfer more energy and produce louder sounds."
+                    "explanation": "This is the opposite of what happens - we see red because red light is reflected, not absorbed"
                 }
             ],
-            "funFact": "The human ear can detect sound waves with amazingly small amplitudes - the smallest audible movement of your eardrum is about 1/100th the width of a hydrogen atom! This shows how sensitive our ears are to different wave amplitudes."
+            "funFact": "The longest visible wavelength of light is red (around 700 nanometers) while the shortest is violet (around 380 nanometers). This is why red light bends the least when passing through a prism, while violet bends the most!"
         },
         {
             "id": 9,
-            "text": "When a narrow beam of light travels from air into water and then into a glass block, which path will the light beam most likely follow?",
+            "text": "A scientist is studying light waves and observes that violet light has a wavelength of 380-450 nanometers while red light has a wavelength of 620-750 nanometers. Based on this information, what color would light with a wavelength of 500 nanometers most likely appear?",
             "options": [
                 {
-                    "text": "The light beam will bend toward the normal when entering water from air, and bend even more toward the normal when entering glass from water",
-                    "isCorrect": 1,
-                    "explanation": "Light slows down and bends toward the normal when entering a denser medium. Since glass is denser than water, which is denser than air, the light beam bends progressively more toward the normal at each interface."
+                    "text": "Red",
+                    "isCorrect": 0,
+                    "explanation": "Red light has a much longer wavelength (620-750 nm) than 500 nm. This wavelength would produce a different color."
                 },
+                {
+                    "text": "Violet",
+                    "isCorrect": 0,
+                    "explanation": "Violet light has a much shorter wavelength (380-450 nm) than 500 nm. This wavelength would produce a different color."
+                },
+                {
+                    "text": "Green",
+                    "isCorrect": 1,
+                    "explanation": "Light with wavelength around 500 nanometers appears green. This wavelength falls between violet (shorter wavelength) and red (longer wavelength) in the visible spectrum."
+                },
+                {
+                    "text": "White",
+                    "isCorrect": 0,
+                    "explanation": "White light is actually a combination of all visible wavelengths. A single wavelength of 500 nm would produce a specific color, not white light."
+                }
+            ],
+            "funFact": "The human eye can distinguish about 10 million different colors! This amazing ability helps us navigate our world and appreciate its beauty. However, some animals can see even more colors - for example, mantis shrimp can see twelve different color channels, compared to our three."
+        },
+        {
+            "id": 10,
+            "text": "When a narrow beam of light travels from air into water and then into a glass block, which path will the light beam most likely follow?",
+            "options": [
                 {
                     "text": "The light beam will travel in a straight line through all three media without bending",
                     "isCorrect": 0,
                     "explanation": "Light bends when it passes from one transparent medium to another due to the change in speed. It only travels in straight lines within a single medium."
                 },
                 {
-                    "text": "The light beam will bend away from the normal when entering water from air, and bend even more away from the normal when entering glass from water",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because light bends toward the normal when entering a denser medium, not away from it. Glass and water are both denser than air."
-                },
-                {
                     "text": "The light beam will bend toward the normal when entering water from air, but will bend away from the normal when entering glass from water",
                     "isCorrect": 0,
                     "explanation": "While the first part is correct, light will continue to bend toward the normal when entering glass from water because glass is even denser than water."
+                },
+                {
+                    "text": "The light beam will bend toward the normal when entering water from air, and bend even more toward the normal when entering glass from water",
+                    "isCorrect": 1,
+                    "explanation": "Light slows down and bends toward the normal when entering a denser medium. Since glass is denser than water, which is denser than air, the light beam bends progressively more toward the normal at each interface."
+                },
+                {
+                    "text": "The light beam will bend away from the normal when entering water from air, and bend even more away from the normal when entering glass from water",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because light bends toward the normal when entering a denser medium, not away from it. Glass and water are both denser than air."
                 }
             ],
             "funFact": "This bending of light as it passes through different materials is called refraction. This principle is what makes fiber optic cables possible - they use total internal reflection to guide light signals around corners and through long distances to provide high-speed internet and telecommunications!"
         },
         {
-            "id": 10,
-            "text": "In a large empty concert hall, a musician plays a single note on their instrument. Why does the sound continue to be heard for several seconds after the note has stopped being played?",
+            "id": 11,
+            "text": "A city is planning to build a sound barrier along a busy highway to reduce noise pollution in nearby residential areas. Which material would be most effective for constructing this barrier?",
             "options": [
                 {
-                    "text": "The sound waves repeatedly reflect off surfaces in the hall, gradually losing energy through absorption",
+                    "text": "A thick concrete wall with a rough, textured surface",
                     "isCorrect": 1,
-                    "explanation": "This is reverberation - sound waves bounce off multiple surfaces, with each reflection losing some energy through absorption until the sound eventually dies out"
+                    "explanation": "A thick concrete wall with a rough surface is ideal for a sound barrier because it both reflects and absorbs sound waves. The dense material reflects many sound waves, while the textured surface helps absorb some of the sound energy, converting it to heat."
                 },
                 {
-                    "text": "The air molecules in the hall continue vibrating at the same frequency even after the source stops",
+                    "text": "A chain-link fence",
                     "isCorrect": 0,
-                    "explanation": "Air molecules don't continue vibrating on their own - they need ongoing energy from sound waves to maintain vibration"
+                    "explanation": "A chain-link fence has too many gaps that would allow sound waves to pass through easily. It lacks the density needed to reflect or absorb sound waves effectively."
                 },
                 {
-                    "text": "The original sound wave splits into multiple identical copies that each take different paths",
+                    "text": "A thin sheet of polished metal",
                     "isCorrect": 0,
-                    "explanation": "Sound waves don't split into copies - rather, a single wave can reflect off multiple surfaces in different directions"
+                    "explanation": "While metal reflects sound waves, a thin sheet would vibrate and transmit sound. The polished surface would mostly reflect sound waves rather than absorbing them, potentially creating echo problems."
                 },
                 {
-                    "text": "The sound waves get trapped in the hall and circle around continuously without losing energy",
+                    "text": "A clear glass panel",
                     "isCorrect": 0,
-                    "explanation": "Sound waves always lose some energy with each reflection and through air resistance - they cannot circle indefinitely"
+                    "explanation": "Glass is not an effective sound barrier as it tends to transmit and reflect sound waves rather than absorb them. It would also vibrate easily, potentially amplifying the sound."
                 }
             ],
-            "funFact": "The reverberation time of a room (time it takes for sound to decay by 60 decibels) varies greatly by venue - from about 1-2 seconds in concert halls to over 10 seconds in some cathedrals! This is why churches were historically excellent venues for choral music."
+            "funFact": "Modern sound barriers can reduce highway noise by up to 10 decibels, which makes the noise sound half as loud to the human ear. Some innovative sound barriers even incorporate solar panels, serving dual purposes of noise reduction and renewable energy generation!"
         },
         {
-            "id": 11,
+            "id": 12,
             "text": "In an aquarium, when white light passes through the water, you notice that blue light is more visible than other colors. What explains this phenomenon?",
             "options": [
                 {
-                    "text": "Water transmits blue wavelengths while absorbing most other colors",
-                    "isCorrect": 1,
-                    "explanation": "Water molecules are more likely to transmit blue wavelengths of light while absorbing longer wavelengths like red and orange, making blue light more visible in deep water"
+                    "text": "Blue light reflects more off the aquarium walls",
+                    "isCorrect": 0,
+                    "explanation": "The predominance of blue light in water is due to transmission properties, not reflection from aquarium walls"
                 },
                 {
                     "text": "Blue light has higher amplitude than other colors",
@@ -287,54 +314,22 @@
                     "explanation": "The visibility of blue light in water is not related to amplitude but rather to how different wavelengths interact with water molecules"
                 },
                 {
-                    "text": "Blue light reflects more off the aquarium walls",
-                    "isCorrect": 0,
-                    "explanation": "The predominance of blue light in water is due to transmission properties, not reflection from aquarium walls"
-                },
-                {
                     "text": "Water changes all light waves into blue wavelengths",
                     "isCorrect": 0,
                     "explanation": "Water does not convert light from one wavelength to another - it selectively transmits and absorbs different wavelengths"
+                },
+                {
+                    "text": "Water transmits blue wavelengths while absorbing most other colors",
+                    "isCorrect": 1,
+                    "explanation": "Water molecules are more likely to transmit blue wavelengths of light while absorbing longer wavelengths like red and orange, making blue light more visible in deep water"
                 }
             ],
             "funFact": "This same principle explains why the ocean appears blue! As sunlight penetrates deeper into the ocean, red light is absorbed first, followed by yellow and green, leaving primarily blue light at greater depths. This is why deep-sea creatures often appear red - in the blue-light environment, red objects appear black, helping them stay camouflaged."
         },
         {
-            "id": 12,
-            "text": "In which of the following situations would sound waves be most likely to reflect rather than be absorbed or transmitted?",
-            "options": [
-                {
-                    "text": "When traveling through a dense concrete wall",
-                    "isCorrect": 1,
-                    "explanation": "Dense materials like concrete have high density, making it difficult for sound waves to pass through or be absorbed. This leads to more reflection, creating echo effects."
-                },
-                {
-                    "text": "When traveling through foam padding",
-                    "isCorrect": 0,
-                    "explanation": "Foam padding is designed to absorb sound waves by converting their energy into heat, resulting in minimal reflection."
-                },
-                {
-                    "text": "When traveling through air",
-                    "isCorrect": 0,
-                    "explanation": "Air has low density and allows sound waves to travel through easily with minimal reflection or absorption."
-                },
-                {
-                    "text": "When traveling through fabric curtains",
-                    "isCorrect": 0,
-                    "explanation": "Fabric curtains tend to absorb sound waves due to their soft, porous nature, converting wave energy into other forms."
-                }
-            ],
-            "funFact": "The world's most echo-friendly location is the Inchindown Oil Tanks in Scotland, where a single sound can reverberate for up to 112 seconds due to extremely reflective surfaces and minimal absorption!"
-        },
-        {
             "id": 13,
             "text": "When a laser beam travels from air into a fish tank filled with water and then through a glass decoration inside the tank, how will its path be affected?",
             "options": [
-                {
-                    "text": "The beam will bend at both the air-water boundary and the water-glass boundary due to the different optical properties of each material",
-                    "isCorrect": 1,
-                    "explanation": "Light bends (refracts) when it passes from one transparent medium to another due to the change in speed of light in different materials."
-                },
                 {
                     "text": "The beam will travel in a perfectly straight line through all materials since light always travels in straight lines",
                     "isCorrect": 0,
@@ -349,63 +344,68 @@
                     "text": "The beam will be fully absorbed at the first boundary it encounters",
                     "isCorrect": 0,
                     "explanation": "Clear water and glass transmit most visible light rather than absorbing it, though some bending occurs at the boundaries."
+                },
+                {
+                    "text": "The beam will bend at both the air-water boundary and the water-glass boundary due to the different optical properties of each material",
+                    "isCorrect": 1,
+                    "explanation": "Light bends (refracts) when it passes from one transparent medium to another due to the change in speed of light in different materials."
                 }
             ],
             "funFact": "The bending of light as it passes through different materials is called refraction. This same phenomenon causes a pencil in a glass of water to appear broken at the water's surface, or makes swimming pools appear shallower than they really are!"
         },
         {
             "id": 14,
-            "text": "A music studio is being designed with special acoustic requirements. The walls are currently made of smooth, hard concrete which creates excessive echoes. How would replacing the concrete walls with thick foam padding affect the reverberation (repeated reflections) of sound in the studio?",
-            "options": [
-                {
-                    "text": "The reverberation would decrease because the foam padding would absorb more sound energy",
-                    "isCorrect": 1,
-                    "explanation": "Foam padding absorbs sound wave energy by converting it into heat, reducing the amount of sound that gets reflected and therefore reducing reverberation"
-                },
-                {
-                    "text": "The reverberation would increase because foam is softer than concrete",
-                    "isCorrect": 0,
-                    "explanation": "While foam is softer, this actually leads to more absorption rather than reflection, which reduces rather than increases reverberation"
-                },
-                {
-                    "text": "The reverberation would remain the same because sound waves travel through all materials equally",
-                    "isCorrect": 0,
-                    "explanation": "Different materials interact with sound waves differently - some reflect more while others absorb more, affecting the amount of reverberation"
-                },
-                {
-                    "text": "The reverberation would increase because foam traps sound waves inside the room",
-                    "isCorrect": 0,
-                    "explanation": "Foam doesn't trap sound waves - it absorbs their energy, converting it to heat and reducing reverberation"
-                }
-            ],
-            "funFact": "Concert halls often use adjustable panels that can be flipped between reflective and absorptive surfaces to fine-tune the acoustics based on the type of performance, from symphony orchestras to rock concerts!"
-        },
-        {
-            "id": 15,
             "text": "A concert venue has a thick concrete wall separating two performance spaces. When two bands are playing simultaneously, which sound waves are more likely to be heard through the wall in the adjacent space?",
             "options": [
-                {
-                    "text": "Low frequency (bass) sound waves",
-                    "isCorrect": 1,
-                    "explanation": "Low frequency sound waves have longer wavelengths that can more easily penetrate solid barriers like walls, which is why you often hear the bass from music in adjacent rooms."
-                },
                 {
                     "text": "High frequency (treble) sound waves",
                     "isCorrect": 0,
                     "explanation": "High frequency sound waves have shorter wavelengths and are more easily absorbed or reflected by solid barriers, making them less likely to penetrate through walls."
                 },
                 {
-                    "text": "Both high and low frequency waves equally",
-                    "isCorrect": 0,
-                    "explanation": "The transmission of sound waves through barriers depends significantly on their frequency, with lower frequency waves being more likely to pass through than higher frequency waves."
-                },
-                {
                     "text": "Neither high nor low frequency waves",
                     "isCorrect": 0,
                     "explanation": "While thick concrete walls provide substantial sound insulation, low frequency waves can still penetrate to some degree due to their longer wavelengths, though with reduced intensity."
+                },
+                {
+                    "text": "Low frequency (bass) sound waves",
+                    "isCorrect": 1,
+                    "explanation": "Low frequency sound waves have longer wavelengths that can more easily penetrate solid barriers like walls, which is why you often hear the bass from music in adjacent rooms."
+                },
+                {
+                    "text": "Both high and low frequency waves equally",
+                    "isCorrect": 0,
+                    "explanation": "The transmission of sound waves through barriers depends significantly on their frequency, with lower frequency waves being more likely to pass through than higher frequency waves."
                 }
             ],
             "funFact": "Recording studios often use multiple layers of different materials in their walls, including air gaps, to create more effective sound isolation than a single thick wall. This technique, called decoupling, helps prevent sound transmission between rooms more effectively than just using thick barriers."
+        },
+        {
+            "id": 15,
+            "text": "A music recording studio needs to minimize sound reflection and echo. Which material would be most effective for the walls of the recording studio?",
+            "options": [
+                {
+                    "text": "Foam padding with irregular surfaces",
+                    "isCorrect": 1,
+                    "explanation": "Foam padding with irregular surfaces is excellent at absorbing sound waves by converting their energy into heat, making it ideal for recording studios."
+                },
+                {
+                    "text": "Glass windows",
+                    "isCorrect": 0,
+                    "explanation": "Glass is highly reflective to sound waves and would create unwanted echoes in the recording studio."
+                },
+                {
+                    "text": "Polished wooden panels",
+                    "isCorrect": 0,
+                    "explanation": "Polished wood creates a reflective surface that would bounce sound waves around the room, causing unwanted echoes."
+                },
+                {
+                    "text": "Smooth metal panels",
+                    "isCorrect": 0,
+                    "explanation": "Smooth metal surfaces strongly reflect sound waves, creating echoes and reverberations that would interfere with recording quality."
+                }
+            ],
+            "funFact": "Professional recording studios often use specially designed acoustic panels that can absorb up to 99% of the sound that hits them, allowing for crystal-clear recordings without any unwanted reverberations!"
         }
     ]
 }

@@ -4,44 +4,71 @@
     "questions": [
         {
             "id": 1,
-            "text": "What happens when sugar is added to water and stirred?",
+            "text": "When a candle burns, what happens to the wax?",
             "options": [
                 {
-                    "text": "The sugar dissolves, forming a mixture where sugar is still present but not visible",
+                    "text": "The wax melts and evaporates as wax vapor",
+                    "isCorrect": 0,
+                    "explanation": "While the wax does melt, it doesn't simply evaporate as wax vapor. It undergoes a chemical reaction that changes it into different substances."
+                },
+                {
+                    "text": "The wax gets destroyed by the heat",
+                    "isCorrect": 0,
+                    "explanation": "Matter cannot be destroyed, only transformed. The wax undergoes a chemical change into other forms of matter."
+                },
+                {
+                    "text": "The wax transforms primarily into carbon dioxide and water vapor",
                     "isCorrect": 1,
-                    "explanation": "When sugar dissolves in water, the sugar molecules separate from each other and distribute evenly throughout the water. The sugar is still present as sugar molecules, just in a form we can't see with the naked eye."
+                    "explanation": "When candle wax burns, it undergoes a chemical reaction that primarily converts it into carbon dioxide gas and water vapor. With incomplete combustion, some carbon (soot) and carbon monoxide may also form. The total mass of all products equals the mass of the original wax."
                 },
                 {
-                    "text": "The sugar disappears completely and no longer exists",
+                    "text": "The wax completely disappears into nothing",
                     "isCorrect": 0,
-                    "explanation": "Matter cannot disappear or be destroyed. The sugar is still present in the water, just in a dissolved form."
-                },
-                {
-                    "text": "The sugar floats on top of the water without mixing",
-                    "isCorrect": 0,
-                    "explanation": "When properly stirred, sugar doesn't just float on top but dissolves throughout the water."
-                },
-                {
-                    "text": "The sugar turns into a new substance that is different from sugar",
-                    "isCorrect": 0,
-                    "explanation": "Dissolving is a physical change, not a chemical change. The sugar remains sugar, just in a dissolved form."
+                    "explanation": "Matter cannot disappear or be destroyed. It only changes form according to the Law of Conservation of Matter."
                 }
             ],
-            "funFact": "Hot water can dissolve more sugar than cold water! This is why hot drinks like tea and coffee can taste sweeter with the same amount of sugar compared to cold drinks."
+            "funFact": "The ancient Romans used tallow candles made from animal fat, which produced a lot of smoke when burned. Modern paraffin wax candles were first created in 1850 and produce much less smoke because they burn more cleanly!"
         },
         {
             "id": 2,
+            "text": "A student mixes 30 grams of sugar with 120 grams of water in a beaker. After stirring, the sugar seems to disappear completely. What should be the total weight of the sugar-water mixture?",
+            "options": [
+                {
+                    "text": "0 grams",
+                    "isCorrect": 0,
+                    "explanation": "Just because the sugar is not visible doesn't mean it has disappeared. The law of conservation of matter states that matter cannot be created or destroyed."
+                },
+                {
+                    "text": "30 grams",
+                    "isCorrect": 0,
+                    "explanation": "This represents only the weight of sugar. The total weight must include both the sugar and water, as neither has been lost."
+                },
+                {
+                    "text": "120 grams",
+                    "isCorrect": 0,
+                    "explanation": "This represents only the weight of water. Even though the sugar is no longer visible, its mass is still present in the mixture."
+                },
+                {
+                    "text": "150 grams",
+                    "isCorrect": 1,
+                    "explanation": "Since matter cannot be created or destroyed, the total weight must equal the sum of sugar (30g) and water (120g), which is 150g. The sugar has dissolved but is still present in the mixture."
+                }
+            ],
+            "funFact": "The process of sugar dissolving in water is so effective that a single teaspoon of sugar can dissolve completely in just a few tablespoons of warm water! This is why sugar dissolving in water is often used as a classic example of the conservation of matter in science classes."
+        },
+        {
+            "id": 3,
             "text": "Which of the following correctly describes the three main forms of matter?",
             "options": [
+                {
+                    "text": "Crystal, fluid, and steam - where matter disappears when changing forms",
+                    "isCorrect": 0,
+                    "explanation": "These are not the correct terms for the main forms of matter. Additionally, matter never disappears when changing forms - it is always conserved."
+                },
                 {
                     "text": "Solid, liquid, and gas - where matter can change from one form to another while maintaining its total mass",
                     "isCorrect": 1,
                     "explanation": "This is correct. Matter exists in three main forms - solid, liquid, and gas. Matter can change between these forms through processes like melting, freezing, or evaporation, but its total mass remains constant."
-                },
-                {
-                    "text": "Solid, liquid, and plasma - where matter is created or destroyed during changes",
-                    "isCorrect": 0,
-                    "explanation": "While plasma is a state of matter, it's not one of the three main forms. Additionally, matter cannot be created or destroyed during changes - it is conserved."
                 },
                 {
                     "text": "Solid, vapor, and gas - where solids can only change into gases directly",
@@ -49,161 +76,129 @@
                     "explanation": "Vapor is not a main form of matter - it's a gaseous state. Also, solids typically change to liquids before becoming gases, except in special cases like sublimation."
                 },
                 {
-                    "text": "Crystal, fluid, and steam - where matter disappears when changing forms",
+                    "text": "Solid, liquid, and plasma - where matter is created or destroyed during changes",
                     "isCorrect": 0,
-                    "explanation": "These are not the correct terms for the main forms of matter. Additionally, matter never disappears when changing forms - it is always conserved."
+                    "explanation": "While plasma is a state of matter, it's not one of the three main forms. Additionally, matter cannot be created or destroyed during changes - it is conserved."
                 }
             ],
             "funFact": "While we commonly discuss three main states of matter, scientists have actually discovered more states! Besides solid, liquid, and gas, there's plasma (like in stars), Bose-Einstein condensates (formed at extremely low temperatures), and even more exotic states of matter being studied."
         },
         {
-            "id": 3,
-            "text": "When a candle burns completely, what happens to the wax?",
-            "options": [
-                {
-                    "text": "The wax turns into carbon dioxide gas and water vapor",
-                    "isCorrect": 1,
-                    "explanation": "When a candle burns, the wax undergoes a chemical reaction, converting into carbon dioxide gas and water vapor. The matter isn't destroyed - it just changes form."
-                },
-                {
-                    "text": "The wax completely disappears and no longer exists",
-                    "isCorrect": 0,
-                    "explanation": "Matter cannot disappear or be destroyed. It only changes from one form to another during physical or chemical changes."
-                },
-                {
-                    "text": "The wax melts and seeps into the air as tiny invisible wax particles",
-                    "isCorrect": 0,
-                    "explanation": "While the wax does change form, it doesn't remain as wax particles. It undergoes a chemical reaction to form new substances - carbon dioxide and water vapor."
-                },
-                {
-                    "text": "The wax is converted into heat and light energy only",
-                    "isCorrect": 0,
-                    "explanation": "While burning does produce heat and light energy, the wax matter itself must be conserved and converts into new forms of matter - carbon dioxide and water vapor."
-                }
-            ],
-            "funFact": "A typical paraffin wax candle is made up of hydrogen and carbon atoms. When it burns completely, one candle can produce about 1.5 grams of water vapor for every gram of wax!"
-        },
-        {
             "id": 4,
-            "text": "When water is boiling in a pot with a lid on a stove, the amount of liquid water in the pot appears to decrease over time. What best explains this observation while following the law of conservation of matter?",
+            "text": "A student adds 10 grams of sugar to 100 grams of water and stirs until the sugar seems to disappear. What best explains what happened to the sugar?",
             "options": [
                 {
-                    "text": "The water molecules have been destroyed by the heat",
+                    "text": "The sugar escaped into the air as a gas",
                     "isCorrect": 0,
-                    "explanation": "Matter cannot be destroyed, only changed from one form to another. The water molecules are still present, just in a different form."
+                    "explanation": "Sugar does not turn into a gas when mixed with water at room temperature - it remains dissolved in the water as sugar molecules"
                 },
                 {
-                    "text": "The water has changed into water vapor and some escapes as steam around the lid",
+                    "text": "The sugar turned into water",
+                    "isCorrect": 0,
+                    "explanation": "Sugar doesn't transform into water when dissolved - it remains as sugar molecules spread throughout the water"
+                },
+                {
+                    "text": "The sugar molecules have dissolved in the water and are still present, just too small to see",
                     "isCorrect": 1,
-                    "explanation": "The water changes from liquid to gas (water vapor) during boiling, and some escapes around the lid. While the water in the pot decreases, the total matter in the universe remains conserved."
+                    "explanation": "When sugar dissolves, it breaks down into tiny molecules that spread evenly throughout the water while remaining intact - they're just too small to see with our eyes"
                 },
                 {
-                    "text": "The heat energy has transformed the water into pure energy",
+                    "text": "The sugar has been destroyed and no longer exists",
                     "isCorrect": 0,
-                    "explanation": "At normal temperatures and pressures, water does not transform into energy. It simply changes from liquid to gas while maintaining the same total mass."
-                },
-                {
-                    "text": "The water has completely vanished from the system",
-                    "isCorrect": 0,
-                    "explanation": "Matter cannot vanish or disappear. The water has simply changed its form from liquid to gas and some has escaped the pot, but the total amount of matter in the universe remains constant."
+                    "explanation": "Matter cannot be destroyed - the sugar still exists but has just changed form by dissolving into the water"
                 }
             ],
-            "funFact": "At sea level, water boils at 100\u00b0C (212\u00b0F), but on top of Mount Everest, where atmospheric pressure is much lower, water boils at only 70\u00b0C (158\u00b0F)! However, in both cases, the amount of matter remains constant during the phase change."
+            "funFact": "Scientists can use special techniques like evaporation to recover dissolved sugar from water, proving it was there all along! This process is actually how many sugar crystals are made for candy manufacturing."
         },
         {
             "id": 5,
-            "text": "A scientist is conducting an experiment where they mix baking soda and vinegar in a sealed container. They weigh the container and its contents before and after the reaction. What is the best way to show that matter is conserved in this reaction?",
+            "text": "Which of the following best defines matter?",
             "options": [
                 {
-                    "text": "Compare the total weight before and after the reaction - they should be the same",
+                    "text": "Anything that is solid or liquid",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because gases are also matter. All three states - solid, liquid, and gas - are forms of matter as they all have weight and take up space."
+                },
+                {
+                    "text": "Anything that can be touched or held",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because many forms of matter, especially gases, cannot be touched or held but still have weight and occupy space."
+                },
+                {
+                    "text": "Anything that has weight and takes up space",
                     "isCorrect": 1,
-                    "explanation": "Weighing before and after is the most reliable way to demonstrate conservation of matter, as the total mass stays constant even when substances change form."
+                    "explanation": "This is the correct definition of matter. All matter must have both mass (which gives it weight) and volume (which means it takes up space)."
                 },
                 {
-                    "text": "Look at the bubbles forming during the reaction - more bubbles mean more matter is being created",
+                    "text": "Anything that can be seen with our eyes",
                     "isCorrect": 0,
-                    "explanation": "Bubbles don't indicate creation of new matter - they are just carbon dioxide gas that formed from the original reactants changing form."
-                },
-                {
-                    "text": "Count how many new substances formed after the reaction",
-                    "isCorrect": 0,
-                    "explanation": "The number of new substances doesn't tell us about conservation of matter. Matter can change forms while the total amount stays constant."
-                },
-                {
-                    "text": "Measure how much foam is produced during the reaction",
-                    "isCorrect": 0,
-                    "explanation": "The amount of foam doesn't indicate conservation of matter - foam just appears larger due to trapped gas bubbles from the reaction."
+                    "explanation": "This is incorrect because many forms of matter, like gases and dissolved substances, cannot be seen with our eyes but are still matter because they have weight and take up space."
                 }
             ],
-            "funFact": "The reaction between baking soda and vinegar produces carbon dioxide gas - the same gas that makes soda fizzy! This is why the mixture bubbles and foams, but when contained in a sealed system, all that gas contributes to the total mass."
+            "funFact": "The air in an empty room may seem like nothing, but it actually has weight! A typical room (1000 cubic feet) contains about 75 pounds of air - that's about as heavy as a large adult dog!"
         },
         {
             "id": 6,
-            "text": "A student wants to investigate if matter is conserved when a candle burns. Which experimental setup would provide the most reliable evidence about conservation of matter during the burning process?",
+            "text": "A student conducted an experiment with dry ice (solid carbon dioxide). They placed 50 grams of dry ice in a sealed container and waited until it completely transformed into a gas. What would be the weight of the carbon dioxide gas after the transformation?",
             "options": [
                 {
-                    "text": "Place a burning candle on a scale in an open room and measure its weight change over time",
+                    "text": "25 grams",
                     "isCorrect": 0,
-                    "explanation": "This setup would not capture the gases produced during burning, leading to an apparent loss of mass as the products escape into the air"
+                    "explanation": "This is incorrect because no matter was lost during the phase change. Even though we can't see the gas, all 50 grams of carbon dioxide are still present in the container."
                 },
                 {
-                    "text": "Place a burning candle in a sealed glass container with oxygen and measure the total weight before and after burning",
+                    "text": "0 grams",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because matter cannot disappear. Though the dry ice seems to vanish as it turns to gas, the carbon dioxide is still present in the container, just in gaseous form."
+                },
+                {
+                    "text": "50 grams",
                     "isCorrect": 1,
-                    "explanation": "This setup captures all products of the reaction including gases, allowing accurate measurement of the total mass before and after the change"
+                    "explanation": "According to the law of conservation of matter, the total weight remains the same even when matter changes form. The dry ice changed from solid to gas, but all 50 grams remained in the sealed container."
                 },
                 {
-                    "text": "Weigh just the candle before lighting it and weigh what remains of the candle after it burns",
+                    "text": "75 grams",
                     "isCorrect": 0,
-                    "explanation": "This method only measures the solid candle and ignores the gases produced during burning, which are part of the total matter"
-                },
-                {
-                    "text": "Measure the height of the candle before and after burning to determine how much matter was lost",
-                    "isCorrect": 0,
-                    "explanation": "Height is not a measure of mass or matter - the same height of different materials can have different masses"
+                    "explanation": "This is incorrect because matter cannot be created during a phase change. The transformation from solid to gas doesn't add any new matter to the system."
                 }
             ],
-            "funFact": "When a candle burns, the wax doesn't actually disappear - it combines with oxygen from the air to form carbon dioxide and water vapor. A typical candle releases about 1.5 grams of carbon dioxide for every gram of wax burned!"
+            "funFact": "Dry ice is special because it skips the liquid phase entirely when it warms up - a process called sublimation. At normal atmospheric pressure, solid carbon dioxide turns directly into a gas at a temperature of -78.5\u00b0C (-109.3\u00b0F)!"
         },
         {
             "id": 7,
-            "text": "A student performs two experiments with sugar and water. In Experiment 1, they heat sugar water until all the water evaporates. In Experiment 2, they mix sugar and water until the sugar dissolves completely. The student records the weights during both experiments in the graphs below. Which graph accurately shows how the total weight changes during each experiment?",
+            "text": "A student conducted an experiment where they mixed 15 grams of sugar with 100 grams of water. After stirring well, the sugar seemed to disappear. The student then weighed the sugar-water mixture. What should be the weight of the mixture?",
             "options": [
                 {
-                    "text": "Experiment 1: Weight gradually decreases to just sugar weight\nExperiment 2: Weight stays constant at combined weight",
+                    "text": "115 grams",
                     "isCorrect": 1,
-                    "explanation": "In Experiment 1, water evaporates and escapes as gas, leaving only sugar behind. In Experiment 2, sugar dissolves but remains in the solution, so total weight stays constant."
+                    "explanation": "Since matter is conserved, the total weight after mixing equals the sum of the weights of sugar (15g) and water (100g), which is 115g."
                 },
                 {
-                    "text": "Experiment 1: Weight stays constant\nExperiment 2: Weight gradually decreases",
+                    "text": "More than 115 grams",
                     "isCorrect": 0,
-                    "explanation": "This option is incorrect. In Experiment 1, water evaporation causes weight to decrease, not stay constant as claimed. In Experiment 2, when sugar dissolves, the weight stays constant rather than decreasing as claimed in this option because the sugar remains in the solution even though it's no longer visible."
+                    "explanation": "This incorrectly suggests that mixing creates additional matter. The Law of Conservation of Matter states that matter cannot be created or destroyed in such changes."
                 },
                 {
-                    "text": "Both experiments show gradually decreasing weight",
+                    "text": "Less than 115 grams",
                     "isCorrect": 0,
-                    "explanation": "This reflects a common misconception that dissolved sugar 'disappears'. In Experiment 2, sugar remains in solution, maintaining constant total weight."
+                    "explanation": "This incorrectly suggests that some matter is lost during dissolution. The Law of Conservation of Matter states that matter cannot be created or destroyed in such changes."
                 },
                 {
-                    "text": "Both experiments show constant weight",
+                    "text": "100 grams",
                     "isCorrect": 0,
-                    "explanation": "While weight stays constant when sugar dissolves (Experiment 2), water evaporation in Experiment 1 causes weight loss."
+                    "explanation": "This incorrectly assumes that because the sugar is no longer visible, it doesn't contribute to the weight. The sugar is still present, just dissolved."
                 }
             ],
-            "funFact": "The process of a solid dissolving in liquid without changing total weight is crucial in nature - it's how minerals in soil dissolve in groundwater to nourish plants, while still conserving the total amount of matter in the ecosystem!"
+            "funFact": "The process of dissolving sugar in water is actually reversible! If you were to carefully evaporate the water, you could recover all the sugar crystals, and they would weigh exactly the same as before dissolving."
         },
         {
             "id": 8,
             "text": "In a science experiment, a student combines baking soda and vinegar in an open beaker. The initial total weight of baking soda and vinegar is 50 grams. After the reaction is complete, the student measures the weight again and finds it to be 46 grams. The same reaction is then performed in a sealed container, and the weight remains 50 grams. What explains the difference in the final weights between the open and sealed containers?",
             "options": [
                 {
-                    "text": "Matter was destroyed in the open container reaction",
+                    "text": "The scale was not working correctly",
                     "isCorrect": 0,
-                    "explanation": "Matter cannot be destroyed according to the Law of Conservation of Matter. The difference in weight has another explanation."
-                },
-                {
-                    "text": "Carbon dioxide gas escaped from the open container",
-                    "isCorrect": 1,
-                    "explanation": "When baking soda and vinegar react, they produce carbon dioxide gas. In an open container, this gas escapes into the air, reducing the measured weight. In a sealed container, all products including the gas remain contained."
+                    "explanation": "The difference in weights is not due to faulty measurement but is a result of the experimental setup and the properties of the reaction products."
                 },
                 {
                     "text": "The sealed container prevented the reaction from occurring",
@@ -211,54 +206,22 @@
                     "explanation": "The reaction occurs regardless of whether the container is sealed or not. Sealing the container only prevents the gaseous products from escaping."
                 },
                 {
-                    "text": "The scale was not working correctly",
+                    "text": "Carbon dioxide gas escaped from the open container",
+                    "isCorrect": 1,
+                    "explanation": "When baking soda and vinegar react, they produce carbon dioxide gas. In an open container, this gas escapes into the air, reducing the measured weight. In a sealed container, all products including the gas remain contained."
+                },
+                {
+                    "text": "Matter was destroyed in the open container reaction",
                     "isCorrect": 0,
-                    "explanation": "The difference in weights is not due to faulty measurement but is a result of the experimental setup and the properties of the reaction products."
+                    "explanation": "Matter cannot be destroyed according to the Law of Conservation of Matter. The difference in weight has another explanation."
                 }
             ],
             "funFact": "The reaction between baking soda and vinegar is similar to what happens in a fire extinguisher! Some fire extinguishers use sodium bicarbonate (baking soda) to produce carbon dioxide, which helps put out fires by displacing oxygen."
         },
         {
             "id": 9,
-            "text": "A student mixes 30 grams of salt with 200 grams of water in a beaker. After stirring, the salt seems to disappear completely. What will be the total weight of the salt water solution?",
-            "options": [
-                {
-                    "text": "230 grams",
-                    "isCorrect": 1,
-                    "explanation": "The salt dissolves in water but its mass is conserved. The total weight equals the sum of salt (30g) and water (200g)."
-                },
-                {
-                    "text": "200 grams",
-                    "isCorrect": 0,
-                    "explanation": "This answer incorrectly assumes that because the salt is no longer visible, it doesn't contribute to the total weight."
-                },
-                {
-                    "text": "Less than 230 grams",
-                    "isCorrect": 0,
-                    "explanation": "This answer incorrectly suggests that some matter is lost during dissolution. The Law of Conservation of Matter states that matter cannot be destroyed."
-                },
-                {
-                    "text": "More than 230 grams",
-                    "isCorrect": 0,
-                    "explanation": "This answer incorrectly suggests that dissolution creates additional matter. The Law of Conservation of Matter states that matter cannot be created."
-                }
-            ],
-            "funFact": "The Dead Sea contains so much dissolved salt (about 34%) that people can easily float in it! Despite all this dissolved salt being invisible, it adds significant weight to the water, making it much denser than regular ocean water."
-        },
-        {
-            "id": 10,
             "text": "A student weighs a candle and places it on a scale. The candle weighs 50 grams. The student lights the candle and lets it burn for 30 minutes in an open system (exposed to air). After extinguishing the flame, the candle now weighs 45 grams. In a second experiment, the same type of candle is burned inside a sealed glass container (closed system) for 30 minutes. What would happen to the total weight of the closed system?",
             "options": [
-                {
-                    "text": "The total weight would remain exactly 50 grams",
-                    "isCorrect": 1,
-                    "explanation": "In a closed system, the wax that burns turns into carbon dioxide and water vapor, but these products remain trapped inside the container. Since matter cannot be created or destroyed, the total weight stays the same."
-                },
-                {
-                    "text": "The total weight would decrease to 45 grams",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because unlike the open system where gases escape into the air, the closed system traps all products of burning, including gases. No matter is lost."
-                },
                 {
                     "text": "The total weight would increase due to the heat produced",
                     "isCorrect": 0,
@@ -268,95 +231,115 @@
                     "text": "The total weight would decrease to 0 grams as the candle burns completely",
                     "isCorrect": 0,
                     "explanation": "Even if the candle burns completely, the matter is converted to carbon dioxide and water vapor which remain in the closed container, maintaining the total weight."
+                },
+                {
+                    "text": "The total weight would decrease to 45 grams",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because unlike the open system where gases escape into the air, the closed system traps all products of burning, including gases. No matter is lost."
+                },
+                {
+                    "text": "The total weight would remain exactly 50 grams",
+                    "isCorrect": 1,
+                    "explanation": "In a closed system, the wax that burns turns into carbon dioxide and water vapor, but these products remain trapped inside the container. Since matter cannot be created or destroyed, the total weight stays the same."
                 }
             ],
             "funFact": "When a candle burns, it undergoes a process called combustion where the wax combines with oxygen from the air to produce carbon dioxide, water vapor, and heat energy. This is why a candle needs oxygen to keep burning - if you place a glass over a burning candle, it will eventually go out when it uses up the available oxygen!"
         },
         {
-            "id": 11,
-            "text": "A student conducted an experiment with vinegar and baking soda. Before mixing, the vinegar weighed 50 grams and the baking soda weighed 10 grams, for a total of 60 grams. After mixing them in a sealed container that captured all gases produced, the final mixture weighed 60 grams. What can we conclude from these measurements?",
+            "id": 10,
+            "text": "A student places 50 grams of ice in a sealed plastic container and lets it melt completely into liquid water. What will be the weight of the water in the container?",
             "options": [
                 {
-                    "text": "All of the original matter was conserved, just in different forms including the captured gas",
+                    "text": "More than 50 grams",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because no new matter is created during melting. The change from solid to liquid only affects the arrangement of water molecules, not their total mass."
+                },
+                {
+                    "text": "Less than 50 grams",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because no matter is lost during melting. While ice takes up more volume than water, its mass/weight remains constant during phase changes."
+                },
+                {
+                    "text": "50 grams",
                     "isCorrect": 1,
-                    "explanation": "The equal weights before and after (60g) show that no matter was lost - it just changed forms into liquid and gas"
+                    "explanation": "According to the law of conservation of matter, mass/weight is conserved during phase changes. When ice melts to water, only its form changes while the amount of matter remains the same."
                 },
                 {
-                    "text": "Some matter was destroyed during the bubbling reaction",
+                    "text": "0 grams",
                     "isCorrect": 0,
-                    "explanation": "Matter cannot be destroyed, only changed into different forms. The equal weights prove no matter was lost"
-                },
-                {
-                    "text": "New matter was created but then destroyed, resulting in the same weight",
-                    "isCorrect": 0,
-                    "explanation": "Matter cannot be created or destroyed, only changed into different forms like gas and liquid"
-                },
-                {
-                    "text": "The bubbles that formed contained no matter or weight",
-                    "isCorrect": 0,
-                    "explanation": "The bubbles contain carbon dioxide gas, which has mass and contributes to the total weight"
+                    "explanation": "This is incorrect because matter cannot disappear. While ice changes from solid to liquid, all the original matter remains in the container."
                 }
             ],
-            "funFact": "When vinegar and baking soda react, they produce carbon dioxide gas, water, and sodium acetate. Baking soda (sodium bicarbonate) can be used to put out small kitchen fires, and some fire extinguishers use similar compounds that release carbon dioxide to displace oxygen needed for combustion!"
+            "funFact": "Water is one of the few substances that expands when it freezes! While ice has a larger volume than liquid water, both states have exactly the same mass. This unique property is crucial for life on Earth, as it allows ice to float on water, protecting aquatic life below."
+        },
+        {
+            "id": 11,
+            "text": "A scientist boils 100 grams of water in an open container on a scale that has been zeroed to account for the container's weight. After all the water has boiled away, the scale shows a weight of 0 grams. What best explains why the total weight appears to have decreased?",
+            "options": [
+                {
+                    "text": "The heat from boiling eliminated the mass of the water",
+                    "isCorrect": 0,
+                    "explanation": "Heat cannot eliminate mass. It can only change the form of matter from one state to another."
+                },
+                {
+                    "text": "The water disappeared because it was magical",
+                    "isCorrect": 0,
+                    "explanation": "Changes in matter follow scientific principles. There is no magic involved - the water simply changed from liquid to gas form."
+                },
+                {
+                    "text": "The water molecules have been destroyed during boiling",
+                    "isCorrect": 0,
+                    "explanation": "Matter cannot be destroyed. The water molecules still exist but have changed from liquid to gas form."
+                },
+                {
+                    "text": "The water has transformed into water vapor that dispersed into the air",
+                    "isCorrect": 1,
+                    "explanation": "The water molecules changed from liquid to gas form and dispersed into the surrounding air. The total amount of matter is conserved, just in a different form."
+                }
+            ],
+            "funFact": "At sea level, water boils at 100\u00b0C (212\u00b0F), but on Mount Everest, where the air pressure is much lower, water boils at only 70\u00b0C (158\u00b0F)! This is why cooking at high altitudes takes longer."
         },
         {
             "id": 12,
-            "text": "A student burns a piece of paper weighing 10 grams and collects all the visible ash, which weighs 2 grams. What best explains why the ash weighs less than the original paper?",
+            "text": "A baker makes a loaf of bread using the following ingredients:\n- Flour: 250 grams\n- Water: 150 grams\n- Yeast: 10 grams\n- Salt: 5 grams\n\nAfter baking, the bread appears much larger than the original dough but weighs 385 grams. Which explanation best describes why the bread appears larger but weighs less than the total weight of ingredients (415 grams)?",
             "options": [
                 {
-                    "text": "Some of the paper's matter converted into invisible gases like carbon dioxide and water vapor during burning",
+                    "text": "The yeast ate some of the ingredients, making them vanish",
+                    "isCorrect": 0,
+                    "explanation": "While yeast does consume sugar from flour, it doesn't make ingredients vanish. It converts them into carbon dioxide gas and other substances, following conservation of matter."
+                },
+                {
+                    "text": "The ingredients magically transformed into a lighter substance during baking",
+                    "isCorrect": 0,
+                    "explanation": "Matter cannot magically disappear or become lighter. Any change in weight must be explained by physical or chemical changes, like evaporation."
+                },
+                {
+                    "text": "The heat destroyed some of the ingredients, making them disappear completely",
+                    "isCorrect": 0,
+                    "explanation": "Matter cannot be destroyed by heat. While heat can cause changes in form (like water evaporating), the matter still exists, just in a different form."
+                },
+                {
+                    "text": "Some of the water evaporated during baking, while air bubbles from the yeast made the bread appear larger",
                     "isCorrect": 1,
-                    "explanation": "When paper burns, much of its matter changes into invisible gases that escape into the air. These gases still have mass, following conservation of matter."
-                },
-                {
-                    "text": "The matter in the paper was destroyed by the fire",
-                    "isCorrect": 0,
-                    "explanation": "Matter cannot be destroyed, only changed from one form to another. The missing mass wasn't destroyed but converted to gases."
-                },
-                {
-                    "text": "The heat from burning made the paper's matter disappear",
-                    "isCorrect": 0,
-                    "explanation": "Heat can change matter's form but cannot make it disappear. The matter that seems missing was converted to gases."
-                },
-                {
-                    "text": "Some of the paper's matter turned into energy",
-                    "isCorrect": 0,
-                    "explanation": "While burning releases energy, the paper's matter doesn't turn into energy. The missing mass became gases."
+                    "explanation": "During baking, some water evaporates as steam, reducing the weight. The yeast produces carbon dioxide gas bubbles that make the bread rise and appear larger, but these air pockets don't add weight."
                 }
             ],
-            "funFact": "When wood burns in a campfire, about 96% of its mass gets converted into invisible gases, while only about 4% becomes visible ash!"
+            "funFact": "The tiny air bubbles that make bread light and fluffy are produced by yeast through a process called fermentation. A single teaspoon of active dry yeast contains over 100 billion living yeast cells, all working together to help the bread rise!"
         },
         {
             "id": 13,
-            "text": "A scientist conducted an experiment where she burned a candle in a sealed container. Before burning, the candle weighed 20 grams and the container with air weighed 150 grams (total 170 grams). After the candle burned for 30 minutes, she weighed everything again, including all gases in the sealed container. What would you expect the total weight to be after burning?",
-            "options": [
-                {
-                    "text": "170 grams",
-                    "isCorrect": 1,
-                    "explanation": "According to the Law of Conservation of Matter, the total weight remains the same. The wax changed into carbon dioxide and water vapor, but no matter was lost."
-                },
-                {
-                    "text": "150 grams",
-                    "isCorrect": 0,
-                    "explanation": "This answer assumes the candle completely disappeared. The candle matter actually converted to gases but wasn't lost."
-                },
-                {
-                    "text": "More than 170 grams",
-                    "isCorrect": 0,
-                    "explanation": "Matter cannot be created during burning. The apparent increase in volume from gases doesn't mean more matter was created."
-                },
-                {
-                    "text": "Less than 170 grams",
-                    "isCorrect": 0,
-                    "explanation": "This assumes some matter was destroyed during burning. Matter changes form but cannot be destroyed."
-                }
-            ],
-            "funFact": "When a candle burns, the wax doesn't just disappear - it undergoes a chemical reaction combining with oxygen from the air to form about 1.5 grams of carbon dioxide for every gram of wax burned!"
-        },
-        {
-            "id": 14,
             "text": "A student conducts an experiment to study sugar solutions. They create three solutions by dissolving different amounts of sugar in 100g of water each time:\nSolution A: 10g sugar + 100g water\nSolution B: 20g sugar + 100g water\nSolution C: 30g sugar + 100g water\n\nWhat will be the total mass of Solution C?",
             "options": [
+                {
+                    "text": "90 grams",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly assumes that some mass is lost during dissolution. The Law of Conservation of Matter states that mass is conserved."
+                },
+                {
+                    "text": "30 grams",
+                    "isCorrect": 0,
+                    "explanation": "This only accounts for the sugar mass and ignores the mass of water, which is also part of the solution."
+                },
                 {
                     "text": "130 grams",
                     "isCorrect": 1,
@@ -366,19 +349,36 @@
                     "text": "100 grams",
                     "isCorrect": 0,
                     "explanation": "This incorrectly assumes that the sugar disappears when dissolved. The sugar mass is still present even when we can't see it."
-                },
-                {
-                    "text": "30 grams",
-                    "isCorrect": 0,
-                    "explanation": "This only accounts for the sugar mass and ignores the mass of water, which is also part of the solution."
-                },
-                {
-                    "text": "90 grams",
-                    "isCorrect": 0,
-                    "explanation": "This incorrectly assumes that some mass is lost during dissolution. The Law of Conservation of Matter states that mass is conserved."
                 }
             ],
             "funFact": "The amount of sugar that can dissolve in water depends on temperature. Hot water can dissolve much more sugar than cold water - that's why hot tea or coffee is better for dissolving sugar!"
+        },
+        {
+            "id": 14,
+            "text": "A student measures 100 grams of ice and places it in a container on a scale. As the ice melts completely into liquid water and is then heated until it boils completely into water vapor (all captured in a sealed container), what will be the total mass throughout this process?",
+            "options": [
+                {
+                    "text": "The mass will decrease as ice melts into water",
+                    "isCorrect": 0,
+                    "explanation": "While ice changes to water, no matter is lost. The molecules are just arranged differently, with the same total mass."
+                },
+                {
+                    "text": "The mass will decrease to zero when water becomes vapor",
+                    "isCorrect": 0,
+                    "explanation": "Even though water vapor is invisible, in a sealed container its mass remains constant. The water molecules are just spread out more in gas form."
+                },
+                {
+                    "text": "The mass will increase as ice melts into water",
+                    "isCorrect": 0,
+                    "explanation": "Although liquid water takes up less volume than ice, the mass remains the same during melting. Volume change doesn't affect mass."
+                },
+                {
+                    "text": "100 grams throughout the entire process",
+                    "isCorrect": 1,
+                    "explanation": "According to the Law of Conservation of Matter, mass stays constant during phase changes. Whether the H2O is in solid, liquid, or gas form, its mass remains the same in a sealed container."
+                }
+            ],
+            "funFact": "While ice floats in water because it's less dense, it's one of the few substances that expands when it freezes. Most other substances contract and become more dense in their solid state!"
         },
         {
             "id": 15,
@@ -390,14 +390,14 @@
                     "explanation": "Since matter is conserved, the total weight will be the sum of sugar (30g) and water (200g), which is 230g. The sugar doesn't disappear when dissolved - it just changes form."
                 },
                 {
-                    "text": "200 grams",
-                    "isCorrect": 0,
-                    "explanation": "This answer incorrectly assumes that the sugar disappears when dissolved. The sugar is still present in the solution, just in a different form."
-                },
-                {
                     "text": "Less than 230 grams",
                     "isCorrect": 0,
                     "explanation": "This answer incorrectly suggests that some matter is lost during dissolving. The Law of Conservation of Matter states that matter cannot be destroyed during physical changes."
+                },
+                {
+                    "text": "200 grams",
+                    "isCorrect": 0,
+                    "explanation": "This answer incorrectly assumes that the sugar disappears when dissolved. The sugar is still present in the solution, just in a different form."
                 },
                 {
                     "text": "More than 230 grams",

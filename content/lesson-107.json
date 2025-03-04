@@ -4,44 +4,71 @@
     "questions": [
         {
             "id": 1,
-            "text": "What two essential things does a seedling need to grow into a healthy plant?",
+            "text": "A student placed a plant in a dark closet and watered it regularly. What will most likely happen to the plant?",
             "options": [
                 {
-                    "text": "Water and sunlight",
+                    "text": "The plant will grow but remain very small",
+                    "isCorrect": 0,
+                    "explanation": "Without sunlight, plants cannot make food at all, so they will not be able to grow even a small amount."
+                },
+                {
+                    "text": "The plant will grow faster in darkness",
+                    "isCorrect": 0,
+                    "explanation": "Plants cannot grow well in darkness. Sunlight is essential for plants to make food and grow."
+                },
+                {
+                    "text": "The plant will not grow because it lacks sunlight",
                     "isCorrect": 1,
-                    "explanation": "Seedlings need both water and sunlight to grow into healthy plants. Water provides necessary hydration for cellular processes, while sunlight enables photosynthesis which produces energy for the developing plant."
+                    "explanation": "Plants need both water and sunlight to grow. Without sunlight, the plant cannot make its own food and will not grow."
                 },
                 {
-                    "text": "Only water",
+                    "text": "The plant will grow normally because it has water",
                     "isCorrect": 0,
-                    "explanation": "While water is essential, seedlings also need sunlight to grow properly. Without sunlight, the plant cannot photosynthesize and produce its own food even if it has water."
-                },
-                {
-                    "text": "Only sunlight",
-                    "isCorrect": 0,
-                    "explanation": "Sunlight alone is not enough. Seedlings need water to maintain cellular processes and continue growing into healthy plants."
-                },
-                {
-                    "text": "Soil and air",
-                    "isCorrect": 0,
-                    "explanation": "While soil provides nutrients and air contains carbon dioxide needed for photosynthesis, the two most essential needs for seedling growth are water and sunlight. Some plants can even grow without soil in hydroponic systems if they have water and sunlight."
+                    "explanation": "Water alone is not enough for plant growth. Plants need both water and sunlight to grow and make their own food."
                 }
             ],
-            "funFact": "Before becoming seedlings, seeds require primarily water and oxygen to germinate. Once they sprout into seedlings, their needs change as they develop the ability to photosynthesize. The oldest known viable seed that was successfully germinated was a 2,000-year-old date palm seed discovered in Israel!"
+            "funFact": "Some plants that grow on the forest floor have adapted to very low light conditions, but even these shade-loving plants need some amount of sunlight to survive. No plant can grow in complete darkness!"
         },
         {
             "id": 2,
-            "text": "What is the main function of a plant's stem?",
+            "text": "How do plants contribute to the survival of animals in their environment?",
             "options": [
                 {
-                    "text": "To help the plant stand upright and support its leaves",
-                    "isCorrect": 1,
-                    "explanation": "The stem provides structural support to keep the plant upright and holds the leaves in position to receive sunlight"
+                    "text": "Plants only provide shelter to animals",
+                    "isCorrect": 0,
+                    "explanation": "While plants do provide shelter, they also produce oxygen and serve as food for many animals"
                 },
+                {
+                    "text": "Plants only provide food to animals",
+                    "isCorrect": 0,
+                    "explanation": "While plants are a food source, they also produce oxygen and provide shelter that animals need to survive"
+                },
+                {
+                    "text": "Plants provide oxygen for breathing and serve as food and shelter for animals",
+                    "isCorrect": 1,
+                    "explanation": "Plants help animals survive by producing oxygen through photosynthesis and providing food and shelter to many species"
+                },
+                {
+                    "text": "Plants only produce oxygen for animals",
+                    "isCorrect": 0,
+                    "explanation": "Plants do produce oxygen, but they also provide essential food and shelter for animals"
+                }
+            ],
+            "funFact": "A single large tree can produce enough oxygen in a day to support up to four people! This shows how important plants are for maintaining life on Earth."
+        },
+        {
+            "id": 3,
+            "text": "What is the main function of a plant's stem?",
+            "options": [
                 {
                     "text": "To absorb water from the soil",
                     "isCorrect": 0,
                     "explanation": "This is actually the function of roots, not the stem"
+                },
+                {
+                    "text": "To help the plant stand upright and support its leaves",
+                    "isCorrect": 1,
+                    "explanation": "The stem provides structural support to keep the plant upright and holds the leaves in position to receive sunlight"
                 },
                 {
                     "text": "To produce food for the plant",
@@ -57,196 +84,115 @@
             "funFact": "Some plants, like bamboo, can grow stems that are so strong they are used as building materials in construction! Bamboo stems can support structures like houses and bridges."
         },
         {
-            "id": 3,
-            "text": "What would happen to a plant if it receives too much water?",
-            "options": [
-                {
-                    "text": "The plant would develop root rot and health problems",
-                    "isCorrect": 1,
-                    "explanation": "Too much water causes root rot as the roots are deprived of oxygen. This leads to yellowing leaves, stunted growth, and other health issues as the damaged roots cannot absorb nutrients effectively."
-                },
-                {
-                    "text": "The plant would grow faster",
-                    "isCorrect": 0,
-                    "explanation": "More water does not mean faster growth. Plants need a balanced amount of water for healthy growth."
-                },
-                {
-                    "text": "The plant would need less sunlight",
-                    "isCorrect": 0,
-                    "explanation": "The amount of water a plant receives does not change its sunlight requirements. Plants always need adequate sunlight for photosynthesis."
-                },
-                {
-                    "text": "The plant would produce more flowers",
-                    "isCorrect": 0,
-                    "explanation": "Excess water actually hinders plant growth and flower production rather than promoting it."
-                }
-            ],
-            "funFact": "Different plants have evolved to survive in very different water conditions. Desert cacti can survive with very little water, while water lilies thrive when completely submerged. Each plant species has adapted to specific water requirements for optimal growth!"
-        },
-        {
             "id": 4,
-            "text": "Which of the following conditions will allow a plant to grow successfully?",
+            "text": "A squirrel living in a forest needs food to survive. What does it most likely eat?",
             "options": [
                 {
-                    "text": "Both water and sunlight",
+                    "text": "Only small insects",
+                    "isCorrect": 0,
+                    "explanation": "While squirrels do eat insects, they don't exclusively eat animal material. They also rely heavily on plant materials like nuts and seeds."
+                },
+                {
+                    "text": "Only nuts from trees",
+                    "isCorrect": 0,
+                    "explanation": "While squirrels do eat nuts, they don't limit their diet to just plant materials. They also consume small insects and other animal food sources."
+                },
+                {
+                    "text": "Only water and sunlight",
+                    "isCorrect": 0,
+                    "explanation": "Unlike plants that make their own food using water and sunlight, animals like squirrels must eat other organisms to get their food."
+                },
+                {
+                    "text": "Both nuts from trees and small insects",
                     "isCorrect": 1,
-                    "explanation": "Plants require both water and sunlight to grow and survive. Water helps transport nutrients, while sunlight enables plants to make their own food."
-                },
-                {
-                    "text": "Only water, no sunlight",
-                    "isCorrect": 0,
-                    "explanation": "Plants cannot survive with just water. Without sunlight, they cannot make their own food through photosynthesis."
-                },
-                {
-                    "text": "Only sunlight, no water",
-                    "isCorrect": 0,
-                    "explanation": "Plants cannot survive with just sunlight. Water is essential for transporting nutrients and maintaining plant structure."
-                },
-                {
-                    "text": "Neither water nor sunlight",
-                    "isCorrect": 0,
-                    "explanation": "Plants cannot survive without both water and sunlight, as these are essential requirements for plant growth and survival."
+                    "explanation": "Squirrels are omnivores that eat both plant materials like nuts and seeds, as well as small insects, making them both plant and animal eaters."
                 }
             ],
-            "funFact": "Some desert plants have adapted to store water in their thick leaves or stems, allowing them to survive long periods without rain. However, they still need sunlight to produce their food through photosynthesis!"
+            "funFact": "Squirrels have an amazing memory when it comes to food! They can remember the locations of thousands of nuts they've buried, and can even smell nuts buried under a foot of snow."
         },
         {
             "id": 5,
-            "text": "What is a key difference between how plants and animals get their food?",
+            "text": "A student is growing two different types of plants: a cactus and a fern. Which statement about watering these plants is correct?",
             "options": [
                 {
-                    "text": "Plants make their own food using water, light and air, while animals must eat their food",
+                    "text": "Neither plant needs water to grow",
+                    "isCorrect": 0,
+                    "explanation": "All plants need water to survive and grow, though the amount needed varies by plant type."
+                },
+                {
+                    "text": "Both plants should receive exactly the same amount of water",
+                    "isCorrect": 0,
+                    "explanation": "Different plants have different water needs. Giving the same amount of water to all plants can harm them."
+                },
+                {
+                    "text": "The cactus needs more water than the fern to stay healthy",
+                    "isCorrect": 0,
+                    "explanation": "Cacti have special adaptations to store water and survive in dry conditions. They need less water than ferns."
+                },
+                {
+                    "text": "The fern needs more water than the cactus to stay healthy",
                     "isCorrect": 1,
-                    "explanation": "Plants are unique because they can produce their own food through photosynthesis using water, sunlight, and air, while animals must consume other organisms for food"
-                },
-                {
-                    "text": "Plants eat soil while animals eat plants",
-                    "isCorrect": 0,
-                    "explanation": "Plants don't eat soil - they absorb water and nutrients from soil but make their own food using sunlight"
-                },
-                {
-                    "text": "Plants eat smaller plants while animals eat bigger plants",
-                    "isCorrect": 0,
-                    "explanation": "Plants don't eat other plants - they produce their own food through photosynthesis"
-                },
-                {
-                    "text": "Plants and animals both need to eat other living things",
-                    "isCorrect": 0,
-                    "explanation": "While animals must eat other organisms, plants make their own food and don't eat other living things"
+                    "explanation": "Ferns naturally grow in moist environments and need regular watering, while cacti have adapted to survive with less water."
                 }
             ],
-            "funFact": "The process of plants making their own food using sunlight is called photosynthesis. During this process, plants also produce oxygen as a byproduct, which most other living things need to breathe!"
+            "funFact": "Desert cacti have special stems that can expand like an accordion to store extra water during rainy periods. This stored water helps them survive for months without rainfall!"
         },
         {
             "id": 6,
-            "text": "A young scientist is studying different animals at the zoo. Here are the observations about what these animals eat:\n- Giraffe: Leaves and twigs from trees\n- Lion: Meat from zebras and antelopes\n- Bear: Fish, berries, and honey\n- Zebra: Grass and plants\nWhich animals get their food from both plants and other animals?",
+            "text": "A student is conducting an experiment with three identical plants. Plant A is watered daily with the right amount of water, Plant B receives too much water every day, and Plant C receives very little water once a week. Which plant is most likely to grow healthy and strong?",
             "options": [
                 {
-                    "text": "Only the bear",
+                    "text": "Plant C",
+                    "isCorrect": 0,
+                    "explanation": "Plants need regular water to grow. Too little water will prevent the plant from developing properly."
+                },
+                {
+                    "text": "All plants will grow equally well",
+                    "isCorrect": 0,
+                    "explanation": "Different amounts of water affect plant growth differently. Plants need the right balance of water to grow well."
+                },
+                {
+                    "text": "Plant A",
                     "isCorrect": 1,
-                    "explanation": "Bears eat both plant-based foods (berries, honey) and animal-based foods (fish), making them omnivores."
+                    "explanation": "Plants need the right amount of water to grow healthy. Too much or too little water can harm plant growth."
                 },
                 {
-                    "text": "The giraffe and zebra",
+                    "text": "Plant B",
                     "isCorrect": 0,
-                    "explanation": "Giraffes and zebras only eat plant material, making them herbivores, not animals that eat both plants and other animals."
-                },
-                {
-                    "text": "The lion",
-                    "isCorrect": 0,
-                    "explanation": "Lions only eat meat from other animals, making them carnivores, not animals that eat both plants and other animals."
-                },
-                {
-                    "text": "The giraffe and lion",
-                    "isCorrect": 0,
-                    "explanation": "Giraffes only eat plants (herbivores) and lions only eat other animals (carnivores). Neither eats both plants and animals."
+                    "explanation": "Too much water can stop a plant from growing properly and can even damage the roots."
                 }
             ],
-            "funFact": "Some animals can change their diet based on what's available. For example, red pandas primarily eat bamboo, but they will occasionally eat birds, eggs, and insects when bamboo is scarce!"
+            "funFact": "Some desert plants like cacti have adapted to survive with very little water by storing water in their thick stems, while water lilies have adapted to live in water all the time. Each plant species has evolved to need different amounts of water!"
         },
         {
             "id": 7,
-            "text": "Sarah noticed her houseplant wasn't growing well despite being in a nice pot with good soil and getting regular watering. What is most likely causing the plant's poor growth?",
+            "text": "In a desert environment, a cactus and a lizard live near each other. How do these organisms get the energy they need to survive?",
             "options": [
                 {
-                    "text": "The plant is kept in a dark closet",
+                    "text": "The cactus needs to find food while the lizard makes its own food using sunlight",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Plants like cacti make their own food using sunlight, while animals like lizards must find and eat food."
+                },
+                {
+                    "text": "Neither the cactus nor the lizard needs food to survive as long as they have water",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Both organisms need energy to survive - the cactus through making its own food and the lizard through eating other organisms."
+                },
+                {
+                    "text": "Both the cactus and the lizard need to find and eat food to survive",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Only animals need to find and eat food. Plants make their own food using sunlight."
+                },
+                {
+                    "text": "The cactus makes its own food using sunlight while the lizard must eat other organisms",
                     "isCorrect": 1,
-                    "explanation": "Even with adequate water, plants cannot grow without sunlight since they need both water and light to make their own food and grow properly."
-                },
-                {
-                    "text": "The plant is in a sunny window but hasn't been watered in weeks",
-                    "isCorrect": 0,
-                    "explanation": "This contradicts the information given in the question, which states that the plant is getting regular watering. Plants need both water and sunlight to grow and stay healthy."
-                },
-                {
-                    "text": "The plant has fresh soil but no fertilizer",
-                    "isCorrect": 0,
-                    "explanation": "While fertilizer can help plants grow better, the basic requirements for plant survival are water and sunlight. Lack of fertilizer alone wouldn't prevent growth, especially since the plant is getting water and we haven't established it lacks light."
-                },
-                {
-                    "text": "The plant is in a warm room but the pot is too small",
-                    "isCorrect": 0,
-                    "explanation": "While pot size can affect plant growth eventually, it's not as critical as the basic needs of water and sunlight for plant survival. Since the question states the plant is getting water, lack of light would be a more likely cause."
+                    "explanation": "Correct! Plants like cacti are producers that make their own food through photosynthesis using sunlight, while animals like lizards must consume other organisms for energy."
                 }
             ],
-            "funFact": "Some plants have adapted to grow in very low light conditions, like the Snake Plant and ZZ Plant, but even these plants need some light to survive. No plant can live in complete darkness forever!"
+            "funFact": "Desert cacti have evolved special features called stomata that only open at night to collect carbon dioxide for photosynthesis, helping them conserve water during hot days while still being able to make their food!"
         },
         {
             "id": 8,
-            "text": "A student is conducting an experiment with three identical sun-loving plants (such as sunflowers). She places Plant A in direct sunlight near a window, Plant B in a partially shaded corner of the room, and Plant C in a completely dark closet. All plants receive the same amount of water. After two weeks, which plant(s) will most likely survive and grow healthily?",
-            "options": [
-                {
-                    "text": "Only Plant A",
-                    "isCorrect": 1,
-                    "explanation": "Sun-loving plants need both water and direct sunlight to grow optimally. Only Plant A receives adequate sunlight for photosynthesis and healthy growth."
-                },
-                {
-                    "text": "Plant A and Plant B",
-                    "isCorrect": 0,
-                    "explanation": "While Plant B might survive, sun-loving plants require direct sunlight for optimal growth. The partial shade provides insufficient light for these particular plants to grow healthily long-term."
-                },
-                {
-                    "text": "All three plants",
-                    "isCorrect": 0,
-                    "explanation": "Plants cannot survive without light. Plant C in complete darkness will not survive even with adequate water, as light is essential for photosynthesis."
-                },
-                {
-                    "text": "None of the plants",
-                    "isCorrect": 0,
-                    "explanation": "Since all plants receive proper water and at least one plant (Plant A) receives adequate sunlight, this answer is incorrect. Plant A has all the necessary conditions for growth."
-                }
-            ],
-            "funFact": "Some plants have adapted to grow in very low light conditions, like those found on the forest floor. However, even these shade-tolerant plants need some amount of light to survive - no plant can live in complete darkness forever!"
-        },
-        {
-            "id": 9,
-            "text": "A student wants to grow a bean plant in three different setups:\nSetup 1: Plant in soil with water, kept in a dark closet\nSetup 2: Plant in soil with sunlight, but no water\nSetup 3: Plant in nutrient-rich water with sunlight, but no soil\n\nWhich setup will allow the bean plant to grow successfully?",
-            "options": [
-                {
-                    "text": "Setup 1",
-                    "isCorrect": 0,
-                    "explanation": "Without sunlight, the plant cannot make its own food, even if it has water and soil."
-                },
-                {
-                    "text": "Setup 2",
-                    "isCorrect": 0,
-                    "explanation": "Without water, the plant cannot survive, even if it has sunlight and soil."
-                },
-                {
-                    "text": "Setup 3",
-                    "isCorrect": 1,
-                    "explanation": "Plants can grow without soil as long as they have both water and sunlight, which are essential for survival."
-                },
-                {
-                    "text": "None of the setups",
-                    "isCorrect": 0,
-                    "explanation": "Setup 3 provides both water and sunlight, which are the essential requirements for plant growth. Soil is not absolutely necessary."
-                }
-            ],
-            "funFact": "Hydroponics is a method of growing plants without soil, where plants are grown in nutrient-rich water solutions. This technique is used to grow vegetables in space stations!"
-        },
-        {
-            "id": 10,
             "text": "A student wants to grow a new plant from a seed. Which combination of conditions will allow the seed to successfully grow into a healthy plant?",
             "options": [
                 {
@@ -273,72 +219,180 @@
             "funFact": "Some desert plants have adapted to grow in extremely low-water conditions by developing special features like thick, waxy leaves to retain water, but they still need some water and sunlight to survive!"
         },
         {
-            "id": 11,
-            "text": "Which group of animals gets their food only from eating plants?",
+            "id": 9,
+            "text": "A student is conducting an experiment with three identical sun-loving plants (such as sunflowers). She places Plant A in direct sunlight near a window, Plant B in a partially shaded corner of the room, and Plant C in a completely dark closet. All plants receive the same amount of water. After two weeks, which plant(s) will most likely survive and grow healthily?",
             "options": [
                 {
-                    "text": "Lions and tigers",
+                    "text": "All three plants",
                     "isCorrect": 0,
-                    "explanation": "Lions and tigers are carnivores that get their food by eating other animals, not plants."
+                    "explanation": "Plants cannot survive without light. Plant C in complete darkness will not survive even with adequate water, as light is essential for photosynthesis."
                 },
                 {
-                    "text": "Rabbits and deer",
+                    "text": "None of the plants",
+                    "isCorrect": 0,
+                    "explanation": "Since all plants receive proper water and at least one plant (Plant A) receives adequate sunlight, this answer is incorrect. Plant A has all the necessary conditions for growth."
+                },
+                {
+                    "text": "Only Plant A",
                     "isCorrect": 1,
-                    "explanation": "Rabbits and deer are herbivores that eat only plant material like leaves, grass, and fruits."
+                    "explanation": "Sun-loving plants need both water and direct sunlight to grow optimally. Only Plant A receives adequate sunlight for photosynthesis and healthy growth."
                 },
                 {
-                    "text": "Bears and raccoons",
+                    "text": "Plant A and Plant B",
                     "isCorrect": 0,
-                    "explanation": "Bears and raccoons are omnivores that eat both plants and other animals."
-                },
-                {
-                    "text": "Eagles and owls",
-                    "isCorrect": 0,
-                    "explanation": "Eagles and owls are carnivores that get their food by hunting and eating other animals."
+                    "explanation": "While Plant B might survive, sun-loving plants require direct sunlight for optimal growth. The partial shade provides insufficient light for these particular plants to grow healthily long-term."
                 }
             ],
-            "funFact": "Some herbivores like gorillas have very long digestive systems that can be up to 10 times their body length! This helps them break down tough plant material and get all the nutrients they need from their plant-based diet."
+            "funFact": "Some plants have adapted to grow in very low light conditions, like those found on the forest floor. However, even these shade-tolerant plants need some amount of light to survive - no plant can live in complete darkness forever!"
+        },
+        {
+            "id": 10,
+            "text": "Ms. Johnson's class is conducting an experiment to study plant growth. She has four identical plant seedlings and different growing conditions. Which growing condition would be best for the plant's survival?",
+            "options": [
+                {
+                    "text": "Place the plant in a sunny window but never water it",
+                    "isCorrect": 0,
+                    "explanation": "Even with plenty of sunlight, a plant cannot survive without water. Both water and light are essential for plant growth."
+                },
+                {
+                    "text": "Place the plant in a dark closet and never water it",
+                    "isCorrect": 0,
+                    "explanation": "This condition provides neither sunlight nor water, both of which are essential for plant survival. The plant would not be able to grow or survive."
+                },
+                {
+                    "text": "Place the plant in a sunny window and water it regularly",
+                    "isCorrect": 1,
+                    "explanation": "Plants need both sunlight and water to survive and grow. A sunny window provides light, and regular watering ensures the plant has enough water for healthy growth."
+                },
+                {
+                    "text": "Place the plant in a dark closet and water it regularly",
+                    "isCorrect": 0,
+                    "explanation": "While the plant would receive water, it would not get the sunlight it needs for survival. Plants cannot grow without light."
+                }
+            ],
+            "funFact": "Some plants have adapted to grow in extreme conditions! Desert cacti can survive with very little water, while deep-sea plants can grow with almost no sunlight. However, even these specialized plants still need some amount of both water and light to survive."
+        },
+        {
+            "id": 11,
+            "text": "A student is conducting an experiment with three identical plants. Plant A receives regular watering, Plant B receives excessive water daily, and Plant C receives no water at all. After two weeks, which outcome is most likely?",
+            "options": [
+                {
+                    "text": "All three plants will grow normally since they are receiving sunlight",
+                    "isCorrect": 0,
+                    "explanation": "While sunlight is essential, plants need both water and sunlight to survive. Without proper water balance, plants cannot grow normally even with adequate sunlight."
+                },
+                {
+                    "text": "Plant A will grow normally, Plant B will show signs of poor growth, and Plant C will wilt and die",
+                    "isCorrect": 1,
+                    "explanation": "Plants need the right amount of water to grow healthy. Too much water can harm root growth, while no water prevents the plant from carrying out essential life processes."
+                },
+                {
+                    "text": "Plant C will adapt and grow normally without water",
+                    "isCorrect": 0,
+                    "explanation": "Plants cannot survive without water as it is essential for photosynthesis and other life processes. No plant can adapt to completely survive without water."
+                },
+                {
+                    "text": "Plant B will grow the best because more water means better growth",
+                    "isCorrect": 0,
+                    "explanation": "Too much water can actually harm plants by preventing proper root development and causing root rot. Plants need a balanced amount of water for optimal growth."
+                }
+            ],
+            "funFact": "Desert plants like cacti have evolved special adaptations to store water for long periods, but even they need some water to survive. A cactus can store up to 90% of its weight in water during rainy periods!"
         },
         {
             "id": 12,
-            "text": "A student wants to grow plants using a hydroponics system where plants grow in water without soil. Which of the following statements correctly describes what the plants still need to grow successfully?",
+            "text": "A student is conducting an experiment with four identical plants in different conditions. Which condition would be best for the plant's growth?",
             "options": [
                 {
-                    "text": "The plants only need water since they are growing in a water-based system",
+                    "text": "Plant placed in a dark closet with daily watering",
                     "isCorrect": 0,
-                    "explanation": "Plants need water, sunlight, and nutrients to grow, even in hydroponic systems. Water alone is not sufficient. In hydroponics, nutrients must be dissolved in the water to replace what plants would normally get from soil."
+                    "explanation": "While the plant receives water, it lacks sunlight which is essential for plants to make their own food and grow."
                 },
                 {
-                    "text": "The plants need water, sunlight, and nutrients, just like plants growing in soil",
+                    "text": "Plant placed near a window with daily watering",
                     "isCorrect": 1,
-                    "explanation": "Correct! Whether growing in soil or water, all plants require water, sunlight, and nutrients to survive and grow. In hydroponics, these nutrients must be dissolved in the water since there is no soil to provide them."
+                    "explanation": "This is optimal for plant growth as it provides both essential needs - sunlight from the window and regular water supply."
                 },
                 {
-                    "text": "The plants need soil particles mixed in the water to grow properly",
+                    "text": "Plant placed in a dark closet without any water",
                     "isCorrect": 0,
-                    "explanation": "Plants can grow without soil as long as they receive water, sunlight, and nutrients. In hydroponics, nutrients are dissolved directly in the water, eliminating the need for soil."
+                    "explanation": "This condition provides neither sunlight nor water, making it impossible for the plant to survive and grow."
                 },
                 {
-                    "text": "The plants need extra sunlight to compensate for the missing soil",
+                    "text": "Plant placed near a window without any water",
                     "isCorrect": 0,
-                    "explanation": "Plants need the same amount of sunlight whether growing in soil or water. However, they do need nutrients dissolved in the water to replace what they would normally get from soil. The absence of soil does not require additional sunlight."
+                    "explanation": "Even with sunlight, plants cannot survive without water. Both water and sunlight are necessary for plant growth."
                 }
             ],
-            "funFact": "Hydroponics is used on the International Space Station to grow fresh vegetables in space! This method helps astronauts produce food while orbiting Earth, where traditional soil-based gardening would be impossible due to zero gravity."
+            "funFact": "Some desert plants like cacti have evolved to store water in their thick stems and survive with minimal water for months, but they still need sunlight to produce their food through photosynthesis!"
         },
         {
             "id": 13,
-            "text": "Which statement best describes how plants and animals help each other survive in nature?",
+            "text": "A student is conducting an experiment with two identical tomato plants. Plant A receives the recommended amount of water (1 cup) daily, while Plant B receives three times more water (3 cups) daily. Both plants get the same amount of sunlight. What is most likely to happen to Plant B?",
             "options": [
                 {
-                    "text": "Plants provide food and shelter for animals, while animals help spread plant seeds",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Plants and animals have a mutually beneficial relationship where plants provide food and shelter for animals, and animals help plants reproduce by spreading their seeds."
+                    "text": "Plant B will grow three times faster than Plant A",
+                    "isCorrect": 0,
+                    "explanation": "More water does not mean faster growth. Plants need a balanced amount of water for healthy growth."
                 },
+                {
+                    "text": "Plant B will be exactly the same as Plant A",
+                    "isCorrect": 0,
+                    "explanation": "Excess water affects plant growth negatively, so Plant B will not grow the same as Plant A."
+                },
+                {
+                    "text": "Plant B's growth will be stunted and it may die",
+                    "isCorrect": 1,
+                    "explanation": "Too much water can prevent plant growth and damage the roots, potentially leading to plant death."
+                },
+                {
+                    "text": "Plant B will grow taller but have fewer leaves",
+                    "isCorrect": 0,
+                    "explanation": "Overwatering does not cause plants to grow taller with fewer leaves. Instead, it can harm the entire plant."
+                }
+            ],
+            "funFact": "Some desert plants like cacti have adapted to survive with very little water and can actually die if overwatered. They have special tissues that store water for long periods, making them perfect for dry environments!"
+        },
+        {
+            "id": 14,
+            "text": "How long does it typically take for plants to develop from seeds into mature plants?",
+            "options": [
+                {
+                    "text": "Plants only grow during spring season",
+                    "isCorrect": 0,
+                    "explanation": "Plants can grow throughout the year as long as they have proper conditions like water and sunlight, not just during spring."
+                },
+                {
+                    "text": "Small plants take months while large trees take years",
+                    "isCorrect": 1,
+                    "explanation": "Growth rates vary based on plant size - smaller plants like flowers develop in months while trees need years to reach maturity."
+                },
+                {
+                    "text": "All plants take exactly the same amount of time to grow",
+                    "isCorrect": 0,
+                    "explanation": "Different types of plants have different growth rates - small plants may take months while large trees can take many years."
+                },
+                {
+                    "text": "All plants grow completely within a few days",
+                    "isCorrect": 0,
+                    "explanation": "While germination may begin within days, complete plant development takes much longer than just a few days."
+                }
+            ],
+            "funFact": "The bristlecone pine is one of the slowest-growing trees - it can take over 700 years to grow just 3 feet tall! However, these trees can live for thousands of years, with the oldest known specimen being over 5,000 years old."
+        },
+        {
+            "id": 15,
+            "text": "Which statement best describes how plants and animals help each other survive in nature?",
+            "options": [
                 {
                     "text": "Plants eat animals for food, and animals provide water to plants",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Plants make their own food using sunlight and water - they don't eat animals. Animals also don't directly provide water to plants."
+                },
+                {
+                    "text": "Plants provide food and shelter for animals, while animals help spread plant seeds",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Plants and animals have a mutually beneficial relationship where plants provide food and shelter for animals, and animals help plants reproduce by spreading their seeds."
                 },
                 {
                     "text": "Animals give plants sunlight, and plants give animals oxygen only",
@@ -352,60 +406,6 @@
                 }
             ],
             "funFact": "The largest known living organism is actually a plant - the Pando aspen grove in Utah! It's a colony of genetically identical trees connected by a single root system, covering 106 acres and weighing 6,600 tons. This giant organism provides food and shelter to numerous animal species."
-        },
-        {
-            "id": 14,
-            "text": "A student is conducting an experiment with four identical plants in different conditions. Which condition would be best for the plant's growth?",
-            "options": [
-                {
-                    "text": "Plant placed near a window with daily watering",
-                    "isCorrect": 1,
-                    "explanation": "This is optimal for plant growth as it provides both essential needs - sunlight from the window and regular water supply."
-                },
-                {
-                    "text": "Plant placed in a dark closet with daily watering",
-                    "isCorrect": 0,
-                    "explanation": "While the plant receives water, it lacks sunlight which is essential for plants to make their own food and grow."
-                },
-                {
-                    "text": "Plant placed near a window without any water",
-                    "isCorrect": 0,
-                    "explanation": "Even with sunlight, plants cannot survive without water. Both water and sunlight are necessary for plant growth."
-                },
-                {
-                    "text": "Plant placed in a dark closet without any water",
-                    "isCorrect": 0,
-                    "explanation": "This condition provides neither sunlight nor water, making it impossible for the plant to survive and grow."
-                }
-            ],
-            "funFact": "Some desert plants like cacti have evolved to store water in their thick stems and survive with minimal water for months, but they still need sunlight to produce their food through photosynthesis!"
-        },
-        {
-            "id": 15,
-            "text": "A student placed two identical plants in different locations. Plant A was placed on a sunny windowsill and received regular water. Plant B was placed in a dark closet and received the same amount of water. After two weeks, what pattern would the student most likely observe?",
-            "options": [
-                {
-                    "text": "Both plants would grow equally well because they received the same amount of water",
-                    "isCorrect": 0,
-                    "explanation": "Plants need both water and sunlight to grow. Even with adequate water, a plant cannot survive without light."
-                },
-                {
-                    "text": "Plant A would grow healthy while Plant B would become weak and yellow",
-                    "isCorrect": 1,
-                    "explanation": "This shows the correct pattern - plants need both water and sunlight to grow healthy. Without light, plants cannot make their own food and become weak."
-                },
-                {
-                    "text": "Plant B would grow better because dark places help plants conserve energy",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Plants need sunlight to produce energy through photosynthesis. Darkness does not help plants conserve energy."
-                },
-                {
-                    "text": "Neither plant would grow because they need soil changes weekly",
-                    "isCorrect": 0,
-                    "explanation": "Plants do not require weekly soil changes to grow. The key requirements for plant growth are water and sunlight."
-                }
-            ],
-            "funFact": "Some plants have adapted to grow in very low light conditions, like those found on the forest floor. These plants, called shade-tolerant plants, have special adaptations like larger leaves to capture what little light is available!"
         }
     ]
 }

@@ -4,60 +4,33 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which of the following best describes the difference between saltwater and freshwater?",
+            "text": "What is surface runoff and how does it affect water bodies?",
             "options": [
                 {
-                    "text": "Saltwater contains high amounts of dissolved salt while freshwater contains very little salt",
+                    "text": "Water that only flows through storm drains",
+                    "isCorrect": 0,
+                    "explanation": "While surface runoff can flow through storm drains, it includes any water flowing over land surfaces, not just through drains"
+                },
+                {
+                    "text": "Water that evaporates from lakes and rivers",
+                    "isCorrect": 0,
+                    "explanation": "This describes evaporation, which is different from surface runoff that flows over land surfaces"
+                },
+                {
+                    "text": "Water from rain or snow that flows over land, picking up pollutants before reaching water bodies",
                     "isCorrect": 1,
-                    "explanation": "Saltwater, found in oceans, contains significant amounts of dissolved salt (typically around 3.5%), while freshwater, found in lakes, rivers, and glaciers, contains very low concentrations of salt (typically less than 0.05%)"
+                    "explanation": "Surface runoff carries pollutants like fertilizers and chemicals from land into water bodies, affecting water quality"
                 },
                 {
-                    "text": "Saltwater is always warm while freshwater is always cold",
+                    "text": "Underground water that flows directly into oceans",
                     "isCorrect": 0,
-                    "explanation": "The temperature of water is not what determines if it's saltwater or freshwater - both types can be warm or cold"
-                },
-                {
-                    "text": "Saltwater is always moving while freshwater stays still",
-                    "isCorrect": 0,
-                    "explanation": "Movement of water doesn't determine if it's saltwater or freshwater - both types can be moving or still"
-                },
-                {
-                    "text": "Saltwater is always deep while freshwater is always shallow",
-                    "isCorrect": 0,
-                    "explanation": "The depth of water doesn't determine if it's saltwater or freshwater - both types can be deep or shallow"
+                    "explanation": "This describes groundwater movement, not surface runoff which flows over land"
                 }
             ],
-            "funFact": "The Dead Sea, located between Israel and Jordan, is so salty that it has about 10 times more salt than regular ocean water. This makes it impossible for fish to live there, but very easy for people to float!"
+            "funFact": "In urban areas with lots of paved surfaces, surface runoff can be up to 5 times greater than in natural areas because concrete and asphalt prevent water from soaking into the ground naturally!"
         },
         {
             "id": 2,
-            "text": "What percentage of Earth's total water is found in the oceans?",
-            "options": [
-                {
-                    "text": "97%",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. The vast majority (97%) of Earth's water is saltwater found in oceans."
-                },
-                {
-                    "text": "71%",
-                    "isCorrect": 0,
-                    "explanation": "While 71% of Earth's surface is covered by water, 97% of Earth's total water is found in oceans."
-                },
-                {
-                    "text": "3%",
-                    "isCorrect": 0,
-                    "explanation": "3% represents the amount of freshwater on Earth, not the percentage of water in oceans."
-                },
-                {
-                    "text": "50%",
-                    "isCorrect": 0,
-                    "explanation": "This greatly understates the proportion of Earth's water found in oceans, which is actually 97%."
-                }
-            ],
-            "funFact": "The ocean is so vast that scientists estimate we have explored less than 5% of it. There could be millions of undiscovered species living in the unexplored parts of our oceans!"
-        },
-        {
-            "id": 3,
             "text": "What percentage of Earth's total water supply is freshwater?",
             "options": [
                 {
@@ -66,14 +39,14 @@
                     "explanation": "This is correct. Only 3% of Earth's total water is freshwater, found in glaciers, groundwater, lakes, rivers, and other freshwater sources."
                 },
                 {
-                    "text": "71%",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. 71% represents the percentage of Earth's surface that is covered by water, not the percentage of freshwater."
-                },
-                {
                     "text": "97%",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. 97% represents the percentage of Earth's water that is saltwater found in oceans, not freshwater."
+                },
+                {
+                    "text": "71%",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. 71% represents the percentage of Earth's surface that is covered by water, not the percentage of freshwater."
                 },
                 {
                     "text": "30%",
@@ -84,31 +57,58 @@
             "funFact": "Of the tiny 3% of Earth's water that is freshwater, about 69% is locked up in glaciers and ice caps, 30% is in groundwater, and less than 1% is easily accessible surface water in lakes, rivers, and streams!"
         },
         {
-            "id": 4,
-            "text": "Where is most of Earth's freshwater stored?",
+            "id": 3,
+            "text": "What percentage of Earth's water is found in the oceans?",
             "options": [
                 {
-                    "text": "In glaciers and underground",
+                    "text": "3%",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. 3% is actually the percentage of Earth's water that is freshwater. The oceans contain 97% of Earth's water as saltwater."
+                },
+                {
+                    "text": "50%",
+                    "isCorrect": 0,
+                    "explanation": "This is too low. The oceans contain a much larger percentage of Earth's water - 97%. The remaining 3% is freshwater found in glaciers, groundwater, lakes, and rivers."
+                },
+                {
+                    "text": "97%",
                     "isCorrect": 1,
-                    "explanation": "Most of Earth's freshwater is stored in glaciers and underground as groundwater. This makes these sources crucial reservoirs of freshwater on our planet."
+                    "explanation": "Correct! The vast majority (97%) of Earth's water is found in the oceans as saltwater. This leaves only 3% as freshwater in other reservoirs like glaciers, groundwater, lakes, and rivers."
                 },
                 {
-                    "text": "In rivers and lakes",
+                    "text": "71%",
                     "isCorrect": 0,
-                    "explanation": "Rivers and lakes contain only a small fraction of Earth's freshwater. While these are important sources for human use, they don't hold the majority of freshwater."
-                },
-                {
-                    "text": "In oceans",
-                    "isCorrect": 0,
-                    "explanation": "While oceans contain the majority of Earth's total water (about 97%), this water is saltwater, not freshwater."
-                },
-                {
-                    "text": "In the atmosphere",
-                    "isCorrect": 0,
-                    "explanation": "The atmosphere contains only a tiny fraction of Earth's freshwater in the form of water vapor and clouds."
+                    "explanation": "While 71% is the percentage of Earth's surface that is covered by water, it's not the percentage of Earth's total water that is found in oceans. The oceans contain 97% of Earth's water."
                 }
             ],
-            "funFact": "The glaciers in Antarctica hold about 90% of the world's ice and would raise global sea levels by about 200 feet if they were to melt completely!"
+            "funFact": "The volume of water in Earth's oceans is so vast that if all of Earth's water was spread evenly across the planet's surface, it would create a layer approximately 2.7 kilometers (1.7 miles) deep!"
+        },
+        {
+            "id": 4,
+            "text": "What percentage of Earth's surface is covered by water?",
+            "options": [
+                {
+                    "text": "97%",
+                    "isCorrect": 0,
+                    "explanation": "While 97% of Earth's water is found in oceans, water covers 71% of Earth's total surface area."
+                },
+                {
+                    "text": "51%",
+                    "isCorrect": 0,
+                    "explanation": "This is too low - water actually covers about 71% of Earth's surface, making our planet appear blue from space."
+                },
+                {
+                    "text": "29%",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - 29% is actually the percentage of land on Earth's surface. Water covers the remaining 71%."
+                },
+                {
+                    "text": "71%",
+                    "isCorrect": 1,
+                    "explanation": "Water covers 71% of Earth's surface, with oceans containing 97% of all Earth's water."
+                }
+            ],
+            "funFact": "The high percentage of water covering Earth's surface is why astronauts nicknamed our planet the 'Blue Marble' when they first saw it from space. Despite this abundance of water, only about 3% is freshwater, and most of that is frozen in glaciers!"
         },
         {
             "id": 5,
@@ -125,53 +125,134 @@
                     "explanation": "Correct! The majority of Earth's freshwater is stored in glaciers and underground aquifers, with only a small percentage in surface water bodies."
                 },
                 {
-                    "text": "Most freshwater is found in the atmosphere as water vapor",
-                    "isCorrect": 0,
-                    "explanation": "The atmosphere contains only a very small fraction of Earth's freshwater - much less than what is stored in glaciers and underground."
-                },
-                {
                     "text": "Most freshwater is found in oceans",
                     "isCorrect": 0,
                     "explanation": "Oceans contain saltwater, not freshwater. While oceans hold about 97% of Earth's total water, this water is too salty for drinking or agriculture."
+                },
+                {
+                    "text": "Most freshwater is found in the atmosphere as water vapor",
+                    "isCorrect": 0,
+                    "explanation": "The atmosphere contains only a very small fraction of Earth's freshwater - much less than what is stored in glaciers and underground."
                 }
             ],
             "funFact": "The amount of water stored in glaciers is so massive that if all glaciers were to melt, global sea levels would rise by approximately 230 feet (70 meters)!"
         },
         {
             "id": 6,
-            "text": "Which of Earth's water sources contains the largest amount of fresh water?",
+            "text": "Which of the following water sources contains freshwater that is most readily accessible for human use?",
             "options": [
                 {
-                    "text": "Glaciers",
-                    "isCorrect": 1,
-                    "explanation": "Glaciers and ice caps contain the largest portion of Earth's fresh water, storing it in frozen form."
-                },
-                {
                     "text": "Rivers and lakes",
-                    "isCorrect": 0,
-                    "explanation": "Rivers and lakes contain only a small fraction of Earth's fresh water, despite being the most visible sources."
+                    "isCorrect": 1,
+                    "explanation": "Rivers and lakes contain freshwater that is most easily accessible for human use, though they represent only a small fraction of Earth's total freshwater."
                 },
                 {
                     "text": "Oceans",
                     "isCorrect": 0,
-                    "explanation": "While oceans contain about 97% of Earth's total water, this water is salt water, not fresh water."
+                    "explanation": "Oceans contain saltwater, not freshwater, making up about 97% of Earth's total water but requiring expensive desalination to be usable."
                 },
                 {
                     "text": "Underground aquifers",
                     "isCorrect": 0,
-                    "explanation": "While underground aquifers contain a significant amount of fresh water, they don't contain as much as glaciers do."
+                    "explanation": "While underground aquifers contain significant freshwater, accessing this water requires drilling wells, making it less readily accessible than surface water in rivers and lakes."
+                },
+                {
+                    "text": "Glaciers",
+                    "isCorrect": 0,
+                    "explanation": "While glaciers contain a large portion of Earth's freshwater, this water is frozen and not readily accessible for human use."
                 }
             ],
-            "funFact": "The Antarctic ice sheet alone contains about 90% of all the ice on Earth and would raise global sea levels by about 200 feet if it were to melt completely!"
+            "funFact": "Lake Baikal in Russia contains about 20% of Earth's unfrozen freshwater supply and is the deepest and among the oldest lakes in the world!"
         },
         {
             "id": 7,
+            "text": "A city is experiencing water shortages and needs to find new sources of fresh water. Which of the following potential water sources would provide the largest amount of usable fresh water if properly accessed and treated?",
+            "options": [
+                {
+                    "text": "Groundwater aquifers",
+                    "isCorrect": 1,
+                    "explanation": "Groundwater aquifers contain a large portion of Earth's fresh water and are one of the most abundant sources of accessible fresh water after glaciers."
+                },
+                {
+                    "text": "Local lakes and ponds",
+                    "isCorrect": 0,
+                    "explanation": "Lakes and ponds, like rivers, contain only a small percentage of Earth's fresh water compared to groundwater resources."
+                },
+                {
+                    "text": "Nearby ocean water",
+                    "isCorrect": 0,
+                    "explanation": "While oceans contain the majority of Earth's water (97%), it is salt water that requires extensive and expensive desalination to be usable as fresh water."
+                },
+                {
+                    "text": "Local rivers and streams",
+                    "isCorrect": 0,
+                    "explanation": "While rivers and streams are important sources of fresh water, they contain only a tiny fraction of Earth's total fresh water compared to groundwater or glaciers."
+                }
+            ],
+            "funFact": "Some groundwater aquifers contain water that fell as rain thousands of years ago during the last ice age! These ancient underground reservoirs are called fossil water and can be found deep beneath the Earth's surface."
+        },
+        {
+            "id": 8,
+            "text": "Which combination of water reservoirs contains the largest percentage of Earth's total water supply?",
+            "options": [
+                {
+                    "text": "Glaciers and polar ice caps",
+                    "isCorrect": 0,
+                    "explanation": "While glaciers and polar ice caps contain most of Earth's freshwater, this is still only a portion of the 3% that is freshwater, making it much less than ocean water."
+                },
+                {
+                    "text": "Lakes and underground water",
+                    "isCorrect": 0,
+                    "explanation": "While underground water is significant, lakes contain only a small fraction of freshwater. This combination misses oceans, which contain 97% of Earth's water."
+                },
+                {
+                    "text": "Rivers and lakes",
+                    "isCorrect": 0,
+                    "explanation": "Rivers and lakes contain only a tiny fraction of Earth's freshwater, which itself is only 3% of total water supply."
+                },
+                {
+                    "text": "Oceans and underground water",
+                    "isCorrect": 1,
+                    "explanation": "Oceans contain about 97% of Earth's water, and a significant portion of freshwater is stored underground, making this combination account for the vast majority of Earth's total water supply."
+                }
+            ],
+            "funFact": "The amount of water on Earth has remained relatively constant for billions of years, continuously recycling through the water cycle. The same water that existed during the time of dinosaurs is still present on Earth today!"
+        },
+        {
+            "id": 9,
+            "text": "Which statement correctly describes the relationship between surface water and groundwater on Earth?",
+            "options": [
+                {
+                    "text": "Most of Earth's freshwater is found in surface water bodies like rivers and lakes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Only a small fraction of Earth's freshwater is found in surface water bodies like rivers and lakes."
+                },
+                {
+                    "text": "The majority of Earth's freshwater is stored in glaciers and underground",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Most of Earth's freshwater is stored in glaciers and underground aquifers, while only a tiny fraction exists as surface water."
+                },
+                {
+                    "text": "Surface water and groundwater contain equal amounts of freshwater",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The amount of freshwater stored underground is much greater than the amount found in surface water."
+                },
+                {
+                    "text": "Surface water in rivers and lakes makes up about half of Earth's freshwater supply",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Surface water makes up a much smaller portion than half of Earth's freshwater supply."
+                }
+            ],
+            "funFact": "The amount of freshwater in Earth's lakes and rivers is so small compared to the total water supply that if all of Earth's water were put in a gallon jug, the fresh surface water would only amount to about one tablespoon!"
+        },
+        {
+            "id": 10,
             "text": "What percentage of Earth's total water supply is freshwater?",
             "options": [
                 {
-                    "text": "3%",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Only 3% of Earth's total water is freshwater, found in glaciers, groundwater, lakes, rivers, and other surface water sources."
+                    "text": "97%",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. 97% actually represents the percentage of Earth's water that is saltwater, found primarily in oceans."
                 },
                 {
                     "text": "29%",
@@ -184,166 +265,26 @@
                     "explanation": "This is incorrect. 71% represents the percentage of Earth's surface that is covered by water, not the percentage of freshwater."
                 },
                 {
-                    "text": "97%",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. 97% actually represents the percentage of Earth's water that is saltwater, found primarily in oceans."
+                    "text": "3%",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Only 3% of Earth's total water is freshwater, found in glaciers, groundwater, lakes, rivers, and other surface water sources."
                 }
             ],
             "funFact": "While 3% may seem like a small amount of freshwater, Earth's total water volume is about 332.5 million cubic miles - meaning even that small percentage equals over 10 million cubic miles of freshwater!"
         },
         {
-            "id": 8,
-            "text": "Which of the following water sources contains freshwater that is most readily accessible for human use?",
-            "options": [
-                {
-                    "text": "Rivers and lakes",
-                    "isCorrect": 1,
-                    "explanation": "Rivers and lakes contain freshwater that is most easily accessible for human use, though they represent only a small fraction of Earth's total freshwater."
-                },
-                {
-                    "text": "Glaciers",
-                    "isCorrect": 0,
-                    "explanation": "While glaciers contain a large portion of Earth's freshwater, this water is frozen and not readily accessible for human use."
-                },
-                {
-                    "text": "Oceans",
-                    "isCorrect": 0,
-                    "explanation": "Oceans contain saltwater, not freshwater, making up about 97% of Earth's total water but requiring expensive desalination to be usable."
-                },
-                {
-                    "text": "Underground aquifers",
-                    "isCorrect": 0,
-                    "explanation": "While underground aquifers contain significant freshwater, accessing this water requires drilling wells, making it less readily accessible than surface water in rivers and lakes."
-                }
-            ],
-            "funFact": "Lake Baikal in Russia contains about 20% of Earth's unfrozen freshwater supply and is the deepest and among the oldest lakes in the world!"
-        },
-        {
-            "id": 9,
-            "text": "Which statement correctly describes the relationship between surface water and groundwater on Earth?",
-            "options": [
-                {
-                    "text": "Most of Earth's freshwater is found in surface water bodies like rivers and lakes",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Only a small fraction of Earth's freshwater is found in surface water bodies like rivers and lakes."
-                },
-                {
-                    "text": "Surface water in rivers and lakes makes up about half of Earth's freshwater supply",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Surface water makes up a much smaller portion than half of Earth's freshwater supply."
-                },
-                {
-                    "text": "The majority of Earth's freshwater is stored in glaciers and underground",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Most of Earth's freshwater is stored in glaciers and underground aquifers, while only a tiny fraction exists as surface water."
-                },
-                {
-                    "text": "Surface water and groundwater contain equal amounts of freshwater",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The amount of freshwater stored underground is much greater than the amount found in surface water."
-                }
-            ],
-            "funFact": "The amount of freshwater in Earth's lakes and rivers is so small compared to the total water supply that if all of Earth's water were put in a gallon jug, the fresh surface water would only amount to about one tablespoon!"
-        },
-        {
-            "id": 10,
-            "text": "Which of the following water bodies contains the smallest fraction of Earth's fresh water?",
-            "options": [
-                {
-                    "text": "Lakes and rivers",
-                    "isCorrect": 0,
-                    "explanation": "While lakes and rivers contain a relatively small fraction of Earth's fresh water (about 0.3%), there are other reservoirs that contain even less. Most fresh water is stored in glaciers and underground aquifers."
-                },
-                {
-                    "text": "Soil moisture",
-                    "isCorrect": 1,
-                    "explanation": "Soil moisture contains the smallest fraction of Earth's fresh water among the options, approximately 0.05%. Despite this small percentage, it plays a crucial role in supporting terrestrial ecosystems and agriculture."
-                },
-                {
-                    "text": "Glaciers",
-                    "isCorrect": 0,
-                    "explanation": "Glaciers contain a large portion of Earth's fresh water, not the smallest fraction. They are one of the largest reservoirs of fresh water on Earth, storing approximately 68-70% of all fresh water."
-                },
-                {
-                    "text": "Underground water",
-                    "isCorrect": 0,
-                    "explanation": "Underground water (groundwater) is one of the major reservoirs of fresh water on Earth, containing a significant portion (about 30%) of available fresh water."
-                },
-                {
-                    "text": "Oceans",
-                    "isCorrect": 0,
-                    "explanation": "While oceans contain the majority of Earth's total water, they contain salt water, not fresh water. This makes them ineligible as a fresh water source."
-                }
-            ],
-            "funFact": "Despite lakes and rivers containing such a small percentage of Earth's fresh water, they are vital sources of drinking water for many communities worldwide. The Great Lakes of North America alone contain about 20% of the world's surface fresh water!"
-        },
-        {
             "id": 11,
-            "text": "A water treatment plant uses a three-stage filtration process to clean wastewater. Which sequence correctly describes how water moves through these stages to become clean?",
-            "options": [
-                {
-                    "text": "The water first goes through carbon absorption, then bacterial treatment, and finally debris filtering",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. The large debris must be filtered out first before finer filtration can occur effectively."
-                },
-                {
-                    "text": "The water first goes through debris filtering (primary), then bacterial treatment (secondary), and finally chemical disinfection (tertiary)",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. The water first undergoes primary treatment to filter out solids and debris, then secondary treatment where bacteria break down remaining waste, and finally tertiary treatment with chemical disinfection to kill remaining pathogens."
-                },
-                {
-                    "text": "The water first undergoes bacterial treatment, then debris filtering, and finally chemical disinfection",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Bacterial treatment cannot effectively occur before large debris is removed from the water."
-                },
-                {
-                    "text": "The water first goes through debris filtering, then chemical disinfection, and finally bacterial treatment",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Chemical disinfection typically comes after bacterial treatment, as disinfecting the water too early would kill the beneficial bacteria needed for the secondary treatment stage."
-                }
-            ],
-            "funFact": "Modern water treatment plants can clean millions of gallons of water per day. The bacteria used in water treatment are specially selected microorganisms that naturally break down waste without causing harm to humans!"
-        },
-        {
-            "id": 12,
-            "text": "A city planner is analyzing water resources for a growing community. Given that 97% of Earth's water is in oceans and only 3% is freshwater, what would be the most significant challenge in ensuring adequate water supply for the city?",
-            "options": [
-                {
-                    "text": "Most available water is too salty for direct human use",
-                    "isCorrect": 1,
-                    "explanation": "Since 97% of Earth's water is salt water, the small percentage of freshwater creates a significant challenge for human use, requiring extensive treatment and desalination processes"
-                },
-                {
-                    "text": "There is not enough water on Earth",
-                    "isCorrect": 0,
-                    "explanation": "The total amount of water on Earth is substantial - the challenge is not the quantity but that most of it is salt water"
-                },
-                {
-                    "text": "Ocean water is too far from cities",
-                    "isCorrect": 0,
-                    "explanation": "Distance from oceans is not the main challenge - the salt content of ocean water is the primary issue for human use"
-                },
-                {
-                    "text": "Freshwater evaporates too quickly",
-                    "isCorrect": 0,
-                    "explanation": "While water does evaporate, this is not the main challenge in water availability - the small percentage of freshwater compared to salt water is the key issue"
-                }
-            ],
-            "funFact": "The amount of water on Earth has remained relatively constant for billions of years through the water cycle. The same water molecules that dinosaurs drank are still present on Earth today, just in different forms and locations!"
-        },
-        {
-            "id": 13,
             "text": "In a growing city, new housing developments have replaced natural green spaces with paved roads and concrete sidewalks. How does this change most likely affect the movement of rainwater?",
             "options": [
-                {
-                    "text": "More rainwater flows directly over the surface into nearby water bodies",
-                    "isCorrect": 1,
-                    "explanation": "Paved surfaces are impermeable, preventing water from soaking into the ground. This causes more surface runoff that flows directly into streams and rivers, often carrying pollutants."
-                },
                 {
                     "text": "More rainwater seeps into the ground to become groundwater",
                     "isCorrect": 0,
                     "explanation": "Paved surfaces actually prevent water from seeping into the ground, reducing groundwater recharge compared to natural surfaces."
+                },
+                {
+                    "text": "More rainwater flows directly over the surface into nearby water bodies",
+                    "isCorrect": 1,
+                    "explanation": "Paved surfaces are impermeable, preventing water from soaking into the ground. This causes more surface runoff that flows directly into streams and rivers, often carrying pollutants."
                 },
                 {
                     "text": "More rainwater evaporates immediately from the surface",
@@ -359,14 +300,90 @@
             "funFact": "A single city block can generate five times more runoff than a woodland area of the same size! This is why many modern cities are now incorporating 'green infrastructure' like rain gardens and permeable pavements to better manage stormwater."
         },
         {
-            "id": 14,
-            "text": "Which water treatment method is most effective for removing both large particles and chemical contaminants from drinking water?",
+            "id": 12,
+            "text": "How does agricultural runoff from farmland affect both surface water and groundwater quality?",
             "options": [
                 {
-                    "text": "Multi-stage filtration using sediment filters, activated carbon, and fine mesh screens",
-                    "isCorrect": 1,
-                    "explanation": "This combination is most effective as it removes particles of different sizes and chemical contaminants: sediment filters remove large particles, activated carbon absorbs chemicals, and fine mesh catches remaining small particles."
+                    "text": "Agricultural runoff only affects surface water and has no impact on groundwater quality",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because pollutants in agricultural runoff can seep through soil and contaminate groundwater sources as well as surface water."
                 },
+                {
+                    "text": "Agricultural runoff only affects groundwater and has no impact on surface water quality",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because agricultural runoff flows over land first, directly affecting surface water bodies before it can seep into groundwater."
+                },
+                {
+                    "text": "Agricultural runoff carries fertilizers and pollutants that can contaminate both surface water and underground water sources, potentially creating algae blooms and dead zones",
+                    "isCorrect": 1,
+                    "explanation": "When fertilizers and pollutants from farms flow over land, they can directly contaminate surface water and seep into groundwater. This pollution can lead to harmful algae blooms that deplete oxygen in water bodies."
+                },
+                {
+                    "text": "Agricultural runoff helps clean both surface water and groundwater by adding beneficial nutrients",
+                    "isCorrect": 0,
+                    "explanation": "While fertilizers contain nutrients, excess nutrients from agricultural runoff actually harm water quality by causing problems like algae blooms and oxygen depletion."
+                }
+            ],
+            "funFact": "The Gulf of Mexico contains one of the world's largest dead zones - an area where oxygen levels are so low that marine life cannot survive. This dead zone is primarily caused by agricultural runoff carrying excess nutrients down the Mississippi River."
+        },
+        {
+            "id": 13,
+            "text": "If global temperatures continue to rise and glacial ice melts at an increasing rate, which of the following would be the most likely impact on freshwater availability?",
+            "options": [
+                {
+                    "text": "Coastal regions would have increased freshwater availability due to sea level rise",
+                    "isCorrect": 0,
+                    "explanation": "Rising sea levels from glacial melt would actually increase saltwater intrusion into coastal aquifers, reducing freshwater availability in these regions."
+                },
+                {
+                    "text": "Regions that depend on glacial melt for water supply would experience long-term water shortages",
+                    "isCorrect": 1,
+                    "explanation": "Since glaciers store a significant portion of Earth's freshwater, their loss would reduce the reliable source of freshwater for regions that depend on glacial melt, particularly during dry seasons."
+                },
+                {
+                    "text": "Underground freshwater sources would increase globally",
+                    "isCorrect": 0,
+                    "explanation": "Glacial melt would primarily flow into oceans, not significantly increase underground freshwater sources. This could actually lead to depletion of groundwater as people seek alternative water sources."
+                },
+                {
+                    "text": "All regions would have equal access to freshwater due to better water distribution",
+                    "isCorrect": 0,
+                    "explanation": "Melting glaciers would not lead to equal water distribution. Instead, it would create more disparities in freshwater availability between different regions."
+                }
+            ],
+            "funFact": "The Hindu Kush Himalayan glaciers, often called the 'Third Pole' because they contain the largest amount of ice outside the polar regions, provide water to over 1.5 billion people across Asia through major river systems!"
+        },
+        {
+            "id": 14,
+            "text": "A city's water treatment plant receives water that contains high levels of agricultural fertilizers. Which of the following would be the most appropriate use for this treated water?",
+            "options": [
+                {
+                    "text": "Marine aquarium exhibits",
+                    "isCorrect": 0,
+                    "explanation": "Aquatic life is sensitive to water quality. Water containing fertilizer residues could harm marine organisms and create unsafe conditions in aquarium exhibits."
+                },
+                {
+                    "text": "Irrigation of agricultural fields",
+                    "isCorrect": 1,
+                    "explanation": "Water containing fertilizer residues, even after treatment, would be suitable for agricultural irrigation since the nutrients can benefit plant growth and the water doesn't need to meet drinking water standards."
+                },
+                {
+                    "text": "Drinking water supply",
+                    "isCorrect": 0,
+                    "explanation": "Water with high fertilizer content requires extensive treatment to meet drinking water standards. Using this water for drinking purposes could pose health risks."
+                },
+                {
+                    "text": "Public swimming pools",
+                    "isCorrect": 0,
+                    "explanation": "Water for recreational use like swimming pools needs to meet strict safety standards for human contact. Fertilizer-contaminated water, even after treatment, may not be suitable for direct human contact."
+                }
+            ],
+            "funFact": "Some agricultural regions have started implementing water recycling programs where treated wastewater containing nutrients is specifically directed back to farmland, creating a sustainable cycle that both conserves water and reduces the need for additional fertilizers."
+        },
+        {
+            "id": 15,
+            "text": "Which water treatment method is most effective for removing both large particles and chemical contaminants from drinking water?",
+            "options": [
                 {
                     "text": "Using only sediment filters",
                     "isCorrect": 0,
@@ -381,36 +398,14 @@
                     "text": "Using only bacterial treatment",
                     "isCorrect": 0,
                     "explanation": "Bacterial treatment helps break down organic waste but does not remove physical particles or chemical contaminants from water."
+                },
+                {
+                    "text": "Multi-stage filtration using sediment filters, activated carbon, and fine mesh screens",
+                    "isCorrect": 1,
+                    "explanation": "This combination is most effective as it removes particles of different sizes and chemical contaminants: sediment filters remove large particles, activated carbon absorbs chemicals, and fine mesh catches remaining small particles."
                 }
             ],
             "funFact": "One pound of activated carbon has a surface area of approximately 100 acres due to its microscopic pores. This enormous surface area makes it incredibly effective at absorbing chemical contaminants from water!"
-        },
-        {
-            "id": 15,
-            "text": "A city's water treatment plant receives water from a river that flows through several agricultural areas upstream. How would poor farming practices in these upstream areas most likely affect the water available for the city's residents?",
-            "options": [
-                {
-                    "text": "The water supply would be reduced due to increased treatment requirements to remove agricultural pollutants",
-                    "isCorrect": 1,
-                    "explanation": "Agricultural runoff containing fertilizers and pesticides requires additional treatment, reducing the amount of clean water available for distribution"
-                },
-                {
-                    "text": "The water supply would increase as more water runs off from irrigated farmland",
-                    "isCorrect": 0,
-                    "explanation": "While irrigation can increase runoff, contaminated water requires more treatment and actually reduces usable water supply"
-                },
-                {
-                    "text": "The water supply would be unaffected since rivers naturally filter out agricultural pollutants",
-                    "isCorrect": 0,
-                    "explanation": "Rivers do not completely filter out agricultural pollutants - these contaminants can travel long distances downstream"
-                },
-                {
-                    "text": "The water supply would improve due to added nutrients from fertilizer runoff",
-                    "isCorrect": 0,
-                    "explanation": "Excess nutrients from fertilizers are pollutants that harm water quality and require removal before distribution"
-                }
-            ],
-            "funFact": "The Mississippi River watershed covers about 41% of the continental United States, showing how upstream activities can affect water quality across vast distances. Pollution entering the river in Minnesota can impact water quality all the way down in Louisiana!"
         }
     ]
 }

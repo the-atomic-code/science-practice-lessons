@@ -4,44 +4,12 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which of these animal features helps capture information from the environment to detect danger?",
-            "options": [
-                {
-                    "text": "Ears that can turn to detect sounds from different directions",
-                    "isCorrect": 1,
-                    "explanation": "Ears are external structures that help animals capture sound information from their environment, allowing them to detect potential predators or dangers from various directions."
-                },
-                {
-                    "text": "Stomach muscles that help digest food",
-                    "isCorrect": 0,
-                    "explanation": "While stomach muscles are important, they are internal structures involved in digestion, not in capturing information from the environment."
-                },
-                {
-                    "text": "Heart that pumps blood through the body",
-                    "isCorrect": 0,
-                    "explanation": "The heart is an internal organ that circulates blood. It does not help in capturing information from the environment."
-                },
-                {
-                    "text": "Lungs that process oxygen",
-                    "isCorrect": 0,
-                    "explanation": "Lungs are internal organs used for breathing. They don't help in capturing environmental information about danger."
-                }
-            ],
-            "funFact": "Many animals have specialized ear structures - rabbits can rotate their ears 270 degrees without moving their heads, helping them detect predators approaching from almost any direction!"
-        },
-        {
-            "id": 2,
             "text": "Many sea birds have special waterproof feathers that help keep them dry while swimming. Which of the following human inventions could benefit most from mimicking this natural waterproof adaptation?",
             "options": [
                 {
                     "text": "Cell phone cases",
                     "isCorrect": 1,
                     "explanation": "Cell phones are electronic devices that can be severely damaged by water, making waterproof protection highly beneficial, similar to how waterproof feathers protect birds."
-                },
-                {
-                    "text": "Drinking straws",
-                    "isCorrect": 0,
-                    "explanation": "Drinking straws are already designed to work with liquids and don't need waterproof protection to function properly."
                 },
                 {
                     "text": "Pencil sharpeners",
@@ -52,23 +20,109 @@
                     "text": "Picture frames",
                     "isCorrect": 0,
                     "explanation": "While water protection might be nice, picture frames aren't regularly exposed to water, making waterproofing less crucial for their primary function."
+                },
+                {
+                    "text": "Drinking straws",
+                    "isCorrect": 0,
+                    "explanation": "Drinking straws are already designed to work with liquids and don't need waterproof protection to function properly."
                 }
             ],
             "funFact": "The waterproof ability of bird feathers comes from a special oil produced by a gland called the uropygial gland. Birds spread this oil over their feathers while preening, creating a natural water-repellent coating!"
         },
         {
-            "id": 3,
-            "text": "Which of the following best describes how plant roots help a plant stay stable and upright?",
+            "id": 2,
+            "text": "Which special structure helps geckos climb up vertical surfaces like walls?",
             "options": [
                 {
-                    "text": "Roots anchor the plant in soil by growing deep and spreading out",
-                    "isCorrect": 1,
-                    "explanation": "Plant roots provide structural support by growing deep into the soil and spreading outward, creating a strong anchor system that keeps the plant stable."
+                    "text": "Suction cups",
+                    "isCorrect": 0,
+                    "explanation": "Geckos don't use suction to climb walls - their climbing ability comes from microscopic hairs on their feet."
                 },
+                {
+                    "text": "Sharp claws",
+                    "isCorrect": 0,
+                    "explanation": "While some animals use claws for climbing, geckos primarily rely on tiny hairs rather than claws to climb smooth vertical surfaces."
+                },
+                {
+                    "text": "Tiny hairs on their feet",
+                    "isCorrect": 1,
+                    "explanation": "Geckos have microscopic hairs called setae on their feet that allow them to stick to surfaces and climb walls."
+                },
+                {
+                    "text": "Sticky pads",
+                    "isCorrect": 0,
+                    "explanation": "Though it may seem like geckos have sticky pads, they actually use tiny hairs that create molecular attraction to surfaces."
+                }
+            ],
+            "funFact": "A gecko's foot adhesion is so strong that a single gecko could theoretically hold up to 133 kg (293 lbs), which is about the weight of two adult humans! Scientists have used this amazing natural adaptation to develop new adhesive technologies."
+        },
+        {
+            "id": 3,
+            "text": "Which of the following best describes biomimicry?",
+            "options": [
+                {
+                    "text": "Protecting nature from human interference",
+                    "isCorrect": 0,
+                    "explanation": "While environmental protection is important, biomimicry specifically refers to learning from and applying nature's solutions to human problems"
+                },
+                {
+                    "text": "Creating artificial copies of plants and animals",
+                    "isCorrect": 0,
+                    "explanation": "While biomimicry may involve mimicking certain features, it's not about creating exact copies of organisms, but rather about applying their problem-solving strategies"
+                },
+                {
+                    "text": "Training animals to help humans",
+                    "isCorrect": 0,
+                    "explanation": "This describes animal domestication or training, not biomimicry. Biomimicry involves learning from nature's strategies rather than using animals directly"
+                },
+                {
+                    "text": "Using ideas from nature to solve human problems",
+                    "isCorrect": 1,
+                    "explanation": "This is correct - biomimicry involves observing and studying how plants and animals solve problems in nature, then applying those solutions to human challenges"
+                }
+            ],
+            "funFact": "The word 'biomimicry' comes from the Greek words 'bios' meaning life and 'mimesis' meaning imitation. The concept has led to many innovative solutions, including bullet trains designed based on kingfisher beaks to reduce noise and energy consumption!"
+        },
+        {
+            "id": 4,
+            "text": "Which structure on a plant primarily helps protect it from being eaten by animals?",
+            "options": [
+                {
+                    "text": "Leaves",
+                    "isCorrect": 0,
+                    "explanation": "Leaves are mainly used for photosynthesis and making food for the plant, not primarily for protection."
+                },
+                {
+                    "text": "Petals",
+                    "isCorrect": 0,
+                    "explanation": "Petals are colorful parts of flowers that attract pollinators, not protective structures."
+                },
+                {
+                    "text": "Thorns",
+                    "isCorrect": 1,
+                    "explanation": "Thorns are sharp protective structures that deter animals from eating the plant, serving as a natural defense mechanism."
+                },
+                {
+                    "text": "Stems",
+                    "isCorrect": 0,
+                    "explanation": "Stems primarily support the plant and transport water and nutrients, not provide protection from predators."
+                }
+            ],
+            "funFact": "The longest thorns in the plant kingdom belong to the honey locust tree, which can grow thorns up to 12 inches long! These impressive thorns evolved to protect the tree from giant plant-eating mammals that are now extinct."
+        },
+        {
+            "id": 5,
+            "text": "Which of the following best describes how plant roots help a plant stay stable and upright?",
+            "options": [
                 {
                     "text": "Roots store water to make the plant heavier",
                     "isCorrect": 0,
                     "explanation": "While roots do store water, this is not their primary method of providing stability. The physical anchoring in soil is what provides structural support."
+                },
+                {
+                    "text": "Roots anchor the plant in soil by growing deep and spreading out",
+                    "isCorrect": 1,
+                    "explanation": "Plant roots provide structural support by growing deep into the soil and spreading outward, creating a strong anchor system that keeps the plant stable."
                 },
                 {
                     "text": "Roots produce chemicals that harden the soil",
@@ -84,328 +138,274 @@
             "funFact": "The longest recorded plant root was from a wild fig tree in South Africa - it reached a depth of 400 feet (120 meters), which is more than the height of a 35-story building!"
         },
         {
-            "id": 4,
-            "text": "How do animals like monkeys and kangaroos use their tails?",
-            "options": [
-                {
-                    "text": "To help them balance and stay stable while moving",
-                    "isCorrect": 1,
-                    "explanation": "Animal tails often act as counterbalances, helping them maintain stability while climbing, jumping, or running"
-                },
-                {
-                    "text": "To catch and store food",
-                    "isCorrect": 0,
-                    "explanation": "While some animals can use their tails to grab things, tails are not typically used for storing food"
-                },
-                {
-                    "text": "To communicate with other animals",
-                    "isCorrect": 0,
-                    "explanation": "Though some animals use tail movements for communication, this is not the primary function of tails in monkeys and kangaroos"
-                },
-                {
-                    "text": "To regulate their body temperature",
-                    "isCorrect": 0,
-                    "explanation": "While some animals use their tails for temperature regulation, this is not the main function for monkeys and kangaroos"
-                }
-            ],
-            "funFact": "The longest tail relative to body length belongs to the male Long-tailed Widowbird, whose tail can be up to 20 inches long - more than twice the length of its body! This tail helps the bird attract mates but makes it harder to fly efficiently."
-        },
-        {
-            "id": 5,
-            "text": "Which invention was inspired by the way seeds of a cocklebur plant attach to animal fur?",
-            "options": [
-                {
-                    "text": "Velcro",
-                    "isCorrect": 1,
-                    "explanation": "Scientists observed how cocklebur seeds attach to animal fur using tiny hooks and created Velcro using the same principle."
-                },
-                {
-                    "text": "Windshield wipers",
-                    "isCorrect": 0,
-                    "explanation": "Windshield wipers were actually inspired by the blinking motion of human eyes, not cocklebur seeds."
-                },
-                {
-                    "text": "Solar panels",
-                    "isCorrect": 0,
-                    "explanation": "Solar panels were inspired by how leaves capture sunlight for photosynthesis, not by cocklebur seeds."
-                },
-                {
-                    "text": "Water filters",
-                    "isCorrect": 0,
-                    "explanation": "Water filters were inspired by how animal kidneys and plant roots filter substances, not by cocklebur seeds."
-                }
-            ],
-            "funFact": "The idea for Velcro came to Swiss engineer George de Mestral in 1941 after he noticed burrs stuck to his clothes and his dog's fur during a hunting trip. He examined them under a microscope and discovered their natural hook-like structure!"
-        },
-        {
             "id": 6,
-            "text": "A company wants to design a security system that can detect intruders at night. Which animal's sensory structure would be most useful to mimic for this purpose?",
+            "text": "Scientists want to design waterproof rain jackets. Which animal adaptation would be most helpful to study for creating effective waterproof clothing?",
             "options": [
                 {
-                    "text": "An owl's eyes",
+                    "text": "Gecko feet with tiny sticky hairs",
+                    "isCorrect": 0,
+                    "explanation": "While gecko feet are amazing for climbing walls, their adhesive properties aren't useful for creating waterproof clothing."
+                },
+                {
+                    "text": "Armadillo's hard shell structure",
+                    "isCorrect": 0,
+                    "explanation": "The armadillo's shell is great for protection but isn't specifically designed for waterproofing. It wouldn't be the best model for waterproof clothing."
+                },
+                {
+                    "text": "Duck feathers with their natural oil coating",
                     "isCorrect": 1,
-                    "explanation": "Owls have large eyes specially adapted for excellent night vision, making them perfect inspiration for night security systems"
+                    "explanation": "Duck feathers have a special oil coating that makes water roll right off, keeping them dry. This natural waterproofing system would be excellent to study for designing waterproof clothing."
                 },
                 {
-                    "text": "A turtle's shell",
+                    "text": "Sugar glider's wing-like membrane",
                     "isCorrect": 0,
-                    "explanation": "While a turtle's shell provides protection, it doesn't help with detecting intruders"
-                },
-                {
-                    "text": "A gecko's feet",
-                    "isCorrect": 0,
-                    "explanation": "Gecko feet are great for climbing but not for detecting intruders"
-                },
-                {
-                    "text": "An armadillo's armor",
-                    "isCorrect": 0,
-                    "explanation": "Armadillo armor provides protection but doesn't help with detection of intruders"
+                    "explanation": "The sugar glider's membrane helps with gliding but doesn't have special waterproofing properties that would be useful for rain gear."
                 }
             ],
-            "funFact": "Owls' eyes are so well adapted to low light that they can see up to 100 times better than humans in the dark! Their eyes are also fixed in their sockets, which is why they need to turn their entire heads to look around."
+            "funFact": "Some high-tech waterproof fabrics today are inspired by the microscopic structure of duck feathers, which have tiny barbs that create a water-repelling surface. A single duck can have up to 12,000 feathers!"
         },
         {
             "id": 7,
-            "text": "Which animal's gripping ability would be most useful to study when developing a new type of strong adhesive tape that can stick and unstick multiple times without losing its effectiveness?",
+            "text": "Scientists are trying to design a new water purification system for areas with limited access to clean water. Which animal's natural filtering mechanism would be most useful to study and mimic for this purpose?",
             "options": [
                 {
-                    "text": "Gecko",
+                    "text": "Woodpecker",
+                    "isCorrect": 0,
+                    "explanation": "Woodpeckers have adaptations for pecking wood and extracting insects, but not for filtering water."
+                },
+                {
+                    "text": "Whale shark",
                     "isCorrect": 1,
-                    "explanation": "Geckos have millions of tiny hair-like structures on their feet that allow them to stick and unstick repeatedly from surfaces without losing grip strength, making them an excellent model for reusable adhesives."
+                    "explanation": "Whale sharks have highly efficient filter feeding systems that can extract tiny food particles from large volumes of water, making them an excellent model for water filtration technology."
                 },
                 {
-                    "text": "Octopus",
+                    "text": "Leopard",
                     "isCorrect": 0,
-                    "explanation": "While octopuses have excellent gripping abilities with their suction cups, this mechanism requires moisture and works best underwater, making it less suitable for everyday adhesive tape."
+                    "explanation": "Leopards don't have specialized filtering mechanisms. Their physical adaptations are mainly for hunting and climbing."
                 },
                 {
-                    "text": "Spider",
+                    "text": "Kangaroo",
                     "isCorrect": 0,
-                    "explanation": "While spiders produce sticky silk, their adhesive method is primarily permanent and doesn't allow for repeated attachment and detachment like gecko feet do."
-                },
-                {
-                    "text": "Snail",
-                    "isCorrect": 0,
-                    "explanation": "Snails use mucus for adhesion, which is not practical for creating a dry, reusable adhesive tape as it requires constant moisture production."
+                    "explanation": "Kangaroos have adaptations for hopping and surviving in arid environments, but don't have specialized filtering mechanisms."
                 }
             ],
-            "funFact": "A gecko can hold up to 40 times its body weight when climbing up a vertical surface, and the adhesive force comes from tiny molecular interactions called van der Waals forces rather than any kind of sticky substance!"
+            "funFact": "Whale sharks can filter over 6,000 liters of water per hour through their specialized gill rakers, which inspired scientists to develop more efficient water filtration systems for human use!"
         },
         {
             "id": 8,
-            "text": "Which of the following inventions was most likely inspired by nature's defense mechanisms?",
+            "text": "A group of hikers needs to design a portable shelter that can be quickly set up and taken down while hiking in the mountains. Which natural model would be most useful to inspire their shelter design?",
             "options": [
                 {
-                    "text": "Bulletproof vests inspired by natural armor like scales and shells",
+                    "text": "An armadillo that can roll up into a ball",
                     "isCorrect": 1,
-                    "explanation": "Correct! Many bulletproof vests and other protective armor are designed based on the principles found in natural armor systems like fish scales, turtle shells, and other protective structures in animals. These natural defenses distribute impact force and resist penetration, principles that modern armor replicates."
+                    "explanation": "An armadillo's segmented shell that can roll up and unroll provides an excellent model for a shelter that needs to be flexible, protective, and easily deployed or packed away."
                 },
                 {
-                    "text": "Swimming goggles with tinted lenses",
+                    "text": "A beaver that builds dams with logs",
                     "isCorrect": 0,
-                    "explanation": "While swimming goggles are useful, they weren't primarily inspired by animal defense mechanisms. They were developed to help humans see clearly underwater."
+                    "explanation": "Beaver dams are permanent structures that require extensive materials and construction time, making them unsuitable as models for quick-assembly portable shelters."
                 },
+                {
+                    "text": "A spider that builds a new web each day",
+                    "isCorrect": 0,
+                    "explanation": "While spiders rebuild webs daily, their structures are too delicate and weather-dependent to serve as a good model for a protective shelter."
+                },
+                {
+                    "text": "A turtle that can retract into its shell",
+                    "isCorrect": 0,
+                    "explanation": "While a turtle's shell provides protection, it's rigid and fixed, making it less suitable for a portable shelter design that needs to be assembled and disassembled."
+                }
+            ],
+            "funFact": "The design principle of flexible, segmented protection inspired by armadillos has also been used in creating modern body armor, motorcycle gear, and even spacecraft components that need to be both protective and movable."
+        },
+        {
+            "id": 9,
+            "text": "An architect is designing a tall building in a coastal area that experiences frequent strong winds. Which plant adaptation would be most useful to study and mimic in the building's design?",
+            "options": [
+                {
+                    "text": "Leaf coloration",
+                    "isCorrect": 0,
+                    "explanation": "Leaf color is related to photosynthesis and seasonal changes, not structural stability against wind."
+                },
+                {
+                    "text": "Thorns",
+                    "isCorrect": 0,
+                    "explanation": "Thorns are protective structures against animals, but they don't help plants withstand strong winds."
+                },
+                {
+                    "text": "Tree root systems",
+                    "isCorrect": 1,
+                    "explanation": "Tree roots spread deep and wide to anchor trees firmly in the ground, helping them stay upright during strong winds. This natural adaptation could inspire building foundation designs."
+                },
+                {
+                    "text": "Flower petals",
+                    "isCorrect": 0,
+                    "explanation": "While flower petals are important for plant reproduction, their structure does not provide significant stability against strong winds."
+                }
+            ],
+            "funFact": "The world's tallest tree, a coastal redwood named Hyperion, stands at 380.1 feet tall and has survived powerful storms for centuries thanks to its extensive root system, which intertwines with neighboring trees to create an even stronger foundation!"
+        },
+        {
+            "id": 10,
+            "text": "Which of the following inventions was most likely inspired by nature's defense mechanisms?",
+            "options": [
                 {
                     "text": "Rubber boots with treaded soles",
                     "isCorrect": 0,
                     "explanation": "Treaded soles are designed for grip and traction, not defense. They weren't primarily inspired by animal defense mechanisms."
                 },
                 {
+                    "text": "Bulletproof vests inspired by natural armor like scales and shells",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Many bulletproof vests and other protective armor are designed based on the principles found in natural armor systems like fish scales, turtle shells, and other protective structures in animals. These natural defenses distribute impact force and resist penetration, principles that modern armor replicates."
+                },
+                {
                     "text": "Solar-powered calculator",
                     "isCorrect": 0,
                     "explanation": "Solar-powered calculators were inspired by how plants use sunlight for energy, not by defense mechanisms in nature."
+                },
+                {
+                    "text": "Swimming goggles with tinted lenses",
+                    "isCorrect": 0,
+                    "explanation": "While swimming goggles are useful, they weren't primarily inspired by animal defense mechanisms. They were developed to help humans see clearly underwater."
                 }
             ],
             "funFact": "Armadillos have natural armor made of bony plates covered by horn material, arranged in flexible bands that allow the animal to move while remaining protected. This natural armor system has inspired various human protective technologies, including body armor and vehicle protection systems!"
         },
         {
-            "id": 9,
-            "text": "Which military equipment design most closely mimics animal camouflage in nature?",
-            "options": [
-                {
-                    "text": "Disruptive pattern uniforms inspired by leopard spots and zebra stripes",
-                    "isCorrect": 1,
-                    "explanation": "Animals like leopards and zebras use patterns to break up their outline and blend into their environment. Military uniforms use similar patterns to help soldiers stay hidden."
-                },
-                {
-                    "text": "Hard helmets inspired by turtle shells",
-                    "isCorrect": 0,
-                    "explanation": "While turtle shells do inspire protective equipment, this is an example of structural protection rather than camouflage."
-                },
-                {
-                    "text": "Night vision goggles inspired by cat eyes",
-                    "isCorrect": 0,
-                    "explanation": "Cat eyes inspire night vision technology, but this relates to enhanced vision rather than camouflage abilities."
-                },
-                {
-                    "text": "Kevlar vests inspired by armadillo armor",
-                    "isCorrect": 0,
-                    "explanation": "Armadillo armor inspires protective gear design, but this is about physical protection rather than visual concealment."
-                }
-            ],
-            "funFact": "Some animals like the octopus can change their skin color and texture in seconds to perfectly match their surroundings - scientists are working on developing 'smart' camouflage materials that can similarly change appearance based on the environment!"
-        },
-        {
-            "id": 10,
-            "text": "Which plant structure would be most effective as a model for designing a solar energy collection system?",
-            "options": [
-                {
-                    "text": "Leaves",
-                    "isCorrect": 1,
-                    "explanation": "Leaves are specially designed to capture and convert sunlight into energy through photosynthesis, making them an excellent model for solar energy collection systems."
-                },
-                {
-                    "text": "Roots",
-                    "isCorrect": 0,
-                    "explanation": "While roots are important for plants, they primarily function to absorb water and nutrients from soil rather than collecting solar energy."
-                },
-                {
-                    "text": "Thorns",
-                    "isCorrect": 0,
-                    "explanation": "Thorns are protective structures that defend plants from predators and do not play a role in energy collection."
-                },
-                {
-                    "text": "Seeds",
-                    "isCorrect": 0,
-                    "explanation": "Seeds are reproductive structures that store and protect embryos, not structures designed for collecting solar energy."
-                }
-            ],
-            "funFact": "Some plants, like sunflowers, actually track the sun's movement across the sky through a process called heliotropism, maximizing their exposure to sunlight throughout the day. This natural solar-tracking ability has inspired the design of some modern solar panel systems!"
-        },
-        {
             "id": 11,
-            "text": "A security company wants to design a new device to detect intruders in buildings. Which animal's sensory structure would be most useful to mimic for this purpose?",
-            "options": [
-                {
-                    "text": "An owl's ears",
-                    "isCorrect": 1,
-                    "explanation": "Owls have asymmetrically positioned ears that help them precisely locate sounds in 3D space, which would be excellent for detecting intruder movements in buildings"
-                },
-                {
-                    "text": "A snake's tongue",
-                    "isCorrect": 0,
-                    "explanation": "While snake tongues are good at detecting chemical signals, they wouldn't be as effective for detecting intruders in buildings as sound or vision-based systems"
-                },
-                {
-                    "text": "A turtle's shell",
-                    "isCorrect": 0,
-                    "explanation": "A turtle's shell is for protection, not for detecting intruders. It wouldn't help in creating a security detection system"
-                },
-                {
-                    "text": "A butterfly's wings",
-                    "isCorrect": 0,
-                    "explanation": "Butterfly wings are primarily for flight and display. They don't have features that would be useful in detecting intruders"
-                }
-            ],
-            "funFact": "Owls can detect a mouse moving under 2 feet of snow just by sound! Their ear openings are at different heights on their heads, allowing them to create a precise 3D map of where sounds are coming from - like having built-in surround sound processors."
-        },
-        {
-            "id": 12,
             "text": "How does the structure of cocklebur seeds demonstrate a natural example of attachment that inspired Velcro?",
             "options": [
-                {
-                    "text": "The seeds have tiny hooks that catch onto animal fur, allowing them to attach and be transported",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Cocklebur seeds have microscopic hooks that catch onto animal fur, which was directly mimicked in Velcro's design with its tiny hooks that attach to looped fabric."
-                },
                 {
                     "text": "The seeds produce a sticky substance that glues them to passing animals",
                     "isCorrect": 0,
                     "explanation": "Incorrect. Cockleburs don't use adhesive substances - they use mechanical hooks to attach to fur."
                 },
                 {
-                    "text": "The seeds have magnetic properties that attract them to animal fur",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. Cockleburs use physical hooks rather than magnetic properties to attach to animals."
+                    "text": "The seeds have tiny hooks that catch onto animal fur, allowing them to attach and be transported",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Cocklebur seeds have microscopic hooks that catch onto animal fur, which was directly mimicked in Velcro's design with its tiny hooks that attach to looped fabric."
                 },
                 {
                     "text": "The seeds wrap around animal fur like a spiral",
                     "isCorrect": 0,
                     "explanation": "Incorrect. While the seeds do attach to fur, they use tiny hooks rather than wrapping around in a spiral pattern."
+                },
+                {
+                    "text": "The seeds have magnetic properties that attract them to animal fur",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. Cockleburs use physical hooks rather than magnetic properties to attach to animals."
                 }
             ],
             "funFact": "The invention of Velcro was inspired in 1941 when Swiss engineer George de Mestral went hunting and noticed how tenaciously cocklebur seeds stuck to his clothes and his dog's fur. Looking at them under a microscope revealed their clever hook-based attachment system!"
         },
         {
-            "id": 13,
-            "text": "A sports company wants to design a new helmet for baseball players that provides better protection against head injuries. Which animal's defensive structure would be most effective to mimic in the helmet design?",
+            "id": 12,
+            "text": "A security company wants to design a new type of protective fence inspired by nature. Which natural defense mechanism would be most effective to adapt for a fence that needs to prevent unauthorized climbing while minimizing harm?",
             "options": [
                 {
-                    "text": "Turtle shell",
+                    "text": "Thorns arranged in downward-pointing patterns",
                     "isCorrect": 1,
-                    "explanation": "A turtle's shell provides excellent protection through its hard, dome-shaped structure that distributes impact forces evenly - ideal characteristics for a protective helmet"
+                    "explanation": "Downward-pointing thorns, like those found on many plants, would effectively discourage climbing while being a permanent, low-maintenance solution that prevents access without causing excessive harm."
                 },
                 {
-                    "text": "Snake fangs",
+                    "text": "Skunk spray mechanism",
                     "isCorrect": 0,
-                    "explanation": "While fangs are effective for defense through attack, they don't provide the protective coverage needed for a helmet"
+                    "explanation": "A spray-based defense system would require constant maintenance, could be affected by weather conditions, and might impact nearby areas unintentionally."
                 },
                 {
-                    "text": "Bird feathers",
+                    "text": "Snake venom delivery system",
                     "isCorrect": 0,
-                    "explanation": "Feathers are too soft and flexible to provide adequate protection against impacts in a helmet design"
+                    "explanation": "Using venom or toxic substances would be extremely dangerous and illegal for security applications in human environments."
                 },
                 {
-                    "text": "Lion's claws",
+                    "text": "Porcupine quills that detach easily",
                     "isCorrect": 0,
-                    "explanation": "Claws are weapons for attack rather than protective structures, making them unsuitable for helmet design"
+                    "explanation": "While porcupine quills are effective deterrents, detachable components would not be practical for a permanent fence structure and could pose safety hazards."
                 }
             ],
-            "funFact": "The modern baseball helmet was first introduced in the 1950s, and today's helmets can withstand the impact of a baseball traveling at speeds over 100 miles per hour!"
+            "funFact": "Many plants have evolved their thorn patterns over millions of years to protect against specific climbing animals - some thorns point downward to catch animals as they try to climb down, while others point upward to prevent climbing up in the first place!"
+        },
+        {
+            "id": 13,
+            "text": "Scientists are studying gecko feet to develop new adhesive technologies. Which feature of gecko feet would be most useful for creating climbing equipment for humans?",
+            "options": [
+                {
+                    "text": "Suction cups on their toes",
+                    "isCorrect": 0,
+                    "explanation": "Geckos don't use suction to climb. Their adhesion comes from microscopic hair structures, which work even in a vacuum where suction cups would fail."
+                },
+                {
+                    "text": "Sharp claws that dig into surfaces",
+                    "isCorrect": 0,
+                    "explanation": "While some climbing animals use claws, geckos primarily rely on microscopic hairs for adhesion. Claws would damage surfaces and wouldn't work on smooth materials like glass."
+                },
+                {
+                    "text": "Millions of tiny hair-like structures that create strong adhesion",
+                    "isCorrect": 1,
+                    "explanation": "Gecko feet have microscopic hairs called setae that create strong adhesive forces through van der Waals interactions, allowing them to stick to surfaces. This principle could be applied to create strong climbing equipment."
+                },
+                {
+                    "text": "Sticky secretions from special glands",
+                    "isCorrect": 0,
+                    "explanation": "Geckos don't use sticky secretions to climb. Their adhesive ability comes from physical structures (tiny hairs) rather than chemical adhesives."
+                }
+            ],
+            "funFact": "A single gecko foot can produce enough adhesive force to support the weight of two full-grown humans, yet geckos can easily detach their feet from surfaces in milliseconds!"
         },
         {
             "id": 14,
-            "text": "When designing a new vehicle for traveling long distances efficiently, which animal's locomotion method would be most beneficial to study and incorporate?",
+            "text": "A designer wants to create a backpack that can protect expensive electronics inside from being damaged. What feature of the armadillo would be most useful to incorporate into the backpack design?",
             "options": [
                 {
-                    "text": "A cheetah's sprinting ability",
+                    "text": "A long tail for balance",
                     "isCorrect": 0,
-                    "explanation": "While cheetahs are incredibly fast, their sprinting is designed for short bursts of speed rather than efficient long-distance travel."
+                    "explanation": "The armadillo's tail helps with balance but would not provide protection for items in a backpack"
                 },
                 {
-                    "text": "An albatross's soaring technique",
+                    "text": "A pointed snout for finding food",
+                    "isCorrect": 0,
+                    "explanation": "The armadillo's snout is used for finding food and would not be useful for protecting backpack contents"
+                },
+                {
+                    "text": "A hard, segmented outer shell that can fold into a protective shape",
                     "isCorrect": 1,
-                    "explanation": "Albatrosses can travel thousands of miles while expending minimal energy by using dynamic soaring techniques. Their aerodynamic body shape and ability to utilize air currents could inspire highly fuel-efficient vehicle designs for long-distance travel."
+                    "explanation": "The armadillo's hard shell segments that can curl into a protective ball is the perfect natural model for a backpack that needs to protect valuable items inside"
                 },
                 {
-                    "text": "A sugar glider's gliding mechanism",
+                    "text": "Sharp claws for digging",
                     "isCorrect": 0,
-                    "explanation": "While sugar gliders use their wing-like structures to glide efficiently, they're adapted for relatively short distances between trees, not for sustained long-distance travel."
-                },
-                {
-                    "text": "A gecko's climbing mechanism",
-                    "isCorrect": 0,
-                    "explanation": "Gecko's climbing ability, while remarkable, is more suited for vertical movement and wouldn't contribute significantly to long-distance travel efficiency."
+                    "explanation": "While armadillos use their claws for digging, this feature would not help protect items inside a backpack"
                 }
             ],
-            "funFact": "Albatrosses are masters of efficient flight - they can fly for up to 10,000 miles without landing and have been recorded traveling 10,000 km in a single foraging trip while expending very little energy thanks to their use of dynamic soaring techniques!"
+            "funFact": "The three-banded armadillo is the only species of armadillo that can roll into a complete ball for protection. Other species can only partially curl up when threatened."
         },
         {
             "id": 15,
-            "text": "Many sea animals have special coatings that help keep water away from their bodies. How could this natural waterproof adaptation be most useful for improving human products?",
+            "text": "You are designing emergency evacuation equipment for a tall building. Which animal adaptation would be most useful to incorporate into the design to help people descend safely?",
             "options": [
                 {
-                    "text": "Creating waterproof outdoor furniture that can withstand rain",
-                    "isCorrect": 0,
-                    "explanation": "While waterproof furniture would be useful, there are more critical applications where waterproofing could protect important equipment or save lives."
-                },
-                {
-                    "text": "Developing better protective gear for water rescue workers",
+                    "text": "Sugar glider's wing-like membranes that allow controlled gliding",
                     "isCorrect": 1,
-                    "explanation": "This applies biomimicry most effectively by using nature's waterproofing solutions to protect people in dangerous water situations, potentially saving lives."
+                    "explanation": "Sugar gliders have specialized membranes that allow them to control their descent and glide safely, which would be ideal for emergency evacuation equipment design."
                 },
                 {
-                    "text": "Making water-resistant notebooks for students",
+                    "text": "Gecko's sticky feet for climbing",
                     "isCorrect": 0,
-                    "explanation": "While convenient, water-resistant notebooks would have less impact than applications focused on safety or critical equipment protection."
+                    "explanation": "While gecko feet are great for climbing up surfaces, this adaptation wouldn't help people descend safely in an emergency."
                 },
                 {
-                    "text": "Creating decorative waterproof paint for houses",
+                    "text": "Armadillo's ability to roll into a ball",
                     "isCorrect": 0,
-                    "explanation": "Waterproof paint for decoration is less crucial than applications that protect people or essential equipment from water damage."
+                    "explanation": "Though protective, rolling into a ball wouldn't help control descent from heights during evacuation."
+                },
+                {
+                    "text": "Cheetah's flexible spine for quick running",
+                    "isCorrect": 0,
+                    "explanation": "While cheetahs are excellent runners, their spine adaptation wouldn't help with safe descent from heights in emergency situations."
                 }
             ],
-            "funFact": "Penguins have special overlapping feathers coated with oil that create an almost perfect waterproof layer, keeping them dry and warm even in freezing Antarctic waters. This natural design has inspired waterproof fabrics and coatings used in extreme weather gear!"
+            "funFact": "Sugar gliders can glide up to 50 meters through the air in a single glide. Their membrane, called a patagium, stretches from their front paws to their back paws and acts like a parachute, allowing them to control their speed and direction while gliding."
         }
     ]
 }

@@ -4,12 +4,39 @@
     "questions": [
         {
             "id": 1,
+            "text": "Which statement best describes what makes a scientific claim valid?",
+            "options": [
+                {
+                    "text": "A scientific claim is valid when many people believe it to be true.",
+                    "isCorrect": 0,
+                    "explanation": "Popular belief does not make a claim scientific. Even if many people believe something, it needs evidence to be considered a valid scientific claim."
+                },
+                {
+                    "text": "A scientific claim is valid when it makes logical sense without requiring proof.",
+                    "isCorrect": 0,
+                    "explanation": "Logical reasoning alone is not enough to make a scientific claim valid. Scientific claims must be supported by concrete evidence from observations and experiments."
+                },
+                {
+                    "text": "A scientific claim is valid when it is supported by evidence gathered through systematic observation and experimentation.",
+                    "isCorrect": 1,
+                    "explanation": "Scientific claims require evidence collected through proper scientific methods to be considered valid. The evidence must be gathered systematically through careful observation and controlled experiments."
+                },
+                {
+                    "text": "A scientific claim is valid when it comes from an authority figure.",
+                    "isCorrect": 0,
+                    "explanation": "The source of a claim does not determine its scientific validity. Even claims from authority figures need to be supported by evidence to be considered scientifically valid."
+                }
+            ],
+            "funFact": "In the 17th century, scientists believed that a mysterious substance called 'phlogiston' was released during burning. This theory made logical sense at the time but was later disproven through careful experimentation, showing how science relies on evidence rather than logic alone."
+        },
+        {
+            "id": 2,
             "text": "When scientists find new evidence that contradicts their current understanding of a natural phenomenon, what should they do?",
             "options": [
                 {
-                    "text": "Ignore the new evidence and continue with their current understanding",
+                    "text": "Keep the new evidence secret to avoid confusion in the scientific community",
                     "isCorrect": 0,
-                    "explanation": "Scientists must be open to new evidence and willing to change their views. Ignoring evidence goes against the scientific process."
+                    "explanation": "Sharing evidence and findings with other scientists is a crucial part of the scientific process, even if it challenges existing theories."
                 },
                 {
                     "text": "Examine the new evidence carefully and modify their understanding if necessary",
@@ -22,134 +49,134 @@
                     "explanation": "Scientists should evaluate evidence objectively, regardless of whether it supports or contradicts their current understanding."
                 },
                 {
-                    "text": "Keep the new evidence secret to avoid confusion in the scientific community",
+                    "text": "Ignore the new evidence and continue with their current understanding",
                     "isCorrect": 0,
-                    "explanation": "Sharing evidence and findings with other scientists is a crucial part of the scientific process, even if it challenges existing theories."
+                    "explanation": "Scientists must be open to new evidence and willing to change their views. Ignoring evidence goes against the scientific process."
                 }
             ],
             "funFact": "The discovery that bacteria cause ulcers is a famous example of scientists changing their views based on new evidence. For decades, doctors believed ulcers were caused by stress and spicy foods, until Barry Marshall and Robin Warren proved that H. pylori bacteria were the real culprit, winning the 2005 Nobel Prize in Medicine."
         },
         {
-            "id": 2,
-            "text": "What is the key characteristic that makes a claim scientific?",
-            "options": [
-                {
-                    "text": "It is based on evidence gathered through careful observation and experimentation",
-                    "isCorrect": 1,
-                    "explanation": "Scientific claims must be supported by evidence collected through systematic observation and experimentation. This is what distinguishes science from non-scientific claims."
-                },
-                {
-                    "text": "It is widely believed by many people",
-                    "isCorrect": 0,
-                    "explanation": "Popular belief does not make something scientific. Many widely held beliefs lack scientific evidence to support them."
-                },
-                {
-                    "text": "It comes from an expert or authority figure",
-                    "isCorrect": 0,
-                    "explanation": "Even claims from authorities need to be supported by evidence to be considered scientific. Authority alone does not make something scientific."
-                },
-                {
-                    "text": "It uses complex technical terms and mathematics",
-                    "isCorrect": 0,
-                    "explanation": "Using technical language or mathematics does not automatically make something scientific. The key is having evidence to support the claims being made."
-                }
-            ],
-            "funFact": "The word 'science' comes from the Latin word 'scientia' which means 'knowledge.' However, not all knowledge is scientific - it's the systematic way of gathering evidence through observation and experimentation that makes something truly scientific!"
-        },
-        {
             "id": 3,
-            "text": "Why is it important for scientists to repeat their tests multiple times when conducting an investigation?",
+            "text": "A scientist is testing a new model airplane design and notices that the wings tend to bend too much during flight. What should the scientist do next?",
             "options": [
                 {
-                    "text": "To collect more evidence and ensure reliable results",
+                    "text": "Test different wing materials and designs while keeping other parts of the plane the same",
                     "isCorrect": 1,
-                    "explanation": "Repeating tests helps scientists verify their findings and ensures that the results are consistent and reliable, not just due to chance or error."
+                    "explanation": "When a failure point is identified, scientists should focus on improving that specific aspect while controlling other variables to ensure fair testing"
                 },
                 {
-                    "text": "To make the investigation take longer",
+                    "text": "Ignore the wing problem since all planes have some flaws",
                     "isCorrect": 0,
-                    "explanation": "The purpose of repeating tests is not to extend the investigation time, but to validate results and ensure accuracy."
+                    "explanation": "Scientists should address identified problems to improve their designs, not ignore them"
                 },
                 {
-                    "text": "To use up all available materials",
+                    "text": "Start over with a completely new airplane design",
                     "isCorrect": 0,
-                    "explanation": "Using up materials is not a scientific reason for repeating tests. Tests are repeated to confirm findings and ensure accuracy."
+                    "explanation": "Starting over is unnecessary when only one component needs improvement. It's more efficient to focus on fixing the specific problem"
                 },
                 {
-                    "text": "To make the investigation look more impressive",
+                    "text": "Continue flying the plane but with less weight",
                     "isCorrect": 0,
-                    "explanation": "The goal of repeating tests is not to impress others, but to validate findings and ensure the results are reliable."
+                    "explanation": "This approach avoids addressing the core problem with the wings and doesn't help improve the design"
                 }
             ],
-            "funFact": "In some scientific experiments, researchers might repeat a test hundreds or even thousands of times! For example, when testing new medicines, scientists conduct multiple trials with many participants to ensure the results are reliable and safe."
+            "funFact": "The Wright brothers went through over 200 wing designs before achieving successful powered flight in 1903. They systematically tested different wing shapes in a wind tunnel they built themselves!"
         },
         {
             "id": 4,
-            "text": "After completing an investigation, what do scientists typically do with their findings?",
+            "text": "What is the best definition of a controlled experiment?",
             "options": [
                 {
-                    "text": "Share their findings with other scientists and read about similar studies",
+                    "text": "A test where scientists try many different changes at once to get quick results",
+                    "isCorrect": 0,
+                    "explanation": "Changing multiple variables at once makes it impossible to determine which change caused any observed effects."
+                },
+                {
+                    "text": "A scientific test where researchers change only one variable at a time while keeping all other variables constant to isolate the results",
                     "isCorrect": 1,
-                    "explanation": "Scientists communicate their findings so others can verify and build upon their work, making science a collaborative effort."
+                    "explanation": "This is correct! A controlled experiment must isolate variables to determine cause and effect relationships by changing only one thing at a time."
                 },
                 {
-                    "text": "Keep their findings secret until they can make money from them",
+                    "text": "A test that always produces the exact same results every time",
                     "isCorrect": 0,
-                    "explanation": "Scientists typically share their findings openly to advance scientific knowledge, not keep them secret for personal gain."
+                    "explanation": "While controlled experiments should be reproducible, some variation in results is normal. The key is controlling variables, not getting identical results."
                 },
                 {
-                    "text": "Immediately apply for patents without verification",
+                    "text": "An experiment that is completely controlled by computers with no human involvement",
                     "isCorrect": 0,
-                    "explanation": "Before seeking patents, scientific findings need to be verified and validated through peer review and repeated experiments."
-                },
-                {
-                    "text": "Delete all records once they reach a conclusion",
-                    "isCorrect": 0,
-                    "explanation": "Scientists maintain detailed records of their work so others can review and replicate their findings."
+                    "explanation": "While computers may be used in experiments, this is not what makes an experiment 'controlled'. Control refers to carefully managing variables."
                 }
             ],
-            "funFact": "The first scientific journal, 'Philosophical Transactions,' was published in 1665 by the Royal Society and is still in publication today, making it the world's longest-running scientific journal!"
+            "funFact": "The first properly controlled medical experiment was conducted in 1747 by James Lind, who tested different treatments for scurvy on sailors by keeping all their conditions identical except for what they were given to eat. This pioneering method of controlling variables revolutionized scientific research!"
         },
         {
             "id": 5,
-            "text": "Why do scientists record data during their investigations?",
+            "text": "When starting a scientific investigation, what should be the first step?",
             "options": [
                 {
-                    "text": "To ensure their findings can be replicated by other scientists",
+                    "text": "Gather all the equipment needed for experiments",
+                    "isCorrect": 0,
+                    "explanation": "While equipment is important, you need to know what question you're investigating first before determining what equipment you'll need."
+                },
+                {
+                    "text": "Start collecting data immediately",
+                    "isCorrect": 0,
+                    "explanation": "Collecting data without first defining what you want to learn would be unfocused and might not help answer any specific question."
+                },
+                {
+                    "text": "Write down your conclusions",
+                    "isCorrect": 0,
+                    "explanation": "Conclusions come after you've asked questions, conducted experiments, and analyzed your data. They cannot be written before investigating."
+                },
+                {
+                    "text": "Ask a meaningful question about what you want to learn",
                     "isCorrect": 1,
-                    "explanation": "Scientists record data carefully so other scientists can verify their findings by repeating the investigation, which is a crucial part of the scientific process."
-                },
-                {
-                    "text": "To make their research look more professional",
-                    "isCorrect": 0,
-                    "explanation": "The purpose of recording data isn't about appearance - it's about creating a reliable record that can be used to verify findings and advance scientific knowledge."
-                },
-                {
-                    "text": "To keep themselves busy during experiments",
-                    "isCorrect": 0,
-                    "explanation": "Data recording is a purposeful activity essential to scientific investigation, not just a way to pass time during experiments."
-                },
-                {
-                    "text": "To impress other scientists with detailed notes",
-                    "isCorrect": 0,
-                    "explanation": "Scientists don't record data to impress others - they do it to maintain accuracy and allow for verification of their findings."
+                    "explanation": "Scientific investigations begin with asking questions about observations or phenomena you want to understand better. This helps focus your investigation and guides the next steps."
                 }
             ],
-            "funFact": "The practice of detailed scientific record-keeping dates back to ancient civilizations. For example, ancient Babylonian astronomers kept detailed records of celestial observations on clay tablets, some of which have survived for over 3,000 years!"
+            "funFact": "The question that led to the discovery of penicillin started when Alexander Fleming wondered why mold growing on his petri dishes was killing bacteria around it. This simple observation and questioning led to one of the most important medical discoveries in history!"
         },
         {
             "id": 6,
-            "text": "A team of students is designing a wind turbine prototype to generate electricity. They want to test how well their prototype performs. Which measurement would provide the most meaningful data about the turbine's performance?",
+            "text": "A student wants to test if changing the shape of a model boat's hull affects its speed in water. Which of the following test plans would provide the most reliable results?",
             "options": [
                 {
-                    "text": "The amount of electrical power generated by the turbine in watts",
+                    "text": "Use the same water depth, same push force, and same hull material while testing different hull shapes",
                     "isCorrect": 1,
-                    "explanation": "Measuring the electrical power output directly shows how well the turbine converts wind energy to electrical energy, which is its primary function."
+                    "explanation": "This is correct because it controls all variables except the hull shape (independent variable), allowing the student to accurately measure how hull shape alone affects speed"
                 },
+                {
+                    "text": "Use different hull shapes but test them in different types of water (fresh water, salt water)",
+                    "isCorrect": 0,
+                    "explanation": "Changing the water type along with hull shape introduces an additional variable that would affect the results"
+                },
+                {
+                    "text": "Test different hull shapes while varying the force used to push each boat",
+                    "isCorrect": 0,
+                    "explanation": "Varying the push force means you cannot determine if changes in speed are due to hull shape or the different forces applied"
+                },
+                {
+                    "text": "Change both the hull shape and the water depth for each test",
+                    "isCorrect": 0,
+                    "explanation": "Changing multiple variables at once makes it impossible to determine which change caused any difference in speed"
+                }
+            ],
+            "funFact": "Naval architects use sophisticated water tanks called towing tanks to test ship hull designs. These tanks can be hundreds of meters long and help designers optimize hull shapes for maximum efficiency before building full-size ships."
+        },
+        {
+            "id": 7,
+            "text": "A team of students is designing a wind turbine prototype to generate electricity. They want to test how well their prototype performs. Which measurement would provide the most meaningful data about the turbine's performance?",
+            "options": [
                 {
                     "text": "The color of the turbine blades",
                     "isCorrect": 0,
                     "explanation": "The color of turbine blades does not indicate how well the turbine performs its main function of generating electricity."
+                },
+                {
+                    "text": "The temperature of the turbine",
+                    "isCorrect": 0,
+                    "explanation": "While temperature might indicate friction or efficiency issues, it doesn't directly measure the turbine's main purpose of generating electricity."
                 },
                 {
                     "text": "The sound level of the turbine while spinning",
@@ -157,75 +184,48 @@
                     "explanation": "While noise level might be important for environmental concerns, it doesn't directly measure how well the turbine generates electricity."
                 },
                 {
-                    "text": "The temperature of the turbine",
-                    "isCorrect": 0,
-                    "explanation": "While temperature might indicate friction or efficiency issues, it doesn't directly measure the turbine's main purpose of generating electricity."
+                    "text": "The amount of electrical power generated by the turbine in watts",
+                    "isCorrect": 1,
+                    "explanation": "Measuring the electrical power output directly shows how well the turbine converts wind energy to electrical energy, which is its primary function."
                 }
             ],
             "funFact": "The world's largest wind turbines, like those developed by Danish company Vestas, have blades longer than a football field and can generate enough electricity to power up to 20,000 homes annually."
         },
         {
-            "id": 7,
-            "text": "A team of students is designing an insulated container to keep hot chocolate warm during winter field trips. They want to test how well different insulation materials maintain the temperature. Which measurements would be most useful to determine if their design meets the temperature control requirements?",
-            "options": [
-                {
-                    "text": "Measure the temperature of the hot chocolate every 15 minutes for 2 hours while keeping all other variables constant",
-                    "isCorrect": 1,
-                    "explanation": "Regular temperature measurements over time while controlling other variables is the best way to test insulation effectiveness, as it shows how well the container maintains temperature"
-                },
-                {
-                    "text": "Measure the temperature only at the beginning and end of the field trip",
-                    "isCorrect": 0,
-                    "explanation": "Taking only two measurements misses important information about how the temperature changes over time and wouldn't identify when the insulation starts failing"
-                },
-                {
-                    "text": "Measure the outside temperature of the container",
-                    "isCorrect": 0,
-                    "explanation": "The outside temperature of the container doesn't directly tell us how well the contents are being kept warm, which is the main criteria for the design"
-                },
-                {
-                    "text": "Measure how much hot chocolate fits in the container",
-                    "isCorrect": 0,
-                    "explanation": "While capacity is important, it doesn't help determine how well the insulation maintains temperature, which is the key criteria being tested"
-                }
-            ],
-            "funFact": "The principle of insulation was first studied scientifically by James Dewar in 1892, leading to his invention of the Dewar flask (vacuum flask), which is still used in modern thermoses to keep drinks hot or cold!"
-        },
-        {
             "id": 8,
-            "text": "A team of students is testing a bridge prototype made from wooden popsicle sticks. They want to determine how many books the bridge can hold before breaking. To ensure a fair test across multiple trials, which of the following factors should they keep constant?",
+            "text": "A student wants to design a mechanism to help disperse wildflower seeds over a large area. Which measurements would be most helpful in determining how well their seed dispersal design works and how it could be improved?",
             "options": [
                 {
-                    "text": "The length of the bridge, type of books used, and spacing between support points",
+                    "text": "The distance the seeds travel and the number of seeds that successfully land in soil",
                     "isCorrect": 1,
-                    "explanation": "To conduct a fair test, these factors must remain constant as they can affect the bridge's performance. Changing any of these variables would make it impossible to compare results across trials."
+                    "explanation": "These measurements directly show how effectively the mechanism disperses seeds and would help identify if improvements are needed in terms of distance or targeting."
                 },
                 {
-                    "text": "Only the length of the bridge needs to be constant",
+                    "text": "The temperature of the air during seed dispersal",
                     "isCorrect": 0,
-                    "explanation": "Just keeping the bridge length constant is not enough. The type of books (weight) and support spacing also affect the bridge's performance and need to be controlled."
+                    "explanation": "While environmental conditions might affect dispersal, measuring temperature alone wouldn't indicate how well the mechanism performs or what needs to be improved."
                 },
                 {
-                    "text": "The number of books used in each trial",
+                    "text": "The time of day the seeds are released",
                     "isCorrect": 0,
-                    "explanation": "The number of books is actually the dependent variable being measured. It should change in each trial until the bridge breaks to determine its maximum capacity."
+                    "explanation": "Though timing could affect dispersal, it's not a measurement that would directly show how well the mechanism works or what needs improvement."
                 },
                 {
-                    "text": "The time of day when testing is conducted",
+                    "text": "The color and shape of the seeds",
                     "isCorrect": 0,
-                    "explanation": "The time of day does not significantly affect the bridge's structural performance and is not a relevant variable that needs to be controlled in this experiment."
+                    "explanation": "While seed characteristics are important, they aren't measurements that would help evaluate the effectiveness of the dispersal mechanism itself."
                 }
             ],
-            "funFact": "The world's longest bridge made entirely of popsicle sticks was created in 2013 and measured over 56 feet long! It used more than 280,000 popsicle sticks and could support significant weight thanks to its carefully designed structure."
+            "funFact": "Many plants have evolved fascinating seed dispersal mechanisms - the maple tree's seeds have wing-like structures called samaras that allow them to spin like helicopters as they fall, helping them travel up to 330 feet from the parent tree!"
         },
         {
             "id": 9,
             "text": "An engineer is testing a new sound-dampening headphone prototype. Which variables should be measured and controlled to determine if the prototype effectively reduces noise?",
             "options": [
                 {
-                    "text": "Measure the decibel level with and without headphones while keeping the source sound constant",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because it controls the input variable (source sound) while measuring the change in sound level (output variable) to fairly test the effectiveness of the headphones"
+                    "text": "Only measure the decibel level while wearing the headphones",
+                    "isCorrect": 0,
+                    "explanation": "Without measuring the original sound level for comparison, it's impossible to determine how much noise reduction the headphones provide"
                 },
                 {
                     "text": "Measure different source sounds while changing the position of the headphones",
@@ -233,53 +233,53 @@
                     "explanation": "Changing multiple variables (sound source and headphone position) simultaneously makes it impossible to determine which factor affects the noise reduction"
                 },
                 {
-                    "text": "Only measure the decibel level while wearing the headphones",
-                    "isCorrect": 0,
-                    "explanation": "Without measuring the original sound level for comparison, it's impossible to determine how much noise reduction the headphones provide"
-                },
-                {
                     "text": "Test the headphones on different people without measuring decibel levels",
                     "isCorrect": 0,
                     "explanation": "Subjective opinions without quantitative measurements cannot provide reliable data about the effectiveness of the noise reduction"
+                },
+                {
+                    "text": "Measure the decibel level with and without headphones while keeping the source sound constant",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because it controls the input variable (source sound) while measuring the change in sound level (output variable) to fairly test the effectiveness of the headphones"
                 }
             ],
             "funFact": "The quietest place on Earth is an anechoic chamber at Microsoft's headquarters, which absorbs 99.99% of sound. It's so quiet that you can hear your own blood flowing and heart beating!"
         },
         {
             "id": 10,
-            "text": "You are designing a water-saving faucet system for your school's bathroom sinks. You want to test if different nozzle designs affect water flow while maintaining the same water pressure. Which of the following test plans would best help identify the most effective design?",
+            "text": "A student is designing a solar oven to cook food using sunlight. They want to test different aspects of their design to make it work better. Which of the following represents the best approach to testing and improving the solar oven?",
             "options": [
                 {
-                    "text": "Test different nozzle designs while keeping water pressure constant, measuring water flow rate for each design",
+                    "text": "Test the solar oven only on sunny days when it's most likely to work well",
+                    "isCorrect": 0,
+                    "explanation": "Testing only under ideal conditions doesn't help identify potential failure points or areas for improvement. The oven should be tested under various conditions to understand its limitations."
+                },
+                {
+                    "text": "Focus only on testing the maximum temperature the oven can reach",
+                    "isCorrect": 0,
+                    "explanation": "Looking at only one performance aspect (maximum temperature) ignores other important factors like heating time, heat retention, and durability that could need improvement."
+                },
+                {
+                    "text": "Change multiple design features at once (reflector size, insulation thickness, and box material) to save time during testing",
+                    "isCorrect": 0,
+                    "explanation": "Changing multiple features simultaneously makes it impossible to determine which specific change affected the performance, making it difficult to identify what actually improved the design."
+                },
+                {
+                    "text": "Test one feature at a time (like reflector size) while keeping other features constant, and measure the temperature reached",
                     "isCorrect": 1,
-                    "explanation": "This is the correct approach as it controls the key variable (water pressure) while testing different nozzle designs, allowing for fair comparison of water flow rates."
-                },
-                {
-                    "text": "Test all nozzle designs at once and measure the total water savings",
-                    "isCorrect": 0,
-                    "explanation": "Testing all designs simultaneously wouldn't allow you to identify which specific design is most effective, as you couldn't isolate the performance of each design."
-                },
-                {
-                    "text": "Test each nozzle design with different water pressures to see which works best",
-                    "isCorrect": 0,
-                    "explanation": "Varying water pressure would create an unfair test, as you wouldn't be able to determine if differences in flow are due to the nozzle design or the pressure changes."
-                },
-                {
-                    "text": "Choose the nozzle that looks most efficient and install it without testing",
-                    "isCorrect": 0,
-                    "explanation": "Making decisions without testing and collecting evidence is not a scientific approach and could lead to ineffective solutions."
+                    "explanation": "This is a fair test approach where only one variable is changed while others are controlled. This helps clearly identify how each feature affects performance and what needs improvement."
                 }
             ],
-            "funFact": "Modern water-efficient faucets can reduce water flow by up to 30% compared to standard faucets while maintaining the same effectiveness, thanks to innovative designs that mix air with water to maintain pressure!"
+            "funFact": "The first solar oven was invented by Horace de Saussure, a Swiss naturalist, in 1767. He created a 'hot box' using several glass boxes nested inside each other, which could reach temperatures high enough to cook fruit!"
         },
         {
             "id": 11,
             "text": "Two groups of students are testing a new automated watering system for their school garden. Which approach would provide more reliable results?\n\nGroup A:\n- Changes the water flow rate and timer settings each day\n- Tests different plants each time\n- Waters at different times of day\n- Records plant growth weekly\n\nGroup B:\n- Tests one water flow rate at a time\n- Uses the same type of plants\n- Waters at the same time each day\n- Records plant growth weekly\n- Only changes one setting between tests",
             "options": [
                 {
-                    "text": "Group A's approach, because testing multiple variables at once will give faster results",
+                    "text": "Both approaches are equally reliable since they both record data weekly",
                     "isCorrect": 0,
-                    "explanation": "Testing multiple variables simultaneously makes it impossible to determine which change caused what effect, leading to unreliable results"
+                    "explanation": "Regular data collection alone doesn't make a test reliable - controlling variables is essential for valid scientific results"
                 },
                 {
                     "text": "Group A's approach, because using different plants shows how well the system works overall",
@@ -287,27 +287,76 @@
                     "explanation": "Using different plants adds an uncontrolled variable that could affect the results independently of the watering system"
                 },
                 {
+                    "text": "Group A's approach, because testing multiple variables at once will give faster results",
+                    "isCorrect": 0,
+                    "explanation": "Testing multiple variables simultaneously makes it impossible to determine which change caused what effect, leading to unreliable results"
+                },
+                {
                     "text": "Group B's approach, because controlling variables allows them to identify exactly what affects plant growth",
                     "isCorrect": 1,
                     "explanation": "By changing only one variable at a time while keeping others constant, Group B can clearly determine how each setting affects plant growth"
-                },
-                {
-                    "text": "Both approaches are equally reliable since they both record data weekly",
-                    "isCorrect": 0,
-                    "explanation": "Regular data collection alone doesn't make a test reliable - controlling variables is essential for valid scientific results"
                 }
             ],
             "funFact": "The concept of controlling variables in scientific experiments was pioneered by Sir Francis Bacon in the early 1600s. He introduced the idea that to understand nature, we must carefully isolate and test one factor at a time."
         },
         {
             "id": 12,
-            "text": "A team of architects is testing a new building design that claims to use 30% less energy for heating and cooling. During their first test in summer, they found the building used significantly less energy compared to a traditional building. Which factor should they control in their next test to make their results more reliable?",
+            "text": "A team of students is testing a new recycling system for their school cafeteria. They want to determine if separating waste into different colored bins increases recycling rates. Which of the following test conditions would provide the most reliable results?",
             "options": [
                 {
-                    "text": "Test the building during different seasons to account for temperature variations",
-                    "isCorrect": 1,
-                    "explanation": "Testing during different seasons helps control for temperature variations that affect energy usage, making the results more reliable and comprehensive."
+                    "text": "Using different colored bins, placing them in different locations each day, and measuring recycling rates at different times",
+                    "isCorrect": 0,
+                    "explanation": "This test changes multiple variables (bin color, location, and measurement time) simultaneously, making it impossible to determine which factor affects recycling rates."
                 },
+                {
+                    "text": "Using different colored bins with different sizes and shapes, keeping them in the same location",
+                    "isCorrect": 0,
+                    "explanation": "This test changes multiple variables (bin color, size, and shape) at once, making it impossible to determine which factor influences recycling rates."
+                },
+                {
+                    "text": "Using different colored bins while keeping bin locations constant, measuring recycling rates at the same time each day",
+                    "isCorrect": 1,
+                    "explanation": "This is a fair test because it only changes one variable (bin color) while controlling other variables (location and measurement time), allowing clear conclusions about the effect of bin color."
+                },
+                {
+                    "text": "Using the same colored bins in different locations each day and measuring recycling whenever convenient",
+                    "isCorrect": 0,
+                    "explanation": "This test doesn't examine the effect of bin color at all, and the inconsistent measurement times would make the results unreliable."
+                }
+            ],
+            "funFact": "The use of color psychology in recycling systems has shown remarkable results - some cities have reported up to 90% increase in correct waste sorting simply by using specific colors consistently for different types of waste!"
+        },
+        {
+            "id": 13,
+            "text": "A student wanted to test if adding different amounts of fertilizer affects plant growth. The student set up three pots with different soil types and added varying amounts of fertilizer to each pot. After two weeks, the student found that the plants grew at different rates but couldn't determine if it was due to the fertilizer. What made this experiment unfair?",
+            "options": [
+                {
+                    "text": "The student used three pots instead of more",
+                    "isCorrect": 0,
+                    "explanation": "The number of pots isn't the main issue here. While more samples can provide better data, having three test subjects can still yield valid results if the experiment is properly controlled."
+                },
+                {
+                    "text": "The experiment lasted only two weeks",
+                    "isCorrect": 0,
+                    "explanation": "While longer observation periods might provide more data, the duration of the experiment isn't what made it unfair. The main issue was changing multiple variables at once."
+                },
+                {
+                    "text": "The student used different soil types for each pot",
+                    "isCorrect": 1,
+                    "explanation": "Using different soil types introduces an additional variable that could affect plant growth. To make the test fair, only one variable (fertilizer amount) should be changed while keeping all other conditions, including soil type, the same."
+                },
+                {
+                    "text": "The student measured growth rates",
+                    "isCorrect": 0,
+                    "explanation": "Measuring growth rates is actually a good way to collect data about plant development. The problem wasn't with the measurement method but with changing multiple variables simultaneously."
+                }
+            ],
+            "funFact": "James Hutton was among the early pioneers of controlled agricultural experiments in Western science in the 1750s. He created identical plots of land to test different farming methods, establishing an important foundation for modern agricultural science!"
+        },
+        {
+            "id": 14,
+            "text": "A team of architects is testing a new building design that claims to use 30% less energy for heating and cooling. During their first test in summer, they found the building used significantly less energy compared to a traditional building. Which factor should they control in their next test to make their results more reliable?",
+            "options": [
                 {
                     "text": "Use different building materials for each test",
                     "isCorrect": 0,
@@ -322,12 +371,17 @@
                     "text": "Install different types of thermostats",
                     "isCorrect": 0,
                     "explanation": "Using different thermostats would introduce another variable, making it unclear whether energy savings came from the design or thermostat differences."
+                },
+                {
+                    "text": "Test the building during different seasons to account for temperature variations",
+                    "isCorrect": 1,
+                    "explanation": "Testing during different seasons helps control for temperature variations that affect energy usage, making the results more reliable and comprehensive."
                 }
             ],
             "funFact": "Modern energy-efficient buildings often use 'smart' materials that automatically adjust to environmental conditions. For example, some windows can tint themselves on sunny days to reduce heat gain, while staying clear on cloudy days to allow in more natural light!"
         },
         {
-            "id": 13,
+            "id": 15,
             "text": "A scientist is developing a new medication to help with headaches. She conducts multiple trials to test its effectiveness with different patients. In each trial, she keeps everything the same (like the time of day, patient age, and method of administration) but changes only the dosage amount. What makes this a controlled experiment?",
             "options": [
                 {
@@ -341,71 +395,17 @@
                     "explanation": "Using different patients is part of the experimental design, but this alone doesn't make it a controlled experiment - what matters is controlling the variables"
                 },
                 {
-                    "text": "The scientist conducts multiple trials of the experiment",
-                    "isCorrect": 0,
-                    "explanation": "While multiple trials are important for reliability, this alone doesn't make it a controlled experiment - controlling variables is the key feature"
-                },
-                {
                     "text": "The scientist measures if the headache goes away",
                     "isCorrect": 0,
                     "explanation": "Measuring the outcome (dependent variable) is important, but this alone doesn't make it a controlled experiment - it's about controlling the variables during testing"
+                },
+                {
+                    "text": "The scientist conducts multiple trials of the experiment",
+                    "isCorrect": 0,
+                    "explanation": "While multiple trials are important for reliability, this alone doesn't make it a controlled experiment - controlling variables is the key feature"
                 }
             ],
             "funFact": "The concept of controlled experiments was first developed in the 9th century by Arab scientist Al-Razi, who pioneered the use of control groups in medical research. He was one of the first to emphasize the importance of controlling variables to get accurate results!"
-        },
-        {
-            "id": 14,
-            "text": "A team of students is testing a prototype solar-powered car they built for a science competition. Which set of variables should they control to ensure fair testing of the car's maximum speed?",
-            "options": [
-                {
-                    "text": "Keep sunlight intensity, track surface, and wind conditions constant while changing the car's wheel size",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because it controls key environmental variables (sunlight, surface, wind) that could affect the car's performance while testing how wheel size impacts speed."
-                },
-                {
-                    "text": "Change sunlight intensity, track surface, and wind conditions for each test run",
-                    "isCorrect": 0,
-                    "explanation": "Changing multiple environmental conditions simultaneously would make it impossible to determine which factor truly affects the car's speed."
-                },
-                {
-                    "text": "Only control the track surface while letting other conditions vary naturally",
-                    "isCorrect": 0,
-                    "explanation": "Controlling just one variable while letting others vary would not provide reliable test results since sunlight and wind could significantly impact performance."
-                },
-                {
-                    "text": "Test the car at different times of day without controlling any variables",
-                    "isCorrect": 0,
-                    "explanation": "Without controlling any variables, it would be impossible to determine what specifically affects the car's performance."
-                }
-            ],
-            "funFact": "The world's fastest solar-powered car reached a speed of 88.8 mph (142.9 km/h) in 2014! This record-breaking achievement was made possible by careful testing and optimization of numerous variables including aerodynamics and solar cell efficiency."
-        },
-        {
-            "id": 15,
-            "text": "An engineering team is testing different materials for building a new bridge. They conducted multiple trials using steel beams, wooden beams, and concrete structures. During the trials, they changed both the materials and the width of the beams in different tests. Which change in their testing approach makes it difficult to determine which material is truly the strongest?",
-            "options": [
-                {
-                    "text": "Using different materials in different trials",
-                    "isCorrect": 0,
-                    "explanation": "Using different materials is necessary to compare their strength. This is a valid part of testing different solutions."
-                },
-                {
-                    "text": "Changing both materials and beam width between trials",
-                    "isCorrect": 1,
-                    "explanation": "Changing multiple variables (materials and width) at once makes it impossible to determine which factor caused any differences in performance. In a fair test, only one variable should be changed at a time."
-                },
-                {
-                    "text": "Testing each material multiple times",
-                    "isCorrect": 0,
-                    "explanation": "Multiple trials with the same material actually improve the reliability of the test results by ensuring consistency."
-                },
-                {
-                    "text": "Recording the performance data for each trial",
-                    "isCorrect": 0,
-                    "explanation": "Recording data is essential for analyzing and comparing the results of different trials. This is a crucial part of scientific testing."
-                }
-            ],
-            "funFact": "The Brooklyn Bridge, completed in 1883, was tested extensively before opening to the public. Engineers even placed 21 elephants on the bridge to prove its strength and safety to skeptical citizens!"
         }
     ]
 }

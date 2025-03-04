@@ -4,12 +4,93 @@
     "questions": [
         {
             "id": 1,
+            "text": "If the Sun were scaled down to the size of a basketball, approximately what would be the relative size of Earth?",
+            "options": [
+                {
+                    "text": "The size of a golf ball",
+                    "isCorrect": 0,
+                    "explanation": "This significantly overestimates Earth's size relative to the Sun. The Sun is so much larger than Earth that the comparison needs to be with something much smaller than a golf ball."
+                },
+                {
+                    "text": "The size of a pencil point",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The size difference between the Sun and Earth is so vast that when the Sun is scaled to a basketball, Earth would only be about the size of a pencil point."
+                },
+                {
+                    "text": "The size of a tennis ball",
+                    "isCorrect": 0,
+                    "explanation": "This greatly overestimates Earth's size relative to the Sun. The Sun is actually much larger compared to Earth than a basketball is to a tennis ball."
+                },
+                {
+                    "text": "The size of a marble",
+                    "isCorrect": 0,
+                    "explanation": "This overestimates Earth's size relative to the Sun. The difference in size between the Sun and Earth is much greater than the difference between a basketball and a marble."
+                }
+            ],
+            "funFact": "The Sun is so enormous that about 1.3 million Earths could fit inside it! This is why even simple scale models of the Solar System are difficult to make - the size differences between objects are just too extreme."
+        },
+        {
+            "id": 2,
+            "text": "Why does it take light from the nearest star (Proxima Centauri) over 4 years to reach Earth, while sunlight only takes 8 minutes to reach Earth?",
+            "options": [
+                {
+                    "text": "Because Proxima Centauri is smaller than the Sun",
+                    "isCorrect": 0,
+                    "explanation": "The size of a star does not affect the speed at which its light travels. Light always travels at the same speed regardless of its source."
+                },
+                {
+                    "text": "Because Proxima Centauri is much farther away from Earth than the Sun",
+                    "isCorrect": 1,
+                    "explanation": "Light travels at 186,000 miles per second regardless of the source. Since Proxima Centauri is about 250,000 times farther from Earth than the Sun, its light takes much longer to reach us."
+                },
+                {
+                    "text": "Because Proxima Centauri produces less bright light than the Sun",
+                    "isCorrect": 0,
+                    "explanation": "The brightness of a star does not affect the speed of its light. The difference in travel time is due to the vast difference in distance from Earth."
+                },
+                {
+                    "text": "Because Proxima Centauri's light travels more slowly than the Sun's light",
+                    "isCorrect": 0,
+                    "explanation": "Light from all stars, including both the Sun and Proxima Centauri, travels at the same speed - 186,000 miles per second."
+                }
+            ],
+            "funFact": "Light is so fast that it could circle the Earth about 7.5 times in just one second! Yet even at this incredible speed, the light from the nearest star to us (Proxima Centauri) takes over 4 years to reach Earth."
+        },
+        {
+            "id": 3,
+            "text": "Two identical stars are at different distances from Earth. Star A is 10 light years away, while Star B is 100 light years away. How would Star B appear compared to Star A when viewed from Earth?",
+            "options": [
+                {
+                    "text": "Star B would appear dimmer and smaller than Star A",
+                    "isCorrect": 1,
+                    "explanation": "Objects appear smaller and dimmer the farther they are from the observer. Since Star B is 10 times farther away than Star A, it will appear dimmer and smaller despite being identical to Star A."
+                },
+                {
+                    "text": "Star B would appear brighter and larger than Star A",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Greater distance makes objects appear smaller and dimmer, not larger and brighter."
+                },
+                {
+                    "text": "Star B would appear the same as Star A",
+                    "isCorrect": 0,
+                    "explanation": "Distance affects how stars appear to observers. Since the stars are at different distances, they will not appear the same despite being identical."
+                },
+                {
+                    "text": "Star B would appear dimmer but the same size as Star A",
+                    "isCorrect": 0,
+                    "explanation": "Distance affects both the apparent brightness and size of objects. A more distant star appears both dimmer and smaller, not just dimmer."
+                }
+            ],
+            "funFact": "The star Betelgeuse is about 1000 times bigger than our Sun, but it appears as just a bright point of light in the night sky because it's about 600 light years away from Earth!"
+        },
+        {
+            "id": 4,
             "text": "Two identical candles are placed in a dark room. One candle is 2 feet away from you, while the other candle is 10 feet away. How will the two candles appear to you?",
             "options": [
                 {
-                    "text": "The closer candle will appear brighter and larger than the farther candle",
-                    "isCorrect": 1,
-                    "explanation": "Objects appear smaller and dimmer as their distance from the observer increases. The candle that is 2 feet away will appear brighter and larger because it is closer to you."
+                    "text": "The closer candle will appear brighter but smaller than the farther candle",
+                    "isCorrect": 0,
+                    "explanation": "While it's correct that the closer candle will appear brighter, it will also appear larger, not smaller. Both apparent brightness and size decrease with distance."
                 },
                 {
                     "text": "Both candles will appear equally bright and large",
@@ -22,44 +103,27 @@
                     "explanation": "This is incorrect because objects appear dimmer and smaller as they get farther away, not brighter and larger. The farther candle will actually appear dimmer and smaller."
                 },
                 {
-                    "text": "The closer candle will appear brighter but smaller than the farther candle",
-                    "isCorrect": 0,
-                    "explanation": "While it's correct that the closer candle will appear brighter, it will also appear larger, not smaller. Both apparent brightness and size decrease with distance."
+                    "text": "The closer candle will appear brighter and larger than the farther candle",
+                    "isCorrect": 1,
+                    "explanation": "Objects appear smaller and dimmer as their distance from the observer increases. The candle that is 2 feet away will appear brighter and larger because it is closer to you."
                 }
             ],
             "funFact": "This same principle explains why stars, which are actually enormous balls of gas much larger than Earth, appear as tiny points of light in the night sky. Even the closest star to Earth (after the Sun), Proxima Centauri, appears tiny because it's about 4.2 light-years away!"
         },
         {
-            "id": 2,
-            "text": "Why is Earth's position in relation to the Sun ideal for supporting life?",
-            "options": [
-                {
-                    "text": "Earth is at the perfect distance where liquid water can exist on its surface",
-                    "isCorrect": 1,
-                    "explanation": "Earth is in the habitable zone where it's close enough to receive sufficient heat to maintain liquid water, but far enough to prevent all water from vaporizing."
-                },
-                {
-                    "text": "Earth is the closest planet to the Sun",
-                    "isCorrect": 0,
-                    "explanation": "Mercury is actually the closest planet to the Sun. If Earth were that close, it would be too hot for liquid water to exist."
-                },
-                {
-                    "text": "Earth is exactly halfway between the Sun and other stars",
-                    "isCorrect": 0,
-                    "explanation": "Earth's position has nothing to do with other stars - it's the specific distance from the Sun that matters for maintaining liquid water."
-                },
-                {
-                    "text": "Earth receives the most light compared to other planets",
-                    "isCorrect": 0,
-                    "explanation": "Planets closer to the Sun like Mercury and Venus actually receive more light. Earth receives just the right amount of light and heat."
-                }
-            ],
-            "funFact": "Scientists estimate there could be billions of Earth-like planets in our galaxy alone that are in their stars' habitable zones, making them potential candidates for hosting life!"
-        },
-        {
-            "id": 3,
+            "id": 5,
             "text": "Which statement correctly describes the relationship between a star's temperature and its color?",
             "options": [
+                {
+                    "text": "Yellow stars have higher temperatures than blue stars",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Yellow stars, like our Sun, have intermediate temperatures. Blue stars are the hottest."
+                },
+                {
+                    "text": "All stars have the same temperature regardless of their color",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Stars have different temperatures, which is reflected in their different colors."
+                },
                 {
                     "text": "Red stars have higher temperatures than blue stars",
                     "isCorrect": 0,
@@ -69,104 +133,45 @@
                     "text": "Blue stars have higher temperatures than red stars",
                     "isCorrect": 1,
                     "explanation": "This is correct! Blue stars are the hottest, while red stars have lower temperatures."
-                },
-                {
-                    "text": "All stars have the same temperature regardless of their color",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Stars have different temperatures, which is reflected in their different colors."
-                },
-                {
-                    "text": "Yellow stars have higher temperatures than blue stars",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Yellow stars, like our Sun, have intermediate temperatures. Blue stars are the hottest."
                 }
             ],
             "funFact": "The surface temperature of a blue star like Rigel can reach up to 30,000 Kelvin (about 53,540\u00b0F), while a red star like Betelgeuse has a much cooler surface temperature of about 3,500 Kelvin (about 5,840\u00b0F)!"
         },
         {
-            "id": 4,
-            "text": "Why does it take light from the nearest star (Proxima Centauri) over 4 years to reach Earth, while sunlight only takes 8 minutes to reach Earth?",
-            "options": [
-                {
-                    "text": "Because Proxima Centauri is much farther away from Earth than the Sun",
-                    "isCorrect": 1,
-                    "explanation": "Light travels at 186,000 miles per second regardless of the source. Since Proxima Centauri is about 250,000 times farther from Earth than the Sun, its light takes much longer to reach us."
-                },
-                {
-                    "text": "Because Proxima Centauri's light travels more slowly than the Sun's light",
-                    "isCorrect": 0,
-                    "explanation": "Light from all stars, including both the Sun and Proxima Centauri, travels at the same speed - 186,000 miles per second."
-                },
-                {
-                    "text": "Because Proxima Centauri is smaller than the Sun",
-                    "isCorrect": 0,
-                    "explanation": "The size of a star does not affect the speed at which its light travels. Light always travels at the same speed regardless of its source."
-                },
-                {
-                    "text": "Because Proxima Centauri produces less bright light than the Sun",
-                    "isCorrect": 0,
-                    "explanation": "The brightness of a star does not affect the speed of its light. The difference in travel time is due to the vast difference in distance from Earth."
-                }
-            ],
-            "funFact": "Light is so fast that it could circle the Earth about 7.5 times in just one second! Yet even at this incredible speed, the light from the nearest star to us (Proxima Centauri) takes over 4 years to reach Earth."
-        },
-        {
-            "id": 5,
-            "text": "A light year is used to measure distances in space. Which of these best describes what a light year represents?",
-            "options": [
-                {
-                    "text": "The distance light travels in one year",
-                    "isCorrect": 1,
-                    "explanation": "A light year is the distance that light travels in one year, moving at a speed of 186,000 miles per second. This is the standard unit used for measuring very large distances in space."
-                },
-                {
-                    "text": "The time it takes for light to reach Earth from the Sun",
-                    "isCorrect": 0,
-                    "explanation": "Light from the Sun takes about 8 minutes to reach Earth, not a year. This is much shorter than a light year."
-                },
-                {
-                    "text": "The time it takes for a star to complete one orbit",
-                    "isCorrect": 0,
-                    "explanation": "Stars don't complete orbits in one year, and a light year is a measure of distance, not time, despite having 'year' in its name."
-                },
-                {
-                    "text": "The brightness of a star measured over one year",
-                    "isCorrect": 0,
-                    "explanation": "While star brightness can be measured, a light year is not a measure of brightness. It specifically measures the distance light travels in one year."
-                }
-            ],
-            "funFact": "In one year, light travels approximately 5.88 trillion miles (9.46 trillion kilometers)! This incredibly large distance helps astronomers describe the vast scale of space, as many stars are multiple light years away from Earth."
-        },
-        {
             "id": 6,
-            "text": "Two stars have the same actual size but Star A is 100 light years away from Earth while Star B is 400 light years away. Which star would appear brighter when viewed from Earth?",
+            "text": "If you could travel through our solar system and observe the Sun from different planets, how would its appearance change as you move farther away?",
             "options": [
                 {
-                    "text": "Star A",
+                    "text": "The Sun would appear smaller but brighter from planets that are farther away",
+                    "isCorrect": 0,
+                    "explanation": "This contradicts the relationship between distance and apparent brightness - objects appear both smaller and dimmer as distance increases"
+                },
+                {
+                    "text": "The Sun would appear larger but dimmer from planets that are farther away",
+                    "isCorrect": 0,
+                    "explanation": "This contradicts how light and distance work - both apparent size and brightness decrease as distance increases"
+                },
+                {
+                    "text": "The Sun would appear smaller and dimmer from planets that are farther away",
                     "isCorrect": 1,
-                    "explanation": "Since Star A is closer to Earth (100 light years) than Star B (400 light years), it will appear brighter even though both stars are the same size. Objects appear dimmer the farther away they are from the observer."
+                    "explanation": "Just like any light source, the Sun appears smaller and less bright as distance increases, following the principle that apparent size and brightness decrease with distance"
                 },
                 {
-                    "text": "Star B",
+                    "text": "The Sun would maintain the same size and brightness regardless of distance",
                     "isCorrect": 0,
-                    "explanation": "Although both stars are the same size, Star B is farther away (400 light years) than Star A (100 light years), so it would actually appear dimmer, not brighter."
-                },
-                {
-                    "text": "Both stars would appear equally bright",
-                    "isCorrect": 0,
-                    "explanation": "Even though the stars are the same size, their apparent brightness depends on their distance from Earth. The farther star (Star B) would appear dimmer than the closer star (Star A)."
+                    "explanation": "This is incorrect because the apparent size and brightness of objects, including stars, change based on their distance from the observer"
                 }
             ],
-            "funFact": "The relationship between distance and apparent brightness follows an inverse square law - when you double the distance to a star, it appears 1/4 as bright. This is why some of the largest and most luminous stars in our galaxy can appear quite dim from Earth due to their immense distances!"
+            "funFact": "From Neptune, the most distant planet in our solar system, the Sun appears about 900 times dimmer than it does from Earth, and would look like a very bright star rather than the large, brilliant disk we see from Earth!"
         },
         {
             "id": 7,
             "text": "If Earth was twice its current distance from the sun, how would the apparent area of the sun's disc appear to us?",
             "options": [
                 {
-                    "text": "Half as large as it appears now",
+                    "text": "Twice as large as it appears now",
                     "isCorrect": 0,
-                    "explanation": "The relationship between distance and apparent area is not linear. When distance doubles, the apparent area becomes one-fourth, not one-half."
+                    "explanation": "Moving farther from an object makes it appear smaller, not larger. Doubling the distance would make the sun's apparent area smaller, not larger."
                 },
                 {
                     "text": "One-fourth as large as it appears now",
@@ -179,91 +184,123 @@
                     "explanation": "The apparent area of objects changes with distance. Objects appear smaller when they are farther away."
                 },
                 {
-                    "text": "Twice as large as it appears now",
+                    "text": "Half as large as it appears now",
                     "isCorrect": 0,
-                    "explanation": "Moving farther from an object makes it appear smaller, not larger. Doubling the distance would make the sun's apparent area smaller, not larger."
+                    "explanation": "The relationship between distance and apparent area is not linear. When distance doubles, the apparent area becomes one-fourth, not one-half."
                 }
             ],
             "funFact": "If you could replace our sun with the red supergiant star Betelgeuse, it would extend beyond Mars's orbit! However, because Betelgeuse is about 600 light-years away, it appears as just a bright point in our night sky."
         },
         {
             "id": 8,
-            "text": "Two identical stars are observed from Earth at night. Star A appears much brighter than Star B despite being the same size and producing the same amount of light. What is the most likely explanation for this difference in apparent brightness?",
+            "text": "If both the sun and Proxima Centauri were viewed from the same distance, how would their apparent brightness compare?",
             "options": [
                 {
-                    "text": "Star A is closer to Earth than Star B",
-                    "isCorrect": 1,
-                    "explanation": "Objects appear brighter when they are closer to the observer. Since both stars are identical, the difference in brightness is due to Star A being closer to Earth than Star B."
+                    "text": "Proxima Centauri and the sun would appear equally bright",
+                    "isCorrect": 0,
+                    "explanation": "Stars have different intrinsic brightness based on their size and temperature. The sun and Proxima Centauri are different types of stars with different luminosities."
                 },
+                {
+                    "text": "The brightness comparison would depend on the time of day",
+                    "isCorrect": 0,
+                    "explanation": "A star's intrinsic brightness does not change with time of day. The apparent brightness difference would be consistent when viewed from the same distance."
+                },
+                {
+                    "text": "Proxima Centauri would appear dimmer than the sun",
+                    "isCorrect": 1,
+                    "explanation": "Proxima Centauri is a smaller and less luminous star than our sun. Even at the same distance, it would appear dimmer because it produces less light and heat energy."
+                },
+                {
+                    "text": "Proxima Centauri would appear brighter than the sun",
+                    "isCorrect": 0,
+                    "explanation": "While Proxima Centauri appears very dim from Earth due to its distance, this is incorrect. It is actually a smaller, cooler, and less luminous star than our sun."
+                }
+            ],
+            "funFact": "Proxima Centauri is what's known as a 'red dwarf' star - it's much cooler and about 7 times smaller than our sun. Despite being our closest stellar neighbor, it's so dim that it can't be seen from Earth with the naked eye!"
+        },
+        {
+            "id": 9,
+            "text": "Ancient sailors often relied on bright stars like Sirius for navigation at sea. Why were these bright stars reliable navigation tools despite being at vastly different distances from Earth?",
+            "options": [
+                {
+                    "text": "Bright stars maintain consistent apparent positions and brightness relative to Earth because their huge distances mean their small movements have minimal visual effect",
+                    "isCorrect": 1,
+                    "explanation": "At such vast distances, any movement of stars relative to Earth appears extremely small, making their positions appear fixed and reliable for navigation purposes."
+                },
+                {
+                    "text": "Bright stars are always the closest stars to Earth",
+                    "isCorrect": 0,
+                    "explanation": "A star's apparent brightness depends on both its distance and its actual luminosity. Some very bright stars are actually quite far from Earth but appear bright because they are intrinsically very luminous."
+                },
+                {
+                    "text": "Bright stars are always moving toward Earth which keeps them visible",
+                    "isCorrect": 0,
+                    "explanation": "Stars move in various directions relative to Earth, not always toward us. Their reliability for navigation comes from their apparent fixed positions due to their great distances."
+                },
+                {
+                    "text": "Bright stars are all exactly the same distance from Earth",
+                    "isCorrect": 0,
+                    "explanation": "Stars are at widely varying distances from Earth. For example, Sirius is about 8.6 light years away while Rigel is about 864 light years away."
+                }
+            ],
+            "funFact": "The ancient Polynesians were master navigators who could find their way across thousands of miles of open ocean using stars, wave patterns, and other natural signs. They even developed special devices called 'star compasses' to help teach celestial navigation techniques."
+        },
+        {
+            "id": 10,
+            "text": "Two identical stars are observed from Earth at night. Star A appears much brighter than Star B despite being the same size and producing the same amount of light. What is the most likely explanation for this difference in apparent brightness?",
+            "options": [
                 {
                     "text": "Star A produces more heat than Star B",
                     "isCorrect": 0,
                     "explanation": "The question states that both stars are identical, meaning they produce the same amount of energy. Heat production does not explain the difference in apparent brightness."
                 },
                 {
-                    "text": "Star A has a different color than Star B",
-                    "isCorrect": 0,
-                    "explanation": "The stars are described as identical, so they would have the same color. Star color is related to temperature, not apparent brightness from Earth."
+                    "text": "Star A is closer to Earth than Star B",
+                    "isCorrect": 1,
+                    "explanation": "Objects appear brighter when they are closer to the observer. Since both stars are identical, the difference in brightness is due to Star A being closer to Earth than Star B."
                 },
                 {
                     "text": "Star A is larger than Star B",
                     "isCorrect": 0,
                     "explanation": "The question states that both stars are identical in size. The difference in apparent brightness is not due to actual size differences."
+                },
+                {
+                    "text": "Star A has a different color than Star B",
+                    "isCorrect": 0,
+                    "explanation": "The stars are described as identical, so they would have the same color. Star color is related to temperature, not apparent brightness from Earth."
                 }
             ],
             "funFact": "If you were to look at our Sun from the distance of Proxima Centauri (our nearest stellar neighbor), it would appear as just another faint star in the night sky, despite being the same size and brightness as we see it from Earth!"
         },
         {
-            "id": 9,
-            "text": "The star Deneb is about 200,000 times more luminous than Sirius, yet Sirius appears brighter in our night sky. What is the most likely explanation for this?",
-            "options": [
-                {
-                    "text": "Deneb is much farther away from Earth than Sirius",
-                    "isCorrect": 1,
-                    "explanation": "Deneb's greater distance from Earth makes it appear dimmer despite being more luminous. Just like a bright light appears dimmer when viewed from far away."
-                },
-                {
-                    "text": "Sirius produces a different type of light than Deneb",
-                    "isCorrect": 0,
-                    "explanation": "The type of light produced by a star does not determine its apparent brightness - the distance from Earth is the key factor."
-                },
-                {
-                    "text": "Earth's atmosphere blocks more light from Deneb",
-                    "isCorrect": 0,
-                    "explanation": "Earth's atmosphere affects all starlight similarly and is not the reason for the difference in apparent brightness between these stars."
-                },
-                {
-                    "text": "Sirius is actually more luminous than Deneb",
-                    "isCorrect": 0,
-                    "explanation": "This contradicts the fact given in the question. Deneb is actually much more luminous than Sirius, but appears dimmer due to its greater distance."
-                }
-            ],
-            "funFact": "Deneb is so far away that the light we see from it today left the star about 2,600 years ago - during the time of ancient Greece! Meanwhile, light from Sirius takes only 8.6 years to reach Earth."
-        },
-        {
-            "id": 10,
-            "text": "An astronaut observes our Sun from three different locations: Earth, Mars, and Jupiter. How would the Sun's apparent brightness appear to change as the astronaut travels to each location?",
-            "options": [
-                {
-                    "text": "The Sun would appear brightest from Earth and dimmest from Jupiter, with Mars in between",
-                    "isCorrect": 1,
-                    "explanation": "As the astronaut moves farther from the Sun, its apparent brightness decreases because light spreads out over a greater distance. Since Jupiter is farthest from the Sun, followed by Mars, and then Earth, the Sun would appear brightest from Earth and dimmest from Jupiter."
-                },
-                {
-                    "text": "The Sun would appear equally bright from all three locations",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the apparent brightness of a star decreases with distance. Since Earth, Mars, and Jupiter are at different distances from the Sun, the Sun's apparent brightness would be different at each location."
-                },
-                {
-                    "text": "The Sun would appear brightest from Jupiter and dimmest from Earth, with Mars in between",
-                    "isCorrect": 0,
-                    "explanation": "This is the opposite of what actually happens. Since Jupiter is farthest from the Sun, the Sun would appear dimmest there, not brightest. The Sun appears brightest from Earth because Earth is closest to the Sun among these three planets."
-                }
-            ],
-            "funFact": "If you could replace the Sun with Betelgeuse (a red supergiant star) keeping all orbital distances the same, it would fill up the entire inner solar system, extending beyond Mars's orbit! Despite being so enormous, Betelgeuse appears as just a bright red dot in our night sky because it's about 600 light-years away."
-        },
-        {
             "id": 11,
+            "text": "When comparing two stars of equal size and temperature, one appears much dimmer than the other. What is the most likely explanation for this difference in brightness?",
+            "options": [
+                {
+                    "text": "The dimmer star produces less energy",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the question states both stars are of equal size and temperature, which means they would produce similar amounts of energy."
+                },
+                {
+                    "text": "The dimmer star is farther away from Earth",
+                    "isCorrect": 1,
+                    "explanation": "The apparent brightness of a star decreases with distance because the same amount of light spreads out over a larger area as it travels through space."
+                },
+                {
+                    "text": "The dimmer star is rotating faster",
+                    "isCorrect": 0,
+                    "explanation": "A star's rotation speed does not significantly affect its apparent brightness from Earth."
+                },
+                {
+                    "text": "The dimmer star is blocked by space dust",
+                    "isCorrect": 0,
+                    "explanation": "While space dust can affect starlight, it's not the primary reason for the significant brightness difference between stars of equal size and temperature."
+                }
+            ],
+            "funFact": "If we could replace our Sun with Sirius (the brightest star in our night sky), even though Sirius is actually 20 times brighter than our Sun, it would appear much dimmer to us because it would be about 500,000 times farther away than our current Sun!"
+        },
+        {
+            "id": 12,
             "text": "Two identical candles are lit in a dark room. One candle is placed on a table near you, and another candle is placed at the far end of the room. How will the brightness of these candles appear to you?",
             "options": [
                 {
@@ -290,63 +327,41 @@
             "funFact": "This same principle explains why stars, despite being much larger and more powerful than our sun, appear as tiny dots of light in the night sky - they are incredibly far away! For example, Sirius, the brightest star in our night sky, is actually 20 times brighter than our sun but appears much dimmer because it is about 500,000 times farther away."
         },
         {
-            "id": 12,
-            "text": "Ancient sailors used stars for navigation across vast oceans. Why were they able to use stars reliably for navigation even though stars are extremely far away from Earth?",
-            "options": [
-                {
-                    "text": "Stars maintain fixed patterns in the night sky and their positions relative to each other remain constant, making them reliable reference points.",
-                    "isCorrect": 1,
-                    "explanation": "Stars form consistent patterns called constellations that appear to move predictably across the sky as Earth rotates. These reliable patterns allowed sailors to determine their location and direction."
-                },
-                {
-                    "text": "Stars are actually much closer to Earth than we think, making them easy to see and use for navigation.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Stars are extremely far from Earth - even the closest star after the Sun (Proxima Centauri) is over 4 light years away."
-                },
-                {
-                    "text": "The stars used for navigation were special bright planets, not actual stars.",
-                    "isCorrect": 0,
-                    "explanation": "While planets were also used for navigation, the primary celestial bodies used were actual stars, whose patterns remain fixed relative to each other unlike planets which move."
-                },
-                {
-                    "text": "Stars appear brighter at sea than on land, making them easier to use for navigation.",
-                    "isCorrect": 0,
-                    "explanation": "Stars do not actually become brighter at sea. While they may be more visible due to less light pollution, their intrinsic brightness remains the same whether viewed from land or sea."
-                }
-            ],
-            "funFact": "The North Star (Polaris) has been particularly important for navigation because it appears to remain stationary in the night sky while other stars appear to rotate around it. This is because it sits almost directly above Earth's northern axis of rotation."
-        },
-        {
             "id": 13,
-            "text": "What relationship exists between a star's color and its temperature, and what does this tell us about different stars in the universe?",
+            "text": "Why do solar flares have more immediate and noticeable effects on Earth's communications systems compared to radiation from distant stars?",
             "options": [
                 {
-                    "text": "Blue stars are the hottest, red stars are the coolest, and yellow stars like our Sun have intermediate temperatures",
+                    "text": "Earth's atmosphere only allows solar radiation to pass through",
+                    "isCorrect": 0,
+                    "explanation": "Earth's atmosphere doesn't selectively filter radiation based on which star it comes from. It treats all stellar radiation the same way"
+                },
+                {
+                    "text": "Our technology is specifically vulnerable to solar radiation",
+                    "isCorrect": 0,
+                    "explanation": "Our technology isn't specially vulnerable to solar radiation - it's affected by all types of stellar radiation. The Sun's effects are stronger simply due to proximity"
+                },
+                {
+                    "text": "The Sun produces more powerful radiation than other stars",
+                    "isCorrect": 0,
+                    "explanation": "Many stars actually produce more powerful radiation than our Sun, which is a medium-sized star. The key factor is distance, not power"
+                },
+                {
+                    "text": "The Sun is much closer to Earth, so its radiation reaches us more quickly and with greater intensity",
                     "isCorrect": 1,
-                    "explanation": "This is correct. A star's color directly indicates its surface temperature, with blue stars being the hottest (around 20,000\u00b0C or higher), red stars being the coolest (around 3,000\u00b0C), and yellow stars having moderate temperatures (around 6,000\u00b0C)."
-                },
-                {
-                    "text": "Red stars are the hottest, blue stars are the coolest, and yellow stars have intermediate temperatures",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The relationship is actually the opposite - blue stars are the hottest while red stars are the coolest. This misconception might arise from our everyday experience where red is often associated with heat."
-                },
-                {
-                    "text": "All stars have the same temperature regardless of their color, the color difference is due to their size",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Stars have different temperatures, and their color is a direct indicator of their surface temperature, not their size. A star's size and its temperature are separate characteristics."
-                },
-                {
-                    "text": "Star colors are random and have no relationship with temperature",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Star colors are not random but are directly related to their surface temperature due to the physics of how hot objects emit light. Hotter objects emit more blue light, while cooler objects emit more red light."
+                    "explanation": "Since the Sun is only 93 million miles away (compared to other stars being light years away), its radiation reaches Earth more intensely and affects our technology more significantly"
                 }
             ],
-            "funFact": "Betelgeuse, one of the brightest stars visible in the night sky, is a red supergiant star that's so huge that if it were placed at the center of our solar system, it would extend beyond the orbit of Mars!"
+            "funFact": "A powerful solar flare can release energy equivalent to billions of hydrogen bombs and can reach Earth in just 8 minutes, traveling at the speed of light. However, radiation from the next closest star, Proxima Centauri, takes over 4 years to reach us!"
         },
         {
             "id": 14,
             "text": "Sirius appears as the brightest star in our night sky despite being 500,000 times farther away from Earth than the Sun. What best explains why Sirius appears so bright?",
             "options": [
+                {
+                    "text": "Because Sirius reflects more sunlight than other stars",
+                    "isCorrect": 0,
+                    "explanation": "Stars, including Sirius, produce their own light through nuclear fusion - they don't reflect sunlight. This is a common misconception about how stars work."
+                },
                 {
                     "text": "Because Sirius is 20 times brighter than our Sun",
                     "isCorrect": 1,
@@ -358,11 +373,6 @@
                     "explanation": "While Sirius is relatively close compared to many stars, this alone doesn't explain its brightness. Many closer stars appear dimmer because they produce less light than Sirius."
                 },
                 {
-                    "text": "Because Sirius reflects more sunlight than other stars",
-                    "isCorrect": 0,
-                    "explanation": "Stars, including Sirius, produce their own light through nuclear fusion - they don't reflect sunlight. This is a common misconception about how stars work."
-                },
-                {
                     "text": "Because Sirius is much larger than our Sun",
                     "isCorrect": 0,
                     "explanation": "While size can affect a star's brightness, Sirius's brightness is primarily due to its greater luminosity, not its size. A larger star isn't necessarily brighter."
@@ -372,30 +382,30 @@
         },
         {
             "id": 15,
-            "text": "When comparing two stars of equal size and temperature, one appears much dimmer than the other. What is the most likely explanation for this difference in brightness?",
+            "text": "If you hold a basketball at arm's length and then walk 100 feet away from someone, how would the basketball appear to them compared to when you were closer?",
             "options": [
                 {
-                    "text": "The dimmer star is farther away from Earth",
+                    "text": "The basketball would remain the same size because its actual size hasn't changed",
+                    "isCorrect": 0,
+                    "explanation": "While the actual size doesn't change, the apparent (visible) size decreases with distance due to perspective."
+                },
+                {
+                    "text": "The basketball would appear larger because distant objects look bigger",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - objects appear smaller, not larger, as distance increases."
+                },
+                {
+                    "text": "The basketball's size would not be affected by distance at all",
+                    "isCorrect": 0,
+                    "explanation": "Distance does affect how large objects appear to observers - the further away an object is, the smaller it appears."
+                },
+                {
+                    "text": "The basketball would appear smaller from far away, just like distant stars appear smaller than nearby ones",
                     "isCorrect": 1,
-                    "explanation": "The apparent brightness of a star decreases with distance because the same amount of light spreads out over a larger area as it travels through space."
-                },
-                {
-                    "text": "The dimmer star produces less energy",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the question states both stars are of equal size and temperature, which means they would produce similar amounts of energy."
-                },
-                {
-                    "text": "The dimmer star is blocked by space dust",
-                    "isCorrect": 0,
-                    "explanation": "While space dust can affect starlight, it's not the primary reason for the significant brightness difference between stars of equal size and temperature."
-                },
-                {
-                    "text": "The dimmer star is rotating faster",
-                    "isCorrect": 0,
-                    "explanation": "A star's rotation speed does not significantly affect its apparent brightness from Earth."
+                    "explanation": "Objects appear smaller as their distance from the observer increases. This is why even very large objects like stars appear as tiny points of light in the night sky."
                 }
             ],
-            "funFact": "If we could replace our Sun with Sirius (the brightest star in our night sky), even though Sirius is actually 20 times brighter than our Sun, it would appear much dimmer to us because it would be about 500,000 times farther away than our current Sun!"
+            "funFact": "The same principle that makes a basketball appear smaller from far away applies to our Sun! Although the Sun is about 109 times wider than Earth, it appears relatively small in our sky because it's 93 million miles away."
         }
     ]
 }

@@ -4,67 +4,62 @@
     "questions": [
         {
             "id": 1,
-            "text": "What is the main reason convex mirrors are used on cars and trucks?",
+            "text": "Why do laser beams become visible when fog is present in the air?",
             "options": [
                 {
-                    "text": "They make light travel faster around corners",
+                    "text": "The laser beam heats up the fog causing it to glow",
                     "isCorrect": 0,
-                    "explanation": "While mirrors do reflect light, they don't change the speed of light. This is not why convex mirrors are used on vehicles."
+                    "explanation": "Regular laser beams used for demonstrations don't heat up fog enough to make it glow. The visibility comes from light reflection, not heat."
                 },
                 {
-                    "text": "They provide a wider field of view of surrounding areas",
+                    "text": "Fog produces its own light that makes the laser beam glow",
+                    "isCorrect": 0,
+                    "explanation": "Fog does not produce its own light. It only reflects and scatters light from other sources."
+                },
+                {
+                    "text": "The tiny water droplets in fog reflect the laser light into our eyes",
                     "isCorrect": 1,
-                    "explanation": "Convex mirrors curve outward, which allows them to reflect light from a wider area. This helps drivers see more of their surroundings, making driving safer."
+                    "explanation": "Fog contains microscopic water droplets that act as reflecting surfaces. When laser light hits these droplets, some of it reflects into our eyes, making the beam visible."
                 },
                 {
-                    "text": "They make objects appear closer than they actually are",
+                    "text": "Fog blocks the laser beam completely, making it appear brighter",
                     "isCorrect": 0,
-                    "explanation": "Actually, objects in convex mirrors appear farther away than they are. This is why many side mirrors include the warning 'Objects in mirror are closer than they appear.'"
-                },
-                {
-                    "text": "They absorb more sunlight to reduce glare",
-                    "isCorrect": 0,
-                    "explanation": "Convex mirrors don't absorb light - they reflect it. Reducing glare is not their primary purpose on vehicles."
+                    "explanation": "Fog doesn't block the laser beam completely. Instead, it partially reflects the light, allowing us to see the beam's path."
                 }
             ],
-            "funFact": "Concave (not convex) mirrors were first used in lighthouse reflectors in the 18th century to project light beams much farther out to sea. Convex mirrors, with their ability to provide a wider field of view, became essential safety features on vehicles long before backup cameras were invented."
+            "funFact": "The same principle that makes laser beams visible in fog also explains why we can see sunbeams cutting through clouds on a partly cloudy day - tiny water droplets and dust particles in the air reflect some of the light into our eyes!"
         },
         {
             "id": 2,
-            "text": "Which of these is a primary source of light in our daily lives?",
+            "text": "How does a Blu-ray player read information stored on a disc?",
             "options": [
                 {
-                    "text": "The Moon",
+                    "text": "Radio waves pass through the disc to detect the stored information",
                     "isCorrect": 0,
-                    "explanation": "The Moon does not produce its own light - we see it because it reflects sunlight. It is not a primary source of light."
+                    "explanation": "Blu-ray technology uses light reflection, not radio waves, to read data from discs."
                 },
                 {
-                    "text": "A mirror",
-                    "isCorrect": 0,
-                    "explanation": "Mirrors only reflect light from other sources. They do not produce their own light."
-                },
-                {
-                    "text": "The Sun",
+                    "text": "A laser beam reflects off the disc surface and the reflected light is detected to read the information",
                     "isCorrect": 1,
-                    "explanation": "The Sun is the most important natural source of light. It produces its own light through nuclear fusion and allows us to see during the day."
+                    "explanation": "Blu-ray players use a precise laser beam that reflects off the disc surface. The pattern of reflected light contains the stored information."
                 },
                 {
-                    "text": "A white piece of paper",
+                    "text": "The disc produces its own light which contains the stored information",
                     "isCorrect": 0,
-                    "explanation": "While white paper reflects light very well, it does not produce its own light. It only reflects light from other sources."
+                    "explanation": "Blu-ray discs do not produce their own light. They work by reflecting the player's laser beam."
+                },
+                {
+                    "text": "The player scans the disc using magnetic fields to read the data",
+                    "isCorrect": 0,
+                    "explanation": "Blu-ray players use light reflection, not magnetic fields, to read information from discs."
                 }
             ],
-            "funFact": "The Sun produces light through a process called nuclear fusion, where hydrogen atoms combine to form helium, releasing an enormous amount of energy in the form of light and heat. This process happens at the Sun's core where temperatures reach about 27 million degrees Fahrenheit!"
+            "funFact": "The 'Blu' in Blu-ray comes from the blue-violet laser used to read the disc. This laser has a shorter wavelength than the red laser used in DVDs, allowing Blu-ray discs to store much more information!"
         },
         {
             "id": 3,
             "text": "How does the lens in our eyes help us see objects clearly?",
             "options": [
-                {
-                    "text": "The lens concentrates light rays and focuses them properly to create clear images",
-                    "isCorrect": 1,
-                    "explanation": "The lens in our eyes helps focus incoming light rays onto the back of the eye, allowing us to see clear images of objects"
-                },
                 {
                     "text": "The lens produces light to illuminate objects we look at",
                     "isCorrect": 0,
@@ -79,186 +74,73 @@
                     "text": "The lens absorbs light to convert it into electrical signals",
                     "isCorrect": 0,
                     "explanation": "The lens focuses light but doesn't absorb or convert it - other parts of the eye are responsible for converting light into signals"
+                },
+                {
+                    "text": "The lens concentrates light rays and focuses them properly to create clear images",
+                    "isCorrect": 1,
+                    "explanation": "The lens in our eyes helps focus incoming light rays onto the back of the eye, allowing us to see clear images of objects"
                 }
             ],
             "funFact": "The lens in our eye is flexible and can change shape to focus on objects at different distances. This process is called accommodation - when looking at nearby objects, the lens becomes more curved, and when looking at distant objects, it becomes flatter!"
         },
         {
             "id": 4,
-            "text": "If you were in a completely dark room with no windows and the lights turned off, why wouldn't you be able to see a red ball sitting on a table?",
+            "text": "Which statement correctly explains how humans are able to see objects?",
             "options": [
                 {
-                    "text": "There is no light to reflect off the ball and enter your eyes",
+                    "text": "Our eyes send signals to objects which makes them visible",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Eyes are receivers of light, not transmitters. They do not send out signals to make objects visible."
+                },
+                {
+                    "text": "Objects emit their own light which our eyes can detect",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Most objects we see do not emit their own light - they reflect light from other sources like the sun or light bulbs."
+                },
+                {
+                    "text": "Our eyes produce light that bounces off objects and returns to our eyes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Our eyes do not produce light - they only detect light that enters them."
+                },
+                {
+                    "text": "Our eyes detect light that reflects off objects and enters them",
                     "isCorrect": 1,
-                    "explanation": "Without any light source, no light can reflect off the ball's surface and travel to your eyes, making it impossible to see the ball."
-                },
-                {
-                    "text": "Your eyes need time to adjust to see in the dark",
-                    "isCorrect": 0,
-                    "explanation": "While eyes do adjust to low light conditions, in complete darkness with no light source, there is no light for your eyes to detect, regardless of how long you wait."
-                },
-                {
-                    "text": "The ball stops being red in darkness",
-                    "isCorrect": 0,
-                    "explanation": "The ball's color doesn't change in darkness - we just can't see its color because there's no light reflecting off it to show its color properties."
-                },
-                {
-                    "text": "The ball becomes invisible in darkness",
-                    "isCorrect": 0,
-                    "explanation": "The ball doesn't become invisible - it's still there, but without light reflecting off it and entering our eyes, we simply cannot see it."
+                    "explanation": "Correct! Our eyes work by detecting light that reflects off objects and enters our eyes, not by producing light themselves."
                 }
             ],
-            "funFact": "Some deep-sea creatures live in complete darkness and have evolved to produce their own light through a process called bioluminescence, allowing them to be seen even where sunlight cannot reach!"
+            "funFact": "Some deep-sea creatures like anglerfish have evolved the ability to produce their own light through a process called bioluminescence. However, even these creatures still need to detect reflected light with their eyes to see other objects around them!"
         },
         {
             "id": 5,
-            "text": "Why does the brim of a hat help protect your eyes from the sun?",
+            "text": "When sunlight hits a swimming pool on a bright summer day, why might your eyes hurt even when wearing a hat?",
             "options": [
                 {
-                    "text": "Because light travels in straight lines and the brim blocks the direct path between the sun and your eyes",
+                    "text": "Your eyes produce more light when looking at water",
+                    "isCorrect": 0,
+                    "explanation": "Eyes don't produce light - they only detect light. The discomfort comes from detecting the intense reflected sunlight from the water's surface."
+                },
+                {
+                    "text": "The water magnifies the sunlight, making it brighter",
+                    "isCorrect": 0,
+                    "explanation": "While water can bend light, the discomfort comes from reflection rather than magnification. The water surface acts like a mirror, reflecting sunlight."
+                },
+                {
+                    "text": "The chlorine in the pool makes the light brighter",
+                    "isCorrect": 0,
+                    "explanation": "Chemicals in pool water don't affect the brightness of reflected light. The reflection occurs at the water's surface regardless of what's in the water."
+                },
+                {
+                    "text": "The water surface reflects sunlight upward into your eyes, which the hat cannot block",
                     "isCorrect": 1,
-                    "explanation": "Light travels in straight lines, so when the hat's brim is positioned between the sun and your eyes, it blocks the direct path of sunlight, protecting your eyes."
-                },
-                {
-                    "text": "Because the hat's brim absorbs all light and converts it to heat",
-                    "isCorrect": 0,
-                    "explanation": "While hats may absorb some light and heat, the main protective function comes from blocking light's path, not from converting light to heat."
-                },
-                {
-                    "text": "Because the brim bends light away from your eyes",
-                    "isCorrect": 0,
-                    "explanation": "The brim doesn't bend light - it simply blocks the straight path of light. Light generally travels in straight lines unless it encounters special materials like lenses."
-                },
-                {
-                    "text": "Because the brim creates darkness that cancels out the sunlight",
-                    "isCorrect": 0,
-                    "explanation": "Darkness isn't something that can 'cancel out' light - it's simply the absence of light. The brim works by blocking light's path, not by creating darkness."
+                    "explanation": "Water surfaces are excellent at reflecting light. Even when a hat blocks direct sunlight from above, the reflected light from the water's surface can still reach your eyes from below."
                 }
             ],
-            "funFact": "The ancient Egyptians were among the first to use wide-brimmed hats to protect themselves from the sun. They made these hats from palm leaves and used them while building the pyramids over 4,000 years ago!"
+            "funFact": "Water reflects about 2% of light at normal incidence (looking straight down), but this reflection increases dramatically at low angles - reaching nearly 100% at a grazing angle, similar to how a mirror works!"
         },
         {
             "id": 6,
-            "text": "You are in a room with several objects on a table - a white paper, a brown paper, and a mirror. As you gradually dim the room's light using a dimmer switch, which statement best explains how the visibility of these objects changes?",
-            "options": [
-                {
-                    "text": "All objects will become equally difficult to see at the same rate as the light dims",
-                    "isCorrect": 0,
-                    "explanation": "Different objects reflect different amounts of light. Objects with higher reflectivity like mirrors and white paper remain visible longer than less reflective objects like brown paper."
-                },
-                {
-                    "text": "The mirror will remain visible the longest, followed by the white paper, then the brown paper",
-                    "isCorrect": 1,
-                    "explanation": "Objects that reflect more light (like mirrors and white surfaces) remain visible longer in dimming light compared to objects that reflect less light (like dark surfaces)."
-                },
-                {
-                    "text": "The brown paper will remain visible the longest since it absorbs more light",
-                    "isCorrect": 0,
-                    "explanation": "Objects that absorb more light actually appear darker and become harder to see more quickly in dimming conditions, not the other way around."
-                },
-                {
-                    "text": "All objects will remain equally visible regardless of light intensity",
-                    "isCorrect": 0,
-                    "explanation": "Objects can only be seen when light reflects off them and enters our eyes. As light intensity decreases, less light is available to reflect, making objects harder to see."
-                }
-            ],
-            "funFact": "The human eye is remarkably adaptive to different light levels. In very dim light, our eyes switch from using cone cells (which detect color) to rod cells (which detect black and white), which is why things appear less colorful at night!"
-        },
-        {
-            "id": 7,
-            "text": "When you look at a fish swimming in a pool, the fish appears to be in a different position than where it actually is. This happens because:",
-            "options": [
-                {
-                    "text": "Light changes direction (bends) when it travels from water to air before reaching your eyes",
-                    "isCorrect": 1,
-                    "explanation": "When light reflects off the fish and travels from water to air, it changes direction (refracts) due to the different properties of these materials. This makes the fish appear to be in a different position than its actual location."
-                },
-                {
-                    "text": "The fish creates its own light underwater",
-                    "isCorrect": 0,
-                    "explanation": "Most fish do not produce their own light. We see fish because light reflects off them and reaches our eyes."
-                },
-                {
-                    "text": "Water blocks all light from reaching the fish",
-                    "isCorrect": 0,
-                    "explanation": "Water does not block all light. If it did, we wouldn't be able to see anything underwater. Water allows some light to pass through it."
-                },
-                {
-                    "text": "Light travels in curved paths underwater",
-                    "isCorrect": 0,
-                    "explanation": "Light always travels in straight lines, even underwater. It only changes direction when it passes from one material to another, like from water to air."
-                }
-            ],
-            "funFact": "This same principle of light changing direction when passing between different materials is used in fiber optic cables that carry internet signals. The light bounces along the cable's length while staying trapped inside, allowing data to travel long distances!"
-        },
-        {
-            "id": 8,
-            "text": "In a darkened room, a candle is placed in front of a small hole in a box, projecting an image onto a screen inside the box. If the candle is moved closer to the hole, how will the projected image change?",
-            "options": [
-                {
-                    "text": "The image will become larger and dimmer",
-                    "isCorrect": 1,
-                    "explanation": "When the light source moves closer to the hole, the light rays enter at wider angles, creating a larger projection. The same amount of light spreads over a larger area, making the image dimmer."
-                },
-                {
-                    "text": "The image will become smaller and brighter",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Moving the light source closer causes the light rays to spread out more, not less, resulting in a larger, not smaller image."
-                },
-                {
-                    "text": "The image will remain the same size but become brighter",
-                    "isCorrect": 0,
-                    "explanation": "The size of the image changes when the light source's position changes. The image gets larger as the source moves closer, not staying the same size."
-                },
-                {
-                    "text": "The image will disappear completely",
-                    "isCorrect": 0,
-                    "explanation": "Moving the light source closer doesn't make the image disappear. As long as light can pass through the hole and hit the screen, an image will form."
-                }
-            ],
-            "funFact": "The camera obscura principle was first noted by Aristotle in the 4th century BCE. He observed this effect naturally occurring when light passing through small gaps between leaves projected images of a partial solar eclipse on the ground!"
-        },
-        {
-            "id": 9,
-            "text": "You are wearing sunglasses on a bright sunny day. How do sunglasses help protect your eyes?",
-            "options": [
-                {
-                    "text": "They reduce the amount of light entering your eyes, making it more comfortable to see objects",
-                    "isCorrect": 1,
-                    "explanation": "Sunglasses work by reducing the intensity of light that reaches your eyes, which helps prevent discomfort and potential damage from excessive light"
-                },
-                {
-                    "text": "They completely block all light from entering your eyes",
-                    "isCorrect": 0,
-                    "explanation": "If sunglasses blocked all light, you wouldn't be able to see anything. They only reduce the amount of light entering your eyes"
-                },
-                {
-                    "text": "They make your eyes produce more light to see better",
-                    "isCorrect": 0,
-                    "explanation": "Eyes don't produce light - they detect light reflected from objects. Sunglasses work by controlling how much light enters your eyes"
-                },
-                {
-                    "text": "They change the color of objects to make them easier to see",
-                    "isCorrect": 0,
-                    "explanation": "While sunglasses may affect how colors appear, their main function is to reduce the amount of light entering your eyes"
-                }
-            ],
-            "funFact": "The first sunglasses were invented by the Inuit people who created snow goggles from flattened walrus ivory with narrow slits to reduce exposure to the bright sunlight reflected off snow and ice!"
-        },
-        {
-            "id": 10,
             "text": "Sara is using a flashlight to read a book in a dark room. Which path must light follow for Sara to see the words in her book?",
             "options": [
-                {
-                    "text": "Light travels from the flashlight to Sara's eyes, then bounces to the book",
-                    "isCorrect": 0,
-                    "explanation": "This path is incorrect because light must first hit the book to be reflected into Sara's eyes for her to see the words"
-                },
-                {
-                    "text": "Light travels from Sara's eyes to the book, allowing her to see the words",
-                    "isCorrect": 0,
-                    "explanation": "Eyes detect light but do not produce it - light must come from a source and reflect off objects to be seen"
-                },
                 {
                     "text": "Light travels from the flashlight to the book, then reflects into Sara's eyes",
                     "isCorrect": 1,
@@ -268,73 +150,159 @@
                     "text": "Light travels simultaneously from both the flashlight and Sara's eyes to the book",
                     "isCorrect": 0,
                     "explanation": "Eyes don't emit light - they can only detect light that enters them after reflecting off objects"
+                },
+                {
+                    "text": "Light travels from the flashlight to Sara's eyes, then bounces to the book",
+                    "isCorrect": 0,
+                    "explanation": "This path is incorrect because light must first hit the book to be reflected into Sara's eyes for her to see the words"
+                },
+                {
+                    "text": "Light travels from Sara's eyes to the book, allowing her to see the words",
+                    "isCorrect": 0,
+                    "explanation": "Eyes detect light but do not produce it - light must come from a source and reflect off objects to be seen"
                 }
             ],
             "funFact": "Ancient Greeks believed that eyes emitted beams of light to detect objects, similar to how bats use echolocation! It wasn't until the 11th century that Arab scientist Alhazen correctly described how vision works through light entering our eyes."
         },
         {
-            "id": 11,
-            "text": "When comparing white paper and brown construction paper, which statement correctly describes how they reflect light and why this affects their visibility?",
+            "id": 7,
+            "text": "In a darkened room, a candle is placed in front of a small hole in a box, projecting an image onto a screen inside the box. If the candle is moved closer to the hole, how will the projected image change?",
             "options": [
                 {
-                    "text": "White paper reflects more light than brown construction paper, making it more visible because more reflected light reaches our eyes",
+                    "text": "The image will become smaller and brighter",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Moving the light source closer causes the light rays to spread out more, not less, resulting in a larger, not smaller image."
+                },
+                {
+                    "text": "The image will disappear completely",
+                    "isCorrect": 0,
+                    "explanation": "Moving the light source closer doesn't make the image disappear. As long as light can pass through the hole and hit the screen, an image will form."
+                },
+                {
+                    "text": "The image will remain the same size but become brighter",
+                    "isCorrect": 0,
+                    "explanation": "The size of the image changes when the light source's position changes. The image gets larger as the source moves closer, not staying the same size."
+                },
+                {
+                    "text": "The image will become larger and dimmer",
                     "isCorrect": 1,
-                    "explanation": "White paper is highly reflective, bouncing more light into our eyes, which makes it easier to see clearly. Brown construction paper absorbs more light and reflects less, making it less visible."
-                },
-                {
-                    "text": "Brown construction paper reflects more light than white paper, making it more visible",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Brown construction paper actually absorbs more light and reflects less light than white paper, which is why it appears darker and less visible."
-                },
-                {
-                    "text": "Both papers reflect the same amount of light, but white paper appears brighter due to an optical illusion",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The difference in visibility is not due to an optical illusion - white paper actually reflects more light than brown construction paper."
-                },
-                {
-                    "text": "The color of the paper has no effect on how much light is reflected, only the texture matters",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The color of a material significantly affects how much light it reflects, with lighter colors generally reflecting more light than darker colors."
+                    "explanation": "When the light source moves closer to the hole, the light rays enter at wider angles, creating a larger projection. The same amount of light spreads over a larger area, making the image dimmer."
                 }
             ],
-            "funFact": "The reason fresh snow appears so bright is similar to why white paper is highly visible - snow reflects about 90% of the light that hits it! This high reflectivity is why snow can actually cause snow blindness on sunny days."
+            "funFact": "The camera obscura principle was first noted by Aristotle in the 4th century BCE. He observed this effect naturally occurring when light passing through small gaps between leaves projected images of a partial solar eclipse on the ground!"
+        },
+        {
+            "id": 8,
+            "text": "When we look at the moon at night, which best describes how we are able to see it?",
+            "options": [
+                {
+                    "text": "The moon produces its own light which travels directly to our eyes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The moon does not produce its own light - it is not a light source like the sun."
+                },
+                {
+                    "text": "The stars illuminate the moon, which then reflects that light to Earth",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While stars produce their own light, they are too far away to significantly illuminate the moon. The sun is the primary source of light that reflects off the moon."
+                },
+                {
+                    "text": "The sun's light hits the moon, reflects off its surface, and enters our eyes",
+                    "isCorrect": 1,
+                    "explanation": "This is correct! We can see the moon because sunlight reflects off its surface and travels to our eyes. This is why we can only see the parts of the moon that are illuminated by the sun."
+                },
+                {
+                    "text": "Our eyes send out light beams that bounce off the moon back to us",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Our eyes detect light but do not produce or emit light beams."
+                }
+            ],
+            "funFact": "The same side of the moon always faces Earth due to a phenomenon called tidal locking. This means we only ever see about 59% of the moon's total surface from Earth, even though different amounts of that surface are illuminated throughout the lunar cycle!"
+        },
+        {
+            "id": 9,
+            "text": "A scientist wants to make a vase visible that is placed in a dark corner of a room. The room has a light source on one wall. The scientist has a mirror available. Which arrangement would allow the vase to become visible to someone standing in the room?",
+            "options": [
+                {
+                    "text": "Position the mirror to reflect light directly into the observer's eyes",
+                    "isCorrect": 0,
+                    "explanation": "While this would allow the observer to see the mirror, it wouldn't help make the vase visible and could actually be harmful to the observer's eyes"
+                },
+                {
+                    "text": "Place the mirror next to the vase without reflecting any light",
+                    "isCorrect": 0,
+                    "explanation": "Simply placing the mirror near the vase without using it to reflect light wouldn't help make the vase visible in the dark corner"
+                },
+                {
+                    "text": "Position the mirror to reflect light from the source onto the vase, allowing the reflected light to reach the observer's eyes",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because light must travel from the source, reflect off the mirror onto the vase, and then reflect from the vase to the observer's eyes for the vase to be visible"
+                },
+                {
+                    "text": "Place the mirror behind the vase to block any light from reaching it",
+                    "isCorrect": 0,
+                    "explanation": "Blocking light from reaching the vase would make it harder to see, not easier, as objects are only visible when light reflects off them into our eyes"
+                }
+            ],
+            "funFact": "This principle of using mirrors to redirect light is used in periscopes, which allow submarines to see above water while remaining submerged. The periscope uses a series of mirrors to bend light at right angles, carrying images from above the water down to the viewer below!"
+        },
+        {
+            "id": 10,
+            "text": "You are wearing sunglasses on a bright sunny day. How do sunglasses help protect your eyes?",
+            "options": [
+                {
+                    "text": "They make your eyes produce more light to see better",
+                    "isCorrect": 0,
+                    "explanation": "Eyes don't produce light - they detect light reflected from objects. Sunglasses work by controlling how much light enters your eyes"
+                },
+                {
+                    "text": "They change the color of objects to make them easier to see",
+                    "isCorrect": 0,
+                    "explanation": "While sunglasses may affect how colors appear, their main function is to reduce the amount of light entering your eyes"
+                },
+                {
+                    "text": "They completely block all light from entering your eyes",
+                    "isCorrect": 0,
+                    "explanation": "If sunglasses blocked all light, you wouldn't be able to see anything. They only reduce the amount of light entering your eyes"
+                },
+                {
+                    "text": "They reduce the amount of light entering your eyes, making it more comfortable to see objects",
+                    "isCorrect": 1,
+                    "explanation": "Sunglasses work by reducing the intensity of light that reaches your eyes, which helps prevent discomfort and potential damage from excessive light"
+                }
+            ],
+            "funFact": "The first sunglasses were invented by the Inuit people who created snow goggles from flattened walrus ivory with narrow slits to reduce exposure to the bright sunlight reflected off snow and ice!"
+        },
+        {
+            "id": 11,
+            "text": "On a sunny day at the beach, you're wearing a hat with a brim. Which statement best explains how the hat's brim helps protect your eyes from the sun?",
+            "options": [
+                {
+                    "text": "The hat's brim blocks the straight path of light from the sun to your eyes",
+                    "isCorrect": 1,
+                    "explanation": "Light travels in straight lines, and the brim creates a physical barrier that blocks the direct path of sunlight to your eyes, reducing glare and protecting them"
+                },
+                {
+                    "text": "The hat's brim eliminates all reflected light from reaching your eyes",
+                    "isCorrect": 0,
+                    "explanation": "While the brim blocks direct sunlight, it cannot block all reflected light, such as light reflecting off water or sand"
+                },
+                {
+                    "text": "The hat's brim bends sunlight away from your eyes",
+                    "isCorrect": 0,
+                    "explanation": "Light travels in straight lines and is not bent by the hat's brim. The brim simply blocks the straight path of light"
+                },
+                {
+                    "text": "The hat's brim absorbs all light and converts it to heat",
+                    "isCorrect": 0,
+                    "explanation": "While the hat's material may absorb some light and heat, its primary function is to block the path of light, not to convert light to heat"
+                }
+            ],
+            "funFact": "The earliest known use of brimmed hats dates back to ancient Greece around 1200 BCE, where broad-brimmed hats called 'petasus' were worn by travelers and farmers for sun protection. This simple yet effective design principle of blocking light paths continues in modern hat designs!"
         },
         {
             "id": 12,
-            "text": "The moon appears bright in the night sky, yet it does not produce its own light like the sun does. Why can we see the moon?",
-            "options": [
-                {
-                    "text": "Light from the sun reflects off the moon's surface and travels to our eyes",
-                    "isCorrect": 1,
-                    "explanation": "The moon is visible because sunlight reflects off its surface and that reflected light reaches our eyes, allowing us to see it"
-                },
-                {
-                    "text": "The moon absorbs sunlight during the day and glows at night",
-                    "isCorrect": 0,
-                    "explanation": "This is a common misconception. The moon doesn't store and release light - it simply reflects the sun's light"
-                },
-                {
-                    "text": "The moon produces a special type of light that only works at night",
-                    "isCorrect": 0,
-                    "explanation": "The moon does not produce any light of its own. It is only visible because it reflects sunlight"
-                },
-                {
-                    "text": "Our eyes produce light that bounces off the moon back to us",
-                    "isCorrect": 0,
-                    "explanation": "Our eyes don't produce light - they detect light that enters them. Eyes work by receiving light, not by sending it out"
-                }
-            ],
-            "funFact": "During a lunar eclipse, the moon appears red because Earth's atmosphere bends some sunlight around the Earth and onto the moon. The atmosphere filters out most colors except red, which is why the eclipsed moon has a reddish color!"
-        },
-        {
-            "id": 13,
             "text": "A driver wants to install a mirror to see oncoming traffic around a blind corner. Which statement correctly explains how a convex mirror helps in this situation?",
             "options": [
-                {
-                    "text": "The curved surface of the convex mirror reflects light from a wider area, allowing the driver to see more of their surroundings at once",
-                    "isCorrect": 1,
-                    "explanation": "Convex mirrors have an outward curved surface that reflects light from a larger area, compressing it into a smaller image that shows more of the surroundings"
-                },
                 {
                     "text": "The convex mirror makes light travel faster, helping the driver see approaching vehicles more quickly",
                     "isCorrect": 0,
@@ -346,6 +314,11 @@
                     "explanation": "Mirrors don't produce light - they only reflect light from other sources"
                 },
                 {
+                    "text": "The curved surface of the convex mirror reflects light from a wider area, allowing the driver to see more of their surroundings at once",
+                    "isCorrect": 1,
+                    "explanation": "Convex mirrors have an outward curved surface that reflects light from a larger area, compressing it into a smaller image that shows more of the surroundings"
+                },
+                {
                     "text": "The convex mirror magnifies the image to make far away objects appear closer",
                     "isCorrect": 0,
                     "explanation": "Convex mirrors actually make objects appear smaller but show a wider field of view, unlike magnifying glasses which make things appear larger"
@@ -354,7 +327,61 @@
             "funFact": "Convex mirrors are also used in store security systems and on school buses. On buses, they help drivers monitor students and check blind spots, making transportation safer for everyone aboard!"
         },
         {
+            "id": 13,
+            "text": "A student is trying to see a book on a desk in a dark room. In which position should they place a flashlight to best see the book?",
+            "options": [
+                {
+                    "text": "Point the flashlight behind them",
+                    "isCorrect": 0,
+                    "explanation": "Light needs to reflect off an object and into our eyes for us to see it. If the light is pointed away from the book, no light will reflect from the book to the eyes."
+                },
+                {
+                    "text": "Point the flashlight at the ceiling",
+                    "isCorrect": 0,
+                    "explanation": "While some scattered light might reach the book, this indirect lighting would be very weak. The book would be difficult to see clearly."
+                },
+                {
+                    "text": "Point the flashlight directly into their eyes",
+                    "isCorrect": 0,
+                    "explanation": "This would be dangerous and make it harder to see. The bright light would overwhelm the eyes and actually prevent them from seeing the book."
+                },
+                {
+                    "text": "Point the flashlight at the book",
+                    "isCorrect": 1,
+                    "explanation": "When light from the flashlight hits the book, it reflects off the book's surface and into the eyes, allowing us to see it clearly."
+                }
+            ],
+            "funFact": "The human eye is so sensitive it can detect a single photon of light in complete darkness - that's the smallest possible particle of light! However, it typically takes about 100 photons hitting our retina before we consciously perceive that light."
+        },
+        {
             "id": 14,
+            "text": "A student wants to see a book that is placed behind a wall. The student has a mirror and can move it to different positions. Where should the mirror be placed so that light from a ceiling lamp can reflect off the mirror and allow the student to see the book?",
+            "options": [
+                {
+                    "text": "The mirror should be placed on the floor in front of the wall",
+                    "isCorrect": 0,
+                    "explanation": "A mirror on the floor would reflect light downward, not allowing the light to reach the book or the student's eyes"
+                },
+                {
+                    "text": "The mirror should be placed at an angle above the wall where both the lamp and book are visible from the mirror's position",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because the mirror needs to be positioned where it can receive light from the source (lamp) and reflect it towards both the book and the student's eyes"
+                },
+                {
+                    "text": "The mirror should be placed against the wall",
+                    "isCorrect": 0,
+                    "explanation": "A mirror flat against the wall would not be able to reflect light from the lamp to the book and then to the student's eyes"
+                },
+                {
+                    "text": "The mirror should be placed directly under the ceiling lamp",
+                    "isCorrect": 0,
+                    "explanation": "A mirror directly under the lamp would reflect light straight back up, not allowing it to reach the book or the student's eyes"
+                }
+            ],
+            "funFact": "Periscopes used in submarines work on the same principle of reflecting light using mirrors. They allow submarine crews to see what's happening above water while staying safely submerged!"
+        },
+        {
+            "id": 15,
             "text": "Why are laser beams more visible when there is fog in the air?",
             "options": [
                 {
@@ -379,33 +406,6 @@
                 }
             ],
             "funFact": "This same principle of light reflecting off tiny particles is why we can see dust particles floating in a sunbeam that enters through a window - the dust particles reflect small amounts of sunlight into our eyes!"
-        },
-        {
-            "id": 15,
-            "text": "A student wants to see a book that is placed behind a wall. The student has a mirror and can move it to different positions. Where should the mirror be placed so that light from a ceiling lamp can reflect off the mirror and allow the student to see the book?",
-            "options": [
-                {
-                    "text": "The mirror should be placed on the floor in front of the wall",
-                    "isCorrect": 0,
-                    "explanation": "A mirror on the floor would reflect light downward, not allowing the light to reach the book or the student's eyes"
-                },
-                {
-                    "text": "The mirror should be placed at an angle above the wall where both the lamp and book are visible from the mirror's position",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because the mirror needs to be positioned where it can receive light from the source (lamp) and reflect it towards both the book and the student's eyes"
-                },
-                {
-                    "text": "The mirror should be placed directly under the ceiling lamp",
-                    "isCorrect": 0,
-                    "explanation": "A mirror directly under the lamp would reflect light straight back up, not allowing it to reach the book or the student's eyes"
-                },
-                {
-                    "text": "The mirror should be placed against the wall",
-                    "isCorrect": 0,
-                    "explanation": "A mirror flat against the wall would not be able to reflect light from the lamp to the book and then to the student's eyes"
-                }
-            ],
-            "funFact": "Periscopes used in submarines work on the same principle of reflecting light using mirrors. They allow submarine crews to see what's happening above water while staying safely submerged!"
         }
     ]
 }

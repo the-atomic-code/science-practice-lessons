@@ -4,114 +4,33 @@
     "questions": [
         {
             "id": 1,
-            "text": "How do tsunami warning systems help reduce the impact of these natural disasters?",
+            "text": "What is the relationship between plate boundaries and natural disasters like earthquakes and volcanoes?",
             "options": [
                 {
-                    "text": "They allow people to evacuate coastal areas before the tsunami arrives",
+                    "text": "Volcanoes occur at plate boundaries while earthquakes only happen in the middle of plates",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because earthquakes frequently occur at plate boundaries, though they can happen elsewhere too"
+                },
+                {
+                    "text": "Earthquakes occur at plate boundaries while volcanoes can form anywhere on Earth's surface",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because volcanoes, like earthquakes, are most commonly found along plate boundaries where magma can reach the surface"
+                },
+                {
+                    "text": "There is no relationship - earthquakes and volcanoes occur randomly across Earth's surface",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because both phenomena are closely tied to plate boundaries rather than occurring randomly"
+                },
+                {
+                    "text": "Both earthquakes and volcanoes commonly form along plate boundaries, where molten rock can escape and sudden plate movements can cause ground shaking",
                     "isCorrect": 1,
-                    "explanation": "Warning systems give people crucial time to move to safer areas before a tsunami reaches the coast, significantly reducing potential loss of life."
-                },
-                {
-                    "text": "They physically block the tsunami waves from reaching the shore",
-                    "isCorrect": 0,
-                    "explanation": "Warning systems don't block waves - they only provide alerts. Physical barriers generally aren't effective against massive tsunami waves."
-                },
-                {
-                    "text": "They make buildings stronger to withstand tsunami waves",
-                    "isCorrect": 0,
-                    "explanation": "Warning systems don't affect building strength. Building design and materials determine structural integrity during disasters."
-                },
-                {
-                    "text": "They stop earthquakes from creating tsunamis",
-                    "isCorrect": 0,
-                    "explanation": "Warning systems can't prevent tsunamis from forming. They only detect and alert people about incoming tsunamis."
+                    "explanation": "This is correct because plate boundaries are areas where Earth's plates meet, creating conditions for both volcanic activity and earthquakes through magma escape and sudden plate movements"
                 }
             ],
-            "funFact": "The fastest tsunami waves can travel at speeds of up to 500 miles per hour in deep water - as fast as a commercial jet airplane! This is why early warning systems that can detect tsunamis far from shore are so important for coastal communities."
+            "funFact": "The Pacific Ring of Fire, a horseshoe-shaped region around the Pacific Ocean, contains about 75% of Earth's active volcanoes and experiences about 90% of Earth's earthquakes due to numerous plate boundaries in the area!"
         },
         {
             "id": 2,
-            "text": "Why do engineers design houses near active volcanoes with steep roofs?",
-            "options": [
-                {
-                    "text": "To allow volcanic ash to slide off easily and prevent roof collapse",
-                    "isCorrect": 1,
-                    "explanation": "Steep roofs help volcanic ash slide off rather than accumulate, which prevents too much weight from building up and potentially causing the roof to collapse."
-                },
-                {
-                    "text": "To make the houses look more appealing",
-                    "isCorrect": 0,
-                    "explanation": "The steep roof design is primarily functional rather than aesthetic - it serves a specific safety purpose related to volcanic hazards."
-                },
-                {
-                    "text": "To help the houses stay cool in hot volcanic regions",
-                    "isCorrect": 0,
-                    "explanation": "While roof design can affect temperature, steep roofs near volcanoes are specifically designed to deal with ash accumulation, not temperature control."
-                },
-                {
-                    "text": "To protect against lava flows",
-                    "isCorrect": 0,
-                    "explanation": "Steep roofs are designed to handle ash, not lava. No roof design can effectively protect against direct lava flows."
-                }
-            ],
-            "funFact": "The weight of volcanic ash can be surprisingly heavy - just 4 inches of wet ash can weigh as much as 200 pounds per square meter, which is why proper roof design is so important in volcanic regions!"
-        },
-        {
-            "id": 3,
-            "text": "Why are buildings in earthquake-prone regions often designed to be low to the ground rather than tall?",
-            "options": [
-                {
-                    "text": "Lower buildings experience less destructive forces during earthquakes and are more stable",
-                    "isCorrect": 1,
-                    "explanation": "Buildings closer to the ground experience less shaking and swaying during earthquakes, making them more stable and less likely to collapse or sustain major damage."
-                },
-                {
-                    "text": "Lower buildings are cheaper to construct in earthquake zones",
-                    "isCorrect": 0,
-                    "explanation": "While cost may be a factor, the primary reason for building lower structures is safety and stability during earthquakes, not construction costs."
-                },
-                {
-                    "text": "Lower buildings allow people to evacuate more quickly",
-                    "isCorrect": 0,
-                    "explanation": "While easier evacuation might be a benefit, this is not the main engineering reason for building lower structures in earthquake zones."
-                },
-                {
-                    "text": "Lower buildings are more energy efficient in earthquake zones",
-                    "isCorrect": 0,
-                    "explanation": "Energy efficiency is not related to a building's ability to withstand earthquakes. The height consideration is purely about structural stability during seismic activity."
-                }
-            ],
-            "funFact": "The ancient Incas built many of their structures using a technique called 'ashlar masonry,' where stones were cut to fit together perfectly without mortar. This technique, combined with their typically low-rise architecture, helped their buildings survive earthquakes for over 500 years!"
-        },
-        {
-            "id": 4,
-            "text": "Why are skyscrapers in earthquake-prone areas designed to sway during earthquakes?",
-            "options": [
-                {
-                    "text": "The swaying motion helps distribute the earthquake's force and prevents structural damage",
-                    "isCorrect": 1,
-                    "explanation": "When skyscrapers sway during earthquakes, they can better absorb and distribute the seismic forces, reducing the risk of structural failure"
-                },
-                {
-                    "text": "The swaying makes the building lighter so it won't collapse",
-                    "isCorrect": 0,
-                    "explanation": "The building's weight doesn't change when it sways - this is a misconception about how earthquake-resistant buildings work"
-                },
-                {
-                    "text": "The swaying pushes the earthquake waves away from the building",
-                    "isCorrect": 0,
-                    "explanation": "Earthquake waves cannot be pushed away - buildings must work with these forces rather than try to deflect them"
-                },
-                {
-                    "text": "The swaying helps the building sink deeper into the ground for stability",
-                    "isCorrect": 0,
-                    "explanation": "Buildings don't sink during earthquakes - their foundations remain fixed while the structure above is designed to move"
-                }
-            ],
-            "funFact": "The Taipei 101 skyscraper in Taiwan uses a 730-ton pendulum suspended from the 92nd floor that acts as a tuned mass damper, helping to counteract swaying motions from earthquakes and strong winds!"
-        },
-        {
-            "id": 5,
             "text": "Why is concrete not an ideal material for constructing buildings in earthquake-prone areas?",
             "options": [
                 {
@@ -138,122 +57,117 @@
             "funFact": "Modern engineers have developed special types of reinforced concrete that can better withstand earthquakes by incorporating flexible materials and special designs that allow the concrete to bend rather than break under seismic forces."
         },
         {
-            "id": 6,
-            "text": "An engineer is designing homes near an active volcano. Which roof design would be most effective for protecting the house from volcanic ash accumulation?",
+            "id": 3,
+            "text": "Why are buildings in earthquake-prone regions often designed to be low to the ground rather than tall?",
             "options": [
                 {
-                    "text": "A steep, reinforced roof that allows ash to slide off easily",
+                    "text": "Lower buildings are more energy efficient in earthquake zones",
+                    "isCorrect": 0,
+                    "explanation": "Energy efficiency is not related to a building's ability to withstand earthquakes. The height consideration is purely about structural stability during seismic activity."
+                },
+                {
+                    "text": "Lower buildings allow people to evacuate more quickly",
+                    "isCorrect": 0,
+                    "explanation": "While easier evacuation might be a benefit, this is not the main engineering reason for building lower structures in earthquake zones."
+                },
+                {
+                    "text": "Lower buildings experience less destructive forces during earthquakes and are more stable",
                     "isCorrect": 1,
-                    "explanation": "A steep roof angle combined with reinforcement is the optimal design as it prevents ash accumulation through natural sliding while maintaining structural integrity under the weight"
+                    "explanation": "Buildings closer to the ground experience less shaking and swaying during earthquakes, making them more stable and less likely to collapse or sustain major damage."
                 },
                 {
-                    "text": "A flat roof with deep gutters around the edges",
+                    "text": "Lower buildings are cheaper to construct in earthquake zones",
                     "isCorrect": 0,
-                    "explanation": "Flat roofs would allow ash to accumulate, creating dangerous weight loads that could cause structural failure, while gutters would quickly become clogged"
-                },
-                {
-                    "text": "A lightweight plastic roof that flexes under weight",
-                    "isCorrect": 0,
-                    "explanation": "Flexible plastic would not provide adequate protection and could melt or deform under the heat of recently erupted volcanic ash"
-                },
-                {
-                    "text": "A dome-shaped roof made of regular shingles",
-                    "isCorrect": 0,
-                    "explanation": "While dome shapes can help with some ash sliding, regular shingles may not be strong enough to support temporary ash loads or withstand the heat"
+                    "explanation": "While cost may be a factor, the primary reason for building lower structures is safety and stability during earthquakes, not construction costs."
                 }
             ],
-            "funFact": "The 1980 eruption of Mount St. Helens deposited ash up to 10 inches deep in nearby areas, with just 1 inch of wet ash weighing up to 10 pounds per square foot on roofs!"
+            "funFact": "The ancient Incas built many of their structures using a technique called 'ashlar masonry,' where stones were cut to fit together perfectly without mortar. This technique, combined with their typically low-rise architecture, helped their buildings survive earthquakes for over 500 years!"
+        },
+        {
+            "id": 4,
+            "text": "What happens at tectonic plate boundaries that leads to volcanic eruptions?",
+            "options": [
+                {
+                    "text": "Hot air trapped between plates creates pressure that causes explosions",
+                    "isCorrect": 0,
+                    "explanation": "Volcanic eruptions are caused by magma escaping, not trapped air. Air pressure is not what drives volcanic activity."
+                },
+                {
+                    "text": "Molten rock (magma) from inside Earth finds pathways to escape through openings in the crust",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Plate boundaries provide natural weak points in Earth's crust where magma can rise and escape, forming volcanoes."
+                },
+                {
+                    "text": "The plates melt each other when they collide, creating lava",
+                    "isCorrect": 0,
+                    "explanation": "Plates don't melt each other on contact. Magma comes from deep within Earth and rises through weaknesses at plate boundaries."
+                },
+                {
+                    "text": "Lightning strikes at plate boundaries heat up rocks until they become liquid",
+                    "isCorrect": 0,
+                    "explanation": "Lightning does not cause volcanic activity. Magma exists deep within Earth and rises through plate boundaries."
+                }
+            ],
+            "funFact": "The word 'volcano' comes from Vulcan, the ancient Roman god of fire and metalworking. The Romans believed Vulcan's forge was located under a volcanic island off the coast of Sicily."
+        },
+        {
+            "id": 5,
+            "text": "Which feature of storm shutters makes them an effective solution for protecting buildings during natural disasters like hurricanes?",
+            "options": [
+                {
+                    "text": "They strengthen the foundation of the building",
+                    "isCorrect": 0,
+                    "explanation": "Storm shutters are window coverings and do not affect the building's foundation. Building foundations require different engineering solutions."
+                },
+                {
+                    "text": "They make the roof more resistant to high winds",
+                    "isCorrect": 0,
+                    "explanation": "While protecting against high winds is important during storms, storm shutters are specifically designed for window protection, not roof reinforcement."
+                },
+                {
+                    "text": "They prevent flying debris from breaking windows and causing interior damage",
+                    "isCorrect": 1,
+                    "explanation": "Storm shutters are designed specifically to block flying debris during storms, protecting windows from breaking and preventing damage to the building's interior."
+                },
+                {
+                    "text": "They reduce the temperature inside the building",
+                    "isCorrect": 0,
+                    "explanation": "While shutters may provide some shade, their primary purpose is protection from debris during storms, not temperature control."
+                }
+            ],
+            "funFact": "Modern storm shutters come in various designs, including roll-down, accordion, and colonial styles. Some advanced systems can even be activated remotely or automatically when severe weather is detected!"
+        },
+        {
+            "id": 6,
+            "text": "A coastal city is planning to build new structures to protect its infrastructure from potential tsunami damage. They have several proposed solutions to evaluate. Which solution would most effectively balance both safety requirements and cost constraints?",
+            "options": [
+                {
+                    "text": "Build floating structures that rise with water levels",
+                    "isCorrect": 0,
+                    "explanation": "Floating structures would be extremely expensive to implement on a large scale and may not withstand the powerful forces of tsunami waves, making this an unrealistic solution for protecting coastal infrastructure."
+                },
+                {
+                    "text": "Install a network of early warning sensors combined with elevated foundation designs for coastal buildings",
+                    "isCorrect": 1,
+                    "explanation": "This solution combines prevention and preparation by providing advance warning while also incorporating structural modifications. It offers effective protection while being more cost-efficient than massive physical barriers."
+                },
+                {
+                    "text": "Build a series of tall concrete seawalls along the entire coastline",
+                    "isCorrect": 0,
+                    "explanation": "While seawalls can provide protection, using concrete throughout makes them prone to cracking and expensive to maintain. This solution prioritizes immediate protection but fails to consider long-term costs and material limitations."
+                },
+                {
+                    "text": "Relocate all coastal buildings 5 miles inland from the shore",
+                    "isCorrect": 0,
+                    "explanation": "While this would provide safety, the enormous cost and social disruption of relocating entire communities makes this an impractical solution that exceeds reasonable economic constraints."
+                }
+            ],
+            "funFact": "The 2011 Tohoku earthquake and tsunami in Japan led to major innovations in tsunami-resistant architecture, including buildings with special wave-dissipating designs and strategic placement of stronger structural elements on lower floors."
         },
         {
             "id": 7,
-            "text": "An engineering team is designing a foundation system for a new apartment building in an earthquake-prone area. Which foundation design would best protect the building during seismic activity while being practical to construct?",
-            "options": [
-                {
-                    "text": "A flexible base system with rubber isolators that allows controlled movement during earthquakes",
-                    "isCorrect": 1,
-                    "explanation": "Base isolation with rubber isolators allows controlled movement during earthquakes, reducing damage while being a proven and practical construction method."
-                },
-                {
-                    "text": "A very deep concrete foundation extending 100 meters into the ground",
-                    "isCorrect": 0,
-                    "explanation": "While deep foundations can provide stability, extending 100 meters would be impractical and unnecessarily expensive without providing proportional benefits."
-                },
-                {
-                    "text": "A rigid concrete foundation with no flexibility",
-                    "isCorrect": 0,
-                    "explanation": "Rigid foundations can crack during earthquakes as they cannot accommodate ground movement, making them unsuitable for seismic zones."
-                },
-                {
-                    "text": "A foundation floating on water to absorb shock waves",
-                    "isCorrect": 0,
-                    "explanation": "While creative, a water-based foundation would be impractical to maintain and could create additional hazards during earthquakes."
-                }
-            ],
-            "funFact": "The ancient Greeks were among the first to use flexible building techniques for earthquake protection. In the Temple of Apollo at Delphi, they used lead plates between building blocks to allow slight movement during earthquakes!"
-        },
-        {
-            "id": 8,
-            "text": "An engineering team is designing a new skyscraper in an earthquake-prone region. Which design feature would be most effective in helping the building withstand earthquake forces?",
-            "options": [
-                {
-                    "text": "A flexible steel frame that allows controlled swaying during earthquakes",
-                    "isCorrect": 1,
-                    "explanation": "A flexible steel frame that permits controlled swaying helps distribute earthquake forces throughout the structure, reducing the risk of catastrophic failure. This design approach is proven to be highly effective in modern earthquake-resistant buildings."
-                },
-                {
-                    "text": "A rigid concrete structure that completely prevents any movement",
-                    "isCorrect": 0,
-                    "explanation": "Completely rigid structures are more likely to crack and fail during earthquakes because they cannot absorb and distribute the seismic forces effectively."
-                },
-                {
-                    "text": "A foundation system that amplifies ground movement to counteract earthquake forces",
-                    "isCorrect": 0,
-                    "explanation": "Amplifying ground movement would increase the destructive forces on the building rather than protect it. Earthquake-resistant designs aim to minimize or control the impact of seismic forces."
-                },
-                {
-                    "text": "A top-heavy design with most of the building's weight concentrated in upper floors",
-                    "isCorrect": 0,
-                    "explanation": "Concentrating weight in the upper floors makes a building more unstable during earthquakes. A lower center of gravity provides better stability during seismic events."
-                }
-            ],
-            "funFact": "The Taipei 101 skyscraper in Taiwan features a 730-ton pendulum suspended between the 87th and 92nd floors that acts as a tuned mass damper, helping to counteract building sway from strong winds and earthquakes by moving in the opposite direction of the force being applied to the building."
-        },
-        {
-            "id": 9,
-            "text": "An engineer is designing a building in a region that experiences frequent earthquakes. The building needs to be both safe during earthquakes and cost-effective. Which material would be the best choice for the main structure?",
-            "options": [
-                {
-                    "text": "Steel beams with flexible joints",
-                    "isCorrect": 1,
-                    "explanation": "Steel is both strong and flexible, allowing buildings to sway safely during earthquakes without breaking. The flexible joints help absorb seismic energy, making it an ideal and cost-effective choice."
-                },
-                {
-                    "text": "Solid concrete blocks",
-                    "isCorrect": 0,
-                    "explanation": "While concrete is strong, it tends to crack during earthquakes because it's too rigid. These cracks can compromise the building's structural integrity, making it an unsafe choice."
-                },
-                {
-                    "text": "Glass reinforced panels",
-                    "isCorrect": 0,
-                    "explanation": "Glass, even when reinforced, is too brittle for main structural elements in earthquake zones. It can shatter under seismic stress, creating dangerous conditions."
-                },
-                {
-                    "text": "Heavy stone walls",
-                    "isCorrect": 0,
-                    "explanation": "Stone walls are too heavy and rigid. During an earthquake, their weight can cause them to collapse, and their rigidity prevents them from absorbing seismic movements safely."
-                }
-            ],
-            "funFact": "The Taipei 101 skyscraper in Taiwan uses a 730-ton pendulum suspended from the 92nd floor to counteract earthquake movements. This giant ball acts like a tuned mass damper, swaying in the opposite direction of the building to keep it stable!"
-        },
-        {
-            "id": 10,
             "text": "An engineering team is designing an emergency evacuation system for a coastal high-rise building located in an earthquake-prone area. Which combination of features would best ensure safe evacuation while being practical to implement?",
             "options": [
-                {
-                    "text": "Multiple external staircases made of concrete with no emergency lighting",
-                    "isCorrect": 0,
-                    "explanation": "While external staircases provide multiple evacuation routes, concrete can crack during earthquakes and lack of emergency lighting makes evacuation dangerous in low visibility conditions."
-                },
                 {
                     "text": "A single wide staircase made of flexible steel with emergency lighting and clear signage",
                     "isCorrect": 1,
@@ -265,6 +179,11 @@
                     "explanation": "Glass is fragile during earthquakes and depending on adjacent buildings for evacuation is risky as they may also be damaged."
                 },
                 {
+                    "text": "Multiple external staircases made of concrete with no emergency lighting",
+                    "isCorrect": 0,
+                    "explanation": "While external staircases provide multiple evacuation routes, concrete can crack during earthquakes and lack of emergency lighting makes evacuation dangerous in low visibility conditions."
+                },
+                {
                     "text": "External elevators with backup power generators",
                     "isCorrect": 0,
                     "explanation": "Elevators are not safe during emergencies like earthquakes or fires, even with backup power, as they can malfunction or trap people inside."
@@ -273,136 +192,217 @@
             "funFact": "The Taipei 101 skyscraper in Taiwan features a 730-ton pendulum near its top that acts as a tuned mass damper, helping the building sway safely during earthquakes and strong winds while keeping occupants comfortable!"
         },
         {
-            "id": 11,
-            "text": "A coastal city is planning to build new residential buildings in an area prone to both tsunamis and flooding. Which engineering solution would be most effective in protecting these buildings from both types of natural disasters?",
+            "id": 8,
+            "text": "An engineering team is designing a foundation system for a new apartment building in an earthquake-prone area. Which foundation design would best protect the building during seismic activity while being practical to construct?",
             "options": [
                 {
-                    "text": "Build tall, thin buildings with concrete foundations",
+                    "text": "A rigid concrete foundation with no flexibility",
                     "isCorrect": 0,
-                    "explanation": "Tall, thin buildings are more vulnerable to damage during tsunamis and floods. They can easily topple over when hit by strong waves, and concrete foundations can crack under stress."
+                    "explanation": "Rigid foundations can crack during earthquakes as they cannot accommodate ground movement, making them unsuitable for seismic zones."
                 },
                 {
-                    "text": "Construct single-story buildings on elevated foundations with water-resistant materials",
+                    "text": "A flexible base system with rubber isolators that allows controlled movement during earthquakes",
                     "isCorrect": 1,
-                    "explanation": "Single-story buildings are more stable during natural disasters, and elevated foundations help protect against flooding. Water-resistant materials prevent structural damage from water exposure."
+                    "explanation": "Base isolation with rubber isolators allows controlled movement during earthquakes, reducing damage while being a proven and practical construction method."
                 },
                 {
-                    "text": "Design buildings with flat roofs and glass walls",
+                    "text": "A foundation floating on water to absorb shock waves",
                     "isCorrect": 0,
-                    "explanation": "Flat roofs can collect water during floods, adding dangerous weight to the structure. Glass walls are easily damaged by debris carried by tsunami waves and floods."
+                    "explanation": "While creative, a water-based foundation would be impractical to maintain and could create additional hazards during earthquakes."
                 },
                 {
-                    "text": "Build underground structures with basement levels",
+                    "text": "A very deep concrete foundation extending 100 meters into the ground",
                     "isCorrect": 0,
-                    "explanation": "Underground structures are extremely vulnerable to flooding and can become completely submerged during tsunamis, making them dangerous for occupants."
+                    "explanation": "While deep foundations can provide stability, extending 100 meters would be impractical and unnecessarily expensive without providing proportional benefits."
                 }
             ],
-            "funFact": "The ancient Japanese developed a clever tsunami warning system using stone markers called 'tsunami stones.' These stones, some over 600 years old, were placed on hillsides marking safe zones and warning future generations not to build homes below that point."
+            "funFact": "The ancient Greeks were among the first to use flexible building techniques for earthquake protection. In the Temple of Apollo at Delphi, they used lead plates between building blocks to allow slight movement during earthquakes!"
+        },
+        {
+            "id": 9,
+            "text": "Two different building designs are proposed for a new school in a region that frequently experiences earthquakes. Which design would likely be safer during an earthquake?\n\nDesign A: A 4-story building with concrete walls\nDesign B: A single-story building with flexible materials",
+            "options": [
+                {
+                    "text": "Design A because taller buildings are more stable during earthquakes",
+                    "isCorrect": 0,
+                    "explanation": "Taller buildings actually experience more movement and are at greater risk during earthquakes. The height makes them more susceptible to swaying and potential collapse."
+                },
+                {
+                    "text": "Design B because lower buildings experience less destruction during earthquakes",
+                    "isCorrect": 1,
+                    "explanation": "Single-story buildings are safer during earthquakes because they experience less movement and are more stable. Being closer to the ground reduces the risk of collapse. Additionally, flexible materials can absorb and dissipate seismic energy, allowing the building to sway without breaking, which is a crucial feature of earthquake-resistant design."
+                },
+                {
+                    "text": "Design A because concrete is the strongest building material",
+                    "isCorrect": 0,
+                    "explanation": "While concrete is strong, it can crack during earthquakes. These cracks can compromise the building's structural integrity and make it unsafe."
+                },
+                {
+                    "text": "Both designs are equally safe during earthquakes",
+                    "isCorrect": 0,
+                    "explanation": "The designs are not equally safe. Building height and material choice significantly affect how well a structure withstands earthquakes."
+                }
+            ],
+            "funFact": "The ancient Incas built earthquake-resistant buildings using stones that fit together so perfectly that not even a knife blade could fit between them. These structures have survived numerous earthquakes over hundreds of years!"
+        },
+        {
+            "id": 10,
+            "text": "A team of scientists is designing an early warning system to monitor volcanic activity. Which combination of monitoring tools would be most effective while considering cost and reliability constraints?",
+            "options": [
+                {
+                    "text": "Satellite imagery updated monthly to track surface deformation",
+                    "isCorrect": 0,
+                    "explanation": "Monthly updates are too infrequent for early warning, and satellite imagery alone doesn't provide the immediate ground-level data needed for reliable monitoring"
+                },
+                {
+                    "text": "A single high-resolution camera at the volcano summit to observe visible changes",
+                    "isCorrect": 0,
+                    "explanation": "While visual monitoring is useful, using only one method at a single location provides limited data and could be blocked by weather conditions or equipment failure"
+                },
+                {
+                    "text": "Continuous GPS measurements from a single station to track ground movement",
+                    "isCorrect": 0,
+                    "explanation": "Using only GPS from one location doesn't provide enough data points for reliable monitoring and lacks backup systems if equipment fails"
+                },
+                {
+                    "text": "Multiple seismographs around the volcano base to detect ground movements, temperature sensors to track heat changes, and gas monitors to measure volcanic emissions",
+                    "isCorrect": 1,
+                    "explanation": "This combination provides comprehensive monitoring through multiple data points, is relatively cost-effective, and offers reliable redundancy if one system fails"
+                }
+            ],
+            "funFact": "The world's largest network of volcano monitoring systems is in Hawaii, where scientists use over 100 seismometers, 50 GPS stations, and multiple gas sensors to keep track of the islands' active volcanoes!"
+        },
+        {
+            "id": 11,
+            "text": "An engineer is designing a school building in an area that experiences frequent earthquakes. Which design choice would best help the building withstand earthquake damage?",
+            "options": [
+                {
+                    "text": "Construct a tall, multi-story building with a narrow base",
+                    "isCorrect": 0,
+                    "explanation": "Tall, thin buildings are more vulnerable to earthquake damage as they sway more dramatically and can become unstable during ground movement."
+                },
+                {
+                    "text": "Build the structure on loose soil for flexibility",
+                    "isCorrect": 0,
+                    "explanation": "Loose soil actually amplifies earthquake vibrations and makes buildings more unstable, increasing the risk of structural damage."
+                },
+                {
+                    "text": "Build a single-story structure close to the ground",
+                    "isCorrect": 1,
+                    "explanation": "Buildings closer to the ground experience less destruction during earthquakes because they have a lower center of gravity and are more stable when the ground shakes."
+                },
+                {
+                    "text": "Use solid concrete throughout the entire structure",
+                    "isCorrect": 0,
+                    "explanation": "Concrete alone is not ideal for earthquake-resistant buildings as it can crack and break during ground shaking, weakening the entire structure."
+                }
+            ],
+            "funFact": "The ancient Incas built earthquake-resistant structures using precisely cut stones that fit together so tightly that not even a knife blade could fit between them. This technique, called 'ashlar masonry,' allowed their buildings to withstand centuries of earthquakes in the seismically active Andes Mountains."
         },
         {
             "id": 12,
-            "text": "A coastal city wants to implement an early warning system for tsunamis. Which of the following solutions would be most effective in protecting the residents?",
+            "text": "An engineer needs to design a roof for a house near an active volcano. Which combination of features would be most effective in protecting the house from volcanic hazards?",
             "options": [
                 {
-                    "text": "A network of ocean sensors connected to sirens and emergency broadcast systems that can detect underwater earthquakes and automatically send alerts within minutes",
+                    "text": "A steep, wooden roof with waterproof coating",
+                    "isCorrect": 0,
+                    "explanation": "Though the steep angle helps with ash, wood isn't suitable near volcanoes due to its low heat resistance"
+                },
+                {
+                    "text": "A steep, stone-reinforced roof that allows ash to slide off and resists high temperatures",
                     "isCorrect": 1,
-                    "explanation": "This is the most effective solution as it combines rapid detection through ocean sensors with immediate automated alerts, giving residents maximum time to evacuate"
+                    "explanation": "This design addresses both major volcanic hazards - the steep angle helps prevent ash accumulation while stone reinforcement provides heat resistance"
                 },
                 {
-                    "text": "Beach patrol officers watching for unusual wave patterns and manually calling emergency services when they spot something concerning",
+                    "text": "A flat, wooden roof with extra support beams",
                     "isCorrect": 0,
-                    "explanation": "Visual observation alone is not reliable enough and the manual communication process would be too slow to give adequate warning time"
+                    "explanation": "While extra support helps with weight, the flat surface would allow ash to accumulate and wood has poor heat resistance"
                 },
                 {
-                    "text": "A social media alert system where residents can post about unusual ocean activity to warn others in the community",
+                    "text": "A flat, stone roof with heat-resistant coating",
                     "isCorrect": 0,
-                    "explanation": "Social media alerts are too unreliable and may spread misinformation. They also depend on people actively checking their feeds, which many may not do during an emergency"
-                },
-                {
-                    "text": "Weekly tsunami drills to teach residents how to recognize the signs of an approaching tsunami",
-                    "isCorrect": 0,
-                    "explanation": "While education is important, drills alone don't provide an early warning system. By the time residents visually spot a tsunami, it may be too late to evacuate"
+                    "explanation": "While stone and heat-resistant coating help with temperature, the flat design would allow dangerous ash accumulation"
                 }
             ],
-            "funFact": "The fastest tsunami ever recorded was in 1883 after the Krakatoa volcano erupted in Indonesia - the waves traveled at speeds of up to 500 miles per hour across the ocean, demonstrating why rapid early warning systems are so crucial for coastal communities."
+            "funFact": "The ancient Romans used volcanic rock called tuff in their architecture because it was both lightweight and heat-resistant. Many of these 2000-year-old structures still stand today!"
         },
         {
             "id": 13,
-            "text": "A coastal city is planning to build a new seawall to protect its buildings from potential tsunami waves. Which design would be most effective in reducing tsunami damage while being practical to implement?",
+            "text": "A city engineer is evaluating different methods to reinforce existing buildings in an earthquake-prone area. Which approach would be most cost-effective while providing significant structural improvement?",
             "options": [
                 {
-                    "text": "A tall, solid concrete wall built directly on the shoreline",
+                    "text": "Completely rebuilding all buildings with solid concrete",
                     "isCorrect": 0,
-                    "explanation": "While this might seem strong, solid concrete walls can crack during earthquakes that often precede tsunamis, and their rigid structure could collapse under intense wave pressure."
+                    "explanation": "Complete rebuilding is extremely expensive and unnecessary. Additionally, solid concrete can crack during earthquakes, making it a poor choice for seismic zones."
                 },
                 {
-                    "text": "A series of curved concrete barriers with wave-deflecting shapes and reinforced foundations",
+                    "text": "Adding extra floors to make buildings taller",
+                    "isCorrect": 0,
+                    "explanation": "Taller buildings actually experience more movement during earthquakes and are more susceptible to damage. This would increase risk rather than reduce it."
+                },
+                {
+                    "text": "Adding flexible steel frames that allow controlled swaying during earthquakes",
                     "isCorrect": 1,
-                    "explanation": "This design effectively disperses wave energy while the curved shape helps redirect water. The reinforced foundations provide stability during both earthquakes and tsunami impacts."
+                    "explanation": "Steel frames provide flexibility while maintaining structural integrity, allowing buildings to absorb seismic energy effectively. This is a proven and cost-effective solution widely used in earthquake-prone regions."
                 },
                 {
-                    "text": "A high earthen embankment made of packed soil",
+                    "text": "Installing thick glass windows throughout buildings",
                     "isCorrect": 0,
-                    "explanation": "While natural materials are cost-effective, packed soil can erode quickly when exposed to powerful waves and may not withstand repeated wave impacts."
-                },
-                {
-                    "text": "Multiple rows of tall trees planted along the coastline",
-                    "isCorrect": 0,
-                    "explanation": "Though trees can help with smaller waves, they aren't sufficient for tsunami protection. They can be uprooted by strong waves and become dangerous debris."
+                    "explanation": "Thick glass windows alone don't provide significant structural reinforcement and can be dangerous during earthquakes as they may shatter."
                 }
             ],
-            "funFact": "The world's largest tsunami wall is in Kamaishi, Japan, extending 1,960 meters in length and reaching depths of 63 meters below sea level. It successfully reduced damage during the 2011 tsunami, though some waves still overtopped it, showing that even the best defenses need to be part of a larger safety strategy."
+            "funFact": "The Taipei 101 skyscraper in Taiwan uses a 730-ton pendulum suspended from the 92nd floor that acts as a tuned mass damper, swaying to counteract the building's movement during earthquakes and strong winds!"
         },
         {
             "id": 14,
-            "text": "An architect is designing buildings in a coastal area that frequently experiences strong hurricanes. Which building design would be most effective in minimizing wind damage during hurricanes?",
+            "text": "A coastal city is looking to improve window protection systems for homes during hurricanes. They are comparing different options based on effectiveness and cost. Which of the following would be the most practical solution?",
             "options": [
                 {
-                    "text": "A 30-story rectangular building with a narrow side facing the coast",
+                    "text": "Replace all windows with thick bulletproof glass",
                     "isCorrect": 0,
-                    "explanation": "Tall, narrow buildings are more vulnerable to hurricane damage as they catch more wind and are less stable during strong storms."
+                    "explanation": "While bulletproof glass would provide protection, it would be extremely expensive to install in all homes and is not a practical solution for widespread implementation."
                 },
                 {
-                    "text": "A dome-shaped single-story building with curved walls",
+                    "text": "Build concrete walls around all windows",
+                    "isCorrect": 0,
+                    "explanation": "Permanent concrete barriers would be costly, impractical, and would severely limit natural light and ventilation. They would also make emergency exits difficult."
+                },
+                {
+                    "text": "Keep a supply of plywood to nail over windows during storms",
+                    "isCorrect": 0,
+                    "explanation": "While plywood can work as a temporary solution, it requires significant time to install, can damage window frames with repeated use, and may not be readily available during emergencies."
+                },
+                {
+                    "text": "Install storm shutters that can be easily closed before storms",
                     "isCorrect": 1,
-                    "explanation": "Dome-shaped buildings with curved walls allow wind to flow around them more easily, reducing wind resistance and the likelihood of structural damage during hurricanes."
-                },
-                {
-                    "text": "A square building with flat walls and a flat roof",
-                    "isCorrect": 0,
-                    "explanation": "Flat walls and roofs create more wind resistance and can trap wind, increasing the risk of structural damage during hurricanes."
-                },
-                {
-                    "text": "A tall building with large glass windows facing the coastline",
-                    "isCorrect": 0,
-                    "explanation": "Large glass windows facing strong winds are particularly vulnerable to hurricane damage and can become dangerous when broken by flying debris."
+                    "explanation": "Storm shutters are a practical and cost-effective solution that can protect windows from flying debris during hurricanes. They are easy to operate and provide reliable protection."
                 }
             ],
-            "funFact": "The traditional Inuit igloos used a similar dome-shaped design principle that not only provided excellent insulation but also helped these structures withstand strong Arctic winds. The curved shape allows wind to flow around the structure rather than creating strong pressure points that could damage it."
+            "funFact": "Hurricane-force winds can turn ordinary objects like tree branches and lawn furniture into dangerous projectiles traveling at speeds over 100 miles per hour, which is why proper window protection is crucial for home safety."
         },
         {
             "id": 15,
             "text": "An engineer is designing houses near an active volcano. Which material would be most suitable for the roofs of these houses to protect against volcanic hazards?",
             "options": [
                 {
-                    "text": "Stone tiles",
-                    "isCorrect": 1,
-                    "explanation": "Stone has a very high melting temperature and can withstand intense heat from volcanic activity. It is also strong enough to support the weight of accumulated volcanic ash."
-                },
-                {
-                    "text": "Wooden shingles",
-                    "isCorrect": 0,
-                    "explanation": "Wood has a relatively low heat resistance and can catch fire easily when exposed to volcanic heat. It would not be suitable for areas near active volcanoes."
-                },
-                {
                     "text": "Aluminum sheets",
                     "isCorrect": 0,
                     "explanation": "While lightweight, aluminum has a relatively low melting point and can deform under high temperatures from volcanic activity."
                 },
                 {
+                    "text": "Stone tiles",
+                    "isCorrect": 1,
+                    "explanation": "Stone has a very high melting temperature and can withstand intense heat from volcanic activity. It is also strong enough to support the weight of accumulated volcanic ash."
+                },
+                {
                     "text": "Plastic panels",
                     "isCorrect": 0,
                     "explanation": "Plastic has very poor heat resistance and would melt quickly when exposed to volcanic heat. It would provide minimal protection against volcanic hazards."
+                },
+                {
+                    "text": "Wooden shingles",
+                    "isCorrect": 0,
+                    "explanation": "Wood has a relatively low heat resistance and can catch fire easily when exposed to volcanic heat. It would not be suitable for areas near active volcanoes."
                 }
             ],
             "funFact": "The ancient Romans discovered that volcanic ash mixed with lime creates an incredibly strong building material called hydraulic cement. This discovery led to the development of concrete that could even harden underwater!"
