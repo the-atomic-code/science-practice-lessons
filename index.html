@@ -450,12 +450,12 @@
                 listItem.className = 'lesson-list-item';
                 
                 listItem.innerHTML = `
-                    <a href="lesson-player.html?lesson=${lesson.id}" class="lesson-list-link">
+                    <a href="lesson-player.html?lesson_id=${lesson.id}" class="lesson-list-link">
                         <div class="lesson-list-details">
                             <h3 class="lesson-list-title">${lesson.title}</h3>
                             <div class="lesson-meta">
                                 <span class="lesson-id">ID: ${lesson.id}</span>
-                                <span class="standard-tag">Standard: ${lesson.standard}</span>
+                                <span class="standard-tag">NGSS: ${lesson.standard}</span>
                             </div>
                         </div>
                     </a>
