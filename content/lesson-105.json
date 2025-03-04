@@ -1,0 +1,411 @@
+{
+    "id": "lesson-105",
+    "title": "Balanced & Unbalanced Forces",
+    "questions": [
+        {
+            "id": 1,
+            "text": "A student drops a ball while standing outside. What force causes the ball to fall toward the ground?",
+            "options": [
+                {
+                    "text": "Gravity",
+                    "isCorrect": 1,
+                    "explanation": "Gravity is the force that pulls objects toward Earth's center, causing the ball to fall down when dropped."
+                },
+                {
+                    "text": "Wind",
+                    "isCorrect": 0,
+                    "explanation": "While wind can affect the path of falling objects, it is not the primary force causing objects to fall toward Earth."
+                },
+                {
+                    "text": "Magnetism",
+                    "isCorrect": 0,
+                    "explanation": "Magnetic forces only affect magnetic materials and are not responsible for objects falling toward Earth."
+                },
+                {
+                    "text": "Air pressure",
+                    "isCorrect": 0,
+                    "explanation": "Although air pressure exists around us, it is not the force responsible for pulling objects down toward Earth."
+                }
+            ],
+            "funFact": "The force of gravity on Earth makes objects fall at the same speed regardless of their mass (in a vacuum). A feather and a bowling ball would hit the ground at the same time if dropped in a place with no air resistance!"
+        },
+        {
+            "id": 2,
+            "text": "A book is lying still on a table. Which statement best explains why the book remains stationary?",
+            "options": [
+                {
+                    "text": "The force of gravity pulling down and the normal force from the table pushing up are balanced forces.",
+                    "isCorrect": 1,
+                    "explanation": "The book remains stationary because the upward normal force from the table exactly balances the downward gravitational force, resulting in no net force and therefore no motion."
+                },
+                {
+                    "text": "There are no forces acting on the book.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Even when an object is stationary, forces are still acting on it. In this case, both gravity and the normal force from the table are acting on the book."
+                },
+                {
+                    "text": "The book is too heavy to move.",
+                    "isCorrect": 0,
+                    "explanation": "The weight of an object alone doesn't determine if it will move. What matters is whether the forces acting on it are balanced or unbalanced."
+                },
+                {
+                    "text": "The force of gravity is stronger than all other forces.",
+                    "isCorrect": 0,
+                    "explanation": "If gravity were stronger than other forces acting on the book, the book would move downward through the table. The forces are actually equal in magnitude but opposite in direction."
+                }
+            ],
+            "funFact": "The normal force gets its name from the word 'normal' in geometry, which means perpendicular. The normal force always acts perpendicular to the surface of contact, whether it's a horizontal table, an inclined plane, or any other surface!"
+        },
+        {
+            "id": 3,
+            "text": "Which statement best explains why objects always fall straight down toward the Earth's surface, no matter where you are on Earth?",
+            "options": [
+                {
+                    "text": "Gravity pulls all objects toward Earth's center",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The gravitational force of Earth pulls all objects toward its center, which is why objects appear to fall straight down no matter where you are on Earth's surface."
+                },
+                {
+                    "text": "Objects fall down because of the air pushing them",
+                    "isCorrect": 0,
+                    "explanation": "While air can affect how objects fall, it's not the main reason objects fall down. Gravity is the force responsible for pulling objects toward Earth."
+                },
+                {
+                    "text": "Objects fall down because they are heavy",
+                    "isCorrect": 0,
+                    "explanation": "While mass affects how strongly gravity pulls on an object, all objects fall down due to gravity regardless of their mass. Even very light objects fall down."
+                },
+                {
+                    "text": "Objects fall in the direction they are released",
+                    "isCorrect": 0,
+                    "explanation": "Objects fall straight down toward Earth's center regardless of how they are released. The direction of release does not determine the direction of fall."
+                }
+            ],
+            "funFact": "The acceleration due to gravity on Earth is approximately 9.8 meters per second squared, and this value is nearly constant everywhere on Earth's surface, from the equator to the poles!"
+        },
+        {
+            "id": 4,
+            "text": "A heavy box is sitting motionless on a smooth floor. What must happen for the box to start moving?",
+            "options": [
+                {
+                    "text": "Equal forces must be applied in opposite directions",
+                    "isCorrect": 0,
+                    "explanation": "Equal forces in opposite directions would create balanced forces, which would not cause any motion."
+                },
+                {
+                    "text": "The forces acting on the box must become unbalanced",
+                    "isCorrect": 1,
+                    "explanation": "An object at rest requires unbalanced forces to start moving. One force must be stronger than the opposing forces."
+                },
+                {
+                    "text": "All forces acting on the box must be removed",
+                    "isCorrect": 0,
+                    "explanation": "Removing all forces would not cause motion. Some force must be applied to create movement."
+                },
+                {
+                    "text": "Gravity must stop acting on the box",
+                    "isCorrect": 0,
+                    "explanation": "Gravity is always present and cannot be removed. Additionally, gravity alone does not determine horizontal motion."
+                }
+            ],
+            "funFact": "Ancient Greek philosopher Aristotle believed that objects needed a continuous force to keep moving. It wasn't until Galileo and Newton that we understood objects actually need an unbalanced force to start moving, but can keep moving without any force (except for friction slowing them down)!"
+        },
+        {
+            "id": 5,
+            "text": "A student is standing on the surface of Earth at the South Pole. If they drop a ball, in which direction will the ball fall?",
+            "options": [
+                {
+                    "text": "Down toward the center of Earth",
+                    "isCorrect": 1,
+                    "explanation": "Gravity always pulls objects toward Earth's center, regardless of where you are on Earth's surface. At any point on Earth, 'down' means toward Earth's center."
+                },
+                {
+                    "text": "Up toward the North Pole",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because gravity doesn't pull objects toward the poles. The direction we call 'up' is always away from Earth's center, regardless of location."
+                },
+                {
+                    "text": "Sideways parallel to Earth's surface",
+                    "isCorrect": 0,
+                    "explanation": "Objects don't fall sideways because gravity pulls toward Earth's center, not parallel to its surface."
+                },
+                {
+                    "text": "The ball would float because there's no down direction at the poles",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because gravity works everywhere on Earth. There is always a 'down' direction that points toward Earth's center."
+                }
+            ],
+            "funFact": "If you could drill a hole straight through the center of Earth and drop a ball into it, the ball would actually oscillate back and forth through the center, like a pendulum, due to gravity pulling it toward Earth's center from both sides!"
+        },
+        {
+            "id": 6,
+            "text": "In a science experiment, three objects of different masses are dropped at the same time from the same height: a basketball, a marble, and a feather (in a vacuum chamber to eliminate air resistance). What explains why all these objects fall straight down toward Earth's center despite their different masses?",
+            "options": [
+                {
+                    "text": "Earth's gravitational force pulls all objects toward its center regardless of their mass",
+                    "isCorrect": 1,
+                    "explanation": "Earth's gravitational force acts equally on all objects, pulling them toward its center. The acceleration due to gravity is the same for all objects regardless of their mass when air resistance is eliminated."
+                },
+                {
+                    "text": "Heavier objects pull harder on Earth, making them fall faster",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While it's true that heavier objects and Earth pull on each other with greater force, the greater mass also requires more force to accelerate, resulting in the same acceleration for all objects."
+                },
+                {
+                    "text": "Objects fall in the direction they are pointed when released",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The direction of fall is determined by Earth's gravitational pull toward its center, not by the object's orientation when released."
+                },
+                {
+                    "text": "Objects fall toward the ground because that's the closest surface",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Objects don't fall toward the nearest surface - they fall toward Earth's center due to gravity, even if there isn't a surface directly below them."
+                }
+            ],
+            "funFact": "During Apollo 15's moon mission in 1971, astronaut David Scott performed a famous demonstration by dropping a hammer and a feather simultaneously. Without air resistance on the Moon, both objects hit the lunar surface at exactly the same time, proving Galileo's theory about gravity's equal effect on all objects!"
+        },
+        {
+            "id": 7,
+            "text": "A ball and a toy car are placed at the same height on a tilted ramp. The ball is released and rolls down the ramp, while the toy car is lifted and dropped straight down from the same height. Which statement correctly describes how gravitational force affects their motion?",
+            "options": [
+                {
+                    "text": "The gravitational force on both objects points straight down toward Earth's center, but the ramp changes the ball's path",
+                    "isCorrect": 1,
+                    "explanation": "Gravity always pulls objects straight down toward Earth's center. The ramp provides a surface that changes the ball's path, but doesn't change gravity's direction."
+                },
+                {
+                    "text": "The gravitational force on the ball points down the ramp while the force on the car points straight down",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because gravitational force always points straight down toward Earth's center, regardless of the surface an object is on."
+                },
+                {
+                    "text": "The gravitational force doesn't affect the ball's motion because it's rolling on the ramp",
+                    "isCorrect": 0,
+                    "explanation": "Gravity affects all objects, whether they're falling freely or moving on a surface. The ball's rolling motion is actually caused by gravity."
+                },
+                {
+                    "text": "The gravitational force is stronger on the car because it falls straight down",
+                    "isCorrect": 0,
+                    "explanation": "The strength of gravity is the same on both objects at the same height. The different paths are due to the ramp, not different gravitational forces."
+                }
+            ],
+            "funFact": "The same principle of gravity affecting objects on slopes is used in designing roller coasters! Engineers carefully calculate how gravity will pull cars down hills to create thrilling but safe rides."
+        },
+        {
+            "id": 8,
+            "text": "Two friends are standing on opposite sides of Earth having a video call. One friend drops a ball where they are standing, while the other friend watches on the screen. From each friend's perspective, in which direction does the ball fall?",
+            "options": [
+                {
+                    "text": "For both friends, the ball appears to fall straight down toward the center of Earth",
+                    "isCorrect": 1,
+                    "explanation": "Gravity pulls objects toward Earth's center, so no matter where you are on Earth, 'down' is always toward the center of the planet"
+                },
+                {
+                    "text": "The ball falls in opposite directions for the two friends",
+                    "isCorrect": 0,
+                    "explanation": "While it may appear this way on the video call, both balls are actually falling toward Earth's center - their local 'down' directions"
+                },
+                {
+                    "text": "The ball falls toward the ground for the friend dropping it, but sideways for the friend watching",
+                    "isCorrect": 0,
+                    "explanation": "Even though the perspective changes on the video call, both friends observe the ball falling straight down toward Earth's center from their location"
+                },
+                {
+                    "text": "The ball falls toward the North Pole no matter where the friends are standing",
+                    "isCorrect": 0,
+                    "explanation": "Gravity doesn't pull toward the North Pole - it pulls toward Earth's center from any location on the surface"
+                }
+            ],
+            "funFact": "The strength of Earth's gravity actually varies slightly at different locations on the planet's surface due to variations in Earth's shape and density. The difference is so small that we can't feel it, but it can be measured with sensitive instruments!"
+        },
+        {
+            "id": 9,
+            "text": "In a science demonstration, a ping pong ball hovers steadily in the air above a hair dryer. What best explains why the ball stays in place without moving up or down?",
+            "options": [
+                {
+                    "text": "The upward force from the hair dryer exactly equals the downward gravitational force on the ball",
+                    "isCorrect": 1,
+                    "explanation": "When the upward push of the moving air exactly balances the downward pull of gravity, the forces are balanced and the ball remains stationary at that height."
+                },
+                {
+                    "text": "There are no forces acting on the ball while it hovers",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - there are actually two forces acting on the ball: the upward force from the moving air and the downward gravitational force."
+                },
+                {
+                    "text": "The ball becomes weightless while hovering in the air",
+                    "isCorrect": 0,
+                    "explanation": "The ball still has weight due to gravity pulling it downward - it's just being counteracted by an equal upward force from the hair dryer."
+                },
+                {
+                    "text": "The ball loses its gravitational attraction to Earth while in the air",
+                    "isCorrect": 0,
+                    "explanation": "Earth's gravitational force continues to pull downward on the ball at all times, even when it's hovering in the air."
+                }
+            ],
+            "funFact": "This same principle of balanced forces is used in more advanced technologies like magnetic levitation (maglev) trains, where magnetic forces pushing up exactly balance the downward gravitational force, allowing the train to float above the tracks!"
+        },
+        {
+            "id": 10,
+            "text": "A group of students in different locations around the world perform an experiment where they drop a ball at the same time. One student is in New York (USA), another in Sydney (Australia), and a third in Cape Town (South Africa). What explains why the ball falls 'down' in all three locations even though they are on different sides of Earth?",
+            "options": [
+                {
+                    "text": "Earth's gravitational force pulls objects toward its center, regardless of where they are on the surface",
+                    "isCorrect": 1,
+                    "explanation": "Earth's gravitational force acts toward its center from every point on its surface, which is why objects fall 'down' everywhere on Earth"
+                },
+                {
+                    "text": "The atmosphere pushes objects down toward the ground in all locations",
+                    "isCorrect": 0,
+                    "explanation": "While the atmosphere does exert pressure, it's not responsible for objects falling down - this is caused by Earth's gravitational force"
+                },
+                {
+                    "text": "Objects naturally move toward the ground because that's their natural resting place",
+                    "isCorrect": 0,
+                    "explanation": "This is an incorrect ancient belief - objects fall because of Earth's gravitational force, not because they are seeking a natural resting place"
+                },
+                {
+                    "text": "The rotation of Earth causes objects to fall toward the ground",
+                    "isCorrect": 0,
+                    "explanation": "Earth's rotation affects objects slightly but doesn't cause them to fall - gravity is responsible for objects falling down"
+                }
+            ],
+            "funFact": "The strength of Earth's gravity isn't exactly the same everywhere! It varies slightly depending on factors like your latitude, altitude, and even the density of rocks beneath your feet. The difference is tiny, but precise instruments can measure it."
+        },
+        {
+            "id": 11,
+            "text": "A soccer ball is kicked straight up into the air. Which of the following correctly describes the forces acting on the ball at the highest point of its path?",
+            "options": [
+                {
+                    "text": "Only gravitational force acts downward",
+                    "isCorrect": 1,
+                    "explanation": "At the highest point, the ball's upward velocity has been reduced to zero by gravity's constant pull, and only the gravitational force remains, acting downward toward Earth's center. The force from the kick no longer exists after the ball left the foot."
+                },
+                {
+                    "text": "The upward and downward forces are balanced",
+                    "isCorrect": 0,
+                    "explanation": "While the ball's velocity is zero at the highest point, this doesn't mean forces are balanced. The only force acting is gravity pulling downward."
+                },
+                {
+                    "text": "The upward force from the kick is still acting on the ball",
+                    "isCorrect": 0,
+                    "explanation": "The force from the kick only acts on the ball during contact. Once the ball leaves the foot, this force no longer exists."
+                },
+                {
+                    "text": "No forces are acting on the ball",
+                    "isCorrect": 0,
+                    "explanation": "Even though the ball momentarily stops at its highest point, gravity is still pulling it toward Earth's center."
+                }
+            ],
+            "funFact": "A soccer ball kicked straight up will always fall back down at the same speed it was kicked up (ignoring air resistance). This is because gravity applies the same acceleration regardless of whether an object is moving up or down!"
+        },
+        {
+            "id": 12,
+            "text": "A student drops a ball from a high balcony. What best describes the force of gravity acting on the ball as it falls?",
+            "options": [
+                {
+                    "text": "The force of gravity pulls the ball directly downward toward Earth's center",
+                    "isCorrect": 1,
+                    "explanation": "Gravity is a force that always pulls objects toward the center of Earth, regardless of where you are on Earth's surface"
+                },
+                {
+                    "text": "The force of gravity pulls the ball sideways",
+                    "isCorrect": 0,
+                    "explanation": "Gravity does not pull objects sideways - it always acts in a direction pointing toward Earth's center"
+                },
+                {
+                    "text": "The force of gravity gets weaker as the ball falls",
+                    "isCorrect": 0,
+                    "explanation": "For objects near Earth's surface, the force of gravity remains essentially constant as they fall"
+                },
+                {
+                    "text": "The force of gravity pushes the ball upward",
+                    "isCorrect": 0,
+                    "explanation": "Gravity is always a pulling force directed toward Earth's center, never a pushing force directed upward"
+                }
+            ],
+            "funFact": "While gravity pulls everything toward Earth's center, Earth's gravitational strength decreases with distance. Astronauts on the International Space Station, orbiting about 400 km above Earth's surface, still experience about 90% of Earth's surface gravity. However, they float because they are in continuous free fall as they orbit - essentially falling around Earth rather than directly toward it!"
+        },
+        {
+            "id": 13,
+            "text": "A student drops a ball while standing on Earth's surface. What determines the direction in which the ball falls?",
+            "options": [
+                {
+                    "text": "The ball falls toward Earth's center due to gravitational force",
+                    "isCorrect": 1,
+                    "explanation": "Earth's gravitational force pulls all objects toward its center, regardless of where you are on Earth's surface"
+                },
+                {
+                    "text": "The ball falls in the direction of the closest landmass",
+                    "isCorrect": 0,
+                    "explanation": "The direction of fall is not influenced by the location of landmasses, but by Earth's gravitational pull toward its center"
+                },
+                {
+                    "text": "The ball falls in the direction the wind is blowing",
+                    "isCorrect": 0,
+                    "explanation": "While wind can affect an object's path slightly, the primary force determining the fall direction is gravity pulling toward Earth's center"
+                },
+                {
+                    "text": "The ball falls in whatever direction it is pointed when released",
+                    "isCorrect": 0,
+                    "explanation": "The initial orientation of the ball does not determine its fall direction - Earth's gravity pulls it toward the planet's center"
+                }
+            ],
+            "funFact": "If you could dig a hole straight through the Earth and drop a ball into it, the ball would oscillate back and forth through the center of the Earth due to gravity (ignoring air resistance and the Earth's internal structure), like a giant pendulum!"
+        },
+        {
+            "id": 14,
+            "text": "A student is conducting experiments around the world to understand Earth's gravitational force. At each location, they drop a ball and observe its motion. Which observation would best support the idea that Earth's gravitational force is directed toward its center rather than just 'down'?",
+            "options": [
+                {
+                    "text": "The ball falls in the same direction at all locations but at different speeds",
+                    "isCorrect": 0,
+                    "explanation": "Different falling speeds don't directly support that gravity points toward Earth's center. The speed of falling objects can vary due to other factors like air resistance."
+                },
+                {
+                    "text": "The ball falls toward the ground along paths that point to Earth's center from every location",
+                    "isCorrect": 1,
+                    "explanation": "This observation shows that gravity points toward Earth's center from all locations, not just 'down' in one universal direction, supporting that Earth's gravity is center-directed."
+                },
+                {
+                    "text": "The ball always falls at exactly the same speed regardless of location",
+                    "isCorrect": 0,
+                    "explanation": "Consistent falling speed doesn't prove the direction of gravity. This observation only tells us about gravity's strength, not its direction."
+                },
+                {
+                    "text": "The ball falls more slowly near the equator than near the poles",
+                    "isCorrect": 0,
+                    "explanation": "Variations in falling speed with latitude don't demonstrate that gravity points toward Earth's center. This observation relates to Earth's rotation effects."
+                }
+            ],
+            "funFact": "The ancient Greeks, including Aristotle, actually figured out that Earth was spherical by observing how ships disappear hull-first over the horizon and how different stars become visible when traveling north or south!"
+        },
+        {
+            "id": 15,
+            "text": "When a student releases a ball from rest at shoulder height, what explains the ball's consistent downward motion?",
+            "options": [
+                {
+                    "text": "The gravitational force pulls the ball toward Earth's center",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Earth's gravitational force acts on all objects, pulling them toward its center, which we experience as 'down' from our perspective on Earth's surface."
+                },
+                {
+                    "text": "Air pressure pushes the ball toward the ground",
+                    "isCorrect": 0,
+                    "explanation": "While air pressure exists, it acts in all directions and is not responsible for the ball's downward motion. The gravitational force is what causes objects to fall downward."
+                },
+                {
+                    "text": "The ball naturally seeks the lowest position",
+                    "isCorrect": 0,
+                    "explanation": "Objects don't have an inherent tendency to seek low positions. Their downward motion is caused by Earth's gravitational force pulling them toward its center."
+                },
+                {
+                    "text": "The ground attracts all objects equally",
+                    "isCorrect": 0,
+                    "explanation": "While objects do fall toward the ground, it's not the ground itself that attracts them. Rather, it's Earth's gravitational force pulling toward its center."
+                }
+            ],
+            "funFact": "The strength of Earth's gravitational pull actually varies slightly at different locations on Earth's surface due to variations in Earth's shape and density. However, these variations are so small that we don't notice them in everyday life!"
+        }
+    ]
+}
