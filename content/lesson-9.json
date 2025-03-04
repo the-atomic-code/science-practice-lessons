@@ -4,44 +4,17 @@
     "questions": [
         {
             "id": 1,
-            "text": "What explains why earthquakes commonly occur along the boundaries between Earth's tectonic plates?",
-            "options": [
-                {
-                    "text": "The sudden movement of plates against each other causes the ground to shake",
-                    "isCorrect": 1,
-                    "explanation": "When tectonic plates suddenly move against each other at their boundaries, the energy released causes the ground to shake, resulting in an earthquake"
-                },
-                {
-                    "text": "Hot magma from volcanoes pushes the plates apart causing them to shake",
-                    "isCorrect": 0,
-                    "explanation": "While volcanoes can form at plate boundaries, they don't cause earthquakes. Earthquakes are caused by the sudden movement of the plates themselves"
-                },
-                {
-                    "text": "Ocean waves hitting the plates cause them to vibrate and shake",
-                    "isCorrect": 0,
-                    "explanation": "Ocean waves don't cause earthquakes. Earthquakes occur due to movement of tectonic plates, not from surface water movement"
-                },
-                {
-                    "text": "Wind and storms push against the plates making them shake",
-                    "isCorrect": 0,
-                    "explanation": "Surface weather phenomena like wind and storms don't affect tectonic plates, which are massive sections of Earth's crust"
-                }
-            ],
-            "funFact": "The largest earthquake ever recorded was a magnitude 9.5 in Chile in 1960. The energy released was so powerful that it caused tsunamis as far away as Hawaii, Japan, and the Philippines!"
-        },
-        {
-            "id": 2,
             "text": "What is the primary purpose of installing storm shutters on buildings in areas prone to natural disasters?",
             "options": [
-                {
-                    "text": "To prevent windows from breaking due to flying debris during storms",
-                    "isCorrect": 1,
-                    "explanation": "Storm shutters are specifically designed to protect windows from breaking when debris is thrown around during storms, preventing both property damage and potential injuries to people inside."
-                },
                 {
                     "text": "To keep the building cooler during summer months",
                     "isCorrect": 0,
                     "explanation": "While shutters may provide some shade, their primary purpose is not temperature control but rather protection during storms."
+                },
+                {
+                    "text": "To prevent windows from breaking due to flying debris during storms",
+                    "isCorrect": 1,
+                    "explanation": "Storm shutters are specifically designed to protect windows from breaking when debris is thrown around during storms, preventing both property damage and potential injuries to people inside."
                 },
                 {
                     "text": "To make the building look more attractive",
@@ -57,82 +30,109 @@
             "funFact": "Modern storm shutters come in various styles including roll-down, accordion, and colonial. Some advanced models can be automatically deployed when sensors detect high winds, providing protection even when no one is home!"
         },
         {
-            "id": 3,
-            "text": "Which statement best describes magma and its role in volcanic eruptions?",
+            "id": 2,
+            "text": "A town near an active volcano needs to design houses that can withstand volcanic ash. Which feature would be most effective in preventing damage from ash accumulation on the roofs of these houses?",
             "options": [
                 {
-                    "text": "Magma is molten rock inside Earth that escapes through volcanoes during eruptions",
+                    "text": "Glass roofs with transparent panels",
+                    "isCorrect": 0,
+                    "explanation": "Glass roofs would be too fragile to withstand ash accumulation and could easily break under the weight of volcanic ash."
+                },
+                {
+                    "text": "Retractable roofs that can close during eruptions",
+                    "isCorrect": 0,
+                    "explanation": "Retractable roofs would be complex, expensive, and could malfunction. They wouldn't solve the problem of ash accumulation once closed."
+                },
+                {
+                    "text": "Flat roofs with water collection systems",
+                    "isCorrect": 0,
+                    "explanation": "Flat roofs would allow ash to accumulate, leading to excessive weight that could cause roof collapse. Water collection systems would not help with ash removal."
+                },
+                {
+                    "text": "Steep, sloped roofs made of strong materials",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Magma is molten rock that exists inside Earth and flows to the surface through volcanic openings during eruptions."
-                },
-                {
-                    "text": "Magma is hot gas that builds up pressure inside Earth until it explodes",
-                    "isCorrect": 0,
-                    "explanation": "While volcanic eruptions can involve gases, magma specifically refers to molten rock, not gas."
-                },
-                {
-                    "text": "Magma is melted soil that forms when the ground gets too hot",
-                    "isCorrect": 0,
-                    "explanation": "Magma is not melted soil - it is molten rock that forms deep within Earth under high pressure and temperature."
-                },
-                {
-                    "text": "Magma is water that boils underground and causes earthquakes",
-                    "isCorrect": 0,
-                    "explanation": "While there is water underground, magma specifically refers to molten rock. Underground water and magma are different things."
+                    "explanation": "Steep roofs allow volcanic ash to slide off easily, preventing buildup that could cause structural damage. The strong materials ensure the roof can support any temporary ash accumulation."
                 }
             ],
-            "funFact": "The temperature of magma can range from 1,300\u00b0F to 2,400\u00b0F (700\u00b0C to 1,300\u00b0C). That's hot enough to melt lead and aluminum! Some rare, exceptionally hot magmas can reach even higher temperatures."
+            "funFact": "The eruption of Mount Pinatubo in 1991 produced so much ash that some buildings collapsed under its weight - in some areas, the ash was as deep as 40 centimeters (16 inches)!"
+        },
+        {
+            "id": 3,
+            "text": "Why are skyscrapers in earthquake-prone areas designed to sway during earthquakes?",
+            "options": [
+                {
+                    "text": "The swaying makes the building lighter so it won't collapse",
+                    "isCorrect": 0,
+                    "explanation": "The swaying doesn't affect the building's weight. The purpose is to handle the earthquake forces, not to make the building lighter."
+                },
+                {
+                    "text": "The swaying pushes the earthquake waves away from the building",
+                    "isCorrect": 0,
+                    "explanation": "Earthquake waves cannot be pushed away. The swaying is about working with the forces rather than trying to deflect them."
+                },
+                {
+                    "text": "The swaying movement helps distribute the earthquake's force and prevents structural damage",
+                    "isCorrect": 1,
+                    "explanation": "When skyscrapers are designed to sway, they can better absorb and distribute the earthquake's energy, making them more stable and less likely to suffer major damage."
+                },
+                {
+                    "text": "The swaying creates an air cushion that protects the building",
+                    "isCorrect": 0,
+                    "explanation": "The building's protection comes from its structural design that allows movement, not from any air cushion effect."
+                }
+            ],
+            "funFact": "The Taipei 101 skyscraper in Taiwan uses a 730-ton pendulum suspended between the 87th and 92nd floors that acts as a tuned mass damper, helping to counter building sway during earthquakes and strong winds!"
         },
         {
             "id": 4,
-            "text": "Which statement best explains the relationship between underwater earthquakes and tsunamis?",
+            "text": "Which of the following natural disasters is most likely to cause damage to tall buildings in an urban area?",
             "options": [
                 {
-                    "text": "Underwater earthquakes cause sudden movements in the ocean floor that create massive waves called tsunamis",
+                    "text": "Volcanic eruption",
+                    "isCorrect": 0,
+                    "explanation": "While volcanic eruptions are destructive, they primarily affect areas close to the volcano through lava flows, ash, and gases. Most urban areas with tall buildings are not located near active volcanoes."
+                },
+                {
+                    "text": "Tsunami",
+                    "isCorrect": 0,
+                    "explanation": "Tsunamis mainly affect coastal areas through flooding and water damage. While they can damage buildings, their impact is not specifically related to building height."
+                },
+                {
+                    "text": "Earthquake",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Tsunamis form when underwater earthquakes cause abrupt movements of the ocean floor, generating huge waves that can travel long distances."
+                    "explanation": "Earthquakes can be especially damaging to tall buildings because the shaking ground can cause them to sway excessively or even collapse. This is why engineers design special features for skyscrapers in earthquake-prone areas."
                 },
                 {
-                    "text": "Tsunamis cause underwater earthquakes by putting pressure on the ocean floor",
+                    "text": "Hurricane",
                     "isCorrect": 0,
-                    "explanation": "This reverses the cause and effect relationship. Underwater earthquakes cause tsunamis, not the other way around."
-                },
-                {
-                    "text": "Underwater earthquakes and tsunamis always occur at the same time but are not related to each other",
-                    "isCorrect": 0,
-                    "explanation": "These events are directly related - underwater earthquakes are the main cause of tsunamis, not just coincidental occurrences."
-                },
-                {
-                    "text": "Tsunamis only occur when underwater earthquakes happen near the shore",
-                    "isCorrect": 0,
-                    "explanation": "Tsunamis can be caused by underwater earthquakes far from shore and travel thousands of miles across the ocean."
+                    "explanation": "While hurricanes can damage tall buildings through strong winds, modern skyscrapers are typically designed to withstand hurricane-force winds better than earthquake forces."
                 }
             ],
-            "funFact": "The word 'tsunami' comes from Japanese, where 'tsu' means harbor and 'nami' means wave. This name originated because these waves are often barely noticeable in the open ocean but become enormously tall as they approach the shore."
+            "funFact": "The Taipei 101 skyscraper in Taiwan has a 730-ton pendulum suspended between the 87th and 92nd floors that acts as a tuned mass damper, helping to stabilize the building during earthquakes and strong winds by swaying in the opposite direction of the building's movement!"
         },
         {
             "id": 5,
             "text": "In an earthquake-prone region, which engineering design feature would be MOST effective in helping a tall building withstand seismic activity?",
             "options": [
                 {
-                    "text": "Designing the building to sway flexibly when the ground moves",
-                    "isCorrect": 1,
-                    "explanation": "Flexible swaying allows tall buildings to absorb and dissipate seismic energy rather than resist it rigidly, which reduces structural damage during earthquakes."
-                },
-                {
                     "text": "Using thick concrete walls throughout the building",
                     "isCorrect": 0,
                     "explanation": "Concrete can crack during earthquakes and its rigidity makes it less suitable for tall buildings in seismic zones compared to flexible design approaches."
                 },
                 {
-                    "text": "Building additional floors underground",
-                    "isCorrect": 0,
-                    "explanation": "Adding underground floors does not inherently improve earthquake resistance and may actually increase vulnerability to ground movement."
-                },
-                {
                     "text": "Making the building as lightweight as possible",
                     "isCorrect": 0,
                     "explanation": "While weight is a consideration, simply making a building lighter without proper engineering design will not effectively protect against earthquake damage."
+                },
+                {
+                    "text": "Designing the building to sway flexibly when the ground moves",
+                    "isCorrect": 1,
+                    "explanation": "Flexible swaying allows tall buildings to absorb and dissipate seismic energy rather than resist it rigidly, which reduces structural damage during earthquakes."
+                },
+                {
+                    "text": "Building additional floors underground",
+                    "isCorrect": 0,
+                    "explanation": "Adding underground floors does not inherently improve earthquake resistance and may actually increase vulnerability to ground movement."
                 }
             ],
             "funFact": "The Taipei 101 skyscraper in Taiwan features a 730-ton pendulum suspended between the 87th and 92nd floors that acts as a tuned mass damper, helping to stabilize the building during earthquakes and strong winds by counteracting building sway!"
@@ -142,14 +142,14 @@
             "text": "An architect is designing a new skyscraper in an earthquake-prone region. Which design feature would be most effective in helping the building withstand seismic activity?",
             "options": [
                 {
+                    "text": "A pyramid-shaped design with a wide base that narrows at the top",
+                    "isCorrect": 0,
+                    "explanation": "While a pyramid shape can provide stability, the shape alone without proper flexibility cannot effectively handle seismic forces."
+                },
+                {
                     "text": "A flexible steel frame that allows controlled swaying during earthquakes",
                     "isCorrect": 1,
                     "explanation": "A flexible steel frame that can sway is most effective because it allows the building to move with the earthquake rather than resist it, reducing the risk of structural damage."
-                },
-                {
-                    "text": "A rigid concrete foundation that prevents any movement",
-                    "isCorrect": 0,
-                    "explanation": "A completely rigid structure is more likely to crack and fail during an earthquake because it cannot absorb and distribute the seismic forces."
                 },
                 {
                     "text": "Glass walls covering the entire exterior of the building",
@@ -157,54 +157,44 @@
                     "explanation": "Large glass surfaces are particularly vulnerable during earthquakes and do not contribute to the building's structural integrity."
                 },
                 {
-                    "text": "A pyramid-shaped design with a wide base that narrows at the top",
+                    "text": "A rigid concrete foundation that prevents any movement",
                     "isCorrect": 0,
-                    "explanation": "While a pyramid shape can provide stability, the shape alone without proper flexibility cannot effectively handle seismic forces."
+                    "explanation": "A completely rigid structure is more likely to crack and fail during an earthquake because it cannot absorb and distribute the seismic forces."
                 }
             ],
             "funFact": "The Taipei 101 skyscraper in Taiwan features a 730-ton pendulum suspended between the 87th and 92nd floors that acts as a tuned mass damper, helping to stabilize the building during earthquakes and strong winds!"
         },
         {
             "id": 7,
-            "text": "An engineer is designing a building in an earthquake-prone area. They have data about different reinforcement materials and their properties. Which combination of materials would be most effective for strengthening the building against earthquakes?",
+            "text": "A city planner is deciding between two different designs for a new elementary school in an earthquake-prone area. Design A is a three-story building with traditional concrete walls. Design B is a single-story building spread over a larger area with flexible materials and reinforced foundation. Which design would be more suitable for this location and why?",
             "options": [
                 {
-                    "text": "Rigid concrete walls with steel beams",
+                    "text": "Both designs are equally suitable for earthquake-prone areas",
                     "isCorrect": 0,
-                    "explanation": "While strong, this combination is too rigid and can crack during earthquakes. The building needs some flexibility to absorb seismic waves."
+                    "explanation": "The designs are not equally suitable. Building height and material choice significantly affect a structure's ability to withstand earthquakes."
                 },
                 {
-                    "text": "Flexible steel frame with cross bracing and rubber dampers",
+                    "text": "Design B, because lower buildings experience less destruction during earthquakes",
                     "isCorrect": 1,
-                    "explanation": "This combination provides both strength and flexibility. The steel frame can flex, cross bracing adds stability, and rubber dampers absorb seismic energy."
+                    "explanation": "Single-story buildings are safer in earthquake zones as they experience less movement and are more stable during seismic activity. The flexible materials and reinforced foundation add extra protection."
                 },
                 {
-                    "text": "Wooden frame with stone walls",
+                    "text": "Design A, because taller buildings are more stable during earthquakes",
                     "isCorrect": 0,
-                    "explanation": "While wood has some flexibility, heavy stone walls can collapse during strong shaking and the combination lacks adequate reinforcement."
+                    "explanation": "Taller buildings actually experience more movement and are at greater risk during earthquakes. They are more likely to sway and potentially collapse."
                 },
                 {
-                    "text": "Glass and aluminum panels with concrete foundation",
+                    "text": "Design A, because concrete walls provide the best protection against earthquakes",
                     "isCorrect": 0,
-                    "explanation": "Glass can easily shatter during earthquakes, and this combination lacks proper structural support throughout the building."
+                    "explanation": "Concrete can actually crack during earthquakes, weakening the building's structure. Flexible materials often perform better in seismic zones."
                 }
             ],
-            "funFact": "The Taipei 101 skyscraper in Taiwan uses a 730-ton pendulum suspended between the 87th and 92nd floors to act as a tuned mass damper, helping the building sway smoothly during earthquakes and strong winds!"
+            "funFact": "The ancient Incas built earthquake-resistant structures using precisely cut stones that fit together so tightly that not even a knife blade could fit between them. This technique, called 'ashlar masonry,' allowed their buildings to withstand centuries of seismic activity in the Andes Mountains."
         },
         {
             "id": 8,
             "text": "An architect is designing houses near an active volcano. Which combination of design features would be most effective in protecting the house and its residents from volcanic hazards?",
             "options": [
-                {
-                    "text": "A steep stone roof and reinforced stone walls",
-                    "isCorrect": 1,
-                    "explanation": "Stone has a high melting temperature to withstand heat, and steep roofs allow volcanic ash to slide off easily, preventing dangerous accumulation and potential collapse."
-                },
-                {
-                    "text": "A flat concrete roof and wooden walls",
-                    "isCorrect": 0,
-                    "explanation": "Flat roofs would allow dangerous accumulation of ash, and wood has a relatively low melting point that makes it vulnerable to volcanic heat."
-                },
                 {
                     "text": "A steep wooden roof and glass walls",
                     "isCorrect": 0,
@@ -214,45 +204,28 @@
                     "text": "A flat stone roof and glass walls",
                     "isCorrect": 0,
                     "explanation": "Though stone can withstand heat, the flat roof would accumulate ash, and glass walls would not provide adequate protection from volcanic hazards."
+                },
+                {
+                    "text": "A steep stone roof and reinforced stone walls",
+                    "isCorrect": 1,
+                    "explanation": "Stone has a high melting temperature to withstand heat, and steep roofs allow volcanic ash to slide off easily, preventing dangerous accumulation and potential collapse."
+                },
+                {
+                    "text": "A flat concrete roof and wooden walls",
+                    "isCorrect": 0,
+                    "explanation": "Flat roofs would allow dangerous accumulation of ash, and wood has a relatively low melting point that makes it vulnerable to volcanic heat."
                 }
             ],
             "funFact": "The ancient city of Pompeii has taught architects valuable lessons about volcanic hazards. Modern buildings near Mount Vesuvius now incorporate many protective features, including specially reinforced roofs that can withstand up to 40 centimeters of ash accumulation!"
         },
         {
             "id": 9,
-            "text": "A city planner is deciding between two different designs for a new elementary school in an earthquake-prone area. Design A is a three-story building with traditional concrete walls. Design B is a single-story building spread over a larger area with flexible materials and reinforced foundation. Which design would be more suitable for this location and why?",
-            "options": [
-                {
-                    "text": "Design A, because taller buildings are more stable during earthquakes",
-                    "isCorrect": 0,
-                    "explanation": "Taller buildings actually experience more movement and are at greater risk during earthquakes. They are more likely to sway and potentially collapse."
-                },
-                {
-                    "text": "Design B, because lower buildings experience less destruction during earthquakes",
-                    "isCorrect": 1,
-                    "explanation": "Single-story buildings are safer in earthquake zones as they experience less movement and are more stable during seismic activity. The flexible materials and reinforced foundation add extra protection."
-                },
-                {
-                    "text": "Design A, because concrete walls provide the best protection against earthquakes",
-                    "isCorrect": 0,
-                    "explanation": "Concrete can actually crack during earthquakes, weakening the building's structure. Flexible materials often perform better in seismic zones."
-                },
-                {
-                    "text": "Both designs are equally suitable for earthquake-prone areas",
-                    "isCorrect": 0,
-                    "explanation": "The designs are not equally suitable. Building height and material choice significantly affect a structure's ability to withstand earthquakes."
-                }
-            ],
-            "funFact": "The ancient Incas built earthquake-resistant structures using precisely cut stones that fit together so tightly that not even a knife blade could fit between them. This technique, called 'ashlar masonry,' allowed their buildings to withstand centuries of seismic activity in the Andes Mountains."
-        },
-        {
-            "id": 10,
             "text": "A coastal town needs to implement a tsunami early warning system. Which design would be most effective in protecting the community?",
             "options": [
                 {
-                    "text": "A system that uses seismographs to detect underwater earthquakes and automatically sends alerts to residents' phones, while also triggering emergency sirens along the coast",
-                    "isCorrect": 1,
-                    "explanation": "This is the most effective solution as it combines multiple warning methods, uses scientific instruments to detect the root cause (underwater earthquakes), and provides immediate automated alerts to reach the maximum number of people quickly."
+                    "text": "A computer model that predicts tsunamis based on historical data and weather patterns",
+                    "isCorrect": 0,
+                    "explanation": "Historical data and weather patterns alone cannot reliably predict tsunamis, as they are primarily caused by sudden underwater earthquakes which occur unpredictably."
                 },
                 {
                     "text": "A network of buoys that measure wave height and send data to a central office where scientists analyze the data before deciding whether to issue warnings",
@@ -260,26 +233,107 @@
                     "explanation": "While buoys can detect tsunamis, the manual analysis step creates delays in warning dissemination. In tsunami situations, every minute counts for evacuation."
                 },
                 {
+                    "text": "A system that uses seismographs to detect underwater earthquakes and automatically sends alerts to residents' phones, while also triggering emergency sirens along the coast",
+                    "isCorrect": 1,
+                    "explanation": "This is the most effective solution as it combines multiple warning methods, uses scientific instruments to detect the root cause (underwater earthquakes), and provides immediate automated alerts to reach the maximum number of people quickly."
+                },
+                {
                     "text": "A system of volunteer observers stationed along the coast who watch for unusual wave activity and call emergency services if they spot potential dangers",
                     "isCorrect": 0,
                     "explanation": "Human observation alone is unreliable and may miss tsunamis that begin far offshore. By the time unusual waves are visible from shore, it may be too late for effective evacuation."
-                },
-                {
-                    "text": "A computer model that predicts tsunamis based on historical data and weather patterns",
-                    "isCorrect": 0,
-                    "explanation": "Historical data and weather patterns alone cannot reliably predict tsunamis, as they are primarily caused by sudden underwater earthquakes which occur unpredictably."
                 }
             ],
             "funFact": "The fastest tsunami ever recorded was in 1883 after the Krakatoa volcano eruption - it traveled at speeds of up to 500 miles per hour, which is as fast as a jet airplane!"
         },
         {
+            "id": 10,
+            "text": "A coastal city wants to protect homes from hurricane damage by installing storm shutters. They tested four different types of shutters during simulated hurricane conditions with flying debris and strong winds. Which design would be most effective based on the test results?\n\nDesign A: Aluminum panels that bent after being hit by debris, cost $200 per window\nDesign B: Steel panels that resisted impact but showed rust after exposure to salt spray, cost $300 per window\nDesign C: Impact-resistant composite panels that withstood debris and showed no damage, cost $400 per window\nDesign D: Wooden panels that splintered when hit by debris, cost $100 per window",
+            "options": [
+                {
+                    "text": "Design C",
+                    "isCorrect": 1,
+                    "explanation": "Despite higher initial cost, the composite panels provide the best protection by withstanding debris impact without damage, offering reliable long-term protection against hurricanes."
+                },
+                {
+                    "text": "Design B",
+                    "isCorrect": 0,
+                    "explanation": "Though steel panels resist impact well, their susceptibility to rust in coastal conditions would reduce their long-term effectiveness and require replacement."
+                },
+                {
+                    "text": "Design A",
+                    "isCorrect": 0,
+                    "explanation": "While aluminum panels are moderately priced, they bent after debris impact, meaning they would need frequent replacement and wouldn't provide reliable protection during storms."
+                },
+                {
+                    "text": "Design D",
+                    "isCorrect": 0,
+                    "explanation": "While wooden panels are the least expensive option, they splintered during testing, making them unsafe and ineffective for hurricane protection."
+                }
+            ],
+            "funFact": "Modern impact-resistant windows and shutters are tested by firing a 9-pound 2x4 piece of lumber at them at speeds over 30 miles per hour to simulate hurricane conditions!"
+        },
+        {
             "id": 11,
+            "text": "An engineer is designing a building in a region that experiences frequent earthquakes. Which statement best explains why steel might be a better building material choice than concrete for the main structural components?",
+            "options": [
+                {
+                    "text": "Steel is more flexible and can bend without breaking during earthquakes, while concrete tends to crack and lose structural integrity",
+                    "isCorrect": 1,
+                    "explanation": "Steel's ability to flex and return to its original shape makes it ideal for earthquake-prone regions. This property helps buildings absorb seismic forces without suffering permanent damage."
+                },
+                {
+                    "text": "Steel buildings can be built taller than concrete buildings, keeping them safe from ground movement",
+                    "isCorrect": 0,
+                    "explanation": "Building height actually increases earthquake vulnerability. The material's properties, not the building's height, determine its earthquake resistance."
+                },
+                {
+                    "text": "Steel is cheaper than concrete, making it more cost-effective to repair after earthquake damage",
+                    "isCorrect": 0,
+                    "explanation": "Steel isn't necessarily cheaper than concrete. The choice between materials should be based on their structural properties rather than cost alone."
+                },
+                {
+                    "text": "Steel is lighter than concrete, so buildings will experience less shaking during earthquakes",
+                    "isCorrect": 0,
+                    "explanation": "While steel can be lighter than concrete, the building's weight isn't the main factor in earthquake resistance. The material's ability to withstand forces is more important."
+                }
+            ],
+            "funFact": "The Taipei 101 skyscraper in Taiwan uses a 730-ton steel pendulum suspended between the 87th and 92nd floors to counteract earthquake movements and strong winds. This massive sphere acts like a tuned mass damper, helping stabilize the building by moving in the opposite direction of seismic forces!"
+        },
+        {
+            "id": 12,
+            "text": "Storm shutters play a crucial role in protecting buildings during natural disasters. What is the primary reason these shutters are effective in reducing damage during events like hurricanes?",
+            "options": [
+                {
+                    "text": "They help regulate the temperature inside the building during storms",
+                    "isCorrect": 0,
+                    "explanation": "While shutters may provide some temperature regulation, this is not their primary protective function during natural disasters"
+                },
+                {
+                    "text": "They prevent flying debris from breaking windows, which could lead to internal damage and injury",
+                    "isCorrect": 1,
+                    "explanation": "Storm shutters primarily work by creating a barrier that stops flying debris from breaking windows, preventing both direct damage and potential injuries to people inside"
+                },
+                {
+                    "text": "They reduce noise from strong winds during storms",
+                    "isCorrect": 0,
+                    "explanation": "Though shutters may reduce some noise, their main purpose is protection from physical damage, not sound reduction"
+                },
+                {
+                    "text": "They strengthen the foundation of the building",
+                    "isCorrect": 0,
+                    "explanation": "Storm shutters are mounted on windows and do not affect the building's foundation"
+                }
+            ],
+            "funFact": "Modern hurricane shutters can withstand winds of up to 150 miles per hour and are often made from materials like reinforced aluminum or steel. Some advanced models can be deployed automatically when sensors detect dangerous weather conditions!"
+        },
+        {
+            "id": 13,
             "text": "A coastal city has installed a tsunami warning system that detects underwater earthquakes. If an earthquake is detected 300 miles offshore, how does this system help protect the city's residents?",
             "options": [
                 {
-                    "text": "The warning system provides approximately 1 hour for evacuation since tsunami waves travel around 500 miles per hour",
-                    "isCorrect": 1,
-                    "explanation": "Tsunami waves typically travel at speeds of 500-600 mph in deep water. At 300 miles distance, this gives about an hour of warning time for evacuation."
+                    "text": "The system provides several days of advance warning before the tsunami arrives",
+                    "isCorrect": 0,
+                    "explanation": "Tsunami waves travel too fast to provide days of warning time - for a wave 300 miles away, the warning time would be about an hour."
                 },
                 {
                     "text": "The system immediately stops the tsunami waves from reaching the coast",
@@ -292,120 +346,66 @@
                     "explanation": "Warning systems are detection and alert systems - they cannot create physical barriers to block tsunami waves."
                 },
                 {
-                    "text": "The system provides several days of advance warning before the tsunami arrives",
-                    "isCorrect": 0,
-                    "explanation": "Tsunami waves travel too fast to provide days of warning time - for a wave 300 miles away, the warning time would be about an hour."
+                    "text": "The warning system provides approximately 1 hour for evacuation since tsunami waves travel around 500 miles per hour",
+                    "isCorrect": 1,
+                    "explanation": "Tsunami waves typically travel at speeds of 500-600 mph in deep water. At 300 miles distance, this gives about an hour of warning time for evacuation."
                 }
             ],
             "funFact": "The fastest recorded tsunami wave traveled at speeds of up to 750 miles per hour across the Pacific Ocean after the 1960 Great Chilean Earthquake - almost as fast as a commercial jet airplane!"
         },
         {
-            "id": 12,
-            "text": "During the planning phase of a new building in an earthquake-prone area, engineers need to consider various factors to minimize potential damage. Which statement best explains how a building's height affects its ability to withstand earthquakes?",
-            "options": [
-                {
-                    "text": "Shorter buildings are generally more stable during earthquakes because they experience less swaying and are less likely to topple over",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Buildings closer to the ground experience less movement during earthquakes. Their lower center of gravity and reduced mass make them more stable and less susceptible to damage from seismic activity."
-                },
-                {
-                    "text": "Taller buildings are more stable because their weight helps them stay firmly anchored to the ground",
-                    "isCorrect": 0,
-                    "explanation": "While weight can help with stability in some cases, taller buildings actually face greater risks during earthquakes due to increased swaying and stress on the structure."
-                },
-                {
-                    "text": "Building height has no effect on earthquake resistance as long as proper materials are used",
-                    "isCorrect": 0,
-                    "explanation": "Building materials are important, but height significantly affects how a structure responds to seismic activity, regardless of the materials used."
-                },
-                {
-                    "text": "Taller buildings experience less earthquake damage because they are further from the ground where the shaking occurs",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - being further from the ground actually increases the building's movement during an earthquake, potentially causing more damage."
-                }
-            ],
-            "funFact": "The world's tallest earthquake-resistant building, Taipei 101 in Taiwan, uses a 730-ton pendulum suspended from the 92nd floor that acts as a tuned mass damper, helping to stabilize the building during earthquakes and strong winds!"
-        },
-        {
-            "id": 13,
-            "text": "Why do architects in California typically design schools to be single-story buildings instead of multi-story structures?",
-            "options": [
-                {
-                    "text": "Single-story buildings experience less destructive forces during earthquakes and are more stable",
-                    "isCorrect": 1,
-                    "explanation": "When an earthquake occurs, taller buildings experience stronger forces and more movement, making them more vulnerable to damage. Single-story buildings stay closer to the ground and are better able to withstand seismic activity."
-                },
-                {
-                    "text": "Single-story buildings are less expensive to construct in California",
-                    "isCorrect": 0,
-                    "explanation": "While construction costs are important, the primary reason for single-story school designs in California is safety during earthquakes, not cost savings."
-                },
-                {
-                    "text": "California law prohibits building multi-story schools",
-                    "isCorrect": 0,
-                    "explanation": "There is no law prohibiting multi-story schools in California. The choice of single-story design is based on engineering principles for earthquake safety."
-                },
-                {
-                    "text": "Single-story buildings allow for better evacuation during fires",
-                    "isCorrect": 0,
-                    "explanation": "While single-story buildings can be easier to evacuate, this is not the main reason for their prevalence in California schools. The design choice is primarily driven by earthquake safety considerations."
-                }
-            ],
-            "funFact": "The famous Transamerica Pyramid in San Francisco uses a special design where its upper floors get progressively smaller, helping it sway safely during earthquakes instead of resisting the movement, which could cause structural damage."
-        },
-        {
             "id": 14,
-            "text": "Storm shutters play a crucial role in protecting buildings during natural disasters. What is the primary reason these shutters are effective in reducing damage during events like hurricanes?",
+            "text": "Which engineering solution would be most effective for protecting a tall building against earthquake damage in a seismic zone?",
             "options": [
                 {
-                    "text": "They prevent flying debris from breaking windows, which could lead to internal damage and injury",
+                    "text": "Rigid concrete foundation that prevents any building movement",
+                    "isCorrect": 0,
+                    "explanation": "Rigid foundations that completely prevent movement can actually increase damage, as the building cannot dissipate seismic energy and may crack or collapse under stress."
+                },
+                {
+                    "text": "Making the building as tall and thin as possible",
+                    "isCorrect": 0,
+                    "explanation": "Tall, thin buildings are actually more vulnerable to earthquake damage as they experience more swaying and instability during seismic events."
+                },
+                {
+                    "text": "Base isolation system that allows the building to move independently from the ground",
                     "isCorrect": 1,
-                    "explanation": "Storm shutters primarily work by creating a barrier that stops flying debris from breaking windows, preventing both direct damage and potential injuries to people inside"
+                    "explanation": "Base isolation systems effectively reduce earthquake damage by allowing buildings to move separately from ground shaking, absorbing seismic energy and protecting the structure above."
                 },
                 {
-                    "text": "They help regulate the temperature inside the building during storms",
+                    "text": "Using only concrete for the entire building structure",
                     "isCorrect": 0,
-                    "explanation": "While shutters may provide some temperature regulation, this is not their primary protective function during natural disasters"
-                },
-                {
-                    "text": "They strengthen the foundation of the building",
-                    "isCorrect": 0,
-                    "explanation": "Storm shutters are mounted on windows and do not affect the building's foundation"
-                },
-                {
-                    "text": "They reduce noise from strong winds during storms",
-                    "isCorrect": 0,
-                    "explanation": "Though shutters may reduce some noise, their main purpose is protection from physical damage, not sound reduction"
+                    "explanation": "Using only concrete is not ideal as it can crack during earthquakes. A combination of materials and proper engineering techniques is more effective."
                 }
             ],
-            "funFact": "Modern hurricane shutters can withstand winds of up to 150 miles per hour and are often made from materials like reinforced aluminum or steel. Some advanced models can be deployed automatically when sensors detect dangerous weather conditions!"
+            "funFact": "The Taipei 101 skyscraper in Taiwan uses a 730-ton pendulum suspended between the 87th and 92nd floors that acts as a tuned mass damper, helping to stabilize the building during earthquakes and strong winds by moving in the opposite direction of the building's sway."
         },
         {
             "id": 15,
-            "text": "Which explanation best describes why earthquakes and volcanoes frequently occur in the same geographic regions?",
+            "text": "Why is stone commonly used as a building material for houses near active volcanoes?",
             "options": [
                 {
-                    "text": "Both earthquakes and volcanoes tend to form along tectonic plate boundaries where plates interact with each other",
+                    "text": "Stone is cheap and easy to replace after volcanic damage",
+                    "isCorrect": 0,
+                    "explanation": "Stone is chosen for its durability and ability to withstand volcanic conditions, not because it's cheap or easy to replace"
+                },
+                {
+                    "text": "Stone naturally repels lava and pushes it away from buildings",
+                    "isCorrect": 0,
+                    "explanation": "Stone does not have the ability to repel lava. It is chosen for its heat resistance, not any repelling properties"
+                },
+                {
+                    "text": "Stone is lightweight and allows buildings to float above lava flows",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - stone is actually quite heavy and buildings cannot float above lava. The weight of stone is not why it's chosen for volcanic regions"
+                },
+                {
+                    "text": "Stone has a very high melting temperature and can withstand intense heat from volcanic activity",
                     "isCorrect": 1,
-                    "explanation": "This is correct. The boundaries between tectonic plates are areas of intense geological activity where both earthquakes and volcanoes commonly occur due to plate movements and interactions."
-                },
-                {
-                    "text": "Earthquakes cause volcanoes to form by creating cracks in the Earth's surface",
-                    "isCorrect": 0,
-                    "explanation": "While earthquakes can create cracks, they don't directly cause volcanoes to form. Both phenomena are actually results of plate tectonic activity."
-                },
-                {
-                    "text": "Volcanoes trigger earthquakes when they erupt, leading to their common locations",
-                    "isCorrect": 0,
-                    "explanation": "Although volcanic activity can cause some local earthquakes, this is not the main reason why they occur in the same regions. Both are primarily related to plate boundary activity."
-                },
-                {
-                    "text": "The heat from volcanoes weakens the ground, making it more likely to have earthquakes",
-                    "isCorrect": 0,
-                    "explanation": "While heat from magma can affect surrounding rock, this is not the primary reason for the common location of earthquakes and volcanoes. Their shared locations are due to plate tectonic activity."
+                    "explanation": "Stone's high heat resistance makes it ideal for volcanic regions, as it can withstand extreme temperatures without melting or degrading"
                 }
             ],
-            "funFact": "The Pacific Ring of Fire, a horseshoe-shaped region around the Pacific Ocean, contains about 75% of Earth's active volcanoes and experiences about 90% of Earth's earthquakes, making it one of the most geologically active regions on the planet!"
+            "funFact": "The ancient Romans discovered that adding volcanic ash to their concrete made it extraordinarily durable - so much so that many Roman structures built with this volcanic concrete are still standing after 2,000 years!"
         }
     ]
 }

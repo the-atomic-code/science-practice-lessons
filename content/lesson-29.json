@@ -4,62 +4,40 @@
     "questions": [
         {
             "id": 1,
-            "text": "Through which process do plants initially capture and store the energy that eventually reaches consumers in a food chain?",
+            "text": "Which statement correctly describes why oxygen is essential for cells to obtain energy from food molecules?",
             "options": [
                 {
-                    "text": "Photosynthesis",
+                    "text": "Oxygen converts energy directly into glucose",
+                    "isCorrect": 0,
+                    "explanation": "Oxygen does not convert energy into glucose. Glucose is a food molecule that contains stored energy, which is released when it reacts with oxygen."
+                },
+                {
+                    "text": "Oxygen creates new food molecules that contain more energy",
+                    "isCorrect": 0,
+                    "explanation": "Oxygen does not create new food molecules. Instead, it helps break down existing food molecules through chemical reactions."
+                },
+                {
+                    "text": "Oxygen reacts with food molecules during cellular respiration to release stored energy",
                     "isCorrect": 1,
-                    "explanation": "Plants use photosynthesis to capture energy from the sun and convert it into chemical energy stored in sugar molecules, which then becomes available to consumers through food chains."
+                    "explanation": "During cellular respiration, oxygen reacts with food molecules in chemical reactions that break down the food and release its stored energy for the cell to use."
                 },
                 {
-                    "text": "Cellular respiration",
+                    "text": "Oxygen directly provides energy to cells",
                     "isCorrect": 0,
-                    "explanation": "While cellular respiration is important for releasing energy from food molecules, it does not capture energy from the sun - it actually uses the energy stored through photosynthesis."
-                },
-                {
-                    "text": "Decomposition",
-                    "isCorrect": 0,
-                    "explanation": "Decomposition breaks down dead organisms but does not capture energy from the sun - it releases energy stored in organic matter back into the ecosystem."
-                },
-                {
-                    "text": "Evaporation",
-                    "isCorrect": 0,
-                    "explanation": "Evaporation is a physical process that changes water from liquid to gas form. It does not capture or store energy from the sun for food chains."
+                    "explanation": "Oxygen does not directly provide energy. Rather, it participates in chemical reactions that help break down food molecules to release their stored energy."
                 }
             ],
-            "funFact": "A single leaf can contain up to 500,000 chlorophyll molecules, which are crucial for photosynthesis. These molecules give plants their green color and are sometimes called 'nature's solar panels' because of their role in capturing sunlight!"
+            "funFact": "An active human brain cell uses about 4.1 billion glucose molecules per second in cellular respiration reactions with oxygen to power its activities. This shows just how crucial the oxygen-dependent breakdown of food molecules is for our bodies!"
         },
         {
             "id": 2,
-            "text": "During cellular respiration, sugar molecules from food are broken down. What happens to the atoms in these sugar molecules?",
-            "options": [
-                {
-                    "text": "The atoms are rearranged to form new molecules like carbon dioxide and water",
-                    "isCorrect": 1,
-                    "explanation": "During cellular respiration, the atoms in sugar molecules are conserved but rearranged through chemical reactions to form new molecules like CO2 and H2O while releasing energy"
-                },
-                {
-                    "text": "The atoms are destroyed and converted into energy",
-                    "isCorrect": 0,
-                    "explanation": "Atoms cannot be destroyed in chemical reactions. They are only rearranged to form new molecules while energy is released from breaking chemical bonds"
-                },
-                {
-                    "text": "Some atoms disappear while new atoms are created",
-                    "isCorrect": 0,
-                    "explanation": "Atoms are neither created nor destroyed in chemical reactions. The same atoms present in the reactants are present in the products, just in different arrangements"
-                },
-                {
-                    "text": "The atoms evaporate into the air as energy",
-                    "isCorrect": 0,
-                    "explanation": "Atoms cannot evaporate into energy. While energy is released during cellular respiration, the atoms themselves are conserved and form new molecules"
-                }
-            ],
-            "funFact": "The law of conservation of mass was first clearly stated by Antoine Lavoisier in 1789. This fundamental principle tells us that atoms can't be created or destroyed in chemical reactions - they just get reshuffled into new arrangements!"
-        },
-        {
-            "id": 3,
             "text": "During digestion, what happens to the complex food molecules when they enter our body?",
             "options": [
+                {
+                    "text": "The molecules are destroyed and disappear completely",
+                    "isCorrect": 0,
+                    "explanation": "Matter cannot be destroyed - the atoms in food molecules are conserved but rearranged into new molecules."
+                },
                 {
                     "text": "The molecules are broken down into smaller molecules and rearranged through chemical reactions to provide energy and build new molecules",
                     "isCorrect": 1,
@@ -71,11 +49,6 @@
                     "explanation": "Food molecules must be broken down through chemical reactions to be useful - they cannot remain in their original form."
                 },
                 {
-                    "text": "The molecules are destroyed and disappear completely",
-                    "isCorrect": 0,
-                    "explanation": "Matter cannot be destroyed - the atoms in food molecules are conserved but rearranged into new molecules."
-                },
-                {
                     "text": "The molecules are directly absorbed without any chemical changes",
                     "isCorrect": 0,
                     "explanation": "Complex food molecules are too large to be directly absorbed - they must first be broken down through chemical reactions."
@@ -84,72 +57,207 @@
             "funFact": "The human body performs around 37 billion billion chemical reactions per second during cellular respiration to break down food molecules and create energy! That's more chemical reactions in one second than there are stars in our galaxy."
         },
         {
-            "id": 4,
-            "text": "Which statement best explains how eating food helps organisms grow and function?",
+            "id": 3,
+            "text": "Which of the following best describes how plants produce their own food through photosynthesis?",
             "options": [
                 {
-                    "text": "Food molecules are broken down and rearranged to build body tissues, while chemical reactions with oxygen release energy for life processes",
+                    "text": "Plants only need sunlight and water to make their food",
+                    "isCorrect": 0,
+                    "explanation": "Carbon dioxide is also essential for photosynthesis - plants combine it with water using sunlight's energy to make sugar"
+                },
+                {
+                    "text": "Plants absorb sugar directly from the soil through their roots",
+                    "isCorrect": 0,
+                    "explanation": "Plants don't absorb sugar from soil - they make their own sugar through photosynthesis using sunlight, water, and carbon dioxide"
+                },
+                {
+                    "text": "Plants use sunlight, water, and carbon dioxide to produce sugar and oxygen",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes how food provides both matter and energy - the molecules are rearranged to build tissues (matter) and reactions release energy for the organism to use"
+                    "explanation": "This correctly describes photosynthesis - plants use energy from sunlight to convert water and carbon dioxide into sugar (their food) and oxygen"
                 },
                 {
-                    "text": "Food is directly converted into energy without any chemical changes occurring in the molecules",
+                    "text": "Plants convert oxygen and water into sugar",
                     "isCorrect": 0,
-                    "explanation": "Food molecules must undergo chemical reactions with oxygen (cellular respiration) to release energy - they aren't directly converted to energy"
-                },
-                {
-                    "text": "Food provides energy but the atoms and molecules from food are not used to build body tissues",
-                    "isCorrect": 0,
-                    "explanation": "Food provides both energy and matter - the atoms from food molecules are rearranged to form the molecules that make up body tissues"
-                },
-                {
-                    "text": "Food molecules store energy but are expelled from the body without being broken down",
-                    "isCorrect": 0,
-                    "explanation": "Food molecules are broken down through chemical reactions - they don't pass through unchanged. The atoms are rearranged into new molecules"
+                    "explanation": "Plants use carbon dioxide, not oxygen, along with water to make sugar. Oxygen is actually produced as a byproduct of photosynthesis"
                 }
             ],
-            "funFact": "A single cell in your body performs millions of chemical reactions per second! These reactions break down food molecules and rearrange them into new molecules while releasing the energy needed to power all your life processes."
+            "funFact": "Plants are so efficient at photosynthesis that they produce about 70% of the Earth's oxygen as a byproduct while making their food. That's why rainforests are often called the 'lungs of the Earth'!"
+        },
+        {
+            "id": 4,
+            "text": "Which statement correctly describes how organisms use the energy from food molecules?",
+            "options": [
+                {
+                    "text": "Organisms convert food molecules into energy without using oxygen",
+                    "isCorrect": 0,
+                    "explanation": "Oxygen is required in the chemical reactions that break down food molecules to release their stored energy"
+                },
+                {
+                    "text": "Organisms break down food molecules through chemical reactions with oxygen to release energy for life processes",
+                    "isCorrect": 1,
+                    "explanation": "Through cellular respiration, organisms break down food molecules with oxygen, releasing stored energy that can be used for various life processes"
+                },
+                {
+                    "text": "Organisms directly absorb energy from food molecules without any chemical reactions",
+                    "isCorrect": 0,
+                    "explanation": "Energy from food is not directly absorbed - it must be released through chemical reactions involving oxygen"
+                },
+                {
+                    "text": "Organisms store all energy from food molecules for future use without breaking them down",
+                    "isCorrect": 0,
+                    "explanation": "Food molecules must be broken down through chemical reactions to access their stored energy, rather than being stored intact"
+                }
+            ],
+            "funFact": "A single glucose molecule can produce approximately 36 ATP molecules through cellular respiration, showing how efficiently organisms can extract energy from food!"
         },
         {
             "id": 5,
-            "text": "During digestion and cellular respiration, what happens to the energy stored in food molecules when they are broken down?",
+            "text": "During cellular respiration, sugar molecules from food are broken down. What happens to the atoms in these sugar molecules?",
             "options": [
                 {
-                    "text": "The energy is released and can be used by the organism for various life processes",
+                    "text": "The atoms evaporate into the air as energy",
+                    "isCorrect": 0,
+                    "explanation": "Atoms cannot evaporate into energy. While energy is released during cellular respiration, the atoms themselves are conserved and form new molecules"
+                },
+                {
+                    "text": "The atoms are rearranged to form new molecules like carbon dioxide and water",
                     "isCorrect": 1,
-                    "explanation": "When food molecules are broken down during cellular respiration, the stored energy is released and can be used by the organism for growth, movement, and other life processes"
+                    "explanation": "During cellular respiration, the atoms in sugar molecules are conserved but rearranged through chemical reactions to form new molecules like CO2 and H2O while releasing energy"
                 },
                 {
-                    "text": "The energy disappears completely since the food molecules are broken down",
+                    "text": "Some atoms disappear while new atoms are created",
                     "isCorrect": 0,
-                    "explanation": "Energy cannot disappear - it is conserved but changes form. The energy from food is released and converted to forms the organism can use"
+                    "explanation": "Atoms are neither created nor destroyed in chemical reactions. The same atoms present in the reactants are present in the products, just in different arrangements"
                 },
                 {
-                    "text": "The energy remains locked in the food molecules even after they are broken down",
+                    "text": "The atoms are destroyed and converted into energy",
                     "isCorrect": 0,
-                    "explanation": "When complex food molecules are broken down through chemical reactions with oxygen, the stored energy is released rather than remaining locked in the molecules"
-                },
-                {
-                    "text": "The energy is converted back into sunlight",
-                    "isCorrect": 0,
-                    "explanation": "The energy from food is not converted back to sunlight - it is released in a form that cells can use for various functions"
+                    "explanation": "Atoms cannot be destroyed in chemical reactions. They are only rearranged to form new molecules while energy is released from breaking chemical bonds"
                 }
             ],
-            "funFact": "A single glucose molecule can release enough energy to power a cell to synthesize around 30 ATP molecules through cellular respiration. ATP (adenosine triphosphate) serves as the primary energy currency that cells use to power most of their functions."
+            "funFact": "The law of conservation of mass was first clearly stated by Antoine Lavoisier in 1789. This fundamental principle tells us that atoms can't be created or destroyed in chemical reactions - they just get reshuffled into new arrangements!"
         },
         {
             "id": 6,
-            "text": "During photosynthesis, plants convert sunlight into chemical energy that is stored in glucose molecules. What happens to the energy from the sun as it gets stored in the chemical bonds of glucose?",
+            "text": "In a grassland ecosystem, if there is 1000 units of energy available at the producer level (grass), approximately how much energy will be available to tertiary consumers (like hawks) at the top of the food chain?",
             "options": [
                 {
-                    "text": "The energy is transformed and stored in chemical bonds of glucose, which can later be released through cellular respiration",
-                    "isCorrect": 1,
-                    "explanation": "The sun's energy is converted to chemical energy stored in the bonds of glucose molecules. This stored energy can be released when needed through cellular respiration."
+                    "text": "100 units of energy",
+                    "isCorrect": 0,
+                    "explanation": "This would be the energy available to primary consumers (like rabbits). The energy continues to decrease by 90% at each level above this."
                 },
+                {
+                    "text": "1 unit of energy",
+                    "isCorrect": 1,
+                    "explanation": "Only about 10% of energy transfers to each next level in a food chain. So from 1000 units at producer level, primary consumers get 100 units, secondary consumers get 10 units, and tertiary consumers get 1 unit."
+                },
+                {
+                    "text": "10 units of energy",
+                    "isCorrect": 0,
+                    "explanation": "This would be the energy available to secondary consumers (like snakes). Tertiary consumers receive only 10% of this energy."
+                },
+                {
+                    "text": "1000 units of energy",
+                    "isCorrect": 0,
+                    "explanation": "This is the initial energy at the producer level. The amount of energy decreases significantly as it moves up the food chain."
+                }
+            ],
+            "funFact": "This dramatic decrease in available energy at each trophic level explains why there are typically far fewer predators than prey in any ecosystem. For example, it might take thousands of plants to support a population of rabbits, which in turn might only support a single hawk!"
+        },
+        {
+            "id": 7,
+            "text": "How do carbon atoms from carbon dioxide in the air become part of living organisms and then return to the environment?",
+            "options": [
+                {
+                    "text": "Carbon dioxide stays in the air and never becomes part of living things",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect as carbon dioxide is constantly being used by plants in photosynthesis to make organic molecules that become part of living things"
+                },
+                {
+                    "text": "Carbon dioxide dissolves in water and is directly absorbed by all living things to make their body parts",
+                    "isCorrect": 0,
+                    "explanation": "Only plants can directly use carbon dioxide through photosynthesis. Other organisms get carbon by eating plants or other organisms"
+                },
+                {
+                    "text": "Plants use carbon dioxide in photosynthesis to make sugar, which gets passed through food chains, and when organisms die or respire, carbon dioxide returns to the air",
+                    "isCorrect": 1,
+                    "explanation": "This correctly shows how carbon moves from air through living things and back: plants capture it in photosynthesis, it moves through food chains, and returns to air through respiration and decomposition"
+                },
+                {
+                    "text": "Carbon dioxide is converted to oxygen by plants, which is then used by animals to build their bodies",
+                    "isCorrect": 0,
+                    "explanation": "While plants do produce oxygen, it comes from water molecules, not carbon dioxide. The carbon from CO2 is used to make sugar and other organic molecules"
+                }
+            ],
+            "funFact": "A single tree can absorb up to 48 pounds of carbon dioxide per year and store over a ton of carbon dioxide by the time it reaches 40 years old. This shows the important role trees play in the carbon cycle!"
+        },
+        {
+            "id": 8,
+            "text": "During photosynthesis, a plant takes in carbon dioxide (CO2) and water (H2O) to produce glucose (C6H12O6) and oxygen (O2). Which statement correctly describes how atoms are rearranged in this process while maintaining conservation of matter?",
+            "options": [
+                {
+                    "text": "New atoms are created during photosynthesis to form glucose molecules",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because atoms cannot be created during chemical reactions - they are only rearranged"
+                },
+                {
+                    "text": "The atoms from CO2 and H2O are rearranged to form glucose and O2, with no atoms created or destroyed",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because matter is conserved - the same atoms from the reactants (CO2 and H2O) are simply rearranged to form the products (glucose and O2)"
+                },
+                {
+                    "text": "Extra atoms appear in glucose because it's a larger molecule",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because even though glucose is a larger molecule, its atoms all come from the reactants - no new atoms appear"
+                },
+                {
+                    "text": "Some atoms are destroyed when CO2 and H2O break down",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because atoms cannot be destroyed in chemical reactions - they are conserved and only rearranged"
+                }
+            ],
+            "funFact": "A single leaf can contain up to 500,000 chlorophyll molecules in each square millimeter! These chlorophyll molecules are essential for capturing sunlight energy to power photosynthesis and the rearrangement of atoms into glucose."
+        },
+        {
+            "id": 9,
+            "text": "During cellular respiration in an organism, glucose (C6H12O6) reacts with oxygen (O2) to produce energy. What are the other products formed in this chemical reaction?",
+            "options": [
+                {
+                    "text": "Carbon dioxide (CO2) and water (H2O)",
+                    "isCorrect": 1,
+                    "explanation": "When glucose reacts with oxygen during cellular respiration, the glucose molecules are broken down to form carbon dioxide and water while releasing energy that cells can use."
+                },
+                {
+                    "text": "Oxygen (O2) and glucose (C6H12O6)",
+                    "isCorrect": 0,
+                    "explanation": "Oxygen and glucose are reactants in cellular respiration, not products. They are used up during the reaction to produce carbon dioxide and water."
+                },
+                {
+                    "text": "Only carbon dioxide (CO2)",
+                    "isCorrect": 0,
+                    "explanation": "The reaction produces both carbon dioxide and water, not just carbon dioxide. The hydrogen atoms from glucose must be accounted for in the products."
+                },
+                {
+                    "text": "Only water (H2O)",
+                    "isCorrect": 0,
+                    "explanation": "The reaction produces both carbon dioxide and water, not just water. The carbon atoms from glucose must be accounted for in the products."
+                }
+            ],
+            "funFact": "A single glucose molecule going through cellular respiration produces about 36 ATP molecules, which are like tiny batteries that power various cellular processes. This is why we need to eat food regularly - to keep our cellular batteries charged!"
+        },
+        {
+            "id": 10,
+            "text": "During photosynthesis, plants convert sunlight into chemical energy that is stored in glucose molecules. What happens to the energy from the sun as it gets stored in the chemical bonds of glucose?",
+            "options": [
                 {
                     "text": "The energy disappears as it gets used up in making glucose molecules",
                     "isCorrect": 0,
                     "explanation": "Energy cannot disappear or be used up - it is always conserved but can be transformed from one form to another."
+                },
+                {
+                    "text": "The energy is transformed and stored in chemical bonds of glucose, which can later be released through cellular respiration",
+                    "isCorrect": 1,
+                    "explanation": "The sun's energy is converted to chemical energy stored in the bonds of glucose molecules. This stored energy can be released when needed through cellular respiration."
                 },
                 {
                     "text": "The energy remains as light energy inside the glucose molecules",
@@ -165,181 +273,90 @@
             "funFact": "Plants are incredibly efficient at converting sunlight to chemical energy - the chlorophyll molecules in their leaves can begin this energy transformation process in just a trillionth of a second after capturing sunlight!"
         },
         {
-            "id": 7,
-            "text": "Plants produce glucose through photosynthesis using sunlight, water, and carbon dioxide. During this process, what happens to the molecules and energy involved?",
-            "options": [
-                {
-                    "text": "Carbon dioxide and water molecules are rearranged to form glucose and oxygen, while solar energy is stored in the chemical bonds of glucose",
-                    "isCorrect": 1,
-                    "explanation": "During photosynthesis, plants use solar energy to break apart and rearrange carbon dioxide and water molecules to form glucose and oxygen. The energy from sunlight is stored in the chemical bonds of glucose."
-                },
-                {
-                    "text": "Carbon dioxide and water molecules are mixed together to form glucose, while solar energy disappears",
-                    "isCorrect": 0,
-                    "explanation": "Molecules aren't simply mixed - they undergo chemical reactions where bonds are broken and reformed. Energy cannot disappear; it is transformed and stored in chemical bonds."
-                },
-                {
-                    "text": "New carbon and hydrogen atoms are created to form glucose, while solar energy is converted to heat",
-                    "isCorrect": 0,
-                    "explanation": "Atoms cannot be created in chemical reactions - they are only rearranged. While some energy becomes heat, much of the solar energy is stored in glucose's chemical bonds."
-                },
-                {
-                    "text": "Water molecules are split to form glucose, while carbon dioxide and solar energy are released as waste",
-                    "isCorrect": 0,
-                    "explanation": "Both water AND carbon dioxide molecules are needed to form glucose. Solar energy isn't released as waste - it's stored in the chemical bonds of glucose."
-                }
-            ],
-            "funFact": "A single leaf can contain up to 500,000 chloroplasts, the tiny cellular structures where photosynthesis occurs. These chloroplasts work together like microscopic solar panels to capture sunlight and produce glucose for the plant!"
-        },
-        {
-            "id": 8,
-            "text": "During photosynthesis, a plant takes in carbon dioxide (CO2) and water (H2O) to produce glucose (C6H12O6) and oxygen (O2). Which statement correctly describes how atoms are rearranged in this process while maintaining conservation of matter?",
-            "options": [
-                {
-                    "text": "The atoms from CO2 and H2O are rearranged to form glucose and O2, with no atoms created or destroyed",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because matter is conserved - the same atoms from the reactants (CO2 and H2O) are simply rearranged to form the products (glucose and O2)"
-                },
-                {
-                    "text": "New atoms are created during photosynthesis to form glucose molecules",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because atoms cannot be created during chemical reactions - they are only rearranged"
-                },
-                {
-                    "text": "Some atoms are destroyed when CO2 and H2O break down",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because atoms cannot be destroyed in chemical reactions - they are conserved and only rearranged"
-                },
-                {
-                    "text": "Extra atoms appear in glucose because it's a larger molecule",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because even though glucose is a larger molecule, its atoms all come from the reactants - no new atoms appear"
-                }
-            ],
-            "funFact": "A single leaf can contain up to 500,000 chlorophyll molecules in each square millimeter! These chlorophyll molecules are essential for capturing sunlight energy to power photosynthesis and the rearrangement of atoms into glucose."
-        },
-        {
-            "id": 9,
-            "text": "In a grassland ecosystem, if there is 1000 units of energy available at the producer level (grass), approximately how much energy will be available to tertiary consumers (like hawks) at the top of the food chain?",
-            "options": [
-                {
-                    "text": "1 unit of energy",
-                    "isCorrect": 1,
-                    "explanation": "Only about 10% of energy transfers to each next level in a food chain. So from 1000 units at producer level, primary consumers get 100 units, secondary consumers get 10 units, and tertiary consumers get 1 unit."
-                },
-                {
-                    "text": "10 units of energy",
-                    "isCorrect": 0,
-                    "explanation": "This would be the energy available to secondary consumers (like snakes). Tertiary consumers receive only 10% of this energy."
-                },
-                {
-                    "text": "100 units of energy",
-                    "isCorrect": 0,
-                    "explanation": "This would be the energy available to primary consumers (like rabbits). The energy continues to decrease by 90% at each level above this."
-                },
-                {
-                    "text": "1000 units of energy",
-                    "isCorrect": 0,
-                    "explanation": "This is the initial energy at the producer level. The amount of energy decreases significantly as it moves up the food chain."
-                }
-            ],
-            "funFact": "This dramatic decrease in available energy at each trophic level explains why there are typically far fewer predators than prey in any ecosystem. For example, it might take thousands of plants to support a population of rabbits, which in turn might only support a single hawk!"
-        },
-        {
-            "id": 10,
-            "text": "How do carbon atoms from carbon dioxide in the air become part of living organisms and then return to the environment?",
-            "options": [
-                {
-                    "text": "Plants use carbon dioxide in photosynthesis to make sugar, which gets passed through food chains, and when organisms die or respire, carbon dioxide returns to the air",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how carbon moves from air through living things and back: plants capture it in photosynthesis, it moves through food chains, and returns to air through respiration and decomposition"
-                },
-                {
-                    "text": "Carbon dioxide dissolves in water and is directly absorbed by all living things to make their body parts",
-                    "isCorrect": 0,
-                    "explanation": "Only plants can directly use carbon dioxide through photosynthesis. Other organisms get carbon by eating plants or other organisms"
-                },
-                {
-                    "text": "Carbon dioxide is converted to oxygen by plants, which is then used by animals to build their bodies",
-                    "isCorrect": 0,
-                    "explanation": "While plants do produce oxygen, it comes from water molecules, not carbon dioxide. The carbon from CO2 is used to make sugar and other organic molecules"
-                },
-                {
-                    "text": "Carbon dioxide stays in the air and never becomes part of living things",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect as carbon dioxide is constantly being used by plants in photosynthesis to make organic molecules that become part of living things"
-                }
-            ],
-            "funFact": "A single tree can absorb up to 48 pounds of carbon dioxide per year and store over a ton of carbon dioxide by the time it reaches 40 years old. This shows the important role trees play in the carbon cycle!"
-        },
-        {
             "id": 11,
-            "text": "Why do organisms need both food and oxygen for cellular respiration to release energy?",
+            "text": "During cellular respiration, a rabbit eats a carrot and breaks down its molecules for energy. Why does this process result in only 10% of the original energy being available when a fox later eats the rabbit?",
             "options": [
                 {
-                    "text": "Food molecules are broken down through chemical reactions with oxygen to release stored energy while producing carbon dioxide and water",
+                    "text": "The energy disappears when the carrot's molecules are broken apart",
+                    "isCorrect": 0,
+                    "explanation": "Energy doesn't disappear - it's converted to other forms during chemical reactions following the law of conservation of energy"
+                },
+                {
+                    "text": "The rabbit's digestive system destroys 90% of the energy while breaking down the carrot",
+                    "isCorrect": 0,
+                    "explanation": "Energy isn't destroyed during digestion - it's transformed and used by the organism for various life processes"
+                },
+                {
+                    "text": "Most of the energy is used by the rabbit for its own life processes like movement, maintaining body temperature, and growth",
                     "isCorrect": 1,
-                    "explanation": "During cellular respiration, sugar molecules from food react with oxygen in a chemical process that releases stored energy for the organism to use while producing carbon dioxide and water as byproducts"
+                    "explanation": "During cellular respiration, organisms use most of the energy from food for their own survival needs, leaving only about 10% stored in their tissues for the next consumer"
                 },
                 {
-                    "text": "Food provides energy directly without any chemical reactions, while oxygen is only needed for breathing",
+                    "text": "The carrot loses 90% of its energy when it is picked from the ground",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because food cannot provide energy directly - it must be broken down through chemical reactions with oxygen to release the stored energy"
-                },
-                {
-                    "text": "Oxygen breaks down into energy while food is only needed for growth",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because oxygen itself does not break down into energy - it is needed to react with food molecules to release the energy stored in food"
-                },
-                {
-                    "text": "Food and oxygen combine to create new energy molecules",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because energy is not created - rather, the energy already stored in food molecules is released through chemical reactions with oxygen"
+                    "explanation": "Plants store energy from photosynthesis in their tissues - picking them doesn't cause significant energy loss"
                 }
             ],
-            "funFact": "A single glucose molecule used in cellular respiration can produce up to 38 ATP molecules (energy carrying molecules), showing how efficient this process is at extracting energy from food!"
+            "funFact": "This 10% rule of energy transfer between trophic levels is why there are typically fewer predators than prey in ecosystems. It would take 1,000 pounds of grass to produce 100 pounds of rabbit, which would only produce 10 pounds of fox!"
         },
         {
             "id": 12,
-            "text": "How does mercury accumulate in larger marine predators like sharks through food chains?",
+            "text": "When decomposers break down dead organisms, what happens to the atoms that made up the original organism?",
             "options": [
                 {
-                    "text": "Through chemical reactions, mercury is broken down into less harmful substances as it moves up the food chain",
+                    "text": "The atoms disappear completely from the ecosystem",
                     "isCorrect": 0,
-                    "explanation": "Mercury cannot be broken down through chemical reactions in organisms. This misconception overlooks how toxic substances accumulate in food chains."
+                    "explanation": "Atoms remain in the ecosystem, they are just rearranged into different molecules that cycle through the environment."
                 },
                 {
-                    "text": "Mercury compounds, particularly methylmercury, accumulate and become concentrated in larger predators as they consume multiple smaller organisms that contain mercury",
+                    "text": "The atoms are rearranged into simpler molecules like carbon dioxide and water",
                     "isCorrect": 1,
-                    "explanation": "When larger predators consume multiple prey organisms containing mercury, the mercury accumulates and becomes concentrated in their tissues through a process called biomagnification."
+                    "explanation": "Decomposers break down complex molecules into simpler ones while conserving all atoms. The atoms are rearranged into molecules like CO2 and H2O that return to the environment."
                 },
                 {
-                    "text": "Mercury only affects the smallest organisms in the food chain and is eliminated before reaching larger predators",
+                    "text": "The atoms combine to form new living organisms",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because mercury is not eliminated as it moves up the food chain. Instead, it accumulates in higher concentrations in larger predators."
+                    "explanation": "While the atoms can eventually become part of new organisms, they first must be broken down into simpler molecules that return to the environment."
                 },
                 {
-                    "text": "Mercury is naturally produced by large predators through their cellular respiration processes",
+                    "text": "The atoms are destroyed during the decomposition process",
                     "isCorrect": 0,
-                    "explanation": "Organisms cannot produce mercury through cellular respiration or any other biological process. Mercury enters food chains from external environmental sources."
+                    "explanation": "Atoms cannot be created or destroyed during chemical reactions. They are only rearranged into different molecules."
                 }
             ],
-            "funFact": "The process of mercury accumulation in food chains is called biomagnification. A single shark can contain mercury concentrations up to a million times higher than the surrounding water due to this process!"
+            "funFact": "A single gram of soil can contain up to one billion bacteria that act as decomposers! These microscopic organisms play a crucial role in breaking down dead matter and recycling nutrients in ecosystems."
         },
         {
             "id": 13,
-            "text": "When a rabbit eats grass, what happens to the grass molecules during digestion and how is energy obtained?",
+            "text": "When you eat an apple, its molecules are broken down and reassembled to become part of your body. Which statement best describes how the atoms from the apple become part of your muscle tissue?",
             "options": [
                 {
-                    "text": "The grass molecules are broken down through chemical reactions with oxygen, rearranged into new molecules, and energy is released during this process",
+                    "text": "The atoms from the apple's molecules are broken apart and rearranged through chemical reactions to form new molecules that make up muscle tissue",
                     "isCorrect": 1,
-                    "explanation": "Through cellular respiration, complex molecules from grass react with oxygen, breaking down into simpler molecules while releasing stored energy for the rabbit to use"
+                    "explanation": "Through digestion and cellular processes, the apple's molecules are broken down and their atoms are rearranged to form new molecules that become part of muscle tissue"
                 },
                 {
-                    "text": "The grass molecules remain unchanged but simply transfer their energy directly to the rabbit",
+                    "text": "The apple's molecules are only used for energy and cannot become part of muscle tissue",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because molecules must be broken down through chemical reactions to release their stored energy - they don't simply transfer energy while remaining intact"
+                    "explanation": "While some food molecules are used for energy, their atoms can also be rearranged to form molecules needed for growth and tissue building"
                 },
+                {
+                    "text": "The apple's molecules move directly into muscle tissue without any changes",
+                    "isCorrect": 0,
+                    "explanation": "Food molecules cannot be directly incorporated into tissues - they must first be broken down and reassembled through chemical reactions"
+                },
+                {
+                    "text": "The apple disappears completely during digestion and provides only energy",
+                    "isCorrect": 0,
+                    "explanation": "The atoms in food are conserved - they don't disappear but are rearranged into new molecules while also providing energy"
+                }
+            ],
+            "funFact": "Just like how you can take apart blocks from one structure and rebuild them into something completely different, your body takes apart food molecules and rebuilds them into the exact molecules it needs. The carbon atoms from the carbohydrates in an apple can be used to build various molecules in your body, including some that make up your muscles!"
+        },
+        {
+            "id": 14,
+            "text": "When a rabbit eats grass, what happens to the grass molecules during digestion and how is energy obtained?",
+            "options": [
                 {
                     "text": "The grass molecules are absorbed whole into the rabbit's bloodstream where they provide energy",
                     "isCorrect": 0,
@@ -349,63 +366,46 @@
                     "text": "The grass molecules release their energy when mixed with stomach acid, without any chemical reactions occurring",
                     "isCorrect": 0,
                     "explanation": "Energy release requires chemical reactions with oxygen (cellular respiration), not just exposure to stomach acid"
+                },
+                {
+                    "text": "The grass molecules are broken down through chemical reactions with oxygen, rearranged into new molecules, and energy is released during this process",
+                    "isCorrect": 1,
+                    "explanation": "Through cellular respiration, complex molecules from grass react with oxygen, breaking down into simpler molecules while releasing stored energy for the rabbit to use"
+                },
+                {
+                    "text": "The grass molecules remain unchanged but simply transfer their energy directly to the rabbit",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because molecules must be broken down through chemical reactions to release their stored energy - they don't simply transfer energy while remaining intact"
                 }
             ],
             "funFact": "A rabbit's digestive system is so efficient that it goes through food twice! After the first digestion, it produces special droppings called cecotropes which it eats again to extract even more nutrients and energy from its plant-based diet."
         },
         {
-            "id": 14,
-            "text": "During cellular respiration, a rabbit eats a carrot and breaks down its molecules for energy. Why does this process result in only 10% of the original energy being available when a fox later eats the rabbit?",
-            "options": [
-                {
-                    "text": "Most of the energy is used by the rabbit for its own life processes like movement, maintaining body temperature, and growth",
-                    "isCorrect": 1,
-                    "explanation": "During cellular respiration, organisms use most of the energy from food for their own survival needs, leaving only about 10% stored in their tissues for the next consumer"
-                },
-                {
-                    "text": "The rabbit's digestive system destroys 90% of the energy while breaking down the carrot",
-                    "isCorrect": 0,
-                    "explanation": "Energy isn't destroyed during digestion - it's transformed and used by the organism for various life processes"
-                },
-                {
-                    "text": "The carrot loses 90% of its energy when it is picked from the ground",
-                    "isCorrect": 0,
-                    "explanation": "Plants store energy from photosynthesis in their tissues - picking them doesn't cause significant energy loss"
-                },
-                {
-                    "text": "The energy disappears when the carrot's molecules are broken apart",
-                    "isCorrect": 0,
-                    "explanation": "Energy doesn't disappear - it's converted to other forms during chemical reactions following the law of conservation of energy"
-                }
-            ],
-            "funFact": "This 10% rule of energy transfer between trophic levels is why there are typically fewer predators than prey in ecosystems. It would take 1,000 pounds of grass to produce 100 pounds of rabbit, which would only produce 10 pounds of fox!"
-        },
-        {
             "id": 15,
-            "text": "In an ecosystem, a rabbit eats grass and is then eaten by a fox. How do the carbon atoms from the grass molecules move through this food chain?",
+            "text": "In a forest ecosystem's energy pyramid, why does each level support fewer organisms than the level below it?",
             "options": [
                 {
-                    "text": "The carbon atoms in grass molecules are broken down through chemical reactions and reassembled into rabbit molecules, then broken down again and reassembled into fox molecules",
+                    "text": "Predators at higher levels are naturally larger than their prey, so fewer can survive in the same space",
+                    "isCorrect": 0,
+                    "explanation": "While predators are often larger, the main reason for fewer organisms at higher levels is energy loss, not physical size"
+                },
+                {
+                    "text": "The organisms at higher levels eat all the organisms at lower levels",
+                    "isCorrect": 0,
+                    "explanation": "Predators don't consume entire populations below them - the pyramid structure is due to decreasing energy availability at each level"
+                },
+                {
+                    "text": "Higher level organisms reproduce more slowly than lower level organisms",
+                    "isCorrect": 0,
+                    "explanation": "Reproduction rates, while varying among species, do not determine the energy pyramid structure - it's determined by energy transfer efficiency"
+                },
+                {
+                    "text": "Only 10% of energy transfers to the next level due to energy loss through cellular respiration and other life processes",
                     "isCorrect": 1,
-                    "explanation": "Through cellular respiration, organisms break down food molecules and reassemble them into new molecules needed for growth and function"
-                },
-                {
-                    "text": "The carbon atoms are destroyed when the grass is eaten and new carbon atoms are created for the rabbit and fox",
-                    "isCorrect": 0,
-                    "explanation": "Carbon atoms are not created or destroyed in biological processes - they are conserved and rearranged through chemical reactions"
-                },
-                {
-                    "text": "The carbon atoms stay in their original grass molecule form as they move through the food chain",
-                    "isCorrect": 0,
-                    "explanation": "Food molecules don't stay intact - they must be broken down through digestion and chemical reactions before being reassembled"
-                },
-                {
-                    "text": "The carbon atoms are converted to energy when organisms eat each other",
-                    "isCorrect": 0,
-                    "explanation": "Matter (atoms) cannot be converted to energy in biological processes - atoms are rearranged while energy is released from chemical bonds"
+                    "explanation": "As organisms perform cellular respiration to break down food molecules, much of the energy is released as heat and used for life processes, leaving only about 10% available for the next level"
                 }
             ],
-            "funFact": "A single carbon atom could cycle through many different organisms and molecules over time - the same carbon atom that was once part of a dinosaur millions of years ago could be part of your body today!"
+            "funFact": "The energy efficiency in food chains is so low that it takes about 100,000 pounds of plants to support a 100-pound hawk at the top of the food chain. This is why large predators are relatively rare in nature!"
         }
     ]
 }

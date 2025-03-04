@@ -4,66 +4,93 @@
     "questions": [
         {
             "id": 1,
-            "text": "A small toy car weighing 1 pound and a large toy truck weighing 3 pounds are at rest on a smooth floor. To move them the same distance in the same amount of time, which statement is correct about the force needed?",
+            "text": "An aerospace engineer is designing a new spacecraft for a mission to Mars. Which of Newton's Laws is MOST important to consider when designing the rocket engines that will propel the spacecraft?",
             "options": [
                 {
-                    "text": "The same force will move both toys the same distance in the same time",
+                    "text": "Newton's First Law - Objects in motion stay in motion unless acted upon by a force",
                     "isCorrect": 0,
-                    "explanation": "According to Newton's Second Law (F=ma), heavier objects require more force to achieve the same acceleration. Since both toys need to cover the same distance in the same time, they must have equal acceleration, requiring different forces."
+                    "explanation": "While this law is important for understanding spacecraft momentum in space, it's not the primary principle behind rocket engine design and propulsion."
                 },
                 {
-                    "text": "The truck needs 3 times more force than the car",
+                    "text": "Newton's Third Law - For every action, there is an equal and opposite reaction",
                     "isCorrect": 1,
-                    "explanation": "According to Newton's Second Law (F=ma), force is directly proportional to mass when acceleration is constant. Since the truck is 3 times heavier than the car and both need to achieve the same acceleration to cover equal distance in equal time, the truck requires 3 times more force."
+                    "explanation": "Rocket engines work by expelling hot gases backward (action), which creates a forward thrust on the spacecraft (reaction). This principle is key to rocket propulsion."
                 },
                 {
-                    "text": "The car needs 3 times more force than the truck",
+                    "text": "Newton's Second Law - Force equals mass times acceleration",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because according to Newton's Second Law (F=ma), heavier objects need more force, not less, to achieve the same acceleration. Since the truck has 3 times more mass, it needs more force, not less."
-                },
-                {
-                    "text": "No force is needed because they are on a smooth floor",
-                    "isCorrect": 0,
-                    "explanation": "Even on a smooth floor with minimal friction, force is needed to accelerate objects from rest. According to Newton's Second Law (F=ma), mass still requires force to accelerate regardless of surface conditions."
+                    "explanation": "Although this law helps calculate the force needed for acceleration, it's not the fundamental principle that makes rocket engines work."
                 }
             ],
-            "funFact": "In space where there is virtually no friction, astronauts still need to use more force to push heavier objects to achieve the same acceleration. This is a direct application of Newton's Second Law (F=ma). This is why moving large satellites or equipment in space requires carefully calculated propulsion systems!"
+            "funFact": "The first rocket equation was developed by Russian scientist Konstantin Tsiolkovsky in 1903. He showed that rockets could work in space by demonstrating that the pressure created by escaping gas was independent of the surrounding air pressure, making space travel theoretically possible!"
         },
         {
             "id": 2,
-            "text": "A toy car rolling across a smooth floor eventually comes to a stop. What is the main reason for this?",
+            "text": "A ball is thrown straight up into the air. Which invisible force is primarily responsible for making the ball eventually stop going up and come back down?",
             "options": [
                 {
-                    "text": "The car's batteries run out",
+                    "text": "Temperature",
                     "isCorrect": 0,
-                    "explanation": "The car's motion is not powered by batteries in this scenario - it's simply rolling."
+                    "explanation": "While temperature can affect air density and resistance, it is not a force and does not cause objects to fall back to Earth."
                 },
                 {
-                    "text": "Friction between the car's wheels and the floor",
+                    "text": "Wind",
+                    "isCorrect": 0,
+                    "explanation": "While wind can affect a ball's motion, it is not the primary force causing the ball to come back down. Wind direction can vary and may even push the ball upward."
+                },
+                {
+                    "text": "Gravity",
                     "isCorrect": 1,
-                    "explanation": "Friction is the opposing force that acts between the car's wheels and the floor, gradually slowing the car until it stops."
+                    "explanation": "Gravity is the invisible force that pulls objects toward Earth's center, causing the ball to slow down as it rises and eventually fall back down."
                 },
                 {
-                    "text": "The car runs out of momentum",
+                    "text": "Magnetism",
                     "isCorrect": 0,
-                    "explanation": "Momentum doesn't 'run out' - it changes due to forces acting on an object. Objects don't stop moving on their own."
-                },
-                {
-                    "text": "Gravity pulls the car down but not forward",
-                    "isCorrect": 0,
-                    "explanation": "While gravity does pull the car down, it's not the main reason the car stops moving forward on a level surface."
+                    "explanation": "Magnetic forces only affect magnetic materials and are not responsible for making objects fall back to Earth."
                 }
             ],
-            "funFact": "In space, where there is virtually no friction or air resistance, objects can continue moving indefinitely without slowing down. This is why satellites can orbit Earth for years without using fuel to maintain their speed!"
+            "funFact": "The force of gravity is actually never zero no matter how high you go! It just gets weaker the further you get from Earth. Even astronauts in the International Space Station experience about 90% of Earth's surface gravity - they appear weightless because they are in constant free fall around the Earth."
         },
         {
             "id": 3,
+            "text": "A skydiver jumps from a plane and falls towards Earth. Initially, the skydiver accelerates downward, but eventually reaches a constant speed called terminal velocity. What best explains why the skydiver stops accelerating and maintains a constant speed?",
+            "options": [
+                {
+                    "text": "The upward force of air resistance becomes equal to the downward force of gravity",
+                    "isCorrect": 1,
+                    "explanation": "When air resistance equals gravity, the net force becomes zero, resulting in constant velocity according to Newton's First Law."
+                },
+                {
+                    "text": "The skydiver becomes lighter due to the altitude change",
+                    "isCorrect": 0,
+                    "explanation": "The skydiver's mass remains constant throughout the fall. Mass does not change with altitude."
+                },
+                {
+                    "text": "Air resistance eventually disappears at lower altitudes",
+                    "isCorrect": 0,
+                    "explanation": "Air resistance actually increases with speed and is greater at lower altitudes where the air is denser."
+                },
+                {
+                    "text": "The force of gravity gradually decreases as the skydiver gets closer to Earth",
+                    "isCorrect": 0,
+                    "explanation": "Gravity remains nearly constant throughout the fall. The change in gravitational force over the distance of a skydive is negligible."
+                }
+            ],
+            "funFact": "Terminal velocity varies based on a person's position and equipment. A skydiver falling belly-to-earth typically reaches a terminal velocity of about 120 mph, but in a head-down position can reach speeds over 180 mph!"
+        },
+        {
+            "id": 4,
             "text": "When you slide a heavy box across a wooden floor, it eventually comes to a stop. Which force is primarily responsible for slowing down and stopping the box?",
             "options": [
                 {
                     "text": "Friction",
                     "isCorrect": 1,
                     "explanation": "Friction is the force that occurs when two surfaces rub against each other. In this case, the friction between the box and the floor opposes the motion and causes the box to slow down and eventually stop."
+                },
+                {
+                    "text": "Inertia",
+                    "isCorrect": 0,
+                    "explanation": "Inertia is an object's resistance to change in motion, not a force. It doesn't cause objects to stop moving."
                 },
                 {
                     "text": "Gravity",
@@ -74,73 +101,127 @@
                     "text": "Air resistance",
                     "isCorrect": 0,
                     "explanation": "While air resistance can affect moving objects, for a box sliding on the floor, its effect is minimal compared to the friction between the box and floor surface."
-                },
-                {
-                    "text": "Inertia",
-                    "isCorrect": 0,
-                    "explanation": "Inertia is an object's resistance to change in motion, not a force. It doesn't cause objects to stop moving."
                 }
             ],
             "funFact": "Ice skaters can glide so smoothly because ice has a very low coefficient of friction. A thin layer of water forms between the skate blade and the ice, creating an almost frictionless surface!"
         },
         {
-            "id": 4,
-            "text": "A crash test engineer is designing safety features for a new car model. Which aspect of Newton's Laws of Motion would be most important for the engineer to consider when determining the optimal placement of airbags?",
-            "options": [
-                {
-                    "text": "For every collision force on a passenger, there is an equal and opposite reaction force",
-                    "isCorrect": 1,
-                    "explanation": "Understanding that collision forces have equal and opposite reactions helps engineers place airbags where they can best counteract impact forces on passengers."
-                },
-                {
-                    "text": "Heavier objects require more force to move them",
-                    "isCorrect": 0,
-                    "explanation": "While mass affects motion, the equal and opposite reaction forces in collisions are more crucial for airbag placement than the force needed to move objects."
-                },
-                {
-                    "text": "Objects in motion stay in motion unless acted upon by a force",
-                    "isCorrect": 0,
-                    "explanation": "Though this explains why passengers continue moving during a crash, it doesn't directly help determine the best placement of safety features."
-                },
-                {
-                    "text": "Friction between objects causes them to slow down",
-                    "isCorrect": 0,
-                    "explanation": "While friction plays a role in crashes, the reaction forces during impact are more relevant for positioning safety devices like airbags."
-                }
-            ],
-            "funFact": "Modern cars can have up to 10 different airbags in various locations, including front airbags, side airbags, knee airbags, and curtain airbags, all precisely positioned based on collision physics research."
-        },
-        {
             "id": 5,
-            "text": "A car manufacturer wants to design a new airbag system to protect passengers during collisions. Which principle best explains how airbags help reduce injury during a car crash?",
+            "text": "A toy car rolling across a smooth floor eventually comes to a stop. What is the main reason for this?",
             "options": [
                 {
-                    "text": "Airbags provide an extended time and distance over which the passenger's forward motion is stopped, reducing the force of impact",
+                    "text": "The car runs out of momentum",
+                    "isCorrect": 0,
+                    "explanation": "Momentum doesn't 'run out' - it changes due to forces acting on an object. Objects don't stop moving on their own."
+                },
+                {
+                    "text": "The car's batteries run out",
+                    "isCorrect": 0,
+                    "explanation": "The car's motion is not powered by batteries in this scenario - it's simply rolling."
+                },
+                {
+                    "text": "Gravity pulls the car down but not forward",
+                    "isCorrect": 0,
+                    "explanation": "While gravity does pull the car down, it's not the main reason the car stops moving forward on a level surface."
+                },
+                {
+                    "text": "Friction between the car's wheels and the floor",
                     "isCorrect": 1,
-                    "explanation": "Correct! Airbags work by extending the time and distance over which the collision occurs, which reduces the force experienced by the passenger according to Newton's laws of motion."
-                },
-                {
-                    "text": "Airbags completely prevent any force from being transferred to the passenger during collision",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. According to Newton's third law, forces cannot be completely prevented during a collision - they can only be managed to reduce injury."
-                },
-                {
-                    "text": "Airbags work by making the car heavier so it won't move as much during impact",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. Airbags don't work by changing the car's mass - they work by managing the forces during collision through extended deceleration time."
-                },
-                {
-                    "text": "Airbags eliminate the need for seatbelts because they fully protect the passenger",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. Airbags are designed to work together with seatbelts as part of a complete safety system, not replace them."
+                    "explanation": "Friction is the opposing force that acts between the car's wheels and the floor, gradually slowing the car until it stops."
                 }
             ],
-            "funFact": "Modern airbags deploy in just 1/25th of a second - faster than the blink of an eye! They use sensors that can detect a collision and trigger a chemical reaction to rapidly inflate the airbag with nitrogen gas."
+            "funFact": "In space, where there is virtually no friction or air resistance, objects can continue moving indefinitely without slowing down. This is why satellites can orbit Earth for years without using fuel to maintain their speed!"
         },
         {
             "id": 6,
+            "text": "When a basketball bounces off the gymnasium floor, which statement correctly describes the forces involved during the impact?",
+            "options": [
+                {
+                    "text": "Only the ball exerts a force downward, and the floor simply stops the ball's motion",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - the floor must exert an upward force on the ball. A force is required to change the ball's motion, and this force must be equal and opposite to the ball's force"
+                },
+                {
+                    "text": "The floor exerts a larger upward force than the downward force of the ball, which is why the ball bounces back up",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - the forces are equal in magnitude even though the ball bounces up. The bounce occurs due to the elastic properties of the ball, not because of unequal forces"
+                },
+                {
+                    "text": "The floor exerts an upward force on the ball that is equal in magnitude but opposite in direction to the downward force the ball exerts on the floor",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes Newton's Third Law in action during the ball's bounce - the forces between the ball and floor are equal in magnitude but opposite in direction"
+                },
+                {
+                    "text": "The ball exerts a greater downward force than the upward force from the floor because gravity is helping the ball",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - while gravity does pull the ball down, the forces between the ball and floor during impact are equal and opposite according to Newton's Third Law"
+                }
+            ],
+            "funFact": "Super balls can bounce up to 90% of their original drop height due to their highly elastic material. This remarkable bounce occurs even though the forces between the ball and ground during impact are exactly equal!"
+        },
+        {
+            "id": 7,
+            "text": "A large truck weighing 5000 kg collides with a small car weighing 1000 kg. During the collision, which statement about the forces between the vehicles is correct?",
+            "options": [
+                {
+                    "text": "The car exerts a larger force on the truck than the truck exerts on the car",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The mass difference does not affect the magnitude of the forces - they are equal but in opposite directions according to Newton's Third Law."
+                },
+                {
+                    "text": "The truck and car exert equal forces on each other in opposite directions",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Newton's Third Law states that for every action force, there is an equal and opposite reaction force. The forces between colliding objects are always equal in magnitude regardless of their masses."
+                },
+                {
+                    "text": "The truck exerts a larger force on the car than the car exerts on the truck",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. According to Newton's Third Law, the forces between interacting objects are always equal in magnitude but opposite in direction, regardless of their masses."
+                },
+                {
+                    "text": "Neither vehicle exerts a force on the other during the collision",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. During a collision, both objects exert forces on each other according to Newton's Third Law."
+                }
+            ],
+            "funFact": "The principle of equal and opposite forces is used in designing automotive crumple zones - special areas of a vehicle designed to absorb energy during a collision by controlled deformation, helping protect passengers regardless of the size of the vehicles involved."
+        },
+        {
+            "id": 8,
+            "text": "A spacecraft engineer is designing a shield to protect a satellite from space debris impacts. The shield consists of multiple thin layers of aluminum with small gaps between them. How does this design help protect the satellite based on Newton's Third Law?",
+            "options": [
+                {
+                    "text": "The multiple layers convert the impact force into heat energy, allowing the shield to absorb the collision",
+                    "isCorrect": 0,
+                    "explanation": "While heat is generated during impact, this is not the primary protective mechanism. This explanation misses the key aspect of force distribution across layers."
+                },
+                {
+                    "text": "The gaps between layers create air pockets that cushion the impact through compression",
+                    "isCorrect": 0,
+                    "explanation": "In space, there is no air in the gaps to provide cushioning. This explanation incorrectly applies Earth-based concepts to space conditions."
+                },
+                {
+                    "text": "Each layer creates an equal and opposite reaction force, spreading the impact across multiple collisions and reducing penetration",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Following Newton's Third Law, each layer creates a reaction force, distributing the initial impact force across multiple smaller collisions, effectively reducing the penetrating power of debris."
+                },
+                {
+                    "text": "The aluminum layers become stronger when struck due to the equal and opposite reaction",
+                    "isCorrect": 0,
+                    "explanation": "This misinterprets Newton's Third Law. The material properties of aluminum do not change during impact - the protection comes from force distribution, not material strengthening."
+                }
+            ],
+            "funFact": "The International Space Station's shields use this multi-layer principle, known as the Whipple shield design. When tiny debris traveling at up to 17,500 mph hits the first layer, it vaporizes and spreads out, making it less likely to penetrate subsequent layers!"
+        },
+        {
+            "id": 9,
             "text": "Two cars of equal mass collide head-on at the same speed. During the collision, Car A exerts a force of 10,000 Newtons on Car B. What force does Car B exert on Car A?",
             "options": [
+                {
+                    "text": "10,000 Newtons in the same direction",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While the magnitude is correct, the reaction force must be in the opposite direction to the action force according to Newton's Third Law."
+                },
                 {
                     "text": "10,000 Newtons in the opposite direction",
                     "isCorrect": 1,
@@ -152,11 +233,6 @@
                     "explanation": "This is incorrect. The reaction force is not half of the action force. The forces must be equal in magnitude according to Newton's Third Law."
                 },
                 {
-                    "text": "10,000 Newtons in the same direction",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While the magnitude is correct, the reaction force must be in the opposite direction to the action force according to Newton's Third Law."
-                },
-                {
                     "text": "20,000 Newtons in the opposite direction",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. The reaction force is not double the action force. The forces must be exactly equal in magnitude according to Newton's Third Law."
@@ -165,181 +241,90 @@
             "funFact": "A real-world application of Newton's Third Law can be seen in modern car design. Crumple zones in cars are specifically engineered to extend the collision time, which reduces the force of impact and helps protect passengers. This is why modern cars are designed to crumple in specific ways during collisions!"
         },
         {
-            "id": 7,
-            "text": "A space agency is designing a new spacecraft that needs protection from meteor impacts. Which modification would best protect the spacecraft based on Newton's Third Law of Motion?",
-            "options": [
-                {
-                    "text": "Install thick metal plates that can absorb the impact force from meteors",
-                    "isCorrect": 0,
-                    "explanation": "While metal plates provide protection, they don't effectively manage the equal and opposite reaction forces from Newton's Third Law. When a meteor strikes, the concentrated reaction force can damage the spacecraft structure behind the plate."
-                },
-                {
-                    "text": "Design a layered shield system that distributes and redirects the impact force",
-                    "isCorrect": 1,
-                    "explanation": "This design accounts for Newton's Third Law by distributing the equal and opposite reaction forces across multiple layers and over time. When a meteor strikes, each layer absorbs and redistributes some of the impact force, allowing the spacecraft to better manage the reaction forces without structural failure."
-                },
-                {
-                    "text": "Make the spacecraft as light as possible to dodge meteors quickly",
-                    "isCorrect": 0,
-                    "explanation": "This focuses on avoiding impacts rather than addressing Newton's Third Law. If an impact occurs, a lighter spacecraft would actually experience greater acceleration from the equal and opposite reaction force, potentially causing more damage."
-                },
-                {
-                    "text": "Cover the spacecraft with rubber coating to bounce meteors away",
-                    "isCorrect": 0,
-                    "explanation": "This option doesn't effectively manage the equal and opposite reaction forces described by Newton's Third Law. While it might bounce meteors away, the sudden change in momentum would still transfer significant reaction force to the spacecraft structure."
-                }
-            ],
-            "funFact": "The International Space Station's shield system uses multiple layers of material separated by space, known as the 'Whipple shield.' When a micrometeoroid hits the first layer, it creates a plasma cloud that disperses across subsequent layers, significantly reducing impact damage."
-        },
-        {
-            "id": 8,
-            "text": "Engineers are designing a docking system for two spacecraft that need to connect in orbit. When the spacecraft dock, they will collide with each other. Which solution would best manage the forces during docking while following Newton's Third Law?",
-            "options": [
-                {
-                    "text": "Install shock absorbers on only the approaching spacecraft to absorb the impact force",
-                    "isCorrect": 0,
-                    "explanation": "This solution ignores Newton's Third Law - both spacecraft experience equal and opposite forces during collision, so protecting only one wouldn't effectively manage the impact."
-                },
-                {
-                    "text": "Install identical shock absorption systems on both spacecraft that work together during docking",
-                    "isCorrect": 1,
-                    "explanation": "This correctly applies Newton's Third Law by acknowledging that both spacecraft experience equal and opposite forces, and manages these forces symmetrically on both vehicles."
-                },
-                {
-                    "text": "Make one spacecraft completely rigid while the other has all the cushioning mechanisms",
-                    "isCorrect": 0,
-                    "explanation": "This doesn't account for the equal and opposite forces experienced by both spacecraft during collision, potentially leading to damage to the rigid spacecraft."
-                },
-                {
-                    "text": "Design the approaching spacecraft to slow down to zero velocity just before contact",
-                    "isCorrect": 0,
-                    "explanation": "Even at very slow speeds, the collision will still produce equal and opposite forces that need to be managed. Simply reducing speed doesn't address the force management needed."
-                }
-            ],
-            "funFact": "The International Space Station uses a sophisticated docking system called the International Docking Standard (IDS) that includes spring-loaded shock absorbers and dampening systems on both the station and approaching spacecraft to safely manage docking forces."
-        },
-        {
-            "id": 9,
-            "text": "A car manufacturer is developing a new safety system for their vehicles. Which of the following designs best demonstrates the application of Newton's Third Law while being practical and cost-effective for most consumers?",
-            "options": [
-                {
-                    "text": "A system of multiple airbags strategically placed throughout the vehicle that deploy upon impact",
-                    "isCorrect": 1,
-                    "explanation": "This solution effectively uses Newton's Third Law by distributing the equal and opposite force of impact across multiple points, reducing injury risk, while being a practical and affordable solution for mass production."
-                },
-                {
-                    "text": "A complex external spring system that completely surrounds the vehicle",
-                    "isCorrect": 0,
-                    "explanation": "While this would absorb collision forces, it's impractical for everyday use, expensive to produce, and would make the vehicle too large for normal roads."
-                },
-                {
-                    "text": "A thick solid steel frame that adds 2000 pounds to the vehicle's weight",
-                    "isCorrect": 0,
-                    "explanation": "Though this would provide protection, the added weight would make the vehicle less fuel efficient and more expensive, while not effectively managing the forces during collision."
-                },
-                {
-                    "text": "A sophisticated computer system that predicts and avoids all possible collisions",
-                    "isCorrect": 0,
-                    "explanation": "While collision avoidance is valuable, this system alone doesn't address the forces during an actual collision and would be prohibitively expensive for most consumers."
-                }
-            ],
-            "funFact": "The first patent for an automotive airbag was filed in 1953 by John Hetrick after a near-accident made him think about ways to protect his family during car crashes. Modern airbags deploy in just 1/25th of a second after impact!"
-        },
-        {
             "id": 10,
-            "text": "A sports equipment company is designing a new football helmet to better protect players during collisions. Which of the following design features would best apply Newton's Third Law to reduce the impact force on a player's head?",
+            "text": "Modern cars are equipped with airbags that deploy during collisions to protect passengers. How do airbags use Newton's Third Law to reduce injury during a car crash?",
             "options": [
                 {
-                    "text": "A single-layer hard plastic shell that transfers the full force of impact directly",
+                    "text": "Airbags push passengers backward with more force than they are moving forward",
                     "isCorrect": 0,
-                    "explanation": "A hard shell alone would transfer the full collision force to the player's head, not helping to reduce the impact through equal and opposite forces."
+                    "explanation": "This violates Newton's Third Law, which states that forces always come in equal and opposite pairs. The airbag cannot push back with more force than it receives."
                 },
                 {
-                    "text": "Multiple layers of padding that compress and expand during impact",
+                    "text": "Airbags gradually increase the time of impact, reducing the force experienced by passengers while providing an equal and opposite reaction to their forward motion",
                     "isCorrect": 1,
-                    "explanation": "The layered padding system uses Newton's Third Law principles by extending the time period over which the equal and opposite forces act during collision. By compressing and expanding, it increases the time of impact, thereby reducing the peak force experienced by the player's head."
+                    "explanation": "This correctly applies Newton's Third Law. The airbag provides an opposite force to the passenger's forward motion, but by increasing the time of collision, it reduces the overall force experienced."
                 },
                 {
-                    "text": "A lightweight design that allows the head to move freely during impact",
+                    "text": "Airbags completely stop all forces acting on the passengers during a collision",
                     "isCorrect": 0,
-                    "explanation": "Allowing free head movement during collision could increase risk of injury and doesn't effectively use Newton's Third Law to manage impact forces."
+                    "explanation": "This is incorrect. Forces cannot be completely stopped during a collision - they can only be managed. According to Newton's Third Law, there will always be equal and opposite forces."
                 },
                 {
-                    "text": "A rigid metal frame that prevents any movement during collision",
+                    "text": "Airbags eliminate the need for seatbelts by absorbing all collision forces",
                     "isCorrect": 0,
-                    "explanation": "A completely rigid frame would not allow for the distribution of forces through equal and opposite reactions, potentially increasing injury risk."
+                    "explanation": "This is incorrect and dangerous thinking. Airbags work together with seatbelts - they don't replace them. Both use Newton's Third Law in different ways to protect passengers."
                 }
             ],
-            "funFact": "Modern football helmets can reduce the force of impact by up to 80% through their advanced padding systems and energy-absorbing materials, similar to how car airbags work to protect passengers during collisions."
+            "funFact": "The first patent for an automobile airbag was filed in 1953 by John Hetrick after a near accident made him think about ways to protect his family during car crashes. Modern airbags deploy and fully inflate in just 1/25th of a second!"
         },
         {
             "id": 11,
-            "text": "Two cars collide head-on - a small compact car and a large SUV. Even though the SUV causes more damage to the compact car, Newton's Third Law tells us something important about the forces in this collision. Which statement correctly describes the forces between these vehicles during the collision?",
+            "text": "During a car collision, an airbag rapidly inflates to protect the passenger. Which statement correctly describes how Newton's Third Law applies to the interaction between the airbag and the passenger?",
             "options": [
                 {
-                    "text": "The force exerted by each vehicle on the other is exactly equal in magnitude but opposite in direction",
+                    "text": "Only the passenger experiences a force while the airbag just provides cushioning",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly suggests one-way force transfer. Both the airbag and passenger must experience forces according to Newton's Third Law"
+                },
+                {
+                    "text": "The airbag exerts a force on the passenger, and the passenger exerts an equal and opposite force on the airbag",
                     "isCorrect": 1,
-                    "explanation": "Correct! According to Newton's Third Law, for every action force there is an equal and opposite reaction force. Even though the SUV causes more damage due to its greater mass, the force it exerts on the compact car is equal in magnitude to the force the compact car exerts back on it."
+                    "explanation": "This correctly describes Newton's Third Law - when the airbag pushes on the passenger, the passenger pushes back with equal force in the opposite direction"
                 },
                 {
-                    "text": "The SUV exerts a greater force on the compact car than the compact car exerts on the SUV",
+                    "text": "The airbag absorbs all the force of impact, so the passenger experiences no force",
                     "isCorrect": 0,
-                    "explanation": "While the SUV may cause more damage due to its greater mass, the forces during collision are equal in magnitude. The different outcomes are due to the masses of the vehicles, not different force magnitudes."
+                    "explanation": "Forces cannot be completely absorbed - they are transferred. The passenger and airbag still experience equal and opposite forces"
                 },
                 {
-                    "text": "The force depends on which vehicle was moving faster before the collision",
+                    "text": "The airbag exerts a larger force on the passenger than the passenger exerts on the airbag",
                     "isCorrect": 0,
-                    "explanation": "The initial speeds affect the collision's impact but not the equality of the forces during collision. Newton's Third Law states the forces are equal regardless of the vehicles' initial motion."
-                },
-                {
-                    "text": "The forces are equal only if both vehicles have the same mass",
-                    "isCorrect": 0,
-                    "explanation": "The equality of forces in Newton's Third Law holds true regardless of the masses involved. The different masses explain why the smaller car experiences more damage, not different forces."
+                    "explanation": "This contradicts Newton's Third Law - the forces between two interacting objects are always equal in magnitude but opposite in direction"
                 }
             ],
-            "funFact": "This principle of equal and opposite forces is why astronauts use thrusters to move in space - as the thruster pushes gas one way, the gas pushes back on the spacecraft with equal force in the opposite direction!"
+            "funFact": "Modern airbags deploy in just 1/25th of a second - faster than the blink of an eye! They use a chemical reaction to rapidly produce nitrogen gas, inflating at speeds up to 200 mph to protect passengers during a collision."
         },
         {
             "id": 12,
-            "text": "A football equipment designer is developing new protective shoulder pads. When a player wearing these pads collides with another player, what principle of physics should the designer primarily consider to maximize safety?",
+            "text": "In modern cars, the front and rear sections are designed to crumple during collisions. How do these 'crumple zones' help protect passengers during a car crash?",
             "options": [
                 {
-                    "text": "For every force of impact on the shoulder pads, there will be an equal and opposite force on the player's body, so the pads should be designed to distribute this force over a larger area",
+                    "text": "They increase the time over which the collision force acts, reducing the impact force on passengers",
                     "isCorrect": 1,
-                    "explanation": "This correctly applies Newton's Third Law. When players collide, the equal and opposite forces can be dangerous, but distributing the force over a larger area reduces the impact at any single point."
+                    "explanation": "Crumple zones extend the duration of the collision by deforming, which reduces the force experienced by passengers according to Newton's laws of motion."
                 },
                 {
-                    "text": "The shoulder pads should be made as rigid as possible to completely block all forces from reaching the player",
+                    "text": "They transfer all collision forces to the other vehicle",
                     "isCorrect": 0,
-                    "explanation": "Completely blocking forces is impossible. According to Newton's Third Law, the force will still be transmitted - rigid pads might actually concentrate the force dangerously."
+                    "explanation": "According to Newton's third law, forces in a collision cannot be completely transferred - they are equal and opposite between objects."
                 },
                 {
-                    "text": "The pads should be designed to absorb all the energy from the collision so no force reaches the player",
+                    "text": "They make the car bounce back more strongly after impact",
                     "isCorrect": 0,
-                    "explanation": "While absorption helps, it's impossible to prevent all force from reaching the player. Newton's Third Law states there will always be an equal and opposite reaction force."
+                    "explanation": "The purpose of crumple zones is to absorb energy, not to create a stronger bounce-back effect."
                 },
                 {
-                    "text": "The pads should be designed to reflect the impact force back to the opposing player",
+                    "text": "They completely eliminate all forces during the collision",
                     "isCorrect": 0,
-                    "explanation": "Reflecting force back would be dangerous for both players. The goal should be to manage the equal and opposite forces safely, not redirect them."
+                    "explanation": "Forces cannot be eliminated during a collision - they can only be reduced and managed according to Newton's third law."
                 }
             ],
-            "funFact": "Modern football helmets contain sophisticated sensors that can measure and record the force of impacts during games. This data helps researchers better understand collision forces and design safer equipment."
+            "funFact": "The concept of crumple zones was first patented by Mercedes-Benz engineer B\u00e9la Bar\u00e9nyi in 1952, and it has since become one of the most important safety features in modern vehicles, saving countless lives through the practical application of Newton's laws of motion."
         },
         {
             "id": 13,
             "text": "Two skateboards collide: Skateboard A has a mass of 2 kg and Skateboard B has a mass of 4 kg. During the collision, Skateboard A exerts a force of 20 N on Skateboard B. What is the force that Skateboard B exerts on Skateboard A?",
             "options": [
-                {
-                    "text": "20 N in the opposite direction",
-                    "isCorrect": 1,
-                    "explanation": "According to Newton's Third Law, for every action there is an equal and opposite reaction. When Skateboard A exerts 20 N on B, Skateboard B must exert 20 N back on A in the opposite direction, regardless of their different masses."
-                },
-                {
-                    "text": "40 N in the opposite direction",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the force is not proportional to the mass ratio. Newton's Third Law states the forces must be equal in magnitude regardless of mass differences."
-                },
                 {
                     "text": "10 N in the opposite direction",
                     "isCorrect": 0,
@@ -349,41 +334,34 @@
                     "text": "20 N in the same direction",
                     "isCorrect": 0,
                     "explanation": "While the magnitude is correct, the direction is wrong. Newton's Third Law specifies that the reaction force must be in the opposite direction of the action force."
+                },
+                {
+                    "text": "20 N in the opposite direction",
+                    "isCorrect": 1,
+                    "explanation": "According to Newton's Third Law, for every action there is an equal and opposite reaction. When Skateboard A exerts 20 N on B, Skateboard B must exert 20 N back on A in the opposite direction, regardless of their different masses."
+                },
+                {
+                    "text": "40 N in the opposite direction",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the force is not proportional to the mass ratio. Newton's Third Law states the forces must be equal in magnitude regardless of mass differences."
                 }
             ],
             "funFact": "In space, astronauts use Newton's Third Law for movement! When they push off a wall, the wall pushes back with equal force, propelling them in the opposite direction. This is why astronauts can move around in zero gravity without traditional walking."
         },
         {
             "id": 14,
-            "text": "During a car collision, an airbag rapidly inflates to protect the passenger. Which statement correctly describes how Newton's Third Law applies to the interaction between the airbag and the passenger?",
-            "options": [
-                {
-                    "text": "The airbag exerts a force on the passenger, and the passenger exerts an equal and opposite force on the airbag",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes Newton's Third Law - when the airbag pushes on the passenger, the passenger pushes back with equal force in the opposite direction"
-                },
-                {
-                    "text": "The airbag exerts a larger force on the passenger than the passenger exerts on the airbag",
-                    "isCorrect": 0,
-                    "explanation": "This contradicts Newton's Third Law - the forces between two interacting objects are always equal in magnitude but opposite in direction"
-                },
-                {
-                    "text": "The airbag absorbs all the force of impact, so the passenger experiences no force",
-                    "isCorrect": 0,
-                    "explanation": "Forces cannot be completely absorbed - they are transferred. The passenger and airbag still experience equal and opposite forces"
-                },
-                {
-                    "text": "Only the passenger experiences a force while the airbag just provides cushioning",
-                    "isCorrect": 0,
-                    "explanation": "This incorrectly suggests one-way force transfer. Both the airbag and passenger must experience forces according to Newton's Third Law"
-                }
-            ],
-            "funFact": "Modern airbags deploy in just 1/25th of a second - faster than the blink of an eye! They use a chemical reaction to rapidly produce nitrogen gas, inflating at speeds up to 200 mph to protect passengers during a collision."
-        },
-        {
-            "id": 15,
             "text": "A spacecraft engineer is designing a protective shield to prevent damage from meteor impacts. Which application of Newton's Third Law would be most effective in reducing the force of impact between a meteor and the spacecraft?",
             "options": [
+                {
+                    "text": "Making the shield as light as possible to minimize collision forces",
+                    "isCorrect": 0,
+                    "explanation": "A very light shield would not provide enough resistance to properly distribute and absorb the impact forces from the meteor."
+                },
+                {
+                    "text": "Using a reflective surface to bounce the meteor away from the spacecraft",
+                    "isCorrect": 0,
+                    "explanation": "Simply reflecting the meteor would not effectively reduce the impact force and could potentially cause more damage due to the instantaneous force exchange."
+                },
                 {
                     "text": "Creating a rigid, solid metal shield that completely blocks the meteor's path",
                     "isCorrect": 0,
@@ -393,19 +371,36 @@
                     "text": "Designing a layered shield that gradually absorbs and distributes the impact force over time",
                     "isCorrect": 1,
                     "explanation": "Multiple layers spread out the equal and opposite reaction forces over a longer time period, reducing the intensity of impact at any single moment."
-                },
-                {
-                    "text": "Using a reflective surface to bounce the meteor away from the spacecraft",
-                    "isCorrect": 0,
-                    "explanation": "Simply reflecting the meteor would not effectively reduce the impact force and could potentially cause more damage due to the instantaneous force exchange."
-                },
-                {
-                    "text": "Making the shield as light as possible to minimize collision forces",
-                    "isCorrect": 0,
-                    "explanation": "A very light shield would not provide enough resistance to properly distribute and absorb the impact forces from the meteor."
                 }
             ],
             "funFact": "The International Space Station's shields use a 'Whipple shield' design - multiple layers of metal and Kevlar spaced apart that can protect against objects traveling up to 17,500 miles per hour, which is more than 10 times faster than a speeding bullet!"
+        },
+        {
+            "id": 15,
+            "text": "A rocket launches into space by expelling hot gases downward. Which statement correctly explains how Newton's Third Law makes the rocket move upward?",
+            "options": [
+                {
+                    "text": "The rocket pushes against the ground to move upward",
+                    "isCorrect": 0,
+                    "explanation": "Rockets don't need to push against the ground - they work in space where there is no ground. The upward motion comes from expelling gases downward"
+                },
+                {
+                    "text": "The downward force of the expelled gases results in an equal and opposite force pushing the rocket upward",
+                    "isCorrect": 1,
+                    "explanation": "This correctly applies Newton's Third Law - the downward action force of expelled gases creates an equal and opposite reaction force upward on the rocket"
+                },
+                {
+                    "text": "The rocket moves up because hot gases are lighter than air",
+                    "isCorrect": 0,
+                    "explanation": "The rocket's motion is not due to buoyancy of hot gases. It moves due to the reaction force created by expelling gases downward"
+                },
+                {
+                    "text": "The hot gases create air pressure below the rocket that lifts it up",
+                    "isCorrect": 0,
+                    "explanation": "While gases are involved, it's not air pressure that causes the upward motion - it's the equal and opposite reaction force from expelling gases downward"
+                }
+            ],
+            "funFact": "Rockets actually work better in space than in Earth's atmosphere! Without air resistance to slow them down, rockets can achieve much higher speeds using the same amount of fuel once they leave the atmosphere."
         }
     ]
 }

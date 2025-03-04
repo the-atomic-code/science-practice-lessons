@@ -17,14 +17,14 @@
                     "explanation": "While strong winds can create regular ocean waves, they do not create tsunamis. Tsunamis are caused by sudden displacements of large volumes of water."
                 },
                 {
-                    "text": "Changes in ocean temperature",
-                    "isCorrect": 0,
-                    "explanation": "Temperature changes in the ocean affect water density and currents but do not cause tsunamis. Tsunamis require a sudden, powerful displacement of water."
-                },
-                {
                     "text": "The gravitational pull of the moon",
                     "isCorrect": 0,
                     "explanation": "The moon's gravitational pull causes regular tides but does not create tsunamis. Tsunamis are caused by sudden geological events like underwater earthquakes."
+                },
+                {
+                    "text": "Changes in ocean temperature",
+                    "isCorrect": 0,
+                    "explanation": "Temperature changes in the ocean affect water density and currents but do not cause tsunamis. Tsunamis require a sudden, powerful displacement of water."
                 }
             ],
             "funFact": "The word 'tsunami' comes from Japanese, where 'tsu' means harbor and 'nami' means wave. Tsunamis can travel across the ocean at speeds of up to 500 miles per hour - as fast as a commercial jet airplane!"
@@ -33,11 +33,6 @@
             "id": 2,
             "text": "What is a key difference between how meteorologists predict tornadoes versus hurricanes?",
             "options": [
-                {
-                    "text": "Tornadoes are primarily predicted by analyzing local atmospheric conditions using radar and surface observations, while hurricanes can be tracked for days using satellite imagery as they develop over warm ocean waters",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. While both phenomena use multiple methods, meteorologists primarily analyze local atmospheric conditions for tornado prediction, while satellite systems can track hurricane formation and movement for days over warm tropical waters."
-                },
                 {
                     "text": "Tornadoes can only be predicted using radar, while hurricanes can only be predicted using wind speed measurements",
                     "isCorrect": 0,
@@ -52,180 +47,131 @@
                     "text": "Both tornadoes and hurricanes are predicted using exactly the same methods and technologies",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. While there is some overlap in prediction methods, tornadoes and hurricanes require different primary observation techniques due to their different formation processes and scales."
+                },
+                {
+                    "text": "Tornadoes are primarily predicted by analyzing local atmospheric conditions using radar and surface observations, while hurricanes can be tracked for days using satellite imagery as they develop over warm ocean waters",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. While both phenomena use multiple methods, meteorologists primarily analyze local atmospheric conditions for tornado prediction, while satellite systems can track hurricane formation and movement for days over warm tropical waters."
                 }
             ],
             "funFact": "The world's first weather satellite, TIROS-1, was launched in 1960. Today, sophisticated weather satellites can track hurricanes from their formation to dissipation, providing crucial data that has dramatically improved hurricane predictions and saved countless lives."
         },
         {
             "id": 3,
-            "text": "How do seismologists primarily use historical earthquake data to identify areas at high risk for future earthquakes?",
+            "text": "What happens when tectonic plates compress against each other beneath Earth's surface?",
             "options": [
                 {
-                    "text": "They analyze patterns of earthquake occurrence along plate boundaries",
+                    "text": "The plates bounce away from each other",
+                    "isCorrect": 0,
+                    "explanation": "Plates don't bounce away from each other during compression. Instead, they continue to press against each other until the rock breaks and releases energy."
+                },
+                {
+                    "text": "The plates melt into liquid form",
+                    "isCorrect": 0,
+                    "explanation": "Tectonic plate compression doesn't cause the plates to melt. While heat is involved in plate tectonics, the immediate effect of compression is rock breakage and energy release."
+                },
+                {
+                    "text": "The plates immediately form mountains",
+                    "isCorrect": 0,
+                    "explanation": "While mountain formation can occur due to plate compression, it's a very gradual process that takes millions of years. The immediate effect is rock breakage and energy release."
+                },
+                {
+                    "text": "Rock breaks and releases energy, causing the ground to shake",
                     "isCorrect": 1,
-                    "explanation": "Seismologists study past earthquake data to identify patterns along plate boundaries, where most earthquakes occur due to tectonic plate interactions."
-                },
-                {
-                    "text": "They measure current wind speeds and air pressure in different regions",
-                    "isCorrect": 0,
-                    "explanation": "Wind speeds and air pressure are used by meteorologists to predict weather events, not by seismologists to predict earthquakes."
-                },
-                {
-                    "text": "They only look at the most recent earthquake in an area",
-                    "isCorrect": 0,
-                    "explanation": "Looking at just one recent earthquake wouldn't provide enough data to identify patterns and make predictions about future earthquake risks."
-                },
-                {
-                    "text": "They rely solely on volcanic activity to predict earthquakes",
-                    "isCorrect": 0,
-                    "explanation": "While volcanic activity can be related to seismic activity, seismologists primarily study patterns of past earthquakes and plate boundaries to identify high-risk areas."
+                    "explanation": "When tectonic plates compress, they create stress that causes rocks to break. This breaking releases stored energy that travels through Earth as seismic waves, causing earthquakes."
                 }
             ],
-            "funFact": "The largest earthquake ever recorded was a magnitude 9.5 in Chile in 1960. The seismic waves from this earthquake traveled around the Earth multiple times, helping scientists better understand how seismic waves move through the planet's interior."
+            "funFact": "The largest earthquake ever recorded was a magnitude 9.5 in Chile in 1960. The energy released was so immense that it caused tsunamis as far away as Hawaii, Japan, and the Philippines!"
         },
         {
             "id": 4,
-            "text": "Which of the following best describes how hurricanes form and what are their key characteristics?",
+            "text": "Which of the following natural disasters can currently be predicted with reasonable accuracy through scientific methods?",
             "options": [
                 {
-                    "text": "They form over warm tropical waters, rotate rapidly, and produce high winds, heavy rain, and severe thunderstorms",
+                    "text": "Tsunamis and hurricanes",
+                    "isCorrect": 0,
+                    "explanation": "While hurricanes can be predicted using satellite technology, tsunamis are typically only detected after the underwater earthquake that causes them has already occurred."
+                },
+                {
+                    "text": "Earthquakes and tsunamis",
+                    "isCorrect": 0,
+                    "explanation": "Despite collecting data from past events, scientists have not yet developed reliable methods to predict exactly when and where earthquakes and their resulting tsunamis will occur."
+                },
+                {
+                    "text": "Volcanoes and earthquakes",
+                    "isCorrect": 0,
+                    "explanation": "While scientists can monitor volcanic activity, earthquakes remain largely unpredictable. The exact timing and location of earthquakes cannot yet be determined with current technology."
+                },
+                {
+                    "text": "Tornadoes and hurricanes",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes hurricane formation over warm tropical/subtropical waters and their main characteristics including rotation, high winds, heavy rainfall, and severe storms"
-                },
-                {
-                    "text": "They form over cold polar waters, move in straight lines, and primarily cause snow and ice storms",
-                    "isCorrect": 0,
-                    "explanation": "Hurricanes require warm waters to form, not cold polar waters. They rotate rather than move in straight lines, and cause rain and wind damage, not snow and ice"
-                },
-                {
-                    "text": "They form over land masses, are stationary weather systems, and mainly cause droughts",
-                    "isCorrect": 0,
-                    "explanation": "Hurricanes form over warm ocean waters, not land masses. They are mobile, not stationary, and cause rain and wind damage rather than droughts"
-                },
-                {
-                    "text": "They form when hot and cold air masses collide, creating a funnel cloud that touches the ground",
-                    "isCorrect": 0,
-                    "explanation": "This describes tornado formation, not hurricanes. Hurricanes form over warm ocean waters and are much larger rotating storm systems"
+                    "explanation": "Meteorologists can predict tornadoes by analyzing atmospheric conditions like wind speed and air pressure, while hurricanes can be tracked using satellite imaging over warm waters."
                 }
             ],
-            "funFact": "The word 'hurricane' comes from 'Hurakan', the ancient Mayan god of wind, storm, and fire. Different regions use different names for these storms - they're called typhoons in the Western Pacific and cyclones in the Indian Ocean and South Pacific."
+            "funFact": "The first tornado forecast was made on March 25, 1948, by U.S. Air Force officers Major Ernest Fawbush and Captain Robert Miller. Their successful prediction led to the development of modern tornado forecasting systems."
         },
         {
             "id": 5,
-            "text": "Which of the following weather conditions would a meteorologist analyze to predict the likelihood of a tornado forming?",
+            "text": "How do seismographs help scientists understand and study earthquakes?",
             "options": [
                 {
-                    "text": "Air pressure, wind speed, and temperature",
+                    "text": "They prevent earthquakes from causing damage to buildings",
+                    "isCorrect": 0,
+                    "explanation": "Seismographs are measurement instruments - they don't prevent earthquake damage. Building design and engineering techniques are what help reduce earthquake damage to structures."
+                },
+                {
+                    "text": "They stop tectonic plates from moving and colliding",
+                    "isCorrect": 0,
+                    "explanation": "Seismographs cannot stop or influence tectonic plate movement. They simply record the energy waves produced when plates interact and cause earthquakes."
+                },
+                {
+                    "text": "They predict exactly when and where earthquakes will occur",
+                    "isCorrect": 0,
+                    "explanation": "While seismographs are valuable tools, they cannot predict the exact timing and location of future earthquakes. They can only detect and measure earthquakes as they happen."
+                },
+                {
+                    "text": "They detect and measure the intensity of energy waves released during earthquakes",
                     "isCorrect": 1,
-                    "explanation": "Meteorologists analyze these key atmospheric conditions to predict tornado formation. Changes in air pressure, high wind speeds, and temperature differences between air masses are crucial indicators of potential tornado development."
-                },
-                {
-                    "text": "Ocean temperature and tidal patterns",
-                    "isCorrect": 0,
-                    "explanation": "Ocean conditions are more relevant for predicting hurricanes and tsunamis, not tornadoes. Tornadoes form from atmospheric conditions over land."
-                },
-                {
-                    "text": "Seismic activity and ground movement",
-                    "isCorrect": 0,
-                    "explanation": "Seismic activity relates to earthquakes, not tornadoes. Tornadoes are atmospheric events that don't have any direct connection to ground movements."
-                },
-                {
-                    "text": "Volcanic activity and ash dispersal",
-                    "isCorrect": 0,
-                    "explanation": "Volcanic conditions are not related to tornado formation. Tornadoes form from the interaction of different air masses in the atmosphere."
+                    "explanation": "Seismographs are designed to detect and measure the energy waves produced when rocks break beneath Earth's surface during an earthquake. This helps scientists understand the earthquake's intensity."
                 }
             ],
-            "funFact": "The most violent tornadoes can have wind speeds exceeding 300 miles per hour! These extreme winds are powerful enough to lift and throw vehicles like toys and can even strip the bark off trees."
+            "funFact": "The first modern seismograph was invented in 1880 by British scientist John Milne while he was working in Japan. His design was so effective that it remained the standard for earthquake measurement for many decades!"
         },
         {
             "id": 6,
-            "text": "Based on historical hurricane data from 1980-2020, which U.S. coastal region has shown the highest risk for severe hurricanes, considering factors like frequency of landfalls and storm intensity?",
+            "text": "A city planner is analyzing tornado data from different regions to determine where to allocate resources for building storm shelters. Which location would most benefit from the construction of tornado shelters based on the historical data?\n\nRegion A: 2-3 tornadoes per year, mostly EF1 intensity\nRegion B: 15-20 tornadoes per year, many EF3-EF5 intensity\nRegion C: 0-1 tornadoes per decade, mostly EF1 intensity\nRegion D: 5-6 tornadoes per year, mostly EF2 intensity",
             "options": [
                 {
-                    "text": "The Gulf Coast, which experiences the highest frequency of hurricane landfalls and some of the most intense storms in the U.S.",
+                    "text": "Region A",
+                    "isCorrect": 0,
+                    "explanation": "While Region A experiences regular tornadoes, their low frequency and intensity make it a lower priority for storm shelter construction compared to other regions."
+                },
+                {
+                    "text": "Region D",
+                    "isCorrect": 0,
+                    "explanation": "While Region D has moderate tornado activity, the frequency and intensity are not as severe as Region B, making it a lower priority for immediate storm shelter construction."
+                },
+                {
+                    "text": "Region B",
                     "isCorrect": 1,
-                    "explanation": "Correct! The Gulf Coast's warm waters and geography make it particularly vulnerable to hurricanes, resulting in both frequent landfalls and intense storms compared to other U.S. coastal regions."
+                    "explanation": "Region B would benefit most from storm shelters due to its high frequency of tornadoes and the presence of many high-intensity (EF3-EF5) tornadoes that pose significant risks to life and property."
                 },
                 {
-                    "text": "The Pacific Northwest Coast",
+                    "text": "Region C",
                     "isCorrect": 0,
-                    "explanation": "The Pacific Northwest typically experiences fewer hurricanes due to cooler water temperatures, making it less susceptible to severe hurricanes."
-                },
-                {
-                    "text": "The Mid-Atlantic Coast",
-                    "isCorrect": 0,
-                    "explanation": "While the Mid-Atlantic experiences hurricanes, the frequency and intensity are generally lower than the Gulf Coast region."
-                },
-                {
-                    "text": "The Southern California Coast",
-                    "isCorrect": 0,
-                    "explanation": "The Southern California Coast rarely experiences hurricanes due to cold water currents and atmospheric conditions that typically weaken tropical systems."
+                    "explanation": "Region C experiences very infrequent tornadoes (only 0-1 per decade) and they are of low intensity, making it the least priority for storm shelter construction."
                 }
             ],
-            "funFact": "The term 'hurricane' is used in the North Atlantic and Eastern Pacific, while these same storms are called 'typhoons' in the Western Pacific and 'cyclones' in the Indian Ocean and South Pacific!"
+            "funFact": "The Enhanced Fujita (EF) Scale, which replaced the original Fujita Scale in 2007, rates tornado intensity from EF0 to EF5 based on the damage caused. An EF5 tornado can have wind speeds over 200 mph and can lift and throw vehicles as heavy as 9,000 pounds!"
         },
         {
             "id": 7,
-            "text": "Scientists have collected data about volcanic activity in four different regions over the past century. Which data pattern would most strongly indicate that a region has the highest risk for future volcanic eruptions?",
-            "options": [
-                {
-                    "text": "Multiple small earthquakes occurring regularly, increasing steam vents, and ground deformation in the area",
-                    "isCorrect": 1,
-                    "explanation": "These precursor events are reliable indicators of potential volcanic activity, as they show ongoing geological activity and magma movement beneath the surface."
-                },
-                {
-                    "text": "The region experienced one major eruption 100 years ago with no activity since then",
-                    "isCorrect": 0,
-                    "explanation": "A single historic eruption without recent activity is not a strong indicator of future eruptions. Current geological activity is more relevant for predicting future events."
-                },
-                {
-                    "text": "The region has many dormant volcanoes but no recorded seismic activity",
-                    "isCorrect": 0,
-                    "explanation": "The presence of dormant volcanoes alone, without current geological activity, is not a strong indicator of imminent eruptions."
-                },
-                {
-                    "text": "The area experiences frequent rainfall and has steep volcanic mountains",
-                    "isCorrect": 0,
-                    "explanation": "Weather patterns and mountain shapes, while important for other hazards, are not primary indicators of future volcanic activity."
-                }
-            ],
-            "funFact": "The world's largest volcano, Mauna Loa in Hawaii, has a monitoring system that tracks over 200 earthquakes daily - these small tremors help scientists predict when an eruption might occur!"
-        },
-        {
-            "id": 8,
-            "text": "An architect is designing a new school building in an earthquake-prone region. Which combination of design features would best protect the building and its occupants during a major earthquake?",
-            "options": [
-                {
-                    "text": "Base isolation system with flexible foundations and reinforced steel frame construction",
-                    "isCorrect": 1,
-                    "explanation": "This combination provides the best protection by allowing the building to move with the earthquake while maintaining structural integrity. Base isolation absorbs seismic energy, flexible foundations reduce direct ground force transmission, and reinforced steel frames provide strength and flexibility."
-                },
-                {
-                    "text": "Rigid concrete foundation with glass walls and lightweight roof",
-                    "isCorrect": 0,
-                    "explanation": "This design would be dangerous during an earthquake. Rigid foundations can crack under seismic forces, glass walls are prone to shattering, and a lightweight roof without proper reinforcement could collapse."
-                },
-                {
-                    "text": "Wooden frame with standard concrete foundation and brick walls",
-                    "isCorrect": 0,
-                    "explanation": "While wooden frames can provide some flexibility, standard concrete foundations don't absorb seismic energy well, and brick walls can crumble during strong earthquakes, creating hazardous conditions."
-                },
-                {
-                    "text": "Steel frame with fixed base and unreinforced masonry walls",
-                    "isCorrect": 0,
-                    "explanation": "Although steel frames are strong, a fixed base doesn't absorb seismic energy well, and unreinforced masonry walls are particularly vulnerable to earthquake damage and collapse."
-                }
-            ],
-            "funFact": "The world's largest base isolation system is in Istanbul's Sabiha G\u00f6k\u00e7en International Airport, featuring 300 seismic isolators that can help the structure survive earthquakes up to magnitude 8.0!"
-        },
-        {
-            "id": 9,
             "text": "A city located in a region prone to both earthquakes and tornadoes needs to invest in an early warning system. Which of the following warning systems would be most effective for protecting the city's residents?",
             "options": [
                 {
-                    "text": "A system that uses atmospheric pressure sensors and wind speed monitors for tornado detection, combined with a network of seismographs for earthquake detection",
-                    "isCorrect": 1,
-                    "explanation": "This combined system is most effective because it addresses both threats. The atmospheric monitoring can provide advance warning for tornadoes (potentially hours ahead), while the seismograph network can provide short-notice alerts (seconds to minutes) before damaging earthquake waves arrive. Though earthquake warnings provide less lead time, they can still trigger automated safety responses and allow residents to take immediate protective actions."
+                    "text": "A system that monitors ocean temperatures and tidal patterns",
+                    "isCorrect": 0,
+                    "explanation": "This system monitors conditions related to tsunamis and hurricanes, which is not relevant for inland tornadoes and earthquakes."
                 },
                 {
                     "text": "A system that only uses seismographs to detect ground movements",
@@ -233,101 +179,128 @@
                     "explanation": "While seismographs detect earthquakes, they only do so as the earthquake is happening, providing very limited advance warning. This system would miss tornado threats entirely, leaving the community vulnerable to one of its major hazards."
                 },
                 {
-                    "text": "A system that monitors ocean temperatures and tidal patterns",
-                    "isCorrect": 0,
-                    "explanation": "This system monitors conditions related to tsunamis and hurricanes, which is not relevant for inland tornadoes and earthquakes."
-                },
-                {
                     "text": "A system that only uses satellite imagery to track cloud formations",
                     "isCorrect": 0,
                     "explanation": "While satellite imagery helps track storm systems that could lead to tornadoes, using this alone would miss other important atmospheric indicators and would not help with earthquake detection at all."
+                },
+                {
+                    "text": "A system that uses atmospheric pressure sensors and wind speed monitors for tornado detection, combined with a network of seismographs for earthquake detection",
+                    "isCorrect": 1,
+                    "explanation": "This combined system is most effective because it addresses both threats. The atmospheric monitoring can provide advance warning for tornadoes (potentially hours ahead), while the seismograph network can provide short-notice alerts (seconds to minutes) before damaging earthquake waves arrive. Though earthquake warnings provide less lead time, they can still trigger automated safety responses and allow residents to take immediate protective actions."
                 }
             ],
             "funFact": "The fastest tornado ever recorded reached wind speeds of 301 miles per hour during the 1999 Bridge Creek-Moore tornado in Oklahoma. This is more than twice the minimum speed needed for a tornado to be classified as an EF5, the highest category on the Enhanced Fujita Scale!"
         },
         {
-            "id": 10,
-            "text": "Two coastal cities are developing strategies to prepare for natural disasters. City A plans to install tsunami warning systems and build earthquake-resistant buildings, while City B focuses on hurricane shelters and flood control systems. Which city's approach better matches their likely natural hazard risks if City A is located on the Pacific Ring of Fire and City B is in the Caribbean?",
+            "id": 8,
+            "text": "Analysis of historical tsunami data shows that Region A experiences oceanic earthquakes every 10-15 years with magnitude 7.0+, Region B has had two magnitude 6.0 earthquakes in the past century, and Region C faces frequent magnitude 8.0+ earthquakes every 5-7 years. Based on this data, which coastal region should prioritize implementing an advanced tsunami early warning system?",
             "options": [
                 {
-                    "text": "Both cities have equally appropriate strategies for their locations",
+                    "text": "Region B",
+                    "isCorrect": 0,
+                    "explanation": "Region B has the lowest frequency (only two in the past century) and lowest magnitude (6.0) earthquakes, putting it at the lowest risk for tsunamis among the three regions."
+                },
+                {
+                    "text": "Region C",
                     "isCorrect": 1,
-                    "explanation": "City A's focus on tsunamis and earthquakes is appropriate for the Pacific Ring of Fire, where tectonic plate activity is common. City B's hurricane and flood preparation suits the Caribbean, which frequently experiences tropical storms."
+                    "explanation": "Region C experiences the most frequent and highest magnitude earthquakes (8.0+ every 5-7 years), putting it at the greatest risk for devastating tsunamis. This makes it the highest priority for implementing an early warning system."
                 },
                 {
-                    "text": "City A should focus on hurricanes instead of earthquakes",
+                    "text": "All regions equally",
                     "isCorrect": 0,
-                    "explanation": "The Pacific Ring of Fire experiences frequent seismic activity, making earthquake preparation essential. Switching focus to hurricanes would leave the city vulnerable to its most likely natural hazards."
+                    "explanation": "Limited resources require prioritization based on risk levels. With significantly more frequent and powerful earthquakes, Region C clearly needs more immediate attention than the other regions."
                 },
                 {
-                    "text": "City B should prepare for tsunamis instead of hurricanes",
+                    "text": "Region A",
                     "isCorrect": 0,
-                    "explanation": "The Caribbean region faces greater risk from hurricanes than tsunamis. While tsunamis can occur anywhere, the region's location and weather patterns make hurricanes a more frequent and significant threat."
-                },
-                {
-                    "text": "Both cities should focus only on flood control systems",
-                    "isCorrect": 0,
-                    "explanation": "While flooding can affect both locations, each city faces distinct natural hazard risks. Focusing solely on flood control would leave them vulnerable to other significant regional threats."
+                    "explanation": "While Region A experiences regular earthquakes (7.0+ every 10-15 years), their frequency and magnitude are lower than Region C, making it a second priority for early warning system implementation."
                 }
             ],
-            "funFact": "The Pacific Ring of Fire, where about 90% of the world's earthquakes occur, is shaped like a horseshoe and stretches 25,000 miles from South America to New Zealand. This region experiences such frequent seismic activity because it contains over 75% of the Earth's active volcanoes!"
+            "funFact": "The first tsunami warning system was established in 1949 in Hawaii after a devastating 1946 tsunami. Today, the Pacific Tsunami Warning System includes over 26 participating countries and monitors seismic activity through hundreds of stations across the Pacific Ocean."
+        },
+        {
+            "id": 9,
+            "text": "A coastal city experiences both earthquakes and tsunamis. Based on scientific data analysis, which combination of preparation measures would be most appropriate for this city?",
+            "options": [
+                {
+                    "text": "Install only tsunami warning systems since tsunamis are more dangerous in coastal areas",
+                    "isCorrect": 0,
+                    "explanation": "Both earthquakes and tsunamis can cause significant damage in coastal areas. Ignoring earthquake monitoring would leave the city vulnerable to earthquake damage."
+                },
+                {
+                    "text": "Install only seismographs since monitoring earthquakes will be sufficient to predict both disasters",
+                    "isCorrect": 0,
+                    "explanation": "While seismographs help monitor earthquakes, they alone cannot effectively predict tsunamis. Ocean floor sensors are needed for tsunami detection."
+                },
+                {
+                    "text": "Install seismographs to monitor earthquake activity and implement a tsunami warning system connected to ocean floor sensors",
+                    "isCorrect": 1,
+                    "explanation": "This is the most comprehensive approach since earthquakes on the ocean floor can trigger tsunamis. Having both monitoring systems allows for better prediction and preparation for both disasters."
+                },
+                {
+                    "text": "Focus only on building reinforcement since prevention is better than prediction",
+                    "isCorrect": 0,
+                    "explanation": "While strong buildings are important, early warning systems are crucial for evacuation and emergency response. Both structural and monitoring measures are needed."
+                }
+            ],
+            "funFact": "The Pacific Tsunami Warning System, established in 1949, is a network of seismic and tidal stations throughout the Pacific Ocean that can detect tsunamigenic earthquakes and confirm the generation of tsunamis within minutes of their occurrence."
+        },
+        {
+            "id": 10,
+            "text": "A city wants to implement an early warning system for severe weather events. Which combination of monitoring technologies would be most effective for predicting both tornadoes and hurricanes?",
+            "options": [
+                {
+                    "text": "Seismographs and temperature sensors",
+                    "isCorrect": 0,
+                    "explanation": "These tools are not appropriate for predicting either tornadoes or hurricanes. Seismographs measure ground movement for earthquakes, while temperature alone cannot predict storm formation."
+                },
+                {
+                    "text": "Weather radar and air pressure sensors",
+                    "isCorrect": 0,
+                    "explanation": "While these tools are excellent for tornado prediction by detecting wind patterns and pressure changes, they are insufficient for tracking hurricanes which require broader monitoring over ocean waters."
+                },
+                {
+                    "text": "Satellite imaging and ocean buoys",
+                    "isCorrect": 0,
+                    "explanation": "While useful for hurricane tracking over oceans, this combination lacks the ability to detect local atmospheric conditions needed for tornado prediction."
+                },
+                {
+                    "text": "Satellite imaging and weather radar",
+                    "isCorrect": 1,
+                    "explanation": "This combination is ideal as satellites can track hurricane formation over warm ocean waters while radar can detect local wind patterns and conditions that lead to tornadoes."
+                }
+            ],
+            "funFact": "The first weather satellite, TIROS-1, was launched in 1960. Today, we have a network of over 100 weather satellites orbiting Earth, providing crucial data that has improved hurricane prediction accuracy by about 50% in the past 25 years!"
         },
         {
             "id": 11,
-            "text": "Which type of natural disaster prediction method typically provides the most reliable forecasting capabilities?",
+            "text": "How do tornadoes and earthquakes differ in terms of their predictability?",
             "options": [
                 {
-                    "text": "Hurricane tracking using satellite imagery",
+                    "text": "Neither tornadoes nor earthquakes can be predicted with any accuracy",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because tornadoes can often be predicted through weather data analysis, even though earthquakes remain difficult to forecast"
+                },
+                {
+                    "text": "Tornadoes can be forecasted using weather data while earthquakes cannot yet be accurately predicted",
                     "isCorrect": 1,
-                    "explanation": "Hurricanes can be tracked reliably using satellite systems that monitor warm water conditions and storm formation in tropical and subtropical areas, providing advance warning of several days."
+                    "explanation": "Meteorologists can predict tornadoes by analyzing air pressure, wind speed, and temperature, while seismologists cannot yet accurately determine when and where earthquakes will occur despite studying past data"
                 },
                 {
-                    "text": "Earthquake prediction using seismographs",
+                    "text": "Earthquakes can be predicted precisely while tornadoes are unpredictable",
                     "isCorrect": 0,
-                    "explanation": "While seismographs can detect earthquakes as they occur, they cannot yet reliably predict when and where future earthquakes will happen, making this method less reliable for forecasting."
+                    "explanation": "This is the opposite of reality - tornadoes can be predicted through weather data while earthquakes cannot yet be precisely forecast"
                 },
                 {
-                    "text": "Volcanic eruption prediction using ground deformation",
+                    "text": "Both tornadoes and earthquakes can be accurately predicted using modern technology",
                     "isCorrect": 0,
-                    "explanation": "While volcanic activity can show some warning signs, the exact timing and magnitude of eruptions remain difficult to predict with high reliability."
-                },
-                {
-                    "text": "Tsunami prediction using ocean sensors",
-                    "isCorrect": 0,
-                    "explanation": "Tsunami predictions are largely dependent on detecting earthquakes that have already occurred, giving very short warning times and making long-term forecasting difficult."
+                    "explanation": "While modern technology helps predict tornadoes, earthquakes remain largely unpredictable even with advanced scientific instruments"
                 }
             ],
-            "funFact": "Modern hurricane tracking technology is so advanced that the average error in hurricane path predictions has been reduced by about 70% since the 1970s. This improvement is largely due to better satellite technology and more sophisticated computer modeling systems."
+            "funFact": "The United States experiences approximately 1,200 tornadoes per year, more than any other country in the world, while experiencing roughly 20,000 detectable earthquakes annually. However, only about 16 of these earthquakes are considered significant in terms of magnitude and damage potential."
         },
         {
             "id": 12,
-            "text": "Scientists have recorded earthquake data along different tectonic plate boundaries over many years. Which region would most likely experience frequent, high-magnitude earthquakes in the future?",
-            "options": [
-                {
-                    "text": "Where two tectonic plates actively compress and rub against each other",
-                    "isCorrect": 1,
-                    "explanation": "Areas where tectonic plates actively interact through compression and friction experience the most frequent and intense earthquakes due to high stress buildup and rock breakage."
-                },
-                {
-                    "text": "Areas far from any tectonic plate boundaries",
-                    "isCorrect": 0,
-                    "explanation": "Regions far from plate boundaries rarely experience significant earthquakes since there is minimal plate interaction and stress buildup."
-                },
-                {
-                    "text": "Regions with no history of previous earthquakes",
-                    "isCorrect": 0,
-                    "explanation": "Past earthquake activity is a strong indicator of future events. Areas with no seismic history are usually not at high risk for future earthquakes."
-                },
-                {
-                    "text": "Locations where tectonic plates are moving apart",
-                    "isCorrect": 0,
-                    "explanation": "While diverging plates can cause some seismic activity, the most powerful and frequent earthquakes occur where plates compress and rub against each other."
-                }
-            ],
-            "funFact": "The Pacific Ring of Fire, where several tectonic plates meet, experiences about 90% of the world's earthquakes and contains 75% of the Earth's active volcanoes!"
-        },
-        {
-            "id": 13,
             "text": "Scientists analyzed data from several tsunamis and found the following relationship between earthquake magnitudes and maximum wave heights:\n\nMagnitude 6.0: 0.5-1 meter waves\nMagnitude 7.0: 2-4 meter waves\nMagnitude 8.0: 8-12 meter waves\nMagnitude 9.0: 20-30 meter waves\n\nBased on this pattern, what would be the most likely maximum wave height range for a tsunami caused by a magnitude 8.5 earthquake?",
             "options": [
                 {
@@ -336,14 +309,14 @@
                     "explanation": "The pattern shows that wave height increases exponentially with earthquake magnitude. Between magnitude 8.0 and 9.0, wave heights increase from 8-12m to 20-30m, so a magnitude 8.5 would likely produce waves between these ranges."
                 },
                 {
-                    "text": "5-7 meters",
-                    "isCorrect": 0,
-                    "explanation": "This range is too low based on the pattern. Even magnitude 8.0 earthquakes produce larger waves (8-12m)."
-                },
-                {
                     "text": "30-40 meters",
                     "isCorrect": 0,
                     "explanation": "This range is too high. The pattern shows that even magnitude 9.0 earthquakes typically produce maximum waves of 20-30 meters."
+                },
+                {
+                    "text": "5-7 meters",
+                    "isCorrect": 0,
+                    "explanation": "This range is too low based on the pattern. Even magnitude 8.0 earthquakes produce larger waves (8-12m)."
                 },
                 {
                     "text": "2-4 meters",
@@ -354,58 +327,85 @@
             "funFact": "The largest tsunami wave ever recorded was 524 meters (1,720 feet) high and occurred in Lituya Bay, Alaska in 1958. It was caused by a magnitude 7.8 earthquake that triggered a massive landslide into the bay, creating a mega-tsunami."
         },
         {
-            "id": 14,
-            "text": "A seismologist and a volcanologist are comparing their abilities to predict natural disasters. Which statement accurately describes the difference between predicting volcanic eruptions and earthquakes?",
+            "id": 13,
+            "text": "A coastal city is trying to evaluate the effectiveness of their early warning systems for tsunamis over the past 50 years. The data shows that before implementing warning systems, tsunami events caused an average of 500 casualties per event. After implementing warning systems, the average casualties dropped to 50 per event, despite tsunami intensity remaining similar. Which conclusion is best supported by this data?",
             "options": [
                 {
-                    "text": "Volcanic eruptions have no precursor events while earthquakes show clear warning signs",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Volcanic eruptions often have precursor events like ground deformation and gas emissions, while earthquakes currently have no reliable precursor events."
-                },
-                {
-                    "text": "Volcanic eruptions often have observable warning signs while earthquakes occur suddenly without reliable precursors",
+                    "text": "Early warning systems have effectively reduced casualties by giving people more time to evacuate",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Scientists can often predict volcanic eruptions by monitoring various precursor events, while earthquakes occur suddenly without reliable warning signs."
+                    "explanation": "The significant reduction in casualties (from 500 to 50) while tsunami intensity remained constant strongly indicates that the warning systems helped people evacuate in time."
                 },
                 {
-                    "text": "Both volcanic eruptions and earthquakes are equally predictable using modern technology",
+                    "text": "People have become naturally more aware of tsunami signs",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. Despite modern technology, earthquakes remain largely unpredictable, while volcanic eruptions can often be forecasted."
+                    "explanation": "While awareness may have increased, the dramatic decrease in casualties is directly linked to the implementation of warning systems rather than natural awareness."
                 },
                 {
-                    "text": "Neither volcanic eruptions nor earthquakes show any warning signs before occurring",
+                    "text": "Tsunamis have become less powerful over the past 50 years",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. While earthquakes occur without reliable warning signs, volcanic eruptions often show observable precursor events."
+                    "explanation": "The data specifically states that tsunami intensity remained similar, so this conclusion is not supported."
+                },
+                {
+                    "text": "Tsunamis occur less frequently now than they did 50 years ago",
+                    "isCorrect": 0,
+                    "explanation": "The data compares casualties per event, not the frequency of tsunamis, so no conclusion about tsunami frequency can be drawn."
                 }
             ],
-            "funFact": "The largest recorded earthquake occurred in Chile in 1960, measuring 9.5 on the Richter scale, yet scientists had no way to predict it. In contrast, the 1991 eruption of Mount Pinatubo in the Philippines was successfully predicted through monitoring of precursor events, allowing for the evacuation of thousands of people."
+            "funFact": "The Pacific Tsunami Warning System, established in 1949, is the oldest tsunami warning system in the world. It monitors seismic activity and sea levels across the Pacific Ocean, providing warnings to over 26 countries!"
+        },
+        {
+            "id": 14,
+            "text": "A seismologist analyzes a series of seismograph readings showing varying wave patterns. Which pattern would most likely indicate a high-magnitude earthquake with significant potential for structural damage?",
+            "options": [
+                {
+                    "text": "Irregular waves with no clear pattern",
+                    "isCorrect": 0,
+                    "explanation": "Irregular waves with no clear pattern often indicate surface noise or interference rather than actual earthquake activity."
+                },
+                {
+                    "text": "Small amplitude waves that quickly diminish",
+                    "isCorrect": 0,
+                    "explanation": "Small amplitude waves that quickly diminish typically indicate minor seismic activity with minimal energy release, characteristic of low-magnitude earthquakes."
+                },
+                {
+                    "text": "Consistent waves with uniform amplitude",
+                    "isCorrect": 0,
+                    "explanation": "Uniform amplitude waves usually indicate regular background seismic noise rather than a significant earthquake event."
+                },
+                {
+                    "text": "Large amplitude waves with long duration and intense spikes",
+                    "isCorrect": 1,
+                    "explanation": "Large amplitude waves with extended duration and intense spikes typically indicate the release of significant seismic energy, characteristic of high-magnitude earthquakes with greater damage potential."
+                }
+            ],
+            "funFact": "The largest earthquake ever recorded was a magnitude 9.5 in Chile in 1960. Its seismograph readings were so intense that they were detected by monitoring stations all around the world, demonstrating how seismic waves can travel through Earth's entire crust."
         },
         {
             "id": 15,
-            "text": "A meteorologist in Kansas is analyzing weather data to assess the likelihood of tornado formation. Which combination of atmospheric conditions would most strongly indicate the potential for tornado development?",
+            "text": "Scientists have recorded earthquake data along different tectonic plate boundaries over many years. Which region would most likely experience frequent, high-magnitude earthquakes in the future?",
             "options": [
                 {
-                    "text": "High air pressure, steady wind speeds, and stable temperatures",
+                    "text": "Regions with no history of previous earthquakes",
                     "isCorrect": 0,
-                    "explanation": "These stable conditions typically indicate fair weather and are not conducive to tornado formation. Tornadoes require unstable atmospheric conditions."
+                    "explanation": "Past earthquake activity is a strong indicator of future events. Areas with no seismic history are usually not at high risk for future earthquakes."
                 },
                 {
-                    "text": "Low air pressure, rapidly changing wind speeds, and significant temperature differences",
+                    "text": "Areas far from any tectonic plate boundaries",
+                    "isCorrect": 0,
+                    "explanation": "Regions far from plate boundaries rarely experience significant earthquakes since there is minimal plate interaction and stress buildup."
+                },
+                {
+                    "text": "Where two tectonic plates actively compress and rub against each other",
                     "isCorrect": 1,
-                    "explanation": "This combination indicates unstable atmospheric conditions where cold and warm air masses meet, which is ideal for tornado formation, especially in tornado-prone regions."
+                    "explanation": "Areas where tectonic plates actively interact through compression and friction experience the most frequent and intense earthquakes due to high stress buildup and rock breakage."
                 },
                 {
-                    "text": "High air pressure, light winds, and gradual cooling",
+                    "text": "Locations where tectonic plates are moving apart",
                     "isCorrect": 0,
-                    "explanation": "These conditions typically indicate a stable weather pattern and are not associated with severe storm development or tornado formation."
-                },
-                {
-                    "text": "Low air pressure, constant wind direction, and uniform temperatures",
-                    "isCorrect": 0,
-                    "explanation": "While low pressure alone can indicate storm potential, the lack of wind and temperature variation makes tornado formation unlikely."
+                    "explanation": "While diverging plates can cause some seismic activity, the most powerful and frequent earthquakes occur where plates compress and rub against each other."
                 }
             ],
-            "funFact": "The average tornado is about 500 feet wide and travels on the ground for 5 miles, though some can be more than two miles wide and travel for more than 100 miles! This is why meteorologists carefully monitor atmospheric conditions to provide advance warning when possible."
+            "funFact": "The Pacific Ring of Fire, where several tectonic plates meet, experiences about 90% of the world's earthquakes and contains 75% of the Earth's active volcanoes!"
         }
     ]
 }

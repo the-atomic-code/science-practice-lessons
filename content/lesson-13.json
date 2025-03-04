@@ -4,94 +4,8 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which observation about embryo development provides the strongest evidence that whales evolved from land-dwelling mammals?",
-            "options": [
-                {
-                    "text": "Whale embryos temporarily develop hind limb buds that later disappear",
-                    "isCorrect": 1,
-                    "explanation": "The presence of hind limb buds in whale embryos that later disappear is strong evidence that whales evolved from four-legged land mammals, as these structures would serve no purpose in modern whales but reflect their evolutionary history."
-                },
-                {
-                    "text": "Whale embryos develop a spinal cord",
-                    "isCorrect": 0,
-                    "explanation": "While whales do develop a spinal cord, this feature is common to all vertebrates and doesn't specifically indicate evolution from land mammals."
-                },
-                {
-                    "text": "Whale embryos develop a streamlined body shape",
-                    "isCorrect": 0,
-                    "explanation": "A streamlined body shape is an adaptation for aquatic life but doesn't specifically indicate evolution from land mammals."
-                },
-                {
-                    "text": "Whale embryos develop a blowhole",
-                    "isCorrect": 0,
-                    "explanation": "While the blowhole is an important feature of whales, its development doesn't specifically demonstrate evolution from land mammals."
-                }
-            ],
-            "funFact": "Modern whales still retain tiny hip bones that are completely detached from their spine - a vestigial remnant of their land-dwelling ancestors that had fully functional leg bones connected to their hips!"
-        },
-        {
-            "id": 2,
-            "text": "Which pattern of bone structure is shared among humans, dogs, bats, and dolphins in their upper limbs?",
-            "options": [
-                {
-                    "text": "One large bone connected to two bones, connected to many bones, ending in finger-like bones",
-                    "isCorrect": 1,
-                    "explanation": "This pattern is common across many vertebrates and shows how these species share a common evolutionary ancestor"
-                },
-                {
-                    "text": "Two large bones connected to one bone, connected to many bones, ending in claws",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - the pattern starts with one large bone, not two, and not all these animals have claws"
-                },
-                {
-                    "text": "Many small bones connected to one large bone, ending in flexible joints",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the actual pattern - the structure starts with one large bone, not many small ones"
-                },
-                {
-                    "text": "Three parallel bones of equal size connected directly to finger bones",
-                    "isCorrect": 0,
-                    "explanation": "This pattern doesn't match the actual limb structure these vertebrates share"
-                }
-            ],
-            "funFact": "Despite living in such different environments and using their limbs in very different ways - walking, flying, swimming - these vertebrates inherited their basic limb structure from a common ancestor that lived millions of years ago!"
-        },
-        {
-            "id": 3,
-            "text": "What best describes comparative anatomy as a field of science?",
-            "options": [
-                {
-                    "text": "The study of how different organisms' structures compare and relate to each other",
-                    "isCorrect": 1,
-                    "explanation": "Comparative anatomy involves studying and comparing structural features across different organisms to understand their relationships and evolutionary connections."
-                },
-                {
-                    "text": "The study of only human body structures and systems",
-                    "isCorrect": 0,
-                    "explanation": "This is too narrow - comparative anatomy looks at structures across many different organisms, not just humans."
-                },
-                {
-                    "text": "The study of fossils and ancient life forms",
-                    "isCorrect": 0,
-                    "explanation": "While fossils can be used in comparative anatomy, this field primarily focuses on comparing structures between different organisms rather than just studying fossils."
-                },
-                {
-                    "text": "The study of cells and their functions",
-                    "isCorrect": 0,
-                    "explanation": "This describes cell biology rather than comparative anatomy, which focuses on comparing larger structural features between organisms."
-                }
-            ],
-            "funFact": "The earliest known studies in comparative anatomy date back to Aristotle in ancient Greece, who dissected and compared various animals to understand their similarities and differences. His work laid the foundation for modern comparative anatomy studies."
-        },
-        {
-            "id": 4,
             "text": "Why do human embryos develop a temporary tail during early development that later disappears?",
             "options": [
-                {
-                    "text": "This temporary tail is evidence of our evolutionary relationship with other vertebrates, showing shared ancestry",
-                    "isCorrect": 1,
-                    "explanation": "The presence of a temporary tail in human embryos is an example of embryological evidence for evolution, showing our common ancestry with other vertebrates who retain their tails into adulthood"
-                },
                 {
                     "text": "The tail is needed for balance during early development and disappears when no longer needed",
                     "isCorrect": 0,
@@ -106,19 +20,73 @@
                     "text": "The tail develops by accident and is removed through natural selection",
                     "isCorrect": 0,
                     "explanation": "The tail doesn't develop by accident - it follows a specific developmental pattern shared among vertebrate embryos due to common ancestry"
+                },
+                {
+                    "text": "This temporary tail is evidence of our evolutionary relationship with other vertebrates, showing shared ancestry",
+                    "isCorrect": 1,
+                    "explanation": "The presence of a temporary tail in human embryos is an example of embryological evidence for evolution, showing our common ancestry with other vertebrates who retain their tails into adulthood"
                 }
             ],
             "funFact": "While human embryos lose their tails during development, about 1 in 100,000 babies are born with a vestigial tail-like structure called a 'human tail' due to incomplete regression of the embryonic tail!"
         },
         {
-            "id": 5,
-            "text": "What is a key role of developmental biologists in understanding similarities between different species during embryonic development?",
+            "id": 2,
+            "text": "Early in development, embryos of different vertebrate species show remarkable similarities. Which observation best supports this statement?",
             "options": [
                 {
-                    "text": "They study embryonic development patterns to understand evolutionary relationships without harming human embryos",
-                    "isCorrect": 1,
-                    "explanation": "Developmental biologists primarily study embryos of multiple species to understand evolutionary relationships and general principles of development. This comparative approach also provides the added benefit of gaining insights into human development while reducing the need for human embryo research."
+                    "text": "Adult vertebrates all have the same number of bones in their skeletons",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because adult vertebrates have different numbers of bones adapted to their specific lifestyles and environments. The similarity is in early embryonic development, not adult anatomy."
                 },
+                {
+                    "text": "Vertebrate embryos look identical throughout their entire development",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because while vertebrate embryos show similarities early in development, they diverge significantly as they develop further, eventually taking on their species-specific characteristics."
+                },
+                {
+                    "text": "Embryos of different vertebrates all start as a single cell and follow similar developmental patterns, including formation of similar temporary structures",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because all vertebrate embryos begin as a single cell and go through comparable developmental stages, showing similar features like tails and pharyngeal slits early in development, even if these structures later disappear or develop into different organs."
+                },
+                {
+                    "text": "All vertebrate embryos develop into organisms with similar adult features",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because vertebrates develop into very different adult forms despite early embryonic similarities. For example, fish develop gills while mammals develop lungs from similar embryonic structures."
+                }
+            ],
+            "funFact": "The similar features seen in early vertebrate embryos were first documented by Karl Ernst von Baer in the 1820s. His observations helped establish that all vertebrates share a common evolutionary history, despite their diverse adult forms."
+        },
+        {
+            "id": 3,
+            "text": "How do pharyngeal slits develop differently in fish and humans during embryonic development?",
+            "options": [
+                {
+                    "text": "In both fish and humans they develop into gills",
+                    "isCorrect": 0,
+                    "explanation": "While fish retain gills, humans do not develop functional gills - the structures develop into different organs"
+                },
+                {
+                    "text": "In fish they become gills, while in humans they develop into the throat and jaw region",
+                    "isCorrect": 1,
+                    "explanation": "During embryonic development, pharyngeal slits follow different developmental paths - becoming functional gills in fish while forming the throat and jaw structures in humans"
+                },
+                {
+                    "text": "In fish they disappear, while in humans they become lungs",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - pharyngeal slits don't disappear in fish, and they don't develop into lungs in humans"
+                },
+                {
+                    "text": "In both fish and humans they disappear completely",
+                    "isCorrect": 0,
+                    "explanation": "Pharyngeal slits don't disappear in either organism - they develop into different functional structures"
+                }
+            ],
+            "funFact": "The presence of pharyngeal slits in human embryos is one of the many examples of 'evolutionary vestiges' - features that hint at our ancient aquatic ancestry from hundreds of millions of years ago!"
+        },
+        {
+            "id": 4,
+            "text": "What is a key role of developmental biologists in understanding similarities between different species during embryonic development?",
+            "options": [
                 {
                     "text": "They only focus on studying human embryos to understand birth defects",
                     "isCorrect": 0,
@@ -130,6 +98,11 @@
                     "explanation": "While fossils provide valuable information about evolution, developmental biologists primarily study living organisms' embryos to understand developmental patterns."
                 },
                 {
+                    "text": "They study embryonic development patterns to understand evolutionary relationships without harming human embryos",
+                    "isCorrect": 1,
+                    "explanation": "Developmental biologists primarily study embryos of multiple species to understand evolutionary relationships and general principles of development. This comparative approach also provides the added benefit of gaining insights into human development while reducing the need for human embryo research."
+                },
+                {
                     "text": "They study adult organisms to understand embryonic development",
                     "isCorrect": 0,
                     "explanation": "Developmental biologists focus on studying embryos directly, not adult organisms, as embryos reveal important developmental patterns and relationships between species."
@@ -138,34 +111,88 @@
             "funFact": "The study of embryonic development dates back to Aristotle in ancient Greece, who first documented the development of chicken embryos by opening eggs at different stages of development!"
         },
         {
-            "id": 6,
-            "text": "Looking at embryo development across different species, scientists observe that human embryos temporarily develop a tail during early stages, which later disappears. What does this characteristic suggest about evolutionary relationships?",
+            "id": 5,
+            "text": "Which embryonic feature suggests that whales evolved from land-dwelling mammals?",
             "options": [
                 {
-                    "text": "Humans share a common ancestor with other vertebrates that had tails",
+                    "text": "The presence of a blowhole in whale embryos",
+                    "isCorrect": 0,
+                    "explanation": "The blowhole is a specialized nostril adaptation for marine life and doesn't indicate land mammal ancestry."
+                },
+                {
+                    "text": "The presence of hind limb buds in whale embryos",
                     "isCorrect": 1,
-                    "explanation": "The presence of a temporary tail in human embryos is evidence of our evolutionary connection to ancestors with tails, showing how organisms share developmental patterns due to common ancestry"
+                    "explanation": "Whale embryos develop hind limb buds early in development, indicating their evolutionary connection to four-legged land mammals, even though adult whales lack hind limbs."
                 },
                 {
-                    "text": "The tail is a random mutation with no evolutionary significance",
+                    "text": "The presence of fins in whale embryos",
                     "isCorrect": 0,
-                    "explanation": "This temporary feature is not random but a consistent pattern across human embryos, indicating its evolutionary importance rather than being a chance mutation"
+                    "explanation": "Fins are adaptations for aquatic life and don't indicate land ancestry. They are modified limbs that evolved later."
                 },
                 {
-                    "text": "Humans are currently evolving to grow tails",
+                    "text": "The presence of gills in whale embryos",
                     "isCorrect": 0,
-                    "explanation": "The tail in embryos is a vestigial feature from our evolutionary past, not an indication of future evolutionary direction"
-                },
-                {
-                    "text": "The tail develops because human embryos need it for swimming",
-                    "isCorrect": 0,
-                    "explanation": "The temporary tail is not functional for swimming - it appears due to shared developmental patterns with other vertebrates, not because of any current need"
+                    "explanation": "While whale embryos have pharyngeal slits like other vertebrates, these develop into throat structures, not gills. This feature alone doesn't indicate land mammal ancestry."
                 }
             ],
-            "funFact": "While human embryos develop and lose their tails, some people are born with a vestigial tail-like structure called a 'caudal appendage.' This rare condition occurs in about 1 in 100,000 births and further demonstrates our evolutionary heritage!"
+            "funFact": "Modern whales still retain small pelvic bones that are completely detached from their spine - a vestigial remnant of their land-dwelling ancestors' hip bones that once supported hind legs!"
+        },
+        {
+            "id": 6,
+            "text": "When examining vertebrate embryos during early development, which pattern most strongly indicates their shared ancestry?",
+            "options": [
+                {
+                    "text": "The color of the embryonic tissue",
+                    "isCorrect": 0,
+                    "explanation": "Tissue coloration is not a significant indicator of evolutionary relationships in embryonic development."
+                },
+                {
+                    "text": "The presence of pharyngeal slits in early developmental stages of both fish and mammals",
+                    "isCorrect": 1,
+                    "explanation": "The presence of pharyngeal slits in both fish and mammal embryos is strong evidence of their common ancestry, even though these structures develop differently later (becoming gills in fish and throat structures in mammals)."
+                },
+                {
+                    "text": "The speed of embryonic development",
+                    "isCorrect": 0,
+                    "explanation": "The rate of development varies among species and is not a reliable indicator of their evolutionary relationships."
+                },
+                {
+                    "text": "The final size of the embryos at birth",
+                    "isCorrect": 0,
+                    "explanation": "The size at birth varies greatly among species and is not a reliable indicator of evolutionary relationships."
+                }
+            ],
+            "funFact": "Pharyngeal slits in human embryos are remnants of our aquatic ancestry from over 500 million years ago. While they develop into gills in fish, these same structures in humans transform into parts of our ears, throat, and parathyroid glands!"
         },
         {
             "id": 7,
+            "text": "Which statement best describes how the early development of vertebrate embryos provides evidence for evolutionary relationships?",
+            "options": [
+                {
+                    "text": "The development patterns of vertebrate embryos are completely unique with no shared features",
+                    "isCorrect": 0,
+                    "explanation": "This contradicts the evidence - vertebrate embryos actually share many common developmental features early on, showing their evolutionary relationships"
+                },
+                {
+                    "text": "Vertebrate embryos look exactly like miniature versions of their adult forms from the beginning",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - embryos go through developmental stages that often look quite different from adult forms and show similarities across species"
+                },
+                {
+                    "text": "Embryo development only reveals relationships between mammals but not other vertebrates",
+                    "isCorrect": 0,
+                    "explanation": "The shared developmental patterns are seen across all vertebrates, not just mammals, demonstrating broader evolutionary relationships"
+                },
+                {
+                    "text": "All vertebrate embryos begin with similar features like neural tubes, even if their adult forms look very different",
+                    "isCorrect": 1,
+                    "explanation": "Early vertebrate embryos share common developmental patterns like neural tube formation, revealing their shared evolutionary ancestry even when adult forms are quite different"
+                }
+            ],
+            "funFact": "The study of embryo development helped scientists discover that whales evolved from land mammals! Early whale embryos temporarily develop leg buds and hair, revealing their terrestrial ancestry before these features disappear later in development."
+        },
+        {
+            "id": 8,
             "text": "Which embryological feature provides the strongest evidence for evolutionary relationships between fish and mammals?",
             "options": [
                 {
@@ -174,14 +201,14 @@
                     "explanation": "Gill slits appearing in both fish and mammal embryos early in development strongly suggests a common evolutionary ancestor, even though mammals don't retain them as adults."
                 },
                 {
-                    "text": "The similar size of fish and mammal embryos",
-                    "isCorrect": 0,
-                    "explanation": "Embryo size is not a reliable indicator of evolutionary relationships, as it can vary greatly even among closely related species."
-                },
-                {
                     "text": "The presence of a tail in adult forms",
                     "isCorrect": 0,
                     "explanation": "While many adult fish have tails, not all mammals retain tails as adults. Adult features are less reliable for showing evolutionary relationships than shared embryonic features."
+                },
+                {
+                    "text": "The similar size of fish and mammal embryos",
+                    "isCorrect": 0,
+                    "explanation": "Embryo size is not a reliable indicator of evolutionary relationships, as it can vary greatly even among closely related species."
                 },
                 {
                     "text": "The development timing of internal organs",
@@ -192,18 +219,18 @@
             "funFact": "Even human embryos develop gill-like structures called pharyngeal arches during early development. While these don't become gills like in fish, they transform into important parts of our throat, jaw, and ear structures!"
         },
         {
-            "id": 8,
+            "id": 9,
             "text": "When comparing the early development of different vertebrate embryos, scientists observe that both fish and human embryos develop pharyngeal slits. In fish, these slits develop into gills, while in humans they develop into throat and jaw structures. What does this similarity in early development suggest about the evolutionary relationship between fish and humans?",
             "options": [
+                {
+                    "text": "Humans were once able to breathe underwater like fish",
+                    "isCorrect": 0,
+                    "explanation": "While pharyngeal slits appear in human embryos, they never develop into functional gills. They instead develop into different structures needed for human survival."
+                },
                 {
                     "text": "Fish and humans share a common ancestor in their evolutionary past",
                     "isCorrect": 1,
                     "explanation": "The presence of similar structures during embryonic development suggests that fish and humans evolved from a common ancestor, even though their adult forms look very different."
-                },
-                {
-                    "text": "Humans evolved directly from fish",
-                    "isCorrect": 0,
-                    "explanation": "While fish and humans share a common ancestor, humans did not evolve directly from modern fish. Both groups evolved along separate paths from their shared ancestor."
                 },
                 {
                     "text": "This similarity is just a coincidence",
@@ -211,76 +238,152 @@
                     "explanation": "Such specific developmental similarities across species are not coincidental. They reflect shared evolutionary history and common ancestry."
                 },
                 {
-                    "text": "Humans were once able to breathe underwater like fish",
+                    "text": "Humans evolved directly from fish",
                     "isCorrect": 0,
-                    "explanation": "While pharyngeal slits appear in human embryos, they never develop into functional gills. They instead develop into different structures needed for human survival."
+                    "explanation": "While fish and humans share a common ancestor, humans did not evolve directly from modern fish. Both groups evolved along separate paths from their shared ancestor."
                 }
             ],
             "funFact": "The development of pharyngeal slits in embryos is so consistent across vertebrates that even land animals that never go near water, like snakes and birds, show this feature during their early development!"
         },
         {
-            "id": 9,
-            "text": "The position of a whale's blowhole has changed significantly over millions of years of evolution. Which pattern of embryonic development would best explain how this change occurred?",
-            "options": [
-                {
-                    "text": "The blowhole position gradually moved backward during embryo development, matching the evolutionary pattern seen in fossils",
-                    "isCorrect": 0,
-                    "explanation": "While this seems logical, embryonic development doesn't simply recreate evolutionary changes in reverse order"
-                },
-                {
-                    "text": "The blowhole started at the tip of the snout and suddenly jumped to its modern position during late embryo development",
-                    "isCorrect": 0,
-                    "explanation": "Major evolutionary changes typically don't occur as sudden jumps during development"
-                },
-                {
-                    "text": "The embryo's nostrils initially formed at the front, then gradually migrated toward the top of the head during development",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how whale embryos develop, reflecting the evolutionary journey of nostril-to-blowhole transformation"
-                },
-                {
-                    "text": "Multiple blowholes developed during embryo growth, with only the top one remaining functional",
-                    "isCorrect": 0,
-                    "explanation": "Whales don't develop multiple blowholes during embryonic development"
-                }
-            ],
-            "funFact": "Modern whales can hold their breath for up to 2 hours and dive to depths of 3,000 meters, thanks to the efficient positioning of their blowholes which evolved from the nostrils of their land-dwelling ancestors!"
-        },
-        {
             "id": 10,
-            "text": "When comparing the digestive system development in different vertebrate embryos (such as fish, birds, and mammals), which pattern would most strongly suggest their common evolutionary ancestry?",
+            "text": "When comparing limb development in early embryos of different species, which pattern would best support that birds evolved from reptilian ancestors?",
             "options": [
                 {
-                    "text": "All vertebrate embryos initially develop a similar basic tube-like digestive tract that later specializes into different forms",
+                    "text": "Bird embryos develop limb buds after reptile embryos show limb development",
+                    "isCorrect": 0,
+                    "explanation": "The timing of limb development alone doesn't indicate evolutionary relationships - shared patterns are more important than timing."
+                },
+                {
+                    "text": "Bird and reptile embryos show similar initial limb bud formation patterns",
                     "isCorrect": 1,
-                    "explanation": "The shared initial pattern of a simple digestive tube that later differentiates demonstrates common ancestry, as this basic developmental pattern was inherited from a shared ancestor."
+                    "explanation": "Similar developmental patterns in embryos, like matching limb bud formation, suggest common ancestry between species."
                 },
                 {
-                    "text": "Each type of vertebrate embryo develops a completely different digestive system from the start",
+                    "text": "Bird embryos develop wings while reptile embryos develop legs",
                     "isCorrect": 0,
-                    "explanation": "If embryos developed completely different digestive systems from the beginning, this would suggest separate evolutionary origins rather than common ancestry."
+                    "explanation": "Different final structures don't negate relationship - early developmental similarities are more telling of evolutionary connections."
                 },
                 {
-                    "text": "The digestive systems only show similarities in adult organisms but not during embryonic development",
+                    "text": "Bird and reptile embryos develop completely different limb structures",
                     "isCorrect": 0,
-                    "explanation": "Embryonic similarities are often stronger evidence of evolutionary relationships than adult similarities, as embryos reveal ancestral features that may be modified in adults."
-                },
-                {
-                    "text": "The digestive systems develop at different rates but with no shared patterns",
-                    "isCorrect": 0,
-                    "explanation": "Different developmental rates alone without shared patterns would not indicate common ancestry - shared developmental patterns are key evidence of evolutionary relationships."
+                    "explanation": "If the embryos showed completely different development patterns, this would suggest they weren't closely related evolutionarily."
                 }
             ],
-            "funFact": "The human digestive system goes through remarkable changes during embryonic development - at one point, the intestines actually develop faster than the abdominal cavity can grow, causing them to temporarily protrude into the umbilical cord before returning to the abdomen!"
+            "funFact": "Modern birds' closest living relatives are crocodilians, and they shared a common ancestor around 240 million years ago during the Triassic period. Both groups belong to a larger group called the archosaurs."
         },
         {
             "id": 11,
-            "text": "At which stage of embryonic development do vertebrates like turtles, chickens, rabbits and humans show the strongest evidence of their shared evolutionary ancestry?",
+            "text": "At which stage of embryonic development do vertebrate species begin to show distinct features that differentiate them from each other?",
             "options": [
                 {
-                    "text": "Early embryonic stage when they all appear curved with similar body plans",
-                    "isCorrect": 1,
-                    "explanation": "At the early embryonic stage, all vertebrate embryos show remarkable similarities in their basic body structure, including a curved shape and similar developmental features, providing strong evidence of their common evolutionary origin."
+                    "text": "All embryonic stages equally",
+                    "isCorrect": 0,
+                    "explanation": "Species do not show equal levels of differentiation throughout development - they share more similarities early on and become more distinct later."
                 },
+                {
+                    "text": "Middle embryonic stage",
+                    "isCorrect": 0,
+                    "explanation": "While some differences begin to appear in middle stages, major distinguishing features are not yet fully developed at this point."
+                },
+                {
+                    "text": "Late embryonic stage",
+                    "isCorrect": 1,
+                    "explanation": "Species-specific traits become most apparent in late embryonic development as temporary shared features disappear and unique characteristics emerge."
+                },
+                {
+                    "text": "Early embryonic stage",
+                    "isCorrect": 0,
+                    "explanation": "In early stages, vertebrate embryos show remarkable similarities including features like pharyngeal slits, suggesting common ancestry rather than differentiation."
+                }
+            ],
+            "funFact": "A human embryo temporarily develops a tail around 5-8 weeks of development, which usually disappears by the end of the eighth week. This temporary tail is evidence of our evolutionary connection to other tailed vertebrates!"
+        },
+        {
+            "id": 12,
+            "text": "Looking at the fossil record of whale skulls over time, what pattern of change can be observed in the position of the blowhole?",
+            "options": [
+                {
+                    "text": "The blowhole stayed in the same position but got larger over time",
+                    "isCorrect": 0,
+                    "explanation": "While the blowhole underwent changes, the fossil record shows its position changed rather than just its size. This misconception overlooks the major positional shift that occurred."
+                },
+                {
+                    "text": "The blowhole appeared suddenly with no gradual change in position",
+                    "isCorrect": 0,
+                    "explanation": "The fossil record shows a gradual change in blowhole position over millions of years, not a sudden appearance in its current position."
+                },
+                {
+                    "text": "The blowhole gradually moved from the front of the skull toward the top",
+                    "isCorrect": 1,
+                    "explanation": "Fossil evidence shows that over millions of years, the blowhole in whale skulls gradually shifted from a front position to a more dorsal (top) position, helping whales better adapt to their aquatic lifestyle."
+                },
+                {
+                    "text": "The blowhole moved from the top of the skull toward the front",
+                    "isCorrect": 0,
+                    "explanation": "This is the opposite of what actually occurred. The fossil evidence shows the blowhole moved from the front to the top, not top to front."
+                }
+            ],
+            "funFact": "The repositioning of the whale's blowhole was a crucial adaptation that allowed whales to breathe while keeping most of their body submerged underwater, making them more efficient swimmers and hunters. This is just one example of how whale anatomy evolved as they transitioned from land-dwelling mammals to fully aquatic creatures."
+        },
+        {
+            "id": 13,
+            "text": "Looking at horse skull fossils from different time periods, which statement best describes the evolutionary changes observed over 35 million years?",
+            "options": [
+                {
+                    "text": "Horse skulls remained exactly the same size but only their leg bones changed",
+                    "isCorrect": 0,
+                    "explanation": "The fossil record shows clear changes in skull size and structure over time, not just in leg bones"
+                },
+                {
+                    "text": "Horse skulls became progressively larger and their teeth became longer and more specialized for grinding grass",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes the evolutionary changes seen in horse fossils, showing adaptation to changing environments and diets"
+                },
+                {
+                    "text": "Horse skulls showed random changes with no clear pattern of adaptation",
+                    "isCorrect": 0,
+                    "explanation": "The fossil record shows a clear pattern of gradual changes that helped horses adapt to their changing environment"
+                },
+                {
+                    "text": "Horse skulls became smaller with shorter teeth as they adapted to eating softer vegetation",
+                    "isCorrect": 0,
+                    "explanation": "This is opposite to what actually occurred - horses developed larger skulls and longer teeth for eating tough grass"
+                }
+            ],
+            "funFact": "Modern horses have teeth that continue to grow throughout most of their lives! This is called being hypsodont, and it helps prevent their teeth from wearing down completely from chewing tough grass. Their ancient ancestors didn't have this adaptation."
+        },
+        {
+            "id": 14,
+            "text": "Which anatomical pattern provides the strongest evidence for a close evolutionary relationship between dolphins and humans?",
+            "options": [
+                {
+                    "text": "Similar breathing patterns",
+                    "isCorrect": 0,
+                    "explanation": "Breathing patterns are functional adaptations that can evolve separately in different species and don't strongly indicate shared ancestry."
+                },
+                {
+                    "text": "Similar upper limb bone structure: one large bone connected to two bones, connected to many small bones",
+                    "isCorrect": 1,
+                    "explanation": "The shared pattern of upper limb bones between dolphins and humans, despite their very different environments and lifestyles, strongly suggests they share a common ancestor."
+                },
+                {
+                    "text": "Similar swimming abilities",
+                    "isCorrect": 0,
+                    "explanation": "Swimming abilities are behavioral adaptations that can develop independently in different species and don't necessarily indicate a close evolutionary relationship."
+                },
+                {
+                    "text": "Similar body size and weight",
+                    "isCorrect": 0,
+                    "explanation": "Body size and weight can be similar in unrelated species due to convergent evolution to meet similar environmental needs, making it weak evidence for evolutionary relationships."
+                }
+            ],
+            "funFact": "Despite living in completely different environments, dolphins and bats share a similar bone structure in their flippers and wings respectively with human arms - all inherited from a common ancestor that lived millions of years ago!"
+        },
+        {
+            "id": 15,
+            "text": "At which stage of embryonic development do vertebrates like turtles, chickens, rabbits and humans show the strongest evidence of their shared evolutionary ancestry?",
+            "options": [
                 {
                     "text": "Final stage just before birth or hatching",
                     "isCorrect": 0,
@@ -295,117 +398,14 @@
                     "text": "Adult stage after birth or hatching",
                     "isCorrect": 0,
                     "explanation": "Adult organisms show the most divergent features as they have fully developed their species-specific characteristics, making it most difficult to see evidence of common ancestry."
+                },
+                {
+                    "text": "Early embryonic stage when they all appear curved with similar body plans",
+                    "isCorrect": 1,
+                    "explanation": "At the early embryonic stage, all vertebrate embryos show remarkable similarities in their basic body structure, including a curved shape and similar developmental features, providing strong evidence of their common evolutionary origin."
                 }
             ],
             "funFact": "The similarity in early embryonic development across different species was first noted by Karl Ernst von Baer in the 1820s. This observation became one of the key pieces of evidence supporting Charles Darwin's theory of evolution, showing how different species share a common ancestral history."
-        },
-        {
-            "id": 12,
-            "text": "Which feature shared among vertebrate embryos early in development provides evidence for their common ancestry?",
-            "options": [
-                {
-                    "text": "Pharyngeal slits",
-                    "isCorrect": 1,
-                    "explanation": "Pharyngeal slits appear in early embryos of various vertebrates, even though they develop into different structures later - gills in fish and throat/jaw regions in humans. This shared developmental feature suggests common ancestry."
-                },
-                {
-                    "text": "Eye color",
-                    "isCorrect": 0,
-                    "explanation": "Eye color is not a significant shared embryonic feature and develops differently across species. It does not provide strong evidence for common ancestry."
-                },
-                {
-                    "text": "Adult bone structure",
-                    "isCorrect": 0,
-                    "explanation": "While adult bone structures can show relationships, the question asks specifically about shared embryonic features. Adult features often differ significantly between species."
-                },
-                {
-                    "text": "Skin texture",
-                    "isCorrect": 0,
-                    "explanation": "Skin texture is not a significant shared embryonic feature and varies greatly between species. It does not provide strong evidence for common ancestry."
-                }
-            ],
-            "funFact": "Some human embryos temporarily develop a tail during early development that later disappears! This vestigial feature provides another fascinating piece of evidence for our evolutionary history."
-        },
-        {
-            "id": 13,
-            "text": "During early embryonic development, both fish and human embryos develop pharyngeal slits. What happens to these structures as each organism continues to develop?",
-            "options": [
-                {
-                    "text": "The pharyngeal slits develop into gills in fish and into the throat and jaw region in humans",
-                    "isCorrect": 1,
-                    "explanation": "This shows how similar structures in early embryonic development can evolve into different functional structures in different species"
-                },
-                {
-                    "text": "The pharyngeal slits develop into gills in both fish and humans",
-                    "isCorrect": 0,
-                    "explanation": "While fish retain gills, humans do not develop gills. The structures evolve differently in each species"
-                },
-                {
-                    "text": "The pharyngeal slits disappear completely in both fish and humans",
-                    "isCorrect": 0,
-                    "explanation": "The structures don't disappear but rather develop into different functional parts in each species"
-                },
-                {
-                    "text": "The pharyngeal slits remain unchanged in both fish and humans",
-                    "isCorrect": 0,
-                    "explanation": "The structures undergo significant changes during development, becoming different functional parts in each species"
-                }
-            ],
-            "funFact": "The presence of pharyngeal slits in human embryos is one of the many examples of 'evolutionary remnants' - features that hint at our ancient aquatic ancestry from hundreds of millions of years ago!"
-        },
-        {
-            "id": 14,
-            "text": "Looking at embryological development, which pair of vertebrates would most likely share the most recent common ancestor?",
-            "options": [
-                {
-                    "text": "A turtle and a chicken",
-                    "isCorrect": 1,
-                    "explanation": "Both turtles and chickens show very similar early embryonic development patterns, including comparable formation of structures and timing of development, suggesting a more recent common ancestor."
-                },
-                {
-                    "text": "A turtle and a frog",
-                    "isCorrect": 0,
-                    "explanation": "While both are vertebrates, frogs undergo metamorphosis and have quite different embryonic development patterns than turtles, indicating a more distant common ancestor."
-                },
-                {
-                    "text": "A chicken and a human",
-                    "isCorrect": 0,
-                    "explanation": "Although both show some similar early developmental features, mammals and birds diverged long ago in evolutionary history, making their common ancestor more distant."
-                },
-                {
-                    "text": "A rabbit and a frog",
-                    "isCorrect": 0,
-                    "explanation": "Mammals and amphibians have very different embryonic development patterns, with frogs undergoing metamorphosis, indicating their common ancestor existed much further back in time."
-                }
-            ],
-            "funFact": "While adult turtles and chickens might look very different, they're both part of a group called the amniotes, which evolved about 340 million years ago and includes all animals whose embryos develop within a fluid-filled amniotic sac!"
-        },
-        {
-            "id": 15,
-            "text": "At which stage of embryonic development do vertebrate species begin to show distinct features that differentiate them from each other?",
-            "options": [
-                {
-                    "text": "Early embryonic stage",
-                    "isCorrect": 0,
-                    "explanation": "In early stages, vertebrate embryos show remarkable similarities including features like pharyngeal slits, suggesting common ancestry rather than differentiation."
-                },
-                {
-                    "text": "Middle embryonic stage",
-                    "isCorrect": 0,
-                    "explanation": "While some differences begin to appear in middle stages, major distinguishing features are not yet fully developed at this point."
-                },
-                {
-                    "text": "Late embryonic stage",
-                    "isCorrect": 1,
-                    "explanation": "Species-specific traits become most apparent in late embryonic development as temporary shared features disappear and unique characteristics emerge."
-                },
-                {
-                    "text": "All embryonic stages equally",
-                    "isCorrect": 0,
-                    "explanation": "Species do not show equal levels of differentiation throughout development - they share more similarities early on and become more distinct later."
-                }
-            ],
-            "funFact": "A human embryo temporarily develops a tail around 5-8 weeks of development, which usually disappears by the end of the eighth week. This temporary tail is evidence of our evolutionary connection to other tailed vertebrates!"
         }
     ]
 }

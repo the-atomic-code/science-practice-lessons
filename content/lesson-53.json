@@ -4,8 +4,67 @@
     "questions": [
         {
             "id": 1,
+            "text": "What explains why earthquakes and volcanoes often occur in the same locations around the world?",
+            "options": [
+                {
+                    "text": "They only form near the ocean where water can cool the ground",
+                    "isCorrect": 0,
+                    "explanation": "While many volcanoes and earthquakes occur near oceans, this is because of plate boundaries, not because of the water. They can also occur on land away from oceans."
+                },
+                {
+                    "text": "They form where the soil is weakest and can easily break apart",
+                    "isCorrect": 0,
+                    "explanation": "The type of soil is not what determines where earthquakes and volcanoes form. Their locations are determined by plate boundaries and movements."
+                },
+                {
+                    "text": "Both need very hot temperatures to form, so they occur in the hottest places",
+                    "isCorrect": 0,
+                    "explanation": "While volcanoes involve hot magma, earthquakes are not caused by temperature. They occur due to plate movements, regardless of surface temperature."
+                },
+                {
+                    "text": "Both form along plate boundaries where Earth's giant plates meet and interact",
+                    "isCorrect": 1,
+                    "explanation": "Correct! The boundaries between Earth's plates are areas of intense geological activity where both earthquakes and volcanoes commonly form due to plate movements and interactions."
+                }
+            ],
+            "funFact": "The 'Ring of Fire' is a horseshoe-shaped region around the Pacific Ocean where about 90% of the world's earthquakes occur and 75% of the world's active volcanoes are located - all because of plate boundaries!"
+        },
+        {
+            "id": 2,
+            "text": "Why are tall buildings more susceptible to earthquake damage compared to shorter buildings?",
+            "options": [
+                {
+                    "text": "Tall buildings are always built with weaker materials than shorter buildings",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - building material strength is not determined by height. Tall buildings often use very strong materials, but height itself creates additional challenges during earthquakes"
+                },
+                {
+                    "text": "Earthquake waves only affect buildings above 5 stories tall",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - earthquake waves affect all structures regardless of height, though taller buildings face greater challenges from the shaking"
+                },
+                {
+                    "text": "Shorter buildings experience stronger earthquake forces than taller buildings",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - taller buildings actually experience stronger forces during earthquakes due to increased swaying and movement at higher levels"
+                },
+                {
+                    "text": "Tall buildings experience stronger shaking forces at higher levels because they sway more during earthquakes",
+                    "isCorrect": 1,
+                    "explanation": "Taller buildings sway more during earthquakes, which amplifies the shaking forces at higher levels and increases the risk of structural damage"
+                }
+            ],
+            "funFact": "The world's tallest earthquake-resistant building, the Shanghai Tower, uses an innovative design with a glass fa\u00e7ade that twists 120 degrees as it rises, helping reduce wind forces that could compound earthquake damage!"
+        },
+        {
+            "id": 3,
             "text": "Where do major mountain chains on Earth typically form?",
             "options": [
+                {
+                    "text": "Only along the equator",
+                    "isCorrect": 0,
+                    "explanation": "Mountain chains are not restricted to the equator. Their formation is related to plate tectonics, not latitude."
+                },
                 {
                     "text": "Inside continents or near their edges",
                     "isCorrect": 1,
@@ -17,11 +76,6 @@
                     "explanation": "While there are underwater mountain ranges in oceans, major mountain chains are not found only in the middle of oceans."
                 },
                 {
-                    "text": "Only along the equator",
-                    "isCorrect": 0,
-                    "explanation": "Mountain chains are not restricted to the equator. Their formation is related to plate tectonics, not latitude."
-                },
-                {
                     "text": "Only at the North and South poles",
                     "isCorrect": 0,
                     "explanation": "Mountain chains are not restricted to the poles. They form where tectonic plates interact, which occurs at various locations around the globe."
@@ -30,73 +84,9 @@
             "funFact": "The Himalayas, the world's highest mountain range, continues to grow taller by about 5 millimeters (0.2 inches) every year due to ongoing collision between the Indian and Eurasian tectonic plates!"
         },
         {
-            "id": 2,
-            "text": "Which feature of house design in volcanic regions helps protect buildings from volcanic ash accumulation?",
-            "options": [
-                {
-                    "text": "Steep roofs that allow ash to slide off",
-                    "isCorrect": 1,
-                    "explanation": "Steep roofs are specifically designed to let volcanic ash slide off rather than accumulate, which prevents excessive weight buildup that could damage the structure."
-                },
-                {
-                    "text": "Flat roofs that spread the weight evenly",
-                    "isCorrect": 0,
-                    "explanation": "Flat roofs would actually be dangerous in volcanic regions as they allow ash to accumulate, leading to potential collapse from the weight."
-                },
-                {
-                    "text": "Glass roofs that let sunlight through the ash",
-                    "isCorrect": 0,
-                    "explanation": "Glass roofs would be particularly vulnerable to damage from volcanic ash and would not help with the weight problem."
-                },
-                {
-                    "text": "Flexible roofs that can bend under ash weight",
-                    "isCorrect": 0,
-                    "explanation": "Flexible roofs would not solve the problem of ash accumulation and might actually be more prone to failure under the weight of volcanic ash."
-                }
-            ],
-            "funFact": "The weight of volcanic ash can be surprisingly heavy - just 4 inches of wet ash can weigh as much as 200 pounds per square meter, which is why proper roof design is so crucial in volcanic regions!"
-        },
-        {
-            "id": 3,
-            "text": "What explains why earthquakes and volcanoes often occur in the same locations around the world?",
-            "options": [
-                {
-                    "text": "Both form along plate boundaries where Earth's giant plates meet and interact",
-                    "isCorrect": 1,
-                    "explanation": "Correct! The boundaries between Earth's plates are areas of intense geological activity where both earthquakes and volcanoes commonly form due to plate movements and interactions."
-                },
-                {
-                    "text": "Both need very hot temperatures to form, so they occur in the hottest places",
-                    "isCorrect": 0,
-                    "explanation": "While volcanoes involve hot magma, earthquakes are not caused by temperature. They occur due to plate movements, regardless of surface temperature."
-                },
-                {
-                    "text": "They form where the soil is weakest and can easily break apart",
-                    "isCorrect": 0,
-                    "explanation": "The type of soil is not what determines where earthquakes and volcanoes form. Their locations are determined by plate boundaries and movements."
-                },
-                {
-                    "text": "They only form near the ocean where water can cool the ground",
-                    "isCorrect": 0,
-                    "explanation": "While many volcanoes and earthquakes occur near oceans, this is because of plate boundaries, not because of the water. They can also occur on land away from oceans."
-                }
-            ],
-            "funFact": "The 'Ring of Fire' is a horseshoe-shaped region around the Pacific Ocean where about 90% of the world's earthquakes occur and 75% of the world's active volcanoes are located - all because of plate boundaries!"
-        },
-        {
             "id": 4,
             "text": "Which statement correctly explains how volcanic eruptions occur?",
             "options": [
-                {
-                    "text": "Magma from inside Earth escapes through openings in Earth's crust",
-                    "isCorrect": 1,
-                    "explanation": "Volcanic eruptions happen when molten rock (magma) from inside Earth finds a path through openings in Earth's crust and escapes to the surface."
-                },
-                {
-                    "text": "Hot air pressure builds up underground until it breaks through the surface",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Volcanic eruptions are not caused by air pressure, but by molten rock called magma escaping from inside Earth."
-                },
                 {
                     "text": "Underground water becomes super-heated and bursts through the ground",
                     "isCorrect": 0,
@@ -106,147 +96,49 @@
                     "text": "Lightning strikes the ground and creates an explosion that forms a volcano",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Volcanoes form from internal processes involving magma, not from external forces like lightning strikes."
+                },
+                {
+                    "text": "Magma from inside Earth escapes through openings in Earth's crust",
+                    "isCorrect": 1,
+                    "explanation": "Volcanic eruptions happen when molten rock (magma) from inside Earth finds a path through openings in Earth's crust and escapes to the surface."
+                },
+                {
+                    "text": "Hot air pressure builds up underground until it breaks through the surface",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Volcanic eruptions are not caused by air pressure, but by molten rock called magma escaping from inside Earth."
                 }
             ],
             "funFact": "The word 'volcano' comes from Vulcan, the Roman god of fire and metalworking. The island where ancient Romans believed Vulcan's forge was located is still called Vulcano today!"
         },
         {
             "id": 5,
-            "text": "Where do volcanoes most commonly form on Earth?",
+            "text": "Which instrument is used by scientists to measure and record the size of earthquakes?",
             "options": [
                 {
-                    "text": "Along the boundaries where tectonic plates meet",
+                    "text": "Thermometer",
+                    "isCorrect": 0,
+                    "explanation": "A thermometer measures temperature, not earthquake activity. It cannot detect or measure ground movements."
+                },
+                {
+                    "text": "Seismograph",
                     "isCorrect": 1,
-                    "explanation": "Volcanoes typically form along plate boundaries because these are areas where molten rock from inside Earth can easily reach the surface through openings in Earth's crust."
+                    "explanation": "A seismograph is the correct instrument used to measure and record data about earthquakes, including their size and intensity."
                 },
                 {
-                    "text": "Randomly distributed across Earth's surface",
+                    "text": "Barometer",
                     "isCorrect": 0,
-                    "explanation": "Volcanoes are not randomly distributed. They form in specific patterns related to plate boundaries and geological activity."
+                    "explanation": "A barometer measures atmospheric pressure, not earthquake activity. It cannot detect ground movements or measure earthquake size."
                 },
                 {
-                    "text": "Only in the middle of continents",
+                    "text": "Wind gauge",
                     "isCorrect": 0,
-                    "explanation": "While some volcanoes can form in continental interiors, they are most commonly found along plate boundaries, particularly where oceanic and continental plates meet."
-                },
-                {
-                    "text": "Only in the middle of oceans",
-                    "isCorrect": 0,
-                    "explanation": "While underwater volcanoes exist in oceans, volcanoes are not limited to ocean centers. They primarily form along plate boundaries, both on land and in water."
+                    "explanation": "A wind gauge (anemometer) measures wind speed and direction. It is not designed to detect or measure earthquake activity."
                 }
             ],
-            "funFact": "The Pacific Ocean is surrounded by so many volcanoes that this region is nicknamed the 'Ring of Fire.' This ring contains about 75% of Earth's active volcanoes!"
+            "funFact": "Modern seismographs are so sensitive they can detect earthquakes happening on the other side of the world! The first known seismograph was invented in China in 132 AD by a scientist named Zhang Heng."
         },
         {
             "id": 6,
-            "text": "Why do volcanic eruptions frequently occur along the Pacific Ocean's coastlines?",
-            "options": [
-                {
-                    "text": "These areas are located along tectonic plate boundaries where magma can easily reach the surface",
-                    "isCorrect": 1,
-                    "explanation": "The Pacific coastlines lie along plate boundaries, where movement and interactions between plates create pathways for magma to reach Earth's surface, forming volcanoes"
-                },
-                {
-                    "text": "The ocean water pressure causes the ground to crack and form volcanoes",
-                    "isCorrect": 0,
-                    "explanation": "Ocean water pressure does not cause volcanic formation. Volcanoes form due to plate tectonic activity, not water pressure"
-                },
-                {
-                    "text": "The sandy beaches along coastlines are more prone to volcanic activity",
-                    "isCorrect": 0,
-                    "explanation": "The type of surface material like sand does not determine volcanic activity. Volcanoes form due to processes happening deep within the Earth at plate boundaries"
-                },
-                {
-                    "text": "The salty ocean water chemically reacts with rocks to create volcanoes",
-                    "isCorrect": 0,
-                    "explanation": "Chemical reactions between seawater and rocks do not create volcanoes. Volcanoes form from magma rising through weak spots in Earth's crust at plate boundaries"
-                }
-            ],
-            "funFact": "The ring of volcanoes around the Pacific Ocean is called the 'Ring of Fire' and contains approximately 452 volcanoes, which is about 75% of the world's active and dormant volcanoes!"
-        },
-        {
-            "id": 7,
-            "text": "Mountain ranges on Earth tend to form in specific locations. Where are most major mountain ranges found?",
-            "options": [
-                {
-                    "text": "Along continental edges and inside continents",
-                    "isCorrect": 1,
-                    "explanation": "Major mountain ranges typically form either along the edges of continents or within continental interiors, which is related to plate tectonic activity and the movement of Earth's crustal plates."
-                },
-                {
-                    "text": "Only in the middle of oceans",
-                    "isCorrect": 0,
-                    "explanation": "While there are underwater mountain ranges in oceans, major mountain ranges are not found only in the middle of oceans. They are primarily found along continental edges and within continents."
-                },
-                {
-                    "text": "Randomly distributed across Earth's surface",
-                    "isCorrect": 0,
-                    "explanation": "Mountain ranges are not randomly distributed. They form in specific patterns related to plate boundaries and tectonic activity."
-                },
-                {
-                    "text": "Only along the equator",
-                    "isCorrect": 0,
-                    "explanation": "Mountain ranges are not limited to the equatorial region. Their formation is related to plate tectonics, not latitude."
-                }
-            ],
-            "funFact": "The Himalayas, Earth's highest mountain range, continues to grow about 5 millimeters (0.2 inches) per year as the Indian continental plate keeps pushing northward into the Eurasian plate!"
-        },
-        {
-            "id": 8,
-            "text": "Why do architects in California often design schools to be single-story buildings rather than multi-story structures?",
-            "options": [
-                {
-                    "text": "Single-story buildings experience less damage during earthquakes because they are closer to the ground",
-                    "isCorrect": 1,
-                    "explanation": "Buildings closer to the ground experience less movement and shaking during earthquakes, making them more stable and less likely to collapse"
-                },
-                {
-                    "text": "Single-story buildings are cheaper to construct than multi-story buildings",
-                    "isCorrect": 0,
-                    "explanation": "While cost may be a factor, the primary reason is safety during earthquakes, not construction costs"
-                },
-                {
-                    "text": "Single-story buildings allow for better emergency exits during fires",
-                    "isCorrect": 0,
-                    "explanation": "While emergency exits are important, the main reason for single-story design in California is earthquake safety"
-                },
-                {
-                    "text": "Single-story buildings require less maintenance over time",
-                    "isCorrect": 0,
-                    "explanation": "Building maintenance requirements are not the main consideration for this design choice - earthquake safety is the primary factor"
-                }
-            ],
-            "funFact": "Japan's famous Tokyo Skytree, despite being 634 meters tall, uses advanced engineering techniques to sway during earthquakes. It has a special core column made of steel tubes that acts like a pendulum to counterbalance seismic waves!"
-        },
-        {
-            "id": 9,
-            "text": "Which pattern best describes where earthquakes and volcanoes typically occur on Earth?",
-            "options": [
-                {
-                    "text": "Along the boundaries where tectonic plates meet",
-                    "isCorrect": 1,
-                    "explanation": "Earthquakes and volcanoes commonly form along plate boundaries where Earth's giant plates meet and interact with each other. These boundaries are ideal locations for both seismic activity and volcanic formations."
-                },
-                {
-                    "text": "Randomly distributed across Earth's surface",
-                    "isCorrect": 0,
-                    "explanation": "Natural disasters like earthquakes and volcanoes do not occur randomly. They follow specific patterns related to Earth's plate boundaries."
-                },
-                {
-                    "text": "Only in the middle of continents",
-                    "isCorrect": 0,
-                    "explanation": "While some volcanic and seismic activity can occur within continents, most earthquakes and volcanoes are found along plate boundaries, not in the middle of continents."
-                },
-                {
-                    "text": "Only in the middle of oceans",
-                    "isCorrect": 0,
-                    "explanation": "Though some volcanic and seismic activity occurs in ocean basins, earthquakes and volcanoes are most commonly found along plate boundaries, which include both continental and oceanic regions."
-                }
-            ],
-            "funFact": "The Pacific Ocean is surrounded by so many active volcanoes that scientists call this region the 'Ring of Fire.' This area experiences about 90% of the world's earthquakes and contains approximately 75% of the world's active volcanoes!"
-        },
-        {
-            "id": 10,
             "text": "A powerful underwater earthquake occurs near Japan. Which statement best explains how this event could affect coastal areas in California?",
             "options": [
                 {
@@ -255,14 +147,14 @@
                     "explanation": "Underwater earthquakes can generate tsunamis that travel vast distances across oceans. The sudden movement of the ocean floor creates powerful waves that maintain their energy over long distances."
                 },
                 {
-                    "text": "The earthquake's vibrations travel directly through the Earth's crust to shake California's coast",
-                    "isCorrect": 0,
-                    "explanation": "While earthquakes do create seismic waves through the Earth's crust, these vibrations weaken over distance and wouldn't cause significant coastal damage thousands of miles away."
-                },
-                {
                     "text": "The earthquake has no effect on California because it's too far away",
                     "isCorrect": 0,
                     "explanation": "Distance alone doesn't prevent tsunami impacts. Ocean waves generated by underwater earthquakes can travel across entire oceans while maintaining their destructive power."
+                },
+                {
+                    "text": "The earthquake's vibrations travel directly through the Earth's crust to shake California's coast",
+                    "isCorrect": 0,
+                    "explanation": "While earthquakes do create seismic waves through the Earth's crust, these vibrations weaken over distance and wouldn't cause significant coastal damage thousands of miles away."
                 },
                 {
                     "text": "The earthquake causes immediate changes in California's tides",
@@ -273,61 +165,115 @@
             "funFact": "The fastest recorded tsunami waves traveled at speeds of up to 500 miles per hour - almost as fast as a commercial jet airplane! This incredible speed is why tsunami warning systems need to work quickly to alert coastal communities."
         },
         {
+            "id": 7,
+            "text": "Why do most active volcanoes occur along the edges of the Pacific Ocean, forming what scientists call the 'Ring of Fire'?",
+            "options": [
+                {
+                    "text": "Because this region contains many plate boundaries where molten rock can reach Earth's surface",
+                    "isCorrect": 1,
+                    "explanation": "Correct! The edges of the Pacific Ocean have numerous tectonic plate boundaries where plates interact, allowing magma to rise through the Earth's crust and form volcanoes."
+                },
+                {
+                    "text": "Because the Pacific Ocean water causes the rocks beneath to melt",
+                    "isCorrect": 0,
+                    "explanation": "Ocean water does not cause rocks to melt. Volcanic activity is related to plate boundary interactions, not the presence of ocean water."
+                },
+                {
+                    "text": "Because the Pacific Ocean is hotter than other oceans",
+                    "isCorrect": 0,
+                    "explanation": "The temperature of ocean water does not determine volcanic activity. Volcanoes form due to plate tectonic processes beneath the Earth's surface."
+                },
+                {
+                    "text": "Because volcanoes only form in ocean regions",
+                    "isCorrect": 0,
+                    "explanation": "Volcanoes can form both on land and in oceans. Their location is determined by plate boundaries, not whether they are near water or land."
+                }
+            ],
+            "funFact": "The Ring of Fire includes over 450 volcanoes and accounts for about 90% of all earthquakes worldwide! This region stretches for nearly 25,000 miles in a horseshoe shape along the Pacific Ocean's edges."
+        },
+        {
+            "id": 8,
+            "text": "Which statement best describes the relationship between major mountain chains and continents?",
+            "options": [
+                {
+                    "text": "Major mountain chains form only along continental edges where volcanoes are present",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While some mountain chains form near continental edges and may have volcanoes, mountains can also form inside continents and don't always require volcanic activity."
+                },
+                {
+                    "text": "Major mountain chains form only inside continents, far from their edges",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Major mountain chains can form both inside continents and near their edges, not just inside them."
+                },
+                {
+                    "text": "Major mountain chains form either inside continents or near their edges",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Major mountain chains typically form in two locations: either inside continents or near their edges, following patterns of tectonic plate movement and interaction."
+                },
+                {
+                    "text": "Major mountain chains form randomly across continents with no specific pattern",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Mountain chain formation follows specific patterns related to plate tectonics, occurring either inside continents or near their edges, not randomly."
+                }
+            ],
+            "funFact": "The Himalayas, Earth's highest mountain range, are still growing taller by about 5 millimeters (0.2 inches) per year! This ongoing growth is caused by the continued collision between the Indian and Eurasian tectonic plates."
+        },
+        {
+            "id": 9,
+            "text": "An engineer is designing homes near an active volcano. Which building material would be most suitable for the roofs of these homes to protect against volcanic hazards?",
+            "options": [
+                {
+                    "text": "Stone",
+                    "isCorrect": 1,
+                    "explanation": "Stone has a very high melting temperature and can withstand extreme heat, making it ideal for structures near volcanoes. It can also support the weight of volcanic ash that may accumulate on the roof."
+                },
+                {
+                    "text": "Regular plastic",
+                    "isCorrect": 0,
+                    "explanation": "Plastic has a low melting point and would quickly deform or melt when exposed to volcanic heat, providing little protection for the building."
+                },
+                {
+                    "text": "Wood",
+                    "isCorrect": 0,
+                    "explanation": "Wood has a relatively low burning point and can catch fire easily when exposed to volcanic heat, making it a poor choice for buildings near volcanoes."
+                },
+                {
+                    "text": "Aluminum",
+                    "isCorrect": 0,
+                    "explanation": "While aluminum is durable, it has a lower melting point than stone and may deform under intense volcanic heat, making it less suitable for volcanic regions."
+                }
+            ],
+            "funFact": "The ancient Roman city of Pompeii, destroyed by Mount Vesuvius in 79 CE, has taught us valuable lessons about building materials in volcanic regions. Many stone structures survived the eruption and can still be seen today, while wooden structures were completely destroyed!"
+        },
+        {
+            "id": 10,
+            "text": "Which statement best explains why earthquakes and volcanoes frequently occur along the boundaries where tectonic plates meet?",
+            "options": [
+                {
+                    "text": "Earthquakes and volcanoes occur randomly across Earth's surface without any connection to plate boundaries",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Earthquakes and volcanoes show clear patterns and are concentrated along plate boundaries, not randomly distributed"
+                },
+                {
+                    "text": "The movement of tectonic plates against each other creates conditions that lead to earthquakes and allows magma to reach the surface as volcanoes",
+                    "isCorrect": 1,
+                    "explanation": "When tectonic plates meet and move against each other, it creates stress that can cause sudden movements (earthquakes) and pathways for magma to reach the surface (volcanoes)"
+                },
+                {
+                    "text": "Ocean water weakens the crust at plate boundaries, causing earthquakes and volcanoes",
+                    "isCorrect": 0,
+                    "explanation": "While plate boundaries often occur near oceans, it's the movement of the plates themselves, not ocean water, that leads to earthquakes and volcanoes"
+                },
+                {
+                    "text": "Plate boundaries are created by earthquakes and volcanic eruptions",
+                    "isCorrect": 0,
+                    "explanation": "This reverses cause and effect. Plate boundaries cause the conditions for earthquakes and volcanoes, not the other way around"
+                }
+            ],
+            "funFact": "The Pacific Ocean is surrounded by so many volcanoes that the region is nicknamed the 'Ring of Fire.' This area experiences about 90% of the world's earthquakes and contains approximately 75% of all active volcanoes on Earth!"
+        },
+        {
             "id": 11,
-            "text": "Which statement best describes the pattern of where volcanoes are typically found on Earth?",
-            "options": [
-                {
-                    "text": "Volcanoes are most commonly found along the boundaries between tectonic plates",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Volcanoes typically form along plate boundaries where molten rock from inside the Earth can more easily reach the surface."
-                },
-                {
-                    "text": "Volcanoes are randomly distributed across Earth's surface",
-                    "isCorrect": 0,
-                    "explanation": "Volcanoes are not randomly distributed. They follow specific patterns related to plate boundaries."
-                },
-                {
-                    "text": "Volcanoes only form in the middle of continents",
-                    "isCorrect": 0,
-                    "explanation": "While some volcanoes can form in continental interiors, they are most commonly found along plate boundaries."
-                },
-                {
-                    "text": "Volcanoes only form in the middle of oceans",
-                    "isCorrect": 0,
-                    "explanation": "While underwater volcanoes exist, volcanoes are not limited to ocean centers. They primarily form along plate boundaries, both on land and in oceans."
-                }
-            ],
-            "funFact": "The Pacific Ocean is surrounded by so many volcanoes that the region is nicknamed the 'Ring of Fire.' This ring contains about 75% of all active volcanoes on Earth!"
-        },
-        {
-            "id": 12,
-            "text": "A series of large waves is observed approaching a coastal city. Scientists determine that these waves were caused by an underwater earthquake that occurred 1000 miles away. Which statement best explains how the underwater earthquake led to the formation of these waves?",
-            "options": [
-                {
-                    "text": "The earthquake caused a sudden movement of the ocean floor, creating large waves that can travel long distances",
-                    "isCorrect": 1,
-                    "explanation": "When an underwater earthquake occurs, it causes an abrupt displacement of the ocean floor, which transfers energy to the water above, creating powerful waves called tsunamis that can travel thousands of miles"
-                },
-                {
-                    "text": "The earthquake created strong winds over the ocean surface that pushed the water toward the coast",
-                    "isCorrect": 0,
-                    "explanation": "Tsunamis are not caused by wind. They are caused by sudden movements of the ocean floor, usually due to underwater earthquakes"
-                },
-                {
-                    "text": "The earthquake caused the temperature of the ocean water to increase, making the water expand and form waves",
-                    "isCorrect": 0,
-                    "explanation": "Tsunamis are not related to water temperature or thermal expansion. They are caused by physical displacement of water due to ocean floor movement"
-                },
-                {
-                    "text": "The earthquake made the moon's gravitational pull stronger, creating larger than normal tidal waves",
-                    "isCorrect": 0,
-                    "explanation": "Tsunamis are not related to the moon's gravity or tides. They are specifically caused by sudden movements of the ocean floor"
-                }
-            ],
-            "funFact": "The word 'tsunami' comes from Japanese: 'tsu' meaning harbor and 'nami' meaning wave. The largest recorded tsunami reached a height of 1,720 feet (524 meters) in Lituya Bay, Alaska in 1958!"
-        },
-        {
-            "id": 13,
             "text": "Which region is most likely to experience both earthquakes and volcanic activity?",
             "options": [
                 {
@@ -354,40 +300,45 @@
             "funFact": "The Pacific Ring of Fire, a horseshoe-shaped region around the Pacific Ocean, contains about 75% of Earth's active volcanoes and experiences about 90% of Earth's earthquakes, making it the most seismically active region in the world!"
         },
         {
-            "id": 14,
-            "text": "A coastal city is planning to build new residential buildings in an area prone to earthquakes and tsunamis. Which combination of design features would be most effective in protecting these buildings from natural disasters?",
+            "id": 12,
+            "text": "Which pattern best describes the formation of major mountain ranges on Earth?",
             "options": [
                 {
-                    "text": "Single-story buildings with flexible materials and elevated foundations",
+                    "text": "Mountain ranges only form along coastlines",
+                    "isCorrect": 0,
+                    "explanation": "While many mountain ranges do form near continental edges, they also form within continents. They are not limited to just coastal areas."
+                },
+                {
+                    "text": "Mountain ranges only form in the middle of oceans",
+                    "isCorrect": 0,
+                    "explanation": "While underwater mountain ranges do exist, major mountain ranges are not limited to ocean centers. They primarily form along continental edges and within continents."
+                },
+                {
+                    "text": "Mountain ranges form randomly across Earth's surface",
+                    "isCorrect": 0,
+                    "explanation": "Mountain ranges do not form randomly. Their formation follows specific patterns related to plate boundaries and continental positions."
+                },
+                {
+                    "text": "Mountain ranges primarily form along continental boundaries and inside continents",
                     "isCorrect": 1,
-                    "explanation": "Single-story buildings are more stable during earthquakes, while flexible materials can better withstand shaking. Elevated foundations help protect against tsunami flooding."
-                },
-                {
-                    "text": "Tall concrete buildings with deep basements",
-                    "isCorrect": 0,
-                    "explanation": "Tall buildings are more vulnerable to earthquake damage, and concrete can crack during seismic activity. Deep basements would increase flood risk during tsunamis."
-                },
-                {
-                    "text": "Multi-story wooden structures with flat roofs",
-                    "isCorrect": 0,
-                    "explanation": "Multiple stories increase earthquake vulnerability, and flat roofs don't help water drainage. Wood alone isn't the best material for coastal conditions."
-                },
-                {
-                    "text": "Buildings with glass walls and underground parking",
-                    "isCorrect": 0,
-                    "explanation": "Glass walls are highly vulnerable to earthquake damage and flying debris. Underground parking areas could flood during tsunamis."
+                    "explanation": "This is correct. Major mountain ranges typically form either near the edges of continents or within continental interiors due to tectonic plate movements and collisions."
                 }
             ],
-            "funFact": "The world's most earthquake-resistant building, Taipei 101 in Taiwan, uses a 730-ton pendulum suspended from the 92nd floor that acts as a tuned mass damper, swaying to counteract building movement during earthquakes and strong winds!"
+            "funFact": "The Himalayas, Earth's highest mountain range, continues to grow about 5 millimeters (0.2 inches) per year as the Indian tectonic plate keeps pushing northward into the Eurasian plate!"
         },
         {
-            "id": 15,
+            "id": 13,
             "text": "An engineer is designing a new high school building in an earthquake-prone area. Which building design would be most likely to minimize damage during an earthquake?",
             "options": [
                 {
                     "text": "A single-story building spread out across a larger area",
                     "isCorrect": 1,
                     "explanation": "Buildings closer to the ground experience less destruction during earthquakes because they are more stable and have a lower center of gravity."
+                },
+                {
+                    "text": "A building with a heavy roof to anchor it",
+                    "isCorrect": 0,
+                    "explanation": "A heavy roof adds more weight to the structure, making it more susceptible to collapse during ground shaking."
                 },
                 {
                     "text": "A tall, narrow 5-story building to save space",
@@ -398,14 +349,63 @@
                     "text": "A solid concrete structure with rigid walls",
                     "isCorrect": 0,
                     "explanation": "Rigid concrete structures can crack during earthquakes, weakening the overall building structure and potentially leading to collapse."
-                },
-                {
-                    "text": "A building with a heavy roof to anchor it",
-                    "isCorrect": 0,
-                    "explanation": "A heavy roof adds more weight to the structure, making it more susceptible to collapse during ground shaking."
                 }
             ],
             "funFact": "The world's most earthquake-resistant building, Taipei 101 in Taiwan, uses a 730-ton pendulum suspended from the 92nd floor that acts as a tuned mass damper, swaying to counteract the building's movement during earthquakes and strong winds!"
+        },
+        {
+            "id": 14,
+            "text": "A series of large waves is observed approaching a coastal city. Scientists determine that these waves were caused by an underwater earthquake that occurred 1000 miles away. Which statement best explains how the underwater earthquake led to the formation of these waves?",
+            "options": [
+                {
+                    "text": "The earthquake caused the temperature of the ocean water to increase, making the water expand and form waves",
+                    "isCorrect": 0,
+                    "explanation": "Tsunamis are not related to water temperature or thermal expansion. They are caused by physical displacement of water due to ocean floor movement"
+                },
+                {
+                    "text": "The earthquake caused a sudden movement of the ocean floor, creating large waves that can travel long distances",
+                    "isCorrect": 1,
+                    "explanation": "When an underwater earthquake occurs, it causes an abrupt displacement of the ocean floor, which transfers energy to the water above, creating powerful waves called tsunamis that can travel thousands of miles"
+                },
+                {
+                    "text": "The earthquake made the moon's gravitational pull stronger, creating larger than normal tidal waves",
+                    "isCorrect": 0,
+                    "explanation": "Tsunamis are not related to the moon's gravity or tides. They are specifically caused by sudden movements of the ocean floor"
+                },
+                {
+                    "text": "The earthquake created strong winds over the ocean surface that pushed the water toward the coast",
+                    "isCorrect": 0,
+                    "explanation": "Tsunamis are not caused by wind. They are caused by sudden movements of the ocean floor, usually due to underwater earthquakes"
+                }
+            ],
+            "funFact": "The word 'tsunami' comes from Japanese: 'tsu' meaning harbor and 'nami' meaning wave. The largest recorded tsunami reached a height of 1,720 feet (524 meters) in Lituya Bay, Alaska in 1958!"
+        },
+        {
+            "id": 15,
+            "text": "When an underwater earthquake occurs near Japan, what is most likely to happen along the California coast?",
+            "options": [
+                {
+                    "text": "California will experience an earthquake immediately",
+                    "isCorrect": 0,
+                    "explanation": "While both Japan and California are located along plate boundaries, an earthquake in one location does not directly trigger an immediate earthquake in another distant location."
+                },
+                {
+                    "text": "A volcanic eruption will occur in California",
+                    "isCorrect": 0,
+                    "explanation": "While earthquakes and volcanoes often occur along plate boundaries, an underwater earthquake in Japan would not trigger a volcanic eruption in California."
+                },
+                {
+                    "text": "A tsunami will reach the California coast several hours after the earthquake",
+                    "isCorrect": 1,
+                    "explanation": "Tsunamis can travel thousands of miles across oceans. When an underwater earthquake occurs near Japan, the resulting tsunami waves can cross the Pacific Ocean and impact California's coastline hours later."
+                },
+                {
+                    "text": "The California coast will be unaffected",
+                    "isCorrect": 0,
+                    "explanation": "Even though Japan is far from California, tsunami waves can travel across the entire Pacific Ocean, so California's coast would likely be affected by a large underwater earthquake near Japan."
+                }
+            ],
+            "funFact": "The 2011 Tohoku earthquake in Japan created tsunami waves that traveled across the Pacific Ocean at speeds of up to 500 miles per hour - as fast as a commercial jet airplane!"
         }
     ]
 }

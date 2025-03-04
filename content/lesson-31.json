@@ -4,33 +4,60 @@
     "questions": [
         {
             "id": 1,
-            "text": "A student breaks their leg and needs to wear a cast for several weeks. Which of the following best describes how this affects multiple body systems?",
+            "text": "Which statement correctly describes the hierarchical organization of a multicellular organism, starting from the smallest to the largest component?",
             "options": [
                 {
-                    "text": "The skeletal system is affected by the broken bone, which causes the muscular system to adjust since muscles cannot move normally with the cast",
+                    "text": "Cells \u2192 Organs \u2192 Tissues \u2192 Organ Systems",
+                    "isCorrect": 0,
+                    "explanation": "This order is incorrect. Tissues form before organs in the hierarchy, as organs are made up of different types of tissues working together."
+                },
+                {
+                    "text": "Cells \u2192 Tissues \u2192 Organ Systems \u2192 Organs",
+                    "isCorrect": 0,
+                    "explanation": "This order is incorrect. Organs must form before organ systems, as organ systems are made up of multiple organs working together."
+                },
+                {
+                    "text": "Cells \u2192 Tissues \u2192 Organs \u2192 Organ Systems",
                     "isCorrect": 1,
-                    "explanation": "This correctly shows how body systems are interconnected - an injury to bones (skeletal system) directly impacts muscle movement and function (muscular system)"
+                    "explanation": "This is the correct hierarchical order. Specialized cells group together to form tissues, different tissues work together to form organs, and organs work together to form organ systems."
                 },
                 {
-                    "text": "Only the skeletal system is affected since the break is in the bone",
+                    "text": "Tissues \u2192 Cells \u2192 Organs \u2192 Organ Systems",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because body systems are interconnected - a problem in one system affects other systems too"
-                },
-                {
-                    "text": "The muscular system completely shuts down when there is a broken bone",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - while muscle function may be limited, the muscular system continues to work but must adapt to the injury"
-                },
-                {
-                    "text": "The nervous system stops sending signals to the injured area",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - the nervous system continues to function and send signals, which is important for healing and pain response"
+                    "explanation": "This order is incorrect. Cells are the smallest unit and combine to form tissues, not the other way around."
                 }
             ],
-            "funFact": "The human body has an amazing ability to adapt to injuries. When one leg is in a cast, the other leg and supporting muscles actually become stronger as they work harder to compensate for the injured limb!"
+            "funFact": "The human body contains approximately 200 different types of cells, which organize into just four main types of tissue: epithelial, connective, muscle, and nervous tissue. These tissues then combine in various ways to form over 78 organs!"
         },
         {
             "id": 2,
+            "text": "How do plant systems differ fundamentally from animal body systems in the way they obtain and process energy?",
+            "options": [
+                {
+                    "text": "Plants have root and shoot systems for making their own food using sunlight, while animals have multiple systems to process food they consume",
+                    "isCorrect": 1,
+                    "explanation": "Plants use their root and shoot systems along with photosynthesis to produce their own food from sunlight, while animals require multiple organ systems like digestive and circulatory systems to process consumed food."
+                },
+                {
+                    "text": "Plants have more complex systems than animals for obtaining energy",
+                    "isCorrect": 0,
+                    "explanation": "Plants actually have simpler systems (just root and shoot) compared to the multiple interacting systems animals have for processing energy from food."
+                },
+                {
+                    "text": "Plants get their energy from consuming other organisms like animals do",
+                    "isCorrect": 0,
+                    "explanation": "Unlike animals, plants don't consume other organisms for energy - they produce their own food using sunlight through photosynthesis."
+                },
+                {
+                    "text": "Plants and animals both need digestive systems to break down food",
+                    "isCorrect": 0,
+                    "explanation": "Only animals have digestive systems. Plants manufacture their own food through photosynthesis and don't need to digest food like animals do."
+                }
+            ],
+            "funFact": "While most plants make their own food through photosynthesis, some unique plants like Venus flytraps have evolved to also capture and digest insects for additional nutrients - though this is still very different from how animal digestive systems work!"
+        },
+        {
+            "id": 3,
             "text": "What is the primary function of xylem tissue in plants?",
             "options": [
                 {
@@ -39,14 +66,14 @@
                     "explanation": "Xylem tissue specializes in transporting water and dissolved nutrients from the roots up through the plant, helping maintain its structure and providing essential materials for survival."
                 },
                 {
-                    "text": "To produce food through photosynthesis",
-                    "isCorrect": 0,
-                    "explanation": "While this is an important plant function, it's performed by other tissues containing chlorophyll, not xylem tissue."
-                },
-                {
                     "text": "To store food for later use",
                     "isCorrect": 0,
                     "explanation": "Food storage is performed by different plant tissues like parenchyma, not xylem tissue."
+                },
+                {
+                    "text": "To produce food through photosynthesis",
+                    "isCorrect": 0,
+                    "explanation": "While this is an important plant function, it's performed by other tissues containing chlorophyll, not xylem tissue."
                 },
                 {
                     "text": "To protect the plant from diseases",
@@ -57,7 +84,34 @@
             "funFact": "The word 'xylem' comes from the Greek word 'xylon' meaning wood. In tall trees, xylem tissue can transport water upward against gravity to heights of over 100 meters - that's taller than a 30-story building!"
         },
         {
-            "id": 3,
+            "id": 4,
+            "text": "Which statement best describes how the respiratory and circulatory systems work together in the human body?",
+            "options": [
+                {
+                    "text": "The respiratory system produces oxygen, while the circulatory system creates blood cells",
+                    "isCorrect": 0,
+                    "explanation": "The respiratory system doesn't produce oxygen - it takes it in from the air. Similarly, blood cells are produced in bone marrow, not by the circulatory system"
+                },
+                {
+                    "text": "The respiratory system brings oxygen into the body through breathing, while the circulatory system transports this oxygen to cells throughout the body",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how these two systems cooperate - the respiratory system takes in oxygen through breathing, and the circulatory system distributes it via blood to all body cells"
+                },
+                {
+                    "text": "The circulatory system brings in oxygen, while the respiratory system moves blood through the body",
+                    "isCorrect": 0,
+                    "explanation": "This reverses the roles of these systems - the respiratory system handles oxygen intake while the circulatory system moves blood"
+                },
+                {
+                    "text": "The respiratory system and circulatory system work independently and don't interact with each other",
+                    "isCorrect": 0,
+                    "explanation": "These systems are highly interdependent - they must work together to supply oxygen to the body's cells"
+                }
+            ],
+            "funFact": "In one day, you take about 20,000 breaths and your heart pumps about 2,000 gallons of blood! These amazing numbers show just how hard your respiratory and circulatory systems work together to keep you alive."
+        },
+        {
+            "id": 5,
             "text": "Which statement best describes how sense receptors work with the nervous system to help us interact with our environment?",
             "options": [
                 {
@@ -66,14 +120,14 @@
                     "explanation": "This correctly describes how sense receptors work together with the nervous system, detecting various stimuli and transmitting this information through neural pathways"
                 },
                 {
-                    "text": "Sense receptors work independently of the nervous system and directly control our body's responses",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because sense receptors must work through the nervous system - they cannot directly control body responses without neural transmission"
-                },
-                {
                     "text": "Only the sense receptors in our eyes and ears are connected to the nervous system",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because all sense receptors (in eyes, ears, skin, tongue, and nose) are connected to the nervous system"
+                },
+                {
+                    "text": "Sense receptors work independently of the nervous system and directly control our body's responses",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because sense receptors must work through the nervous system - they cannot directly control body responses without neural transmission"
                 },
                 {
                     "text": "Sense receptors store information about our environment but don't communicate with other body systems",
@@ -84,153 +138,40 @@
             "funFact": "Some animals have specialized sense receptors that humans don't have! For example, sharks have electroreceptors that can detect tiny electrical fields produced by other animals, helping them hunt even in dark or murky water."
         },
         {
-            "id": 4,
-            "text": "In the human body, which organs work together as part of the digestive system to break down food and provide energy to cells?",
-            "options": [
-                {
-                    "text": "Mouth, stomach, and intestines",
-                    "isCorrect": 1,
-                    "explanation": "These organs work together to break down food, absorb nutrients, and supply energy to cells throughout the body. While these are the main organs of the digestive tract where food passes through, the complete digestive system also includes accessory organs like the liver, pancreas, and gallbladder that produce or store digestive juices but don't directly process food."
-                },
-                {
-                    "text": "Heart, lungs, and blood vessels",
-                    "isCorrect": 0,
-                    "explanation": "These organs are part of the circulatory and respiratory systems, which transport blood and oxygen rather than digest food."
-                },
-                {
-                    "text": "Brain, spinal cord, and nerves",
-                    "isCorrect": 0,
-                    "explanation": "These components form the nervous system, which controls and coordinates body functions but does not digest food."
-                },
-                {
-                    "text": "Bones, muscles, and joints",
-                    "isCorrect": 0,
-                    "explanation": "These parts make up the musculoskeletal system, which provides structure and movement but is not involved in digestion."
-                }
-            ],
-            "funFact": "The human digestive system can process around 50 tons of food and liquid during an average lifetime! The small intestine alone is about 20 feet long when stretched out - that's about the height of a two-story building."
-        },
-        {
-            "id": 5,
-            "text": "A patient goes to see a doctor who specializes in treating problems with the digestive system. What type of specialist would this doctor be?",
-            "options": [
-                {
-                    "text": "Gastroenterologist",
-                    "isCorrect": 1,
-                    "explanation": "A gastroenterologist specializes in diagnosing and treating disorders of the digestive system, including the stomach, intestines, and other digestive organs."
-                },
-                {
-                    "text": "Neurologist",
-                    "isCorrect": 0,
-                    "explanation": "A neurologist specializes in treating disorders of the nervous system, not the digestive system."
-                },
-                {
-                    "text": "Hematologist",
-                    "isCorrect": 0,
-                    "explanation": "A hematologist specializes in treating blood disorders and diseases, not the digestive system."
-                },
-                {
-                    "text": "Cardiologist",
-                    "isCorrect": 0,
-                    "explanation": "A cardiologist specializes in treating heart and blood vessel conditions, not the digestive system."
-                }
-            ],
-            "funFact": "The word 'gastroenterology' comes from the Greek words 'gastro' (stomach), 'entero' (intestine), and 'logia' (study of). These doctors typically complete 5-6 years of additional specialized training after medical school!"
-        },
-        {
             "id": 6,
-            "text": "When examining tissue samples under a microscope, a scientist observes that muscle tissue and connective tissue work together to form which of the following organs that enables its specific function?",
+            "text": "When a person gets a small cut on their finger, multiple levels of organization in the body work together to heal the wound. Which sequence correctly describes how the healing process occurs?",
             "options": [
                 {
-                    "text": "The heart, allowing it to pump blood throughout the body",
+                    "text": "Blood vessels repair \u2192 Blood clotting stops bleeding \u2192 Inflammation occurs with immune cell activity \u2192 Individual cells multiply \u2192 Skin tissue regenerates",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect because blood clotting (hemostasis) is the initial response to injury, followed by inflammation. Blood vessel repair cannot occur before these initial phases."
+                },
+                {
+                    "text": "Blood clotting stops bleeding \u2192 Inflammation occurs with immune cell activity \u2192 Individual cells multiply and form new tissue \u2192 Blood vessels repair \u2192 Skin tissue regenerates",
                     "isCorrect": 1,
-                    "explanation": "The heart contains both muscle tissue for contraction and connective tissue for support, enabling it to effectively pump blood throughout the body."
+                    "explanation": "This correctly shows how healing progresses from initial hemostasis (blood clotting), through inflammation, cellular proliferation, vascular repair, and finally tissue regeneration, demonstrating the hierarchical organization of body systems."
                 },
                 {
-                    "text": "The lungs, allowing them to digest food",
+                    "text": "Inflammation occurs with immune cell activity \u2192 Blood clotting stops bleeding \u2192 Skin tissue regenerates \u2192 Individual cells multiply \u2192 Blood vessels repair",
                     "isCorrect": 0,
-                    "explanation": "While lungs do contain different types of tissue, they are responsible for breathing, not digesting food. The digestive system handles food processing."
+                    "explanation": "This sequence is incorrect because inflammation typically follows blood clotting, not precedes it. Additionally, cells must multiply before tissue can regenerate, not after."
                 },
                 {
-                    "text": "The brain, allowing it to store memories",
+                    "text": "Individual cells multiply and form new tissue \u2192 Blood clotting stops bleeding \u2192 Inflammation occurs with immune cell activity \u2192 Skin tissue regenerates \u2192 Blood vessels repair",
                     "isCorrect": 0,
-                    "explanation": "The brain primarily consists of nervous tissue, not muscle and connective tissue. It uses networks of neurons to process and store information."
-                },
-                {
-                    "text": "The kidneys, allowing them to produce hormones",
-                    "isCorrect": 0,
-                    "explanation": "While kidneys do contain different types of tissue, their main function of filtering blood does not primarily rely on the interaction between muscle and connective tissue."
+                    "explanation": "This sequence is incorrect because blood clotting and inflammation are the first responses to injury, occurring before cell multiplication and tissue regeneration."
                 }
             ],
-            "funFact": "The heart is so strong that it could pump blood up to 30 feet high if pumped outside the body! This incredible strength comes from the specialized cardiac muscle tissue that never gets tired and works continuously throughout our lives."
+            "funFact": "Did you know that your skin, the largest organ in your body, replaces itself every 27-30 days? This continuous renewal process involves billions of cells working together and shows how dynamic our body's healing systems are!"
         },
         {
             "id": 7,
-            "text": "Why do different body systems like the heart and brain require specialized doctors (cardiologists and neurologists) for treatment?",
-            "options": [
-                {
-                    "text": "Because each body system has unique structures and functions that require specific medical expertise",
-                    "isCorrect": 1,
-                    "explanation": "Different body systems have complex and unique components that interact in specific ways. Understanding these intricate interactions requires specialized knowledge and training."
-                },
-                {
-                    "text": "Because doctors prefer to focus on only one body system",
-                    "isCorrect": 0,
-                    "explanation": "This is oversimplified. The specialization is due to the complexity of body systems, not personal preference."
-                },
-                {
-                    "text": "Because it's easier to treat one system than multiple systems",
-                    "isCorrect": 0,
-                    "explanation": "Body systems are interconnected, and specialists must understand how their system interacts with others, not just treat it in isolation."
-                },
-                {
-                    "text": "Because each body system has completely different diseases",
-                    "isCorrect": 0,
-                    "explanation": "While different systems can have unique conditions, many diseases affect multiple systems. Specialists focus on system complexity, not just specific diseases."
-                }
-            ],
-            "funFact": "The field of medical specialization began in ancient Egypt, where some physicians focused exclusively on specific body parts. However, it wasn't until the 19th century that medical specialization as we know it today became widespread, driven by advances in scientific knowledge and medical technology."
-        },
-        {
-            "id": 8,
-            "text": "A student broke their leg bone while playing soccer and now has to wear a cast. Which statement best describes how this injury affects multiple body systems?",
-            "options": [
-                {
-                    "text": "The broken bone only affects the skeletal system since bones are part of that system",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because body systems are interconnected. A broken bone affects multiple systems, not just the skeletal system."
-                },
-                {
-                    "text": "The injury affects the skeletal system and muscular system because the cast limits muscle movement, but other systems continue to function normally",
-                    "isCorrect": 0,
-                    "explanation": "While this recognizes the connection between skeletal and muscular systems, it overlooks other affected systems like the nervous system which sends pain signals."
-                },
-                {
-                    "text": "The broken bone affects the skeletal, muscular, and nervous systems as the injury causes pain signals, limited movement, and bone healing",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because it shows how body systems are interconnected - the nervous system sends pain signals, muscles cannot move normally due to the cast, and the skeletal system works to heal the bone."
-                },
-                {
-                    "text": "The injury only affects the nervous system because that's what causes the pain sensation",
-                    "isCorrect": 0,
-                    "explanation": "This focuses only on pain signals through the nervous system while ignoring how the injury affects bone healing and muscle movement."
-                }
-            ],
-            "funFact": "When a bone breaks, the body immediately begins a complex healing process involving multiple systems. The circulatory system increases blood flow to deliver healing cells, while stem cells at the injury site transform into specialized bone-forming cells called osteoblasts."
-        },
-        {
-            "id": 9,
             "text": "Blood vessels in the circulatory system have different tissue types working together. How do these tissue types help blood vessels perform their main function of transporting blood throughout the body?",
             "options": [
                 {
                     "text": "Smooth muscle tissue controls vessel diameter, while elastic tissue allows vessels to stretch and recoil as blood flows through them",
                     "isCorrect": 1,
                     "explanation": "This is correct. The smooth muscle tissue can contract or relax to regulate blood flow, while elastic tissue helps vessels maintain pressure and blood flow by stretching and recoiling."
-                },
-                {
-                    "text": "Bone tissue provides rigid support while nerve tissue pumps blood through the vessels",
-                    "isCorrect": 0,
-                    "explanation": "Blood vessels don't contain bone tissue, and nerve tissue doesn't pump blood. The heart pumps blood through vessels made of muscle and elastic tissues."
                 },
                 {
                     "text": "Fat tissue insulates the vessels while connective tissue dissolves blood clots",
@@ -241,45 +182,104 @@
                     "text": "Cartilage tissue keeps vessels rigid while muscle tissue produces blood cells",
                     "isCorrect": 0,
                     "explanation": "Blood vessels don't contain cartilage tissue, and muscle tissue doesn't produce blood cells. Blood cells are produced in bone marrow."
+                },
+                {
+                    "text": "Bone tissue provides rigid support while nerve tissue pumps blood through the vessels",
+                    "isCorrect": 0,
+                    "explanation": "Blood vessels don't contain bone tissue, and nerve tissue doesn't pump blood. The heart pumps blood through vessels made of muscle and elastic tissues."
                 }
             ],
             "funFact": "The smallest blood vessels in your body, capillaries, are so tiny that red blood cells need to fold themselves to pass through one at a time. If laid end to end, all the blood vessels in an adult human body would stretch about 60,000 miles!"
         },
         {
-            "id": 10,
-            "text": "During a marathon, a runner's heart rate increases and they breathe faster. Which statement best explains how their body systems work together to meet the increased energy demands of their muscles?",
+            "id": 8,
+            "text": "The heart is made up of different types of cells that work together. Which statement best describes how different cell types enable the heart to function properly?",
             "options": [
                 {
-                    "text": "The respiratory system takes in more oxygen, which the circulatory system delivers to muscle cells for energy production",
+                    "text": "Only muscle cells are important for heart function since they do the pumping, while other cell types are not necessary",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While muscle cells are important, the heart needs multiple cell types working together. Nerve cells and blood vessel cells are also essential for proper heart function."
+                },
+                {
+                    "text": "Cardiac muscle cells contract, nerve cells control the timing of contractions, and blood vessel cells form pathways, all working together to pump blood",
                     "isCorrect": 1,
-                    "explanation": "This correctly shows how multiple systems interact - the respiratory system increases breathing rate to get more oxygen, while the circulatory system transports this oxygen to muscle cells that need extra energy."
+                    "explanation": "This is correct. The heart functions properly because different specialized cells work together - muscle cells provide the pumping force, nerve cells coordinate the timing, and blood vessel cells create pathways for blood flow."
                 },
                 {
-                    "text": "The digestive system quickly breaks down food to give immediate energy to the muscles",
+                    "text": "All cells in the heart are the same type of cell that can perform multiple functions",
                     "isCorrect": 0,
-                    "explanation": "While the digestive system provides nutrients, it works too slowly to provide immediate energy during exercise. The body primarily relies on oxygen delivery and stored energy sources."
+                    "explanation": "This is incorrect. The heart contains different specialized cell types, not just one type of cell. Each cell type has specific functions that contribute to heart function."
                 },
                 {
-                    "text": "The muscular system works independently to generate its own energy without help from other systems",
+                    "text": "Different cell types in the heart work independently without interacting with each other to pump blood",
                     "isCorrect": 0,
-                    "explanation": "Muscles cannot work in isolation - they depend on other body systems to deliver oxygen and nutrients needed for energy production."
-                },
-                {
-                    "text": "The nervous system directly provides energy to the muscles through electrical signals",
-                    "isCorrect": 0,
-                    "explanation": "While the nervous system controls muscle movement through electrical signals, it does not provide the actual energy muscles need to contract. Energy comes from cellular processes using oxygen and nutrients."
+                    "explanation": "This is incorrect. The different cell types in the heart must work together in a coordinated way, not independently, to pump blood effectively."
                 }
             ],
-            "funFact": "When running a marathon, your heart pumps about 3.5 gallons of blood per minute to your muscles, compared to only 0.85 gallons per minute when resting. This dramatic increase helps deliver the extra oxygen needed for energy production!"
+            "funFact": "Your heart beats about 100,000 times per day, pumping around 2,000 gallons of blood! This impressive feat is possible because of the precise coordination between different types of heart cells, which developed this specialized teamwork over millions of years of evolution."
+        },
+        {
+            "id": 9,
+            "text": "How do sense receptors in our skin help our nervous system interact with the muscular system during a reflex action, like quickly pulling your hand away from a hot surface?",
+            "options": [
+                {
+                    "text": "The sense receptors detect heat and send electrical signals through nerves to muscles, causing immediate muscle contraction for protection",
+                    "isCorrect": 1,
+                    "explanation": "This demonstrates correct interaction between systems - sensory receptors detect stimuli, nervous system transmits signals, and muscles respond with movement"
+                },
+                {
+                    "text": "The sense receptors only alert the brain but don't play any role in muscle movement",
+                    "isCorrect": 0,
+                    "explanation": "Sense receptors are crucial in initiating the reflex arc that leads to muscle movement, not just for awareness"
+                },
+                {
+                    "text": "The muscles directly detect heat and contract on their own without involving any other body system",
+                    "isCorrect": 0,
+                    "explanation": "Muscles cannot directly sense heat - they rely on sensory receptors in the skin and signals from the nervous system to respond"
+                },
+                {
+                    "text": "The sense receptors store the heat energy and slowly release it to make muscles move away",
+                    "isCorrect": 0,
+                    "explanation": "Sense receptors don't store energy - they convert stimuli into electrical signals that travel through the nervous system"
+                }
+            ],
+            "funFact": "The reflex action of pulling away from a hot surface happens so fast that the signal doesn't even need to reach your brain first! The signal travels only to your spinal cord and back to your muscles, taking just 0.1 seconds from touch to movement."
+        },
+        {
+            "id": 10,
+            "text": "When a person exercises on a hot day, their body temperature begins to rise. Which sequence correctly shows how different body systems work together to maintain a safe body temperature?",
+            "options": [
+                {
+                    "text": "Blood vessels dilate \u2192 temperature receptors activated \u2192 sweat glands release sweat \u2192 nervous system signals \u2192 body cools down",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect because temperature detection by receptors must occur first before the body can respond with blood vessel dilation and sweating."
+                },
+                {
+                    "text": "Temperature receptors in skin \u2192 nervous system signals \u2192 blood vessels dilate \u2192 sweat glands activated \u2192 heat released through evaporation",
+                    "isCorrect": 1,
+                    "explanation": "This shows the correct sequence of temperature regulation involving multiple systems working together - the nervous system detects temperature changes, signals blood vessels to dilate, and activates sweat glands to cool the body through evaporation."
+                },
+                {
+                    "text": "Sweat glands activated \u2192 blood flow increases \u2192 temperature receptors signal \u2192 nervous system responds \u2192 blood vessels dilate",
+                    "isCorrect": 0,
+                    "explanation": "Sweat glands cannot be activated before the temperature change is detected and the nervous system signals. The sequence needs to start with temperature detection."
+                },
+                {
+                    "text": "Nervous system signals \u2192 temperature receptors activated \u2192 sweat glands release sweat \u2192 blood vessels dilate \u2192 heat released",
+                    "isCorrect": 0,
+                    "explanation": "The nervous system cannot signal before temperature receptors detect the change in temperature. Temperature detection must occur first."
+                }
+            ],
+            "funFact": "The human body is so efficient at temperature regulation that it can maintain its core temperature within about 0.9\u00b0F (0.5\u00b0C) even when external temperatures vary greatly. This precise control is essential because most of our body's enzymes function optimally within this narrow temperature range!"
         },
         {
             "id": 11,
             "text": "A patient is experiencing severe abdominal pain and digestive issues. Which combination of medical specialists would most likely work together to diagnose and treat this condition?",
             "options": [
                 {
-                    "text": "A gastroenterologist and a neurologist",
+                    "text": "An ophthalmologist and an orthopedist",
                     "isCorrect": 0,
-                    "explanation": "While a gastroenterologist is appropriate for digestive issues, a neurologist focuses on the nervous system and would not be the primary specialist needed for abdominal pain."
+                    "explanation": "These specialists deal with eye conditions and bone/joint conditions respectively, which are not relevant for treating digestive system problems."
                 },
                 {
                     "text": "A gastroenterologist and a nutritionist",
@@ -292,44 +292,76 @@
                     "explanation": "These specialists focus on heart conditions and skin conditions respectively, which are not directly related to digestive system issues and abdominal pain."
                 },
                 {
-                    "text": "An ophthalmologist and an orthopedist",
+                    "text": "A gastroenterologist and a neurologist",
                     "isCorrect": 0,
-                    "explanation": "These specialists deal with eye conditions and bone/joint conditions respectively, which are not relevant for treating digestive system problems."
+                    "explanation": "While a gastroenterologist is appropriate for digestive issues, a neurologist focuses on the nervous system and would not be the primary specialist needed for abdominal pain."
                 }
             ],
             "funFact": "The human digestive system is about 30 feet long when stretched out completely! This complex system processes around 50 tons of food during an average person's lifetime, highlighting why multiple specialists often need to work together to treat digestive issues."
         },
         {
             "id": 12,
-            "text": "A student notices that their friend becomes tired and breathless much more quickly during physical activities due to a respiratory condition that reduces oxygen intake. Which other body system would be most directly affected by this reduced oxygen supply?",
+            "text": "During an intense workout, your body needs to coordinate multiple systems to maintain peak performance. What is the primary sequence of system interactions that occurs when your muscles need more oxygen during exercise?",
             "options": [
                 {
-                    "text": "The circulatory system",
+                    "text": "The muscular system signals for energy \u2192 respiratory system delivers oxygen directly to muscles \u2192 circulatory system removes waste",
+                    "isCorrect": 0,
+                    "explanation": "The respiratory system cannot deliver oxygen directly to muscles - it must work through the circulatory system for oxygen transport."
+                },
+                {
+                    "text": "The respiratory system increases breathing rate \u2192 circulatory system delivers more oxygen \u2192 muscular system uses oxygen for energy",
                     "isCorrect": 1,
-                    "explanation": "The circulatory system works directly with the respiratory system to distribute oxygen throughout the body. When oxygen intake is reduced, the circulatory system cannot deliver sufficient oxygen to cells and tissues."
+                    "explanation": "This is the correct sequence. The respiratory system first increases breathing to get more oxygen, which the circulatory system then transports to the working muscles."
                 },
                 {
-                    "text": "The digestive system",
+                    "text": "The circulatory system increases heart rate \u2192 muscles absorb oxygen from blood \u2192 respiratory system removes carbon dioxide",
                     "isCorrect": 0,
-                    "explanation": "While the digestive system needs oxygen to function, it is not the most directly impacted by reduced oxygen intake. The circulatory system is affected first as it carries oxygen from lungs to tissues."
+                    "explanation": "While these events occur during exercise, this is not the primary sequence. Increased breathing must happen first to get more oxygen into the body."
                 },
                 {
-                    "text": "The skeletal system",
+                    "text": "The muscular system uses stored oxygen \u2192 respiratory system replaces oxygen \u2192 circulatory system distributes nutrients",
                     "isCorrect": 0,
-                    "explanation": "Though bones need oxygen, the skeletal system is not the most immediately affected by reduced oxygen intake. The circulatory system, which delivers oxygen to all tissues, is impacted first."
-                },
-                {
-                    "text": "The excretory system",
-                    "isCorrect": 0,
-                    "explanation": "While the excretory system requires oxygen to function, it is not the system most directly affected by reduced oxygen intake. The circulatory system, which transports oxygen, is impacted first."
+                    "explanation": "Muscles don't store significant amounts of oxygen - they need continuous delivery through the coordinated effort of respiratory and circulatory systems."
                 }
             ],
-            "funFact": "The heart pumps about 2,000 gallons of blood each day through blood vessels that, if laid end to end, would stretch about 60,000 miles - long enough to circle Earth more than twice!"
+            "funFact": "Elite athletes' bodies become so efficient at this system coordination that their resting heart rates can be remarkably low - some Tour de France cyclists have been recorded with resting heart rates as low as 28 beats per minute!"
         },
         {
             "id": 13,
+            "text": "Why is it essential for specialized cells to work together in tissues rather than functioning independently in the body?",
+            "options": [
+                {
+                    "text": "Specialized cells cannot survive unless they are part of a tissue",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While specialized cells often work best as part of a tissue, many specialized cells can survive independently. The main reason for working together is functional efficiency, not survival."
+                },
+                {
+                    "text": "Specialized cells lose their individual functions when working in a tissue",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Specialized cells maintain their individual functions when working in a tissue. In fact, it's their specialized functions that make them valuable as part of the tissue."
+                },
+                {
+                    "text": "Individual cells are too large to function effectively on their own",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Individual cells are actually very small, and their size is not the reason they need to work together. The need for collaboration comes from the complexity of functions they need to perform."
+                },
+                {
+                    "text": "Specialized cells working together in tissues can perform complex functions that individual cells cannot accomplish alone",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Tissues are made of specialized cells working together, which allows them to perform specific functions more effectively than individual cells could. For example, muscle tissue consists of many muscle cells working in coordination to create movement."
+                }
+            ],
+            "funFact": "The human body contains approximately 200 different types of specialized cells, and when these cells work together in tissues, they can perform functions much more efficiently than if they were working individually."
+        },
+        {
+            "id": 14,
             "text": "The stomach is a complex organ made up of different types of tissues that work together during digestion. Which statement correctly describes how specialized tissues contribute to the stomach's function?",
             "options": [
+                {
+                    "text": "Epithelial tissue contracts to move food, while muscle tissue protects the stomach from acid",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly switches the roles of the tissues - muscle tissue provides movement while epithelial tissue provides protection and secretion"
+                },
                 {
                     "text": "Muscle tissue contracts to mix food and move it through the stomach, while epithelial tissue secretes digestive enzymes",
                     "isCorrect": 1,
@@ -344,68 +376,36 @@
                     "text": "Both muscle and epithelial tissues have the same role of breaking down food particles",
                     "isCorrect": 0,
                     "explanation": "Different tissues have specialized roles rather than performing the same function - this is what makes organs work effectively"
-                },
-                {
-                    "text": "Epithelial tissue contracts to move food, while muscle tissue protects the stomach from acid",
-                    "isCorrect": 0,
-                    "explanation": "This incorrectly switches the roles of the tissues - muscle tissue provides movement while epithelial tissue provides protection and secretion"
                 }
             ],
             "funFact": "The stomach's muscular wall is so powerful that it can grind, squeeze, and mix food with the same force that your hands can crack a walnut! This helps break down food into a substance called chyme."
         },
         {
-            "id": 14,
-            "text": "Why is it essential for specialized cells to work together in tissues rather than functioning independently in the body?",
-            "options": [
-                {
-                    "text": "Specialized cells working together in tissues can perform complex functions that individual cells cannot accomplish alone",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Tissues are made of specialized cells working together, which allows them to perform specific functions more effectively than individual cells could. For example, muscle tissue consists of many muscle cells working in coordination to create movement."
-                },
-                {
-                    "text": "Individual cells are too large to function effectively on their own",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Individual cells are actually very small, and their size is not the reason they need to work together. The need for collaboration comes from the complexity of functions they need to perform."
-                },
-                {
-                    "text": "Specialized cells cannot survive unless they are part of a tissue",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While specialized cells often work best as part of a tissue, many specialized cells can survive independently. The main reason for working together is functional efficiency, not survival."
-                },
-                {
-                    "text": "Specialized cells lose their individual functions when working in a tissue",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Specialized cells maintain their individual functions when working in a tissue. In fact, it's their specialized functions that make them valuable as part of the tissue."
-                }
-            ],
-            "funFact": "The human body contains approximately 200 different types of specialized cells, and when these cells work together in tissues, they can perform functions much more efficiently than if they were working individually."
-        },
-        {
             "id": 15,
-            "text": "A student breaks their ankle while playing soccer and needs to wear a cast for 6 weeks. Which statement best describes how this injury affects multiple body systems?",
+            "text": "Why can plants survive with just two major systems (root and shoot) while animals require multiple systems like digestive, respiratory, and circulatory systems to function?",
             "options": [
                 {
-                    "text": "The broken bone affects only the skeletal system since bones are part of just one system",
+                    "text": "Animals have unnecessarily complex systems, and could survive with just two systems like plants",
                     "isCorrect": 0,
-                    "explanation": "Incorrect. A broken bone impacts multiple interconnected systems, not just the skeletal system."
+                    "explanation": "Animal systems are necessarily complex to support their lifestyle of movement, active food seeking, and complex interactions. These systems cannot be reduced to just two."
                 },
                 {
-                    "text": "The cast prevents muscle movement, which affects both the muscular and skeletal systems, but has no impact on other systems",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. While the muscular and skeletal systems are affected, the nervous system is also impacted through pain signals and movement control."
-                },
-                {
-                    "text": "The injury causes pain through nerve signals, weakens muscles from reduced movement, and affects bone healing, showing how skeletal, muscular, and nervous systems work together",
+                    "text": "Plants are simpler organisms that only need water and sunlight to survive, while animals have more complex survival needs requiring multiple specialized systems",
                     "isCorrect": 1,
-                    "explanation": "Correct! The broken ankle demonstrates how body systems are interconnected - the nervous system sends pain signals, muscles weaken from disuse, and the skeletal system works to heal the bone."
+                    "explanation": "Plants use photosynthesis to make their own food using sunlight, water and CO2, requiring simpler systems. Animals need to find, digest and distribute food, remove waste, and move around, necessitating more complex interconnected systems."
                 },
                 {
-                    "text": "The injury only affects walking because that's the only function of the ankle",
+                    "text": "The root and shoot systems in plants actually contain many subsystems that are equivalent to animal systems",
                     "isCorrect": 0,
-                    "explanation": "Incorrect. The ankle is involved in multiple functions and its injury impacts several body systems beyond just walking ability."
+                    "explanation": "While plant systems do have specialized tissues, they are not equivalent to the distinct organ systems found in animals. The root and shoot systems serve fundamentally different purposes."
+                },
+                {
+                    "text": "Plants have evolved to be more efficient than animals, so they can do the same functions with fewer systems",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - plants aren't more efficient, they just have different needs. Their simpler lifestyle allows them to function with fewer systems."
                 }
             ],
-            "funFact": "When a bone breaks, the body immediately launches a complex healing process involving multiple systems - blood vessels deliver healing cells, nerves signal pain to protect the area, and surrounding muscles provide stability. This coordinated response shows how our body systems work together like a well-orchestrated team!"
+            "funFact": "Some primitive animals like jellyfish survive with just two cell layers and no complex organ systems - they absorb nutrients directly through their outer layer and distribute them through a simple gastrovascular cavity, showing an interesting intermediate step between simple and complex body organizations!"
         }
     ]
 }

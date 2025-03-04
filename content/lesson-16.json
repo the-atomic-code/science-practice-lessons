@@ -4,114 +4,6 @@
     "questions": [
         {
             "id": 1,
-            "text": "In a liquid state of matter, how are the molecules arranged and what is their motion like?",
-            "options": [
-                {
-                    "text": "The molecules are in constant motion, sliding past each other while maintaining contact",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes liquids where molecules have enough energy to move around but stay in contact with neighboring molecules, allowing liquids to flow while maintaining a definite volume."
-                },
-                {
-                    "text": "The molecules are fixed in place and only vibrate slightly",
-                    "isCorrect": 0,
-                    "explanation": "This describes solids where molecules are locked in fixed positions. Liquid molecules have more freedom of movement than this."
-                },
-                {
-                    "text": "The molecules are very far apart and move freely in all directions",
-                    "isCorrect": 0,
-                    "explanation": "This describes gases where molecules have large spaces between them. Liquid molecules stay in contact with each other unlike gas molecules."
-                },
-                {
-                    "text": "The molecules are completely stationary with no movement at all",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect as molecules in all states of matter have some motion. Even in solids, molecules vibrate in place."
-                }
-            ],
-            "funFact": "The unique molecular arrangement in liquids explains why you can pour water into any shape container, but it won't expand to fill the whole container like a gas would. This property makes liquids essential for life processes, as they can flow through blood vessels and cell membranes while staying together as one substance!"
-        },
-        {
-            "id": 2,
-            "text": "Which of the following best explains why a foam cup is better at keeping a hot drink warm compared to a glass cup?",
-            "options": [
-                {
-                    "text": "The trapped air spaces in foam slow down thermal energy transfer because air molecules are far apart and collide less frequently",
-                    "isCorrect": 1,
-                    "explanation": "Correct! When air molecules are spaced far apart, they have fewer collisions, which reduces thermal energy transfer through the material."
-                },
-                {
-                    "text": "Foam is naturally warmer than glass, so it adds heat to keep the drink warm",
-                    "isCorrect": 0,
-                    "explanation": "Foam doesn't generate heat. Its insulating properties come from trapped air spaces that reduce thermal energy transfer."
-                },
-                {
-                    "text": "The foam molecules are packed tightly together which blocks heat from escaping",
-                    "isCorrect": 0,
-                    "explanation": "Actually, it's the opposite - foam works because it has many air spaces where molecules are far apart, not tightly packed."
-                },
-                {
-                    "text": "The foam cup absorbs thermal energy and stores it to keep the drink warm",
-                    "isCorrect": 0,
-                    "explanation": "Foam doesn't store thermal energy - it insulates by reducing thermal energy transfer through trapped air spaces."
-                }
-            ],
-            "funFact": "The same principle that makes foam cups good insulators is used in many building materials. Modern homes often use foam insulation in walls and attics because the trapped air spaces significantly reduce heat transfer, helping keep buildings warm in winter and cool in summer."
-        },
-        {
-            "id": 3,
-            "text": "Which of the following is an example of a chemical reaction that absorbs thermal energy from its surroundings?",
-            "options": [
-                {
-                    "text": "Using instant cold packs to treat sports injuries",
-                    "isCorrect": 1,
-                    "explanation": "Instant cold packs contain chemicals that undergo an endothermic reaction, absorbing thermal energy from the surroundings and making the area feel cold."
-                },
-                {
-                    "text": "Burning wood in a campfire",
-                    "isCorrect": 0,
-                    "explanation": "Burning wood is an exothermic reaction that releases thermal energy into the surroundings, not absorbs it."
-                },
-                {
-                    "text": "Using hand warmers on a cold day",
-                    "isCorrect": 0,
-                    "explanation": "Hand warmers work through an exothermic chemical reaction that releases thermal energy to warm your hands."
-                },
-                {
-                    "text": "Lighting a match",
-                    "isCorrect": 0,
-                    "explanation": "The chemical reaction in a match is exothermic, releasing thermal energy and light energy into the surroundings."
-                }
-            ],
-            "funFact": "Some endothermic reactions are used in cooling technology beyond just cold packs. For example, certain refrigeration systems use ammonium nitrate dissolution, an endothermic process, to create portable cooling without electricity!"
-        },
-        {
-            "id": 4,
-            "text": "Two coffee mugs contain different liquids - one has hot coffee at 90\u00b0C and the other has cold milk at 5\u00b0C. When these mugs are placed next to each other, in which direction will thermal energy transfer?",
-            "options": [
-                {
-                    "text": "From the hot coffee to the cold milk",
-                    "isCorrect": 1,
-                    "explanation": "Thermal energy always transfers from substances at higher temperatures to substances at lower temperatures. Since the coffee is at 90\u00b0C and milk is at 5\u00b0C, thermal energy will flow from the coffee to the milk."
-                },
-                {
-                    "text": "From the cold milk to the hot coffee",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Thermal energy never flows from colder to hotter substances on its own. The natural flow is always from hot to cold."
-                },
-                {
-                    "text": "In both directions equally",
-                    "isCorrect": 0,
-                    "explanation": "While particles in both liquids are moving, thermal energy transfer has a specific direction - from hot to cold. It does not flow equally in both directions."
-                },
-                {
-                    "text": "There will be no thermal energy transfer",
-                    "isCorrect": 0,
-                    "explanation": "When there is a temperature difference between substances that can interact, thermal energy transfer will occur until both reach the same temperature."
-                }
-            ],
-            "funFact": "The process of thermal energy naturally flowing from hot to cold is so fundamental that it's described by the Second Law of Thermodynamics. This is why your hot drink eventually cools to room temperature, but your cold drink never spontaneously gets hotter!"
-        },
-        {
-            "id": 5,
             "text": "When thermal energy is added to a substance, what happens to the motion of its particles?",
             "options": [
                 {
@@ -120,14 +12,14 @@
                     "explanation": "As thermal energy is added, particles gain kinetic energy and vibrate more rapidly, leading to higher temperatures."
                 },
                 {
-                    "text": "The particles become completely still",
-                    "isCorrect": 0,
-                    "explanation": "Adding thermal energy increases particle motion, not decreases it. Particles never become completely still, even at very low temperatures."
-                },
-                {
                     "text": "The particles get smaller",
                     "isCorrect": 0,
                     "explanation": "Adding thermal energy affects particle motion but does not change the size of the particles themselves."
+                },
+                {
+                    "text": "The particles become completely still",
+                    "isCorrect": 0,
+                    "explanation": "Adding thermal energy increases particle motion, not decreases it. Particles never become completely still, even at very low temperatures."
                 },
                 {
                     "text": "The particles merge together",
@@ -138,99 +30,180 @@
             "funFact": "At absolute zero temperature (-273.15\u00b0C), particles still have a tiny bit of motion called zero-point energy - they never completely stop moving! This is a fundamental principle of quantum mechanics."
         },
         {
-            "id": 6,
-            "text": "A chemical hand warmer contains iron powder, salt, and activated charcoal in a sealed pouch. When the pouch is opened and exposed to air, it starts to feel warm. What best explains how this hand warmer increases the temperature of your hands?",
+            "id": 2,
+            "text": "Which of the following chemical reactions releases thermal energy into its surroundings?",
             "options": [
                 {
-                    "text": "The iron powder reacts with oxygen, releasing thermal energy that increases the kinetic energy of particles in your hands",
+                    "text": "Using an instant cold pack on a sprained ankle",
+                    "isCorrect": 0,
+                    "explanation": "An instant cold pack actually absorbs thermal energy from its surroundings, making the area colder rather than releasing thermal energy."
+                },
+                {
+                    "text": "Water evaporating from a puddle",
+                    "isCorrect": 0,
+                    "explanation": "Evaporation is a physical change that absorbs thermal energy from the surroundings, not a chemical reaction that releases thermal energy."
+                },
+                {
+                    "text": "Ice cubes melting in a glass of water",
+                    "isCorrect": 0,
+                    "explanation": "Ice melting is a physical change that absorbs thermal energy from the surroundings, not a chemical reaction that releases thermal energy."
+                },
+                {
+                    "text": "A campfire burning wood",
                     "isCorrect": 1,
-                    "explanation": "The iron undergoes an exothermic reaction with oxygen, releasing thermal energy. This energy transfers to your hands, increasing the kinetic energy of particles in your hands, which we feel as warmth."
-                },
-                {
-                    "text": "The salt dissolves in air moisture, absorbing thermal energy from the surroundings to make your hands feel warmer",
-                    "isCorrect": 0,
-                    "explanation": "When salt dissolves, it actually absorbs thermal energy from surroundings, which would make your hands feel colder, not warmer. This is not how hand warmers work."
-                },
-                {
-                    "text": "The activated charcoal traps air molecules, compressing them to generate heat through increased pressure",
-                    "isCorrect": 0,
-                    "explanation": "While activated charcoal can adsorb molecules, this process doesn't generate significant heat. The warming effect comes from the chemical reaction of iron with oxygen."
-                },
-                {
-                    "text": "The components mix together to form a new substance that naturally exists at a higher temperature",
-                    "isCorrect": 0,
-                    "explanation": "The warming isn't due to forming a substance that's naturally warm. It's caused by a chemical reaction that releases thermal energy, increasing particle motion."
+                    "explanation": "When wood burns, it undergoes a chemical reaction that releases both thermal energy and light energy, causing the surroundings to heat up."
                 }
             ],
-            "funFact": "The same chemical reaction that makes hand warmers work - iron oxidation - is also responsible for rust formation on metal surfaces, just at a much slower rate. Hand warmers use very finely powdered iron to speed up this reaction dramatically!"
+            "funFact": "The chemical reaction in a single match can reach temperatures of around 1,500\u00b0F (815\u00b0C) in just milliseconds! This rapid release of thermal energy is what makes matches such effective fire starters."
+        },
+        {
+            "id": 3,
+            "text": "Which of the following best describes the characteristics of gas particles?",
+            "options": [
+                {
+                    "text": "The particles are completely stationary with large spaces between them",
+                    "isCorrect": 0,
+                    "explanation": "Gas particles are never stationary - they have high kinetic energy and are constantly moving."
+                },
+                {
+                    "text": "The particles are tightly packed together and only vibrate in fixed positions",
+                    "isCorrect": 0,
+                    "explanation": "This describes particles in a solid state, not a gas. Gas particles have much more freedom of movement."
+                },
+                {
+                    "text": "The particles are moving freely with large spaces between them, occasionally colliding with each other",
+                    "isCorrect": 1,
+                    "explanation": "Gas particles have high kinetic energy and move rapidly with large spaces between them. They only interact when they randomly collide with each other."
+                },
+                {
+                    "text": "The particles are in constant contact while sliding past each other",
+                    "isCorrect": 0,
+                    "explanation": "This describes particles in a liquid state. Gas particles have much more space between them and are not in constant contact."
+                }
+            ],
+            "funFact": "In one cubic centimeter of air at room temperature, gas particles collide with each other about 10 billion times per second, yet they still spend most of their time moving freely through space!"
+        },
+        {
+            "id": 4,
+            "text": "Which statement best describes thermal energy at the particle level?",
+            "options": [
+                {
+                    "text": "Thermal energy is a type of energy that only exists in hot objects",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because all matter has thermal energy, even very cold objects - their particles just move more slowly."
+                },
+                {
+                    "text": "Thermal energy is energy that flows between objects but doesn't involve particle motion",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because thermal energy transfer is directly related to changes in particle motion between objects."
+                },
+                {
+                    "text": "Thermal energy is stored inside particles but doesn't involve their movement",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because thermal energy is not stored statically inside particles - it exists in the form of particle motion and vibration."
+                },
+                {
+                    "text": "Thermal energy is the motion and vibration of particles that make up matter",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because thermal energy is directly related to the movement and vibration of atoms and molecules within a substance."
+                }
+            ],
+            "funFact": "Even in outer space where temperatures can drop to near absolute zero (-273.15\u00b0C), atoms still have tiny amounts of thermal energy and continue to move very slightly. Only at absolute zero would all particle motion theoretically stop completely!"
+        },
+        {
+            "id": 5,
+            "text": "Two coffee mugs contain different liquids - one has hot coffee at 90\u00b0C and the other has cold milk at 5\u00b0C. When these mugs are placed next to each other, in which direction will thermal energy transfer?",
+            "options": [
+                {
+                    "text": "From the hot coffee to the cold milk",
+                    "isCorrect": 1,
+                    "explanation": "Thermal energy always transfers from substances at higher temperatures to substances at lower temperatures. Since the coffee is at 90\u00b0C and milk is at 5\u00b0C, thermal energy will flow from the coffee to the milk."
+                },
+                {
+                    "text": "In both directions equally",
+                    "isCorrect": 0,
+                    "explanation": "While particles in both liquids are moving, thermal energy transfer has a specific direction - from hot to cold. It does not flow equally in both directions."
+                },
+                {
+                    "text": "From the cold milk to the hot coffee",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Thermal energy never flows from colder to hotter substances on its own. The natural flow is always from hot to cold."
+                },
+                {
+                    "text": "There will be no thermal energy transfer",
+                    "isCorrect": 0,
+                    "explanation": "When there is a temperature difference between substances that can interact, thermal energy transfer will occur until both reach the same temperature."
+                }
+            ],
+            "funFact": "The process of thermal energy naturally flowing from hot to cold is so fundamental that it's described by the Second Law of Thermodynamics. This is why your hot drink eventually cools to room temperature, but your cold drink never spontaneously gets hotter!"
+        },
+        {
+            "id": 6,
+            "text": "How does the molecular motion in ice differ from liquid water at the microscopic level?",
+            "options": [
+                {
+                    "text": "In both ice and liquid water, molecules move around freely without any fixed positions",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While liquid water molecules move freely, ice molecules are constrained to fixed positions where they vibrate but don't move around."
+                },
+                {
+                    "text": "In ice, molecules vibrate in fixed positions, while in liquid water, molecules move around and slide past each other",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes the molecular behavior in both states. Ice molecules vibrate but maintain their relative positions, while liquid water molecules have enough energy to move and slide past neighboring molecules."
+                },
+                {
+                    "text": "In ice, molecules move freely, while in liquid water, molecules are fixed in position",
+                    "isCorrect": 0,
+                    "explanation": "This reverses the actual behavior. Ice molecules are fixed in position (though vibrating), while liquid water molecules move freely and slide past each other."
+                },
+                {
+                    "text": "In ice, molecules are completely still, while in liquid water, molecules vibrate in place",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Ice molecules are not completely still - they vibrate in place. Also, liquid water molecules do more than just vibrate - they move around and slide past each other."
+                }
+            ],
+            "funFact": "The unique molecular arrangement in ice actually makes it less dense than liquid water, which is why ice floats! This is unusual - most substances are denser in their solid state than their liquid state. This property is crucial for life on Earth, as it allows aquatic organisms to survive under floating ice in frozen lakes and oceans."
         },
         {
             "id": 7,
-            "text": "When popcorn kernels are heated in a microwave, what sequence of events causes them to pop?",
+            "text": "Why do thermoses use a vacuum layer between their inner and outer walls instead of just using air as an insulator?",
             "options": [
                 {
-                    "text": "Microwaves heat the water molecules inside the kernel, turning them to vapor, which increases pressure until the kernel explodes",
+                    "text": "A vacuum makes the thermos lighter than if it contained air",
+                    "isCorrect": 0,
+                    "explanation": "While a vacuum does weigh less than air, the difference is negligible. The superior insulating properties, not weight, are why vacuums are used."
+                },
+                {
+                    "text": "A vacuum completely prevents any thermal energy transfer between the walls",
+                    "isCorrect": 0,
+                    "explanation": "While a vacuum is an excellent insulator, it doesn't completely prevent thermal energy transfer. Some heat can still transfer through radiation."
+                },
+                {
+                    "text": "A vacuum is cheaper to create than using air as an insulator",
+                    "isCorrect": 0,
+                    "explanation": "Creating a vacuum is actually more expensive than using air. It's used because it's a better insulator, not because it's cheaper."
+                },
+                {
+                    "text": "A vacuum transfers thermal energy more slowly than air because there are no particles to collide and transfer energy",
                     "isCorrect": 1,
-                    "explanation": "As microwaves heat the water molecules, their thermal energy and motion increase until they become vapor. The trapped vapor creates increasing pressure inside the kernel until it bursts open."
-                },
-                {
-                    "text": "The kernels directly absorb heat energy which makes them expand until they break open",
-                    "isCorrect": 0,
-                    "explanation": "This overlooks the key role of water vapor and pressure in the popping process. The kernel doesn't simply expand from heat alone."
-                },
-                {
-                    "text": "The starch in the kernels melts and creates bubbles which make the kernel pop open",
-                    "isCorrect": 0,
-                    "explanation": "While the starch is important for creating the white fluffy texture, it's the water vapor pressure, not melting starch, that causes the initial pop."
-                },
-                {
-                    "text": "The proteins in the kernels denature and release gas which breaks the kernel shell",
-                    "isCorrect": 0,
-                    "explanation": "Protein denaturation is not responsible for popcorn popping. The force comes from water vapor pressure, not protein changes."
+                    "explanation": "Without particles in the vacuum layer, thermal energy cannot transfer through particle collisions, making it a more effective insulator than air."
                 }
             ],
-            "funFact": "A single popcorn kernel can expand to 40-50 times its original size when it pops! This dramatic expansion happens in a fraction of a second, with the internal temperature reaching about 180\u00b0C (356\u00b0F) and pressure building to about 9 atmospheres before the kernel bursts."
+            "funFact": "The modern vacuum flask was invented by Sir James Dewar in 1892, but he never patented his invention. The Thermos company commercialized his design in 1904, which is why vacuum flasks are often called 'Dewar flasks' in laboratories but 'thermoses' at home!"
         },
         {
             "id": 8,
-            "text": "During the process of baking chocolate chip cookies, what happens to the chocolate chips and why?",
-            "options": [
-                {
-                    "text": "The chocolate chips melt into liquid when heated due to increased particle motion, then solidify again when cooled as the particles slow down and pack together",
-                    "isCorrect": 1,
-                    "explanation": "As thermal energy is added, the particles in the chocolate gain kinetic energy and move faster, causing the solid chocolate to melt. When cooling, the particles lose energy and slow down, allowing them to pack together into a solid again."
-                },
-                {
-                    "text": "The chocolate chips disappear completely during baking because they evaporate into a gas",
-                    "isCorrect": 0,
-                    "explanation": "Chocolate does not evaporate during normal baking temperatures. It only changes from solid to liquid and back to solid as thermal energy is added and removed."
-                },
-                {
-                    "text": "The chocolate chips remain solid throughout baking because their melting point is higher than baking temperature",
-                    "isCorrect": 0,
-                    "explanation": "Chocolate chips actually do melt during baking since oven temperatures exceed chocolate's melting point, which is why we see liquid chocolate in warm cookies."
-                },
-                {
-                    "text": "The chocolate chips change color but maintain their original shape because only their surface is affected",
-                    "isCorrect": 0,
-                    "explanation": "The entire chocolate chip is affected by the thermal energy, not just the surface. The chips completely melt and lose their original shape before resolidifying."
-                }
-            ],
-            "funFact": "The melting point of chocolate is just below human body temperature (around 30-32\u00b0C/86-90\u00b0F), which is why chocolate melts so readily in your mouth but stays solid at room temperature. Chocolate makers specifically engineer this melting point to create the perfect eating experience!"
-        },
-        {
-            "id": 9,
             "text": "When water is heated at high altitudes (where air pressure is lower), it boils at a temperature:",
             "options": [
+                {
+                    "text": "That cannot be determined without knowing the exact altitude",
+                    "isCorrect": 0,
+                    "explanation": "While the exact boiling point does depend on the specific altitude, we can definitively say it will be lower than 100\u00b0C at any altitude above sea level."
+                },
                 {
                     "text": "Lower than 100\u00b0C",
                     "isCorrect": 1,
                     "explanation": "At lower pressure, water molecules can more easily break away from the liquid state and enter the gaseous state, requiring less thermal energy and thus a lower temperature to boil."
-                },
-                {
-                    "text": "Higher than 100\u00b0C",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Lower pressure actually makes it easier for molecules to escape into the gaseous state, requiring less energy and a lower temperature to boil."
                 },
                 {
                     "text": "Equal to 100\u00b0C regardless of altitude",
@@ -238,75 +211,75 @@
                     "explanation": "The boiling point of water varies with pressure. Water only boils at 100\u00b0C at standard sea level pressure (1 atmosphere)."
                 },
                 {
-                    "text": "That cannot be determined without knowing the exact altitude",
+                    "text": "Higher than 100\u00b0C",
                     "isCorrect": 0,
-                    "explanation": "While the exact boiling point does depend on the specific altitude, we can definitively say it will be lower than 100\u00b0C at any altitude above sea level."
+                    "explanation": "This is incorrect. Lower pressure actually makes it easier for molecules to escape into the gaseous state, requiring less energy and a lower temperature to boil."
                 }
             ],
             "funFact": "On Mount Everest, where the air pressure is about one-third of sea level pressure, water boils at approximately 70\u00b0C (158\u00b0F). This makes it challenging to cook many foods at such high altitudes since they may not reach high enough temperatures to cook properly in boiling water!"
         },
         {
-            "id": 10,
-            "text": "Why does water boil at a lower temperature on top of Mount Everest (where air pressure is much lower) compared to at sea level?",
+            "id": 9,
+            "text": "A foam cup works well to keep a cold drink cold because:",
             "options": [
                 {
-                    "text": "Water molecules need less thermal energy to overcome the reduced air pressure pushing down on the liquid surface",
+                    "text": "The air spaces in the foam slow down the transfer of thermal energy from the surroundings to the drink",
                     "isCorrect": 1,
-                    "explanation": "At lower pressure, water molecules can more easily break away from the liquid surface since there are fewer air molecule collisions pushing them back down. This means less thermal energy is needed for the liquid-to-gas transition."
+                    "explanation": "Air spaces in foam create pockets where molecules are far apart, making it difficult for thermal energy to transfer through, thus acting as an effective insulator."
                 },
                 {
-                    "text": "The temperature is already lower at high altitudes, so the water starts closer to its boiling point",
+                    "text": "The foam material actively cools the drink by absorbing thermal energy from it",
                     "isCorrect": 0,
-                    "explanation": "While temperature is lower at high altitudes, this isn't why water boils at a lower temperature. The boiling point depends on the relationship between pressure and the energy needed for phase change."
+                    "explanation": "Foam doesn't actively cool the drink - it just reduces the rate of thermal energy transfer from the warmer surroundings to the cold drink."
                 },
                 {
-                    "text": "Water molecules move faster at high altitudes due to less gravity",
+                    "text": "The foam reflects thermal energy back into the drink to keep it cold",
                     "isCorrect": 0,
-                    "explanation": "The difference in gravity has negligible effect on molecular motion. The lower boiling point is due to reduced air pressure, not changes in gravity."
+                    "explanation": "Foam doesn't reflect thermal energy back into the drink. Its insulating properties come from slowing down thermal energy transfer through air spaces."
                 },
                 {
-                    "text": "Cold air at high altitudes removes heat from the water more quickly",
+                    "text": "The foam molecules naturally maintain a cold temperature",
                     "isCorrect": 0,
-                    "explanation": "Colder air temperature doesn't lower the boiling point. The boiling point is determined by the pressure-temperature relationship needed for phase change."
+                    "explanation": "Foam molecules don't have any special temperature-maintaining properties. The insulation comes from the structure of the foam with its air spaces."
                 }
             ],
-            "funFact": "At the summit of Mount Everest, water boils at approximately 70\u00b0C (158\u00b0F) instead of the typical 100\u00b0C (212\u00b0F) at sea level. This can make it challenging to cook many foods at such high altitudes since they may not reach high enough temperatures in boiling water to cook properly!"
+            "funFact": "The same principle that makes foam cups good insulators also helps animals stay warm - polar bears have hollow hair shafts filled with air that trap their body heat and protect them from the cold Arctic environment!"
+        },
+        {
+            "id": 10,
+            "text": "How do the arrangement and motion of particles compare between liquid water at 20\u00b0C and water vapor at 120\u00b0C?",
+            "options": [
+                {
+                    "text": "In liquid water, particles are fixed in place, while in water vapor, particles slide past each other while maintaining contact",
+                    "isCorrect": 0,
+                    "explanation": "This reverses the properties - liquid particles slide while maintaining contact, while gas particles move freely without fixed positions"
+                },
+                {
+                    "text": "In liquid water, particles are in constant contact and sliding past each other, while in water vapor, particles are far apart and moving rapidly with few collisions",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes particle behavior in both states - liquid particles maintain contact while moving past each other, while gas particles move freely with large spaces between them"
+                },
+                {
+                    "text": "In both states, particles maintain fixed positions and only vibrate with different intensities",
+                    "isCorrect": 0,
+                    "explanation": "This describes solid particles - neither liquids nor gases have particles in fixed positions"
+                },
+                {
+                    "text": "In both states, particles maintain the same spacing and only differ in how fast they vibrate",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - particle spacing changes significantly between liquid and gas states, not just their vibration speed"
+                }
+            ],
+            "funFact": "Water vapor molecules move at incredible speeds - at 120\u00b0C, they zoom around at roughly 500 meters per second, which is faster than the speed of sound at sea level (about 343 meters per second)!"
         },
         {
             "id": 11,
-            "text": "Two identical hot beverages are placed in different insulated containers - one with a vacuum layer between its walls and another with an air layer between its walls. After 2 hours, which beverage will likely stay warmer and why?",
-            "options": [
-                {
-                    "text": "The beverage in the vacuum-insulated container will stay warmer because there are no particles to transfer thermal energy between the walls",
-                    "isCorrect": 1,
-                    "explanation": "A vacuum contains no particles, so thermal energy cannot be transferred through particle collisions, making it a better insulator than air."
-                },
-                {
-                    "text": "The beverage in the air-insulated container will stay warmer because air particles help retain the heat",
-                    "isCorrect": 0,
-                    "explanation": "Air particles actually facilitate heat transfer through collisions, making the air-insulated container less effective at maintaining temperature."
-                },
-                {
-                    "text": "Both beverages will stay equally warm because insulation type doesn't matter",
-                    "isCorrect": 0,
-                    "explanation": "The type of insulation significantly affects heat transfer - vacuum insulation is more effective than air insulation at preventing heat loss."
-                },
-                {
-                    "text": "The beverage in the vacuum-insulated container will stay warmer because vacuum attracts heat",
-                    "isCorrect": 0,
-                    "explanation": "Vacuum doesn't attract heat - it simply prevents heat transfer by eliminating particle collisions between container walls."
-                }
-            ],
-            "funFact": "The invention of the vacuum flask (thermos) in 1892 by Sir James Dewar was actually a scientific accident - he created it while studying how to liquify gases at very low temperatures, not to keep coffee hot!"
-        },
-        {
-            "id": 12,
             "text": "When a metal spoon and a plastic spoon are placed in a cup of hot water (80\u00b0C) for 1 minute, what explains the difference in how quickly they heat up?",
             "options": [
                 {
-                    "text": "The metal spoon heats up faster because its particles are closer together, allowing thermal energy to transfer more efficiently through particle collisions",
-                    "isCorrect": 1,
-                    "explanation": "Metal atoms are more tightly packed and better connected, allowing vibrations and thermal energy to transfer quickly through the material through particle collisions."
+                    "text": "The metal spoon heats up faster because its particles naturally contain more thermal energy",
+                    "isCorrect": 0,
+                    "explanation": "The initial thermal energy content is not what determines heat transfer rate - it's the ability of the material to conduct thermal energy through particle interactions."
                 },
                 {
                     "text": "The plastic spoon heats up faster because its particles are lighter and can move more easily",
@@ -319,15 +292,69 @@
                     "explanation": "Different materials transfer thermal energy at different rates based on their particle arrangement and bonds, even when exposed to the same temperature."
                 },
                 {
-                    "text": "The metal spoon heats up faster because its particles naturally contain more thermal energy",
-                    "isCorrect": 0,
-                    "explanation": "The initial thermal energy content is not what determines heat transfer rate - it's the ability of the material to conduct thermal energy through particle interactions."
+                    "text": "The metal spoon heats up faster because its particles are closer together, allowing thermal energy to transfer more efficiently through particle collisions",
+                    "isCorrect": 1,
+                    "explanation": "Metal atoms are more tightly packed and better connected, allowing vibrations and thermal energy to transfer quickly through the material through particle collisions."
                 }
             ],
             "funFact": "The same properties that make metals good conductors of thermal energy also make them excellent conductors of electricity! This is why most electrical wires are made of metals like copper or aluminum."
         },
         {
+            "id": 12,
+            "text": "Why can a puddle of water slowly disappear on a cool day even though the temperature is well below water's boiling point of 100\u00b0C?",
+            "options": [
+                {
+                    "text": "Some water molecules at the surface have enough kinetic energy to overcome intermolecular forces and escape into the air, even though the average temperature is low",
+                    "isCorrect": 1,
+                    "explanation": "Individual water molecules can have different amounts of energy - some higher and some lower than the average. Those with higher energy can break free and evaporate, even at temperatures below boiling."
+                },
+                {
+                    "text": "The air absorbs the water molecules whole without any energy being required",
+                    "isCorrect": 0,
+                    "explanation": "Water molecules need to gain enough kinetic energy to overcome the attractive forces between liquid molecules. They cannot simply be absorbed by the air without this energy change."
+                },
+                {
+                    "text": "All water molecules must reach 100\u00b0C before any evaporation can occur",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - evaporation can occur at any temperature. The boiling point is when evaporation happens throughout the liquid, not just at the surface."
+                },
+                {
+                    "text": "Wind physically carries water molecules away from the puddle's surface",
+                    "isCorrect": 0,
+                    "explanation": "While wind can speed up evaporation by removing water vapor, it does not physically pull liquid water molecules from the surface. The molecules must first gain enough energy to break free."
+                }
+            ],
+            "funFact": "The cooling sensation you feel when getting out of a pool is caused by evaporation! As the most energetic water molecules leave your skin, they take energy with them, leaving the remaining water molecules with less average energy - and therefore a lower temperature."
+        },
+        {
             "id": 13,
+            "text": "When water is heated from 0\u00b0C to 120\u00b0C, how do its particles behave at different temperatures?",
+            "options": [
+                {
+                    "text": "Particles move faster but maintain the same spacing throughout all temperature changes",
+                    "isCorrect": 0,
+                    "explanation": "As water changes state, both particle speed and spacing change - particles become further apart as they transition from solid to liquid to gas"
+                },
+                {
+                    "text": "Particles stop moving completely when ice melts and start moving again when water becomes steam",
+                    "isCorrect": 0,
+                    "explanation": "Particles never stop moving - their motion actually increases as temperature rises through all states of matter"
+                },
+                {
+                    "text": "Particles remain completely still at all temperatures until they suddenly break apart at 100\u00b0C",
+                    "isCorrect": 0,
+                    "explanation": "Particles are never completely still - they vibrate even in solids, and changes in particle motion happen gradually with temperature increase"
+                },
+                {
+                    "text": "At 0\u00b0C, particles vibrate in fixed positions; as it melts, particles slide past each other; at 120\u00b0C, particles move freely and spread far apart",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes particle behavior in solid water/ice (fixed vibration), liquid water (sliding past each other), and gaseous water/steam (free movement with large spacing)"
+                }
+            ],
+            "funFact": "Water is one of the few substances that expands when it freezes, which is why ice floats. This unusual property is essential for aquatic life, as it allows bodies of water to freeze from the top down, keeping the water below liquid even in freezing temperatures!"
+        },
+        {
+            "id": 14,
             "text": "When comparing water boiling at sea level (1 atm pressure) versus at the top of Mount Everest (0.3 atm pressure), which statement correctly explains why water boils at a lower temperature on Mount Everest?",
             "options": [
                 {
@@ -341,71 +368,44 @@
                     "explanation": "The difference in gravity between sea level and Mount Everest is negligible and does not significantly affect boiling. The key factor is air pressure, not gravity."
                 },
                 {
-                    "text": "Water boils at a lower temperature on Mount Everest because cold mountain air forces the water molecules to move more slowly.",
-                    "isCorrect": 0,
-                    "explanation": "While mountain air is colder, the boiling temperature is determined by the relationship between vapor pressure and atmospheric pressure, not the temperature of the surrounding air."
-                },
-                {
                     "text": "Water boils at a lower temperature on Mount Everest because water molecules are naturally less stable at higher altitudes.",
                     "isCorrect": 0,
                     "explanation": "The chemical stability of water molecules does not change with altitude. The lower boiling point is due to reduced atmospheric pressure."
+                },
+                {
+                    "text": "Water boils at a lower temperature on Mount Everest because cold mountain air forces the water molecules to move more slowly.",
+                    "isCorrect": 0,
+                    "explanation": "While mountain air is colder, the boiling temperature is determined by the relationship between vapor pressure and atmospheric pressure, not the temperature of the surrounding air."
                 }
             ],
             "funFact": "At the summit of Mount Everest, water boils at approximately 70\u00b0C (158\u00b0F), which means you can't make a proper cup of tea up there! This is why high-altitude cooking often requires special instructions and longer cooking times."
         },
         {
-            "id": 14,
-            "text": "Why do water droplets form on the outside of a glass containing ice-cold soda but not on a glass containing room temperature soda?",
-            "options": [
-                {
-                    "text": "Water vapor in the warm air loses thermal energy when it contacts the cold glass surface, causing the molecules to slow down and condense into liquid droplets",
-                    "isCorrect": 1,
-                    "explanation": "When warm water vapor molecules contact the cold glass, they transfer thermal energy to the cold surface. This causes the molecules to slow down, move closer together, and change state from gas to liquid."
-                },
-                {
-                    "text": "The cold soda inside the glass leaks through tiny holes in the glass and appears as water droplets on the outside",
-                    "isCorrect": 0,
-                    "explanation": "Glass does not have holes that would allow liquid to pass through. The water droplets come from water vapor in the air, not from inside the glass."
-                },
-                {
-                    "text": "Water molecules are attracted to glass surfaces, but only when the glass contains cold liquids",
-                    "isCorrect": 0,
-                    "explanation": "While water molecules can be attracted to glass, the formation of droplets is due to temperature differences causing condensation, not a special attraction between water and cold glass."
-                },
-                {
-                    "text": "The cold temperature creates water molecules from oxygen and hydrogen in the air",
-                    "isCorrect": 0,
-                    "explanation": "Cold temperatures alone cannot create water molecules by combining oxygen and hydrogen from the air. This would require a chemical reaction with much more energy."
-                }
-            ],
-            "funFact": "This same principle of condensation is what causes clouds to form in the atmosphere - when warm, moist air rises and meets cooler temperatures at higher altitudes, the water vapor condenses into tiny water droplets that we see as clouds!"
-        },
-        {
             "id": 15,
-            "text": "Why can a puddle of water slowly disappear on a cool day even though the temperature is well below water's boiling point of 100\u00b0C?",
+            "text": "Two identical hot beverages are placed in different insulated containers - one with a vacuum layer between its walls and another with an air layer between its walls. After 2 hours, which beverage will likely stay warmer and why?",
             "options": [
                 {
-                    "text": "Some water molecules at the surface have enough kinetic energy to overcome intermolecular forces and escape into the air, even though the average temperature is low",
+                    "text": "The beverage in the air-insulated container will stay warmer because air particles help retain the heat",
+                    "isCorrect": 0,
+                    "explanation": "Air particles actually facilitate heat transfer through collisions, making the air-insulated container less effective at maintaining temperature."
+                },
+                {
+                    "text": "The beverage in the vacuum-insulated container will stay warmer because vacuum attracts heat",
+                    "isCorrect": 0,
+                    "explanation": "Vacuum doesn't attract heat - it simply prevents heat transfer by eliminating particle collisions between container walls."
+                },
+                {
+                    "text": "Both beverages will stay equally warm because insulation type doesn't matter",
+                    "isCorrect": 0,
+                    "explanation": "The type of insulation significantly affects heat transfer - vacuum insulation is more effective than air insulation at preventing heat loss."
+                },
+                {
+                    "text": "The beverage in the vacuum-insulated container will stay warmer because there are no particles to transfer thermal energy between the walls",
                     "isCorrect": 1,
-                    "explanation": "Individual water molecules can have different amounts of energy - some higher and some lower than the average. Those with higher energy can break free and evaporate, even at temperatures below boiling."
-                },
-                {
-                    "text": "All water molecules must reach 100\u00b0C before any evaporation can occur",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - evaporation can occur at any temperature. The boiling point is when evaporation happens throughout the liquid, not just at the surface."
-                },
-                {
-                    "text": "Wind physically carries water molecules away from the puddle's surface",
-                    "isCorrect": 0,
-                    "explanation": "While wind can speed up evaporation by removing water vapor, it does not physically pull liquid water molecules from the surface. The molecules must first gain enough energy to break free."
-                },
-                {
-                    "text": "The air absorbs the water molecules whole without any energy being required",
-                    "isCorrect": 0,
-                    "explanation": "Water molecules need to gain enough kinetic energy to overcome the attractive forces between liquid molecules. They cannot simply be absorbed by the air without this energy change."
+                    "explanation": "A vacuum contains no particles, so thermal energy cannot be transferred through particle collisions, making it a better insulator than air."
                 }
             ],
-            "funFact": "The cooling sensation you feel when getting out of a pool is caused by evaporation! As the most energetic water molecules leave your skin, they take energy with them, leaving the remaining water molecules with less average energy - and therefore a lower temperature."
+            "funFact": "The invention of the vacuum flask (thermos) in 1892 by Sir James Dewar was actually a scientific accident - he created it while studying how to liquify gases at very low temperatures, not to keep coffee hot!"
         }
     ]
 }

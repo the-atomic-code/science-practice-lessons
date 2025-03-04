@@ -7,6 +7,11 @@
             "text": "What is a major environmental challenge associated with the use of fossil fuels like coal, oil, and natural gas?",
             "options": [
                 {
+                    "text": "They are difficult to transport",
+                    "isCorrect": 0,
+                    "explanation": "Transportation challenges are not the main environmental concern with fossil fuels. The pollution they create when burned is the primary environmental issue"
+                },
+                {
                     "text": "They release harmful chemicals into the air and water when burned",
                     "isCorrect": 1,
                     "explanation": "When fossil fuels are burned, they release pollutants that can harm air quality and contaminate water sources, contributing to environmental problems like climate change"
@@ -20,158 +25,185 @@
                     "text": "They are too expensive to process",
                     "isCorrect": 0,
                     "explanation": "Cost is not the main environmental challenge - fossil fuels are actually relatively inexpensive to process. The environmental impact comes from their use"
-                },
-                {
-                    "text": "They are difficult to transport",
-                    "isCorrect": 0,
-                    "explanation": "Transportation challenges are not the main environmental concern with fossil fuels. The pollution they create when burned is the primary environmental issue"
                 }
             ],
             "funFact": "The average passenger vehicle emits about 4.6 metric tons of carbon dioxide per year. This is one reason why many car manufacturers are developing electric vehicles that can run on renewable energy sources!"
         },
         {
             "id": 2,
-            "text": "Which statement best describes how ethanol fuel production demonstrates energy transformation and renewable properties?",
+            "text": "Which of the following is the key characteristic that distinguishes renewable energy sources from nonrenewable energy sources?",
             "options": [
                 {
-                    "text": "Corn plants convert solar energy into chemical energy, which is then transformed into ethanol fuel through fermentation, making it a renewable energy source",
+                    "text": "The amount of energy produced",
+                    "isCorrect": 0,
+                    "explanation": "The amount of energy produced varies among both renewable and nonrenewable sources and is not what determines whether an energy source is renewable."
+                },
+                {
+                    "text": "The time required to replenish the energy source",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes the energy transformations in ethanol production and why it's renewable - new corn crops can be continually grown to produce more fuel"
+                    "explanation": "Renewable energy sources can be replenished relatively quickly (like solar energy, wind, or growing corn for ethanol), while nonrenewable sources take millions of years to form (like fossil fuels)."
                 },
                 {
-                    "text": "Ethanol is renewable because it burns cleaner than gasoline, and the energy is transformed directly from corn to liquid fuel",
+                    "text": "The technology needed to harness the energy",
                     "isCorrect": 0,
-                    "explanation": "While ethanol does burn cleaner than gasoline, this isn't what makes it renewable. The transformation process requires multiple steps and isn't direct"
+                    "explanation": "Both renewable and nonrenewable energy sources require various technologies to harness them. The technology used is not what makes an energy source renewable or nonrenewable."
                 },
                 {
-                    "text": "The chemical energy in ethanol comes from fossil fuels used to grow corn, making it a form of nonrenewable energy",
+                    "text": "The cost of extracting the energy",
                     "isCorrect": 0,
-                    "explanation": "While fossil fuels may be used in corn farming, the primary energy in ethanol comes from the sun's energy captured by corn plants, not from fossil fuels"
-                },
-                {
-                    "text": "Ethanol is renewable because it can be stored indefinitely without losing its energy content",
-                    "isCorrect": 0,
-                    "explanation": "The ability to store energy isn't what makes ethanol renewable - it's renewable because new corn crops can be grown to produce more fuel"
+                    "explanation": "While cost is an important consideration, it is not the defining characteristic between renewable and nonrenewable energy. Some renewable sources can be more expensive than nonrenewable ones."
                 }
             ],
-            "funFact": "A single bushel of corn (56 pounds) can produce approximately 2.8 gallons of ethanol fuel, and the process also creates valuable co-products like animal feed and corn oil!"
+            "funFact": "The Sun provides more energy to Earth in one hour than humanity uses in an entire year! This makes solar energy one of the most abundant renewable energy sources available to us."
         },
         {
             "id": 3,
-            "text": "How do electric cars convert stored energy into motion?",
+            "text": "How do solar panels convert sunlight into electrical energy that can be used to power homes and devices?",
             "options": [
                 {
-                    "text": "The batteries in electric cars convert chemical energy into electrical energy, which powers an electric motor that creates motion",
+                    "text": "Solar panels reflect sunlight onto special generators that produce electrical energy",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While some solar power plants use mirrors to concentrate sunlight, typical solar panels don't reflect light - they absorb it and convert it directly to electricity."
+                },
+                {
+                    "text": "Solar panels first convert sunlight into thermal energy, which is then converted to electrical energy",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While some solar technologies do use thermal energy, photovoltaic solar panels convert sunlight directly into electricity without first converting it to heat."
+                },
+                {
+                    "text": "Solar panels store sunlight in batteries which later release it as electrical energy",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Solar panels don't store sunlight - they convert it into electrical energy immediately. Batteries may be used to store the electrical energy after conversion, but they are separate from the conversion process."
+                },
+                {
+                    "text": "Solar panels convert sunlight directly into electrical energy through photovoltaic cells",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Electric cars use batteries to store chemical energy, which is converted to electrical energy to power motors that turn the wheels."
-                },
-                {
-                    "text": "The batteries directly create mechanical energy that turns the wheels without any conversion",
-                    "isCorrect": 0,
-                    "explanation": "Batteries cannot directly create mechanical energy - they must first convert chemical energy to electrical energy, which then powers a motor."
-                },
-                {
-                    "text": "Solar panels on the car convert sunlight directly into motion energy for the wheels",
-                    "isCorrect": 0,
-                    "explanation": "While some electric cars may have solar panels, they don't directly power the wheels. The energy still needs to go through batteries and motors."
-                },
-                {
-                    "text": "The batteries create heat energy which is converted into motion through a steam engine",
-                    "isCorrect": 0,
-                    "explanation": "Electric cars don't use heat or steam engines. They use electric motors powered by batteries to create motion."
+                    "explanation": "This is correct. Solar panels contain photovoltaic cells that convert light energy from the sun directly into electrical energy through a process called the photovoltaic effect."
                 }
             ],
-            "funFact": "The electric motor in a typical electric car can convert about 85-90% of electrical energy into mechanical energy to move the car. This is much more efficient than gasoline engines, which typically only convert about 20-30% of fuel energy into motion!"
+            "funFact": "The photovoltaic effect was first discovered by French physicist Edmond Becquerel in 1839 when he was just 19 years old! He observed that certain materials would produce small amounts of electric current when exposed to light."
         },
         {
             "id": 4,
-            "text": "How does a generator typically convert mechanical energy into electrical energy?",
+            "text": "Which process best describes how fossil fuels like coal and oil were formed?",
             "options": [
                 {
-                    "text": "Through rotating coils of wire in a magnetic field",
+                    "text": "Ancient volcanoes released oil and gas that became trapped underground",
+                    "isCorrect": 0,
+                    "explanation": "Volcanic activity isn't responsible for creating fossil fuels - they form from decomposed organic matter"
+                },
+                {
+                    "text": "Rocks naturally dissolved underground and formed liquid fuel deposits",
+                    "isCorrect": 0,
+                    "explanation": "Fossil fuels don't form from dissolving rocks - they come from organic matter like dead plants and animals"
+                },
+                {
+                    "text": "Dead plants and animals were buried under mud and rock, where heat and pressure transformed them over millions of years",
                     "isCorrect": 1,
-                    "explanation": "Generators work by moving electrical conductors (usually copper wire coils) through a magnetic field, which induces an electrical current through electromagnetic induction."
+                    "explanation": "This correctly describes the formation process of fossil fuels, where organic matter was transformed by heat and pressure over millions of years"
                 },
                 {
-                    "text": "By burning fuel to create heat",
+                    "text": "The process takes only a few hundred years as plants decay underground",
                     "isCorrect": 0,
-                    "explanation": "While burning fuel can be used to create mechanical energy that powers a generator, this is not how the generator itself converts energy to electricity."
-                },
-                {
-                    "text": "Through chemical reactions in batteries",
-                    "isCorrect": 0,
-                    "explanation": "Batteries convert chemical energy to electrical energy, which is different from how generators work."
-                },
-                {
-                    "text": "By converting sunlight directly to electricity",
-                    "isCorrect": 0,
-                    "explanation": "This describes how solar panels work through the photovoltaic effect, not how generators convert mechanical energy to electrical energy."
+                    "explanation": "Fossil fuel formation requires millions of years, not just hundreds - it's a very slow process requiring intense heat and pressure"
                 }
             ],
-            "funFact": "The principle behind modern electrical generators was discovered by Michael Faraday in 1831. Incredibly, the same basic concept he discovered is still used today to generate most of the world's electricity, whether in massive power plants or small portable generators!"
+            "funFact": "The word 'fossil' in fossil fuels comes from the Latin word 'fossilis' meaning 'obtained by digging.' Some of the oil and coal we use today comes from plants and animals that lived during the time of dinosaurs, over 65 million years ago!"
         },
         {
             "id": 5,
-            "text": "Which fossil fuel is commonly used for heating homes and cooking, and can also be used to generate electricity?",
+            "text": "Which of the following correctly describes an energy conversion that occurs in everyday devices?",
             "options": [
                 {
-                    "text": "Natural gas",
+                    "text": "A solar panel converts sunlight into electrical energy",
                     "isCorrect": 1,
-                    "explanation": "Natural gas is versatile and commonly used for cooking, heating homes, and generating electricity in power plants."
+                    "explanation": "Solar panels contain photovoltaic cells that convert light energy from the sun into electrical energy, which can then be used to power homes and devices."
                 },
                 {
-                    "text": "Coal",
+                    "text": "A wind turbine converts electrical energy into motion",
                     "isCorrect": 0,
-                    "explanation": "While coal is used to generate electricity in power plants, it is not commonly used directly in homes for cooking or heating in modern times."
+                    "explanation": "Wind turbines work in reverse - they convert the kinetic energy of moving wind into electrical energy through their spinning blades."
                 },
                 {
-                    "text": "Oil",
+                    "text": "A battery converts electrical energy into chemical energy",
                     "isCorrect": 0,
-                    "explanation": "Oil is primarily used to produce gasoline and other liquid fuels, not typically for cooking or direct home heating."
+                    "explanation": "This is actually backwards - batteries convert chemical energy stored in their materials into electrical energy that can power devices."
+                },
+                {
+                    "text": "A microwave converts heat energy into electrical energy",
+                    "isCorrect": 0,
+                    "explanation": "Microwaves actually work the other way around - they convert electrical energy into heat energy to warm up food."
                 }
             ],
-            "funFact": "Natural gas was first used commercially for lighting in 1785 in Britain, and it actually has no smell in its natural state. The distinctive rotten egg smell is artificially added as a safety measure to help detect leaks!"
+            "funFact": "The first practical solar cell was invented in 1954 at Bell Labs. While early solar cells only converted about 6% of sunlight into electricity, modern solar panels can achieve over 20% efficiency, with some experimental cells reaching over 40%!"
         },
         {
             "id": 6,
-            "text": "A town wants to install outdoor lighting along a walking trail in a park. They need a sustainable solution that converts energy efficiently. Which of the following options would be the most cost-effective and environmentally friendly choice for powering these lights?",
+            "text": "A homeowner wants to design a passive solar heater for their greenhouse. Which design feature would be most effective at converting sunlight into heat energy?",
             "options": [
                 {
-                    "text": "Solar-powered LED lights that convert sunlight to electrical energy, which is then converted to light energy",
+                    "text": "White-painted surfaces throughout the greenhouse",
+                    "isCorrect": 0,
+                    "explanation": "White surfaces reflect most sunlight rather than absorbing it, making them inefficient for converting light energy into heat energy."
+                },
+                {
+                    "text": "Clear glass panels on all sides",
+                    "isCorrect": 0,
+                    "explanation": "While clear glass allows sunlight to enter, it alone doesn't effectively convert light energy into heat energy without heat-absorbing materials inside."
+                },
+                {
+                    "text": "Dark-colored, heat-absorbing materials on the floor and walls",
                     "isCorrect": 1,
-                    "explanation": "Solar-powered LED lights are highly efficient, use renewable energy, have low maintenance costs, and can store energy in batteries for use at night."
+                    "explanation": "Dark surfaces absorb more sunlight and convert it more efficiently into heat energy, making this the most effective design choice for a passive solar heater."
                 },
                 {
-                    "text": "Gas-powered lamps that burn natural gas to produce light energy",
+                    "text": "Reflective mirrors on all interior surfaces",
                     "isCorrect": 0,
-                    "explanation": "Gas lamps use non-renewable fossil fuels, require constant fuel supply, produce emissions, and have higher operating costs over time."
-                },
-                {
-                    "text": "Battery-only powered lights that need regular battery replacement",
-                    "isCorrect": 0,
-                    "explanation": "Regular battery replacement is expensive, creates waste, and requires constant maintenance. This is not a sustainable long-term solution."
-                },
-                {
-                    "text": "Coal-powered electric lights connected to a local power plant",
-                    "isCorrect": 0,
-                    "explanation": "Using coal-generated electricity relies on non-renewable resources, produces pollution, and requires extensive infrastructure for power transmission."
+                    "explanation": "While mirrors reflect light, they don't effectively convert light energy into heat energy, which is essential for a passive solar heater."
                 }
             ],
-            "funFact": "Modern solar-powered LED lights can be up to 80% more energy efficient than traditional lighting solutions, and some advanced models can even adjust their brightness based on motion detection to conserve even more energy!"
+            "funFact": "The same principle that makes dark-colored materials better at absorbing heat is why many solar water heaters use black pipes or panels - they can be up to 95% efficient at absorbing solar radiation!"
         },
         {
             "id": 7,
-            "text": "A student is working on improving a hand-crank flashlight that converts mechanical energy into light. The current design requires a lot of cranking effort to produce dim light. Which modification would most effectively enhance the energy conversion in the flashlight?",
+            "text": "A student is designing a simple solar-powered toy car. Which material would be most efficient for converting light energy into electrical energy to power the car's motor?",
             "options": [
                 {
-                    "text": "Replace the existing gears with higher quality metal gears that have better teeth alignment",
-                    "isCorrect": 1,
-                    "explanation": "Better quality gears with proper alignment reduce energy loss through friction and improve the transfer of mechanical energy to electrical energy, making the flashlight more efficient."
+                    "text": "Clear plastic sheets",
+                    "isCorrect": 0,
+                    "explanation": "Clear plastic allows light to pass through but cannot convert light energy into electrical energy to power the motor."
                 },
+                {
+                    "text": "Solar panels made of silicon crystals",
+                    "isCorrect": 1,
+                    "explanation": "Silicon crystal solar panels are highly efficient at converting light energy into electrical energy, making them ideal for powering small motors in toys."
+                },
+                {
+                    "text": "Black construction paper",
+                    "isCorrect": 0,
+                    "explanation": "Black paper absorbs light energy as heat but cannot convert it into the electrical energy needed to power the motor."
+                },
+                {
+                    "text": "Aluminum foil sheets",
+                    "isCorrect": 0,
+                    "explanation": "While aluminum foil reflects light well, it cannot convert light energy into electrical energy needed to power the motor."
+                }
+            ],
+            "funFact": "The first solar cell was created in 1954 by Bell Labs and was only 6% efficient. Today's most advanced solar cells can achieve over 40% efficiency in converting sunlight to electricity!"
+        },
+        {
+            "id": 8,
+            "text": "A student is working on improving a hand-crank flashlight that converts mechanical energy into light. The current design requires a lot of cranking effort to produce dim light. Which modification would most effectively enhance the energy conversion in the flashlight?",
+            "options": [
                 {
                     "text": "Paint the inside of the flashlight casing with bright reflective paint",
                     "isCorrect": 0,
                     "explanation": "While reflective paint might help direct more light outward, it doesn't improve the actual energy conversion process from mechanical to electrical to light energy."
+                },
+                {
+                    "text": "Replace the existing gears with higher quality metal gears that have better teeth alignment",
+                    "isCorrect": 1,
+                    "explanation": "Better quality gears with proper alignment reduce energy loss through friction and improve the transfer of mechanical energy to electrical energy, making the flashlight more efficient."
                 },
                 {
                     "text": "Make the hand crank longer to provide more leverage",
@@ -187,207 +219,94 @@
             "funFact": "The first hand-crank flashlight was invented in 1922 by Frederick William Baldwin. These devices became crucial during World War II when batteries were scarce, and they remain important in emergency preparedness kits today!"
         },
         {
-            "id": 8,
+            "id": 9,
             "text": "A home solar power system converts sunlight into usable electricity. What is the correct sequence of energy transformations that occurs in this process?",
             "options": [
-                {
-                    "text": "Sunlight \u2192 Electrical energy \u2192 Heat energy \u2192 Chemical energy",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Solar panels don't convert electricity into heat and then chemical energy. They directly convert sunlight into electrical energy."
-                },
                 {
                     "text": "Sunlight \u2192 Chemical energy \u2192 Heat energy \u2192 Electrical energy",
                     "isCorrect": 0,
                     "explanation": "While solar panels do involve some chemical processes, this is not the main sequence of energy transformation in solar power systems."
                 },
                 {
-                    "text": "Sunlight \u2192 Electrical energy \u2192 Mechanical energy \u2192 Heat energy",
-                    "isCorrect": 0,
-                    "explanation": "Solar panels don't convert electrical energy into mechanical energy as part of their main function of powering homes."
-                },
-                {
                     "text": "Sunlight \u2192 DC electrical energy \u2192 AC electrical energy (usable household electricity)",
                     "isCorrect": 1,
                     "explanation": "This is correct! Solar panels use photovoltaic cells to convert sunlight directly into DC (direct current) electrical energy, which is then converted into AC (alternating current) electricity through an inverter for household use."
+                },
+                {
+                    "text": "Sunlight \u2192 Electrical energy \u2192 Heat energy \u2192 Chemical energy",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect. Solar panels don't convert electricity into heat and then chemical energy. They directly convert sunlight into electrical energy."
+                },
+                {
+                    "text": "Sunlight \u2192 Electrical energy \u2192 Mechanical energy \u2192 Heat energy",
+                    "isCorrect": 0,
+                    "explanation": "Solar panels don't convert electrical energy into mechanical energy as part of their main function of powering homes."
                 }
             ],
             "funFact": "The photovoltaic effect, which allows solar panels to convert sunlight into electricity, was first discovered by French physicist Edmond Becquerel in 1839 when he was just 19 years old!"
         },
         {
-            "id": 9,
-            "text": "A remote research station in a desert area needs a reliable energy source. They want to choose an energy system that efficiently converts energy and has minimal environmental impact. Which of the following would be the most suitable energy solution for their needs?",
-            "options": [
-                {
-                    "text": "A solar panel array with battery storage",
-                    "isCorrect": 1,
-                    "explanation": "Solar panels are ideal for desert locations due to abundant sunlight. They efficiently convert light energy to electrical energy, can store excess energy in batteries, and produce minimal environmental impact."
-                },
-                {
-                    "text": "A diesel generator system",
-                    "isCorrect": 0,
-                    "explanation": "While reliable, diesel generators use non-renewable fossil fuels, require constant fuel supply, and produce pollution and greenhouse gases, making them less environmentally friendly."
-                },
-                {
-                    "text": "A coal-powered electricity generator",
-                    "isCorrect": 0,
-                    "explanation": "Coal power requires large infrastructure, produces significant pollution, and uses non-renewable resources. It's impractical for a remote location and has major environmental impacts."
-                },
-                {
-                    "text": "A wind turbine system",
-                    "isCorrect": 0,
-                    "explanation": "While wind turbines are renewable and clean, desert areas often lack consistent wind patterns needed for reliable power generation, making them less suitable for this location."
-                }
-            ],
-            "funFact": "Modern solar panels can convert up to 23% of sunlight into electricity, and their efficiency continues to improve through technological advances. Some experimental solar cells have achieved over 47% efficiency in laboratory conditions!"
-        },
-        {
             "id": 10,
-            "text": "A city needs to convert wind energy into electrical energy to power street lights. Which device would be most efficient for this purpose?",
+            "text": "A town wants to install outdoor lighting along a walking trail in a park. They need a sustainable solution that converts energy efficiently. Which of the following options would be the most cost-effective and environmentally friendly choice for powering these lights?",
             "options": [
                 {
-                    "text": "Wind turbine",
+                    "text": "Solar-powered LED lights that convert sunlight to electrical energy, which is then converted to light energy",
                     "isCorrect": 1,
-                    "explanation": "Wind turbines are specifically designed to convert wind energy into electrical energy efficiently through their rotating blades and generators."
+                    "explanation": "Solar-powered LED lights are highly efficient, use renewable energy, have low maintenance costs, and can store energy in batteries for use at night."
                 },
                 {
-                    "text": "Steam engine",
+                    "text": "Coal-powered electric lights connected to a local power plant",
                     "isCorrect": 0,
-                    "explanation": "Steam engines convert heat energy into mechanical energy using steam pressure. They are not designed to harness wind energy or produce electricity directly."
+                    "explanation": "Using coal-generated electricity relies on non-renewable resources, produces pollution, and requires extensive infrastructure for power transmission."
                 },
                 {
-                    "text": "Solar panel",
+                    "text": "Gas-powered lamps that burn natural gas to produce light energy",
                     "isCorrect": 0,
-                    "explanation": "While solar panels are renewable energy devices, they convert light energy into electrical energy, not wind energy into electrical energy."
+                    "explanation": "Gas lamps use non-renewable fossil fuels, require constant fuel supply, produce emissions, and have higher operating costs over time."
                 },
                 {
-                    "text": "Electric motor",
+                    "text": "Battery-only powered lights that need regular battery replacement",
                     "isCorrect": 0,
-                    "explanation": "Electric motors convert electrical energy into mechanical energy (motion). They work in the opposite direction of what is needed here."
+                    "explanation": "Regular battery replacement is expensive, creates waste, and requires constant maintenance. This is not a sustainable long-term solution."
                 }
             ],
-            "funFact": "The world's largest wind turbine, developed by a Danish company, has blades longer than a football field and can power up to 18,000 homes with clean electricity from a single turbine!"
+            "funFact": "Modern solar-powered LED lights can be up to 80% more energy efficient than traditional lighting solutions, and some advanced models can even adjust their brightness based on motion detection to conserve even more energy!"
         },
         {
             "id": 11,
-            "text": "A city is planning to build an energy storage system to store excess solar energy during sunny days for use at night. Which of the following storage solutions would be most efficient for this purpose?",
+            "text": "A car manufacturer is developing an engine that runs on algae-based biodiesel instead of traditional fossil fuels. Which statement correctly describes the energy transformation process and environmental impact of using algae-based biodiesel compared to fossil fuels?",
             "options": [
                 {
-                    "text": "Lithium-ion batteries",
+                    "text": "Algae-based biodiesel provides more energy per gallon than fossil fuels and produces no emissions when burned",
+                    "isCorrect": 0,
+                    "explanation": "While algae-based biodiesel is cleaner than fossil fuels, it still produces some emissions when burned and doesn't necessarily provide more energy per gallon"
+                },
+                {
+                    "text": "Algae-based biodiesel provides renewable energy by converting chemical energy to motion, with lower environmental impact since algae can be regrown quickly",
                     "isCorrect": 1,
-                    "explanation": "Lithium-ion batteries are highly efficient at storing and releasing electrical energy, with efficiency rates around 85-95%. They can store large amounts of energy in a compact space and respond quickly to energy demands."
+                    "explanation": "Algae-based biodiesel is renewable and converts chemical energy to motion like fossil fuels, but with reduced environmental impact since algae can be continuously cultivated"
                 },
                 {
-                    "text": "Compressed air tanks",
+                    "text": "Algae-based biodiesel directly converts solar energy to motion without any chemical energy transformation",
                     "isCorrect": 0,
-                    "explanation": "While compressed air storage is possible, it typically has lower efficiency (around 40-50%) due to heat loss during compression and expansion cycles."
+                    "explanation": "Algae-based biodiesel still involves chemical energy transformation - the engine converts the chemical energy stored in the biodiesel to motion energy"
                 },
                 {
-                    "text": "Water towers",
+                    "text": "Algae-based biodiesel takes millions of years to produce like fossil fuels but creates less pollution",
                     "isCorrect": 0,
-                    "explanation": "Pumped hydro storage using water towers, while reliable, requires significant space and height differences. The overall efficiency is lower (around 70-80%) due to losses in pumping and generating processes."
-                },
-                {
-                    "text": "Flywheels",
-                    "isCorrect": 0,
-                    "explanation": "Flywheels are better suited for short-term energy storage and stabilization rather than long-term storage needed for overnight power supply. They also experience energy losses due to friction."
+                    "explanation": "Unlike fossil fuels that take millions of years to form, algae can be grown and converted to biodiesel in months"
                 }
             ],
-            "funFact": "The world's largest battery storage system, located in Moss Landing, California, can store enough energy to power approximately 225,000 homes for four hours! This system helps balance the grid when solar power isn't available."
+            "funFact": "Some species of algae can double their biomass in as little as 3.5 hours, making them one of the fastest-growing organisms on Earth and an incredibly efficient source of biofuel production!"
         },
         {
             "id": 12,
-            "text": "An LED light bulb connected to a battery converts electrical energy into light energy. However, not all of the electrical energy becomes light. What happens to the remaining electrical energy during this conversion process?",
-            "options": [
-                {
-                    "text": "It is converted into heat energy",
-                    "isCorrect": 1,
-                    "explanation": "LED bulbs convert some electrical energy into heat as a byproduct of the energy conversion process, though they are more efficient than traditional bulbs"
-                },
-                {
-                    "text": "It is stored back in the battery",
-                    "isCorrect": 0,
-                    "explanation": "Electrical energy cannot flow backwards to be stored in the battery once it has been used in the circuit"
-                },
-                {
-                    "text": "It disappears completely",
-                    "isCorrect": 0,
-                    "explanation": "Energy cannot disappear - it must be converted to another form according to the law of conservation of energy"
-                },
-                {
-                    "text": "It remains as electrical energy in the wires",
-                    "isCorrect": 0,
-                    "explanation": "The electrical energy must be converted to another form of energy - it cannot remain as electrical energy in the wires indefinitely"
-                }
-            ],
-            "funFact": "While traditional incandescent bulbs convert only about 5% of electrical energy into light (with 95% becoming heat), modern LED bulbs typically convert 15-30% of electrical energy into light, with some high-efficiency models approaching 40%, making them much more energy efficient!"
-        },
-        {
-            "id": 13,
-            "text": "Which statement accurately compares solar panels and coal power plants in terms of their energy transformation and environmental impact?",
-            "options": [
-                {
-                    "text": "Solar panels convert sunlight directly into electrical energy with minimal environmental impact, while coal plants burn fossil fuels to generate electricity, releasing pollutants into the atmosphere",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how solar panels use renewable solar energy for clean electricity generation, while coal plants rely on burning nonrenewable fossil fuels which produces pollution."
-                },
-                {
-                    "text": "Both solar panels and coal power plants produce equal amounts of pollution during electricity generation",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Solar panels produce virtually no pollution during operation, while coal plants release significant amounts of pollutants when burning fossil fuels."
-                },
-                {
-                    "text": "Coal power plants are more sustainable than solar panels because coal is a natural resource",
-                    "isCorrect": 0,
-                    "explanation": "While coal is natural, it is nonrenewable and will eventually run out. Solar energy is renewable and more sustainable long-term."
-                },
-                {
-                    "text": "Solar panels deplete sunlight resources while coal plants only use underground resources",
-                    "isCorrect": 0,
-                    "explanation": "This reflects a misconception. Sunlight is a renewable resource that cannot be depleted, while coal is a finite resource that will eventually run out."
-                }
-            ],
-            "funFact": "The amount of sunlight that strikes Earth's surface in just one hour could meet world energy demand for an entire year! However, we're still working on developing more efficient ways to capture and store this abundant solar energy."
-        },
-        {
-            "id": 14,
-            "text": "Which of the following best explains how an electric motor in a toy car converts electrical energy into motion?",
-            "options": [
-                {
-                    "text": "The motor uses electrical energy to create a rotating magnetic field that turns the wheels, converting electrical energy into mechanical energy",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how electric motors work - they use electromagnets powered by electricity to create rotation that drives the wheels"
-                },
-                {
-                    "text": "The motor burns electricity like fuel to create heat energy that pushes the wheels forward",
-                    "isCorrect": 0,
-                    "explanation": "Electric motors don't burn electricity or primarily use heat - they use electromagnetic forces to create motion"
-                },
-                {
-                    "text": "The motor converts electrical energy directly into light energy which then becomes motion",
-                    "isCorrect": 0,
-                    "explanation": "Electric motors don't use light as an intermediate step - they convert electrical energy directly into mechanical energy through magnetism"
-                },
-                {
-                    "text": "The motor stores electrical energy in a battery which slowly leaks out to move the wheels",
-                    "isCorrect": 0,
-                    "explanation": "While batteries store electrical energy, the motor actively converts this energy into motion rather than it just leaking out"
-                }
-            ],
-            "funFact": "The first electric motor that could power a vehicle was invented by Hungarian physicist \u00c1nyos Jedlik in 1828. His device used electromagnetic fields to create continuous rotation - the same basic principle used in modern electric motors today!"
-        },
-        {
-            "id": 15,
             "text": "How does an electric car convert stored electrical energy into motion to drive down the road?",
             "options": [
                 {
                     "text": "The electrical energy from batteries directly powers the wheels without any conversion",
                     "isCorrect": 0,
                     "explanation": "Electrical energy cannot directly create motion - it must first be converted by a motor into mechanical energy to turn the wheels"
-                },
-                {
-                    "text": "The batteries power an electric motor that converts electrical energy into mechanical energy to turn the wheels",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how electrical energy from batteries is converted by the motor into mechanical energy that produces motion of the wheels"
                 },
                 {
                     "text": "The batteries create chemical reactions that directly spin the wheels",
@@ -398,9 +317,95 @@
                     "text": "The batteries heat up the wheels which causes them to spin",
                     "isCorrect": 0,
                     "explanation": "Heat energy from batteries would be an inefficient and incorrect way to create motion - the electrical energy is converted by a motor instead"
+                },
+                {
+                    "text": "The batteries power an electric motor that converts electrical energy into mechanical energy to turn the wheels",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how electrical energy from batteries is converted by the motor into mechanical energy that produces motion of the wheels"
                 }
             ],
             "funFact": "Electric motors can convert over 90% of electrical energy into mechanical energy, while typical gasoline engines only convert about 20-30% of fuel energy into motion, making electric cars much more energy efficient!"
+        },
+        {
+            "id": 13,
+            "text": "An LED light bulb connected to a battery converts electrical energy into light energy. However, not all of the electrical energy becomes light. What happens to the remaining electrical energy during this conversion process?",
+            "options": [
+                {
+                    "text": "It is converted into heat energy",
+                    "isCorrect": 1,
+                    "explanation": "LED bulbs convert some electrical energy into heat as a byproduct of the energy conversion process, though they are more efficient than traditional bulbs"
+                },
+                {
+                    "text": "It remains as electrical energy in the wires",
+                    "isCorrect": 0,
+                    "explanation": "The electrical energy must be converted to another form of energy - it cannot remain as electrical energy in the wires indefinitely"
+                },
+                {
+                    "text": "It is stored back in the battery",
+                    "isCorrect": 0,
+                    "explanation": "Electrical energy cannot flow backwards to be stored in the battery once it has been used in the circuit"
+                },
+                {
+                    "text": "It disappears completely",
+                    "isCorrect": 0,
+                    "explanation": "Energy cannot disappear - it must be converted to another form according to the law of conservation of energy"
+                }
+            ],
+            "funFact": "While traditional incandescent bulbs convert only about 5% of electrical energy into light (with 95% becoming heat), modern LED bulbs typically convert 15-30% of electrical energy into light, with some high-efficiency models approaching 40%, making them much more energy efficient!"
+        },
+        {
+            "id": 14,
+            "text": "A geothermal power plant extracts heat energy from deep underground and converts it into electrical energy. Which sequence correctly shows the energy transformations that occur in this process?",
+            "options": [
+                {
+                    "text": "Heat energy \u2192 Mechanical energy (steam turbine) \u2192 Electrical energy (generator)",
+                    "isCorrect": 1,
+                    "explanation": "This is the correct sequence. Underground heat turns water into steam, which drives turbines (mechanical energy), and the turbines turn generators to produce electricity."
+                },
+                {
+                    "text": "Electrical energy \u2192 Heat energy \u2192 Mechanical energy",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is reversed. The process starts with heat energy, not electrical energy."
+                },
+                {
+                    "text": "Mechanical energy \u2192 Heat energy \u2192 Electrical energy",
+                    "isCorrect": 0,
+                    "explanation": "The process begins with heat energy from underground, not mechanical energy."
+                },
+                {
+                    "text": "Heat energy \u2192 Electrical energy \u2192 Mechanical energy",
+                    "isCorrect": 0,
+                    "explanation": "While the process starts with heat energy, electrical energy is the final form, not an intermediate step."
+                }
+            ],
+            "funFact": "The world's oldest geothermal power plant that's still operating is in Larderello, Italy. It began producing electricity in 1911 and continues to power about a million Italian households!"
+        },
+        {
+            "id": 15,
+            "text": "A homeowner wants to design an efficient passive solar heating system for their house. Which design feature would be most effective at converting sunlight into usable heat energy?",
+            "options": [
+                {
+                    "text": "Large south-facing windows with dark-colored thermal mass flooring",
+                    "isCorrect": 1,
+                    "explanation": "Large south-facing windows maximize sunlight collection, while dark thermal mass flooring absorbs and stores heat efficiently, releasing it slowly throughout the day"
+                },
+                {
+                    "text": "Windows covered with mirrors on the outside",
+                    "isCorrect": 0,
+                    "explanation": "Mirrors on the outside would reflect sunlight away from the house, preventing it from being converted to heat energy inside"
+                },
+                {
+                    "text": "North-facing windows with insulated curtains",
+                    "isCorrect": 0,
+                    "explanation": "North-facing windows receive minimal direct sunlight in the Northern hemisphere, making them inefficient for solar heat collection"
+                },
+                {
+                    "text": "Small windows with light-colored reflective surfaces inside",
+                    "isCorrect": 0,
+                    "explanation": "Small windows limit sunlight collection, and light-colored reflective surfaces would reflect heat away rather than absorbing it"
+                }
+            ],
+            "funFact": "The ancient Romans were pioneers of passive solar heating, designing their buildings with large south-facing windows and using dark stone floors to absorb and store heat - a technique that's still effective today!"
         }
     ]
 }

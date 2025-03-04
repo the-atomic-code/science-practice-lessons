@@ -4,44 +4,98 @@
     "questions": [
         {
             "id": 1,
-            "text": "A student is studying different ways energy can be stored in objects. Which of the following situations demonstrates storing energy through interactions between objects?",
+            "text": "Which of the following best describes kinetic energy?",
             "options": [
                 {
-                    "text": "A stretched rubber band",
-                    "isCorrect": 0,
-                    "explanation": "While a stretched rubber band does store energy, it stores elastic potential energy within itself rather than through interaction between separate objects."
-                },
-                {
-                    "text": "A magnet being moved closer to a refrigerator",
+                    "text": "The energy associated with an object's motion",
                     "isCorrect": 1,
-                    "explanation": "This demonstrates magnetic potential energy being stored through the interaction between two objects (the magnet and the refrigerator) at a distance."
+                    "explanation": "Kinetic energy is directly related to how an object moves - it's the energy of motion. The faster an object moves, the more kinetic energy it has."
                 },
                 {
-                    "text": "A moving bicycle",
+                    "text": "The energy stored in an object due to its position",
                     "isCorrect": 0,
-                    "explanation": "A moving bicycle has kinetic energy due to its motion, not potential energy stored through interaction between objects."
+                    "explanation": "This describes potential energy, not kinetic energy. Potential energy is stored energy based on position or arrangement."
                 },
                 {
-                    "text": "A hot cup of coffee",
+                    "text": "The energy stored in chemical bonds",
                     "isCorrect": 0,
-                    "explanation": "A hot cup of coffee contains thermal energy due to the motion of its particles, not potential energy stored through interaction between objects."
+                    "explanation": "Chemical energy stored in bonds is a form of potential energy, not kinetic energy. Kinetic energy is specifically about motion."
+                },
+                {
+                    "text": "The energy transferred between two objects through heat",
+                    "isCorrect": 0,
+                    "explanation": "While heat is a form of energy transfer, it is not the definition of kinetic energy. Kinetic energy specifically refers to energy of motion."
                 }
             ],
-            "funFact": "The Earth's magnetic field is so powerful that it protects us from harmful solar radiation by deflecting charged particles from the Sun. This magnetic interaction extends thousands of miles into space, creating a protective bubble called the magnetosphere!"
+            "funFact": "A baseball pitched at 90 mph has about 120 joules of kinetic energy - that's enough energy to lift a gallon of milk about 10 feet into the air! The faster the pitch, the more kinetic energy the ball has, which is why faster pitches are harder to hit."
         },
         {
             "id": 2,
+            "text": "Which formula correctly represents the kinetic energy (KE) of a moving object?",
+            "options": [
+                {
+                    "text": "KE = mass \u00d7 velocity\u00b2",
+                    "isCorrect": 0,
+                    "explanation": "While this formula includes the squared velocity term, it's missing the factor of 1/2 that's necessary for the correct calculation of kinetic energy."
+                },
+                {
+                    "text": "KE = mass \u00d7 velocity",
+                    "isCorrect": 0,
+                    "explanation": "This formula is incorrect. It only accounts for mass and velocity linearly, but kinetic energy depends on the square of velocity."
+                },
+                {
+                    "text": "KE = 1/2 \u00d7 mass \u00d7 velocity\u00b2",
+                    "isCorrect": 1,
+                    "explanation": "This is the correct formula for kinetic energy. The mass is multiplied by velocity squared and then halved to calculate the total kinetic energy of a moving object."
+                },
+                {
+                    "text": "KE = 1/2 \u00d7 velocity \u00d7 mass\u00b2",
+                    "isCorrect": 0,
+                    "explanation": "This formula incorrectly squares the mass instead of the velocity. In kinetic energy calculations, it's the velocity that needs to be squared."
+                }
+            ],
+            "funFact": "The squared velocity term in the kinetic energy formula is why doubling an object's speed increases its kinetic energy by a factor of four! This relationship explains why vehicles need much more stopping distance at higher speeds."
+        },
+        {
+            "id": 3,
+            "text": "A roller coaster cart is positioned at different heights along a track. At which position would the cart have the highest potential energy due to its interaction with Earth?",
+            "options": [
+                {
+                    "text": "Halfway up the track",
+                    "isCorrect": 0,
+                    "explanation": "The middle position has less potential energy than the top position since it is at a lower height relative to Earth's surface."
+                },
+                {
+                    "text": "At the bottom of the track",
+                    "isCorrect": 0,
+                    "explanation": "When the cart is at the bottom of the track, it has the least potential energy since it is closest to Earth's surface."
+                },
+                {
+                    "text": "At the top of the track",
+                    "isCorrect": 1,
+                    "explanation": "The higher position means greater distance from Earth's surface, resulting in more gravitational potential energy stored in the system."
+                },
+                {
+                    "text": "The potential energy is the same at all positions",
+                    "isCorrect": 0,
+                    "explanation": "Potential energy changes with height - it is not constant at different positions along the track."
+                }
+            ],
+            "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure in New Jersey, reaches a height of 456 feet (139 meters)! This means the cart-Earth system stores an enormous amount of gravitational potential energy at its peak before converting it to kinetic energy during the thrilling descent."
+        },
+        {
+            "id": 4,
             "text": "Which of the following scenarios demonstrates energy transfer in a bow and arrow system?",
             "options": [
+                {
+                    "text": "When the archer is walking with the bow",
+                    "isCorrect": 0,
+                    "explanation": "Simply carrying the bow while walking does not involve energy transfer within the bow and arrow system itself."
+                },
                 {
                     "text": "When the archer holds the bow steady without pulling the string",
                     "isCorrect": 0,
                     "explanation": "Simply holding the bow without pulling the string does not involve any energy transfer, as there is no change in position or motion."
-                },
-                {
-                    "text": "When the archer pulls back the bowstring, storing energy in the bent bow",
-                    "isCorrect": 1,
-                    "explanation": "The archer's muscles do work to pull back the string, transferring energy into the bow system where it is stored as potential energy in the bent bow."
                 },
                 {
                     "text": "When the arrow is sitting in the quiver",
@@ -49,135 +103,44 @@
                     "explanation": "An arrow sitting still in a quiver is not involved in any energy transfer since there is no motion or change in position."
                 },
                 {
-                    "text": "When the archer is walking with the bow",
-                    "isCorrect": 0,
-                    "explanation": "Simply carrying the bow while walking does not involve energy transfer within the bow and arrow system itself."
+                    "text": "When the archer pulls back the bowstring, storing energy in the bent bow",
+                    "isCorrect": 1,
+                    "explanation": "The archer's muscles do work to pull back the string, transferring energy into the bow system where it is stored as potential energy in the bent bow."
                 }
             ],
             "funFact": "The oldest known bow and arrow artifacts date back over 70,000 years! Ancient archers understood the principles of energy storage and transfer intuitively, even though the scientific concepts weren't formally described until much later."
         },
         {
-            "id": 3,
-            "text": "A student wants to store more gravitational potential energy in a ball. Which of the following actions would increase the ball's potential energy?",
-            "options": [
-                {
-                    "text": "Lifting the ball to a greater height above the ground",
-                    "isCorrect": 1,
-                    "explanation": "Increasing the height increases gravitational potential energy since it depends directly on the object's position relative to Earth's surface."
-                },
-                {
-                    "text": "Rolling the ball faster across level ground",
-                    "isCorrect": 0,
-                    "explanation": "Rolling the ball faster only increases kinetic energy (energy of motion), not potential energy which depends on position."
-                },
-                {
-                    "text": "Changing the ball's color",
-                    "isCorrect": 0,
-                    "explanation": "The color of an object has no effect on its gravitational potential energy, which depends on mass and height."
-                },
-                {
-                    "text": "Making the ball warmer",
-                    "isCorrect": 0,
-                    "explanation": "Temperature affects thermal energy but does not change gravitational potential energy, which depends on mass and height."
-                }
-            ],
-            "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure, reaches a height of 456 feet (139 meters)! This extreme height gives the roller coaster cars enormous gravitational potential energy that converts to thrilling speeds of up to 128 mph during descent."
-        },
-        {
-            "id": 4,
-            "text": "Which of the following best describes potential energy?",
-            "options": [
-                {
-                    "text": "Energy stored in an object due to its position",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Potential energy is the energy stored in an object based on its position or arrangement relative to other objects."
-                },
-                {
-                    "text": "Energy of an object in motion",
-                    "isCorrect": 0,
-                    "explanation": "This describes kinetic energy, not potential energy. Potential energy is stored energy based on position."
-                },
-                {
-                    "text": "Energy that is always decreasing in a system",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Potential energy can increase or decrease depending on position changes in the system."
-                },
-                {
-                    "text": "Energy that can never be converted to other forms",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Potential energy can be converted to other forms of energy, like kinetic energy."
-                }
-            ],
-            "funFact": "The concept of potential energy was first introduced by Scottish engineer William Rankine in 1853. The word 'potential' comes from the Latin word 'potentia' meaning 'power' or 'ability' - perfectly describing energy that has the ability to do work based on position!"
-        },
-        {
             "id": 5,
-            "text": "Which of the following scenarios provides the clearest evidence of energy transformation from potential to kinetic energy?",
+            "text": "A student wants to increase the potential energy of a ball in Earth's gravitational field. Which of the following actions would result in the greatest increase in potential energy?",
             "options": [
                 {
-                    "text": "A bow being drawn back before releasing an arrow",
+                    "text": "Rotating the ball in place",
                     "isCorrect": 0,
-                    "explanation": "This shows storing of potential energy as the bow is drawn back, but not the transformation to kinetic energy yet."
+                    "explanation": "Rotating an object without changing its position relative to Earth does not affect its gravitational potential energy."
                 },
                 {
-                    "text": "A roller coaster cart at the top of a hill",
+                    "text": "Changing the ball's temperature",
                     "isCorrect": 0,
-                    "explanation": "This shows only stored potential energy due to height, but not the transformation to kinetic energy yet."
+                    "explanation": "While changing temperature affects thermal energy, it does not affect the gravitational potential energy between the ball and Earth."
                 },
                 {
-                    "text": "A released arrow flying through the air and hitting a target",
+                    "text": "Moving the ball horizontally",
+                    "isCorrect": 0,
+                    "explanation": "Moving an object horizontally does not change its height relative to Earth, so it does not change the gravitational potential energy of the system."
+                },
+                {
+                    "text": "Raising the ball to a greater height",
                     "isCorrect": 1,
-                    "explanation": "This clearly shows the transformation from stored potential energy in the drawn bow to kinetic energy as the arrow moves through the air."
-                },
-                {
-                    "text": "A wrecking ball being lifted by a crane",
-                    "isCorrect": 0,
-                    "explanation": "This shows only the increasing of potential energy as the ball is lifted higher, but not the transformation to kinetic energy."
+                    "explanation": "Increasing the height of an object in Earth's gravitational field directly increases its gravitational potential energy. The higher the object is raised, the more potential energy it has."
                 }
             ],
-            "funFact": "Modern competitive archery bows can shoot arrows at speeds over 350 feet per second! This incredible velocity is achieved through the efficient conversion of potential energy stored in the drawn bow's limbs into the kinetic energy of the arrow's flight."
+            "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure, uses this principle of gravitational potential energy. At its highest point of 456 feet (139 meters), the roller coaster cars have maximum potential energy before converting it to thrilling kinetic energy on the way down!"
         },
         {
             "id": 6,
-            "text": "Two magnets are placed near each other with their north poles facing each other. As you push the magnets closer together, what happens to the potential energy of the magnetic system?",
-            "options": [
-                {
-                    "text": "The potential energy increases because work is done against the repulsive force",
-                    "isCorrect": 1,
-                    "explanation": "When like poles of magnets are pushed closer, you must do work against the repulsive force, which increases the potential energy stored in the magnetic system"
-                },
-                {
-                    "text": "The potential energy decreases because the magnets are closer together",
-                    "isCorrect": 0,
-                    "explanation": "While the magnets are closer, the repulsive force means work must be done to bring them together, actually increasing the potential energy"
-                },
-                {
-                    "text": "The potential energy remains the same regardless of distance",
-                    "isCorrect": 0,
-                    "explanation": "Magnetic potential energy changes with distance - it's not constant. The closer the repelling magnets are pushed together, the more potential energy is stored"
-                },
-                {
-                    "text": "The potential energy is converted completely to kinetic energy",
-                    "isCorrect": 0,
-                    "explanation": "While pushing the magnets together, potential energy increases due to the repulsive force. It's not being converted to kinetic energy during this process"
-                }
-            ],
-            "funFact": "The Earth's magnetic field acts like a massive shield, deflecting harmful charged particles from the Sun. Without it, these particles would strip away our atmosphere, similar to what happened to Mars when it lost its strong magnetic field billions of years ago!"
-        },
-        {
-            "id": 7,
             "text": "A wrecking ball is suspended from a crane at different heights during a demolition project. At which position would the wrecking ball have the MOST potential energy?",
             "options": [
-                {
-                    "text": "When it is at ground level",
-                    "isCorrect": 0,
-                    "explanation": "At ground level, the wrecking ball has the least potential energy since gravitational potential energy depends on height."
-                },
-                {
-                    "text": "When it is halfway to its maximum height",
-                    "isCorrect": 0,
-                    "explanation": "The potential energy increases with height, so a position halfway up would have less potential energy than the maximum height."
-                },
                 {
                     "text": "When it is at its maximum height",
                     "isCorrect": 1,
@@ -187,45 +150,28 @@
                     "text": "The potential energy remains the same at all heights",
                     "isCorrect": 0,
                     "explanation": "Potential energy changes with height - it is not constant. Higher positions result in greater potential energy."
+                },
+                {
+                    "text": "When it is halfway to its maximum height",
+                    "isCorrect": 0,
+                    "explanation": "The potential energy increases with height, so a position halfway up would have less potential energy than the maximum height."
+                },
+                {
+                    "text": "When it is at ground level",
+                    "isCorrect": 0,
+                    "explanation": "At ground level, the wrecking ball has the least potential energy since gravitational potential energy depends on height."
                 }
             ],
             "funFact": "The world's largest wrecking ball weighs approximately 12,000 pounds (5,443 kg) - that's about the weight of one adult male African elephant! The enormous potential energy it stores at height makes it extremely effective for demolition work."
         },
         {
-            "id": 8,
-            "text": "A roller coaster car starts at the top of a hill (position A), travels down to the middle of the hill (position B), and finally reaches the bottom (position C). Which statement correctly describes the energy changes throughout this journey?",
-            "options": [
-                {
-                    "text": "The potential energy increases and kinetic energy decreases as the car moves from A to C",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. As the car moves down the hill, gravitational potential energy decreases while kinetic energy increases."
-                },
-                {
-                    "text": "The potential energy decreases and kinetic energy increases as the car moves from A to C",
-                    "isCorrect": 1,
-                    "explanation": "Correct! As the car moves down the hill, its height decreases, reducing gravitational potential energy, while its speed increases, increasing kinetic energy."
-                },
-                {
-                    "text": "Both potential and kinetic energy increase as the car moves from A to C",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While kinetic energy does increase, potential energy must decrease as the height decreases."
-                },
-                {
-                    "text": "Both potential and kinetic energy remain constant throughout the journey",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The energies are constantly changing - potential energy decreases while kinetic energy increases during the descent."
-                }
-            ],
-            "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure, stands at 456 feet (139 meters) tall. At its highest point, the cars have maximum gravitational potential energy, which gets converted to incredible speeds of up to 128 mph (206 km/h) during descent!"
-        },
-        {
-            "id": 9,
+            "id": 7,
             "text": "A pendulum swings back and forth between points A and B, reaching its maximum height at these points and passing through point C at its lowest position. At which point does the pendulum have the maximum kinetic energy?",
             "options": [
                 {
-                    "text": "Point A (maximum height)",
+                    "text": "The kinetic energy remains constant throughout the swing",
                     "isCorrect": 0,
-                    "explanation": "At point A, the pendulum is at its maximum height and has maximum potential energy but zero kinetic energy since it momentarily stops before swinging back."
+                    "explanation": "The kinetic energy varies throughout the swing as it converts between potential and kinetic energy, not remaining constant."
                 },
                 {
                     "text": "Point B (maximum height)",
@@ -233,112 +179,188 @@
                     "explanation": "At point B, like point A, the pendulum has maximum potential energy but zero kinetic energy as it momentarily stops before changing direction."
                 },
                 {
+                    "text": "Point A (maximum height)",
+                    "isCorrect": 0,
+                    "explanation": "At point A, the pendulum is at its maximum height and has maximum potential energy but zero kinetic energy since it momentarily stops before swinging back."
+                },
+                {
                     "text": "Point C (lowest position)",
                     "isCorrect": 1,
                     "explanation": "At point C, the lowest position, potential energy has been completely converted to kinetic energy, resulting in maximum speed and therefore maximum kinetic energy."
-                },
-                {
-                    "text": "The kinetic energy remains constant throughout the swing",
-                    "isCorrect": 0,
-                    "explanation": "The kinetic energy varies throughout the swing as it converts between potential and kinetic energy, not remaining constant."
                 }
             ],
             "funFact": "The principle behind pendulum motion helped develop accurate timekeeping devices. In 1656, Dutch scientist Christiaan Huygens created the first pendulum clock, which was far more accurate than any previous timekeeping device, losing only a few seconds per day!"
         },
         {
-            "id": 10,
-            "text": "A student is practicing archery and notices different effects when drawing the bow. Which statement correctly describes how the potential energy in the bow and arrow system changes as the bow is drawn back further?",
+            "id": 8,
+            "text": "A magnetic compass is brought closer to a strong permanent magnet while the compass needle is prevented from rotating to align with the magnetic field. How does this change affect the potential energy of the system?",
             "options": [
                 {
-                    "text": "The potential energy increases because the bow string is stretched more, storing more elastic energy",
+                    "text": "The potential energy increases because work is done against the magnetic force to bring the objects closer",
                     "isCorrect": 1,
-                    "explanation": "When the bow is drawn back further, more force is required to hold it, indicating more elastic potential energy is stored in the system"
+                    "explanation": "When a compass is brought closer to a magnet while preventing its natural alignment, work must be done against the magnetic forces, which increases the potential energy stored in the system."
                 },
                 {
-                    "text": "The potential energy remains constant regardless of how far the bow is drawn",
+                    "text": "The potential energy becomes zero when the objects touch",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because the stored energy changes with position - a further draw requires more force and stores more energy"
+                    "explanation": "The potential energy does not become zero upon contact. The magnetic interaction continues to store energy even when the objects are touching, especially when natural alignment is prevented."
                 },
                 {
-                    "text": "The potential energy only increases when the arrow is released",
+                    "text": "The potential energy decreases because the objects are closer together",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because potential energy is stored while the bow is held drawn, before release. When released, potential energy converts to kinetic energy"
+                    "explanation": "This would be true if the compass were allowed to freely align with the magnetic field. However, since the compass needle is prevented from rotating, work is done against the magnetic forces, increasing the potential energy."
                 },
                 {
-                    "text": "The potential energy decreases as the bow is drawn further back",
+                    "text": "The potential energy remains the same regardless of distance",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because drawing the bow back further requires more force and stores more energy, not less"
+                    "explanation": "The potential energy of interacting magnetic objects changes with distance - it's not constant. The closer the objects, the more energy is stored in their interaction when alignment is prevented."
                 }
             ],
-            "funFact": "The invention of the composite bow around 1200 BCE was a major technological advancement. By using multiple materials layered together, these bows could store much more potential energy than simple wooden bows, allowing arrows to be shot with greater force and accuracy."
+            "funFact": "The Earth's magnetic field is crucial for protecting us from harmful solar radiation. Without it, charged particles from the sun would strip away our atmosphere, similar to what happened on Mars billions of years ago."
+        },
+        {
+            "id": 9,
+            "text": "A science museum has shelves displaying different objects. Object A is placed on the top shelf at 3 meters height, Object B is on the middle shelf at 2 meters height, and Object C is on the bottom shelf at 1 meter height. All objects have the same mass. How would you correctly compare their gravitational potential energies?",
+            "options": [
+                {
+                    "text": "Object A has the highest potential energy, followed by Object B, then Object C",
+                    "isCorrect": 1,
+                    "explanation": "Since all objects have the same mass and gravitational potential energy increases with height, the object at the greatest height (A) has the most potential energy."
+                },
+                {
+                    "text": "Objects A and B have the same potential energy, which is higher than Object C",
+                    "isCorrect": 0,
+                    "explanation": "Since the objects are at different heights (3m, 2m, and 1m), they all have different potential energies. Height differences result in potential energy differences."
+                },
+                {
+                    "text": "All objects have the same gravitational potential energy because they have the same mass",
+                    "isCorrect": 0,
+                    "explanation": "While mass does affect potential energy, height also matters. Objects at different heights will have different potential energies even with the same mass."
+                },
+                {
+                    "text": "Object C has the highest potential energy, followed by Object B, then Object A",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because gravitational potential energy increases with height, not decreases. The object at the lowest height (C) has the least potential energy."
+                }
+            ],
+            "funFact": "The concept of gravitational potential energy is crucial in designing roller coasters! Engineers carefully calculate the height of the first hill to ensure the cars have enough potential energy to complete the entire ride, accounting for energy losses due to friction and air resistance."
+        },
+        {
+            "id": 10,
+            "text": "A rubber band is stretched to different lengths and then released. Which statement correctly describes the relationship between the stretch and the rubber band's motion when released?",
+            "options": [
+                {
+                    "text": "The speed of the rubber band when released is the same regardless of how much it is stretched",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the amount of stored potential energy increases with stretch, leading to different speeds when released."
+                },
+                {
+                    "text": "The more the rubber band is stretched, the faster it will move when released because more potential energy is stored in the stretched position",
+                    "isCorrect": 1,
+                    "explanation": "When a rubber band is stretched further, more potential energy is stored due to its position. This stored energy converts to kinetic energy when released, resulting in faster motion."
+                },
+                {
+                    "text": "The rubber band's motion is only affected by its mass, not by how much it is stretched",
+                    "isCorrect": 0,
+                    "explanation": "While mass does affect motion, the amount of stretch determines the stored potential energy, which significantly impacts the resulting motion."
+                },
+                {
+                    "text": "The rubber band moves slower when stretched more because it has to travel a greater distance",
+                    "isCorrect": 0,
+                    "explanation": "This misconception ignores that greater stretch stores more potential energy, which converts to more kinetic energy, actually resulting in faster motion."
+                }
+            ],
+            "funFact": "Rubber bands can be stretched up to 500% of their original length before breaking! This incredible elasticity is due to long chains of molecules called polymers that can temporarily change shape when force is applied."
         },
         {
             "id": 11,
-            "text": "Three different mechanical systems are shown below:\n\nSystem A: A pendulum swinging back and forth\nSystem B: A compressed spring that is released\nSystem C: Two repelling magnets being moved closer together\n\nWhat pattern of energy transformation is common to all these systems?",
+            "text": "A construction company needs to demolish an old building and is designing a wrecking ball system. Which of the following design choices would result in the maximum potential energy storage in the wrecking ball before it strikes the building?",
             "options": [
                 {
-                    "text": "Potential energy is converted to kinetic energy and back repeatedly, with some energy lost as heat and sound",
+                    "text": "Using a heavier wrecking ball and keeping it at a lower height",
+                    "isCorrect": 0,
+                    "explanation": "While increasing mass increases potential energy, keeping the ball at a lower height reduces the potential energy. Height is a key factor in gravitational potential energy."
+                },
+                {
+                    "text": "Using a lighter wrecking ball and keeping it at a lower height",
+                    "isCorrect": 0,
+                    "explanation": "Both reduced mass and lower height decrease the potential energy storage in the system."
+                },
+                {
+                    "text": "Using a heavier wrecking ball and raising it to a greater height",
                     "isCorrect": 1,
-                    "explanation": "In all these systems, potential energy (gravitational, elastic, or magnetic) is converted to kinetic energy as objects move, and then back to potential energy, creating an oscillating pattern. Some energy is gradually lost to the environment as heat and sound."
+                    "explanation": "Both mass and height directly affect potential energy. A heavier ball at a greater height will store more potential energy that can be converted to kinetic energy during demolition."
                 },
                 {
-                    "text": "Kinetic energy is continuously increasing while potential energy remains constant",
+                    "text": "Using a lighter wrecking ball and raising it to a greater height",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because the energy in these systems oscillates between potential and kinetic forms rather than continuously increasing. The total energy actually decreases over time due to friction and other losses."
-                },
-                {
-                    "text": "All energy is immediately converted to heat and sound with no intermediate transformations",
-                    "isCorrect": 0,
-                    "explanation": "While some energy is lost as heat and sound, this happens gradually. The energy first cycles between potential and kinetic forms many times before being completely dissipated."
-                },
-                {
-                    "text": "Potential energy and kinetic energy exist simultaneously at constant levels",
-                    "isCorrect": 0,
-                    "explanation": "The levels of potential and kinetic energy are not constant - they change continuously as the systems oscillate. When potential energy is at maximum, kinetic energy is at minimum and vice versa."
+                    "explanation": "While increasing height increases potential energy, using a lighter ball reduces the potential energy. Mass is a key factor in energy storage."
                 }
             ],
-            "funFact": "The principle of energy transformation between potential and kinetic forms is used in many renewable energy systems. For example, pumped hydroelectric storage facilities pump water uphill to store potential energy when electricity is abundant, and release it to generate power when needed!"
+            "funFact": "The world's largest wrecking ball, weighing 12,000 pounds (5,443 kg), was used in demolition work in the 1950s. This massive ball could store enormous amounts of potential energy when raised, making it incredibly effective at demolishing structures!"
         },
         {
             "id": 12,
-            "text": "A compressed spring in a toy car launcher is stretched back 10 centimeters. What will happen to the potential energy stored in the spring if it is stretched back 20 centimeters instead?",
+            "text": "A student drops three identical metal balls from different heights at a science fair demonstration. Ball A is dropped from 1 meter, Ball B from 2 meters, and Ball C from 3 meters. Which statement correctly describes the energy transformations in this demonstration?",
             "options": [
                 {
-                    "text": "The potential energy will increase",
+                    "text": "All three balls will have the same amount of energy transformation since they are identical in mass",
+                    "isCorrect": 0,
+                    "explanation": "While the balls have the same mass, their initial heights are different. Height is a key factor in determining potential energy, so the energy transformations will differ."
+                },
+                {
+                    "text": "Ball A will have the most energy transformation since it hits the ground first",
+                    "isCorrect": 0,
+                    "explanation": "The timing of impact doesn't determine the amount of energy transformation. The initial height determines the amount of potential energy available for transformation."
+                },
+                {
+                    "text": "Ball C has the most initial potential energy and will convert the most energy into kinetic energy, sound, and heat during its fall",
                     "isCorrect": 1,
-                    "explanation": "When a spring is stretched further from its resting position, more potential energy is stored in it. According to Hooke's Law, the potential energy is proportional to the square of the displacement (E = \u00bdkx\u00b2), so doubling the displacement from 10cm to 20cm would actually quadruple the stored potential energy."
+                    "explanation": "Since Ball C starts from the greatest height, it has the most gravitational potential energy. This energy is converted to kinetic energy during the fall, with some energy converting to sound and heat when it hits the ground."
                 },
                 {
-                    "text": "The potential energy will decrease",
+                    "text": "The energy transformations will be equal because gravity acts the same on all objects",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. Stretching a spring further from its resting position increases, not decreases, the potential energy stored in it."
-                },
-                {
-                    "text": "The potential energy will stay the same",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The potential energy changes based on position - stretching the spring further increases the potential energy stored in it."
-                },
-                {
-                    "text": "The potential energy will become zero",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Stretching a spring stores potential energy in it - the energy doesn't become zero but actually increases with greater stretch distance."
+                    "explanation": "While gravity is constant, the amount of potential energy depends on both mass AND height. Since the heights are different, the energy transformations will also differ."
                 }
             ],
-            "funFact": "The elastic potential energy stored in springs isn't just for toys - it's used in everything from mechanical watches to vehicle suspensions. The ancient Greeks even used large torsion springs made of twisted rope to power their artillery weapons!"
+            "funFact": "The concept of potential energy isn't just important on Earth - space agencies use gravitational potential energy to help spacecraft save fuel! When spacecraft need to travel to distant planets, they often use 'gravity assists' where they convert the gravitational potential energy of planets into kinetic energy for their journey."
         },
         {
             "id": 13,
+            "text": "A roller coaster cart weighing 500 kg sits at the top of a 20-meter high hill. If the cart's weight is doubled to 1000 kg and the height is reduced to 10 meters, how will the potential energy of the system change?",
+            "options": [
+                {
+                    "text": "The potential energy will be reduced to zero",
+                    "isCorrect": 0,
+                    "explanation": "The system still has potential energy since the cart is still elevated above the ground, just with different mass and height values that offset each other"
+                },
+                {
+                    "text": "The potential energy will remain the same",
+                    "isCorrect": 1,
+                    "explanation": "Since potential energy depends on both mass and height, doubling the mass while halving the height results in the same potential energy (mass \u00d7 height \u00d7 gravity remains constant)"
+                },
+                {
+                    "text": "The potential energy will double",
+                    "isCorrect": 0,
+                    "explanation": "While the mass doubles, the height is halved, so these changes offset each other rather than resulting in doubled potential energy"
+                },
+                {
+                    "text": "The potential energy will be halved",
+                    "isCorrect": 0,
+                    "explanation": "Although the height is halved, the mass is doubled, so these changes balance out rather than resulting in halved potential energy"
+                }
+            ],
+            "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure, reaches a height of 456 feet (139 meters) and converts all that gravitational potential energy into kinetic energy as it reaches speeds of up to 128 mph (206 km/h) during descent!"
+        },
+        {
+            "id": 14,
             "text": "A roller coaster car starts at the top of a 50-meter hill. As it descends and then climbs up a 30-meter hill, which statement correctly describes the energy transformations?",
             "options": [
                 {
                     "text": "The potential energy continuously decreases while kinetic energy continuously increases throughout the entire path",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because as the car climbs the second hill, kinetic energy decreases while potential energy increases"
-                },
-                {
-                    "text": "The potential energy at the top of the second hill is greater than at the top of the first hill",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because potential energy depends on height, and the second hill is lower (30m) than the first hill (50m)"
                 },
                 {
                     "text": "The potential energy decreases while descending the first hill, then increases while climbing the second hill, but doesn't reach its initial value",
@@ -349,63 +371,41 @@
                     "text": "The total energy in the system remains exactly the same throughout the entire path",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because some energy is converted to heat and sound during the roller coaster's motion"
+                },
+                {
+                    "text": "The potential energy at the top of the second hill is greater than at the top of the first hill",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because potential energy depends on height, and the second hill is lower (30m) than the first hill (50m)"
                 }
             ],
             "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure, stands at 456 feet (139 meters) tall - that's a lot of potential energy! The higher starting point allows for greater speeds and more thrilling rides due to the energy transformations."
         },
         {
-            "id": 14,
-            "text": "When an archer pulls back a bowstring farther and farther, why does it require increasingly more force to pull the string back the same additional distance each time?",
-            "options": [
-                {
-                    "text": "The potential energy stored in the bow increases non-linearly with distance because the force required increases proportionally with the displacement",
-                    "isCorrect": 1,
-                    "explanation": "As the bowstring is pulled back further, the bow limbs flex more, requiring increasingly more force for the same additional displacement, leading to non-linear increase in stored potential energy"
-                },
-                {
-                    "text": "The potential energy increases linearly because the force required remains constant as the string is pulled back",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - the force required actually increases as the bowstring is pulled back further, not remains constant"
-                },
-                {
-                    "text": "The energy stored depends only on the final position of the string, not how it was pulled back",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - the stored potential energy depends on both the position and the increasing force required to reach that position"
-                },
-                {
-                    "text": "The bow stores kinetic energy which increases based on how fast the string is pulled back",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - a drawn bow stores potential energy based on position, not kinetic energy based on motion"
-                }
-            ],
-            "funFact": "The earliest evidence of bow and arrow technology dates back over 70,000 years, discovered in South Africa. The invention of the bow and arrow represents one of humanity's first complex machines that could store energy and release it on command!"
-        },
-        {
             "id": 15,
-            "text": "A construction company needs to demolish an old building and is designing a wrecking ball system. Which of the following design choices would result in the maximum potential energy storage in the wrecking ball before it strikes the building?",
+            "text": "Two identical springs are compressed using different forces - Spring A is compressed by 2 cm using force F, while Spring B is compressed by 4 cm using force 2F. How does the potential energy stored in Spring B compare to the potential energy stored in Spring A?",
             "options": [
                 {
-                    "text": "Using a heavier wrecking ball and raising it to a greater height",
+                    "text": "Spring B stores four times as much potential energy as Spring A",
                     "isCorrect": 1,
-                    "explanation": "Both mass and height directly affect potential energy. A heavier ball at a greater height will store more potential energy that can be converted to kinetic energy during demolition."
+                    "explanation": "Correct! For springs, potential energy is given by PE = \u00bdkx\u00b2, where k is the spring constant and x is displacement. Since the springs are identical (same k), and Spring B is displaced twice as much as Spring A (4 cm vs 2 cm), the potential energy of Spring B is PE_B = \u00bdk(4 cm)\u00b2 = 8k cm\u00b2, while for Spring A, PE_A = \u00bdk(2 cm)\u00b2 = 2k cm\u00b2. The ratio PE_B/PE_A = 4, meaning Spring B stores four times as much potential energy as Spring A."
                 },
                 {
-                    "text": "Using a lighter wrecking ball and raising it to a greater height",
+                    "text": "Spring B stores the same amount of potential energy as Spring A",
                     "isCorrect": 0,
-                    "explanation": "While increasing height increases potential energy, using a lighter ball reduces the potential energy. Mass is a key factor in energy storage."
+                    "explanation": "This is incorrect. Spring B is compressed more and with greater force than Spring A, so it must store more potential energy."
                 },
                 {
-                    "text": "Using a heavier wrecking ball and keeping it at a lower height",
+                    "text": "Spring B stores twice as much potential energy as Spring A",
                     "isCorrect": 0,
-                    "explanation": "While increasing mass increases potential energy, keeping the ball at a lower height reduces the potential energy. Height is a key factor in gravitational potential energy."
+                    "explanation": "This is incorrect. The relationship between force, displacement, and potential energy in springs is not linear. When displacement doubles and force doubles, the stored energy increases by more than a factor of 2."
                 },
                 {
-                    "text": "Using a lighter wrecking ball and keeping it at a lower height",
+                    "text": "Spring B stores eight times as much potential energy as Spring A",
                     "isCorrect": 0,
-                    "explanation": "Both reduced mass and lower height decrease the potential energy storage in the system."
+                    "explanation": "This is incorrect. While the stored energy does increase by more than a factor of 2, it doesn't increase by a factor of 8. The correct relationship shows a factor of 4 increase."
                 }
             ],
-            "funFact": "The world's largest wrecking ball, weighing 12,000 pounds (5,443 kg), was used in demolition work in the 1950s. This massive ball could store enormous amounts of potential energy when raised, making it incredibly effective at demolishing structures!"
+            "funFact": "Springs are used in many everyday devices, from pogo sticks to vehicle suspensions. In a typical car suspension system, the springs can compress by several inches and store enough potential energy to help smooth out bumps in the road, making your ride more comfortable!"
         }
     ]
 }

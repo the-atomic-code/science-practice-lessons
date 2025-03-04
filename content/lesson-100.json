@@ -4,40 +4,89 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which of the following transportation choices would have the most positive impact on the environment?",
+            "text": "How do prairie dog burrows help improve the environment?",
             "options": [
                 {
-                    "text": "Riding a bicycle to school",
+                    "text": "The burrows help aerate the soil and create homes for other animals",
                     "isCorrect": 1,
-                    "explanation": "Bicycles don't produce any pollution and are an environmentally friendly way to travel. They help reduce air pollution and don't require fossil fuels."
+                    "explanation": "Prairie dog burrows mix up and loosen the soil, which helps air and water reach plant roots. When prairie dogs move away, their empty burrows provide shelter for other animals."
                 },
                 {
-                    "text": "Taking a car alone to school every day",
+                    "text": "The burrows collect rainwater and create small ponds",
                     "isCorrect": 0,
-                    "explanation": "Cars produce exhaust gases that contribute to air pollution and use fossil fuels, especially when only one person is in the car."
+                    "explanation": "Prairie dog burrows don't typically collect water or create ponds. They are designed to stay relatively dry to provide suitable shelter."
                 },
                 {
-                    "text": "Getting dropped off by parents who leave the car engine running while waiting",
+                    "text": "The burrows block harmful insects from entering the ground",
                     "isCorrect": 0,
-                    "explanation": "Letting a car idle (keeping the engine running while not moving) creates unnecessary pollution and wastes fuel."
+                    "explanation": "Prairie dog burrows don't function as insect barriers. In fact, many types of insects may use abandoned burrows as their homes."
                 },
                 {
-                    "text": "Taking a different car each day",
+                    "text": "The burrows prevent plant growth in the area",
                     "isCorrect": 0,
-                    "explanation": "Using multiple cars doesn't reduce environmental impact - it actually increases pollution since more vehicles are being used."
+                    "explanation": "Rather than preventing plant growth, prairie dog burrows actually help plants grow better by aerating the soil and making it easier for roots to access water and nutrients."
                 }
             ],
-            "funFact": "A person on a bicycle can travel about three times as fast as someone walking while using only one-third of the energy! This makes bicycles one of the most efficient forms of transportation ever invented."
+            "funFact": "A single prairie dog colony can contain hundreds of burrows and can span hundreds of acres! These extensive underground networks are sometimes called 'prairie dog towns' because they're so large and well-organized."
         },
         {
             "id": 2,
-            "text": "How do birds and plants work together to help plants grow in new places?",
+            "text": "When plant roots grow into cracks in a sidewalk, what typically happens to the cracks over time?",
             "options": [
                 {
-                    "text": "Birds eat seeds and spread them to new areas through their droppings",
+                    "text": "The cracks get wider and larger",
                     "isCorrect": 1,
-                    "explanation": "When birds eat seeds and fly to different places, the seeds pass through their digestive system and are deposited in new locations through their droppings. This helps plants spread and grow in new areas."
+                    "explanation": "As plant roots grow and expand, they exert pressure on the surrounding material, causing existing cracks to widen and become larger."
                 },
+                {
+                    "text": "The cracks get smaller",
+                    "isCorrect": 0,
+                    "explanation": "Plant roots push outward as they grow, making cracks larger rather than smaller."
+                },
+                {
+                    "text": "The cracks stay the same size",
+                    "isCorrect": 0,
+                    "explanation": "Plant roots are not passive - they actively grow and expand, which affects their surroundings including cracks in concrete or rock."
+                },
+                {
+                    "text": "The cracks seal themselves naturally",
+                    "isCorrect": 0,
+                    "explanation": "Plant roots don't help seal cracks - they actually do the opposite by creating more pressure as they grow."
+                }
+            ],
+            "funFact": "Plant roots can be incredibly powerful! Some tree roots can generate pressures of up to 7,000 kilopascals - strong enough to lift concrete sidewalks and even damage building foundations."
+        },
+        {
+            "id": 3,
+            "text": "How do prairie dogs change their environment when they create their homes?",
+            "options": [
+                {
+                    "text": "They dig tunnels underground which moves soil and changes the shape of the land",
+                    "isCorrect": 1,
+                    "explanation": "Prairie dogs create complex tunnel systems underground called burrows. This process involves moving large amounts of soil, which directly changes the landscape."
+                },
+                {
+                    "text": "They flood the surrounding area with water",
+                    "isCorrect": 0,
+                    "explanation": "Prairie dogs don't flood their environment - this is what beavers do when they build dams."
+                },
+                {
+                    "text": "They clear away all plants from the area",
+                    "isCorrect": 0,
+                    "explanation": "While prairie dogs may affect some plants while making their homes, they don't completely clear vegetation from their habitat."
+                },
+                {
+                    "text": "They build tall mounds above ground using sticks and mud",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Prairie dogs don't build mounds above ground - this is more similar to what beavers do when building dams."
+                }
+            ],
+            "funFact": "A prairie dog colony can contain hundreds of burrows, and their tunnel systems can extend 10 feet deep and up to 100 feet long! These extensive burrow systems actually help improve soil quality and create homes for other animals like burrowing owls and black-footed ferrets."
+        },
+        {
+            "id": 4,
+            "text": "How do birds and plants work together to help plants grow in new places?",
+            "options": [
                 {
                     "text": "Birds carry leaves from plants to build their nests",
                     "isCorrect": 0,
@@ -52,158 +101,50 @@
                     "text": "Birds break branches to help plants grow taller",
                     "isCorrect": 0,
                     "explanation": "Breaking branches actually harms plants rather than helping them grow. This is not how birds help plants spread to new areas."
+                },
+                {
+                    "text": "Birds eat seeds and spread them to new areas through their droppings",
+                    "isCorrect": 1,
+                    "explanation": "When birds eat seeds and fly to different places, the seeds pass through their digestive system and are deposited in new locations through their droppings. This helps plants spread and grow in new areas."
                 }
             ],
             "funFact": "Some plants have developed special seeds with tasty fruit specifically to attract birds! This relationship between birds and plants has evolved over millions of years, making it a perfect example of how different species can help each other survive."
         },
         {
-            "id": 3,
-            "text": "When plant roots grow into cracks in a sidewalk, what typically happens to the cracks over time?",
-            "options": [
-                {
-                    "text": "The cracks get wider and larger",
-                    "isCorrect": 1,
-                    "explanation": "As plant roots grow and expand, they exert pressure on the surrounding material, causing existing cracks to widen and become larger."
-                },
-                {
-                    "text": "The cracks seal themselves naturally",
-                    "isCorrect": 0,
-                    "explanation": "Plant roots don't help seal cracks - they actually do the opposite by creating more pressure as they grow."
-                },
-                {
-                    "text": "The cracks stay the same size",
-                    "isCorrect": 0,
-                    "explanation": "Plant roots are not passive - they actively grow and expand, which affects their surroundings including cracks in concrete or rock."
-                },
-                {
-                    "text": "The cracks get smaller",
-                    "isCorrect": 0,
-                    "explanation": "Plant roots push outward as they grow, making cracks larger rather than smaller."
-                }
-            ],
-            "funFact": "Plant roots can be incredibly powerful! Some tree roots can generate pressures of up to 7,000 kilopascals - strong enough to lift concrete sidewalks and even damage building foundations."
-        },
-        {
-            "id": 4,
-            "text": "How do macaws help plants grow in new places through their eating habits?",
-            "options": [
-                {
-                    "text": "By eating seeds and later spreading them through their droppings in different locations",
-                    "isCorrect": 1,
-                    "explanation": "Macaws eat seeds and then fly to new locations. When they poop out the seeds, this helps plants spread and grow in new areas."
-                },
-                {
-                    "text": "By breaking down seeds completely during digestion",
-                    "isCorrect": 0,
-                    "explanation": "Macaws don't completely break down all seeds during digestion. Some seeds pass through their digestive system intact."
-                },
-                {
-                    "text": "By storing seeds in their nests for long periods",
-                    "isCorrect": 0,
-                    "explanation": "While macaws may temporarily store food, helping plants grow in new places happens through their eating and digestion process, not through nest storage."
-                },
-                {
-                    "text": "By dropping seeds while they are eating",
-                    "isCorrect": 0,
-                    "explanation": "While macaws might accidentally drop some seeds while eating, the main way they help spread plants is through their droppings after digestion."
-                }
-            ],
-            "funFact": "This process of animals spreading seeds through their droppings is called 'seed dispersal.' Many tropical plants have evolved to produce fruits specifically to attract birds like macaws, ensuring their seeds are spread over long distances!"
-        },
-        {
             "id": 5,
-            "text": "Which of the following animals uses materials from their environment in a way that creates the biggest change to their surroundings?",
+            "text": "Which of the following human activities has a negative impact on the environment?",
             "options": [
                 {
-                    "text": "A beaver building a dam",
+                    "text": "Throwing trash in rivers",
                     "isCorrect": 1,
-                    "explanation": "Beavers create the most significant environmental changes by building dams that flood large areas, changing water flow patterns and creating new wetland habitats."
+                    "explanation": "Throwing trash in rivers pollutes water bodies, harms aquatic life, and damages the ecosystem. This is a harmful environmental impact."
                 },
                 {
-                    "text": "A bird building a nest",
+                    "text": "Recycling plastic bottles",
                     "isCorrect": 0,
-                    "explanation": "While birds do modify their environment by building nests, these changes are relatively small and localized compared to beaver dams."
+                    "explanation": "Recycling plastic bottles is actually good for the environment as it reduces waste in landfills and conserves resources."
                 },
                 {
-                    "text": "A squirrel digging holes",
+                    "text": "Using reusable shopping bags",
                     "isCorrect": 0,
-                    "explanation": "Squirrels make minor changes to their environment by digging holes to store food, but these modifications are small-scale."
+                    "explanation": "Using reusable shopping bags helps reduce plastic waste and is beneficial for the environment."
                 },
                 {
-                    "text": "An ant building an anthill",
+                    "text": "Riding bicycles instead of driving",
                     "isCorrect": 0,
-                    "explanation": "Although ants work together to build anthills, these structures create relatively small changes to the environment compared to beaver dams."
+                    "explanation": "Riding bicycles reduces air pollution and greenhouse gas emissions, making it good for the environment."
                 }
             ],
-            "funFact": "A single beaver dam can hold back enough water to create a pond that's several acres in size! These ponds become home to many other animals and plants, showing how one animal's construction project can create an entire ecosystem."
+            "funFact": "A single plastic bottle can take up to 450 years to decompose in the environment. When these bottles end up in rivers and oceans, they can break down into tiny pieces called microplastics, which can be harmful to marine life."
         },
         {
             "id": 6,
-            "text": "Different animals store food in different ways that can change their environment. Which of these food storage methods creates the most significant long-term changes to the ecosystem?",
-            "options": [
-                {
-                    "text": "A beaver building a dam to create a pond where it can store branches for winter food",
-                    "isCorrect": 1,
-                    "explanation": "Beaver dams create the most significant ecosystem changes by flooding large areas, creating new wetland habitats that can last for many years and benefit many other species."
-                },
-                {
-                    "text": "A squirrel burying acorns in small holes in the ground",
-                    "isCorrect": 0,
-                    "explanation": "While squirrels do modify the soil by digging holes, these are relatively small changes and the holes quickly fill back in naturally."
-                },
-                {
-                    "text": "A woodpecker storing nuts in tree bark crevices",
-                    "isCorrect": 0,
-                    "explanation": "Woodpeckers using existing tree bark crevices causes minimal changes to the environment since they aren't creating new structures."
-                },
-                {
-                    "text": "An ant colony storing food in underground chambers",
-                    "isCorrect": 0,
-                    "explanation": "While ant colonies do create underground structures, their impact is relatively localized and small compared to beaver dams."
-                }
-            ],
-            "funFact": "A single beaver dam can hold back enough water to create a pond several acres in size! These ponds can last for decades and become home to fish, amphibians, water birds, and new plant species, completely transforming the local ecosystem."
-        },
-        {
-            "id": 7,
-            "text": "How do squirrels and beavers modify their environments when storing food for winter?",
-            "options": [
-                {
-                    "text": "Squirrels dig holes to bury nuts while beavers create underwater food caches in the ponds formed by their dams",
-                    "isCorrect": 1,
-                    "explanation": "Both squirrels and beavers actively change their environment to store food. Squirrels create holes in the ground to hide nuts, while beavers build dams that create ponds where they establish underwater food caches of branches for winter food. These dams serve multiple purposes including habitat creation and protection, with food storage being one benefit of the pond environment."
-                },
-                {
-                    "text": "Both animals build nests in trees to store their food",
-                    "isCorrect": 0,
-                    "explanation": "While some animals do store food in tree nests, this is not how squirrels and beavers typically store their winter food. Squirrels bury nuts in the ground and beavers store branches in underwater food caches."
-                },
-                {
-                    "text": "Neither animal modifies the environment when storing food",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because both animals actively change their environment to store food - squirrels by digging holes and beavers by building dams and creating ponds where they store food caches."
-                },
-                {
-                    "text": "They only collect food but don't change their environment",
-                    "isCorrect": 0,
-                    "explanation": "Both animals do more than just collect food - they actively modify their environment by digging (squirrels) or building dams that create ponds for underwater food caches (beavers) to create food storage spaces."
-                }
-            ],
-            "funFact": "A single squirrel can bury several thousand nuts in a season! They don't remember every nut's location, so the forgotten nuts often grow into new trees, making squirrels important tree planters in their ecosystem."
-        },
-        {
-            "id": 8,
             "text": "Which of the following human actions both helps meet our needs AND has a positive impact on the environment?",
             "options": [
                 {
                     "text": "Using reusable bags for grocery shopping instead of plastic bags",
                     "isCorrect": 1,
                     "explanation": "Using reusable bags helps reduce plastic waste while still meeting our need to carry groceries, making it beneficial for both humans and the environment."
-                },
-                {
-                    "text": "Cutting down forests to build shopping malls",
-                    "isCorrect": 0,
-                    "explanation": "While this meets human needs for shopping spaces, it harms the environment by destroying natural habitats and reducing tree coverage."
                 },
                 {
                     "text": "Using disposable water bottles daily",
@@ -214,63 +155,117 @@
                     "text": "Leaving car engines running while parked",
                     "isCorrect": 0,
                     "explanation": "This doesn't meaningfully meet any needs and negatively impacts the environment by producing unnecessary air pollution."
+                },
+                {
+                    "text": "Cutting down forests to build shopping malls",
+                    "isCorrect": 0,
+                    "explanation": "While this meets human needs for shopping spaces, it harms the environment by destroying natural habitats and reducing tree coverage."
                 }
             ],
             "funFact": "A single reusable shopping bag can eliminate the use of hundreds of plastic bags over its lifetime. Many sea turtles mistake plastic bags for jellyfish, which makes reducing plastic bag use especially important for protecting ocean life!"
         },
         {
-            "id": 9,
-            "text": "In a grassland ecosystem, prairie dogs dig burrows that change the environment. Which change caused by prairie dog burrows benefits multiple species in the ecosystem?",
+            "id": 7,
+            "text": "Which of these animal behaviors would cause the most significant change to the natural environment?",
             "options": [
                 {
-                    "text": "The burrows help aerate the soil, which helps grass grow and provides shelter for other animals",
+                    "text": "A bird building a nest in a tree",
+                    "isCorrect": 0,
+                    "explanation": "While birds do change their environment by building nests, these changes are relatively small and localized, mainly affecting just the immediate area where the nest is built."
+                },
+                {
+                    "text": "A rabbit digging a single burrow",
+                    "isCorrect": 0,
+                    "explanation": "While rabbits do modify their environment by digging burrows, a single burrow creates relatively small changes compared to structures like beaver dams that transform entire ecosystems."
+                },
+                {
+                    "text": "A beaver building a dam across a stream",
                     "isCorrect": 1,
-                    "explanation": "Prairie dog burrows loosen the soil through digging, which helps air and water reach plant roots. The abandoned burrows also provide ready-made homes for other animals."
+                    "explanation": "Beaver dams create the biggest environmental change by flooding large areas of land, changing water flow patterns, and creating new wetland habitats that affect many other species."
                 },
                 {
-                    "text": "The burrows collect rainwater, which creates small ponds for aquatic animals",
+                    "text": "A squirrel burying nuts in the ground",
                     "isCorrect": 0,
-                    "explanation": "Prairie dog burrows typically drain water rather than collect it. They are not designed to create ponds."
-                },
-                {
-                    "text": "The burrows block predators from entering the grassland area",
-                    "isCorrect": 0,
-                    "explanation": "Prairie dog burrows do not prevent predators from entering the ecosystem. In fact, many predators are attracted to areas with prairie dog colonies."
-                },
-                {
-                    "text": "The burrows store extra food for winter that other animals can eat",
-                    "isCorrect": 0,
-                    "explanation": "While prairie dogs do store food, they do not typically share their food storage with other species. Each prairie dog family maintains its own food supply."
+                    "explanation": "Squirrels digging holes to store food creates only minor, temporary changes to the soil and ground surface compared to other animal behaviors."
                 }
             ],
-            "funFact": "A single prairie dog colony can contain hundreds of burrows and support over 150 other species! Scientists call prairie dogs 'ecosystem engineers' because their burrow-building activities create habitat features that benefit many other plants and animals."
+            "funFact": "A single beaver dam can hold back enough water to create a pond that's several acres in size! Over time, these ponds become rich wetland ecosystems that provide homes for countless other species, from fish and frogs to insects and water plants."
+        },
+        {
+            "id": 8,
+            "text": "Different animals store food in different ways that can change their environment. Which of these food storage methods creates the most significant long-term changes to the ecosystem?",
+            "options": [
+                {
+                    "text": "An ant colony storing food in underground chambers",
+                    "isCorrect": 0,
+                    "explanation": "While ant colonies do create underground structures, their impact is relatively localized and small compared to beaver dams."
+                },
+                {
+                    "text": "A beaver building a dam to create a pond where it can store branches for winter food",
+                    "isCorrect": 1,
+                    "explanation": "Beaver dams create the most significant ecosystem changes by flooding large areas, creating new wetland habitats that can last for many years and benefit many other species."
+                },
+                {
+                    "text": "A woodpecker storing nuts in tree bark crevices",
+                    "isCorrect": 0,
+                    "explanation": "Woodpeckers using existing tree bark crevices causes minimal changes to the environment since they aren't creating new structures."
+                },
+                {
+                    "text": "A squirrel burying acorns in small holes in the ground",
+                    "isCorrect": 0,
+                    "explanation": "While squirrels do modify the soil by digging holes, these are relatively small changes and the holes quickly fill back in naturally."
+                }
+            ],
+            "funFact": "A single beaver dam can hold back enough water to create a pond several acres in size! These ponds can last for decades and become home to fish, amphibians, water birds, and new plant species, completely transforming the local ecosystem."
+        },
+        {
+            "id": 9,
+            "text": "How do squirrels and beavers modify their environments when storing food for winter?",
+            "options": [
+                {
+                    "text": "Squirrels dig holes to bury nuts while beavers create underwater food caches in the ponds formed by their dams",
+                    "isCorrect": 1,
+                    "explanation": "Both squirrels and beavers actively change their environment to store food. Squirrels create holes in the ground to hide nuts, while beavers build dams that create ponds where they establish underwater food caches of branches for winter food. These dams serve multiple purposes including habitat creation and protection, with food storage being one benefit of the pond environment."
+                },
+                {
+                    "text": "They only collect food but don't change their environment",
+                    "isCorrect": 0,
+                    "explanation": "Both animals do more than just collect food - they actively modify their environment by digging (squirrels) or building dams that create ponds for underwater food caches (beavers) to create food storage spaces."
+                },
+                {
+                    "text": "Both animals build nests in trees to store their food",
+                    "isCorrect": 0,
+                    "explanation": "While some animals do store food in tree nests, this is not how squirrels and beavers typically store their winter food. Squirrels bury nuts in the ground and beavers store branches in underwater food caches."
+                },
+                {
+                    "text": "Neither animal modifies the environment when storing food",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because both animals actively change their environment to store food - squirrels by digging holes and beavers by building dams and creating ponds where they store food caches."
+                }
+            ],
+            "funFact": "A single squirrel can bury several thousand nuts in a season! They don't remember every nut's location, so the forgotten nuts often grow into new trees, making squirrels important tree planters in their ecosystem."
         },
         {
             "id": 10,
-            "text": "A prairie dog colony has been digging burrows in a grassland area for many years. Which of these changes has the biggest impact on other organisms in the ecosystem?",
+            "text": "Two animals are building shelters to protect their young. A bird is building a nest high up in a tree using twigs and leaves, while a beaver is constructing a lodge in a pond using sticks and mud. Which animal's shelter demonstrates a greater change to the environment to protect its offspring?",
             "options": [
                 {
-                    "text": "The soil becomes more aerated, helping new grasses grow and providing homes for other small animals",
+                    "text": "Both shelters change the environment equally",
+                    "isCorrect": 0,
+                    "explanation": "The environmental impact of these shelters is not equal. Beaver lodges involve flooding and major landscape changes, while bird nests cause minimal environmental modification."
+                },
+                {
+                    "text": "The bird's nest",
+                    "isCorrect": 0,
+                    "explanation": "While birds do modify their environment by building nests, they typically cause minimal changes by using existing materials without significantly altering the landscape."
+                },
+                {
+                    "text": "The beaver's lodge",
                     "isCorrect": 1,
-                    "explanation": "Prairie dog burrows improve soil quality through aeration and create shelter that benefits multiple species, showing a system-wide positive impact"
-                },
-                {
-                    "text": "Individual prairie dogs have safe places to hide from predators",
-                    "isCorrect": 0,
-                    "explanation": "While burrows protect individual prairie dogs, this only affects the prairie dogs themselves rather than the wider ecosystem"
-                },
-                {
-                    "text": "The prairie dogs move dirt from one location to another",
-                    "isCorrect": 0,
-                    "explanation": "Simply moving dirt is a minor change that doesn't significantly impact other organisms in the ecosystem"
-                },
-                {
-                    "text": "The surface of the ground has multiple entrance holes",
-                    "isCorrect": 0,
-                    "explanation": "The presence of entrance holes is a visible change but has minimal impact on other organisms in the ecosystem"
+                    "explanation": "The beaver creates a more significant environmental change by building dams that flood areas and create ponds, then constructing lodges that alter water flow and landscape."
                 }
             ],
-            "funFact": "Prairie dog colonies can be so extensive that early explorers called them 'towns.' Some prairie dog towns covered hundreds of square miles and contained millions of prairie dogs!"
+            "funFact": "Beaver lodges can be incredibly durable and last for decades! Some beaver families maintain and use the same lodge for generations, continuously repairing and expanding it. These lodges can become so sturdy that they can support the weight of several adult humans."
         },
         {
             "id": 11,
@@ -282,14 +277,14 @@
                     "explanation": "This is incorrect. Prairie dog burrows actually benefit many other species by creating shelter and improving soil conditions."
                 },
                 {
-                    "text": "The burrows create homes for other animals and help grass grow better",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Prairie dog burrows aerate the soil which helps grass grow better, and when prairie dogs move to new areas, their old burrows provide homes for other animals."
-                },
-                {
                     "text": "The burrows have no effect on other species in the ecosystem",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Prairie dog burrows significantly impact their ecosystem by changing soil conditions and providing shelter for other animals."
+                },
+                {
+                    "text": "The burrows create homes for other animals and help grass grow better",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Prairie dog burrows aerate the soil which helps grass grow better, and when prairie dogs move to new areas, their old burrows provide homes for other animals."
                 },
                 {
                     "text": "The burrows only help insects find food",
@@ -301,60 +296,33 @@
         },
         {
             "id": 12,
-            "text": "Two different types of plants are growing near a sidewalk - a shallow-rooted grass and a deep-rooted oak tree. How do their root systems differently affect the concrete sidewalk over time?",
+            "text": "Prairie dog burrows play several important roles in their environment. Which statement BEST describes how these burrows create interconnected effects in the ecosystem?",
             "options": [
                 {
-                    "text": "The grass roots cause more sidewalk cracks than the oak tree roots because grass roots grow faster",
+                    "text": "The burrows flood the land which creates new water sources for animals",
                     "isCorrect": 0,
-                    "explanation": "While grass roots do grow quickly, they are too shallow and thin to significantly damage concrete sidewalks."
+                    "explanation": "This confuses prairie dog burrows with beaver dams - prairie dog burrows don't create flooding or water sources"
                 },
                 {
-                    "text": "The oak tree roots cause more sidewalk damage by growing thicker and pushing upward with greater force",
+                    "text": "The burrows help both plants and animals by aerating the soil for better grass growth and providing shelter for other creatures",
                     "isCorrect": 1,
-                    "explanation": "Large tree roots grow thick and powerful, exerting significant upward pressure that can crack and lift concrete sidewalks over time."
+                    "explanation": "Prairie dog burrows create multiple beneficial effects - they loosen and mix soil which helps grass roots grow better, while also providing ready-made homes for other animals, showing how one change can positively impact different parts of the ecosystem"
                 },
                 {
-                    "text": "Neither plant's roots affect the sidewalk because concrete is too hard for roots to damage",
+                    "text": "The burrows damage plant life by removing too much soil from the ground",
                     "isCorrect": 0,
-                    "explanation": "Plant roots can absolutely damage concrete over time - they don't need to be stronger than concrete, they just need to exploit small cracks and grow larger."
+                    "explanation": "This is incorrect - rather than damaging plants, the soil mixing from burrow creation actually helps improve conditions for plant growth"
                 },
                 {
-                    "text": "Both plants affect the sidewalk equally because all roots have the same strength",
+                    "text": "The burrows only help prairie dogs by giving them a safe place to hide from predators",
                     "isCorrect": 0,
-                    "explanation": "Different plant species have very different root systems - their size, strength, and growth patterns vary significantly, leading to different impacts on their environment."
+                    "explanation": "This is too limited - while burrows do protect prairie dogs, their impact extends beyond just benefiting prairie dogs themselves"
                 }
             ],
-            "funFact": "Some tree roots can exert pressures of up to 300 pounds per square inch (psi) during growth - strong enough to lift and crack thick concrete slabs! This is why city planners carefully choose which trees to plant near sidewalks and buildings."
+            "funFact": "A single prairie dog colony can contain hundreds of burrows connected by underground tunnels, creating a complex underground 'town' that can span hundreds of acres! These underground networks are so well-engineered that they include separate chambers for sleeping, storing food, and even nurseries for baby prairie dogs."
         },
         {
             "id": 13,
-            "text": "Which statement best describes how birds make both direct and indirect changes to their environment?",
-            "options": [
-                {
-                    "text": "Birds build nests for shelter and help spread plant seeds when they eat and poop them out in new places",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because it includes both direct changes (nest building) and indirect changes (seed dispersal through droppings) that birds make to their environment"
-                },
-                {
-                    "text": "Birds only change their environment by building nests",
-                    "isCorrect": 0,
-                    "explanation": "This is incomplete as it only mentions nest building and ignores other important ways birds change their environment, like spreading seeds"
-                },
-                {
-                    "text": "Birds only change their environment by eating seeds",
-                    "isCorrect": 0,
-                    "explanation": "This is incomplete as it only mentions seed eating and ignores other important ways birds change their environment, like building nests"
-                },
-                {
-                    "text": "Birds do not make any changes to their environment",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because birds make several important changes to their environment through activities like nest building and seed dispersal"
-                }
-            ],
-            "funFact": "Some birds are such effective seed spreaders that scientists call them 'ecosystem engineers' - they help create new forests by carrying seeds to areas where trees haven't grown before!"
-        },
-        {
-            "id": 14,
             "text": "How do different animals' shelter-building behaviors help them survive in their environments?",
             "options": [
                 {
@@ -368,44 +336,71 @@
                     "explanation": "Different animals build specialized shelters that suit their specific needs - like prairie dogs digging burrows for underground protection, beavers building dams for water access, and birds making nests for their eggs and babies"
                 },
                 {
-                    "text": "All animals build the same type of shelter regardless of their environment",
-                    "isCorrect": 0,
-                    "explanation": "Different animals have evolved to build different types of shelters based on their specific needs and environments"
-                },
-                {
                     "text": "Animals only build temporary shelters and move to new locations every few days",
                     "isCorrect": 0,
                     "explanation": "Many animals build permanent or semi-permanent shelters that they maintain and use for extended periods"
+                },
+                {
+                    "text": "All animals build the same type of shelter regardless of their environment",
+                    "isCorrect": 0,
+                    "explanation": "Different animals have evolved to build different types of shelters based on their specific needs and environments"
                 }
             ],
             "funFact": "The largest beaver dam ever discovered was in Wood Buffalo National Park, Alberta, Canada. It was 2,790 feet long - more than half a mile! It was so big it could be seen from space using satellite imagery."
         },
         {
-            "id": 15,
-            "text": "When beavers build dams across streams, what is the most significant change they create in their environment?",
+            "id": 14,
+            "text": "When tree roots grow through cracks in a sidewalk, how does this affect both the physical environment and other living things?",
             "options": [
                 {
-                    "text": "Creation of wetland habitats through flooding",
+                    "text": "The widening cracks create spaces that collect water and nutrients, which can help small plants grow nearby",
                     "isCorrect": 1,
-                    "explanation": "Beaver dams create ponds by blocking water flow, which floods the surrounding area and creates new wetland habitats that benefit many species."
+                    "explanation": "As tree roots widen sidewalk cracks, they create spaces that can collect water and nutrients, making it easier for other small plants to grow in these areas."
                 },
                 {
-                    "text": "Removal of all trees in the area",
+                    "text": "The cracked areas become too hot for any living things to survive nearby",
                     "isCorrect": 0,
-                    "explanation": "While beavers do cut down some trees for dam building, they don't remove all trees in an area. They selectively harvest what they need."
+                    "explanation": "This is incorrect because cracks in sidewalks don't significantly affect temperature in a way that would prevent life from surviving nearby."
                 },
                 {
-                    "text": "Making the stream flow faster",
+                    "text": "The cracks immediately kill all nearby plants by taking away their water",
                     "isCorrect": 0,
-                    "explanation": "Beaver dams actually slow down water flow, not make it faster. The dam creates a barrier that pools the water."
+                    "explanation": "This is incorrect because the cracks don't automatically harm nearby plants - they can actually create beneficial conditions for some plants to grow."
                 },
                 {
-                    "text": "Drying up the stream completely",
+                    "text": "The cracks only damage the sidewalk but have no effect on other living things",
                     "isCorrect": 0,
-                    "explanation": "Beaver dams don't dry up streams - they transform flowing water into pond environments while still allowing some water to flow through or over the dam."
+                    "explanation": "This is incorrect because the changes to the physical environment (cracked sidewalk) can actually create new opportunities for other organisms to thrive."
                 }
             ],
-            "funFact": "A beaver pond can last for decades and may become home to hundreds of other species! When beavers eventually abandon their dam, the pond slowly drains and becomes a meadow, which is called a 'beaver meadow' - creating yet another unique habitat."
+            "funFact": "Some plants are so powerful that their roots can break through not just sidewalks, but even building foundations and solid rock! This process is called 'root wedging' and it's one of nature's ways of slowly breaking down even the toughest materials."
+        },
+        {
+            "id": 15,
+            "text": "When prairie dogs dig burrows in grassland soil, how does this activity affect the environment over time?",
+            "options": [
+                {
+                    "text": "The soil becomes more compact and harder, preventing plant growth",
+                    "isCorrect": 0,
+                    "explanation": "Prairie dog burrowing actually loosens the soil rather than compacting it"
+                },
+                {
+                    "text": "The soil turns into sand and can no longer support any plant life",
+                    "isCorrect": 0,
+                    "explanation": "Prairie dog burrowing does not convert soil into sand or make it unable to support plants"
+                },
+                {
+                    "text": "The soil loses all its nutrients and becomes completely infertile",
+                    "isCorrect": 0,
+                    "explanation": "Prairie dog activity does not deplete soil nutrients - their digging and waste actually helps add nutrients"
+                },
+                {
+                    "text": "The soil becomes better aerated and mixed, helping grass grow better",
+                    "isCorrect": 1,
+                    "explanation": "When prairie dogs dig, they mix and aerate the soil, which helps improve soil quality and promotes better grass growth"
+                }
+            ],
+            "funFact": "A single prairie dog colony can contain hundreds of animals and their burrow systems can extend 6-9 feet deep and up to 100 feet long, creating underground 'towns' that help many other species find shelter!"
         }
     ]
 }

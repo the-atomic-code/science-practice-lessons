@@ -4,62 +4,94 @@
     "questions": [
         {
             "id": 1,
-            "text": "How do traits get passed from parents to their offspring?",
+            "text": "A scientist discovers a mutation in a gene that affects the production of melanin, a pigment responsible for skin and hair color. What is the most likely outcome of this genetic change?",
             "options": [
                 {
-                    "text": "Through DNA in chromosomes that contains genes",
+                    "text": "The mutation will always result in darker skin and hair color",
+                    "isCorrect": 0,
+                    "explanation": "Mutations don't always increase protein function - they can also decrease or change it in various ways"
+                },
+                {
+                    "text": "The mutation will have no effect because proteins aren't connected to genes",
+                    "isCorrect": 0,
+                    "explanation": "Genes directly control protein production, so changes in genes can affect the proteins made"
+                },
+                {
+                    "text": "The mutation could lead to changes in skin and hair color, which may be beneficial, harmful, or neutral",
                     "isCorrect": 1,
-                    "explanation": "Correct! DNA in chromosomes contains genes that carry genetic information from parents to offspring. In humans, each parent contributes 23 chromosomes to their child."
+                    "explanation": "Mutations can affect protein structure and function in different ways, leading to various possible outcomes in traits"
                 },
                 {
-                    "text": "Through proteins that are directly passed from parents",
+                    "text": "The mutation will definitely be harmful to the organism",
                     "isCorrect": 0,
-                    "explanation": "While proteins are important for traits, they are not directly passed from parents. Instead, the instructions to make proteins are contained in DNA."
-                },
-                {
-                    "text": "Through physical characteristics that blend together",
-                    "isCorrect": 0,
-                    "explanation": "Traits don't physically blend together. They are determined by specific genes in DNA that are inherited from parents."
-                },
-                {
-                    "text": "Through learned behaviors from parents",
-                    "isCorrect": 0,
-                    "explanation": "While organisms can learn behaviors from parents, inherited traits are passed through genetic material (DNA), not through learning."
+                    "explanation": "Not all mutations are harmful - they can also be beneficial or have no effect on the organism"
                 }
             ],
-            "funFact": "While humans have 23 pairs of chromosomes, other organisms have different numbers. For example, fruit flies have only 4 pairs, while dogs have 39 pairs and some ferns can have over 500 pairs of chromosomes!"
+            "funFact": "Some animals, like the arctic fox, have genes that cause their fur color to change with the seasons - brown in summer and white in winter. This is an example of how proteins controlled by genes can create beneficial adaptations!"
         },
         {
             "id": 2,
-            "text": "A rare genetic mutation causes a mouse to have shorter whiskers than normal mice. If this mouse has offspring, which statement correctly describes how this mutation could affect future generations?",
+            "text": "Which statement correctly describes chromosomes in living organisms?",
             "options": [
                 {
-                    "text": "The mutation will automatically appear in all of the offspring",
-                    "isCorrect": 0,
-                    "explanation": "Mutations aren't automatically passed to all offspring - inheritance depends on whether the mutation is dominant or recessive and which genes the offspring receive from each parent."
-                },
-                {
-                    "text": "The mutation can be passed to some offspring through inherited genes",
+                    "text": "Chromosomes are tightly coiled strands of DNA found in the cells of living things",
                     "isCorrect": 1,
-                    "explanation": "Genetic mutations present in parent DNA can be passed to offspring through inherited genes, potentially affecting the same trait (whisker length) in future generations."
+                    "explanation": "This is correct. Chromosomes are indeed tightly coiled strands of DNA wrapped around histone proteins, located within cells of all living organisms."
                 },
                 {
-                    "text": "The mutation will disappear completely in the next generation",
+                    "text": "Chromosomes are fluid-filled structures that produce energy for cells",
                     "isCorrect": 0,
-                    "explanation": "Genetic mutations don't automatically disappear in the next generation - they can be passed down through inherited genes."
+                    "explanation": "This is incorrect. This describes the function of mitochondria, not chromosomes. Chromosomes are structures made of DNA and proteins that carry genetic information."
                 },
                 {
-                    "text": "The mutation will only affect female offspring",
+                    "text": "Chromosomes are only found in human cells but not in other organisms",
                     "isCorrect": 0,
-                    "explanation": "Genetic mutations aren't limited to affecting only one sex - they can be inherited by any offspring regardless of gender."
+                    "explanation": "This is incorrect. All living organisms have chromosomes in their cells, not just humans."
+                },
+                {
+                    "text": "Chromosomes are loose strands of protein floating freely outside cells",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Chromosomes are made of DNA wound around proteins called histones, and are found inside cells, not outside them."
                 }
             ],
-            "funFact": "Mouse whiskers aren't just for show - they're sophisticated sensory organs that help mice navigate in the dark, judge distances, and detect nearby objects. These specialized hairs, called vibrissae, are so sensitive they can even detect slight changes in air currents!"
+            "funFact": "While humans have 46 chromosomes, other organisms can have very different numbers. For example, fruit flies have 8 chromosomes, dogs have 78 chromosomes, and some ferns can have over 1000 chromosomes!"
         },
         {
             "id": 3,
+            "text": "Which statement correctly describes how genes determine traits in living organisms?",
+            "options": [
+                {
+                    "text": "Genes are proteins that create traits in organisms",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Genes are not proteins - they are sections of DNA that contain instructions for making proteins."
+                },
+                {
+                    "text": "Genes are sections of DNA in chromosomes that code for proteins which influence traits",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Genes are segments of DNA located in chromosomes that contain instructions for making specific proteins, which then determine an organism's traits."
+                },
+                {
+                    "text": "Genes are completely separate from DNA and chromosomes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Genes are not separate from DNA - they are actually sections of DNA found within chromosomes."
+                },
+                {
+                    "text": "Genes directly produce traits without involving any other molecules",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Genes don't directly produce traits - they first code for proteins, which then influence traits."
+                }
+            ],
+            "funFact": "The human genome contains approximately 20,000-25,000 genes, but these genes only make up about 1-2% of our total DNA! The rest of our DNA, often called 'non-coding DNA', has other important regulatory functions."
+        },
+        {
+            "id": 4,
             "text": "Which statement correctly describes how a mutation in DNA can affect an organism?",
             "options": [
+                {
+                    "text": "Mutations only affect the appearance of an organism but never its internal functions",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because mutations can affect both external traits and internal functions of an organism, as proteins are involved in many cellular processes"
+                },
                 {
                     "text": "A mutation in DNA can change how a protein is made, which may affect the organism's traits",
                     "isCorrect": 1,
@@ -71,11 +103,6 @@
                     "explanation": "This is incorrect because mutations can be beneficial, harmful, or have no effect on an organism. Not all mutations lead to diseases"
                 },
                 {
-                    "text": "Mutations only affect the appearance of an organism but never its internal functions",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because mutations can affect both external traits and internal functions of an organism, as proteins are involved in many cellular processes"
-                },
-                {
                     "text": "Mutations in DNA immediately change all cells in an organism at once",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because mutations typically occur in individual cells and may only affect certain parts of an organism, not necessarily all cells simultaneously"
@@ -84,36 +111,14 @@
             "funFact": "Scientists have discovered that some mutations can actually provide advantages to organisms. For example, some people have a mutation in the LRP5 gene that results in significantly increased bone density, making their bones much stronger than average, though this condition may also come with other health complications."
         },
         {
-            "id": 4,
-            "text": "How does the shape (structure) of a protein relate to what it does (function) in an organism?",
-            "options": [
-                {
-                    "text": "The shape of a protein determines its specific function, like how blood proteins are shaped to attach to oxygen",
-                    "isCorrect": 1,
-                    "explanation": "Correct! A protein's shape directly determines what it can do - just like a key's shape determines which lock it can open"
-                },
-                {
-                    "text": "The shape of a protein has no effect on what it does in the body",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. A protein's shape is crucial for its function - if the shape changes, the protein usually cannot do its job properly"
-                },
-                {
-                    "text": "All proteins have the same shape but do different things",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. Different proteins have different shapes which allow them to perform their unique functions"
-                },
-                {
-                    "text": "Proteins change their shape constantly to do different jobs",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. While some proteins can change shape slightly, each protein has a specific shape that allows it to do its particular job"
-                }
-            ],
-            "funFact": "Scientists have discovered over 200,000 different protein shapes in the human body alone! Each shape is perfectly suited for its specific task, from helping muscles contract to fighting off infections."
-        },
-        {
             "id": 5,
             "text": "During DNA replication in a cell, a random change occurs in a gene sequence that causes a protein to be made differently. Which statement best describes a possible outcome of this mutation?",
             "options": [
+                {
+                    "text": "The mutation will definitely create a new species",
+                    "isCorrect": 0,
+                    "explanation": "A single mutation does not automatically create a new species - it simply causes a change that may or may not affect the organism's traits."
+                },
                 {
                     "text": "The mutation will definitely be harmful to the organism",
                     "isCorrect": 0,
@@ -128,136 +133,45 @@
                     "text": "The mutation will not affect the organism at all",
                     "isCorrect": 0,
                     "explanation": "Mutations in genes can affect protein structure and function, which may lead to changes in the organism's traits - they don't always have no effect."
-                },
-                {
-                    "text": "The mutation will definitely create a new species",
-                    "isCorrect": 0,
-                    "explanation": "A single mutation does not automatically create a new species - it simply causes a change that may or may not affect the organism's traits."
                 }
             ],
             "funFact": "The human body experiences about 70,000 DNA replication errors every day! Most of these are caught and fixed by DNA repair mechanisms, but some mutations do slip through, contributing to genetic diversity."
         },
         {
             "id": 6,
-            "text": "A scientist observes a plant that normally produces green leaves suddenly developing white patches on some leaves after prolonged exposure to UV radiation. What is the most likely explanation for this change?",
+            "text": "A genetic mutation affects the production of a protein called myosin, which is essential for muscle function. How might this mutation most likely impact an organism?",
             "options": [
                 {
-                    "text": "UV radiation caused mutations in genes controlling chlorophyll production, leading to defective proteins that cannot properly synthesize chlorophyll",
+                    "text": "The organism will have increased muscle strength due to overproduction of myosin",
+                    "isCorrect": 0,
+                    "explanation": "Mutations typically disrupt normal protein function rather than enhance it. A mutation in myosin production would more likely impair muscle function than improve it."
+                },
+                {
+                    "text": "The organism will have difficulty with movement and muscle control",
                     "isCorrect": 1,
-                    "explanation": "UV radiation can cause DNA mutations that affect protein structure and function. In this case, the mutations likely affected genes involved in chlorophyll synthesis, resulting in non-functional proteins and white patches where chlorophyll is absent."
+                    "explanation": "Since myosin is crucial for muscle function, a mutation affecting its production would likely result in reduced muscle strength and mobility issues."
                 },
                 {
-                    "text": "The UV radiation directly broke down the existing chlorophyll molecules in the leaves",
+                    "text": "The mutation will have no effect because other proteins can replace myosin",
                     "isCorrect": 0,
-                    "explanation": "While UV radiation can damage chlorophyll, the development of white patches suggests a genetic mutation affecting chlorophyll production rather than direct breakdown of existing chlorophyll."
+                    "explanation": "Myosin has a specific and essential function in muscle contraction that cannot be fully compensated for by other proteins."
                 },
                 {
-                    "text": "The plant adapted beneficially to produce white patches to reflect harmful UV radiation",
+                    "text": "The organism will develop stronger bones to compensate for the mutation",
                     "isCorrect": 0,
-                    "explanation": "This represents a misunderstanding of mutations and adaptation. The white patches are likely harmful as they reduce photosynthetic capacity, not a beneficial adaptation."
-                },
-                {
-                    "text": "The UV radiation caused the chloroplasts to migrate away from the white areas",
-                    "isCorrect": 0,
-                    "explanation": "Chloroplast migration doesn't explain the permanent white patches. The issue is likely at the genetic level affecting chlorophyll production, not chloroplast movement."
+                    "explanation": "Changes in bone structure cannot compensate for a mutation affecting muscle protein production, as these are separate biological systems."
                 }
             ],
-            "funFact": "Plants have natural DNA repair mechanisms that can fix UV damage, including a special enzyme called photolyase that uses blue light to repair UV-induced mutations. However, when repair mechanisms can't keep up with damage, mutations can accumulate and affect important processes like chlorophyll production."
+            "funFact": "Myosin isn't just found in muscles - it's also involved in other cellular processes like cell division and transportation of materials within cells. Some single-celled organisms even use myosin-like proteins to move around!"
         },
         {
             "id": 7,
-            "text": "A genetic mutation affects a protein in a person's immune system that normally helps identify and destroy harmful bacteria. How might this mutation most likely impact the person's health?",
-            "options": [
-                {
-                    "text": "The person will be more susceptible to bacterial infections",
-                    "isCorrect": 1,
-                    "explanation": "Since the protein's structure is altered, it can no longer effectively identify bacteria, making the immune system less effective at fighting infections"
-                },
-                {
-                    "text": "The person will have stronger resistance to all diseases",
-                    "isCorrect": 0,
-                    "explanation": "A mutation that disrupts immune protein function typically weakens rather than strengthens disease resistance"
-                },
-                {
-                    "text": "The person's immune system will remain unchanged",
-                    "isCorrect": 0,
-                    "explanation": "Changes in protein structure due to genetic mutations typically affect protein function, so the immune system would not remain the same"
-                },
-                {
-                    "text": "The person will only be affected when exposed to viruses",
-                    "isCorrect": 0,
-                    "explanation": "Since the mutation affects a protein specific to bacterial detection, the main impact would be on bacterial infections, not viral infections"
-                }
-            ],
-            "funFact": "The human immune system contains over 20 different types of proteins called antibodies, each specifically designed to recognize and fight different types of pathogens. A single mutation in any of these proteins can significantly impact our ability to fight specific diseases."
-        },
-        {
-            "id": 8,
-            "text": "Consider a protein that helps transport iron in blood cells. If a mutation occurs in the gene that codes for this protein and changes its shape, which of the following is most likely to happen?",
-            "options": [
-                {
-                    "text": "The protein will no longer be able to bind to iron molecules effectively",
-                    "isCorrect": 1,
-                    "explanation": "The shape of a protein determines its function. When a mutation changes the protein's structure, it likely won't be able to properly bind to iron molecules, disrupting its transport function."
-                },
-                {
-                    "text": "The protein will work better than before at transporting iron",
-                    "isCorrect": 0,
-                    "explanation": "While mutations can occasionally be beneficial, random changes to a well-functioning protein's structure typically impair its function rather than improve it."
-                },
-                {
-                    "text": "The protein's function won't be affected at all",
-                    "isCorrect": 0,
-                    "explanation": "Since proteins' functions depend on their specific shapes, a structural change will usually affect how the protein works, not leave it unchanged."
-                },
-                {
-                    "text": "The protein will start transporting different molecules instead of iron",
-                    "isCorrect": 0,
-                    "explanation": "Proteins are highly specific in their functions. A mutation is more likely to disrupt the protein's ability to work rather than give it a new function."
-                }
-            ],
-            "funFact": "Transferrin is the main protein responsible for iron transport in the blood. Each transferrin molecule can bind two iron ions, and this binding is so strong that it prevents iron from forming toxic free radicals while being transported throughout the body."
-        },
-        {
-            "id": 9,
-            "text": "A scientist is studying how changes in regulatory genes affect an organism's development. They observe that a mutation in a regulatory gene causes a protein that controls eye development to be produced too early in the embryo's development. What is the most likely outcome of this mutation?",
-            "options": [
-                {
-                    "text": "The eyes will develop in the wrong location on the organism",
-                    "isCorrect": 1,
-                    "explanation": "Regulatory genes control when and where proteins are produced during development. If eye-development proteins are produced too early, the eyes may form before other necessary structures are in place, leading to incorrect positioning."
-                },
-                {
-                    "text": "The eyes will be larger than normal",
-                    "isCorrect": 0,
-                    "explanation": "While mutations can affect eye size, early protein production doesn't necessarily lead to larger structures. The timing of protein production affects where and when structures develop, not their size."
-                },
-                {
-                    "text": "The eyes will not develop at all",
-                    "isCorrect": 0,
-                    "explanation": "Early protein production doesn't prevent eye development - it affects the timing of development. The proteins are still being produced, just at the wrong time."
-                },
-                {
-                    "text": "The eyes will develop normally but with a different color",
-                    "isCorrect": 0,
-                    "explanation": "Eye color is determined by different genes and proteins. Changes in the timing of developmental proteins affect structural formation, not coloration."
-                }
-            ],
-            "funFact": "The precise timing of gene expression during development is so critical that even small changes in timing can create dramatic effects. This is why many organisms have multiple backup systems to ensure genes are activated at exactly the right moment!"
-        },
-        {
-            "id": 10,
             "text": "A genetic mutation affects the production of growth hormone in an organism. This mutation changes a single base pair in the DNA sequence of the growth hormone gene. Which of the following is most likely to occur as a result of this mutation?",
             "options": [
                 {
                     "text": "The organism will definitely grow larger than normal",
                     "isCorrect": 0,
                     "explanation": "Mutations don't always lead to increased production. The altered protein structure could actually reduce or completely stop hormone production."
-                },
-                {
-                    "text": "The growth hormone protein will have a different structure that may affect its function",
-                    "isCorrect": 1,
-                    "explanation": "Changes in DNA sequence can alter protein structure, which in turn affects how the protein functions in the organism."
                 },
                 {
                     "text": "The mutation will have no effect because proteins can correct DNA changes",
@@ -268,66 +182,206 @@
                     "text": "The organism will stop producing all hormones",
                     "isCorrect": 0,
                     "explanation": "A mutation in one hormone gene only affects that specific hormone's production, not all hormones in the organism."
+                },
+                {
+                    "text": "The growth hormone protein will have a different structure that may affect its function",
+                    "isCorrect": 1,
+                    "explanation": "Changes in DNA sequence can alter protein structure, which in turn affects how the protein functions in the organism."
                 }
             ],
             "funFact": "Growth hormone mutations can sometimes be beneficial! For example, a mutation in the GHR gene in humans causes Laron syndrome, characterized by short stature, but also provides remarkable resistance to diabetes and cancer."
         },
         {
-            "id": 11,
-            "text": "A genetic mutation causes a protein in a cell to fold incorrectly. How might this affect the organism?",
+            "id": 8,
+            "text": "A genetic mutation occurs in a gene responsible for producing enzymes involved in melanin production, where melanin is a pigment that gives hair its color. How might this mutation affect an organism?",
             "options": [
                 {
-                    "text": "The protein will maintain its normal function since only its shape is affected",
+                    "text": "The mutation will have no effect because proteins aren't involved in hair color",
                     "isCorrect": 0,
-                    "explanation": "Incorrect. A protein's function is directly dependent on its shape. If folding is incorrect, the protein cannot perform its intended function properly."
+                    "explanation": "This is incorrect because enzymes and proteins are directly involved in melanin production, which determines hair color, and changes to these proteins can affect the trait"
                 },
                 {
-                    "text": "The protein will not be able to perform its function correctly, potentially harming the organism",
+                    "text": "The mutation could result in a different hair color that provides better camouflage in the environment",
                     "isCorrect": 1,
-                    "explanation": "Correct! The shape (structure) of a protein determines its function. When a mutation causes incorrect folding, the protein cannot work properly, which can negatively impact cellular processes and the organism."
+                    "explanation": "This is correct because some mutations can lead to beneficial changes, like altered melanin production that results in better camouflage, improving survival chances"
                 },
                 {
-                    "text": "The cell will immediately make a new correctly folded protein to replace it",
+                    "text": "The mutation will definitely cause the protein to work better than before",
                     "isCorrect": 0,
-                    "explanation": "Incorrect. If the mutation is in the gene, the cell will continue producing incorrectly folded proteins because the instructions (DNA) are permanently changed."
+                    "explanation": "This is incorrect because mutations can be beneficial, harmful, or neutral - they don't always improve protein function"
                 },
                 {
-                    "text": "The incorrectly folded protein will automatically correct its shape",
+                    "text": "The mutation will always result in complete loss of hair color, which is harmful",
                     "isCorrect": 0,
-                    "explanation": "Incorrect. Proteins cannot automatically correct their folding once it occurs incorrectly due to a genetic mutation."
+                    "explanation": "This is incorrect because mutations can have varying effects - they aren't always harmful and don't always result in complete loss of function"
                 }
             ],
-            "funFact": "There's a group of diseases called 'protein folding disorders,' including Alzheimer's and cystic fibrosis, where mutations cause proteins to fold incorrectly. Scientists are developing treatments that help proteins fold correctly to combat these conditions!"
+            "funFact": "Some animals, like the Arctic fox, naturally change their fur color between seasons through controlled changes in melanin production - brown in summer and white in winter - to maintain effective camouflage year-round!"
+        },
+        {
+            "id": 9,
+            "text": "An enzyme that helps digest lactose (milk sugar) suddenly stops working properly due to a genetic mutation. Which of the following best explains how this mutation could affect the enzyme's function?",
+            "options": [
+                {
+                    "text": "The mutation changed the enzyme's protein structure, preventing it from binding correctly to lactose molecules",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Changes in DNA sequence can alter protein structure, which affects how enzymes bind to and process specific molecules. In this case, the altered structure prevents proper lactose digestion."
+                },
+                {
+                    "text": "The mutation made the enzyme start digesting different sugars instead of lactose",
+                    "isCorrect": 0,
+                    "explanation": "Enzymes are highly specific to their substrates. A mutation is more likely to prevent an enzyme from working than to make it suddenly work on different molecules."
+                },
+                {
+                    "text": "The mutation caused the enzyme to disappear completely from the digestive system",
+                    "isCorrect": 0,
+                    "explanation": "Mutations typically affect protein structure and function rather than causing proteins to completely disappear. The enzyme is still present but cannot function properly."
+                },
+                {
+                    "text": "The mutation made the enzyme work faster than normal, causing lactose to break down too quickly",
+                    "isCorrect": 0,
+                    "explanation": "While mutations can affect enzyme speed, the problem here is that the enzyme stopped working, not that it worked too fast. This suggests a structural change preventing proper function."
+                }
+            ],
+            "funFact": "About 65% of the human population has reduced ability to digest lactose after infancy. This condition, called lactose intolerance, often results from genetic variations that affect the production of the lactase enzyme as people age."
+        },
+        {
+            "id": 10,
+            "text": "A genetic mutation has caused a change in the structure of hemoglobin protein in red blood cells. Which of the following is most likely to be a direct result of this mutation?",
+            "options": [
+                {
+                    "text": "The red blood cells will divide faster than normal",
+                    "isCorrect": 0,
+                    "explanation": "Cell division rate is not directly controlled by hemoglobin structure. This would be controlled by different genes and proteins"
+                },
+                {
+                    "text": "The red blood cells will become larger in size",
+                    "isCorrect": 0,
+                    "explanation": "The size of red blood cells is not determined by hemoglobin structure. Cell size is controlled by other cellular mechanisms"
+                },
+                {
+                    "text": "The red blood cells will have reduced ability to carry oxygen",
+                    "isCorrect": 1,
+                    "explanation": "Since hemoglobin's function is to carry oxygen, a structural change in the protein would likely impair its ability to bind to oxygen molecules effectively"
+                },
+                {
+                    "text": "The red blood cells will produce more hemoglobin",
+                    "isCorrect": 0,
+                    "explanation": "A mutation affecting protein structure doesn't automatically trigger increased production of that protein. The amount of protein produced is regulated separately"
+                }
+            ],
+            "funFact": "There are over 1,000 known mutations in the hemoglobin gene. One famous example is the mutation that causes sickle cell anemia, where abnormally shaped hemoglobin proteins cause red blood cells to become crescent-shaped instead of their normal disc shape."
+        },
+        {
+            "id": 11,
+            "text": "During DNA replication in cell division, an error occurs that changes a single base pair in a gene that codes for an important protein. Which of the following is a possible outcome of this mutation?",
+            "options": [
+                {
+                    "text": "The mutation will definitely be beneficial for the organism",
+                    "isCorrect": 0,
+                    "explanation": "Mutations are random changes and can have harmful, beneficial, or neutral effects - they are not always beneficial"
+                },
+                {
+                    "text": "The protein will remain exactly the same despite the DNA change",
+                    "isCorrect": 0,
+                    "explanation": "Changes in DNA sequence often lead to changes in protein structure since DNA provides the instructions for protein assembly"
+                },
+                {
+                    "text": "The protein structure could change, leading to a harmful effect on the organism",
+                    "isCorrect": 1,
+                    "explanation": "Changes in DNA base pairs can alter the protein's structure, which may disrupt its normal function and negatively impact the organism's traits or survival"
+                },
+                {
+                    "text": "The mutation will immediately affect all cells in the organism",
+                    "isCorrect": 0,
+                    "explanation": "A mutation during cell division only affects the resulting daughter cells and their descendants, not all existing cells in the organism"
+                }
+            ],
+            "funFact": "Scientists estimate that each time a human cell divides, it makes about 1 mistake per 100 million base pairs of DNA. Most of these mutations are corrected by DNA repair mechanisms, but some slip through!"
         },
         {
             "id": 12,
-            "text": "When a chromosome is damaged by UV radiation, which statement best describes the potential effects on the organism?",
+            "text": "A genetic mutation occurs in a gene that codes for hemoglobin, a protein essential for carrying oxygen in blood cells. Which scenario is most likely to be beneficial for the organism's survival?",
             "options": [
                 {
-                    "text": "Only a single protein will be affected since chromosomes control one protein at a time",
+                    "text": "The mutation prevents the production of hemoglobin protein entirely",
                     "isCorrect": 0,
-                    "explanation": "Chromosomes contain many genes, each potentially coding for different proteins. Damage to a chromosome can affect multiple genes and thus multiple proteins."
+                    "explanation": "Complete lack of hemoglobin would prevent oxygen transport in blood, which would be lethal"
                 },
                 {
-                    "text": "Multiple proteins could be affected since chromosomes contain many genes that code for different proteins",
+                    "text": "The mutation causes the hemoglobin protein to bind permanently to oxygen, never releasing it",
+                    "isCorrect": 0,
+                    "explanation": "If hemoglobin cannot release oxygen to tissues, cells would be deprived of oxygen despite carrying it in blood"
+                },
+                {
+                    "text": "The mutation causes the hemoglobin protein to be shorter than normal, making it unable to bind to oxygen",
+                    "isCorrect": 0,
+                    "explanation": "A shorter hemoglobin protein would likely be dysfunctional and unable to carry oxygen, which would be harmful to the organism's survival"
+                },
+                {
+                    "text": "The mutation changes the shape of hemoglobin making it bind oxygen more efficiently in low-oxygen environments",
                     "isCorrect": 1,
-                    "explanation": "Correct! Chromosomes contain numerous genes, and damage to a chromosome can affect multiple genes, potentially altering the structure and function of various proteins."
-                },
-                {
-                    "text": "The organism will definitely develop harmful mutations that will be passed to offspring",
-                    "isCorrect": 0,
-                    "explanation": "Not all mutations are harmful - they can be beneficial, harmful, or neutral. Additionally, only mutations in reproductive cells are passed to offspring."
-                },
-                {
-                    "text": "The damaged chromosome will quickly repair itself without any effect on proteins",
-                    "isCorrect": 0,
-                    "explanation": "While cells have repair mechanisms, chromosome damage can still affect gene function and protein production before repair occurs, if repair is possible at all."
+                    "explanation": "This beneficial mutation would allow better oxygen transport in challenging conditions, improving survival chances"
                 }
             ],
-            "funFact": "Our skin cells are exposed to UV radiation daily, and a single day at the beach can cause up to 100,000 DNA damages per cell! Thankfully, our cells have amazing repair mechanisms that fix most of this damage."
+            "funFact": "Some populations living at high altitudes, like those in the Andes Mountains, have actually developed beneficial mutations in their hemoglobin genes that help them thrive in low-oxygen environments!"
         },
         {
             "id": 13,
+            "text": "A genetic mutation occurs in a DNA sequence that codes for an enzyme responsible for breaking down sugars in the digestive system. The mutation changes a single nucleotide in the middle of the gene sequence. How is this mutation most likely to affect the organism?",
+            "options": [
+                {
+                    "text": "The enzyme will have an altered shape and won't function properly in sugar breakdown",
+                    "isCorrect": 1,
+                    "explanation": "A mutation in the middle of a gene sequence often affects the protein's structure, changing its shape and preventing it from performing its normal function"
+                },
+                {
+                    "text": "The enzyme will become more efficient at breaking down sugars",
+                    "isCorrect": 0,
+                    "explanation": "While mutations can occasionally be beneficial, they typically disrupt protein function rather than enhance it, especially in well-evolved enzymes"
+                },
+                {
+                    "text": "The enzyme will be produced in larger quantities",
+                    "isCorrect": 0,
+                    "explanation": "A mutation in the coding sequence affects the structure of the protein, not necessarily the amount produced"
+                },
+                {
+                    "text": "The enzyme will be completely unaffected because it's only one nucleotide change",
+                    "isCorrect": 0,
+                    "explanation": "Even a single nucleotide change can significantly impact protein structure and function, especially if it occurs in a crucial part of the gene sequence"
+                }
+            ],
+            "funFact": "Enzymes are so precise in their shape that changing just one amino acid out of hundreds in the protein chain can sometimes completely stop the enzyme from working - like trying to use a key that has one tiny notch filed down!"
+        },
+        {
+            "id": 14,
+            "text": "A gene that controls the production of melanin, a pigment responsible for skin and hair color, undergoes a mutation. This mutation causes the gene to become more active than normal. How might this mutation affect the organism?",
+            "options": [
+                {
+                    "text": "The organism will produce more melanin, potentially resulting in darker skin and hair color",
+                    "isCorrect": 1,
+                    "explanation": "Since the regulatory gene becomes more active, it will signal for increased melanin production, leading to more pigmentation in skin and hair"
+                },
+                {
+                    "text": "The organism will stop producing melanin completely",
+                    "isCorrect": 0,
+                    "explanation": "An overactive gene would not stop protein production - that would be more likely with a mutation that inactivates the gene"
+                },
+                {
+                    "text": "The organism will produce defective melanin that doesn't function",
+                    "isCorrect": 0,
+                    "explanation": "This mutation affects the amount of pigment produced, not the structure or function of the melanin itself"
+                },
+                {
+                    "text": "The mutation will have no effect on melanin production",
+                    "isCorrect": 0,
+                    "explanation": "Changes in regulatory genes do affect protein production levels - they don't remain neutral"
+                }
+            ],
+            "funFact": "Melanin does more than just give color to our skin and hair - it also helps protect our DNA from damage caused by UV radiation from the sun. Some animals, like chameleons, can actively control their melanin distribution to change their color!"
+        },
+        {
+            "id": 15,
             "text": "Consider these changes in DNA sequences and their potential effects:\n1. A mutation causing a protein to fold differently\n2. A single base change in a non-coding region\n3. A deletion of several nucleotides in a gene\n4. A mutation that changes one amino acid to a similar one\n\nWhich of these genetic changes would likely have the most significant impact on protein function and organism traits?",
             "options": [
                 {
@@ -336,14 +390,14 @@
                     "explanation": "Changes in protein folding can dramatically affect the protein's shape and therefore its function, leading to significant changes in organism traits since proteins carry out most cellular processes."
                 },
                 {
-                    "text": "A base change in non-coding DNA",
-                    "isCorrect": 0,
-                    "explanation": "Changes in non-coding regions typically have minimal impact since these regions don't directly code for proteins, though some regulatory effects are possible."
-                },
-                {
                     "text": "A deletion of nucleotides",
                     "isCorrect": 0,
                     "explanation": "Deletions of nucleotides can have severe effects, especially when causing frameshifts that alter the entire amino acid sequence downstream. However, protein folding changes typically have more widespread consequences as they can lead to complete loss of function, toxic aggregation, or dominant negative effects that interfere with other cellular processes."
+                },
+                {
+                    "text": "A base change in non-coding DNA",
+                    "isCorrect": 0,
+                    "explanation": "Changes in non-coding regions typically have minimal impact since these regions don't directly code for proteins, though some regulatory effects are possible."
                 },
                 {
                     "text": "A similar amino acid substitution",
@@ -352,60 +406,6 @@
                 }
             ],
             "funFact": "The way proteins fold is so crucial that misfolded proteins are involved in several diseases, including Alzheimer's and cystic fibrosis. Scientists estimate that a typical protein can fold into its final shape in less than a second, trying out about 100 billion different folding combinations in that brief time!"
-        },
-        {
-            "id": 14,
-            "text": "How do inherited mutations differ from acquired mutations in terms of their effects on populations of organisms?",
-            "options": [
-                {
-                    "text": "Inherited mutations affect all cells in an organism and can be passed to offspring, while acquired mutations only affect specific cells and cannot be passed on",
-                    "isCorrect": 1,
-                    "explanation": "Inherited mutations are present in all cells including reproductive cells and can be transmitted to future generations, affecting population genetics over time"
-                },
-                {
-                    "text": "Acquired mutations affect all cells and can be passed to offspring, while inherited mutations only affect specific cells and cannot be passed on",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the characteristics of inherited and acquired mutations. Acquired mutations only affect specific cells and cannot be passed to offspring"
-                },
-                {
-                    "text": "Both inherited and acquired mutations affect all cells equally and can be passed to future generations",
-                    "isCorrect": 0,
-                    "explanation": "Only inherited mutations present in reproductive cells can be passed to future generations. Acquired mutations in body cells are not transmitted"
-                },
-                {
-                    "text": "Neither inherited nor acquired mutations can be passed to future generations",
-                    "isCorrect": 0,
-                    "explanation": "While acquired mutations cannot be passed on, inherited mutations present in reproductive cells are transmitted to offspring"
-                }
-            ],
-            "funFact": "Some beneficial mutations can spread rapidly through populations through a process called positive selection. For example, a mutation that gives bacteria antibiotic resistance can quickly become common in bacterial populations exposed to antibiotics."
-        },
-        {
-            "id": 15,
-            "text": "A mutation in a gene causes a change in the amino acid sequence of a protein that helps break down lactose (milk sugar) in the small intestine. Which statement best describes how this mutation might affect the organism?",
-            "options": [
-                {
-                    "text": "The protein's shape will change, possibly affecting its ability to break down lactose",
-                    "isCorrect": 1,
-                    "explanation": "Changes in amino acid sequence alter protein structure, which directly affects its function. In this case, the altered shape could prevent proper binding to lactose molecules."
-                },
-                {
-                    "text": "The protein will work faster to break down lactose",
-                    "isCorrect": 0,
-                    "explanation": "Mutations rarely improve protein function. A change in amino acid sequence is more likely to disrupt the protein's carefully evolved structure and function."
-                },
-                {
-                    "text": "The mutation will have no effect because proteins can adapt to changes",
-                    "isCorrect": 0,
-                    "explanation": "Proteins cannot adapt to changes - their structure and function are determined by their amino acid sequence. Changes in this sequence typically affect how the protein works."
-                },
-                {
-                    "text": "The protein will still break down lactose the same way regardless of the mutation",
-                    "isCorrect": 0,
-                    "explanation": "The amino acid sequence is crucial for proper protein folding and function. Changes in this sequence typically alter how the protein interacts with other molecules."
-                }
-            ],
-            "funFact": "Lactose intolerance, which affects about 65% of the global population, is often caused by mutations that reduce the production or function of lactase, the enzyme that breaks down lactose. This is why many adults worldwide have difficulty digesting dairy products!"
         }
     ]
 }

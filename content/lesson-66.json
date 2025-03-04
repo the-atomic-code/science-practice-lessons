@@ -4,93 +4,93 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which characteristic of a poison dart frog is influenced by both inheritance and environment?",
+            "text": "When two dogs have puppies together, which statement best describes how traits are passed down to their offspring?",
             "options": [
                 {
-                    "text": "The color pattern of its skin",
-                    "isCorrect": 0,
-                    "explanation": "The color pattern of a poison dart frog's skin is primarily determined by inheritance from its parents, not significantly influenced by the environment."
-                },
-                {
-                    "text": "The number of toes on each foot",
-                    "isCorrect": 0,
-                    "explanation": "The number of toes is strictly determined by inheritance and is not influenced by environmental factors."
-                },
-                {
-                    "text": "Its toxicity level",
+                    "text": "Each puppy gets a mixture of traits from both mother and father dogs",
                     "isCorrect": 1,
-                    "explanation": "A poison dart frog's toxicity is influenced both by inherited genes that allow it to process toxins and by the insects it eats in its environment, which are the source of its poison."
+                    "explanation": "This is correct! Each puppy inherits a combination of traits from both parents, which is why siblings can look different from each other."
                 },
                 {
-                    "text": "The shape of its head",
+                    "text": "Each puppy gets all of its traits from the father dog",
                     "isCorrect": 0,
-                    "explanation": "Head shape is an inherited characteristic that is determined by genetics and is not significantly influenced by environmental factors."
+                    "explanation": "This is incorrect. Puppies inherit traits from both parents, not just the father."
+                },
+                {
+                    "text": "Each puppy gets all of its traits from the mother dog",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Puppies inherit traits from both parents, not just the mother."
+                },
+                {
+                    "text": "All puppies in a litter get exactly the same mixture of traits",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Even though puppies in a litter have the same parents, each puppy gets a different combination of traits."
                 }
             ],
-            "funFact": "When poison dart frogs are raised in captivity and don't have access to their natural prey insects, they don't develop their toxic defense - making them completely harmless!"
+            "funFact": "Dogs have about 20,000 genes that can influence their traits! This huge number of genes, combined with how they mix during inheritance, is why there can be so much variety even among puppies from the same parents."
         },
         {
             "id": 2,
-            "text": "In a dense forest habitat, how does a tiger's striped pattern help it survive?",
+            "text": "A student has two parents who are both very tall. However, growing up, the student did not have access to proper nutrition and remained shorter than expected. Which statement best explains this situation?",
             "options": [
                 {
-                    "text": "The stripes help the tiger blend in with shadows and tall grass while hunting prey",
+                    "text": "The student's height was solely determined by their genes, so nutrition had no effect",
+                    "isCorrect": 0,
+                    "explanation": "While genes play a major role in determining height, environmental factors like nutrition can significantly impact how these genes are expressed."
+                },
+                {
+                    "text": "Poor nutrition changed the student's genes so they could no longer grow tall",
+                    "isCorrect": 0,
+                    "explanation": "Environmental factors like nutrition don't change our genes - they affect how our existing genes are expressed."
+                },
+                {
+                    "text": "Even though the student inherited genes for being tall, poor nutrition prevented them from reaching their full height potential",
                     "isCorrect": 1,
-                    "explanation": "Tiger stripes create a camouflage pattern that breaks up their outline in forest shadows and vegetation, making them harder for prey to spot while hunting"
+                    "explanation": "This correctly shows how inherited traits can be influenced by environmental factors - the genes provide potential for tallness, but proper nutrition is needed to achieve it."
                 },
                 {
-                    "text": "The stripes make the tiger look bigger and scare away other predators",
+                    "text": "The student must have inherited short-height genes from a grandparent instead of their parents",
                     "isCorrect": 0,
-                    "explanation": "While tigers are large predators, their stripes actually help them hide rather than appear more intimidating"
-                },
-                {
-                    "text": "The stripes help tigers recognize each other in their social groups",
-                    "isCorrect": 0,
-                    "explanation": "While tiger stripes are unique like fingerprints, they evolved primarily for camouflage rather than social recognition"
-                },
-                {
-                    "text": "The stripes protect tigers from sunburn in hot climates",
-                    "isCorrect": 0,
-                    "explanation": "Tiger stripes are not related to sun protection - their fur provides that protection regardless of pattern"
+                    "explanation": "While traits can sometimes skip generations, this doesn't explain how nutrition affects height development regardless of inherited genes."
                 }
             ],
-            "funFact": "Every tiger's stripe pattern is unique, like human fingerprints! Scientists can use these distinct stripe patterns to identify and track individual tigers in the wild for conservation efforts."
+            "funFact": "The average human height has increased by about 4 inches over the past 150 years in many countries, largely due to improved nutrition and healthcare - showing how environmental factors can affect inherited traits across entire populations!"
         },
         {
             "id": 3,
-            "text": "Which of the following traits is common to all tigers, while others may vary between individual tigers?",
+            "text": "Why might polar bears and arctic foxes both have white fur, even though they are different species?",
             "options": [
                 {
-                    "text": "The presence of stripes",
+                    "text": "They share the same parents",
+                    "isCorrect": 0,
+                    "explanation": "Different species cannot share the same parents. The similar white fur in polar bears and arctic foxes developed independently as a useful trait for survival in snowy environments."
+                },
+                {
+                    "text": "They face similar survival challenges in their snowy environment",
                     "isCorrect": 1,
-                    "explanation": "All tigers have stripes as it is a defining characteristic of the species, though the width and pattern of stripes can vary between individuals."
+                    "explanation": "Different species living in the same environment often develop similar traits because they face similar challenges for survival. White fur helps both polar bears and arctic foxes blend into the snow."
                 },
                 {
-                    "text": "The width of stripes",
+                    "text": "They copy each other's appearance",
                     "isCorrect": 0,
-                    "explanation": "The width of stripes can vary between individual tigers - some have wide stripes while others have narrow stripes."
+                    "explanation": "Animals cannot choose to copy another species' appearance. Their traits are inherited from their parents and shaped by survival advantages over many generations."
                 },
                 {
-                    "text": "The color of fur",
+                    "text": "They are closely related species",
                     "isCorrect": 0,
-                    "explanation": "While most tigers have orange fur with black stripes, there can be variations in fur color between individuals."
-                },
-                {
-                    "text": "The length of tail",
-                    "isCorrect": 0,
-                    "explanation": "Tail length can vary between individual tigers, just like other physical characteristics that show variation within a species."
+                    "explanation": "Polar bears and arctic foxes are not closely related - bears are in the family Ursidae while foxes are in the family Canidae. Their similar white fur is due to adapting to the same environment."
                 }
             ],
-            "funFact": "No two tigers have exactly the same stripe pattern! Just like human fingerprints, tiger stripes are unique to each individual and can be used by researchers to identify specific tigers in the wild."
+            "funFact": "Many animals in the Arctic, including Arctic hares, snowy owls, and Arctic wolves, have white coloring. This widespread pattern is called 'convergent evolution' - when different species independently develop similar traits because they live in similar environments."
         },
         {
             "id": 4,
             "text": "Why can siblings from the same parents look different from each other?",
             "options": [
                 {
-                    "text": "Each sibling receives a unique combination of traits from both parents",
-                    "isCorrect": 1,
-                    "explanation": "Just like shuffling and dealing cards gives different combinations each time, offspring get different combinations of traits from their parents, leading to unique appearances."
+                    "text": "All siblings must look completely different from each other",
+                    "isCorrect": 0,
+                    "explanation": "Siblings can share some similar traits while being different in others. They don't have to look completely different."
                 },
                 {
                     "text": "Siblings copy all traits from only one parent",
@@ -98,134 +98,58 @@
                     "explanation": "Siblings don't inherit traits from just one parent - they get a mix of traits from both parents."
                 },
                 {
+                    "text": "Each sibling receives a unique combination of traits from both parents",
+                    "isCorrect": 1,
+                    "explanation": "Just like shuffling and dealing cards gives different combinations each time, offspring get different combinations of traits from their parents, leading to unique appearances."
+                },
+                {
                     "text": "Siblings always look exactly like their grandparents",
                     "isCorrect": 0,
                     "explanation": "While traits can sometimes skip generations, siblings don't always look exactly like their grandparents. They get a mix of traits from their parents."
-                },
-                {
-                    "text": "All siblings must look completely different from each other",
-                    "isCorrect": 0,
-                    "explanation": "Siblings can share some similar traits while being different in others. They don't have to look completely different."
                 }
             ],
             "funFact": "Just like human siblings can look different, a litter of kittens from the same mother and father can have completely different fur colors and patterns! This happens because of genetic recombination - each kitten receives a unique mix of genes. In some cases, kittens in the same litter may even have different fathers, adding even more genetic variation."
         },
         {
             "id": 5,
-            "text": "Which of the following characteristics is most likely to be inherited from parents to offspring?",
+            "text": "A child has blue eyes even though both parents have brown eyes. However, the child's grandmother also has blue eyes. Which statement best explains this inheritance pattern?",
             "options": [
                 {
-                    "text": "Fur color",
+                    "text": "Traits can sometimes skip a generation, with children inheriting characteristics from their grandparents",
                     "isCorrect": 1,
-                    "explanation": "Fur color is a physical trait that is passed down genetically from parents to offspring through inherited DNA."
+                    "explanation": "This is correct. Genetic traits can skip generations because we inherit combinations of genes from both parents, who carry genes from previous generations."
                 },
                 {
-                    "text": "A scar from an injury",
+                    "text": "The child's eye color must be a new trait that wasn't present in the family before",
                     "isCorrect": 0,
-                    "explanation": "Scars are acquired characteristics that result from injuries and are not passed down genetically to offspring."
+                    "explanation": "This is incorrect. The trait was present in the grandmother, so it's not new to the family."
                 },
                 {
-                    "text": "Strong muscles from exercise",
+                    "text": "Children always inherit traits equally from both parents",
                     "isCorrect": 0,
-                    "explanation": "Muscle strength developed through exercise is an acquired trait and is not passed down genetically to offspring."
+                    "explanation": "This is incorrect. Trait inheritance is complex and children don't receive an equal mix of visible traits from both parents."
                 },
                 {
-                    "text": "Hunting skills learned from practice",
+                    "text": "Eye color can only be inherited directly from parents",
                     "isCorrect": 0,
-                    "explanation": "Learned behaviors like hunting skills are acquired through experience and are not inherited traits passed down genetically."
+                    "explanation": "This is incorrect. Traits can be inherited from earlier generations, not just directly from parents."
                 }
             ],
-            "funFact": "In some animals, like tigers, not only is fur color inherited, but even the specific pattern of stripes is unique to each individual - just like human fingerprints! A mother tiger passes down genes that influence both the color and pattern of her cubs' fur."
+            "funFact": "Eye color inheritance is actually more complex than scientists once thought. While it was previously believed that brown eyes were always dominant over blue eyes, we now know that eye color is influenced by multiple genes, which explains why children can sometimes have eye colors that seem to appear unexpectedly in a family!"
         },
         {
             "id": 6,
-            "text": "A scientist studied the wing patterns of a group of monarch butterflies over three generations. She observed that the first generation had mostly orange wings with thick black lines. In the second generation, some butterflies had thinner black lines, while others maintained thick lines like their parents. By the third generation, there was a mix of butterflies with thick lines, medium lines, and thin black lines on their wings. What does this observation best demonstrate about inherited traits?",
-            "options": [
-                {
-                    "text": "Inherited traits can vary among offspring even when they share the same parents",
-                    "isCorrect": 1,
-                    "explanation": "The variation in wing patterns across generations, including siblings from the same parents, demonstrates that inherited traits can show natural variation among offspring."
-                },
-                {
-                    "text": "Inherited traits always match exactly with one of the parents",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the observation shows that offspring can display variations of traits rather than exact copies of parental traits."
-                },
-                {
-                    "text": "Environmental factors are the only cause of trait variations",
-                    "isCorrect": 0,
-                    "explanation": "While environment can influence some traits, the pattern of wing variation being passed through generations shows this is an inherited trait characteristic."
-                },
-                {
-                    "text": "All siblings from the same parents will have identical traits",
-                    "isCorrect": 0,
-                    "explanation": "The observation shows that siblings can have different variations of the same trait, disproving that all siblings must be identical."
-                }
-            ],
-            "funFact": "In addition to wing patterns, monarch butterflies can inherit different flying speeds and navigation abilities that help them during their amazing 3,000-mile migration journey from North America to Mexico each year!"
-        },
-        {
-            "id": 7,
-            "text": "Scientists observed several species of lizards living in a desert environment. All of these lizard species have light tan-colored scales that match the desert sand. What does this pattern suggest about the lizards' traits?",
-            "options": [
-                {
-                    "text": "The lizards learned to change their color to match the sand during their lifetime",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Scale color is an inherited trait, not a learned behavior. Lizards cannot consciously change their color to match their environment."
-                },
-                {
-                    "text": "The light tan coloring helps these lizards survive in their environment, so this trait was passed down through generations",
-                    "isCorrect": 1,
-                    "explanation": "Correct! When a trait helps organisms survive in their environment, like camouflage coloring, it tends to be passed down to offspring over many generations."
-                },
-                {
-                    "text": "The desert sand changed the lizards' scale color over time",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The environment cannot directly change inherited traits like scale color. These traits are passed down from parents to offspring."
-                },
-                {
-                    "text": "All lizard species naturally have tan-colored scales regardless of their habitat",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Lizard species in different habitats can have various scale colors. The tan coloring is specific to desert species as it provides camouflage."
-                }
-            ],
-            "funFact": "While most desert lizards are tan or brown to blend in with sand, some lizards that live in areas with black lava rocks are actually black in color! This shows how different environments can influence which traits get passed down over time."
-        },
-        {
-            "id": 8,
-            "text": "A wildlife researcher observes a pack of wolves and notices that both the adult wolves and their pups display similar hunting behaviors. Which observation would best demonstrate that these hunting behaviors are inherited traits rather than learned?",
-            "options": [
-                {
-                    "text": "The pups show stalking movements similar to their parents before ever participating in a hunt",
-                    "isCorrect": 1,
-                    "explanation": "Natural stalking behaviors appearing in pups before any hunting experience strongly suggests these are inherited traits rather than learned behaviors"
-                },
-                {
-                    "text": "The pups learn to hunt by watching their parents catch prey",
-                    "isCorrect": 0,
-                    "explanation": "This describes learned behavior through observation rather than inherited traits"
-                },
-                {
-                    "text": "The pups practice hunting skills with their siblings",
-                    "isCorrect": 0,
-                    "explanation": "Practice with siblings represents learning through experience rather than inherited behavior"
-                },
-                {
-                    "text": "The pups successfully catch prey after several attempts",
-                    "isCorrect": 0,
-                    "explanation": "Success after multiple attempts indicates learning through trial and error rather than inherited behavior"
-                }
-            ],
-            "funFact": "Wolf pups begin showing hunting-related behaviors like stalking and pouncing as early as 3 weeks of age, long before they're physically capable of actual hunting. This early appearance of complex behaviors suggests a strong genetic component to hunting skills."
-        },
-        {
-            "id": 9,
             "text": "Two baby giraffes born to the same parents show different features. One is taller with darker spots, while the other is shorter with lighter spots. Which statement best explains these differences?",
             "options": [
                 {
                     "text": "The babies received different combinations of traits from their parents",
                     "isCorrect": 1,
                     "explanation": "Just like shuffling cards gives different combinations each time, offspring receive different combinations of traits from their parents, leading to variations among siblings."
+                },
+                {
+                    "text": "One baby must have inherited traits from a different giraffe family",
+                    "isCorrect": 0,
+                    "explanation": "Variations among siblings occur naturally due to different combinations of parental traits, not due to traits from other families."
                 },
                 {
                     "text": "The taller baby received all traits from the father while the shorter one got all traits from the mother",
@@ -236,44 +160,201 @@
                     "text": "The babies are not really siblings since they look different",
                     "isCorrect": 0,
                     "explanation": "Siblings can look quite different from each other while still being from the same parents, due to different combinations of inherited traits."
-                },
-                {
-                    "text": "One baby must have inherited traits from a different giraffe family",
-                    "isCorrect": 0,
-                    "explanation": "Variations among siblings occur naturally due to different combinations of parental traits, not due to traits from other families."
                 }
             ],
             "funFact": "Even identical twin giraffes, who share the exact same genes, can develop slightly different spot patterns! This shows how nature creates unique individuals even within the same family."
         },
         {
-            "id": 10,
-            "text": "A flower garden has two parent plants - one with red flowers and one with white flowers. When these plants reproduce, which combination of flower colors would most likely appear in their offspring?",
+            "id": 7,
+            "text": "In a population of sea turtles, scientists observed the following patterns in shell markings. Which pattern would best demonstrate the natural variation of inherited traits within the species?",
             "options": [
                 {
-                    "text": "All offspring plants will have pink flowers",
-                    "isCorrect": 0,
-                    "explanation": "While blending of traits might seem logical, inherited traits don't typically blend. Instead, offspring receive different combinations of traits from both parents."
-                },
-                {
-                    "text": "All offspring plants will have either red or white flowers, with some having red and others having white",
+                    "text": "Turtles showing similar basic shell patterns but with subtle differences in spots, stripes, or coloring",
                     "isCorrect": 1,
-                    "explanation": "This correctly shows how traits are inherited - offspring can receive different combinations of traits from parents, leading to variation among siblings."
+                    "explanation": "This correctly shows how inherited traits can vary within a species - maintaining similar basic features while showing individual variations."
                 },
                 {
-                    "text": "All offspring plants will have red flowers like one parent",
+                    "text": "Young turtles having shell patterns that change completely as they grow older",
                     "isCorrect": 0,
-                    "explanation": "Traits come from both parents, not just one. The white-flowered parent's traits would also influence the offspring."
+                    "explanation": "This describes environmental or developmental changes rather than inherited trait variations within a species."
                 },
                 {
-                    "text": "All offspring plants will be identical to each other",
+                    "text": "Each turtle having completely different shell patterns that look nothing like any other turtle in the population",
                     "isCorrect": 0,
-                    "explanation": "Offspring receive different combinations of traits from parents, leading to variations among siblings, just like puppies in a litter can look different."
+                    "explanation": "While variation exists, members of the same species typically share some common characteristics. Complete randomness would not reflect natural inheritance patterns."
+                },
+                {
+                    "text": "All adult turtles having identical shell patterns that perfectly match their parents",
+                    "isCorrect": 0,
+                    "explanation": "This would show no variation in traits, which is not typical in nature. Inherited traits usually show some variation even within the same species."
                 }
             ],
-            "funFact": "In some flowers, like carnations, the combination of red and white parent plants can actually produce offspring with striped or speckled petals due to a special pattern of inheritance!"
+            "funFact": "Sea turtle shell patterns are like fingerprints - each turtle has a unique pattern that scientists can use to identify individuals in the wild, helping them track and study turtle populations over time!"
+        },
+        {
+            "id": 8,
+            "text": "A scientist is studying corn plants grown in identical conditions. She observes that some plants are tall while others are short. Which conclusion about trait variation is best supported by this observation?",
+            "options": [
+                {
+                    "text": "Natural variation in inherited traits can result in different heights among similar plants",
+                    "isCorrect": 1,
+                    "explanation": "This correctly recognizes that variation in inherited traits leads to differences among organisms of the same type, even when grown in identical conditions"
+                },
+                {
+                    "text": "The shorter plants are not actually corn plants",
+                    "isCorrect": 0,
+                    "explanation": "Height variation within a species is natural and does not mean the shorter plants are a different type of plant"
+                },
+                {
+                    "text": "All corn plants grown in identical conditions should be exactly the same height",
+                    "isCorrect": 0,
+                    "explanation": "Even in identical conditions, plants can show variation in traits like height due to inherited genetic differences from their parent plants"
+                },
+                {
+                    "text": "The taller corn plants must have received better care than the shorter ones",
+                    "isCorrect": 0,
+                    "explanation": "Since all plants were grown in identical conditions, the height differences cannot be attributed to differences in care"
+                }
+            ],
+            "funFact": "The natural variation in corn plant height has been very useful for farmers and scientists. Over many generations of selective breeding, humans have developed varieties of corn ranging from knee-high mini corn plants to giants that can grow up to 20-25 feet tall under ideal conditions!"
+        },
+        {
+            "id": 9,
+            "text": "A scientist studied the wing patterns of a group of monarch butterflies over three generations. She observed that the first generation had mostly orange wings with thick black lines. In the second generation, some butterflies had thinner black lines, while others maintained thick lines like their parents. By the third generation, there was a mix of butterflies with thick lines, medium lines, and thin black lines on their wings. What does this observation best demonstrate about inherited traits?",
+            "options": [
+                {
+                    "text": "Environmental factors are the only cause of trait variations",
+                    "isCorrect": 0,
+                    "explanation": "While environment can influence some traits, the pattern of wing variation being passed through generations shows this is an inherited trait characteristic."
+                },
+                {
+                    "text": "Inherited traits always match exactly with one of the parents",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the observation shows that offspring can display variations of traits rather than exact copies of parental traits."
+                },
+                {
+                    "text": "Inherited traits can vary among offspring even when they share the same parents",
+                    "isCorrect": 1,
+                    "explanation": "The variation in wing patterns across generations, including siblings from the same parents, demonstrates that inherited traits can show natural variation among offspring."
+                },
+                {
+                    "text": "All siblings from the same parents will have identical traits",
+                    "isCorrect": 0,
+                    "explanation": "The observation shows that siblings can have different variations of the same trait, disproving that all siblings must be identical."
+                }
+            ],
+            "funFact": "In addition to wing patterns, monarch butterflies can inherit different flying speeds and navigation abilities that help them during their amazing 3,000-mile migration journey from North America to Mexico each year!"
+        },
+        {
+            "id": 10,
+            "text": "A family of tigers includes a mother and three cubs. The mother has wide stripes, while one cub has wide stripes, and two cubs have narrow stripes. What does this pattern of stripe variations suggest?",
+            "options": [
+                {
+                    "text": "Siblings can inherit different combinations of traits even from the same parents",
+                    "isCorrect": 1,
+                    "explanation": "This pattern shows how siblings can inherit traits differently - some cubs got wide stripes like mom while others got narrow stripes, demonstrating trait variation among offspring."
+                },
+                {
+                    "text": "The cubs with narrow stripes must be twins",
+                    "isCorrect": 0,
+                    "explanation": "Having the same trait doesn't mean cubs are twins. Siblings can share similar inherited traits without being twins."
+                },
+                {
+                    "text": "Environmental factors determined the cubs' stripe patterns",
+                    "isCorrect": 0,
+                    "explanation": "Stripe patterns in tigers are inherited traits, not determined by the environment. The variation comes from genetic inheritance."
+                },
+                {
+                    "text": "Tiger cubs always inherit their stripe patterns from their father",
+                    "isCorrect": 0,
+                    "explanation": "Stripe patterns can be inherited from either parent, not just the father. The variation shows inheritance is more complex."
+                }
+            ],
+            "funFact": "Just like human fingerprints, no two tigers have exactly the same stripe pattern! Scientists can use these unique stripe patterns to identify and track individual tigers in the wild."
         },
         {
             "id": 11,
+            "text": "Two puppies from the same litter have different tail lengths - one has a long tail while the other has a short tail. Which statement best explains this difference?",
+            "options": [
+                {
+                    "text": "The puppies received different combinations of traits from their parents",
+                    "isCorrect": 1,
+                    "explanation": "Offspring inherit traits from both parents, but siblings can receive different combinations, leading to variations in features like tail length"
+                },
+                {
+                    "text": "One puppy copied the mother's tail length while the other copied the father's",
+                    "isCorrect": 0,
+                    "explanation": "Inheritance is more complex than simply copying one parent's traits - puppies get a mix of traits from both parents"
+                },
+                {
+                    "text": "The tail length was determined by what the puppies ate as they grew",
+                    "isCorrect": 0,
+                    "explanation": "Tail length is an inherited trait determined by genes, not by environmental factors like diet"
+                },
+                {
+                    "text": "The puppies must have different parents",
+                    "isCorrect": 0,
+                    "explanation": "Siblings from the same litter can look different even though they have the same parents, due to inheriting different trait combinations"
+                }
+            ],
+            "funFact": "Dogs show some of the greatest variation in physical traits among all mammals - from tiny Chihuahuas to giant Great Danes, all modern dog breeds descended from wolves and can trace their diverse traits to selective breeding by humans over thousands of years!"
+        },
+        {
+            "id": 12,
+            "text": "A baby giraffe is born with spots on its body that look very similar to its mother's spots. What does this pattern suggest about the spots on giraffes?",
+            "options": [
+                {
+                    "text": "The spots develop after birth by copying the mother",
+                    "isCorrect": 0,
+                    "explanation": "Giraffe spots don't develop by copying - they are present at birth because the pattern is inherited through genes, not learned or copied after birth."
+                },
+                {
+                    "text": "The spots are caused by the environment after birth",
+                    "isCorrect": 0,
+                    "explanation": "While environment can influence some traits, giraffe spot patterns are determined by inherited genes before birth, not by environmental factors after birth."
+                },
+                {
+                    "text": "The spots are an inherited trait passed down from parents to offspring",
+                    "isCorrect": 1,
+                    "explanation": "When offspring have physical characteristics similar to their parents, it indicates these traits are inherited through genetic information passed from parent to offspring."
+                },
+                {
+                    "text": "All baby giraffes are born with identical spot patterns",
+                    "isCorrect": 0,
+                    "explanation": "Each baby giraffe has its own unique spot pattern inherited from its parents, just like human siblings can look different despite having the same parents."
+                }
+            ],
+            "funFact": "Each giraffe's spot pattern is as unique as a human fingerprint! Scientists can use these distinct patterns to identify individual giraffes in the wild, helping them track and study giraffe populations."
+        },
+        {
+            "id": 13,
+            "text": "A child who inherited genes for being tall from their parents is not getting proper nutrition during their growing years. Which of the following best describes how this could affect their height?",
+            "options": [
+                {
+                    "text": "The child will still grow to be exactly as tall as their genes determine",
+                    "isCorrect": 0,
+                    "explanation": "While genes play a major role in determining height, environmental factors like nutrition can prevent someone from reaching their full genetic potential for height."
+                },
+                {
+                    "text": "The child's genes will change to make them shorter",
+                    "isCorrect": 0,
+                    "explanation": "Environmental factors like nutrition don't change our genes - they just affect how those genes are expressed."
+                },
+                {
+                    "text": "The child's height will not be affected at all by nutrition",
+                    "isCorrect": 0,
+                    "explanation": "Nutrition is a crucial environmental factor that affects growth and development, regardless of genetic traits."
+                },
+                {
+                    "text": "The child may not grow as tall as their genetic potential would allow",
+                    "isCorrect": 1,
+                    "explanation": "Even with genes for being tall, poor nutrition can limit growth and prevent someone from reaching their full height potential."
+                }
+            ],
+            "funFact": "The average human height has increased by 4 inches (10 cm) in the last 150 years in industrialized countries, largely due to improved nutrition and healthcare - showing how environmental factors can influence the expression of inherited traits!"
+        },
+        {
+            "id": 14,
             "text": "Which statement best explains how a poison dart frog develops its poisonous defense?",
             "options": [
                 {
@@ -282,14 +363,14 @@
                     "explanation": "This correctly combines both inherited traits and environmental factors. The frog inherits the ability to use toxins, but needs to eat specific insects to actually become poisonous."
                 },
                 {
-                    "text": "The frog is born with poison already in its body from its parents",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because poison dart frogs are not born with poison - they need to consume specific insects to become poisonous."
-                },
-                {
                     "text": "The frog develops poison naturally as it grows, regardless of what it eats",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because the frog's diet of specific insects is crucial for it to become poisonous - it doesn't just develop naturally."
+                },
+                {
+                    "text": "The frog is born with poison already in its body from its parents",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because poison dart frogs are not born with poison - they need to consume specific insects to become poisonous."
                 },
                 {
                     "text": "The frog learns to create poison by observing its parents",
@@ -300,34 +381,7 @@
             "funFact": "Golden poison frogs are considered the most toxic of all poison dart frogs - just one frog contains enough poison to kill up to 20 humans! However, when these frogs are raised in captivity and fed a different diet, they don't develop their toxic defenses."
         },
         {
-            "id": 12,
-            "text": "A young deer is born with light brown spots on its fur that help it blend in with patches of sunlight filtering through the forest leaves. How does this inherited trait most likely help the deer survive?",
-            "options": [
-                {
-                    "text": "The spots help the deer hide from predators while resting in dappled sunlight",
-                    "isCorrect": 1,
-                    "explanation": "The spotted pattern is a form of camouflage that helps young deer blend in with the forest floor where sunlight creates similar spotted patterns through the leaves, making them harder for predators to spot."
-                },
-                {
-                    "text": "The spots allow the deer to run faster through the forest",
-                    "isCorrect": 0,
-                    "explanation": "While deer can run fast, their spots are related to camouflage rather than speed. The pattern of their fur does not affect how quickly they can move."
-                },
-                {
-                    "text": "The spots help the deer find more food in the forest",
-                    "isCorrect": 0,
-                    "explanation": "The spotted pattern is a protective camouflage trait and does not help the deer locate or obtain food. Deer find food using their sense of smell and sight, not their fur patterns."
-                },
-                {
-                    "text": "The spots make the deer more attractive to other deer",
-                    "isCorrect": 0,
-                    "explanation": "While some traits can help animals attract mates, the spots on young deer are primarily for camouflage and protection from predators. Most deer species lose these spots as they mature."
-                }
-            ],
-            "funFact": "Most species of deer are born with spots (light brown or white depending on the species) that fade as they grow older. These spots are called camouflage markings, and they mimic the way sunlight dapples through the forest canopy onto the ground. This pattern is so effective that military camouflage designers have studied and copied it!"
-        },
-        {
-            "id": 13,
+            "id": 15,
             "text": "Which statement best explains how variations in alligator scale coloration provide an advantage for survival?",
             "options": [
                 {
@@ -336,9 +390,9 @@
                     "explanation": "Darker scales absorb more heat from sunlight, helping alligators warm up faster, while camouflage coloring helps them blend in and sneak up on prey more effectively."
                 },
                 {
-                    "text": "Lighter scales help alligators stay cool and visible scales help them find mates",
+                    "text": "Brightly colored scales warn predators that the alligator is dangerous",
                     "isCorrect": 0,
-                    "explanation": "While scale color does affect temperature regulation, lighter scales actually make it harder for alligators to warm up. Being more visible would make hunting more difficult."
+                    "explanation": "Alligators don't use bright warning colors like some other animals do. They rely on camouflage for hunting and survival."
                 },
                 {
                     "text": "Scale color has no effect on survival since all alligators have the same coloring",
@@ -346,66 +400,12 @@
                     "explanation": "This is incorrect because alligators do show variation in scale coloring, and these differences affect their ability to regulate temperature and hunt successfully."
                 },
                 {
-                    "text": "Brightly colored scales warn predators that the alligator is dangerous",
+                    "text": "Lighter scales help alligators stay cool and visible scales help them find mates",
                     "isCorrect": 0,
-                    "explanation": "Alligators don't use bright warning colors like some other animals do. They rely on camouflage for hunting and survival."
+                    "explanation": "While scale color does affect temperature regulation, lighter scales actually make it harder for alligators to warm up. Being more visible would make hunting more difficult."
                 }
             ],
             "funFact": "Adult alligators can have up to 3,000 scales on their body! These scales not only help with camouflage and temperature regulation but also provide excellent armor against injury."
-        },
-        {
-            "id": 14,
-            "text": "In a litter of kittens, which comparison between siblings best demonstrates the inheritance of traits from their parents?",
-            "options": [
-                {
-                    "text": "All kittens have exactly the same fur color as their mother",
-                    "isCorrect": 0,
-                    "explanation": "While kittens inherit traits from their parents, they don't always look exactly like either parent since they get traits from both parents in different combinations."
-                },
-                {
-                    "text": "Each kitten has some similar traits but also shows unique variations in features like fur pattern and eye color",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how siblings inherit traits from both parents but have unique combinations, leading to similarities along with individual variations."
-                },
-                {
-                    "text": "The kittens look completely different from each other with no shared traits",
-                    "isCorrect": 0,
-                    "explanation": "Siblings typically share some common inherited traits since they come from the same parents, even though they also show variations."
-                },
-                {
-                    "text": "Only one kitten inherits traits while the others develop random features",
-                    "isCorrect": 0,
-                    "explanation": "All offspring inherit traits from their parents - it's not limited to just one sibling in a litter."
-                }
-            ],
-            "funFact": "A mother cat can actually have kittens from different fathers in the same litter! This is called superfecundation and can lead to even more variation in traits among siblings."
-        },
-        {
-            "id": 15,
-            "text": "In a group of giraffes living in the African savanna, some have longer necks than others. Over many generations, the number of giraffes with longer necks has increased. What is the most likely explanation for this change?",
-            "options": [
-                {
-                    "text": "The giraffes with longer necks were better able to reach food in tall trees, survived more often, and passed this trait to their offspring",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because advantageous traits that help animals survive are more likely to be passed down to future generations through inheritance"
-                },
-                {
-                    "text": "The giraffes stretched their necks to reach leaves, and this stretched neck was passed down to their babies",
-                    "isCorrect": 0,
-                    "explanation": "Changes that happen to an animal during its lifetime (like stretching) are not passed down to offspring through inheritance"
-                },
-                {
-                    "text": "All the giraffes decided to grow longer necks at the same time",
-                    "isCorrect": 0,
-                    "explanation": "Animals cannot consciously decide to change their inherited traits"
-                },
-                {
-                    "text": "The shorter-necked giraffes moved to a different area",
-                    "isCorrect": 0,
-                    "explanation": "Migration alone does not explain how a beneficial trait becomes more common in a population over time"
-                }
-            ],
-            "funFact": "A giraffe's neck can be up to 8 feet long! Despite this incredible length, giraffes have the same number of neck vertebrae (seven) as humans and most other mammals - theirs are just much longer."
         }
     ]
 }

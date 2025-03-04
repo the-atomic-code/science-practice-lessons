@@ -4,57 +4,62 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which of the following correctly describes how a fossil cast forms?",
+            "text": "Where would a paleontologist be most likely to find well-preserved fossils of ancient marine organisms?",
             "options": [
                 {
-                    "text": "When minerals or sediments fill a mold and harden, creating a solid replica of the original organism",
+                    "text": "Near ancient shorelines and in sedimentary rock layers that were once underwater",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes cast formation where minerals or sediments fill the hollow space (mold) and harden to create a solid copy of the original organism."
+                    "explanation": "Ancient shorelines and underwater environments provided ideal conditions for fossil formation, as organisms could be quickly buried in sediment and preserved."
                 },
                 {
-                    "text": "When an organism's remains dissolve leaving a hollow space in rock",
+                    "text": "On mountain peaks and in volcanic rock",
                     "isCorrect": 0,
-                    "explanation": "This describes the formation of a fossil mold, not a cast. A cast forms when this hollow space fills with minerals or sediments that later harden."
+                    "explanation": "Volcanic rock forms from cooling magma and doesn't typically preserve fossils. Mountain peaks are not primary locations for fossil formation."
                 },
                 {
-                    "text": "When tree sap hardens around an organism, preserving it inside amber",
+                    "text": "In modern-day forests",
                     "isCorrect": 0,
-                    "explanation": "This describes preservation in amber, which is different from cast formation. Casts form when minerals or sediments fill a mold and harden."
+                    "explanation": "Modern forests are too recent to contain ancient marine fossils, and the environment isn't suitable for preserving fossils from marine organisms."
                 },
                 {
-                    "text": "When mineral crystals gradually replace the original bone material",
+                    "text": "In desert sand dunes",
                     "isCorrect": 0,
-                    "explanation": "This describes permineralization, which is how most dinosaur bones fossilize. Casts form when minerals or sediments fill a mold and harden."
+                    "explanation": "Desert environments are typically too dry and exposed for good fossil preservation, and shifting sand dunes don't provide the stable conditions needed."
                 }
             ],
-            "funFact": "Some of the most detailed fossil casts ever found are from the ancient Roman city of Pompeii, where volcanic ash filled the spaces left by decomposed bodies, creating perfect casts that show details down to the expressions on people's faces and the folds in their clothing!"
+            "funFact": "The Burgess Shale in Canada, formed from an ancient seafloor, contains some of the best-preserved fossil specimens from the Cambrian period (about 508 million years ago), including many soft-bodied creatures that would normally not fossilize!"
         },
         {
             "id": 2,
-            "text": "Which statement best explains how the fossil record provides evidence for evolution?",
+            "text": "Which of the following would NOT be considered a fossil?",
             "options": [
                 {
-                    "text": "The fossil record shows organisms changing over time, with species appearing and disappearing at different points in Earth's history, and transitional forms demonstrating evolutionary relationships between groups",
+                    "text": "An insect preserved in amber",
+                    "isCorrect": 0,
+                    "explanation": "This is a body fossil where the entire organism was preserved in hardened tree sap."
+                },
+                {
+                    "text": "Preserved dinosaur footprints in rock",
+                    "isCorrect": 0,
+                    "explanation": "This is a trace fossil that shows evidence of dinosaur activity, preserving information about how the organism moved."
+                },
+                {
+                    "text": "Fossilized droppings from ancient animals",
+                    "isCorrect": 0,
+                    "explanation": "This is a trace fossil, also called coprolite, that provides evidence about ancient animal diets and behavior."
+                },
+                {
+                    "text": "A leaf imprint in sedimentary rock",
+                    "isCorrect": 0,
+                    "explanation": "This is a body fossil showing the preserved impression of an ancient plant part."
+                },
+                {
+                    "text": "A shell partially dissolved in an acidic lake",
                     "isCorrect": 1,
-                    "explanation": "This is correct because the fossil record reveals patterns of gradual change over time, transitional forms between major groups, and a chronological sequence of species that aligns with evolutionary predictions. These patterns provide strong evidence for evolution."
-                },
-                {
-                    "text": "The fossil record shows that all organisms appeared suddenly at the same time and have remained unchanged since then",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the fossil record clearly shows that different organisms appeared at different times and have changed over millions of years"
-                },
-                {
-                    "text": "The fossil record only provides information about extinct organisms and cannot tell us anything about evolution",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the fossil record not only shows extinct organisms but also reveals patterns of change and adaptation over time, which is key evidence for evolution"
-                },
-                {
-                    "text": "The fossil record shows that modern organisms are exactly the same as their ancient ancestors",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the fossil record shows that organisms have changed significantly over time through evolution, with modern organisms being different from their ancient ancestors"
+                    "explanation": "This is not a fossil because it is currently undergoing decomposition and has not been preserved over time. Fossils must be preserved remains or traces from ancient life."
                 }
             ],
-            "funFact": "The oldest known fossils are of microscopic bacteria found in rocks that are approximately 3.5 billion years old! This discovery helps scientists understand how life began and evolved on Earth."
+            "funFact": "The largest known fossilized poop (coprolite) is 40 inches long and was produced by a T. Rex! Scientists can learn about ancient animal diets by studying the contents of these fossilized droppings."
         },
         {
             "id": 3,
@@ -85,125 +90,93 @@
         },
         {
             "id": 4,
-            "text": "Which of the following best describes the difference between trace fossils and body fossils?",
+            "text": "When studying undisturbed rock layers in a cliff, a paleontologist finds several fossils at different depths. Which statement correctly describes the relationship between the depth of the fossils and their relative age?",
             "options": [
                 {
-                    "text": "Trace fossils show evidence of animal activity, while body fossils are the preserved remains of the organism itself",
+                    "text": "The depth of fossils has no relationship to their age",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. There is a clear relationship between depth and age in sedimentary rock layers, with deeper layers being older than shallower layers."
+                },
+                {
+                    "text": "Fossils found closer to the surface are older than fossils found deeper in the rock layers",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Newer sediment layers form on top of older layers, so fossils closer to the surface are actually younger than deeper fossils."
+                },
+                {
+                    "text": "All fossils found in the same cliff are the same age regardless of depth",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Fossils found at different depths were buried at different times and are therefore different ages."
+                },
+                {
+                    "text": "Fossils found deeper in the rock layers are older than fossils found closer to the surface",
                     "isCorrect": 1,
-                    "explanation": "Trace fossils like footprints, burrows, and feeding marks show how organisms lived and behaved, while body fossils like bones, teeth, and shells are actual preserved parts of organisms."
-                },
-                {
-                    "text": "Body fossils are found in sedimentary rock, while trace fossils are found in igneous rock",
-                    "isCorrect": 0,
-                    "explanation": "Both types of fossils are typically found in sedimentary rock. The type of rock is not what distinguishes trace fossils from body fossils."
-                },
-                {
-                    "text": "Trace fossils are older than body fossils",
-                    "isCorrect": 0,
-                    "explanation": "The age of the fossil does not determine whether it is a trace or body fossil. Both types can be found from various time periods."
-                },
-                {
-                    "text": "Body fossils show how organisms moved, while trace fossils show what they looked like",
-                    "isCorrect": 0,
-                    "explanation": "This is backwards - trace fossils show evidence of movement and behavior, while body fossils preserve physical features and appearance."
+                    "explanation": "As sediment builds up over time, newer layers form on top of older layers. Therefore, fossils found deeper in rock layers were buried longer ago and are older."
                 }
             ],
-            "funFact": "The oldest known trace fossils are about 3.7 billion years old and consist of tiny tubes in rocks that may have been created by bacteria. These trace fossils are hundreds of millions of years older than the oldest known body fossils!"
+            "funFact": "The principle that younger rock layers form on top of older layers is called the Law of Superposition. This fundamental principle of geology was first proposed by Nicolas Steno in 1669 and helps scientists determine the relative ages of rocks and fossils in undisturbed sedimentary sequences without directly dating them."
         },
         {
             "id": 5,
-            "text": "Which statement correctly describes how fossil molds form in sedimentary rock?",
+            "text": "Which statement best explains how insects from millions of years ago have been preserved in amber?",
             "options": [
                 {
-                    "text": "When buried remains decompose and dissolve, leaving hollow spaces that preserve the shape and texture of the original organism",
+                    "text": "Tree sap trapped insects and hardened over time, preserving them in their original form",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes the mold fossil formation process where the organism's remains decay, leaving a detailed impression in the surrounding rock"
+                    "explanation": "Tree sap can trap insects and preserve them as it hardens into amber, protecting the specimens from decay and providing scientists with detailed fossil evidence of ancient life"
                 },
                 {
-                    "text": "When minerals completely replace the original tissue of the buried organism",
+                    "text": "Amber formed molds around insects which later dissolved away",
                     "isCorrect": 0,
-                    "explanation": "This describes permineralization, which is how many dinosaur bone fossils form, not mold fossils"
+                    "explanation": "This describes the formation of mold fossils. Amber fossils preserve the actual organisms, not just their shapes or impressions"
                 },
                 {
-                    "text": "When organisms become trapped and preserved in hardened tree sap",
+                    "text": "Insects were buried in sediment which slowly turned into amber",
                     "isCorrect": 0,
-                    "explanation": "This describes preservation in amber, which is a different fossilization process, particularly common with insects"
+                    "explanation": "This is incorrect - amber is fossilized tree sap, not transformed sediment. Sedimentary processes create different types of fossils"
                 },
                 {
-                    "text": "When minerals fill existing hollow spaces to create a copy of the original organism",
+                    "text": "The insects' bodies were replaced by minerals that formed amber",
                     "isCorrect": 0,
-                    "explanation": "This describes cast fossils, which form when molds are filled with minerals, not the initial mold formation"
+                    "explanation": "This describes permineralization, which is how many dinosaur fossils form. Amber preservation is different - the actual organism is trapped in hardened tree sap"
                 }
             ],
-            "funFact": "The oldest known mold fossils are of single-celled organisms found in rocks that are about 3.5 billion years old! These ancient impressions help scientists understand what some of Earth's earliest life forms looked like."
+            "funFact": "The oldest amber fossils containing insects date back to about 230 million years ago during the Triassic period. Some amber fossils are so well-preserved that scientists can observe microscopic details like tiny hairs and scales on the insects' bodies!"
         },
         {
             "id": 6,
-            "text": "Which sequence correctly shows the order in which different levels of organism complexity appeared in the fossil record, from earliest to most recent?",
+            "text": "The Tiktaalik fossil shows features of both aquatic and land-dwelling animals. Which characteristics of this organism most strongly suggest it was transitioning from water to land?",
             "options": [
                 {
-                    "text": "Single-celled organisms \u2192 Fish with gills \u2192 Animals with lungs and legs \u2192 Complex mammals",
+                    "text": "It had a large body size",
+                    "isCorrect": 0,
+                    "explanation": "Body size alone doesn't indicate transition from water to land, as both aquatic and terrestrial animals can be large or small."
+                },
+                {
+                    "text": "It had both fins and leg bones",
                     "isCorrect": 1,
-                    "explanation": "This represents the correct progression of organism complexity through time, starting with simple single-celled organisms and gradually developing more complex features like gills, lungs, legs, and advanced organ systems."
+                    "explanation": "The presence of both fins (aquatic feature) and leg bones (terrestrial feature) is clear evidence of transition from water to land, as leg bones would have helped support weight on land while fins maintained aquatic abilities."
                 },
                 {
-                    "text": "Complex mammals \u2192 Animals with lungs and legs \u2192 Fish with gills \u2192 Single-celled organisms",
+                    "text": "It had scaly skin",
                     "isCorrect": 0,
-                    "explanation": "This sequence is reversed. The fossil record shows that simpler organisms appeared first, followed by increasingly complex organisms over millions of years."
+                    "explanation": "Scales are found on many fully aquatic animals and don't necessarily indicate a transition to land dwelling."
                 },
                 {
-                    "text": "Fish with gills \u2192 Single-celled organisms \u2192 Complex mammals \u2192 Animals with lungs and legs",
+                    "text": "It had sharp teeth",
                     "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Single-celled organisms appeared before fish, and animals with lungs and legs evolved before complex mammals."
-                },
-                {
-                    "text": "Animals with lungs and legs \u2192 Single-celled organisms \u2192 Fish with gills \u2192 Complex mammals",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Animals with lungs and legs could not have appeared before single-celled organisms and fish, as they evolved from aquatic ancestors."
+                    "explanation": "Sharp teeth don't indicate a transition from water to land, as both aquatic and terrestrial animals can have sharp teeth for feeding."
                 }
             ],
-            "funFact": "The transition from water to land was one of the most significant events in evolutionary history! The first animals to make this transition had to develop not just lungs and legs, but also new ways to keep their skin moist, lay eggs that wouldn't dry out, and protect themselves from increased UV radiation on land."
+            "funFact": "The name 'Tiktaalik' comes from the Inuktitut language of the Inuit people and means 'large freshwater fish.' This fossil was discovered in 2004 on Ellesmere Island in the Canadian Arctic, in rocks that are approximately 375 million years old!"
         },
         {
             "id": 7,
-            "text": "A geology student discovers fossils in four different rock layers at a dig site. Layer A is at the bottom, followed by Layer B, then Layer C, and Layer D at the top. Which layer would contain the oldest fossils?",
-            "options": [
-                {
-                    "text": "Layer A",
-                    "isCorrect": 1,
-                    "explanation": "Correct! According to the principle of superposition, layers of rock at the bottom of a sequence are older than the layers above them. Therefore, Layer A, being at the bottom, contains the oldest fossils."
-                },
-                {
-                    "text": "Layer B",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. Layer B is the second layer from the bottom, so it would contain fossils younger than Layer A but older than Layers C and D."
-                },
-                {
-                    "text": "Layer C",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. Layer C is the second layer from the top, containing fossils that are younger than those in Layers A and B but older than Layer D."
-                },
-                {
-                    "text": "Layer D",
-                    "isCorrect": 0,
-                    "explanation": "Incorrect. Layer D is at the top of the sequence, so it would contain the youngest fossils, not the oldest ones."
-                }
-            ],
-            "funFact": "The principle of superposition was first proposed by Nicolas Steno in 1669, making it one of the oldest and most fundamental principles in geology. This principle has helped scientists create a timeline of Earth's history spanning billions of years!"
-        },
-        {
-            "id": 8,
             "text": "A paleontologist discovers a series of parallel grooves and scratches preserved in ancient rock layers. What behavioral characteristic of the ancient organism can most likely be inferred from these trace fossils?",
             "options": [
                 {
                     "text": "Feeding patterns",
                     "isCorrect": 1,
                     "explanation": "Parallel grooves and scratches in rocks often indicate feeding behavior, where organisms scraped the surface to obtain food."
-                },
-                {
-                    "text": "Sleeping habits",
-                    "isCorrect": 0,
-                    "explanation": "While resting traces can be preserved as fossils, parallel grooves and scratches are not typically associated with sleeping behavior."
                 },
                 {
                     "text": "Mating rituals",
@@ -214,12 +187,71 @@
                     "text": "Body temperature",
                     "isCorrect": 0,
                     "explanation": "Physical marks like grooves and scratches cannot provide direct evidence of an organism's body temperature or temperature regulation."
+                },
+                {
+                    "text": "Sleeping habits",
+                    "isCorrect": 0,
+                    "explanation": "While resting traces can be preserved as fossils, parallel grooves and scratches are not typically associated with sleeping behavior."
                 }
             ],
             "funFact": "One of the most famous feeding trace fossils are the Cruziana trails, which were made by trilobites as they plowed through seafloor sediment searching for food over 450 million years ago!"
         },
         {
+            "id": 8,
+            "text": "Tiktaalik is considered a transitional fossil between fish and land animals. Which adaptation allowed this organism to survive in both aquatic and terrestrial environments?",
+            "options": [
+                {
+                    "text": "Having both gills and lungs",
+                    "isCorrect": 1,
+                    "explanation": "Tiktaalik had both gills like a fish and lungs like a land animal, allowing it to breathe both underwater and on land. This dual respiratory system was a crucial adaptation for transitioning between aquatic and terrestrial environments."
+                },
+                {
+                    "text": "Having both fins and wings",
+                    "isCorrect": 0,
+                    "explanation": "Tiktaalik had fins that were evolving into leg-like structures, but it did not have wings. Wings evolved much later in different lineages of animals."
+                },
+                {
+                    "text": "Having a tail and antennae",
+                    "isCorrect": 0,
+                    "explanation": "While Tiktaalik had a tail, it did not have antennae. Antennae are typically found in arthropods and insects, not in vertebrates like Tiktaalik."
+                },
+                {
+                    "text": "Having scales and fur",
+                    "isCorrect": 0,
+                    "explanation": "Tiktaalik did not have fur, which is a characteristic of mammals that evolved much later. This combination would not have been present in transitional forms between fish and early land animals."
+                }
+            ],
+            "funFact": "Tiktaalik was discovered in 2004 on Ellesmere Island in the Canadian Arctic. Scientists specifically chose this location to look for transitional fossils because the rocks there were formed from ancient stream beds of the right age - around 375 million years old!"
+        },
+        {
             "id": 9,
+            "text": "A paleontologist is searching for new fossil sites. Which of these environments would most likely preserve fossils of ancient organisms?",
+            "options": [
+                {
+                    "text": "A mountain peak with constant wind erosion",
+                    "isCorrect": 0,
+                    "explanation": "High mountain peaks with constant wind erosion would not preserve fossils well, as erosion would destroy any remains before they could be fossilized."
+                },
+                {
+                    "text": "A desert with frequent sandstorms",
+                    "isCorrect": 0,
+                    "explanation": "Deserts with frequent sandstorms are poor environments for fossil preservation because the constant movement of sand would damage remains and prevent proper burial and mineralization."
+                },
+                {
+                    "text": "A volcanic area with active lava flows",
+                    "isCorrect": 0,
+                    "explanation": "Active volcanic areas with lava flows would destroy organic remains rather than preserve them, making fossil formation extremely unlikely."
+                },
+                {
+                    "text": "A shallow coastal area with rapid sediment deposition",
+                    "isCorrect": 1,
+                    "explanation": "Shallow coastal areas with rapid sediment deposition provide ideal conditions for fossil formation. Quick burial in sediment protects remains from decomposition and allows mineralization to occur."
+                }
+            ],
+            "funFact": "The La Brea Tar Pits in Los Angeles are one of the world's most famous fossil sites, where natural asphalt has preserved thousands of Ice Age specimens for over 50,000 years. The sticky tar trapped and preserved animals that ventured into it, creating an exceptional fossil record."
+        },
+        {
+            "id": 10,
             "text": "Scientists discovered fossils of a marine reptile called Ichthyosaurus in both European and North American rock layers from the Triassic period. In rock layers from the later Jurassic period, these fossils are only found in European locations. What does this fossil evidence suggest about the geographic distribution of Ichthyosaurus over time?",
             "options": [
                 {
@@ -228,9 +260,9 @@
                     "explanation": "The fossil evidence shows Ichthyosaurus was present in both locations during the Triassic, not just migrating from one to the other."
                 },
                 {
-                    "text": "Ichthyosaurus population became restricted to European waters in the Jurassic period",
-                    "isCorrect": 1,
-                    "explanation": "The fossil evidence shows Ichthyosaurus was present in both continents during the Triassic but survived only in European waters during the Jurassic, indicating a restriction in their geographic range."
+                    "text": "Ichthyosaurus fossils were destroyed in North American rock layers",
+                    "isCorrect": 0,
+                    "explanation": "The absence of fossils in North American Jurassic layers more likely indicates the species no longer lived there, rather than destruction of fossils."
                 },
                 {
                     "text": "Ichthyosaurus evolved separately in Europe and North America",
@@ -238,174 +270,147 @@
                     "explanation": "Finding the same species in both locations during the Triassic suggests they were connected populations, not separate evolutionary paths."
                 },
                 {
-                    "text": "Ichthyosaurus fossils were destroyed in North American rock layers",
-                    "isCorrect": 0,
-                    "explanation": "The absence of fossils in North American Jurassic layers more likely indicates the species no longer lived there, rather than destruction of fossils."
+                    "text": "Ichthyosaurus population became restricted to European waters in the Jurassic period",
+                    "isCorrect": 1,
+                    "explanation": "The fossil evidence shows Ichthyosaurus was present in both continents during the Triassic but survived only in European waters during the Jurassic, indicating a restriction in their geographic range."
                 }
             ],
             "funFact": "Ichthyosaurus, despite looking similar to modern dolphins, was actually a reptile that returned to life in the sea, demonstrating how different species can evolve similar body shapes when adapting to similar environments - a process called convergent evolution."
         },
         {
-            "id": 10,
-            "text": "Based on the evolution of organisms described in the fossil record, which statement best describes the predominant pattern in how the complexity of life forms has changed over time on Earth?",
-            "options": [
-                {
-                    "text": "Organisms have become progressively more complex, starting from single-celled organisms and evolving into more complex multicellular life forms",
-                    "isCorrect": 1,
-                    "explanation": "The fossil record shows that early life began with simple single-celled organisms, and over millions of years, the general trend has been toward increasing maximum complexity, with many lineages evolving specialized structures and systems, even though some lineages have maintained simplicity or become simpler through specialization"
-                },
-                {
-                    "text": "Organisms have maintained the same level of complexity throughout Earth's history",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the fossil record clearly shows changes in organism complexity over time, not a constant level of complexity"
-                },
-                {
-                    "text": "Organisms started complex and became progressively simpler over time",
-                    "isCorrect": 0,
-                    "explanation": "This is the opposite of what the fossil record shows - organisms began simple and became more complex over time, not the other way around"
-                },
-                {
-                    "text": "Organism complexity has randomly fluctuated up and down throughout Earth's history",
-                    "isCorrect": 0,
-                    "explanation": "While there have been some variations and some lineages have become simpler, the overall trend in the fossil record shows a progressive increase in maximum complexity over time, not random fluctuations"
-                }
-            ],
-            "funFact": "The Cambrian Explosion, which occurred around 540 million years ago, was a period of rapid diversification where many complex body plans first appeared in the fossil record. During this time, most of the major animal body plans we see today emerged in a relatively short geological timespan of about 25 million years!"
-        },
-        {
             "id": 11,
-            "text": "Look at the progression of organisms from early life forms to modern life forms:\n\nEarly Life Forms: Single-celled organisms without a nucleus\n\u2193\nAdvanced Single-celled organisms with a nucleus\n\u2193\nSimple multicellular organisms\n\u2193\nComplex multicellular organisms with specialized organs\n\nWhat pattern of change does this sequence demonstrate about life on Earth?",
+            "text": "Looking at the history of life on Earth, which sequence correctly shows the order in which key adaptations appeared in organisms transitioning from water to land?",
             "options": [
                 {
-                    "text": "Organisms have become progressively more complex in their structure over time",
+                    "text": "Lungs \u2192 Legs \u2192 Gills \u2192 Fins",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is completely reversed. Aquatic adaptations (gills and fins) appeared long before terrestrial adaptations (lungs and legs)."
+                },
+                {
+                    "text": "Fins \u2192 Gills \u2192 Legs \u2192 Lungs",
+                    "isCorrect": 0,
+                    "explanation": "Gills actually appeared before fins in evolutionary history, and lungs developed alongside legs during the water-to-land transition."
+                },
+                {
+                    "text": "Gills \u2192 Fins \u2192 Lungs and Legs",
                     "isCorrect": 1,
-                    "explanation": "This is correct. The fossil record shows that life began with simple single-celled organisms and gradually evolved to become more complex with specialized structures and organs."
+                    "explanation": "This is the correct evolutionary sequence. Gills appeared first in aquatic organisms, followed by fins, and then lungs and legs developed as organisms began adapting to life on land."
                 },
                 {
-                    "text": "Organisms have become progressively simpler in their structure over time",
+                    "text": "Gills \u2192 Lungs \u2192 Fins \u2192 Legs",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. The fossil record shows the opposite pattern - organisms have become more complex, not simpler, over time."
-                },
-                {
-                    "text": "Organism complexity has remained constant throughout Earth's history",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The fossil record clearly shows changes in complexity from simple to more complex organisms over time, not constant complexity."
-                },
-                {
-                    "text": "Complex and simple organisms appeared randomly throughout Earth's history",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The fossil record shows a clear pattern of increasing complexity over time, not random appearances of simple and complex organisms."
+                    "explanation": "While gills did appear first, legs evolved from fins as organisms transitioned to land, and lungs developed during this transition period."
                 }
             ],
-            "funFact": "The first complex multicellular organisms appeared in the fossil record during a period called the Cambrian Explosion, which occurred around 541 million years ago. During this relatively short period of about 25 million years, most major animal body plans we see today first appeared!"
+            "funFact": "The Tiktaalik, a fascinating transitional fossil discovered in 2004, shows how life adapted from water to land. It had both fish-like features (gills and fins) and amphibian-like features (primitive lungs and limb-like fins), representing a crucial step in vertebrate evolution!"
         },
         {
             "id": 12,
-            "text": "Scientists discovered a series of rock layers containing fossils near a volcanic site. The fossils below the volcanic ash layer showed 12 different species of marine organisms. However, in the rock layers immediately above the volcanic ash, they found only 3 species of marine organisms. What does this pattern in the fossil record most likely indicate?",
+            "text": "The Tiktaalik fossil shows characteristics of both fish and land animals. What does this transitional fossil suggest about the evolution of life on Earth?",
             "options": [
                 {
-                    "text": "A mass extinction event occurred due to volcanic activity",
+                    "text": "Life forms suddenly changed from aquatic to terrestrial organisms",
+                    "isCorrect": 0,
+                    "explanation": "Evolution is a gradual process - organisms didn't suddenly change from purely aquatic to purely terrestrial forms. Transitional fossils show intermediate stages."
+                },
+                {
+                    "text": "All ancient organisms had both aquatic and terrestrial features",
+                    "isCorrect": 0,
+                    "explanation": "Not all ancient organisms had both aquatic and terrestrial features. Transitional fossils represent specific stages in evolutionary transitions."
+                },
+                {
+                    "text": "Land animals evolved completely independently from aquatic life",
+                    "isCorrect": 0,
+                    "explanation": "Transitional fossils like Tiktaalik provide evidence that land animals evolved from aquatic ancestors, not independently."
+                },
+                {
+                    "text": "Organisms gradually developed features to survive on land while retaining some aquatic characteristics",
                     "isCorrect": 1,
-                    "explanation": "The sudden decrease from 12 species to 3 species in the layers above the volcanic ash suggests a mass extinction event caused by volcanic activity"
-                },
-                {
-                    "text": "The organisms evolved into land-dwelling creatures",
-                    "isCorrect": 0,
-                    "explanation": "While evolution from water to land did occur for some species, this sudden decrease in marine species with volcanic evidence points to an extinction event rather than evolution"
-                },
-                {
-                    "text": "The remaining organisms moved to a different location",
-                    "isCorrect": 0,
-                    "explanation": "Migration wouldn't explain the presence of volcanic ash and the sudden decrease in fossil diversity across the layers"
-                },
-                {
-                    "text": "The fossils in upper layers haven't been discovered yet",
-                    "isCorrect": 0,
-                    "explanation": "Since fossils were found both below and above the volcanic ash layer, this explanation doesn't account for the dramatic decrease in species diversity"
+                    "explanation": "The presence of both fins/gills and legs/lungs in Tiktaalik shows how organisms gradually evolved features for land survival while maintaining some aquatic adaptations."
                 }
             ],
-            "funFact": "The largest mass extinction in Earth's history, known as the Great Dying, occurred about 252 million years ago and was likely triggered by massive volcanic eruptions in what is now Siberia. This event wiped out about 90% of all marine species!"
+            "funFact": "Tiktaalik lived about 375 million years ago and is nicknamed the 'fishapod' because it represents a transition between fish and tetrapods (four-legged animals). Its discovery in 2004 helped fill a major gap in our understanding of how vertebrates moved from water to land."
         },
         {
             "id": 13,
-            "text": "Fossils of similar marine organisms have been found in rock layers of the same age across different continents. What does this pattern suggest about natural laws and processes throughout Earth's history?",
+            "text": "During Earth's history, organisms have evolved from simple single-celled forms to more complex multi-cellular forms. Which of the following best describes this pattern of change in organism complexity over time?",
             "options": [
                 {
-                    "text": "Natural processes that formed fossils operated consistently across different locations in the past, just as they do today",
+                    "text": "Complex organisms appeared randomly throughout Earth's history with no particular pattern",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The fossil record shows a clear pattern of increasing complexity over time, not random appearances of complex organisms."
+                },
+                {
+                    "text": "Single-celled and multi-cellular organisms appeared simultaneously and have remained unchanged",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The fossil record shows a clear progression from simple to complex organisms over time, not simultaneous appearance or lack of change."
+                },
+                {
+                    "text": "Early life forms were complex multi-cellular organisms that gradually became simpler single-celled organisms",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The fossil record shows that life began with simple single-celled organisms and became more complex over time, not the other way around."
+                },
+                {
+                    "text": "Simple single-celled organisms appeared first, followed by increasingly complex multi-cellular organisms over time",
                     "isCorrect": 1,
-                    "explanation": "Finding similar fossils in rocks of the same age across different locations suggests that the natural processes that formed these fossils worked the same way everywhere, supporting the idea that natural laws are consistent over time and space."
-                },
-                {
-                    "text": "Natural processes were completely different in the past compared to today, which is why we find similar fossils everywhere",
-                    "isCorrect": 0,
-                    "explanation": "This contradicts the evidence. The consistent patterns in fossil formation across locations actually suggest that natural processes worked similarly in the past as they do today, not differently."
-                },
-                {
-                    "text": "The presence of similar fossils in different locations is purely coincidental and tells us nothing about natural laws",
-                    "isCorrect": 0,
-                    "explanation": "The systematic pattern of similar fossils appearing in rocks of the same age across different locations is too consistent to be coincidental. It provides evidence about the consistency of natural laws."
-                },
-                {
-                    "text": "Natural processes only operated in certain locations in the past, which is where we find these fossils",
-                    "isCorrect": 0,
-                    "explanation": "Finding similar fossils across different continents shows that natural processes operated everywhere, not just in certain locations. This supports the universal nature of natural laws."
+                    "explanation": "Correct! The fossil record shows that life began with simple single-celled organisms, and over millions of years, organisms evolved to become progressively more complex, eventually leading to multi-cellular life forms."
                 }
             ],
-            "funFact": "The principle that natural laws remain constant over time and space is called uniformitarianism. This principle, first proposed by James Hutton in the 1780s, revolutionized our understanding of Earth's history and remains a fundamental concept in geology and paleontology."
+            "funFact": "The first known single-celled organisms appeared in the fossil record approximately 3.5 billion years ago, while the first complex multi-cellular organisms didn't appear until about 600 million years ago during a period known as the Cambrian Explosion!"
         },
         {
             "id": 14,
-            "text": "A geologist discovers five distinct rock layers in a cliff face, each containing different types of fossils. Layer 1 is at the surface, Layer 2 is below Layer 1, Layer 3 is below Layer 2, Layer 4 is below Layer 3, and Layer 5 is at the bottom. In which layer would you expect to find the oldest fossils?",
+            "text": "Scientists have discovered fossils of an ancient organism called Archaeopteryx, which shows features of both dinosaurs (like sharp teeth and a bony tail) and modern birds (like feathers and wings). What does this fossil evidence suggest about the evolution of birds?",
             "options": [
                 {
-                    "text": "Layer 1",
+                    "text": "Birds appeared suddenly with no connection to dinosaurs",
                     "isCorrect": 0,
-                    "explanation": "Layer 1 is at the surface and would contain the most recent fossils since newer sediment layers form on top of older ones."
+                    "explanation": "This contradicts the fossil evidence showing transitional forms like Archaeopteryx that link dinosaurs and birds through shared features."
                 },
                 {
-                    "text": "Layer 3",
-                    "isCorrect": 0,
-                    "explanation": "Layer 3 is in the middle of the sequence, so it would contain fossils that are older than those in Layers 1 and 2, but younger than those in Layers 4 and 5."
-                },
-                {
-                    "text": "Layer 5",
+                    "text": "Birds evolved gradually from dinosaur ancestors through transitional forms",
                     "isCorrect": 1,
-                    "explanation": "Layer 5 is at the bottom of the sequence. Since sediment layers build up over time with newer layers on top, the bottom layer contains the oldest fossils."
+                    "explanation": "Archaeopteryx represents a transitional fossil showing both dinosaur and bird features, providing evidence for the gradual evolution of birds from dinosaur ancestors."
                 },
                 {
-                    "text": "All layers contain fossils of the same age",
+                    "text": "Modern birds evolved directly from modern reptiles",
                     "isCorrect": 0,
-                    "explanation": "Different rock layers form at different times, with deeper layers being older than layers closer to the surface. Therefore, fossils in different layers are typically of different ages."
+                    "explanation": "The fossil evidence shows birds evolved from dinosaur ancestors, not directly from modern reptiles. Transitional fossils like Archaeopteryx demonstrate this evolutionary pathway."
+                },
+                {
+                    "text": "Dinosaurs and birds existed at the same time but were unrelated",
+                    "isCorrect": 0,
+                    "explanation": "The fossil record shows a clear progression from dinosaur features to bird features, indicating they were related through evolution rather than being separate groups."
                 }
             ],
-            "funFact": "The principle of superposition, first proposed by Nicolas Steno in 1669, states that in undisturbed rock sequences, the oldest layers are at the bottom and the youngest layers are at the top. This fundamental principle helps scientists determine the relative ages of fossils without actually dating them!"
+            "funFact": "Archaeopteryx lived about 150 million years ago during the Late Jurassic period. About the size of a modern crow, it is considered one of the most important fossil discoveries in the history of paleontology, helping to demonstrate the evolutionary link between dinosaurs and birds."
         },
         {
             "id": 15,
-            "text": "A series of rock layers contains the following fossil types from bottom to top:\nLayer 1 (oldest): Simple single-celled organisms\nLayer 2: Simple multi-celled marine organisms\nLayer 3: Complex marine organisms with shells\nLayer 4: Early fish and marine plants\nLayer 5 (youngest): Diverse fish species and early amphibians\n\nWhat pattern of change in organism diversity is shown by these fossil layers over time?",
+            "text": "Scientists discovered a series of rock layers containing fossils. The data shows the following pattern from oldest (bottom) to youngest (top) layers:\n\nLayer 1 (bottom): Many diverse marine organisms including trilobites\nLayer 2: Very few fossils found\nLayer 3: No trilobites, but new types of marine organisms appear\nLayer 4 (top): Many new types of organisms including early fish\n\nBased on this fossil pattern, when did a mass extinction likely occur?",
             "options": [
                 {
-                    "text": "Organisms became progressively more complex and diverse over time",
+                    "text": "No mass extinction occurred",
+                    "isCorrect": 0,
+                    "explanation": "The dramatic decrease in fossil diversity from Layer 1 to Layer 2 is strong evidence of a mass extinction event."
+                },
+                {
+                    "text": "Between Layer 3 and Layer 4",
+                    "isCorrect": 0,
+                    "explanation": "The transition from Layer 3 to 4 shows increased diversity and new species emerging, which is the opposite of what happens during a mass extinction."
+                },
+                {
+                    "text": "Between Layer 2 and Layer 3",
+                    "isCorrect": 0,
+                    "explanation": "While new species appeared in Layer 3, this represents recovery and evolution after the extinction, not the extinction event itself."
+                },
+                {
+                    "text": "Between Layer 1 and Layer 2",
                     "isCorrect": 1,
-                    "explanation": "The fossil layers show a clear progression from simple single-celled organisms to more complex and diverse life forms, culminating in vertebrates like fish and amphibians"
-                },
-                {
-                    "text": "Organism diversity remained constant but locations changed",
-                    "isCorrect": 0,
-                    "explanation": "The layers show clear changes in organism complexity and diversity rather than just changes in location"
-                },
-                {
-                    "text": "Organisms became progressively simpler over time",
-                    "isCorrect": 0,
-                    "explanation": "The pattern shows increasing complexity from single-celled to vertebrate organisms, not decreasing complexity"
-                },
-                {
-                    "text": "Only marine organisms existed throughout all time periods",
-                    "isCorrect": 0,
-                    "explanation": "While early layers show only marine life, the youngest layer includes amphibians which could live on land"
+                    "explanation": "The sharp decrease in fossil diversity from Layer 1 to Layer 2 indicates a mass extinction event, where many species including trilobites disappeared suddenly."
                 }
             ],
-            "funFact": "The earliest known fossils are of microscopic organisms that lived approximately 3.5 billion years ago, while the first vertebrate animals with bones appeared in the fossil record about 525 million years ago during the Cambrian Period!"
+            "funFact": "Earth has experienced five major mass extinction events throughout its history. The most famous one occurred 66 million years ago, wiping out the dinosaurs. However, the largest mass extinction happened about 252 million years ago, known as the 'Great Dying,' which eliminated about 95% of marine species!"
         }
     ]
 }

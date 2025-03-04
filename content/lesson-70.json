@@ -4,93 +4,66 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which sequence correctly shows how sunlight affects different surfaces on a hot day?",
+            "text": "A group of students wants to keep their ice cream from melting quickly during a summer picnic. Which solution would work best to slow down the melting?",
             "options": [
                 {
-                    "text": "The dark metal surface heats up quickly, concrete warms slowly, and grass remains relatively cool",
+                    "text": "Place the ice cream on a metal tray",
+                    "isCorrect": 0,
+                    "explanation": "Metal surfaces heat up quickly in sunlight and would actually speed up the melting of ice cream."
+                },
+                {
+                    "text": "Place the ice cream under a thick umbrella",
                     "isCorrect": 1,
-                    "explanation": "Dark metal surfaces absorb more sunlight and heat up fastest, concrete absorbs heat more slowly, while grass stays cooler due to its ability to reflect light and release water through transpiration"
+                    "explanation": "A thick umbrella provides good shade, blocking sunlight and reducing the heating effect, which helps keep the ice cream cold longer."
                 },
                 {
-                    "text": "Grass heats up quickly, concrete warms slowly, and dark metal stays cool",
+                    "text": "Cover the ice cream with clear plastic wrap",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because grass actually stays relatively cool while metal surfaces heat up much more quickly due to their properties"
+                    "explanation": "Clear plastic wrap is see-through and allows sunlight to pass through, offering minimal protection from heat."
                 },
                 {
-                    "text": "All surfaces heat up at exactly the same rate when exposed to sunlight",
+                    "text": "Put the ice cream next to a thermometer",
                     "isCorrect": 0,
-                    "explanation": "Different materials absorb and reflect sunlight differently, so they don't heat up at the same rate"
-                },
-                {
-                    "text": "Concrete heats up fastest, grass warms quickly, and metal stays the coolest",
-                    "isCorrect": 0,
-                    "explanation": "Metal actually heats up faster than concrete, and grass stays cooler than both materials due to its properties"
+                    "explanation": "A thermometer only measures temperature and does not provide any protection from sunlight or heat."
                 }
             ],
-            "funFact": "In some desert areas, the surface temperature of dark-colored materials can reach up to 180\u00b0F (82\u00b0C) on a sunny day, while nearby light-colored or reflective surfaces might be 50\u00b0F (28\u00b0C) cooler!"
+            "funFact": "Desert nomads have used similar principles for centuries, using thick cloth canopies to create cool spaces in hot deserts where temperatures can reach over 120\u00b0F (49\u00b0C)!"
         },
         {
             "id": 2,
-            "text": "Which of the following surfaces would you most likely find on Earth's surface?",
+            "text": "Which material would be most effective at providing shade on a hot sunny day?",
             "options": [
                 {
-                    "text": "Grass, sand, and snow",
+                    "text": "A piece of tissue paper",
+                    "isCorrect": 0,
+                    "explanation": "Tissue paper is too thin and partially transparent, making it a poor choice for providing shade."
+                },
+                {
+                    "text": "A clear glass window",
+                    "isCorrect": 0,
+                    "explanation": "Clear glass allows most sunlight to pass through, making it less effective at providing shade."
+                },
+                {
+                    "text": "A thin plastic sheet",
+                    "isCorrect": 0,
+                    "explanation": "A thin plastic sheet is partially transparent and may allow significant sunlight to pass through, reducing its effectiveness as shade."
+                },
+                {
+                    "text": "A thick wooden board",
                     "isCorrect": 1,
-                    "explanation": "Earth's surface is diverse and includes natural surfaces like grass in fields, sand in deserts and beaches, and snow in cold regions."
-                },
-                {
-                    "text": "Lava, diamonds, and clouds",
-                    "isCorrect": 0,
-                    "explanation": "While lava exists in volcanoes, diamonds are found deep underground, and clouds are in the atmosphere - not on Earth's surface."
-                },
-                {
-                    "text": "Gold, silver, and copper",
-                    "isCorrect": 0,
-                    "explanation": "These are metals typically found underground in mines, not commonly visible on Earth's surface."
-                },
-                {
-                    "text": "Stars, meteors, and comets",
-                    "isCorrect": 0,
-                    "explanation": "These are objects found in space, not on Earth's surface."
+                    "explanation": "A thick wooden board is solid and opaque, making it excellent at blocking sunlight and providing shade."
                 }
             ],
-            "funFact": "The Earth's surface is constantly changing! Rivers carve valleys, volcanoes create new land, and wind shapes sand dunes. These processes continuously transform the landscape we see around us."
+            "funFact": "Desert dwellers like the Bedouin people traditionally use thick, dark-colored tent materials made from goat hair that not only provide excellent shade but can also reduce temperatures inside by up to 15 degrees Celsius compared to outside!"
         },
         {
             "id": 3,
-            "text": "A student puts two identical ice cream cones outside - one in direct sunlight and one under a tree's shade. Which ice cream cone will melt faster?",
-            "options": [
-                {
-                    "text": "The ice cream cone in direct sunlight",
-                    "isCorrect": 1,
-                    "explanation": "Sunlight provides heat energy that speeds up the melting process. Objects in direct sunlight heat up faster than those in shade."
-                },
-                {
-                    "text": "The ice cream cone in the shade",
-                    "isCorrect": 0,
-                    "explanation": "Shade blocks sunlight and reduces warming, so objects in shade heat up more slowly and take longer to melt."
-                },
-                {
-                    "text": "Both ice cream cones will melt at the same rate",
-                    "isCorrect": 0,
-                    "explanation": "The amount of sunlight exposure affects melting rate. Objects exposed to direct sunlight receive more heat energy and melt faster than those in shade."
-                }
-            ],
-            "funFact": "On a hot summer day, the temperature difference between shaded and sunny areas can be as much as 10-15 degrees Fahrenheit! This is why many animals seek shade during the hottest parts of the day."
-        },
-        {
-            "id": 4,
             "text": "What happens when sunlight hits an object?",
             "options": [
                 {
-                    "text": "The object gradually heats up as it absorbs the sunlight",
-                    "isCorrect": 1,
-                    "explanation": "When sunlight hits an object, the object absorbs the light energy which converts to heat energy, causing the object's temperature to increase."
-                },
-                {
-                    "text": "The object immediately starts glowing",
+                    "text": "The object gets colder",
                     "isCorrect": 0,
-                    "explanation": "Objects don't start glowing just because sunlight hits them. They heat up gradually as they absorb the sun's energy."
+                    "explanation": "Sunlight adds energy to objects, causing them to heat up, not cool down."
                 },
                 {
                     "text": "The object stays at the same temperature",
@@ -98,102 +71,107 @@
                     "explanation": "Objects don't maintain their temperature when exposed to sunlight - they warm up as they absorb the sun's energy."
                 },
                 {
-                    "text": "The object gets colder",
+                    "text": "The object immediately starts glowing",
                     "isCorrect": 0,
-                    "explanation": "Sunlight adds energy to objects, causing them to heat up, not cool down."
+                    "explanation": "Objects don't start glowing just because sunlight hits them. They heat up gradually as they absorb the sun's energy."
+                },
+                {
+                    "text": "The object gradually heats up as it absorbs the sunlight",
+                    "isCorrect": 1,
+                    "explanation": "When sunlight hits an object, the object absorbs the light energy which converts to heat energy, causing the object's temperature to increase."
                 }
             ],
             "funFact": "The sun's surface temperature is about 10,000\u00b0F (5,500\u00b0C)! Even though the sun is 93 million miles away from Earth, its powerful rays can still heat up objects on our planet."
         },
         {
-            "id": 5,
-            "text": "A group of students is conducting an experiment to test which surface heats up fastest in direct sunlight. Which of these surfaces would heat up the most quickly?",
+            "id": 4,
+            "text": "Sarah wants to save her popsicle from melting while playing in the park on a sunny day. Which action would be most effective to slow down the melting of her popsicle?",
             "options": [
                 {
-                    "text": "Dark asphalt",
+                    "text": "Wave the popsicle back and forth",
+                    "isCorrect": 0,
+                    "explanation": "While moving the popsicle might create a slight cooling effect from air movement, it doesn't protect it from the sun's heat and won't significantly slow the melting."
+                },
+                {
+                    "text": "Hold the popsicle higher up in the air",
+                    "isCorrect": 0,
+                    "explanation": "Holding the popsicle higher doesn't protect it from sunlight. It will continue to melt at the same rate since it's still exposed to direct sunlight."
+                },
+                {
+                    "text": "Move to sit under a tree",
                     "isCorrect": 1,
-                    "explanation": "Dark asphalt absorbs more sunlight and heats up faster than other surfaces because of its dark color and dense material."
+                    "explanation": "Sitting under a tree provides shade that blocks sunlight, reducing the heat reaching the popsicle and slowing down the melting process."
                 },
                 {
-                    "text": "White sand",
+                    "text": "Place the popsicle on the ground",
                     "isCorrect": 0,
-                    "explanation": "White sand reflects more sunlight than darker surfaces, so it heats up more slowly."
-                },
-                {
-                    "text": "Grass",
-                    "isCorrect": 0,
-                    "explanation": "Grass contains water and reflects some sunlight, which helps it stay cooler than harder surfaces."
-                },
-                {
-                    "text": "Lake water",
-                    "isCorrect": 0,
-                    "explanation": "Water has a high heat capacity and takes longer to heat up than solid surfaces."
+                    "explanation": "Placing the popsicle on the ground would actually make it melt faster because the ground gets very hot in sunlight."
                 }
             ],
-            "funFact": "In some desert cities, streets and parking lots can get so hot during summer (up to 140\u00b0F/60\u00b0C) that you could actually fry an egg on them! This is why many cities are now painting roads and roofs with light colors to keep them cooler."
+            "funFact": "On a hot sunny day, surfaces exposed to direct sunlight can reach temperatures up to 40-50\u00b0F (22-28\u00b0C) hotter than surfaces in the shade! This is why desert animals often seek shade during the hottest parts of the day."
+        },
+        {
+            "id": 5,
+            "text": "Sara left two popsicles on a table outside - one in direct sunlight and one in the shade under a tree. Which popsicle will melt faster and why?",
+            "options": [
+                {
+                    "text": "Both popsicles will melt at exactly the same rate",
+                    "isCorrect": 0,
+                    "explanation": "Different amounts of sunlight exposure lead to different melting rates - the popsicle in direct sunlight receives more heat energy"
+                },
+                {
+                    "text": "The popsicle in the shade will melt faster because it's cooler in the shade",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - shade actually reduces warming from the sun, so things melt more slowly in the shade"
+                },
+                {
+                    "text": "The popsicle in direct sunlight will melt faster because sunlight heats up objects and speeds up the melting process",
+                    "isCorrect": 1,
+                    "explanation": "Sunlight provides heat energy that increases the temperature and speeds up the melting of solids into liquids"
+                },
+                {
+                    "text": "Neither popsicle will melt because they are frozen",
+                    "isCorrect": 0,
+                    "explanation": "Frozen items can still melt when exposed to heat energy, even if they start out frozen"
+                }
+            ],
+            "funFact": "The process of melting actually requires a specific amount of energy called the 'heat of fusion.' For water/ice, it takes 80 calories of heat energy to melt just one gram of ice into liquid water while keeping the temperature constant at 0\u00b0C (32\u00b0F)!"
         },
         {
             "id": 6,
-            "text": "A playground at a school has three different surfaces: a concrete basketball court, a grassy field, and a sandy area. On a hot summer day with direct sunlight, which surface would become the hottest?",
+            "text": "A group of students wants to build a shade structure for their playground to protect them from the hot sun during recess. Which design would provide the best protection from sunlight?",
             "options": [
                 {
-                    "text": "The concrete basketball court",
+                    "text": "A clear plastic sheet",
+                    "isCorrect": 0,
+                    "explanation": "Clear plastic is see-through and allows most sunlight to pass through, providing minimal shade and protection from the sun's heat."
+                },
+                {
+                    "text": "A solid wooden canopy",
                     "isCorrect": 1,
-                    "explanation": "Concrete is a dense, solid material that absorbs and retains heat well from sunlight, causing it to become very hot compared to other surfaces."
+                    "explanation": "A solid wooden canopy would provide the best shade because solid materials block more sunlight than see-through materials, offering maximum protection from the sun's heat."
                 },
                 {
-                    "text": "The grassy field",
+                    "text": "A glass panel",
                     "isCorrect": 0,
-                    "explanation": "Grass stays relatively cooler because it contains water and can reflect some sunlight through its leaves. It also provides its own shade."
+                    "explanation": "Glass is transparent and allows most sunlight to pass through, making it a poor choice for providing shade and protection from the sun's heat."
                 },
                 {
-                    "text": "The sandy area",
+                    "text": "A thin mesh fabric",
                     "isCorrect": 0,
-                    "explanation": "While sand can get hot, its loose particles allow some heat to escape between the grains, making it less hot than solid concrete."
+                    "explanation": "Thin mesh fabric has many small holes that allow sunlight to pass through, making it less effective at providing shade than solid materials."
                 }
             ],
-            "funFact": "In some desert cities, the surface temperature of concrete and asphalt can reach up to 140\u00b0F (60\u00b0C) on a hot summer day - hot enough to cook an egg! This is why many cities are now painting roads and sidewalks with special light-colored coatings to keep them cooler."
+            "funFact": "The world's largest shade structure is in Medina, Saudi Arabia. It consists of giant umbrellas that automatically open during the day to protect people from the intense desert sun and close at night to allow the area to cool down!"
         },
         {
             "id": 7,
-            "text": "You are organizing an outdoor ice sculpture display for a summer afternoon event. Which material would be most effective to create shade and protect the ice sculptures from melting quickly?",
-            "options": [
-                {
-                    "text": "A thick wooden panel",
-                    "isCorrect": 1,
-                    "explanation": "A thick wooden panel is solid and not see-through, making it the most effective at blocking sunlight and providing shade to slow down melting."
-                },
-                {
-                    "text": "A clear glass window",
-                    "isCorrect": 0,
-                    "explanation": "Clear glass allows most sunlight to pass through, providing minimal shade and protection from melting."
-                },
-                {
-                    "text": "A thin plastic sheet",
-                    "isCorrect": 0,
-                    "explanation": "A thin plastic sheet is partially see-through and would not block enough sunlight to effectively protect the ice sculptures."
-                },
-                {
-                    "text": "A mesh screen",
-                    "isCorrect": 0,
-                    "explanation": "A mesh screen has many holes that allow sunlight to pass through, making it ineffective at providing adequate shade."
-                }
-            ],
-            "funFact": "Professional ice sculptors often use specialized cooling tents with reflective surfaces that can keep ice sculptures frozen for hours even in warm outdoor temperatures!"
-        },
-        {
-            "id": 8,
             "text": "A gardener wants to protect delicate seedlings from getting too hot in the summer sun. Which material would be best to create shade for the plants?",
             "options": [
                 {
-                    "text": "A thick wooden panel",
-                    "isCorrect": 1,
-                    "explanation": "A solid, thick wooden panel blocks sunlight effectively and provides consistent shade, helping keep the plants cool."
-                },
-                {
-                    "text": "A clear glass sheet",
+                    "text": "A sheet of aluminum foil",
                     "isCorrect": 0,
-                    "explanation": "Clear glass allows most sunlight to pass through, providing very little shade and protection for the plants."
+                    "explanation": "While aluminum foil blocks light, it can reflect heat back onto plants and may tear easily in wind or rain."
                 },
                 {
                     "text": "A thin plastic wrap",
@@ -201,162 +179,157 @@
                     "explanation": "Thin plastic wrap is too transparent and flimsy to provide adequate shade protection for the plants."
                 },
                 {
-                    "text": "A sheet of aluminum foil",
+                    "text": "A clear glass sheet",
                     "isCorrect": 0,
-                    "explanation": "While aluminum foil blocks light, it can reflect heat back onto plants and may tear easily in wind or rain."
+                    "explanation": "Clear glass allows most sunlight to pass through, providing very little shade and protection for the plants."
+                },
+                {
+                    "text": "A thick wooden panel",
+                    "isCorrect": 1,
+                    "explanation": "A solid, thick wooden panel blocks sunlight effectively and provides consistent shade, helping keep the plants cool."
                 }
             ],
             "funFact": "Desert plants have evolved their own natural shade protection! Many cacti have spines that create a network of tiny shadows on their surface, helping to keep them cool in intense desert sunlight."
         },
         {
-            "id": 9,
-            "text": "Sarah wants to compare how different materials heat up in the sun. Which scientific tool and method would be most appropriate for her investigation?",
+            "id": 8,
+            "text": "Students observed snow melting in different areas of their schoolyard on a sunny winter day. In which location would the snow melt the fastest?",
             "options": [
                 {
-                    "text": "Use a thermometer to measure and record temperatures of different materials at regular time intervals",
+                    "text": "Behind a glass window",
+                    "isCorrect": 0,
+                    "explanation": "While glass allows some sunlight through, it still provides partial shade and reduces the warming effect of direct sunlight."
+                },
+                {
+                    "text": "Under a tree with thick branches",
+                    "isCorrect": 0,
+                    "explanation": "Trees provide shade that reduces the amount of sunlight reaching the snow, which slows down the melting process."
+                },
+                {
+                    "text": "On a dark asphalt surface in direct sunlight",
                     "isCorrect": 1,
-                    "explanation": "A thermometer is the correct scientific tool to measure temperature, and taking measurements at regular intervals helps track how materials heat up differently over time"
+                    "explanation": "Dark surfaces absorb more sunlight and heat up faster, causing snow on them to melt more quickly than in other locations."
                 },
                 {
-                    "text": "Touch different materials with hands to feel which one is hotter",
+                    "text": "In a wooden box",
                     "isCorrect": 0,
-                    "explanation": "Our sense of touch is not accurate enough to measure temperature differences scientifically and can be unsafe with very hot materials"
-                },
-                {
-                    "text": "Place ice cubes on materials and see which melts first",
-                    "isCorrect": 0,
-                    "explanation": "While this might give a rough idea, it's not as precise as using a thermometer and doesn't provide actual temperature measurements"
-                },
-                {
-                    "text": "Look at the color change of materials in sunlight",
-                    "isCorrect": 0,
-                    "explanation": "Color changes don't reliably indicate temperature and many materials don't change color when heated"
+                    "explanation": "The box provides complete shade, protecting the snow from direct sunlight and significantly slowing the melting process."
                 }
             ],
-            "funFact": "The first reliable mercury thermometer was invented by Daniel Gabriel Fahrenheit in 1714. Before that, scientists struggled to accurately measure temperature, often relying on crude methods like feeling the heat with their hands!"
+            "funFact": "In nature, snow often melts faster in areas with dark-colored rocks or soil because these surfaces absorb more sunlight and create warm spots. This is why you might see patches of bare ground appear first around rocks or dark surfaces during spring thaw!"
+        },
+        {
+            "id": 9,
+            "text": "A student sets up an experiment with three identical ice cubes:\nIce cube A: Placed in direct sunlight on a table\nIce cube B: Placed in a cardboard box on the same table\nIce cube C: Placed under a clear glass bowl on the same table\n\nWhich ice cube will melt the fastest?",
+            "options": [
+                {
+                    "text": "Ice cube C",
+                    "isCorrect": 0,
+                    "explanation": "While the glass bowl allows sunlight through and might create a greenhouse effect that traps some heat, it still absorbs and reflects some solar radiation, making the ice cube melt slower than one in direct sunlight."
+                },
+                {
+                    "text": "Ice cube B",
+                    "isCorrect": 0,
+                    "explanation": "Ice cube B is protected by the cardboard box which provides shade and blocks sunlight, slowing down the melting process."
+                },
+                {
+                    "text": "Ice cube A",
+                    "isCorrect": 1,
+                    "explanation": "Ice cube A is in direct sunlight with no protection, so it will receive the most heat energy and melt fastest."
+                },
+                {
+                    "text": "All ice cubes will melt at the same rate",
+                    "isCorrect": 0,
+                    "explanation": "The amount of shade and protection from sunlight affects melting rates. Ice cubes in different conditions will melt at different speeds."
+                }
+            ],
+            "funFact": "The sun's rays can heat different surfaces to very different temperatures. On a hot summer day, dark asphalt can reach temperatures of up to 140\u00b0F (60\u00b0C), while a nearby patch of grass might only be 75\u00b0F (24\u00b0C)!"
         },
         {
             "id": 10,
-            "text": "Sarah's popsicle is melting quickly while she plays outside. What would be the most effective way for her to slow down the melting of her popsicle?",
+            "text": "A community park wants to create a shaded picnic area to keep visitors cool during hot summer days. Which solution would work best to protect people from the sun's heat?",
             "options": [
                 {
-                    "text": "Move to a shaded area under a tree",
+                    "text": "Hang thin plastic sheets above the picnic tables",
+                    "isCorrect": 0,
+                    "explanation": "Thin plastic sheets are not as effective at blocking sunlight and may not provide adequate shade or cooling."
+                },
+                {
+                    "text": "Place wire mesh above the picnic tables",
+                    "isCorrect": 0,
+                    "explanation": "Wire mesh has many gaps that allow sunlight to pass through, making it ineffective at providing shade and cooling."
+                },
+                {
+                    "text": "Put clear glass panels above the picnic tables",
+                    "isCorrect": 0,
+                    "explanation": "Clear glass allows most sunlight to pass through, providing minimal shade and protection from heat."
+                },
+                {
+                    "text": "Install thick wooden panels above the picnic tables",
                     "isCorrect": 1,
-                    "explanation": "Shade blocks sunlight and reduces warming, which will slow down the melting process of the popsicle"
-                },
-                {
-                    "text": "Hold the popsicle up higher in the air",
-                    "isCorrect": 0,
-                    "explanation": "Holding the popsicle higher doesn't protect it from sunlight and won't significantly affect the melting rate"
-                },
-                {
-                    "text": "Move to an area with lighter colored ground",
-                    "isCorrect": 0,
-                    "explanation": "While lighter surfaces reflect more sunlight, the popsicle would still be exposed to direct sunlight and continue melting quickly"
-                },
-                {
-                    "text": "Wave the popsicle back and forth in the air",
-                    "isCorrect": 0,
-                    "explanation": "Moving the popsicle through the air won't protect it from sunlight and won't significantly slow down the melting"
+                    "explanation": "Solid, thick materials like wooden panels provide excellent shade and block sunlight effectively, keeping the area underneath cooler."
                 }
             ],
-            "funFact": "In Death Valley, one of the hottest places on Earth, summer ground temperatures can reach up to 178\u00b0F (81\u00b0C) - hot enough to not just melt a popsicle instantly but also to fry an egg in about 20 minutes!"
+            "funFact": "In ancient Rome, large cloth awnings called 'velaria' were used to shade spectators at the Colosseum from the intense Mediterranean sun. These massive shade structures could cover up to 50,000 people!"
         },
         {
             "id": 11,
-            "text": "A scientist wants to cook an egg outside using sunlight. Which of the following conditions would cook the egg most effectively?",
+            "text": "At a local playground, children have noticed that the metal slide becomes too hot to use during sunny afternoons. What would be the best solution to make the slide usable throughout the day?",
             "options": [
                 {
-                    "text": "Place the egg on a dark metal surface in direct sunlight on a hot day",
+                    "text": "Install a shade structure over the slide",
                     "isCorrect": 1,
-                    "explanation": "Dark metal surfaces absorb more sunlight and heat up quickly, making them ideal for cooking with solar heat"
+                    "explanation": "A shade structure would block direct sunlight, preventing the metal surface from getting too hot and making the slide safe to use all day."
                 },
                 {
-                    "text": "Place the egg on grass in direct sunlight",
+                    "text": "Spray water on the slide periodically",
                     "isCorrect": 0,
-                    "explanation": "Grass doesn't heat up enough from sunlight to cook an egg, as it contains water and reflects some light"
+                    "explanation": "While water might temporarily cool the slide, it's not a practical long-term solution and could make the slide slippery and unsafe."
                 },
                 {
-                    "text": "Place the egg on a white surface under a tree",
+                    "text": "Paint the slide with bright colors",
                     "isCorrect": 0,
-                    "explanation": "White surfaces reflect more sunlight than they absorb, and the tree provides shade that blocks sunlight"
+                    "explanation": "While paint might change the appearance, it won't significantly reduce the heating of the metal surface from sunlight."
                 },
                 {
-                    "text": "Place the egg on sand in a shaded area",
+                    "text": "Only allow children to use the slide in the morning",
                     "isCorrect": 0,
-                    "explanation": "While sand can get hot, the shaded area blocks sunlight needed for heating the surface"
+                    "explanation": "This doesn't solve the problem - it just avoids it. A good solution should make the slide usable throughout the day."
                 }
             ],
-            "funFact": "In Death Valley, California, where summer temperatures can exceed 120\u00b0F (49\u00b0C), people have successfully cooked eggs on the sidewalk during extremely hot days!"
+            "funFact": "Different playground materials can reach very different temperatures in the sun. While a metal slide might reach 120\u00b0F (49\u00b0C), plastic playground equipment typically stays about 20-30 degrees cooler under the same conditions!"
         },
         {
             "id": 12,
-            "text": "A science team needs to protect their thermometers from getting too hot in the sunlight during an outdoor experiment. Which solution would work best to protect their equipment?",
+            "text": "The ice cream at your family picnic is melting too quickly in the sun. You want to solve this problem. What would be the most effective solution using the materials available at the picnic?",
             "options": [
                 {
-                    "text": "Cover the thermometers with a thick wooden box",
+                    "text": "Leave the ice cream container in direct sunlight but stir it frequently",
+                    "isCorrect": 0,
+                    "explanation": "Stirring doesn't protect the ice cream from sunlight and won't prevent it from melting quickly."
+                },
+                {
+                    "text": "Cover the ice cream container with clear plastic wrap",
+                    "isCorrect": 0,
+                    "explanation": "Clear plastic wrap is see-through and won't provide enough shade to protect the ice cream from sunlight."
+                },
+                {
+                    "text": "Place the ice cream container under a thick blanket",
                     "isCorrect": 1,
-                    "explanation": "A solid wooden box provides excellent shade as it is thick and not see-through, effectively blocking sunlight and preventing temperature increases."
+                    "explanation": "A thick blanket provides good shade and insulation, blocking sunlight and slowing down the melting process effectively."
                 },
                 {
-                    "text": "Place a clear plastic sheet over the thermometers",
+                    "text": "Put the ice cream container on a metal tray",
                     "isCorrect": 0,
-                    "explanation": "Clear plastic is see-through and allows most sunlight to pass through, providing minimal protection from heat."
-                },
-                {
-                    "text": "Leave the thermometers uncovered",
-                    "isCorrect": 0,
-                    "explanation": "Without any protection, direct sunlight will heat up the thermometers quickly, potentially affecting their accuracy."
-                },
-                {
-                    "text": "Cover with a thin paper sheet",
-                    "isCorrect": 0,
-                    "explanation": "While paper provides some shade, it is too thin to effectively block heat from sunlight for sensitive equipment."
+                    "explanation": "Metal surfaces heat up quickly in sunlight and would actually make the ice cream melt faster."
                 }
             ],
-            "funFact": "Scientists working in desert regions often use special reflective shelters called radiation shields to protect their temperature measuring equipment. These shields allow air to flow while blocking direct sunlight, ensuring accurate temperature readings."
+            "funFact": "Did you know that before modern refrigeration, people stored ice cream in deep holes in the ground covered with straw and blankets? This natural insulation helped keep the ice cream frozen for hours!"
         },
         {
             "id": 13,
-            "text": "You are planning a camping trip and need to choose a tent material that will provide the best shade from the sun. Which material would be most effective?",
-            "options": [
-                {
-                    "text": "A thick canvas tent",
-                    "isCorrect": 1,
-                    "explanation": "Thick, solid materials like canvas provide excellent shade because they block most sunlight from passing through."
-                },
-                {
-                    "text": "A clear plastic tent",
-                    "isCorrect": 0,
-                    "explanation": "Clear plastic is see-through and allows most sunlight to pass through, making it a poor choice for shade."
-                },
-                {
-                    "text": "A mesh tent",
-                    "isCorrect": 0,
-                    "explanation": "Mesh material has many small holes that allow sunlight to pass through, making it ineffective for shade."
-                },
-                {
-                    "text": "A thin nylon tent",
-                    "isCorrect": 0,
-                    "explanation": "While better than clear plastic, thin nylon still allows significant sunlight to pass through, providing less shade than thick materials."
-                }
-            ],
-            "funFact": "Desert nomads have traditionally used thick tent materials for shade. While some use dark materials for cultural or practical reasons like durability, they manage heat through clever tent designs with good ventilation and sometimes multiple layers with air gaps. Many nomadic groups actually prefer light-colored tents that reflect sunlight rather than absorb it!"
-        },
-        {
-            "id": 14,
             "text": "A gardener wants to build a greenhouse but needs to protect delicate plants from too much direct sunlight in summer. She tests different materials by measuring the temperature inside small boxes covered with these materials after 1 hour in the sun. Here are her results:\n\nClear plastic: 95\u00b0F\nWhite fabric: 82\u00b0F\nGreen mesh: 88\u00b0F\nBlue tinted glass: 90\u00b0F\n\nWhich material would work best as a greenhouse shade to protect the plants?",
             "options": [
-                {
-                    "text": "White fabric",
-                    "isCorrect": 1,
-                    "explanation": "White fabric allowed the least heat buildup (82\u00b0F), making it the best choice for shading plants from intense sunlight while still letting enough light through for growth."
-                },
-                {
-                    "text": "Clear plastic",
-                    "isCorrect": 0,
-                    "explanation": "Clear plastic allowed the most heat buildup (95\u00b0F), which could harm delicate plants. It doesn't provide adequate shade protection."
-                },
                 {
                     "text": "Green mesh",
                     "isCorrect": 0,
@@ -366,36 +339,73 @@
                     "text": "Blue tinted glass",
                     "isCorrect": 0,
                     "explanation": "Blue tinted glass led to higher temperatures (90\u00b0F) than white fabric, making it less suitable for protecting plants from excessive heat."
+                },
+                {
+                    "text": "White fabric",
+                    "isCorrect": 1,
+                    "explanation": "White fabric allowed the least heat buildup (82\u00b0F), making it the best choice for shading plants from intense sunlight while still letting enough light through for growth."
+                },
+                {
+                    "text": "Clear plastic",
+                    "isCorrect": 0,
+                    "explanation": "Clear plastic allowed the most heat buildup (95\u00b0F), which could harm delicate plants. It doesn't provide adequate shade protection."
                 }
             ],
             "funFact": "Professional greenhouses often use special shade cloths that can block specific percentages of sunlight - from 30% to 90% - allowing growers to customize the amount of shade based on the exact needs of different plant species!"
         },
         {
-            "id": 15,
-            "text": "A group of students is planning a summer picnic and wants to serve popsicles. They need to find a solution to prevent the popsicles from melting too quickly in the hot sun. What would be the best approach to solve this problem?",
+            "id": 14,
+            "text": "A science class wants to compare how different surfaces heat up in sunlight. Which method would give them the most reliable results?",
             "options": [
                 {
-                    "text": "Set up a shaded area using thick, solid materials like canvas to keep the popsicles cool",
+                    "text": "Place ice cubes on different surfaces and see which melts first",
+                    "isCorrect": 0,
+                    "explanation": "While this shows temperature differences, it doesn't provide precise measurements needed for reliable comparison"
+                },
+                {
+                    "text": "Touch different surfaces with hands to feel which one is hotter",
+                    "isCorrect": 0,
+                    "explanation": "Touch sensing is subjective and not accurate enough for scientific measurement of temperature differences"
+                },
+                {
+                    "text": "Use thermometers to measure and record temperatures of different surfaces at regular time intervals throughout the day",
                     "isCorrect": 1,
-                    "explanation": "Thick, solid materials provide the best shade and protection from sunlight, effectively reducing the heat and slowing down the melting process"
+                    "explanation": "Using thermometers to take systematic measurements over time is the most scientific and reliable way to compare how surfaces heat up"
                 },
                 {
-                    "text": "Place the popsicles in clear plastic containers",
+                    "text": "Look at the surfaces and guess which one feels warmer based on color",
                     "isCorrect": 0,
-                    "explanation": "Clear materials allow sunlight to pass through, which would not effectively protect the popsicles from melting quickly"
-                },
-                {
-                    "text": "Leave the popsicles in direct sunlight but check them frequently",
-                    "isCorrect": 0,
-                    "explanation": "Direct sunlight would cause the popsicles to melt rapidly, regardless of how often they are checked"
-                },
-                {
-                    "text": "Cover the popsicles with thin paper",
-                    "isCorrect": 0,
-                    "explanation": "Thin paper would not provide adequate shade or protection from the sun's heat"
+                    "explanation": "Visual observation alone cannot accurately determine temperature differences between surfaces"
                 }
             ],
-            "funFact": "In very hot climates, traditional desert cultures have long used thick-walled structures and special shade techniques to keep food cool without electricity. These methods can be up to 20 degrees cooler than the outside temperature!"
+            "funFact": "The world's highest recorded surface temperature was 80.3\u00b0C (176.5\u00b0F), measured in the Lut Desert of Iran. The dark desert surface absorbs and retains more solar heat than lighter colored surfaces!"
+        },
+        {
+            "id": 15,
+            "text": "A group of students wants to build a sunshade for their playground to keep the area cool during hot summer days. Which material would work best for their sunshade?",
+            "options": [
+                {
+                    "text": "Clear plastic sheets",
+                    "isCorrect": 0,
+                    "explanation": "Clear plastic sheets are see-through and would allow most sunlight to pass through, providing very little shade and not keeping the area cool."
+                },
+                {
+                    "text": "A thick canvas cloth",
+                    "isCorrect": 1,
+                    "explanation": "A thick canvas cloth is solid and not see-through, making it excellent at blocking sunlight and providing shade. It would keep the playground area cool effectively."
+                },
+                {
+                    "text": "Glass panels",
+                    "isCorrect": 0,
+                    "explanation": "Glass panels, while solid, are transparent and would let most sunlight pass through. They might even create a greenhouse effect, making the area warmer."
+                },
+                {
+                    "text": "Thin mesh fabric",
+                    "isCorrect": 0,
+                    "explanation": "Thin mesh fabric has many small holes that would let a lot of sunlight through, making it less effective at providing shade and keeping the area cool."
+                }
+            ],
+            "funFact": "Desert nomads have traditionally used thick, dark-colored fabrics for their tents because these materials not only provide excellent shade but also protect against sandstorms and can last for many years in harsh conditions."
         }
     ]
 }

@@ -4,39 +4,12 @@
     "questions": [
         {
             "id": 1,
-            "text": "When an athlete sprains their ankle during a game, they are often given an instant cold pack to reduce swelling. Which statement best explains how these cold packs work?",
-            "options": [
-                {
-                    "text": "The chemicals inside the pack undergo an endothermic reaction, absorbing thermal energy from the injured area",
-                    "isCorrect": 1,
-                    "explanation": "Cold packs contain chemicals that mix and undergo an endothermic reaction, which absorbs thermal energy from the surrounding area, including the injury, making it feel cold"
-                },
-                {
-                    "text": "The chemicals inside the pack undergo an exothermic reaction, releasing cold energy to the injured area",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - reactions don't release 'cold energy'. Cold is actually the absence of thermal energy, and the reaction is endothermic (absorbing energy), not exothermic (releasing energy)"
-                },
-                {
-                    "text": "The chemicals inside the pack are already very cold and simply transfer their coldness to the injured area",
-                    "isCorrect": 0,
-                    "explanation": "The chemicals aren't pre-cooled - the cooling effect comes from a chemical reaction that absorbs thermal energy, not from pre-cooled substances"
-                },
-                {
-                    "text": "The chemicals inside the pack create a barrier that blocks heat from reaching the injured area",
-                    "isCorrect": 0,
-                    "explanation": "The cooling effect is not from blocking heat - it's from an active chemical process that absorbs thermal energy from the surroundings"
-                }
-            ],
-            "funFact": "Some instant cold packs use ammonium nitrate and water as their reactive chemicals. When these mix, they can reduce the temperature inside the pack to as low as 2\u00b0C (35\u00b0F) through their endothermic reaction!"
-        },
-        {
-            "id": 2,
             "text": "In a winter sports competition, athletes need hand warmers that can provide heat for at least 6 hours in freezing temperatures. Which device would be most effective for this purpose?",
             "options": [
                 {
-                    "text": "A chemical hand warmer that releases thermal energy through an exothermic reaction",
-                    "isCorrect": 1,
-                    "explanation": "Chemical hand warmers use exothermic reactions that steadily release thermal energy over several hours, making them ideal for maintaining warmth in cold conditions."
+                    "text": "An instant cold pack used in reverse",
+                    "isCorrect": 0,
+                    "explanation": "Cold packs use endothermic reactions that absorb thermal energy, creating a cooling effect. Using them in reverse isn't possible and wouldn't generate heat."
                 },
                 {
                     "text": "A plastic bag filled with hot water",
@@ -44,130 +17,216 @@
                     "explanation": "Hot water in a plastic bag would cool down quickly through heat transfer to the cold environment and wouldn't maintain warmth for 6 hours."
                 },
                 {
+                    "text": "A chemical hand warmer that releases thermal energy through an exothermic reaction",
+                    "isCorrect": 1,
+                    "explanation": "Chemical hand warmers use exothermic reactions that steadily release thermal energy over several hours, making them ideal for maintaining warmth in cold conditions."
+                },
+                {
                     "text": "A metal container storing pre-heated oil",
                     "isCorrect": 0,
                     "explanation": "Pre-heated oil would gradually lose its thermal energy to the surroundings and wouldn't maintain warmth for the required duration."
-                },
-                {
-                    "text": "An instant cold pack used in reverse",
-                    "isCorrect": 0,
-                    "explanation": "Cold packs use endothermic reactions that absorb thermal energy, creating a cooling effect. Using them in reverse isn't possible and wouldn't generate heat."
                 }
             ],
             "funFact": "The chemical reactions in hand warmers often use iron powder that oxidizes when exposed to air. A single hand warmer can contain thousands of tiny iron particles, and when they all react with oxygen, they can maintain temperatures around 135\u00b0F (57\u00b0C) for up to 10 hours!"
         },
         {
-            "id": 3,
-            "text": "A scientist measures the temperature of a substance and finds it to be very high. What does this tell us about the particles making up the substance?",
+            "id": 2,
+            "text": "Why are vacuum-insulated containers (like thermoses) particularly effective at keeping hot drinks hot?",
             "options": [
                 {
-                    "text": "The particles are moving very quickly with high average kinetic energy",
-                    "isCorrect": 1,
-                    "explanation": "High temperature indicates that the particles have high average kinetic energy and are moving rapidly, vibrating more intensely or moving around more quickly."
+                    "text": "The vacuum creates more thermal energy to replace any that escapes",
+                    "isCorrect": 0,
+                    "explanation": "A vacuum cannot create energy. It works as an insulator by preventing thermal energy transfer, not by generating new energy."
                 },
                 {
-                    "text": "The particles have become larger in size",
-                    "isCorrect": 0,
-                    "explanation": "Temperature does not affect the size of individual particles. The size of atoms and molecules remains constant regardless of temperature."
+                    "text": "The vacuum between container walls prevents thermal energy transfer because there are no particles to carry the energy between the walls",
+                    "isCorrect": 1,
+                    "explanation": "Correct! A vacuum has no particles, so thermal energy cannot be transferred through particle collisions, making it an excellent insulator."
                 },
+                {
+                    "text": "The vacuum actively pushes thermal energy back into the hot drink",
+                    "isCorrect": 0,
+                    "explanation": "A vacuum cannot push energy - it simply prevents transfer by eliminating the particles that would normally carry thermal energy."
+                },
+                {
+                    "text": "The vacuum absorbs thermal energy before it can escape from the drink",
+                    "isCorrect": 0,
+                    "explanation": "A vacuum cannot absorb energy - it's the absence of matter. It works by preventing thermal energy transfer, not by absorbing it."
+                }
+            ],
+            "funFact": "The invention of the vacuum flask (thermos) is credited to Sir James Dewar in 1892, who created it to help store extremely cold substances like liquid nitrogen in his laboratory. The basic design of his invention remains largely unchanged in modern thermoses!"
+        },
+        {
+            "id": 3,
+            "text": "When an athlete sprains their ankle during a game, they are often given an instant cold pack to reduce swelling. Which statement best explains how these cold packs work?",
+            "options": [
+                {
+                    "text": "The chemicals inside the pack create a barrier that blocks heat from reaching the injured area",
+                    "isCorrect": 0,
+                    "explanation": "The cooling effect is not from blocking heat - it's from an active chemical process that absorbs thermal energy from the surroundings"
+                },
+                {
+                    "text": "The chemicals inside the pack undergo an endothermic reaction, absorbing thermal energy from the injured area",
+                    "isCorrect": 1,
+                    "explanation": "Cold packs contain chemicals that mix and undergo an endothermic reaction, which absorbs thermal energy from the surrounding area, including the injury, making it feel cold"
+                },
+                {
+                    "text": "The chemicals inside the pack are already very cold and simply transfer their coldness to the injured area",
+                    "isCorrect": 0,
+                    "explanation": "The chemicals aren't pre-cooled - the cooling effect comes from a chemical reaction that absorbs thermal energy, not from pre-cooled substances"
+                },
+                {
+                    "text": "The chemicals inside the pack undergo an exothermic reaction, releasing cold energy to the injured area",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - reactions don't release 'cold energy'. Cold is actually the absence of thermal energy, and the reaction is endothermic (absorbing energy), not exothermic (releasing energy)"
+                }
+            ],
+            "funFact": "Some instant cold packs use ammonium nitrate and water as their reactive chemicals. When these mix, they can reduce the temperature inside the pack to as low as 2\u00b0C (35\u00b0F) through their endothermic reaction!"
+        },
+        {
+            "id": 4,
+            "text": "A scientist measures the temperature of a substance and finds it to be very high. What does this tell us about the particles making up the substance?",
+            "options": [
                 {
                     "text": "There are more particles present in the substance",
                     "isCorrect": 0,
                     "explanation": "Temperature is not related to the number of particles. It measures the average kinetic energy of the existing particles, not how many particles are present."
                 },
                 {
+                    "text": "The particles are moving very quickly with high average kinetic energy",
+                    "isCorrect": 1,
+                    "explanation": "High temperature indicates that the particles have high average kinetic energy and are moving rapidly, vibrating more intensely or moving around more quickly."
+                },
+                {
                     "text": "The particles have changed color",
                     "isCorrect": 0,
                     "explanation": "Temperature does not affect the color of individual particles. While some substances may change color with temperature, this is due to other factors, not the color of individual particles."
+                },
+                {
+                    "text": "The particles have become larger in size",
+                    "isCorrect": 0,
+                    "explanation": "Temperature does not affect the size of individual particles. The size of atoms and molecules remains constant regardless of temperature."
                 }
             ],
             "funFact": "The fastest moving particles ever created by scientists were lead ions in the Large Hadron Collider, accelerated to 99.999999% the speed of light, making them so energetic that each single ion had as much energy as a flying mosquito!"
         },
         {
-            "id": 4,
-            "text": "In which state of matter do molecules have the most thermal energy and take up the most space?",
-            "options": [
-                {
-                    "text": "Gas",
-                    "isCorrect": 1,
-                    "explanation": "In gases, molecules have the highest thermal energy, causing them to vibrate and move so rapidly that they spread far apart from each other, taking up the most space."
-                },
-                {
-                    "text": "Liquid",
-                    "isCorrect": 0,
-                    "explanation": "While molecules in liquids have more thermal energy than solids and can move around, they are still closer together than in gases and take up less space."
-                },
-                {
-                    "text": "Solid",
-                    "isCorrect": 0,
-                    "explanation": "Molecules in solids have the least thermal energy, only vibrating in fixed positions, and are packed closely together, taking up the least space."
-                },
-                {
-                    "text": "All states have the same thermal energy and spacing",
-                    "isCorrect": 0,
-                    "explanation": "Different states of matter have different amounts of thermal energy, which affects how much the molecules move and how much space they take up."
-                }
-            ],
-            "funFact": "Steam occupies about 1,600 times more space than the same mass of liquid water! This massive difference in volume demonstrates how dramatically thermal energy can affect molecular spacing."
-        },
-        {
             "id": 5,
-            "text": "A student places a cup of hot coffee and a glass of cold iced tea next to each other on a table. What will happen to the thermal energy between these two drinks?",
+            "text": "Which statement best describes the relationship between particle movement and the states of matter?",
             "options": [
                 {
-                    "text": "Thermal energy will move from the hot coffee to the cold iced tea",
+                    "text": "In solids, particles are completely motionless; in liquids, particles vibrate in place; in gases, particles move randomly",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because particles in solids do vibrate (they're not motionless), and liquid particles do more than just vibrate - they move past each other"
+                },
+                {
+                    "text": "In solids, particles vibrate in fixed positions; in liquids, particles move and slide past each other; in gases, particles move rapidly and are far apart",
                     "isCorrect": 1,
-                    "explanation": "Thermal energy always moves from areas of higher temperature to areas of lower temperature. Since the coffee is hotter than the iced tea, thermal energy will flow from the coffee to the iced tea."
+                    "explanation": "This correctly describes how particle movement differs in each state of matter, with increasing particle motion and spacing from solid to liquid to gas"
                 },
                 {
-                    "text": "Thermal energy will move from the cold iced tea to the hot coffee",
+                    "text": "Only gas particles have movement; solid and liquid particles remain still",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. Thermal energy never moves from colder objects to hotter objects on its own. It always flows from hot to cold."
+                    "explanation": "This is incorrect because particles in all states of matter have some form of movement - they just move differently in each state"
                 },
                 {
-                    "text": "There will be no movement of thermal energy between the drinks",
+                    "text": "Particles move at the same speed in all states of matter, but are arranged differently",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. When there is a temperature difference between objects, thermal energy will always move from the hotter object to the colder object until they reach the same temperature."
-                },
-                {
-                    "text": "Thermal energy will move in both directions equally",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While there can be some energy exchange in both directions, the net flow of thermal energy is always from hot to cold, not equally in both directions."
+                    "explanation": "This is incorrect because particle speed increases from solid to liquid to gas - they don't move at the same speed in all states"
                 }
             ],
-            "funFact": "This principle of heat flowing from hot to cold is why it's impossible to create a perfect refrigerator that operates forever without external energy input - it would violate the Second Law of Thermodynamics, one of the fundamental laws of physics!"
+            "funFact": "At temperatures close to absolute zero (-273.15\u00b0C), particles have the least possible movement, but they still don't completely stop moving! This remaining tiny vibration is called zero-point energy."
         },
         {
             "id": 6,
-            "text": "A team of students is designing an insulated drink container. They tested different designs and recorded how long it took for hot coffee to cool down by 10\u00b0C in each design:\n\nDesign A: Uses a single plastic wall with air pockets - 15 minutes\nDesign B: Uses double plastic walls with foam between them - 25 minutes\nDesign C: Uses double metal walls with a vacuum between them - 45 minutes\nDesign D: Uses double plastic walls with a vacuum between them - 35 minutes\n\nBased on these test results, which features should they incorporate into their final optimized design to best maintain the drink's temperature?",
+            "text": "A team of students wants to design a cooling device using chemical reactions. They are considering different chemical compounds that absorb thermal energy when dissolved in water. Which of the following considerations would be most important for choosing a safe and cost-effective chemical for their device?",
             "options": [
                 {
-                    "text": "Double walls with a vacuum between them, made of metal",
+                    "text": "The chemical should be rare to ensure potent cooling",
+                    "isCorrect": 0,
+                    "explanation": "Rare chemicals are typically expensive and may not be any more effective. Cost constraints are important when designing practical solutions."
+                },
+                {
+                    "text": "The chemical should be readily available and non-toxic",
                     "isCorrect": 1,
-                    "explanation": "This design performed best in testing (45 minutes), as the vacuum eliminates heat transfer through conduction and convection, while the metal walls are better at reflecting radiant heat back into the container."
+                    "explanation": "Using commonly available, non-toxic chemicals like ammonium chloride ensures both safety and reasonable cost while still achieving the desired cooling effect."
                 },
                 {
-                    "text": "Single wall with air pockets, made of plastic",
+                    "text": "The chemical should be corrosive to maximize cooling power",
                     "isCorrect": 0,
-                    "explanation": "This design performed worst (15 minutes) as single walls allow more heat transfer and air pockets, while helpful, are not as effective as a vacuum for insulation."
+                    "explanation": "Corrosive chemicals are dangerous to handle and can damage the cooling device itself. Safety should be prioritized when selecting chemicals."
                 },
                 {
-                    "text": "Double walls with foam between them, made of plastic",
+                    "text": "The chemical should be highly flammable to ensure rapid cooling",
                     "isCorrect": 0,
-                    "explanation": "While better than single walls (25 minutes), foam contains some air molecules that can transfer heat, making it less effective than a vacuum design."
-                },
-                {
-                    "text": "Double walls with a vacuum between them, made of plastic",
-                    "isCorrect": 0,
-                    "explanation": "While this design uses a vacuum that eliminates conduction and convection, plastic walls aren't as effective as metal walls at reflecting radiant heat back into the container, explaining the difference in performance (35 vs 45 minutes)."
+                    "explanation": "Flammable chemicals pose serious safety risks and should be avoided in student projects. The goal is to find chemicals that safely absorb thermal energy through dissolution."
                 }
             ],
-            "funFact": "The modern vacuum flask was invented by Sir James Dewar in 1892, but he never patented his invention. The Thermos company commercialized the design in 1904, leading to 'thermos' becoming a commonly used term for vacuum flasks."
+            "funFact": "The same chemical principles that make instant cold packs work are also used in some eco-friendly refrigeration systems. These absorption refrigerators can run on heat sources like solar energy instead of electricity!"
         },
         {
             "id": 7,
+            "text": "You are designing a hand warmer device that uses a chemical reaction to provide warmth. Which of the following approaches would most effectively control the rate of heat release to maintain a comfortable temperature over an extended period?",
+            "options": [
+                {
+                    "text": "Use a concentrated mixture of reactive chemicals in direct contact with the skin",
+                    "isCorrect": 0,
+                    "explanation": "This would release heat too quickly and could be unsafe, potentially causing burns and depleting the warming effect rapidly"
+                },
+                {
+                    "text": "Use very dilute reactive chemicals to minimize heat production",
+                    "isCorrect": 0,
+                    "explanation": "While safer, this would not generate enough thermal energy to effectively warm hands"
+                },
+                {
+                    "text": "Place the reactive chemicals in a porous pouch with insulating layers to regulate heat transfer",
+                    "isCorrect": 1,
+                    "explanation": "This design allows controlled heat release through insulation while maintaining safety and extending the duration of warming"
+                },
+                {
+                    "text": "Separate the reactive chemicals with a thick plastic barrier",
+                    "isCorrect": 0,
+                    "explanation": "This would prevent the chemicals from reacting altogether, resulting in no heat release"
+                }
+            ],
+            "funFact": "The same chemical principles used in hand warmers are also used in self-heating food packages used by military personnel and outdoor enthusiasts. These packages can heat meals without requiring any external heat source!"
+        },
+        {
+            "id": 8,
+            "text": "A student is designing a thermos to keep hot soup warm for lunch. Which arrangement of materials would be most effective at maintaining the temperature of the soup?",
+            "options": [
+                {
+                    "text": "Three layers of solid metal stacked together",
+                    "isCorrect": 0,
+                    "explanation": "Solid metal is a good conductor of thermal energy, so this design would allow heat to transfer quickly from the soup to the environment."
+                },
+                {
+                    "text": "Two metal layers with water between them",
+                    "isCorrect": 0,
+                    "explanation": "Water between metal layers would conduct thermal energy too readily, causing the soup to cool faster."
+                },
+                {
+                    "text": "A single layer of plastic with air pockets",
+                    "isCorrect": 0,
+                    "explanation": "While air pockets provide some insulation, a single layer would allow too much thermal energy transfer to maintain temperature effectively."
+                },
+                {
+                    "text": "Two glass layers with a vacuum between them",
+                    "isCorrect": 1,
+                    "explanation": "A vacuum between two layers provides the best insulation since there are no molecules to transfer thermal energy, significantly slowing heat loss."
+                }
+            ],
+            "funFact": "The invention of the modern vacuum flask (thermos) is credited to Sir James Dewar in 1892, who created it to help store liquid gases for his scientific experiments, not for keeping coffee hot!"
+        },
+        {
+            "id": 9,
             "text": "A sports trainer wants to design an effective instant cold pack for treating athletes' injuries. Which combination of chemical substances and their concentrations would create the most effective cold pack through an endothermic reaction?",
             "options": [
+                {
+                    "text": "A concentrated mixture of calcium chloride and water",
+                    "isCorrect": 0,
+                    "explanation": "Calcium chloride dissolving in water is actually exothermic - it releases heat rather than absorbing it, making it unsuitable for cold packs."
+                },
                 {
                     "text": "A concentrated mixture of ammonium nitrate and water",
                     "isCorrect": 1,
@@ -179,11 +238,6 @@
                     "explanation": "While dissolving table salt in water is endothermic, the reaction is too weak to create an effective cold pack, especially in dilute concentrations."
                 },
                 {
-                    "text": "A concentrated mixture of calcium chloride and water",
-                    "isCorrect": 0,
-                    "explanation": "Calcium chloride dissolving in water is actually exothermic - it releases heat rather than absorbing it, making it unsuitable for cold packs."
-                },
-                {
                     "text": "Equal parts of baking soda and vinegar",
                     "isCorrect": 0,
                     "explanation": "The reaction between baking soda and vinegar is exothermic, releasing thermal energy rather than absorbing it. This would warm rather than cool an injury."
@@ -192,73 +246,9 @@
             "funFact": "Instant cold packs were first developed for military use in the 1940s to treat injuries in situations where ice wasn't readily available. The same endothermic reaction principle is now used in self-cooling beverage cans and containers!"
         },
         {
-            "id": 8,
-            "text": "You are designing a portable hand warmer for a winter camping trip. Which combination of chemical reactants would provide the most controlled and sustained release of thermal energy?",
-            "options": [
-                {
-                    "text": "A mixture of sodium acetate and water in a sealed pouch with a metal disc activator",
-                    "isCorrect": 1,
-                    "explanation": "Sodium acetate produces a controlled exothermic reaction when crystallizing from its supersaturated solution, providing sustained warmth for several hours. The metal disc helps control when the reaction starts."
-                },
-                {
-                    "text": "Equal amounts of baking soda and vinegar in a sealed container",
-                    "isCorrect": 0,
-                    "explanation": "While this creates an immediate reaction, it releases energy too quickly and briefly to be effective as a hand warmer. The reaction is over within minutes."
-                },
-                {
-                    "text": "A container of pure water that freezes when squeezed",
-                    "isCorrect": 0,
-                    "explanation": "While water freezing does release a small amount of heat (it's exothermic), the frozen water would quickly become cold to touch. Additionally, this process would be difficult to control for sustained heat release and would not provide ongoing warmth needed in a hand warmer."
-                },
-                {
-                    "text": "An open container of rubbing alcohol exposed to air",
-                    "isCorrect": 0,
-                    "explanation": "Evaporating alcohol absorbs thermal energy rather than releasing it, creating a cooling rather than warming effect."
-                }
-            ],
-            "funFact": "The same sodium acetate reaction used in hand warmers is also responsible for the 'hot ice' science demonstration, where liquid sodium acetate crystallizes instantly when triggered, releasing heat in a dramatic crystallization process!"
-        },
-        {
-            "id": 9,
-            "text": "A student is designing a thermos to keep hot chocolate warm for a winter field trip. She wants to test different designs to see which one maintains the temperature best. Which method would provide the most reliable data for comparing the effectiveness of different thermos designs?",
-            "options": [
-                {
-                    "text": "Touch the outside of each thermos after 1 hour to feel which one is warmer",
-                    "isCorrect": 0,
-                    "explanation": "Using touch to compare temperatures is subjective and not precise enough for scientific measurement. Temperature differences may be too small to detect by touch."
-                },
-                {
-                    "text": "Use a thermometer to measure the liquid temperature every 15 minutes for 2 hours and record the data",
-                    "isCorrect": 1,
-                    "explanation": "Taking regular temperature measurements with a thermometer provides quantitative data that can be used to accurately compare how well each design maintains thermal energy over time."
-                },
-                {
-                    "text": "Pour out the liquid after 2 hours and see which one feels hottest",
-                    "isCorrect": 0,
-                    "explanation": "This method only provides data from one point in time and relies on subjective feeling rather than precise measurement. It doesn't show how the temperature changed over time."
-                },
-                {
-                    "text": "Check which thermos has the most steam coming out when opened after 1 hour",
-                    "isCorrect": 0,
-                    "explanation": "Observing steam is a qualitative method that doesn't provide precise temperature data. The amount of steam visible can be affected by many factors besides temperature."
-                }
-            ],
-            "funFact": "The modern vacuum flask (thermos) was invented in 1892 by Sir James Dewar, but he never patented his invention. German glassblowers later commercialized the design, creating the Thermos company that gave these devices their common name."
-        },
-        {
             "id": 10,
             "text": "A student is designing a thermal device to keep drinks cold during outdoor events. After testing their initial design using an insulated foam cup, they found that drinks warm up too quickly, especially in the first 30 minutes. Which modification would most effectively improve the device's performance?",
             "options": [
-                {
-                    "text": "Replace the foam cup with a vacuum-insulated container",
-                    "isCorrect": 1,
-                    "explanation": "A vacuum-insulated container provides better insulation since the vacuum space contains no air molecules to transfer thermal energy between the drink and the environment."
-                },
-                {
-                    "text": "Add more ice cubes to the drink",
-                    "isCorrect": 0,
-                    "explanation": "While adding ice would keep the drink cold longer, it doesn't address the fundamental design issue of thermal energy transfer through the container walls."
-                },
                 {
                     "text": "Paint the outside of the foam cup white",
                     "isCorrect": 0,
@@ -268,117 +258,110 @@
                     "text": "Make the foam cup walls thicker",
                     "isCorrect": 0,
                     "explanation": "Though thicker foam walls would provide somewhat better insulation, the air spaces in foam still allow more thermal energy transfer than a vacuum."
+                },
+                {
+                    "text": "Add more ice cubes to the drink",
+                    "isCorrect": 0,
+                    "explanation": "While adding ice would keep the drink cold longer, it doesn't address the fundamental design issue of thermal energy transfer through the container walls."
+                },
+                {
+                    "text": "Replace the foam cup with a vacuum-insulated container",
+                    "isCorrect": 1,
+                    "explanation": "A vacuum-insulated container provides better insulation since the vacuum space contains no air molecules to transfer thermal energy between the drink and the environment."
                 }
             ],
             "funFact": "The invention of the modern vacuum flask is credited to Sir James Dewar in 1892, who created it to study extremely cold substances like liquid gases. The first commercial vacuum flasks were marketed under the brand name 'Thermos,' which has since become a commonly used term for any vacuum-insulated container!"
         },
         {
             "id": 11,
-            "text": "A company is developing chemical hand warmers and has tested three different designs. Here are the test results:\n\nDesign A: Reaches 40\u00b0C in 2 minutes, maintains temperature for 30 minutes, uses sodium acetate\nDesign B: Reaches 60\u00b0C in 1 minute, maintains temperature for 15 minutes, uses iron powder and salt\nDesign C: Reaches 50\u00b0C in 5 minutes, maintains temperature for 2 hours, uses supersaturated calcium chloride\n\nWhich design would you recommend as the most effective and safe hand warmer?",
+            "text": "A student is conducting experiments with chocolate chip cookies by baking them at different temperatures. The student bakes two identical batches of cookie dough: Batch A at 350\u00b0F and Batch B at 425\u00b0F. How will the rate of thermal energy transfer affect the melting of chocolate chips and overall cookie quality?",
             "options": [
                 {
-                    "text": "Design A",
+                    "text": "Batch B will have firmer chocolate chips because higher temperatures prevent complete melting",
                     "isCorrect": 0,
-                    "explanation": "While Design A offers safe temperature levels, its 30-minute duration is relatively short and may not be practical for extended outdoor activities."
+                    "explanation": "Higher temperatures actually cause chocolate to melt more quickly, potentially leading to over-melting or burning"
                 },
                 {
-                    "text": "Design B",
+                    "text": "Batch B will have more evenly melted chocolate chips and better cookie texture because faster thermal energy transfer allows for uniform heat distribution",
                     "isCorrect": 0,
-                    "explanation": "Design B reaches temperatures that could be uncomfortably hot or potentially cause burns (60\u00b0C), and its 15-minute duration is too short for practical use."
+                    "explanation": "Higher temperatures cause too rapid thermal energy transfer, leading to uneven cooking and potentially burnt edges before the center is fully baked"
                 },
                 {
-                    "text": "Design C",
+                    "text": "Both batches will have identical results because the total thermal energy transferred is the same regardless of temperature",
+                    "isCorrect": 0,
+                    "explanation": "The rate of thermal energy transfer, not just the total amount, significantly affects how ingredients react and how the cookie bakes"
+                },
+                {
+                    "text": "Batch A will have more evenly melted chocolate chips and better cookie texture because moderate thermal energy transfer allows for consistent heat distribution",
                     "isCorrect": 1,
-                    "explanation": "Design C provides the best balance of safety and effectiveness - it reaches a comfortable warming temperature (50\u00b0C), maintains heat for a long duration (2 hours), and uses a well-tested chemical reaction."
+                    "explanation": "Moderate temperature allows for more controlled thermal energy transfer, resulting in evenly melted chocolate chips and properly baked cookies"
                 }
             ],
-            "funFact": "Chemical hand warmers were first patented in 1912, but their widespread use began during World War II when the US military needed a way to keep soldiers' hands warm without using fuel or electricity. Modern hand warmers can use various chemical reactions, but the most common type uses iron powder oxidation, which can generate heat for up to 24 hours!"
+            "funFact": "Chocolate has a complex crystal structure that affects how it melts. The ideal melting temperature for most chocolate is around 90\u00b0F to 93\u00b0F (32\u00b0C to 34\u00b0C). When chocolate melts at the right temperature, it maintains its smooth texture and glossy appearance, which is why controlled heating is so important in baking!"
         },
         {
             "id": 12,
-            "text": "A student is designing an insulated container to keep drinks cold for a longer time. She tests different materials and observes their effectiveness. Which property would make a material most effective for this purpose?",
+            "text": "A sports trainer is designing a new instant cold pack for treating injuries. The current design uses 100g of ammonium nitrate mixed with water to create an endothermic reaction that lasts for 20 minutes and reduces the temperature by 15\u00b0C. The trainer wants to modify the design to cool for 30 minutes while maintaining safety. Which change would most effectively achieve this goal?",
             "options": [
                 {
-                    "text": "Materials with tightly packed molecules that can quickly transfer thermal energy",
+                    "text": "Double the amount of ammonium nitrate to 200g",
                     "isCorrect": 0,
-                    "explanation": "Materials that quickly transfer thermal energy would allow heat to reach the cold drink faster, making them poor insulators."
+                    "explanation": "While this would increase cooling duration, using too much chemical could make the pack dangerously cold and potentially harm the athlete's skin"
                 },
                 {
-                    "text": "Materials with lots of air spaces between molecules",
+                    "text": "Remove the protective outer casing to increase cooling",
+                    "isCorrect": 0,
+                    "explanation": "Removing safety features would make the pack dangerous to use and could allow harmful chemicals to leak onto the skin"
+                },
+                {
+                    "text": "Heat the ammonium nitrate before mixing with water",
+                    "isCorrect": 0,
+                    "explanation": "Pre-heating would work against the desired cooling effect and could potentially make the endothermic reaction less effective"
+                },
+                {
+                    "text": "Add an insulating layer around the chemical mixture",
                     "isCorrect": 1,
-                    "explanation": "Materials with air spaces between molecules are good insulators because air molecules are far apart and transfer thermal energy very slowly."
-                },
-                {
-                    "text": "Materials that readily absorb thermal energy from the surroundings",
-                    "isCorrect": 0,
-                    "explanation": "Materials that readily absorb thermal energy would warm up quickly and transfer that heat to the cold drink."
-                },
-                {
-                    "text": "Materials that generate thermal energy through chemical reactions",
-                    "isCorrect": 0,
-                    "explanation": "Materials that generate thermal energy would add heat to the system, making the drink warm up faster rather than keeping it cold."
+                    "explanation": "An insulating layer would slow down the rate of thermal energy absorption, helping the same amount of chemical mixture cool for a longer duration safely"
                 }
             ],
-            "funFact": "The most effective insulated containers, like high-end thermoses, use a vacuum between double walls. Since a vacuum contains no molecules at all, it provides even better insulation than materials with air spaces!"
+            "funFact": "Instant cold packs were first developed for military use in the 1940s to treat injuries in situations where ice wasn't available. Today, they're used not just for sports injuries but also for keeping medical supplies and vaccines cold during transport!"
         },
         {
             "id": 13,
-            "text": "A student is testing three different travel mugs to find which one keeps hot coffee warm the longest. Each mug is made with different insulating materials: Mug A uses cardboard insulation, Mug B uses foam insulation, and Mug C uses vacuum insulation (two walls with empty space between them). After 4 hours, which mug will likely maintain the coffee's temperature closest to its original temperature and why?",
+            "text": "When popcorn kernels are heated in a microwave, what happens to the water molecules inside the kernels that causes them to pop?",
             "options": [
                 {
-                    "text": "Mug C with vacuum insulation, because the absence of particles in the vacuum prevents thermal energy transfer through conduction or convection",
+                    "text": "The water molecules vibrate faster, turn to steam, and create pressure that makes the kernel explode",
                     "isCorrect": 1,
-                    "explanation": "A vacuum is the best insulator because with no particles present between the walls, thermal energy cannot be transferred through particle collisions (conduction) or fluid movement (convection)"
+                    "explanation": "As microwaves increase the thermal energy, water molecules vibrate more rapidly, eventually becoming steam. The expanding steam creates pressure inside the kernel until it pops."
                 },
                 {
-                    "text": "Mug A with cardboard insulation, because the dense paper fibers block thermal energy transfer",
+                    "text": "The water molecules completely evaporate, leaving a vacuum that collapses the kernel",
                     "isCorrect": 0,
-                    "explanation": "While cardboard does provide some insulation due to trapped air pockets, the paper fibers can still conduct heat and the insulation is not as effective as a vacuum"
+                    "explanation": "The kernel pops due to increased pressure from steam, not from a vacuum. The water vapor (steam) pushes outward, not inward."
                 },
                 {
-                    "text": "Mug B with foam insulation, because the smooth surface reflects thermal energy back into the coffee",
+                    "text": "The water molecules break apart into hydrogen and oxygen, causing the kernel to burst",
                     "isCorrect": 0,
-                    "explanation": "This misunderstands how foam insulates - it works by trapping small pockets of air, not by reflection. While foam is a good insulator, it's not as effective as a vacuum"
+                    "explanation": "Microwaving does not break water molecules apart. The popping is caused by water turning to steam, not a chemical reaction."
                 },
                 {
-                    "text": "All mugs will maintain the temperature equally well because they all have thick walls",
+                    "text": "The water molecules freeze and expand, cracking the kernel open",
                     "isCorrect": 0,
-                    "explanation": "The thickness of walls alone doesn't determine insulating ability - the material properties and mechanism of insulation are more important factors"
+                    "explanation": "Water molecules do not freeze during microwave heating. Instead, they gain thermal energy and become more energetic."
                 }
             ],
-            "funFact": "The thermos flask, which uses vacuum insulation, was invented in 1892 by Sir James Dewar. He initially created it to store cryogenic materials for his research, but it was later commercialized for everyday use in keeping beverages hot or cold!"
+            "funFact": "The rapid expansion when a popcorn kernel pops can make the kernel explode at speeds up to 70 miles per hour! This is why unpopped kernels can become dangerous projectiles if the bag is opened too early."
         },
         {
             "id": 14,
-            "text": "An experiment compares two methods of keeping a cold soda at 4\u00b0C for several hours. Method A uses a standard foam cup, while Method B uses a vacuum-insulated container. Which of these methods would be more effective at maintaining the cold temperature, and why?",
-            "options": [
-                {
-                    "text": "Method B (vacuum-insulated container) would be more effective because the vacuum significantly reduces thermal energy transfer through conduction and convection, though radiation can still transfer some heat",
-                    "isCorrect": 1,
-                    "explanation": "A vacuum provides excellent insulation by significantly reducing the molecules that could transfer thermal energy through conduction or convection, making it more effective than foam which still contains air molecules that can transfer thermal energy. However, radiant heat transfer can still occur through a vacuum"
-                },
-                {
-                    "text": "Method A (foam cup) would be more effective because the air pockets in foam block all thermal energy transfer",
-                    "isCorrect": 0,
-                    "explanation": "While foam's air pockets do provide good insulation, they don't completely block thermal energy transfer since air molecules can still conduct and convect heat, just at a slower rate"
-                },
-                {
-                    "text": "Both methods would be equally effective because they both prevent thermal energy transfer completely",
-                    "isCorrect": 0,
-                    "explanation": "Neither method completely prevents thermal energy transfer - they just slow it down at different rates. The vacuum-insulated container is more effective at reducing the transfer"
-                },
-                {
-                    "text": "Method A (foam cup) would be more effective because the thick walls provide better insulation than the thin walls of a vacuum container",
-                    "isCorrect": 0,
-                    "explanation": "The thickness of the walls is less important than the insulating properties of the material between them. A vacuum, despite being in a thin space, provides better insulation than thick foam"
-                }
-            ],
-            "funFact": "The invention of the vacuum flask (also known as a thermos) dates back to 1892 by Sir James Dewar, who created it to study extremely cold substances like liquid gases. The vacuum between the walls was so effective at insulating that this same basic design is still used in modern thermoses today!"
-        },
-        {
-            "id": 15,
             "text": "A team of engineers is designing a new thermos to keep hot beverages warm for longer periods. They tested different vacuum layer thicknesses between the inner and outer walls of the thermos and measured how long it took for the coffee to cool from 90\u00b0C to 60\u00b0C. Which data would suggest the most effective vacuum layer thickness for maintaining temperature?",
             "options": [
+                {
+                    "text": "Coffee took 3 hours to cool regardless of vacuum layer thickness",
+                    "isCorrect": 0,
+                    "explanation": "If vacuum thickness had no effect on cooling time, it would indicate the vacuum isn't functioning as an insulator"
+                },
                 {
                     "text": "Coffee took 2 hours to cool with 2mm vacuum layer, 3 hours with 4mm layer, and 4 hours with 8mm layer",
                     "isCorrect": 1,
@@ -390,17 +373,39 @@
                     "explanation": "This pattern suggests worse insulation with increasing vacuum thickness, which contradicts the principles of vacuum insulation"
                 },
                 {
-                    "text": "Coffee took 3 hours to cool regardless of vacuum layer thickness",
-                    "isCorrect": 0,
-                    "explanation": "If vacuum thickness had no effect on cooling time, it would indicate the vacuum isn't functioning as an insulator"
-                },
-                {
                     "text": "Coffee took 2 hours to cool with both 2mm and 8mm layers, but 4 hours with 4mm layer",
                     "isCorrect": 0,
                     "explanation": "This irregular pattern doesn't align with how vacuum insulation works - thicker vacuum layers should consistently provide better insulation"
                 }
             ],
             "funFact": "The first vacuum flask was invented by Sir James Dewar in 1892, but he never patented his invention. The first commercial thermos was created by German glassblowers who formed the Thermos GmbH company in 1904, which is why we often call vacuum flasks 'thermoses' today!"
+        },
+        {
+            "id": 15,
+            "text": "A scientist is designing instant cold packs for treating sports injuries. She tests two designs:\nDesign A: Uses ammonium chloride which dissolves in water, absorbing thermal energy\nDesign B: Uses calcium chloride which dissolves in water, releasing thermal energy\n\nWhich design would be most effective as a cold pack, and why?",
+            "options": [
+                {
+                    "text": "Neither design would work as a cold pack since dissolving substances doesn't affect temperature",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - dissolving substances can definitely affect temperature through endothermic (energy-absorbing) or exothermic (energy-releasing) processes."
+                },
+                {
+                    "text": "Design B, because the release of thermal energy by the dissolving calcium chloride will cool the injured area",
+                    "isCorrect": 0,
+                    "explanation": "Calcium chloride releases thermal energy when dissolving, which would create a warming effect rather than the desired cooling effect for treating injuries."
+                },
+                {
+                    "text": "Both designs would work equally well as cold packs since they both involve dissolving salts in water",
+                    "isCorrect": 0,
+                    "explanation": "Different chemical reactions can either release or absorb thermal energy - just because both involve dissolving salts doesn't mean they'll have the same thermal effect."
+                },
+                {
+                    "text": "Design A, because the absorption of thermal energy by the dissolving ammonium chloride will cool the injured area",
+                    "isCorrect": 1,
+                    "explanation": "When ammonium chloride dissolves in water, it absorbs thermal energy from its surroundings, creating a cooling effect that makes it ideal for cold packs."
+                }
+            ],
+            "funFact": "Instant cold packs are designed to be activated by breaking an inner pouch of water, allowing it to mix with and dissolve the surrounding salt. The same chemical principle is used in some instant hot packs, but with substances that release rather than absorb thermal energy when dissolved."
         }
     ]
 }

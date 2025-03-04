@@ -4,120 +4,12 @@
     "questions": [
         {
             "id": 1,
-            "text": "In the Arctic region, both polar bears and Arctic hares have white fur. Why do these different species share this similar trait?",
-            "options": [
-                {
-                    "text": "The white fur helps them blend into their snowy environment, providing better survival chances",
-                    "isCorrect": 1,
-                    "explanation": "White fur helps both species camouflage in the snowy Arctic environment, making it harder for predators to spot the hares and helping bears sneak up on prey"
-                },
-                {
-                    "text": "They are closely related species that evolved from the same ancestor",
-                    "isCorrect": 0,
-                    "explanation": "Polar bears and Arctic hares are not closely related - they share this trait because it provides a survival advantage in their environment"
-                },
-                {
-                    "text": "White fur helps them stay warm in cold temperatures",
-                    "isCorrect": 0,
-                    "explanation": "While fur provides insulation, its color does not affect warmth. The white color is specifically advantageous for camouflage"
-                },
-                {
-                    "text": "They copy each other's appearance through observation",
-                    "isCorrect": 0,
-                    "explanation": "Animals cannot choose to change their appearance by observing others. These traits are inherited and passed down through generations"
-                }
-            ],
-            "funFact": "The Arctic fox is another animal that changes its fur color seasonally - brown in summer and white in winter - demonstrating how multiple species can develop similar adaptations when facing the same environmental challenges!"
-        },
-        {
-            "id": 2,
-            "text": "A cheetah's ability to run at high speeds helps it to catch prey and survive in the wild. How does this physical trait provide an advantage to the cheetah?",
-            "options": [
-                {
-                    "text": "High speed allows the cheetah to catch fast-moving prey animals more successfully",
-                    "isCorrect": 1,
-                    "explanation": "Speed is a crucial survival trait for cheetahs as it directly helps them catch prey like gazelles and antelopes, ensuring they can feed themselves and survive"
-                },
-                {
-                    "text": "High speed only helps cheetahs escape from larger predators",
-                    "isCorrect": 0,
-                    "explanation": "While speed can help in escaping predators, the primary advantage of a cheetah's speed is for hunting prey, not just escaping from other animals"
-                },
-                {
-                    "text": "High speed is only useful for playing with other cheetahs",
-                    "isCorrect": 0,
-                    "explanation": "Speed is not just for play - it is a vital survival trait that helps cheetahs hunt and obtain food in their natural habitat"
-                },
-                {
-                    "text": "High speed has no effect on a cheetah's survival abilities",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because physical traits like speed directly affect an animal's ability to survive by helping it obtain food through hunting"
-                }
-            ],
-            "funFact": "Cheetahs can accelerate from 0 to 60 miles per hour in just three seconds, making them not only the fastest land animal but also capable of acceleration that rivals many sports cars!"
-        },
-        {
-            "id": 3,
-            "text": "Two identical twin kittens are born with the genetic potential to grow into large, strong cats. One kitten lives in a home where it receives proper nutrition, while the other kitten doesn't get enough nutrients in its diet. How will this environmental factor most likely affect their growth?",
-            "options": [
-                {
-                    "text": "Only the well-fed kitten will grow to its full potential size",
-                    "isCorrect": 1,
-                    "explanation": "While both kittens have the same genetic potential for size, proper nutrition is required for genes to be expressed fully. The kitten with better nutrition will be able to reach its full genetic potential."
-                },
-                {
-                    "text": "Both kittens will grow to the same size because they have identical genes",
-                    "isCorrect": 0,
-                    "explanation": "Even with identical genes, environmental factors like nutrition can affect how genes are expressed, leading to different physical outcomes."
-                },
-                {
-                    "text": "The poorly-fed kitten will adapt and grow to the same size anyway",
-                    "isCorrect": 0,
-                    "explanation": "Animals cannot overcome a lack of proper nutrition simply through adaptation. Nutrition is essential for proper growth and development."
-                },
-                {
-                    "text": "The well-fed kitten's genes will change to make it grow larger",
-                    "isCorrect": 0,
-                    "explanation": "Environmental factors like nutrition don't change genes themselves - they affect how existing genes are expressed."
-                }
-            ],
-            "funFact": "A cat's adult size is determined by multiple genes that control growth, but proper nutrition during the first year of life is crucial. That's why veterinarians recommend special kitten food that's high in protein and essential nutrients during this critical growth period!"
-        },
-        {
-            "id": 4,
-            "text": "All zebras have stripes, but individual zebras can have different stripe patterns. Which statement best explains why having varied stripe patterns within the same zebra species can be advantageous?",
-            "options": [
-                {
-                    "text": "Having different stripe patterns helps zebras recognize their own family members within a large herd",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Individual variations in stripe patterns help zebras identify family members, which is important for survival and reproduction in large herds."
-                },
-                {
-                    "text": "Different stripe patterns make all zebras look exactly the same to confuse predators",
-                    "isCorrect": 0,
-                    "explanation": "While stripes do help confuse predators, the purpose of individual variations is not to make all zebras look the same - it's actually the opposite!"
-                },
-                {
-                    "text": "Zebras with different stripe patterns belong to different species",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Variations in stripe patterns occur within the same species, just like how humans of the same species can have different eye colors."
-                },
-                {
-                    "text": "Only the zebras with the boldest stripe patterns survive to adulthood",
-                    "isCorrect": 0,
-                    "explanation": "There is no evidence that bold stripe patterns lead to better survival. Different patterns can all be equally successful."
-                }
-            ],
-            "funFact": "A zebra's stripe pattern is as unique as a human fingerprint! Scientists can use stripe patterns to identify individual zebras in the wild, which helps them study zebra behavior and population dynamics."
-        },
-        {
-            "id": 5,
             "text": "Which physical trait would most likely help a male peacock attract a mate?",
             "options": [
                 {
-                    "text": "Bright, colorful tail feathers",
-                    "isCorrect": 1,
-                    "explanation": "Colorful tail feathers in male peacocks are a beneficial trait that helps them attract mates. The more vibrant and elaborate the feathers, the more likely they are to successfully find a mate."
+                    "text": "Fast running speed",
+                    "isCorrect": 0,
+                    "explanation": "While being fast helps with survival, it is not a trait that specifically helps peacocks attract mates."
                 },
                 {
                     "text": "Sharp claws",
@@ -125,85 +17,220 @@
                     "explanation": "While sharp claws are useful for defense and hunting, they are not primarily used for attracting mates in peacocks."
                 },
                 {
+                    "text": "Bright, colorful tail feathers",
+                    "isCorrect": 1,
+                    "explanation": "Colorful tail feathers in male peacocks are a beneficial trait that helps them attract mates. The more vibrant and elaborate the feathers, the more likely they are to successfully find a mate."
+                },
+                {
                     "text": "Excellent hearing",
                     "isCorrect": 0,
                     "explanation": "Good hearing helps with survival but is not a physical trait that specifically helps peacocks attract mates."
-                },
-                {
-                    "text": "Fast running speed",
-                    "isCorrect": 0,
-                    "explanation": "While being fast helps with survival, it is not a trait that specifically helps peacocks attract mates."
                 }
             ],
             "funFact": "A male peacock's tail feathers can make up about 60% of its total body length and contain iridescent colors that appear to change when viewed from different angles. These spectacular feathers are shed and regrown every year!"
         },
         {
-            "id": 6,
-            "text": "Two butterfly species live in a forest with dark brown tree bark. Butterfly species A has bright orange wings with black spots, while butterfly species B has dark brown wings with subtle black markings. Which species is more likely to survive predator attacks in this environment?",
+            "id": 2,
+            "text": "Which statement best explains how a child might have brown eyes even though both parents have blue eyes?",
             "options": [
                 {
-                    "text": "Species A, because its bright colors warn predators that it might be poisonous",
-                    "isCorrect": 0,
-                    "explanation": "While some butterflies do use bright colors as warning signals, in this scenario the bright orange would make Species A more visible against dark bark, making it an easier target for predators."
-                },
-                {
-                    "text": "Species B, because its dark brown coloring provides better camouflage against the tree bark",
+                    "text": "The parents each carry unexpressed gene variants that together can produce brown eyes",
                     "isCorrect": 1,
-                    "explanation": "Species B's dark brown wings would blend in with the dark tree bark, making it harder for predators to spot them. This camouflage advantage increases their chances of survival."
+                    "explanation": "Eye color is determined by multiple genes. While blue eyes generally indicate recessive alleles, the complex interaction of multiple genes can rarely allow two blue-eyed parents to have a brown-eyed child if they carry certain unexpressed genetic variants."
                 },
                 {
-                    "text": "Both species have equal chances of survival because predators hunt by smell, not sight",
+                    "text": "The environment changed the child's eye color after birth",
                     "isCorrect": 0,
-                    "explanation": "Many predators that hunt butterflies, such as birds, rely heavily on vision to spot their prey. Visual camouflage is an important survival trait for butterflies."
+                    "explanation": "Eye color is determined by inherited genes and cannot be changed by environmental factors after birth."
                 },
                 {
-                    "text": "Species A, because its spots confuse predators about which direction it's flying",
+                    "text": "The blue-eyed parents must have changed their eye color",
                     "isCorrect": 0,
-                    "explanation": "While spots can sometimes confuse predators about direction, this advantage would be outweighed by the high visibility of the bright orange wings against dark bark."
+                    "explanation": "Parents' eye colors are fixed by their genes and do not change. They can only pass on the genes they have."
+                },
+                {
+                    "text": "Eye color is completely random in children",
+                    "isCorrect": 0,
+                    "explanation": "Eye color is not random but is determined by specific inherited genes following patterns of inheritance."
                 }
             ],
-            "funFact": "Some butterfly species can actually change their wing coloration based on the season or temperature! The African Commodore butterfly, for example, has darker wings during colder seasons to absorb more sunlight and lighter wings during warmer seasons."
+            "funFact": "While blue eyes were once thought to be a simple inherited trait, scientists now know that eye color is controlled by at least 16 different genes working together!"
+        },
+        {
+            "id": 3,
+            "text": "A young deer is born with spotted fur that closely matches the dappled sunlight pattern on the forest floor. How does this trait most likely help the deer survive in its environment?",
+            "options": [
+                {
+                    "text": "The spots help the deer stay warm in cold weather",
+                    "isCorrect": 0,
+                    "explanation": "The spotted pattern is not related to temperature regulation - it serves as protective camouflage"
+                },
+                {
+                    "text": "The spots help the deer blend in with its surroundings, making it harder for predators to spot it",
+                    "isCorrect": 1,
+                    "explanation": "The spotted pattern provides camouflage by matching the forest environment, helping the young deer avoid detection by predators and increasing its chances of survival"
+                },
+                {
+                    "text": "The spots make the deer look larger and more intimidating to predators",
+                    "isCorrect": 0,
+                    "explanation": "Spots don't make the deer appear larger - they actually help break up its outline and make it less visible"
+                },
+                {
+                    "text": "The spots help the deer attract more mates when it grows up",
+                    "isCorrect": 0,
+                    "explanation": "While some traits do help with attracting mates, spotted fur in young deer primarily serves as camouflage for survival"
+                }
+            ],
+            "funFact": "Many deer species' fawns are born with spots but lose them as they mature. This is because young deer are most vulnerable when they're small and cannot outrun predators, so camouflage is especially important during their early months of life."
+        },
+        {
+            "id": 4,
+            "text": "A group of researchers discovered two different populations of a small rodent species living in the same forest. Population A had significantly better hearing abilities compared to Population B. How might this variation in hearing ability affect the survival of these rodents?",
+            "options": [
+                {
+                    "text": "Population B would survive better because they can focus more on visual signals",
+                    "isCorrect": 0,
+                    "explanation": "While visual signals are important, having reduced hearing ability doesn't improve vision and could leave them more vulnerable to predators"
+                },
+                {
+                    "text": "Both populations would have equal survival rates because they live in the same forest",
+                    "isCorrect": 0,
+                    "explanation": "Living in the same environment doesn't mean all individuals have equal survival chances - beneficial traits can provide advantages regardless of location"
+                },
+                {
+                    "text": "Population A would likely have a better chance of survival because they can detect predators earlier",
+                    "isCorrect": 1,
+                    "explanation": "Better hearing allows animals to detect approaching predators sooner, giving them more time to escape and increasing their chances of survival"
+                },
+                {
+                    "text": "Population A would have no advantage because all rodents have the same survival rate",
+                    "isCorrect": 0,
+                    "explanation": "Different traits can provide survival advantages - variations within a species can lead to different survival rates"
+                }
+            ],
+            "funFact": "Many nocturnal rodents have evolved extraordinarily sensitive hearing that can detect sounds in frequencies far beyond human hearing range. Some can even hear ultrasonic calls that their predators, like owls, make during flight!"
+        },
+        {
+            "id": 5,
+            "text": "A species of butterfly has individuals with different wing patterns. Some butterflies have bright, colorful wings while others have dull, brown wings that match tree bark. Why might the butterflies with dull wings have an advantage in terms of survival and reproduction?",
+            "options": [
+                {
+                    "text": "The dull wings help butterflies stay warmer in cold weather",
+                    "isCorrect": 0,
+                    "explanation": "Wing color has minimal effect on body temperature. The advantage of dull coloring is camouflage for survival"
+                },
+                {
+                    "text": "The dull wings attract more mates because they are rare in the population",
+                    "isCorrect": 0,
+                    "explanation": "For butterflies, bright colors typically attract mates. Dull coloring provides survival advantages through camouflage, not mate attraction"
+                },
+                {
+                    "text": "The dull wings make butterflies fly faster, helping them catch more food",
+                    "isCorrect": 0,
+                    "explanation": "Wing color does not affect flying speed - this is a misconception about how protective coloration works"
+                },
+                {
+                    "text": "The dull wings allow butterflies to blend in with tree bark, making them less visible to predators and more likely to survive and reproduce",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because camouflage helps organisms avoid predators, increasing their chances of survival and passing their traits to offspring"
+                }
+            ],
+            "funFact": "Some butterflies can actually change their wing patterns based on the season! The African Commodore butterfly produces different color patterns depending on whether it's the wet or dry season, helping it match its changing environment."
+        },
+        {
+            "id": 6,
+            "text": "A flower species has both purple and white petals among its individuals. How might having purple petals instead of white petals provide an advantage to some flowers in this species?",
+            "options": [
+                {
+                    "text": "Purple petals make the plant grow taller",
+                    "isCorrect": 0,
+                    "explanation": "Petal color does not affect plant height. Plant height is determined by other genetic factors and environmental conditions like sunlight and nutrients."
+                },
+                {
+                    "text": "Purple petals contain more water than white petals",
+                    "isCorrect": 0,
+                    "explanation": "The color of petals does not determine their water content. Petal color is related to pigments that affect how the flower appears to pollinators and other organisms."
+                },
+                {
+                    "text": "Purple petals make the flower live forever",
+                    "isCorrect": 0,
+                    "explanation": "No flower lives forever. Petal color does not affect the lifespan of flowers. All flowers eventually wilt and die as part of their natural life cycle."
+                },
+                {
+                    "text": "Purple petals might be more visible to bees and butterflies, increasing the chance of pollination",
+                    "isCorrect": 1,
+                    "explanation": "Different colors can attract different pollinators. Purple flowers are often more visible to bees and butterflies, which helps these flowers get pollinated more successfully and produce more seeds."
+                }
+            ],
+            "funFact": "Some flowers can change color throughout their blooming period! For example, the Lantana flower clusters start out yellow and gradually turn pink or red. This color change signals to pollinators which flowers are fresh with nectar and which have already been pollinated."
         },
         {
             "id": 7,
-            "text": "In a species of tropical fish, some individuals grow to be much larger than others. How might being a larger size provide an advantage for these fish when it comes to finding mates and reproducing?",
+            "text": "Different species of lizards have varying tail lengths. In some species, if a predator grabs their tail, the lizard can break it off and escape. This process is called autotomy. Some lizards in a species have longer tails while others have shorter tails. How might having a longer tail provide an advantage to a lizard?",
             "options": [
                 {
-                    "text": "Larger fish are more visible to potential mates in deep water",
+                    "text": "A longer tail means the lizard can catch more prey",
+                    "isCorrect": 0,
+                    "explanation": "Tail length doesn't directly affect a lizard's ability to catch prey. Lizards use other features like speed and jaw strength for hunting."
+                },
+                {
+                    "text": "A longer tail provides better balance while running, helping the lizard escape predators more effectively",
                     "isCorrect": 1,
-                    "explanation": "Being larger makes these fish more noticeable to potential mates, especially in deeper waters where visibility can be limited. This increases their chances of successfully finding a mate and reproducing."
+                    "explanation": "A longer tail helps lizards maintain better balance while running, making them more agile and better at escaping predators. This increased survival chance means they're more likely to live long enough to reproduce."
                 },
                 {
-                    "text": "Larger fish need more food to survive",
+                    "text": "A longer tail makes swimming easier",
                     "isCorrect": 0,
-                    "explanation": "While larger fish do need more food, this is actually a potential disadvantage rather than an advantage for reproduction since they need to spend more time and energy finding food."
+                    "explanation": "While some lizards do swim, not all species need to swim, and tail length variation within a species isn't primarily related to swimming ability."
                 },
                 {
-                    "text": "Larger fish swim more slowly",
+                    "text": "A longer tail makes the lizard look bigger, scaring away all predators",
                     "isCorrect": 0,
-                    "explanation": "Swimming speed is not directly related to size in many fish species. Even if larger fish swim more slowly, this would typically be a disadvantage rather than an advantage for reproduction."
-                },
-                {
-                    "text": "Larger fish produce less offspring",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Larger fish often have the ability to produce more offspring, not less, which is another reproductive advantage of being larger."
+                    "explanation": "While a longer tail might make a lizard appear slightly larger, this alone isn't enough to scare away all predators. Many predators are much larger than lizards regardless of tail length."
                 }
             ],
-            "funFact": "In many fish species, females actually prefer larger males because size can be an indicator of good genes and health. Some male fish even perform special courtship dances to show off their size to potential mates!"
+            "funFact": "When a lizard loses its tail through autotomy, it can actually regrow a new one! However, the regenerated tail isn't exactly the same as the original - it has a different internal structure and is usually shorter. This remarkable ability helps lizards survive even after losing their original tail to a predator."
         },
         {
             "id": 8,
-            "text": "In a wolf population living across different regions, some wolves have thicker fur while others have thinner fur. How might having thicker fur provide an advantage to wolves living in colder regions?",
+            "text": "Tigers living in different forest environments have different stripe patterns. How might having wider stripes help a tiger survive better in certain environments?",
             "options": [
                 {
-                    "text": "Thicker fur helps wolves stay warm in cold temperatures, allowing them to survive and reproduce better in cold regions",
+                    "text": "Wide stripes help the tiger blend in better with thick tree trunks and broad shadows in dense forests",
                     "isCorrect": 1,
-                    "explanation": "Thicker fur provides better insulation against cold temperatures, giving these wolves a survival advantage in cold regions where wolves with thinner fur might struggle to maintain body heat"
+                    "explanation": "Wide stripes create a pattern that matches the broad shadows and thick vegetation in dense forests, making the tiger harder to spot by both prey and predators"
                 },
+                {
+                    "text": "Wide stripes help tigers run faster through the forest",
+                    "isCorrect": 0,
+                    "explanation": "Stripe patterns don't affect a tiger's speed or movement - they serve as camouflage to help them blend into their environment"
+                },
+                {
+                    "text": "Wide stripes help tigers stay warm in cold forests",
+                    "isCorrect": 0,
+                    "explanation": "Tiger stripes don't affect body temperature - their thick fur and undercoat help them stay warm, while stripes serve as camouflage"
+                },
+                {
+                    "text": "Wide stripes make the tiger look bigger and more intimidating to other animals",
+                    "isCorrect": 0,
+                    "explanation": "While tigers are naturally intimidating, their stripe patterns evolved primarily for camouflage rather than intimidation"
+                }
+            ],
+            "funFact": "No two tigers have exactly the same stripe pattern - it's like a fingerprint! Scientists can use these unique patterns to identify individual tigers in the wild and track their movements."
+        },
+        {
+            "id": 9,
+            "text": "In a wolf population living across different regions, some wolves have thicker fur while others have thinner fur. How might having thicker fur provide an advantage to wolves living in colder regions?",
+            "options": [
                 {
                     "text": "Thicker fur makes wolves look bigger to scare away predators",
                     "isCorrect": 0,
                     "explanation": "While fur can affect appearance, wolves are generally apex predators. The main advantage of thick fur in cold regions is thermal insulation, not predator defense"
+                },
+                {
+                    "text": "Thicker fur helps wolves stay warm in cold temperatures, allowing them to survive and reproduce better in cold regions",
+                    "isCorrect": 1,
+                    "explanation": "Thicker fur provides better insulation against cold temperatures, giving these wolves a survival advantage in cold regions where wolves with thinner fur might struggle to maintain body heat"
                 },
                 {
                     "text": "Thicker fur helps wolves run faster in snow",
@@ -219,94 +246,72 @@
             "funFact": "Wolves can survive in temperatures as low as -40\u00b0F (-40\u00b0C) thanks to their specialized double-layer coat. The outer layer contains guard hairs that repel water and snow, while the inner layer provides insulation!"
         },
         {
-            "id": 9,
-            "text": "A group of pond turtles of the same species shows different shell pattern variations. Some turtles have dark brown shells with scattered light spots, while others have solid dark brown shells. These turtles live in a pond with a muddy bottom covered in fallen leaves. Which shell pattern would likely provide better protection from predators in this habitat?",
-            "options": [
-                {
-                    "text": "Dark brown shells with scattered light spots",
-                    "isCorrect": 1,
-                    "explanation": "This pattern would better match the spotted appearance of the pond bottom where sunlight creates light patches through leaves, making these turtles harder for predators to spot."
-                },
-                {
-                    "text": "Solid dark brown shells",
-                    "isCorrect": 0,
-                    "explanation": "While dark brown provides some camouflage, a solid color would stand out more against the varied pattern of light and shadow on the pond bottom."
-                },
-                {
-                    "text": "The shell pattern makes no difference in protection",
-                    "isCorrect": 0,
-                    "explanation": "Shell patterns can significantly affect how well a turtle blends into its environment, which impacts its chances of avoiding predators."
-                }
-            ],
-            "funFact": "Some turtle species can actually change the intensity of their shell colors slightly based on temperature and light exposure, though not as dramatically as chameleons can change their colors!"
-        },
-        {
             "id": 10,
-            "text": "In a tropical rainforest, some spider monkeys have longer arms than others in their group. How might having longer arms provide an advantage for these monkeys?",
+            "text": "In a population of deer, some males have large antlers while others have smaller ones. Which statement best explains how this variation in antler size might affect their success in reproduction?",
             "options": [
                 {
-                    "text": "Longer arms help them swing more efficiently between tree branches to find food and escape predators",
+                    "text": "Male deer with smaller antlers are more successful because they can move faster and escape predators.",
+                    "isCorrect": 0,
+                    "explanation": "While smaller antlers might help with movement, in deer species, larger antlers are actually more advantageous for mate selection and reproduction."
+                },
+                {
+                    "text": "All male deer have equal chances of finding mates regardless of their antler size.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because variations in characteristics like antler size can create significant differences in mating success among individuals of the same species."
+                },
+                {
+                    "text": "Antler size has no effect on reproduction because it only helps with eating leaves from trees.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because antlers are not primarily used for feeding - they play a crucial role in mate selection and competition between males."
+                },
+                {
+                    "text": "Male deer with larger antlers are often more successful in competing for mates because they can better defend themselves and establish dominance.",
                     "isCorrect": 1,
-                    "explanation": "Longer arms give spider monkeys better reach and more efficient movement through the forest canopy, increasing their chances of survival by helping them access food and escape danger more effectively."
-                },
-                {
-                    "text": "Longer arms allow them to stay warmer during cold nights",
-                    "isCorrect": 0,
-                    "explanation": "Arm length does not significantly affect body temperature regulation in monkeys. Their fur and body fat are more important for staying warm."
-                },
-                {
-                    "text": "Longer arms help them swim better in forest rivers",
-                    "isCorrect": 0,
-                    "explanation": "Spider monkeys primarily live in trees and rarely swim. Their arm length evolved for arboreal (tree-dwelling) movement, not swimming."
-                },
-                {
-                    "text": "Longer arms make them look bigger to scare away predators",
-                    "isCorrect": 0,
-                    "explanation": "While appearing larger can help deter predators, the primary advantage of longer arms in spider monkeys is improved movement through the forest canopy."
+                    "explanation": "Larger antlers give male deer an advantage in competition with other males, allowing them to win more mating opportunities and pass on their traits to offspring."
                 }
             ],
-            "funFact": "Spider monkeys have extraordinarily long arms that can be up to 1.5 times longer than their legs! They also have a special adaptation where their thumbs are greatly reduced or absent, which helps them move through trees more efficiently using their hook-like hands."
+            "funFact": "Deer antlers are one of the fastest-growing tissues in the animal kingdom! Male deer grow and shed their antlers each year, and during the growing season, antlers can grow up to half an inch per day."
         },
         {
             "id": 11,
-            "text": "Tigers in different regions have varying stripe patterns, from wide to narrow stripes. Which explanation best describes how these stripe variations might affect a tiger's survival?",
+            "text": "In many bird species, males have brightly colored feathers while females have duller colored feathers. How do these differences in feather coloration likely benefit the survival and reproduction of the species?",
             "options": [
                 {
-                    "text": "Wide stripes help tigers better hide in dense forests where shadows create broad dark patterns",
+                    "text": "Both bright and dull feathers help all birds blend in with their environment",
+                    "isCorrect": 0,
+                    "explanation": "Bright feathers actually make males more visible, not camouflaged. This variation exists because the benefits of attracting mates outweigh the risks of being more visible to predators."
+                },
+                {
+                    "text": "Bright feathers help males attract mates while duller feathers help females stay camouflaged while nesting",
                     "isCorrect": 1,
-                    "explanation": "This is correct because stripe patterns that match the light and shadow patterns in their habitat provide better camouflage, increasing their chances of successful hunting and survival"
+                    "explanation": "This variation provides two key advantages - males with brighter feathers are more successful at attracting mates, while females with duller feathers are better protected from predators while caring for eggs and chicks."
                 },
                 {
-                    "text": "All stripe patterns provide equal survival advantages regardless of the habitat",
+                    "text": "The color differences have no effect on survival or reproduction",
                     "isCorrect": 0,
-                    "explanation": "Different environments have different patterns of light and shadow, so not all stripe patterns would be equally effective for camouflage in all habitats"
+                    "explanation": "Feather coloration plays an important role - it influences both mate selection and predator avoidance, directly affecting survival and reproduction rates."
                 },
                 {
-                    "text": "Stripe patterns only affect a tiger's appearance and have no impact on survival",
+                    "text": "Bright feathers protect both males and females from predators",
                     "isCorrect": 0,
-                    "explanation": "Stripe patterns play a crucial role in camouflage, which directly affects a tiger's ability to hunt and survive"
-                },
-                {
-                    "text": "Tigers with more stripes are always better at surviving than those with fewer stripes",
-                    "isCorrect": 0,
-                    "explanation": "The effectiveness of stripe patterns depends on how well they match the habitat, not simply the number of stripes"
+                    "explanation": "Bright feathers actually make birds more visible to predators, not less visible. Males have bright feathers despite this risk because it helps them find mates."
                 }
             ],
-            "funFact": "Tiger stripes are like fingerprints - no two tigers have exactly the same stripe pattern! These unique patterns are not just on their fur but are also present on their skin underneath."
+            "funFact": "The brightest colored bird in the world is the Himalayan Monal, with males displaying iridescent feathers in almost every color of the rainbow! Despite their flashy appearance making them more visible to predators, these colors are so effective at attracting mates that the trait has persisted through evolution."
         },
         {
             "id": 12,
             "text": "In the Arctic, snowshoe hares have fur that changes color with the seasons - brown in summer and white in winter. How does this variation in fur color help these hares survive?",
             "options": [
                 {
+                    "text": "The brown summer fur helps hares absorb more nutrients from their food",
+                    "isCorrect": 0,
+                    "explanation": "Fur color has no effect on nutrient absorption - this is handled by the digestive system, not the fur"
+                },
+                {
                     "text": "The white winter fur provides better camouflage in snowy environments while brown summer fur helps them blend with the brown vegetation, improving survival in both seasons",
                     "isCorrect": 1,
                     "explanation": "This color-changing adaptation provides optimal camouflage protection against predators in both seasonal environments, significantly increasing survival chances"
-                },
-                {
-                    "text": "The color change helps hares regulate their body temperature better in different seasons",
-                    "isCorrect": 0,
-                    "explanation": "While fur does help with temperature regulation, the color change is primarily a camouflage adaptation rather than a temperature control mechanism"
                 },
                 {
                     "text": "The white winter fur makes the hares more visible to potential mates",
@@ -314,27 +319,71 @@
                     "explanation": "The fur color change is actually meant to reduce visibility to predators, not to increase visibility to mates"
                 },
                 {
-                    "text": "The brown summer fur helps hares absorb more nutrients from their food",
+                    "text": "The color change helps hares regulate their body temperature better in different seasons",
                     "isCorrect": 0,
-                    "explanation": "Fur color has no effect on nutrient absorption - this is handled by the digestive system, not the fur"
+                    "explanation": "While fur does help with temperature regulation, the color change is primarily a camouflage adaptation rather than a temperature control mechanism"
                 }
             ],
             "funFact": "Some snowshoe hares can complete their fur color change from brown to white in as little as ten weeks! This process is triggered by the changing length of daylight hours, not by temperature or snow presence."
         },
         {
             "id": 13,
-            "text": "A researcher is studying poison dart frogs in two different environments. In Environment A, the frogs eat insects that contain toxic chemicals, while in Environment B, the frogs eat insects without toxic chemicals. Which statement best explains how this difference might affect the frogs' survival?",
+            "text": "A biologist studies two groups of deer in different forest regions. Group A lives in a forest with darker soil and dense vegetation, while Group B lives in a forest with lighter soil and scattered vegetation. Over time, she notices that Group A deer tend to have darker brown coats, while Group B deer tend to have lighter tan coats. What is the most likely reason for this variation in coat color between the two groups?",
             "options": [
                 {
-                    "text": "The frogs in Environment A will develop toxicity as an inherited trait that they can pass to their offspring regardless of diet",
+                    "text": "The deer in each group consciously change their coat color to match their environment",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because toxicity in poison dart frogs is influenced by their diet, not purely inherited. The toxins come from the insects they eat."
+                    "explanation": "Deer cannot consciously change their coat color. Coat color is an inherited trait that is passed down from parents to offspring."
                 },
                 {
-                    "text": "The frogs in Environment A will be more likely to survive because they acquire toxicity from their diet, making them less vulnerable to predators",
+                    "text": "Deer with coat colors that better match their environment have a higher chance of survival and reproduction",
                     "isCorrect": 1,
-                    "explanation": "This is correct because the frogs' toxicity comes from consuming toxic insects, which provides them with a survival advantage against predators."
+                    "explanation": "Deer whose coat color provides better camouflage in their environment are more likely to survive predator attacks and live long enough to reproduce, passing on their beneficial coat color traits to their offspring."
                 },
+                {
+                    "text": "The soil color directly changes the deer's coat color as they grow",
+                    "isCorrect": 0,
+                    "explanation": "Soil color does not directly affect deer coat color. Coat color is determined by inherited traits, not by the environment directly changing the deer's appearance."
+                },
+                {
+                    "text": "All deer in a region must have the same coat color to survive",
+                    "isCorrect": 0,
+                    "explanation": "Variation in traits within a species is normal and beneficial. Not all deer in a region need to have identical coat colors to survive."
+                }
+            ],
+            "funFact": "White-tailed deer can change their coat color seasonally, growing darker, thicker fur in winter and lighter, thinner fur in summer. However, the basic color pattern they can achieve is still limited by their inherited genes!"
+        },
+        {
+            "id": 14,
+            "text": "Two alligator populations living in different wetland areas have distinct characteristics. Population A has eyes positioned higher on their heads and darker scales, while Population B has lower-positioned eyes and lighter scales. How do these different traits likely work together to help Population A survive?",
+            "options": [
+                {
+                    "text": "The higher eye position helps them stay cooler, and darker scales help them hide better at night",
+                    "isCorrect": 0,
+                    "explanation": "Eye position doesn't affect body temperature, and darker scales actually absorb more heat. These traits help in different ways than described"
+                },
+                {
+                    "text": "The higher eye position helps them spot prey while staying hidden underwater, and darker scales help them absorb heat faster for hunting",
+                    "isCorrect": 1,
+                    "explanation": "This combination of traits creates an advantage - higher eyes allow better vision while remaining concealed, and darker scales enable faster warming in the sun for improved hunting ability"
+                },
+                {
+                    "text": "These traits don't work together - they function completely independently",
+                    "isCorrect": 0,
+                    "explanation": "Different traits often work together in nature to enhance survival. These traits complement each other to improve hunting success"
+                },
+                {
+                    "text": "The higher eye position makes them more visible to prey, and darker scales make them easier to spot",
+                    "isCorrect": 0,
+                    "explanation": "This combination would actually decrease survival chances by making the alligators more visible to both prey and predators"
+                }
+            ],
+            "funFact": "Alligators can stay underwater for up to 2 hours when resting! Their elevated nostrils and eyes allow them to breathe and watch for prey while keeping most of their body hidden beneath the water's surface."
+        },
+        {
+            "id": 15,
+            "text": "A researcher is studying poison dart frogs in two different environments. In Environment A, the frogs eat insects that contain toxic chemicals, while in Environment B, the frogs eat insects without toxic chemicals. Which statement best explains how this difference might affect the frogs' survival?",
+            "options": [
                 {
                     "text": "The frogs in Environment B will evolve to produce their own toxins within one generation to compensate for their non-toxic diet",
                     "isCorrect": 0,
@@ -344,63 +393,19 @@
                     "text": "The bright coloration of the frogs will disappear in Environment B since they no longer need to warn predators about their toxicity",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because the frogs' coloration is an inherited trait that doesn't change based on their diet or toxicity level."
+                },
+                {
+                    "text": "The frogs in Environment A will develop toxicity as an inherited trait that they can pass to their offspring regardless of diet",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because toxicity in poison dart frogs is influenced by their diet, not purely inherited. The toxins come from the insects they eat."
+                },
+                {
+                    "text": "The frogs in Environment A will be more likely to survive because they acquire toxicity from their diet, making them less vulnerable to predators",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because the frogs' toxicity comes from consuming toxic insects, which provides them with a survival advantage against predators."
                 }
             ],
             "funFact": "Some species of poison dart frogs raised in captivity are completely non-toxic because they don't have access to the specific insects that are the source of their toxins in the wild. However, they still maintain their bright warning colors!"
-        },
-        {
-            "id": 14,
-            "text": "A scientist studies a population of butterflies in a forest. She notices that some butterflies have light-colored wings while others have dark-colored wings. During her research, she observes that on sunny days, butterflies with light-colored wings are more likely to survive because they reflect more sunlight and stay cooler. However, on cloudy days, butterflies with dark-colored wings are more likely to survive because they absorb more heat to maintain their body temperature. What does this variation in wing color demonstrate about the species?",
-            "options": [
-                {
-                    "text": "Different wing colors provide advantages in different environmental conditions, helping some butterflies survive better than others",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because the variation in wing colors helps butterflies survive in different lighting conditions - light wings are advantageous on sunny days while dark wings are beneficial on cloudy days"
-                },
-                {
-                    "text": "All butterflies should eventually develop light-colored wings since sunny days are more common",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because both wing colors provide advantages in different conditions, so both variations can persist in the population"
-                },
-                {
-                    "text": "Wing color has no effect on butterfly survival since they can fly in both sunny and cloudy conditions",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the evidence shows that wing color affects body temperature regulation and survival in different lighting conditions"
-                },
-                {
-                    "text": "Butterflies can change their wing color depending on the weather conditions",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because wing color is an inherited trait that cannot be changed by individual butterflies based on weather conditions"
-                }
-            ],
-            "funFact": "Some butterfly species have evolved temperature-sensitive wings that can actually change their position to regulate heat absorption. The silver-spotted skipper butterfly, for example, adjusts its wing angle throughout the day to maintain optimal body temperature!"
-        },
-        {
-            "id": 15,
-            "text": "When observing a group of bumblebees, scientists noticed that some bees collected more nectar and pollen than others. Which statement best explains why this variation in behavior might give certain bumblebees an advantage?",
-            "options": [
-                {
-                    "text": "Bumblebees that collect more nectar and pollen are more likely to survive and contribute to the colony's success",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because bees that are better at gathering resources help ensure both their own survival and the survival of their colony, which increases their chances of passing on their traits to future generations."
-                },
-                {
-                    "text": "Bumblebees that collect less nectar and pollen conserve more energy for other activities",
-                    "isCorrect": 0,
-                    "explanation": "While energy conservation can be important, bees that gather less food actually put their colony at risk of not having enough resources to survive."
-                },
-                {
-                    "text": "All bumblebees in a colony collect exactly the same amount of nectar and pollen",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because there are natural variations in behavior among individuals of the same species, including how effectively they gather resources."
-                },
-                {
-                    "text": "Bumblebees take turns being good and bad at collecting nectar and pollen",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because foraging ability is a trait that remains relatively consistent for each individual bee, not something that changes by taking turns."
-                }
-            ],
-            "funFact": "A single bumblebee can visit up to 5,000 flowers in a single day! This impressive number shows how variations in foraging ability can make a huge difference in how much food a bee brings back to its colony."
         }
     ]
 }

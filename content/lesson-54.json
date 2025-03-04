@@ -4,83 +4,61 @@
     "questions": [
         {
             "id": 1,
-            "text": "What is the best definition of motion?",
+            "text": "You want to push a toy car across the floor to reach a target. What will make the toy car go the farthest?",
             "options": [
                 {
-                    "text": "When an object changes its position",
+                    "text": "The force doesn't matter",
+                    "isCorrect": 0,
+                    "explanation": "The strength of the force does matter - stronger forces cause objects to move farther than weaker forces."
+                },
+                {
+                    "text": "Using a lighter push force",
+                    "isCorrect": 0,
+                    "explanation": "A lighter push force will make the toy car travel a shorter distance since less force means less movement."
+                },
+                {
+                    "text": "Using a stronger push force",
                     "isCorrect": 1,
-                    "explanation": "This is correct because motion occurs when an object moves from one position to another, changing its location."
-                },
-                {
-                    "text": "When an object stays in the same place",
-                    "isCorrect": 0,
-                    "explanation": "This describes a stationary object, not motion. Motion requires a change in position."
-                },
-                {
-                    "text": "When a force is applied to an object",
-                    "isCorrect": 0,
-                    "explanation": "While forces can cause motion, just applying a force doesn't always result in motion. The object needs to actually change position."
-                },
-                {
-                    "text": "When an object is pushed or pulled",
-                    "isCorrect": 0,
-                    "explanation": "Pushing and pulling are forces that can cause motion, but they aren't motion itself. Motion is the actual change in position."
+                    "explanation": "A stronger push force will make the toy car travel farther because the greater the force applied, the more the object will move."
                 }
             ],
-            "funFact": "Did you know that even when you're standing still, you're actually in motion? The Earth is rotating at about 1,000 miles per hour at the equator, and it's also orbiting around the Sun at about 67,000 miles per hour!"
+            "funFact": "Race car drivers use powerful engines that create strong forces to push their cars to speeds over 200 miles per hour! The stronger the engine's force, the faster the car can go."
         },
         {
             "id": 2,
-            "text": "When you push a toy car on a flat surface, which way will it move?",
+            "text": "When a soccer player kicks a ball during a game, what effect can the force of the kick have on the ball's motion?",
             "options": [
                 {
-                    "text": "Away from you",
+                    "text": "The force has no effect on the ball's motion",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because forces always affect motion - they can change speed, direction, or both."
+                },
+                {
+                    "text": "The force can make the ball speed up, slow down, or change direction",
                     "isCorrect": 1,
-                    "explanation": "A push force always moves objects away from the person or thing applying the force. This is a fundamental property of push forces."
+                    "explanation": "Forces can affect motion in multiple ways - they can increase speed, decrease speed, or change the direction of an object's movement."
                 },
                 {
-                    "text": "Towards you",
+                    "text": "The force can only change the ball's direction",
                     "isCorrect": 0,
-                    "explanation": "Objects move towards you when you pull them, not when you push them. A push force moves objects in the opposite direction - away from you."
+                    "explanation": "While forces can change direction, they aren't limited to just that - they can also make objects speed up or slow down."
                 },
                 {
-                    "text": "It will not move at all",
+                    "text": "The force can only make the ball go faster",
                     "isCorrect": 0,
-                    "explanation": "When you apply a push force to an object like a toy car on a flat surface, it will move. Only if there's no force applied or if the forces are balanced will an object stay still."
+                    "explanation": "This is incorrect because forces can do more than just increase speed - they can also slow things down or change their direction."
                 }
             ],
-            "funFact": "Race car drivers rely on Newton's Third Law of Motion. When car wheels push backward against the ground, the ground pushes the car forward with equal force - allowing race cars to reach speeds exceeding 200 miles per hour!"
+            "funFact": "Professional soccer players can kick a ball with so much force that it can travel at speeds over 70 miles per hour! This shows how a strong force can create very fast motion."
         },
         {
             "id": 3,
-            "text": "You want to get your favorite toy from across the room. Which type of force would you use to bring the toy closer to you?",
-            "options": [
-                {
-                    "text": "A pull force",
-                    "isCorrect": 1,
-                    "explanation": "A pull force moves objects toward you, so this is the correct force to use when you want to bring something closer to yourself."
-                },
-                {
-                    "text": "A push force",
-                    "isCorrect": 0,
-                    "explanation": "A push force moves objects away from you, which would make the toy move farther away instead of coming closer."
-                },
-                {
-                    "text": "No force",
-                    "isCorrect": 0,
-                    "explanation": "Without applying any force, the toy would stay where it is and wouldn't move closer to you."
-                }
-            ],
-            "funFact": "The strength of forces can vary greatly in nature! While it might take just a small force to pull a toy toward you, the Earth's gravitational pull is so strong that it keeps the Moon orbiting around it from about 239,000 miles away!"
-        },
-        {
-            "id": 4,
             "text": "Which of the following activities would require you to change the direction of an object using force?",
             "options": [
                 {
-                    "text": "Dribbling a basketball while changing direction during a game",
-                    "isCorrect": 1,
-                    "explanation": "When dribbling a basketball and changing direction, you apply forces to the ball to make it bounce in different directions as you move around the court."
+                    "text": "Running in a straight line",
+                    "isCorrect": 0,
+                    "explanation": "Running in a straight line involves forces but does not require changing the direction of motion."
                 },
                 {
                     "text": "Lifting weights straight up and down",
@@ -88,9 +66,9 @@
                     "explanation": "Lifting weights involves forces, but typically only in a vertical direction without changing the direction of motion."
                 },
                 {
-                    "text": "Running in a straight line",
-                    "isCorrect": 0,
-                    "explanation": "Running in a straight line involves forces but does not require changing the direction of motion."
+                    "text": "Dribbling a basketball while changing direction during a game",
+                    "isCorrect": 1,
+                    "explanation": "When dribbling a basketball and changing direction, you apply forces to the ball to make it bounce in different directions as you move around the court."
                 },
                 {
                     "text": "Jumping up and down in place",
@@ -101,94 +79,121 @@
             "funFact": "In basketball, professional players can change the direction of the ball up to 100 times during a single game! This constant directional change using pushes and pulls is what makes the sport so dynamic and exciting to watch."
         },
         {
-            "id": 5,
-            "text": "Which of the following best describes a force?",
+            "id": 4,
+            "text": "Which of the following actions represents using a pull force?",
             "options": [
                 {
-                    "text": "A push or pull that can make objects move, change speed, or change direction",
+                    "text": "Opening a desk drawer",
                     "isCorrect": 1,
-                    "explanation": "This is correct because a force includes both pushes and pulls and can affect an object's motion in multiple ways - making it move, speed up, slow down, or change direction."
+                    "explanation": "Opening a drawer requires pulling it towards you, making it a clear example of a pull force"
                 },
                 {
-                    "text": "Only a push that makes objects move away",
+                    "text": "Pushing a shopping cart",
                     "isCorrect": 0,
-                    "explanation": "This is incomplete because forces include both pushes and pulls, not just pushes, and they can do more than just make objects move away."
+                    "explanation": "Moving a shopping cart forward involves pushing it away from you, making it a push force"
                 },
                 {
-                    "text": "Only a pull that brings objects closer",
+                    "text": "Kicking a soccer ball",
                     "isCorrect": 0,
-                    "explanation": "This is incomplete because forces include both pushes and pulls, not just pulls, and they can do more than just bring objects closer."
+                    "explanation": "Kicking a soccer ball involves pushing it away from you, making it a push force rather than a pull force"
                 },
                 {
-                    "text": "Something that only changes the speed of objects",
+                    "text": "Closing a door",
                     "isCorrect": 0,
-                    "explanation": "This is incomplete because forces can do more than just change speed - they can also make objects move and change direction."
+                    "explanation": "Closing a door typically involves pushing it away from you, making it a push force"
                 }
             ],
-            "funFact": "Did you know that astronauts in space need to push off walls to move around because there's almost no gravity? They use forces differently than we do on Earth, where gravity is always pulling us down!"
+            "funFact": "The force of gravity is one of the most common pull forces we experience every day. It constantly pulls everything on Earth towards the planet's center, which is why objects fall down when dropped!"
+        },
+        {
+            "id": 5,
+            "text": "When you kick a soccer ball with more force compared to a gentle kick, what happens to the ball's motion?",
+            "options": [
+                {
+                    "text": "The force has no effect on the ball's speed or distance",
+                    "isCorrect": 0,
+                    "explanation": "Forces always affect an object's motion - stronger forces create bigger changes in speed and distance compared to weaker forces."
+                },
+                {
+                    "text": "The ball moves slower and travels less far",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because a stronger force actually increases the speed and distance an object travels, not decreases them."
+                },
+                {
+                    "text": "The ball moves faster but travels less far",
+                    "isCorrect": 0,
+                    "explanation": "When an object moves faster due to a stronger force, it will also travel farther, not less far, assuming other factors remain the same."
+                },
+                {
+                    "text": "The ball moves faster and travels farther",
+                    "isCorrect": 1,
+                    "explanation": "A stronger force causes objects to move at higher speeds and travel greater distances, following the basic principle that stronger pushes create bigger changes in motion."
+                }
+            ],
+            "funFact": "Professional soccer players can kick a ball with so much force that it reaches speeds over 75 miles per hour! This is why goalkeepers need such quick reflexes to stop these powerful shots."
         },
         {
             "id": 6,
-            "text": "Two students are playing tug-of-war with a rope. The student on the left pulls with more force than the student on the right. What will happen to the rope?",
+            "text": "In a game of mini-golf, a player wants to get their ball to curve around a corner and into the hole. Which type of force should they apply to the ball?",
             "options": [
                 {
-                    "text": "The rope will move toward the left",
+                    "text": "Hit the ball very softly straight ahead",
+                    "isCorrect": 0,
+                    "explanation": "A soft straight hit would only make the ball move slowly in a straight line, not curve around the corner."
+                },
+                {
+                    "text": "Hit the ball straight with a very strong force",
+                    "isCorrect": 0,
+                    "explanation": "A straight hit with strong force would make the ball move fast but wouldn't help it curve around the corner."
+                },
+                {
+                    "text": "Hit the ball at an angle with a sideways force",
                     "isCorrect": 1,
-                    "explanation": "When one person pulls with greater force, the rope moves in the direction of the stronger force. Since the student on the left pulls harder, the rope will move toward the left."
+                    "explanation": "Hitting the ball at an angle applies a sideways force that makes the ball follow a curved path, which is needed to go around the corner."
                 },
                 {
-                    "text": "The rope will move toward the right",
+                    "text": "Pull the ball towards the hole",
                     "isCorrect": 0,
-                    "explanation": "The rope moves in the direction of the stronger force. Since the student on the right pulls with less force, the rope will not move in that direction."
-                },
-                {
-                    "text": "The rope will stay in the same position",
-                    "isCorrect": 0,
-                    "explanation": "The rope only stays in the same position when both students pull with equal force. Since one student pulls harder, the rope will move."
-                },
-                {
-                    "text": "The rope will break in the middle",
-                    "isCorrect": 0,
-                    "explanation": "The rope breaking would depend on the strength of the rope, not just the difference in forces. The rope will move toward the stronger pull before it would break."
+                    "explanation": "You cannot pull a golf ball while playing - you can only push it with the club."
                 }
             ],
-            "funFact": "Tug-of-war was actually an Olympic sport from 1900 to 1920! Teams of eight people would compete by pulling on opposite ends of a rope, demonstrating the principles of forces in an exciting way."
+            "funFact": "Professional golfers can make a ball curve intentionally in a shot called a 'draw' or a 'fade' by carefully controlling the angle and force of their swing. This helps them navigate around obstacles on the golf course!"
         },
         {
             "id": 7,
-            "text": "A soccer player is practicing penalty kicks. When they kick the ball softly, it travels 5 meters. What will most likely happen if they kick the ball with more force?",
+            "text": "Two toy cars are traveling on a smooth floor. Car A is pushed hard, while Car B is pushed gently. Both cars hit a stack of blocks. What will most likely happen?",
             "options": [
                 {
-                    "text": "The ball will travel farther than 5 meters",
+                    "text": "Both cars will knock down the same number of blocks",
+                    "isCorrect": 0,
+                    "explanation": "Different amounts of force create different effects - a stronger push will have more impact than a gentle push"
+                },
+                {
+                    "text": "Neither car will knock down any blocks",
+                    "isCorrect": 0,
+                    "explanation": "Moving objects with force can definitely knock down blocks - the amount knocked down depends on the strength of the push"
+                },
+                {
+                    "text": "Car B will knock down more blocks than Car A",
+                    "isCorrect": 0,
+                    "explanation": "A gentle push creates less force, giving Car B less speed and energy to knock down blocks"
+                },
+                {
+                    "text": "Car A will knock down more blocks than Car B",
                     "isCorrect": 1,
-                    "explanation": "A stronger force (harder kick) will make the ball move faster and travel a greater distance"
-                },
-                {
-                    "text": "The ball will travel exactly 5 meters",
-                    "isCorrect": 0,
-                    "explanation": "Using more force changes how objects move - a harder kick will make the ball go farther than a soft kick"
-                },
-                {
-                    "text": "The ball will travel less than 5 meters",
-                    "isCorrect": 0,
-                    "explanation": "Using more force makes objects move faster and farther, not slower and shorter distances"
-                },
-                {
-                    "text": "The force won't affect how far the ball travels",
-                    "isCorrect": 0,
-                    "explanation": "Forces directly affect motion - stronger forces cause bigger changes in how objects move"
+                    "explanation": "A stronger push creates more force, giving Car A more speed and energy to knock down more blocks"
                 }
             ],
-            "funFact": "Professional soccer players can kick a ball with so much force that it travels at speeds over 125 miles per hour! This is why goalkeepers have to be very quick to stop these powerful shots."
+            "funFact": "In bowling, professional players can throw the ball at speeds over 20 miles per hour! The faster speed from their stronger throw helps knock down more pins, just like the toy car experiment."
         },
         {
             "id": 8,
             "text": "A student wants to make a marble roll down a ramp faster. Which change to the ramp would be most effective in increasing the marble's speed?",
             "options": [
                 {
-                    "text": "Make the ramp steeper",
-                    "isCorrect": 1,
-                    "explanation": "A steeper ramp creates a stronger downward force, making the marble roll faster. The greater the slope, the more the force of gravity pulls the marble downward."
+                    "text": "Paint the ramp a different color",
+                    "isCorrect": 0,
+                    "explanation": "The color of the ramp has no effect on the marble's speed. Forces like gravity and the slope of the ramp determine how fast the marble rolls."
                 },
                 {
                     "text": "Make the ramp longer",
@@ -201,9 +206,9 @@
                     "explanation": "The width of the ramp doesn't affect the marble's speed. The marble will roll at the same speed whether the ramp is wide or narrow, as long as it's wide enough for the marble to roll."
                 },
                 {
-                    "text": "Paint the ramp a different color",
-                    "isCorrect": 0,
-                    "explanation": "The color of the ramp has no effect on the marble's speed. Forces like gravity and the slope of the ramp determine how fast the marble rolls."
+                    "text": "Make the ramp steeper",
+                    "isCorrect": 1,
+                    "explanation": "A steeper ramp creates a stronger downward force, making the marble roll faster. The greater the slope, the more the force of gravity pulls the marble downward."
                 }
             ],
             "funFact": "Professional racing tracks for marble runs can have slopes precisely calculated to create exciting races. Some marble runs even include loop-de-loops, where the marble goes upside down, using the perfect combination of speed and curved tracks!"
@@ -218,14 +223,14 @@
                     "explanation": "A continuous push force is needed to counteract the friction force that naturally slows the box down, allowing it to maintain constant motion."
                 },
                 {
-                    "text": "Push harder once and then stop pushing",
-                    "isCorrect": 0,
-                    "explanation": "A single harder push will only temporarily increase speed. The box will still eventually stop due to friction."
-                },
-                {
                     "text": "Wait for the box to stop completely and start over",
                     "isCorrect": 0,
                     "explanation": "Starting over after stopping won't help maintain continuous motion. The same problem will occur again."
+                },
+                {
+                    "text": "Push harder once and then stop pushing",
+                    "isCorrect": 0,
+                    "explanation": "A single harder push will only temporarily increase speed. The box will still eventually stop due to friction."
                 },
                 {
                     "text": "No additional force is needed once the box starts moving",
@@ -237,45 +242,62 @@
         },
         {
             "id": 10,
-            "text": "Two toy cars are traveling on a smooth floor. Car A is pushed hard, while Car B is pushed gently. Both cars hit a stack of blocks. What will most likely happen?",
+            "text": "During a game of ping pong, a player wants to make the ball curve to the right after hitting the table. What type of force should they apply when hitting the ball?",
             "options": [
                 {
-                    "text": "Car A will knock down more blocks than Car B",
+                    "text": "Hit the ball upward",
+                    "isCorrect": 0,
+                    "explanation": "An upward force will make the ball go higher but won't create the sideways curve desired"
+                },
+                {
+                    "text": "Hit the ball softly with minimal force",
+                    "isCorrect": 0,
+                    "explanation": "The strength of the hit doesn't create the curve - it's the direction and type of force applied that matters"
+                },
+                {
+                    "text": "Hit the ball with a sideways sliding motion from left to right",
                     "isCorrect": 1,
-                    "explanation": "A stronger push creates more force, giving Car A more speed and energy to knock down more blocks"
+                    "explanation": "Applying a sideways sliding force creates spin, which combined with forward motion makes the ball curve to the right after bouncing"
                 },
                 {
-                    "text": "Car B will knock down more blocks than Car A",
+                    "text": "Hit the ball straight forward with maximum force",
                     "isCorrect": 0,
-                    "explanation": "A gentle push creates less force, giving Car B less speed and energy to knock down blocks"
-                },
-                {
-                    "text": "Both cars will knock down the same number of blocks",
-                    "isCorrect": 0,
-                    "explanation": "Different amounts of force create different effects - a stronger push will have more impact than a gentle push"
-                },
-                {
-                    "text": "Neither car will knock down any blocks",
-                    "isCorrect": 0,
-                    "explanation": "Moving objects with force can definitely knock down blocks - the amount knocked down depends on the strength of the push"
+                    "explanation": "Hitting straight forward will only change the ball's speed but won't create the spin needed for the curved path"
                 }
             ],
-            "funFact": "In bowling, professional players can throw the ball at speeds over 20 miles per hour! The faster speed from their stronger throw helps knock down more pins, just like the toy car experiment."
+            "funFact": "In ping pong, the type of spin applied to the ball is called 'sidespin.' Professional players can make the ball curve dramatically by combining different types of spin forces, like topspin, backspin, and sidespin!"
         },
         {
             "id": 11,
-            "text": "A soccer ball is rolling quickly across a field. Which method would be most effective at bringing the ball to a complete stop?",
+            "text": "At a grocery store, you push a shopping cart in a straight line. Which statement correctly describes how the force you apply affects the cart's motion?",
             "options": [
                 {
-                    "text": "Gently tapping the ball in the direction it's moving",
+                    "text": "The speed of the cart stays the same no matter how hard you push it",
                     "isCorrect": 0,
-                    "explanation": "Adding a force in the same direction as motion would actually increase the ball's speed rather than stop it."
+                    "explanation": "The cart's speed changes based on the strength of the force applied. A stronger push will make the cart move faster than a gentler push."
                 },
                 {
-                    "text": "Applying a firm push against the direction of motion",
-                    "isCorrect": 1,
-                    "explanation": "An opposing force that matches or exceeds the ball's momentum is most effective at stopping motion completely."
+                    "text": "The cart only moves if you pull it, not when you push it",
+                    "isCorrect": 0,
+                    "explanation": "Both pushes and pulls are forces that can make objects move. A shopping cart can move when either pushed or pulled."
                 },
+                {
+                    "text": "Pushing harder makes the cart move slower",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because pushing with more force increases the speed of the cart, not decreases it."
+                },
+                {
+                    "text": "When you push the cart harder, it moves faster than when you push it with less force",
+                    "isCorrect": 1,
+                    "explanation": "A stronger push force results in the cart moving at a higher speed. This demonstrates how the strength of a force directly affects an object's motion."
+                }
+            ],
+            "funFact": "Shopping carts were invented in 1937 by Sylvan Goldman, who noticed customers struggling with heavy hand baskets. The invention revolutionized shopping by using wheels and allowing customers to easily move heavy items using push forces!"
+        },
+        {
+            "id": 12,
+            "text": "A soccer ball is rolling quickly across a field. Which method would be most effective at bringing the ball to a complete stop?",
+            "options": [
                 {
                     "text": "Pushing the ball sideways",
                     "isCorrect": 0,
@@ -285,72 +307,87 @@
                     "text": "Waiting for the ball to stop on its own",
                     "isCorrect": 0,
                     "explanation": "While friction will eventually stop the ball, this is much slower than applying an active opposing force."
+                },
+                {
+                    "text": "Applying a firm push against the direction of motion",
+                    "isCorrect": 1,
+                    "explanation": "An opposing force that matches or exceeds the ball's momentum is most effective at stopping motion completely."
+                },
+                {
+                    "text": "Gently tapping the ball in the direction it's moving",
+                    "isCorrect": 0,
+                    "explanation": "Adding a force in the same direction as motion would actually increase the ball's speed rather than stop it."
                 }
             ],
             "funFact": "Professional soccer goalkeepers can apply stopping forces of up to 2,000 Newtons (equivalent to the weight of a small car) when catching fast-moving shots!"
         },
         {
-            "id": 12,
-            "text": "A student is testing a toy car on two different ramps that are the same height and length. Ramp A has a smooth plastic surface, while Ramp B has a rough sandpaper surface. What will most likely happen to the speed of the toy car?",
-            "options": [
-                {
-                    "text": "The car will move faster on Ramp A because there is less friction to slow it down",
-                    "isCorrect": 1,
-                    "explanation": "The smooth surface has less friction, allowing the car to maintain more of its speed as it rolls down"
-                },
-                {
-                    "text": "The car will move faster on Ramp B because rough surfaces provide more push",
-                    "isCorrect": 0,
-                    "explanation": "Rough surfaces actually create more friction which slows objects down, they don't provide extra push"
-                },
-                {
-                    "text": "The car will move at the same speed on both ramps because they are the same height",
-                    "isCorrect": 0,
-                    "explanation": "While height affects speed, surface friction also plays an important role in how fast objects move"
-                },
-                {
-                    "text": "The car won't move on either ramp because it needs to be pushed",
-                    "isCorrect": 0,
-                    "explanation": "Gravity provides the force needed to move the car down the ramp - no additional push is needed"
-                }
-            ],
-            "funFact": "Race car drivers use special smooth tires on dry racetracks to go faster, but switch to textured tires with more friction when it rains to maintain better control of their cars!"
-        },
-        {
             "id": 13,
-            "text": "You need to move a heavy box across a smooth floor from one side of a room to the other. Considering both physics principles and practical human biomechanics, which combination of forces would require the least effort?",
+            "text": "During a basketball game, a player needs to pass the ball to their teammate who is standing to their right. Which force application would be most effective to make the ball change direction towards the teammate?",
             "options": [
                 {
-                    "text": "Push the box the entire way across the room by yourself",
-                    "isCorrect": 0,
-                    "explanation": "Pushing a heavy box alone requires more force and can be tiring since you have to overcome friction by yourself."
-                },
-                {
-                    "text": "Have two people push from opposite sides of the box",
-                    "isCorrect": 0,
-                    "explanation": "Having people push from opposite sides would create opposing forces that work against each other, making it harder to move the box."
-                },
-                {
-                    "text": "Have two people push from the same side of the box",
+                    "text": "Push the ball with both hands towards the right while facing the teammate",
                     "isCorrect": 1,
-                    "explanation": "When two people push together from the same side, their forces combine, making it easier to move the heavy box with less effort from each person."
+                    "explanation": "Using both hands to push the ball provides controlled force in the desired direction, making it the most effective way to change the ball's direction towards the teammate"
                 },
                 {
-                    "text": "Have one person push and another person pull from opposite ends",
+                    "text": "Push the ball forward with one hand",
                     "isCorrect": 0,
-                    "explanation": "While this combines forces in the same direction, pushing is biomechanically more efficient than pulling for most people when moving heavy objects on a floor. Pulling requires more body strain and typically generates less force than pushing for the same perceived effort."
+                    "explanation": "Pushing the ball forward would not change its direction towards the right where the teammate is standing"
+                },
+                {
+                    "text": "Drop the ball and let it bounce towards the teammate",
+                    "isCorrect": 0,
+                    "explanation": "Dropping the ball would not provide the necessary directional force to move it towards the teammate and could result in losing possession"
+                },
+                {
+                    "text": "Pull the ball towards yourself first and then release it",
+                    "isCorrect": 0,
+                    "explanation": "Pulling the ball towards yourself before releasing it would not effectively direct the ball towards the teammate and could waste valuable time during the game"
                 }
             ],
-            "funFact": "Ancient Egyptians used similar principles of combined forces when building the pyramids. They would have multiple workers push together in coordinated efforts to move massive stone blocks, making the seemingly impossible task achievable through teamwork!"
+            "funFact": "Professional basketball players can pass a ball at speeds of up to 60 miles per hour! They use different amounts of force to control both the speed and direction of the ball, allowing them to make precise passes to their teammates."
         },
         {
             "id": 14,
+            "text": "A soccer player kicks a ball with the same force in three different ways. When the player kicks the bottom of the ball, it goes upward. When they kick the top of the ball, it rolls along the ground. When they kick the side of the ball, it curves to the right. What does this tell us about how the point where a force is applied affects the ball's motion?",
+            "options": [
+                {
+                    "text": "The point where a force is applied determines the direction of motion",
+                    "isCorrect": 1,
+                    "explanation": "The same force applied at different points on the ball causes different directions of motion, showing that the point of contact matters for direction"
+                },
+                {
+                    "text": "The point where a force is applied only affects the speed of the ball",
+                    "isCorrect": 0,
+                    "explanation": "The example shows that the point of contact clearly affects direction, not just speed, since the same force caused different directions"
+                },
+                {
+                    "text": "Only the strength of the force matters, not where it is applied",
+                    "isCorrect": 0,
+                    "explanation": "While force strength is important, this example shows that where the force is applied also matters since the same strength force caused different movements"
+                },
+                {
+                    "text": "The point where a force is applied has no effect on the ball's motion",
+                    "isCorrect": 0,
+                    "explanation": "The example demonstrates that the point of contact does affect motion, since the same force caused different movements based on where it was applied"
+                }
+            ],
+            "funFact": "Professional soccer players use this principle to create special kicks like the 'banana kick' where they strike the ball at a specific point to make it curve through the air, helping them avoid defenders or score spectacular goals!"
+        },
+        {
+            "id": 15,
             "text": "You need to move a heavy bookshelf across the room. Which combination of pushes and pulls would be most effective to move it safely and efficiently?",
             "options": [
                 {
                     "text": "Two people pushing from the same side",
                     "isCorrect": 0,
                     "explanation": "While this applies force, it may cause the bookshelf to move unevenly and could be unstable since force is only applied from one direction."
+                },
+                {
+                    "text": "Two people pulling from the front",
+                    "isCorrect": 0,
+                    "explanation": "While this applies force, having both people pull from the front makes it harder to control the direction and could cause the bookshelf to tip forward."
                 },
                 {
                     "text": "One person pushing and one person pulling from opposite sides",
@@ -361,41 +398,9 @@
                     "text": "One person pulling from the front only",
                     "isCorrect": 0,
                     "explanation": "A single person pulling alone may not provide enough force and could lose control of the heavy bookshelf."
-                },
-                {
-                    "text": "Two people pulling from the front",
-                    "isCorrect": 0,
-                    "explanation": "While this applies force, having both people pull from the front makes it harder to control the direction and could cause the bookshelf to tip forward."
                 }
             ],
             "funFact": "Ancient Egyptians used both pushes and pulls effectively when building the pyramids. They used ramps and teams of workers applying coordinated forces to move massive stone blocks weighing up to 2.5 tons each!"
-        },
-        {
-            "id": 15,
-            "text": "A gardener is trying different methods to remove stubborn weeds from their garden. Which pulling technique would provide the strongest force to remove deep-rooted weeds?",
-            "options": [
-                {
-                    "text": "Quick jerking motions while pulling straight up",
-                    "isCorrect": 0,
-                    "explanation": "Quick jerking motions can break the weed stem, leaving the roots in the ground, and may not provide consistent force."
-                },
-                {
-                    "text": "Pulling at an angle while twisting and gradually increasing force",
-                    "isCorrect": 1,
-                    "explanation": "This technique provides steady force, loosens soil around roots, and allows maximum force application for effective weed removal."
-                },
-                {
-                    "text": "Light constant pulling straight up",
-                    "isCorrect": 0,
-                    "explanation": "Light constant pulling may not provide enough force to overcome the resistance of deep roots in the soil."
-                },
-                {
-                    "text": "Pulling sideways parallel to the ground",
-                    "isCorrect": 0,
-                    "explanation": "Pulling sideways doesn't effectively target the root system and may just break the weed at ground level."
-                }
-            ],
-            "funFact": "Plants have evolved specialized root systems that can create resistance forces equivalent to several times their above-ground weight. Some weeds can exert a holding force of up to 100 pounds through their root systems!"
         }
     ]
 }

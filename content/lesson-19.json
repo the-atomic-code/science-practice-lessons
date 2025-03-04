@@ -4,87 +4,60 @@
     "questions": [
         {
             "id": 1,
-            "text": "How do a sloth's slow movement and camouflage work together to help it survive in the wild?",
+            "text": "How does a lizard's ability to detach its tail when caught by a predator help it survive?",
             "options": [
                 {
-                    "text": "The slow movement helps the sloth conserve energy while the camouflage makes it visible to find more food",
+                    "text": "The detached tail grows instantly into a new lizard",
                     "isCorrect": 0,
-                    "explanation": "While conserving energy is beneficial, this combination would not help the sloth survive as being visible would make it more vulnerable to predators."
+                    "explanation": "While lizards can regrow their tails over time, the detached tail does not grow into a new lizard. The immediate survival benefit comes from escape."
                 },
                 {
-                    "text": "The slow movement and tree-like coloring make the sloth harder for predators to spot among the branches",
+                    "text": "The detached tail releases a toxic substance that poisons the predator",
+                    "isCorrect": 0,
+                    "explanation": "Lizard tails do not contain toxic substances. The survival mechanism works through distraction, not poison."
+                },
+                {
+                    "text": "The detached tail makes a loud sound that scares away the predator",
+                    "isCorrect": 0,
+                    "explanation": "Detached lizard tails do not make sounds. The movement of the tail, not sound, is what distracts predators."
+                },
+                {
+                    "text": "The detached tail continues to move, distracting the predator while the lizard escapes",
                     "isCorrect": 1,
-                    "explanation": "The sloth's slow movement combined with its camouflage work together as a system - the minimal movement and tree-like appearance make it blend in with its surroundings, making it difficult for predators to detect."
-                },
-                {
-                    "text": "The slow movement allows the sloth to sleep longer while the camouflage attracts mates",
-                    "isCorrect": 0,
-                    "explanation": "While sloths do sleep a lot, this combination is not correct. Their adaptations are primarily for avoiding predators, not for sleeping or attracting mates."
-                },
-                {
-                    "text": "The slow movement helps the sloth catch prey while the camouflage protects it from the sun",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect as sloths are not predators and their camouflage is not for sun protection. These adaptations work together for predator avoidance."
+                    "explanation": "This is correct. The tail detachment and movement serves as a distraction mechanism, allowing the lizard to escape while the predator is focused on the still-moving tail."
                 }
             ],
-            "funFact": "Sloths are so well-camouflaged that algae actually grows on their fur, giving them a greenish tint that provides even better camouflage in their rainforest habitat. This algae can also serve as a source of nutrients!"
+            "funFact": "This survival adaptation is called autotomy - the ability to voluntarily shed a body part. While the lizard can regrow its tail, the regenerated tail is usually shorter and may have a different color or texture than the original!"
         },
         {
             "id": 2,
-            "text": "How do an armadillo's bony plates and its ability to roll into a ball work together to help it survive?",
+            "text": "Which best explains how an echidna's specialized nose helps it find food?",
             "options": [
                 {
-                    "text": "The bony plates protect the armadillo's back while rolling into a ball protects its soft underside",
+                    "text": "The echidna's nose produces a strong odor that attracts insects to it",
+                    "isCorrect": 0,
+                    "explanation": "Echidnas do not attract prey with odors - they actively search for and detect their prey using their keen sense of smell and tactile sensitivity."
+                },
+                {
+                    "text": "The echidna's nose contains highly sensitive smell receptors that can detect insects hiding underground",
                     "isCorrect": 1,
-                    "explanation": "This is correct. The armadillo's hard plates provide protection for its back, while rolling into a ball allows it to protect its vulnerable underside from predators, creating a complete defense system."
+                    "explanation": "Echidnas have evolved a remarkable sense of smell that allows them to detect insects underground. Their specialized snout combines olfactory sensitivity with tactile receptors to locate prey even when hidden from sight."
                 },
                 {
-                    "text": "The bony plates help it roll faster while the ball shape helps it bounce away from predators",
+                    "text": "The echidna's nose follows the heat signals given off by groups of insects",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. The bony plates are for protection, not for rolling speed, and armadillos don't bounce away from predators."
+                    "explanation": "Echidnas detect prey through smell and touch, not by sensing heat signals. Heat-sensing is more commonly associated with predators like certain snakes."
                 },
                 {
-                    "text": "The bony plates store water while the ball shape helps conserve this water during dry seasons",
+                    "text": "The echidna's nose creates vibrations that scare insects out of their hiding spots",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. The armadillo's bony plates are for protection, not water storage, and rolling into a ball is a defensive behavior."
-                },
-                {
-                    "text": "The bony plates help it dig burrows while the ball shape helps it sleep comfortably",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While armadillos do dig burrows, they use their claws for digging, not their bony plates, and rolling into a ball is a defense mechanism."
+                    "explanation": "While echidnas do dig to access their prey, they don't create vibrations with their nose to flush out insects."
                 }
             ],
-            "funFact": "The word 'armadillo' comes from Spanish and means 'little armored one.' Some species of armadillos can roll into such a perfect ball that not even their soft underside is exposed, making them almost completely protected from predators!"
+            "funFact": "Echidnas use their long, sticky tongues to capture thousands of ants and termites each day after locating them with their sensitive snouts. Along with the platypus, echidnas are the only mammals that lay eggs, making them monotremes!"
         },
         {
             "id": 3,
-            "text": "How do the specialized features of a hummingbird work together to help it obtain nectar from flowers?",
-            "options": [
-                {
-                    "text": "Its long, skinny beak and hovering ability allow it to reach and drink nectar from deep inside flowers that other birds cannot access",
-                    "isCorrect": 1,
-                    "explanation": "The long, thin beak reaches deep into flowers while hovering allows the bird to stay steady in front of the flower - these adaptations work together as a system for feeding"
-                },
-                {
-                    "text": "Its sharp claws and strong wings help it tear open flowers to reach the nectar inside",
-                    "isCorrect": 0,
-                    "explanation": "Hummingbirds do not tear open flowers - this would damage their food source. They access nectar through specialized feeding adaptations"
-                },
-                {
-                    "text": "Its excellent eyesight and fast flying speed help it spot and catch flying insects near flowers",
-                    "isCorrect": 0,
-                    "explanation": "While hummingbirds do eat some insects, their primary adaptation is for drinking flower nectar, not catching insects"
-                },
-                {
-                    "text": "Its small size and lightweight bones allow it to perch on flower petals while drinking",
-                    "isCorrect": 0,
-                    "explanation": "Hummingbirds hover to drink nectar rather than perching on flowers, which could damage delicate petals"
-                }
-            ],
-            "funFact": "A hummingbird's heart beats up to 1,260 times per minute during flight - that's about 21 beats per second! This incredibly fast heart rate helps power their unique hovering flight ability."
-        },
-        {
-            "id": 4,
             "text": "How do a giraffe's long neck and tongue work together as a system to help it survive?",
             "options": [
                 {
@@ -111,18 +84,18 @@
             "funFact": "A giraffe's tongue is not only extremely long (up to 50 centimeters/20 inches) but also has a dark bluish-black color. This unique coloration helps protect the tongue from getting sunburned during feeding!"
         },
         {
-            "id": 5,
+            "id": 4,
             "text": "How do a deer's strong leg muscles help it survive in its environment?",
             "options": [
-                {
-                    "text": "The leg muscles allow deer to run at high speeds to escape from predators",
-                    "isCorrect": 1,
-                    "explanation": "Deer's powerful leg muscles are an adaptation that enables them to run up to 30 miles per hour, helping them escape from predators and survive in their environment"
-                },
                 {
                     "text": "The leg muscles help deer climb trees to find food",
                     "isCorrect": 0,
                     "explanation": "Deer do not climb trees - this is not how they use their leg muscles. Their leg muscles are primarily used for running and jumping"
+                },
+                {
+                    "text": "The leg muscles help deer swim across deep water",
+                    "isCorrect": 0,
+                    "explanation": "While deer can swim when necessary, their leg muscles are primarily adapted for running on land to escape predators"
                 },
                 {
                     "text": "The leg muscles allow deer to dig burrows for shelter",
@@ -130,42 +103,96 @@
                     "explanation": "Deer do not dig burrows - they rely on their speed and agility rather than hiding in burrows for protection"
                 },
                 {
-                    "text": "The leg muscles help deer swim across deep water",
-                    "isCorrect": 0,
-                    "explanation": "While deer can swim when necessary, their leg muscles are primarily adapted for running on land to escape predators"
+                    "text": "The leg muscles allow deer to run at high speeds to escape from predators",
+                    "isCorrect": 1,
+                    "explanation": "Deer's powerful leg muscles are an adaptation that enables them to run up to 30 miles per hour, helping them escape from predators and survive in their environment"
                 }
             ],
             "funFact": "While 30 mph is impressive, some deer species can jump up to 8 feet high and 30 feet in length in a single bound! This incredible jumping ability, powered by their strong leg muscles, helps them escape predators and cross obstacles in their path."
         },
         {
-            "id": 6,
-            "text": "How do a sloth's adaptations work together as a system to help it avoid predators?",
+            "id": 5,
+            "text": "Why does a giraffe's tongue have a dark coloration at its tip?",
             "options": [
                 {
-                    "text": "Its slow movement, camouflaged fur with algae, and tree-matching coloring all make it difficult for predators to spot it among the trees",
+                    "text": "To protect it from sunburn during feeding",
                     "isCorrect": 1,
-                    "explanation": "This is correct. These adaptations form an integrated system - the slow movement prevents detection of motion, while the algae growth and coloring help it blend perfectly with its surroundings."
+                    "explanation": "The dark coloration at the tip of a giraffe's tongue is an adaptation that protects it from getting sunburned while feeding on leaves in the hot sun for many hours each day."
                 },
                 {
-                    "text": "It uses its claws to fight predators while its fur protects it from injury",
+                    "text": "To help it grip leaves more effectively",
                     "isCorrect": 0,
-                    "explanation": "Sloths don't typically fight predators. Their main defense strategy is avoiding detection rather than confrontation."
+                    "explanation": "While giraffes do use their tongues to grip leaves, the dark coloration doesn't help with gripping. The length and muscular nature of the tongue helps with gripping leaves."
                 },
                 {
-                    "text": "It moves quickly between trees while its fur changes color to match each new location",
+                    "text": "To camouflage it from predators",
                     "isCorrect": 0,
-                    "explanation": "Sloths are known for their extremely slow movement, and their fur doesn't rapidly change color. Quick movement would actually make them more visible to predators."
+                    "explanation": "Giraffes don't use their tongues for camouflage. The dark coloration serves as protection from sun damage rather than hiding from predators."
                 },
                 {
-                    "text": "Its long arms help it climb to safety while its loud cry scares away predators",
+                    "text": "To help it sense the taste of leaves better",
                     "isCorrect": 0,
-                    "explanation": "While sloths do have long arms for climbing, they rely on being quiet and unseen rather than making loud noises that would attract attention."
+                    "explanation": "While giraffes do use their tongues to taste leaves, the dark coloration is not related to taste sensation. It's specifically an adaptation for sun protection."
                 }
             ],
-            "funFact": "Sloths are so well-camouflaged that algae actually grows in their fur, creating a small ecosystem that can host moths, beetles, and even cockroaches! This additional green coloring makes them blend in even better with their leafy surroundings."
+            "funFact": "A giraffe's tongue can grow up to 18-21 inches long and is not only dark at the tip but also has a bluish-black color. This makes it one of the few animals that has evolved a natural sunscreen mechanism as part of its body structure!"
+        },
+        {
+            "id": 6,
+            "text": "How do sloths and deer use different types of movement to survive in their environments?",
+            "options": [
+                {
+                    "text": "Sloths move slowly to avoid being seen by predators, while deer use speed to escape from predators",
+                    "isCorrect": 1,
+                    "explanation": "Sloths' slow movement combined with camouflage makes them hard to spot, while deer rely on running quickly to escape danger - both are effective survival strategies."
+                },
+                {
+                    "text": "Sloths move slowly to conserve energy, while deer use speed to catch their prey",
+                    "isCorrect": 0,
+                    "explanation": "While sloths do conserve energy by moving slowly, deer are herbivores and don't use their speed to catch prey - they use it to escape from predators."
+                },
+                {
+                    "text": "Sloths move slowly because they are lazy, while deer move quickly because they are energetic",
+                    "isCorrect": 0,
+                    "explanation": "Sloth movement is an adaptation for survival, not laziness. Both animals' movement patterns evolved to help them survive in their environments."
+                },
+                {
+                    "text": "Both sloths and deer use speed as their main way to escape from predators",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - sloths rely on camouflage and slow movement to avoid detection, not speed like deer do."
+                }
+            ],
+            "funFact": "While most mammals have 7 neck vertebrae, sloths can have up to 10! This adaptation allows them to rotate their heads 270 degrees, helping them scan for predators while staying still in the trees."
         },
         {
             "id": 7,
+            "text": "How do different adaptations work together to help giraffes feed on tall, thorny trees?",
+            "options": [
+                {
+                    "text": "Their neck helps them reach water while their tongue helps them dig for roots",
+                    "isCorrect": 0,
+                    "explanation": "Giraffes don't use their tongues for digging - their adaptations are specialized for feeding on tree leaves"
+                },
+                {
+                    "text": "Only their long neck matters for feeding - their tongue is used for social communication",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly suggests the adaptations work independently rather than as a system for feeding"
+                },
+                {
+                    "text": "Their long neck and specialized tongue work together, with the neck reaching high branches and the dark-tipped tongue manipulating thorny leaves without getting sunburned",
+                    "isCorrect": 1,
+                    "explanation": "This correctly shows how multiple adaptations form a system - the long neck reaches high food sources while the specialized tongue safely handles thorny leaves, with its dark tip protected from sun damage"
+                },
+                {
+                    "text": "Their long neck helps them see predators from far away while their tongue helps them make warning calls",
+                    "isCorrect": 0,
+                    "explanation": "While giraffes do use their height for spotting predators, this doesn't accurately describe how their adaptations work together for feeding"
+                }
+            ],
+            "funFact": "A giraffe's tongue can be up to 50 centimeters (20 inches) long and has a bluish-black color that acts as a natural sunscreen, protecting it from harmful UV rays while the giraffe feeds for hours in the hot African sun!"
+        },
+        {
+            "id": 8,
             "text": "How do the different physical features of an echidna work together as a system to help it survive in desert environments?",
             "options": [
                 {
@@ -192,36 +219,14 @@
             "funFact": "Echidnas are one of only two types of mammals that lay eggs! The other is the platypus. Both are found in Australia and are called monotremes, making them truly unique creatures in the animal kingdom."
         },
         {
-            "id": 8,
-            "text": "Which adaptation would be most effective for an animal that needs to quickly escape from a predator while minimizing injury?",
-            "options": [
-                {
-                    "text": "A detachable tail like a lizard",
-                    "isCorrect": 1,
-                    "explanation": "A detachable tail allows the animal to escape quickly while the predator is distracted by the detached tail, maximizing survival chances with minimal injury"
-                },
-                {
-                    "text": "Armor plates like an armadillo",
-                    "isCorrect": 0,
-                    "explanation": "While armor plates provide good protection, they don't help in quick escape and the animal could still be vulnerable if the predator is persistent"
-                },
-                {
-                    "text": "Rolling into a ball",
-                    "isCorrect": 0,
-                    "explanation": "Rolling into a ball provides protection but doesn't allow for escape, leaving the animal vulnerable if the predator is patient"
-                },
-                {
-                    "text": "Camouflage coloring",
-                    "isCorrect": 0,
-                    "explanation": "Camouflage helps prevent detection but once spotted, it doesn't help in escaping from a predator"
-                }
-            ],
-            "funFact": "When a lizard's tail detaches, it continues to wiggle for several minutes, which further distracts the predator. The lizard can regrow its tail over time, though the replacement tail isn't exactly the same as the original."
-        },
-        {
             "id": 9,
             "text": "How does a sloth's slow movement and green-colored fur help it survive in its environment?",
             "options": [
+                {
+                    "text": "The slow movement prevents falls and the green color helps clean their fur",
+                    "isCorrect": 0,
+                    "explanation": "While moving carefully can help prevent falls, both the slow movement and green coloring primarily function as camouflage rather than for safety from falls or cleaning"
+                },
                 {
                     "text": "The slow movement and green color from algae help camouflage the sloth, making it harder for predators to spot it in the trees",
                     "isCorrect": 1,
@@ -236,46 +241,127 @@
                     "text": "The slow movement helps digest food and the green color helps absorb sunlight",
                     "isCorrect": 0,
                     "explanation": "Though sloths do have slow digestion, their slow movement and green coloring primarily serve as camouflage mechanisms rather than for digestion or sunlight absorption"
-                },
-                {
-                    "text": "The slow movement prevents falls and the green color helps clean their fur",
-                    "isCorrect": 0,
-                    "explanation": "While moving carefully can help prevent falls, both the slow movement and green coloring primarily function as camouflage rather than for safety from falls or cleaning"
                 }
             ],
             "funFact": "Sloths are so well-camouflaged that they can sometimes develop an entire miniature ecosystem in their fur! Moths, beetles, and even small crabs have been found living in sloth fur alongside the protective green algae."
         },
         {
             "id": 10,
-            "text": "How do different adaptations work together to help giraffes feed on tall, thorny trees?",
+            "text": "Which animal's adaptation would be most effective for escaping from a fast-running predator?",
             "options": [
                 {
-                    "text": "Their long neck and specialized tongue work together, with the neck reaching high branches and the dark-tipped tongue manipulating thorny leaves without getting sunburned",
+                    "text": "An armadillo's ability to roll into a protective ball",
+                    "isCorrect": 0,
+                    "explanation": "While this provides good protection, it doesn't help the animal escape from the predator."
+                },
+                {
+                    "text": "A sloth's ability to move slowly and blend in with trees",
+                    "isCorrect": 0,
+                    "explanation": "While this is good for avoiding detection, slow movement would not help escape from a predator that has already spotted the animal."
+                },
+                {
+                    "text": "A deer's strong leg muscles that allow it to run up to 30 miles per hour",
                     "isCorrect": 1,
-                    "explanation": "This correctly shows how multiple adaptations form a system - the long neck reaches high food sources while the specialized tongue safely handles thorny leaves, with its dark tip protected from sun damage"
+                    "explanation": "Deer's powerful leg muscles enable them to run at high speeds, making them very effective at escaping fast predators."
                 },
                 {
-                    "text": "Their long neck helps them see predators from far away while their tongue helps them make warning calls",
+                    "text": "A hummingbird's long beak for reaching nectar",
                     "isCorrect": 0,
-                    "explanation": "While giraffes do use their height for spotting predators, this doesn't accurately describe how their adaptations work together for feeding"
-                },
-                {
-                    "text": "Their neck helps them reach water while their tongue helps them dig for roots",
-                    "isCorrect": 0,
-                    "explanation": "Giraffes don't use their tongues for digging - their adaptations are specialized for feeding on tree leaves"
-                },
-                {
-                    "text": "Only their long neck matters for feeding - their tongue is used for social communication",
-                    "isCorrect": 0,
-                    "explanation": "This incorrectly suggests the adaptations work independently rather than as a system for feeding"
+                    "explanation": "This adaptation is for feeding, not for escaping predators."
                 }
             ],
-            "funFact": "A giraffe's tongue can be up to 50 centimeters (20 inches) long and has a bluish-black color that acts as a natural sunscreen, protecting it from harmful UV rays while the giraffe feeds for hours in the hot African sun!"
+            "funFact": "The fastest land animal, the cheetah, can run at speeds up to 70 miles per hour! This incredible speed allows it to catch prey like gazelles and antelopes, which themselves can run at impressive speeds of 40-50 miles per hour."
         },
         {
             "id": 11,
+            "text": "How do deer's strong leg muscles work together with their ability to run at high speeds to help them survive in their environment?",
+            "options": [
+                {
+                    "text": "The muscles and speed allow them to quickly escape from predators and reach safety",
+                    "isCorrect": 1,
+                    "explanation": "Strong leg muscles enabling high-speed running form an integrated system that helps deer survive by allowing them to effectively escape from predators"
+                },
+                {
+                    "text": "The muscles and speed are used to fight off predators directly",
+                    "isCorrect": 0,
+                    "explanation": "While deer can kick if cornered, their primary survival strategy is to flee from predators rather than fight them"
+                },
+                {
+                    "text": "The muscles and speed let them dig burrows to hide from danger",
+                    "isCorrect": 0,
+                    "explanation": "Deer do not dig burrows. Their primary defense mechanism is running away from threats"
+                },
+                {
+                    "text": "The muscles and speed help them catch and eat other animals",
+                    "isCorrect": 0,
+                    "explanation": "Deer are herbivores that eat plants, not other animals. Their speed adaptation is for escape, not hunting"
+                }
+            ],
+            "funFact": "Some species of deer can reach speeds of up to 40 miles per hour and jump as high as 10 feet! This incredible athleticism comes from specialized leg muscles that store and release energy like springs."
+        },
+        {
+            "id": 12,
+            "text": "How do sloths and chameleons use different combinations of adaptations to protect themselves from predators?",
+            "options": [
+                {
+                    "text": "Sloths climb quickly to escape while chameleons play dead",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - sloths are known for very slow movement, not quick climbing, and chameleons don't typically play dead"
+                },
+                {
+                    "text": "Sloths use slow movement and algae growth for camouflage, while chameleons quickly change colors and run away",
+                    "isCorrect": 1,
+                    "explanation": "Sloths combine slow movement with algae growing on their fur to blend with trees, while chameleons use color-changing ability with quick movements for protection"
+                },
+                {
+                    "text": "Sloths and chameleons both primarily rely on speed to escape predators",
+                    "isCorrect": 0,
+                    "explanation": "Neither animal relies primarily on speed - sloths are very slow, and chameleons mainly use camouflage"
+                },
+                {
+                    "text": "Sloths use their sharp claws while chameleons use venom",
+                    "isCorrect": 0,
+                    "explanation": "While sloths do have claws, they don't primarily use them for defense, and chameleons are not venomous"
+                }
+            ],
+            "funFact": "Both sloths and chameleons have specialized eyes that help with their survival. Sloths have special neck vertebrae that allow them to turn their heads up to 180 degrees to scan for predators while staying still, and chameleons can move each eye independently, giving them 360-degree vision!"
+        },
+        {
+            "id": 13,
+            "text": "How do a hummingbird's beak structure and hovering ability work together to give it an advantage when feeding?",
+            "options": [
+                {
+                    "text": "The wide beak and hovering ability help it scoop up water while flying",
+                    "isCorrect": 0,
+                    "explanation": "Hummingbirds have thin, narrow beaks for drinking nectar, not wide beaks for scooping water"
+                },
+                {
+                    "text": "The long, skinny beak and hovering ability allow it to access nectar deep inside flowers that other birds cannot reach",
+                    "isCorrect": 1,
+                    "explanation": "The combination of the specialized beak and hovering lets hummingbirds access a unique food source without competition from other birds"
+                },
+                {
+                    "text": "The short beak and hovering ability help it catch insects in mid-air",
+                    "isCorrect": 0,
+                    "explanation": "Hummingbirds have long, not short beaks, and while they do eat some insects, their primary adaptation is for drinking nectar"
+                },
+                {
+                    "text": "The curved beak and hovering ability let it crack open seeds while floating",
+                    "isCorrect": 0,
+                    "explanation": "Hummingbirds don't have curved beaks for cracking seeds - their straight, long beaks are specialized for drinking nectar"
+                }
+            ],
+            "funFact": "A hummingbird's heart beats up to 1,260 times per minute during flight - that's about 21 beats per second! This incredibly fast heart rate helps power their unique hovering ability."
+        },
+        {
+            "id": 14,
             "text": "How do different adaptations of a sloth work together to protect it from predators?",
             "options": [
+                {
+                    "text": "The sloth's only protective adaptation is its ability to hang in trees",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While tree-hanging is important, it's just one part of the sloth's protective system that includes slow movement and camouflage from algae-covered fur."
+                },
                 {
                     "text": "Slow movement, algae-covered fur, and ability to hang in trees all work together to make the sloth harder to spot",
                     "isCorrect": 1,
@@ -290,82 +376,23 @@
                     "text": "The sloth's adaptations work independently and don't support each other for protection",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. The sloth's adaptations form an interconnected system - slow movement is more effective with camouflage, and both work better when the sloth can position itself safely in trees."
-                },
-                {
-                    "text": "The sloth's only protective adaptation is its ability to hang in trees",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While tree-hanging is important, it's just one part of the sloth's protective system that includes slow movement and camouflage from algae-covered fur."
                 }
             ],
             "funFact": "Sloths are such successful survivors that they've been around for about 64 million years! Their special combination of adaptations has helped them survive even when many other prehistoric mammals went extinct."
         },
         {
-            "id": 12,
-            "text": "How do a giraffe's different physical features work together to help it survive in its natural habitat?",
-            "options": [
-                {
-                    "text": "Its long neck reaches high leaves, while its long, dark-tipped tongue protects against thorns and sunburn when feeding",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how multiple adaptations work together as a system - the neck provides access to high leaves, while the tongue's length and color protect it while feeding"
-                },
-                {
-                    "text": "Its long neck helps it see predators, while its tongue helps it communicate with other giraffes",
-                    "isCorrect": 0,
-                    "explanation": "While giraffes do use their height for spotting predators, their tongue's primary function is for feeding, not communication"
-                },
-                {
-                    "text": "Its dark tongue attracts insects, while its long neck helps it run faster",
-                    "isCorrect": 0,
-                    "explanation": "This misrepresents the functions of these adaptations - the dark tongue prevents sunburn, and the neck is for reaching food, not running"
-                },
-                {
-                    "text": "Its long neck stores water, while its tongue helps it climb trees",
-                    "isCorrect": 0,
-                    "explanation": "These are not accurate functions of giraffe adaptations - giraffes don't store water in their necks or use their tongues for climbing"
-                }
-            ],
-            "funFact": "A giraffe's tongue can grow up to 50 centimeters (20 inches) long and is not only dark-colored but also has antiseptic properties that help protect it from infections while feeding on thorny acacia trees!"
-        },
-        {
-            "id": 13,
-            "text": "How do behavioral adaptations for protection differ from physical adaptations in animals? Select the best answer.",
-            "options": [
-                {
-                    "text": "Behavioral adaptations involve changes in body structure, while physical adaptations involve changes in actions",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Behavioral adaptations involve changes in actions or behaviors, while physical adaptations involve changes in body structure."
-                },
-                {
-                    "text": "Behavioral adaptations involve changes in actions, while physical adaptations involve changes in body structure",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Behavioral adaptations like a sloth's slow movement are changes in actions, while physical adaptations like an armadillo's armor plates are structural features of the body."
-                },
-                {
-                    "text": "Both behavioral and physical adaptations involve changes in body structure",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Only physical adaptations involve changes in body structure. Behavioral adaptations involve changes in actions or behaviors."
-                },
-                {
-                    "text": "Neither behavioral nor physical adaptations help animals protect themselves",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Both behavioral and physical adaptations can help protect animals from predators and other threats in their environment."
-                }
-            ],
-            "funFact": "Some animals, like octopuses, use both behavioral and physical adaptations for protection! They can change their color and texture to blend in with their surroundings (physical adaptation) and also release ink and quickly swim away when threatened (behavioral adaptation)."
-        },
-        {
-            "id": 14,
+            "id": 15,
             "text": "A lizard uses multiple defense strategies to protect itself from predators. Which statement best explains how these defense mechanisms work together as a system?",
             "options": [
-                {
-                    "text": "The lizard's detachable tail and fast running work together - if a predator catches the tail, it detaches while the lizard quickly escapes to safety",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how multiple adaptations (detachable tail and speed) function together as a system to help the lizard survive predator attacks"
-                },
                 {
                     "text": "The lizard only uses one defense at a time - either running away OR detaching its tail, but never both together",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because defense mechanisms can work together simultaneously as an integrated system for better protection"
+                },
+                {
+                    "text": "The lizard's defenses work independently and don't coordinate with each other at all",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because defense adaptations function together as a coordinated system, not as separate independent mechanisms"
                 },
                 {
                     "text": "The lizard's tail detachment is its only defense mechanism and it doesn't need any other adaptations",
@@ -373,39 +400,12 @@
                     "explanation": "This is incorrect because lizards have multiple defense adaptations that work together, not just tail detachment alone"
                 },
                 {
-                    "text": "The lizard's defenses work independently and don't coordinate with each other at all",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because defense adaptations function together as a coordinated system, not as separate independent mechanisms"
+                    "text": "The lizard's detachable tail and fast running work together - if a predator catches the tail, it detaches while the lizard quickly escapes to safety",
+                    "isCorrect": 1,
+                    "explanation": "This correctly shows how multiple adaptations (detachable tail and speed) function together as a system to help the lizard survive predator attacks"
                 }
             ],
             "funFact": "Some lizard species can regrow their detached tail within a few months, though the regenerated tail is usually shorter and a different color than the original! This ability to voluntarily shed body parts is called autotomy, while the regrowth is an example of regeneration."
-        },
-        {
-            "id": 15,
-            "text": "How do sloths and chameleons use different combinations of adaptations to protect themselves from predators?",
-            "options": [
-                {
-                    "text": "Sloths use slow movement and algae growth for camouflage, while chameleons quickly change colors and run away",
-                    "isCorrect": 1,
-                    "explanation": "Sloths combine slow movement with algae growing on their fur to blend with trees, while chameleons use color-changing ability with quick movements for protection"
-                },
-                {
-                    "text": "Sloths climb quickly to escape while chameleons play dead",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - sloths are known for very slow movement, not quick climbing, and chameleons don't typically play dead"
-                },
-                {
-                    "text": "Sloths and chameleons both primarily rely on speed to escape predators",
-                    "isCorrect": 0,
-                    "explanation": "Neither animal relies primarily on speed - sloths are very slow, and chameleons mainly use camouflage"
-                },
-                {
-                    "text": "Sloths use their sharp claws while chameleons use venom",
-                    "isCorrect": 0,
-                    "explanation": "While sloths do have claws, they don't primarily use them for defense, and chameleons are not venomous"
-                }
-            ],
-            "funFact": "Both sloths and chameleons have specialized eyes that help with their survival. Sloths have special neck vertebrae that allow them to turn their heads up to 180 degrees to scan for predators while staying still, and chameleons can move each eye independently, giving them 360-degree vision!"
         }
     ]
 }

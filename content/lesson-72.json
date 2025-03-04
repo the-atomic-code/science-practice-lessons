@@ -4,60 +4,33 @@
     "questions": [
         {
             "id": 1,
-            "text": "Why does a plant's inability to grow without air support the idea that air is a key material for plant growth?",
+            "text": "A scientist is studying plant growth by measuring the weight of a potted plant over time. The plant's weight increases by 2 pounds, but the soil weight only decreases by 0.1 pounds. What best explains where most of the plant's increased weight came from?",
             "options": [
                 {
-                    "text": "It shows that air provides the physical support plants need to stand upright",
-                    "isCorrect": 0,
-                    "explanation": "While air movement can affect plant structure, physical support is not why air is essential for plant growth. Plants can stand upright without air movement."
-                },
-                {
-                    "text": "It demonstrates that air contains matter that plants use to build their tissues",
+                    "text": "The plant gained weight mainly from air and water",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Plants take in carbon dioxide from air and use it during photosynthesis to create the sugars and other materials needed for growth."
+                    "explanation": "Plants get most materials for growth from air (carbon dioxide) and water through photosynthesis, not from soil. The minimal soil weight loss shows soil isn't the main source of plant mass."
                 },
                 {
-                    "text": "It proves that air is needed only to keep plants cool during growth",
+                    "text": "The plant gained weight mainly from sunlight energy",
                     "isCorrect": 0,
-                    "explanation": "Temperature regulation is not the main reason plants need air. Plants use the matter in air (specifically carbon dioxide) as a building material for growth."
+                    "explanation": "While sunlight provides energy for photosynthesis, it does not contribute directly to the plant's mass. Energy enables growth but isn't converted into physical weight."
                 },
                 {
-                    "text": "It shows that air is only needed to spread seeds for plant reproduction",
+                    "text": "The plant gained weight mainly from fertilizer added to the soil",
                     "isCorrect": 0,
-                    "explanation": "While air can help spread seeds, this is not why air is essential for plant growth. Plants need air primarily for the matter it contains."
+                    "explanation": "Even with fertilizer, the soil's small weight change shows soil materials (including fertilizer) aren't the main source of the plant's increased mass. Plants get most materials from air and water."
+                },
+                {
+                    "text": "The plant gained weight mainly from nutrients in the soil",
+                    "isCorrect": 0,
+                    "explanation": "While plants do get some minerals from soil, the small soil weight loss (0.1 pounds) cannot account for the plant's 2-pound weight gain. Soil is not the main source of plant mass."
                 }
             ],
-            "funFact": "A large oak tree can absorb about 48 pounds of carbon dioxide from the air in just one year, using this gas to build its trunk, branches, and leaves through photosynthesis!"
+            "funFact": "A mature tree can absorb about 48 pounds of carbon dioxide per year from the air and convert it into wood, leaves, and other plant materials through photosynthesis. That's why trees are often called 'carbon sinks'!"
         },
         {
             "id": 2,
-            "text": "Which statement best explains why soil is not the main source of materials for plant growth?",
-            "options": [
-                {
-                    "text": "Plants can grow hydroponically without soil, showing they get most materials from air and water",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Hydroponic plants demonstrate that soil is not essential for plant growth, as plants can thrive with just water, nutrients, and air, proving that these are the main sources of materials for growth."
-                },
-                {
-                    "text": "Plants only need vitamins and minerals from soil to grow properly",
-                    "isCorrect": 0,
-                    "explanation": "While plants do use some vitamins and minerals, these are not the main materials needed for growth. The bulk of plant matter comes from water and carbon dioxide from the air."
-                },
-                {
-                    "text": "Soil provides all the energy plants need for growth",
-                    "isCorrect": 0,
-                    "explanation": "Plants get their energy from sunlight through photosynthesis, not from soil. Soil does not provide energy for plant growth."
-                },
-                {
-                    "text": "Plants only need soil to keep their roots stable",
-                    "isCorrect": 0,
-                    "explanation": "While soil does provide structural support, this is not the main reason plants interact with soil. Plants also take up some minerals from soil, but these are not the main source of materials for growth."
-                }
-            ],
-            "funFact": "A 400-year-old experiment by Jan Baptist van Helmont showed that a willow tree gained 164 pounds over 5 years while the soil it grew in only lost 2 ounces, providing early evidence that plants don't get most of their mass from soil!"
-        },
-        {
-            "id": 3,
             "text": "Which of the following best explains why air is considered a vital material for plant growth?",
             "options": [
                 {
@@ -84,127 +57,117 @@
             "funFact": "A mature tree can absorb around 48 pounds of carbon dioxide per year from the air and convert it into plant material through photosynthesis. This shows how air contributes significant matter to plant growth!"
         },
         {
-            "id": 4,
-            "text": "A scientist is studying plant growth by measuring the weight of a potted plant over time. The plant's weight increases by 2 pounds, but the soil weight only decreases by 0.1 pounds. What best explains where most of the plant's increased weight came from?",
+            "id": 3,
+            "text": "Which statement best explains how plants get the materials they need for growth?",
             "options": [
                 {
-                    "text": "The plant gained weight mainly from air and water",
+                    "text": "Plants get most of their mass from the sunlight they absorb",
+                    "isCorrect": 0,
+                    "explanation": "While sunlight provides energy for photosynthesis, it does not provide the actual materials (matter) that make up plant tissue"
+                },
+                {
+                    "text": "Plants get most of their mass from nutrients and minerals in the soil",
+                    "isCorrect": 0,
+                    "explanation": "While plants need soil nutrients, they only make up a tiny fraction of plant mass. Most plant mass comes from air and water"
+                },
+                {
+                    "text": "Plants get most of their mass from the water they absorb, but not from air",
+                    "isCorrect": 0,
+                    "explanation": "Plants need both water and carbon dioxide from air - neither alone provides enough materials for plant growth"
+                },
+                {
+                    "text": "Plants get most of their mass from carbon dioxide in the air and water, which they convert into food through photosynthesis",
                     "isCorrect": 1,
-                    "explanation": "Plants get most materials for growth from air (carbon dioxide) and water through photosynthesis, not from soil. The minimal soil weight loss shows soil isn't the main source of plant mass."
-                },
-                {
-                    "text": "The plant gained weight mainly from nutrients in the soil",
-                    "isCorrect": 0,
-                    "explanation": "While plants do get some minerals from soil, the small soil weight loss (0.1 pounds) cannot account for the plant's 2-pound weight gain. Soil is not the main source of plant mass."
-                },
-                {
-                    "text": "The plant gained weight mainly from sunlight energy",
-                    "isCorrect": 0,
-                    "explanation": "While sunlight provides energy for photosynthesis, it does not contribute directly to the plant's mass. Energy enables growth but isn't converted into physical weight."
-                },
-                {
-                    "text": "The plant gained weight mainly from fertilizer added to the soil",
-                    "isCorrect": 0,
-                    "explanation": "Even with fertilizer, the soil's small weight change shows soil materials (including fertilizer) aren't the main source of the plant's increased mass. Plants get most materials from air and water."
+                    "explanation": "Plants use photosynthesis to combine carbon dioxide from air and water to make glucose, which provides the main materials for plant growth"
                 }
             ],
-            "funFact": "A mature tree can absorb about 48 pounds of carbon dioxide per year from the air and convert it into wood, leaves, and other plant materials through photosynthesis. That's why trees are often called 'carbon sinks'!"
+            "funFact": "A large oak tree can weigh over 50,000 pounds, but almost all of this mass comes from carbon dioxide in the air and water! The minerals from soil make up less than 1% of the tree's total mass."
+        },
+        {
+            "id": 4,
+            "text": "A student is conducting an experiment to study plant growth. She grows two identical plants - one in regular soil and another using hydroponics (growing in water with nutrients but no soil). After several weeks, both plants have grown significantly. What does this experiment demonstrate about where plants get most of their mass from?",
+            "options": [
+                {
+                    "text": "Plants get most of their mass from air and water through photosynthesis",
+                    "isCorrect": 1,
+                    "explanation": "Since the hydroponic plant grows without soil, this proves that soil is not the main source of plant mass. Plants primarily build their mass using carbon dioxide from air and water through photosynthesis."
+                },
+                {
+                    "text": "Plants get most of their mass from the nutrients in soil",
+                    "isCorrect": 0,
+                    "explanation": "While soil provides important minerals, the fact that plants can grow hydroponically shows that soil is not the main source of plant mass."
+                },
+                {
+                    "text": "Plants create their mass through sunlight alone",
+                    "isCorrect": 0,
+                    "explanation": "While sunlight provides energy for photosynthesis, plants need matter (primarily from air and water) to build their mass. Sunlight alone cannot create mass."
+                },
+                {
+                    "text": "Plants get equal amounts of mass from soil and water",
+                    "isCorrect": 0,
+                    "explanation": "The successful growth of hydroponic plants without any soil demonstrates that soil is not a major contributor to plant mass."
+                }
+            ],
+            "funFact": "A large oak tree can absorb up to 48 pounds of carbon dioxide per year from the air and convert it into wood through photosynthesis. This means that most of a tree's mass actually comes from air, not from the ground!"
         },
         {
             "id": 5,
-            "text": "A student wants to grow a plant in a sealed container. Which of the following conditions would prevent the plant from growing successfully?",
+            "text": "In photosynthesis, what is the main role of water in helping plants create their own food?",
             "options": [
                 {
-                    "text": "Placing the plant in a sealed container with no air but with water and sunlight",
+                    "text": "Water only keeps the plant hydrated and healthy",
+                    "isCorrect": 0,
+                    "explanation": "While hydration is important, water plays a more crucial role as a raw material in photosynthesis to create food"
+                },
+                {
+                    "text": "Water is split to provide hydrogen atoms that combine with carbon dioxide to form sugar molecules",
                     "isCorrect": 1,
-                    "explanation": "Plants need air (carbon dioxide) to perform photosynthesis and create their food. Without air, the plant cannot grow even if it has water and sunlight."
+                    "explanation": "During photosynthesis, plants split water molecules to obtain hydrogen atoms, which combine with carbon dioxide using sunlight energy to produce sugar molecules for growth"
                 },
                 {
-                    "text": "Placing the plant in fertile soil",
+                    "text": "Water only helps cool the plant during photosynthesis",
                     "isCorrect": 0,
-                    "explanation": "Fertile soil provides nutrients and support for plants and would actually help rather than prevent plant growth. In a sealed container, as long as there is adequate air, water, and light, a plant in fertile soil can grow successfully."
+                    "explanation": "While water can help regulate plant temperature, its main role in photosynthesis is as a reactant to produce sugar"
                 },
                 {
-                    "text": "Adding mineral supplements to the water",
+                    "text": "Water only helps transport minerals from the soil",
                     "isCorrect": 0,
-                    "explanation": "Adding minerals to water can actually help plant growth. Hydroponic systems use mineral-enriched water to grow plants successfully."
-                },
-                {
-                    "text": "Using a clear container that allows sunlight to pass through",
-                    "isCorrect": 0,
-                    "explanation": "A clear container that allows sunlight to pass through is beneficial for plant growth since plants need sunlight for photosynthesis."
+                    "explanation": "Though water does transport minerals, its primary role in photosynthesis is as a key ingredient to make sugar"
                 }
             ],
-            "funFact": "The International Space Station grows plants in specially designed chambers using hydroponics! These chambers provide the plants with the air, water, and nutrients they need to grow in zero gravity, helping scientists study how plants might be grown on future space missions."
+            "funFact": "A single leaf can contain hundreds of thousands of chloroplasts - the tiny factories where photosynthesis occurs. Inside these chloroplasts, water molecules are split into hydrogen and oxygen atoms during photosynthesis, with the oxygen being released into the air we breathe!"
         },
         {
             "id": 6,
-            "text": "Two identical tomato plants were grown in separate sealed containers with identical soil and water. Plant A was given access to fresh air, while Plant B's container was filled with air that had carbon dioxide removed. After two weeks, Plant A showed healthy growth while Plant B barely grew. What does this experiment demonstrate about plant growth?",
+            "text": "A student is conducting experiments to understand what plants need to grow. She sets up four different conditions for growing identical seedlings, all receiving adequate light:\n\nCondition 1: Plant in soil with water and air\nCondition 2: Plant in soil without water but with air\nCondition 3: Plant in nutrient-rich water without soil but with air (hydroponics)\nCondition 4: Plant in soil with water but sealed in an airtight container\n\nWhich condition best demonstrates that soil is not essential for plant growth as long as all necessary nutrients are provided?",
             "options": [
                 {
-                    "text": "Plants get most of their mass from materials in air",
+                    "text": "Condition 4 - Plant in soil with water but sealed in an airtight container",
+                    "isCorrect": 0,
+                    "explanation": "Without access to air (which contains carbon dioxide), the plant cannot perform photosynthesis effectively and therefore cannot grow properly, even with soil and water present."
+                },
+                {
+                    "text": "Condition 2 - Plant in soil without water but with air",
+                    "isCorrect": 0,
+                    "explanation": "Without water, the plant cannot survive or grow. Water is essential for plants as it's needed for photosynthesis, nutrient transport, and cellular processes."
+                },
+                {
+                    "text": "Condition 3 - Plant in nutrient-rich water without soil but with air (hydroponics)",
                     "isCorrect": 1,
-                    "explanation": "This is correct because the experiment shows that without carbon dioxide from air, Plant B couldn't grow properly, demonstrating that air provides essential materials for plant growth through photosynthesis."
+                    "explanation": "This is correct. Hydroponics demonstrates that plants can grow successfully without soil as long as they have water containing necessary nutrients, light, and air. The plant gets its carbon from carbon dioxide in the air and other essential elements from the nutrient solution."
                 },
                 {
-                    "text": "Plants get most of their mass from soil nutrients",
+                    "text": "Condition 1 - Plant in soil with water and air",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because both plants had identical soil, yet Plant B didn't grow well. If soil provided most materials for growth, both plants would have grown similarly."
-                },
-                {
-                    "text": "Plants need only water to grow properly",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because both plants had the same amount of water, yet Plant B didn't grow well. This shows that water alone isn't sufficient for plant growth."
-                },
-                {
-                    "text": "Plants can grow without carbon dioxide",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because Plant B, which didn't have access to carbon dioxide, showed very little growth compared to Plant A with normal air."
+                    "explanation": "This traditional growing method provides plants with water, nutrients from soil, and air. While it supports healthy plant growth, it doesn't demonstrate that soil is non-essential since soil is present."
                 }
             ],
-            "funFact": "During photosynthesis, plants combine about 6 molecules of carbon dioxide with 6 molecules of water to create one molecule of glucose (sugar) and 6 molecules of oxygen. This means that most of a plant's dry mass actually comes from carbon dioxide in the air!"
+            "funFact": "The world's largest hydroponic farm is located in Dubai and covers 130,000 square feet! It can produce up to 2.7 tons of leafy greens daily while using 95% less water than traditional farming methods."
         },
         {
             "id": 7,
-            "text": "A scientist is conducting experiments on plant growth. Which combination of materials would provide the primary source of matter for plant growth?",
-            "options": [
-                {
-                    "text": "Air and water",
-                    "isCorrect": 1,
-                    "explanation": "Plants get most of their matter for growth from air (carbon dioxide) through photosynthesis and water. This is proven by hydroponic systems where plants grow successfully without soil."
-                },
-                {
-                    "text": "Soil and fertilizer",
-                    "isCorrect": 0,
-                    "explanation": "While soil provides minerals and fertilizer supplies nutrients, they are not the main source of matter for plant growth. Plants can grow without soil in hydroponic systems."
-                },
-                {
-                    "text": "Soil and sunlight",
-                    "isCorrect": 0,
-                    "explanation": "While sunlight provides energy for photosynthesis, it is not a source of matter. Soil is also not the main source of matter for plant growth."
-                },
-                {
-                    "text": "Water and vitamins",
-                    "isCorrect": 0,
-                    "explanation": "While water is correct, vitamins only provide trace amounts of matter. Air (carbon dioxide) is the other main source of matter for plant growth."
-                }
-            ],
-            "funFact": "A large tree can absorb about 48 pounds of carbon dioxide per year from the air and convert it into wood, leaves, and roots through photosynthesis. This shows how plants get most of their mass from air, not soil!"
-        },
-        {
-            "id": 8,
             "text": "A student is conducting an experiment to study plant growth. The student plants a seed in a pot with 100 grams of soil and adds 50 grams of water. After one month, the plant has grown significantly and weighs 20 grams, but the soil weight has barely changed. What is the most likely source of most of the materials that made up the plant's increased mass?",
             "options": [
-                {
-                    "text": "Air and water",
-                    "isCorrect": 1,
-                    "explanation": "Plants get most of their mass from carbon dioxide in the air and water. Through photosynthesis, they convert these materials into plant matter, which explains the significant increase in plant mass without much change in soil weight."
-                },
-                {
-                    "text": "Soil nutrients",
-                    "isCorrect": 0,
-                    "explanation": "While soil provides some minerals, the minimal change in soil weight shows that soil nutrients are not the main source of the plant's mass. If soil were the main source, we would see a significant decrease in soil weight."
-                },
                 {
                     "text": "Sunlight energy",
                     "isCorrect": 0,
@@ -214,14 +177,88 @@
                     "text": "Fertilizer minerals",
                     "isCorrect": 0,
                     "explanation": "Although fertilizers can help plant growth, they are not the main source of plant mass. The minimal change in soil weight (which would include any fertilizer) shows that minerals are not the primary source of the plant's increased mass."
+                },
+                {
+                    "text": "Air and water",
+                    "isCorrect": 1,
+                    "explanation": "Plants get most of their mass from carbon dioxide in the air and water. Through photosynthesis, they convert these materials into plant matter, which explains the significant increase in plant mass without much change in soil weight."
+                },
+                {
+                    "text": "Soil nutrients",
+                    "isCorrect": 0,
+                    "explanation": "While soil provides some minerals, the minimal change in soil weight shows that soil nutrients are not the main source of the plant's mass. If soil were the main source, we would see a significant decrease in soil weight."
                 }
             ],
             "funFact": "A giant sequoia tree can weigh over 2 million pounds, yet almost all of this mass comes from carbon dioxide in the air combined with water! The tree literally builds itself by pulling carbon from thin air through photosynthesis."
         },
         {
+            "id": 8,
+            "text": "A scientist wants to design an experiment to show that plants get matter from air for their growth. Which experimental setup would best demonstrate this?",
+            "options": [
+                {
+                    "text": "Growing two identical plants in different types of soil but with the same amount of water and sunlight",
+                    "isCorrect": 0,
+                    "explanation": "This setup tests the role of soil composition in plant growth. It doesn't help show whether plants get matter from air."
+                },
+                {
+                    "text": "Growing two identical plants in the same type of soil, with one plant receiving regular watering and the other receiving no water",
+                    "isCorrect": 0,
+                    "explanation": "This setup tests the role of water in plant growth, not air. It wouldn't help demonstrate that air contributes matter to plant growth."
+                },
+                {
+                    "text": "Growing two identical plants in identical hydroponic solutions, with one plant in a container with normal air, and the other in a container with air from which CO2 has been removed",
+                    "isCorrect": 1,
+                    "explanation": "This is the best setup because it isolates carbon dioxide as the variable being tested. Using hydroponics eliminates soil as a factor, and by specifically removing CO2 from the air while keeping other conditions identical, any difference in growth can be attributed to carbon dioxide from air as a source of matter for plant growth."
+                },
+                {
+                    "text": "Growing two identical plants in the same conditions but giving one plant fertilizer and the other no fertilizer",
+                    "isCorrect": 0,
+                    "explanation": "This setup tests the role of soil nutrients in plant growth. It doesn't demonstrate the contribution of air to plant matter."
+                }
+            ],
+            "funFact": "Plants actually get most of their mass from carbon dioxide in the air through photosynthesis. When measured, about 95% of a plant's dry weight comes from carbon dioxide absorbed from the air, not from water or soil nutrients!"
+        },
+        {
             "id": 9,
+            "text": "A student is conducting an experiment to determine where plants get most of their materials for growth. The student grows two identical plants for 8 weeks: Plant A in soil and Plant B in a hydroponic system (water with nutrients but no soil). Both plants receive the same amount of water, air, and sunlight. At the end of 8 weeks, both plants have grown to similar sizes and weights. What does this experiment suggest about where plants get most of their materials for growth?",
+            "options": [
+                {
+                    "text": "Plants get most of their materials for growth from soil",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because Plant B grew well without any soil, proving that soil is not the main source of materials for plant growth."
+                },
+                {
+                    "text": "Plants get most of their materials for growth from air and water",
+                    "isCorrect": 1,
+                    "explanation": "Since Plant B grew without soil and reached a similar size as Plant A, this shows that soil is not the main source of materials for plant growth. The materials must come primarily from air and water."
+                },
+                {
+                    "text": "Plants can only grow properly when given soil",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because Plant B grew just as well as Plant A without any soil, demonstrating that soil is not necessary for plant growth."
+                },
+                {
+                    "text": "The experiment is inconclusive because both plants received water",
+                    "isCorrect": 0,
+                    "explanation": "The presence of water in both conditions doesn't make the experiment inconclusive. In fact, it helps control variables and shows that plants can grow without soil but not without water."
+                }
+            ],
+            "funFact": "The largest hydroponic farm in the world is in Dubai and covers 130,000 square feet! It produces over 2,700 pounds of leafy greens daily without using any soil, demonstrating the amazing potential of soil-free agriculture."
+        },
+        {
+            "id": 10,
             "text": "A student conducted an experiment where they grew a plant in a pot with soil. They measured the weight of the plant and soil together at the start and after one month of growth. The initial weight was 500 grams, and after a month, the plant had grown significantly taller and the total weight was 650 grams. Which conclusion is best supported by these weight measurements?",
             "options": [
+                {
+                    "text": "The weight measurements don't tell us anything about where plants get materials for growth",
+                    "isCorrect": 0,
+                    "explanation": "The weight increase without adding more soil is important evidence that shows plants must get most growth materials from sources other than soil"
+                },
+                {
+                    "text": "The weight stayed the same because plants only need sunlight to grow",
+                    "isCorrect": 0,
+                    "explanation": "The weight clearly increased, and while sunlight provides energy for growth, it does not provide the physical materials needed to build plant tissue"
+                },
                 {
                     "text": "The weight increase shows that the plant got most of its growth materials from air and water",
                     "isCorrect": 1,
@@ -231,103 +268,39 @@
                     "text": "The weight increase shows that the soil provided most materials for the plant's growth",
                     "isCorrect": 0,
                     "explanation": "If soil provided most materials, its weight would have decreased significantly as the plant grew. The total weight increase indicates materials came from outside the soil"
-                },
-                {
-                    "text": "The weight stayed the same because plants only need sunlight to grow",
-                    "isCorrect": 0,
-                    "explanation": "The weight clearly increased, and while sunlight provides energy for growth, it does not provide the physical materials needed to build plant tissue"
-                },
-                {
-                    "text": "The weight measurements don't tell us anything about where plants get materials for growth",
-                    "isCorrect": 0,
-                    "explanation": "The weight increase without adding more soil is important evidence that shows plants must get most growth materials from sources other than soil"
                 }
             ],
             "funFact": "A large oak tree can consume over 100 gallons of water and absorb 48 pounds of carbon dioxide from the air in just one day during its growing season. Most of this material goes into producing new leaves, wood, and roots!"
         },
         {
-            "id": 10,
-            "text": "A student is conducting an experiment to study plant growth. They planted a seedling in a pot with 500g of soil and recorded the following measurements after 30 days:\n- Plant mass increased by 50g\n- Soil mass decreased by 5g\n- Water was added regularly\nWhat can be concluded about where the plant got most of its material for growth?",
-            "options": [
-                {
-                    "text": "Primarily from air and water",
-                    "isCorrect": 1,
-                    "explanation": "The plant gained 50g while soil only lost 5g, showing soil couldn't be the main source. The additional mass must have come from air (CO2) and water through photosynthesis."
-                },
-                {
-                    "text": "Primarily from soil nutrients",
-                    "isCorrect": 0,
-                    "explanation": "The soil only lost 5g while the plant gained 50g. This shows that soil couldn't have been the main source of materials for plant growth."
-                },
-                {
-                    "text": "Equally from soil and water",
-                    "isCorrect": 0,
-                    "explanation": "The small change in soil mass (5g) compared to plant mass gain (50g) shows that soil wasn't a major source of materials for growth."
-                },
-                {
-                    "text": "Primarily from fertilizers",
-                    "isCorrect": 0,
-                    "explanation": "Even if fertilizers were used, they couldn't account for the 50g increase in plant mass, as the total soil mass only decreased by 5g."
-                }
-            ],
-            "funFact": "A large oak tree can absorb up to 100 gallons of water per day and convert about 48 pounds of carbon dioxide into oxygen annually - all while adding thousands of pounds of mass despite growing in the same amount of soil!"
-        },
-        {
             "id": 11,
-            "text": "A student is conducting an experiment with two identical plants in sealed transparent containers. Container A has the plant in water with essential minerals, while Container B has the plant in soil with the same amount of water. Both containers allow airflow for carbon dioxide exchange. After 4 weeks, the student measures the water levels and plant mass in both containers. Which observation would best support the idea that plants can grow successfully using only water with minerals, without requiring soil?",
+            "text": "A scientist conducted an experiment with two identical tomato plants. Plant A was grown in a sealed glass container with no air circulation, while Plant B was grown in a container with small holes allowing air flow. Both plants received the same amount of water and sunlight. After two weeks, Plant A showed minimal growth while Plant B grew significantly taller and developed new leaves. What does this experiment demonstrate about plant growth?",
             "options": [
                 {
-                    "text": "The water level in Container A decreased similarly to Container B, and both plants showed similar growth",
-                    "isCorrect": 1,
-                    "explanation": "This observation supports that plants can grow equally well in water with essential minerals (hydroponically) as they can in soil. While plants get most of their mass from carbon dioxide in the air through photosynthesis, they need water and minerals for this process, which can be provided directly without soil."
+                    "text": "Plants get most of their materials for growth from soil nutrients",
+                    "isCorrect": 0,
+                    "explanation": "Both plants had the same soil conditions, so if soil nutrients were the main source of materials for growth, both plants should have grown similarly"
                 },
                 {
-                    "text": "The water level remained the same in both containers, but the plant in Container B grew more",
+                    "text": "Plants grow better in enclosed spaces",
                     "isCorrect": 0,
-                    "explanation": "This would suggest soil provides something essential that water with minerals alone does not, contradicting the concept of successful hydroponic growth. Remember that plants primarily build their mass from carbon dioxide in the air, while water and minerals support this process."
+                    "explanation": "The experiment shows the opposite - the plant in the enclosed space (Plant A) grew less than the plant with air circulation (Plant B)"
                 },
-                {
-                    "text": "The water level in Container B decreased more than in Container A, and the plant in Container B grew more",
-                    "isCorrect": 0,
-                    "explanation": "This would suggest that soil is necessary for optimal plant growth, contradicting the possibility of successful soilless (hydroponic) growing. Plants primarily get carbon for building their mass from the air, not from soil or water."
-                },
-                {
-                    "text": "The water levels remained the same in both containers, and neither plant showed growth",
-                    "isCorrect": 0,
-                    "explanation": "This would indicate a failed experiment as plants need water, minerals, and carbon dioxide to grow. If no water was consumed and no growth occurred, essential conditions for photosynthesis were likely missing."
-                }
-            ],
-            "funFact": "The process of growing plants without soil is called hydroponics and was used by the ancient Hanging Gardens of Babylon, one of the Seven Wonders of the Ancient World. Today, NASA uses hydroponics to study how to grow food in space! Plants in hydroponic systems get carbon for building their mass from carbon dioxide in the air, just like soil-grown plants."
-        },
-        {
-            "id": 12,
-            "text": "A student sets up a hydroponic system to grow lettuce plants without soil. After 30 days, the student observes that the lettuce plants have grown significantly larger. What can be concluded about where plants get most of their materials for growth?",
-            "options": [
                 {
                     "text": "Plants get most of their materials for growth from air and water",
                     "isCorrect": 1,
-                    "explanation": "The successful growth of plants in a hydroponic system without soil demonstrates that plants can obtain their needed materials primarily from air and water."
+                    "explanation": "The experiment shows that even with adequate water and sunlight, the plant without air circulation (Plant A) couldn't grow well, demonstrating that air is a crucial source of materials for plant growth"
                 },
                 {
-                    "text": "Plants get most of their materials for growth from nutrients in soil",
+                    "text": "Plants only need sunlight for growth",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because the plants grew successfully without any soil, proving that soil is not the main source of materials for plant growth."
-                },
-                {
-                    "text": "Plants get most of their materials for growth from fertilizers",
-                    "isCorrect": 0,
-                    "explanation": "While fertilizers can help plant growth, they are not the main source of materials. The bulk of plant matter comes from air and water through photosynthesis."
-                },
-                {
-                    "text": "Plants get most of their materials for growth from sunlight alone",
-                    "isCorrect": 0,
-                    "explanation": "While sunlight provides energy for photosynthesis, it is not the source of materials for plant growth. Plants need matter in the form of air and water to build their structures."
+                    "explanation": "While both plants received equal sunlight, their growth differed significantly, showing that sunlight alone is not sufficient for plant growth"
                 }
             ],
-            "funFact": "A mature tree can absorb about 48 pounds of carbon dioxide per year from the air and convert it into wood, leaves, and other plant materials through photosynthesis - demonstrating how air is a major source of plant matter!"
+            "funFact": "During photosynthesis, plants actually take in carbon dioxide from the air and combine it with water to create glucose and other materials needed for growth. A single mature tree can absorb about 48 pounds of carbon dioxide per year from the air!"
         },
         {
-            "id": 13,
+            "id": 12,
             "text": "A student conducted an experiment to study plant growth. They grew three identical tomato plants for 4 weeks under these conditions:\nPlant A: In soil with water and air\nPlant B: In water with air (no soil)\nPlant C: In soil without water (with air)\n\nAt the end of 4 weeks, Plant A and Plant B grew to about the same height and gained similar mass, while Plant C died. What does this experiment tell us about where plants get most materials for their growth?",
             "options": [
                 {
@@ -341,49 +314,27 @@
                     "explanation": "If soil was a main source of materials, Plant B growing without soil would not have matched Plant A's growth"
                 },
                 {
-                    "text": "Plants can grow equally well with any two of these: soil, water, or air",
-                    "isCorrect": 0,
-                    "explanation": "The experiment shows that water and air are essential - removing water led to plant death even with soil present"
-                },
-                {
                     "text": "Soil is the main source of materials for plant growth",
                     "isCorrect": 0,
                     "explanation": "If soil was the main source, Plant B growing without soil would have failed to thrive, but it grew just as well as Plant A"
+                },
+                {
+                    "text": "Plants can grow equally well with any two of these: soil, water, or air",
+                    "isCorrect": 0,
+                    "explanation": "The experiment shows that water and air are essential - removing water led to plant death even with soil present"
                 }
             ],
             "funFact": "Hydroponics, growing plants without soil, has been practiced for centuries and is now used by NASA to grow food in space!"
         },
         {
-            "id": 14,
-            "text": "A scientist conducted an experiment with two identical tomato plants. Plant A was grown in a sealed glass container with no air circulation, while Plant B was grown in a container with small holes allowing air flow. Both plants received the same amount of water and sunlight. After two weeks, Plant A showed minimal growth while Plant B grew significantly taller and developed new leaves. What does this experiment demonstrate about plant growth?",
-            "options": [
-                {
-                    "text": "Plants get most of their materials for growth from air and water",
-                    "isCorrect": 1,
-                    "explanation": "The experiment shows that even with adequate water and sunlight, the plant without air circulation (Plant A) couldn't grow well, demonstrating that air is a crucial source of materials for plant growth"
-                },
-                {
-                    "text": "Plants get most of their materials for growth from soil nutrients",
-                    "isCorrect": 0,
-                    "explanation": "Both plants had the same soil conditions, so if soil nutrients were the main source of materials for growth, both plants should have grown similarly"
-                },
-                {
-                    "text": "Plants only need sunlight for growth",
-                    "isCorrect": 0,
-                    "explanation": "While both plants received equal sunlight, their growth differed significantly, showing that sunlight alone is not sufficient for plant growth"
-                },
-                {
-                    "text": "Plants grow better in enclosed spaces",
-                    "isCorrect": 0,
-                    "explanation": "The experiment shows the opposite - the plant in the enclosed space (Plant A) grew less than the plant with air circulation (Plant B)"
-                }
-            ],
-            "funFact": "During photosynthesis, plants actually take in carbon dioxide from the air and combine it with water to create glucose and other materials needed for growth. A single mature tree can absorb about 48 pounds of carbon dioxide per year from the air!"
-        },
-        {
-            "id": 15,
+            "id": 13,
             "text": "A student conducted an experiment to study plant growth using three identical bean plants. Each plant was placed in a clear container with different conditions:\nPlant A: Water with nutrients (hydroponics)\nPlant B: Soil only (no water added)\nPlant C: Both soil and water\n\nAfter two weeks, which plant(s) would most likely show significant growth?",
             "options": [
+                {
+                    "text": "Plant C only",
+                    "isCorrect": 0,
+                    "explanation": "While Plant C would grow, this answer incorrectly suggests that hydroponic systems (Plant A) cannot support plant growth. Modern hydroponic systems with proper nutrients can grow plants very effectively without soil."
+                },
                 {
                     "text": "Plant A only",
                     "isCorrect": 0,
@@ -398,14 +349,63 @@
                     "text": "Plants A and C only",
                     "isCorrect": 1,
                     "explanation": "Both Plant A and Plant C would show significant growth because they both have water, which is essential for plant growth. Plant A receives water and nutrients through the hydroponic solution, while Plant C gets water and nutrients from the soil-water combination."
-                },
-                {
-                    "text": "Plant C only",
-                    "isCorrect": 0,
-                    "explanation": "While Plant C would grow, this answer incorrectly suggests that hydroponic systems (Plant A) cannot support plant growth. Modern hydroponic systems with proper nutrients can grow plants very effectively without soil."
                 }
             ],
             "funFact": "The world's largest hydroponic farm is located in Dubai and covers 130,000 square feet! It can produce up to 2.7 tons of leafy greens daily without using any soil, demonstrating that plants truly can thrive with just water, air, and proper nutrients."
+        },
+        {
+            "id": 14,
+            "text": "A student is conducting an experiment to compare plant growth in two setups. In Setup A, plants are grown in nutrient-rich soil with adequate water and sunlight. In Setup B, plants are grown hydroponically (in water with dissolved nutrients) with the same amount of sunlight. After 4 weeks, the student measures the biomass (total mass of plant material) of plants from both setups and finds they are nearly identical. What conclusion can the student draw from this experiment?",
+            "options": [
+                {
+                    "text": "Plants primarily obtain materials for growth from air and water",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because the experiment shows plants can grow equally well with or without soil, demonstrating that air and water provide the main materials for plant growth."
+                },
+                {
+                    "text": "Plants get most of their mass from soil minerals",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the hydroponic plants grew just as well without soil, showing that soil is not the main source of plant mass."
+                },
+                {
+                    "text": "Plants cannot grow without soil",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the hydroponic setup proved that plants can grow successfully without soil."
+                },
+                {
+                    "text": "Soil and water contribute equally to plant growth",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the hydroponic plants grew without soil, showing that soil is not a major contributor to plant mass."
+                }
+            ],
+            "funFact": "A single mature tree can absorb up to 48 pounds of carbon dioxide per year from the air and convert it into plant material through photosynthesis. This shows how effectively plants can turn air into biomass!"
+        },
+        {
+            "id": 15,
+            "text": "A student is conducting an experiment to study how air affects plant growth. The student takes two identical plants and places them in identical conditions with the same amount of water and sunlight. The only difference is that Plant A is grown in a sealed glass container with limited air exchange, while Plant B is grown in a ventilated container allowing free air flow. After two weeks, which observation would best support the claim that plants get materials they need for growth from air?",
+            "options": [
+                {
+                    "text": "Both plants grow exactly the same amount",
+                    "isCorrect": 0,
+                    "explanation": "If air was not important for plant growth, this might be true. However, plants need carbon dioxide from air for photosynthesis and growth"
+                },
+                {
+                    "text": "Plant B grows taller and has more leaves than Plant A",
+                    "isCorrect": 1,
+                    "explanation": "Plant B has better access to air (carbon dioxide) which is essential for photosynthesis and growth, demonstrating that air provides important materials for plant growth"
+                },
+                {
+                    "text": "Plant A grows better because it uses minerals from the container",
+                    "isCorrect": 0,
+                    "explanation": "This represents a common misconception. Plants get most materials for growth from air and water, not from containers or soil"
+                },
+                {
+                    "text": "Plant A grows better because the sealed container retains more moisture",
+                    "isCorrect": 0,
+                    "explanation": "While moisture is important, the lack of fresh air (carbon dioxide) in the sealed container would limit Plant A's growth more than any benefit from retained moisture"
+                }
+            ],
+            "funFact": "During photosynthesis, plants actually take in about 6 molecules of carbon dioxide from the air to produce just one molecule of glucose. This is why the majority of a plant's dry mass comes from the air rather than from soil or water!"
         }
     ]
 }

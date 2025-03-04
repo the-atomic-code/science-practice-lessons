@@ -4,98 +4,44 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which statement correctly describes how genetic information is passed to offspring during sexual reproduction?",
+            "text": "Which statement correctly describes asexual reproduction in organisms?",
             "options": [
                 {
-                    "text": "Offspring receive all of their genetic information from a single parent",
+                    "text": "Multiple organisms share their genetic information to create offspring",
                     "isCorrect": 0,
-                    "explanation": "This describes asexual reproduction. In sexual reproduction, offspring receive genetic information from two parents."
+                    "explanation": "This is incorrect as asexual reproduction involves only one parent organism, not multiple organisms sharing genetic information"
                 },
                 {
-                    "text": "Each parent contributes half of the genetic information to their offspring",
+                    "text": "An organism produces offspring with completely different genetic information",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because asexual reproduction results in offspring that are genetic copies of the parent, not different genetic information"
+                },
+                {
+                    "text": "Two organisms combine their genetic information to produce offspring",
+                    "isCorrect": 0,
+                    "explanation": "This describes sexual reproduction, not asexual reproduction, where genetic material from two parents combines to create unique offspring"
+                },
+                {
+                    "text": "An organism produces offspring with genetic information identical to itself",
                     "isCorrect": 1,
-                    "explanation": "In sexual reproduction, each parent contributes half of their genes to their offspring, creating unique genetic combinations."
-                },
-                {
-                    "text": "Offspring are exact genetic copies of either their mother or father",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Sexual reproduction combines genetic information from both parents, not just one."
-                },
-                {
-                    "text": "Parents contribute random amounts of genetic information to their offspring",
-                    "isCorrect": 0,
-                    "explanation": "The genetic contribution is not random - each parent consistently contributes half of the genetic information."
+                    "explanation": "This is correct because in asexual reproduction, a single parent passes an exact copy of its DNA to its offspring, resulting in genetically identical individuals"
                 }
             ],
-            "funFact": "The unique genetic combinations created through sexual reproduction are one reason why siblings often look different from each other, even though they have the same parents. Each time parents have a child, different combinations of their genes are passed down!"
+            "funFact": "Some organisms like starfish can reproduce both sexually and asexually! If a starfish loses an arm, it can not only regenerate that arm, but sometimes the severed arm can grow into a complete new starfish through asexual reproduction."
         },
         {
             "id": 2,
-            "text": "Which statement correctly describes the role of genes in determining an organism's traits?",
-            "options": [
-                {
-                    "text": "Genes are sections of DNA that contain instructions for making specific proteins that control traits",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Genes are segments of DNA that contain the instructions for producing specific proteins, which in turn determine various traits in organisms."
-                },
-                {
-                    "text": "Genes are proteins that directly create an organism's physical characteristics",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Genes are not proteins themselves - they are DNA sequences that contain instructions for making proteins."
-                },
-                {
-                    "text": "Genes are traits that are passed directly from parents to offspring",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Genes contain instructions for traits, but they are not the traits themselves. They are sections of DNA that code for proteins."
-                },
-                {
-                    "text": "Genes are cells that determine what an organism will look like",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Genes are not cells - they are sections of DNA found within cells that provide instructions for making proteins."
-                }
-            ],
-            "funFact": "Scientists estimate that humans have between 20,000 and 25,000 genes! Despite this seemingly large number, these genes make up only about 1-2% of our total DNA. The rest of our DNA has other important functions or its purpose is still being studied."
-        },
-        {
-            "id": 3,
-            "text": "Which of the following is NOT a behavioral adaptation that animals use to increase their chances of successful reproduction?",
-            "options": [
-                {
-                    "text": "A male frog making deep croaking sounds to attract mates",
-                    "isCorrect": 0,
-                    "explanation": "Frogs use vocalizations as a behavioral adaptation to attract mates, which helps increase their chances of reproduction."
-                },
-                {
-                    "text": "A bird constructing an intricate nest for its eggs",
-                    "isCorrect": 0,
-                    "explanation": "Nest building is a behavioral adaptation that birds use to protect their eggs and increase offspring survival."
-                },
-                {
-                    "text": "A male pufferfish creating patterns in sand to attract females",
-                    "isCorrect": 0,
-                    "explanation": "Creating sand patterns is a behavioral adaptation pufferfish use during courtship to attract mates."
-                },
-                {
-                    "text": "The bright coloration of a male peacock's feathers",
-                    "isCorrect": 1,
-                    "explanation": "The bright coloration of feathers is a structural adaptation (physical feature), not a behavioral adaptation (action or behavior)."
-                }
-            ],
-            "funFact": "The male bowerbird creates one of the most elaborate courtship displays in nature - it builds and decorates a special structure called a bower with colorful objects like flowers, berries, and even human-made items like bottle caps and pieces of glass to attract females!"
-        },
-        {
-            "id": 4,
             "text": "What is a chromosome and what does it contain?",
             "options": [
-                {
-                    "text": "A coiled-up section of DNA that contains genetic information",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Chromosomes are tightly coiled structures made of DNA that carry genes and genetic information needed for inheritance."
-                },
                 {
                     "text": "A single protein that creates traits",
                     "isCorrect": 0,
                     "explanation": "While proteins are important for expressing traits, chromosomes are actually made of DNA, not protein. They contain many genes that code for different proteins."
+                },
+                {
+                    "text": "An enzyme that copies DNA",
+                    "isCorrect": 0,
+                    "explanation": "While enzymes help copy DNA during cell division, chromosomes are the structures that contain and organize DNA, not the enzymes that work with it."
                 },
                 {
                     "text": "A cell membrane that protects genes",
@@ -103,27 +49,44 @@
                     "explanation": "Cell membranes protect the entire cell, but chromosomes are structures inside the cell nucleus that are made of coiled DNA."
                 },
                 {
-                    "text": "An enzyme that copies DNA",
-                    "isCorrect": 0,
-                    "explanation": "While enzymes help copy DNA during cell division, chromosomes are the structures that contain and organize DNA, not the enzymes that work with it."
+                    "text": "A coiled-up section of DNA that contains genetic information",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Chromosomes are tightly coiled structures made of DNA that carry genes and genetic information needed for inheritance."
                 }
             ],
             "funFact": "If you stretched out all the DNA from a single human cell, it would be about 6 feet (2 meters) long! Chromosomes help package this long DNA molecule into a tiny space inside the cell nucleus."
         },
         {
-            "id": 5,
-            "text": "Two parents both have the dominant allele (D) for dimples and the recessive allele (d) for no dimples. What is the probability that their child will have dimples?",
+            "id": 3,
+            "text": "During fertilization in sexual reproduction, what happens to create a new organism?",
             "options": [
                 {
-                    "text": "100%",
+                    "text": "A single cell splits into two identical copies",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. When both parents are heterozygous (Dd), there is a 1/4 chance the child will inherit two recessive alleles (dd) and not have dimples."
+                    "explanation": "This describes cell division in asexual reproduction, not fertilization in sexual reproduction"
                 },
                 {
-                    "text": "75%",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. When both parents have the genotype Dd, the Punnett square shows offspring with genotypes DD (25%), Dd (50%), and dd (25%). Since dimples appear with at least one dominant allele, 75% of offspring will have dimples."
+                    "text": "Two identical cells fuse together",
+                    "isCorrect": 0,
+                    "explanation": "The sex cells that combine during fertilization are not identical - they contain different genetic material from each parent"
                 },
+                {
+                    "text": "One parent cell transfers all its genes to an empty cell",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - fertilization requires genetic material from two parents, not just one"
+                },
+                {
+                    "text": "Two specialized sex cells combine and merge their genetic material",
+                    "isCorrect": 1,
+                    "explanation": "Fertilization involves the combination of two specialized sex cells, each containing half the genetic material needed for the offspring"
+                }
+            ],
+            "funFact": "Some organisms can switch between sexual and asexual reproduction depending on environmental conditions. For example, many species of yeast reproduce asexually when resources are plentiful but switch to sexual reproduction when under stress, increasing genetic diversity that might help survival!"
+        },
+        {
+            "id": 4,
+            "text": "Two parents both have the dominant allele (D) for dimples and the recessive allele (d) for no dimples. What is the probability that their child will have dimples?",
+            "options": [
                 {
                     "text": "50%",
                     "isCorrect": 0,
@@ -133,99 +96,55 @@
                     "text": "25%",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. 25% is the probability that a child will NOT have dimples (dd genotype) when both parents are heterozygous (Dd). The probability of having dimples (DD or Dd genotypes) is 75%."
+                },
+                {
+                    "text": "100%",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. When both parents are heterozygous (Dd), there is a 1/4 chance the child will inherit two recessive alleles (dd) and not have dimples."
+                },
+                {
+                    "text": "75%",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. When both parents have the genotype Dd, the Punnett square shows offspring with genotypes DD (25%), Dd (50%), and dd (25%). Since dimples appear with at least one dominant allele, 75% of offspring will have dimples."
                 }
             ],
             "funFact": "Dimples are considered a dominant genetic trait, but they can appear on one or both cheeks. Some people even have chin dimples, which are also inherited through dominant genes!"
         },
         {
+            "id": 5,
+            "text": "Which of the following is NOT a structural adaptation that helps organisms increase their chances of successful reproduction?",
+            "options": [
+                {
+                    "text": "A kangaroo's pouch",
+                    "isCorrect": 0,
+                    "explanation": "A kangaroo's pouch is a structural adaptation that protects and nourishes offspring, improving their survival chances."
+                },
+                {
+                    "text": "A frog's croaking sound",
+                    "isCorrect": 1,
+                    "explanation": "A frog's croaking is a behavioral adaptation, not a structural one. It's an action the frog performs, not a physical feature of its body."
+                },
+                {
+                    "text": "The flashy tail feathers of a peacock",
+                    "isCorrect": 0,
+                    "explanation": "Peacock's tail feathers are a structural adaptation that helps attract mates, increasing chances of reproduction."
+                },
+                {
+                    "text": "The bright petals of a flower",
+                    "isCorrect": 0,
+                    "explanation": "Bright flower petals are structural adaptations that attract pollinators, enabling successful reproduction."
+                }
+            ],
+            "funFact": "Some flowers have evolved ultraviolet patterns on their petals that are invisible to humans but act as 'landing strips' for pollinating insects, guiding them directly to the flower's nectar and pollen!"
+        },
+        {
             "id": 6,
-            "text": "A scientist is studying a bacterial population in a laboratory where temperature and nutrients remain constant. The scientist needs to grow a large population of bacteria quickly. Which type of reproduction would be most advantageous in this situation?",
-            "options": [
-                {
-                    "text": "Sexual reproduction because it creates genetic diversity",
-                    "isCorrect": 0,
-                    "explanation": "While sexual reproduction creates genetic diversity, it requires two parents and is typically slower than asexual reproduction. In a stable environment, genetic diversity is less critical than rapid population growth."
-                },
-                {
-                    "text": "Asexual reproduction because it produces identical offspring quickly",
-                    "isCorrect": 1,
-                    "explanation": "Asexual reproduction is ideal here because it requires only one parent, is faster than sexual reproduction, and produces genetically identical offspring well-adapted to the stable environment."
-                },
-                {
-                    "text": "Sexual reproduction because it produces stronger offspring",
-                    "isCorrect": 0,
-                    "explanation": "Sexual reproduction doesn't necessarily produce stronger offspring. The advantage of genetic variation it provides is more beneficial in changing environments, not stable laboratory conditions."
-                },
-                {
-                    "text": "Neither type because bacteria can't reproduce in laboratories",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Bacteria can reproduce in laboratories, and in fact, laboratory bacterial cultures are common in scientific research."
-                }
-            ],
-            "funFact": "Some bacteria can divide every 20 minutes under ideal conditions, meaning a single bacterial cell could theoretically produce over 16 million identical offspring in just 8 hours through asexual reproduction!"
-        },
-        {
-            "id": 7,
-            "text": "Which of the following plant adaptations best helps ensure successful reproduction by attracting pollinators to transfer genetic material?",
-            "options": [
-                {
-                    "text": "Having colorful, fragrant petals",
-                    "isCorrect": 1,
-                    "explanation": "Bright colors and pleasant fragrances attract insects and other pollinators, increasing the chances of successful pollen transfer between plants."
-                },
-                {
-                    "text": "Having thick, waxy leaves",
-                    "isCorrect": 0,
-                    "explanation": "While waxy leaves help protect plants from water loss, they don't directly contribute to reproduction or genetic transfer."
-                },
-                {
-                    "text": "Growing very tall stems",
-                    "isCorrect": 0,
-                    "explanation": "While height can help plants compete for sunlight, it's not primarily an adaptation for genetic transfer during reproduction."
-                },
-                {
-                    "text": "Having deep roots",
-                    "isCorrect": 0,
-                    "explanation": "Deep roots help plants access water and nutrients but don't directly aid in genetic transfer during reproduction."
-                }
-            ],
-            "funFact": "Some orchids have evolved to produce flowers that look and smell exactly like female insects! Male insects try to mate with these flowers and end up transferring pollen between plants in the process."
-        },
-        {
-            "id": 8,
-            "text": "In a family where both parents have dimples and are heterozygous (Dd) for this dominant trait, what is the probability that their child will NOT have dimples?",
-            "options": [
-                {
-                    "text": "0%",
-                    "isCorrect": 0,
-                    "explanation": "Since both parents are heterozygous (Dd), there is a possibility for the child to inherit two recessive alleles and not have dimples."
-                },
-                {
-                    "text": "25%",
-                    "isCorrect": 1,
-                    "explanation": "When both parents are heterozygous (Dd), there is a 25% chance their child will inherit both recessive alleles (dd) and not have dimples."
-                },
-                {
-                    "text": "50%",
-                    "isCorrect": 0,
-                    "explanation": "A 50% probability would occur if one parent did not have dimples (dd) and the other was heterozygous (Dd), which is not the case in this scenario."
-                },
-                {
-                    "text": "75%",
-                    "isCorrect": 0,
-                    "explanation": "The probability of not having dimples cannot be 75% when both parents have the dominant trait, even if they are carriers of the recessive allele."
-                }
-            ],
-            "funFact": "Dimples are considered a genetic irregularity caused by shortened facial muscles. While they are commonly associated with smiling, some people have dimples on other parts of their body, such as their lower back, due to similar genetic factors!"
-        },
-        {
-            "id": 9,
             "text": "When parents have identical twins, the twins share identical genetic information. However, when parents have children from different pregnancies, those siblings show genetic variations. What best explains this difference?",
             "options": [
                 {
-                    "text": "Identical twins develop from the same fertilized egg that splits into two embryos, while siblings from different pregnancies each develop from unique combinations of genetic material through separate fertilization events",
-                    "isCorrect": 1,
-                    "explanation": "Identical twins result from a single fertilized egg splitting early in development, so they inherit identical genetic material. Siblings from different pregnancies each form from unique egg and sperm combinations, leading to genetic variation."
+                    "text": "Identical twins share all dominant genes while regular siblings only share recessive genes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Whether genes are dominant or recessive does not determine if siblings are identical twins. The method of reproduction and source of genetic material determines similarity."
                 },
                 {
                     "text": "Identical twins develop simultaneously so they get the same genes, while siblings born at different times get different genes because genes change over time",
@@ -233,108 +152,130 @@
                     "explanation": "This is incorrect. The timing of development does not determine genetic similarity. Parental genes remain stable and do not change between pregnancies."
                 },
                 {
-                    "text": "Identical twins share all dominant genes while regular siblings only share recessive genes",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Whether genes are dominant or recessive does not determine if siblings are identical twins. The method of reproduction and source of genetic material determines similarity."
-                },
-                {
                     "text": "Identical twins get their genes only from the mother, while regular siblings get genes from both parents",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Both identical twins and regular siblings receive genetic material from both parents. The difference is that identical twins develop from the same fertilized egg."
+                },
+                {
+                    "text": "Identical twins develop from the same fertilized egg that splits into two embryos, while siblings from different pregnancies each develop from unique combinations of genetic material through separate fertilization events",
+                    "isCorrect": 1,
+                    "explanation": "Identical twins result from a single fertilized egg splitting early in development, so they inherit identical genetic material. Siblings from different pregnancies each form from unique egg and sperm combinations, leading to genetic variation."
                 }
             ],
             "funFact": "While identical twins have the same DNA sequence, they can still develop some physical differences over time due to environmental factors and changes in how their genes are expressed - a field of study called epigenetics."
         },
         {
-            "id": 10,
-            "text": "A population of yeast cells lives in a pond where the water temperature frequently changes. Which type of reproduction would likely be more beneficial for the yeast's survival in this changing environment?",
+            "id": 7,
+            "text": "Male peacocks are known for their elaborate courtship displays involving their colorful tail feathers. How does this behavioral adaptation increase their chances of successful reproduction?",
             "options": [
                 {
-                    "text": "Sexual reproduction",
+                    "text": "The tail feathers provide camouflage to hide from predators during mating",
+                    "isCorrect": 0,
+                    "explanation": "The bright, showy tail actually makes peacocks more visible to predators. The display is specifically for attracting mates, not for protection."
+                },
+                {
+                    "text": "The tail feathers help regulate body temperature during mating season",
+                    "isCorrect": 0,
+                    "explanation": "While feathers can help with temperature regulation, the elaborate tail display evolved primarily as a mating signal, not for temperature control."
+                },
+                {
+                    "text": "The tail feathers are used to build better nests for offspring",
+                    "isCorrect": 0,
+                    "explanation": "Peacocks don't use their tail feathers for nest building. The display is purely for courtship and attracting mates."
+                },
+                {
+                    "text": "The tail display helps attract female peacocks by demonstrating genetic fitness and health",
                     "isCorrect": 1,
-                    "explanation": "Sexual reproduction creates genetic variation through the combination of genes from two parents, giving offspring different traits that could help them survive temperature changes."
-                },
-                {
-                    "text": "Asexual reproduction",
-                    "isCorrect": 0,
-                    "explanation": "While asexual reproduction is faster, it produces genetically identical offspring that would all be equally vulnerable to environmental changes."
-                },
-                {
-                    "text": "Both types would be equally beneficial",
-                    "isCorrect": 0,
-                    "explanation": "Sexual reproduction would be more beneficial because genetic variation helps populations adapt to environmental changes, while identical offspring from asexual reproduction would all face the same vulnerabilities."
+                    "explanation": "Correct! The elaborate tail display is a sexual selection adaptation that signals good genes and health to potential mates, increasing chances of passing on genetic material."
                 }
             ],
-            "funFact": "Some organisms like yeast can switch between sexual and asexual reproduction depending on environmental conditions - they reproduce asexually when conditions are stable but switch to sexual reproduction when faced with environmental stress!"
+            "funFact": "A peacock's tail feathers can be up to 6 feet long and contain iridescent eyespots that appear to change color when viewed from different angles. The more eyespots a male has, the more attractive he is to females!"
+        },
+        {
+            "id": 8,
+            "text": "A scientist is comparing genetic variation in two different types of reproduction. In one case, a bacterial cell divides to form two new cells. In another case, two different flowering plants reproduce to form seeds. Which statement correctly compares the genetic variation in the offspring from these two cases?",
+            "options": [
+                {
+                    "text": "The bacterial offspring will have more genetic variation than the plant offspring because bacteria evolve faster",
+                    "isCorrect": 0,
+                    "explanation": "While bacteria can evolve quickly, asexual reproduction through cell division produces identical copies of the parent's DNA, resulting in no genetic variation"
+                },
+                {
+                    "text": "Neither type of offspring will show any genetic variation because offspring always match their parents exactly",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - while bacterial division produces identical copies, sexual reproduction in plants creates new genetic combinations different from either parent"
+                },
+                {
+                    "text": "The plant offspring will have more genetic variation because they receive genetic material from two different parents",
+                    "isCorrect": 1,
+                    "explanation": "Sexual reproduction in plants combines genetic material from two parents, creating new combinations of genes and leading to greater genetic variation"
+                },
+                {
+                    "text": "Both types of offspring will have the same amount of genetic variation because they both receive DNA from their parents",
+                    "isCorrect": 0,
+                    "explanation": "While both receive DNA from parents, bacterial division copies identical DNA while plant reproduction combines different parental DNA, leading to different amounts of variation"
+                }
+            ],
+            "funFact": "Some organisms can reproduce both sexually and asexually! For example, strawberry plants can reproduce sexually through flowers and seeds, or asexually by sending out runners that develop into new plants. This gives them flexibility in different environmental conditions."
+        },
+        {
+            "id": 9,
+            "text": "Two parents have a child. The mother has straight hair (recessive trait) and the father has curly hair (dominant trait). If the father carries one copy of the curly hair gene and one copy of the straight hair gene, what trait combinations are possible in their child?",
+            "options": [
+                {
+                    "text": "The child will definitely have straight hair because the mother has straight hair",
+                    "isCorrect": 0,
+                    "explanation": "The mother's genes alone don't determine the outcome - the father's dominant curly hair gene could be passed on"
+                },
+                {
+                    "text": "The child's hair type cannot be predicted without knowing more genetic information",
+                    "isCorrect": 0,
+                    "explanation": "With the given information about both parents' genes, we can determine the probability of possible outcomes"
+                },
+                {
+                    "text": "The child has an equal chance of having either curly or straight hair",
+                    "isCorrect": 1,
+                    "explanation": "Since the mother has straight hair (two recessive genes) and the father has one of each gene type, there is a 50-50 chance for either trait"
+                },
+                {
+                    "text": "The child will definitely have curly hair because it is a dominant trait",
+                    "isCorrect": 0,
+                    "explanation": "Even with a dominant trait present, there's still a chance of inheriting the recessive trait if both parents contribute the recessive gene"
+                }
+            ],
+            "funFact": "Did you know that hair texture is not determined by just a single gene? Scientists have discovered that multiple genes among our approximately 20,000-25,000 human genes actually work together to determine your final hair type, making it even more complex than this simple dominant-recessive pattern!"
+        },
+        {
+            "id": 10,
+            "text": "During cell division in a single-celled organism, what happens to the chromosomes in the offspring cell compared to the parent cell?",
+            "options": [
+                {
+                    "text": "The offspring cell receives a random mix of chromosomes from the parent cell",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - random mixing of chromosomes occurs in meiotic division. Mitosis produces daughter cells with identical copies of parental chromosomes"
+                },
+                {
+                    "text": "The offspring cell creates its own new set of chromosomes",
+                    "isCorrect": 0,
+                    "explanation": "In mitosis, chromosomes are duplicated and then distributed to daughter cells; new chromosomes are not created from scratch"
+                },
+                {
+                    "text": "The offspring cell receives half the chromosomes from the parent cell",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - halving of chromosomes occurs in meiotic division. In mitosis, each daughter cell gets a complete copy of all chromosomes"
+                },
+                {
+                    "text": "The offspring cell receives an exact copy of all chromosomes from the parent cell",
+                    "isCorrect": 1,
+                    "explanation": "In mitotic cell division, DNA replication occurs before division, and each daughter cell receives identical copies of all chromosomes from the parent cell"
+                }
+            ],
+            "funFact": "Some organisms like the bdelloid rotifer have survived millions of years reproducing only asexually! While this means all offspring are clones, these tiny animals have developed other ways to maintain genetic diversity through their ability to repair DNA damage."
         },
         {
             "id": 11,
-            "text": "Which combination of reproductive adaptations shows both a behavioral strategy and a structural strategy that help organisms increase their chances of successful reproduction?",
-            "options": [
-                {
-                    "text": "A frog's croaking call and a flower's colorful petals",
-                    "isCorrect": 1,
-                    "explanation": "This correctly pairs a behavioral strategy (frog's mating call) with a structural strategy (flower's petals). The croaking is an action the frog chooses to perform, while petals are physical features of the flower."
-                },
-                {
-                    "text": "A bird's nest building and a pufferfish's sand pattern",
-                    "isCorrect": 0,
-                    "explanation": "Both of these are behavioral strategies - actions that animals choose to perform. This combination doesn't include a structural strategy."
-                },
-                {
-                    "text": "A kangaroo's pouch and a dandelion's light seeds",
-                    "isCorrect": 0,
-                    "explanation": "Both of these are structural strategies - physical features organisms have. This combination doesn't include a behavioral strategy."
-                },
-                {
-                    "text": "A penguin's hunting and an octopus's egg guarding",
-                    "isCorrect": 0,
-                    "explanation": "Both of these are behavioral strategies - actions that animals choose to perform. This combination doesn't include a structural strategy."
-                }
-            ],
-            "funFact": "The peacock spider takes reproductive strategies to an extraordinary level by combining both behavioral and structural adaptations. Males have brilliantly colored flaps on their abdomen (structural) and perform an intricate dance routine (behavioral) that looks like a tiny performance artist on nature's stage!"
-        },
-        {
-            "id": 12,
-            "text": "A biologist is studying two populations: Population A consists of bacteria that reproduce asexually by binary fission, while Population B consists of fruit flies that reproduce sexually. After observing these populations for many generations, which statement best describes the genetic diversity and evolutionary implications for these populations?",
-            "options": [
-                {
-                    "text": "Population A will have higher genetic diversity and adapt faster to environmental changes",
-                    "isCorrect": 0,
-                    "explanation": "Asexual reproduction produces identical offspring, resulting in lower genetic diversity, making it harder for the population to adapt to environmental changes."
-                },
-                {
-                    "text": "Population B will have higher genetic diversity and adapt better to environmental changes",
-                    "isCorrect": 1,
-                    "explanation": "Sexual reproduction combines genetic material from two parents, creating new gene combinations and higher genetic diversity, allowing better adaptation to environmental changes."
-                },
-                {
-                    "text": "Both populations will have equal genetic diversity regardless of their reproduction method",
-                    "isCorrect": 0,
-                    "explanation": "The method of reproduction significantly affects genetic diversity. Sexual reproduction creates more genetic variation than asexual reproduction."
-                },
-                {
-                    "text": "Genetic diversity is not related to the method of reproduction",
-                    "isCorrect": 0,
-                    "explanation": "The method of reproduction directly influences genetic diversity. Sexual reproduction produces more genetic variations than asexual reproduction."
-                }
-            ],
-            "funFact": "While asexual reproduction might seem disadvantageous due to lower genetic diversity, it can be highly successful in stable environments. For example, bdelloid rotifers have reproduced asexually for over 40 million years and have evolved into more than 450 species!"
-        },
-        {
-            "id": 13,
             "text": "Which animal behavior would most likely contribute to increased genetic diversity in a species through sexual reproduction?",
             "options": [
-                {
-                    "text": "A male peacock displaying its colorful tail feathers to attract multiple potential mates",
-                    "isCorrect": 1,
-                    "explanation": "Correct! When peacocks display their feathers, they attract multiple potential mates, increasing the chances of successful reproduction with different partners. This leads to greater genetic diversity in offspring through varied genetic combinations."
-                },
-                {
-                    "text": "A mother bird feeding the same type of food to all her chicks",
-                    "isCorrect": 0,
-                    "explanation": "While this is important for offspring survival, feeding behavior occurs after reproduction and doesn't affect genetic diversity."
-                },
                 {
                     "text": "A penguin returning to the same nesting site each year",
                     "isCorrect": 0,
@@ -344,41 +285,110 @@
                     "text": "An octopus laying eggs in the same location every time",
                     "isCorrect": 0,
                     "explanation": "Although this ensures offspring survival, the location of egg-laying doesn't contribute to genetic diversity."
+                },
+                {
+                    "text": "A male peacock displaying its colorful tail feathers to attract multiple potential mates",
+                    "isCorrect": 1,
+                    "explanation": "Correct! When peacocks display their feathers, they attract multiple potential mates, increasing the chances of successful reproduction with different partners. This leads to greater genetic diversity in offspring through varied genetic combinations."
+                },
+                {
+                    "text": "A mother bird feeding the same type of food to all her chicks",
+                    "isCorrect": 0,
+                    "explanation": "While this is important for offspring survival, feeding behavior occurs after reproduction and doesn't affect genetic diversity."
                 }
             ],
             "funFact": "Peacocks aren't the only birds with elaborate courtship displays! Male birds-of-paradise perform complex dances and transform their shapes with specialized feathers, while bowerbirds build intricate structures decorated with colorful objects to attract mates. These diverse strategies all help promote genetic variation in their species."
         },
         {
-            "id": 14,
-            "text": "During sexual reproduction, how does the chromosome behavior differ from asexual reproduction, leading to genetic variation in offspring?",
+            "id": 12,
+            "text": "During sexual reproduction, why do siblings from the same parents often look different from each other?",
             "options": [
                 {
-                    "text": "In sexual reproduction, offspring receive half of their chromosomes from each parent, creating new genetic combinations, while in asexual reproduction, offspring get exact copies of all chromosomes from a single parent.",
+                    "text": "Each sibling receives a random combination of chromosomes from both parents",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes how sexual reproduction creates genetic variation through combining genetic material from two parents, while asexual reproduction produces identical copies."
+                    "explanation": "Each parent contributes half of their chromosomes randomly to their offspring. This random combination creates unique genetic variations in each child."
                 },
                 {
-                    "text": "In both sexual and asexual reproduction, offspring receive exact copies of all chromosomes from their parents.",
+                    "text": "The environment changes the genes after birth",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. While this is true for asexual reproduction, sexual reproduction involves combining different genetic material from two parents."
+                    "explanation": "While environment can affect how genes are expressed, it doesn't change the genetic information inherited at birth."
                 },
                 {
-                    "text": "In sexual reproduction, offspring receive all chromosomes from one parent, while in asexual reproduction, chromosomes come from multiple parents.",
+                    "text": "Parents choose which genes to give to each child",
                     "isCorrect": 0,
-                    "explanation": "This reverses the processes. Sexual reproduction involves two parents, while asexual reproduction involves a single parent."
+                    "explanation": "Parents cannot choose which genes they pass on. The process is random and occurs during the formation of reproductive cells."
                 },
                 {
-                    "text": "In both sexual and asexual reproduction, offspring receive random combinations of chromosomes from multiple parents.",
+                    "text": "Siblings always receive identical genes from their parents",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. Asexual reproduction involves only one parent and produces identical copies, not random combinations."
+                    "explanation": "Except for identical twins, siblings receive different combinations of genes from their parents due to random chromosome sorting during reproduction."
                 }
             ],
-            "funFact": "Some organisms can reproduce both sexually and asexually! For example, strawberry plants can reproduce sexually through flowers and seeds, or asexually by sending out runners that develop into new plants. This gives them flexibility in different environmental conditions."
+            "funFact": "Scientists estimate that the possible genetic combinations that can result from two parents are so numerous that the likelihood of two siblings (except identical twins) having exactly the same genetic makeup is about 1 in 70 trillion!"
+        },
+        {
+            "id": 13,
+            "text": "Which structural adaptation in flowering plants is most effective for promoting genetic variation through sexual reproduction?",
+            "options": [
+                {
+                    "text": "Waxy leaves that retain moisture",
+                    "isCorrect": 0,
+                    "explanation": "Waxy leaves help prevent water loss but aren't directly involved in sexual reproduction or genetic diversity."
+                },
+                {
+                    "text": "Deep roots that absorb water",
+                    "isCorrect": 0,
+                    "explanation": "Deep roots are important for plant survival but don't play a direct role in sexual reproduction or increasing genetic variation."
+                },
+                {
+                    "text": "Thick stems that support the plant",
+                    "isCorrect": 0,
+                    "explanation": "While thick stems help support plants, they don't directly contribute to sexual reproduction or genetic variation."
+                },
+                {
+                    "text": "Colorful petals that attract different pollinators",
+                    "isCorrect": 1,
+                    "explanation": "Colorful petals attract various pollinators, enabling cross-pollination between different plants, which increases genetic variation through sexual reproduction."
+                }
+            ],
+            "funFact": "Some flowers can change color throughout the day or as they age to signal to pollinators when they're ready for pollination. For example, many forget-me-nots change from yellow to blue as they mature!"
+        },
+        {
+            "id": 14,
+            "text": "When comparing identical twins and fraternal twins, which statement best describes their genetic relationship?",
+            "options": [
+                {
+                    "text": "Both identical and fraternal twins share 100% of their DNA",
+                    "isCorrect": 0,
+                    "explanation": "Only identical twins share 100% of their DNA. Fraternal twins, like regular siblings, share approximately 50% of their genes since they develop from different fertilized eggs."
+                },
+                {
+                    "text": "Identical twins share 50% of their DNA while fraternal twins share 25% of their DNA",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Identical twins share 100% of their DNA, not 50%. Fraternal twins share about 50% of their DNA, not 25%."
+                },
+                {
+                    "text": "Identical twins share 100% of their DNA while fraternal twins share 50% of their DNA like regular siblings",
+                    "isCorrect": 1,
+                    "explanation": "Identical twins come from the same fertilized egg splitting early in development, so they have identical genetic material. Fraternal twins come from two separate eggs fertilized by different sperm, sharing about 50% of their genes like regular siblings."
+                },
+                {
+                    "text": "The amount of DNA shared between twins depends on which parent contributed more genetic material",
+                    "isCorrect": 0,
+                    "explanation": "The amount of shared DNA between twins is not determined by parental contribution. It depends on whether they developed from the same fertilized egg (identical) or different eggs (fraternal)."
+                }
+            ],
+            "funFact": "While identical twins share the same DNA, their fingerprints are actually different! This is because fingerprints are not only determined by genes but also by environmental factors in the womb, such as the position of the baby and the pressure on their developing fingers."
         },
         {
             "id": 15,
             "text": "If a child has one parent with dimples (dominant trait) and a cleft chin (dominant trait) who is heterozygous for both traits, and another parent with no dimples and no cleft chin, what is the probability that their child will have both dimples and a cleft chin?",
             "options": [
+                {
+                    "text": "100%",
+                    "isCorrect": 0,
+                    "explanation": "100% would only be possible if the parent with the traits was homozygous dominant for both traits"
+                },
                 {
                     "text": "25%",
                     "isCorrect": 1,
@@ -393,11 +403,6 @@
                     "text": "75%",
                     "isCorrect": 0,
                     "explanation": "75% is too high - this would mean the child is more likely to inherit both traits than not, which isn't possible in this scenario"
-                },
-                {
-                    "text": "100%",
-                    "isCorrect": 0,
-                    "explanation": "100% would only be possible if the parent with the traits was homozygous dominant for both traits"
                 }
             ],
             "funFact": "While dimples and cleft chins are both dominant traits, they are actually caused by variations in facial muscle development during embryonic growth. Dimples form when the facial muscle called zygomaticus major is shorter than usual, creating a small depression in the cheek!"

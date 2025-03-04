@@ -7,11 +7,6 @@
             "text": "When a drummer hits a drum with different speeds, which statement correctly explains how the speed affects the sound produced?",
             "options": [
                 {
-                    "text": "A faster moving drumstick produces louder sound because it transfers more energy to the drum",
-                    "isCorrect": 1,
-                    "explanation": "The faster moving drumstick has more energy, which gets transferred to the drum during collision, causing stronger vibrations and louder sound"
-                },
-                {
                     "text": "The speed of the drumstick has no effect on the sound produced",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because the speed of the drumstick determines how much energy it can transfer to the drum, which affects the sound produced"
@@ -25,6 +20,11 @@
                     "text": "The loudness of the sound only depends on the weight of the drumstick, not its speed",
                     "isCorrect": 0,
                     "explanation": "While weight does affect energy transfer, the speed of the drumstick is also a crucial factor in determining how much energy is transferred and thus how loud the sound is"
+                },
+                {
+                    "text": "A faster moving drumstick produces louder sound because it transfers more energy to the drum",
+                    "isCorrect": 1,
+                    "explanation": "The faster moving drumstick has more energy, which gets transferred to the drum during collision, causing stronger vibrations and louder sound"
                 }
             ],
             "funFact": "Professional drummers can strike their drums at speeds of up to 1,200 beats per minute! This incredible speed combined with precise control allows them to create a wide range of dynamic sounds in their performances."
@@ -34,11 +34,6 @@
             "text": "When a baseball hits a wooden bat during a game, what happens to the energy from the collision?",
             "options": [
                 {
-                    "text": "The energy from the collision completely disappears",
-                    "isCorrect": 0,
-                    "explanation": "Energy cannot disappear - it is always transferred or transformed into other forms of energy."
-                },
-                {
                     "text": "All of the energy transfers only into the ball's motion",
                     "isCorrect": 0,
                     "explanation": "While some energy transfers to the ball's motion, not all energy goes into motion - some converts to sound and heat."
@@ -47,6 +42,11 @@
                     "text": "The energy converts into sound and heat while some transfers to the ball's motion",
                     "isCorrect": 1,
                     "explanation": "During the collision, energy transfers to the ball's motion while some energy converts to sound (the crack of the bat) and heat from friction."
+                },
+                {
+                    "text": "The energy from the collision completely disappears",
+                    "isCorrect": 0,
+                    "explanation": "Energy cannot disappear - it is always transferred or transformed into other forms of energy."
                 },
                 {
                     "text": "The energy only converts into sound",
@@ -61,6 +61,16 @@
             "text": "When a moving ball in Newton's cradle hits the first stationary ball, what happens to the energy in the system?",
             "options": [
                 {
+                    "text": "The energy stays only with the first moving ball",
+                    "isCorrect": 0,
+                    "explanation": "The energy does not stay with the first ball - it transfers through the system of balls"
+                },
+                {
+                    "text": "The energy causes all the balls to swing outward simultaneously",
+                    "isCorrect": 0,
+                    "explanation": "The energy transfers sequentially through the balls - they don't all move outward at once"
+                },
+                {
                     "text": "The energy is completely lost and all balls immediately stop moving",
                     "isCorrect": 0,
                     "explanation": "Energy cannot be lost - it is transferred between objects according to the law of conservation of energy"
@@ -69,16 +79,6 @@
                     "text": "The energy is transferred through the middle balls to the last ball, causing it to swing out",
                     "isCorrect": 1,
                     "explanation": "The kinetic energy transfers through the touching metal balls, causing the last ball to swing with nearly the same energy as the first ball"
-                },
-                {
-                    "text": "The energy causes all the balls to swing outward simultaneously",
-                    "isCorrect": 0,
-                    "explanation": "The energy transfers sequentially through the balls - they don't all move outward at once"
-                },
-                {
-                    "text": "The energy stays only with the first moving ball",
-                    "isCorrect": 0,
-                    "explanation": "The energy does not stay with the first ball - it transfers through the system of balls"
                 }
             ],
             "funFact": "Newton's cradle was not actually invented by Isaac Newton! It was named after him because it demonstrates his laws of motion and conservation of momentum. The physics principle has been demonstrated since the 19th century, but the popular desktop version became widely known in the 1960s and was patented by British actor Simon Prebble in 1967."
@@ -93,11 +93,6 @@
                     "explanation": "A faster-moving bat has more energy and can transfer more of that energy to the baseball during collision, making the ball travel farther"
                 },
                 {
-                    "text": "Both baseballs will travel the same distance because they are identical balls",
-                    "isCorrect": 0,
-                    "explanation": "The distance traveled depends on the energy transferred during collision, not just the properties of the ball"
-                },
-                {
                     "text": "The baseball hit with the slower bat swing will travel farther because it has more time to receive energy",
                     "isCorrect": 0,
                     "explanation": "The amount of energy transferred depends on the speed of the moving object, not the duration of contact"
@@ -106,6 +101,11 @@
                     "text": "Neither baseball will travel far because bats don't transfer energy to balls",
                     "isCorrect": 0,
                     "explanation": "During a collision, energy is transferred from one object to another - in this case, from the bat to the ball"
+                },
+                {
+                    "text": "Both baseballs will travel the same distance because they are identical balls",
+                    "isCorrect": 0,
+                    "explanation": "The distance traveled depends on the energy transferred during collision, not just the properties of the ball"
                 }
             ],
             "funFact": "The fastest recorded baseball bat swing speed is around 80 miles per hour. At this speed, when the bat collides with a baseball, enough energy is transferred to send the ball flying at speeds over 100 miles per hour!"
@@ -115,14 +115,14 @@
             "text": "A baseball player hits two identical balls with different speeds. Ball A is hit with a high speed, while Ball B is hit with a lower speed. Which statement correctly compares the energy transfer when these balls collide with a wall?",
             "options": [
                 {
+                    "text": "Neither ball will transfer any energy during the collision",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. During any collision, energy is always transferred from one object to another. The amount of transfer depends on factors like speed and mass."
+                },
+                {
                     "text": "Ball A will transfer more energy during the collision because it is moving faster",
                     "isCorrect": 1,
                     "explanation": "Objects moving at higher speeds possess more energy and can transfer more energy during collisions. Ball A, moving faster, will have a greater impact when it hits the wall."
-                },
-                {
-                    "text": "Ball B will transfer more energy during the collision because it is moving slower",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Slower moving objects have less energy and therefore transfer less energy during collisions."
                 },
                 {
                     "text": "Both balls will transfer the same amount of energy because they are identical",
@@ -130,9 +130,9 @@
                     "explanation": "While the balls are identical in size and mass, their speeds are different. Speed affects the amount of energy an object has, so they will transfer different amounts of energy."
                 },
                 {
-                    "text": "Neither ball will transfer any energy during the collision",
+                    "text": "Ball B will transfer more energy during the collision because it is moving slower",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. During any collision, energy is always transferred from one object to another. The amount of transfer depends on factors like speed and mass."
+                    "explanation": "This is incorrect. Slower moving objects have less energy and therefore transfer less energy during collisions."
                 }
             ],
             "funFact": "Professional baseball pitchers can throw fastballs at speeds over 95 mph, which means these balls carry enough energy to break wooden bats and leave dents in metal walls upon impact!"
@@ -147,9 +147,9 @@
                     "explanation": "In a perfectly inelastic collision, the objects stick together afterward. Momentum is conserved, so m\u00d72 + m\u00d74 = 2m\u00d7v_final, which gives v_final = 3 mph."
                 },
                 {
-                    "text": "Both cars will stop completely",
+                    "text": "Both cars will continue at their original speeds",
                     "isCorrect": 0,
-                    "explanation": "This would violate conservation of momentum. Since both cars were initially moving in the same direction, they must continue moving in that direction after collision."
+                    "explanation": "When objects collide and stick together (perfectly inelastic collision), they cannot maintain their original speeds and must move as a single unit afterward."
                 },
                 {
                     "text": "Car A's speed won't change but Car B will stop completely",
@@ -157,9 +157,9 @@
                     "explanation": "This would violate conservation of momentum. In collisions, momentum must be conserved, so both cars' speeds must change."
                 },
                 {
-                    "text": "Both cars will continue at their original speeds",
+                    "text": "Both cars will stop completely",
                     "isCorrect": 0,
-                    "explanation": "When objects collide and stick together (perfectly inelastic collision), they cannot maintain their original speeds and must move as a single unit afterward."
+                    "explanation": "This would violate conservation of momentum. Since both cars were initially moving in the same direction, they must continue moving in that direction after collision."
                 }
             ],
             "funFact": "Bumper cars were first introduced at amusement parks in the early 1920s. Their bouncy rubber bumpers and electrical power systems were designed specifically to make collisions safe while demonstrating physics principles like momentum conservation!"
@@ -179,14 +179,14 @@
                     "explanation": "This is incorrect. Slower moving objects actually have less energy to transfer during a collision, not more. They will have less impact than faster moving objects of the same mass."
                 },
                 {
-                    "text": "Both balls will knock down the same number of pins because they have the same mass",
-                    "isCorrect": 0,
-                    "explanation": "While mass does affect the energy transfer in collisions, speed is also a crucial factor. Even though the balls have equal mass, their different speeds mean they have different amounts of energy."
-                },
-                {
                     "text": "Neither ball will have enough energy to knock down any pins",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Both bowling balls have enough energy to knock down pins - this is how bowling works! The faster ball will simply transfer more energy during the collision."
+                },
+                {
+                    "text": "Both balls will knock down the same number of pins because they have the same mass",
+                    "isCorrect": 0,
+                    "explanation": "While mass does affect the energy transfer in collisions, speed is also a crucial factor. Even though the balls have equal mass, their different speeds mean they have different amounts of energy."
                 }
             ],
             "funFact": "Professional bowlers can roll a bowling ball at speeds of up to 20-25 mph! At these high speeds, the energy transfer during the collision with the pins is so powerful that it often results in spectacular pin action and higher chances of getting a strike."
@@ -201,6 +201,11 @@
                     "explanation": "The toy car will experience more change due to Newton's laws of motion and momentum conservation. Although the car has greater velocity, the truck has greater momentum (mass \u00d7 velocity) since it's three times heavier but only moving at half the speed. During the collision, the truck's greater mass and momentum means it has more inertia (resistance to change in motion), causing the lighter car to undergo a more significant change in velocity and direction."
                 },
                 {
+                    "text": "Neither toy will experience any change in motion",
+                    "isCorrect": 0,
+                    "explanation": "During a collision, energy is always transferred between objects, resulting in changes to their motion. It's impossible for colliding objects to maintain their original motion."
+                },
+                {
                     "text": "The toy truck will experience a greater change in motion",
                     "isCorrect": 0,
                     "explanation": "While the truck is moving slower, its greater mass actually means it will resist changes in motion more effectively. The lighter car will be affected more by the collision."
@@ -209,11 +214,6 @@
                     "text": "Both toys will experience the same change in motion",
                     "isCorrect": 0,
                     "explanation": "Due to differences in mass and speed, the toys will not experience equal changes. The lighter object (the car) will undergo a greater change in motion during the collision."
-                },
-                {
-                    "text": "Neither toy will experience any change in motion",
-                    "isCorrect": 0,
-                    "explanation": "During a collision, energy is always transferred between objects, resulting in changes to their motion. It's impossible for colliding objects to maintain their original motion."
                 }
             ],
             "funFact": "This principle is why modern cars are designed with crumple zones - they help absorb and distribute the energy of a collision to protect passengers. In a collision between a large truck and a small car, the car experiences much more damage because it undergoes a greater change in motion due to the energy transfer."
@@ -223,9 +223,9 @@
             "text": "A student drops two identical steel balls from different heights to study how their speed affects the depth of the crater they make in a sandbox. Ball A is dropped from 1 meter height while Ball B is dropped from 2 meters height. Which statement correctly describes how the speed of the balls relates to the craters they create?",
             "options": [
                 {
-                    "text": "Ball B will create a deeper crater because it has more energy due to falling from a greater height and reaching a higher speed",
-                    "isCorrect": 1,
-                    "explanation": "Objects falling from greater heights reach higher speeds and possess more energy, resulting in a greater impact when they collide with a surface"
+                    "text": "Ball A will create a deeper crater because objects falling from lower heights hit the ground with more force",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - objects falling from greater heights actually reach higher speeds and therefore have more energy at impact"
                 },
                 {
                     "text": "Both balls will create identical craters because they are made of the same material and have the same mass",
@@ -233,14 +233,14 @@
                     "explanation": "While the balls are identical, their speeds at impact differ due to falling from different heights, leading to different amounts of energy and impact forces"
                 },
                 {
-                    "text": "Ball A will create a deeper crater because objects falling from lower heights hit the ground with more force",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - objects falling from greater heights actually reach higher speeds and therefore have more energy at impact"
-                },
-                {
                     "text": "The height of the drop has no effect on the crater depth because gravity is constant",
                     "isCorrect": 0,
                     "explanation": "While gravity is constant, the time spent falling allows objects to accelerate to different speeds, resulting in different amounts of energy at impact"
+                },
+                {
+                    "text": "Ball B will create a deeper crater because it has more energy due to falling from a greater height and reaching a higher speed",
+                    "isCorrect": 1,
+                    "explanation": "Objects falling from greater heights reach higher speeds and possess more energy, resulting in a greater impact when they collide with a surface"
                 }
             ],
             "funFact": "When meteorites strike planets, their impact crater size is directly related to their speed - that's why some meteorite craters on the Moon are much larger than others, even when the meteorites were similar in size!"
@@ -250,6 +250,11 @@
             "text": "When a soccer ball collides with a wall, what happens to its energy?",
             "options": [
                 {
+                    "text": "All of the energy stays in the ball as motion",
+                    "isCorrect": 0,
+                    "explanation": "Some energy transfers to the wall and environment during collision, producing sound and heat."
+                },
+                {
                     "text": "The energy is completely destroyed during the collision",
                     "isCorrect": 0,
                     "explanation": "Energy cannot be destroyed. It transforms from one form to another during collisions."
@@ -258,11 +263,6 @@
                     "text": "The energy transforms into sound, heat, and motion of the ball bouncing back",
                     "isCorrect": 1,
                     "explanation": "During the collision, the ball's kinetic energy transforms into multiple forms including sound waves, thermal energy from friction, and motion energy as the ball rebounds."
-                },
-                {
-                    "text": "All of the energy stays in the ball as motion",
-                    "isCorrect": 0,
-                    "explanation": "Some energy transfers to the wall and environment during collision, producing sound and heat."
                 },
                 {
                     "text": "The energy disappears completely when the ball stops moving",
@@ -304,24 +304,24 @@
             "text": "Two baseball players, Alex and Sam, hit identical baseballs with identical bats. Alex swings the bat at 60 mph while Sam swings at 40 mph. Which statement correctly compares the energy transferred to the baseball in these collisions?",
             "options": [
                 {
-                    "text": "Alex's faster swing will transfer more energy to the baseball, causing it to travel farther",
-                    "isCorrect": 1,
-                    "explanation": "Objects moving at higher speeds possess more energy. When Alex's faster-moving bat collides with the baseball, it transfers more energy, resulting in the ball traveling farther."
-                },
-                {
                     "text": "Sam's slower swing will transfer more energy to the baseball, causing it to travel farther",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. A slower-moving object has less energy to transfer during a collision. Sam's slower bat speed means less energy is available to transfer to the baseball."
                 },
                 {
-                    "text": "Both swings will transfer the same amount of energy since the bats are identical",
-                    "isCorrect": 0,
-                    "explanation": "While the bats are identical, the speed at which they're moving affects their energy. The faster-moving bat has more energy to transfer, regardless of the bat being identical."
-                },
-                {
                     "text": "The energy transferred doesn't depend on the speed of the swing",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. The speed of an object directly relates to its energy. Faster-moving objects have more energy to transfer during collisions."
+                },
+                {
+                    "text": "Alex's faster swing will transfer more energy to the baseball, causing it to travel farther",
+                    "isCorrect": 1,
+                    "explanation": "Objects moving at higher speeds possess more energy. When Alex's faster-moving bat collides with the baseball, it transfers more energy, resulting in the ball traveling farther."
+                },
+                {
+                    "text": "Both swings will transfer the same amount of energy since the bats are identical",
+                    "isCorrect": 0,
+                    "explanation": "While the bats are identical, the speed at which they're moving affects their energy. The faster-moving bat has more energy to transfer, regardless of the bat being identical."
                 }
             ],
             "funFact": "Professional baseball players can swing their bats at speeds over 80 mph, generating enough energy to send baseballs flying at speeds exceeding 100 mph! This is why major league home runs can travel more than 400 feet."
@@ -353,16 +353,6 @@
             "text": "A small car and a large truck are both traveling at 30 mph when they each hit a brick wall. Which statement best describes the damage caused by these collisions?",
             "options": [
                 {
-                    "text": "The truck will cause more damage because its greater mass means it carries more energy to transfer during the collision",
-                    "isCorrect": 1,
-                    "explanation": "Heavier objects carry more energy at the same speed, so the truck will transfer more energy during impact, causing more damage"
-                },
-                {
-                    "text": "The car will cause more damage because lighter objects move more easily",
-                    "isCorrect": 0,
-                    "explanation": "While lighter objects may move more easily, at the same speed, they actually carry less energy than heavier objects"
-                },
-                {
                     "text": "Both will cause the same damage because they are moving at the same speed",
                     "isCorrect": 0,
                     "explanation": "Speed is not the only factor in energy transfer - mass also matters. At the same speed, heavier objects transfer more energy"
@@ -371,6 +361,16 @@
                     "text": "Neither will cause damage because brick walls are too strong",
                     "isCorrect": 0,
                     "explanation": "Moving objects transfer energy during collisions regardless of the strength of what they hit. The amount of energy transferred depends on mass and speed"
+                },
+                {
+                    "text": "The truck will cause more damage because its greater mass means it carries more energy to transfer during the collision",
+                    "isCorrect": 1,
+                    "explanation": "Heavier objects carry more energy at the same speed, so the truck will transfer more energy during impact, causing more damage"
+                },
+                {
+                    "text": "The car will cause more damage because lighter objects move more easily",
+                    "isCorrect": 0,
+                    "explanation": "While lighter objects may move more easily, at the same speed, they actually carry less energy than heavier objects"
                 }
             ],
             "funFact": "This principle is why car manufacturers design larger vehicles with special reinforced frames and additional safety features - they need to account for the greater energy transfer that occurs when heavier vehicles are involved in collisions"
@@ -380,14 +380,14 @@
             "text": "A bowling alley has two identical lanes with the same type of bowling balls and pins. In Lane A, a bowler rolls the ball slowly towards the pins. In Lane B, another bowler rolls the ball with much higher speed towards the pins. Which statement correctly describes what will happen when the balls hit the pins?",
             "options": [
                 {
-                    "text": "The ball in Lane B will knock down more pins because faster moving objects transfer more energy during collision",
-                    "isCorrect": 1,
-                    "explanation": "A faster moving ball has more energy and can transfer more of this energy to the pins during collision, resulting in more pins being knocked down"
-                },
-                {
                     "text": "Both lanes will have the same number of pins knocked down since the balls are identical",
                     "isCorrect": 0,
                     "explanation": "Even though the balls are identical, their speeds are different. Speed affects the amount of energy an object has, which affects the collision impact"
+                },
+                {
+                    "text": "The number of pins knocked down depends only on where the ball hits, not its speed",
+                    "isCorrect": 0,
+                    "explanation": "While the point of impact matters, the speed of the ball significantly affects the energy transfer and therefore the number of pins that can be knocked down"
                 },
                 {
                     "text": "The ball in Lane A will knock down more pins because slower balls are more accurate",
@@ -395,9 +395,9 @@
                     "explanation": "While slower balls might be easier to control, the question is about energy transfer during collision. Faster moving objects have more energy to transfer"
                 },
                 {
-                    "text": "The number of pins knocked down depends only on where the ball hits, not its speed",
-                    "isCorrect": 0,
-                    "explanation": "While the point of impact matters, the speed of the ball significantly affects the energy transfer and therefore the number of pins that can be knocked down"
+                    "text": "The ball in Lane B will knock down more pins because faster moving objects transfer more energy during collision",
+                    "isCorrect": 1,
+                    "explanation": "A faster moving ball has more energy and can transfer more of this energy to the pins during collision, resulting in more pins being knocked down"
                 }
             ],
             "funFact": "Professional bowlers can roll a bowling ball at speeds of up to 20 miles per hour! At these high speeds, the energy transferred during the collision is so great that it can cause the pins to fly several feet in the air."

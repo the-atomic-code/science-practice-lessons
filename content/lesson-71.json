@@ -4,99 +4,35 @@
     "questions": [
         {
             "id": 1,
-            "text": "In a laboratory experiment, a student holds a metal rod and heats one end with a Bunsen burner. After a few minutes, the other end of the rod becomes hot. Which best explains how thermal energy is transferred through the metal rod?",
+            "text": "A student wants to test how mass affects the cooling rate of hot tea. She has two identical cups with different amounts of hot tea at the same initial temperature. Cup A has 100mL of tea and Cup B has 200mL of tea. Which cup will cool down faster and why?",
             "options": [
                 {
-                    "text": "The metal atoms at the heated end collide with neighboring atoms, transferring kinetic energy along the rod",
+                    "text": "Cup A will cool faster because it has fewer particles to transfer thermal energy",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes conduction - thermal energy transfers through direct contact between particles, with heated atoms vibrating more and transferring that energy to adjacent atoms through collisions"
+                    "explanation": "With less mass, there are fewer particles containing thermal energy, so the temperature change occurs more rapidly in Cup A"
                 },
                 {
-                    "text": "The metal atoms flow from the hot end to the cold end carrying heat with them",
+                    "text": "Cup B will cool faster because it has more particles to transfer thermal energy",
                     "isCorrect": 0,
-                    "explanation": "Metal atoms don't flow or move position - they vibrate in place. This describes convection which occurs in fluids, not conduction in solids"
+                    "explanation": "While Cup B has more total thermal energy, having more mass actually means it will take longer to cool down since there are more particles that need to transfer their energy"
                 },
                 {
-                    "text": "The heat travels through empty spaces between metal atoms",
+                    "text": "Both cups will cool at the same rate because they are at the same initial temperature",
                     "isCorrect": 0,
-                    "explanation": "Conduction requires direct contact between particles - heat doesn't travel through empty spaces in a metal. This confuses conduction with radiation"
+                    "explanation": "While the initial temperatures are the same, the amount of mass affects the rate of thermal energy transfer, not just the temperature"
                 },
                 {
-                    "text": "Electromagnetic waves carry the heat from one end to the other",
+                    "text": "Neither cup will cool because tea naturally maintains its temperature",
                     "isCorrect": 0,
-                    "explanation": "This describes radiation, not conduction. Heat transfer in solid metals occurs through particle collisions, not electromagnetic waves"
+                    "explanation": "All hot objects transfer thermal energy to cooler surroundings - tea is no exception and will definitely cool down over time"
                 }
             ],
-            "funFact": "Copper is one of the best conductors of heat among common metals, which is why it's often used in cooking pots and pans. Its atoms are arranged in a way that makes heat transfer through conduction extremely efficient!"
+            "funFact": "This principle is why small lakes freeze faster than large ones in winter - the smaller body of water has less mass and therefore changes temperature more quickly than a larger body of water at the same initial temperature!"
         },
         {
             "id": 2,
-            "text": "Which statement correctly describes the difference between heat and thermal energy?",
-            "options": [
-                {
-                    "text": "Heat is the energy contained within a system due to particle motion, while thermal energy is the transfer of energy between objects.",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the definitions. Heat refers to energy transfer, not the energy contained within a system."
-                },
-                {
-                    "text": "Heat is the transfer of energy from warmer to cooler objects, while thermal energy is the energy contained within a system due to particle motion.",
-                    "isCorrect": 1,
-                    "explanation": "This correctly distinguishes between heat as energy transfer and thermal energy as the energy contained within a system."
-                },
-                {
-                    "text": "Heat and thermal energy are exactly the same thing and can be used interchangeably.",
-                    "isCorrect": 0,
-                    "explanation": "Heat and thermal energy are distinct concepts with different meanings in physics."
-                },
-                {
-                    "text": "Heat is always a measure of temperature, while thermal energy is always a measure of particle motion.",
-                    "isCorrect": 0,
-                    "explanation": "Heat is not a measure of temperature - it refers to energy transfer. Temperature is related to the average kinetic energy of particles."
-                }
-            ],
-            "funFact": "The distinction between heat and thermal energy was a major breakthrough in the development of thermodynamics in the 19th century. Before this, scientists believed in a mysterious fluid called 'caloric' that they thought flowed between objects to cause temperature changes!"
-        },
-        {
-            "id": 3,
-            "text": "A student wants to design a container to keep hot soup warm for a longer time. Which material would be BEST to use for the container?",
-            "options": [
-                {
-                    "text": "Aluminum",
-                    "isCorrect": 0,
-                    "explanation": "Aluminum is a good conductor of heat, allowing thermal energy to transfer quickly from hot soup to the surroundings, causing the soup to cool faster."
-                },
-                {
-                    "text": "Styrofoam",
-                    "isCorrect": 1,
-                    "explanation": "Styrofoam is an excellent insulator that minimizes heat transfer, helping keep the soup warm for a longer time by preventing thermal energy from escaping quickly."
-                },
-                {
-                    "text": "Copper",
-                    "isCorrect": 0,
-                    "explanation": "Copper is one of the best conductors of heat, which would cause the thermal energy from the soup to transfer rapidly to the surroundings, making it cool quickly."
-                },
-                {
-                    "text": "Iron",
-                    "isCorrect": 0,
-                    "explanation": "Iron is a good conductor of heat, which would allow thermal energy to transfer easily from the soup to the surroundings, not helping keep it warm."
-                }
-            ],
-            "funFact": "The same insulating properties that make Styrofoam great for keeping hot things hot also make it excellent for keeping cold things cold - that's why it's commonly used in both hot beverage cups and ice chests!"
-        },
-        {
-            "id": 4,
             "text": "In a classroom experiment, hot water rises to the top of a container while cold water sinks to the bottom. Which explanation best describes why this convection current occurs?",
             "options": [
-                {
-                    "text": "The hot water molecules move faster and spread out, becoming less dense, while cold water molecules move slower and pack together, becoming more dense",
-                    "isCorrect": 1,
-                    "explanation": "As water molecules heat up, they gain kinetic energy, move faster and spread apart, making the hot water less dense. The denser cold water sinks due to gravity while the less dense hot water rises."
-                },
-                {
-                    "text": "The hot water molecules are naturally lighter than cold water molecules",
-                    "isCorrect": 0,
-                    "explanation": "Individual water molecules do not change mass with temperature. The difference in density comes from how spread out the molecules are, not their individual masses."
-                },
                 {
                     "text": "Cold water molecules attract each other more strongly than hot water molecules",
                     "isCorrect": 0,
@@ -106,131 +42,136 @@
                     "text": "Heat always rises while cold always sinks regardless of the material",
                     "isCorrect": 0,
                     "explanation": "Heat itself does not rise or sink - it is the heated fluid that rises due to becoming less dense. This is specific to fluids and does not apply to all materials."
+                },
+                {
+                    "text": "The hot water molecules move faster and spread out, becoming less dense, while cold water molecules move slower and pack together, becoming more dense",
+                    "isCorrect": 1,
+                    "explanation": "As water molecules heat up, they gain kinetic energy, move faster and spread apart, making the hot water less dense. The denser cold water sinks due to gravity while the less dense hot water rises."
+                },
+                {
+                    "text": "The hot water molecules are naturally lighter than cold water molecules",
+                    "isCorrect": 0,
+                    "explanation": "Individual water molecules do not change mass with temperature. The difference in density comes from how spread out the molecules are, not their individual masses."
                 }
             ],
             "funFact": "The same convection principle that makes hot water rise in the classroom experiment is what drives massive ocean currents called thermohaline circulation, which help regulate Earth's climate by moving heat between the equator and poles!"
         },
         {
-            "id": 5,
-            "text": "Which of the following best describes what heat is?",
+            "id": 3,
+            "text": "A student wants to design a container to keep hot soup warm for a longer time. Which material would be BEST to use for the container?",
             "options": [
                 {
-                    "text": "Heat is the transfer of thermal energy from a hotter object to a colder object",
+                    "text": "Iron",
+                    "isCorrect": 0,
+                    "explanation": "Iron is a good conductor of heat, which would allow thermal energy to transfer easily from the soup to the surroundings, not helping keep it warm."
+                },
+                {
+                    "text": "Copper",
+                    "isCorrect": 0,
+                    "explanation": "Copper is one of the best conductors of heat, which would cause the thermal energy from the soup to transfer rapidly to the surroundings, making it cool quickly."
+                },
+                {
+                    "text": "Aluminum",
+                    "isCorrect": 0,
+                    "explanation": "Aluminum is a good conductor of heat, allowing thermal energy to transfer quickly from hot soup to the surroundings, causing the soup to cool faster."
+                },
+                {
+                    "text": "Styrofoam",
                     "isCorrect": 1,
-                    "explanation": "Heat is specifically the transfer of thermal energy from objects at higher temperatures to objects at lower temperatures. This is the scientifically accurate definition."
-                },
-                {
-                    "text": "Heat is the temperature of an object",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Temperature measures the average kinetic energy of particles in an object, while heat refers to the transfer of thermal energy between objects."
-                },
-                {
-                    "text": "Heat is the total amount of thermal energy stored in an object",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The total thermal energy in an object is different from heat. Heat specifically refers to the transfer of that energy between objects of different temperatures."
-                },
-                {
-                    "text": "Heat is a substance that flows between objects",
-                    "isCorrect": 0,
-                    "explanation": "This is a common misconception. Heat is not a substance - it is a process of energy transfer between objects at different temperatures."
+                    "explanation": "Styrofoam is an excellent insulator that minimizes heat transfer, helping keep the soup warm for a longer time by preventing thermal energy from escaping quickly."
                 }
             ],
-            "funFact": "Before the modern understanding of heat, scientists believed in a weightless fluid called 'caloric' that flowed from hot objects to cold ones. This theory was disproven in the late 18th century through the work of scientists like Benjamin Thompson, who showed that heat was related to motion rather than being a substance."
+            "funFact": "The same insulating properties that make Styrofoam great for keeping hot things hot also make it excellent for keeping cold things cold - that's why it's commonly used in both hot beverage cups and ice chests!"
+        },
+        {
+            "id": 4,
+            "text": "Three metal cubes of equal mass are heated to the same temperature and then placed in identical beakers containing water at room temperature. After 5 minutes, the water temperature increased by 30\u00b0C with the iron cube, 15\u00b0C with the tin cube, and 5\u00b0C with the bismuth cube. Which metal has the highest heat capacity?",
+            "options": [
+                {
+                    "text": "Tin",
+                    "isCorrect": 0,
+                    "explanation": "Tin transferred thermal energy at a moderate rate, suggesting a moderate heat capacity. Its behavior shows it's not the highest among the three metals."
+                },
+                {
+                    "text": "Bismuth",
+                    "isCorrect": 1,
+                    "explanation": "Bismuth caused the smallest temperature change in water, indicating it releases thermal energy more slowly. This is characteristic of materials with high heat capacity, which heat up and cool down more gradually."
+                },
+                {
+                    "text": "Iron",
+                    "isCorrect": 0,
+                    "explanation": "Iron transferred more thermal energy to the water quickly, indicating it has a lower heat capacity. Materials with low heat capacity heat up and cool down more rapidly."
+                }
+            ],
+            "funFact": "Bismuth has some fascinating properties beyond its high heat capacity - it is one of the few materials that expands when it solidifies, similar to water forming ice. This unusual property makes it valuable in various industrial applications where precise casting is needed."
+        },
+        {
+            "id": 5,
+            "text": "A house has a furnace in the basement that heats the air. Why does warm air from the basement rise to heat the upper floors of the house?",
+            "options": [
+                {
+                    "text": "The furnace pushes the hot air upward with force",
+                    "isCorrect": 0,
+                    "explanation": "The movement of heated air is due to natural convection from density differences, not from being pushed up by force from the furnace"
+                },
+                {
+                    "text": "As air is heated, its particles spread out and become less dense, causing it to rise while cooler, denser air sinks",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes convection - heated air becomes less dense due to particles spreading out, causing it to rise while denser cold air sinks, creating circulation"
+                },
+                {
+                    "text": "Hot air particles are lighter than cold air particles, so they float upward",
+                    "isCorrect": 0,
+                    "explanation": "Individual air particles don't become lighter when heated - it's the spacing between particles that changes, affecting density"
+                },
+                {
+                    "text": "Heat always rises in any situation regardless of the material",
+                    "isCorrect": 0,
+                    "explanation": "Heat doesn't inherently rise - it's the heated fluid (in this case air) that rises due to becoming less dense. This is specific to fluid convection"
+                }
+            ],
+            "funFact": "The same convection principle that heats homes is also what creates wind patterns in Earth's atmosphere - warm air rises at the equator and flows toward the poles while cooler air sinks and flows back toward the equator, driving global wind circulation patterns."
         },
         {
             "id": 6,
-            "text": "A computer manufacturer needs to design a cooling system for a high-performance processor that generates significant heat during operation. Which combination of materials and design features would be most effective at transferring heat away from the processor?",
+            "text": "A student is designing an insulated container to keep hot beverages warm for a longer time. The student has access to different materials to create a double-walled container. Which combination of materials would be most effective at minimizing heat transfer from the hot beverage?",
             "options": [
                 {
-                    "text": "A copper heat sink with multiple fins and a fan for air circulation",
+                    "text": "Inner wall: copper, Outer wall: copper, Space between walls: copper wool",
+                    "isCorrect": 0,
+                    "explanation": "This design would quickly transfer heat out of the beverage since copper is an excellent conductor of heat, and solid copper wool provides more pathways for heat conduction than trapped air."
+                },
+                {
+                    "text": "Inner wall: plastic, Outer wall: aluminum, Space between walls: water",
+                    "isCorrect": 0,
+                    "explanation": "This design is less effective because plastic on the inside wouldn't reflect heat back to the beverage, and water between walls would conduct heat more readily than air."
+                },
+                {
+                    "text": "Inner wall: aluminum, Outer wall: plastic, Space between walls: air",
                     "isCorrect": 1,
-                    "explanation": "Copper is an excellent conductor of heat, and multiple fins increase surface area for heat transfer. The fan creates forced convection, maximizing heat removal from the processor."
+                    "explanation": "This design is most effective because aluminum reflects heat back toward the beverage, plastic provides good insulation, and trapped air between walls minimizes heat transfer through conduction and convection."
                 },
                 {
-                    "text": "A plastic heat sink with a thick base and no fan",
+                    "text": "Inner wall: steel, Outer wall: steel, Space between walls: steel mesh",
                     "isCorrect": 0,
-                    "explanation": "Plastic is a poor conductor of heat. Without a fan, there would be minimal convection, resulting in inefficient heat transfer from the processor."
-                },
-                {
-                    "text": "A solid aluminum block with a fan",
-                    "isCorrect": 0,
-                    "explanation": "While aluminum is a good conductor, a solid block has minimal surface area for heat transfer. This would be less effective than a finned design, even with forced convection from the fan."
-                },
-                {
-                    "text": "A wooden heat sink with multiple fins and a fan",
-                    "isCorrect": 0,
-                    "explanation": "Wood is a poor conductor of heat. Even with fins and a fan, it would not effectively transfer heat away from the processor."
+                    "explanation": "This all-metal design would conduct heat away from the beverage quickly since metals are good conductors of heat, making it ineffective for insulation purposes."
                 }
             ],
-            "funFact": "Modern high-performance computer processors can generate heat equivalent to a small light bulb - around 65-125 watts! That's why efficient cooling systems are crucial for preventing damage and maintaining optimal performance."
+            "funFact": "The design principle behind double-walled vacuum flasks (like Thermos bottles) was discovered by Sir James Dewar in 1892. He created a vacuum between two walls, which almost completely eliminates heat transfer through conduction and convection, keeping hot things hot and cold things cold for many hours!"
         },
         {
             "id": 7,
-            "text": "A homeowner wants to install the most efficient heating system in their house. Given that heated air naturally rises and circulates through the house, which heating method would be most effective for maintaining a comfortable temperature throughout the home?",
-            "options": [
-                {
-                    "text": "A heating system that primarily uses conduction by installing heated metal plates in the walls",
-                    "isCorrect": 0,
-                    "explanation": "While conduction through metal plates can transfer heat, it would be limited to areas in direct contact with the plates and would not effectively distribute heat throughout the house."
-                },
-                {
-                    "text": "A forced-air heating system that uses convection to circulate warm air through ducts",
-                    "isCorrect": 1,
-                    "explanation": "Convection heating systems are most effective for homes because they work with the natural tendency of warm air to rise and circulate, creating even heating throughout the space."
-                },
-                {
-                    "text": "A radiant heating system that only uses electromagnetic waves to transfer heat",
-                    "isCorrect": 0,
-                    "explanation": "While radiation can transfer heat without a medium, it would be less efficient for heating an entire house as it primarily heats objects in direct line of sight."
-                },
-                {
-                    "text": "A system of heated copper pipes running along the ceiling",
-                    "isCorrect": 0,
-                    "explanation": "Placing heating elements on the ceiling works against the natural flow of heat, as warm air already rises. This would be an inefficient use of thermal energy."
-                }
-            ],
-            "funFact": "The concept of central heating dates back to ancient Rome, where they developed a system called hypocaust that used hot air flowing through spaces under floors and inside walls to heat buildings."
-        },
-        {
-            "id": 8,
-            "text": "You are designing an emergency shelter for hikers that needs to maintain warmth in cold conditions. Which combination of design features would be most effective at minimizing heat loss?",
-            "options": [
-                {
-                    "text": "Double-walled structure with air gap, reflective inner coating, and raised floor with insulation",
-                    "isCorrect": 1,
-                    "explanation": "This design minimizes all three types of heat transfer: the air gap reduces conduction, the reflective coating minimizes radiation loss, and the raised insulated floor prevents conduction to the ground"
-                },
-                {
-                    "text": "Single-walled structure with dark outer surface and direct ground contact",
-                    "isCorrect": 0,
-                    "explanation": "A single wall conducts heat easily, dark surfaces emit more radiation, and direct ground contact increases conductive heat loss to the earth"
-                },
-                {
-                    "text": "Double-walled structure with water filling between walls and metallic outer surface",
-                    "isCorrect": 0,
-                    "explanation": "Water conducts heat better than air, making it a poor insulator, and a metallic outer surface would conduct heat away quickly"
-                },
-                {
-                    "text": "Single-walled structure with thick concrete walls and basement design",
-                    "isCorrect": 0,
-                    "explanation": "While concrete is durable, it conducts heat relatively well. A basement design increases surface area contact with cold ground, leading to more heat loss"
-                }
-            ],
-            "funFact": "Traditional igloos use a similar principle of air-gap insulation - the blocks of snow contain trapped air pockets that provide excellent insulation, while the dome shape helps to circulate warm air efficiently within the structure."
-        },
-        {
-            "id": 9,
             "text": "You are designing a container to keep ice cream frozen for 2 hours on a hot summer day. Which combination of materials and design features would be most effective in minimizing thermal energy transfer?",
             "options": [
-                {
-                    "text": "A thin metal container with black exterior paint and no insulation",
-                    "isCorrect": 0,
-                    "explanation": "Metal conducts heat quickly and black surfaces absorb more thermal radiation. This design would cause rapid melting of the ice cream."
-                },
                 {
                     "text": "A thick-walled plastic container with reflective exterior coating and air-filled double walls",
                     "isCorrect": 1,
                     "explanation": "This design minimizes all three types of heat transfer: conduction (thick plastic walls), radiation (reflective coating), and convection (trapped air layer)."
+                },
+                {
+                    "text": "A thin metal container with black exterior paint and no insulation",
+                    "isCorrect": 0,
+                    "explanation": "Metal conducts heat quickly and black surfaces absorb more thermal radiation. This design would cause rapid melting of the ice cream."
                 },
                 {
                     "text": "A single-walled glass container with dark blue exterior paint",
@@ -246,90 +187,171 @@
             "funFact": "The same principles used in keeping ice cream cold are used in the design of spacecraft! Space vehicles use multi-layer insulation with reflective surfaces to protect astronauts and equipment from extreme temperature variations in space."
         },
         {
-            "id": 10,
-            "text": "A company is designing a new cooking pan and needs to choose between iron, tin, and bismuth for the material. They want the pan to heat up quickly and transfer heat efficiently to cook food. Which material would be the best choice for the cooking pan?",
+            "id": 8,
+            "text": "Four students designed different thermoses to keep hot chocolate warm for their winter field trip. Each thermos was filled with hot chocolate at 70\u00b0C and tested for 2 hours. Which design would be most effective at maintaining the temperature of the hot chocolate?",
             "options": [
                 {
-                    "text": "Iron",
+                    "text": "A single-walled plastic container with a thick bottom",
+                    "isCorrect": 0,
+                    "explanation": "While plastic is a better insulator than metal, a single wall allows more heat transfer than a double-walled design. The thick bottom would not significantly help maintain overall temperature."
+                },
+                {
+                    "text": "A single-walled aluminum container",
+                    "isCorrect": 0,
+                    "explanation": "Metal is a good conductor of heat, so a single-walled aluminum container would transfer thermal energy quickly to the surroundings, causing rapid cooling."
+                },
+                {
+                    "text": "A double-walled glass container with air between the walls",
                     "isCorrect": 1,
-                    "explanation": "Iron has the highest rate of thermal energy transfer among the three metals, making it heat up quickly and transfer heat efficiently to food, which is ideal for cooking."
+                    "explanation": "The trapped air between double walls acts as an insulator because air molecules are spread apart, reducing particle collisions and minimizing heat transfer through conduction and convection."
                 },
                 {
-                    "text": "Tin",
+                    "text": "A double-walled copper container filled with water between the walls",
                     "isCorrect": 0,
-                    "explanation": "While tin does conduct heat, it transfers thermal energy at a slower rate than iron, making it less efficient for cooking purposes."
-                },
-                {
-                    "text": "Bismuth",
-                    "isCorrect": 0,
-                    "explanation": "Bismuth has the lowest rate of thermal energy transfer among the three metals, meaning it would heat up and cool down very slowly, making it a poor choice for cookware."
+                    "explanation": "Despite having double walls, using water between the walls would increase heat transfer because water conducts heat better than air, and copper is highly conductive."
                 }
             ],
-            "funFact": "Cast iron pans have been used for cooking for over 2,000 years and can last for generations if properly maintained. Their excellent heat retention and distribution properties make them particularly popular for searing meats and maintaining consistent cooking temperatures."
+            "funFact": "The modern vacuum flask (thermos) was invented by Sir James Dewar in 1892. He created a double-walled container with a vacuum between the walls, which is even more effective than air at preventing heat transfer since there are virtually no particles to conduct thermal energy!"
+        },
+        {
+            "id": 9,
+            "text": "A computer manufacturer needs to design a cooling system for a high-performance processor that generates significant heat during operation. Which combination of materials and design features would be most effective at transferring heat away from the processor?",
+            "options": [
+                {
+                    "text": "A solid aluminum block with a fan",
+                    "isCorrect": 0,
+                    "explanation": "While aluminum is a good conductor, a solid block has minimal surface area for heat transfer. This would be less effective than a finned design, even with forced convection from the fan."
+                },
+                {
+                    "text": "A wooden heat sink with multiple fins and a fan",
+                    "isCorrect": 0,
+                    "explanation": "Wood is a poor conductor of heat. Even with fins and a fan, it would not effectively transfer heat away from the processor."
+                },
+                {
+                    "text": "A plastic heat sink with a thick base and no fan",
+                    "isCorrect": 0,
+                    "explanation": "Plastic is a poor conductor of heat. Without a fan, there would be minimal convection, resulting in inefficient heat transfer from the processor."
+                },
+                {
+                    "text": "A copper heat sink with multiple fins and a fan for air circulation",
+                    "isCorrect": 1,
+                    "explanation": "Copper is an excellent conductor of heat, and multiple fins increase surface area for heat transfer. The fan creates forced convection, maximizing heat removal from the processor."
+                }
+            ],
+            "funFact": "Modern high-performance computer processors can generate heat equivalent to a small light bulb - around 65-125 watts! That's why efficient cooling systems are crucial for preventing damage and maintaining optimal performance."
+        },
+        {
+            "id": 10,
+            "text": "A homeowner wants to install the most efficient heating system in their house. Given that heated air naturally rises and circulates through the house, which heating method would be most effective for maintaining a comfortable temperature throughout the home?",
+            "options": [
+                {
+                    "text": "A system of heated copper pipes running along the ceiling",
+                    "isCorrect": 0,
+                    "explanation": "Placing heating elements on the ceiling works against the natural flow of heat, as warm air already rises. This would be an inefficient use of thermal energy."
+                },
+                {
+                    "text": "A forced-air heating system that uses convection to circulate warm air through ducts",
+                    "isCorrect": 1,
+                    "explanation": "Convection heating systems are most effective for homes because they work with the natural tendency of warm air to rise and circulate, creating even heating throughout the space."
+                },
+                {
+                    "text": "A radiant heating system that only uses electromagnetic waves to transfer heat",
+                    "isCorrect": 0,
+                    "explanation": "While radiation can transfer heat without a medium, it would be less efficient for heating an entire house as it primarily heats objects in direct line of sight."
+                },
+                {
+                    "text": "A heating system that primarily uses conduction by installing heated metal plates in the walls",
+                    "isCorrect": 0,
+                    "explanation": "While conduction through metal plates can transfer heat, it would be limited to areas in direct contact with the plates and would not effectively distribute heat throughout the house."
+                }
+            ],
+            "funFact": "The concept of central heating dates back to ancient Rome, where they developed a system called hypocaust that used hot air flowing through spaces under floors and inside walls to heat buildings."
         },
         {
             "id": 11,
-            "text": "Why do thermos flasks use a vacuum layer between their inner and outer walls rather than filling this space with air?",
+            "text": "When a pot of water is heated on a stove, how do convection currents form and maintain the circulation of water?",
             "options": [
                 {
-                    "text": "A vacuum prevents heat transfer by conduction and convection while still allowing radiation",
+                    "text": "Water particles stop moving completely when heated and are pushed up by the stove's force",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Heating actually increases particle movement, not stops it. The circulation is driven by density differences, not direct force from the stove."
+                },
+                {
+                    "text": "Hot water becomes more dense and sinks while cold water becomes less dense and rises",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Hot water becomes less dense, not more dense, because its particles move faster and spread apart. The opposite happens with cold water."
+                },
+                {
+                    "text": "The water particles maintain their original density but are pulled up by electromagnetic forces",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The circulation is driven by changes in density due to heating, not electromagnetic forces. Water's density decreases as it is heated."
+                },
+                {
+                    "text": "Hot water becomes less dense and rises while cold water becomes more dense and sinks, creating a continuous circulation pattern",
                     "isCorrect": 1,
-                    "explanation": "A vacuum eliminates conduction and convection since these methods require particles to transfer heat. Only radiation can travel through a vacuum, significantly reducing overall heat transfer."
-                },
-                {
-                    "text": "A vacuum creates cold space that blocks all heat transfer",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - a vacuum doesn't create cold or block all heat transfer. Radiation can still travel through vacuum, but conduction and convection are eliminated due to absence of particles."
-                },
-                {
-                    "text": "A vacuum reflects heat back to its source better than air",
-                    "isCorrect": 0,
-                    "explanation": "A vacuum itself doesn't reflect heat - reflection is handled by the silvered surfaces of the thermos walls. The vacuum's purpose is to eliminate conduction and convection."
-                },
-                {
-                    "text": "Air in the space would make the thermos too heavy",
-                    "isCorrect": 0,
-                    "explanation": "The weight difference between vacuum and air would be negligible. The vacuum is used because it eliminates heat transfer through conduction and convection."
+                    "explanation": "As water is heated at the bottom, its particles move faster and spread apart, making it less dense. This hot water rises while the denser cold water at the top sinks, creating a continuous circulation pattern."
                 }
             ],
-            "funFact": "The thermos flask was invented in 1892 by Sir James Dewar, who created it for storing cryogenic materials in his laboratory, not for keeping coffee hot! The commercial thermos as we know it today was developed in 1904 when two German glassblowers improved upon Dewar's design."
+            "funFact": "The same convection process that occurs in a pot of heated water also drives weather patterns in Earth's atmosphere - warm air rises and cool air sinks, creating wind patterns and helping to distribute heat around the planet!"
         },
         {
             "id": 12,
-            "text": "A student wants to design a solar cooker and is testing different materials. Which material property would be most important for maximizing the thermal energy absorption and retention in the solar cooker?",
+            "text": "An ice cream shop owner wants to design containers that will keep ice cream frozen longer during delivery. Which container design would be most effective at minimizing heat transfer to the ice cream?",
             "options": [
                 {
-                    "text": "High heat capacity",
+                    "text": "A thin plastic container with a highly reflective silver coating on the outside",
+                    "isCorrect": 0,
+                    "explanation": "While the reflective coating helps reduce heat transfer by radiation, the thin plastic allows rapid heat conduction. This design does not effectively minimize overall heat transfer."
+                },
+                {
+                    "text": "A thick-walled styrofoam container with small air pockets throughout",
                     "isCorrect": 1,
-                    "explanation": "Materials with high heat capacity can absorb and store more thermal energy, making them ideal for solar cookers since they heat up slowly and retain heat longer."
+                    "explanation": "The thick styrofoam with trapped air pockets minimizes heat transfer through both conduction and convection. The air pockets provide excellent insulation since air is a poor conductor of heat."
                 },
                 {
-                    "text": "Low density",
+                    "text": "A metal container with a smooth, polished surface",
                     "isCorrect": 0,
-                    "explanation": "While density affects thermal properties, having low density alone doesn't necessarily improve heat absorption and retention. Some low-density materials are actually poor at storing thermal energy."
+                    "explanation": "Although metals with polished surfaces reflect radiation well, they are excellent conductors of heat. This would allow rapid heat transfer to the ice cream through conduction."
                 },
                 {
-                    "text": "High electrical conductivity",
+                    "text": "A plastic container filled with water between double walls",
                     "isCorrect": 0,
-                    "explanation": "Electrical conductivity is not directly related to thermal energy absorption and retention. A material can be a good electrical conductor but poor at storing thermal energy."
-                },
-                {
-                    "text": "Low melting point",
-                    "isCorrect": 0,
-                    "explanation": "A low melting point could actually be disadvantageous for a solar cooker, as the material might change state before reaching useful cooking temperatures."
+                    "explanation": "Water between the walls would promote heat transfer through convection currents, and water conducts heat better than air. This design would not effectively insulate the ice cream."
                 }
             ],
-            "funFact": "The world's largest solar cooking system is in India at the Brahma Kumaris spiritual center, which can cook 38,500 meals per day using just the sun's energy!"
+            "funFact": "The principle behind insulated containers was discovered by Sir James Dewar in 1892 when he invented the vacuum flask (also known as a Dewar flask). This invention revolutionized how we keep substances either hot or cold by creating a nearly perfect thermal barrier using a vacuum between two walls."
         },
         {
             "id": 13,
-            "text": "Why do modern computer processors need cooling fans instead of relying solely on the metal casing for heat dissipation?",
+            "text": "Why do winter jackets often have multiple layers with trapped air between them?",
             "options": [
                 {
-                    "text": "Fans create convection currents that actively move heated air away from the processor, while conduction through the metal casing alone would be too slow",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Fans create forced convection which rapidly moves hot air away from the processor and brings in cooler air, making heat transfer much more efficient than relying only on conduction through the metal casing."
+                    "text": "The air between layers generates heat through friction",
+                    "isCorrect": 0,
+                    "explanation": "The trapped air doesn't generate significant heat through friction - it works by reducing heat transfer from the body to the environment"
                 },
+                {
+                    "text": "The trapped air acts as an insulator because air is a poor conductor of heat and reduces convection when it cannot circulate",
+                    "isCorrect": 1,
+                    "explanation": "Air is a poor conductor of heat, and when trapped between layers it cannot circulate freely, which minimizes both conductive and convective heat transfer from the body to the environment"
+                },
+                {
+                    "text": "The trapped air increases convection which helps maintain body temperature",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - trapped air actually reduces convection by preventing air circulation, which helps maintain body temperature by minimizing heat transfer"
+                },
+                {
+                    "text": "The multiple layers compress the air to make it warmer",
+                    "isCorrect": 0,
+                    "explanation": "The layers don't compress the air significantly, and compression isn't the mechanism that makes these jackets effective at maintaining warmth"
+                }
+            ],
+            "funFact": "The same principle of trapped air insulation is used by animals like birds, who fluff up their feathers to create air pockets that help them stay warm in cold weather!"
+        },
+        {
+            "id": 14,
+            "text": "Why do modern computer processors need cooling fans instead of relying solely on the metal casing for heat dissipation?",
+            "options": [
                 {
                     "text": "The metal casing conducts heat better than air, so fans are only needed as a backup cooling system",
                     "isCorrect": 0,
@@ -344,63 +366,41 @@
                     "text": "The metal casing gets too hot to touch, so fans are needed to keep the computer case cool for users",
                     "isCorrect": 0,
                     "explanation": "While keeping the case cool for users is beneficial, the primary purpose of fans is to prevent the processor from overheating through efficient convective heat transfer."
+                },
+                {
+                    "text": "Fans create convection currents that actively move heated air away from the processor, while conduction through the metal casing alone would be too slow",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Fans create forced convection which rapidly moves hot air away from the processor and brings in cooler air, making heat transfer much more efficient than relying only on conduction through the metal casing."
                 }
             ],
             "funFact": "Modern computer processors can generate heat equivalent to a small light bulb, producing around 65-80 watts of heat during normal operation. Without proper cooling, they could reach temperatures hot enough to cook an egg in just a few minutes!"
         },
         {
-            "id": 14,
-            "text": "Emergency blankets, often used in outdoor survival situations, are made of thin, reflective material. What is the primary reason for using reflective material in these blankets to help maintain body temperature?",
-            "options": [
-                {
-                    "text": "The reflective surface reduces heat loss through radiation by reflecting thermal energy back to the body",
-                    "isCorrect": 1,
-                    "explanation": "Reflective surfaces are excellent at reducing radiative heat loss by reflecting thermal energy back to its source. In emergency blankets, this means body heat is reflected back instead of being lost to the environment."
-                },
-                {
-                    "text": "The reflective material conducts heat better than other materials, keeping the person warm",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While many reflective materials (like aluminum) can conduct heat well, that's not how emergency blankets function. They work primarily by reflecting radiant body heat back to the person, not through heat conduction."
-                },
-                {
-                    "text": "The shiny surface creates convection currents that circulate warm air around the body",
-                    "isCorrect": 0,
-                    "explanation": "Emergency blankets do not work by creating convection currents. Their primary function is to reflect radiant heat back to the body, not to create air circulation."
-                },
-                {
-                    "text": "The reflective material generates heat when exposed to sunlight",
-                    "isCorrect": 0,
-                    "explanation": "Emergency blankets don't generate heat - they work by preserving body heat through reflection. The reflective surface doesn't create thermal energy, it helps retain existing heat."
-                }
-            ],
-            "funFact": "Emergency blankets, also known as space blankets, were first developed by NASA in 1964 for their space program. They are incredibly lightweight - typically weighing less than 3 ounces - yet can be crucial for survival in cold conditions."
-        },
-        {
             "id": 15,
-            "text": "When you touch a metal spoon and a plastic spoon that have both been sitting in the same room for hours, the metal spoon feels colder. Why does this happen?",
+            "text": "A chef is deciding which metal to use for making cooking pans. She knows that different metals transfer thermal energy at different rates. In an experiment, equal-sized cubes of iron, tin, and bismuth at the same initial temperature were placed in identical containers of water. After the same amount of time, which metal would have transferred the most thermal energy to the water?",
             "options": [
                 {
-                    "text": "The metal spoon conducts thermal energy away from your hand more quickly than the plastic spoon",
+                    "text": "All metals transferred the same amount",
+                    "isCorrect": 0,
+                    "explanation": "Different metals have different thermal properties - they transfer thermal energy at different rates even when the mass and initial conditions are the same."
+                },
+                {
+                    "text": "Iron",
                     "isCorrect": 1,
-                    "explanation": "Metal has a higher thermal conductivity than plastic, so it transfers thermal energy from your warm hand more rapidly, creating the sensation of feeling colder"
+                    "explanation": "Iron has the highest thermal conductivity among these three metals, allowing it to transfer thermal energy most efficiently to the water. This property makes iron a good choice for cooking pans."
                 },
                 {
-                    "text": "The metal spoon is actually at a lower temperature than the plastic spoon",
+                    "text": "Bismuth",
                     "isCorrect": 0,
-                    "explanation": "Both spoons are at the same room temperature since they've been in the same environment for hours. The difference in sensation is due to their different thermal conductivity rates"
+                    "explanation": "Bismuth has very low thermal conductivity compared to iron and tin, transferring the least thermal energy to the water. This makes bismuth a poor choice for cooking pans."
                 },
                 {
-                    "text": "The plastic spoon generates its own heat",
+                    "text": "Tin",
                     "isCorrect": 0,
-                    "explanation": "Plastic does not generate its own heat. It simply conducts thermal energy more slowly than metal, which is why it doesn't feel as cold to touch"
-                },
-                {
-                    "text": "The metal spoon reflects more cold than the plastic spoon",
-                    "isCorrect": 0,
-                    "explanation": "Cold is not something that can be reflected. The sensation of coldness comes from thermal energy being conducted away from your hand more quickly by the metal"
+                    "explanation": "Tin has a moderate thermal conductivity that's lower than iron, making it less effective at transferring thermal energy to the water and therefore less ideal for cooking pans."
                 }
             ],
-            "funFact": "The same property that makes metal feel colder than plastic at room temperature also makes it feel hotter than plastic when both are heated - metal's high thermal conductivity means it transfers thermal energy (both to and from your hand) much more quickly than plastic!"
+            "funFact": "Copper, which is commonly used in professional cooking pans, has even better thermal conductivity than iron! That's why high-end cookware often features copper bottoms or is made entirely of copper."
         }
     ]
 }

@@ -4,33 +4,6 @@
     "questions": [
         {
             "id": 1,
-            "text": "Why do hip roofs typically perform better than gable roofs during high winds?",
-            "options": [
-                {
-                    "text": "The slanted sides of hip roofs deflect wind upward rather than allowing it to push directly against a flat surface",
-                    "isCorrect": 1,
-                    "explanation": "Hip roofs have all sides slanted, which helps deflect wind energy upward instead of absorbing the full force, making them more resistant to wind damage"
-                },
-                {
-                    "text": "Hip roofs are made of stronger materials than gable roofs",
-                    "isCorrect": 0,
-                    "explanation": "The material used is not what makes hip roofs more wind-resistant - it's their shape and design that provides better protection"
-                },
-                {
-                    "text": "Hip roofs are heavier and can't be lifted by wind",
-                    "isCorrect": 0,
-                    "explanation": "The weight of the roof is not the main factor in wind resistance - the aerodynamic design of hip roofs is what makes them more effective"
-                },
-                {
-                    "text": "Hip roofs are attached more securely to the house structure",
-                    "isCorrect": 0,
-                    "explanation": "The method of attachment is not what makes hip roofs superior in high winds - their sloped design is the key feature"
-                }
-            ],
-            "funFact": "The hip roof design has been used for thousands of years, dating back to ancient Roman architecture. This design was particularly popular in areas prone to strong winds and hurricanes, showing how engineers throughout history have adapted building techniques to local weather conditions."
-        },
-        {
-            "id": 2,
             "text": "How do recurved seawalls protect coastal areas from flooding differently than traditional straight seawalls?",
             "options": [
                 {
@@ -39,14 +12,14 @@
                     "explanation": "The effectiveness of recurved seawalls is not due to their height, but rather their curved design that redirects waves."
                 },
                 {
-                    "text": "Recurved seawalls redirect wave energy back toward the ocean instead of just blocking it",
-                    "isCorrect": 1,
-                    "explanation": "The curved surface of recurved seawalls deflects wave energy back to the ocean, making them more effective at preventing flooding than straight walls that only block waves."
-                },
-                {
                     "text": "Recurved seawalls absorb more water than straight seawalls",
                     "isCorrect": 0,
                     "explanation": "Seawalls are not designed to absorb water - they are barriers that either block or redirect wave energy."
+                },
+                {
+                    "text": "Recurved seawalls redirect wave energy back toward the ocean instead of just blocking it",
+                    "isCorrect": 1,
+                    "explanation": "The curved surface of recurved seawalls deflects wave energy back to the ocean, making them more effective at preventing flooding than straight walls that only block waves."
                 },
                 {
                     "text": "Recurved seawalls allow small waves to pass through while blocking large waves",
@@ -57,95 +30,171 @@
             "funFact": "The concept of curved surfaces redirecting force has many applications beyond seawalls. For example, the curved shape of airplane wings redirects air flow to create lift, allowing planes to fly!"
         },
         {
-            "id": 3,
-            "text": "A coastal city wants to protect its beachfront properties from flooding during storms. Which engineering solution would be most effective in reducing flood damage?",
+            "id": 2,
+            "text": "An engineer is designing a new coastal home in an area prone to flooding. Which engineering solution would be most effective in protecting the home from flood damage?",
             "options": [
                 {
-                    "text": "A recurved seawall that redirects waves back toward the ocean",
+                    "text": "Using only gable roofs for construction",
+                    "isCorrect": 0,
+                    "explanation": "Gable roofs are actually less effective in coastal areas as they are more vulnerable to high winds. They also do not provide protection against flooding."
+                },
+                {
+                    "text": "Painting the exterior walls with waterproof paint",
+                    "isCorrect": 0,
+                    "explanation": "While waterproof paint can provide some protection against moisture, it alone cannot prevent flood damage when water levels rise significantly."
+                },
+                {
+                    "text": "Installing multiple lightning rods on the roof",
+                    "isCorrect": 0,
+                    "explanation": "While lightning rods are important for protecting against electrical damage, they do not help protect against flooding."
+                },
+                {
+                    "text": "Building the home on tall stilts above ground level",
                     "isCorrect": 1,
-                    "explanation": "Recurved seawalls are proven to be most effective at preventing flooding because they not only block incoming waves but also redirect their energy back out to sea, significantly reducing the amount of water that reaches the shore."
-                },
-                {
-                    "text": "A straight vertical seawall of the same height",
-                    "isCorrect": 0,
-                    "explanation": "While straight vertical seawalls can block some water, they are less effective than recurved walls because they don't redirect the wave energy away from the shore, allowing more water to potentially spill over."
-                },
-                {
-                    "text": "Painting the buildings with waterproof paint",
-                    "isCorrect": 0,
-                    "explanation": "Waterproof paint might help with minor water exposure but does nothing to prevent or reduce flooding from large waves during storms."
-                },
-                {
-                    "text": "Installing lightning rods on all buildings",
-                    "isCorrect": 0,
-                    "explanation": "While lightning rods are important for protection against electrical storms, they do not provide any protection against flooding."
+                    "explanation": "Building homes on stilts elevates them above flood level, preventing water from entering and causing damage to the main living space during storms and floods."
                 }
             ],
-            "funFact": "The ancient Romans were among the first to use curved structures in their harbor designs to protect ships from waves. This early engineering insight is still applied in modern coastal protection systems today!"
+            "funFact": "Many historic coastal communities around the world have been building homes on stilts for centuries. For example, in Southeast Asia, traditional houses called 'stilt houses' have been protecting residents from floods and high tides for generations while also providing ventilation in hot climates."
+        },
+        {
+            "id": 3,
+            "text": "A city planner wants to reduce high temperatures in urban areas during summer. Which solution would be most effective in lowering surface temperatures of streets and parking lots?",
+            "options": [
+                {
+                    "text": "Removing all trees near roads",
+                    "isCorrect": 0,
+                    "explanation": "Removing trees would actually increase temperatures since trees provide shade and help cool urban areas through evaporation."
+                },
+                {
+                    "text": "Applying reflective white paint to paved surfaces",
+                    "isCorrect": 1,
+                    "explanation": "White paint reflects more sunlight than dark surfaces, reducing heat absorption and lowering surface temperatures in urban areas."
+                },
+                {
+                    "text": "Installing more streetlights",
+                    "isCorrect": 0,
+                    "explanation": "Adding streetlights would not help reduce temperatures and might actually increase heat due to the energy they emit."
+                },
+                {
+                    "text": "Adding more asphalt to roads",
+                    "isCorrect": 0,
+                    "explanation": "Dark asphalt absorbs more heat and would increase surface temperatures rather than reduce them."
+                }
+            ],
+            "funFact": "Some cities like Los Angeles have started painting their streets with a special white coating called CoolSeal, which can reduce surface temperatures by up to 10 degrees Fahrenheit compared to traditional black asphalt!"
         },
         {
             "id": 4,
-            "text": "Which of the following weather events would be considered extreme weather?",
+            "text": "What is the maximum wind speed that tornadoes can reach, and what level of destruction can these winds cause?",
             "options": [
                 {
-                    "text": "A light drizzle on a spring morning",
-                    "isCorrect": 0,
-                    "explanation": "Light drizzle is a common weather pattern and falls within normal weather patterns, so it is not considered extreme weather."
-                },
-                {
-                    "text": "A gentle breeze during an autumn afternoon",
-                    "isCorrect": 0,
-                    "explanation": "A gentle breeze is a typical weather condition that occurs regularly and is not outside normal patterns."
-                },
-                {
-                    "text": "A hurricane with winds over 150 mph",
+                    "text": "300 miles per hour, capable of destroying houses and uprooting trees",
                     "isCorrect": 1,
-                    "explanation": "A hurricane with such powerful winds falls outside normal weather patterns and can cause significant damage, making it a clear example of extreme weather."
+                    "explanation": "Tornadoes can reach wind speeds up to 300 mph, which generates enough force to completely destroy buildings and lift trees from the ground."
                 },
                 {
-                    "text": "Cloudy skies with temperatures around 70\u00b0F",
+                    "text": "300 miles per hour, but can only damage small objects",
                     "isCorrect": 0,
-                    "explanation": "Cloudy skies with mild temperatures are common weather conditions that fall within normal patterns."
+                    "explanation": "While the speed is correct, this severely understates the destructive potential of 300 mph winds, which can destroy entire structures."
+                },
+                {
+                    "text": "150 miles per hour, capable of breaking windows only",
+                    "isCorrect": 0,
+                    "explanation": "This underestimates both the speed and destructive power of tornadoes. Tornado winds can be twice this speed and cause much more severe damage."
+                },
+                {
+                    "text": "100 miles per hour, capable of destroying houses and uprooting trees",
+                    "isCorrect": 0,
+                    "explanation": "This understates the maximum wind speed of tornadoes while overstating the damage potential of 100 mph winds."
                 }
             ],
-            "funFact": "The strongest hurricane ever recorded in the Western Hemisphere was Hurricane Patricia in 2015, which had sustained winds of 215 mph - nearly three times faster than the fastest recorded human sprinter!"
+            "funFact": "The fastest wind speed ever recorded on Earth was during a tornado that struck Moore, Oklahoma in 1999. The wind speed reached 301 miles per hour, nearly a third of the speed of sound!"
         },
         {
             "id": 5,
-            "text": "A coastal city experiences frequent flooding during storms. Engineers are designing a seawall to protect the city. Which feature of a seawall would be most effective in reducing flood damage?",
+            "text": "Why do hip roofs typically perform better than gable roofs during high winds?",
             "options": [
                 {
-                    "text": "A curved surface that redirects waves back toward the ocean",
+                    "text": "Hip roofs are attached more securely to the house structure",
+                    "isCorrect": 0,
+                    "explanation": "The method of attachment is not what makes hip roofs superior in high winds - their sloped design is the key feature"
+                },
+                {
+                    "text": "Hip roofs are heavier and can't be lifted by wind",
+                    "isCorrect": 0,
+                    "explanation": "The weight of the roof is not the main factor in wind resistance - the aerodynamic design of hip roofs is what makes them more effective"
+                },
+                {
+                    "text": "The slanted sides of hip roofs deflect wind upward rather than allowing it to push directly against a flat surface",
                     "isCorrect": 1,
-                    "explanation": "A recurved seawall with a curved surface is most effective because it not only blocks incoming waves but also reflects wave energy back out to sea, significantly reducing the amount of water that could cause flooding."
+                    "explanation": "Hip roofs have all sides slanted, which helps deflect wind energy upward instead of absorbing the full force, making them more resistant to wind damage"
                 },
                 {
-                    "text": "A flat surface painted with reflective white paint",
+                    "text": "Hip roofs are made of stronger materials than gable roofs",
                     "isCorrect": 0,
-                    "explanation": "While reflective white paint can help with heat-related issues, it does not help protect against flooding. A flat surface would not effectively redirect wave energy."
-                },
-                {
-                    "text": "Multiple small holes throughout the wall",
-                    "isCorrect": 0,
-                    "explanation": "Holes in a seawall would actually make it less effective, as water would pass through them and contribute to flooding rather than being blocked or redirected."
-                },
-                {
-                    "text": "A completely smooth vertical surface",
-                    "isCorrect": 0,
-                    "explanation": "A smooth vertical surface, while able to block some water, is less effective than a curved surface because it doesn't redirect wave energy back to the ocean."
+                    "explanation": "The material used is not what makes hip roofs more wind-resistant - it's their shape and design that provides better protection"
                 }
             ],
-            "funFact": "The ancient Romans were among the first to use curved surfaces in their harbor walls. They discovered that curved structures could better withstand the force of waves and protect their ports, a principle that engineers still use today."
+            "funFact": "The hip roof design has been used for thousands of years, dating back to ancient Roman architecture. This design was particularly popular in areas prone to strong winds and hurricanes, showing how engineers throughout history have adapted building techniques to local weather conditions."
         },
         {
             "id": 6,
-            "text": "A coastal city wants to protect windows in houses from hurricane damage. Which design feature would be most effective for window shutters based on engineering principles?",
+            "text": "A coastal town is evaluating different methods to protect homes from flooding during storms and hurricanes. They are considering two approaches: building homes on stilts or constructing homes with raised garage foundations. Which statement best compares these two flood protection methods?",
             "options": [
                 {
-                    "text": "Curved shutters that redirect wind forces away from the window",
-                    "isCorrect": 1,
-                    "explanation": "Like recurved seawalls that redirect wave energy back to the ocean, curved shutters can deflect wind forces away from windows, providing better protection during hurricanes."
+                    "text": "Homes built on raised garage foundations are safer because concrete foundations are stronger than wooden stilts",
+                    "isCorrect": 0,
+                    "explanation": "While concrete is strong, the height of elevation rather than material strength is more important for flood protection"
                 },
+                {
+                    "text": "Neither method is effective because flood waters can still damage the support structures",
+                    "isCorrect": 0,
+                    "explanation": "While support structures may face some exposure, both methods effectively protect the main living areas from flood damage"
+                },
+                {
+                    "text": "Homes built on stilts provide better flood protection because they can be elevated higher above ground level than homes built on raised garage foundations",
+                    "isCorrect": 1,
+                    "explanation": "Stilts allow homes to be elevated higher off the ground, providing more clearance for flood waters to pass underneath without damaging the living space"
+                },
+                {
+                    "text": "Both methods provide equal flood protection since they both raise the home above ground level",
+                    "isCorrect": 0,
+                    "explanation": "The methods are not equally effective - stilts typically allow for greater elevation than raised garage foundations"
+                }
+            ],
+            "funFact": "The practice of building homes on stilts dates back thousands of years and is still common in many coastal and flood-prone regions around the world, including parts of Southeast Asia where entire villages are built on stilts"
+        },
+        {
+            "id": 7,
+            "text": "A team of engineers tested different barriers to protect coastal areas from flooding. They measured the amount of water that got past each barrier during their tests. Here are their results:\n- No barrier: 1000 mL of water collected\n- High sea wall: 300 mL of water collected\n- Rock barrier: 100 mL of water collected\n- Recurved wall: 50 mL of water collected\n\nBased on this data, which barrier would be most effective for protecting coastal communities from flooding?",
+            "options": [
+                {
+                    "text": "Recurved wall",
+                    "isCorrect": 1,
+                    "explanation": "The recurved wall allowed the least amount of water (50 mL) to pass through, making it the most effective barrier. Its curved design helps redirect wave energy back to the sea."
+                },
+                {
+                    "text": "No barrier",
+                    "isCorrect": 0,
+                    "explanation": "Having no barrier resulted in the most flooding (1000 mL), making this the least effective option for protecting coastal areas."
+                },
+                {
+                    "text": "Rock barrier",
+                    "isCorrect": 0,
+                    "explanation": "The rock barrier performed better than the high sea wall (100 mL vs 300 mL), but it wasn't as effective as the recurved wall which only allowed 50 mL through."
+                },
+                {
+                    "text": "High sea wall",
+                    "isCorrect": 0,
+                    "explanation": "While the high sea wall did reduce flooding compared to no barrier, it still allowed 300 mL of water through, making it less effective than both the rock barrier and recurved wall."
+                }
+            ],
+            "funFact": "The ancient Romans were among the first to use curved seawalls in their harbors. They discovered that curved structures could better withstand the force of waves by redirecting their energy, a principle that engineers still use today!"
+        },
+        {
+            "id": 8,
+            "text": "A coastal city wants to protect windows in houses from hurricane damage. Which design feature would be most effective for window shutters based on engineering principles?",
+            "options": [
                 {
                     "text": "Flat metal shutters that block the wind directly",
                     "isCorrect": 0,
@@ -157,6 +206,11 @@
                     "explanation": "Flexible materials may not provide adequate protection from hurricane-force winds and flying debris, which can cause severe window damage."
                 },
                 {
+                    "text": "Curved shutters that redirect wind forces away from the window",
+                    "isCorrect": 1,
+                    "explanation": "Like recurved seawalls that redirect wave energy back to the ocean, curved shutters can deflect wind forces away from windows, providing better protection during hurricanes."
+                },
+                {
                     "text": "Mesh shutters that allow some wind to pass through",
                     "isCorrect": 0,
                     "explanation": "Allowing wind to pass through would not effectively protect windows from debris and could actually increase damage during a hurricane."
@@ -165,34 +219,34 @@
             "funFact": "Hurricane shutters were widely adopted after Hurricane Andrew hit Florida in 1992, leading to major changes in building codes. Modern impact-resistant shutters can withstand debris flying at speeds over 150 mph!"
         },
         {
-            "id": 7,
-            "text": "An engineer is designing a lightning protection system for a new building. Which placement of lightning rods would be most effective in protecting the building from electrical damage?",
+            "id": 9,
+            "text": "An engineer is designing foundations for houses in a coastal area prone to flooding. Which design would best protect the houses from flood damage while meeting safety requirements?",
             "options": [
                 {
-                    "text": "Installing multiple lightning rods at different heights on the building, connected to a common grounding system",
+                    "text": "Building the houses on elevated stilts with strong foundations extending deep into the ground",
                     "isCorrect": 1,
-                    "explanation": "Multiple lightning rods at different heights provide comprehensive protection coverage and ensure effective dissipation of electrical energy through the grounding system."
+                    "explanation": "Elevated stilts keep the living space above flood levels while deep foundations provide stability against water forces."
                 },
                 {
-                    "text": "Installing a single large lightning rod at the center of the building's roof",
+                    "text": "Creating a floating foundation that rises with water levels",
                     "isCorrect": 0,
-                    "explanation": "A single central rod provides limited protection coverage and may leave parts of the building vulnerable to lightning strikes."
+                    "explanation": "While floating foundations may seem helpful, they can be unstable and unreliable during severe flooding, potentially causing structural damage."
                 },
                 {
-                    "text": "Installing lightning rods only on the corners of the building without connecting them",
+                    "text": "Using a basement foundation with waterproof coating",
                     "isCorrect": 0,
-                    "explanation": "Unconnected rods cannot effectively channel the electrical energy to the ground, reducing the system's effectiveness."
+                    "explanation": "Basements, even with waterproofing, are highly vulnerable to flooding and can actually increase structural damage due to water pressure."
                 },
                 {
-                    "text": "Installing lightning rods horizontally along the edges of the roof",
+                    "text": "Building houses directly on concrete slabs at ground level",
                     "isCorrect": 0,
-                    "explanation": "Horizontal placement reduces the rod's ability to intercept lightning strikes and properly direct the electrical charge to the ground."
+                    "explanation": "Ground-level foundations offer no protection from rising flood waters and can lead to severe water damage to the house."
                 }
             ],
-            "funFact": "The Empire State Building is struck by lightning approximately 25 times per year! Its lightning protection system includes multiple lightning rods and a complex network of copper conductors that safely channel the electrical energy into the ground."
+            "funFact": "The ancient city of Venice, Italy has survived flooding for centuries thanks to innovative foundation designs. Many Venetian buildings rest on wooden piles driven deep into compressed clay layers, creating remarkably stable foundations despite regular flooding."
         },
         {
-            "id": 8,
+            "id": 10,
             "text": "An engineer is designing a building in an area prone to tornadoes. Which combination of features would best protect the building from tornado damage?",
             "options": [
                 {
@@ -206,76 +260,27 @@
                     "explanation": "Gable roofs are vulnerable to high winds because their flat surfaces can catch wind directly. Standard walls and a basement alone don't provide adequate protection against tornado-force winds."
                 },
                 {
-                    "text": "A flat roof with brick walls and storm shutters",
-                    "isCorrect": 0,
-                    "explanation": "Flat roofs can accumulate debris and are susceptible to being lifted by strong winds. While brick walls and storm shutters offer some protection, this combination isn't optimal for tornado resistance."
-                },
-                {
                     "text": "A gable roof with reinforced panels but no safe room",
                     "isCorrect": 0,
                     "explanation": "Even with reinforced panels, a gable roof remains vulnerable to tornado-force winds. The absence of a safe room eliminates a crucial safety feature for occupants during a tornado."
+                },
+                {
+                    "text": "A flat roof with brick walls and storm shutters",
+                    "isCorrect": 0,
+                    "explanation": "Flat roofs can accumulate debris and are susceptible to being lifted by strong winds. While brick walls and storm shutters offer some protection, this combination isn't optimal for tornado resistance."
                 }
             ],
             "funFact": "The strongest tornado ever recorded had winds reaching 301 miles per hour! That's why engineers continue to develop new building materials and designs that can help structures survive these incredibly powerful forces of nature."
         },
         {
-            "id": 9,
-            "text": "A coastal town is evaluating different methods to protect homes from flooding during storms and hurricanes. They are considering two approaches: building homes on stilts or constructing homes with raised garage foundations. Which statement best compares these two flood protection methods?",
-            "options": [
-                {
-                    "text": "Homes built on stilts provide better flood protection because they can be elevated higher above ground level than homes built on raised garage foundations",
-                    "isCorrect": 1,
-                    "explanation": "Stilts allow homes to be elevated higher off the ground, providing more clearance for flood waters to pass underneath without damaging the living space"
-                },
-                {
-                    "text": "Homes built on raised garage foundations are safer because concrete foundations are stronger than wooden stilts",
-                    "isCorrect": 0,
-                    "explanation": "While concrete is strong, the height of elevation rather than material strength is more important for flood protection"
-                },
-                {
-                    "text": "Both methods provide equal flood protection since they both raise the home above ground level",
-                    "isCorrect": 0,
-                    "explanation": "The methods are not equally effective - stilts typically allow for greater elevation than raised garage foundations"
-                },
-                {
-                    "text": "Neither method is effective because flood waters can still damage the support structures",
-                    "isCorrect": 0,
-                    "explanation": "While support structures may face some exposure, both methods effectively protect the main living areas from flood damage"
-                }
-            ],
-            "funFact": "The practice of building homes on stilts dates back thousands of years and is still common in many coastal and flood-prone regions around the world, including parts of Southeast Asia where entire villages are built on stilts"
-        },
-        {
-            "id": 10,
-            "text": "A team of engineers tested different barriers to protect coastal areas from flooding. They measured the amount of water that got past each barrier during their tests. Here are their results:\n- No barrier: 1000 mL of water collected\n- High sea wall: 300 mL of water collected\n- Rock barrier: 100 mL of water collected\n- Recurved wall: 50 mL of water collected\n\nBased on this data, which barrier would be most effective for protecting coastal communities from flooding?",
-            "options": [
-                {
-                    "text": "Recurved wall",
-                    "isCorrect": 1,
-                    "explanation": "The recurved wall allowed the least amount of water (50 mL) to pass through, making it the most effective barrier. Its curved design helps redirect wave energy back to the sea."
-                },
-                {
-                    "text": "High sea wall",
-                    "isCorrect": 0,
-                    "explanation": "While the high sea wall did reduce flooding compared to no barrier, it still allowed 300 mL of water through, making it less effective than both the rock barrier and recurved wall."
-                },
-                {
-                    "text": "Rock barrier",
-                    "isCorrect": 0,
-                    "explanation": "The rock barrier performed better than the high sea wall (100 mL vs 300 mL), but it wasn't as effective as the recurved wall which only allowed 50 mL through."
-                },
-                {
-                    "text": "No barrier",
-                    "isCorrect": 0,
-                    "explanation": "Having no barrier resulted in the most flooding (1000 mL), making this the least effective option for protecting coastal areas."
-                }
-            ],
-            "funFact": "The ancient Romans were among the first to use curved seawalls in their harbors. They discovered that curved structures could better withstand the force of waves by redirecting their energy, a principle that engineers still use today!"
-        },
-        {
             "id": 11,
             "text": "A team of engineers is designing a house in an area prone to severe storms with high winds up to 100 mph. They need to choose between a gable roof (with straight vertical ends) and a hip roof (with all sides slanted) for maximum wind resistance. Based on the physics of wind forces, which statement best explains why one design would be more effective?",
             "options": [
+                {
+                    "text": "The gable roof is more effective because wind can easily slide off its triangular shape",
+                    "isCorrect": 0,
+                    "explanation": "While the top of a gable roof is triangular, its vertical ends create resistance against wind forces, making it less effective"
+                },
                 {
                     "text": "The hip roof is more effective because its slanted sides deflect the wind upward, reducing direct force against the roof structure",
                     "isCorrect": 1,
@@ -290,19 +295,73 @@
                     "text": "Both roof designs are equally effective as long as they are made of the same materials",
                     "isCorrect": 0,
                     "explanation": "The shape of the roof, not just the materials, plays a crucial role in how it handles wind forces"
-                },
-                {
-                    "text": "The gable roof is more effective because wind can easily slide off its triangular shape",
-                    "isCorrect": 0,
-                    "explanation": "While the top of a gable roof is triangular, its vertical ends create resistance against wind forces, making it less effective"
                 }
             ],
             "funFact": "The ancient Romans were among the first to understand the importance of roof design in architecture. They used hip roofs in many of their structures, particularly in areas prone to strong winds, showing that this engineering principle has been known for over 2,000 years!"
         },
         {
             "id": 12,
+            "text": "A team of engineers is designing a lightning protection system for a new building. Which placement and design of the lightning rod system would be most effective in protecting the building from electrical damage during storms?",
+            "options": [
+                {
+                    "text": "Install metal rods around the building's base connected to the ground",
+                    "isCorrect": 0,
+                    "explanation": "Placing rods only at the base is ineffective since lightning typically strikes the highest points. The system needs to intercept the lightning before it reaches the building."
+                },
+                {
+                    "text": "Install a single tall metal rod at the center of the roof without a ground connection",
+                    "isCorrect": 0,
+                    "explanation": "Without a ground connection, the electrical charge from lightning cannot be safely dispersed, potentially causing severe damage to the building."
+                },
+                {
+                    "text": "Install multiple metal rods connected by wires on the roof with a direct path to the ground",
+                    "isCorrect": 1,
+                    "explanation": "This is the most effective design as it provides multiple points of protection and ensures the electrical charge from lightning has a clear path to the ground, preventing damage to the building's electrical systems."
+                },
+                {
+                    "text": "Install plastic rods on the roof connected to ground wires",
+                    "isCorrect": 0,
+                    "explanation": "Plastic is an insulator and cannot conduct electricity. Lightning protection systems require conductive metal materials to safely channel electrical charges to the ground."
+                }
+            ],
+            "funFact": "The Empire State Building gets struck by lightning approximately 25 times per year! Its lightning protection system is so effective that the building has never experienced significant damage from these strikes."
+        },
+        {
+            "id": 13,
+            "text": "A team of meteorologists wants to help coastal communities prepare better for hurricanes. Which approach would be most effective in developing hurricane preparedness strategies based on historical patterns?",
+            "options": [
+                {
+                    "text": "Analyzing hurricane patterns without considering their timing or location",
+                    "isCorrect": 0,
+                    "explanation": "Without considering when and where hurricanes occur, it would be impossible to develop targeted preparedness strategies for vulnerable areas."
+                },
+                {
+                    "text": "Analyzing hurricane occurrences between June and November in the Atlantic Ocean over multiple years",
+                    "isCorrect": 1,
+                    "explanation": "Historical data shows consistent hurricane patterns in the Atlantic Ocean during specific months, allowing communities to prepare effectively before the hurricane season begins."
+                },
+                {
+                    "text": "Studying hurricane patterns only during winter months",
+                    "isCorrect": 0,
+                    "explanation": "Hurricanes rarely occur during winter months in the Atlantic Ocean, so this would not provide useful data for preparedness strategies."
+                },
+                {
+                    "text": "Focusing only on the most recent year's hurricane data",
+                    "isCorrect": 0,
+                    "explanation": "Looking at just one year's data is too limited and may not reveal reliable patterns for developing effective preparedness strategies."
+                }
+            ],
+            "funFact": "The Saffir-Simpson Hurricane Wind Scale, which rates hurricanes from Category 1 to 5, was developed in 1971 by civil engineer Herbert Saffir and meteorologist Robert Simpson to help communicate the potential damage and flooding a hurricane could cause."
+        },
+        {
+            "id": 14,
             "text": "An engineering team is testing different roof designs to protect buildings in a tornado-prone area. They have three models: one with a gable roof (flat ends), one with a hip roof (all sides slanted), and one with a combination of both designs. Which roof design would likely provide the best protection against tornado-force winds and why?",
             "options": [
+                {
+                    "text": "The combination design, because it provides more structural support points",
+                    "isCorrect": 0,
+                    "explanation": "While multiple support points can be beneficial, the presence of any flat ends from the gable portion still creates vulnerable points for wind damage"
+                },
                 {
                     "text": "The hip roof design, because its slanted sides allow wind to be deflected upward rather than pushing directly against flat surfaces",
                     "isCorrect": 1,
@@ -314,11 +373,6 @@
                     "explanation": "Gable roofs actually perform poorly in high winds because their flat ends create surfaces that wind can push directly against, increasing the risk of roof damage"
                 },
                 {
-                    "text": "The combination design, because it provides more structural support points",
-                    "isCorrect": 0,
-                    "explanation": "While multiple support points can be beneficial, the presence of any flat ends from the gable portion still creates vulnerable points for wind damage"
-                },
-                {
                     "text": "All designs provide equal protection as long as they are properly secured",
                     "isCorrect": 0,
                     "explanation": "The shape of the roof significantly affects its wind resistance, regardless of how well it is secured. Some designs are inherently better at handling wind forces than others"
@@ -327,85 +381,31 @@
             "funFact": "The strongest tornado ever recorded produced winds of up to 301 miles per hour in Bridge Creek-Moore, Oklahoma in 1999. This event led to major improvements in building design and construction techniques for tornado-prone regions."
         },
         {
-            "id": 13,
-            "text": "A coastal city wants to protect its beachfront properties from flooding during storm surges. They tested three different flood prevention methods using a wave simulator and measured the amount of water that got past each barrier. Which data would provide the strongest evidence that a recurved seawall is the most effective solution?",
-            "options": [
-                {
-                    "text": "No barrier: 1000 mL flood water, High seawall: 300 mL flood water, Recurved wall: 50 mL flood water",
-                    "isCorrect": 1,
-                    "explanation": "This data shows the recurved wall was most effective by allowing the least amount of flood water through, demonstrating its ability to both block and redirect waves back to sea."
-                },
-                {
-                    "text": "No barrier: 500 mL flood water, High seawall: 100 mL flood water, Recurved wall: 200 mL flood water",
-                    "isCorrect": 0,
-                    "explanation": "This data shows the high seawall performing better than the recurved wall, which contradicts the scientific evidence about recurved walls' superior effectiveness."
-                },
-                {
-                    "text": "No barrier: 1000 mL flood water, High seawall: 1000 mL flood water, Recurved wall: 1000 mL flood water",
-                    "isCorrect": 0,
-                    "explanation": "This data shows no difference between the solutions, which wouldn't provide evidence for any solution being most effective."
-                },
-                {
-                    "text": "No barrier: 100 mL flood water, High seawall: 300 mL flood water, Recurved wall: 500 mL flood water",
-                    "isCorrect": 0,
-                    "explanation": "This data shows flooding increasing with barriers, which contradicts the basic physics of how flood barriers work."
-                }
-            ],
-            "funFact": "The ancient Romans were among the first to use curved structures in their harbors to protect ships from waves. Modern engineers have refined this concept into today's recurved seawalls, which can reduce wave overtopping by up to 30% compared to straight walls."
-        },
-        {
-            "id": 14,
-            "text": "A coastal city is planning to build a new seawall to protect buildings from storm surge during hurricanes. Which type of seawall design would be most effective in reducing flood damage?",
-            "options": [
-                {
-                    "text": "A recurved seawall that redirects waves back toward the ocean",
-                    "isCorrect": 1,
-                    "explanation": "Recurved seawalls are most effective because they not only block incoming waves but also reflect wave energy back out to sea, providing better protection against flooding."
-                },
-                {
-                    "text": "A flat vertical seawall that blocks waves",
-                    "isCorrect": 0,
-                    "explanation": "While flat vertical seawalls can block waves, they don't redirect wave energy and are less effective than recurved designs at preventing flooding."
-                },
-                {
-                    "text": "A short seawall that allows some waves to pass over",
-                    "isCorrect": 0,
-                    "explanation": "A short seawall that allows waves to pass over would not provide adequate protection against storm surge and flooding."
-                },
-                {
-                    "text": "A seawall with gaps to let water flow through",
-                    "isCorrect": 0,
-                    "explanation": "Gaps in a seawall would defeat its purpose by allowing water to flow directly through, increasing flood risk rather than reducing it."
-                }
-            ],
-            "funFact": "Some of the world's most impressive seawalls can be found in the Netherlands, where about one-third of the country lies below sea level. The Dutch have been engineering flood protection systems for over 1000 years!"
-        },
-        {
             "id": 15,
-            "text": "A coastal engineer is designing a seawall to protect a beachfront community from flooding during storms. Which seawall design would be most effective in reducing flood damage?",
+            "text": "A city planner wants to reduce the heat island effect in an urban area. Multiple solutions are being considered. Which solution would be most effective in reducing high temperatures across the city?",
             "options": [
                 {
-                    "text": "A recurved seawall that redirects wave energy back toward the ocean",
+                    "text": "Converting all roofs to gable roofs",
+                    "isCorrect": 0,
+                    "explanation": "Gable roofs are designed to handle wind forces. The roof style does not significantly impact urban heat island effects."
+                },
+                {
+                    "text": "Painting roads and rooftops with reflective white paint",
                     "isCorrect": 1,
-                    "explanation": "Recurved seawalls are most effective because they not only block incoming waves but also redirect their energy back out to sea, significantly reducing the amount of water that can flood coastal areas."
+                    "explanation": "Reflective white paint on roads and rooftops helps reflect sunlight back into the atmosphere instead of absorbing it, effectively reducing surface temperatures across large urban areas."
                 },
                 {
-                    "text": "A straight vertical seawall that blocks waves from reaching the shore",
+                    "text": "Building more concrete seawalls",
                     "isCorrect": 0,
-                    "explanation": "While straight vertical seawalls can block waves, they are less effective than recurved walls because they don't redirect wave energy and can still allow significant amounts of water to flood over them."
+                    "explanation": "Seawalls are designed to protect against flooding and wave damage in coastal areas. They do not address urban heat island effects."
                 },
                 {
-                    "text": "A low seawall that allows some waves to pass over it",
+                    "text": "Installing lightning rods on all buildings",
                     "isCorrect": 0,
-                    "explanation": "A low seawall that allows waves to pass over it would not provide adequate protection from flooding, as it would not effectively block or redirect wave energy during storms."
-                },
-                {
-                    "text": "A flat horizontal seawall at water level",
-                    "isCorrect": 0,
-                    "explanation": "A flat horizontal seawall at water level would be ineffective at preventing flooding as it would not block or redirect wave energy and would allow water to easily flow over it."
+                    "explanation": "While lightning rods are important for protecting buildings from electrical damage, they do not help reduce urban temperatures or heat island effects."
                 }
             ],
-            "funFact": "The ancient Romans were among the first to build seawalls, using concrete made with volcanic ash that actually became stronger over time when exposed to seawater. Some of these 2,000-year-old seawalls still exist today!"
+            "funFact": "Urban areas can be up to 7\u00b0F warmer than surrounding rural areas due to the heat island effect. This temperature difference can be even more dramatic at night, when cities can be up to 22\u00b0F warmer than nearby rural areas!"
         }
     ]
 }

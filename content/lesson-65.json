@@ -4,44 +4,44 @@
     "questions": [
         {
             "id": 1,
-            "text": "What happens when you bring two balloons that have both been rubbed against wool cloth close to each other?",
+            "text": "What is the key difference between permanent magnets and electromagnets?",
             "options": [
                 {
-                    "text": "The balloons will repel each other",
+                    "text": "Permanent magnets work only at close distances while electromagnets work at any distance",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Both types of magnets follow the same principle - their magnetic force becomes stronger at closer distances and weaker at greater distances."
+                },
+                {
+                    "text": "Permanent magnets are stronger than electromagnets",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The strength of an electromagnet can be adjusted by changing the amount of electricity, and electromagnets can be made very strong."
+                },
+                {
+                    "text": "Electromagnets can be turned on and off using electricity, while permanent magnets cannot be turned off",
                     "isCorrect": 1,
-                    "explanation": "When both balloons are rubbed with wool, they gain the same type of electrical charge. Objects with the same electrical charge repel each other."
+                    "explanation": "This is correct. Electromagnets work using electricity and can be controlled by turning the electricity on or off, while permanent magnets maintain their magnetic properties without needing electricity."
                 },
                 {
-                    "text": "The balloons will attract each other",
+                    "text": "Electromagnets only attract iron while permanent magnets attract all metals",
                     "isCorrect": 0,
-                    "explanation": "Objects with the same electrical charge repel, not attract. Attraction occurs between objects with opposite charges."
-                },
-                {
-                    "text": "The balloons will not affect each other at all",
-                    "isCorrect": 0,
-                    "explanation": "Charged objects do interact with each other even without touching. The electrical force works at a distance."
-                },
-                {
-                    "text": "The balloons will lose their charge immediately",
-                    "isCorrect": 0,
-                    "explanation": "Static electrical charges don't disappear just by bringing charged objects near each other. The charges remain until they are transferred or neutralized."
+                    "explanation": "This is incorrect. Both types of magnets attract the same types of magnetic materials like iron, nickel, and cobalt."
                 }
             ],
-            "funFact": "Lightning is a dramatic example of static electricity in nature! During a storm, different parts of a cloud can build up opposite electrical charges, just like when we rub a balloon. When the charge difference becomes large enough, we see a giant spark - lightning!"
+            "funFact": "The world's strongest electromagnet, located at the National High Magnetic Field Laboratory in Florida, can produce a magnetic field that is about 2 million times stronger than Earth's magnetic field!"
         },
         {
             "id": 2,
             "text": "Which of the following materials would be most helpful in making the invisible magnetic field around a magnet visible?",
             "options": [
                 {
-                    "text": "Iron filings",
-                    "isCorrect": 1,
-                    "explanation": "Iron filings are small pieces of iron that align themselves along magnetic field lines when sprinkled near a magnet, making the invisible magnetic field visible."
-                },
-                {
                     "text": "Aluminum powder",
                     "isCorrect": 0,
                     "explanation": "Aluminum is not magnetic and its powder would not align with magnetic field lines, so it cannot be used to visualize magnetic fields."
+                },
+                {
+                    "text": "Iron filings",
+                    "isCorrect": 1,
+                    "explanation": "Iron filings are small pieces of iron that align themselves along magnetic field lines when sprinkled near a magnet, making the invisible magnetic field visible."
                 },
                 {
                     "text": "Sand",
@@ -61,194 +61,177 @@
             "text": "A compass is used for navigation because its needle points in a northerly direction. Which of the following best explains why the compass needle orients this way?",
             "options": [
                 {
-                    "text": "The compass needle aligns with Earth's magnetic field because the north pole of the needle is attracted to Earth's magnetic North Pole (which is actually a magnetic south pole)",
-                    "isCorrect": 1,
-                    "explanation": "The compass needle is a small magnet that aligns with Earth's magnetic field. Its north pole is attracted to what we call Earth's magnetic North Pole because magnetically speaking, Earth's magnetic North Pole is actually a south magnetic pole, and opposite magnetic poles attract."
-                },
-                {
                     "text": "The compass needle points north because it is pulled by Earth's gravity",
                     "isCorrect": 0,
                     "explanation": "Gravity pulls objects toward Earth's center, not toward the North Pole. The compass needle's orientation is due to magnetic forces, not gravitational forces."
                 },
                 {
-                    "text": "The compass needle is pushed north by Earth's rotation",
-                    "isCorrect": 0,
-                    "explanation": "Earth's rotation affects things like wind patterns and ocean currents, but it does not cause the compass needle to point north. The needle's direction is determined by Earth's magnetic field."
+                    "text": "The compass needle aligns with Earth's magnetic field because the north pole of the needle is attracted to Earth's magnetic North Pole (which is actually a magnetic south pole)",
+                    "isCorrect": 1,
+                    "explanation": "The compass needle is a small magnet that aligns with Earth's magnetic field. Its north pole is attracted to what we call Earth's magnetic North Pole because magnetically speaking, Earth's magnetic North Pole is actually a south magnetic pole, and opposite magnetic poles attract."
                 },
                 {
                     "text": "The compass needle contains special metals that naturally point toward the North Star",
                     "isCorrect": 0,
                     "explanation": "While the North Star is useful for navigation, it does not influence the compass needle. The needle responds to Earth's magnetic field, not to celestial objects."
+                },
+                {
+                    "text": "The compass needle is pushed north by Earth's rotation",
+                    "isCorrect": 0,
+                    "explanation": "Earth's rotation affects things like wind patterns and ocean currents, but it does not cause the compass needle to point north. The needle's direction is determined by Earth's magnetic field."
                 }
             ],
             "funFact": "Earth's magnetic poles are not exactly aligned with its geographic poles - they are actually hundreds of miles apart! This difference is called magnetic declination, and navigators need to account for it when using a compass for precise navigation."
         },
         {
             "id": 4,
-            "text": "What will happen when you bring the north pole of one magnet close to the south pole of another magnet?",
+            "text": "How is static electricity typically created between two objects?",
             "options": [
                 {
-                    "text": "The magnets will attract each other",
+                    "text": "By connecting objects to a battery",
+                    "isCorrect": 0,
+                    "explanation": "Batteries create current electricity, not static electricity. Static electricity is created through friction between objects."
+                },
+                {
+                    "text": "By rubbing objects against each other",
                     "isCorrect": 1,
-                    "explanation": "Opposite poles (north and south) of magnets attract each other due to magnetic forces"
+                    "explanation": "When objects are rubbed against each other, electrons can transfer between them, creating an electrical charge buildup called static electricity."
                 },
                 {
-                    "text": "The magnets will repel each other",
+                    "text": "By placing objects near a magnet",
                     "isCorrect": 0,
-                    "explanation": "Repulsion occurs between like poles (north-north or south-south), not opposite poles"
+                    "explanation": "Magnets create magnetic fields, not static electricity. They are different types of forces."
                 },
                 {
-                    "text": "Nothing will happen",
+                    "text": "By keeping objects completely still",
                     "isCorrect": 0,
-                    "explanation": "Magnets always interact when their poles are brought close enough - they don't remain neutral"
-                },
-                {
-                    "text": "The magnets will lose their magnetic properties",
-                    "isCorrect": 0,
-                    "explanation": "Bringing opposite poles together doesn't cause magnets to lose their magnetic properties"
+                    "explanation": "Simply keeping objects still does not create static electricity. Movement and friction between objects is necessary."
                 }
             ],
-            "funFact": "The Earth acts like a giant magnet with its magnetic south pole located near the geographic North Pole! This is why the north pole of a compass needle points north - it's attracted to Earth's magnetic south pole."
+            "funFact": "Lightning is a dramatic example of static electricity in nature! When clouds rub against each other in the sky, they build up enormous amounts of static charge that eventually discharges as lightning bolts."
         },
         {
             "id": 5,
-            "text": "Which of the following materials would be attracted to a magnet?",
+            "text": "When a balloon is rubbed against someone's hair, it can stick to a wall. What happens between the balloon and the wall that causes this attraction?",
             "options": [
                 {
-                    "text": "Iron nails",
+                    "text": "The balloon and wall develop the same electrical charges",
+                    "isCorrect": 0,
+                    "explanation": "Objects with the same electrical charges repel each other, they don't attract. The balloon and wall must have opposite charges to stick together."
+                },
+                {
+                    "text": "The balloon and wall develop opposite electrical charges, causing them to attract",
                     "isCorrect": 1,
-                    "explanation": "Iron is one of the metals that is attracted to magnets because of its magnetic properties."
+                    "explanation": "When the balloon is rubbed against hair, it gains an electrical charge. The wall then develops the opposite charge, causing the balloon and wall to attract each other."
                 },
                 {
-                    "text": "Aluminum foil",
+                    "text": "The balloon becomes magnetic and sticks to metal in the wall",
                     "isCorrect": 0,
-                    "explanation": "Although aluminum is a metal, it is not magnetic and will not be attracted to magnets."
+                    "explanation": "This is incorrect. The balloon does not become magnetic from rubbing - this is an example of static electricity, not magnetism."
                 },
                 {
-                    "text": "Copper wire",
+                    "text": "The balloon creates a vacuum that pulls it to the wall",
                     "isCorrect": 0,
-                    "explanation": "Copper, despite being a metal, is not magnetic and will not be attracted to magnets."
-                },
-                {
-                    "text": "Plastic spoon",
-                    "isCorrect": 0,
-                    "explanation": "Plastic is not a magnetic material and will not be attracted to magnets."
+                    "explanation": "The attraction is not caused by a vacuum effect - it's caused by opposite electrical charges between the balloon and wall."
                 }
             ],
-            "funFact": "The most magnetic metal on Earth is neodymium, which is used to make super-strong permanent magnets. These magnets are so powerful that two small neodymium magnets can be impossible to pull apart by hand!"
+            "funFact": "Lightning is actually a giant spark of static electricity! During a storm, different parts of a cloud develop opposite electrical charges, just like the balloon and wall. When the charge difference becomes large enough, electricity jumps between them, creating lightning."
         },
         {
             "id": 6,
-            "text": "Two bar magnets are placed near each other in different arrangements. In which arrangement will the magnets attract each other with the strongest force?",
-            "options": [
-                {
-                    "text": "When the north pole of one magnet faces the south pole of the other magnet, and the magnets are 1 cm apart",
-                    "isCorrect": 1,
-                    "explanation": "Opposite poles attract with the strongest force, and the closer the magnets are, the stronger the magnetic force between them."
-                },
-                {
-                    "text": "When the north pole of one magnet faces the south pole of the other magnet, and the magnets are 10 cm apart",
-                    "isCorrect": 0,
-                    "explanation": "While opposite poles do attract, the magnetic force becomes weaker as the distance between the magnets increases."
-                },
-                {
-                    "text": "When the north poles of both magnets face each other, and the magnets are 1 cm apart",
-                    "isCorrect": 0,
-                    "explanation": "Like poles (north-north or south-south) repel each other rather than attract."
-                },
-                {
-                    "text": "When the south poles of both magnets face each other, and the magnets are 1 cm apart",
-                    "isCorrect": 0,
-                    "explanation": "Like poles (north-north or south-south) repel each other rather than attract."
-                }
-            ],
-            "funFact": "The Earth's magnetic field is actually flipping! Every few hundred thousand years, the North and South magnetic poles switch places. The last major flip occurred around 780,000 years ago, and some scientists think we might be due for another one!"
-        },
-        {
-            "id": 7,
-            "text": "When you shuffle your feet across a carpet and then touch a metal doorknob, you sometimes feel a small shock. What best explains this phenomenon?",
-            "options": [
-                {
-                    "text": "Your feet gain negative charges (electrons) from the carpet, and when you touch the doorknob, these charges quickly transfer to the metal causing a spark",
-                    "isCorrect": 1,
-                    "explanation": "When you shuffle your feet on carpet, electrons transfer from the carpet to your body, creating a negative charge. Upon touching the metal doorknob, these excess electrons rapidly transfer, causing the shock you feel."
-                },
-                {
-                    "text": "The carpet becomes magnetized and creates a magnetic field that causes the shock when you touch metal",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the shock is caused by static electricity, not magnetism. Carpet and feet rubbing together create an electric charge transfer, not a magnetic field."
-                },
-                {
-                    "text": "The metal doorknob naturally produces electricity which flows into your body causing the shock",
-                    "isCorrect": 0,
-                    "explanation": "Metal doorknobs don't produce electricity on their own. The shock comes from the static electric charge that built up on your body from shuffling on the carpet."
-                },
-                {
-                    "text": "The friction between your feet and carpet creates heat energy that converts to electricity in the doorknob",
-                    "isCorrect": 0,
-                    "explanation": "While friction does create some heat, the shock isn't caused by heat converting to electricity. It's caused by the transfer of electric charges that built up from rubbing against the carpet."
-                }
-            ],
-            "funFact": "Lightning is actually a giant static electricity discharge! Just like your feet shuffling on carpet, storm clouds build up electrical charges by rubbing against air particles, eventually releasing them as lightning bolts that can contain up to 300,000 amperes of current."
-        },
-        {
-            "id": 8,
             "text": "If you sprinkle iron filings around a bar magnet at different distances, what pattern would you observe?",
             "options": [
-                {
-                    "text": "The iron filings would form curved lines around the magnet, with more concentrated lines near the poles and less concentrated lines farther away",
-                    "isCorrect": 1,
-                    "explanation": "The iron filings align with the magnetic field lines, showing the invisible field pattern. The lines are denser near the poles where the magnetic force is strongest and become less dense farther away where the force weakens."
-                },
-                {
-                    "text": "The iron filings would form straight lines connecting the north and south poles only",
-                    "isCorrect": 0,
-                    "explanation": "Magnetic field lines are curved, not straight. They extend out in all directions around the magnet, not just between the poles."
-                },
                 {
                     "text": "The iron filings would scatter randomly without forming any pattern",
                     "isCorrect": 0,
                     "explanation": "Iron filings do not scatter randomly - they align with the magnetic field lines in a distinct and predictable pattern."
                 },
                 {
+                    "text": "The iron filings would form curved lines around the magnet, with more concentrated lines near the poles and less concentrated lines farther away",
+                    "isCorrect": 1,
+                    "explanation": "The iron filings align with the magnetic field lines, showing the invisible field pattern. The lines are denser near the poles where the magnetic force is strongest and become less dense farther away where the force weakens."
+                },
+                {
                     "text": "The iron filings would form equal density patterns at all distances from the magnet",
                     "isCorrect": 0,
                     "explanation": "The magnetic force weakens with distance, so the pattern of iron filings becomes less dense farther from the magnet."
+                },
+                {
+                    "text": "The iron filings would form straight lines connecting the north and south poles only",
+                    "isCorrect": 0,
+                    "explanation": "Magnetic field lines are curved, not straight. They extend out in all directions around the magnet, not just between the poles."
                 }
             ],
             "funFact": "Scientists use specialized instruments and computer models to visualize the Sun's magnetic field patterns (not actual iron filings), which helps them predict solar storms that can affect Earth's communications and power systems!"
         },
         {
-            "id": 9,
-            "text": "A student is experimenting with different materials to see which ones will be attracted to a powerful neodymium magnet. Which of the following predictions about materials and magnetic attraction is correct?",
+            "id": 7,
+            "text": "Two identical magnets are placed 10 centimeters apart, and the magnetic force between them is measured. If the distance between the magnets is increased to 20 centimeters, what will happen to the magnetic force between them?",
             "options": [
                 {
-                    "text": "An iron nail will be strongly attracted to the magnet, while an aluminum can will not be attracted",
+                    "text": "The magnetic force will stay the same",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Magnetic forces change with distance - they don't remain constant when the distance changes."
+                },
+                {
+                    "text": "The magnetic force will become weaker",
                     "isCorrect": 1,
-                    "explanation": "Iron is one of the few metals that is magnetic and will be strongly attracted to magnets. Aluminum, despite being a metal, is not magnetic and won't be attracted."
+                    "explanation": "As the distance between magnets increases, the magnetic force becomes weaker. For typical bar magnets at sufficient distances, the relationship approaches an inverse cube law, which means that when the distance doubles from 10cm to 20cm, the force decreases to approximately 1/8 of its original strength."
                 },
                 {
-                    "text": "Both the iron nail and aluminum can will be strongly attracted to the magnet because they are both metals",
+                    "text": "The magnetic force will become stronger",
                     "isCorrect": 0,
-                    "explanation": "Not all metals are magnetic. Only iron, nickel, cobalt and some of their alloys show magnetic properties."
+                    "explanation": "This is incorrect. Magnetic forces actually decrease, not increase, as the distance between magnets increases."
                 },
                 {
-                    "text": "Neither the iron nail nor the aluminum can will be attracted because the magnet needs electricity to work",
+                    "text": "The magnetic force will disappear completely",
                     "isCorrect": 0,
-                    "explanation": "Permanent magnets like neodymium magnets don't need electricity to work. They have their own magnetic field that can attract magnetic materials."
-                },
-                {
-                    "text": "The aluminum can will be attracted but the iron nail won't because aluminum is lighter than iron",
-                    "isCorrect": 0,
-                    "explanation": "Magnetic attraction is not related to the weight of materials. It depends on the magnetic properties of the material, not its mass."
+                    "explanation": "While magnetic forces decrease with distance, they don't completely disappear just by doubling the distance. They become weaker but still exist."
                 }
             ],
-            "funFact": "The strongest magnets in the world are not found in labs but in nature - neutron stars! These stellar objects have magnetic fields trillion times stronger than Earth's strongest magnets."
+            "funFact": "The Earth's magnetic field extends far into space, creating a protective bubble called the magnetosphere that shields us from harmful solar radiation. Even at such vast distances, while much weaker than at Earth's surface, this magnetic field still has enough strength to deflect dangerous charged particles from the Sun!"
         },
         {
-            "id": 10,
+            "id": 8,
+            "text": "A city construction company needs to choose between a permanent magnet and an electromagnet for their crane that lifts and moves heavy metal objects throughout the day. Which type of magnet would be most suitable for this application and why?",
+            "options": [
+                {
+                    "text": "An electromagnet, because it can be turned on and off as needed, making it safer and more efficient to release the metal objects at the desired location",
+                    "isCorrect": 1,
+                    "explanation": "Electromagnets are ideal for cranes as they provide control over when to attract or release metal objects by simply controlling the electrical current"
+                },
+                {
+                    "text": "A permanent magnet, because it provides a stronger magnetic force that never weakens over time",
+                    "isCorrect": 0,
+                    "explanation": "While permanent magnets maintain constant strength, they cannot be turned off, making it difficult to release objects when needed"
+                },
+                {
+                    "text": "An electromagnet, because it has an unlimited range of magnetic attraction",
+                    "isCorrect": 0,
+                    "explanation": "The range of magnetic attraction depends on the strength of the magnetic field, not whether the magnet is permanent or electromagnetic"
+                },
+                {
+                    "text": "A permanent magnet, because it doesn't require any electricity to operate",
+                    "isCorrect": 0,
+                    "explanation": "Though permanent magnets don't need electricity, the inability to control their magnetic force makes them impractical for crane operations"
+                }
+            ],
+            "funFact": "The world's largest electromagnetic crane, located at a shipyard in South Korea, can lift up to 1,200 tons - equivalent to the weight of about 200 adult elephants!"
+        },
+        {
+            "id": 9,
             "text": "A student is exploring magnetic fields using a compass. When the compass is placed near a bar magnet's north pole, in which direction will the compass needle point?",
             "options": [
+                {
+                    "text": "The compass needle will not move at all",
+                    "isCorrect": 0,
+                    "explanation": "The compass needle is magnetic and will respond to the magnetic field of the bar magnet by aligning with the field lines."
+                },
+                {
+                    "text": "The compass needle will spin continuously",
+                    "isCorrect": 0,
+                    "explanation": "The compass needle aligns with magnetic field lines and comes to rest pointing in a specific direction. It doesn't spin continuously."
+                },
                 {
                     "text": "The north end of the compass needle will point toward the magnet's north pole",
                     "isCorrect": 0,
@@ -258,49 +241,147 @@
                     "text": "The south end of the compass needle will point toward the magnet's north pole",
                     "isCorrect": 1,
                     "explanation": "Opposite poles attract. The south end of the compass needle is attracted to the magnet's north pole, following the magnetic field lines."
-                },
-                {
-                    "text": "The compass needle will spin continuously",
-                    "isCorrect": 0,
-                    "explanation": "The compass needle aligns with magnetic field lines and comes to rest pointing in a specific direction. It doesn't spin continuously."
-                },
-                {
-                    "text": "The compass needle will not move at all",
-                    "isCorrect": 0,
-                    "explanation": "The compass needle is magnetic and will respond to the magnetic field of the bar magnet by aligning with the field lines."
                 }
             ],
             "funFact": "The largest natural magnet in our solar system is Jupiter! Its magnetic field is so powerful that it extends several million kilometers into space, far beyond the planet's largest moons."
         },
         {
-            "id": 11,
-            "text": "Why does a magnet strongly attract iron but not aluminum?",
+            "id": 10,
+            "text": "A student is experimenting with ferrofluid in science class. When they place a weak magnet near the ferrofluid, it forms small spikes. What will most likely happen to these spikes if the student replaces the weak magnet with a much stronger magnet at the same distance?",
             "options": [
                 {
-                    "text": "Iron has special properties that allow it to become temporarily magnetized when exposed to a magnetic field, while aluminum does not",
+                    "text": "The spikes will completely disappear",
+                    "isCorrect": 0,
+                    "explanation": "Stronger magnets don't make ferrofluid spikes disappear - they actually make the effect more noticeable"
+                },
+                {
+                    "text": "The spikes will become shorter and less pronounced",
+                    "isCorrect": 0,
+                    "explanation": "Stronger magnetic fields create larger forces, leading to taller spikes, not shorter ones"
+                },
+                {
+                    "text": "The spikes will become taller and more pronounced",
                     "isCorrect": 1,
-                    "explanation": "Iron is ferromagnetic due to unpaired electrons in its atomic structure. These unpaired electrons can align themselves in the presence of a magnetic field, allowing iron to become temporarily magnetized and be attracted to magnets. Aluminum lacks this specific electron arrangement."
+                    "explanation": "A stronger magnetic field creates more force on the iron particles in the ferrofluid, causing them to form taller and more defined spikes"
                 },
                 {
-                    "text": "Aluminum is too light to be affected by magnetic forces",
+                    "text": "The spikes will remain exactly the same size",
                     "isCorrect": 0,
-                    "explanation": "The weight or density of a material does not determine whether it will be attracted to magnets. The atomic properties of the material determine its magnetic behavior."
-                },
-                {
-                    "text": "Iron is a metal while aluminum is not",
-                    "isCorrect": 0,
-                    "explanation": "Both iron and aluminum are metals. Being a metal alone does not determine if a material will be attracted to magnets."
-                },
-                {
-                    "text": "Aluminum conducts electricity better than iron",
-                    "isCorrect": 0,
-                    "explanation": "While aluminum is a good electrical conductor, electrical conductivity is not related to whether a material is attracted to magnets."
+                    "explanation": "The strength of the magnetic field affects the size of the spikes - they don't stay the same size with different magnetic strengths"
                 }
             ],
-            "funFact": "The most common ferromagnetic metals are iron, nickel, and cobalt, which are strongly attracted to magnets at room temperature. However, some rare earth elements like gadolinium also exhibit ferromagnetic properties at certain temperatures. When heated above a certain temperature (called the Curie point), even these metals lose their magnetic properties!"
+            "funFact": "Ferrofluid was originally invented by NASA in the 1960s to control liquid rocket fuel in zero gravity. Today, it's used in everything from speakers to medical treatments!"
+        },
+        {
+            "id": 11,
+            "text": "If you were to bring a compass to the Earth's North Pole, in which direction would the north end of the compass needle point?",
+            "options": [
+                {
+                    "text": "The needle would spin continuously",
+                    "isCorrect": 0,
+                    "explanation": "While the magnetic field is strong at the poles, the needle would stabilize and point in a specific direction (south) rather than spin continuously."
+                },
+                {
+                    "text": "East",
+                    "isCorrect": 0,
+                    "explanation": "The compass needle aligns with Earth's magnetic field lines, which at the poles run directly up and down, not east or west."
+                },
+                {
+                    "text": "North",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The Earth's geographic North Pole is actually a magnetic south pole, so it attracts the north end of a compass needle, causing it to point south, not north."
+                },
+                {
+                    "text": "South",
+                    "isCorrect": 1,
+                    "explanation": "The north end of a compass needle points south at the Earth's North Pole because opposite magnetic poles attract. Since Earth's North Pole is actually a magnetic south pole, it attracts the north end of the compass needle."
+                }
+            ],
+            "funFact": "The Earth's geographic North Pole is actually a magnetic south pole! This is why scientists sometimes refer to the magnetic pole near Earth's geographic North Pole as the 'North Magnetic Pole' - to avoid confusion, even though it has the magnetic properties of a south pole."
         },
         {
             "id": 12,
+            "text": "When experimenting with magnets, a student notices that using two strong magnets together creates a much stronger pulling force than using just one magnet. What best explains why two magnets working together can create a stronger force than a single magnet?",
+            "options": [
+                {
+                    "text": "Two magnets always exert the same force as one magnet, they just look stronger",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - multiple magnets working together can actually create stronger magnetic forces than a single magnet when properly aligned"
+                },
+                {
+                    "text": "The magnetic fields of the two magnets combine to create a larger magnetic field that can exert more force",
+                    "isCorrect": 1,
+                    "explanation": "When two magnets are properly aligned with opposite poles facing, their magnetic fields work together and combine, creating a stronger overall magnetic field that can exert more force on magnetic objects"
+                },
+                {
+                    "text": "The magnets cancel out each other's magnetic fields, allowing them to attract objects better",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - when properly aligned, magnets don't cancel each other out but rather combine their magnetic fields to create a stronger overall magnetic force"
+                },
+                {
+                    "text": "The second magnet turns off the first magnet's repelling force, leaving only attraction",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - adding a second magnet doesn't turn off any magnetic forces, it adds its own magnetic field that combines with the first magnet's field"
+                }
+            ],
+            "funFact": "The Earth's magnetic field is actually created by multiple magnetic effects working together! Molten iron in the Earth's outer core creates numerous magnetic fields that combine to form our planet's protective magnetic field that helps shield us from harmful solar radiation."
+        },
+        {
+            "id": 13,
+            "text": "When you rub a balloon against your hair, it can later stick to a wall. Why does this happen?",
+            "options": [
+                {
+                    "text": "The balloon becomes sticky from the friction with hair",
+                    "isCorrect": 0,
+                    "explanation": "The balloon doesn't become physically sticky. The attraction is caused by electrical charges, not any adhesive properties."
+                },
+                {
+                    "text": "The balloon becomes magnetic and sticks to metal in the wall",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - rubbing does not create magnetism. The sticking effect is due to static electricity, not magnetism."
+                },
+                {
+                    "text": "The balloon heats up and melts slightly to stick",
+                    "isCorrect": 0,
+                    "explanation": "The rubbing doesn't cause enough heat to melt the balloon. The sticking effect is caused by electrical charges, not heat or melting."
+                },
+                {
+                    "text": "The balloon gains an electrical charge different from the wall, causing attraction",
+                    "isCorrect": 1,
+                    "explanation": "When rubbed against hair, the balloon gains excess electrons and becomes negatively charged. When placed near the wall, this negative charge induces a positive charge on the wall's surface (by repelling electrons), creating an electrostatic attraction between the balloon and wall."
+                }
+            ],
+            "funFact": "Lightning is a dramatic example of static electricity in nature! Storm clouds develop electrical charge separation through collisions between ice particles and water droplets, eventually leading to massive electrical discharges we see as lightning bolts."
+        },
+        {
+            "id": 14,
+            "text": "A science class is designing an electromagnet to lift paperclips for a recycling project. They want to make their electromagnet stronger. Which change would increase the strength of their electromagnet the most?",
+            "options": [
+                {
+                    "text": "Keep the electromagnet in a warm place",
+                    "isCorrect": 0,
+                    "explanation": "Temperature does not significantly affect the strength of an electromagnet. The key factor is the electrical current flowing through it."
+                },
+                {
+                    "text": "Paint the electromagnet blue",
+                    "isCorrect": 0,
+                    "explanation": "The color of an electromagnet has no effect on its strength. The strength depends on the electrical current and number of wire coils."
+                },
+                {
+                    "text": "Turn the electromagnet upside down",
+                    "isCorrect": 0,
+                    "explanation": "The orientation of an electromagnet does not affect its strength. The magnetic field strength depends on the electrical current, not the direction it points."
+                },
+                {
+                    "text": "Increase the electrical current flowing through the electromagnet",
+                    "isCorrect": 1,
+                    "explanation": "The strength of an electromagnet increases when more electrical current flows through it. A stronger current creates a stronger magnetic field."
+                }
+            ],
+            "funFact": "The world's strongest electromagnet is at the National High Magnetic Field Laboratory in Florida. It can generate a magnetic field 2 million times stronger than Earth's magnetic field!"
+        },
+        {
+            "id": 15,
             "text": "Why does ferrofluid form spiky patterns when exposed to a magnetic field?",
             "options": [
                 {
@@ -309,9 +390,9 @@
                     "explanation": "The iron particles suspended in the oil become temporary magnets and align with the magnetic field, forming characteristic spiky shapes that reveal the magnetic field lines"
                 },
                 {
-                    "text": "The oil in the ferrofluid becomes magnetic and pushes outward to form spikes",
+                    "text": "The ferrofluid spikes form because like magnetic poles are repelling each other",
                     "isCorrect": 0,
-                    "explanation": "The oil itself is not magnetic - only the suspended iron particles respond to the magnetic field"
+                    "explanation": "While magnetic repulsion exists, the spikes primarily form due to iron particles aligning with the magnetic field lines, not due to repulsion"
                 },
                 {
                     "text": "The magnetic field causes the ferrofluid to boil and bubble up into spikes",
@@ -319,93 +400,12 @@
                     "explanation": "The spiky patterns are not caused by boiling or bubbling - they form due to magnetic forces acting on the iron particles"
                 },
                 {
-                    "text": "The ferrofluid spikes form because like magnetic poles are repelling each other",
+                    "text": "The oil in the ferrofluid becomes magnetic and pushes outward to form spikes",
                     "isCorrect": 0,
-                    "explanation": "While magnetic repulsion exists, the spikes primarily form due to iron particles aligning with the magnetic field lines, not due to repulsion"
+                    "explanation": "The oil itself is not magnetic - only the suspended iron particles respond to the magnetic field"
                 }
             ],
             "funFact": "Ferrofluids were originally invented by NASA in the 1960s to control liquid rocket fuel in zero gravity. Today, they are used in many applications including computer hard drives, speakers, and even some medical treatments!"
-        },
-        {
-            "id": 13,
-            "text": "How do permanent magnets and electromagnets differ in their application for a construction crane that needs to lift and release metal objects throughout the day?",
-            "options": [
-                {
-                    "text": "Permanent magnets are better because they are stronger and never lose their magnetic properties",
-                    "isCorrect": 0,
-                    "explanation": "While permanent magnets maintain constant strength, they cannot be turned off, making them impractical for applications requiring controlled release of objects"
-                },
-                {
-                    "text": "Electromagnets are better because they can be turned on and off by controlling the electric current",
-                    "isCorrect": 1,
-                    "explanation": "Electromagnets are ideal for cranes since they allow controlled lifting when powered and easy release when the current is switched off"
-                },
-                {
-                    "text": "Both types work equally well since they both create the same kind of magnetic field",
-                    "isCorrect": 0,
-                    "explanation": "Though both create magnetic fields, their controllability differs significantly, making electromagnets more suitable for tasks requiring frequent pickup and release"
-                },
-                {
-                    "text": "Neither type is suitable because magnetic forces are too weak for construction work",
-                    "isCorrect": 0,
-                    "explanation": "Magnetic forces can be quite strong and are commonly used in construction. Many industrial cranes successfully use electromagnets to lift heavy metal objects"
-                }
-            ],
-            "funFact": "The world's largest electromagnet, part of the Large Hadron Collider at CERN, can generate a magnetic field about 100,000 times stronger than Earth's magnetic field!"
-        },
-        {
-            "id": 14,
-            "text": "Why must neodymium magnets be handled with extreme caution during experiments?",
-            "options": [
-                {
-                    "text": "They can suddenly attract each other with enough force to cause injury if two magnets come close together",
-                    "isCorrect": 1,
-                    "explanation": "Neodymium magnets are extremely powerful and can snap together with tremendous force when their opposite poles face each other, potentially causing serious injuries if fingers or other body parts are caught between them."
-                },
-                {
-                    "text": "They become dangerously hot when used in experiments",
-                    "isCorrect": 0,
-                    "explanation": "Neodymium magnets do not generate significant heat during normal use. The main safety concern is their strong attractive force."
-                },
-                {
-                    "text": "They lose their magnetic properties if not handled carefully",
-                    "isCorrect": 0,
-                    "explanation": "Neodymium magnets are permanent magnets that maintain their magnetic properties even with regular handling. The safety concern is about their strong attractive forces."
-                },
-                {
-                    "text": "They can damage electronic devices only when touched directly",
-                    "isCorrect": 0,
-                    "explanation": "While neodymium magnets can affect electronic devices, the primary safety concern is their powerful attractive force that can cause physical injury."
-                }
-            ],
-            "funFact": "A small neodymium magnet can lift up to 1,000 times its own weight! This incredible strength is why they're used in many modern technologies, from hard drives to wind turbines, but also why they require careful handling protocols in industrial settings."
-        },
-        {
-            "id": 15,
-            "text": "A student is experimenting with two bar magnets on a table. When she brings the north pole of one magnet near the south pole of another magnet, they quickly snap together. What would happen if she flips one of the magnets around so that the north poles of both magnets are facing each other?",
-            "options": [
-                {
-                    "text": "The magnets will repel each other",
-                    "isCorrect": 1,
-                    "explanation": "Like poles (north-north or south-south) repel each other, while opposite poles (north-south) attract."
-                },
-                {
-                    "text": "The magnets will attract each other",
-                    "isCorrect": 0,
-                    "explanation": "Magnets only attract when opposite poles face each other. When similar poles face each other, they push away."
-                },
-                {
-                    "text": "The magnets will not interact at all",
-                    "isCorrect": 0,
-                    "explanation": "Magnets always interact when they are close enough - either through attraction or repulsion."
-                },
-                {
-                    "text": "The magnets will stick together but with less force",
-                    "isCorrect": 0,
-                    "explanation": "When like poles face each other, they create a repulsive force, not a weaker attractive force."
-                }
-            ],
-            "funFact": "The Earth itself acts like a giant bar magnet! However, what we call the 'magnetic north pole' is actually a magnetic south pole, because it attracts the north-seeking pole of compass needles."
         }
     ]
 }

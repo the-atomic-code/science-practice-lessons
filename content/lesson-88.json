@@ -4,12 +4,39 @@
     "questions": [
         {
             "id": 1,
+            "text": "According to historical water-use data, U.S. freshwater withdrawals increased substantially from the 1950s to early 2000s while the population approximately doubled. What best explains this significant increase in water usage over this period?",
+            "options": [
+                {
+                    "text": "Population doubling combined with increased per-capita water usage",
+                    "isCorrect": 1,
+                    "explanation": "While the U.S. population doubled, water usage increased at an even higher rate, indicating both population growth and increased per-person water usage contributed to the rise in consumption."
+                },
+                {
+                    "text": "Industrial manufacturing growth",
+                    "isCorrect": 0,
+                    "explanation": "While industrial growth does impact water usage, it is not the primary cause of the disproportionate increase in water consumption compared to population growth during this period."
+                },
+                {
+                    "text": "Increased agricultural land use",
+                    "isCorrect": 0,
+                    "explanation": "Although agriculture uses significant water, the main factor is the combination of population growth and increased per-person consumption patterns across residential, commercial and industrial sectors."
+                },
+                {
+                    "text": "Climate change causing more water evaporation",
+                    "isCorrect": 0,
+                    "explanation": "While climate change affects water resources, it is not the primary cause of increased water consumption in the U.S. during this historical period."
+                }
+            ],
+            "funFact": "By 2024, 40 U.S. states are expected to face water shortages, even under non-drought conditions. This prediction has led to increased focus on water conservation technologies and practices across the country."
+        },
+        {
+            "id": 2,
             "text": "What is the primary impact of human population growth on Earth's natural resources?",
             "options": [
                 {
-                    "text": "Increased demand and consumption of resources like water, minerals, and forests",
-                    "isCorrect": 1,
-                    "explanation": "As human population grows, there is a direct increase in the consumption of natural resources to meet basic needs and maintain living standards."
+                    "text": "Resources automatically replenish to meet population needs",
+                    "isCorrect": 0,
+                    "explanation": "Natural resources do not automatically replenish at the rate of consumption. Many resources are non-renewable or take long periods to renew."
                 },
                 {
                     "text": "Decreased use of natural resources due to better technology",
@@ -22,48 +49,48 @@
                     "explanation": "Population growth has a substantial impact on resource consumption - they are directly related, not independent of each other."
                 },
                 {
-                    "text": "Resources automatically replenish to meet population needs",
-                    "isCorrect": 0,
-                    "explanation": "Natural resources do not automatically replenish at the rate of consumption. Many resources are non-renewable or take long periods to renew."
+                    "text": "Increased demand and consumption of resources like water, minerals, and forests",
+                    "isCorrect": 1,
+                    "explanation": "As human population grows, there is a direct increase in the consumption of natural resources to meet basic needs and maintain living standards."
                 }
             ],
             "funFact": "While the world population took all of human history until 1804 to reach 1 billion people, it took only 123 years to reach 2 billion (1927), and just 33 years to reach 3 billion (1960), showing the dramatic acceleration of human population growth."
         },
         {
-            "id": 2,
-            "text": "According to scientific projections, by which year could our oceans potentially contain more plastic than fish if current pollution trends continue?",
+            "id": 3,
+            "text": "What is the primary purpose of wildlife preserves in environmental conservation?",
             "options": [
                 {
-                    "text": "2050",
+                    "text": "To generate revenue through tourism",
+                    "isCorrect": 0,
+                    "explanation": "Although some preserves may generate revenue through controlled tourism, this is not their primary purpose. Their main goal is species protection and scientific research."
+                },
+                {
+                    "text": "To provide recreational areas for public entertainment",
+                    "isCorrect": 0,
+                    "explanation": "While some preserves may allow limited public access, their main purpose is not entertainment but rather protecting and studying species and their habitats."
+                },
+                {
+                    "text": "To store excess wildlife populations",
+                    "isCorrect": 0,
+                    "explanation": "Wildlife preserves are not storage facilities - they are protected natural habitats that allow species to thrive in their native environments while enabling scientific study."
+                },
+                {
+                    "text": "To maintain biodiversity and provide areas for scientific research",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Scientists predict that if current plastic pollution trends continue, our oceans could contain more plastic than fish by 2050."
-                },
-                {
-                    "text": "2030",
-                    "isCorrect": 0,
-                    "explanation": "While plastic pollution is a serious issue, the prediction for plastic potentially outweighing fish is not this soon. This date underestimates the timeline."
-                },
-                {
-                    "text": "2100",
-                    "isCorrect": 0,
-                    "explanation": "This date overestimates the timeline. The situation is more urgent, with predictions showing this could happen much sooner."
-                },
-                {
-                    "text": "2075",
-                    "isCorrect": 0,
-                    "explanation": "This is later than the predicted date. The accumulation of plastics in our oceans is happening at a faster rate than this suggests."
+                    "explanation": "Wildlife preserves are protected areas specifically designed to maintain biodiversity of plant and animal species while also serving as important sites for scientific studies."
                 }
             ],
-            "funFact": "Every minute, approximately one garbage truck worth of plastic is dumped into our oceans. This adds up to about 8 million metric tons of plastic entering our oceans annually, affecting marine life and ecosystems in devastating ways."
+            "funFact": "The first modern wildlife preserve was established in 1903 when President Theodore Roosevelt created the Pelican Island National Wildlife Refuge in Florida to protect native birds from hunters who were collecting their feathers for fashion accessories."
         },
         {
-            "id": 3,
+            "id": 4,
             "text": "What was the primary factor that contributed to the rapid increase in human population during the Industrial Revolution period?",
             "options": [
                 {
-                    "text": "Advancements in medicine and improved nutrition leading to longer life expectancy",
-                    "isCorrect": 1,
-                    "explanation": "During the Industrial Revolution, significant improvements in medical science and better nutrition allowed people to live longer, directly contributing to population growth."
+                    "text": "Migration of people from rural to urban areas",
+                    "isCorrect": 0,
+                    "explanation": "Urbanization was a characteristic of the Industrial Revolution but was not the primary cause of population growth."
                 },
                 {
                     "text": "Increased birth rates due to agricultural improvements",
@@ -71,242 +98,242 @@
                     "explanation": "While agricultural improvements helped support population growth, the primary factor was decreased mortality rates (especially infant and child mortality) due to medical and nutritional advances. Birth rates actually began to decline in many industrialized regions over time."
                 },
                 {
-                    "text": "Migration of people from rural to urban areas",
-                    "isCorrect": 0,
-                    "explanation": "Urbanization was a characteristic of the Industrial Revolution but was not the primary cause of population growth."
-                },
-                {
                     "text": "Development of new transportation systems",
                     "isCorrect": 0,
                     "explanation": "While transportation improvements helped distribute resources, they weren't the main factor in population growth during this period."
+                },
+                {
+                    "text": "Advancements in medicine and improved nutrition leading to longer life expectancy",
+                    "isCorrect": 1,
+                    "explanation": "During the Industrial Revolution, significant improvements in medical science and better nutrition allowed people to live longer, directly contributing to population growth."
                 }
             ],
             "funFact": "The world population took approximately 200,000 years to reach 1 billion people (around 1800), but only 130 years to reach 2 billion (1930), showing the dramatic impact of Industrial Revolution advances on population growth rates!"
         },
         {
-            "id": 4,
-            "text": "According to scientific projections, what is one of the most widely cited concerning projections of continued plastic pollution on marine ecosystems?",
-            "options": [
-                {
-                    "text": "By 2050, there could be more plastic than fish in the oceans",
-                    "isCorrect": 1,
-                    "explanation": "This is the most significant consequence as it represents a fundamental shift in ocean composition that could devastate marine ecosystems and food chains"
-                },
-                {
-                    "text": "All marine animals will become extinct",
-                    "isCorrect": 0,
-                    "explanation": "While plastic pollution is very harmful, complete extinction of all marine animals is an exaggeration of the projected impacts"
-                },
-                {
-                    "text": "The oceans will turn completely toxic",
-                    "isCorrect": 0,
-                    "explanation": "While plastics do release toxins, the complete toxification of oceans is not a projected outcome of plastic pollution"
-                },
-                {
-                    "text": "All beaches will be covered in plastic waste",
-                    "isCorrect": 0,
-                    "explanation": "While plastic waste does wash up on beaches, this is not identified as the most significant impact on marine ecosystems"
-                }
-            ],
-            "funFact": "A single plastic bottle can break down into hundreds of tiny microplastic particles that can persist in the ocean for hundreds of years, being consumed by marine life at every level of the food chain, from tiny plankton to large whales."
-        },
-        {
             "id": 5,
-            "text": "Which of the following approaches would be most effective in reducing waste production?",
+            "text": "According to U.S. Government Accountability Office projections made in 2014, by which year were 40 U.S. states expected to experience water shortages?",
             "options": [
                 {
-                    "text": "Not creating new products in the first place",
+                    "text": "2050",
+                    "isCorrect": 0,
+                    "explanation": "2050 is too late - the 2014 GAO water shortage prediction was much more urgent, projecting that 40 states would be affected by 2024."
+                },
+                {
+                    "text": "2024",
                     "isCorrect": 1,
-                    "explanation": "Reducing waste at the source by avoiding the creation of new products is the most effective way to minimize waste, as it eliminates the need for raw materials, energy for manufacturing, and eventual disposal."
+                    "explanation": "In 2014, the U.S. Government Accountability Office projected that 40 U.S. states would face water shortages by 2024 due to increasing population and water consumption patterns."
                 },
                 {
-                    "text": "Recycling plastic bottles into clothing",
+                    "text": "2030",
                     "isCorrect": 0,
-                    "explanation": "While recycling is beneficial, it still requires energy and resources to process materials. It's less effective than preventing waste creation initially."
+                    "explanation": "While 2030 is often cited in environmental predictions, the 2014 GAO report projected the water shortage crisis to occur sooner, by 2024."
                 },
                 {
-                    "text": "Reusing storage containers",
+                    "text": "2040",
                     "isCorrect": 0,
-                    "explanation": "Reusing items is helpful for reducing waste, but it doesn't prevent the initial production of items. It's less effective than avoiding new product creation."
-                },
-                {
-                    "text": "Converting waste into compost",
-                    "isCorrect": 0,
-                    "explanation": "Composting is a good way to handle organic waste, but it doesn't address the initial creation of waste. Prevention is more effective than managing waste after it's created."
+                    "explanation": "The 2014 GAO water shortage prediction was more urgent than 2040 - they projected it would affect 40 states by 2024."
                 }
             ],
-            "funFact": "The average American generates about 4.9 pounds of waste per day. Through effective waste reduction strategies, some cities like San Francisco have achieved up to 80% waste diversion from landfills!"
+            "funFact": "While the U.S. population has doubled over the past 50 years, our freshwater consumption has actually tripled, showing how our per-person water usage has increased significantly over time."
         },
         {
             "id": 6,
-            "text": "The United States has seen its population double over the past 50 years while freshwater consumption has tripled during the same period. What does this pattern suggest about the relationship between population growth and resource consumption?",
+            "text": "Which statement best evaluates desalination as a solution to freshwater scarcity?",
             "options": [
                 {
-                    "text": "Per-capita water consumption has increased over time",
+                    "text": "Desalination is an ideal solution because oceans contain unlimited saltwater that can be easily converted to freshwater.",
+                    "isCorrect": 0,
+                    "explanation": "While oceans do contain abundant saltwater, desalination is not ideal because it requires significant energy and is expensive to operate."
+                },
+                {
+                    "text": "Desalination plants can completely replace natural freshwater sources without any environmental concerns.",
+                    "isCorrect": 0,
+                    "explanation": "This overlooks the environmental impacts of high energy usage and the fact that desalination cannot fully replace natural freshwater sources."
+                },
+                {
+                    "text": "Desalination through reverse osmosis and distillation is effective but has significant energy and cost limitations.",
                     "isCorrect": 1,
-                    "explanation": "Since water use tripled while population only doubled, each person is using more water on average than they did 50 years ago, indicating increased per-capita consumption."
+                    "explanation": "This correctly identifies that while desalination can produce freshwater, its high energy requirements and operational costs make it challenging to implement widely."
                 },
                 {
-                    "text": "Per-capita water consumption has decreased over time",
+                    "text": "Desalination technology is too new and experimental to be considered as a solution to water scarcity.",
                     "isCorrect": 0,
-                    "explanation": "If water consumption increased more rapidly than population growth, this means individuals are using more water on average, not less."
-                },
-                {
-                    "text": "Water consumption and population growth increased at the same rate",
-                    "isCorrect": 0,
-                    "explanation": "The data shows water consumption increased at a faster rate (tripled) compared to population growth (doubled), so they did not increase at the same rate."
-                },
-                {
-                    "text": "There is no relationship between population growth and water consumption",
-                    "isCorrect": 0,
-                    "explanation": "The data clearly shows both population and water consumption increased over time, indicating there is a relationship between these factors."
+                    "explanation": "This is incorrect because desalination is already an established technology being used to meet daily water needs in many regions."
                 }
             ],
-            "funFact": "While domestic water use contributes to increased consumption, agriculture accounts for about 70% of freshwater use globally. Modern irrigation practices and water-intensive farming methods have significantly impacted overall water consumption rates."
+            "funFact": "The largest desalination plant in the world is the Sorek desalination plant in Israel, which produces 627,000 cubic meters of water daily - enough to fill 251 Olympic swimming pools!"
         },
         {
             "id": 7,
-            "text": "Scientists predict that plastic pollution in our oceans will continue to increase significantly. What would be the most effective consumer behavior change to help prevent marine ecosystems from containing more plastic than fish by 2050?",
+            "text": "Transition to biodegradable plastics can help reduce ocean pollution. Which statement accurately describes how biodegradable plastics could impact marine ecosystems compared to traditional plastics?",
             "options": [
                 {
-                    "text": "Completely eliminating the use of single-use plastic products",
+                    "text": "Biodegradable plastics increase ocean pollution because they break into smaller pieces more quickly",
+                    "isCorrect": 0,
+                    "explanation": "While biodegradable plastics do break down into smaller pieces, they continue to decompose until fully degraded, unlike traditional plastics that remain as harmful microplastics"
+                },
+                {
+                    "text": "Biodegradable plastics break down quickly in the environment, reducing long-term accumulation in oceans and the risk to marine life",
                     "isCorrect": 1,
-                    "explanation": "Single-use plastics are the largest contributor to ocean plastic pollution. Eliminating their use would significantly reduce the amount of plastic entering marine ecosystems."
+                    "explanation": "Biodegradable plastics decompose much faster than traditional plastics, which helps reduce waste buildup in oceans and decreases the chance of marine animals ingesting or becoming entangled in plastic debris"
                 },
                 {
-                    "text": "Increasing recycling of plastic products that already exist",
+                    "text": "Biodegradable plastics only break down in landfills and not in marine environments",
                     "isCorrect": 0,
-                    "explanation": "While recycling is important, it doesn't address the root cause of plastic pollution. Many plastics cannot be recycled effectively and still end up in the environment."
+                    "explanation": "Biodegradable plastics can break down in various environments, including marine ecosystems, though the rate may vary depending on conditions"
                 },
                 {
-                    "text": "Using biodegradable plastics instead of regular plastics",
+                    "text": "Biodegradable plastics and traditional plastics have the same environmental impact since they both end up in oceans",
                     "isCorrect": 0,
-                    "explanation": "While biodegradable plastics break down faster, they still contribute to pollution and can harm marine life before degrading. Prevention is more effective than substitution."
-                },
-                {
-                    "text": "Cleaning up plastics that are already in the oceans",
-                    "isCorrect": 0,
-                    "explanation": "Ocean cleanup efforts, while valuable, cannot keep pace with the rate of plastic pollution. Preventing plastics from entering oceans is more effective than removing them afterward."
+                    "explanation": "Unlike traditional plastics that persist for centuries, biodegradable plastics break down relatively quickly, significantly reducing their long-term impact on marine ecosystems"
                 }
             ],
-            "funFact": "The Great Pacific Garbage Patch, a collection of marine debris in the North Pacific Ocean, is so large it covers an area roughly three times the size of France. Much of this debris consists of microplastics that are nearly impossible to clean up."
+            "funFact": "Some innovative companies are now developing biodegradable plastics from seaweed and algae, which not only decompose naturally in marine environments but also support ocean farming communities and help reduce carbon dioxide levels in the atmosphere!"
         },
         {
             "id": 8,
-            "text": "Several US states are implementing different strategies to address potential freshwater shortages. Which of the following conservation methods would be most effective in reducing residential water consumption?",
+            "text": "Scientists have observed a dramatic increase in plastic production since the 1950s. What is the most significant long-term impact of this trend on marine ecosystems?",
             "options": [
                 {
-                    "text": "Installing low-flow showerheads and turning off water while brushing teeth",
+                    "text": "Plastic production causes immediate death of marine animals through suffocation",
+                    "isCorrect": 0,
+                    "explanation": "While this can occur, it's not the most significant long-term impact. The persistent nature of plastic particles in the food chain has more widespread consequences"
+                },
+                {
+                    "text": "Plastic particles break down into smaller pieces and enter the marine food chain, affecting multiple species over time",
                     "isCorrect": 1,
-                    "explanation": "Simple behavior changes and efficient fixtures directly reduce daily water usage in homes, making a significant cumulative impact on freshwater conservation."
+                    "explanation": "As plastics persist in oceans, they break into smaller particles that are consumed by marine life, leading to bioaccumulation through the food chain and long-term ecosystem damage"
                 },
                 {
-                    "text": "Building more desalination plants to convert ocean water",
+                    "text": "Plastic waste only affects surface-dwelling marine species",
                     "isCorrect": 0,
-                    "explanation": "While desalination provides freshwater, it is expensive and energy-intensive, making it less practical as a primary conservation method for most regions."
+                    "explanation": "Plastic pollution affects marine life at all depths, not just surface-dwelling species, as particles can sink and distribute throughout the water column"
                 },
                 {
-                    "text": "Increasing water prices to discourage usage",
+                    "text": "Plastic debris only impacts coastal ecosystems",
                     "isCorrect": 0,
-                    "explanation": "Though pricing can influence behavior, it may not be as effective as direct conservation methods and could disproportionately affect lower-income households."
-                },
-                {
-                    "text": "Waiting for natural rainfall to replenish water supplies",
-                    "isCorrect": 0,
-                    "explanation": "Relying on natural precipitation alone is not a proactive conservation strategy and cannot guarantee meeting increasing water demands."
+                    "explanation": "Plastic pollution affects all marine ecosystems, not just coastal areas, as currents distribute plastic particles throughout the world's oceans"
                 }
             ],
-            "funFact": "A typical bathroom faucet runs at about 2 gallons per minute. By turning off the tap while brushing teeth, a family of four can save up to 200 gallons of water per week - that's over 10,000 gallons per year!"
+            "funFact": "The Great Pacific Garbage Patch, a collection of marine debris in the North Pacific Ocean, is estimated to be twice the size of Texas and contains over 1.8 trillion pieces of plastic!"
         },
         {
             "id": 9,
-            "text": "Which statement best evaluates the effectiveness of the Endangered Species Act (ESA) of 1973 in protecting wildlife from increasing human population pressures?",
+            "text": "Which statement best compares the environmental impact of renewable versus nonrenewable resource consumption as human populations grow?",
             "options": [
                 {
-                    "text": "The ESA has been highly effective because it completely stopped all human-wildlife conflicts and species extinctions.",
+                    "text": "Both types of resources have equal environmental impacts regardless of population size",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect as no legislation can completely stop all conflicts or extinctions. The ESA helps protect species but cannot eliminate all threats."
+                    "explanation": "The environmental impact of resource use increases with population growth, and nonrenewable resources have greater negative impacts than renewables"
                 },
                 {
-                    "text": "The ESA has shown success by providing legal protection for endangered species and their habitats while working with law enforcement to prevent poaching.",
+                    "text": "Renewable resources have a greater environmental impact because they require more land use for harvesting",
+                    "isCorrect": 0,
+                    "explanation": "While renewable resources do require land use, their overall environmental impact is generally lower than nonrenewables since they can be replenished naturally"
+                },
+                {
+                    "text": "Nonrenewable resources have a greater environmental impact because they cannot be replenished and their extraction often damages ecosystems",
                     "isCorrect": 1,
-                    "explanation": "This is correct as the ESA provides a legal framework to protect species and their habitats, and works with enforcement to prevent illegal activities like poaching."
+                    "explanation": "Nonrenewable resources like fossil fuels cause lasting environmental damage through extraction and cannot be naturally replenished at the rate we consume them"
                 },
                 {
-                    "text": "The ESA has been ineffective because it only focuses on protecting animals and ignores plant species.",
+                    "text": "Neither type of resource impacts the environment as long as consumption is regulated",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect as the ESA protects both plant and animal species that are threatened or endangered."
-                },
-                {
-                    "text": "The ESA has failed because it does not address human population growth at all.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect as while the ESA doesn't directly control population growth, it helps manage human impacts on species through habitat protection and other measures."
+                    "explanation": "All resource consumption has some environmental impact, even with regulations. The type of resource and consumption rate affect the severity of impact"
                 }
             ],
-            "funFact": "The American Bald Eagle is one of the ESA's greatest success stories - after being nearly extinct in the 1970s due to DDT pesticide use, it was removed from the endangered species list in 2007 thanks to protection and conservation efforts."
+            "funFact": "The world's largest renewable energy project is the Three Gorges Dam in China, which generates enough hydroelectric power to meet the electricity needs of 70 million households - demonstrating how renewable resources can support large populations with lower environmental impact than fossil fuels."
         },
         {
             "id": 10,
-            "text": "How does the development of biodegradable plastics made from plants demonstrate the impact of scientific innovation on reducing waste accumulation as human populations grow?",
+            "text": "During the Industrial Revolution (1750-1850), which factor contributed most significantly to the rapid increase in human population and subsequent rise in natural resource consumption?",
             "options": [
                 {
-                    "text": "Bioplastics break down more quickly in the environment, helping to reduce long-term plastic accumulation despite population growth",
+                    "text": "Advances in medical care and improved nutrition leading to longer life expectancy",
                     "isCorrect": 1,
-                    "explanation": "Bioplastics are biodegradable and decompose much faster than traditional plastics, effectively reducing waste buildup even as population and consumption increase"
+                    "explanation": "Better medical care and nutrition during this period allowed people to live longer and healthier lives, directly contributing to population growth and increased resource consumption."
                 },
                 {
-                    "text": "Bioplastics eliminate the need for any plastic production, completely solving waste problems",
+                    "text": "Growth in religious practices and beliefs",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - while bioplastics help reduce waste, they don't eliminate the need for all plastic production or completely solve waste challenges"
+                    "explanation": "Religious practices, while important culturally, were not the primary driver of population growth during the Industrial Revolution."
                 },
                 {
-                    "text": "Bioplastics are permanent solutions that never break down in the environment",
+                    "text": "Increased warfare leading to territorial expansion",
                     "isCorrect": 0,
-                    "explanation": "This contradicts the key benefit of bioplastics - their ability to biodegrade rather than remain permanently in the environment"
+                    "explanation": "While territorial expansion occurred during this period, warfare actually typically reduces population growth rather than increasing it."
                 },
                 {
-                    "text": "Bioplastics automatically reduce the human population's consumption of plastics",
+                    "text": "Development of faster transportation systems",
                     "isCorrect": 0,
-                    "explanation": "The existence of bioplastics doesn't automatically reduce consumption - it provides an alternative that breaks down better when disposed"
+                    "explanation": "While transportation improvements were important during the Industrial Revolution, they didn't directly cause the population increase as much as medical and nutritional improvements did."
                 }
             ],
-            "funFact": "Scientists have developed bioplastics from various plant sources including corn starch, cassava roots, and even algae. Some of these innovative materials can decompose in just a few months compared to traditional plastics that can take hundreds of years!"
+            "funFact": "The world population took all of human history until 1800 to reach one billion people. However, it took only 130 years to reach two billion (1930), and just 30 years to reach three billion (1960), showing the dramatic acceleration in population growth after the Industrial Revolution."
         },
         {
             "id": 11,
-            "text": "Scientists have observed a dramatic increase in plastic pollution in marine ecosystems since 1950. Which evidence best demonstrates a causal relationship between plastic production rates and harm to marine ecosystems?",
+            "text": "Which statement most accurately compares the two main methods of desalination - reverse osmosis and distillation - for producing freshwater from seawater?",
             "options": [
                 {
-                    "text": "Both plastic production and marine pollution have increased since 1950, and microplastics are found in the digestive systems of marine animals",
+                    "text": "Reverse osmosis is inexpensive and energy-efficient while distillation is costly and energy-intensive",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - both methods require significant energy and are expensive to operate, not just distillation."
+                },
+                {
+                    "text": "Reverse osmosis uses electricity while distillation uses heat, but both methods require significant energy and are expensive to operate",
                     "isCorrect": 1,
-                    "explanation": "This provides the strongest evidence for a causal relationship among the options, showing both correlation (increased production and pollution) and a potential mechanism of harm (microplastics in digestive systems), which together support a causal link between plastic production and ecosystem harm."
+                    "explanation": "This correctly identifies the key difference in how the two methods work (electricity vs heat) while noting their shared challenges of high energy requirements and costs."
                 },
                 {
-                    "text": "Global plastic production has increased exponentially since 1950",
+                    "text": "Reverse osmosis and distillation both use heat to separate salt from water and have similar operating costs",
                     "isCorrect": 0,
-                    "explanation": "While this shows a trend in production, it alone doesn't demonstrate how this affects marine ecosystems. Correlation is not enough to prove causation."
+                    "explanation": "This is incorrect - reverse osmosis uses electricity, not heat, to separate salt from water."
                 },
                 {
-                    "text": "Many marine animals are becoming endangered",
+                    "text": "Distillation produces purer water than reverse osmosis but both methods are equally energy-efficient",
                     "isCorrect": 0,
-                    "explanation": "While marine animals are becoming endangered, this fact alone doesn't establish a causal link to plastic production. Other factors could be responsible."
-                },
-                {
-                    "text": "More plastic can be found on beaches today compared to 1950",
-                    "isCorrect": 0,
-                    "explanation": "Although this shows an increase in plastic pollution, it doesn't directly demonstrate how this increase causes harm to marine ecosystems."
+                    "explanation": "This is incorrect - both methods can produce similarly pure water, and neither method is energy-efficient."
                 }
             ],
-            "funFact": "Scientists estimate that by the year 2050, there could be more plastic by weight in our oceans than fish if current trends continue. This projection has become a major driving force behind global efforts to reduce plastic consumption and improve recycling practices."
+            "funFact": "The world's largest desalination plant is the Ras Al Khair in Saudi Arabia, which can produce 1 million cubic meters of freshwater daily - enough to fill 400 Olympic-sized swimming pools!"
         },
         {
             "id": 12,
+            "text": "A city wants to implement a new environmental program to reduce its impact on natural resources. Which of the following conservation methods would be most effective in decreasing the overall human impact on the environment?",
+            "options": [
+                {
+                    "text": "Converting all waste to compost",
+                    "isCorrect": 0,
+                    "explanation": "While composting is beneficial for organic waste, it does not address the consumption of non-renewable resources or the production of non-biodegradable materials."
+                },
+                {
+                    "text": "Not creating new products and reusing existing items whenever possible",
+                    "isCorrect": 1,
+                    "explanation": "Not creating new products in the first place is the most effective way to reduce waste and conserve resources, as it eliminates the need for raw materials, energy for manufacturing, and transportation."
+                },
+                {
+                    "text": "Installing recycling bins in all public spaces",
+                    "isCorrect": 0,
+                    "explanation": "While making recycling more accessible is helpful, it does not address the root cause of resource consumption and waste generation."
+                },
+                {
+                    "text": "Recycling all plastic and paper products",
+                    "isCorrect": 0,
+                    "explanation": "While recycling is important, it still requires energy and resources to process materials. It is less effective than preventing waste creation in the first place."
+                }
+            ],
+            "funFact": "An average American generates about 4.9 pounds of waste per day. By adopting a 'zero waste' lifestyle, some individuals have managed to fit an entire year's worth of their non-recyclable, non-compostable trash into a single mason jar!"
+        },
+        {
+            "id": 13,
             "text": "A wildlife conservation biologist is studying the decline of a rare forest-dwelling mammal species in a region where human population has doubled in the past decade. Which of the following best explains how human population growth in this region most likely affects the survival of this species?",
             "options": [
                 {
-                    "text": "The increased human population requires more land for housing and agriculture, leading to habitat loss and fragmentation that threatens the species' survival",
-                    "isCorrect": 1,
-                    "explanation": "As human populations grow, natural habitats are often converted for human use, directly reducing and fragmenting the available space for wildlife to live and find resources"
+                    "text": "The increased human population has no effect on the species since wildlife naturally adapts to human presence over time",
+                    "isCorrect": 0,
+                    "explanation": "Most species cannot adapt quickly enough to rapid habitat changes caused by human population growth, especially rare species with specific habitat requirements"
                 },
                 {
                     "text": "The increased human population leads to more people interested in wildlife conservation, improving the species' chances of survival",
@@ -314,59 +341,22 @@
                     "explanation": "While increased awareness of conservation can be positive, the immediate negative impacts of population growth on habitats typically outweigh these benefits"
                 },
                 {
-                    "text": "The increased human population has no effect on the species since wildlife naturally adapts to human presence over time",
-                    "isCorrect": 0,
-                    "explanation": "Most species cannot adapt quickly enough to rapid habitat changes caused by human population growth, especially rare species with specific habitat requirements"
-                },
-                {
                     "text": "The increased human population only affects urban animals, not forest-dwelling species",
                     "isCorrect": 0,
                     "explanation": "Human population growth impacts extend far beyond urban areas, affecting natural habitats and wildlife through resource use, pollution, and land conversion"
+                },
+                {
+                    "text": "The increased human population requires more land for housing and agriculture, leading to habitat loss and fragmentation that threatens the species' survival",
+                    "isCorrect": 1,
+                    "explanation": "As human populations grow, natural habitats are often converted for human use, directly reducing and fragmenting the available space for wildlife to live and find resources"
                 }
             ],
             "funFact": "The world's protected areas, which are crucial for wildlife conservation, cover about 15% of Earth's land surface - an area larger than South America. However, scientists estimate we need to protect at least 30% of Earth's land and ocean areas to effectively preserve biodiversity."
         },
         {
-            "id": 13,
-            "text": "In the United States, freshwater consumption has tripled over the past 50 years while the population has doubled. Given these trends in population growth and water consumption, what is the most likely scenario for freshwater availability in the United States by 2030?",
-            "options": [
-                {
-                    "text": "A majority of states will likely experience water shortages while water consumption continues to increase",
-                    "isCorrect": 1,
-                    "explanation": "This prediction aligns with current data showing U.S. freshwater consumption has tripled while population has doubled, leading to projected widespread shortages across many states"
-                },
-                {
-                    "text": "Increased rainfall will naturally replenish all freshwater sources to meet growing demands",
-                    "isCorrect": 0,
-                    "explanation": "This incorrectly assumes natural replenishment can keep pace with rapidly increasing consumption rates, which is not supported by current data"
-                },
-                {
-                    "text": "Desalination technology will fully solve freshwater shortage issues",
-                    "isCorrect": 0,
-                    "explanation": "While desalination exists, it remains expensive and energy-intensive, currently supporting only about 1% of global water needs"
-                },
-                {
-                    "text": "Water consumption rates will naturally decrease as population increases",
-                    "isCorrect": 0,
-                    "explanation": "Historical data shows the opposite - per capita water consumption has actually increased alongside population growth"
-                }
-            ],
-            "funFact": "While oceans contain 97% of Earth's water, converting it to freshwater through desalination requires about 10 times more energy than conventional freshwater processing methods!"
-        },
-        {
             "id": 14,
             "text": "Which statement best compares the environmental impact of traditional plastics versus bioplastics?",
             "options": [
-                {
-                    "text": "Many bioplastics can break down faster than traditional plastics under proper conditions, while traditional plastics typically remain for centuries, potentially making bioplastics a more sustainable solution",
-                    "isCorrect": 1,
-                    "explanation": "Many bioplastics are designed to be biodegradable and can decompose much more quickly than traditional plastics under proper conditions (such as industrial composting facilities), reducing long-term environmental accumulation compared to traditional plastics, which can persist for centuries"
-                },
-                {
-                    "text": "Traditional plastics and bioplastics have the same environmental impact since they are both types of plastic materials",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because traditional plastics and bioplastics have very different decomposition rates and environmental impacts"
-                },
                 {
                     "text": "Traditional plastics are better for the environment because they can be recycled multiple times",
                     "isCorrect": 0,
@@ -376,36 +366,46 @@
                     "text": "Bioplastics are worse for the environment because they require agricultural land to produce plant materials",
                     "isCorrect": 0,
                     "explanation": "While bioplastics do require agricultural resources, their faster decomposition rate makes them more environmentally friendly overall compared to traditional plastics"
+                },
+                {
+                    "text": "Traditional plastics and bioplastics have the same environmental impact since they are both types of plastic materials",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because traditional plastics and bioplastics have very different decomposition rates and environmental impacts"
+                },
+                {
+                    "text": "Many bioplastics can break down faster than traditional plastics under proper conditions, while traditional plastics typically remain for centuries, potentially making bioplastics a more sustainable solution",
+                    "isCorrect": 1,
+                    "explanation": "Many bioplastics are designed to be biodegradable and can decompose much more quickly than traditional plastics under proper conditions (such as industrial composting facilities), reducing long-term environmental accumulation compared to traditional plastics, which can persist for centuries"
                 }
             ],
             "funFact": "Scientists have discovered bacteria that can actually eat certain types of plastic! These plastic-eating bacteria could potentially help solve our plastic pollution problem by breaking down plastic waste in landfills and oceans."
         },
         {
             "id": 15,
-            "text": "The United States population doubled between 1970 and 2020, while freshwater consumption tripled during the same period. What does this trend indicate about per-capita water consumption?",
+            "text": "A study comparing human population density and wildlife extinction rates across different regions shows the following data:\n\nRegion A: 50 people/km\u00b2, 2 extinctions/decade\nRegion B: 200 people/km\u00b2, 8 extinctions/decade\nRegion C: 100 people/km\u00b2, 4 extinctions/decade\nRegion D: 150 people/km\u00b2, 6 extinctions/decade\n\nWhat relationship between human population density and wildlife extinction rates is supported by this data?",
             "options": [
                 {
-                    "text": "Each person is using approximately 50% more water in 2020 compared to 1970",
+                    "text": "There is no relationship between human population density and wildlife extinction rates",
+                    "isCorrect": 0,
+                    "explanation": "The data clearly shows a pattern where higher population densities correspond to higher extinction rates"
+                },
+                {
+                    "text": "Wildlife extinction rates decrease as human population density increases",
+                    "isCorrect": 0,
+                    "explanation": "This is opposite to what the data shows - extinction rates increase, not decrease, with higher population density"
+                },
+                {
+                    "text": "As human population density increases, wildlife extinction rates increase proportionally",
                     "isCorrect": 1,
-                    "explanation": "If population doubled (2x) but water use tripled (3x), then each person on average is using 3x/2x = 1.5x or 50% more water"
+                    "explanation": "The data shows a direct proportional relationship - for every increase of 50 people/km\u00b2, there is a corresponding increase of 2 extinctions/decade"
                 },
                 {
-                    "text": "Each person is using the same amount of water in 2020 as in 1970",
+                    "text": "The relationship between population density and extinction rates is random",
                     "isCorrect": 0,
-                    "explanation": "If per-capita usage remained same, total water use would have only doubled like the population, not tripled"
-                },
-                {
-                    "text": "Each person is using approximately 25% more water in 2020 compared to 1970",
-                    "isCorrect": 0,
-                    "explanation": "This underestimates the increase - the tripling of total water use with doubled population means per-person use increased by 50%"
-                },
-                {
-                    "text": "Each person is using approximately 100% more water in 2020 compared to 1970",
-                    "isCorrect": 0,
-                    "explanation": "This overestimates the increase - while total water use tripled, accounting for population doubling means per-person increase was 50%"
+                    "explanation": "The data shows a clear pattern, not random variation"
                 }
             ],
-            "funFact": "The average American household uses around 300 gallons of water per day, with about 70% of this being used indoors. Installing water-efficient fixtures and appliances can reduce indoor water use by about 20%."
+            "funFact": "The dodo bird, which went extinct in 1662, is one of the earliest documented cases of human activity directly causing a species extinction. The arrival of sailors on Mauritius led to hunting of the birds and introduction of invasive species, leading to their disappearance in less than a century."
         }
     ]
 }

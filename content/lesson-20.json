@@ -7,14 +7,9 @@
             "text": "In a forest ecosystem, two squirrels living in the same area both need a safe place to store their acorns for winter. Which resource are these squirrels primarily competing for?",
             "options": [
                 {
-                    "text": "Food storage sites",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Squirrels need safe places to store their food for winter. They often bury acorns in the ground and use tree hollows or other hiding spots. When multiple squirrels live in the same area, they compete for these limited caching locations."
-                },
-                {
-                    "text": "Sunlight",
+                    "text": "Temperature",
                     "isCorrect": 0,
-                    "explanation": "While sunlight is an important resource in ecosystems, squirrels don't directly compete for sunlight. Plants are the organisms that primarily compete for sunlight."
+                    "explanation": "Temperature is an environmental condition rather than a resource that organisms compete for. All organisms in an area experience the same temperature."
                 },
                 {
                     "text": "Air",
@@ -22,9 +17,14 @@
                     "explanation": "Air is not a limited resource in this scenario. There is typically enough air available for all organisms in a forest ecosystem."
                 },
                 {
-                    "text": "Temperature",
+                    "text": "Sunlight",
                     "isCorrect": 0,
-                    "explanation": "Temperature is an environmental condition rather than a resource that organisms compete for. All organisms in an area experience the same temperature."
+                    "explanation": "While sunlight is an important resource in ecosystems, squirrels don't directly compete for sunlight. Plants are the organisms that primarily compete for sunlight."
+                },
+                {
+                    "text": "Food storage sites",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Squirrels need safe places to store their food for winter. They often bury acorns in the ground and use tree hollows or other hiding spots. When multiple squirrels live in the same area, they compete for these limited caching locations."
                 }
             ],
             "funFact": "Squirrels have excellent spatial memory and can remember the locations of thousands of nuts they've buried. They often create 'fake' burials to trick other animals that might be watching them hide their food!"
@@ -34,9 +34,9 @@
             "text": "In a forest ecosystem, if there is a sudden decrease in the availability of nuts and berries that small mammals feed on, what would most likely happen to the population of these mammals?",
             "options": [
                 {
-                    "text": "The population would decrease due to limited food resources",
-                    "isCorrect": 1,
-                    "explanation": "When food resources become scarce, fewer individuals can survive and reproduce, leading to a decline in population"
+                    "text": "The population would migrate but maintain its size",
+                    "isCorrect": 0,
+                    "explanation": "While some animals might migrate, the overall population would still decrease if insufficient resources are available in the new location"
                 },
                 {
                     "text": "The population would increase as animals adapt to eat different foods",
@@ -49,9 +49,9 @@
                     "explanation": "Population sizes are directly affected by resource availability and cannot remain stable when essential resources become scarce"
                 },
                 {
-                    "text": "The population would migrate but maintain its size",
-                    "isCorrect": 0,
-                    "explanation": "While some animals might migrate, the overall population would still decrease if insufficient resources are available in the new location"
+                    "text": "The population would decrease due to limited food resources",
+                    "isCorrect": 1,
+                    "explanation": "When food resources become scarce, fewer individuals can survive and reproduce, leading to a decline in population"
                 }
             ],
             "funFact": "Scientists have observed that squirrel populations can fluctuate by up to 100 times between years of abundant acorn production (called 'mast years') and years of scarcity, showing just how dramatically resource availability can affect animal populations!"
@@ -61,14 +61,14 @@
             "text": "A group of seedlings are growing under a large tree in a forest. Which scenario best demonstrates how limited resources affect their growth?",
             "options": [
                 {
-                    "text": "The seedlings grow taller but thinner than normal as they compete for sunlight reaching through the tree canopy",
-                    "isCorrect": 1,
-                    "explanation": "Plants growing in low-light conditions often grow taller and thinner than normal as they stretch toward available sunlight, demonstrating how limited light resources affect plant growth patterns."
-                },
-                {
                     "text": "The seedlings grow exactly the same as they would in full sunlight because they adapt completely to shade",
                     "isCorrect": 0,
                     "explanation": "Plants cannot completely adapt to insufficient light - they will show reduced or altered growth when light is limited, rather than growing normally."
+                },
+                {
+                    "text": "The seedlings grow taller but thinner than normal as they compete for sunlight reaching through the tree canopy",
+                    "isCorrect": 1,
+                    "explanation": "Plants growing in low-light conditions often grow taller and thinner than normal as they stretch toward available sunlight, demonstrating how limited light resources affect plant growth patterns."
                 },
                 {
                     "text": "The seedlings stop growing entirely until the large tree drops its leaves",
@@ -85,13 +85,35 @@
         },
         {
             "id": 4,
-            "text": "In a coastal ecosystem, a severe flood occurs during a storm. Which of the following best describes how this environmental factor would affect the ecosystem's resources?",
+            "text": "Which example best demonstrates how genetic traits can affect an organism's ability to obtain food?",
             "options": [
                 {
-                    "text": "The flood would wash away plants and destroy animal shelters, disrupting the food supply and habitat availability for many organisms.",
-                    "isCorrect": 1,
-                    "explanation": "Floods can remove vegetation and destroy shelters, directly impacting the available resources that organisms need for survival, affecting both food chains and habitat availability."
+                    "text": "A bear learning which berries are safe to eat",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because learning which foods are safe is a learned behavior, not a genetic trait."
                 },
+                {
+                    "text": "A wolf living in a pack to hunt",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because pack behavior is a social adaptation, not a genetic trait that directly affects food acquisition ability."
+                },
+                {
+                    "text": "A squirrel storing nuts for winter",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because food storage behavior is an instinct or learned behavior, not a genetic trait that affects food acquisition."
+                },
+                {
+                    "text": "A cheetah with longer legs being able to run faster to catch prey",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because leg length is a genetic trait that directly affects a cheetah's running speed, which determines its ability to catch prey and obtain food."
+                }
+            ],
+            "funFact": "Cheetahs have specialized genetic adaptations beyond just leg length that help them catch prey - their enlarged heart, lungs, and nostrils allow them to reach speeds of up to 70 mph in just 3 seconds!"
+        },
+        {
+            "id": 5,
+            "text": "In a coastal ecosystem, a severe flood occurs during a storm. Which of the following best describes how this environmental factor would affect the ecosystem's resources?",
+            "options": [
                 {
                     "text": "The flood would create more resources by bringing in additional water that all organisms can use.",
                     "isCorrect": 0,
@@ -106,72 +128,104 @@
                     "text": "The flood would only affect aquatic organisms, leaving all other resources unchanged.",
                     "isCorrect": 0,
                     "explanation": "Floods affect both aquatic and terrestrial environments, impacting resources for all types of organisms in the ecosystem."
+                },
+                {
+                    "text": "The flood would wash away plants and destroy animal shelters, disrupting the food supply and habitat availability for many organisms.",
+                    "isCorrect": 1,
+                    "explanation": "Floods can remove vegetation and destroy shelters, directly impacting the available resources that organisms need for survival, affecting both food chains and habitat availability."
                 }
             ],
             "funFact": "Some ecosystems have actually evolved to depend on periodic flooding! In the Amazon rainforest, annual floods create unique 'flooded forests' called v\u00e1rzea, where trees and other organisms have adapted to spend months underwater."
         },
         {
-            "id": 5,
-            "text": "In a forest ecosystem, what would most likely happen to a population of deer if there was a severe drought that caused many plants to die?",
-            "options": [
-                {
-                    "text": "The deer population would decrease due to limited food resources",
-                    "isCorrect": 1,
-                    "explanation": "When food resources become scarce, animals cannot get enough nutrients to survive and reproduce, leading to population decline"
-                },
-                {
-                    "text": "The deer population would increase as they adapt to eat different foods",
-                    "isCorrect": 0,
-                    "explanation": "Deer are herbivores specialized to eat plants. They cannot quickly adapt to eat new food types when their main food source becomes scarce"
-                },
-                {
-                    "text": "The deer population would stay the same but they would become smaller in size",
-                    "isCorrect": 0,
-                    "explanation": "While limited resources can affect individual growth, a severe shortage would impact survival and reproduction, leading to population changes"
-                },
-                {
-                    "text": "The deer population would move underground where there is more food",
-                    "isCorrect": 0,
-                    "explanation": "Deer are not adapted to live underground, and there would not be plant food sources underground for them to eat"
-                }
-            ],
-            "funFact": "During droughts, some deer species have been observed to change their daily activity patterns, becoming more active during cooler nighttime hours to conserve energy when food is scarce."
-        },
-        {
             "id": 6,
-            "text": "A scientist is studying the growth of sunflower plants in different garden plots. The plants in Plot A are spaced 12 inches apart, while plants in Plot B are spaced only 3 inches apart. After 8 weeks, which observation about the sunflowers would most likely support the relationship between space availability and plant growth?",
+            "text": "In a forest ecosystem, a new species of hawk is introduced that primarily hunts small rodents. How would this introduction most likely affect the ecosystem's plant population?",
             "options": [
                 {
-                    "text": "The plants in Plot A grew taller and had larger leaves than those in Plot B",
+                    "text": "The plant population would remain exactly the same because hawks don't interact with plants",
+                    "isCorrect": 0,
+                    "explanation": "While hawks don't directly interact with plants, they affect plant populations indirectly through their impact on plant-eating prey species"
+                },
+                {
+                    "text": "The plant population would decrease because hawks would scare away plant pollinators",
+                    "isCorrect": 0,
+                    "explanation": "While hawks might occasionally disturb pollinators, their main impact on plant populations would be through controlling plant-eating rodents"
+                },
+                {
+                    "text": "The plant population would increase because there would be fewer rodents eating seeds and young plants",
                     "isCorrect": 1,
-                    "explanation": "With more space (12 inches), plants have better access to resources like sunlight and soil nutrients, allowing them to grow larger and healthier"
+                    "explanation": "Hawks preying on rodents would reduce the rodent population, resulting in less consumption of plant materials and seeds, allowing more plants to survive and grow"
                 },
                 {
-                    "text": "The plants in both plots grew exactly the same size",
+                    "text": "The plant population would decrease because hawks would eat the plants for nutrition",
                     "isCorrect": 0,
-                    "explanation": "Plants compete for resources, so those with limited space typically show reduced growth compared to plants with adequate spacing"
-                },
-                {
-                    "text": "The plants in Plot B grew taller to compete for sunlight",
-                    "isCorrect": 0,
-                    "explanation": "While plants may grow taller seeking light, overall growth is still limited by the restricted access to water and nutrients in crowded conditions"
-                },
-                {
-                    "text": "The spacing between plants had no effect on their growth",
-                    "isCorrect": 0,
-                    "explanation": "Space availability directly affects a plant's access to essential resources, which impacts its growth and development"
+                    "explanation": "Hawks are carnivores and do not eat plants. This shows a misunderstanding of predator feeding habits"
                 }
             ],
-            "funFact": "Professional gardeners often use the 'Square Foot Gardening' method, which determines optimal plant spacing based on the mature size of different vegetables and flowers. For example, one square foot can support 16 carrots but only one cabbage plant!"
+            "funFact": "Some hawk species can spot small prey from up to a mile away, thanks to their exceptional eyesight which is about 8 times more powerful than human vision. This makes them incredibly efficient at controlling rodent populations in ecosystems."
         },
         {
             "id": 7,
+            "text": "A group of feral pigs has recently established itself in a forest ecosystem where they compete with deer for acorns as a food source. Based on the principles of resource competition, what is the most likely effect on the deer population over time?",
+            "options": [
+                {
+                    "text": "The deer population will increase as they adapt to eating different foods",
+                    "isCorrect": 0,
+                    "explanation": "While deer can eat other foods, sudden adaptation doesn't happen quickly enough to prevent population impacts from resource competition."
+                },
+                {
+                    "text": "The deer population will remain stable because they can migrate elsewhere",
+                    "isCorrect": 0,
+                    "explanation": "Migration alone doesn't solve the resource competition problem, as suitable habitats are often already occupied by other deer populations."
+                },
+                {
+                    "text": "The deer population will likely decrease due to reduced access to acorns",
+                    "isCorrect": 1,
+                    "explanation": "When invasive species compete for limited resources, the native species often experience population decline due to reduced access to essential food sources."
+                },
+                {
+                    "text": "The deer population will grow faster to outcompete the pigs",
+                    "isCorrect": 0,
+                    "explanation": "Population growth requires abundant resources - with increased competition, deer would have fewer resources to support reproduction."
+                }
+            ],
+            "funFact": "A single feral pig can consume up to 1,200 pounds of acorns in one season, which is enough food to sustain several deer through winter months. This shows how dramatically invasive species can impact resource availability."
+        },
+        {
+            "id": 8,
+            "text": "A grassland ecosystem experiences a severe drought, causing many grass species to die off. What is the most likely effect on the rabbit population that primarily feeds on these grasses?",
+            "options": [
+                {
+                    "text": "The rabbit population will decrease due to limited food resources",
+                    "isCorrect": 1,
+                    "explanation": "Since rabbits depend on grass for food, a reduction in grass populations will limit their food resources, leading to decreased survival and reproduction rates."
+                },
+                {
+                    "text": "The rabbit population will remain stable by finding other food sources",
+                    "isCorrect": 0,
+                    "explanation": "While rabbits might find some alternative food, the significant reduction in their primary food source will impact their population size."
+                },
+                {
+                    "text": "The rabbit population will migrate to different ecosystems with no population change",
+                    "isCorrect": 0,
+                    "explanation": "While some rabbits might move, the overall population would still be affected by the reduced food availability, and not all rabbits would successfully relocate."
+                },
+                {
+                    "text": "The rabbit population will increase as they adapt to eat other plants",
+                    "isCorrect": 0,
+                    "explanation": "Immediate adaptation to new food sources is unlikely. Population changes are primarily driven by resource availability rather than rapid adaptations."
+                }
+            ],
+            "funFact": "Rabbits play important roles in grassland ecosystems as herbivores. Changes in their population can affect both their predators (like foxes and hawks) and their plant food sources, demonstrating the interconnected nature of food webs and energy flow through ecosystems."
+        },
+        {
+            "id": 9,
             "text": "Two gazelles are running to reach food in the savanna. Gazelle A can run at 60 mph while Gazelle B can run at 45 mph due to their genetic differences. If both gazelles spot a patch of fresh grass at the same time and distance, what is most likely to happen?",
             "options": [
                 {
-                    "text": "Gazelle A will reach the food first and have a better chance of survival",
-                    "isCorrect": 1,
-                    "explanation": "The faster running speed is an advantageous genetic trait that allows Gazelle A to better compete for resources, improving its survival chances"
+                    "text": "Gazelle B will find different food elsewhere",
+                    "isCorrect": 0,
+                    "explanation": "While animals may seek alternative food sources, the immediate competition scenario is about which animal reaches the spotted food first"
                 },
                 {
                     "text": "Both gazelles will share the food equally",
@@ -179,9 +233,9 @@
                     "explanation": "In competition for limited resources, animals with better genetic traits (like speed) typically gain advantage over others"
                 },
                 {
-                    "text": "Gazelle B will find different food elsewhere",
-                    "isCorrect": 0,
-                    "explanation": "While animals may seek alternative food sources, the immediate competition scenario is about which animal reaches the spotted food first"
+                    "text": "Gazelle A will reach the food first and have a better chance of survival",
+                    "isCorrect": 1,
+                    "explanation": "The faster running speed is an advantageous genetic trait that allows Gazelle A to better compete for resources, improving its survival chances"
                 },
                 {
                     "text": "Running speed doesn't affect their ability to get food",
@@ -192,180 +246,40 @@
             "funFact": "Gazelles can sustain speeds of up to 60 mph in short bursts and can maintain speeds of 30-40 mph for longer distances. This incredible speed evolved primarily as a survival mechanism for escaping predators, though it also helps them reach food resources before competitors!"
         },
         {
-            "id": 8,
-            "text": "In a forest ecosystem, a new species of hawk is introduced that primarily hunts small rodents. How would this introduction most likely affect the ecosystem's plant population?",
-            "options": [
-                {
-                    "text": "The plant population would increase because there would be fewer rodents eating seeds and young plants",
-                    "isCorrect": 1,
-                    "explanation": "Hawks preying on rodents would reduce the rodent population, resulting in less consumption of plant materials and seeds, allowing more plants to survive and grow"
-                },
-                {
-                    "text": "The plant population would decrease because hawks would eat the plants for nutrition",
-                    "isCorrect": 0,
-                    "explanation": "Hawks are carnivores and do not eat plants. This shows a misunderstanding of predator feeding habits"
-                },
-                {
-                    "text": "The plant population would remain exactly the same because hawks don't interact with plants",
-                    "isCorrect": 0,
-                    "explanation": "While hawks don't directly interact with plants, they affect plant populations indirectly through their impact on plant-eating prey species"
-                },
-                {
-                    "text": "The plant population would decrease because hawks would scare away plant pollinators",
-                    "isCorrect": 0,
-                    "explanation": "While hawks might occasionally disturb pollinators, their main impact on plant populations would be through controlling plant-eating rodents"
-                }
-            ],
-            "funFact": "Some hawk species can spot small prey from up to a mile away, thanks to their exceptional eyesight which is about 8 times more powerful than human vision. This makes them incredibly efficient at controlling rodent populations in ecosystems."
-        },
-        {
-            "id": 9,
-            "text": "A severe storm damaged many trees in a forest, reducing the available nesting spots for birds. Originally, there were three bird species - woodpeckers, bluebirds, and owls - each with a population of about 100 birds. The remaining trees can only support nests for about 150 birds total. What is most likely to happen to these bird populations over time?",
-            "options": [
-                {
-                    "text": "The populations of all three bird species will decrease equally to about 50 birds each",
-                    "isCorrect": 0,
-                    "explanation": "Competition for resources rarely results in equal population changes. Some species are better adapted to compete for specific resources than others."
-                },
-                {
-                    "text": "The species best adapted to the available nesting conditions will maintain a larger population while others will decline more significantly",
-                    "isCorrect": 1,
-                    "explanation": "When resources are limited, species with adaptations best suited to the available resources will be more successful in competition, leading to uneven population changes."
-                },
-                {
-                    "text": "The bird populations will remain unchanged because they will find other places to nest",
-                    "isCorrect": 0,
-                    "explanation": "Limited resources directly affect population sizes. Birds cannot maintain the same population levels with significantly reduced nesting spots."
-                },
-                {
-                    "text": "All three species will immediately leave the area to find a new forest",
-                    "isCorrect": 0,
-                    "explanation": "While some birds might relocate, entire populations don't typically abandon their habitat at once, even with reduced resources."
-                }
-            ],
-            "funFact": "Birds can show remarkable adaptability in nesting behavior. For example, some urban birds have learned to use building structures, traffic lights, and even air conditioning units as alternative nesting sites when natural options are limited."
-        },
-        {
             "id": 10,
-            "text": "A severe drought has struck a grassland ecosystem, significantly reducing the water availability. Which of the following changes would most likely occur in the animal populations?",
+            "text": "A scientist studied a population of rabbits in a grassland ecosystem over several years. During the first two years, there was abundant grass and the rabbit population increased from 50 to 200. In the third year, a drought occurred, reducing the available grass, and the rabbit population decreased to 75. What conclusion can be drawn about the relationship between resource availability and population growth in this ecosystem?",
             "options": [
                 {
-                    "text": "All animal populations would decrease at the same rate",
-                    "isCorrect": 0,
-                    "explanation": "Different species have different water requirements and adaptations, so they would not be affected equally by the drought"
-                },
-                {
-                    "text": "Large predators would increase while prey species decrease",
-                    "isCorrect": 0,
-                    "explanation": "Predator populations typically decrease when prey populations decrease due to resource limitations"
-                },
-                {
-                    "text": "Animals that require less water would have an advantage over those needing more water",
+                    "text": "When grass was abundant, the rabbit population grew, and when grass became scarce during the drought, the population declined",
                     "isCorrect": 1,
-                    "explanation": "Species that can survive with less water would be better adapted to drought conditions and would have a competitive advantage"
+                    "explanation": "This correctly shows the cause-and-effect relationship between resource availability (grass) and population size. More resources led to population growth, while fewer resources caused population decline."
                 },
                 {
-                    "text": "All animals would migrate to new areas, leaving the ecosystem empty",
+                    "text": "The rabbit population changes were random and had no connection to the amount of available grass",
                     "isCorrect": 0,
-                    "explanation": "While some animals might migrate, not all species have this capability, and some would adapt to the changed conditions"
+                    "explanation": "This incorrectly suggests there is no relationship between resource availability and population size, when the data clearly shows population changes corresponding to resource changes."
+                },
+                {
+                    "text": "The amount of grass had no effect because rabbits can eat other food sources",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly assumes that alternative food sources would prevent population decline, when the data shows the population was clearly affected by the grass availability."
+                },
+                {
+                    "text": "The drought caused the rabbit population to increase because it made the rabbits reproduce faster",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly suggests that resource scarcity leads to population growth, when actually limited resources restrict population growth and reproduction."
                 }
             ],
-            "funFact": "Some desert animals like kangaroo rats can survive without drinking water at all - they get all the moisture they need from the seeds they eat through a process called metabolic water production!"
+            "funFact": "Rabbit populations can double in size every 4-5 weeks under ideal conditions with plenty of food, but in nature, resource availability and other environmental factors keep their populations in check. This natural regulation helps maintain balance in ecosystems."
         },
         {
             "id": 11,
-            "text": "A non-native species of beetle has been introduced to a forest ecosystem. This beetle has no natural predators in the area and feeds on the same berries that local bird species rely on. What is the most likely long-term impact on the forest ecosystem?",
-            "options": [
-                {
-                    "text": "The beetle population will increase rapidly and deplete the berry resources, leading to a decline in native bird populations",
-                    "isCorrect": 1,
-                    "explanation": "Without natural predators to control its numbers and competing for the same food source, the beetle population will grow unchecked, reducing food availability for native birds"
-                },
-                {
-                    "text": "The birds and beetles will adapt to share the berries equally",
-                    "isCorrect": 0,
-                    "explanation": "Resource competition doesn't typically result in equal sharing - species with advantages (like no predators) often dominate resources"
-                },
-                {
-                    "text": "The birds will quickly adapt to eat the beetles instead of berries",
-                    "isCorrect": 0,
-                    "explanation": "Species cannot rapidly change their food preferences and adaptations - evolutionary changes take many generations"
-                },
-                {
-                    "text": "The beetle population will naturally decrease after one season",
-                    "isCorrect": 0,
-                    "explanation": "Without predators or other limiting factors, invasive species populations typically continue to grow until resources are depleted"
-                }
-            ],
-            "funFact": "The European starling, introduced to North America in the 1890s, is one of the most successful invasive bird species. With few natural predators, its population grew from 100 birds to over 200 million, significantly impacting native bird species through competition for food and nesting sites."
-        },
-        {
-            "id": 12,
-            "text": "Two species of small rodents that eat the same types of seeds live in a grassland ecosystem. Initially, there is plenty of space and food for both species. What would most likely happen if their habitat became limited due to urban development reducing the available space by 75%?",
-            "options": [
-                {
-                    "text": "Both species would continue to thrive without any significant changes to their populations",
-                    "isCorrect": 0,
-                    "explanation": "With severely reduced space, the species would face intense competition for resources, making it unlikely for both populations to maintain their original sizes."
-                },
-                {
-                    "text": "The species that is better adapted to the environment would likely maintain a more stable population while the other species would decline",
-                    "isCorrect": 1,
-                    "explanation": "When space becomes limited, competition intensifies and the species with better adaptations (like more efficient foraging or better hiding abilities) would have an advantage in survival and reproduction."
-                },
-                {
-                    "text": "Both species would immediately become extinct",
-                    "isCorrect": 0,
-                    "explanation": "While population decline would likely occur, immediate extinction is extreme. Species can often persist at lower population levels even with reduced resources."
-                },
-                {
-                    "text": "The two species would evolve rapidly to eat different foods",
-                    "isCorrect": 0,
-                    "explanation": "Evolution occurs over many generations and would not provide an immediate solution to the space limitation problem."
-                }
-            ],
-            "funFact": "In nature, a phenomenon called 'competitive exclusion' occurs when two species compete for exactly the same resources in the same habitat - usually one species will eventually outcompete the other unless they develop different niches or ways of using the resources."
-        },
-        {
-            "id": 13,
-            "text": "A population of gray wolves lives in a forest where rabbits are their primary food source. Some wolves can run faster than others due to genetic traits they inherited. How would this genetic variation likely affect the wolves' survival when rabbit populations are low?",
-            "options": [
-                {
-                    "text": "Faster wolves would have a better chance of catching the limited prey and surviving",
-                    "isCorrect": 1,
-                    "explanation": "When resources are scarce, genetic traits like speed give organisms a competitive advantage in catching food, increasing their chances of survival"
-                },
-                {
-                    "text": "All wolves would have equal chances of survival regardless of speed",
-                    "isCorrect": 0,
-                    "explanation": "During resource scarcity, genetic differences in hunting ability create survival advantages - slower wolves would struggle more to catch limited prey"
-                },
-                {
-                    "text": "Slower wolves would conserve more energy and survive longer",
-                    "isCorrect": 0,
-                    "explanation": "While conserving energy can be beneficial, the ability to successfully catch prey is more critical for survival when food is scarce"
-                },
-                {
-                    "text": "Wolf speed would not affect hunting success with rabbits",
-                    "isCorrect": 0,
-                    "explanation": "Speed is a crucial genetic trait for predator success, especially when prey is limited - faster wolves would be more successful hunters"
-                }
-            ],
-            "funFact": "Gray wolves can reach speeds of up to 40 miles per hour when chasing prey! This impressive running speed has evolved over thousands of years through natural selection, with faster wolves being more successful hunters and passing these genes to their offspring."
-        },
-        {
-            "id": 14,
             "text": "In a desert ecosystem, there are two species of drought-resistant plants: Species A has deep roots that can reach underground water sources, while Species B has shallow roots but can store water in its leaves. During a prolonged drought period, which species is more likely to survive and why?",
             "options": [
                 {
                     "text": "Species A, because it can consistently access water from deep underground sources even during drought periods",
                     "isCorrect": 1,
                     "explanation": "Plants with deep root systems can access water sources that remain available even during drought conditions, providing a more reliable water supply for survival"
-                },
-                {
-                    "text": "Species B, because stored water in leaves will last longer than underground water sources",
-                    "isCorrect": 0,
-                    "explanation": "While water storage in leaves is helpful for short-term survival, it is a limited resource that will eventually be depleted during prolonged drought conditions"
                 },
                 {
                     "text": "Both species will survive equally well because they are both drought-resistant",
@@ -376,36 +290,122 @@
                     "text": "Neither species will survive because desert conditions are too harsh",
                     "isCorrect": 0,
                     "explanation": "Desert plants have evolved various adaptations that allow them to survive in harsh conditions, and access to water resources, even limited ones, can support survival"
+                },
+                {
+                    "text": "Species B, because stored water in leaves will last longer than underground water sources",
+                    "isCorrect": 0,
+                    "explanation": "While water storage in leaves is helpful for short-term survival, it is a limited resource that will eventually be depleted during prolonged drought conditions"
                 }
             ],
             "funFact": "The Welwitschia plant, found in the Namib Desert, has an impressive root system that can extend up to 30 meters deep to access underground water sources. Some desert plants like mesquite can have roots reaching depths of over 50 meters!"
         },
         {
-            "id": 15,
-            "text": "A population of deer lives in a forest where their main food source is grass and small plants. In spring, there is abundant food available, but in winter, heavy snow covers most of the vegetation. How would these different food conditions most likely affect the deer population?",
+            "id": 12,
+            "text": "A non-native species of beetle has been introduced to a forest ecosystem. This beetle has no natural predators in the area and feeds on the same berries that local bird species rely on. What is the most likely long-term impact on the forest ecosystem?",
             "options": [
                 {
-                    "text": "The deer population will likely increase in spring and decrease in winter due to food availability",
+                    "text": "The beetle population will increase rapidly and deplete the berry resources, leading to a decline in native bird populations",
                     "isCorrect": 1,
-                    "explanation": "When food is abundant in spring, deer can grow and reproduce more successfully, leading to population growth. In winter, limited food resources cause competition and reduced survival rates."
+                    "explanation": "Without natural predators to control its numbers and competing for the same food source, the beetle population will grow unchecked, reducing food availability for native birds"
                 },
                 {
-                    "text": "The deer population will remain constant throughout the year regardless of food availability",
+                    "text": "The beetle population will naturally decrease after one season",
                     "isCorrect": 0,
-                    "explanation": "Population sizes are directly affected by resource availability. When resources are scarce, populations typically decline due to increased competition and reduced survival."
+                    "explanation": "Without predators or other limiting factors, invasive species populations typically continue to grow until resources are depleted"
                 },
                 {
-                    "text": "The deer population will grow faster in winter when they need more food to survive",
+                    "text": "The birds and beetles will adapt to share the berries equally",
                     "isCorrect": 0,
-                    "explanation": "Population growth is limited by resource availability. When food is scarce in winter, deer populations typically decline rather than grow due to increased competition and mortality."
+                    "explanation": "Resource competition doesn't typically result in equal sharing - species with advantages (like no predators) often dominate resources"
                 },
                 {
-                    "text": "The deer population will decrease in spring and increase in winter as they adapt to the conditions",
+                    "text": "The birds will quickly adapt to eat the beetles instead of berries",
                     "isCorrect": 0,
-                    "explanation": "While animals can adapt to different conditions, population growth is primarily determined by resource availability. Limited winter resources typically lead to population decline, not growth."
+                    "explanation": "Species cannot rapidly change their food preferences and adaptations - evolutionary changes take many generations"
                 }
             ],
-            "funFact": "Deer have developed a fascinating adaptation to winter food scarcity - their metabolism actually slows down during winter months, allowing them to survive on fewer calories when food is harder to find!"
+            "funFact": "The European starling, introduced to North America in the 1890s, is one of the most successful invasive bird species. With few natural predators, its population grew from 100 birds to over 200 million, significantly impacting native bird species through competition for food and nesting sites."
+        },
+        {
+            "id": 13,
+            "text": "A wildlife biologist is studying two populations of deer in different areas. In Area A, there is abundant vegetation and water sources. In Area B, there is limited vegetation and fewer water sources. Which statement best describes the likely difference in population growth between these two areas?",
+            "options": [
+                {
+                    "text": "The deer population in Area A will likely grow faster due to greater resource availability",
+                    "isCorrect": 1,
+                    "explanation": "With abundant food and water, the deer in Area A have better access to essential resources, leading to better survival rates and reproduction potential"
+                },
+                {
+                    "text": "Neither population will grow because deer populations remain constant",
+                    "isCorrect": 0,
+                    "explanation": "Population sizes are not constant - they change based on environmental factors, particularly resource availability"
+                },
+                {
+                    "text": "The deer population in Area B will grow faster to compensate for limited resources",
+                    "isCorrect": 0,
+                    "explanation": "Limited resources actually restrict population growth rather than accelerating it, as organisms struggle to survive and reproduce"
+                },
+                {
+                    "text": "Both populations will grow at the same rate regardless of resource availability",
+                    "isCorrect": 0,
+                    "explanation": "Resource availability directly affects population growth - populations with limited resources cannot grow as quickly as those with abundant resources"
+                }
+            ],
+            "funFact": "White-tailed deer populations can double in size every two years under ideal conditions with abundant resources, but their growth is naturally limited by factors like food availability and predation"
+        },
+        {
+            "id": 14,
+            "text": "In a forest ecosystem, there is a sudden decrease in the rabbit population due to disease. How would this change most likely affect the energy transfer through the food web?",
+            "options": [
+                {
+                    "text": "Energy transfer would remain exactly the same",
+                    "isCorrect": 0,
+                    "explanation": "Energy transfer in a food web changes when population sizes change, as less energy moves between trophic levels when a population decreases."
+                },
+                {
+                    "text": "All plant populations would increase dramatically",
+                    "isCorrect": 0,
+                    "explanation": "While some plant species eaten by rabbits might increase, not all plants are consumed by rabbits, and other herbivores still affect plant populations."
+                },
+                {
+                    "text": "Fox populations would likely decrease due to reduced food availability",
+                    "isCorrect": 1,
+                    "explanation": "Since foxes prey on rabbits, a decrease in rabbit population means less available food for foxes, leading to a likely decrease in fox population due to resource scarcity."
+                },
+                {
+                    "text": "Plants would receive less sunlight energy",
+                    "isCorrect": 0,
+                    "explanation": "Plant energy absorption from sunlight is not directly affected by rabbit population changes, as this is determined by available sunlight and photosynthetic capacity."
+                }
+            ],
+            "funFact": "Rabbits can affect entire ecosystems even beyond their direct predators and food sources. In Australia, the introduction of rabbits led to widespread changes in plant communities and affected soil structure, showing how one species can transform an entire ecosystem."
+        },
+        {
+            "id": 15,
+            "text": "A severe flood affects a forest ecosystem. Which of the following is most likely to be the FIRST impact on the ecosystem's populations?",
+            "options": [
+                {
+                    "text": "Top predators like wolves will immediately migrate to other regions",
+                    "isCorrect": 0,
+                    "explanation": "While flooding may eventually affect predator populations, they are not typically the first to be impacted as they can temporarily adapt or move to higher ground."
+                },
+                {
+                    "text": "Insect populations will completely disappear from the area",
+                    "isCorrect": 0,
+                    "explanation": "While flooding affects insect populations, many insects can survive floods by moving to higher ground or entering dormant stages. Complete disappearance is unlikely."
+                },
+                {
+                    "text": "Plant populations will be reduced due to water damage and uprooting",
+                    "isCorrect": 1,
+                    "explanation": "Plants are directly impacted by flooding as they cannot move away from the water. Their damage or loss creates a cascade of effects through the ecosystem by reducing available food and shelter resources."
+                },
+                {
+                    "text": "All animal species will experience immediate population decline",
+                    "isCorrect": 0,
+                    "explanation": "Different animal species have varying abilities to cope with floods. Some may even benefit initially from concentrated prey in smaller areas."
+                }
+            ],
+            "funFact": "Some plant species have actually evolved to benefit from periodic flooding! These flood-adapted plants, called hydrophytes, can survive underwater for extended periods and may even require occasional flooding for seed dispersal and germination."
         }
     ]
 }

@@ -4,71 +4,12 @@
     "questions": [
         {
             "id": 1,
-            "text": "Ocean waves continuously hit rocks along the shoreline. Over time, this process creates sandy beaches. How do ocean waves transform rocks into sand?",
-            "options": [
-                {
-                    "text": "The constant pounding of waves breaks down rocks into smaller and smaller pieces until they become sand-sized particles",
-                    "isCorrect": 1,
-                    "explanation": "Ocean waves repeatedly strike rocks, causing mechanical weathering that gradually breaks them into smaller pieces, eventually creating sand particles"
-                },
-                {
-                    "text": "Ocean waves dissolve rocks completely, and the minerals recrystallize as sand",
-                    "isCorrect": 0,
-                    "explanation": "While some minerals can dissolve in water, sand formation primarily occurs through physical breaking down of rocks, not dissolution and recrystallization"
-                },
-                {
-                    "text": "Ocean waves carry sand from the deep ocean and deposit it on beaches",
-                    "isCorrect": 0,
-                    "explanation": "While waves do move sand around, beach sand is primarily created by the weathering of rocks along the coast, not from deep ocean sources"
-                },
-                {
-                    "text": "Ocean waves heat up the rocks until they crumble into sand",
-                    "isCorrect": 0,
-                    "explanation": "Temperature changes can contribute to weathering, but wave action creates sand primarily through mechanical breaking of rocks, not through heating"
-                }
-            ],
-            "funFact": "The color of beach sand can vary widely depending on what type of rocks were broken down to create it. For example, beaches with black sand are often formed from weathered volcanic rocks, while pink sand beaches get their color from crushed red coral and shells!"
-        },
-        {
-            "id": 2,
-            "text": "What role does deposition play in the formation of Hawaii's black sand beaches?",
-            "options": [
-                {
-                    "text": "The eroded lava material is carried by water and wind, then settles to form black sand deposits on the beaches",
-                    "isCorrect": 1,
-                    "explanation": "As lava rock erodes, the small black particles are transported by water and wind, eventually being deposited along the shoreline to create distinctive black sand beaches"
-                },
-                {
-                    "text": "Volcanic eruptions directly create black sand on the beaches",
-                    "isCorrect": 0,
-                    "explanation": "Black sand isn't created directly from eruptions - it forms when lava rock is broken down through weathering and erosion processes over time"
-                },
-                {
-                    "text": "Ocean waves crush regular sand until it turns black",
-                    "isCorrect": 0,
-                    "explanation": "The black color comes from eroded volcanic rock, not from regular sand being crushed or changed in color by waves"
-                },
-                {
-                    "text": "Plants break down volcanic rock into black sand",
-                    "isCorrect": 0,
-                    "explanation": "While plants can contribute to weathering, the black sand formation is primarily due to water and wind erosion of volcanic rock, not plant activity"
-                }
-            ],
-            "funFact": "The black sand beaches of Hawaii aren't permanent - they're constantly changing as new sand is deposited and existing sand is carried away. Some black sand beaches have appeared or disappeared within a single human lifetime!"
-        },
-        {
-            "id": 3,
             "text": "When pieces of rock are broken down and carried by a river, what process is occurring?",
             "options": [
                 {
                     "text": "Erosion",
                     "isCorrect": 1,
                     "explanation": "Erosion is the process of moving broken-down materials from one place to another. When a river carries rock pieces, it is an example of erosion."
-                },
-                {
-                    "text": "Weathering",
-                    "isCorrect": 0,
-                    "explanation": "Weathering breaks down materials into smaller pieces but does not move them. The actual movement is called erosion."
                 },
                 {
                     "text": "Deposition",
@@ -79,158 +20,190 @@
                     "text": "Melting",
                     "isCorrect": 0,
                     "explanation": "Melting is a change of state from solid to liquid. While water can cause erosion, the movement of rock pieces by water is not melting."
+                },
+                {
+                    "text": "Weathering",
+                    "isCorrect": 0,
+                    "explanation": "Weathering breaks down materials into smaller pieces but does not move them. The actual movement is called erosion."
                 }
             ],
             "funFact": "The Mississippi River carries about 500 million tons of sediment to the Gulf of Mexico each year through erosion. That's enough material to fill up 200,000 Olympic-sized swimming pools!"
         },
         {
-            "id": 4,
-            "text": "How did water erosion contribute to the formation of the Grand Canyon in Arizona?",
+            "id": 2,
+            "text": "During winter, a crack appears in a concrete sidewalk. What is the most likely explanation for how this crack formed?",
             "options": [
                 {
-                    "text": "The Colorado River gradually carved the canyon by wearing away rock layers over millions of years",
+                    "text": "Wind blew dust particles that gradually wore away the concrete",
+                    "isCorrect": 0,
+                    "explanation": "While wind erosion can wear away materials over time, it's typically not the main cause of sudden cracks in sidewalks during winter."
+                },
+                {
+                    "text": "The concrete naturally deteriorates over time due to age",
+                    "isCorrect": 0,
+                    "explanation": "While concrete does naturally weather over time, sudden cracks appearing in winter are typically caused by the freeze-thaw cycle of water."
+                },
+                {
+                    "text": "Water seeped into a small space, froze and expanded, forcing the concrete apart",
                     "isCorrect": 1,
-                    "explanation": "The Colorado River's continuous flow slowly eroded the rock layers, creating the deep canyon through the process of water erosion over millions of years"
+                    "explanation": "When water freezes, it expands by about 9%. If water gets into small cracks and then freezes, this expansion creates strong forces that can split concrete and rocks apart."
                 },
                 {
-                    "text": "A single massive flood created the canyon in a short period",
+                    "text": "Plant roots grew underneath and pushed the concrete up",
                     "isCorrect": 0,
-                    "explanation": "While floods can cause erosion, the Grand Canyon formed through gradual erosion over millions of years, not from a single flood event"
-                },
-                {
-                    "text": "Ocean waves carved out the canyon when the area was underwater",
-                    "isCorrect": 0,
-                    "explanation": "The Grand Canyon was formed by river erosion, not ocean waves. The Colorado River, not an ocean, was responsible for carving the canyon"
-                },
-                {
-                    "text": "Wind erosion was the main force that created the canyon",
-                    "isCorrect": 0,
-                    "explanation": "While wind can cause erosion, the primary force that created the Grand Canyon was water erosion from the Colorado River"
+                    "explanation": "While plant roots can cause sidewalk damage, this typically occurs slowly over growing seasons, not suddenly during winter."
                 }
             ],
-            "funFact": "The Grand Canyon is so vast that it exposes rock layers that are nearly 2 billion years old at its deepest point. These ancient rocks tell the story of Earth's history, making the canyon not just a spectacular landform, but also a unique window into our planet's past!"
+            "funFact": "This process of rocks and materials breaking apart due to freezing water is called 'frost wedging' and is so powerful it can even split boulders! In cold regions, road crews must regularly repair roads and sidewalks damaged by this process."
+        },
+        {
+            "id": 3,
+            "text": "Which statement correctly explains why granite weathers more slowly than limestone when exposed to the same environmental conditions?",
+            "options": [
+                {
+                    "text": "Granite has the same weathering rate as limestone",
+                    "isCorrect": 0,
+                    "explanation": "Different rocks weather at different rates - granite weathers much more slowly than limestone due to its composition and hardness."
+                },
+                {
+                    "text": "Granite is formed at higher temperatures which makes it weather faster",
+                    "isCorrect": 0,
+                    "explanation": "While granite does form at high temperatures, this actually makes it more resistant to weathering, not less resistant."
+                },
+                {
+                    "text": "Granite is a harder rock with tightly packed minerals that resist breakdown",
+                    "isCorrect": 1,
+                    "explanation": "Granite's hardness and tightly packed crystal structure make it more resistant to weathering processes compared to softer rocks like limestone."
+                },
+                {
+                    "text": "Granite contains more water than limestone which protects it from weathering",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - granite's resistance to weathering is due to its hardness and mineral composition, not its water content."
+                }
+            ],
+            "funFact": "The durability of granite is why it's often used in important monuments and buildings. Mount Rushmore was carved in granite because it weathers so slowly - scientists estimate the presidents' faces will erode only 1 inch every 10,000 years!"
+        },
+        {
+            "id": 4,
+            "text": "What causes cracks to form in sidewalks over time?",
+            "options": [
+                {
+                    "text": "Chemical reactions between concrete and air",
+                    "isCorrect": 0,
+                    "explanation": "While concrete can slowly react with air in a process called carbonation, this is not the main cause of sidewalk cracks. The cracks primarily form due to physical stress from temperature changes."
+                },
+                {
+                    "text": "The weight of people walking on the sidewalk",
+                    "isCorrect": 0,
+                    "explanation": "While sidewalks are designed to handle the weight of pedestrians, normal foot traffic is not the primary cause of sidewalk cracks. The main cause is temperature-related expansion and contraction."
+                },
+                {
+                    "text": "Rain washing away the concrete",
+                    "isCorrect": 0,
+                    "explanation": "While rain can cause erosion over very long periods, it is not the primary cause of typical sidewalk cracks. These cracks form mainly due to temperature-related stress in the concrete."
+                },
+                {
+                    "text": "The repeated expansion and contraction of concrete due to daily temperature changes",
+                    "isCorrect": 1,
+                    "explanation": "When concrete heats up during the day it expands, and when it cools at night it contracts. This repeated cycle of expansion and contraction creates stress in the concrete, eventually leading to cracks."
+                }
+            ],
+            "funFact": "Engineers use special expansion joints in large concrete structures like bridges and buildings to prevent damage from temperature-related expansion and contraction. These joints act like small gaps that give the concrete room to expand and contract safely!"
         },
         {
             "id": 5,
-            "text": "How do glaciers contribute to both weathering and erosion of the Earth's surface?",
+            "text": "What role does deposition play in the formation of Hawaii's black sand beaches?",
             "options": [
                 {
-                    "text": "By slowly moving across the land, picking up rocks and depositing them in new locations",
+                    "text": "Ocean waves crush regular sand until it turns black",
+                    "isCorrect": 0,
+                    "explanation": "The black color comes from eroded volcanic rock, not from regular sand being crushed or changed in color by waves"
+                },
+                {
+                    "text": "Plants break down volcanic rock into black sand",
+                    "isCorrect": 0,
+                    "explanation": "While plants can contribute to weathering, the black sand formation is primarily due to water and wind erosion of volcanic rock, not plant activity"
+                },
+                {
+                    "text": "Volcanic eruptions directly create black sand on the beaches",
+                    "isCorrect": 0,
+                    "explanation": "Black sand isn't created directly from eruptions - it forms when lava rock is broken down through weathering and erosion processes over time"
+                },
+                {
+                    "text": "The eroded lava material is carried by water and wind, then settles to form black sand deposits on the beaches",
                     "isCorrect": 1,
-                    "explanation": "Glaciers are massive ice formations that slowly move across land, breaking down rocks (weathering) and carrying these broken pieces to new locations (erosion)."
-                },
-                {
-                    "text": "By quickly melting and flooding the surrounding area",
-                    "isCorrect": 0,
-                    "explanation": "While glacial melting can cause flooding, this is not how glaciers primarily cause weathering and erosion. Their main impact comes from their slow movement across land."
-                },
-                {
-                    "text": "By freezing the ground underneath them permanently",
-                    "isCorrect": 0,
-                    "explanation": "While glaciers do freeze the ground beneath them, this is not how they contribute to weathering and erosion. Their movement and ability to transport materials are key."
-                },
-                {
-                    "text": "By creating strong winds that blow away soil",
-                    "isCorrect": 0,
-                    "explanation": "Glaciers do not create winds. They cause weathering and erosion through their physical movement and ability to transport rock materials."
+                    "explanation": "As lava rock erodes, the small black particles are transported by water and wind, eventually being deposited along the shoreline to create distinctive black sand beaches"
                 }
             ],
-            "funFact": "The largest glacier in the world is the Lambert-Fisher Glacier in Antarctica, which is about 60 miles wide and 250 miles long. This massive ice formation moves several hundred feet per year, dramatically reshaping the landscape beneath it!"
+            "funFact": "The black sand beaches of Hawaii aren't permanent - they're constantly changing as new sand is deposited and existing sand is carried away. Some black sand beaches have appeared or disappeared within a single human lifetime!"
         },
         {
             "id": 6,
-            "text": "In a desert region, strong winds consistently blow from east to west near ground level, carrying sand particles. Over thousands of years, how would these winds most likely shape large rock formations in the area?",
+            "text": "A local park is concerned about soil erosion on its hillside. Which of the following vegetation scenarios would be most effective in preventing soil erosion?",
             "options": [
                 {
-                    "text": "The rocks would be more eroded on their eastern sides",
+                    "text": "A few scattered plants with shallow roots",
+                    "isCorrect": 0,
+                    "explanation": "Scattered plants with shallow roots provide minimal protection against erosion since much of the soil remains exposed and the shallow roots don't effectively hold soil together."
+                },
+                {
+                    "text": "No vegetation to allow natural erosion processes",
+                    "isCorrect": 0,
+                    "explanation": "Bare soil with no vegetation is most susceptible to erosion as there are no roots to hold the soil in place and no plant cover to protect it from rain and wind."
+                },
+                {
+                    "text": "A dense coverage of grass and small shrubs with deep roots",
                     "isCorrect": 1,
-                    "explanation": "As the wind carries sand particles from east to west, the eastern sides of rocks would face the direct impact of wind and sand, leading to more erosion on that side."
+                    "explanation": "Dense vegetation with deep roots effectively holds soil in place. The roots create a network that binds soil particles together, while the above-ground plant parts shield the soil from rain and wind."
                 },
                 {
-                    "text": "The rocks would be equally eroded on all sides",
+                    "text": "Tall trees spaced far apart with no ground cover",
                     "isCorrect": 0,
-                    "explanation": "Since the wind consistently blows from one direction, the erosion would not be equal on all sides. The side facing the wind would experience more erosion."
-                },
-                {
-                    "text": "The rocks would be more eroded on their western sides",
-                    "isCorrect": 0,
-                    "explanation": "The western sides would actually be more protected from erosion since they face away from the wind direction. The eastern sides would face the direct impact of wind and sand."
-                },
-                {
-                    "text": "The rocks would only be eroded on their top surfaces",
-                    "isCorrect": 0,
-                    "explanation": "While the top surfaces would experience some erosion, the sides facing the wind direction would experience more significant erosion due to the direct impact of wind-carried sand particles."
+                    "explanation": "While trees help prevent erosion, widely spaced trees without ground cover leave much of the soil exposed to rain and wind, making it vulnerable to erosion."
                 }
             ],
-            "funFact": "Some of the most spectacular examples of wind erosion can be found in the Sahara Desert, where wind-carved rock formations called yardangs can reach heights of several hundred feet. These natural sculptures demonstrate how powerful wind erosion can be over long periods of time."
+            "funFact": "The roots of some prairie grasses can extend more than 15 feet deep into the soil! This extensive root system was one reason why the American Great Plains could resist the severe soil erosion during the Dust Bowl of the 1930s in areas where the native grasses remained."
         },
         {
             "id": 7,
-            "text": "A glacier is slowly moving down a mountain valley. What changes would you expect to see in the landscape after several years of glacial movement?",
+            "text": "A student is investigating soil erosion on a hillside during rainfall. The student creates three identical soil slopes with different angles: 15\u00b0, 30\u00b0, and 45\u00b0. Which slope would likely experience the fastest rate of soil erosion when exposed to the same amount of rainfall?",
             "options": [
                 {
-                    "text": "The valley will become U-shaped with smooth, rounded walls and deposited rocks at the bottom",
+                    "text": "15\u00b0 slope",
+                    "isCorrect": 0,
+                    "explanation": "A 15\u00b0 slope would experience the slowest erosion among the three options because the gentler angle reduces water flow speed, resulting in less soil being carried away."
+                },
+                {
+                    "text": "30\u00b0 slope",
+                    "isCorrect": 0,
+                    "explanation": "While a 30\u00b0 slope would experience significant erosion, it would not be as rapid as a 45\u00b0 slope because the water would flow more slowly due to the lesser angle."
+                },
+                {
+                    "text": "45\u00b0 slope",
                     "isCorrect": 1,
-                    "explanation": "Glaciers are powerful agents of erosion that scrape and smooth valley walls as they move, creating characteristic U-shaped valleys. They also deposit rocks and debris along their path."
+                    "explanation": "The steeper 45\u00b0 slope would experience the fastest erosion because water flows more quickly down steeper slopes, carrying more soil particles with it due to stronger gravitational pull."
                 },
                 {
-                    "text": "The valley will become deeper but maintain its original V-shape from water erosion",
+                    "text": "All slopes would erode at the same rate",
                     "isCorrect": 0,
-                    "explanation": "V-shaped valleys are formed by river erosion, not glaciers. Glacial movement creates distinctively U-shaped valleys through a different erosion pattern."
-                },
-                {
-                    "text": "The valley will remain unchanged since glaciers move too slowly to cause erosion",
-                    "isCorrect": 0,
-                    "explanation": "Though glaciers move slowly, they are very powerful and can cause significant erosion over time due to their massive weight and continuous movement."
-                },
-                {
-                    "text": "The valley walls will become steeper and more jagged from ice splitting the rocks",
-                    "isCorrect": 0,
-                    "explanation": "While ice can split rocks through weathering, glacial movement typically smooths and rounds valley walls rather than making them more jagged."
+                    "explanation": "Slope angle significantly affects erosion rates. Steeper slopes experience faster erosion because gravity has a stronger effect on water flow and soil movement."
                 }
             ],
-            "funFact": "The Yosemite Valley in California is a famous example of glacial erosion. The massive glacier that carved it was up to 3,000 feet thick - that's about as tall as 2.5 Empire State Buildings stacked on top of each other!"
+            "funFact": "The world's most extreme natural erosion rates occur in the Himalayan Mountains, where some areas can lose up to 1 centimeter of soil per year due to the combination of steep slopes, heavy rainfall, and tectonic activity!"
         },
         {
             "id": 8,
-            "text": "Which of the following conditions would most likely cause rocks to break down the fastest through mechanical weathering?",
-            "options": [
-                {
-                    "text": "Frequent cycles of freezing and thawing with water in rock cracks",
-                    "isCorrect": 1,
-                    "explanation": "When water repeatedly freezes and thaws in rock cracks, it creates strong mechanical forces as ice expands and contracts, quickly breaking down rocks."
-                },
-                {
-                    "text": "Constant temperature with no changes throughout the year",
-                    "isCorrect": 0,
-                    "explanation": "Without temperature changes and freezing-thawing cycles, mechanical weathering would be very limited and slow."
-                },
-                {
-                    "text": "Gentle wind in an area with no rainfall",
-                    "isCorrect": 0,
-                    "explanation": "While wind can cause weathering over time, gentle wind alone without water would cause very slow mechanical weathering."
-                },
-                {
-                    "text": "Slow-growing plants in dry soil",
-                    "isCorrect": 0,
-                    "explanation": "Plant roots can cause mechanical weathering, but slow-growing plants in dry conditions would have minimal impact compared to freeze-thaw cycles."
-                }
-            ],
-            "funFact": "The power of freezing water is so strong that it can crack even the toughest rocks! This process, called 'frost wedging', can exert pressures of up to 2,000 pounds per square inch - that's about the same as having a young elephant standing on one square inch of rock!"
-        },
-        {
-            "id": 9,
             "text": "During a heavy rainstorm, a hillside with loose soil and few plants experiences intense rainfall. What is most likely to happen to this hillside?",
             "options": [
+                {
+                    "text": "The rainfall will only affect the surface layer of soil",
+                    "isCorrect": 0,
+                    "explanation": "Heavy rainfall can penetrate deep into the soil, affecting not just the surface but deeper layers as well"
+                },
                 {
                     "text": "The hillside will remain stable because rainwater will simply flow over the surface",
                     "isCorrect": 0,
                     "explanation": "Without plant roots to hold soil and with heavy rainfall, water will soak into and weaken the soil, not just flow over it"
-                },
-                {
-                    "text": "The combination of water-saturated soil and gravity will likely cause a mudslide",
-                    "isCorrect": 1,
-                    "explanation": "When soil becomes saturated with water, it becomes heavier and looser. Combined with gravity's downward pull, this often triggers rapid erosion in the form of mudslides"
                 },
                 {
                     "text": "The soil will become more compact and stable due to the water pressure",
@@ -238,135 +211,169 @@
                     "explanation": "Water actually makes soil less stable by reducing friction between soil particles and adding weight"
                 },
                 {
-                    "text": "The rainfall will only affect the surface layer of soil",
-                    "isCorrect": 0,
-                    "explanation": "Heavy rainfall can penetrate deep into the soil, affecting not just the surface but deeper layers as well"
+                    "text": "The combination of water-saturated soil and gravity will likely cause a mudslide",
+                    "isCorrect": 1,
+                    "explanation": "When soil becomes saturated with water, it becomes heavier and looser. Combined with gravity's downward pull, this often triggers rapid erosion in the form of mudslides"
                 }
             ],
             "funFact": "The fastest recorded mudslide traveled at speeds of over 200 miles per hour! This occurred during the 1980 Mount St. Helens eruption, demonstrating how the combination of water and gravity can create incredibly powerful forces of erosion."
         },
         {
-            "id": 10,
-            "text": "A river flows down a mountain, carrying sediment and rocks. If the river's flow speed suddenly increases, what will likely happen to the sediment being transported?",
+            "id": 9,
+            "text": "A river flows down from a mountain, carrying eroded rock and soil particles. Where would these particles most likely be deposited?",
             "options": [
                 {
-                    "text": "More sediment will be transported downstream",
+                    "text": "At the base of the mountain where the river's speed slows down",
                     "isCorrect": 1,
-                    "explanation": "Faster-moving water has more energy and can carry more sediment. When river speed increases, it can pick up and transport larger amounts of sediment downstream."
+                    "explanation": "When a river's speed decreases, it can no longer carry as much sediment, causing particles to be deposited. This typically happens at the base of mountains where the slope becomes gentler."
                 },
                 {
-                    "text": "All sediment will immediately settle to the bottom",
+                    "text": "Evenly throughout the entire length of the river",
                     "isCorrect": 0,
-                    "explanation": "Faster water flow actually prevents sediment from settling. Sediment tends to settle when water moves more slowly, not faster."
+                    "explanation": "Deposition is not uniform along a river's course. It occurs mainly in areas where the water slows down, typically in flatter areas."
                 },
                 {
-                    "text": "The sediment will float on the water surface",
+                    "text": "In the middle of the mountain where the slope is steepest",
                     "isCorrect": 0,
-                    "explanation": "Sediment doesn't float on the surface regardless of water speed. Its density keeps it suspended within the water or near the bottom."
+                    "explanation": "Steep slopes cause water to flow faster, increasing erosion and making it less likely for particles to be deposited."
                 },
                 {
-                    "text": "Less sediment will be transported downstream",
+                    "text": "At the top of the mountain where the river begins",
                     "isCorrect": 0,
-                    "explanation": "Faster water flow increases, not decreases, the amount of sediment that can be transported downstream due to greater energy in the water."
+                    "explanation": "Rivers typically flow fastest at higher elevations, which means they are more likely to erode and carry particles rather than deposit them."
                 }
             ],
-            "funFact": "The Yellow River in China gets its name from the vast amount of yellow sediment it carries - about 1.6 billion tons annually! This makes it the most sediment-rich river in the world."
+            "funFact": "The Mississippi River Delta, formed by sediment deposition at the river's mouth, grows by about 2 square miles every year as the river deposits roughly 500 million tons of sediment!"
+        },
+        {
+            "id": 10,
+            "text": "A small crack forms in a boulder, and plant seeds get trapped inside. Over time, the seeds grow into plants. What is most likely to happen to the boulder as the plant roots continue to grow?",
+            "options": [
+                {
+                    "text": "The roots will avoid the crack and grow around the boulder instead",
+                    "isCorrect": 0,
+                    "explanation": "Plant roots naturally grow into available spaces, including cracks. They don't actively avoid cracks in rocks."
+                },
+                {
+                    "text": "The crack will seal itself as the roots fill the space",
+                    "isCorrect": 0,
+                    "explanation": "Plant roots don't seal cracks - instead, their growth creates additional pressure that typically makes cracks larger."
+                },
+                {
+                    "text": "The boulder will remain unchanged because rocks are too hard for roots to affect",
+                    "isCorrect": 0,
+                    "explanation": "While rocks are hard, the persistent pressure from growing plant roots over time can break even very hard rocks through mechanical weathering."
+                },
+                {
+                    "text": "The crack will gradually widen and the boulder may eventually break apart",
+                    "isCorrect": 1,
+                    "explanation": "As plant roots grow and expand in the crack, they act like a wedge, applying pressure that slowly widens the crack. Over time, this continuous pressure can cause the boulder to split into pieces."
+                }
+            ],
+            "funFact": "Some plants are known as 'lithophytes' - meaning 'rock plants' - and have evolved specifically to grow in rock cracks! These remarkable plants can survive with minimal soil and actually help create new soil as they break down rocks over time."
         },
         {
             "id": 11,
-            "text": "A scientist is studying how different amounts of grass coverage affect soil erosion during rainfall. She sets up four identical slopes of soil, each with different percentages of grass coverage (0%, 25%, 50%, and 75%), and exposes them to the same amount of rainfall. Which slope would likely experience the least amount of soil erosion?",
+            "text": "A steep hillside experienced a sudden mudslide after several days of heavy rain. Which combination of factors most likely contributed to this mudslide?",
             "options": [
                 {
-                    "text": "The slope with 0% grass coverage",
+                    "text": "Heavy rainfall, flat ground, and minimal vegetation",
                     "isCorrect": 0,
-                    "explanation": "Bare soil with no grass coverage offers no protection against rainfall and will experience the most erosion, as there are no plant roots to hold the soil in place."
+                    "explanation": "Even with heavy rainfall and minimal vegetation, flat ground lacks the gravitational force needed to trigger a mudslide. Slopes are necessary for mudslides to occur."
                 },
                 {
-                    "text": "The slope with 25% grass coverage",
+                    "text": "Light rainfall, steep slope, and dense vegetation",
                     "isCorrect": 0,
-                    "explanation": "While some grass coverage provides more protection than none, 25% coverage still leaves much of the soil exposed to rainfall erosion."
+                    "explanation": "While steep slopes can contribute to mudslides, light rainfall wouldn't saturate the soil enough, and dense vegetation would actually help prevent mudslides by holding soil together with root systems."
                 },
                 {
-                    "text": "The slope with 50% grass coverage",
+                    "text": "Heavy rainfall, steep slope, and frozen ground",
                     "isCorrect": 0,
-                    "explanation": "Half grass coverage provides moderate protection against erosion, but there are still significant areas of exposed soil vulnerable to rainfall."
+                    "explanation": "Frozen ground would actually prevent water from saturating the soil and reduce the likelihood of a mudslide, even with heavy rainfall and steep slopes."
                 },
                 {
-                    "text": "The slope with 75% grass coverage",
+                    "text": "Heavy rainfall, steep slope, and minimal vegetation",
                     "isCorrect": 1,
-                    "explanation": "The highest grass coverage provides the most protection against erosion. The extensive root system holds soil particles together, while the grass blades reduce the impact of raindrops on the soil."
+                    "explanation": "This is correct. Heavy rainfall saturates the soil with water, steep slopes increase the effect of gravity, and minimal vegetation means fewer plant roots to hold the soil together - creating ideal conditions for a mudslide."
                 }
             ],
-            "funFact": "One square meter of grass can contain up to 2,000 individual plants with roots that can extend more than 6 feet deep! This dense network of roots not only prevents soil erosion but also helps filter water and reduce flooding."
+            "funFact": "The fastest mudslide ever recorded occurred in 1980 during the Mount St. Helens eruption, reaching speeds of up to 150 miles per hour! This extreme speed was caused by the combination of volcanic activity, steep terrain, and water from melted snow and ice."
         },
         {
             "id": 12,
-            "text": "When water seeps into a crack in a rock and freezes during winter, what happens to the rock over multiple freeze-thaw cycles?",
+            "text": "How does wind speed and direction contribute to the formation of mushroom-shaped rocks in desert environments?",
             "options": [
                 {
-                    "text": "The rock gradually splits apart as the frozen water expands and acts like a wedge",
+                    "text": "Wind only affects the sides of rocks, causing them to become narrower in the middle",
+                    "isCorrect": 0,
+                    "explanation": "Wind-blown sand affects the entire rock surface it contacts, with the greatest impact near ground level, not just the middle section"
+                },
+                {
+                    "text": "Wind carries sand particles closer to the ground, causing more erosion at the base of the rock than at the top",
                     "isCorrect": 1,
-                    "explanation": "Water expands by about 9% when it freezes. This expansion creates pressure in rock cracks, slowly forcing them wider with each freeze-thaw cycle."
+                    "explanation": "Due to wind patterns, sand particles are concentrated near the ground level, leading to increased erosion at the rock's base while leaving the top relatively intact, creating the distinctive mushroom shape over time"
                 },
                 {
-                    "text": "The rock becomes stronger as the ice acts like glue holding it together",
+                    "text": "Wind blows stronger at the top of rocks, causing more erosion there than at the bottom",
                     "isCorrect": 0,
-                    "explanation": "Ice does not act as an adhesive. Instead, its expansion creates forces that push rock apart rather than holding it together."
+                    "explanation": "This is incorrect - while wind may be stronger at higher elevations, the formation of mushroom rocks is due to concentrated sand particle erosion at the base, not the top"
                 },
                 {
-                    "text": "The rock remains unchanged because ice is softer than rock",
+                    "text": "Wind creates equal erosion throughout the rock, but the bottom naturally dissolves faster",
                     "isCorrect": 0,
-                    "explanation": "While ice is softer than rock, the force of water expansion during freezing is strong enough to break even hard rocks over time."
-                },
-                {
-                    "text": "The rock dissolves slowly in the frozen water",
-                    "isCorrect": 0,
-                    "explanation": "Rocks do not dissolve in frozen water. The physical force of expanding ice, not a chemical reaction, causes the rock to break."
+                    "explanation": "The differential erosion is caused by concentrated sand particles near the ground, not by natural dissolution of the rock's base"
                 }
             ],
-            "funFact": "This process of rocks breaking due to freezing water is called 'frost wedging' and is particularly common in mountainous regions. It's one reason why steep mountain slopes often have large piles of broken rock fragments at their base!"
+            "funFact": "Some of the most famous mushroom rocks can be found in Goblin Valley State Park in Utah, where thousands of these uniquely shaped formations create an otherworldly landscape that has been used as a filming location for science fiction movies!"
         },
         {
             "id": 13,
-            "text": "In a mountain valley, a glacier is slowly moving downhill. How does this glacier affect both the weathering of rocks and the deposition of materials in the valley?",
+            "text": "Which process would likely cause rocks to break apart more quickly?",
             "options": [
                 {
-                    "text": "The glacier breaks down rocks as it moves and deposits the broken materials at the bottom of the valley",
+                    "text": "Water freezing in rock cracks",
                     "isCorrect": 1,
-                    "explanation": "Glaciers are powerful agents of both weathering and deposition. As they move, they break down rocks through mechanical weathering and carry these materials, eventually depositing them in new locations like valley bottoms."
+                    "explanation": "Water freezing in rock cracks causes rapid expansion, creating strong forces that can quickly split rocks apart. This process is more immediate and forceful compared to plant root growth."
                 },
                 {
-                    "text": "The glacier only causes rocks to break down but does not move any materials",
+                    "text": "Plant roots growing in rock cracks",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because glaciers both break down rocks and transport the broken materials. The movement of glaciers is a key part of how they affect landscapes."
-                },
-                {
-                    "text": "The glacier only moves materials without breaking down any rocks",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because glaciers do more than just transport materials. Their massive weight and movement cause mechanical weathering of rocks as they flow."
-                },
-                {
-                    "text": "The glacier has no effect on either weathering or deposition in the valley",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because glaciers are major agents of both weathering and deposition. They significantly shape mountain valleys over time."
+                    "explanation": "While plant roots can cause weathering by growing in rock cracks and slowly expanding them, this is generally a slower process that happens gradually over time."
                 }
             ],
-            "funFact": "The largest glacier in the world is the Lambert-Fisher Glacier in Antarctica, which is about 60 miles wide and 250 miles long. As it moves, it transports more rock and sediment than any other glacier on Earth!"
+            "funFact": "The expansion force of freezing water is so powerful that it can split boulders! When water freezes, it expands by about 9% in volume, creating pressures up to 2,000 pounds per square inch - that's enough force to crack engine blocks if antifreeze isn't used in cars during winter."
         },
         {
             "id": 14,
-            "text": "How do rivers and ocean waves create different types of deposited landforms?",
+            "text": "When comparing the weathering process between granite and limestone, which statement is correct?",
             "options": [
                 {
-                    "text": "Rivers deposit sediments in triangular deltas, while ocean waves create sandy beaches from broken down rocks",
-                    "isCorrect": 1,
-                    "explanation": "Rivers carry sediments and deposit them in triangular deltas where they meet larger bodies of water, while ocean waves gradually break down rocks into sand particles that form beaches"
+                    "text": "Granite weathers more quickly than limestone because it is more exposed to the elements",
+                    "isCorrect": 0,
+                    "explanation": "The rate of weathering is primarily determined by the rock's hardness, not its exposure. Granite actually weathers more slowly due to its harder composition"
                 },
                 {
-                    "text": "Rivers create rocky cliffs, while ocean waves form mountain ranges",
+                    "text": "The weathering rate depends only on environmental factors, not on the type of rock",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - rivers don't typically create cliffs, and ocean waves don't form mountain ranges. These landforms are created by different geological processes"
+                    "explanation": "While environmental factors play a role, the physical properties of rocks, including their hardness, significantly affect their weathering rate"
                 },
+                {
+                    "text": "Both rocks weather at exactly the same rate when exposed to the same conditions",
+                    "isCorrect": 0,
+                    "explanation": "Different types of rocks weather at different rates based on their properties. They do not weather at the same rate even under identical conditions"
+                },
+                {
+                    "text": "Limestone weathers more quickly than granite because it is a softer rock",
+                    "isCorrect": 1,
+                    "explanation": "Limestone is indeed more susceptible to weathering than granite for two reasons: it's a softer rock (physical weathering) and it's composed of calcium carbonate (CaCO\u2083) which readily dissolves in acidic water (chemical weathering), making it particularly vulnerable to acid rain compared to granite."
+                }
+            ],
+            "funFact": "The famous ancient Egyptian pyramids were originally covered with smooth limestone casing stones, but many of these outer layers have weathered away over thousands of years, while the inner granite blocks remain relatively intact!"
+        },
+        {
+            "id": 15,
+            "text": "How do rivers and ocean waves create different types of deposited landforms?",
+            "options": [
                 {
                     "text": "Both rivers and ocean waves only create sand dunes",
                     "isCorrect": 0,
@@ -376,26 +383,19 @@
                     "text": "Rivers and ocean waves create identical landforms through deposition",
                     "isCorrect": 0,
                     "explanation": "This is incorrect - rivers and ocean waves create different types of depositional landforms due to their different erosional and transportation processes"
+                },
+                {
+                    "text": "Rivers create rocky cliffs, while ocean waves form mountain ranges",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - rivers don't typically create cliffs, and ocean waves don't form mountain ranges. These landforms are created by different geological processes"
+                },
+                {
+                    "text": "Rivers deposit sediments in triangular deltas, while ocean waves create sandy beaches from broken down rocks",
+                    "isCorrect": 1,
+                    "explanation": "Rivers carry sediments and deposit them in triangular deltas where they meet larger bodies of water, while ocean waves gradually break down rocks into sand particles that form beaches"
                 }
             ],
             "funFact": "The Nile Delta in Egypt is one of the world's largest river deltas, covering about 240 km of Mediterranean coastline. This massive landform was created over thousands of years as the Nile River deposited sediments at its mouth!"
-        },
-        {
-            "id": 15,
-            "text": "Which process would likely cause rocks to break apart more quickly?",
-            "options": [
-                {
-                    "text": "Plant roots growing in rock cracks",
-                    "isCorrect": 0,
-                    "explanation": "While plant roots can cause weathering by growing in rock cracks and slowly expanding them, this is generally a slower process that happens gradually over time."
-                },
-                {
-                    "text": "Water freezing in rock cracks",
-                    "isCorrect": 1,
-                    "explanation": "Water freezing in rock cracks causes rapid expansion, creating strong forces that can quickly split rocks apart. This process is more immediate and forceful compared to plant root growth."
-                }
-            ],
-            "funFact": "The expansion force of freezing water is so powerful that it can split boulders! When water freezes, it expands by about 9% in volume, creating pressures up to 2,000 pounds per square inch - that's enough force to crack engine blocks if antifreeze isn't used in cars during winter."
         }
     ]
 }

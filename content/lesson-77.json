@@ -4,30 +4,30 @@
     "questions": [
         {
             "id": 1,
-            "text": "Why is stainless steel preferred over iron for making kitchen utensils like forks and knives?",
+            "text": "Which gas is six times denser than air and causes balloons filled with it to sink instead of float?",
             "options": [
                 {
-                    "text": "Stainless steel resists rusting while iron rusts easily",
+                    "text": "Helium",
+                    "isCorrect": 0,
+                    "explanation": "Helium is actually less dense than air, which is why helium-filled balloons float upward."
+                },
+                {
+                    "text": "Carbon dioxide",
+                    "isCorrect": 0,
+                    "explanation": "While carbon dioxide is denser than air, it is not six times denser. It would make balloons sink but not as dramatically as sulfur hexafluoride."
+                },
+                {
+                    "text": "Nitrogen",
+                    "isCorrect": 0,
+                    "explanation": "Nitrogen has a density similar to air since air is mostly composed of nitrogen. It would neither make balloons float up nor sink down significantly."
+                },
+                {
+                    "text": "Sulfur hexafluoride",
                     "isCorrect": 1,
-                    "explanation": "Stainless steel contains additives that prevent rusting, making it more durable and safer for food contact than plain iron which oxidizes (rusts) when exposed to moisture."
-                },
-                {
-                    "text": "Iron is too soft while stainless steel is harder",
-                    "isCorrect": 0,
-                    "explanation": "While hardness is important, iron and stainless steel are both hard metals. The key difference is rust resistance, not hardness."
-                },
-                {
-                    "text": "Stainless steel is lighter than iron",
-                    "isCorrect": 0,
-                    "explanation": "Stainless steel and iron have similar densities. The preference for stainless steel is due to its rust resistance, not its weight."
-                },
-                {
-                    "text": "Iron conducts heat better than stainless steel",
-                    "isCorrect": 0,
-                    "explanation": "Iron actually conducts heat better than stainless steel, which would be an advantage for cooking pans but is not the main consideration for utensils like forks and knives. The primary reason stainless steel is preferred is its resistance to rust."
+                    "explanation": "Sulfur hexafluoride is six times denser than air, which means when used to fill a balloon, the balloon will sink because it is heavier than the surrounding air."
                 }
             ],
-            "funFact": "Stainless steel was accidentally discovered in 1913 by Harry Brearley while he was researching ways to prevent erosion in gun barrels. He noticed that some of his chromium steel samples didn't rust like regular steel samples!"
+            "funFact": "Sulfur hexafluoride is so dense that you can actually float a lightweight aluminum foil boat on it, just like you would float a boat on water! This creates a fascinating visual demonstration of gas density."
         },
         {
             "id": 2,
@@ -39,9 +39,9 @@
                     "explanation": "These are indeed the three main forms of matter. Solids have a defined shape and volume, liquids take the shape of their container while maintaining volume, and gases spread out to fill their container."
                 },
                 {
-                    "text": "Solids, water, and air",
+                    "text": "Hot, warm, and cold",
                     "isCorrect": 0,
-                    "explanation": "While water and air are examples of matter, they are specific substances rather than forms of matter. Water is a liquid and air is a gas."
+                    "explanation": "These describe temperature states rather than forms of matter. Any form of matter (solid, liquid, or gas) can exist at different temperatures."
                 },
                 {
                     "text": "Hard, soft, and runny",
@@ -49,130 +49,98 @@
                     "explanation": "These are descriptions of physical properties rather than the main forms of matter. A substance can be hard or soft while still being in the same form (solid)."
                 },
                 {
-                    "text": "Hot, warm, and cold",
+                    "text": "Solids, water, and air",
                     "isCorrect": 0,
-                    "explanation": "These describe temperature states rather than forms of matter. Any form of matter (solid, liquid, or gas) can exist at different temperatures."
+                    "explanation": "While water and air are examples of matter, they are specific substances rather than forms of matter. Water is a liquid and air is a gas."
                 }
             ],
             "funFact": "Some substances can exist in all three forms of matter at temperatures we experience on Earth. Water is a great example - we can see it as ice (solid), liquid water, and water vapor (gas) in our everyday lives!"
         },
         {
             "id": 3,
-            "text": "Which property of matter is being described: 'The ability of one substance to be mixed completely into another substance'?",
+            "text": "Which liquid can dissolve nail polish but not table salt?",
             "options": [
                 {
-                    "text": "Solubility",
-                    "isCorrect": 1,
-                    "explanation": "Solubility describes how well one substance can dissolve in another substance. For example, salt dissolves easily in water but not in nail polish remover."
+                    "text": "Cooking oil",
+                    "isCorrect": 0,
+                    "explanation": "Cooking oil cannot effectively dissolve either nail polish or table salt. It has different chemical properties from both substances."
                 },
                 {
-                    "text": "Density",
+                    "text": "Vinegar",
                     "isCorrect": 0,
-                    "explanation": "Density refers to how closely packed together the particles in a substance are, which determines if something will float or sink. This is not about dissolving."
+                    "explanation": "Like water, vinegar can dissolve salt but not nail polish. Being mostly water with acetic acid, it has similar solvent properties to water."
                 },
+                {
+                    "text": "Acetone",
+                    "isCorrect": 1,
+                    "explanation": "Acetone can dissolve nail polish but cannot dissolve table salt. This is because acetone and nail polish have similar chemical properties, while salt has very different properties."
+                },
+                {
+                    "text": "Water",
+                    "isCorrect": 0,
+                    "explanation": "Water is actually the opposite - it can dissolve table salt very well but cannot dissolve nail polish. This is why nail polish stays on even when your hands get wet."
+                }
+            ],
+            "funFact": "Acetone is so good at dissolving certain substances that it's not just used in nail polish remover - it's also used in paint thinners, to clean laboratory equipment, and even in the production of some plastics and synthetic fibers!"
+        },
+        {
+            "id": 4,
+            "text": "Which property of matter describes the ability of a material to be attracted by a magnet?",
+            "options": [
                 {
                     "text": "Magnetism",
-                    "isCorrect": 0,
-                    "explanation": "Magnetism is the ability of a material to be attracted to a magnet. This property has nothing to do with substances dissolving in other substances."
+                    "isCorrect": 1,
+                    "explanation": "Magnetism is the property that describes how materials can be attracted to magnets. Only certain materials like iron, nickel, and cobalt show this property."
                 },
                 {
                     "text": "Conductivity",
                     "isCorrect": 0,
-                    "explanation": "Conductivity refers to a material's ability to transfer heat or electricity. This is not related to how well substances dissolve in each other."
+                    "explanation": "Conductivity refers to a material's ability to transfer heat or electricity, not its attraction to magnets."
+                },
+                {
+                    "text": "Density",
+                    "isCorrect": 0,
+                    "explanation": "Density describes how closely packed together particles are in a substance, which determines if something will float or sink."
+                },
+                {
+                    "text": "Solubility",
+                    "isCorrect": 0,
+                    "explanation": "Solubility describes how well a substance can dissolve in another substance, not its attraction to magnets."
                 }
             ],
-            "funFact": "Different liquids can dissolve different things! While water is great at dissolving sugar and salt, nail polish remover (acetone) is better at dissolving nail polish and some plastics. Scientists use this property to choose the right solvent for different tasks."
-        },
-        {
-            "id": 4,
-            "text": "A small wooden boat is floating in a tank filled with water. What determines whether the boat will float or sink?",
-            "options": [
-                {
-                    "text": "The relative density between the boat and the water",
-                    "isCorrect": 1,
-                    "explanation": "Objects float when they are less dense than the fluid they're in. The wooden boat, with air inside, has an overall density less than water, so it floats."
-                },
-                {
-                    "text": "The total weight of the boat",
-                    "isCorrect": 0,
-                    "explanation": "Weight alone doesn't determine if something floats. Large ships can float despite being very heavy because their density is less than water's density."
-                },
-                {
-                    "text": "The size of the boat",
-                    "isCorrect": 0,
-                    "explanation": "Size alone doesn't determine floating. Both large and small objects can float or sink depending on their density relative to the fluid."
-                },
-                {
-                    "text": "The temperature of the water",
-                    "isCorrect": 0,
-                    "explanation": "While temperature can slightly affect water's density, it's not the main factor determining if objects float. The relative density between the object and fluid is key."
-                }
-            ],
-            "funFact": "Ancient Greek scientist Archimedes discovered the principle of buoyancy while taking a bath! He noticed that water displaced by his body was equal to the upward force keeping him afloat. He was so excited by this discovery that he reportedly ran through the streets shouting 'Eureka!'"
+            "funFact": "The Earth itself acts like a giant magnet! This is why compasses work - the magnetic needle in a compass aligns with Earth's magnetic field to point north. This magnetic field also helps protect our planet from harmful solar radiation."
         },
         {
             "id": 5,
-            "text": "Which gas is six times denser than air and causes balloons filled with it to sink instead of float?",
+            "text": "What will happen when acetone (nail polish remover) comes in contact with a Styrofoam cup?",
             "options": [
                 {
-                    "text": "Sulfur hexafluoride",
+                    "text": "The cup will become stronger",
+                    "isCorrect": 0,
+                    "explanation": "Acetone weakens and dissolves Styrofoam rather than strengthening it."
+                },
+                {
+                    "text": "Nothing will happen",
+                    "isCorrect": 0,
+                    "explanation": "Acetone and Styrofoam do react with each other - they are not chemically inert when mixed."
+                },
+                {
+                    "text": "The Styrofoam cup will dissolve",
                     "isCorrect": 1,
-                    "explanation": "Sulfur hexafluoride is six times denser than air, which means when used to fill a balloon, the balloon will sink because it is heavier than the surrounding air."
+                    "explanation": "Acetone dissolves Styrofoam by breaking down its molecular structure, causing it to melt and dissolve."
                 },
                 {
-                    "text": "Helium",
+                    "text": "The acetone will evaporate quickly",
                     "isCorrect": 0,
-                    "explanation": "Helium is actually less dense than air, which is why helium-filled balloons float upward."
-                },
-                {
-                    "text": "Nitrogen",
-                    "isCorrect": 0,
-                    "explanation": "Nitrogen has a density similar to air since air is mostly composed of nitrogen. It would neither make balloons float up nor sink down significantly."
-                },
-                {
-                    "text": "Carbon dioxide",
-                    "isCorrect": 0,
-                    "explanation": "While carbon dioxide is denser than air, it is not six times denser. It would make balloons sink but not as dramatically as sulfur hexafluoride."
+                    "explanation": "While acetone does evaporate quickly, when it contacts Styrofoam, the primary reaction is the dissolution of the Styrofoam."
                 }
             ],
-            "funFact": "Sulfur hexafluoride is so dense that you can actually float a lightweight aluminum foil boat on it, just like you would float a boat on water! This creates a fascinating visual demonstration of gas density."
+            "funFact": "Acetone is so effective at dissolving Styrofoam that artists sometimes use this property to create special effects or sculptures by selectively dissolving parts of Styrofoam blocks!"
         },
         {
             "id": 6,
-            "text": "A student mixes vinegar and baking soda in a container and observes bubbling, fizzing, and release of a colorless gas. Which measurements and observations would best prove that this reaction produced new substances?",
-            "options": [
-                {
-                    "text": "Measuring the temperature change and testing if the gas extinguishes a flame",
-                    "isCorrect": 1,
-                    "explanation": "Temperature change indicates a chemical reaction occurred, and testing if the gas extinguishes a flame helps identify it as carbon dioxide, a new substance different from the reactants."
-                },
-                {
-                    "text": "Measuring only the volume of gas produced",
-                    "isCorrect": 0,
-                    "explanation": "Volume alone doesn't prove new substances formed - the gas could just be air trapped in the original substances being released."
-                },
-                {
-                    "text": "Observing the bubbles and fizzing only",
-                    "isCorrect": 0,
-                    "explanation": "Physical changes like shaking a carbonated drink can also produce bubbles and fizzing without creating new substances."
-                },
-                {
-                    "text": "Measuring only the final mass of the container",
-                    "isCorrect": 0,
-                    "explanation": "Mass measurement alone cannot prove new substances formed since mass is conserved in both physical and chemical changes."
-                }
-            ],
-            "funFact": "The gas produced when vinegar and baking soda react is carbon dioxide - the same gas that makes soda fizzy! Ancient Egyptians used a similar reaction with natural sodium carbonate to make their bread rise over 4,000 years ago."
-        },
-        {
-            "id": 7,
             "text": "When iron metal is exposed to air for a long time, it forms a reddish-brown substance called rust. Which observation provides the best evidence that rust is a new substance different from iron?",
             "options": [
-                {
-                    "text": "Rust is no longer attracted to magnets like iron is",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because the change in magnetic properties shows that rust has fundamentally different properties from iron, indicating it is a new substance."
-                },
                 {
                     "text": "Rust looks different in color from iron",
                     "isCorrect": 0,
@@ -187,126 +155,239 @@
                     "text": "Rust appears on the surface of iron",
                     "isCorrect": 0,
                     "explanation": "The location where a substance appears does not prove it is a new substance. Physical changes can also occur on surfaces."
+                },
+                {
+                    "text": "Rust is no longer attracted to magnets like iron is",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because the change in magnetic properties shows that rust has fundamentally different properties from iron, indicating it is a new substance."
                 }
             ],
             "funFact": "The rusting of iron costs the global economy over $2.5 trillion annually! This is why many structures use stainless steel instead of iron - the addition of chromium helps prevent rusting by forming a protective layer."
         },
         {
-            "id": 8,
-            "text": "When baking soda is mixed with vinegar, which observation best indicates that a new substance has formed?",
+            "id": 7,
+            "text": "Two substances, A and B, are mixed together in a beaker. Substance A has a density of 1.2 g/cm\u00b3 and Substance B has a density of 0.8 g/cm\u00b3. After mixing, the resulting mixture has a density of 1.3 g/cm\u00b3. What can be concluded about this mixture?",
             "options": [
                 {
-                    "text": "Gas bubbles are produced during mixing",
+                    "text": "No chemical reaction has occurred because the substances were just mixed together",
+                    "isCorrect": 0,
+                    "explanation": "We cannot determine whether a chemical reaction occurred based solely on mixing. The density being outside the range of the original substances suggests significant interactions, which could be either chemical or physical"
+                },
+                {
+                    "text": "The density measurement must be incorrect because it should be between 0.8 and 1.2 g/cm\u00b3",
+                    "isCorrect": 0,
+                    "explanation": "The density of a mixture can be outside the range of its components due to molecular interactions that affect how the particles pack together, even in physical mixtures"
+                },
+                {
+                    "text": "The density should be exactly 2.0 g/cm\u00b3 (the sum of the original densities)",
+                    "isCorrect": 0,
+                    "explanation": "The density of a mixture is not determined by adding the densities of the components. Depending on how the molecules interact, the resulting density could be less than, between, or even greater than the densities of the original substances"
+                },
+                {
+                    "text": "The mixture could have formed through either a chemical reaction or through significant molecular interactions between the substances",
                     "isCorrect": 1,
-                    "explanation": "The bubbling indicates a chemical reaction is occurring where carbon dioxide gas is being produced as a new substance. This is evidence of a chemical change."
-                },
-                {
-                    "text": "The mixture becomes more transparent",
-                    "isCorrect": 0,
-                    "explanation": "A change in transparency alone does not indicate a chemical change. Physical mixtures can also become transparent."
-                },
-                {
-                    "text": "The mixture spreads out in the container",
-                    "isCorrect": 0,
-                    "explanation": "Spreading in a container is a physical property that occurs with any liquid and does not indicate formation of new substances."
-                },
-                {
-                    "text": "The mixture feels cold when touched",
-                    "isCorrect": 0,
-                    "explanation": "Temperature changes during mixing can occur in both physical and chemical changes and alone do not indicate formation of new substances."
+                    "explanation": "The density outside the range of the original substances (0.8-1.2 g/cm\u00b3) could indicate a chemical reaction has occurred, but physical mixtures can also have densities outside this range due to molecular interactions and volume contraction"
                 }
             ],
-            "funFact": "The reaction between baking soda (sodium bicarbonate) and vinegar (acetic acid) produces carbon dioxide gas, water, and sodium acetate. This same reaction is used in some fire extinguishers and in making simple model volcanoes for science projects!"
+            "funFact": "Water (density 1.0 g/cm\u00b3) and ethanol (density 0.79 g/cm\u00b3) when mixed can form a solution that's actually more dense than either original liquid. This phenomenon, called 'volume contraction,' shows how mixing can create unexpected property changes!"
+        },
+        {
+            "id": 8,
+            "text": "A student mixes two clear liquids in a beaker and observes that the mixture turns yellow and starts bubbling. Which properties should they measure to determine if a new substance has formed?",
+            "options": [
+                {
+                    "text": "Only the color of the mixture",
+                    "isCorrect": 0,
+                    "explanation": "While color change is important, measuring just one property is not enough to confirm if new substances formed. Multiple properties should be measured for a thorough investigation."
+                },
+                {
+                    "text": "The weight of the beaker",
+                    "isCorrect": 0,
+                    "explanation": "Simply measuring the weight of the container doesn't reveal enough about the properties of the substances to determine if new ones formed. Multiple properties of the actual substances need to be measured."
+                },
+                {
+                    "text": "The volume of bubbles produced",
+                    "isCorrect": 0,
+                    "explanation": "While bubbling may indicate a reaction, measuring bubble volume alone doesn't provide enough information about the properties of any new substances that may have formed."
+                },
+                {
+                    "text": "Temperature, color, and solubility of the mixture",
+                    "isCorrect": 1,
+                    "explanation": "Changes in temperature, color, and solubility can indicate a chemical reaction has occurred and new substances have formed. These properties help identify the characteristics of the resulting substance."
+                }
+            ],
+            "funFact": "Some chemical reactions can produce dramatic color changes! For example, when copper metal reacts with nitric acid, it produces a bright blue solution due to the formation of copper nitrate. These color changes help chemists identify new substances."
         },
         {
             "id": 9,
-            "text": "A scientist mixes two clear liquids in a beaker and observes that a white solid appears at the bottom. Which observation would provide the strongest evidence that new substances were created in this reaction?",
+            "text": "A student mixes table salt with water and observes that the salt disappears completely, forming a clear solution. The student then mixes oil with water and notices that the oil forms separate layers. What does this comparison of solubility tell us about whether new substances were formed?",
             "options": [
                 {
-                    "text": "The temperature of the mixture changes significantly during the reaction",
+                    "text": "The salt dissolved so a new substance formed, while the oil didn't dissolve so no new substance formed",
                     "isCorrect": 0,
-                    "explanation": "While temperature changes can indicate a chemical reaction, this alone isn't the strongest evidence since physical changes can also involve temperature changes."
+                    "explanation": "Incorrect. Dissolving is a physical change where the substance spreads out in the solvent but maintains its chemical identity. The ability to dissolve alone doesn't indicate a chemical change."
                 },
                 {
-                    "text": "The formation of the solid that has different properties from the original liquids",
+                    "text": "A change in solubility alone is not enough evidence to determine if new substances formed - other properties need to be tested",
                     "isCorrect": 1,
-                    "explanation": "The appearance of a solid with different properties than the original liquids is strong evidence of new substance formation, as it demonstrates a fundamental change in the material's characteristics."
+                    "explanation": "Correct! While solubility is an important property, we need to observe multiple property changes like density, color, texture, and chemical reactivity to determine if new substances formed through a chemical reaction."
                 },
                 {
-                    "text": "The mixing process creates bubbles in the solution",
+                    "text": "Both mixtures formed new substances because the original materials changed appearance",
                     "isCorrect": 0,
-                    "explanation": "Bubbles can form during both physical and chemical changes, so this isn't the strongest evidence of new substance formation."
+                    "explanation": "Incorrect. A change in appearance alone doesn't mean new substances formed. Many physical changes like dissolving or mixing can change appearance without creating new substances."
                 },
                 {
-                    "text": "The final mixture has a different volume than the sum of the original liquids",
+                    "text": "Neither mixture formed new substances because the original materials can be separated again",
                     "isCorrect": 0,
-                    "explanation": "Volume changes can occur in both physical and chemical changes, making this observation insufficient to prove new substance formation."
+                    "explanation": "Incorrect. While these particular mixtures didn't form new substances, the ability to separate materials is not always proof that no chemical reaction occurred. Some new substances can also be separated."
                 }
             ],
-            "funFact": "When calcium chloride solution is mixed with sodium carbonate solution, a white solid called calcium carbonate instantly forms - this is the same material that makes up chalk, limestone, and marble!"
+            "funFact": "Scientists often use what's called a 'precipitation reaction' to prove new substances have formed - when two clear solutions are mixed and a solid suddenly appears, that's strong evidence of new substance formation!"
         },
         {
             "id": 10,
-            "text": "In a science experiment, two substances were mixed together. Before mixing, neither substance was attracted to a magnet. After mixing and reacting, the resulting substance was strongly attracted to magnets. What does this change in magnetic properties suggest?",
+            "text": "When table salt (sodium chloride) is dissolved in water, you can get the salt back by evaporating the water. The salt solution does not have any new chemical properties. Which of the following best explains why this process is NOT considered a chemical reaction?",
             "options": [
                 {
-                    "text": "A new substance formed during the reaction",
+                    "text": "The salt changes color when mixed with water",
+                    "isCorrect": 0,
+                    "explanation": "Salt doesn't change color when dissolved in water - it forms a clear solution. A color change would actually be more indicative of a chemical reaction forming new substances."
+                },
+                {
+                    "text": "The mixture releases heat when salt is added to water",
+                    "isCorrect": 0,
+                    "explanation": "While dissolving salt in water may cause a small temperature change, this alone doesn't indicate a chemical reaction. Many physical processes also involve temperature changes."
+                },
+                {
+                    "text": "The salt and water maintain their original chemical properties and can be separated by physical means",
                     "isCorrect": 1,
-                    "explanation": "When the magnetic properties change significantly after mixing, it indicates that a chemical reaction occurred and a new substance with different properties was formed."
+                    "explanation": "This is correct because in a solution, the salt and water don't form new chemical bonds - they simply mix together while keeping their original chemical properties. The fact that they can be separated by evaporation shows no new substance was formed."
                 },
                 {
-                    "text": "The substances were just mixed but didn't react",
+                    "text": "The salt becomes permanently changed when mixed with water",
                     "isCorrect": 0,
-                    "explanation": "If the substances only mixed without reacting, the mixture would maintain the same magnetic properties as its components. The dramatic change in magnetism indicates a chemical change."
-                },
-                {
-                    "text": "One of the original substances must have been magnetic",
-                    "isCorrect": 0,
-                    "explanation": "The question states that neither original substance was magnetic. The appearance of magnetic properties cannot be explained by the original substances alone."
-                },
-                {
-                    "text": "Magnets temporarily changed the substances",
-                    "isCorrect": 0,
-                    "explanation": "Simply exposing substances to magnets doesn't permanently change their magnetic properties. The change in magnetism came from the formation of a new substance."
+                    "explanation": "The salt is not permanently changed when dissolved - it can be recovered unchanged by evaporating the water. In a chemical reaction, the original substances are transformed into new substances with different properties."
                 }
             ],
-            "funFact": "This type of reaction is similar to how rust forms - when iron reacts with oxygen in the air, it creates iron oxide, which has different properties than the original iron metal, including changes in its magnetic behavior!"
+            "funFact": "The ability of water to dissolve salt has been crucial throughout history - it's how ancient civilizations preserved food! The process of using evaporation to extract salt from seawater is one of humanity's oldest chemical engineering processes, dating back over 8,000 years."
         },
         {
             "id": 11,
-            "text": "A scientist mixed two substances together in a lab experiment. Before mixing, substance A was magnetic and gray in color, while substance B was non-magnetic and white. After mixing, the resulting mixture was non-magnetic and blue in color. Based on these observations, what can be concluded about the reaction?",
+            "text": "In a chemistry experiment, when a student combines two clear liquids at room temperature, they observe that the mixture immediately becomes cloudy and the container feels warm to touch. Which of the following conclusions about this observation is most scientifically accurate?",
             "options": [
                 {
-                    "text": "A new substance was formed because the properties of the mixture are different from both original substances",
+                    "text": "The warmth proves a new substance formed, but the cloudiness is just the liquids mixing together.",
+                    "isCorrect": 0,
+                    "explanation": "Both the temperature change and cloudiness together provide evidence of new substance formation. The cloudiness is not simply physical mixing if it occurs with other property changes."
+                },
+                {
+                    "text": "The cloudiness proves a new substance formed, but the warmth is just from stirring the liquids.",
+                    "isCorrect": 0,
+                    "explanation": "While cloudiness can indicate a new substance, the heat produced is likely from the chemical reaction itself, not just physical mixing, especially since it occurred immediately."
+                },
+                {
+                    "text": "No new substances formed because the liquids were both clear initially.",
+                    "isCorrect": 0,
+                    "explanation": "The initial appearance of substances does not determine whether a chemical reaction will occur. Clear substances can react to form cloudy mixtures containing new substances."
+                },
+                {
+                    "text": "A chemical reaction occurred, forming new substances, as evidenced by both the color change and temperature increase.",
                     "isCorrect": 1,
-                    "explanation": "When mixing results in a new substance, the properties of the mixture will be different from the properties of the original substances. Here, both the magnetic property and color changed, indicating a chemical reaction occurred."
-                },
-                {
-                    "text": "No new substance was formed because the substances just combined together",
-                    "isCorrect": 0,
-                    "explanation": "When substances simply combine without forming a new substance, they retain their original properties. The change in both magnetic properties and color indicates that a chemical change occurred."
-                },
-                {
-                    "text": "The magnetic property was lost because substance B diluted substance A",
-                    "isCorrect": 0,
-                    "explanation": "Simple dilution would not cause a complete loss of magnetic properties or such a dramatic color change. These changes suggest a chemical reaction formed a new substance."
-                },
-                {
-                    "text": "The blue color proves that the substances did not react",
-                    "isCorrect": 0,
-                    "explanation": "A change in color often indicates that a chemical reaction has occurred. The appearance of a new color different from both original substances suggests new substance formation."
+                    "explanation": "When a mixture shows multiple property changes including color change and temperature change, it strongly suggests that a chemical reaction has occurred creating new substances with different properties than the original substances."
                 }
             ],
-            "funFact": "The loss of magnetic properties during chemical reactions is important in recycling! Magnetic sorting is used to separate iron and steel from other materials, but if these metals have rusted (reacted with oxygen), they become less magnetic and harder to sort."
+            "funFact": "The process where chemical reactions release heat to the surroundings is called an exothermic reaction. This same principle is responsible for the heat produced by hand warmers used by athletes and outdoor enthusiasts!"
         },
         {
             "id": 12,
+            "text": "In a chemistry experiment, a student mixes sodium metal with water and observes the following changes:\n- A violent reaction occurs with bright flames\n- The resulting solution feels slippery\n- The original silvery metal completely disappears\n\nWhich evidence most strongly suggests that a new substance was formed in this reaction?",
+            "options": [
+                {
+                    "text": "The bright flames during the reaction",
+                    "isCorrect": 0,
+                    "explanation": "While flames are often a sign of a chemical reaction, they alone don't prove new substances formed - they could just be energy release."
+                },
+                {
+                    "text": "The violent nature of the reaction",
+                    "isCorrect": 0,
+                    "explanation": "The violence of a reaction indicates energy change but doesn't necessarily mean new substances formed."
+                },
+                {
+                    "text": "The complete disappearance of the original metal",
+                    "isCorrect": 0,
+                    "explanation": "The disappearance of a starting material suggests change but doesn't prove new substances formed - it could have just dissolved."
+                },
+                {
+                    "text": "The resulting solution having different properties from both water and sodium",
+                    "isCorrect": 1,
+                    "explanation": "The slippery feeling indicates the formation of sodium hydroxide, a new substance with properties different from both starting materials."
+                }
+            ],
+            "funFact": "The slippery feeling of the solution after sodium reacts with water is a characteristic property of bases like sodium hydroxide, which is why soap (also a base) feels slippery when you wash your hands!"
+        },
+        {
+            "id": 13,
+            "text": "A student mixes acetone and water in a beaker. Before mixing, acetone was clear and colorless with a density of 0.79 g/mL, while water was also clear and colorless with a density of 1.0 g/mL. After mixing, the resulting liquid is clear and colorless with a density of 0.92 g/mL. Has a new substance formed from this mixture?",
+            "options": [
+                {
+                    "text": "No, because acetone and water form a mixture where both substances keep their original properties",
+                    "isCorrect": 1,
+                    "explanation": "The change in density is due to the two liquids mixing together, not a chemical reaction. The substances maintain their individual properties in the solution, indicating this is a physical change rather than the formation of a new substance."
+                },
+                {
+                    "text": "Yes, because the two substances combined into one liquid",
+                    "isCorrect": 0,
+                    "explanation": "Simply combining two substances into one liquid doesn't mean a new substance has formed. This is a physical mixture where both substances retain their chemical identities."
+                },
+                {
+                    "text": "No, because the color stayed the same",
+                    "isCorrect": 0,
+                    "explanation": "While the color staying the same suggests no new substance formed, this reason alone is not sufficient. Other properties need to be considered to determine if a chemical change occurred."
+                },
+                {
+                    "text": "Yes, because the density of the final liquid is different from both original liquids",
+                    "isCorrect": 0,
+                    "explanation": "A change in density alone doesn't indicate a new substance has formed. When liquids mix, the density of the mixture is often between the densities of the original liquids."
+                }
+            ],
+            "funFact": "Acetone and water mixing is an example of a homogeneous mixture called a solution. This type of mixture is so uniform that even powerful microscopes cannot distinguish between the two substances once they're mixed!"
+        },
+        {
+            "id": 14,
+            "text": "A student mixes table salt with water and observes the following changes:\n1. The salt crystals disappear\n2. The solution remains clear\n3. The mixture can be separated by evaporation\n4. The water still tastes salty\n\nBased on these observations, what can the student conclude about whether a new substance was formed?",
+            "options": [
+                {
+                    "text": "A new substance was formed because the mixture looks different from the original substances",
+                    "isCorrect": 0,
+                    "explanation": "A change in appearance alone does not indicate the formation of a new substance - many physical changes also result in appearance changes."
+                },
+                {
+                    "text": "A new substance was formed because the salt crystals disappeared",
+                    "isCorrect": 0,
+                    "explanation": "The disappearance of salt crystals is just a physical change due to dissolution, not evidence of a new substance being formed."
+                },
+                {
+                    "text": "No new substance was formed because the properties of both salt and water are still present in the mixture",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because the original substances can be recovered through evaporation, and the properties (like saltiness) are maintained, indicating a physical change rather than the formation of a new substance."
+                },
+                {
+                    "text": "A new substance was formed because you cannot see the salt anymore",
+                    "isCorrect": 0,
+                    "explanation": "Not being able to see the salt is due to it dissolving in water, which is a physical change. The salt is still present, just in dissolved form."
+                }
+            ],
+            "funFact": "The ability of water to dissolve salt is why the oceans are salty! Over millions of years, water has been dissolving tiny amounts of salt from rocks and soil and carrying it to the oceans, where it accumulates because the water evaporates but the salt stays behind."
+        },
+        {
+            "id": 15,
             "text": "A student mixed two metals - copper and tin - and heated them together. Before mixing, copper had a reddish color and melting point of 1085\u00b0C, while tin was silvery with melting point of 232\u00b0C. After mixing and heating, the resulting material was bronze-colored and had a melting point of 950\u00b0C. Based on these observations, what can be concluded?",
             "options": [
                 {
-                    "text": "A new substance (bronze) was formed because the properties of the mixture are different from the original metals",
-                    "isCorrect": 1,
-                    "explanation": "The different color and new melting point indicate that a new substance with different properties was formed through the formation of an alloy, which is a solid solution where atoms of tin are dispersed within the copper crystalline structure."
+                    "text": "The copper changed the properties of tin without forming a new substance",
+                    "isCorrect": 0,
+                    "explanation": "The changes in properties indicate alloy formation occurred between the metals, creating a solid solution (bronze) with its own distinct properties different from either copper or tin alone."
                 },
                 {
                     "text": "No new substance formed because the melting point is between that of copper and tin",
@@ -314,98 +395,17 @@
                     "explanation": "Having an intermediate melting point alone doesn't mean it's just a mixture. The new color and distinct melting point show that an alloy formed, creating a solid solution with properties different from either original metal."
                 },
                 {
+                    "text": "A new substance (bronze) was formed because the properties of the mixture are different from the original metals",
+                    "isCorrect": 1,
+                    "explanation": "The different color and new melting point indicate that a new substance with different properties was formed through the formation of an alloy, which is a solid solution where atoms of tin are dispersed within the copper crystalline structure."
+                },
+                {
                     "text": "The metals just mixed together but remained separate substances",
                     "isCorrect": 0,
                     "explanation": "If the metals just mixed without forming an alloy, they would maintain their original properties. The new color and melting point show that a solid solution formed where atoms of one metal are integrated into the crystalline structure of the other."
-                },
-                {
-                    "text": "The copper changed the properties of tin without forming a new substance",
-                    "isCorrect": 0,
-                    "explanation": "The changes in properties indicate alloy formation occurred between the metals, creating a solid solution (bronze) with its own distinct properties different from either copper or tin alone."
                 }
             ],
             "funFact": "Bronze was one of the first alloys made by humans and launched the Bronze Age around 3300 BCE. This discovery revolutionized tool-making since bronze is harder than copper or tin alone!"
-        },
-        {
-            "id": 13,
-            "text": "A student mixes iron filings and sulfur powder, observing that both substances maintain their original colors and the iron filings are still attracted to a magnet. When the mixture is heated, it turns black and is no longer attracted to a magnet. Based on these observations, what can be concluded?",
-            "options": [
-                {
-                    "text": "A chemical reaction occurred during heating, forming a new substance with different properties",
-                    "isCorrect": 1,
-                    "explanation": "The changes in color and magnetic properties after heating indicate that the iron and sulfur formed a new substance (iron sulfide) with different properties than the original substances"
-                },
-                {
-                    "text": "No reaction occurred because the substances were just mixed together",
-                    "isCorrect": 0,
-                    "explanation": "While initially just mixing didn't cause a reaction, the heating caused the substances to react and form a new compound with different properties"
-                },
-                {
-                    "text": "The iron simply lost its magnetic properties due to heating",
-                    "isCorrect": 0,
-                    "explanation": "Iron maintains its magnetic properties at the temperatures used in this experiment. The loss of magnetic attraction indicates a chemical change, not just a physical change"
-                },
-                {
-                    "text": "The black color is just from the iron and sulfur being heated",
-                    "isCorrect": 0,
-                    "explanation": "The black color represents a new substance (iron sulfide), not just heated iron and sulfur. This along with the loss of magnetic properties indicates a chemical reaction"
-                }
-            ],
-            "funFact": "This reaction between iron and sulfur to form iron sulfide has been known since ancient times and was one of the first chemical reactions studied systematically by scientists. Iron sulfide can be found naturally in meteorites!"
-        },
-        {
-            "id": 14,
-            "text": "A student mixes two clear liquids in a beaker: liquid A has a density of 1.0 g/mL and liquid B has a density of 0.8 g/mL. After mixing, they observe that the mixture has turned yellow and has a density of 1.2 g/mL. What can be concluded about this mixture?",
-            "options": [
-                {
-                    "text": "A new substance has formed because the mixture has different properties than the original liquids",
-                    "isCorrect": 1,
-                    "explanation": "The appearance of a new color and a density different from both original liquids indicates that a chemical reaction occurred, forming a new substance with new properties."
-                },
-                {
-                    "text": "No new substance has formed because the liquids just combined together",
-                    "isCorrect": 0,
-                    "explanation": "If no new substance formed, the mixture's density would be between 0.8-1.0 g/mL and the color would remain clear. The new properties indicate a chemical change."
-                },
-                {
-                    "text": "The density changed only because the liquids were mixed thoroughly",
-                    "isCorrect": 0,
-                    "explanation": "Simply mixing liquids doesn't create new properties like color changes or densities outside the range of the original substances."
-                },
-                {
-                    "text": "The yellow color is just from the liquids being layered on top of each other",
-                    "isCorrect": 0,
-                    "explanation": "Layering of clear liquids would not create a yellow color. The new color indicates a chemical change has occurred."
-                }
-            ],
-            "funFact": "When vinegar and baking soda react, they form completely new substances: sodium acetate, water, and carbon dioxide. This is why the mixture bubbles and feels different than either starting material!"
-        },
-        {
-            "id": 15,
-            "text": "When sodium metal reacts with water, which observation provides evidence that new substances are formed?",
-            "options": [
-                {
-                    "text": "The reaction produces fizzing and heat along with new substances that have different properties than sodium and water",
-                    "isCorrect": 1,
-                    "explanation": "The fizzing, heat production, and formation of substances with new properties indicate a chemical reaction has occurred, forming new substances different from the original reactants."
-                },
-                {
-                    "text": "The sodium metal simply dissolves in water like salt does",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because sodium's reaction with water is a chemical reaction forming new substances, not a physical change like dissolution."
-                },
-                {
-                    "text": "The sodium metal floats on water because it is less dense",
-                    "isCorrect": 0,
-                    "explanation": "This describes a physical property of sodium metal, not evidence of new substance formation through chemical reaction."
-                },
-                {
-                    "text": "The water just changes its shape to surround the sodium metal",
-                    "isCorrect": 0,
-                    "explanation": "This describes a physical property of water, not the chemical reaction that occurs when sodium reacts with water."
-                }
-            ],
-            "funFact": "Ancient alchemists called sodium 'natrium' (which is why its chemical symbol is Na), and they were fascinated by how violently it reacted with water. Modern scientists use this reactive property of sodium to create important compounds like sodium hydroxide, used in making soap!"
         }
     ]
 }

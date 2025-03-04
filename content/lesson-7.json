@@ -4,6 +4,33 @@
     "questions": [
         {
             "id": 1,
+            "text": "Which of the following is NOT a typical problem that engineers work on solving?",
+            "options": [
+                {
+                    "text": "Writing stories for children's books",
+                    "isCorrect": 1,
+                    "explanation": "Writing stories is a creative task but not an engineering problem. Engineers focus on using science and math to create solutions to practical problems."
+                },
+                {
+                    "text": "Creating more energy-efficient light bulbs",
+                    "isCorrect": 0,
+                    "explanation": "Electrical engineers work on improving light bulbs to use less energy and produce less heat while providing better illumination."
+                },
+                {
+                    "text": "Designing medical devices for monitoring health",
+                    "isCorrect": 0,
+                    "explanation": "Biomedical engineers design and develop medical equipment and devices like heart monitors, MRI machines, and wearable health trackers."
+                },
+                {
+                    "text": "Designing safer airplanes for transportation",
+                    "isCorrect": 0,
+                    "explanation": "Aerospace engineers actively work on designing and improving airplanes to make air travel safer and more efficient."
+                }
+            ],
+            "funFact": "The word 'engineer' comes from the Latin word 'ingenium' which means cleverness and ingenuity. This reflects how engineers use creative thinking along with scientific knowledge to solve problems!"
+        },
+        {
+            "id": 2,
             "text": "How do engineers typically start working on solving a problem?",
             "options": [
                 {
@@ -12,14 +39,14 @@
                     "explanation": "Engineers first need to fully understand a problem by making observations and asking questions before they can start designing solutions."
                 },
                 {
-                    "text": "They immediately start building new tools",
-                    "isCorrect": 0,
-                    "explanation": "Starting to build without understanding the problem can waste time and resources. Engineers need to gather information first."
-                },
-                {
                     "text": "They copy existing solutions exactly",
                     "isCorrect": 0,
                     "explanation": "While existing solutions can provide inspiration, engineers need to understand the specific problem they're trying to solve rather than just copying other solutions."
+                },
+                {
+                    "text": "They immediately start building new tools",
+                    "isCorrect": 0,
+                    "explanation": "Starting to build without understanding the problem can waste time and resources. Engineers need to gather information first."
                 },
                 {
                     "text": "They guess random solutions until one works",
@@ -30,148 +57,148 @@
             "funFact": "The famous inventor Thomas Edison made over 1,000 unsuccessful attempts before successfully inventing the light bulb. Each failure taught him something new about the problem he was trying to solve!"
         },
         {
-            "id": 2,
-            "text": "What is the main role of an engineer in solving problems?",
-            "options": [
-                {
-                    "text": "Creating and testing solutions using science and math knowledge",
-                    "isCorrect": 1,
-                    "explanation": "Engineers use their knowledge of science and math along with creativity to design, build, and test solutions to problems. They continuously work to improve their designs through testing and redesigning."
-                },
-                {
-                    "text": "Following instructions from a manual to fix things",
-                    "isCorrect": 0,
-                    "explanation": "Engineers don't just follow manuals - they create new solutions to problems using their knowledge and creativity. They design and develop original solutions rather than just following existing instructions."
-                },
-                {
-                    "text": "Building things exactly the same way every time",
-                    "isCorrect": 0,
-                    "explanation": "Engineers constantly improve and modify their designs based on testing results. They don't build things the same way every time, but rather keep making improvements to find better solutions."
-                },
-                {
-                    "text": "Using only trial and error without any planning",
-                    "isCorrect": 0,
-                    "explanation": "Engineers carefully plan their designs and use their knowledge of science and math. While they do test their solutions, they don't rely only on random trial and error - they use structured approaches and scientific principles."
-                }
-            ],
-            "funFact": "The word 'engineer' comes from the Latin word 'ingenium' meaning cleverness and 'ingeniare' meaning to devise. This reflects how engineers use their creativity and cleverness to invent new solutions!"
-        },
-        {
             "id": 3,
-            "text": "What is the first important step an engineer should take when trying to solve a problem?",
+            "text": "When engineers start working on solving a problem, what is the most important first step they should take?",
             "options": [
                 {
-                    "text": "Build a solution immediately",
+                    "text": "Buy all the materials needed",
                     "isCorrect": 0,
-                    "explanation": "Building without first understanding the problem can lead to ineffective solutions and wasted time and resources."
+                    "explanation": "Buying materials before understanding the problem could lead to purchasing unnecessary items or missing important ones needed for the solution."
                 },
                 {
-                    "text": "Ask questions and gather information about the problem",
+                    "text": "Start building a solution immediately",
+                    "isCorrect": 0,
+                    "explanation": "Starting to build without understanding the problem can waste time and resources, and might not address the real issue."
+                },
+                {
+                    "text": "Gather information and understand the problem clearly",
                     "isCorrect": 1,
-                    "explanation": "Engineers need to fully understand the problem before they can create an effective solution. This involves asking questions and collecting relevant information."
+                    "explanation": "Before starting to design solutions, engineers need to fully understand the problem by gathering information and asking questions. This helps them create better solutions."
                 },
                 {
-                    "text": "Test different materials",
+                    "text": "Tell everyone about the solution",
                     "isCorrect": 0,
-                    "explanation": "While testing materials is important, it comes after understanding what the problem is and what needs to be solved."
-                },
-                {
-                    "text": "Draw the final design",
-                    "isCorrect": 0,
-                    "explanation": "Creating the final design should come after understanding the problem and brainstorming possible solutions."
+                    "explanation": "Sharing ideas about solutions before understanding the problem completely could lead to confusion and incorrect approaches."
                 }
             ],
-            "funFact": "The engineering process is similar to how doctors diagnose patients - they first ask questions and gather information before deciding on a treatment plan. This systematic approach helps both engineers and doctors find the best solutions to problems!"
+            "funFact": "The Apollo 13 mission's famous problem-solving moment started with astronauts and engineers carefully gathering information about the spacecraft's damage before designing their life-saving solution using available materials!"
         },
         {
             "id": 4,
-            "text": "Why is having a good imagination important for an engineer when solving problems?",
+            "text": "What is the correct order of steps that engineers follow when solving problems?",
             "options": [
                 {
-                    "text": "To create multiple unique solutions to problems",
+                    "text": "Improve, Plan, Build, Test",
+                    "isCorrect": 0,
+                    "explanation": "Improvements come after testing shows what needs to be fixed. Engineers cannot improve something before planning and building it."
+                },
+                {
+                    "text": "Plan, Build, Test, Improve",
                     "isCorrect": 1,
-                    "explanation": "Engineers use their imagination to think creatively and develop various possible solutions to solve problems effectively."
+                    "explanation": "Engineers first sketch a plan, then build their solution, test it to see how well it works, and finally make improvements based on what they learned."
                 },
                 {
-                    "text": "To make their work more fun",
+                    "text": "Build, Test, Plan, Improve",
                     "isCorrect": 0,
-                    "explanation": "While engineering can be enjoyable, imagination is primarily used for problem-solving, not just for making work fun."
+                    "explanation": "Building before planning can waste time and materials. A good plan helps engineers think through their ideas first."
                 },
                 {
-                    "text": "To avoid testing their solutions",
+                    "text": "Test, Improve, Plan, Build",
                     "isCorrect": 0,
-                    "explanation": "Testing is crucial in engineering. Imagination helps create solutions, but testing is still necessary to verify if they work."
-                },
-                {
-                    "text": "To make their designs look pretty",
-                    "isCorrect": 0,
-                    "explanation": "While designs can look appealing, imagination in engineering is primarily about finding effective solutions to problems, not just aesthetics."
+                    "explanation": "Testing cannot happen before something is built. Engineers need to plan and build first before they can test their solution."
                 }
             ],
-            "funFact": "Thomas Edison, one of history's most famous inventors, used his imagination to try over 1,000 different designs before successfully creating a working light bulb. This shows how imagination combined with persistence can lead to groundbreaking solutions!"
+            "funFact": "Thomas Edison tried over 1,000 different designs before successfully creating a working light bulb! This shows how engineers often need to plan, build, test, and improve many times before finding the best solution."
         },
         {
             "id": 5,
-            "text": "Why is it important for engineers to understand a problem completely before they start designing a solution?",
+            "text": "How do engineers improve on existing solutions like the light bulb?",
             "options": [
                 {
-                    "text": "To save time and money by creating the right solution on the first try",
+                    "text": "They start over completely with a new solution",
+                    "isCorrect": 0,
+                    "explanation": "Engineers typically build upon existing solutions rather than starting completely over, using what works and improving what doesn't."
+                },
+                {
+                    "text": "They make the solution more expensive",
+                    "isCorrect": 0,
+                    "explanation": "The goal of engineering improvements is usually to make solutions better and more efficient, not more expensive."
+                },
+                {
+                    "text": "They make the solution bigger and more complex",
+                    "isCorrect": 0,
+                    "explanation": "Making solutions bigger and more complex doesn't necessarily mean they're better. Engineers often try to make solutions simpler and more efficient."
+                },
+                {
+                    "text": "They make the solution work better while using fewer resources",
                     "isCorrect": 1,
-                    "explanation": "Understanding the problem helps engineers create effective solutions that address the actual needs, avoiding wasted effort and resources on incorrect solutions."
-                },
-                {
-                    "text": "To make sure they use the most expensive materials available",
-                    "isCorrect": 0,
-                    "explanation": "The cost of materials is not the main reason for understanding a problem first. Engineers choose appropriate materials based on the problem's requirements."
-                },
-                {
-                    "text": "To make their solution look more impressive than others",
-                    "isCorrect": 0,
-                    "explanation": "The goal of engineering is to solve problems effectively, not to compete with or impress others."
-                },
-                {
-                    "text": "To avoid having to test their solutions",
-                    "isCorrect": 0,
-                    "explanation": "Testing is an important part of engineering regardless of how well the problem is understood. Testing helps improve the solution."
+                    "explanation": "Engineers work to improve solutions by making them more efficient, like creating light bulbs that produce the same light while using less energy and generating less heat."
                 }
             ],
-            "funFact": "The famous Golden Gate Bridge in San Francisco took over 4 years to build, but engineers spent several years before construction studying the problems they would face, like strong winds and ocean currents. This careful planning helped create a bridge that has stood strong since 1937!"
+            "funFact": "The first electric light bulb created by Thomas Edison in 1879 lasted only 13.5 hours! Today's LED light bulbs can last up to 50,000 hours - that's more than 5 years of continuous use!"
         },
         {
             "id": 6,
-            "text": "A school wants to improve their lunch line system because students are waiting too long to get their food. Which statement best describes the core problem that needs to be solved?",
+            "text": "A student wants to create a better backpack to help carry heavy school books. What should be their first step in approaching this engineering problem?",
             "options": [
                 {
-                    "text": "Students are spending too much time waiting in the lunch line, reducing their available time to eat and socialize",
+                    "text": "Ask questions and observe how students currently use their backpacks",
                     "isCorrect": 1,
-                    "explanation": "This clearly identifies the main issue - excessive waiting time - which affects students' lunch experience and needs to be solved"
+                    "explanation": "Understanding the problem through questions and observations helps identify specific issues that need to be solved before designing solutions."
                 },
                 {
-                    "text": "The cafeteria needs to hire more staff members to serve lunch",
+                    "text": "Buy an existing backpack and try to copy its design",
                     "isCorrect": 0,
-                    "explanation": "This jumps to a possible solution without clearly defining the problem first"
+                    "explanation": "Copying existing designs without understanding the specific problems to solve may not lead to better solutions."
                 },
                 {
-                    "text": "Students don't like standing in lines",
+                    "text": "Start building different backpack prototypes immediately",
                     "isCorrect": 0,
-                    "explanation": "This is too general and doesn't specifically address the actual problem of long wait times"
+                    "explanation": "Building prototypes without first understanding the problem and requirements could waste time and resources."
                 },
                 {
-                    "text": "The school should create multiple serving stations",
+                    "text": "Draw a final design right away",
                     "isCorrect": 0,
-                    "explanation": "This suggests a solution without first identifying the core problem that needs to be solved"
+                    "explanation": "Creating a final design without first gathering information about the problem could result in missing important requirements."
                 }
             ],
-            "funFact": "Engineers often use time-motion studies in cafeterias and restaurants to improve efficiency. Some schools have reduced lunch line wait times by up to 40% through careful analysis and redesign of their serving systems!"
+            "funFact": "The modern school backpack was invented in 1967 by JanSport founder Skip Yowell. Before that, students mainly used leather straps to carry their books!"
         },
         {
             "id": 7,
+            "text": "A school wants to make their playground more accessible for students who use wheelchairs. What would be the most helpful way to gather information about this problem?",
+            "options": [
+                {
+                    "text": "Look at pictures of other playgrounds online",
+                    "isCorrect": 0,
+                    "explanation": "While looking at pictures can provide some ideas, it doesn't give specific information about the challenges students face at this particular playground"
+                },
+                {
+                    "text": "Measure the size of the playground",
+                    "isCorrect": 0,
+                    "explanation": "While size might be relevant later when designing solutions, it doesn't help identify the specific accessibility challenges that need to be addressed"
+                },
+                {
+                    "text": "Ask students who use wheelchairs about their experiences and challenges on the current playground",
+                    "isCorrect": 1,
+                    "explanation": "Talking directly to the people affected by the problem provides the most valuable insights about specific challenges and needed improvements"
+                },
+                {
+                    "text": "Count how many students use wheelchairs",
+                    "isCorrect": 0,
+                    "explanation": "Simply knowing the number of students doesn't provide information about what changes would help make the playground more accessible"
+                }
+            ],
+            "funFact": "Universal design in playgrounds doesn't just help children who use wheelchairs - it can benefit parents with strollers, elderly grandparents, and children with temporary injuries too!"
+        },
+        {
+            "id": 8,
             "text": "Your class needs to organize the art supplies cabinet. What would be the most helpful way to document the storage problem to find a good solution?",
             "options": [
                 {
-                    "text": "Take notes about which supplies are hard to find and why students have trouble finding them",
-                    "isCorrect": 1,
-                    "explanation": "Making detailed observations about specific problems helps identify exactly what needs to be improved, which is essential for finding an effective solution."
+                    "text": "Draw a picture of the art supplies cabinet",
+                    "isCorrect": 0,
+                    "explanation": "While drawing can be helpful, simply sketching the cabinet without noting specific problems doesn't provide enough information about what needs to be improved."
                 },
                 {
                     "text": "Count how many different art supplies are in the cabinet",
@@ -184,21 +211,21 @@
                     "explanation": "This doesn't involve making observations or gathering information to understand the problem, which are important steps in finding a solution."
                 },
                 {
-                    "text": "Draw a picture of the art supplies cabinet",
-                    "isCorrect": 0,
-                    "explanation": "While drawing can be helpful, simply sketching the cabinet without noting specific problems doesn't provide enough information about what needs to be improved."
+                    "text": "Take notes about which supplies are hard to find and why students have trouble finding them",
+                    "isCorrect": 1,
+                    "explanation": "Making detailed observations about specific problems helps identify exactly what needs to be improved, which is essential for finding an effective solution."
                 }
             ],
             "funFact": "Engineers often use a technique called 'root cause analysis' where they carefully observe and document problems to find the underlying causes before developing solutions. This method has helped solve problems in everything from spacecraft design to organizing school supplies!"
         },
         {
-            "id": 8,
+            "id": 9,
             "text": "A group of students wants to improve their school supplies to make them more useful. Which method would be the best way to understand what problems students have with their current supplies?",
             "options": [
                 {
-                    "text": "Asking students to fill out a survey about which supplies they find difficult to use and why",
-                    "isCorrect": 1,
-                    "explanation": "Surveys help gather specific feedback from many users about their experiences and challenges, making it an effective way to understand problems before designing solutions."
+                    "text": "Asking only the teachers what they think needs to be changed",
+                    "isCorrect": 0,
+                    "explanation": "While teacher input is valuable, not including feedback from students who use the supplies daily would miss important perspectives about problems."
                 },
                 {
                     "text": "Starting to design new supplies right away based on what seems wrong",
@@ -206,101 +233,47 @@
                     "explanation": "Jumping to solutions without first understanding the problems can lead to designs that don't address the real needs of users."
                 },
                 {
+                    "text": "Asking students to fill out a survey about which supplies they find difficult to use and why",
+                    "isCorrect": 1,
+                    "explanation": "Surveys help gather specific feedback from many users about their experiences and challenges, making it an effective way to understand problems before designing solutions."
+                },
+                {
                     "text": "Looking at what supplies other schools use",
                     "isCorrect": 0,
                     "explanation": "While comparing supplies can be helpful later, it doesn't directly tell you what problems your own students are experiencing."
-                },
-                {
-                    "text": "Asking only the teachers what they think needs to be changed",
-                    "isCorrect": 0,
-                    "explanation": "While teacher input is valuable, not including feedback from students who use the supplies daily would miss important perspectives about problems."
                 }
             ],
             "funFact": "Engineers often use a technique called 'user research' where they spend time watching how people use products in their daily lives. For example, the design of the computer mouse came from carefully studying how people naturally move their hands while working!"
         },
         {
-            "id": 9,
-            "text": "Two friends want to keep their ice cream cold during a summer picnic that will last about 6 hours. Sarah suggests using a traditional cooler filled with ice, while Mike wants to use a special insulated container with cooling gel packs. Which approach would likely work better for this specific situation and why?",
-            "options": [
-                {
-                    "text": "The insulated container with gel packs, because it provides more consistent cooling temperature over the 6-hour period and doesn't create messy water as the ice melts",
-                    "isCorrect": 1,
-                    "explanation": "While ice can initially be very cold, gel packs typically maintain a steady temperature longer for extended periods like a 6-hour picnic, and they don't create a mess from melting ice that could make the ice cream soggy"
-                },
-                {
-                    "text": "The traditional cooler with ice, because ice can reach lower temperatures than most gel packs",
-                    "isCorrect": 0,
-                    "explanation": "While ice can reach lower temperatures than some gel packs, it tends to melt more quickly in summer heat, especially over a 6-hour period, creating water that can affect ice cream texture and packaging"
-                },
-                {
-                    "text": "Both would work equally well in all conditions",
-                    "isCorrect": 0,
-                    "explanation": "Different cooling methods have different advantages and effectiveness depending on specific conditions like duration, outside temperature, and how often the container is opened"
-                },
-                {
-                    "text": "Neither would work well enough to keep ice cream frozen for 6 hours",
-                    "isCorrect": 0,
-                    "explanation": "Properly designed cooling containers with either ice or gel packs can effectively maintain freezing temperatures for several hours when used correctly"
-                }
-            ],
-            "funFact": "Portable ice containers have existed since the 19th century, but modern insulated coolers were popularized in the 1950s. Today's advanced coolers use insulation technologies that can keep items cold for up to 10 days in optimal conditions!"
-        },
-        {
             "id": 10,
-            "text": "A school wants to make their playground more accessible for students who use wheelchairs. What would be the most helpful way to gather information about this problem?",
+            "text": "A group of students wants to make their school playground more accessible for children who use wheelchairs. What would be the best way to gather information about this problem?",
             "options": [
                 {
-                    "text": "Ask students who use wheelchairs about their experiences and challenges on the current playground",
+                    "text": "Take measurements of the playground equipment and observe how students in wheelchairs currently use the playground during recess",
                     "isCorrect": 1,
-                    "explanation": "Talking directly to the people affected by the problem provides the most valuable insights about specific challenges and needed improvements"
+                    "explanation": "Taking measurements and observing actual usage provides concrete data about the challenges and helps identify specific improvements needed"
+                },
+                {
+                    "text": "Make changes to the playground right away without studying the problem",
+                    "isCorrect": 0,
+                    "explanation": "Making changes without first understanding the problem could result in solutions that don't address the actual needs"
+                },
+                {
+                    "text": "Ask only the teachers what they think needs to change",
+                    "isCorrect": 0,
+                    "explanation": "While teacher input is valuable, it's important to gather information from multiple sources, especially those who will use the equipment"
                 },
                 {
                     "text": "Look at pictures of other playgrounds online",
                     "isCorrect": 0,
-                    "explanation": "While looking at pictures can provide some ideas, it doesn't give specific information about the challenges students face at this particular playground"
-                },
-                {
-                    "text": "Count how many students use wheelchairs",
-                    "isCorrect": 0,
-                    "explanation": "Simply knowing the number of students doesn't provide information about what changes would help make the playground more accessible"
-                },
-                {
-                    "text": "Measure the size of the playground",
-                    "isCorrect": 0,
-                    "explanation": "While size might be relevant later when designing solutions, it doesn't help identify the specific accessibility challenges that need to be addressed"
+                    "explanation": "While looking at other playgrounds can provide ideas, it doesn't give specific information about the challenges at their playground"
                 }
             ],
-            "funFact": "Universal design in playgrounds doesn't just help children who use wheelchairs - it can benefit parents with strollers, elderly grandparents, and children with temporary injuries too!"
+            "funFact": "Universal design in playgrounds, which makes them accessible to all children, actually began in the 1950s when playground designers started considering how to make play spaces more inclusive for children with different abilities"
         },
         {
             "id": 11,
-            "text": "A young engineer wants to design a new toy that helps children learn about shapes. Which of the following best shows how the engineer should balance imagination with practical considerations?",
-            "options": [
-                {
-                    "text": "Use imagination to create interesting ideas first, then test and modify them based on what works",
-                    "isCorrect": 1,
-                    "explanation": "This approach balances creativity with practicality by starting with imaginative ideas but then improving them through testing and real-world feedback"
-                },
-                {
-                    "text": "Focus only on using imagination to create the most unique toy possible",
-                    "isCorrect": 0,
-                    "explanation": "While imagination is important, ignoring practical considerations like testing and improvement would likely lead to a toy that doesn't work well"
-                },
-                {
-                    "text": "Only focus on what has worked before and avoid trying new ideas",
-                    "isCorrect": 0,
-                    "explanation": "Engineering requires both creativity and learning from experience - avoiding new ideas limits the potential for innovation and improvement"
-                },
-                {
-                    "text": "Start building immediately without planning or sketching ideas first",
-                    "isCorrect": 0,
-                    "explanation": "Skipping the planning phase makes it harder to think through different possibilities and identify potential problems early"
-                }
-            ],
-            "funFact": "The LEGO company tests their toy designs with over 3,000 children each year to make sure their creative ideas actually work well in the real world!"
-        },
-        {
-            "id": 12,
             "text": "Why is testing an important step in the engineering process when developing new solutions?",
             "options": [
                 {
@@ -309,9 +282,9 @@
                     "explanation": "Testing reveals flaws and areas for improvement, allowing engineers to make their solutions safer and more effective before they are used by people"
                 },
                 {
-                    "text": "Testing is only needed to show that a design works perfectly the first time",
+                    "text": "Testing is only important for big projects like rockets and airplanes",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because designs rarely work perfectly on the first try. Testing helps identify problems that need to be fixed through multiple iterations"
+                    "explanation": "Testing is important for all engineering projects, big and small, to ensure they work safely and effectively"
                 },
                 {
                     "text": "Testing is just a way to show off successful designs to others",
@@ -319,17 +292,49 @@
                     "explanation": "Testing isn't about showing off - it's a critical step to find and fix problems in designs before they are used"
                 },
                 {
-                    "text": "Testing is only important for big projects like rockets and airplanes",
+                    "text": "Testing is only needed to show that a design works perfectly the first time",
                     "isCorrect": 0,
-                    "explanation": "Testing is important for all engineering projects, big and small, to ensure they work safely and effectively"
+                    "explanation": "This is incorrect because designs rarely work perfectly on the first try. Testing helps identify problems that need to be fixed through multiple iterations"
                 }
             ],
             "funFact": "The Wright brothers conducted over 1,000 test flights before achieving their successful powered flight in 1903, showing how important repeated testing and improvement is in engineering!"
         },
         {
+            "id": 12,
+            "text": "Why do engineers often need multiple attempts to create a successful solution to a problem?",
+            "options": [
+                {
+                    "text": "Each attempt helps them learn and improve their design",
+                    "isCorrect": 1,
+                    "explanation": "Engineers learn from their failures and use that knowledge to make their designs better with each attempt."
+                },
+                {
+                    "text": "They enjoy starting over from scratch",
+                    "isCorrect": 0,
+                    "explanation": "Engineers don't start completely over - they make improvements to their existing designs based on what they learned."
+                },
+                {
+                    "text": "They forget how to make their first design",
+                    "isCorrect": 0,
+                    "explanation": "Engineers carefully document their work and don't forget their previous designs - they build upon them."
+                },
+                {
+                    "text": "They want to waste time and materials",
+                    "isCorrect": 0,
+                    "explanation": "Engineers don't try multiple times to waste resources - each attempt has a purpose of improving the solution."
+                }
+            ],
+            "funFact": "Thomas Edison made over 1,000 unsuccessful attempts before successfully inventing the light bulb. When asked about his failures, he famously said, 'I have not failed. I've just found 10,000 ways that won't work.'"
+        },
+        {
             "id": 13,
             "text": "An engineer is trying to design a better backpack for students. What should be their first step in solving this problem?",
             "options": [
+                {
+                    "text": "Draw a final design for the new backpack",
+                    "isCorrect": 0,
+                    "explanation": "Creating a final design too early, without first understanding the problems that need to be solved, can lead to ineffective solutions."
+                },
                 {
                     "text": "Start building different backpack prototypes immediately",
                     "isCorrect": 0,
@@ -344,68 +349,63 @@
                     "text": "Buy different backpacks from stores to compare them",
                     "isCorrect": 0,
                     "explanation": "While looking at existing products can be helpful later, the first step should be understanding what needs to be improved."
-                },
-                {
-                    "text": "Draw a final design for the new backpack",
-                    "isCorrect": 0,
-                    "explanation": "Creating a final design too early, without first understanding the problems that need to be solved, can lead to ineffective solutions."
                 }
             ],
             "funFact": "The modern school backpack was invented in 1967 by JanSport. Before that, students mainly carried their books with leather straps or in briefcases!"
         },
         {
             "id": 14,
-            "text": "How should an engineer respond when their first design attempt fails?",
+            "text": "When an engineer begins working on a new problem, what is their first important step?",
             "options": [
                 {
-                    "text": "Learn from what went wrong and use that information to improve the design",
+                    "text": "Gathering information and understanding the problem completely",
                     "isCorrect": 1,
-                    "explanation": "Engineers view failure as a learning opportunity that helps them understand how to make their designs better."
+                    "explanation": "Engineers must first fully understand the problem before they can design effective solutions. This includes asking questions and making observations."
                 },
                 {
-                    "text": "Give up and try a completely different project instead",
+                    "text": "Drawing the final design",
                     "isCorrect": 0,
-                    "explanation": "Giving up prevents engineers from using valuable lessons learned from the failure to improve their solution."
+                    "explanation": "Creating the final design comes after understanding the problem and brainstorming possible solutions."
                 },
                 {
-                    "text": "Keep trying the exact same design over and over",
+                    "text": "Testing different materials",
                     "isCorrect": 0,
-                    "explanation": "Repeating the same design without making improvements based on what failed won't lead to better results."
+                    "explanation": "While testing materials is important, it comes after understanding what the problem is and what needs to be solved."
                 },
                 {
-                    "text": "Feel discouraged because failure means they're not a good engineer",
+                    "text": "Starting to build a solution immediately",
                     "isCorrect": 0,
-                    "explanation": "Failure is a normal and valuable part of the engineering process, not a sign of being unsuccessful."
+                    "explanation": "Building without proper understanding can waste time and resources. It's important to understand the problem first."
                 }
             ],
-            "funFact": "Thomas Edison made over 1,000 unsuccessful attempts before successfully inventing the light bulb. He famously said, 'I have not failed 1,000 times. I have successfully discovered 1,000 ways to NOT make a light bulb.'"
+            "funFact": "The Apollo 13 mission is a famous example of engineering problem-solving. When an oxygen tank exploded, engineers on Earth had to quickly gather information about the situation and understand the problem before they could help the astronauts create a solution using only the materials available on the spacecraft!"
         },
         {
             "id": 15,
-            "text": "A team of engineers is designing a new playground slide. What should they consider most important when developing their solution?",
+            "text": "What is the most important reason for engineers to sketch their ideas before building a solution?",
             "options": [
                 {
-                    "text": "Making the slide as tall as possible to make it more exciting",
+                    "text": "To show others how talented they are at drawing",
                     "isCorrect": 0,
-                    "explanation": "While excitement is important, the primary focus should be on safety and meeting the users' needs rather than just making it tall."
+                    "explanation": "Engineering sketches are tools for planning, not for demonstrating artistic ability."
                 },
                 {
-                    "text": "Using the most expensive materials available",
+                    "text": "To make their solution look pretty",
                     "isCorrect": 0,
-                    "explanation": "The cost of materials alone doesn't determine the quality of the solution. The materials should be chosen based on safety, durability, and functionality."
+                    "explanation": "While neat sketches are helpful, the main purpose is not about appearance but rather planning and problem-solving."
                 },
                 {
-                    "text": "How children will use the slide and what safety features are needed",
+                    "text": "To help think through their design and plan the steps",
                     "isCorrect": 1,
-                    "explanation": "Engineers must prioritize understanding how users will interact with their design and ensure it meets safety requirements while solving the intended problem."
+                    "explanation": "Sketching helps engineers visualize their ideas, think through potential problems, and plan the construction steps before building."
                 },
                 {
-                    "text": "Making it look colorful and attractive",
+                    "text": "To avoid having to build anything",
                     "isCorrect": 0,
-                    "explanation": "While appearance can be important, the primary focus should be on functionality and safety rather than just aesthetics."
+                    "explanation": "Sketching is part of the planning process, not a replacement for actually building and testing solutions."
                 }
             ],
-            "funFact": "The first playground slide was invented in 1922 by Charles Wicksteed in Kettering, England. He wanted to create something fun that would also help children develop balance and overcome fears!"
+            "funFact": "Leonardo da Vinci, one of history's greatest inventors, filled over 13,000 pages of notebooks with sketches of his ideas, including flying machines and robots. Many of his sketches were so detailed that modern engineers have been able to build working versions of his designs!"
         }
     ]
 }

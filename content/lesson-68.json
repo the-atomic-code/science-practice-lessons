@@ -4,18 +4,35 @@
     "questions": [
         {
             "id": 1,
-            "text": "A team of engineers wants to test different solutions to protect coastal areas from flooding during storms. They have access to a wave testing machine that simulates ocean waves. Which testing method would best help them compare the effectiveness of different flood barriers?",
+            "text": "Why are engineers constantly developing new methods to protect buildings from extreme weather events?",
             "options": [
                 {
-                    "text": "Measure the amount of water that gets past each barrier type when hit with the same wave force",
+                    "text": "Because of multiple factors including changing climate patterns, technological advances, and evolving community needs",
                     "isCorrect": 1,
-                    "explanation": "Measuring the volume of water that passes each barrier under identical wave conditions provides quantitative data to directly compare their effectiveness at preventing flooding."
+                    "explanation": "Engineers develop new protection methods in response to several factors: climate change causing more extreme weather, advances in materials science, improved understanding of weather phenomena, lessons learned from past failures, and the changing needs of growing communities."
                 },
                 {
-                    "text": "Test each barrier with increasingly stronger waves until it fails",
+                    "text": "Because old building methods worked perfectly and just need to be copied",
                     "isCorrect": 0,
-                    "explanation": "While this would show the maximum wave force each barrier can handle, it doesn't allow for direct comparison of how well they prevent flooding under normal storm conditions."
+                    "explanation": "While some old methods were effective, new challenges require innovative solutions beyond simply copying old techniques."
                 },
+                {
+                    "text": "Because construction companies want to sell more expensive materials",
+                    "isCorrect": 0,
+                    "explanation": "New building methods are developed primarily to meet safety needs, not for commercial purposes."
+                },
+                {
+                    "text": "Because modern weather events are completely different from those in the past",
+                    "isCorrect": 0,
+                    "explanation": "While climate change is causing more extreme weather events, they are not completely different from past events. Engineers adapt to evolving patterns rather than addressing entirely new phenomena."
+                }
+            ],
+            "funFact": "The first lightning rod was invented by Benjamin Franklin in 1752, but the technology continues to evolve today with new materials and designs that make them even more effective at protecting buildings!"
+        },
+        {
+            "id": 2,
+            "text": "A team of engineers wants to test different solutions to protect coastal areas from flooding during storms. They have access to a wave testing machine that simulates ocean waves. Which testing method would best help them compare the effectiveness of different flood barriers?",
+            "options": [
                 {
                     "text": "Observe which barrier looks the strongest when installed",
                     "isCorrect": 0,
@@ -25,158 +42,168 @@
                     "text": "Calculate the cost of building each type of barrier",
                     "isCorrect": 0,
                     "explanation": "While cost is an important consideration, it doesn't tell us how effective each barrier is at preventing flooding."
+                },
+                {
+                    "text": "Measure the amount of water that gets past each barrier type when hit with the same wave force",
+                    "isCorrect": 1,
+                    "explanation": "Measuring the volume of water that passes each barrier under identical wave conditions provides quantitative data to directly compare their effectiveness at preventing flooding."
+                },
+                {
+                    "text": "Test each barrier with increasingly stronger waves until it fails",
+                    "isCorrect": 0,
+                    "explanation": "While this would show the maximum wave force each barrier can handle, it doesn't allow for direct comparison of how well they prevent flooding under normal storm conditions."
                 }
             ],
             "funFact": "The Netherlands, a country where much of the land is below sea level, has some of the world's most advanced flood control systems. They use a combination of dikes, storm surge barriers, and pumping stations to keep the water out!"
         },
         {
-            "id": 2,
-            "text": "A coastal town wants to evaluate different engineering solutions to protect against flooding from storm surges. They test three different barriers using a wave simulation machine and measure the amount of water that gets past each barrier. Which measurement would provide the best evidence that one barrier design is more effective than the others?",
-            "options": [
-                {
-                    "text": "The amount of water that passes beyond each barrier in milliliters",
-                    "isCorrect": 1,
-                    "explanation": "The amount of water that gets past each barrier directly shows how well it prevents flooding, making it a clear measure of effectiveness."
-                },
-                {
-                    "text": "The height of each barrier in meters",
-                    "isCorrect": 0,
-                    "explanation": "While height is important, it alone doesn't tell us how well the barrier stops water - a shorter barrier with better design might work better than a taller one."
-                },
-                {
-                    "text": "The cost of building each barrier",
-                    "isCorrect": 0,
-                    "explanation": "Cost is a constraint to consider, but it doesn't measure how well the barrier performs its function of stopping flood water."
-                },
-                {
-                    "text": "The time taken to build each barrier",
-                    "isCorrect": 0,
-                    "explanation": "Construction time is a practical concern but doesn't indicate how effectively the barrier prevents flooding."
-                }
-            ],
-            "funFact": "The Netherlands, which has about one-third of its land below sea level, has developed some of the world's most innovative flood control systems, including massive storm surge barriers that can be closed when needed!"
-        },
-        {
             "id": 3,
-            "text": "A school wants to protect its building from lightning strikes. Which component of a lightning protection system is most important for safely directing the electrical energy from a lightning strike into the ground?",
+            "text": "When designing homes in areas with frequent high winds, why is a hip roof design considered more effective than a gable roof design?",
             "options": [
                 {
-                    "text": "Lightning rod",
+                    "text": "Hip roofs are heavier and cannot be lifted by wind",
+                    "isCorrect": 0,
+                    "explanation": "The weight of the roof is not the main factor in wind resistance - it's the aerodynamic shape that matters most"
+                },
+                {
+                    "text": "Hip roofs are cheaper to build in windy areas",
+                    "isCorrect": 0,
+                    "explanation": "Cost is not the reason hip roofs are preferred in windy areas - their effectiveness comes from their wind-deflecting design"
+                },
+                {
+                    "text": "Hip roofs are made of stronger materials than gable roofs",
+                    "isCorrect": 0,
+                    "explanation": "The materials used in hip and gable roofs can be the same - it's the design shape, not the materials, that makes hip roofs more wind-resistant"
+                },
+                {
+                    "text": "The slanted sides of a hip roof deflect wind upward, reducing direct force on the roof",
                     "isCorrect": 1,
-                    "explanation": "A lightning rod is a metal rod designed to intercept lightning strikes and provide a safe path for the electrical current to travel into the ground, protecting the building from damage."
-                },
-                {
-                    "text": "Rubber insulation",
-                    "isCorrect": 0,
-                    "explanation": "While rubber is an insulator, it is not used to direct lightning's energy. In fact, trying to insulate against lightning would be dangerous as the massive electrical charge would likely overcome any insulation."
-                },
-                {
-                    "text": "Solar panels",
-                    "isCorrect": 0,
-                    "explanation": "While solar panels do interact with electricity, they are designed to generate electricity from sunlight, not to protect buildings from lightning strikes."
-                },
-                {
-                    "text": "Glass windows",
-                    "isCorrect": 0,
-                    "explanation": "Glass windows do not provide protection from lightning. In fact, windows are vulnerable during lightning strikes and don't help direct the electrical energy safely."
+                    "explanation": "Hip roofs have all sides slanted, which helps deflect wind energy upward instead of allowing it to push directly against a flat surface, making them more resistant to wind damage"
                 }
             ],
-            "funFact": "The tallest building in a city usually gets struck by lightning most often! The Empire State Building in New York City gets struck by lightning around 25 times per year because of its height and metal structure."
+            "funFact": "The development of wind-resistant roof designs has been influenced by studying how airplanes use aerodynamics to control airflow. Just as airplane wings are designed to direct air in specific ways, modern roof designs use similar principles to manage wind forces!"
         },
         {
             "id": 4,
-            "text": "An engineering team is designing seawalls to protect coastal homes from flooding during storms. Which measurement would be the most useful criteria to determine if their seawall design is successful?",
+            "text": "An engineer is designing a special building panel to protect homes from tornado damage. Which of the following would be the most important constraint to consider in the design process?",
             "options": [
                 {
-                    "text": "The amount of water that gets past the seawall during testing",
+                    "text": "The panels should be easy to paint",
+                    "isCorrect": 0,
+                    "explanation": "The ability to paint the panels is not a crucial constraint when designing for tornado protection."
+                },
+                {
+                    "text": "The panels should be lightweight",
+                    "isCorrect": 0,
+                    "explanation": "While weight might be a consideration, it should not override the primary constraint of strength needed for tornado protection."
+                },
+                {
+                    "text": "The materials must be strong enough to withstand winds up to 300 mph",
                     "isCorrect": 1,
-                    "explanation": "Measuring the volume of water that breaches the seawall directly shows how effective it is at preventing flooding, making it a clear and quantifiable success criterion."
+                    "explanation": "The materials' strength is a critical constraint since tornado winds can reach extremely high speeds and the panels must protect the structure."
                 },
                 {
-                    "text": "The height of the seawall",
+                    "text": "The panels should be available in multiple colors",
                     "isCorrect": 0,
-                    "explanation": "While height is important, it alone doesn't tell us how well the seawall prevents flooding. A tall wall with poor design might still allow significant flooding."
-                },
-                {
-                    "text": "The cost of building the seawall",
-                    "isCorrect": 0,
-                    "explanation": "Cost is a constraint to consider but not a criterion for measuring how well the seawall functions at preventing flooding."
-                },
-                {
-                    "text": "The appearance of the seawall",
-                    "isCorrect": 0,
-                    "explanation": "The appearance of the seawall doesn't indicate how well it performs its main function of preventing flooding."
+                    "explanation": "While appearance might be desirable, it is not a critical constraint for the primary purpose of protecting against tornado damage."
                 }
             ],
-            "funFact": "The Netherlands, a country where much of the land is below sea level, has some of the world's most innovative flood protection systems, including the Maeslantkering storm surge barrier which is as long as two Eiffel Towers laid on their sides!"
+            "funFact": "The strongest tornado ever recorded had winds reaching approximately 318 miles per hour! This occurred during the Bridge Creek-Moore tornado in Oklahoma on May 3, 1999."
         },
         {
             "id": 5,
-            "text": "What is the main reason why scientists know that hurricanes in the Atlantic Ocean are most likely to occur between June and November?",
+            "text": "Which of the following weather conditions would be considered extreme weather?",
             "options": [
                 {
-                    "text": "Scientists have studied historical weather patterns showing hurricanes consistently form during these months",
+                    "text": "A steady breeze that makes tree leaves rustle",
+                    "isCorrect": 0,
+                    "explanation": "A steady breeze that only causes leaves to rustle is a normal weather condition and does not qualify as extreme weather."
+                },
+                {
+                    "text": "A partly cloudy day with temperatures around 75\u00b0F",
+                    "isCorrect": 0,
+                    "explanation": "Partly cloudy conditions with moderate temperatures represent typical weather patterns and do not qualify as extreme weather."
+                },
+                {
+                    "text": "A tornado with winds reaching 250 miles per hour",
                     "isCorrect": 1,
-                    "explanation": "Scientists have collected data over centuries showing that hurricanes regularly develop in the Atlantic Ocean during these months, allowing them to identify this predictable pattern."
+                    "explanation": "A tornado with such high wind speeds falls outside normal weather patterns and can cause severe destruction, making it a clear example of extreme weather."
                 },
                 {
-                    "text": "The ocean water is always warmer during these months",
+                    "text": "A light drizzle with occasional breaks in the clouds",
                     "isCorrect": 0,
-                    "explanation": "While ocean temperature is a factor in hurricane formation, the prediction is based on studying historical patterns of when hurricanes actually occurred."
-                },
-                {
-                    "text": "Modern technology can accurately predict hurricanes six months in advance",
-                    "isCorrect": 0,
-                    "explanation": "While technology helps track hurricanes once they form, the June-November hurricane season is known from studying historical patterns, not from long-term technological predictions."
-                },
-                {
-                    "text": "Hurricanes only form during summer and fall seasons",
-                    "isCorrect": 0,
-                    "explanation": "While the hurricane season overlaps with summer and fall, the prediction is based on studying historical patterns, not just the seasons."
+                    "explanation": "Light drizzle is a normal weather pattern that falls within expected conditions and does not pose significant risks or challenges."
                 }
             ],
-            "funFact": "The Atlantic hurricane season peaks in September, with about 40% of U.S. hurricanes hitting Florida. Scientists named this peak period 'the Cape Verde season' because many of the strongest hurricanes during this time begin near the Cape Verde Islands off Africa's west coast."
+            "funFact": "The fastest wind speed ever recorded in a tornado was 301 miles per hour in Bridge Creek-Moore, Oklahoma on May 3, 1999. This record-breaking tornado was part of an outbreak that produced 74 tornadoes across Oklahoma and Kansas in a single day!"
         },
         {
             "id": 6,
-            "text": "An engineer is designing a safe room to protect people during tornadoes. The room needs to withstand winds up to 300 mph and cost less than $5000 to build. Which combination of materials and features would best meet these requirements while staying within the budget?",
+            "text": "A coastal town wants to protect their beachfront homes from flooding during storms. They have $500,000 to spend and need a solution that will be most effective in reducing flood damage. Which engineering solution would best meet their criteria and constraints?",
             "options": [
                 {
-                    "text": "Reinforced concrete panels for walls and ceiling, steel door with multiple locks, and sturdy floor anchors",
+                    "text": "Paint all roads with reflective white paint",
+                    "isCorrect": 0,
+                    "explanation": "Reflective paint helps reduce heat in urban areas but does not address coastal flooding, making it an ineffective solution for this specific problem."
+                },
+                {
+                    "text": "Elevate all homes in the town on stilts",
+                    "isCorrect": 0,
+                    "explanation": "While elevating homes can help protect individual buildings, it would be extremely costly to raise all homes and would likely exceed the budget constraint of $500,000."
+                },
+                {
+                    "text": "Build a recurved seawall that redirects waves back to the ocean",
                     "isCorrect": 1,
-                    "explanation": "This combination provides maximum protection against extreme winds while being cost-effective. Reinforced concrete panels are specifically designed to withstand tornado-force winds, and proper anchoring prevents the room from being lifted. When properly scaled to shelter a family, this design can be implemented within the $5000 budget constraint while still meeting safety requirements."
+                    "explanation": "Recurved seawalls are proven to be most effective at reducing flooding by not just blocking waves but also redirecting their energy back to sea, making them the best choice within the budget."
                 },
                 {
-                    "text": "Standard wooden walls with extra nails, regular house door, and basic foundation",
+                    "text": "Install lightning rods on all buildings",
                     "isCorrect": 0,
-                    "explanation": "Standard wooden walls, even with extra nails, cannot withstand 300 mph winds. This design would fail to meet the safety criteria for tornado protection."
-                },
-                {
-                    "text": "Steel walls with glass windows, regular door, and concrete floor",
-                    "isCorrect": 0,
-                    "explanation": "While steel walls are strong, glass windows are a major weakness in tornado conditions. They can shatter and create dangerous projectiles, failing to meet safety requirements."
-                },
-                {
-                    "text": "Brick walls, wooden roof, and standard house foundation",
-                    "isCorrect": 0,
-                    "explanation": "Regular brick walls and wooden roofs are not designed to withstand extreme tornado winds. This combination would not provide adequate protection in 300 mph winds."
+                    "explanation": "Lightning rods protect against electrical damage but do not address the flooding problem, making this solution inappropriate for the specific need."
                 }
             ],
-            "funFact": "The strongest tornado ever recorded had winds estimated at 301 mph in Bridge Creek-Moore, Oklahoma in 1999. This is why safe rooms are designed to withstand winds up to 300 mph, giving them a crucial safety margin for even the most extreme storms."
+            "funFact": "The Netherlands has some of the world's most innovative flood protection systems, including the Maeslantkering storm surge barrier which is as long as two Eiffel Towers laid down and automatically closes when water levels get too high!"
         },
         {
             "id": 7,
-            "text": "An engineering team wants to design a flood barrier for a coastal area that frequently experiences storm surges. They have tested three different designs using a wave machine and collected data on how much water passed through each barrier:\n\nDesign A (High seawall): 300 mL of water passed through\nDesign B (Rock barrier): 100 mL of water passed through\nDesign C (Recurved wall): 50 mL of water passed through\n\nThe team has a budget of $100,000 and needs to complete construction within 3 months. The costs and construction times for each design are:\n\nDesign A: $80,000 and 2 months\nDesign B: $90,000 and 2.5 months\nDesign C: $120,000 and 3.5 months\n\nWhich design should the team choose based on the performance criteria and constraints?",
+            "text": "An engineer is designing a lightning protection system for a new building. The building needs to be protected against lightning strikes while keeping the cost under $10,000. Which of the following lightning rod configurations would be most effective within the given budget?",
             "options": [
                 {
-                    "text": "Design A (High seawall)",
+                    "text": "Multiple lightning rods connected to a single ground wire",
                     "isCorrect": 0,
-                    "explanation": "While Design A meets the budget and time constraints, it allows the most water through (300 mL), making it the least effective at flood prevention."
+                    "explanation": "Having multiple rods connected to a single ground wire can overload the wire during a strike, making the system less effective and potentially dangerous."
                 },
+                {
+                    "text": "Multiple lightning rods strategically placed with separate ground wires",
+                    "isCorrect": 1,
+                    "explanation": "This configuration provides the best protection by ensuring complete coverage of the building and safe paths for electrical discharge through separate ground wires."
+                },
+                {
+                    "text": "A single tall lightning rod at the highest point of the building",
+                    "isCorrect": 0,
+                    "explanation": "While this might seem logical, a single rod may not provide adequate coverage for the entire building, leaving some areas vulnerable to strikes."
+                },
+                {
+                    "text": "Decorative copper lightning rods without ground wires",
+                    "isCorrect": 0,
+                    "explanation": "Without proper grounding, lightning rods cannot effectively channel electrical energy into the ground, making them ineffective regardless of their material."
+                }
+            ],
+            "funFact": "A single lightning bolt can contain up to one billion volts of electricity - that's enough energy to power a small town for several hours! This is why proper lightning protection systems are crucial for building safety."
+        },
+        {
+            "id": 8,
+            "text": "An engineering team wants to design a flood barrier for a coastal area that frequently experiences storm surges. They have tested three different designs using a wave machine and collected data on how much water passed through each barrier:\n\nDesign A (High seawall): 300 mL of water passed through\nDesign B (Rock barrier): 100 mL of water passed through\nDesign C (Recurved wall): 50 mL of water passed through\n\nThe team has a budget of $100,000 and needs to complete construction within 3 months. The costs and construction times for each design are:\n\nDesign A: $80,000 and 2 months\nDesign B: $90,000 and 2.5 months\nDesign C: $120,000 and 3.5 months\n\nWhich design should the team choose based on the performance criteria and constraints?",
+            "options": [
                 {
                     "text": "Design B (Rock barrier)",
                     "isCorrect": 1,
                     "explanation": "Design B is the best choice as it meets both the budget and time constraints while providing good flood protection (only 100 mL of water passing through)."
+                },
+                {
+                    "text": "Design A (High seawall)",
+                    "isCorrect": 0,
+                    "explanation": "While Design A meets the budget and time constraints, it allows the most water through (300 mL), making it the least effective at flood prevention."
                 },
                 {
                     "text": "Design C (Recurved wall)",
@@ -187,68 +214,9 @@
             "funFact": "Ancient Romans were among the first to use curved seawalls in their harbor designs. They discovered that curved structures could better deflect wave energy, a principle that engineers still use today in modern coastal protection systems."
         },
         {
-            "id": 8,
-            "text": "A city planner needs to reduce urban heat in a neighborhood where temperatures regularly exceed 95\u00b0F in summer. The solution must be implemented within 2 weeks and stay within a limited budget. Which of the following would be the most effective solution given these constraints?",
-            "options": [
-                {
-                    "text": "Applying reflective white paint to existing road surfaces",
-                    "isCorrect": 1,
-                    "explanation": "Painting roads with reflective white paint is a quick, cost-effective solution that can be implemented within the time constraint and helps lower surface temperatures in urban areas by reflecting heat."
-                },
-                {
-                    "text": "Planting a dense forest of mature trees",
-                    "isCorrect": 0,
-                    "explanation": "While trees effectively reduce urban heat, planting a forest would exceed both the time and budget constraints, as mature trees are expensive and take years to grow and establish."
-                },
-                {
-                    "text": "Installing solar-powered cooling systems",
-                    "isCorrect": 0,
-                    "explanation": "Installing solar-powered cooling systems would be too expensive and complex to implement within 2 weeks, making it impractical given the constraints."
-                },
-                {
-                    "text": "Building underground cooling tunnels",
-                    "isCorrect": 0,
-                    "explanation": "Constructing underground cooling tunnels would require extensive planning, permits, and construction time, making it impossible to complete within 2 weeks and would far exceed the budget."
-                }
-            ],
-            "funFact": "Some cities have found that surfaces painted with reflective white paint can be up to 30\u00b0F cooler than traditional dark surfaces during peak summer temperatures!"
-        },
-        {
             "id": 9,
-            "text": "A school wants to protect its computer lab equipment from lightning damage during thunderstorms. Which solution would be most effective while considering both protection and installation constraints?",
-            "options": [
-                {
-                    "text": "Install a lightning rod system connected to a grounding wire",
-                    "isCorrect": 1,
-                    "explanation": "A lightning rod system safely redirects lightning's electrical energy into the ground, protecting electronic equipment while being a cost-effective and permanent solution."
-                },
-                {
-                    "text": "Cover all computers with rubber mats",
-                    "isCorrect": 0,
-                    "explanation": "While rubber is an insulator, this solution wouldn't protect against the powerful electrical surge that can travel through the building's wiring during a lightning strike."
-                },
-                {
-                    "text": "Install surge protectors without proper grounding",
-                    "isCorrect": 0,
-                    "explanation": "Surge protectors alone without proper grounding cannot handle the massive electrical surge from a direct lightning strike and may fail to protect the equipment."
-                },
-                {
-                    "text": "Paint the building's roof with metallic paint",
-                    "isCorrect": 0,
-                    "explanation": "Metallic paint would not provide a safe path for lightning's electrical energy to the ground and could actually attract lightning without protecting the equipment."
-                }
-            ],
-            "funFact": "A single lightning bolt can contain up to 300 million volts of electricity - that's enough energy to power a typical household for about three months!"
-        },
-        {
-            "id": 10,
             "text": "A coastal city wants to protect its beachfront buildings from flooding during storms and hurricanes. They have a budget of $2 million and need a solution that can be implemented within 6 months. Which engineering solution would be most effective while meeting these constraints?",
             "options": [
-                {
-                    "text": "Build a recurved seawall along the beach",
-                    "isCorrect": 1,
-                    "explanation": "Recurved seawalls not only block incoming waves but also redirect wave energy back to the ocean, making them highly effective at preventing flooding. They can be constructed within the given timeframe and budget constraints."
-                },
                 {
                     "text": "Raise all beachfront buildings on stilts",
                     "isCorrect": 0,
@@ -260,6 +228,11 @@
                     "explanation": "While this meets the time and budget constraints, straight seawalls are less effective than recurved walls as they only block waves without redirecting their energy."
                 },
                 {
+                    "text": "Build a recurved seawall along the beach",
+                    "isCorrect": 1,
+                    "explanation": "Recurved seawalls not only block incoming waves but also redirect wave energy back to the ocean, making them highly effective at preventing flooding. They can be constructed within the given timeframe and budget constraints."
+                },
+                {
                     "text": "Place large rocks along the shoreline",
                     "isCorrect": 0,
                     "explanation": "While rocks can help slow down waves by spreading out their energy, testing shows they are less effective than seawalls at preventing flooding."
@@ -268,99 +241,148 @@
             "funFact": "The ancient Romans were among the first to use curved structures in their harbor designs to protect ships from waves. Their engineering principles are still used in modern coastal protection systems today!"
         },
         {
-            "id": 11,
-            "text": "How have engineering solutions for protecting homes from extreme weather evolved to meet changing needs?",
+            "id": 10,
+            "text": "A coastal city needs to protect its beachfront properties from flooding during storms. The city has $2 million to spend and must complete construction within 6 months. Which solution would best meet their needs?",
             "options": [
                 {
-                    "text": "Engineers stopped developing new solutions once basic structures like seawalls were built",
+                    "text": "Build multiple small concrete walls along the beach",
                     "isCorrect": 0,
-                    "explanation": "Engineers continuously work on improving solutions as needs change and new challenges arise, not stopping at basic structures."
+                    "explanation": "Multiple small walls would be less effective than a single curved wall and would actually cost more in materials and labor while providing less protection."
                 },
                 {
-                    "text": "Engineers now focus on using advanced materials and designs like curved seawalls and hip roofs to better protect against multiple weather threats",
+                    "text": "Build a curved seawall that redirects waves back to the ocean",
                     "isCorrect": 1,
-                    "explanation": "Modern engineering solutions use improved designs and materials to address multiple types of extreme weather more effectively than earlier basic solutions."
+                    "explanation": "A recurved seawall is highly effective at preventing flooding by not just blocking waves but redirecting their energy back to sea, making it the most cost-effective solution within the time and budget constraints."
                 },
                 {
-                    "text": "Engineers only develop solutions for one type of extreme weather at a time",
+                    "text": "Raise all beachfront buildings on 20-foot stilts",
                     "isCorrect": 0,
-                    "explanation": "Engineers work on solutions for multiple types of extreme weather simultaneously, considering how different threats interact."
+                    "explanation": "While elevating buildings can help protect against flooding, raising all beachfront properties would exceed both the budget and time constraints of this project."
                 },
                 {
-                    "text": "Engineers rely solely on traditional building methods that worked in the past",
+                    "text": "Install underground water drainage systems",
                     "isCorrect": 0,
-                    "explanation": "While learning from past methods, engineers continuously innovate and develop new solutions using modern materials and technology."
+                    "explanation": "Underground drainage systems are complex, expensive to install, and would take longer than 6 months to complete. They also don't address the immediate problem of wave impact."
                 }
             ],
-            "funFact": "The development of the recurved seawall was inspired by observing how curved surfaces in nature, like shells and leaves, effectively redirect forces. This biomimicry approach has led to seawalls that are not only stronger but also more efficient at protecting coastlines."
+            "funFact": "The ancient Romans were among the first to use curved structures in their harbor designs. They discovered that curved walls could deflect the force of waves more effectively than straight walls, a principle that engineers still use today."
+        },
+        {
+            "id": 11,
+            "text": "A city planner is considering different strategies to reduce the impact of extreme heat in urban areas. The city has a budget of $100,000 and needs to implement a solution within 2 months before summer. Which of the following solutions would be most effective while meeting both the cost and time constraints?",
+            "options": [
+                {
+                    "text": "Installing solar-powered air conditioning units on every building",
+                    "isCorrect": 0,
+                    "explanation": "Installing air conditioning units on every building would far exceed the budget and require significant time for installation and permitting processes."
+                },
+                {
+                    "text": "Installing a city-wide underground cooling system",
+                    "isCorrect": 0,
+                    "explanation": "While effective, an underground cooling system would be extremely expensive and require extensive construction time, failing to meet both the budget and time constraints."
+                },
+                {
+                    "text": "Planting a dense forest of mature trees",
+                    "isCorrect": 0,
+                    "explanation": "While trees help reduce urban heat, planting a forest of mature trees would exceed the budget and take years to establish an effective canopy coverage."
+                },
+                {
+                    "text": "Painting major roads with reflective white paint",
+                    "isCorrect": 1,
+                    "explanation": "Painting roads with reflective white paint is a cost-effective solution that can be implemented quickly and helps lower surface temperatures in urban areas by reflecting sunlight rather than absorbing it."
+                }
+            ],
+            "funFact": "Urban areas can be up to 7\u00b0F warmer than surrounding rural areas due to the urban heat island effect, where buildings and pavement absorb and retain more heat than natural landscapes."
         },
         {
             "id": 12,
-            "text": "A homeowner living in a coastal area wants to protect their house from storms within a budget of $20,000. Which combination of engineering solutions would provide the best protection while staying within the budget?",
+            "text": "An engineering team needs to design a tornado safe room for a small house. The room needs to protect people during a tornado and fit within a 10x10 foot space. Which design would best meet both the protection and space requirements?",
             "options": [
                 {
-                    "text": "Installing a hip roof ($15,000) and building a recurved seawall ($5,000)",
+                    "text": "A wooden room with extra thick walls",
+                    "isCorrect": 0,
+                    "explanation": "Even thick wooden walls would not provide adequate protection from tornado-force winds that can exceed 300 mph"
+                },
+                {
+                    "text": "A standard room with a reinforced ceiling only",
+                    "isCorrect": 0,
+                    "explanation": "Protecting only the ceiling leaves the walls vulnerable to tornado damage - all sides need reinforcement for adequate protection"
+                },
+                {
+                    "text": "A large underground bunker made of brick walls",
+                    "isCorrect": 0,
+                    "explanation": "While underground bunkers provide good protection, brick is not as strong as reinforced concrete against tornados and the design would require more space than allowed"
+                },
+                {
+                    "text": "A reinforced concrete room with special wind-resistant panels and a steel door",
                     "isCorrect": 1,
-                    "explanation": "This combination provides optimal protection - the hip roof effectively handles high winds by deflecting them upward, while the recurved seawall offers the best defense against flooding by redirecting wave energy back to sea."
-                },
-                {
-                    "text": "Installing a gable roof ($10,000) and building a high straight seawall ($8,000)",
-                    "isCorrect": 0,
-                    "explanation": "While within budget, this is less effective - gable roofs are vulnerable to high winds, and straight seawalls don't redirect wave energy as effectively as recurved walls."
-                },
-                {
-                    "text": "Installing a hip roof ($15,000) and placing rocks along the shore ($2,000)",
-                    "isCorrect": 0,
-                    "explanation": "Although the hip roof is good for wind protection, rocks provide less flood protection than seawalls, making this combination less effective overall despite being under budget."
-                },
-                {
-                    "text": "Installing a gable roof ($10,000) and placing rocks along the shore ($2,000)",
-                    "isCorrect": 0,
-                    "explanation": "This is the least effective combination - gable roofs are vulnerable to winds, and rocks provide minimal flood protection compared to seawalls, even though it's the cheapest option."
+                    "explanation": "Reinforced concrete with special panels provides maximum protection against tornado-force winds while fitting within space constraints"
                 }
             ],
-            "funFact": "During Hurricane Andrew in 1992, homes with hip roofs were found to be 4 times more likely to survive intact compared to those with gable roofs, leading to changes in building codes in many coastal regions."
+            "funFact": "The strongest tornado ever recorded had winds of 301 mph, measured by mobile Doppler radar near Bridge Creek, Oklahoma on May 3, 1999. This is why safe rooms need to be engineered to withstand wind speeds of over 300 mph!"
         },
         {
             "id": 13,
-            "text": "A coastal city wants to protect its waterfront buildings from flooding during storms. They have limited materials and need to choose the most effective solution. Based on scientific testing, which flood protection method would best meet both the criteria of preventing water damage and the constraint of limited building materials?",
+            "text": "An engineer is designing a new house in an area known for strong winds. The house needs to be completed within 6 months and stay within the construction budget. Which roof design would best meet these requirements while providing the most protection against wind damage?",
             "options": [
                 {
-                    "text": "A recurved seawall that redirects wave energy back to the ocean",
+                    "text": "A hip roof with all sides sloping downward",
                     "isCorrect": 1,
-                    "explanation": "Tests showed that recurved walls were most effective at preventing flooding, allowing the least amount of water to pass through while using materials efficiently."
+                    "explanation": "A hip roof with slanted sides deflects wind upward rather than taking the full force, making it the most wind-resistant design while using standard construction methods and materials."
                 },
                 {
-                    "text": "A very tall straight seawall that blocks incoming waves",
+                    "text": "A gable roof with vertical sides forming an A-shape",
                     "isCorrect": 0,
-                    "explanation": "While tall straight seawalls can block waves, tests showed they were less effective than recurved walls and required more building materials to achieve similar protection."
+                    "explanation": "A gable roof has flat vertical sides that directly catch wind force, making it more susceptible to wind damage despite being simple to construct."
                 },
                 {
-                    "text": "Multiple rows of large rocks along the shoreline",
+                    "text": "A flat roof with reinforced concrete",
                     "isCorrect": 0,
-                    "explanation": "Rock barriers helped reduce flooding by dispersing wave energy but were not as effective as recurved walls and required more materials to cover the same area."
+                    "explanation": "While strong, a flat reinforced concrete roof would be more expensive and time-consuming to construct, and would still face significant wind pressure."
                 },
                 {
-                    "text": "Elevated buildings on stilts near the water",
+                    "text": "A dome-shaped roof made of special materials",
                     "isCorrect": 0,
-                    "explanation": "While elevation helps protect individual buildings, it doesn't address the broader flooding issue and requires significant materials to modify each structure."
+                    "explanation": "Though aerodynamic, a dome roof would require specialized materials and construction techniques, increasing both cost and construction time significantly."
                 }
             ],
-            "funFact": "Ancient Romans were among the first to use curved structures in their harbor designs to protect ships from waves. They discovered that curved walls could deflect wave energy more effectively than straight walls, a principle that engineers still use today!"
+            "funFact": "The ancient Romans were among the first to use hip roofs in their architecture. They recognized that the sloped design not only provided better protection against wind but also offered excellent drainage for heavy rains and snow."
         },
         {
             "id": 14,
+            "text": "A coastal city is planning to build a new seawall to protect beachfront homes from flooding during storms. They have limited funds and want to maximize protection while keeping costs reasonable. Which design would best balance these criteria and constraints?",
+            "options": [
+                {
+                    "text": "A straight vertical concrete wall 20 feet high",
+                    "isCorrect": 0,
+                    "explanation": "While a straight vertical wall provides some protection, it requires more material and is less effective since waves hit it directly with full force, potentially causing more damage over time."
+                },
+                {
+                    "text": "A curved (recurved) wall 15 feet high",
+                    "isCorrect": 1,
+                    "explanation": "A recurved wall is most effective as it not only blocks waves but redirects their energy back to sea, requiring less height and material while providing better protection."
+                },
+                {
+                    "text": "A series of wooden barriers 25 feet high",
+                    "isCorrect": 0,
+                    "explanation": "Wooden barriers would be less durable against saltwater and storm damage, requiring frequent replacement and higher long-term costs despite lower initial material costs."
+                },
+                {
+                    "text": "Multiple parallel straight walls 10 feet high each",
+                    "isCorrect": 0,
+                    "explanation": "Multiple parallel walls would require more materials and space than a single effective wall, increasing costs without providing significantly better protection."
+                }
+            ],
+            "funFact": "The ancient Romans were among the first to use curved structures in harbor design, understanding that curved surfaces could better disperse wave energy. This same principle is used in modern coastal engineering."
+        },
+        {
+            "id": 15,
             "text": "A town in Tornado Alley needs to construct a new emergency shelter that can withstand tornado winds. The town has a budget of $200,000 and must complete construction within 6 months. Which of the following design solutions would best meet both the safety requirements and constraints?",
             "options": [
                 {
-                    "text": "Build a shelter with reinforced concrete panels and a hip roof on high ground, estimated at $180,000 and 5 months to complete",
-                    "isCorrect": 1,
-                    "explanation": "This solution uses proven tornado-resistant materials and design features (reinforced panels and hip roof) while staying within both budget and time constraints"
-                },
-                {
-                    "text": "Construct an underground bunker with steel walls, estimated at $250,000 and 4 months to complete",
+                    "text": "Construct a shelter with steel frame and glass walls, estimated at $190,000 and 8 months to complete",
                     "isCorrect": 0,
-                    "explanation": "While this would provide excellent protection, it exceeds the budget constraint of $200,000, making it unfeasible for the town"
+                    "explanation": "Although within budget, this exceeds the time constraint and glass walls would be dangerous during a tornado"
                 },
                 {
                     "text": "Build a wooden shelter with a gable roof, estimated at $100,000 and 3 months to complete",
@@ -368,39 +390,17 @@
                     "explanation": "While this meets budget and time constraints, wooden construction and gable roofs are particularly vulnerable to tornado damage, making it unsafe"
                 },
                 {
-                    "text": "Construct a shelter with steel frame and glass walls, estimated at $190,000 and 8 months to complete",
+                    "text": "Construct an underground bunker with steel walls, estimated at $250,000 and 4 months to complete",
                     "isCorrect": 0,
-                    "explanation": "Although within budget, this exceeds the time constraint and glass walls would be dangerous during a tornado"
+                    "explanation": "While this would provide excellent protection, it exceeds the budget constraint of $200,000, making it unfeasible for the town"
+                },
+                {
+                    "text": "Build a shelter with reinforced concrete panels and a hip roof on high ground, estimated at $180,000 and 5 months to complete",
+                    "isCorrect": 1,
+                    "explanation": "This solution uses proven tornado-resistant materials and design features (reinforced panels and hip roof) while staying within both budget and time constraints"
                 }
             ],
             "funFact": "The strongest tornado ever recorded had winds reaching 301 mph, measured by a mobile Doppler radar near Bridge Creek, Oklahoma during the May 3, 1999 tornado outbreak"
-        },
-        {
-            "id": 15,
-            "text": "A town in Tornado Alley needs to build a new community storm shelter to protect residents during severe storms. The town has these requirements:\n- Must protect at least 100 people\n- Must withstand winds up to 300 mph\n- Must be completed within 6 months\n- Budget of $500,000\n\nWhich of these proposed solutions best meets both the safety requirements and resource constraints?",
-            "options": [
-                {
-                    "text": "Build an underground concrete bunker reinforced with steel panels",
-                    "isCorrect": 1,
-                    "explanation": "An underground concrete bunker with steel reinforcement provides maximum protection from tornado winds while being cost-effective and quick to construct using readily available materials."
-                },
-                {
-                    "text": "Construct a large dome-shaped building with bullet-proof glass windows",
-                    "isCorrect": 0,
-                    "explanation": "While dome shapes can deflect wind, bullet-proof glass is unnecessarily expensive and the above-ground structure is more vulnerable to flying debris than underground options."
-                },
-                {
-                    "text": "Convert an existing building by adding titanium walls and roof",
-                    "isCorrect": 0,
-                    "explanation": "Using titanium would be extremely expensive and would likely exceed the budget. The conversion would also take longer than building a new purpose-built shelter."
-                },
-                {
-                    "text": "Build multiple small shelters spread throughout the town",
-                    "isCorrect": 0,
-                    "explanation": "Building multiple shelters would split the budget and make it harder to ensure each meets safety standards. It would also take longer to complete multiple structures."
-                }
-            ],
-            "funFact": "The strongest tornado ever recorded was in Moore, Oklahoma in 1999 with wind speeds reaching 301 mph (484 km/h). This is why tornado shelters are typically designed to withstand winds up to 300 mph."
         }
     ]
 }

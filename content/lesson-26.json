@@ -4,12 +4,93 @@
     "questions": [
         {
             "id": 1,
+            "text": "A car's speed increases from 30 mph to 60 mph while traveling on a highway. By what factor does the car's kinetic energy increase?",
+            "options": [
+                {
+                    "text": "8 times",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While kinetic energy does increase more than the speed increase, it only increases by a factor of 4, not 8, when speed doubles."
+                },
+                {
+                    "text": "16 times",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The increase in kinetic energy when speed doubles is by a factor of 4, not 16. The relationship is squared, not to the fourth power."
+                },
+                {
+                    "text": "4 times",
+                    "isCorrect": 1,
+                    "explanation": "This is correct! When speed doubles, kinetic energy increases by a factor of 4 because kinetic energy is proportional to velocity squared (KE \u221d v\u00b2)."
+                },
+                {
+                    "text": "2 times",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Since kinetic energy is proportional to velocity squared (KE \u221d v\u00b2), doubling the speed increases kinetic energy by a factor of 4, not 2."
+                }
+            ],
+            "funFact": "This quadratic relationship between speed and kinetic energy is why highway speed limits are so important for safety. A collision at 60 mph releases four times as much energy as a collision at 30 mph, making high-speed accidents significantly more dangerous."
+        },
+        {
+            "id": 2,
+            "text": "A student drops two identical steel balls from different heights - one from 2 meters and another from 4 meters. How will the potential energy of the ball dropped from 4 meters compare to the ball dropped from 2 meters?",
+            "options": [
+                {
+                    "text": "The potential energy will be half as much",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Increasing height increases potential energy, not decreases it. The ball at 4 meters will have more potential energy than the ball at 2 meters."
+                },
+                {
+                    "text": "The potential energy will be twice as much",
+                    "isCorrect": 1,
+                    "explanation": "Potential energy increases linearly with height. When height doubles, the potential energy doubles."
+                },
+                {
+                    "text": "The potential energy will be the same",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Since the balls are at different heights, they have different amounts of potential energy, even though they are identical."
+                },
+                {
+                    "text": "The potential energy will be four times as much",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Unlike kinetic energy's relationship with velocity, potential energy has a linear relationship with height, not a squared relationship."
+                }
+            ],
+            "funFact": "While potential energy concepts were formalized later by scientists like Lagrange in the 18th century, Galileo Galilei's experiments in the early 1600s with falling objects laid important groundwork for understanding gravity. Despite popular stories, there's debate among historians whether he actually dropped objects from the Leaning Tower of Pisa!"
+        },
+        {
+            "id": 3,
+            "text": "When firing an arrow from a bow, which evidence demonstrates that energy is being transferred in the system?",
+            "options": [
+                {
+                    "text": "Only the motion of the arrow through the air matters",
+                    "isCorrect": 0,
+                    "explanation": "While arrow motion is important evidence, it's not the only evidence. Energy transfers also produce sound and heat in the system."
+                },
+                {
+                    "text": "The shape of the bow before pulling back the string",
+                    "isCorrect": 0,
+                    "explanation": "The bow's initial shape doesn't demonstrate energy transfer. We need to observe changes in the system like motion, sound, or heat that show energy converting from one form to another."
+                },
+                {
+                    "text": "The motion of the arrow through air, the twanging sound of the bowstring, and heat felt on the string and target",
+                    "isCorrect": 1,
+                    "explanation": "These are all valid forms of evidence showing energy transfer - motion (kinetic energy), sound energy, and thermal energy are all manifestations of the bow's stored potential energy being converted."
+                },
+                {
+                    "text": "The color and material of the bow and arrow",
+                    "isCorrect": 0,
+                    "explanation": "The physical appearance of the bow and arrow doesn't demonstrate energy transfer. We need to look for evidence of motion, sound, or heat to show energy transfer."
+                }
+            ],
+            "funFact": "Modern competitive archery bows can transfer enough energy to send arrows flying at speeds over 200 miles per hour! This is why Olympic archers use special high-speed cameras to analyze their technique."
+        },
+        {
+            "id": 4,
             "text": "Which of the following correctly represents the mathematical relationship between kinetic energy (KE), mass (m), and velocity (v) of an object?",
             "options": [
                 {
-                    "text": "KE = \u00bd \u00d7 m \u00d7 v\u00b2",
-                    "isCorrect": 1,
-                    "explanation": "This is the correct formula for calculating kinetic energy. The formula shows that kinetic energy is directly proportional to mass and to the square of velocity."
+                    "text": "KE = m \u00d7 v\u00b2",
+                    "isCorrect": 0,
+                    "explanation": "This formula is missing the factor of \u00bd. While it correctly shows the squared relationship with velocity, it would overestimate the kinetic energy by a factor of 2."
                 },
                 {
                     "text": "KE = m \u00d7 v",
@@ -17,31 +98,31 @@
                     "explanation": "This formula is incorrect. It suggests a linear relationship with velocity, but kinetic energy actually increases with the square of velocity."
                 },
                 {
+                    "text": "KE = \u00bd \u00d7 m \u00d7 v\u00b2",
+                    "isCorrect": 1,
+                    "explanation": "This is the correct formula for calculating kinetic energy. The formula shows that kinetic energy is directly proportional to mass and to the square of velocity."
+                },
+                {
                     "text": "KE = \u00bd \u00d7 m\u00b2 \u00d7 v",
                     "isCorrect": 0,
                     "explanation": "This formula is incorrect. It squares the mass instead of velocity. Kinetic energy is directly proportional to mass but proportional to velocity squared."
-                },
-                {
-                    "text": "KE = m \u00d7 v\u00b2",
-                    "isCorrect": 0,
-                    "explanation": "This formula is missing the factor of \u00bd. While it correctly shows the squared relationship with velocity, it would overestimate the kinetic energy by a factor of 2."
                 }
             ],
             "funFact": "The formula for kinetic energy was first derived by Gottfried Leibniz in 1686. He called it 'vis viva' which means 'living force' in Latin. This was one of the first mathematical descriptions of energy in physics!"
         },
         {
-            "id": 2,
+            "id": 5,
             "text": "A car is traveling at 60 mph when the driver reduces the speed to 30 mph. How does this change in speed affect the car's kinetic energy?",
             "options": [
+                {
+                    "text": "The kinetic energy remains the same",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because kinetic energy changes when speed changes - it is not constant when speed varies"
+                },
                 {
                     "text": "The kinetic energy is reduced by a factor of 4",
                     "isCorrect": 1,
                     "explanation": "Since kinetic energy is proportional to velocity squared (KE \u221d v\u00b2), halving the speed reduces the kinetic energy by a factor of 4 (2\u00b2)"
-                },
-                {
-                    "text": "The kinetic energy is reduced by a factor of 2",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because kinetic energy has a squared relationship with velocity, not a linear relationship"
                 },
                 {
                     "text": "The kinetic energy is reduced by a factor of 8",
@@ -49,177 +130,15 @@
                     "explanation": "This overestimates the reduction - halving speed reduces kinetic energy by a factor of 4, not 8"
                 },
                 {
-                    "text": "The kinetic energy remains the same",
+                    "text": "The kinetic energy is reduced by a factor of 2",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because kinetic energy changes when speed changes - it is not constant when speed varies"
+                    "explanation": "This is incorrect because kinetic energy has a squared relationship with velocity, not a linear relationship"
                 }
             ],
             "funFact": "This squared relationship between speed and kinetic energy is why highway speeds require significantly more fuel than city driving. Doubling your speed requires four times as much energy to maintain!"
         },
         {
-            "id": 3,
-            "text": "A ball is dropped from the top of three different buildings: one 10 meters tall, another 20 meters tall, and a third 30 meters tall. How does the gravitational potential energy of the ball compare between these heights?",
-            "options": [
-                {
-                    "text": "The potential energy increases linearly with height - a ball at 30m has 3 times the potential energy of a ball at 10m",
-                    "isCorrect": 1,
-                    "explanation": "Gravitational potential energy is directly proportional to height. When height triples from 10m to 30m, the potential energy also triples."
-                },
-                {
-                    "text": "The potential energy increases exponentially - a ball at 30m has 9 times the potential energy of a ball at 10m",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Unlike kinetic energy's relationship with velocity, potential energy has a linear relationship with height, not an exponential one."
-                },
-                {
-                    "text": "The potential energy is the same at all heights since the ball's mass doesn't change",
-                    "isCorrect": 0,
-                    "explanation": "While mass is a factor in potential energy, height also matters. Even with the same mass, an object has more potential energy at greater heights."
-                },
-                {
-                    "text": "The potential energy decreases with height since objects fall faster from higher up",
-                    "isCorrect": 0,
-                    "explanation": "This confuses potential energy with falling speed. Higher positions actually mean more potential energy, not less."
-                }
-            ],
-            "funFact": "The concept of gravitational potential energy explains why hydroelectric dams are built so tall - the higher the water is stored, the more energy it can generate when falling through the turbines!"
-        },
-        {
-            "id": 4,
-            "text": "A scientist is conducting experiments with two identical rolling balls, except that Ball B has twice the mass of Ball A. If both balls are rolling at the same speed, how does the kinetic energy of Ball B compare to Ball A?",
-            "options": [
-                {
-                    "text": "Ball B has twice the kinetic energy of Ball A",
-                    "isCorrect": 1,
-                    "explanation": "Since kinetic energy is directly proportional to mass (KE = \u00bdmv\u00b2), doubling the mass while keeping speed constant will double the kinetic energy."
-                },
-                {
-                    "text": "Ball B has four times the kinetic energy of Ball A",
-                    "isCorrect": 0,
-                    "explanation": "This would be true if the speed was doubled, not the mass. Mass has a linear relationship with kinetic energy, while speed has a squared relationship."
-                },
-                {
-                    "text": "Ball B has the same kinetic energy as Ball A",
-                    "isCorrect": 0,
-                    "explanation": "This incorrectly assumes that mass doesn't affect kinetic energy. Mass is directly proportional to kinetic energy, so changing mass does change the kinetic energy."
-                },
-                {
-                    "text": "Ball B has half the kinetic energy of Ball A",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the relationship between mass and kinetic energy. Increasing mass increases kinetic energy proportionally, not decreases it."
-                }
-            ],
-            "funFact": "In sports like bowling, players can achieve higher kinetic energy by using heavier balls even when rolling them at the same speed. This is why professional bowlers often use balls weighing up to 16 pounds to maximize pin action!"
-        },
-        {
-            "id": 5,
-            "text": "A mechanical engineer is designing a new roller coaster and needs to ensure the cars have enough energy to complete a loop. Which of the following would be the most effective way to guarantee the cars can complete the loop?",
-            "options": [
-                {
-                    "text": "Make the initial hill before the loop twice as high",
-                    "isCorrect": 1,
-                    "explanation": "Increasing the height of the initial hill increases the potential energy, which converts to kinetic energy. Due to the squared relationship with velocity, this provides more than enough energy to complete the loop."
-                },
-                {
-                    "text": "Make the roller coaster cars twice as heavy",
-                    "isCorrect": 0,
-                    "explanation": "While increasing mass does increase both potential and kinetic energy linearly, it also requires more energy to move the cars up and around the loop, resulting in no net benefit."
-                },
-                {
-                    "text": "Make the track smoother to reduce friction",
-                    "isCorrect": 0,
-                    "explanation": "While reducing friction helps conserve energy, it doesn't provide additional energy needed to complete the loop. The initial energy from height is more important."
-                },
-                {
-                    "text": "Make the loop diameter smaller",
-                    "isCorrect": 0,
-                    "explanation": "While making the loop smaller would require less energy to complete (as the minimum velocity needed is proportional to the loop radius), it doesn't address the fundamental need for sufficient initial energy. Increasing the initial hill height is more effective as it provides substantially more energy for the entire ride."
-                }
-            ],
-            "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure, has an initial hill height of 456 feet (139 meters)! This extreme height provides enough potential energy for the rest of the ride's features, including a 129-foot tall hill that the train hits at 127 miles per hour."
-        },
-        {
             "id": 6,
-            "text": "Two metal balls - one with a mass of 2 kg and another with a mass of 4 kg - are held at a height of 10 meters above the ground. If both balls are dropped simultaneously, how do their potential and kinetic energies compare just before impact with the ground (assuming no air resistance)?",
-            "options": [
-                {
-                    "text": "The 4 kg ball has twice the potential energy initially and twice the kinetic energy just before impact",
-                    "isCorrect": 1,
-                    "explanation": "Both potential and kinetic energy are directly proportional to mass. Since the 4 kg ball has twice the mass and both balls are dropped from the same height, it has twice the potential energy initially and twice the kinetic energy just before impact."
-                },
-                {
-                    "text": "The 4 kg ball has twice the potential energy initially but the same kinetic energy just before impact",
-                    "isCorrect": 0,
-                    "explanation": "While the initial potential energy is twice for the 4 kg ball due to its greater mass, kinetic energy is also directly proportional to mass. The misconception here is thinking that objects of different masses fall at different speeds."
-                },
-                {
-                    "text": "Both balls have the same potential and kinetic energies since they're dropped from the same height",
-                    "isCorrect": 0,
-                    "explanation": "This ignores the role of mass in both potential and kinetic energy. Both types of energy are directly proportional to mass, so objects with different masses will have different energies even at the same height."
-                },
-                {
-                    "text": "The 4 kg ball has four times the potential and kinetic energies",
-                    "isCorrect": 0,
-                    "explanation": "This incorrectly assumes that doubling the mass quadruples the energy. The relationship between mass and both potential and kinetic energy is linear (directly proportional), not squared."
-                }
-            ],
-            "funFact": "Even though heavier objects have more potential and kinetic energy, they don't fall faster than lighter objects in a vacuum. Galileo demonstrated this principle by reportedly dropping objects from the Leaning Tower of Pisa, though modern historians debate whether this famous experiment actually took place."
-        },
-        {
-            "id": 7,
-            "text": "A roller coaster car starts at rest from the top of a 40-meter hill. At what point during its descent will the car have the maximum kinetic energy?",
-            "options": [
-                {
-                    "text": "At the bottom of the hill",
-                    "isCorrect": 1,
-                    "explanation": "At the bottom of the hill, all of the initial potential energy has been converted to kinetic energy (minus some losses due to friction), giving the car its maximum speed and thus maximum kinetic energy."
-                },
-                {
-                    "text": "At the top of the hill",
-                    "isCorrect": 0,
-                    "explanation": "At the top of the hill, the car is at rest, so it has zero kinetic energy. All of its energy is in the form of potential energy due to its height."
-                },
-                {
-                    "text": "Halfway down the hill",
-                    "isCorrect": 0,
-                    "explanation": "Halfway down the hill, only half of the potential energy has been converted to kinetic energy. The maximum kinetic energy occurs when all potential energy has been converted."
-                },
-                {
-                    "text": "The kinetic energy remains constant throughout the descent",
-                    "isCorrect": 0,
-                    "explanation": "The kinetic energy increases as the car descends because potential energy is being converted to kinetic energy. It is not constant during the descent."
-                }
-            ],
-            "funFact": "The world's tallest roller coaster, Kingda Ka at Six Flags Great Adventure, stands at a height of 456 feet (139 meters)! This tremendous height gives the cars enough potential energy to reach speeds of up to 128 miles per hour (206 km/h) during their descent."
-        },
-        {
-            "id": 8,
-            "text": "A baseball with a mass of 145 grams and a tennis ball with a mass of 57 grams roll down a ramp at the same speed of 2 meters per second. Which statement correctly compares their kinetic energies?",
-            "options": [
-                {
-                    "text": "The baseball has about 2.5 times more kinetic energy than the tennis ball",
-                    "isCorrect": 1,
-                    "explanation": "Since both balls have the same speed, their kinetic energies are directly proportional to their masses. The baseball's mass is about 2.5 times the tennis ball's mass, so its kinetic energy is also about 2.5 times greater."
-                },
-                {
-                    "text": "Both balls have the same kinetic energy because they have the same speed",
-                    "isCorrect": 0,
-                    "explanation": "While the speeds are the same, kinetic energy depends on both mass and speed. The balls have different masses, so they cannot have the same kinetic energy."
-                },
-                {
-                    "text": "The tennis ball has more kinetic energy because it is lighter",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - with the same speed, a larger mass results in more kinetic energy, not less. The baseball actually has more kinetic energy because it has greater mass."
-                },
-                {
-                    "text": "The kinetic energies cannot be compared without knowing the height of the ramp",
-                    "isCorrect": 0,
-                    "explanation": "The height of the ramp relates to potential energy, not kinetic energy. We can compare kinetic energies knowing just the masses and speeds of the objects."
-                }
-            ],
-            "funFact": "In professional baseball, the speed of the ball coming off the bat (exit velocity) can exceed 120 mph, resulting in enormous kinetic energy. This is why broken bats and long home runs are common - the ball's high kinetic energy can overcome the bat's structural integrity or carry it hundreds of feet through the air!"
-        },
-        {
-            "id": 9,
             "text": "Two identical cars are moving on a straight road. Car A is moving at 30 mph while Car B is moving at 60 mph. What is the ratio of Car B's kinetic energy to Car A's kinetic energy?",
             "options": [
                 {
@@ -233,130 +152,206 @@
                     "explanation": "Since kinetic energy is proportional to velocity squared (KE \u221d v\u00b2), doubling the speed results in four times the kinetic energy."
                 },
                 {
-                    "text": "1:1",
-                    "isCorrect": 0,
-                    "explanation": "This suggests the kinetic energies are equal, but they differ due to different speeds."
-                },
-                {
                     "text": "3:1",
                     "isCorrect": 0,
                     "explanation": "This represents an incorrect relationship between speed and kinetic energy."
+                },
+                {
+                    "text": "1:1",
+                    "isCorrect": 0,
+                    "explanation": "This suggests the kinetic energies are equal, but they differ due to different speeds."
                 }
             ],
             "funFact": "This quadratic relationship between speed and kinetic energy is why highway crashes at higher speeds are so much more devastating - doubling your speed makes a collision four times more energetic! This is also why speed limits are so important for road safety."
         },
         {
-            "id": 10,
-            "text": "A wrecking ball with an initial mass of 2000 kg is swinging at a speed of 10 meters per second. If the mass of the wrecking ball is reduced to 1000 kg while maintaining the same speed, what happens to its kinetic energy?",
+            "id": 7,
+            "text": "Two balls are launched horizontally at the same speed of 10 m/s. Ball A has a mass of 2 kg while Ball B has a mass of 4 kg. How does the kinetic energy of Ball B compare to the kinetic energy of Ball A?",
             "options": [
                 {
-                    "text": "The kinetic energy is reduced to half its original value",
+                    "text": "Ball B has twice the kinetic energy of Ball A",
                     "isCorrect": 1,
-                    "explanation": "Since kinetic energy is directly proportional to mass (KE = \u00bdmv\u00b2), halving the mass while keeping velocity constant results in halving the kinetic energy"
+                    "explanation": "Since both balls have the same speed but Ball B has twice the mass of Ball A, and kinetic energy is directly proportional to mass (KE = \u00bdmv\u00b2), Ball B has twice the kinetic energy."
+                },
+                {
+                    "text": "Ball B has the same kinetic energy as Ball A",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because kinetic energy depends on mass. Even though the speeds are the same, the different masses result in different kinetic energies."
+                },
+                {
+                    "text": "Ball B has four times the kinetic energy of Ball A",
+                    "isCorrect": 0,
+                    "explanation": "This would be true if the speed of Ball B was twice that of Ball A. However, since only the mass is doubled (not the speed), the kinetic energy is only doubled."
+                },
+                {
+                    "text": "Ball B has half the kinetic energy of Ball A",
+                    "isCorrect": 0,
+                    "explanation": "This is the opposite of what actually happens. Since Ball B has twice the mass of Ball A and the speeds are the same, Ball B has twice (not half) the kinetic energy."
+                }
+            ],
+            "funFact": "This principle is used in sports equipment design! In baseball, a heavier bat moving at the same speed as a lighter bat will transfer more kinetic energy to the ball, potentially resulting in a longer hit. However, heavier bats are harder to swing quickly, which is why players must find their optimal bat weight."
+        },
+        {
+            "id": 8,
+            "text": "A baseball with a mass of 145 grams and a tennis ball with a mass of 57 grams roll down a ramp at the same speed of 2 meters per second. Which statement correctly compares their kinetic energies?",
+            "options": [
+                {
+                    "text": "The baseball has about 2.5 times more kinetic energy than the tennis ball",
+                    "isCorrect": 1,
+                    "explanation": "Since both balls have the same speed, their kinetic energies are directly proportional to their masses. The baseball's mass is about 2.5 times the tennis ball's mass, so its kinetic energy is also about 2.5 times greater."
+                },
+                {
+                    "text": "The kinetic energies cannot be compared without knowing the height of the ramp",
+                    "isCorrect": 0,
+                    "explanation": "The height of the ramp relates to potential energy, not kinetic energy. We can compare kinetic energies knowing just the masses and speeds of the objects."
+                },
+                {
+                    "text": "The tennis ball has more kinetic energy because it is lighter",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - with the same speed, a larger mass results in more kinetic energy, not less. The baseball actually has more kinetic energy because it has greater mass."
+                },
+                {
+                    "text": "Both balls have the same kinetic energy because they have the same speed",
+                    "isCorrect": 0,
+                    "explanation": "While the speeds are the same, kinetic energy depends on both mass and speed. The balls have different masses, so they cannot have the same kinetic energy."
+                }
+            ],
+            "funFact": "In professional baseball, the speed of the ball coming off the bat (exit velocity) can exceed 120 mph, resulting in enormous kinetic energy. This is why broken bats and long home runs are common - the ball's high kinetic energy can overcome the bat's structural integrity or carry it hundreds of feet through the air!"
+        },
+        {
+            "id": 9,
+            "text": "A car is traveling at 60 mph on a highway. The driver sees traffic ahead and reduces the speed to 20 mph. What fraction of the car's original kinetic energy remains after slowing down?",
+            "options": [
+                {
+                    "text": "1/9",
+                    "isCorrect": 1,
+                    "explanation": "Since kinetic energy is proportional to speed squared (KE \u221d v\u00b2), when speed is reduced to 1/3, the energy is reduced to (1/3)\u00b2 = 1/9 of original."
+                },
+                {
+                    "text": "1/3",
+                    "isCorrect": 0,
+                    "explanation": "This represents the ratio of final to initial speed (20/60), but kinetic energy depends on speed squared."
+                },
+                {
+                    "text": "1/6",
+                    "isCorrect": 0,
+                    "explanation": "This is an incorrect fraction that doesn't represent the squared relationship between speed and kinetic energy."
+                },
+                {
+                    "text": "2/3",
+                    "isCorrect": 0,
+                    "explanation": "This answer doesn't account for the squared relationship between speed and kinetic energy."
+                }
+            ],
+            "funFact": "Race car drivers use this principle of kinetic energy when braking. When they reduce their speed from 200 mph to 100 mph, they eliminate 75% of their car's kinetic energy, not just 50%, due to the squared relationship between speed and kinetic energy!"
+        },
+        {
+            "id": 10,
+            "text": "A soccer ball is kicked with an initial speed of 20 meters per second. If the mass of the ball is tripled from 0.4 kg to 1.2 kg, and its speed is reduced to 10 meters per second, what happens to its kinetic energy?",
+            "options": [
+                {
+                    "text": "The kinetic energy doubles",
+                    "isCorrect": 0,
+                    "explanation": "This overestimates the effect of tripling mass while not properly accounting for the squared effect of halving speed in the KE formula."
+                },
+                {
+                    "text": "The kinetic energy decreases to 3/4 of its original value",
+                    "isCorrect": 1,
+                    "explanation": "When mass is tripled (\u00d73) and speed is halved (\u00d71/2), KE changes by a factor of 3\u00d7(1/2)\u00b2 = 3/4 since KE = \u00bdmv\u00b2. The squared effect of speed reduction (1/4) partially offsets the tripling of mass, resulting in KE that is 3/4 of the original."
+                },
+                {
+                    "text": "The kinetic energy increases by a factor of 3/4",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly assumes kinetic energy would increase. While the mass increase boosts KE, the speed reduction has a greater impact due to the squared term, causing an overall decrease in KE."
                 },
                 {
                     "text": "The kinetic energy remains the same",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because kinetic energy depends on mass. Changing the mass while keeping velocity constant will change the kinetic energy"
-                },
-                {
-                    "text": "The kinetic energy is reduced to one-fourth its original value",
-                    "isCorrect": 0,
-                    "explanation": "This relationship applies when changing velocity (v\u00b2), not mass. Mass has a linear relationship with kinetic energy"
-                },
-                {
-                    "text": "The kinetic energy is doubled",
-                    "isCorrect": 0,
-                    "explanation": "This is the opposite of what happens. Reducing mass reduces kinetic energy, not increases it"
+                    "explanation": "This incorrectly assumes the effects of tripling mass and halving speed cancel out. Since speed is squared in the KE formula, these changes don't balance each other."
                 }
             ],
-            "funFact": "Wrecking balls typically weigh between 500 to 6,000 kg. While the Seattle Kingdome was demolished in 2000 using controlled explosives rather than a wrecking ball, the demolition demonstrated another form of energy conversion - chemical energy from explosives converting to kinetic energy that brought down the structure in less than 20 seconds!"
+            "funFact": "Professional soccer players can kick a ball at speeds over 125 mph (about 56 m/s)! At such high speeds, even a small change in velocity has a dramatic effect on kinetic energy due to the squared relationship between speed and KE."
         },
         {
             "id": 11,
-            "text": "A student drops identical metal balls from different heights in a science experiment. If one ball is dropped from 2 meters and another from 4 meters, how will the kinetic energy of the ball dropped from 4 meters compare to the ball dropped from 2 meters when they reach the ground?",
+            "text": "A mechanical engineer is designing a new protective helmet for football players. Which of the following design considerations would be most effective in reducing the impact force on a player's head during a collision?",
             "options": [
                 {
-                    "text": "The kinetic energy will be twice as much",
+                    "text": "Design the helmet to extend the time of impact through cushioning materials",
                     "isCorrect": 1,
-                    "explanation": "When an object falls, its potential energy converts to kinetic energy. Since potential energy is directly proportional to height, doubling the height doubles the potential energy, which results in double the kinetic energy at impact."
+                    "explanation": "By extending the time of impact through cushioning, the helmet reduces the rate of velocity change, which significantly decreases the kinetic energy transfer during collision."
                 },
                 {
-                    "text": "The kinetic energy will be four times as much",
+                    "text": "Focus on making the helmet extremely lightweight to increase player mobility",
                     "isCorrect": 0,
-                    "explanation": "While kinetic energy increases with the square of velocity, in this case we are comparing heights. The relationship between height and resulting kinetic energy is linear, not squared."
+                    "explanation": "While player mobility is important, a very lightweight helmet would provide less protection as lower mass reduces the helmet's ability to absorb impact energy."
                 },
                 {
-                    "text": "The kinetic energy will be the same",
+                    "text": "Focus only on increasing the helmet's mass for protection",
                     "isCorrect": 0,
-                    "explanation": "Different heights result in different amounts of potential energy, which converts to different amounts of kinetic energy. Higher starting positions result in more energy at impact."
+                    "explanation": "Simply increasing mass alone could be counterproductive as it would increase the kinetic energy during impact (KE = \u00bdmv\u00b2) and could cause neck strain."
                 },
                 {
-                    "text": "The kinetic energy will be half as much",
+                    "text": "Make the helmet completely rigid to block all force",
                     "isCorrect": 0,
-                    "explanation": "Greater height results in more potential energy, which converts to more kinetic energy at impact, not less. The ball dropped from higher will have more kinetic energy, not less."
+                    "explanation": "A completely rigid helmet would actually increase injury risk by transferring all kinetic energy directly to the head without any absorption or dissipation."
                 }
             ],
-            "funFact": "Galileo Galilei demonstrated that objects of different masses fall at the same rate by allegedly dropping two balls of different weights from the Leaning Tower of Pisa. While they fall at the same rate, heavier objects do have more kinetic energy due to their greater mass!"
+            "funFact": "Modern football helmets use sophisticated multi-layer padding systems that can reduce impact forces by up to 80% compared to helmets from the 1970s. These systems work by converting kinetic energy into heat energy through controlled deformation of specialized materials."
         },
         {
             "id": 12,
-            "text": "Two identical basketballs are rolling down a court. Ball A is moving at 2 meters per second, while Ball B is moving at 4 meters per second. How many times greater is the kinetic energy of Ball B compared to Ball A?",
+            "text": "A soccer ball initially has a kinetic energy of 10 joules. If you want to increase its kinetic energy, which change would result in a greater increase - doubling the ball's mass or doubling its speed?",
             "options": [
                 {
-                    "text": "2 times greater",
+                    "text": "Doubling the mass would result in a greater increase in kinetic energy",
                     "isCorrect": 0,
-                    "explanation": "This answer incorrectly assumes kinetic energy is directly proportional to velocity. Since kinetic energy is proportional to velocity squared (KE \u221d v\u00b2), doubling the velocity results in a larger increase."
+                    "explanation": "While doubling mass does increase kinetic energy by a factor of 2, doubling speed increases kinetic energy by a factor of 4 due to the squared relationship between speed and kinetic energy."
+                },
+                {
+                    "text": "Both changes would result in the same increase in kinetic energy",
+                    "isCorrect": 0,
+                    "explanation": "The relationships between kinetic energy and mass versus speed are different. Mass has a linear relationship while speed has a squared relationship with kinetic energy."
+                },
+                {
+                    "text": "Doubling the speed would result in a greater increase in kinetic energy",
+                    "isCorrect": 1,
+                    "explanation": "When speed is doubled, kinetic energy increases by a factor of 4 (quadruples) because KE \u221d v\u00b2. When mass is doubled, kinetic energy only doubles because KE \u221d m."
+                }
+            ],
+            "funFact": "This squared relationship between speed and kinetic energy is why highway crashes at higher speeds are so much more destructive. A car crash at 60 mph releases four times the kinetic energy of a crash at 30 mph!"
+        },
+        {
+            "id": 13,
+            "text": "Two identical balls roll down ramps of different heights. Ball A starts from a height of 2 meters and reaches a speed of 6 meters per second at the bottom. Ball B starts from a height of 8 meters and reaches a speed of 12 meters per second at the bottom. How many times greater is the kinetic energy of Ball B compared to Ball A?",
+            "options": [
+                {
+                    "text": "8 times greater",
+                    "isCorrect": 0,
+                    "explanation": "This answer may come from adding the ratios of height (4) and speed (2), which is not how kinetic energy scales."
                 },
                 {
                     "text": "4 times greater",
                     "isCorrect": 1,
-                    "explanation": "Since kinetic energy is proportional to velocity squared (KE \u221d v\u00b2), when velocity doubles from 2 m/s to 4 m/s, the kinetic energy increases by a factor of 4 (2\u00b2 = 4)."
+                    "explanation": "Since the balls have equal mass, we only need to compare speeds. Kinetic energy is proportional to speed squared. Ball B's speed is 2 times greater, so its kinetic energy is 2\u00b2 = 4 times greater."
                 },
                 {
-                    "text": "8 times greater",
+                    "text": "2 times greater",
                     "isCorrect": 0,
-                    "explanation": "This answer overestimates the relationship between velocity and kinetic energy. While kinetic energy increases significantly when velocity increases, it increases by the square of the velocity ratio, not by a factor of 8."
+                    "explanation": "This answer only considers the ratio of speeds (12m/6m = 2), but not how kinetic energy depends on speed squared."
+                },
+                {
+                    "text": "3 times greater",
+                    "isCorrect": 0,
+                    "explanation": "This answer is incorrect. It does not properly account for how kinetic energy depends on the square of speed."
                 }
             ],
-            "funFact": "In professional basketball, players can pass the ball at speeds of up to 60 miles per hour. At such high speeds, the ball's kinetic energy is so large that catching these passes requires significant skill and proper technique to avoid injury!"
-        },
-        {
-            "id": 13,
-            "text": "When a basketball player dribbles a ball on a hardwood court, some kinetic energy is lost with each bounce. What forms of energy is the kinetic energy primarily converted into?",
-            "options": [
-                {
-                    "text": "Sound energy and heat energy",
-                    "isCorrect": 1,
-                    "explanation": "When the ball bounces, some kinetic energy is converted to sound (which we can hear) and heat (due to friction between the ball and floor)"
-                },
-                {
-                    "text": "Only sound energy",
-                    "isCorrect": 0,
-                    "explanation": "While some kinetic energy is converted to sound, this is not the only form of energy conversion occurring during the bounce"
-                },
-                {
-                    "text": "Only heat energy",
-                    "isCorrect": 0,
-                    "explanation": "While some kinetic energy is converted to heat through friction, this is not the only form of energy conversion occurring during the bounce"
-                },
-                {
-                    "text": "Light energy and electrical energy",
-                    "isCorrect": 0,
-                    "explanation": "The bouncing ball does not produce light or electrical energy. The main energy conversions are to sound and heat"
-                }
-            ],
-            "funFact": "In a perfectly elastic collision, all kinetic energy would be conserved. However, in reality, no collision is perfectly elastic - that's why a bouncing ball eventually comes to rest. Even the most advanced basketball designs can only maintain about 90% of their energy return with each bounce!"
+            "funFact": "The relationship between kinetic energy and speed (being proportional to speed squared) was first discovered by Gottfried Leibniz in the 17th century. He called this quantity 'vis viva' or 'living force', which later evolved into our modern concept of kinetic energy."
         },
         {
             "id": 14,
             "text": "A steel ball of mass 2 kg has a kinetic energy of 100 Joules. What would be the kinetic energy of a 1 kg steel ball moving at the same speed?",
             "options": [
-                {
-                    "text": "50 Joules",
-                    "isCorrect": 1,
-                    "explanation": "Since kinetic energy is directly proportional to mass (KE \u221d m), when mass is halved, the kinetic energy is also halved. So 100 J becomes 50 J."
-                },
                 {
                     "text": "25 Joules",
                     "isCorrect": 0,
@@ -368,6 +363,11 @@
                     "explanation": "This assumes kinetic energy is independent of mass, which is incorrect. KE is directly proportional to mass."
                 },
                 {
+                    "text": "50 Joules",
+                    "isCorrect": 1,
+                    "explanation": "Since kinetic energy is directly proportional to mass (KE \u221d m), when mass is halved, the kinetic energy is also halved. So 100 J becomes 50 J."
+                },
+                {
                     "text": "200 Joules",
                     "isCorrect": 0,
                     "explanation": "This represents inverting the relationship. Halving the mass decreases, not increases, the kinetic energy proportionally."
@@ -377,30 +377,30 @@
         },
         {
             "id": 15,
-            "text": "A student is investigating kinetic energy and velocity relationships using a rolling ball. If the ball's velocity is doubled from 2 m/s to 4 m/s while keeping its mass constant, how does its kinetic energy change?",
+            "text": "A baseball and a golf ball are both traveling at 100 miles per hour. The baseball has a mass of 145 grams while the golf ball has a mass of 45 grams. How does the kinetic energy of the baseball compare to the kinetic energy of the golf ball?",
             "options": [
                 {
-                    "text": "The kinetic energy doubles",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because kinetic energy has a squared relationship with velocity. When velocity doubles, the change in kinetic energy is greater than just doubling."
-                },
-                {
-                    "text": "The kinetic energy quadruples",
+                    "text": "The baseball has about 3.2 times more kinetic energy than the golf ball",
                     "isCorrect": 1,
-                    "explanation": "Correct! Since kinetic energy is proportional to velocity squared (KE \u221d v\u00b2), doubling the velocity results in a factor of 4 increase in kinetic energy."
+                    "explanation": "Since both objects have the same speed, their kinetic energies are directly proportional to their masses. The baseball's mass is 145/45 = 3.2 times greater, so its kinetic energy is also 3.2 times greater."
                 },
                 {
-                    "text": "The kinetic energy increases by a factor of 8",
+                    "text": "The golf ball has about 3.2 times more kinetic energy than the baseball",
                     "isCorrect": 0,
-                    "explanation": "This overestimates the change. While kinetic energy increases significantly when velocity doubles, it only increases by a factor of 4, not 8."
+                    "explanation": "This is incorrect. The baseball has more mass and therefore more kinetic energy at the same speed. The relationship is reversed here."
                 },
                 {
-                    "text": "The kinetic energy remains the same",
+                    "text": "Both balls have the same kinetic energy since they are moving at the same speed",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because changing velocity always affects kinetic energy, even if mass remains constant."
+                    "explanation": "This is incorrect. Kinetic energy depends on both mass and speed. Even at the same speed, objects with different masses will have different kinetic energies."
+                },
+                {
+                    "text": "The baseball has about 10.3 times more kinetic energy than the golf ball",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Since the speeds are equal, the ratio of kinetic energies equals the ratio of masses, which is 3.2, not 10.3."
                 }
             ],
-            "funFact": "The squared relationship between velocity and kinetic energy is why highway speed limits are so important for safety. A car traveling at 60 mph has four times the kinetic energy of the same car traveling at 30 mph, making high-speed collisions much more dangerous!"
+            "funFact": "A major league baseball pitcher can throw a fastball at speeds over 100 mph, generating enough kinetic energy to break wooden bats and cause serious injuries. This is why protective equipment is crucial in baseball!"
         }
     ]
 }

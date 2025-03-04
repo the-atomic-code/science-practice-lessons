@@ -4,121 +4,35 @@
     "questions": [
         {
             "id": 1,
-            "text": "What is the correct sequence of stages in a butterfly's life cycle?",
+            "text": "Which statement best describes what a life cycle is?",
             "options": [
                 {
-                    "text": "Egg \u2192 Caterpillar \u2192 Chrysalis \u2192 Butterfly",
+                    "text": "The way living things produce offspring",
+                    "isCorrect": 0,
+                    "explanation": "This focuses only on reproduction, which is just one stage of a complete life cycle."
+                },
+                {
+                    "text": "The process of growing from a baby to an adult",
+                    "isCorrect": 0,
+                    "explanation": "This only describes the growth stage and leaves out other important stages like birth, reproduction, and death."
+                },
+                {
+                    "text": "A series of stages a living thing goes through during its life, including birth, growth, reproduction, and death",
                     "isCorrect": 1,
-                    "explanation": "This is the correct sequence of a butterfly's life cycle. The egg hatches into a caterpillar, which then forms a chrysalis where metamorphosis occurs, finally emerging as an adult butterfly."
+                    "explanation": "This correctly describes a life cycle as it includes all the major stages that every living thing experiences in a repeating pattern."
                 },
                 {
-                    "text": "Egg \u2192 Chrysalis \u2192 Caterpillar \u2192 Butterfly",
+                    "text": "The amount of time it takes for a living thing to grow from birth to death",
                     "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. The egg must first hatch into a caterpillar before forming a chrysalis. The chrysalis stage cannot come before the caterpillar stage."
-                },
-                {
-                    "text": "Chrysalis \u2192 Egg \u2192 Caterpillar \u2192 Butterfly",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. The life cycle must begin with an egg, which then hatches into a caterpillar. The chrysalis cannot be the first stage."
-                },
-                {
-                    "text": "Egg \u2192 Butterfly \u2192 Caterpillar \u2192 Chrysalis",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. A butterfly cannot emerge directly from an egg. The egg must first hatch into a caterpillar which then forms a chrysalis before becoming a butterfly."
+                    "explanation": "While time is involved, this focuses only on duration rather than the distinct stages that make up a life cycle."
                 }
             ],
-            "funFact": "During metamorphosis inside the chrysalis, most of the caterpillar's body breaks down into a liquid form before reorganizing into the adult butterfly's body parts. This remarkable transformation takes about 10-14 days for most butterfly species!"
+            "funFact": "While all living things have life cycles that include the same basic stages, the length of these cycles can vary dramatically - from just a few days for some insects to over 5,000 years for certain species of pine trees!"
         },
         {
             "id": 2,
-            "text": "What is the process of germination in a plant's life cycle?",
-            "options": [
-                {
-                    "text": "When a seed begins to grow and develop into a young plant",
-                    "isCorrect": 1,
-                    "explanation": "Germination is the process where a dormant seed begins to sprout and grow, developing its first roots and leaves to become a seedling."
-                },
-                {
-                    "text": "When a flower produces pollen",
-                    "isCorrect": 0,
-                    "explanation": "Pollen production is part of the reproductive stage of a plant's life cycle, not germination."
-                },
-                {
-                    "text": "When a plant reaches full size",
-                    "isCorrect": 0,
-                    "explanation": "A plant reaching full size is part of the growth stage, which occurs after germination."
-                },
-                {
-                    "text": "When fruits develop seeds",
-                    "isCorrect": 0,
-                    "explanation": "Fruit and seed development is part of the reproductive stage of a plant's life cycle, occurring much later than germination."
-                }
-            ],
-            "funFact": "Some seeds can remain dormant for incredibly long periods before germinating. In 2005, scientists successfully germinated a date palm seed that was about 2,000 years old, which was discovered at an ancient fortress in Israel!"
-        },
-        {
-            "id": 3,
-            "text": "Which statement correctly compares the life cycles of different organisms?",
-            "options": [
-                {
-                    "text": "Male drone ants have a life cycle lasting about 3 weeks while some pine trees can complete their life cycle in 3 months",
-                    "isCorrect": 0,
-                    "explanation": "While male drone ants do have a short life cycle of about 3 weeks, pine trees can live for thousands of years, not just 3 months. This greatly misrepresents the length of a pine tree's life cycle."
-                },
-                {
-                    "text": "Male drone ants have a short life cycle of about 3 weeks while some pine trees can live for over 5,000 years",
-                    "isCorrect": 1,
-                    "explanation": "This correctly compares the vastly different life cycle lengths - male drone ants having one of the shortest at around 3 weeks, while some pine trees can live and continue their life cycle for over 5,000 years."
-                },
-                {
-                    "text": "Male drone ants and pine trees both complete their life cycles in about the same time of 2-3 years",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect as it suggests both organisms have similar life cycle lengths, when in reality they are vastly different - ants having very short lives while pine trees can live for thousands of years."
-                },
-                {
-                    "text": "Pine trees complete their life cycle in about 1 year while male drone ants can live for several decades",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the actual life cycle lengths - pine trees live much longer than ants, not the other way around. Male drone ants live only weeks, not decades."
-                }
-            ],
-            "funFact": "The oldest known tree in the world is a Great Basin Bristlecone Pine named Methuselah, which is over 4,800 years old! It was already a century old when the Great Pyramid of Giza was being built in Egypt."
-        },
-        {
-            "id": 4,
-            "text": "What is the correct sequence of stages in a typical plant's life cycle?",
-            "options": [
-                {
-                    "text": "Seed \u2192 Germination \u2192 Mature plant \u2192 Flower \u2192 Pollination \u2192 New seeds",
-                    "isCorrect": 1,
-                    "explanation": "This is the correct sequence showing how a plant develops from a seed through germination, grows into a mature plant that produces flowers, gets pollinated, and creates new seeds to start the cycle again."
-                },
-                {
-                    "text": "Seed \u2192 Flower \u2192 Germination \u2192 Pollination \u2192 Mature plant \u2192 New seeds",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect because a seed must first germinate and grow into a mature plant before it can produce flowers. Flowers don't come directly from seeds."
-                },
-                {
-                    "text": "Flower \u2192 Pollination \u2192 New seeds \u2192 Germination \u2192 Seed \u2192 Mature plant",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect because it starts with a flower, which can only be produced by a mature plant. The cycle must begin with a seed."
-                },
-                {
-                    "text": "Seed \u2192 Mature plant \u2192 New seeds \u2192 Germination \u2192 Flower \u2192 Pollination",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect because a plant cannot produce new seeds before flowering and pollination occur. Flowering and pollination must happen before new seed production."
-                }
-            ],
-            "funFact": "Some plants, like bamboo, have a unique life cycle where they may flower only once every several decades! When they do flower, all bamboo plants of the same species across large areas will flower simultaneously, a phenomenon known as mass flowering."
-        },
-        {
-            "id": 5,
             "text": "Which sequence correctly shows how a tadpole transforms into an adult frog?",
             "options": [
-                {
-                    "text": "Egg \u2192 Tadpole \u2192 Grows legs \u2192 Loses tail \u2192 Adult frog",
-                    "isCorrect": 1,
-                    "explanation": "This is the correct sequence of frog metamorphosis. The tadpole first develops legs while still having a tail, then gradually loses its tail as it transforms into an adult frog that can live on land."
-                },
                 {
                     "text": "Egg \u2192 Tadpole \u2192 Loses tail \u2192 Grows legs \u2192 Adult frog",
                     "isCorrect": 0,
@@ -133,72 +47,217 @@
                     "text": "Egg \u2192 Tadpole \u2192 Adult frog \u2192 Grows legs \u2192 Loses tail",
                     "isCorrect": 0,
                     "explanation": "Tadpoles can't become adult frogs before growing legs and losing their tail. These physical changes must happen before reaching adulthood."
+                },
+                {
+                    "text": "Egg \u2192 Tadpole \u2192 Grows legs \u2192 Loses tail \u2192 Adult frog",
+                    "isCorrect": 1,
+                    "explanation": "This is the correct sequence of frog metamorphosis. The tadpole first develops legs while still having a tail, then gradually loses its tail as it transforms into an adult frog that can live on land."
                 }
             ],
             "funFact": "Some species of frogs can skip the tadpole stage entirely! The Solomon Island leaf frog develops directly from an egg into a tiny frog, a process called direct development."
         },
         {
-            "id": 6,
-            "text": "How do both butterflies and dogs, despite their very different life cycles, follow the same basic pattern of life?",
+            "id": 3,
+            "text": "What are the four main stages that all living things experience during their life cycles?",
             "options": [
                 {
-                    "text": "Both go through birth/hatching, growth, reproduction, and death, though butterflies undergo metamorphosis while dogs develop more gradually",
+                    "text": "Birth, childhood, adulthood, and old age",
+                    "isCorrect": 0,
+                    "explanation": "While these are common life stages for many animals, they don't include the crucial stage of reproduction, which is essential for continuing the species."
+                },
+                {
+                    "text": "Birth, growth, reproduction, and death",
                     "isCorrect": 1,
-                    "explanation": "This correctly identifies that while the specific details differ, both animals follow the fundamental pattern of being born/hatching, growing up, reproducing, and dying - just through different processes"
+                    "explanation": "All organisms go through these four fundamental stages in their life cycles, whether they are plants or animals. These stages form the basic pattern of life."
                 },
                 {
-                    "text": "Both form a chrysalis during development and emerge as adults",
+                    "text": "Seed, sprout, flower, and fruit",
                     "isCorrect": 0,
-                    "explanation": "Only butterflies form a chrysalis - this is part of metamorphosis which dogs do not undergo. Dogs develop gradually without dramatic physical transformations"
+                    "explanation": "These stages are specific to flowering plants. While this is a common life cycle pattern, it doesn't apply to all living things."
                 },
                 {
-                    "text": "Both start as eggs that hatch into baby animals",
+                    "text": "Egg, larva, pupa, and adult",
                     "isCorrect": 0,
-                    "explanation": "While butterflies begin as eggs, dogs are born live after developing inside their mother. Not all animals start life the same way"
-                },
-                {
-                    "text": "Both look exactly like their parents when they are born/hatch",
-                    "isCorrect": 0,
-                    "explanation": "Butterflies look very different from their parents when they hatch as caterpillars. While puppies resemble adult dogs, butterfly larvae must undergo metamorphosis to reach adult form"
+                    "explanation": "These stages are specific to insects that undergo complete metamorphosis, like butterflies. Not all living things go through these particular stages."
                 }
             ],
-            "funFact": "The time it takes to complete a life cycle varies enormously between species. A butterfly might complete its entire life cycle in just a month or two, while some tortoises can live and continue their life cycles for over 150 years!"
+            "funFact": "While all living things share these four basic life cycle stages, the length of each stage can vary dramatically. Some mayflies live as adults for only 24 hours, while some bristlecone pine trees can live for over 5,000 years!"
+        },
+        {
+            "id": 4,
+            "text": "What is the most significant characteristic of metamorphosis in an animal's life cycle?",
+            "options": [
+                {
+                    "text": "Changing color or pattern as an animal ages",
+                    "isCorrect": 0,
+                    "explanation": "While some animals change color or patterns as they age, metamorphosis involves much more dramatic physical transformations of body structure"
+                },
+                {
+                    "text": "Moving from one habitat to another during growth",
+                    "isCorrect": 0,
+                    "explanation": "Though some animals that undergo metamorphosis change habitats, the defining characteristic is the dramatic physical transformation, not habitat change"
+                },
+                {
+                    "text": "Growing larger while maintaining the same basic form",
+                    "isCorrect": 0,
+                    "explanation": "Simple growth without dramatic physical changes is not metamorphosis - many animals grow larger but don't undergo metamorphosis"
+                },
+                {
+                    "text": "A dramatic change in form during development, like a caterpillar becoming a butterfly",
+                    "isCorrect": 1,
+                    "explanation": "Metamorphosis is defined by dramatic physical changes during development, with the transformation from caterpillar to butterfly being a classic example"
+                }
+            ],
+            "funFact": "While butterflies are famous for metamorphosis, some salamanders can actually reverse parts of their metamorphosis if environmental conditions become unfavorable - they can reabsorb their lungs and regrow gills to return to water!"
+        },
+        {
+            "id": 5,
+            "text": "Why are most life cycle diagrams shown in a circular shape?",
+            "options": [
+                {
+                    "text": "Because organisms always return to their starting stage",
+                    "isCorrect": 0,
+                    "explanation": "Individual organisms do not return to their starting stage - instead their offspring begin the cycle anew"
+                },
+                {
+                    "text": "Because all organisms complete their life cycles in exactly one year",
+                    "isCorrect": 0,
+                    "explanation": "Life cycles vary greatly in length - some organisms complete their cycle in weeks while others take many years"
+                },
+                {
+                    "text": "Because the stages of life repeat continuously from one generation to the next",
+                    "isCorrect": 1,
+                    "explanation": "Life cycles are shown as circles because they represent a continuous pattern that repeats - when one organism dies, its offspring continue the cycle through birth, growth, and reproduction"
+                },
+                {
+                    "text": "Because circular shapes are easier to draw than other shapes",
+                    "isCorrect": 0,
+                    "explanation": "The circular shape is chosen to show the repeating pattern of life cycles, not for drawing convenience"
+                }
+            ],
+            "funFact": "The bristlecone pine tree has one of the longest life cycles of any living organism - some individual trees have been alive for over 5,000 years! Even with such a long life span, they still follow the same basic cycle of birth, growth, reproduction, and death."
+        },
+        {
+            "id": 6,
+            "text": "Male drone ants live for only 3 weeks while some pine trees can live for over 5,000 years. Despite this huge difference in lifespan, why do both organisms still follow the same basic life cycle pattern?",
+            "options": [
+                {
+                    "text": "Because both organisms go through birth, growth, reproduction, and death in sequence",
+                    "isCorrect": 1,
+                    "explanation": "All living things follow this fundamental pattern regardless of their lifespan. Whether an organism lives for weeks or thousands of years, it must be born, grow, reproduce to continue its species, and eventually die."
+                },
+                {
+                    "text": "Because both organisms live in similar environments",
+                    "isCorrect": 0,
+                    "explanation": "The environment where an organism lives doesn't determine its life cycle pattern. Ants and pine trees live in very different environments but still follow the same basic life cycle stages."
+                },
+                {
+                    "text": "Because both organisms need the same amount of time to complete their life cycle",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The time needed to complete a life cycle varies greatly between species. An ant completes its cycle in weeks while a pine tree's cycle spans thousands of years."
+                },
+                {
+                    "text": "Because both organisms reproduce in the same way",
+                    "isCorrect": 0,
+                    "explanation": "Different organisms have different methods of reproduction. Ants reproduce through eggs while pine trees reproduce through seeds, yet they still follow the same basic life cycle pattern."
+                }
+            ],
+            "funFact": "The bristlecone pine, one of the longest-living organisms on Earth, can live for over 5,000 years. The oldest known bristlecone pine is named Methuselah and is estimated to be around 4,800 years old - meaning it started growing before the Egyptian pyramids were built!"
         },
         {
             "id": 7,
-            "text": "Looking at different animal life cycles like the butterfly, frog, and dog, what pattern is common to all of them?",
+            "text": "A local garden has stopped attracting bees and other pollinating insects. What is most likely to happen to the flowering plants in this garden over time?",
             "options": [
                 {
-                    "text": "They all follow the sequence of birth, growth, reproduction, and death",
+                    "text": "The plant population will gradually decline as reproduction becomes limited",
                     "isCorrect": 1,
-                    "explanation": "All organisms follow this fundamental pattern in their life cycles, even though the specific stages may look very different between species"
+                    "explanation": "Without pollinators, most flowering plants reproduce less efficiently, leading to fewer new plants growing when the old ones die, causing a gradual population decline"
                 },
                 {
-                    "text": "They all undergo metamorphosis during their development",
+                    "text": "The plants will continue to produce the same amount of seeds and new plants",
                     "isCorrect": 0,
-                    "explanation": "While some animals like butterflies and frogs undergo metamorphosis, many animals like dogs do not dramatically change form during their development"
+                    "explanation": "Without pollinators, most flowering plants cannot produce seeds effectively, so seed production would decrease significantly, though some plants may continue to reproduce through self-pollination or other mechanisms"
                 },
+                {
+                    "text": "The plants will find new ways to pollinate themselves immediately",
+                    "isCorrect": 0,
+                    "explanation": "While some plants can self-pollinate, most flowering plants depend on insects and cannot quickly develop new pollination methods. Evolutionary adaptations take many generations"
+                },
+                {
+                    "text": "The plants will grow larger to compensate for the lack of pollinators",
+                    "isCorrect": 0,
+                    "explanation": "Plant size does not compensate for lack of pollination - without pollinators, most plants cannot complete their reproductive cycle regardless of their size, though some species have alternative reproduction methods"
+                }
+            ],
+            "funFact": "Some flowering plants have evolved amazing backup strategies for pollination! The evening primrose can pollinate itself if no insects visit, while dandelions can produce seeds without pollination at all - a process called apomixis."
+        },
+        {
+            "id": 8,
+            "text": "Which statement best explains how both egg-laying animals and animals that give live birth fit into the same universal life cycle pattern?",
+            "options": [
+                {
+                    "text": "Egg-laying and live birth are completely different patterns that cannot be compared",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because while the birth methods differ, both types of animals follow the same basic life cycle pattern of birth, growth, reproduction, and death"
+                },
+                {
+                    "text": "Both types of birth lead to offspring that grow, develop into adults, reproduce, and eventually die",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because regardless of how animals are born, they all follow the same basic life cycle pattern of birth, growth, reproduction, and death"
+                },
+                {
+                    "text": "Only egg-laying animals follow a complete life cycle pattern since they undergo more dramatic changes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because all animals follow a life cycle pattern, regardless of whether they hatch from eggs or are born live"
+                },
+                {
+                    "text": "Live-born animals have a simpler life cycle because they skip the egg stage",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the complexity of a life cycle is not determined by the method of birth - all animals have complete life cycles"
+                }
+            ],
+            "funFact": "The platypus is one of the few mammals that lays eggs instead of giving live birth! This shows how nature can combine different reproductive strategies while still maintaining the basic life cycle pattern that all animals share."
+        },
+        {
+            "id": 9,
+            "text": "Looking at different animal life cycles like the butterfly, frog, and dog, what pattern is common to all of them?",
+            "options": [
                 {
                     "text": "They all start life as eggs",
                     "isCorrect": 0,
                     "explanation": "While some animals begin life as eggs, others like dogs are born live. The starting point can vary between species"
                 },
                 {
+                    "text": "They all follow the sequence of birth, growth, reproduction, and death",
+                    "isCorrect": 1,
+                    "explanation": "All organisms follow this fundamental pattern in their life cycles, even though the specific stages may look very different between species"
+                },
+                {
                     "text": "They all reach adulthood within one year",
                     "isCorrect": 0,
                     "explanation": "The time taken to reach adulthood varies greatly between species - some mature quickly while others take several years"
+                },
+                {
+                    "text": "They all undergo metamorphosis during their development",
+                    "isCorrect": 0,
+                    "explanation": "While some animals like butterflies and frogs undergo metamorphosis, many animals like dogs do not dramatically change form during their development"
                 }
             ],
             "funFact": "The Greenland shark has one of the longest lifespans of any animal, living up to 400 years and not reaching sexual maturity until around 150 years of age - an extremely prolonged life cycle!"
         },
         {
-            "id": 8,
+            "id": 10,
             "text": "Look at this butterfly life cycle diagram: egg \u2192 caterpillar \u2192 _______ \u2192 adult butterfly. Which important stage is missing, and why is it crucial for the butterfly's development?",
             "options": [
                 {
                     "text": "Chrysalis, because this is where the caterpillar transforms into a butterfly through metamorphosis",
                     "isCorrect": 1,
                     "explanation": "The chrysalis stage is essential because it's where the dramatic transformation from caterpillar to butterfly occurs through metamorphosis"
+                },
+                {
+                    "text": "Nymph, because this is where the butterfly lays its eggs",
+                    "isCorrect": 0,
+                    "explanation": "Nymph is a developmental stage in incomplete metamorphosis (seen in insects like grasshoppers), not in butterfly development which uses complete metamorphosis. Additionally, butterflies lay eggs during the adult stage, not during development"
                 },
                 {
                     "text": "Cocoon, because this is where the butterfly learns to fly",
@@ -209,203 +268,144 @@
                     "text": "Larva, because this is where the butterfly gets its wings",
                     "isCorrect": 0,
                     "explanation": "Larva is another name for the caterpillar stage, which is already shown in the diagram. Wings develop during the chrysalis stage"
-                },
-                {
-                    "text": "Nymph, because this is where the butterfly lays its eggs",
-                    "isCorrect": 0,
-                    "explanation": "Nymph is a developmental stage in incomplete metamorphosis (seen in insects like grasshoppers), not in butterfly development which uses complete metamorphosis. Additionally, butterflies lay eggs during the adult stage, not during development"
                 }
             ],
             "funFact": "Inside the chrysalis, the caterpillar's body breaks down almost completely into a soup-like substance before reorganizing into a butterfly's body parts - one of nature's most remarkable transformations!"
         },
         {
-            "id": 9,
-            "text": "A small pond ecosystem has a population of African bullfrogs. Due to a severe drought, many of the shallow areas where the bullfrogs typically lay their eggs dry up. How would this environmental change most likely affect the bullfrog population over time?",
-            "options": [
-                {
-                    "text": "The population will gradually decrease as fewer eggs survive to become adult frogs",
-                    "isCorrect": 1,
-                    "explanation": "Without sufficient water for egg-laying and tadpole development, reproduction will be limited, leading to fewer new frogs joining the population over time"
-                },
-                {
-                    "text": "The population will remain stable because adult frogs can survive on land",
-                    "isCorrect": 0,
-                    "explanation": "While adult frogs can live on land, they need water bodies for reproduction. Without successful reproduction, the population cannot maintain its numbers"
-                },
-                {
-                    "text": "The population will increase as frogs adapt to laying eggs on land instead",
-                    "isCorrect": 0,
-                    "explanation": "Bullfrogs cannot quickly evolve to lay eggs on land - they require water for their eggs and tadpole stage as part of their life cycle"
-                },
-                {
-                    "text": "The population will be unaffected since adult frogs can move to new ponds",
-                    "isCorrect": 0,
-                    "explanation": "Even if some adults find new ponds, a significant reduction in suitable breeding habitat will still impact the overall population's ability to maintain its numbers"
-                }
-            ],
-            "funFact": "Some frog species have evolved fascinating adaptations to deal with dry conditions - like the Australian water-holding frog that burrows underground and creates a cocoon of shed skin to preserve moisture while waiting for rain!"
-        },
-        {
-            "id": 10,
-            "text": "A caterpillar has just formed its chrysalis. What stage will come next in the butterfly's life cycle?",
-            "options": [
-                {
-                    "text": "Adult butterfly",
-                    "isCorrect": 1,
-                    "explanation": "After forming a chrysalis, the caterpillar undergoes metamorphosis and emerges as an adult butterfly. This is the correct next stage in the butterfly's life cycle."
-                },
-                {
-                    "text": "Egg laying",
-                    "isCorrect": 0,
-                    "explanation": "Egg laying comes after the adult butterfly stage, not directly after the chrysalis stage. The butterfly must first emerge as an adult before it can lay eggs."
-                },
-                {
-                    "text": "Caterpillar",
-                    "isCorrect": 0,
-                    "explanation": "The caterpillar stage has already occurred before the chrysalis formed. The next stage will be the adult butterfly, not returning to the caterpillar stage."
-                },
-                {
-                    "text": "A larger chrysalis",
-                    "isCorrect": 0,
-                    "explanation": "The chrysalis doesn't grow larger - it's a single transformation stage where the caterpillar changes into a butterfly. There is no 'larger chrysalis' stage."
-                }
-            ],
-            "funFact": "During metamorphosis inside the chrysalis, the caterpillar's body completely dissolves into a liquid soup of cells before reorganizing into a butterfly's body parts - including wings, proboscis, and compound eyes!"
-        },
-        {
             "id": 11,
+            "text": "A monarch butterfly population migrates south for the winter. How might this seasonal change affect different stages of their life cycle?",
+            "options": [
+                {
+                    "text": "Migration delays metamorphosis as caterpillars pause development until spring",
+                    "isCorrect": 0,
+                    "explanation": "Caterpillars do not pause development during migration - they must complete metamorphosis when they reach the appropriate size and stage."
+                },
+                {
+                    "text": "Adult butterflies wait to reproduce until reaching their winter destination where conditions are favorable",
+                    "isCorrect": 1,
+                    "explanation": "Monarchs time their reproduction to coincide with favorable conditions after migration, ensuring their offspring have the best chance of survival."
+                },
+                {
+                    "text": "Chrysalises formed during migration develop faster due to changing temperatures",
+                    "isCorrect": 0,
+                    "explanation": "Temperature changes during migration would actually slow chrysalis development, not speed it up. Additionally, butterflies typically do not form chrysalises during migration."
+                },
+                {
+                    "text": "Adult butterflies lay eggs during migration to ensure caterpillars have abundant food",
+                    "isCorrect": 0,
+                    "explanation": "Monarch butterflies typically do not lay eggs during migration as caterpillars need specific host plants (milkweed) that may not be available along the migration route."
+                }
+            ],
+            "funFact": "Monarch butterflies can travel up to 3,000 miles during their migration to Mexico, despite weighing less than a paperclip! This amazing journey can span multiple generations, with great-grandchildren returning to the same trees their ancestors visited."
+        },
+        {
+            "id": 12,
+            "text": "How do plants and animals differ in their methods of reproduction to ensure the survival of their species?",
+            "options": [
+                {
+                    "text": "Plants reproduce through metamorphosis while animals reproduce through eggs",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Metamorphosis is a process of dramatic physical change in some animals, not a method of plant reproduction. Plants reproduce through seeds, spores, or vegetative reproduction."
+                },
+                {
+                    "text": "Both plants and animals reproduce only through eggs",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Plants reproduce through seeds, spores, or vegetative reproduction, not eggs. While some animals lay eggs, others give live birth."
+                },
+                {
+                    "text": "Plants reproduce through various methods including seeds, spores, and vegetative reproduction, while animals reproduce through either eggs or live birth",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Plants can reproduce sexually (through seeds formed after pollination or through spores) and asexually through vegetative reproduction methods like runners or bulbs. Animals either lay eggs (like butterflies and frogs) or give live birth (like dogs and gorillas)."
+                },
+                {
+                    "text": "Plants reproduce only through seeds while all animals give live birth",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Plants reproduce through various methods including seeds, spores, and vegetative reproduction. Additionally, not all animals give live birth. Many animals, like butterflies and frogs, lay eggs."
+                }
+            ],
+            "funFact": "The world's oldest known living tree is a Great Basin Bristlecone Pine that is over 5,000 years old! It has been reproducing through seeds for thousands of years, demonstrating the remarkable effectiveness of plant reproduction strategies."
+        },
+        {
+            "id": 13,
+            "text": "Which way of caring for offspring typically leads to higher survival rates in animal species?",
+            "options": [
+                {
+                    "text": "Producing hundreds of offspring with no parental care",
+                    "isCorrect": 0,
+                    "explanation": "While producing many offspring can help species survive, without parental care the survival rate for each individual offspring is typically very low."
+                },
+                {
+                    "text": "Having offspring that immediately live independently",
+                    "isCorrect": 0,
+                    "explanation": "Offspring that must survive independently from birth often face higher mortality rates without parental protection and guidance."
+                },
+                {
+                    "text": "Laying many eggs and leaving them unprotected",
+                    "isCorrect": 0,
+                    "explanation": "While some species use this strategy, leaving eggs unprotected often results in lower survival rates due to predation and environmental challenges."
+                },
+                {
+                    "text": "Parents providing direct care and protection to a small number of offspring",
+                    "isCorrect": 1,
+                    "explanation": "Species that provide direct parental care to fewer offspring typically have higher survival rates because parents can dedicate more resources and attention to each offspring, ensuring better protection and development."
+                }
+            ],
+            "funFact": "Emperor penguins demonstrate remarkable parental care - male penguins stand without eating for about 2 months in freezing temperatures to protect their single egg, while females travel up to 50 miles to get food. This intensive care results in high chick survival rates despite the harsh Antarctic conditions."
+        },
+        {
+            "id": 14,
+            "text": "During a butterfly's life cycle, which stage requires the most energy and faces the biggest survival challenges?",
+            "options": [
+                {
+                    "text": "Adult butterfly stage",
+                    "isCorrect": 0,
+                    "explanation": "Adult butterflies need energy for flight and reproduction, but their energy requirements are lower than during the caterpillar stage when rapid growth occurs."
+                },
+                {
+                    "text": "Egg stage",
+                    "isCorrect": 0,
+                    "explanation": "While eggs are vulnerable, they require minimal energy as no active growth or movement occurs during this stage."
+                },
+                {
+                    "text": "Chrysalis stage",
+                    "isCorrect": 0,
+                    "explanation": "During the chrysalis stage, while dramatic changes occur internally, the organism uses stored energy from the caterpillar stage and remains relatively protected."
+                },
+                {
+                    "text": "Caterpillar stage",
+                    "isCorrect": 1,
+                    "explanation": "During the caterpillar stage, the organism needs enormous amounts of energy for constant feeding and growth. They must eat continuously while avoiding predators and dealing with environmental challenges."
+                }
+            ],
+            "funFact": "Some caterpillars can eat more than 27,000 times their body weight during their growth phase! This is like a human baby eating as much as several school buses in just a couple of weeks."
+        },
+        {
+            "id": 15,
             "text": "Why is the transformation of a tadpole into a frog an important adaptation for survival?",
             "options": [
-                {
-                    "text": "The transformation allows frogs to access food sources and escape predators both in water and on land",
-                    "isCorrect": 1,
-                    "explanation": "Growing legs and losing the tail enables frogs to live successfully in both aquatic and terrestrial environments, increasing their chances of survival by accessing more resources and avoiding different predators"
-                },
-                {
-                    "text": "The transformation makes frogs swim faster in water",
-                    "isCorrect": 0,
-                    "explanation": "Actually, tadpoles are better swimmers than adult frogs. The transformation is about gaining the ability to live on land, not improving swimming ability"
-                },
                 {
                     "text": "The transformation helps frogs stay underwater longer",
                     "isCorrect": 0,
                     "explanation": "The transformation actually gives frogs lungs instead of gills, which means they need to come to the surface to breathe air. Tadpoles are better adapted for underwater living"
                 },
                 {
+                    "text": "The transformation allows frogs to access food sources and escape predators both in water and on land",
+                    "isCorrect": 1,
+                    "explanation": "Growing legs and losing the tail enables frogs to live successfully in both aquatic and terrestrial environments, increasing their chances of survival by accessing more resources and avoiding different predators"
+                },
+                {
                     "text": "The transformation makes frogs smaller and harder to spot",
                     "isCorrect": 0,
                     "explanation": "Adult frogs are typically larger than tadpoles. The transformation is about gaining new abilities to live on land, not about changing size for camouflage"
+                },
+                {
+                    "text": "The transformation makes frogs swim faster in water",
+                    "isCorrect": 0,
+                    "explanation": "Actually, tadpoles are better swimmers than adult frogs. The transformation is about gaining the ability to live on land, not improving swimming ability"
                 }
             ],
             "funFact": "Some species of frogs can jump up to 20 times their body length in a single leap! This incredible jumping ability, which they gain after metamorphosis, helps them escape predators and catch prey on land."
-        },
-        {
-            "id": 12,
-            "text": "How does the relationship between butterflies and flowering plants demonstrate the interdependence of their life cycles?",
-            "options": [
-                {
-                    "text": "Butterflies pollinate flowers while gathering nectar, which helps plants produce seeds for their next generation",
-                    "isCorrect": 1,
-                    "explanation": "This shows how both species help each other continue their life cycles - butterflies get food while plants get pollinated to produce seeds"
-                },
-                {
-                    "text": "Butterflies eat the plant leaves which helps new flowers grow faster",
-                    "isCorrect": 0,
-                    "explanation": "While caterpillars do eat leaves, this actually harms plants rather than helping them reproduce. The pollination relationship is the key interdependence"
-                },
-                {
-                    "text": "Plants provide shelter to butterflies which helps butterflies lay more eggs",
-                    "isCorrect": 0,
-                    "explanation": "While plants may provide shelter, this is not the main way these species' life cycles depend on each other. The pollination relationship is more critical"
-                },
-                {
-                    "text": "Butterflies help plants grow taller which allows plants to produce more flowers",
-                    "isCorrect": 0,
-                    "explanation": "Butterflies do not directly affect plant growth height. The key relationship is through pollination helping plants reproduce"
-                }
-            ],
-            "funFact": "Some butterfly species have evolved to have specialized relationships with specific plant species - their caterpillars can only eat one type of plant, and the adult butterflies are particularly good at pollinating that same plant species' flowers!"
-        },
-        {
-            "id": 13,
-            "text": "When comparing the metamorphosis of butterflies and frogs, which characteristic is unique to a butterfly's transformation process?",
-            "options": [
-                {
-                    "text": "Developing a chrysalis for transformation",
-                    "isCorrect": 1,
-                    "explanation": "Butterflies uniquely form a chrysalis where they undergo their transformation, while frogs do not form any protective shell during their metamorphosis."
-                },
-                {
-                    "text": "Starting life as an egg",
-                    "isCorrect": 0,
-                    "explanation": "Both butterflies and frogs begin their life cycles as eggs, so this is not unique to butterflies."
-                },
-                {
-                    "text": "Changing body shape during growth",
-                    "isCorrect": 0,
-                    "explanation": "Both butterflies and frogs undergo significant body shape changes during their development, so this is not unique to butterflies."
-                },
-                {
-                    "text": "Growing larger in size",
-                    "isCorrect": 0,
-                    "explanation": "Both butterflies and frogs increase in size throughout their development, so this is not unique to butterflies."
-                }
-            ],
-            "funFact": "The word 'chrysalis' comes from the Greek word 'chrysos' meaning gold, because some butterfly chrysalises have a beautiful golden color. Inside the chrysalis, most of the caterpillar's body breaks down into a soup-like substance before reorganizing into the butterfly's adult form!"
-        },
-        {
-            "id": 14,
-            "text": "Which statement best explains how the timing of life stages compares between different species?",
-            "options": [
-                {
-                    "text": "All species reach adulthood at the same age and live for approximately the same length of time",
-                    "isCorrect": 0,
-                    "explanation": "Different species have vastly different timelines for reaching maturity and overall lifespans"
-                },
-                {
-                    "text": "Male drone ants complete their entire life cycle in weeks while pine trees can live for thousands of years",
-                    "isCorrect": 1,
-                    "explanation": "Species have widely varying life cycle lengths adapted to their survival needs, from very short to extremely long lifespans"
-                },
-                {
-                    "text": "All mammals take exactly the same amount of time to reach reproductive maturity",
-                    "isCorrect": 0,
-                    "explanation": "Different mammals reach reproductive maturity at different ages - some in months, others in several years"
-                },
-                {
-                    "text": "The adolescent stage always takes up half of any species' total lifespan",
-                    "isCorrect": 0,
-                    "explanation": "The relative length of different life stages varies significantly between species"
-                }
-            ],
-            "funFact": "The Greenland shark has one of the longest known lifespans of any vertebrate, living up to 500 years! They don't reach sexual maturity until around 150 years of age."
-        },
-        {
-            "id": 15,
-            "text": "How do the early stages of plant and animal life cycles show similar patterns of development?",
-            "options": [
-                {
-                    "text": "Both involve a period of initial growth and dependency - seedlings need nutrients from soil while baby animals need care from parents",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because both young plants and animals go through an early vulnerable stage where they need external support to survive and develop properly."
-                },
-                {
-                    "text": "Both immediately begin reproducing as soon as they are born or germinate",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because neither plants nor animals can reproduce immediately after birth/germination - they must first grow and mature."
-                },
-                {
-                    "text": "Both can immediately survive independently without any external support",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because young plants and animals both require support and nutrients from their environment or parents to survive initially."
-                },
-                {
-                    "text": "Both complete their entire life cycle within the first few days of life",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because both plants and animals require significant time to grow, mature, and complete their life cycles."
-                }
-            ],
-            "funFact": "While most organisms need time to mature before reproducing, some bacteria can divide and reproduce just 20 minutes after being formed - one of the fastest life cycles in nature!"
         }
     ]
 }

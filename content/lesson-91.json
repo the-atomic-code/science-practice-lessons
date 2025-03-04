@@ -4,60 +4,6 @@
     "questions": [
         {
             "id": 1,
-            "text": "In a population of rabbits living in a snowy environment, some rabbits have white fur while others have brown fur. Over many generations, what would likely happen to the proportion of white-furred rabbits in this population?",
-            "options": [
-                {
-                    "text": "The proportion of white-furred rabbits would likely increase because they are better camouflaged in snow and more likely to survive and reproduce.",
-                    "isCorrect": 1,
-                    "explanation": "White fur provides better camouflage in snowy environments, making these rabbits less visible to predators. This increased survival advantage means more white-furred rabbits will survive to pass on their genes."
-                },
-                {
-                    "text": "The proportion would stay exactly the same because fur color doesn't affect survival.",
-                    "isCorrect": 0,
-                    "explanation": "Fur color does affect survival through camouflage. Traits that help organisms survive are more likely to be passed on to future generations."
-                },
-                {
-                    "text": "The proportion of white-furred rabbits would decrease because white fur provides less warmth.",
-                    "isCorrect": 0,
-                    "explanation": "While fur warmth is important, the camouflage benefit of white fur in a snowy environment would be a more significant factor for survival. There's no evidence that white fur provides less warmth."
-                },
-                {
-                    "text": "The proportions would change randomly with no particular pattern.",
-                    "isCorrect": 0,
-                    "explanation": "Changes in trait frequencies aren't random when natural selection is involved. Traits that provide survival advantages tend to become more common over time."
-                }
-            ],
-            "funFact": "Some animals, like the Arctic fox and snowshoe hare, can actually change their fur color seasonally - brown in summer and white in winter. This adaptation helps them maintain effective camouflage year-round!"
-        },
-        {
-            "id": 2,
-            "text": "In a population of brown bears, some bears have thicker fur coats while others have thinner fur coats. What best explains this variation in fur thickness among bears of the same species?",
-            "options": [
-                {
-                    "text": "All bears choose to grow different thicknesses of fur",
-                    "isCorrect": 0,
-                    "explanation": "Bears cannot consciously choose their fur thickness. Trait variations like fur thickness are determined by genetic factors inherited from parents."
-                },
-                {
-                    "text": "Genetic differences among individual bears lead to different fur thicknesses",
-                    "isCorrect": 1,
-                    "explanation": "Trait variations within a population occur due to genetic differences between individuals that can be inherited from their parents."
-                },
-                {
-                    "text": "Each bear adapts its fur thickness based on immediate needs",
-                    "isCorrect": 0,
-                    "explanation": "Individual bears cannot instantly adapt their fur thickness. These traits are inherited and influenced by genetics rather than immediate environmental needs."
-                },
-                {
-                    "text": "All bears start with the same fur thickness but it changes with age",
-                    "isCorrect": 0,
-                    "explanation": "While fur thickness may change somewhat with age, the variation between individuals is primarily due to genetic differences, not age alone."
-                }
-            ],
-            "funFact": "Brown bears can have fur in various shades and thicknesses, with some bears having fur so thick it appears almost woolly! This variation in fur characteristics helped bears adapt to different climates as they spread across the Northern Hemisphere."
-        },
-        {
-            "id": 3,
             "text": "Which statement best describes natural selection?",
             "options": [
                 {
@@ -66,14 +12,14 @@
                     "explanation": "This correctly describes natural selection as a process focused on survival and reproduction of organisms with beneficial traits"
                 },
                 {
-                    "text": "A process where organisms choose to develop new traits to survive better",
-                    "isCorrect": 0,
-                    "explanation": "Organisms cannot consciously choose to develop new traits - natural selection works through genetic variations that already exist in a population"
-                },
-                {
                     "text": "A process where humans select which organisms get to survive",
                     "isCorrect": 0,
                     "explanation": "This describes artificial selection, not natural selection. Natural selection occurs without human intervention"
+                },
+                {
+                    "text": "A process where organisms choose to develop new traits to survive better",
+                    "isCorrect": 0,
+                    "explanation": "Organisms cannot consciously choose to develop new traits - natural selection works through genetic variations that already exist in a population"
                 },
                 {
                     "text": "A process where all organisms in a population change their traits at the same time",
@@ -84,73 +30,171 @@
             "funFact": "The process of natural selection was independently discovered by both Charles Darwin and Alfred Russel Wallace in the 1850s. While Darwin is more famous for the theory, both scientists contributed significantly to our understanding of evolution."
         },
         {
-            "id": 4,
-            "text": "In a population of deer mice living in a desert environment with light-colored sand, some mice have light fur while others have dark fur. Which statement best explains how natural selection would likely affect this population over many generations?",
+            "id": 2,
+            "text": "Which of the following best describes artificial selection?",
             "options": [
                 {
-                    "text": "The proportion of light-colored mice would likely increase because they blend better with the sand, making them less visible to predators",
+                    "text": "When organisms spontaneously mutate to develop new characteristics",
+                    "isCorrect": 0,
+                    "explanation": "While mutations can create new traits, artificial selection is specifically about humans choosing existing traits they want to enhance through selective breeding."
+                },
+                {
+                    "text": "A process where humans deliberately choose and breed organisms with specific desired traits",
                     "isCorrect": 1,
-                    "explanation": "Light-colored mice would have a survival advantage in this environment since their coloring provides better camouflage, increasing their chances of surviving and passing on their genes"
+                    "explanation": "This is correct. Artificial selection is when humans intentionally select and breed organisms with traits they want, like creating new dog breeds or developing disease-resistant crops."
                 },
                 {
-                    "text": "The proportion of dark-colored mice would likely increase because dark fur absorbs more heat in the desert",
+                    "text": "The survival of organisms best adapted to their environment",
                     "isCorrect": 0,
-                    "explanation": "While dark fur does absorb more heat, in this context the primary selective pressure is predation, not temperature regulation"
+                    "explanation": "This describes natural selection. Artificial selection is different because humans, not the environment, determine which traits are selected."
                 },
                 {
-                    "text": "Both fur colors would remain in equal proportions because natural selection affects all traits equally",
+                    "text": "A random process where organisms naturally develop beneficial traits over time",
                     "isCorrect": 0,
-                    "explanation": "Natural selection doesn't affect all traits equally - it favors traits that provide advantages in specific environments"
-                },
-                {
-                    "text": "The fur color would regularly switch between light and dark each generation",
-                    "isCorrect": 0,
-                    "explanation": "Natural selection is a gradual process that occurs over many generations based on survival advantages, not a back-and-forth switching of traits"
+                    "explanation": "This describes natural selection, not artificial selection. Artificial selection is directed by humans, not random environmental factors."
                 }
             ],
-            "funFact": "Desert animals often exhibit a phenomenon called 'desert camouflage' where their coloring matches the sand or rocks in their environment. This adaptation has evolved independently in many species, from lizards to insects to mammals!"
+            "funFact": "The practice of artificial selection is actually older than our understanding of genetics! Humans have been selectively breeding plants and animals for desired traits for over 10,000 years, starting with the domestication of crops and livestock in ancient civilizations."
+        },
+        {
+            "id": 3,
+            "text": "In a population of brown bears, some bears have thicker fur than others. During a particularly cold winter, which statement best explains how natural selection would affect this population over several generations?",
+            "options": [
+                {
+                    "text": "All bears would develop thicker fur within their lifetime to adapt to the cold weather",
+                    "isCorrect": 0,
+                    "explanation": "Individual organisms cannot deliberately change their genetic traits during their lifetime - natural selection works through inherited variations across generations"
+                },
+                {
+                    "text": "The bears' fur thickness would remain exactly the same because traits don't change in a population",
+                    "isCorrect": 0,
+                    "explanation": "Populations can change over generations through natural selection when certain traits provide survival advantages"
+                },
+                {
+                    "text": "The proportion of bears with thicker fur would likely increase because they would have a better chance of surviving and reproducing in cold conditions",
+                    "isCorrect": 1,
+                    "explanation": "Bears with thicker fur would be better adapted to survive cold temperatures, allowing them to live longer and produce more offspring, passing this beneficial trait to future generations"
+                },
+                {
+                    "text": "The proportion of bears with thinner fur would increase because they would need less food to survive",
+                    "isCorrect": 0,
+                    "explanation": "In cold conditions, thinner fur would be disadvantageous for survival, making these bears less likely to survive and reproduce"
+                }
+            ],
+            "funFact": "Polar bears, which evolved from brown bears around 500,000 years ago, have special hollow hair fibers that trap air for better insulation - a trait that was favored by natural selection in Arctic environments"
+        },
+        {
+            "id": 4,
+            "text": "In a population of moths living in a forest, some moths are light-colored while others are dark-colored due to genetic variation. If the tree bark in the forest becomes darker due to pollution, which statement best explains how this environmental change would affect the moth population over several generations?",
+            "options": [
+                {
+                    "text": "All moths will quickly develop darker coloring to match their environment within their lifetime.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because individual organisms cannot change their genetic traits during their lifetime to match the environment. Changes in populations occur over generations through natural selection."
+                },
+                {
+                    "text": "All light-colored moths will immediately die out in the first generation.",
+                    "isCorrect": 0,
+                    "explanation": "While light-colored moths may have reduced survival, they won't all die immediately. Changes in population traits occur gradually over multiple generations through natural selection."
+                },
+                {
+                    "text": "The proportion of dark-colored moths will increase because they are better camouflaged against dark bark and more likely to survive and reproduce.",
+                    "isCorrect": 1,
+                    "explanation": "Dark-colored moths would have a survival advantage in this environment as they blend in better with the dark bark, making them less visible to predators. Through natural selection, this beneficial trait would become more common in the population over generations."
+                },
+                {
+                    "text": "The light-colored and dark-colored moths will remain in equal proportions regardless of the environment.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because natural selection causes changes in trait frequencies based on which variants provide better survival and reproduction in the environment."
+                }
+            ],
+            "funFact": "This type of natural selection involving moth coloration was actually observed in England during the Industrial Revolution. Known as industrial melanism, the case of the peppered moth became one of the most famous examples of natural selection in action!"
         },
         {
             "id": 5,
-            "text": "A bacterial infection is being treated with an antibiotic medicine. After several weeks, some patients report that the medicine is no longer working. Which explanation best describes why the antibiotic became less effective?",
+            "text": "Which of the following best describes how mutations occur in genetic material?",
             "options": [
                 {
-                    "text": "The bacteria evolved resistance through natural selection - bacteria with genes that could survive the antibiotic reproduced and passed on these resistant traits",
+                    "text": "Mutations only occur due to environmental factors like exposure to sunlight",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While environmental factors can cause mutations, they can also occur randomly during cell division without any external cause."
+                },
+                {
+                    "text": "Mutations can occur at any time and can be caused by both random cell division and environmental factors",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes how natural selection leads to antibiotic resistance - bacteria with genes for resistance survive and reproduce, while susceptible bacteria die off"
+                    "explanation": "This is correct. Mutations are changes in genetic material that can happen randomly during cell division or be caused by environmental factors like UV radiation."
                 },
                 {
-                    "text": "The bacteria learned how to resist the antibiotic by changing their behavior",
+                    "text": "Mutations only happen when organisms deliberately change their genes to survive",
                     "isCorrect": 0,
-                    "explanation": "Bacteria cannot consciously learn or change their behavior. Resistance develops through genetic variation and natural selection"
+                    "explanation": "This is incorrect. Organisms cannot deliberately change their genes. Mutations are unintentional changes that occur randomly or due to environmental factors."
                 },
                 {
-                    "text": "The antibiotic medicine became weaker over time as it expired",
+                    "text": "Mutations only occur during reproduction and are always passed to offspring",
                     "isCorrect": 0,
-                    "explanation": "While medicines can expire, this doesn't explain bacterial resistance. The key mechanism is natural selection of resistant bacterial genes"
-                },
-                {
-                    "text": "All the bacteria mutated at once in response to the antibiotic",
-                    "isCorrect": 0,
-                    "explanation": "Mutations occur randomly, not as a directed response. Resistance develops gradually as bacteria with existing resistant genes survive and reproduce"
+                    "explanation": "This is incorrect. Mutations can occur at any time during an organism's life, not just during reproduction, and not all mutations are inherited."
                 }
             ],
-            "funFact": "The development of antibiotic resistance in bacteria is one of the fastest observable examples of evolution in action - resistant bacterial populations can emerge in just a few years or even months!"
+            "funFact": "Scientists estimate that each time a human cell divides, it makes between 0 and 3 new mutations. With trillions of cells in our body, we're constantly experiencing genetic changes, though most have no noticeable effect!"
         },
         {
             "id": 6,
-            "text": "Two species of butterflies live in a forest: one with bright orange wings and one with dark brown wings. The forest has many birds that hunt butterflies by spotting them against tree bark, which is mostly dark brown in color. Which butterfly population is more likely to survive and reproduce over time in this environment?",
+            "text": "In a forest, before the industrial revolution, light-colored moths were more common than dark-colored moths. After factories began releasing soot that darkened the tree bark, scientists observed that dark-colored moths became much more numerous while light-colored moths became rare. Which explanation best describes why this change occurred in the moth population?",
             "options": [
                 {
-                    "text": "The bright orange butterflies, because their distinct coloring will help them find mates more easily",
-                    "isCorrect": 0,
-                    "explanation": "While bright colors might help in finding mates, survival is the first requirement for reproduction. The bright orange would make these butterflies more visible to predators."
+                    "text": "Dark-colored moths were better camouflaged against the darkened tree bark, making them less visible to predators and more likely to survive and reproduce.",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because natural selection favored moths whose coloring provided better camouflage in the changed environment, allowing them to avoid predators and pass their genes to offspring."
                 },
                 {
-                    "text": "The dark brown butterflies, because their coloring helps them blend in with tree bark and avoid predators",
-                    "isCorrect": 1,
-                    "explanation": "This shows natural selection in action. The dark brown butterflies have a trait that helps them survive in their environment by making them less visible to predatory birds."
+                    "text": "Light-colored moths chose to leave the area and dark-colored moths chose to move in.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because natural selection is not about organisms making conscious choices about their traits or location."
                 },
+                {
+                    "text": "All light-colored moths suddenly mutated to become dark-colored moths at the same time.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because mutations occur randomly and gradually over many generations, not suddenly in all organisms at once."
+                },
+                {
+                    "text": "The soot from factories directly caused individual light-colored moths to become darker during their lifetime.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because physical changes acquired during an organism's lifetime (like getting darker from soot) cannot be passed on to offspring through genes."
+                }
+            ],
+            "funFact": "This famous example of natural selection is known as 'industrial melanism' and was first documented in peppered moths in Manchester, England. After air quality laws reduced pollution in the mid-1900s, light-colored moths began increasing in number again!"
+        },
+        {
+            "id": 7,
+            "text": "In a population of giraffes living in a savanna with tall acacia trees, the following data was collected about neck lengths:\n- 25% of giraffes have neck lengths between 1.8-2.0 meters\n- 50% of giraffes have neck lengths between 2.0-2.2 meters\n- 25% of giraffes have neck lengths between 2.2-2.4 meters\nGiraffes with longer necks can reach more food in the tall trees and are more likely to survive and reproduce. After several generations, what would you expect to happen to the average neck length in this giraffe population?",
+            "options": [
+                {
+                    "text": "The average neck length will stay exactly the same over generations",
+                    "isCorrect": 0,
+                    "explanation": "When there is selective pressure (in this case, access to food) and variation in traits, natural selection will cause changes in the population over time. The trait distribution won't remain static."
+                },
+                {
+                    "text": "The average neck length will increase as giraffes with longer necks are more successful at surviving and reproducing",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because natural selection favors traits that increase survival and reproduction. Since longer necks provide better access to food, these giraffes will pass their genes more frequently to future generations."
+                },
+                {
+                    "text": "All giraffes will eventually have exactly the same neck length",
+                    "isCorrect": 0,
+                    "explanation": "While the average neck length will tend to increase, genetic variation will continue to exist in the population. Natural selection doesn't eliminate all variation in traits."
+                },
+                {
+                    "text": "The average neck length will decrease as shorter necks require less energy to maintain",
+                    "isCorrect": 0,
+                    "explanation": "While shorter necks might use less energy, the advantage of reaching more food outweighs this cost. Natural selection favors traits that increase survival and reproduction, not necessarily what uses least energy."
+                }
+            ],
+            "funFact": "The giraffe's neck has the same number of vertebrae (seven) as most other mammals, including humans! The difference is that each vertebra in a giraffe's neck is much longer, sometimes reaching 25 centimeters in length."
+        },
+        {
+            "id": 8,
+            "text": "Two species of butterflies live in a forest: one with bright orange wings and one with dark brown wings. The forest has many birds that hunt butterflies by spotting them against tree bark, which is mostly dark brown in color. Which butterfly population is more likely to survive and reproduce over time in this environment?",
+            "options": [
                 {
                     "text": "Both populations equally, because wing color doesn't affect survival",
                     "isCorrect": 0,
@@ -160,212 +204,195 @@
                     "text": "The bright orange butterflies, because their bright color will scare away predatory birds",
                     "isCorrect": 0,
                     "explanation": "Bright colors typically don't scare away bird predators. In fact, being more visible usually makes an animal more likely to be caught by predators."
+                },
+                {
+                    "text": "The bright orange butterflies, because their distinct coloring will help them find mates more easily",
+                    "isCorrect": 0,
+                    "explanation": "While bright colors might help in finding mates, survival is the first requirement for reproduction. The bright orange would make these butterflies more visible to predators."
+                },
+                {
+                    "text": "The dark brown butterflies, because their coloring helps them blend in with tree bark and avoid predators",
+                    "isCorrect": 1,
+                    "explanation": "This shows natural selection in action. The dark brown butterflies have a trait that helps them survive in their environment by making them less visible to predatory birds."
                 }
             ],
             "funFact": "Many species of moths and butterflies show this type of camouflage adaptation. The peppered moth in England is a famous example where light-colored moths were common until the Industrial Revolution, when dark-colored moths became more numerous because they blended better with pollution-darkened tree bark."
         },
         {
-            "id": 7,
-            "text": "A group of lizards lives in a desert environment where the average temperature is 35\u00b0C. Some lizards can maintain their body temperature at 34\u00b0C, while others maintain it at 36\u00b0C. If the desert temperature increases by 2\u00b0C over several years, what change would you expect to see in the lizard population over multiple generations?",
-            "options": [
-                {
-                    "text": "The proportion of lizards that maintain 36\u00b0C body temperature will increase because they are better adapted to higher temperatures.",
-                    "isCorrect": 1,
-                    "explanation": "These lizards would have a survival advantage in warmer conditions, allowing them to reproduce more successfully and pass their traits to future generations."
-                },
-                {
-                    "text": "The proportion of lizards that maintain 34\u00b0C body temperature will increase because they use less energy.",
-                    "isCorrect": 0,
-                    "explanation": "While using less energy could be beneficial, these lizards would struggle more in higher temperatures, reducing their survival and reproduction rates."
-                },
-                {
-                    "text": "Both groups will remain in equal proportions because temperature doesn't affect survival.",
-                    "isCorrect": 0,
-                    "explanation": "Temperature significantly affects lizard survival, and natural selection would favor traits better suited to the new environmental conditions."
-                },
-                {
-                    "text": "All lizards will immediately adapt to maintain higher body temperatures.",
-                    "isCorrect": 0,
-                    "explanation": "Individual lizards cannot immediately change their body temperature regulation. Changes in population traits occur over generations through natural selection."
-                }
-            ],
-            "funFact": "Some species of lizards can change their body color to help regulate their temperature! Darker colors absorb more heat, while lighter colors reflect it, helping them maintain optimal body temperature in different conditions."
-        },
-        {
-            "id": 8,
-            "text": "Scientists studying arctic foxes found that some foxes have thicker fur than others. During a severe winter with temperatures dropping to -50\u00b0C, they observed the following data:\n- Foxes with thick fur: 80% survival rate\n- Foxes with medium fur: 40% survival rate\n- Foxes with thin fur: 10% survival rate\n\nHow would natural selection likely affect the fox population over several generations?",
-            "options": [
-                {
-                    "text": "The proportion of foxes with thick fur would increase in the population over time",
-                    "isCorrect": 1,
-                    "explanation": "Since foxes with thick fur have a much higher survival rate, they are more likely to survive and reproduce, passing their genes for thick fur to their offspring. This would increase the frequency of thick fur in the population over generations."
-                },
-                {
-                    "text": "The proportion of foxes with thin fur would increase in the population over time",
-                    "isCorrect": 0,
-                    "explanation": "Foxes with thin fur have the lowest survival rate, making them less likely to survive and reproduce. Their genes would become less common in the population over time, not more common."
-                },
-                {
-                    "text": "The fur thickness of all foxes would remain equally distributed in the population",
-                    "isCorrect": 0,
-                    "explanation": "Natural selection favors traits that increase survival and reproduction. With such different survival rates, the traits would not remain equally distributed - advantageous traits become more common over time."
-                },
-                {
-                    "text": "All foxes would develop thicker fur within their lifetime",
-                    "isCorrect": 0,
-                    "explanation": "Individual foxes cannot change their genetic traits during their lifetime. Natural selection works through differences in survival and reproduction across generations, not through individuals changing their inherited traits."
-                }
-            ],
-            "funFact": "Arctic foxes don't just have thick fur - they also have fur on the bottoms of their paws, which helps them walk on ice and snow while staying warm. This is another adaptation that has been favored by natural selection in their cold environment."
-        },
-        {
             "id": 9,
-            "text": "A bacterial population is exposed to a new antibiotic treatment. Initially, 2% of the bacteria have a genetic variation that makes them resistant to the antibiotic. What will most likely happen to this bacterial population over several generations if the antibiotic treatment continues?",
-            "options": [
-                {
-                    "text": "The percentage of resistant bacteria will increase because bacteria with the resistance gene are more likely to survive and reproduce.",
-                    "isCorrect": 1,
-                    "explanation": "Natural selection favors organisms with advantageous traits. Resistant bacteria survive the antibiotic and reproduce, passing the resistance gene to offspring, while non-resistant bacteria die."
-                },
-                {
-                    "text": "The percentage of resistant bacteria will decrease because antibiotics are designed to kill all bacteria.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because antibiotics cannot kill bacteria that have genetic resistance. The resistant bacteria will survive and reproduce."
-                },
-                {
-                    "text": "The percentage will stay the same at 2% because genetic variations are fixed within a population.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because proportions of traits can change through natural selection when some variants have survival advantages over others."
-                },
-                {
-                    "text": "All bacteria will die because antibiotics are too strong for any bacteria to survive.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because bacteria with genetic resistance can survive antibiotic treatment, allowing the resistant population to grow."
-                }
-            ],
-            "funFact": "The evolution of antibiotic-resistant bacteria is happening right now in hospitals worldwide! This is why doctors are careful about prescribing antibiotics only when necessary - to slow down the development of resistance in bacterial populations."
-        },
-        {
-            "id": 10,
             "text": "In a stream habitat, there are fish with different body shapes: some are streamlined (thin and torpedo-shaped) while others are deep-bodied (wider and more oval-shaped). During periods of fast-moving water, which outcome would most likely occur over several generations?",
             "options": [
-                {
-                    "text": "The proportion of streamlined fish would increase in the population",
-                    "isCorrect": 1,
-                    "explanation": "Streamlined fish can swim more efficiently in fast-moving water, making them more likely to survive and reproduce, leading to an increase in this trait over generations through natural selection."
-                },
-                {
-                    "text": "The proportion of deep-bodied fish would increase in the population",
-                    "isCorrect": 0,
-                    "explanation": "Deep-bodied fish would have more difficulty swimming in fast-moving water, making them less likely to survive and reproduce in this environment."
-                },
                 {
                     "text": "Both body shapes would remain in equal proportions",
                     "isCorrect": 0,
                     "explanation": "Natural selection would favor the body shape that provides better survival advantage in fast-moving water, leading to changes in the proportions over time."
                 },
                 {
+                    "text": "The proportion of streamlined fish would increase in the population",
+                    "isCorrect": 1,
+                    "explanation": "Streamlined fish can swim more efficiently in fast-moving water, making them more likely to survive and reproduce, leading to an increase in this trait over generations through natural selection."
+                },
+                {
                     "text": "All fish would gradually develop identical body shapes",
                     "isCorrect": 0,
                     "explanation": "Individual fish cannot change their inherited body shapes during their lifetime. Changes in population traits occur over generations through natural selection."
+                },
+                {
+                    "text": "The proportion of deep-bodied fish would increase in the population",
+                    "isCorrect": 0,
+                    "explanation": "Deep-bodied fish would have more difficulty swimming in fast-moving water, making them less likely to survive and reproduce in this environment."
                 }
             ],
             "funFact": "The fastest swimming fish is the sailfish, which can reach speeds of up to 68 mph (110 km/h). Its streamlined body shape and long, pointed bill help reduce water resistance, making it perfectly adapted for high-speed swimming!"
         },
         {
-            "id": 11,
-            "text": "A population of brown mice lives in a forest area that experiences frequent forest fires, leaving behind dark, charred ground. Over several generations, the population shows an increasing number of black-furred mice. What best explains this change in the population?",
+            "id": 10,
+            "text": "Which statement best describes how artificial selection in corn breeding relates to natural selection?",
             "options": [
                 {
-                    "text": "The mice consciously changed their fur color to black to better survive",
+                    "text": "Artificial selection happens quickly while natural selection takes millions of years",
                     "isCorrect": 0,
-                    "explanation": "Organisms cannot consciously change their genetic traits. Changes in populations occur through natural selection over generations."
+                    "explanation": "While artificial selection can work faster, this oversimplifies the key difference between human-guided and environment-driven selection"
                 },
                 {
-                    "text": "The dark environment directly caused all mice to develop black fur",
-                    "isCorrect": 0,
-                    "explanation": "Environmental conditions don't directly change genetic traits. Changes occur through survival and reproduction of individuals with beneficial traits."
-                },
-                {
-                    "text": "Black-furred mice were better camouflaged and more likely to survive and reproduce",
+                    "text": "Artificial selection in corn involves humans choosing traits like larger kernels or disease resistance, while natural selection involves environmental pressures determining successful traits",
                     "isCorrect": 1,
-                    "explanation": "Natural selection favored black-furred mice because they were harder for predators to spot against the dark ground, leading to better survival and reproduction rates."
+                    "explanation": "This correctly shows how artificial selection is guided by human choices while natural selection depends on environmental factors for trait selection"
                 },
                 {
-                    "text": "The forest fires physically turned the brown fur into black fur",
+                    "text": "Artificial selection creates completely new genes while natural selection only uses existing traits",
                     "isCorrect": 0,
-                    "explanation": "Physical changes caused by the environment are not inherited. The change in population occurred through natural selection over generations."
+                    "explanation": "Both processes work with existing genetic variation - neither creates entirely new genes"
+                },
+                {
+                    "text": "Artificial selection only works on plants while natural selection only affects animals",
+                    "isCorrect": 0,
+                    "explanation": "Both artificial and natural selection can occur in any living organisms, not just specific groups"
                 }
             ],
-            "funFact": "Similar color adaptations have been observed in other species, like the peppered moth in England during the Industrial Revolution, where dark-colored moths became more common in areas with soot-covered trees."
+            "funFact": "Modern corn evolved from a wild grass called teosinte through artificial selection by ancient farmers. The original teosinte plant only had a few small kernels, but over thousands of years of selective breeding, it was transformed into the large, nutrient-rich corn we know today!"
+        },
+        {
+            "id": 11,
+            "text": "How do genetic mutations contribute to the process of natural selection in a population?",
+            "options": [
+                {
+                    "text": "Mutations happen to all organisms in a population at the same time to ensure survival",
+                    "isCorrect": 0,
+                    "explanation": "Mutations occur randomly in individual organisms, not simultaneously across an entire population"
+                },
+                {
+                    "text": "Mutations create new trait variations that can be passed to offspring and may increase survival chances in specific environments",
+                    "isCorrect": 1,
+                    "explanation": "Mutations introduce new genetic variations into a population, which can result in beneficial traits that improve survival and reproduction in certain environments, driving natural selection"
+                },
+                {
+                    "text": "Mutations only occur in response to environmental needs and always produce beneficial traits",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because mutations occur randomly, not in response to needs, and can be harmful, beneficial, or neutral"
+                },
+                {
+                    "text": "Mutations only affect physical appearance and have no impact on survival",
+                    "isCorrect": 0,
+                    "explanation": "Mutations can affect any trait, including those critical for survival like disease resistance or ability to obtain food"
+                }
+            ],
+            "funFact": "Some mutations can provide unexpected advantages - like the mutation that allows certain humans to thrive at high altitudes in the Andes Mountains by enabling their blood to carry more oxygen!"
         },
         {
             "id": 12,
-            "text": "In a population of moths living in a forest, some moths are light-colored while others are dark-colored due to genetic variation. If the tree bark in the forest becomes darker over time due to environmental changes, what would likely happen to the distribution of moth colors in future generations?",
+            "text": "In a population of mice living in a rocky desert area with predominantly dark rocks, some mice have light-colored fur while others have dark-colored fur. After several generations, researchers observed that the population had many more dark-colored mice than light-colored mice. What best explains this change in the mouse population?",
             "options": [
                 {
-                    "text": "The proportion of dark-colored moths would increase over generations",
+                    "text": "The dark-colored mice were better camouflaged against the dark rocks, helping them avoid predators and survive to reproduce",
                     "isCorrect": 1,
-                    "explanation": "Dark-colored moths would be better camouflaged against the dark tree bark, making them less visible to predators. This increased survival advantage would lead to more dark-colored moths reproducing and passing their genes to future generations."
+                    "explanation": "This is correct. The dark fur provided a survival advantage in the rocky environment by making these mice harder for predators to spot, allowing more dark-colored mice to survive and pass their genes to offspring."
                 },
                 {
-                    "text": "The proportion of light-colored moths would increase over generations",
+                    "text": "The light-colored mice moved to a different habitat, leaving only dark-colored mice behind",
                     "isCorrect": 0,
-                    "explanation": "Light-colored moths would be more visible against dark bark, making them easier targets for predators. This would reduce their survival and reproduction rates, decreasing their proportion in the population."
+                    "explanation": "The change in population is due to differential survival and reproduction rates, not migration. Natural selection favored the dark-colored mice in this environment."
                 },
                 {
-                    "text": "All moths would gradually change their color to match the dark bark",
+                    "text": "The environment directly caused all mice to develop dark fur",
                     "isCorrect": 0,
-                    "explanation": "Individual moths cannot change their inherited color during their lifetime. Changes in population traits occur over generations through natural selection, not through individuals adapting."
+                    "explanation": "The environment does not directly change inherited traits. Rather, natural selection acts on existing trait variations, with some traits providing survival advantages in specific environments."
                 },
                 {
-                    "text": "The moth color distribution would remain exactly the same",
+                    "text": "The light-colored mice chose to change their fur color to dark to match their environment",
                     "isCorrect": 0,
-                    "explanation": "Natural selection causes changes in trait distribution when environmental conditions favor certain traits. The color distribution would not remain the same when dark coloration provides a survival advantage."
+                    "explanation": "Individual organisms cannot choose to change their inherited traits. Changes in populations occur over generations through natural selection, not through individual choice."
                 }
             ],
-            "funFact": "This type of natural selection, where organisms with colors matching their environment have better survival rates, is called 'industrial melanism' and was famously observed in peppered moths during the Industrial Revolution in England when pollution darkened tree bark."
+            "funFact": "Similar color-based natural selection has been observed in many species, including the peppered moth in England. During the Industrial Revolution, dark-colored moths became more common near factories because their coloring helped them hide from birds on soot-covered trees!"
         },
         {
             "id": 13,
-            "text": "In a population of mice living in a desert environment with light-colored sand, which mice would have a higher probability of survival and reproduction?",
+            "text": "Over many generations, the brown beetles in a forest became predominantly black. Which explanation best describes how this change occurred through natural selection?",
             "options": [
                 {
-                    "text": "Mice with light-colored fur",
+                    "text": "The beetles realized they needed to be black to survive and changed their color",
+                    "isCorrect": 0,
+                    "explanation": "Organisms cannot consciously change their genetic traits. Changes occur through natural selection over generations."
+                },
+                {
+                    "text": "Black beetles were better camouflaged, survived more often, and passed this trait to more offspring",
                     "isCorrect": 1,
-                    "explanation": "Light-colored fur provides better camouflage in a desert environment, making these mice less visible to predators and increasing their chances of survival and reproduction."
+                    "explanation": "This correctly describes natural selection - advantageous traits help organisms survive and reproduce more, becoming more common over generations."
                 },
                 {
-                    "text": "Mice with dark-colored fur",
+                    "text": "Brown beetles evolved into black beetles within their lifetime",
                     "isCorrect": 0,
-                    "explanation": "Dark-colored fur would make mice more visible against light desert sand, making them easier targets for predators and reducing their survival chances."
+                    "explanation": "Individual organisms don't evolve during their lifetime. Evolution occurs as traits are passed down through multiple generations."
                 },
                 {
-                    "text": "All mice would have equal survival chances regardless of fur color",
+                    "text": "The environment directly turned all brown beetles black",
                     "isCorrect": 0,
-                    "explanation": "Fur color significantly affects survival in environments where camouflage is important for avoiding predators. Not all traits provide equal advantages in a specific environment."
-                },
-                {
-                    "text": "Only the largest mice regardless of fur color",
-                    "isCorrect": 0,
-                    "explanation": "While size can be important, in this specific environment, camouflage through fur color is more crucial for avoiding predation and survival."
+                    "explanation": "Environmental conditions don't directly change genetic traits. Changes in populations occur through survival and reproduction over generations."
                 }
             ],
-            "funFact": "Some species of mice have evolved fur colors that match their environment, such as the Oldfield mouse (Peromyscus polionotus) which has populations with light fur on white sand beaches. Other mammals like the snowshoe hare actually change their fur color seasonally through molting to maintain effective camouflage throughout the year."
+            "funFact": "Many species of moths and beetles have evolved different color variations called 'morphs' to match their surroundings. A famous example is the peppered moth, which evolved from light to dark coloring during the Industrial Revolution when pollution darkened tree bark."
         },
         {
             "id": 14,
-            "text": "Over several generations, a bacterial population is repeatedly exposed to an antibiotic. Initially, most bacteria die when exposed to the antibiotic, but eventually the antibiotic becomes less effective at killing the bacteria. Which statement best explains this observation?",
+            "text": "A population of light brown mice lives in a desert with light-colored sand. Over time, the local climate changes, causing dark volcanic rocks to cover much of the sand. How would this environmental change likely affect the mouse population over several generations?",
             "options": [
                 {
-                    "text": "Some bacteria had genetic variations that made them naturally resistant to the antibiotic, and these bacteria survived and reproduced, passing the resistant trait to their offspring.",
+                    "text": "The proportion of darker-colored mice would increase in the population",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes natural selection - bacteria with genetic variations providing antibiotic resistance survived, reproduced, and passed these beneficial traits to future generations."
+                    "explanation": "Darker mice would have better camouflage against the dark rocks, making them less visible to predators. This increased survival advantage would lead to more dark-colored mice reproducing and passing on their genes."
                 },
+                {
+                    "text": "All mice would quickly change their fur color to match the dark rocks",
+                    "isCorrect": 0,
+                    "explanation": "Individual organisms cannot deliberately change their genetic traits in response to environmental changes. Changes in populations occur over generations through natural selection."
+                },
+                {
+                    "text": "The light brown mice would teach their offspring to hide better",
+                    "isCorrect": 0,
+                    "explanation": "While animals can learn behaviors, genetic traits like fur color are inherited, not taught. Natural selection works through inherited traits, not learned behaviors."
+                },
+                {
+                    "text": "The mouse population would remain exactly the same",
+                    "isCorrect": 0,
+                    "explanation": "When the environment changes, natural selection favors traits that provide better survival advantages in the new conditions, leading to changes in the population over time."
+                }
+            ],
+            "funFact": "Rock pocket mice are real creatures that demonstrate this exact principle in nature. In areas of the southwestern United States where dark volcanic rocks occur, populations of these mice tend to have dark fur, while populations living on light-colored sand tend to have light fur."
+        },
+        {
+            "id": 15,
+            "text": "Over several generations, a bacterial population is repeatedly exposed to an antibiotic. Initially, most bacteria die when exposed to the antibiotic, but eventually the antibiotic becomes less effective at killing the bacteria. Which statement best explains this observation?",
+            "options": [
                 {
                     "text": "The bacteria learned how to resist the antibiotic through experience and passed this learned behavior to their offspring.",
                     "isCorrect": 0,
                     "explanation": "Bacteria cannot learn behaviors and pass them on. Resistance develops through genetic variation and natural selection, not learned behaviors."
+                },
+                {
+                    "text": "All bacteria developed resistance simultaneously by adapting to the antibiotic.",
+                    "isCorrect": 0,
+                    "explanation": "Resistance doesn't develop simultaneously in all bacteria. It occurs through natural selection of bacteria that already have resistant traits."
                 },
                 {
                     "text": "The antibiotic became weaker over time through repeated use.",
@@ -373,39 +400,12 @@
                     "explanation": "The antibiotic itself doesn't become weaker. Instead, the bacterial population changes through natural selection of resistant individuals."
                 },
                 {
-                    "text": "All bacteria developed resistance simultaneously by adapting to the antibiotic.",
-                    "isCorrect": 0,
-                    "explanation": "Resistance doesn't develop simultaneously in all bacteria. It occurs through natural selection of bacteria that already have resistant traits."
+                    "text": "Some bacteria had genetic variations that made them naturally resistant to the antibiotic, and these bacteria survived and reproduced, passing the resistant trait to their offspring.",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes natural selection - bacteria with genetic variations providing antibiotic resistance survived, reproduced, and passed these beneficial traits to future generations."
                 }
             ],
             "funFact": "The first antibiotic, penicillin, was discovered by Alexander Fleming in 1928 when he noticed that mold growing on a petri dish had created a bacteria-free zone. Within just four years of penicillin's widespread use in the 1940s, bacterial resistance to the drug was already being reported!"
-        },
-        {
-            "id": 15,
-            "text": "Which statement best describes the key difference between natural selection and artificial selection in the evolution of organisms?",
-            "options": [
-                {
-                    "text": "Natural selection involves random mutations while artificial selection does not involve any genetic changes",
-                    "isCorrect": 0,
-                    "explanation": "Both natural and artificial selection involve genetic changes. The key difference is in who/what drives the selection process, not whether genetic changes occur."
-                },
-                {
-                    "text": "Natural selection operates through environmental pressures while artificial selection is guided by human choices",
-                    "isCorrect": 1,
-                    "explanation": "This correctly identifies that natural selection occurs through environmental factors determining survival, while artificial selection occurs through humans deliberately choosing desired traits."
-                },
-                {
-                    "text": "Natural selection takes millions of years while artificial selection happens immediately",
-                    "isCorrect": 0,
-                    "explanation": "Both processes can occur over varying timespans. The speed depends on factors like reproduction rate and selection pressure, not whether the selection is natural or artificial."
-                },
-                {
-                    "text": "Natural selection only affects wild animals while artificial selection only affects domesticated plants",
-                    "isCorrect": 0,
-                    "explanation": "Natural selection affects all living things, and artificial selection can be applied to both plants and animals, not just plants."
-                }
-            ],
-            "funFact": "The process of artificial selection has been so successful that modern corn kernels are about 20 times larger than their wild ancestors from just a few thousand years ago!"
         }
     ]
 }

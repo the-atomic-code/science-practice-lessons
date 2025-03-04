@@ -4,40 +4,62 @@
     "questions": [
         {
             "id": 1,
-            "text": "What happens in your throat when you speak or sing that allows you to make sound?",
+            "text": "A singer performs near a glass cup during a concert. If the singer's voice reaches a very high volume and matches the natural frequency of the glass, what is most likely to happen?",
             "options": [
                 {
-                    "text": "Your vocal cords vibrate back and forth",
+                    "text": "The glass will change color",
+                    "isCorrect": 0,
+                    "explanation": "Sound vibrations cannot change the color of objects - they can only cause physical movement or damage"
+                },
+                {
+                    "text": "The glass will break due to strong vibrations",
                     "isCorrect": 1,
-                    "explanation": "When you speak or sing, your vocal cords vibrate rapidly back and forth, creating sound waves that travel through the air"
+                    "explanation": "When sound waves match an object's natural frequency and are very loud, they can create strong vibrations that can cause the object to shatter"
                 },
                 {
-                    "text": "Your throat muscles squeeze together",
+                    "text": "The glass will become soundproof",
                     "isCorrect": 0,
-                    "explanation": "While throat muscles are involved in speaking, it's specifically the vibration of vocal cords that produces sound, not just muscle squeezing"
+                    "explanation": "Strong sound vibrations do not make objects soundproof - they can actually cause the object to vibrate more intensely"
                 },
                 {
-                    "text": "Air pushes directly out without vibration",
+                    "text": "The glass will start floating",
                     "isCorrect": 0,
-                    "explanation": "Simply pushing air out without vibration wouldn't produce sound - the vibration of vocal cords is essential for making voice sounds"
-                },
-                {
-                    "text": "Your throat creates echoes",
-                    "isCorrect": 0,
-                    "explanation": "While sound can echo, the initial sound from your voice comes from vocal cord vibration, not from echoes in your throat"
+                    "explanation": "Sound waves cannot make objects float - they can only cause vibrations in objects"
                 }
             ],
-            "funFact": "The human vocal cords typically vibrate between 100-1000 times per second when speaking or singing! Professional opera singers can make their vocal cords vibrate at even higher frequencies to reach amazing high notes."
+            "funFact": "Opera singers can actually break wine glasses with their voice! This happens when they sing a note that matches the glass's resonant frequency (usually around 556 Hz) and maintain it at a high volume. This demonstration is often used to show the power of sound waves."
         },
         {
             "id": 2,
-            "text": "What explains why we often cannot see sound vibrations with our eyes even though we know they are happening?",
+            "text": "Why do drums and cymbals produce different sounds when struck?",
             "options": [
                 {
-                    "text": "Sound vibrations occur thousands of times per second, making them too fast for our eyes to detect",
+                    "text": "Because they are made of different materials and vibrate differently",
                     "isCorrect": 1,
-                    "explanation": "Sound vibrations happen extremely rapidly - often thousands of times each second. Our eyes cannot track motion this fast, which is why we cannot see these vibrations directly."
+                    "explanation": "Different materials vibrate in unique ways, and this combined with their distinct physical properties creates their characteristic sounds."
                 },
+                {
+                    "text": "Only because of their different sizes",
+                    "isCorrect": 0,
+                    "explanation": "While size can affect sound, it's not the only reason. This overlooks the important role of different materials and vibration patterns."
+                },
+                {
+                    "text": "Only because cymbals are hit harder than drums",
+                    "isCorrect": 0,
+                    "explanation": "The force of hitting is not the main reason for their different sounds. The same force can produce different sounds due to material properties."
+                },
+                {
+                    "text": "Because drums are hollow and cymbals are flat",
+                    "isCorrect": 0,
+                    "explanation": "While shape plays a role, this answer ignores the crucial factor of different materials and their unique vibration patterns."
+                }
+            ],
+            "funFact": "The fastest drum roll ever recorded was 1,208 beats per minute - that's about 20 hits per second! The drummer's hands were moving so fast they created a continuous buzzing sound rather than distinct beats."
+        },
+        {
+            "id": 3,
+            "text": "What explains why we often cannot see sound vibrations with our eyes even though we know they are happening?",
+            "options": [
                 {
                     "text": "Sound vibrations are invisible because they only travel through solid objects",
                     "isCorrect": 0,
@@ -49,6 +71,11 @@
                     "explanation": "Sound vibrations occur at the source making the sound and travel through the air before reaching our ears. They don't only exist inside our ears."
                 },
                 {
+                    "text": "Sound vibrations occur thousands of times per second, making them too fast for our eyes to detect",
+                    "isCorrect": 1,
+                    "explanation": "Sound vibrations happen extremely rapidly - often thousands of times each second. Our eyes cannot track motion this fast, which is why we cannot see these vibrations directly."
+                },
+                {
                     "text": "Sound vibrations are too small to ever be seen by humans",
                     "isCorrect": 0,
                     "explanation": "While sound vibrations can be small, we can actually see them under the right conditions, like when using a tuning fork in water or watching a speaker move. They are usually hard to see because they happen very quickly, not because they are too small."
@@ -57,36 +84,14 @@
             "funFact": "Scientists use special high-speed cameras that can record over 100,000 frames per second to study sound vibrations in slow motion. This helps them understand how different musical instruments create their unique sounds!"
         },
         {
-            "id": 3,
-            "text": "What happens when you pluck a guitar string?",
-            "options": [
-                {
-                    "text": "The string vibrates back and forth rapidly, creating sound waves",
-                    "isCorrect": 1,
-                    "explanation": "When a guitar string is plucked, it moves back and forth very quickly (vibrates), which creates sound waves that travel through the air to our ears"
-                },
-                {
-                    "text": "The string produces sound without any movement",
-                    "isCorrect": 0,
-                    "explanation": "Sound cannot be produced without vibration - all sounds are created by something vibrating"
-                },
-                {
-                    "text": "The string breaks to create sound",
-                    "isCorrect": 0,
-                    "explanation": "The string doesn't need to break to make sound - it just needs to vibrate while staying intact"
-                },
-                {
-                    "text": "The string only moves once when plucked",
-                    "isCorrect": 0,
-                    "explanation": "The string moves back and forth many times (vibrates) after being plucked, not just once"
-                }
-            ],
-            "funFact": "The thicker strings on a guitar vibrate more slowly and produce lower-pitched sounds, while thinner strings vibrate faster and produce higher-pitched sounds. Some guitar strings can vibrate hundreds or even thousands of times per second!"
-        },
-        {
             "id": 4,
             "text": "A guitar maker is experimenting with different string thicknesses. How does using a thicker string affect the sound produced when plucked compared to a thinner string (assuming both strings are under the same tension)?",
             "options": [
+                {
+                    "text": "The thickness of the string has no effect on the sound produced",
+                    "isCorrect": 0,
+                    "explanation": "String thickness definitely affects the sound - it's one of the key factors that determines the pitch of the note produced"
+                },
                 {
                     "text": "The thicker string vibrates more slowly and produces a lower-pitched sound",
                     "isCorrect": 1,
@@ -98,11 +103,6 @@
                     "explanation": "This is incorrect - thicker strings actually vibrate more slowly, not more quickly, due to their greater mass"
                 },
                 {
-                    "text": "The thickness of the string has no effect on the sound produced",
-                    "isCorrect": 0,
-                    "explanation": "String thickness definitely affects the sound - it's one of the key factors that determines the pitch of the note produced"
-                },
-                {
                     "text": "The thicker string produces the same pitch but is just louder",
                     "isCorrect": 0,
                     "explanation": "While thickness can affect volume, it primarily affects the pitch of the sound by changing the vibration frequency"
@@ -112,98 +112,39 @@
         },
         {
             "id": 5,
-            "text": "Which of the following best defines what a sound wave is?",
+            "text": "Which part of your ear vibrates in response to sound waves traveling through the air?",
             "options": [
                 {
-                    "text": "A vibration that travels through a medium",
+                    "text": "Outer ear",
+                    "isCorrect": 0,
+                    "explanation": "The outer ear helps collect sound waves, but it doesn't vibrate in response to sound waves."
+                },
+                {
+                    "text": "Ear lobe",
+                    "isCorrect": 0,
+                    "explanation": "The ear lobe is mostly made of fat tissue and skin and doesn't play a role in vibrating in response to sound waves."
+                },
+                {
+                    "text": "Ear canal",
+                    "isCorrect": 0,
+                    "explanation": "While the ear canal helps funnel sound waves to the eardrum, it doesn't vibrate in response to sound waves."
+                },
+                {
+                    "text": "Eardrum",
                     "isCorrect": 1,
-                    "explanation": "Sound waves are vibrations that travel through various media such as air, water, or solids, allowing us to hear different sounds."
-                },
-                {
-                    "text": "A loud noise that breaks glass",
-                    "isCorrect": 0,
-                    "explanation": "While very loud sounds can break glass, this is just one specific effect of sound waves, not the definition of a sound wave itself."
-                },
-                {
-                    "text": "The movement of your vocal cords",
-                    "isCorrect": 0,
-                    "explanation": "Vocal cord movement creates sound waves, but it is not the definition of a sound wave itself."
-                },
-                {
-                    "text": "Something we can always see with our eyes",
-                    "isCorrect": 0,
-                    "explanation": "Sound waves are usually invisible because they vibrate too fast for our eyes to see."
+                    "explanation": "The eardrum is a thin membrane inside your ear that vibrates when sound waves reach it, allowing you to hear sounds."
                 }
             ],
-            "funFact": "Sound waves can travel through many materials besides air, including water and metal. In fact, sound travels about four times faster through water than it does through air!"
+            "funFact": "Your eardrum is extremely sensitive and can detect vibrations as small as one billionth of a centimeter - that's smaller than the width of a hydrogen atom!"
         },
         {
             "id": 6,
-            "text": "A student wants to investigate how the strength of vibrations caused by a speaker changes with distance. If the student places small objects at different distances from the speaker playing the same sound, what pattern would they observe?",
-            "options": [
-                {
-                    "text": "Objects closer to the speaker will vibrate more strongly than objects farther away",
-                    "isCorrect": 1,
-                    "explanation": "Sound waves lose energy as they travel through air, so objects closer to the sound source experience stronger vibrations than those farther away"
-                },
-                {
-                    "text": "All objects will vibrate with the same strength regardless of distance",
-                    "isCorrect": 0,
-                    "explanation": "Sound waves lose energy as they travel through air, so objects at different distances will not vibrate with the same strength"
-                },
-                {
-                    "text": "Objects farther from the speaker will vibrate more strongly than objects closer to it",
-                    "isCorrect": 0,
-                    "explanation": "Sound waves become weaker, not stronger, as they travel away from their source"
-                },
-                {
-                    "text": "Objects will only vibrate if they are touching the speaker",
-                    "isCorrect": 0,
-                    "explanation": "Sound waves can travel through air and cause objects to vibrate even when they are not in direct contact with the sound source"
-                }
-            ],
-            "funFact": "The world's loudest sound ever recorded was the 1883 eruption of Krakatoa volcano, which was so powerful that its sound waves circled Earth multiple times and caused objects to vibrate thousands of miles away!"
-        },
-        {
-            "id": 7,
-            "text": "Why do thicker guitar strings produce lower-pitched sounds compared to thinner strings?",
-            "options": [
-                {
-                    "text": "Thicker strings vibrate more slowly, creating lower-pitched sounds",
-                    "isCorrect": 1,
-                    "explanation": "Thicker strings have more mass, which causes them to vibrate more slowly, producing lower-pitched sounds"
-                },
-                {
-                    "text": "Thicker strings are louder, making lower-pitched sounds",
-                    "isCorrect": 0,
-                    "explanation": "The thickness of a string affects its pitch, not its volume. Volume depends on how hard the string is plucked"
-                },
-                {
-                    "text": "Thicker strings vibrate more quickly, creating lower-pitched sounds",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - thicker strings actually vibrate more slowly, not more quickly, which is why they produce lower-pitched sounds"
-                },
-                {
-                    "text": "The thickness of the string has no effect on the pitch of the sound",
-                    "isCorrect": 0,
-                    "explanation": "String thickness directly affects pitch - thicker strings vibrate more slowly and produce lower-pitched sounds"
-                }
-            ],
-            "funFact": "The lowest string on a standard guitar (the thickest one) vibrates about 82 times per second when played, while the highest string (the thinnest one) vibrates about 330 times per second!"
-        },
-        {
-            "id": 8,
             "text": "A music teacher is comparing the sounds made by different instruments in the music room. She notices that a large floor drum makes a deeper sound than a small hand drum, even when both are hit with the same force. What best explains why these drums produce different sounds?",
             "options": [
                 {
-                    "text": "The larger drum vibrates more slowly than the smaller drum, creating a deeper sound",
-                    "isCorrect": 1,
-                    "explanation": "The size of a drum affects how quickly it vibrates. Larger drums vibrate more slowly, producing lower-pitched (deeper) sounds."
-                },
-                {
-                    "text": "The larger drum is louder, which makes it sound deeper",
+                    "text": "The larger drum creates stronger vibrations, which always make deeper sounds",
                     "isCorrect": 0,
-                    "explanation": "The volume (loudness) of a sound is different from its pitch (how deep or high it sounds). The size of the drum affects its pitch through vibration speed, not volume."
+                    "explanation": "The strength of vibrations affects volume, not pitch. The speed of vibrations, which is influenced by the drum's size, determines how deep the sound is."
                 },
                 {
                     "text": "The larger drum has thicker material, which always makes deeper sounds",
@@ -211,102 +152,220 @@
                     "explanation": "While material thickness can affect sound, the main reason for the difference in pitch is the size of the drum and how this affects its vibration speed."
                 },
                 {
-                    "text": "The larger drum creates stronger vibrations, which always make deeper sounds",
+                    "text": "The larger drum is louder, which makes it sound deeper",
                     "isCorrect": 0,
-                    "explanation": "The strength of vibrations affects volume, not pitch. The speed of vibrations, which is influenced by the drum's size, determines how deep the sound is."
+                    "explanation": "The volume (loudness) of a sound is different from its pitch (how deep or high it sounds). The size of the drum affects its pitch through vibration speed, not volume."
+                },
+                {
+                    "text": "The larger drum vibrates more slowly than the smaller drum, creating a deeper sound",
+                    "isCorrect": 1,
+                    "explanation": "The size of a drum affects how quickly it vibrates. Larger drums vibrate more slowly, producing lower-pitched (deeper) sounds."
                 }
             ],
             "funFact": "The largest playable drum in the world according to Guinness World Records is often cited as the Dhak Taa drum in South Korea, with a diameter of about 18 feet. Large drums like this produce such low-frequency vibrations that they can be heard from several miles away."
         },
         {
-            "id": 9,
-            "text": "When you talk or sing, what determines the different sounds your voice can make?",
+            "id": 7,
+            "text": "A scientist is testing different tuning forks to understand how their size affects the sound they produce. She observes that larger tuning forks make lower-pitched sounds while smaller tuning forks make higher-pitched sounds. What explains this observation?",
             "options": [
                 {
-                    "text": "The vibration of your vocal cords along with the shape of your tongue and mouth",
+                    "text": "The size of the tuning fork has no effect on the pitch of the sound - the pitch depends only on how hard you strike the tuning fork",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While the force of striking affects the volume of the sound, it does not change the pitch. The pitch is determined by the tuning fork's size and resulting vibration frequency."
+                },
+                {
+                    "text": "Larger tuning forks vibrate more slowly, producing lower-pitched sounds, while smaller tuning forks vibrate more quickly, producing higher-pitched sounds",
                     "isCorrect": 1,
-                    "explanation": "Your vocal cords vibrate to produce sound, while the shape of your tongue and mouth help modify these vibrations to create different sounds."
+                    "explanation": "The size of a tuning fork affects its vibration frequency. Larger tuning forks have more mass and vibrate more slowly (lower frequency), creating lower-pitched sounds. Smaller tuning forks vibrate faster (higher frequency), creating higher-pitched sounds."
                 },
                 {
-                    "text": "Only the speed at which you breathe out",
+                    "text": "Larger tuning forks vibrate more quickly, producing lower-pitched sounds, while smaller tuning forks vibrate more slowly, producing higher-pitched sounds",
                     "isCorrect": 0,
-                    "explanation": "While breathing is important for speaking, it's not the only factor that determines the sounds you make. The vibration of vocal cords and mouth shape are crucial."
+                    "explanation": "This is incorrect. The relationship is actually reversed - larger tuning forks vibrate more slowly, not more quickly, resulting in lower-pitched sounds."
                 },
                 {
-                    "text": "Just the volume of your voice",
+                    "text": "Only the material of the tuning fork affects the pitch of the sound, not its size",
                     "isCorrect": 0,
-                    "explanation": "Volume is just one aspect of sound. The actual different sounds we make depend on how our vocal cords vibrate and how we shape our mouth."
-                },
-                {
-                    "text": "Only the movement of your lips",
-                    "isCorrect": 0,
-                    "explanation": "While lip movement is part of making sounds, it works together with vocal cord vibrations and tongue position to create different sounds."
+                    "explanation": "This is incorrect. While the material can affect the sound quality, the size of the tuning fork is what primarily determines its pitch through its vibration frequency."
                 }
             ],
-            "funFact": "Professional singers can produce a wide range of frequencies because they have learned to precisely control their vocal cord tension. Opera singers can even break glass with their voice by matching the natural vibration frequency of the glass!"
+            "funFact": "The standard pitch A that musicians use to tune their instruments (A440) is produced by a tuning fork vibrating exactly 440 times per second! This precise frequency has been the international standard since 1955."
+        },
+        {
+            "id": 8,
+            "text": "A student places different objects near a speaker playing music. Which of these objects is MOST likely to visibly vibrate when exposed to the sound waves from the speaker?",
+            "options": [
+                {
+                    "text": "A heavy metal paperweight",
+                    "isCorrect": 0,
+                    "explanation": "A heavy metal paperweight is too massive to show visible vibrations from typical speaker sound waves. Its weight prevents it from being easily moved by sound vibrations in the air."
+                },
+                {
+                    "text": "A small pile of glitter on a paper plate",
+                    "isCorrect": 1,
+                    "explanation": "Lightweight objects like glitter can easily show visible vibrations when sound waves hit them. Since glitter particles are very light, they will respond readily to the vibrating air caused by the speaker."
+                },
+                {
+                    "text": "A large textbook",
+                    "isCorrect": 0,
+                    "explanation": "A textbook is too heavy and has too much surface contact to show visible vibrations from typical speaker sound waves."
+                },
+                {
+                    "text": "A thick rubber eraser",
+                    "isCorrect": 0,
+                    "explanation": "A rubber eraser is too dense and has too much friction with the surface to show visible vibrations from sound waves produced by a typical speaker."
+                }
+            ],
+            "funFact": "Sound waves can be so powerful that they can actually levitate small objects! Scientists use special sound wave devices called acoustic levitators to make small objects float in mid-air by creating specific patterns of sound waves."
+        },
+        {
+            "id": 9,
+            "text": "A scientist places a tuning fork in different materials to study how vibrations affect them. Which observation would provide visual evidence that the tuning fork is vibrating?",
+            "options": [
+                {
+                    "text": "The tuning fork making a sound in the air",
+                    "isCorrect": 0,
+                    "explanation": "While sound is strong evidence of vibration, it is auditory rather than visual evidence. The question asks specifically for visual evidence of vibration"
+                },
+                {
+                    "text": "Ripples forming in water when the tuning fork is placed in it",
+                    "isCorrect": 1,
+                    "explanation": "Ripples in water are clear visual evidence of vibrations from the tuning fork, as the vibrating fork causes the water molecules to move in a wave pattern"
+                },
+                {
+                    "text": "The tuning fork feeling cold to touch",
+                    "isCorrect": 0,
+                    "explanation": "Temperature has no direct relationship to vibrations, and this would not provide evidence of vibration"
+                },
+                {
+                    "text": "The tuning fork looking shiny",
+                    "isCorrect": 0,
+                    "explanation": "The appearance of the tuning fork's surface does not indicate whether it is vibrating"
+                }
+            ],
+            "funFact": "Scientists use special high-speed cameras that can capture up to 100,000 frames per second to study vibrations that are too fast for our eyes to see!"
         },
         {
             "id": 10,
-            "text": "A scientist wants to test how sound waves travel through different materials. She has a tuning fork and three containers filled with air, water, and a solid block of wood. If she strikes the tuning fork and places it against each material, in which material will the sound waves travel the fastest?",
+            "text": "A student places some sprinkles on a drum surface and plays the drum at different volumes. What will happen to the sprinkles when the drum is played at a higher volume compared to a lower volume?",
             "options": [
                 {
-                    "text": "Air",
+                    "text": "The sprinkles will move the same amount regardless of volume",
                     "isCorrect": 0,
-                    "explanation": "Sound waves travel relatively slowly through air because the molecules are far apart and collide less frequently, making vibration transfer slower."
+                    "explanation": "The movement of sprinkles depends on the strength of vibrations - higher volumes create stronger vibrations and more movement."
                 },
                 {
-                    "text": "Water",
+                    "text": "The sprinkles will sink into the drum surface",
                     "isCorrect": 0,
-                    "explanation": "Sound waves travel faster in water than in air because water molecules are closer together, but not as fast as in solid materials."
+                    "explanation": "Vibrations cause objects to move up and down or side to side, not sink into surfaces."
                 },
                 {
-                    "text": "Wood",
+                    "text": "The sprinkles will bounce higher and move more vigorously",
                     "isCorrect": 1,
-                    "explanation": "Sound waves travel fastest through solid materials like wood because the molecules are tightly packed and can transfer vibrations very efficiently."
+                    "explanation": "At higher volumes, the drum membrane vibrates more strongly, causing the sprinkles to bounce higher and move more vigorously due to stronger vibrations."
+                },
+                {
+                    "text": "The sprinkles will remain completely still",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because vibrating surfaces cause objects on them to move - the sprinkles cannot remain still on a vibrating surface."
                 }
             ],
-            "funFact": "Sound travels through steel at about 5,120 meters per second, which is about 15 times faster than through air! This is why you can hear a train coming by putting your ear to the steel rail long before you can hear it through the air."
+            "funFact": "Sound vibrations can be so powerful that opera singers can actually shatter glass with their voices by matching the natural resonant frequency of the glass, causing it to vibrate until it breaks!"
         },
         {
             "id": 11,
-            "text": "Why do drums and cymbals create different sounds when struck with the same force?",
+            "text": "Why can we feel vibrations in our throat when we hum, but we usually cannot see sound waves moving through the air?",
             "options": [
                 {
-                    "text": "Because they are made of different materials that vibrate in unique ways",
+                    "text": "Sound waves in air vibrate thousands of times per second, making them too fast to see with our eyes",
                     "isCorrect": 1,
-                    "explanation": "Different materials have distinct vibration patterns due to their physical properties, leading to unique sound characteristics when struck"
+                    "explanation": "Sound waves in air vibrate extremely rapidly - often thousands of times per second. This speed makes them invisible to our eyes, though we can feel slower vibrations like those in our throat."
                 },
                 {
-                    "text": "Because drums are always louder than cymbals",
+                    "text": "Sound waves only exist in solid objects like our throat, not in air",
                     "isCorrect": 0,
-                    "explanation": "The volume of the sound depends on the force applied, not just the type of instrument"
+                    "explanation": "This is incorrect. Sound waves travel through air and many other materials. They are not limited to just solid objects."
                 },
                 {
-                    "text": "Because cymbals are thinner than drums",
+                    "text": "Sound waves are too quiet to be seen",
                     "isCorrect": 0,
-                    "explanation": "While thickness can affect sound, it's not the main reason for the difference in sound between drums and cymbals"
+                    "explanation": "The visibility of sound waves is not related to their volume. Even very loud sound waves are usually invisible due to their high frequency."
                 },
                 {
-                    "text": "Because drums are hollow and cymbals are solid",
+                    "text": "Our throat muscles are special and create different types of vibrations than sound waves",
                     "isCorrect": 0,
-                    "explanation": "While the hollow nature of drums affects their sound, the main difference comes from the materials' vibration patterns"
+                    "explanation": "The vibrations in our throat are sound vibrations. We can feel them because our throat tissues have mass and are connected to sensory nerves that can detect these vibrations."
                 }
             ],
-            "funFact": "Some percussion instruments can vibrate at frequencies up to 20,000 times per second! This rapid vibration creates the unique 'shimmer' sound we hear in instruments like cymbals."
+            "funFact": "The human vocal cords vibrate at specific frequencies to create different pitches - typically 85-255 Hz for males and 165-400 Hz for females. Trained singers might reach up to 1000-1500 Hz. That's why we can feel these vibrations in our throat when we hum or sing!"
         },
         {
             "id": 12,
-            "text": "A musician is experimenting with different guitar strings. She notices that thicker strings produce lower-pitched sounds while thinner strings produce higher-pitched sounds. What best explains this difference in sound?",
+            "text": "When a person makes different vowel sounds (like 'ee' vs 'oo'), what causes the sounds to be different even though their vocal cords are vibrating at the same frequency?",
             "options": [
                 {
-                    "text": "Thicker strings vibrate more slowly, creating lower-pitched sounds, while thinner strings vibrate more quickly, creating higher-pitched sounds",
-                    "isCorrect": 1,
-                    "explanation": "The thickness of a string affects its vibration frequency. Thicker strings have more mass and vibrate more slowly, producing lower-pitched sounds, while thinner strings vibrate faster, producing higher-pitched sounds."
+                    "text": "The vocal cords change their thickness for each sound",
+                    "isCorrect": 0,
+                    "explanation": "Vocal cords don't change thickness for different vowel sounds - they maintain the same basic structure while vibrating"
                 },
+                {
+                    "text": "The throat changes size for each sound",
+                    "isCorrect": 0,
+                    "explanation": "While the throat can change slightly, the main difference in vowel sounds comes from how the mouth and tongue shape the vibrations"
+                },
+                {
+                    "text": "The shape and position of the tongue and mouth create different sound pathways",
+                    "isCorrect": 1,
+                    "explanation": "The vocal cords provide the initial vibration, but the shape of the mouth and position of the tongue modify these vibrations to create different vowel sounds"
+                },
+                {
+                    "text": "The lungs push air out differently for each sound",
+                    "isCorrect": 0,
+                    "explanation": "While airflow is important for sound production, it's not what creates the different vowel sounds - that's done by mouth and tongue position"
+                }
+            ],
+            "funFact": "Opera singers can create different vowel sounds while maintaining the exact same musical note (frequency) - this shows how the mouth shape can modify sounds without changing the vocal cord vibration!"
+        },
+        {
+            "id": 13,
+            "text": "Scientists are studying different ways to make sound vibrations visible. Which method would be MOST effective for demonstrating how sound waves create vibrations?",
+            "options": [
+                {
+                    "text": "Placing a vibrating tuning fork in water",
+                    "isCorrect": 1,
+                    "explanation": "A tuning fork in water creates clear, visible ripples that directly show how sound vibrations travel through a medium, making it an excellent demonstration method."
+                },
+                {
+                    "text": "Looking at guitar strings while they are being played",
+                    "isCorrect": 0,
+                    "explanation": "While guitar strings do vibrate, the vibrations happen too quickly to be easily visible to the naked eye, making this method less effective for demonstration."
+                },
+                {
+                    "text": "Touching your throat while talking",
+                    "isCorrect": 0,
+                    "explanation": "While you can feel vocal cord vibrations, this method only allows you to feel rather than see the vibrations, making it less effective for visual demonstration."
+                },
+                {
+                    "text": "Listening to music through headphones",
+                    "isCorrect": 0,
+                    "explanation": "While headphones produce sound through vibrations, these vibrations are not visible, making this method ineffective for demonstrating how sound waves create vibrations."
+                }
+            ],
+            "funFact": "The human ear can detect vibrations as small as half a billionth of a meter - that's about the width of a hydrogen atom! These incredibly tiny movements are enough for us to hear sounds."
+        },
+        {
+            "id": 14,
+            "text": "A musician is experimenting with different guitar strings. She notices that thicker strings produce lower-pitched sounds while thinner strings produce higher-pitched sounds. What best explains this difference in sound?",
+            "options": [
                 {
                     "text": "Thicker strings vibrate more quickly, creating lower-pitched sounds, while thinner strings vibrate more slowly, creating higher-pitched sounds",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. The opposite is true - thicker strings actually vibrate more slowly due to their greater mass, while thinner strings vibrate more quickly."
+                },
+                {
+                    "text": "All guitar strings vibrate at the same frequency regardless of thickness, but thicker strings just sound louder",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Different thickness strings vibrate at different frequencies, which is what creates different pitches. String thickness affects pitch, not just volume."
                 },
                 {
                     "text": "The thickness of the string has no effect on the sound - only how hard you pluck the string matters",
@@ -314,93 +373,39 @@
                     "explanation": "This is incorrect. While how hard you pluck a string affects volume, the thickness of the string directly affects the pitch of the sound produced through its vibration frequency."
                 },
                 {
-                    "text": "All guitar strings vibrate at the same frequency regardless of thickness, but thicker strings just sound louder",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Different thickness strings vibrate at different frequencies, which is what creates different pitches. String thickness affects pitch, not just volume."
+                    "text": "Thicker strings vibrate more slowly, creating lower-pitched sounds, while thinner strings vibrate more quickly, creating higher-pitched sounds",
+                    "isCorrect": 1,
+                    "explanation": "The thickness of a string affects its vibration frequency. Thicker strings have more mass and vibrate more slowly, producing lower-pitched sounds, while thinner strings vibrate faster, producing higher-pitched sounds."
                 }
             ],
             "funFact": "The lowest string on a standard guitar (the thickest one) vibrates about 82 times per second to produce its signature low E note, while the highest string (the thinnest one) vibrates about 330 times per second to produce its high E note!"
         },
         {
-            "id": 13,
-            "text": "When a person makes different vowel sounds (like 'ee' vs 'oo'), what causes the sounds to be different even though their vocal cords are vibrating at the same frequency?",
-            "options": [
-                {
-                    "text": "The shape and position of the tongue and mouth create different sound pathways",
-                    "isCorrect": 1,
-                    "explanation": "The vocal cords provide the initial vibration, but the shape of the mouth and position of the tongue modify these vibrations to create different vowel sounds"
-                },
-                {
-                    "text": "The vocal cords change their thickness for each sound",
-                    "isCorrect": 0,
-                    "explanation": "Vocal cords don't change thickness for different vowel sounds - they maintain the same basic structure while vibrating"
-                },
-                {
-                    "text": "The lungs push air out differently for each sound",
-                    "isCorrect": 0,
-                    "explanation": "While airflow is important for sound production, it's not what creates the different vowel sounds - that's done by mouth and tongue position"
-                },
-                {
-                    "text": "The throat changes size for each sound",
-                    "isCorrect": 0,
-                    "explanation": "While the throat can change slightly, the main difference in vowel sounds comes from how the mouth and tongue shape the vibrations"
-                }
-            ],
-            "funFact": "Opera singers can create different vowel sounds while maintaining the exact same musical note (frequency) - this shows how the mouth shape can modify sounds without changing the vocal cord vibration!"
-        },
-        {
-            "id": 14,
-            "text": "When a drummer uses two drums of different sizes, why does the larger drum typically produce a lower-pitched sound than the smaller drum?",
-            "options": [
-                {
-                    "text": "The larger drum has more surface area to vibrate, causing slower vibrations that create a lower pitch",
-                    "isCorrect": 1,
-                    "explanation": "Larger drums have more surface area and mass, causing them to vibrate more slowly, which produces lower-pitched sounds"
-                },
-                {
-                    "text": "The larger drum is louder, which always means a lower pitch",
-                    "isCorrect": 0,
-                    "explanation": "Volume (loudness) and pitch are different properties of sound - a sound can be loud or quiet at any pitch"
-                },
-                {
-                    "text": "The larger drum uses thicker material, which always produces lower sounds",
-                    "isCorrect": 0,
-                    "explanation": "While material thickness can affect sound, it's primarily the size and resulting vibration pattern that determines the drum's pitch"
-                },
-                {
-                    "text": "The larger drum absorbs more sound waves, making the pitch lower",
-                    "isCorrect": 0,
-                    "explanation": "Sound absorption doesn't determine pitch - the pitch comes from how quickly the drum's surface vibrates"
-                }
-            ],
-            "funFact": "The largest drum in the world is the Dhamma Drum in Taiwan, measuring over 24 feet in diameter! When played, its deep vibrations can be felt from several hundred feet away."
-        },
-        {
             "id": 15,
-            "text": "A student places a small paper butterfly on top of a large speaker that is playing music. The student observes that the butterfly moves up and down rapidly. What best explains this observation?",
+            "text": "When a guitar string is tightened (increasing its tension), how does this change affect the sound it produces when plucked?",
             "options": [
                 {
-                    "text": "The sound waves from the speaker cause vibrations in the air, which make the paper butterfly move",
+                    "text": "The sound becomes only louder",
+                    "isCorrect": 0,
+                    "explanation": "Changing tension primarily affects the pitch, not the volume. Volume is more related to how hard the string is plucked"
+                },
+                {
+                    "text": "The sound becomes lower in pitch",
+                    "isCorrect": 0,
+                    "explanation": "Decreasing tension, not increasing it, would result in a lower pitch due to slower vibrations"
+                },
+                {
+                    "text": "The sound stays exactly the same",
+                    "isCorrect": 0,
+                    "explanation": "Changing the tension of a string definitely changes its sound - it's how guitars are tuned"
+                },
+                {
+                    "text": "The sound becomes higher in pitch",
                     "isCorrect": 1,
-                    "explanation": "Sound waves create vibrations in the air that can cause nearby objects to move. The speaker produces sound waves that make the air vibrate, which in turn causes the paper butterfly to move up and down."
-                },
-                {
-                    "text": "The heat from the speaker creates warm air currents that lift the paper butterfly",
-                    "isCorrect": 0,
-                    "explanation": "While speakers can produce some heat, the rapid up and down movement of the butterfly is caused by sound vibrations, not heat-related air currents."
-                },
-                {
-                    "text": "The electricity flowing through the speaker creates a magnetic field that pulls the paper butterfly",
-                    "isCorrect": 0,
-                    "explanation": "Paper is not magnetic, so magnetic fields from the speaker would not cause the butterfly to move. The movement is due to sound vibrations in the air."
-                },
-                {
-                    "text": "The paper butterfly moves on its own due to static electricity",
-                    "isCorrect": 0,
-                    "explanation": "Static electricity can cause paper to stick to surfaces but would not create the regular up and down movement observed. The movement is caused by sound vibrations."
+                    "explanation": "When tension increases, the string vibrates faster, producing a higher frequency and thus a higher-pitched sound"
                 }
             ],
-            "funFact": "Opera singers can actually shatter glass with their voice! When they sing a note that matches the natural vibration frequency of the glass (called resonance), the sound waves can cause the glass to vibrate so intensely that it breaks."
+            "funFact": "Opera singers can actually break glass with their voices by matching the natural frequency at which the glass vibrates. When the sound waves from their voice match this frequency, the glass vibrates so intensely that it shatters!"
         }
     ]
 }

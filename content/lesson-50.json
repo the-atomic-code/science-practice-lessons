@@ -4,125 +4,44 @@
     "questions": [
         {
             "id": 1,
-            "text": "What is the primary way thermal energy from the Sun reaches Earth?",
+            "text": "What relationship exists between the temperature of an object and the motion of its particles?",
             "options": [
                 {
-                    "text": "Through radiation via electromagnetic waves",
+                    "text": "As temperature increases, particles slow down and get closer together",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Higher temperatures cause particles to move faster and spread apart, not slow down and get closer."
+                },
+                {
+                    "text": "As temperature increases, the average kinetic energy and speed of particles increases",
                     "isCorrect": 1,
-                    "explanation": "The Sun's thermal energy travels through the vacuum of space via electromagnetic waves (radiation), as this is the only way energy can transfer through a region without matter."
+                    "explanation": "This is correct. Temperature is a measure of the average kinetic energy of particles. When temperature increases, particles move faster and have more kinetic energy."
                 },
                 {
-                    "text": "Through conduction via particle collisions",
+                    "text": "As temperature increases, only the size of particles increases but not their motion",
                     "isCorrect": 0,
-                    "explanation": "Conduction requires direct contact between particles of matter, which is not possible through the vacuum of space between the Sun and Earth."
+                    "explanation": "This is incorrect. Temperature changes affect the motion of particles, not their size. Individual particles do not grow or shrink with temperature changes."
                 },
                 {
-                    "text": "Through convection currents in space",
+                    "text": "Temperature and particle motion are not related to each other",
                     "isCorrect": 0,
-                    "explanation": "Convection requires the movement of fluids (liquids or gases), which cannot occur in the vacuum of space between the Sun and Earth."
-                },
-                {
-                    "text": "Through direct physical contact",
-                    "isCorrect": 0,
-                    "explanation": "Direct physical contact is not possible between the Sun and Earth, and energy transfer through physical contact would require matter between the two bodies."
+                    "explanation": "This is incorrect. Temperature and particle motion are directly related - temperature is a measure of the average kinetic energy of particles."
                 }
             ],
-            "funFact": "The electromagnetic waves from the Sun take about 8 minutes and 20 seconds to reach Earth, traveling at the speed of light (approximately 186,000 miles per second). This means the sunlight you see right now actually left the Sun about 8 minutes ago!"
+            "funFact": "The fastest moving air molecules at room temperature travel at speeds of about 1,000 miles per hour! However, they don't get very far before colliding with other molecules, which happens billions of times per second."
         },
         {
             "id": 2,
-            "text": "A chef places a metal spoon in a pot of boiling soup. After a few minutes, the handle of the spoon becomes hot. Which method of heat transfer is primarily responsible for the handle becoming hot?",
-            "options": [
-                {
-                    "text": "Conduction",
-                    "isCorrect": 1,
-                    "explanation": "Heat travels through the metal spoon by conduction, where energy is transferred through direct contact between particles, from the hot soup to the handle."
-                },
-                {
-                    "text": "Convection",
-                    "isCorrect": 0,
-                    "explanation": "While convection occurs in the soup itself, the heat transfer through the solid metal spoon occurs through conduction, not by fluid movement."
-                },
-                {
-                    "text": "Radiation",
-                    "isCorrect": 0,
-                    "explanation": "Radiation involves heat transfer through electromagnetic waves and does not require physical contact. The spoon becomes hot through direct contact with the soup, not through radiation."
-                },
-                {
-                    "text": "Evaporation",
-                    "isCorrect": 0,
-                    "explanation": "Evaporation is a cooling process where liquid changes to gas. While some evaporation occurs from the soup, it's not responsible for heating the spoon handle."
-                }
-            ],
-            "funFact": "Different metals conduct heat at different rates! Silver is the best conductor of heat among all metals, followed by copper. That's why many professional cooking utensils have copper bottoms for even heat distribution."
-        },
-        {
-            "id": 3,
-            "text": "A student is conducting an experiment to understand how different factors affect the rate of thermal energy transfer. The student has three identical metal spoons: one made of iron, one made of tin, and one made of bismuth. Each spoon has the same mass and is heated to the same initial temperature. The student places each spoon in separate beakers containing equal amounts of water at room temperature. After 5 minutes, which spoon would cause the greatest increase in the water temperature?",
-            "options": [
-                {
-                    "text": "Iron spoon",
-                    "isCorrect": 1,
-                    "explanation": "Iron has the highest rate of thermal energy transfer among the three metals. In the same amount of time, iron transfers more thermal energy to water, causing a greater temperature increase."
-                },
-                {
-                    "text": "Tin spoon",
-                    "isCorrect": 0,
-                    "explanation": "While tin does transfer thermal energy to water, its rate of thermal energy transfer is lower than iron but higher than bismuth. It would cause a moderate increase in water temperature."
-                },
-                {
-                    "text": "Bismuth spoon",
-                    "isCorrect": 0,
-                    "explanation": "Bismuth has the lowest rate of thermal energy transfer among the three metals. It would cause the smallest increase in water temperature as it transfers thermal energy more slowly."
-                },
-                {
-                    "text": "All spoons would cause the same temperature increase",
-                    "isCorrect": 0,
-                    "explanation": "Different materials transfer thermal energy at different rates even when their mass and initial temperature are the same. The type of material significantly affects the rate of thermal energy transfer."
-                }
-            ],
-            "funFact": "The ability of a material to transfer thermal energy quickly is why specific metals are chosen for cooking utensils. Copper, for instance, is widely used in cookware because it conducts heat about 20 times better than stainless steel!"
-        },
-        {
-            "id": 4,
-            "text": "Which of the following best demonstrates the most effective use of heat transfer principles in solving a real-world problem?",
-            "options": [
-                {
-                    "text": "Using aluminum foil to line a baking dish to cook food more evenly",
-                    "isCorrect": 0,
-                    "explanation": "While aluminum foil does conduct heat well, this is a relatively simple application that doesn't fully demonstrate the sophisticated understanding of multiple heat transfer methods."
-                },
-                {
-                    "text": "A puffy winter jacket that traps air pockets to reduce heat loss from the body",
-                    "isCorrect": 1,
-                    "explanation": "This is the most effective application as it uses multiple principles - trapped air acts as an insulator (poor conductor), while also minimizing convection and radiation, making it an excellent solution for maintaining body heat."
-                },
-                {
-                    "text": "Opening a window to cool down a room",
-                    "isCorrect": 0,
-                    "explanation": "While this does use convection to cool a room, it's a simple application that doesn't demonstrate sophisticated understanding of heat transfer principles."
-                },
-                {
-                    "text": "Using a metal spoon to stir hot soup",
-                    "isCorrect": 0,
-                    "explanation": "Though this demonstrates conduction through the metal spoon, it's a basic application that doesn't show complex problem-solving using heat transfer principles."
-                }
-            ],
-            "funFact": "The design of modern spacesuits uses similar principles as puffy winter jackets, but takes them to the extreme. They must protect astronauts from temperatures ranging from -250\u00b0F in shadow to +250\u00b0F in direct sunlight using multiple layers of specialized materials that manage all three types of heat transfer - conduction, convection, and radiation!"
-        },
-        {
-            "id": 5,
             "text": "You have two identical cups filled with the same amount of hot tea at the same initial temperature. You pour a spoonful of tea from one cup into a spoon. Which will cool down faster - the tea in the cup or the tea in the spoon?",
             "options": [
-                {
-                    "text": "The tea in the spoon will cool down faster",
-                    "isCorrect": 1,
-                    "explanation": "The tea in the spoon will cool down faster because it has a much higher surface area to volume ratio, allowing heat to transfer more rapidly to the surroundings. Additionally, with fewer particles and less total thermal energy, the temperature of the smaller amount of tea will drop more quickly."
-                },
                 {
                     "text": "The tea in the cup will cool down faster",
                     "isCorrect": 0,
                     "explanation": "Although the cup contains more tea, having more particles actually means it will retain its thermal energy longer. The greater mass means it takes longer to transfer the thermal energy to the surroundings."
+                },
+                {
+                    "text": "The tea in the spoon will cool down faster",
+                    "isCorrect": 1,
+                    "explanation": "The tea in the spoon will cool down faster because it has a much higher surface area to volume ratio, allowing heat to transfer more rapidly to the surroundings. Additionally, with fewer particles and less total thermal energy, the temperature of the smaller amount of tea will drop more quickly."
                 },
                 {
                     "text": "Both will cool down at the same rate",
@@ -138,166 +57,252 @@
             "funFact": "This principle of mass affecting cooling rate is why restaurants often serve soup in pre-heated bowls - the additional mass of the hot bowl helps keep the soup warm longer. Similarly, tea cups are often pre-warmed with hot water before serving tea."
         },
         {
-            "id": 6,
-            "text": "A scientist wants to investigate how particle arrangement affects heat conduction in different states of matter. Which experimental setup would best help determine this relationship?",
+            "id": 3,
+            "text": "Three identical metal cubes of equal volume made of different materials - iron, tin, and bismuth - are heated to the same temperature and then placed in separate containers with equal amounts of room temperature water. After 5 minutes, which cube would cause the smallest temperature increase in its water container?",
             "options": [
-                {
-                    "text": "Heat three equal masses of water in different containers at different temperatures and measure their final temperatures",
-                    "isCorrect": 0,
-                    "explanation": "This setup only tests one state of matter (liquid) and doesn't compare particle arrangements across different states"
-                },
-                {
-                    "text": "Place equal masses of ice, water, and water vapor in separate insulated containers and measure how quickly they cool down",
-                    "isCorrect": 1,
-                    "explanation": "This setup effectively compares how the different particle arrangements in solid, liquid, and gas states affect thermal energy transfer"
-                },
-                {
-                    "text": "Heat different amounts of water and measure the time taken to reach boiling point",
-                    "isCorrect": 0,
-                    "explanation": "This setup only tests one state of matter and focuses on mass rather than particle arrangement"
-                },
-                {
-                    "text": "Place three thermometers at different heights in a single container of hot water",
-                    "isCorrect": 0,
-                    "explanation": "This setup only examines convection in liquids and doesn't compare different states of matter"
-                }
-            ],
-            "funFact": "Diamond, despite being made of carbon just like graphite (pencil lead), conducts heat five times better than copper! This is due to its unique crystalline structure where carbon atoms are arranged in a tight, regular pattern."
-        },
-        {
-            "id": 7,
-            "text": "A student places a hot metal spoon in a cup of room temperature water. As the spoon cools down and the water warms up, what happens to the motion of particles in both objects?",
-            "options": [
-                {
-                    "text": "The particles in both the spoon and water eventually reach the same average kinetic energy",
-                    "isCorrect": 1,
-                    "explanation": "When objects of different temperatures interact, thermal energy transfers until both reach thermal equilibrium, where their particles have the same average kinetic energy. Since metal atoms are typically heavier than water molecules, they move at different speeds despite having the same kinetic energy."
-                },
-                {
-                    "text": "The particles in the spoon stop moving completely while the water particles speed up",
-                    "isCorrect": 0,
-                    "explanation": "Particles never stop moving completely - they continue to have motion even at lower temperatures, just with less kinetic energy."
-                },
-                {
-                    "text": "The particles in both objects maintain their original speeds of motion",
-                    "isCorrect": 0,
-                    "explanation": "When objects of different temperatures interact, thermal energy transfer causes changes in particle motion until equilibrium is reached."
-                },
-                {
-                    "text": "The water particles slow down while the spoon particles speed up",
-                    "isCorrect": 0,
-                    "explanation": "Since the spoon is initially hotter, its particles actually slow down while transferring energy to the water particles, which speed up."
-                }
-            ],
-            "funFact": "The speed of water molecules at room temperature is incredibly fast - about 590 meters per second or over 1,300 miles per hour! Even at cold temperatures, water molecules are still moving at hundreds of miles per hour."
-        },
-        {
-            "id": 8,
-            "text": "A scientist conducted an experiment with three 100g cubes made of different metals - iron, tin, and bismuth. Each cube was heated to the same temperature and then placed in separate beakers containing equal amounts of room temperature water. After 5 minutes, which metal cube would have caused the smallest temperature increase in its water sample?",
-            "options": [
-                {
-                    "text": "Iron cube",
-                    "isCorrect": 1,
-                    "explanation": "Iron has the highest specific heat capacity (0.45 J/g\u00b7\u00b0C) among these metals, meaning it can store more thermal energy per degree of temperature change. This allows it to retain more of its heat energy while cooling down, transferring less heat to the water and causing the smallest temperature increase."
-                },
                 {
                     "text": "Tin cube",
                     "isCorrect": 0,
-                    "explanation": "Tin has a moderate specific heat capacity (0.23 J/g\u00b7\u00b0C), lower than iron but higher than bismuth. It would transfer more thermal energy to the water than iron would, resulting in a greater temperature increase."
+                    "explanation": "Tin has a moderate specific heat capacity and thermal conductivity compared to iron and bismuth, causing a moderate temperature increase in the water."
                 },
                 {
                     "text": "Bismuth cube",
+                    "isCorrect": 1,
+                    "explanation": "Bismuth has the lowest specific heat capacity among these metals, but it also has very poor thermal conductivity. The combination of these properties, particularly its low thermal conductivity, results in the smallest temperature increase in the water."
+                },
+                {
+                    "text": "Iron cube",
                     "isCorrect": 0,
-                    "explanation": "Bismuth has the lowest specific heat capacity (0.12 J/g\u00b7\u00b0C) among these metals. This means it stores less thermal energy per degree of temperature change and would transfer more of its heat to the water, causing the largest temperature increase."
+                    "explanation": "Iron has a high specific heat capacity and high thermal conductivity, which means it can store more thermal energy and transfer it quickly to the water, causing a large temperature increase."
                 }
             ],
-            "funFact": "Bismuth is a fascinating metal that has the unique property of expanding when it solidifies, similar to water turning into ice. This unusual behavior makes it valuable in various industrial applications, despite having one of the lowest specific heat capacities among common metals."
+            "funFact": "Bismuth has some unique properties beyond its thermal characteristics - it is one of the few materials that expands when it solidifies, similar to water forming ice. This property makes it valuable in various industrial applications where precise casting is needed."
+        },
+        {
+            "id": 4,
+            "text": "At a school science fair, students demonstrate how thermal energy transfers through a metal rod by heating one end with a small flame. What best explains why the other end of the rod gradually becomes hot?",
+            "options": [
+                {
+                    "text": "Heat flows like a liquid through special channels in the metal rod",
+                    "isCorrect": 0,
+                    "explanation": "This is a common misconception. Heat is not a fluid and does not flow through channels - it transfers through particle collisions"
+                },
+                {
+                    "text": "Air currents inside the rod carry the heat from one end to the other",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly suggests convection occurs inside the solid metal. Metals conduct heat through particle collisions, not through fluid movement"
+                },
+                {
+                    "text": "The metal atoms at the heated end collide with neighboring atoms, transferring energy through the rod",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes conduction - thermal energy transfers through direct collisions between particles, with heated atoms vibrating more and transferring that energy to neighboring atoms"
+                },
+                {
+                    "text": "The metal atoms move from the hot end to the cold end carrying heat with them",
+                    "isCorrect": 0,
+                    "explanation": "In conduction, the metal atoms stay in relatively fixed positions and don't travel through the rod - they just vibrate more and transfer energy through collisions"
+                }
+            ],
+            "funFact": "The ability of a material to conduct heat is measured by its thermal conductivity. Pure silver has the highest thermal conductivity of any common material at room temperature, making it excellent for applications requiring rapid heat transfer!"
+        },
+        {
+            "id": 5,
+            "text": "A student is conducting an experiment to understand how different factors affect the rate of thermal energy transfer. The student has three identical metal spoons: one made of iron, one made of tin, and one made of bismuth. Each spoon has the same mass and is heated to the same initial temperature. The student places each spoon in separate beakers containing equal amounts of water at room temperature. After 5 minutes, which spoon would cause the greatest increase in the water temperature?",
+            "options": [
+                {
+                    "text": "Bismuth spoon",
+                    "isCorrect": 0,
+                    "explanation": "Bismuth has the lowest rate of thermal energy transfer among the three metals. It would cause the smallest increase in water temperature as it transfers thermal energy more slowly."
+                },
+                {
+                    "text": "Iron spoon",
+                    "isCorrect": 1,
+                    "explanation": "Iron has the highest rate of thermal energy transfer among the three metals. In the same amount of time, iron transfers more thermal energy to water, causing a greater temperature increase."
+                },
+                {
+                    "text": "All spoons would cause the same temperature increase",
+                    "isCorrect": 0,
+                    "explanation": "Different materials transfer thermal energy at different rates even when their mass and initial temperature are the same. The type of material significantly affects the rate of thermal energy transfer."
+                },
+                {
+                    "text": "Tin spoon",
+                    "isCorrect": 0,
+                    "explanation": "While tin does transfer thermal energy to water, its rate of thermal energy transfer is lower than iron but higher than bismuth. It would cause a moderate increase in water temperature."
+                }
+            ],
+            "funFact": "The ability of a material to transfer thermal energy quickly is why specific metals are chosen for cooking utensils. Copper, for instance, is widely used in cookware because it conducts heat about 20 times better than stainless steel!"
+        },
+        {
+            "id": 6,
+            "text": "An experiment was conducted using three metal rods of equal length - one made of iron, one of tin, and one of bismuth. Each rod was heated at one end for the same amount of time, and then placed in identical beakers containing water at room temperature. The water temperature increased by 30\u00b0C with the iron rod, 15\u00b0C with the tin rod, and 5\u00b0C with the bismuth rod. Which metal showed the fastest rate of heat transfer through conduction?",
+            "options": [
+                {
+                    "text": "Iron",
+                    "isCorrect": 1,
+                    "explanation": "Iron showed the highest rate of heat transfer, increasing water temperature by 30\u00b0C in the experiment. This indicates iron is the most effective conductor of heat among the three metals."
+                },
+                {
+                    "text": "Bismuth",
+                    "isCorrect": 0,
+                    "explanation": "Bismuth showed the slowest rate of heat transfer, increasing water temperature by only 5\u00b0C. This indicates bismuth is the poorest conductor of heat among the three metals."
+                },
+                {
+                    "text": "All metals would transfer heat at the same rate",
+                    "isCorrect": 0,
+                    "explanation": "Different metals have different thermal properties and conduct heat at different rates. The experiment clearly showed that iron, tin, and bismuth transfer heat at different rates."
+                },
+                {
+                    "text": "Tin",
+                    "isCorrect": 0,
+                    "explanation": "While tin is a good conductor, it showed a moderate rate of heat transfer, increasing water temperature by 15\u00b0C - less than iron but more than bismuth."
+                }
+            ],
+            "funFact": "Bismuth has one of the lowest thermal conductivities among metals, which makes it useful in various applications where heat insulation is needed, such as in certain types of fuses and safety devices."
+        },
+        {
+            "id": 7,
+            "text": "A scientist wants to investigate how surface area affects heat loss in containers. She has two identical aluminum containers with the same mass but different shapes - one tall and narrow, one short and wide. If she fills both containers with the same amount of hot water at 90\u00b0C and measures their temperatures after 30 minutes at room temperature, which container would lose heat faster?",
+            "options": [
+                {
+                    "text": "The tall and narrow container",
+                    "isCorrect": 0,
+                    "explanation": "While the tall and narrow container has the same mass, its smaller surface area results in slower heat transfer to the surroundings. Less surface area means less contact with cooler air and less area for heat to escape."
+                },
+                {
+                    "text": "The short and wide container",
+                    "isCorrect": 1,
+                    "explanation": "The short and wide container has greater surface area exposed to the surroundings, allowing for faster heat transfer through all three mechanisms - conduction, convection, and radiation. More surface area means more contact with cooler air and more area for heat to escape."
+                },
+                {
+                    "text": "Both containers would lose heat at the same rate",
+                    "isCorrect": 0,
+                    "explanation": "Even though the containers have the same mass and material, their different surface areas affect the rate of heat transfer. Surface area is a key factor in determining how quickly thermal energy transfers to the surroundings."
+                },
+                {
+                    "text": "It depends only on the volume of water, not the container shape",
+                    "isCorrect": 0,
+                    "explanation": "While volume (and mass) of water affects the total thermal energy, the rate of heat transfer is significantly influenced by the surface area available for heat exchange with the surroundings, which varies with container shape."
+                }
+            ],
+            "funFact": "The relationship between surface area and heat transfer is why animals in cold climates often have more compact body shapes with less surface area relative to their volume, while animals in hot climates often have features that increase surface area like large ears to help release heat more efficiently."
+        },
+        {
+            "id": 8,
+            "text": "In an experiment, three 100g cubes made of different metals - iron, tin, and bismuth - were heated to the same temperature and then placed in separate beakers containing equal amounts of room temperature water. After 5 minutes, the temperature increase in the water was measured to be 30\u00b0C for iron, 15\u00b0C for tin, and 5\u00b0C for bismuth. Which metal has the highest specific heat capacity?",
+            "options": [
+                {
+                    "text": "Tin",
+                    "isCorrect": 0,
+                    "explanation": "Tin caused a moderate temperature increase in water, indicating a moderate rate of thermal energy transfer. This suggests its specific heat capacity is between iron and bismuth."
+                },
+                {
+                    "text": "Bismuth",
+                    "isCorrect": 1,
+                    "explanation": "Bismuth caused the smallest temperature increase in water despite having the same mass and initial temperature as other metals. This means it retained more of its thermal energy, indicating the highest specific heat capacity."
+                },
+                {
+                    "text": "All metals have the same specific heat capacity since they had the same mass",
+                    "isCorrect": 0,
+                    "explanation": "Specific heat capacity is a property of the material, not just its mass. Different materials can store different amounts of thermal energy per unit mass even when they have equal masses."
+                },
+                {
+                    "text": "Iron",
+                    "isCorrect": 0,
+                    "explanation": "Iron caused the largest temperature increase in water, indicating it transferred more thermal energy quickly. This suggests a lower specific heat capacity compared to the other metals."
+                }
+            ],
+            "funFact": "Bismuth's high specific heat capacity makes it useful in nuclear reactors as a coolant. Its unique properties also make it one of the few substances that expands when it solidifies, similar to water turning into ice!"
         },
         {
             "id": 9,
-            "text": "A student fills two identical metal containers with different amounts of water at 20\u00b0C. Container A has 100 mL of water and Container B has 200 mL of water. The student heats both containers with identical heat sources for 5 minutes. Which statement correctly describes what happens to the final temperatures of the water in both containers?",
+            "text": "Two coffee cups contain the same type of coffee at 90\u00b0C. Cup A contains 500 mL of coffee while Cup B contains 100 mL of coffee. After 30 minutes in the same room temperature environment, which cup will have cooled down more?",
             "options": [
                 {
-                    "text": "The water in Container A reaches a higher final temperature than the water in Container B",
+                    "text": "Cup B with 100 mL of coffee",
                     "isCorrect": 1,
-                    "explanation": "With less mass of water in Container A, the same amount of thermal energy causes a greater temperature increase compared to Container B which has more water to heat"
+                    "explanation": "A smaller mass of liquid cools down faster because it has fewer particles, allowing for a more rapid rate of thermal energy transfer to the surroundings."
                 },
                 {
-                    "text": "The water in Container B reaches a higher final temperature than the water in Container A",
+                    "text": "Both cups will cool down equally",
                     "isCorrect": 0,
-                    "explanation": "Having more mass of water actually means the same amount of thermal energy is distributed among more particles, resulting in a smaller temperature increase"
+                    "explanation": "Even though the initial temperatures are the same, the different masses mean they will cool at different rates. Mass affects the rate of thermal energy transfer."
                 },
                 {
-                    "text": "Both containers reach the same final temperature since they are heated for the same time",
+                    "text": "It's impossible to predict without knowing the cup materials",
                     "isCorrect": 0,
-                    "explanation": "Equal heating time does not result in equal final temperatures when different masses are involved - the mass affects how much the temperature changes"
+                    "explanation": "While cup material does affect heat transfer, when comparing the same type of cups, the mass of the liquid is the primary factor determining cooling rate in this scenario."
                 },
                 {
-                    "text": "The temperature change depends only on the containers, not on the amount of water",
+                    "text": "Cup A with 500 mL of coffee",
                     "isCorrect": 0,
-                    "explanation": "The mass of water definitely affects temperature change - with more mass, more thermal energy is needed to cause the same temperature increase"
+                    "explanation": "A larger mass of liquid has more thermal energy and cools down more slowly because it has more particles that need to transfer their kinetic energy."
                 }
             ],
-            "funFact": "The principle that more mass requires more thermal energy for the same temperature change is why large bodies of water like oceans change temperature more slowly than small puddles. This property of water helps regulate Earth's climate by keeping coastal areas warmer in winter and cooler in summer!"
+            "funFact": "This principle is why restaurants often serve soup in smaller portions when it's very hot - it allows the soup to cool to an edible temperature more quickly. The same principle is used in cooking when chefs divide large batches of hot food into smaller portions to cool them more rapidly for safe storage."
         },
         {
             "id": 10,
-            "text": "In a forced-air home heating system, warm air rises to the upper floors while cooler air sinks to the lower floors. Which explanation best describes why this convection current forms?",
+            "text": "In a laboratory experiment, three cubes of equal mass (10g each) made of iron, tin, and bismuth were heated to the same temperature and then placed in separate beakers containing equal amounts of room temperature water. After 5 minutes, which material would have caused the greatest increase in water temperature?",
             "options": [
                 {
-                    "text": "As air is heated near the furnace, its particles move faster and spread apart, making it less dense than the surrounding cool air, causing it to rise",
+                    "text": "Iron",
                     "isCorrect": 1,
-                    "explanation": "When air is heated, its particles gain kinetic energy, move faster and spread further apart. This decreases the density of the warm air, making it rise while denser cool air sinks, creating a convection current."
+                    "explanation": "Iron has the highest specific heat capacity among the three metals (0.45 J/g\u00b0C), meaning it stores more thermal energy when heated to the same temperature. When placed in water, it transfers more thermal energy, resulting in the highest temperature increase."
                 },
                 {
-                    "text": "Warm air naturally contains fewer particles than cold air, which is why it always rises to the top of a room",
+                    "text": "All three would cause the same temperature increase",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect - warm and cold air contain the same number of particles. The difference is in how fast the particles move and how far apart they are spread, which affects density."
+                    "explanation": "Despite having equal mass, different materials have different specific heat capacities and store different amounts of thermal energy when heated to the same temperature, leading to different temperature changes in the water."
                 },
                 {
-                    "text": "The furnace pushes the warm air upward with force while pulling the cool air downward",
+                    "text": "Tin",
                     "isCorrect": 0,
-                    "explanation": "While the furnace does blow air, the main reason for the air movement is natural convection due to density differences between warm and cool air, not mechanical force."
+                    "explanation": "Tin has a moderate specific heat capacity (0.23 J/g\u00b0C), so it would store less thermal energy than iron when heated to the same temperature, resulting in a moderate temperature increase in the water."
                 },
                 {
-                    "text": "Heat energy itself moves upward, carrying the air particles along with it",
+                    "text": "Bismuth",
                     "isCorrect": 0,
-                    "explanation": "Heat energy doesn't move upward on its own or carry particles. The movement occurs because of density differences between warm and cool air masses."
+                    "explanation": "Bismuth has the lowest specific heat capacity among these metals (0.12 J/g\u00b0C), meaning it stores the least thermal energy when heated to the same temperature, resulting in the smallest temperature increase in the water."
                 }
             ],
-            "funFact": "The same convection principle that heats your home also drives large-scale weather patterns! When air is heated near the Earth's equator, it rises and creates massive convection cells that help distribute heat around the planet and influence global wind patterns."
+            "funFact": "The specific heat capacity of iron (0.45 J/g\u00b0C) is almost four times higher than bismuth (0.12 J/g\u00b0C), allowing it to store and transfer more thermal energy to water when heated to the same temperature. This property makes iron an excellent material for cooking utensils and radiators!"
         },
         {
             "id": 11,
-            "text": "A student has two identical cups of hot tea at the same initial temperature. Cup A contains 100 mL of tea while Cup B contains 200 mL of tea. After 10 minutes at room temperature, which cup's tea will have cooled down more and why?",
+            "text": "A student conducts an experiment to compare how different states of matter transfer thermal energy through conduction. The student uses equal masses of copper in solid, liquid, and gaseous states at the same initial temperature. Which state of copper would be most effective at conducting thermal energy, and why?",
             "options": [
                 {
-                    "text": "Cup A, because a smaller amount of liquid has less thermal energy to lose so it cools faster",
+                    "text": "Liquid copper, because its particles can flow and carry more energy",
                     "isCorrect": 0,
-                    "explanation": "While Cup A does cool faster, it's not because it has less thermal energy to lose. The rate of cooling depends on the mass of the substance, with smaller masses experiencing faster temperature changes."
+                    "explanation": "While liquid particles can move, they are farther apart than in solids, which actually reduces the efficiency of conduction through particle collisions."
                 },
                 {
-                    "text": "Cup A, because a smaller mass of liquid allows for faster transfer of thermal energy to the surroundings",
+                    "text": "All states would conduct thermal energy equally well since they have the same mass",
+                    "isCorrect": 0,
+                    "explanation": "While mass affects the total thermal energy a substance can hold, the arrangement of particles determines how effectively that energy can be conducted, not just the mass alone."
+                },
+                {
+                    "text": "Solid copper, because its particles are closest together allowing for more efficient transfer of energy through particle collisions",
                     "isCorrect": 1,
-                    "explanation": "Correct! A smaller mass of liquid experiences more rapid temperature changes because the thermal energy transfer affects fewer particles, leading to a faster decrease in average kinetic energy per particle."
+                    "explanation": "In solids, particles are tightly packed in a fixed arrangement, which allows thermal energy to transfer efficiently through direct particle-to-particle contact and collisions."
                 },
                 {
-                    "text": "Cup B, because more liquid means more surface area for heat to escape",
+                    "text": "Gaseous copper, because its particles move fastest and have the most kinetic energy",
                     "isCorrect": 0,
-                    "explanation": "While surface area does affect heat transfer, in this case, the larger mass of liquid in Cup B actually means it will retain its temperature longer due to having more particles sharing the thermal energy."
-                },
-                {
-                    "text": "Both cups will cool at the same rate because they started at the same temperature",
-                    "isCorrect": 0,
-                    "explanation": "Initial temperature alone doesn't determine cooling rate. The mass of the substance is a crucial factor, with smaller masses experiencing faster temperature changes than larger masses."
+                    "explanation": "Although gas particles move fastest, they are too far apart for efficient conduction. The large distances between particles result in fewer collisions and less effective thermal energy transfer."
                 }
             ],
-            "funFact": "The principle of mass affecting cooling rates is used in the food industry - that's why restaurants often keep soups in large pots to maintain temperature longer, while serving individual portions in smaller bowls that cool quickly enough to eat!"
+            "funFact": "Copper's excellent thermal conductivity is why it's commonly used in cooking utensils and heat sinks in electronics. At room temperature, copper conducts heat about 401 watts per meter-kelvin, which is about 1000 times better than water!"
         },
         {
             "id": 12,
             "text": "A student performed an experiment to study how mass affects temperature change when the same amount of heat energy is added. The student heated different masses of water with the same amount of energy and recorded the temperature change. Here are the results:\n\nMass of water (g) | Temperature increase (\u00b0C)\n50 | 20\n100 | 10\n150 | 6.7\n200 | 5\n\nWhat relationship does this data show between the mass of water and its temperature change when heated with the same amount of energy?",
             "options": [
+                {
+                    "text": "The mass and temperature change have no relationship",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The data clearly shows a pattern where temperature change decreases in a predictable way as mass increases. There is a clear mathematical relationship between these variables."
+                },
                 {
                     "text": "As the mass doubles, the temperature change is halved",
                     "isCorrect": 1,
@@ -309,11 +314,6 @@
                     "explanation": "This is incorrect. The data shows the opposite pattern - when mass increases, temperature change decreases. If temperature change doubled when mass doubled, we would see increasing temperature changes like 20\u00b0C, 40\u00b0C, 80\u00b0C."
                 },
                 {
-                    "text": "The mass and temperature change have no relationship",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The data clearly shows a pattern where temperature change decreases in a predictable way as mass increases. There is a clear mathematical relationship between these variables."
-                },
-                {
                     "text": "As the mass increases by 50g, the temperature change decreases by 5\u00b0C",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. While temperature does decrease as mass increases, it's not a linear relationship with a constant decrease of 5\u00b0C per 50g. The decrease follows an inverse proportional pattern."
@@ -323,79 +323,84 @@
         },
         {
             "id": 13,
-            "text": "In a thermal conductivity experiment, three metal cubes of equal mass (iron, tin, and bismuth) were heated to the same temperature and then placed in separate beakers containing equal amounts of water at room temperature. After 5 minutes, which metal cube would cause the greatest increase in water temperature?",
+            "text": "A pot of water is being heated on a stove. The water at the bottom becomes hot first, and then gradually the entire pot of water heats up. Which explanation best describes why convection currents form in the heated water?",
+            "options": [
+                {
+                    "text": "All the water particles move at the same speed regardless of temperature, but heated particles are naturally lighter.",
+                    "isCorrect": 0,
+                    "explanation": "Particle speed increases with temperature - they don't move at the same speed. The density change comes from particles spreading apart as they move faster."
+                },
+                {
+                    "text": "As water at the bottom heats up, its particles move faster and spread apart, becoming less dense. This causes the heated water to rise while cooler, denser water sinks to take its place.",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how differences in density due to heating create convection currents, with less dense hot water rising and denser cold water sinking."
+                },
+                {
+                    "text": "The water particles at the bottom are pushed up by the heat, forcing them to move to the top of the pot.",
+                    "isCorrect": 0,
+                    "explanation": "Heat doesn't push particles up directly - the movement is caused by density differences as particles spread apart when heated."
+                },
+                {
+                    "text": "The water particles at the bottom stop moving when heated, making them lighter and causing them to float to the top.",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because heating actually causes particles to move faster, not stop moving. Particles spreading apart (not stopping) leads to decreased density."
+                }
+            ],
+            "funFact": "Convection currents don't just occur in pots of water - they are responsible for many natural phenomena! Ocean currents, wind patterns, and even the movement of tectonic plates are influenced by convection currents in water and molten rock."
+        },
+        {
+            "id": 14,
+            "text": "A student conducts an experiment with three identical metal cups containing different amounts of hot water at 80\u00b0C. Cup A contains 100g of water, Cup B contains 200g of water, and Cup C contains 300g of water. After 10 minutes, which cup will show the greatest temperature decrease?",
+            "options": [
+                {
+                    "text": "All cups will show the same temperature decrease",
+                    "isCorrect": 0,
+                    "explanation": "The rate of thermal energy transfer depends on mass. With different masses of the same substance at the same initial temperature, the temperature decrease will not be the same."
+                },
+                {
+                    "text": "Cup C (300g of water)",
+                    "isCorrect": 0,
+                    "explanation": "Cup C has the most mass and therefore will show the smallest temperature decrease. The greater number of particles means it takes longer to transfer thermal energy to the surroundings."
+                },
+                {
+                    "text": "Cup A (100g of water)",
+                    "isCorrect": 1,
+                    "explanation": "Cup A has the least mass of water, so it will lose thermal energy more quickly and show the greatest temperature decrease. With fewer particles, the rate of thermal energy transfer is faster."
+                },
+                {
+                    "text": "Cup B (200g of water)",
+                    "isCorrect": 0,
+                    "explanation": "While Cup B will cool faster than Cup C, it contains more mass than Cup A and therefore will cool more slowly than Cup A due to having more particles to retain thermal energy."
+                }
+            ],
+            "funFact": "This principle is why small cups of coffee cool down much faster than large ones, even if they start at the same temperature. The same concept is used by chefs when they need to quickly cool down small portions of food for food safety!"
+        },
+        {
+            "id": 15,
+            "text": "An experiment was conducted to study heat transfer using three identical metal cubes made of iron, tin, and bismuth, each with a mass of 100g. Each cube was heated to the same temperature and then placed in separate beakers containing equal amounts of water at room temperature. After 5 minutes, which cube would cause the greatest increase in water temperature?",
             "options": [
                 {
                     "text": "Iron cube",
                     "isCorrect": 1,
-                    "explanation": "Iron has the highest thermal conductivity among the three metals, allowing it to transfer heat energy to the water most rapidly, resulting in the greatest temperature increase."
+                    "explanation": "Iron has the highest thermal conductivity among the three metals, allowing it to transfer heat more rapidly to the water. This faster rate of heat transfer causes the greatest temperature increase in the water during the 5-minute period."
                 },
                 {
                     "text": "Tin cube",
                     "isCorrect": 0,
-                    "explanation": "Tin has a moderate thermal conductivity, lower than iron but higher than bismuth, resulting in a moderate rate of heat transfer to the water."
+                    "explanation": "While tin does transfer thermal energy faster than bismuth, it has a lower thermal conductivity than iron. This results in a slower rate of heat transfer to the water compared to iron, causing a smaller temperature increase."
                 },
                 {
                     "text": "Bismuth cube",
                     "isCorrect": 0,
-                    "explanation": "Bismuth has a very low thermal conductivity compared to both iron and tin, resulting in the slowest rate of heat transfer to the water."
+                    "explanation": "Bismuth has the lowest thermal conductivity among the three metals. This results in the slowest rate of heat transfer to the water, causing the smallest temperature increase among the three metals."
                 },
                 {
                     "text": "All cubes would cause the same temperature increase",
                     "isCorrect": 0,
-                    "explanation": "Different materials have different thermal properties and rates of heat transfer, even with equal mass and initial temperature, so they won't cause the same temperature increase."
+                    "explanation": "Different materials transfer thermal energy at different rates, even when they have the same mass and initial temperature. Iron, tin, and bismuth have different thermal conductivities that affect how quickly they transfer heat to the water."
                 }
             ],
-            "funFact": "Bismuth has one of the lowest thermal conductivities of all metals and a relatively low melting point of 271.5\u00b0C. These properties, along with its non-toxic nature, make it useful in various applications including low-temperature solders, thermal cutoff devices, and as a replacement for lead in many products."
-        },
-        {
-            "id": 14,
-            "text": "A scientist conducted an experiment using three identical-sized cubes made of different metals - iron, tin, and bismuth. Each cube was heated to the same temperature and then placed in separate beakers containing equal amounts of room temperature water. After 5 minutes, which metal cube would have caused the smallest increase in water temperature?",
-            "options": [
-                {
-                    "text": "Iron cube",
-                    "isCorrect": 0,
-                    "explanation": "Iron has high thermal conductivity, meaning it transfers heat energy more quickly to the water, causing a larger temperature increase."
-                },
-                {
-                    "text": "Tin cube",
-                    "isCorrect": 0,
-                    "explanation": "Tin has moderate thermal conductivity, causing a medium temperature increase in the water, not the smallest."
-                },
-                {
-                    "text": "Bismuth cube",
-                    "isCorrect": 1,
-                    "explanation": "Bismuth has much lower thermal conductivity compared to most metals, meaning it transfers heat energy more slowly to the water, resulting in the smallest temperature increase."
-                }
-            ],
-            "funFact": "Bismuth is a unique metal that has one of the lowest thermal conductivities among metals, making it useful in various applications where slow heat transfer is desired, such as in safety devices and certain electronic components."
-        },
-        {
-            "id": 15,
-            "text": "A building engineer needs to design an efficient heating system for a large warehouse. The warehouse has high ceilings and needs to maintain an even temperature throughout the space. Which method of heat transfer would be most effective for this situation?",
-            "options": [
-                {
-                    "text": "Conduction through metal panels installed on the walls",
-                    "isCorrect": 0,
-                    "explanation": "Conduction requires direct contact between materials and would not effectively distribute heat throughout a large space. Metal panels would only heat areas directly in contact with them."
-                },
-                {
-                    "text": "Convection using forced air heating vents near the floor",
-                    "isCorrect": 1,
-                    "explanation": "Convection is ideal for large spaces because warm air naturally rises, creating circulation currents that distribute heat evenly throughout the space. Placing vents near the floor allows the natural convection process to work efficiently."
-                },
-                {
-                    "text": "Radiation from ceiling-mounted infrared heaters",
-                    "isCorrect": 0,
-                    "explanation": "While radiation can be effective, it primarily heats objects in direct line of sight and may create uneven heating in a large warehouse. It would not create the even temperature distribution needed."
-                },
-                {
-                    "text": "Combined conduction and radiation through heated floor tiles",
-                    "isCorrect": 0,
-                    "explanation": "Heated floor tiles would primarily heat the lower area of the warehouse through conduction and some radiation, but would not effectively heat the entire space up to the high ceilings."
-                }
-            ],
-            "funFact": "The principle of convection heating is also used in nature by sea breezes! During the day, the sun heats the land faster than the water, causing air above the land to rise. This creates a circular pattern where cooler air from over the water moves in to replace it, resulting in a refreshing sea breeze."
+            "funFact": "The ability of a material to transfer thermal energy quickly or slowly makes them useful for different applications. For example, copper and aluminum are excellent heat conductors used in cooking pans, while materials that transfer heat slowly, like bismuth, are useful in thermal insulation applications."
         }
     ]
 }

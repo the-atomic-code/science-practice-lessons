@@ -4,6 +4,33 @@
     "questions": [
         {
             "id": 1,
+            "text": "What is the primary role of decomposers in an ecosystem's matter cycle?",
+            "options": [
+                {
+                    "text": "They create new matter from sunlight like plants do",
+                    "isCorrect": 0,
+                    "explanation": "Only producers (plants) can create their own food using sunlight through photosynthesis. Decomposers cannot create matter from sunlight"
+                },
+                {
+                    "text": "They convert simple molecules into complex organisms",
+                    "isCorrect": 0,
+                    "explanation": "Decomposers do the opposite - they break down complex organic matter into simpler molecules, they don't build complex organisms"
+                },
+                {
+                    "text": "They eat only living plants and animals",
+                    "isCorrect": 0,
+                    "explanation": "Decomposers feed on dead organic matter, not living organisms. Organisms that eat living things are called consumers"
+                },
+                {
+                    "text": "They break down dead organisms into simpler molecules like carbon dioxide and water that return to the environment",
+                    "isCorrect": 1,
+                    "explanation": "Decomposers are essential in recycling nutrients by breaking down dead organisms into basic molecules that can be reused in the ecosystem"
+                }
+            ],
+            "funFact": "A single gram of soil can contain up to one billion bacteria that act as decomposers, helping to break down dead organic matter and keep nutrients cycling in the ecosystem!"
+        },
+        {
+            "id": 2,
             "text": "A lion eating a zebra receives 1000 units of energy from its meal. How much of this energy will be available to a hyena that later eats the lion?",
             "options": [
                 {
@@ -30,207 +57,94 @@
             "funFact": "This pattern of energy loss in food chains is why there are typically fewer predators than prey in an ecosystem. For example, it takes thousands of plants to support a few herbivores, which in turn can support even fewer carnivores!"
         },
         {
-            "id": 2,
-            "text": "In a marine ecosystem, scientists have observed increasing levels of mercury in fish at different positions in the food chain. Which statement best explains why larger predatory fish like tuna and sharks typically contain higher concentrations of mercury than smaller fish?",
-            "options": [
-                {
-                    "text": "The mercury accumulates and becomes more concentrated at each level of the food chain as larger fish consume multiple smaller fish containing mercury",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes bioaccumulation, where substances like mercury become more concentrated as they move up the food chain through consumption"
-                },
-                {
-                    "text": "Larger fish live longer, so they have more time to directly absorb mercury from the water",
-                    "isCorrect": 0,
-                    "explanation": "While fish do absorb some mercury directly from water, the main source of mercury accumulation is through consuming other organisms in the food chain"
-                },
-                {
-                    "text": "Larger fish have a faster metabolism that causes them to absorb more mercury",
-                    "isCorrect": 0,
-                    "explanation": "Fish size and metabolism are not directly related to mercury accumulation. The concentration occurs through the food chain relationships"
-                },
-                {
-                    "text": "Mercury naturally exists in higher concentrations in the deeper waters where larger fish live",
-                    "isCorrect": 0,
-                    "explanation": "Water depth is not the primary factor in mercury concentration in fish. The accumulation occurs through the food chain relationships"
-                }
-            ],
-            "funFact": "Scientists have found that some seabirds that eat fish can actually detect and avoid prey with high mercury levels, showing how some animals have evolved to protect themselves from toxic substances in their food!"
-        },
-        {
             "id": 3,
-            "text": "In a forest ecosystem, which statement correctly explains why there are typically many more plants (producers) compared to hawks (top predators)?",
+            "text": "During photosynthesis, plants convert carbon dioxide and water into glucose and oxygen. Which equation correctly shows this chemical process?",
             "options": [
                 {
-                    "text": "Only about 10% of energy transfers to the next trophic level, requiring more organisms at lower levels to support fewer organisms at higher levels",
+                    "text": "C\u2086H\u2081\u2082O\u2086 + 6 O\u2082 \u2192 6 CO\u2082 + 6 H\u2082O",
+                    "isCorrect": 0,
+                    "explanation": "This is actually the equation for cellular respiration, which is the opposite of photosynthesis. It shows glucose being broken down with oxygen to produce carbon dioxide and water."
+                },
+                {
+                    "text": "6 CO\u2082 + 6 H\u2082O \u2192 6 C + 12 O\u2082",
+                    "isCorrect": 0,
+                    "explanation": "This equation incorrectly shows carbon dioxide and water producing pure carbon and oxygen. Plants don't produce pure carbon - they produce glucose (sugar)."
+                },
+                {
+                    "text": "6 CO\u2082 + 6 H\u2082O + light energy \u2192 C\u2086H\u2081\u2082O\u2086 + 6 O\u2082",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Since energy transfer between trophic levels is inefficient with only about 10% moving up, more producers are needed at the base to sustain fewer consumers at higher levels."
+                    "explanation": "This is the correct balanced equation for photosynthesis, showing how 6 molecules of carbon dioxide and 6 molecules of water combine, using light energy, to form 1 molecule of glucose and 6 molecules of oxygen."
                 },
                 {
-                    "text": "Plants reproduce more quickly than hawks, leading to higher numbers",
+                    "text": "6 H\u2082O + 6 O\u2082 \u2192 C\u2086H\u2081\u2082O\u2086",
                     "isCorrect": 0,
-                    "explanation": "While plants often reproduce quickly, this is not the main reason for their greater numbers. The key factor is energy transfer efficiency between trophic levels."
-                },
-                {
-                    "text": "Hawks prefer to live in small groups while plants grow in large clusters",
-                    "isCorrect": 0,
-                    "explanation": "The social behavior or growth patterns of organisms is not what determines their relative numbers in an ecosystem. The energy transfer between trophic levels determines the sustainable population sizes."
-                },
-                {
-                    "text": "Plants require less energy than hawks to survive",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Plants actually capture and process large amounts of energy through photosynthesis. The key factor is how efficiently energy transfers up the food chain."
+                    "explanation": "This equation is missing carbon dioxide as a reactant and incorrectly shows oxygen as a reactant. In photosynthesis, oxygen is produced, not consumed."
                 }
             ],
-            "funFact": "The energy pyramid principle applies to all ecosystems on Earth, from the deepest oceans to tropical rainforests. In the ocean, it takes about 1,000 pounds of phytoplankton to support 100 pounds of small fish, which in turn support only 10 pounds of tuna!"
+            "funFact": "Plants carry out photosynthesis using a green pigment called chlorophyll, which gives leaves their color. Interestingly, a single leaf can contain several million chlorophyll molecules, allowing it to capture sunlight very efficiently!"
         },
         {
             "id": 4,
-            "text": "What is the primary role of decomposers in an ecosystem's matter cycle?",
+            "text": "A rabbit eats grass in a meadow ecosystem. How does the rabbit obtain energy from the grass?",
             "options": [
                 {
-                    "text": "They break down dead organisms into simpler molecules like carbon dioxide and water that return to the environment",
+                    "text": "By breaking down minerals from the grass without using oxygen",
+                    "isCorrect": 0,
+                    "explanation": "Animals use oxygen in cellular respiration to break down sugar molecules, not minerals, to obtain energy from their food."
+                },
+                {
+                    "text": "By directly absorbing energy from the soil through its feet",
+                    "isCorrect": 0,
+                    "explanation": "Animals cannot directly absorb energy from soil. They must obtain energy by consuming and digesting other organisms."
+                },
+                {
+                    "text": "Through cellular respiration, where the rabbit's body breaks down sugar molecules from the grass to release energy",
                     "isCorrect": 1,
-                    "explanation": "Decomposers are essential in recycling nutrients by breaking down dead organisms into basic molecules that can be reused in the ecosystem"
+                    "explanation": "When consumers like rabbits eat producers like grass, they break down the sugar molecules through cellular respiration to obtain energy for their body functions."
                 },
                 {
-                    "text": "They create new matter from sunlight like plants do",
+                    "text": "Through photosynthesis, where the rabbit converts sunlight into energy",
                     "isCorrect": 0,
-                    "explanation": "Only producers (plants) can create their own food using sunlight through photosynthesis. Decomposers cannot create matter from sunlight"
-                },
-                {
-                    "text": "They eat only living plants and animals",
-                    "isCorrect": 0,
-                    "explanation": "Decomposers feed on dead organic matter, not living organisms. Organisms that eat living things are called consumers"
-                },
-                {
-                    "text": "They convert simple molecules into complex organisms",
-                    "isCorrect": 0,
-                    "explanation": "Decomposers do the opposite - they break down complex organic matter into simpler molecules, they don't build complex organisms"
+                    "explanation": "Only producers like plants can perform photosynthesis to convert sunlight into energy. Consumers like rabbits must eat other organisms to obtain energy."
                 }
             ],
-            "funFact": "A single gram of soil can contain up to one billion bacteria that act as decomposers, helping to break down dead organic matter and keep nutrients cycling in the ecosystem!"
+            "funFact": "A rabbit's digestive system is so efficient that it goes through food twice! After the first digestion, it produces special droppings called cecotropes which it eats again to extract even more nutrients and energy from its plant-based diet."
         },
         {
             "id": 5,
-            "text": "What is the primary role of producers in an ecosystem that makes them essential for the survival of other organisms?",
+            "text": "Which statement best describes the difference between a food chain and a food web?",
             "options": [
                 {
-                    "text": "They convert sunlight energy into chemical energy through photosynthesis to make their own food",
+                    "text": "A food web shows how multiple food chains interconnect, while a food chain shows just one pathway of energy transfer",
                     "isCorrect": 1,
-                    "explanation": "Producers are able to make their own food using sunlight energy through photosynthesis, converting it into chemical energy stored in sugar molecules. This makes them the foundation of food chains."
+                    "explanation": "This correctly describes how a food web represents multiple feeding relationships that overlap, while a food chain only shows one linear pathway of energy transfer from producers to consumers."
                 },
                 {
-                    "text": "They consume other organisms to obtain energy",
+                    "text": "A food chain and a food web are the same thing, just different names for the same concept",
                     "isCorrect": 0,
-                    "explanation": "This describes consumers, not producers. Producers do not need to eat other organisms because they can make their own food."
+                    "explanation": "This is incorrect because food chains and food webs are distinct concepts that show feeding relationships at different levels of complexity."
                 },
                 {
-                    "text": "They break down dead organisms into simpler substances",
+                    "text": "A food web only includes producers and primary consumers, while a food chain includes all levels of consumers",
                     "isCorrect": 0,
-                    "explanation": "This describes decomposers, not producers. Decomposers break down dead matter, while producers make their own food using sunlight."
+                    "explanation": "This is incorrect because both food chains and food webs can include all trophic levels from producers through top predators."
                 },
                 {
-                    "text": "They store energy from the moon to create food",
+                    "text": "A food chain shows all possible feeding relationships, while a food web shows only one specific pathway",
                     "isCorrect": 0,
-                    "explanation": "Producers use energy from the sun, not the moon, to create their own food through photosynthesis."
+                    "explanation": "This is incorrect because it reverses the relationship - food chains show single pathways while food webs show multiple interconnected relationships."
                 }
             ],
-            "funFact": "The word photosynthesis comes from Greek words meaning 'light' and 'putting together.' Plants can convert about 1% of the sunlight they receive into food energy, which is remarkably efficient considering how much life this process supports on Earth!"
+            "funFact": "Animals in nature are very adaptable eaters! A single species might eat different foods depending on what's available in different seasons or locations. For example, bears eat berries and plants in summer but switch to fishing for salmon in fall - this flexibility is better represented in a food web than a simple food chain."
         },
         {
             "id": 6,
-            "text": "In a forest ecosystem, if all earthworms and fungi were removed, what would be the most significant impact on nutrient cycling?",
-            "options": [
-                {
-                    "text": "Dead plant and animal matter would accumulate, and fewer nutrients would return to the soil",
-                    "isCorrect": 1,
-                    "explanation": "Earthworms and fungi are vital decomposers that break down dead organic matter into simpler molecules. Without them, nutrients would remain locked in dead material instead of being recycled back into the ecosystem."
-                },
-                {
-                    "text": "Plants would grow faster because there would be more dead matter available",
-                    "isCorrect": 0,
-                    "explanation": "Plants cannot directly use nutrients from undecomposed matter. They need decomposers to break down complex organic molecules into simpler forms they can absorb."
-                },
-                {
-                    "text": "The ecosystem would have more nutrients available for producers",
-                    "isCorrect": 0,
-                    "explanation": "Without decomposers, nutrients would actually be less available as they would remain trapped in complex organic molecules in dead matter."
-                },
-                {
-                    "text": "Nutrient cycling would continue normally through other processes",
-                    "isCorrect": 0,
-                    "explanation": "While other decomposers exist, earthworms and fungi play such crucial roles that their removal would significantly slow down nutrient cycling in the ecosystem."
-                }
-            ],
-            "funFact": "Earthworms significantly improve soil quality - collectively, earthworms in one acre can process several tons of soil annually. As they digest organic matter, they enrich the soil with nutrients and create tunnels that help water and air reach plant roots."
-        },
-        {
-            "id": 7,
-            "text": "Which energy pyramid model correctly shows how energy is transferred through trophic levels in an ecosystem?",
-            "options": [
-                {
-                    "text": "A pyramid where each level has 90% of the energy from the level below it",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Only about 10% of energy transfers to the next trophic level, not 90%. Most energy is lost as heat at each level."
-                },
-                {
-                    "text": "A pyramid where each level has 10% of the energy from the level below it",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Only about 10% of energy is transferred to each next trophic level, which is why there are fewer organisms at higher trophic levels."
-                },
-                {
-                    "text": "A pyramid where all levels have equal amounts of energy",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Energy is not maintained equally across trophic levels. Each level has significantly less energy than the level below it."
-                },
-                {
-                    "text": "A pyramid where energy increases by 50% at each higher level",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Energy decreases, not increases, as you move up trophic levels due to heat loss and inefficient energy transfer."
-                }
-            ],
-            "funFact": "The 10% rule of energy transfer is why it takes about 100,000 pounds of phytoplankton to support 100 pounds of a large fish like tuna. This is also why eating lower on the food chain (like plants) is generally more energy efficient than eating at higher trophic levels."
-        },
-        {
-            "id": 8,
-            "text": "In a typical ecosystem, what serves as the original source of energy that powers all living things?",
-            "options": [
-                {
-                    "text": "The Sun",
-                    "isCorrect": 1,
-                    "explanation": "The Sun is the primary source of energy for nearly all ecosystems. Plants capture this energy through photosynthesis to produce food, which then flows through the entire food web."
-                },
-                {
-                    "text": "The soil",
-                    "isCorrect": 0,
-                    "explanation": "While soil provides essential nutrients and minerals, it is not the original source of energy. It helps in matter cycling but does not provide the initial energy input."
-                },
-                {
-                    "text": "The producers",
-                    "isCorrect": 0,
-                    "explanation": "Producers like plants are important, but they are not the original source of energy. They capture and convert energy from another source to make food."
-                },
-                {
-                    "text": "The decomposers",
-                    "isCorrect": 0,
-                    "explanation": "Decomposers break down dead matter and help in recycling nutrients, but they do not provide the original source of energy for the ecosystem."
-                }
-            ],
-            "funFact": "The Sun provides about 1,000 watts of energy per square meter of Earth's surface during clear conditions at noon! Only about 1% of this solar energy is actually captured by plants through photosynthesis, yet this small fraction is enough to support nearly all life on Earth."
-        },
-        {
-            "id": 9,
             "text": "Which equation correctly shows how matter cycles between plants (producers) and animals (consumers) through photosynthesis and cellular respiration?",
             "options": [
                 {
                     "text": "6CO2 + 6H2O + sunlight \u2192 C6H12O6 + 6O2 (photosynthesis)\nC6H12O6 + 6O2 \u2192 6CO2 + 6H2O + energy (cellular respiration)",
                     "isCorrect": 1,
                     "explanation": "This shows correct cycling of matter - the same molecules (CO2, H2O, glucose, O2) are used in both processes, just in opposite directions, demonstrating conservation of matter."
-                },
-                {
-                    "text": "CO2 + H2O + sunlight \u2192 sugar + O2 (photosynthesis)\nsugar + O2 \u2192 energy + H2O (cellular respiration)",
-                    "isCorrect": 0,
-                    "explanation": "This is incomplete - it doesn't show balanced equations and doesn't show CO2 being produced in cellular respiration, so matter is not conserved."
                 },
                 {
                     "text": "6CO2 + 6H2O + sunlight \u2192 C6H12O6 + 6O2 (photosynthesis)\nC6H12O6 \u2192 6CO2 + energy (cellular respiration)",
@@ -241,18 +155,28 @@
                     "text": "6CO2 + sunlight \u2192 C6H12O6 + 6O2 (photosynthesis)\nC6H12O6 + 6O2 \u2192 6CO2 + energy (cellular respiration)",
                     "isCorrect": 0,
                     "explanation": "This is unbalanced - it's missing H2O in both equations, so matter is not conserved between the processes."
+                },
+                {
+                    "text": "CO2 + H2O + sunlight \u2192 sugar + O2 (photosynthesis)\nsugar + O2 \u2192 energy + H2O (cellular respiration)",
+                    "isCorrect": 0,
+                    "explanation": "This is incomplete - it doesn't show balanced equations and doesn't show CO2 being produced in cellular respiration, so matter is not conserved."
                 }
             ],
             "funFact": "Phytoplankton in the oceans produce approximately 50-80% of Earth's atmospheric oxygen through photosynthesis, with land plants producing the remainder. These processes are crucial for maintaining oxygen levels in our atmosphere."
         },
         {
-            "id": 10,
+            "id": 7,
             "text": "In a grassland ecosystem, why are there typically fewer hawks than rabbits?",
             "options": [
                 {
                     "text": "Only about 10% of energy is transferred from one trophic level to the next, so more rabbits are needed to support fewer hawks",
                     "isCorrect": 1,
                     "explanation": "Energy transfer between trophic levels is inefficient, with only about 10% moving up each level. This means many rabbits are needed to provide enough energy to support a smaller number of hawks."
+                },
+                {
+                    "text": "Rabbits are smaller than hawks, so more of them can fit in the ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "Physical size is not the determining factor for population numbers in an ecosystem. The amount of available energy at each trophic level determines population sizes."
                 },
                 {
                     "text": "Hawks reproduce more slowly than rabbits, leading to smaller populations",
@@ -263,56 +187,176 @@
                     "text": "Hawks migrate seasonally while rabbits stay in the ecosystem year-round",
                     "isCorrect": 0,
                     "explanation": "Migration patterns do not determine the relative population sizes of predators and prey. The energy available at each trophic level determines how many organisms can be supported."
-                },
-                {
-                    "text": "Rabbits are smaller than hawks, so more of them can fit in the ecosystem",
-                    "isCorrect": 0,
-                    "explanation": "Physical size is not the determining factor for population numbers in an ecosystem. The amount of available energy at each trophic level determines population sizes."
                 }
             ],
             "funFact": "The decrease in available energy at each trophic level creates what ecologists call an 'ecological pyramid.' This structure is so consistent that scientists can often predict the rough number of predators an ecosystem can support just by counting the prey species!"
         },
         {
-            "id": 11,
-            "text": "A grizzly bear's diet includes both plants and fish. How does this feeding strategy affect its position in food chains within its ecosystem?",
+            "id": 8,
+            "text": "In a forest ecosystem, a dead tree has fallen and is slowly breaking down. How do decomposers contribute to returning nutrients from this dead tree back to the ecosystem?",
             "options": [
                 {
-                    "text": "The bear appears only at the top level of plant-based food chains",
+                    "text": "Decomposers store all the nutrients from the dead tree in their own bodies permanently",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because bears are omnivores and participate in multiple food chains, not just plant-based ones"
+                    "explanation": "While decomposers absorb some nutrients temporarily, they do not permanently store them. The nutrients are released back to the environment"
                 },
                 {
-                    "text": "The bear appears as both a primary consumer and a secondary or tertiary consumer in different food chains",
+                    "text": "Decomposers transform the dead tree into energy without recycling any matter",
+                    "isCorrect": 0,
+                    "explanation": "While energy is released during decomposition, the matter is not destroyed but rather broken down and recycled back into the ecosystem"
+                },
+                {
+                    "text": "Decomposers convert the dead tree directly into new living trees",
+                    "isCorrect": 0,
+                    "explanation": "Decomposers cannot directly convert dead matter into new organisms. They break down organic matter into basic molecules first"
+                },
+                {
+                    "text": "Decomposers break down the dead tree into basic molecules like carbon dioxide and water that return to the soil",
                     "isCorrect": 1,
-                    "explanation": "As an omnivore, the bear acts as a primary consumer when eating plants and a secondary or tertiary consumer when eating fish, allowing it to occupy multiple positions in the food web"
-                },
-                {
-                    "text": "The bear appears only as a primary consumer because it eats plants",
-                    "isCorrect": 0,
-                    "explanation": "This overlooks the bear's role as a consumer of fish, which places it higher in those food chains"
-                },
-                {
-                    "text": "The bear appears only at the producer level because it eats plants",
-                    "isCorrect": 0,
-                    "explanation": "Producers make their own food through photosynthesis. Bears are consumers, not producers, regardless of what they eat"
+                    "explanation": "Decomposers like fungi and bacteria chemically break down dead organic matter into simple molecules that can be reused by plants and other organisms"
                 }
             ],
-            "funFact": "Grizzly bears can consume up to 90 pounds of food per day during their pre-hibernation period, showing how their varied diet helps them accumulate enough energy to survive winter months without eating!"
+            "funFact": "A single dead tree can take anywhere from 3 to 100 years to completely decompose, depending on factors like climate, tree size, and types of decomposers present. During this time, it serves as a vital habitat for many organisms while slowly releasing nutrients back to the ecosystem."
+        },
+        {
+            "id": 9,
+            "text": "In a forest ecosystem, if there was a sudden decrease in the population of oak trees due to a disease, which of the following organisms would be most affected?",
+            "options": [
+                {
+                    "text": "Squirrels that primarily feed on acorns from oak trees",
+                    "isCorrect": 1,
+                    "explanation": "Squirrels that directly depend on oak trees for food would be most affected since they are primary consumers of acorns. With less food available, their population would likely decline significantly."
+                },
+                {
+                    "text": "Butterflies that drink nectar from wildflowers",
+                    "isCorrect": 0,
+                    "explanation": "Butterflies would be minimally affected since they primarily feed on nectar from wildflowers, not oak trees. They can find alternative food sources in other flowering plants."
+                },
+                {
+                    "text": "Earthworms that decompose fallen leaves",
+                    "isCorrect": 0,
+                    "explanation": "While earthworms would be somewhat affected, they can decompose leaves from other trees and organic matter. As decomposers, they have multiple food sources available."
+                },
+                {
+                    "text": "Hawks that hunt various small animals",
+                    "isCorrect": 0,
+                    "explanation": "Hawks would be less affected since they can hunt various prey and are not directly dependent on oak trees. As tertiary consumers, they have more flexibility in their food sources."
+                }
+            ],
+            "funFact": "Oak trees can produce up to 10,000 acorns in a good year, though only about 1 in 10,000 acorns will successfully grow into an oak tree. This abundance helps ensure the survival of both the trees and the many animals that depend on them for food."
+        },
+        {
+            "id": 10,
+            "text": "In a marine ecosystem, scientists discovered that large predatory fish like tuna had higher levels of mercury than smaller fish. Which statement best explains how mercury accumulates in this ocean food chain?",
+            "options": [
+                {
+                    "text": "Mercury only affects the largest fish in the ocean",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Mercury affects organisms at all levels of the food chain, though it becomes more concentrated in organisms higher up in the food chain."
+                },
+                {
+                    "text": "Mercury concentrations increase in larger fish because they eat many smaller fish that each contain some mercury",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Through biomagnification, mercury accumulates in higher concentrations at each level of the food chain as larger predators consume multiple prey organisms."
+                },
+                {
+                    "text": "Mercury naturally decreases as it moves up the food chain",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Mercury actually accumulates and increases in concentration as it moves up the food chain through a process called biomagnification."
+                },
+                {
+                    "text": "Decomposers remove all mercury from the ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While decomposers break down dead organisms, they cannot remove mercury from the ecosystem. Mercury continues to cycle through the food web."
+                }
+            ],
+            "funFact": "Some Arctic animals like polar bears have particularly high mercury levels because they are at the top of long food chains that can include up to 7 different levels of predator-prey relationships!"
+        },
+        {
+            "id": 11,
+            "text": "In a forest ecosystem, a disease drastically reduces the earthworm population. What would be the most immediate effect on the cycling of matter in this ecosystem?",
+            "options": [
+                {
+                    "text": "The amount of carbon dioxide in the ecosystem would increase dramatically",
+                    "isCorrect": 0,
+                    "explanation": "While decomposition produces CO2, fewer decomposers would actually result in less CO2 production from decomposition, not more."
+                },
+                {
+                    "text": "Producers would immediately increase their rate of photosynthesis",
+                    "isCorrect": 0,
+                    "explanation": "The rate of photosynthesis is not directly linked to decomposer populations. It depends more on factors like sunlight, water, and CO2 availability."
+                },
+                {
+                    "text": "Plants would immediately die due to lack of nutrients",
+                    "isCorrect": 0,
+                    "explanation": "While decomposers are important for recycling nutrients, their sudden reduction wouldn't cause immediate plant death. Plants can still utilize existing nutrients in the soil."
+                },
+                {
+                    "text": "Dead plant material would accumulate on the forest floor since there are fewer decomposers to break it down",
+                    "isCorrect": 1,
+                    "explanation": "Earthworms are important decomposers that break down dead organic matter into simpler molecules. With fewer earthworms, dead plant material would build up because it's not being broken down as efficiently."
+                }
+            ],
+            "funFact": "A single earthworm can process up to its own body weight in organic matter every day, making these decomposers incredibly efficient recyclers in ecosystems. An acre of land can contain up to a million earthworms!"
         },
         {
             "id": 12,
-            "text": "In a grassland ecosystem, there are 1000 grass plants, 100 rabbits, and only 2 hawks. Why can this ecosystem support many more grass plants than hawks?",
+            "text": "A carbon atom starts its journey in a leaf as part of a glucose molecule created through photosynthesis. What is the most likely path this carbon atom might take through the ecosystem over time?",
             "options": [
                 {
-                    "text": "Only about 10% of energy is transferred from one trophic level to the next, requiring more organisms at lower levels to support fewer at higher levels",
+                    "text": "Leaf \u2192 Grasshopper \u2192 Bird \u2192 Decomposing bacteria \u2192 Soil \u2192 Plant root",
                     "isCorrect": 1,
-                    "explanation": "This is correct because energy is lost as heat at each transfer, so each higher trophic level needs more organisms below it to provide enough energy"
+                    "explanation": "This represents a realistic path showing how carbon cycles through producers, consumers, decomposers, and back to producers through soil."
                 },
                 {
-                    "text": "Hawks prefer to live in small groups while grass grows better in large numbers",
+                    "text": "Leaf \u2192 Soil \u2192 Bird \u2192 Decomposing bacteria \u2192 Grasshopper \u2192 Plant root",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because the population sizes are determined by available energy, not social preferences of organisms"
+                    "explanation": "This sequence is incorrect as it shows carbon moving directly from leaf to soil without being consumed, and shows impossible transfers between organisms."
                 },
+                {
+                    "text": "Leaf \u2192 Bird \u2192 Grasshopper \u2192 Decomposing bacteria \u2192 Plant root \u2192 Soil",
+                    "isCorrect": 0,
+                    "explanation": "This sequence shows an impossible food chain order (bird eating leaf, grasshopper eating bird) and incorrect cycling through soil."
+                },
+                {
+                    "text": "Leaf \u2192 Grasshopper \u2192 Bird \u2192 Plant root \u2192 Soil \u2192 Decomposing bacteria",
+                    "isCorrect": 0,
+                    "explanation": "This sequence incorrectly shows carbon moving directly from a bird to plant roots without decomposition, which isn't possible."
+                }
+            ],
+            "funFact": "A single carbon atom can cycle through all living things on Earth! The same carbon atom in your body today might have once been part of a dinosaur millions of years ago, or could have been in countless different organisms over time."
+        },
+        {
+            "id": 13,
+            "text": "How do decomposers impact the availability of nutrients for plants in an ecosystem?",
+            "options": [
+                {
+                    "text": "They break down dead organisms and release nutrients back into the soil",
+                    "isCorrect": 1,
+                    "explanation": "Decomposers break down dead organic matter into simpler compounds, releasing mineral nutrients like nitrogen, phosphorus, and potassium back into the soil where they can be absorbed by plant roots. While they also release carbon dioxide, plants primarily obtain CO2 for photosynthesis from the atmosphere, not from soil decomposition."
+                },
+                {
+                    "text": "They directly provide nutrients to plants through their roots",
+                    "isCorrect": 0,
+                    "explanation": "Decomposers don't directly transfer nutrients to plants - they break down dead matter which then becomes available in the soil"
+                },
+                {
+                    "text": "They compete with plants for nutrients in the soil",
+                    "isCorrect": 0,
+                    "explanation": "While decomposers live in soil, they don't compete with plants for nutrients - they actually help make nutrients available"
+                },
+                {
+                    "text": "They produce new nutrients through photosynthesis",
+                    "isCorrect": 0,
+                    "explanation": "Decomposers don't perform photosynthesis - only producers like plants can create their own food through this process"
+                }
+            ],
+            "funFact": "A single gram of soil can contain up to 1 billion bacteria, many of which are decomposers helping to recycle nutrients. These microscopic decomposers play a crucial role in maintaining healthy soil for plant growth."
+        },
+        {
+            "id": 14,
+            "text": "In a grassland ecosystem, there are 1000 grass plants, 100 rabbits, and only 2 hawks. Why can this ecosystem support many more grass plants than hawks?",
+            "options": [
                 {
                     "text": "Grass reproduces faster than hawks, allowing it to maintain higher numbers",
                     "isCorrect": 0,
@@ -322,23 +366,33 @@
                     "text": "Hawks eat both grass and rabbits, so they get twice as much energy and need fewer individuals",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because hawks are carnivores and don't eat grass. Even if they did, the energy transfer limitation would still apply"
+                },
+                {
+                    "text": "Hawks prefer to live in small groups while grass grows better in large numbers",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the population sizes are determined by available energy, not social preferences of organisms"
+                },
+                {
+                    "text": "Only about 10% of energy is transferred from one trophic level to the next, requiring more organisms at lower levels to support fewer at higher levels",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because energy is lost as heat at each transfer, so each higher trophic level needs more organisms below it to provide enough energy"
                 }
             ],
             "funFact": "The pattern of decreasing population numbers up the food chain is so consistent that scientists can often estimate the number of predators an ecosystem can support just by counting the producers at the bottom of the food chain!"
         },
         {
-            "id": 13,
+            "id": 15,
             "text": "In a marine ecosystem, scientists found that small fish have 0.5 parts per million (ppm) of mercury, while larger predatory fish like tuna have 2.0 ppm. Why do the larger fish show higher levels of mercury?",
             "options": [
-                {
-                    "text": "Mercury naturally accumulates more in larger fish due to their size",
-                    "isCorrect": 0,
-                    "explanation": "The size alone does not cause mercury accumulation. The process is related to the food chain position and feeding relationships."
-                },
                 {
                     "text": "Mercury concentrates at each step of the food chain as larger fish eat contaminated smaller fish",
                     "isCorrect": 1,
                     "explanation": "This describes bioaccumulation, where mercury concentrates in higher levels of the food chain as each predator consumes contaminated prey."
+                },
+                {
+                    "text": "Mercury naturally accumulates more in larger fish due to their size",
+                    "isCorrect": 0,
+                    "explanation": "The size alone does not cause mercury accumulation. The process is related to the food chain position and feeding relationships."
                 },
                 {
                     "text": "Larger fish live longer so they absorb more mercury directly from the water",
@@ -352,60 +406,6 @@
                 }
             ],
             "funFact": "The highest mercury levels are often found in long-lived predatory fish like shark, swordfish, and king mackerel. This is why many health organizations recommend limiting consumption of these fish, especially for pregnant women and young children."
-        },
-        {
-            "id": 14,
-            "text": "Which statement correctly describes how photosynthesis and cellular respiration work together to cycle carbon atoms in an ecosystem?",
-            "options": [
-                {
-                    "text": "Photosynthesis uses carbon dioxide and water to produce sugar and oxygen, while cellular respiration uses sugar and oxygen to produce carbon dioxide and water",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how these processes cycle carbon atoms: photosynthesis takes in CO2 to make sugar, while respiration breaks down sugar to release CO2"
-                },
-                {
-                    "text": "Photosynthesis and cellular respiration both produce sugar molecules that organisms use for energy",
-                    "isCorrect": 0,
-                    "explanation": "Only photosynthesis produces sugar. Cellular respiration breaks down sugar to release energy"
-                },
-                {
-                    "text": "Photosynthesis releases carbon dioxide while cellular respiration absorbs carbon dioxide from the atmosphere",
-                    "isCorrect": 0,
-                    "explanation": "This is backwards - photosynthesis absorbs CO2 while cellular respiration releases it"
-                },
-                {
-                    "text": "Photosynthesis and cellular respiration both require sunlight to cycle carbon atoms between organisms",
-                    "isCorrect": 0,
-                    "explanation": "Only photosynthesis requires sunlight. Cellular respiration can occur without sunlight"
-                }
-            ],
-            "funFact": "The carbon atoms in your body today might have been part of a dinosaur millions of years ago! The same carbon atoms cycle through Earth's living and nonliving systems over and over again through processes like photosynthesis and cellular respiration."
-        },
-        {
-            "id": 15,
-            "text": "Consider two food chains in a grassland ecosystem:\nChain 1: Grass \u2192 Rabbit \u2192 Fox\nChain 2: Grass \u2192 Grasshopper \u2192 Mouse \u2192 Snake \u2192 Hawk\n\nAssuming both chains start with the same amount of energy at the producer level (grass), which chain would likely support a larger population at its highest trophic level and why?",
-            "options": [
-                {
-                    "text": "Chain 1, because energy passes through fewer levels, allowing the fox to receive more energy than the hawk",
-                    "isCorrect": 1,
-                    "explanation": "Since only about 10% of energy transfers to each next level, fewer levels means more energy reaches the top consumer. The fox receives about 1% of initial energy, while the hawk receives only 0.01%."
-                },
-                {
-                    "text": "Chain 2, because more levels means more energy is available at the top",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. More levels actually means less energy reaches the top, since approximately 90% of energy is lost at each transfer."
-                },
-                {
-                    "text": "Both chains would support equal populations at the top level",
-                    "isCorrect": 0,
-                    "explanation": "The chains would not support equal populations because the amount of energy reaching the top differs significantly due to the different number of energy transfers."
-                },
-                {
-                    "text": "Chain 2, because it has more diverse food sources",
-                    "isCorrect": 0,
-                    "explanation": "While Chain 2 has more diversity, this doesn't increase energy efficiency. Each transfer still results in approximately 90% energy loss."
-                }
-            ],
-            "funFact": "In the African savanna, lions (representing a shorter food chain like Chain 1) can maintain larger populations than cheetahs that often rely on smaller prey that are themselves predators of even smaller animals (representing a longer food chain like Chain 2)."
         }
     ]
 }

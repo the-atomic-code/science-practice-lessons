@@ -4,98 +4,93 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which of the following correctly describes the major body systems that work together to keep humans alive?",
+            "text": "Which statement best describes how the muscular and skeletal systems work together to help you lift your arm?",
             "options": [
                 {
-                    "text": "There are 11 major body systems, including the circulatory system that pumps blood, respiratory system that processes oxygen, and digestive system that processes food",
+                    "text": "Only the bicep is involved in lifting the arm while the tricep does not play any role",
+                    "isCorrect": 0,
+                    "explanation": "Both muscles are involved - while the bicep contracts, the tricep must relax to allow the movement"
+                },
+                {
+                    "text": "Both bicep and tricep muscles contract at the same time to lift the arm",
+                    "isCorrect": 0,
+                    "explanation": "If both muscles contracted simultaneously, they would work against each other and prevent movement"
+                },
+                {
+                    "text": "When you lift your arm, your bicep muscle contracts while your tricep muscle relaxes, pulling on the bones to create movement",
                     "isCorrect": 1,
-                    "explanation": "This is correct. The human body has 11 major systems that work together, with each system having specific roles like pumping blood, processing oxygen, and breaking down food for nutrients."
+                    "explanation": "This correctly describes how muscles work in pairs - when one contracts and the other relaxes, they work with the bones to create movement"
                 },
                 {
-                    "text": "There are 5 major body systems, and each system works independently without interacting with other systems",
+                    "text": "The bones move first, which then causes the muscles to respond and contract",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. There are 11 major body systems, not 5, and they must work together - for example, the circulatory system works with the respiratory system to deliver oxygen throughout the body."
-                },
-                {
-                    "text": "There are 8 major body systems, and only the digestive and respiratory systems are essential for survival",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. There are 11 major systems, not 8, and all systems are important for survival - for instance, without the circulatory system, oxygen from the respiratory system couldn't reach the body's cells."
-                },
-                {
-                    "text": "There are 11 major body systems, but only the systems studied in elementary school are necessary for survival",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While some systems are studied later, all 11 systems are essential. Systems like the immune system (studied later) are crucial for fighting diseases and keeping us alive."
+                    "explanation": "Muscles must contract first to pull on the bones - bones cannot move by themselves"
                 }
             ],
-            "funFact": "The smallest system in your body is the endocrine system, but it has huge responsibilities! It produces hormones that control everything from growth to mood to metabolism, showing how even a small system can play a vital role in keeping you healthy."
+            "funFact": "While most muscles work in pairs, the smallest muscle in the human body is the stapedius in the middle ear, which is just 1 millimeter long and works alone to dampen loud noises!"
         },
         {
             "id": 2,
-            "text": "Which of the following best describes how the small intestine functions to help your body get nutrients from food?",
+            "text": "Which of the following best describes how the digestive and circulatory systems work together to provide nutrients to the body?",
             "options": [
                 {
-                    "text": "The small intestine absorbs nutrients from digested food and transfers them to the bloodstream for distribution throughout the body",
+                    "text": "The digestive system breaks down food into nutrients, and the circulatory system transports these nutrients throughout the body.",
                     "isCorrect": 1,
-                    "explanation": "The small intestine's primary function is to absorb nutrients from digested food and transfer them to the bloodstream where they can be distributed to cells throughout the body"
+                    "explanation": "The digestive system extracts nutrients from food in the small intestine, and the circulatory system then carries these nutrients to all parts of the body through blood vessels."
                 },
                 {
-                    "text": "The small intestine breaks down food using stomach acids and enzymes",
+                    "text": "The circulatory system breaks down food, and the digestive system moves nutrients through blood vessels.",
                     "isCorrect": 0,
-                    "explanation": "While the small intestine does use enzymes from the pancreas and its own walls to break down food, it does not use stomach acids. Stomach acids are specifically found in the stomach, not the small intestine"
+                    "explanation": "This reverses the roles of these systems. The digestive system, not the circulatory system, breaks down food. The circulatory system, not the digestive system, moves nutrients through blood vessels."
                 },
                 {
-                    "text": "The small intestine stores nutrients until the body needs them",
+                    "text": "The digestive system stores nutrients, and the circulatory system produces new nutrients.",
                     "isCorrect": 0,
-                    "explanation": "The small intestine does not store nutrients - it absorbs them and passes them to the bloodstream. Other organs like the liver store nutrients"
+                    "explanation": "Neither system produces new nutrients - they come from food. The circulatory system transports nutrients rather than producing them, and the digestive system processes rather than storing nutrients."
                 },
                 {
-                    "text": "The small intestine removes water and waste products from digested food",
+                    "text": "The circulatory system stores food, and the digestive system moves blood through the body.",
                     "isCorrect": 0,
-                    "explanation": "This is primarily the function of the large intestine, not the small intestine"
+                    "explanation": "This incorrectly switches the functions of these systems. The circulatory system moves blood, not stores food, and the digestive system processes food, not moves blood."
                 }
             ],
-            "funFact": "The small intestine is actually about 20 feet long when stretched out - that's about the height of a giraffe! This incredible length provides a huge surface area for absorbing nutrients efficiently."
+            "funFact": "The small intestine, where most nutrient absorption occurs, is actually about 20 feet long when stretched out - that's about the height of a giraffe! This length helps maximize the absorption of nutrients from food."
         },
         {
             "id": 3,
-            "text": "What is the correct sequence of steps in the digestive process as food travels from your mouth to your stomach?",
+            "text": "What is the primary function of blood vessels in the human body?",
             "options": [
                 {
-                    "text": "Food is broken down by teeth and saliva \u2192 moves down esophagus \u2192 enters stomach",
+                    "text": "They store extra blood when the body doesn't need it",
+                    "isCorrect": 0,
+                    "explanation": "Blood vessels don't store blood - they are transport channels. The body maintains blood in circulation at all times."
+                },
+                {
+                    "text": "They transport blood throughout the body, delivering oxygen and nutrients to organs and tissues",
                     "isCorrect": 1,
-                    "explanation": "This is the correct sequence. Food is first broken into smaller pieces by teeth and mixed with saliva in the mouth, then travels down the esophagus before entering the stomach."
+                    "explanation": "Blood vessels are tube-like structures that form a network to carry blood to all parts of the body, delivering essential oxygen and nutrients while removing waste products."
                 },
                 {
-                    "text": "Food enters stomach \u2192 broken down by teeth \u2192 mixed with saliva",
+                    "text": "They produce new blood cells to replace old ones",
                     "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Food must be broken down by teeth and mixed with saliva in the mouth before it can enter the stomach."
+                    "explanation": "Blood cells are produced in bone marrow, not in blood vessels. Blood vessels only transport blood."
                 },
                 {
-                    "text": "Food is mixed with stomach acids \u2192 broken down by teeth \u2192 moves down esophagus",
+                    "text": "They filter harmful substances from the blood",
                     "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Stomach acids only interact with food after it has been broken down in the mouth and traveled through the esophagus."
-                },
-                {
-                    "text": "Food moves down esophagus \u2192 broken down by teeth \u2192 enters stomach",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Food must be broken down by teeth before it can move down the esophagus to the stomach."
+                    "explanation": "While blood does get filtered, this is primarily done by organs like the kidneys and liver, not by blood vessels themselves."
                 }
             ],
-            "funFact": "An adult's digestive tract is about 30 feet long! Even though food doesn't have to travel this entire distance, it still takes between 6-8 hours for food to pass through the stomach and small intestine."
+            "funFact": "If all the blood vessels in an adult human body were laid out in a line, they would stretch about 60,000 miles (100,000 kilometers) - that's long enough to circle the Earth more than twice!"
         },
         {
             "id": 4,
             "text": "When a person is running, their heart rate increases compared to when they are resting. What is the main benefit of this increased heart rate for the muscular system?",
             "options": [
                 {
-                    "text": "More oxygen and nutrients are delivered to the working muscles",
-                    "isCorrect": 1,
-                    "explanation": "When heart rate increases during exercise, more blood is pumped throughout the body, delivering increased oxygen and nutrients to the muscles that need it for movement and energy production."
-                },
-                {
-                    "text": "The muscles become stronger immediately",
+                    "text": "The muscles produce more carbon dioxide",
                     "isCorrect": 0,
-                    "explanation": "Muscle strength increases over time through regular exercise, not immediately due to increased heart rate."
+                    "explanation": "While muscles do produce more carbon dioxide during exercise, this is a byproduct of increased activity, not a benefit of increased heart rate."
                 },
                 {
                     "text": "The muscles get longer",
@@ -103,71 +98,59 @@
                     "explanation": "Heart rate does not affect muscle length. Muscles contract (get shorter) or relax during movement."
                 },
                 {
-                    "text": "The muscles produce more carbon dioxide",
+                    "text": "The muscles become stronger immediately",
                     "isCorrect": 0,
-                    "explanation": "While muscles do produce more carbon dioxide during exercise, this is a byproduct of increased activity, not a benefit of increased heart rate."
+                    "explanation": "Muscle strength increases over time through regular exercise, not immediately due to increased heart rate."
+                },
+                {
+                    "text": "More oxygen and nutrients are delivered to the working muscles",
+                    "isCorrect": 1,
+                    "explanation": "When heart rate increases during exercise, more blood is pumped throughout the body, delivering increased oxygen and nutrients to the muscles that need it for movement and energy production."
                 }
             ],
             "funFact": "A trained athlete's heart can pump up to 30-40 liters of blood per minute during intense exercise, compared to about 5 liters per minute at rest. This impressive increase helps power their performance!"
         },
         {
             "id": 5,
-            "text": "Which statement correctly describes the difference between blood in the left and right sides of the heart?",
+            "text": "What is the primary function of the heart in the human body?",
             "options": [
                 {
-                    "text": "The left side has oxygen-rich blood, while the right side has blood with less oxygen",
+                    "text": "To store extra blood for emergencies",
+                    "isCorrect": 0,
+                    "explanation": "The heart does not store blood - it continuously pumps blood through the body. Blood is stored in blood vessels throughout the body."
+                },
+                {
+                    "text": "To filter waste from the blood",
+                    "isCorrect": 0,
+                    "explanation": "Filtering waste from blood is the job of the kidneys, not the heart. The heart's role is to pump blood."
+                },
+                {
+                    "text": "To produce blood cells for the body",
+                    "isCorrect": 0,
+                    "explanation": "Blood cells are actually produced in bone marrow, not in the heart. The heart only pumps the blood."
+                },
+                {
+                    "text": "To pump blood throughout the body, delivering oxygen and nutrients",
                     "isCorrect": 1,
-                    "explanation": "The left side receives oxygen-rich blood from the lungs and pumps it to the body, while the right side contains blood that has given up its oxygen to body tissues"
-                },
-                {
-                    "text": "The right side has oxygen-rich blood, while the left side has blood with less oxygen",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - it's actually the opposite. The left side contains the oxygen-rich blood from the lungs"
-                },
-                {
-                    "text": "Both sides have the same amount of oxygen in the blood",
-                    "isCorrect": 0,
-                    "explanation": "The oxygen content differs between the two sides - one side must have more oxygen to supply the body's needs"
-                },
-                {
-                    "text": "Neither side contains any oxygen in the blood",
-                    "isCorrect": 0,
-                    "explanation": "Blood must contain oxygen to support the body's cells. If blood had no oxygen, our cells couldn't function"
+                    "explanation": "The heart's main job is to pump blood through the circulatory system, which carries oxygen and nutrients to all parts of the body."
                 }
             ],
-            "funFact": "An adult heart pumps about 2,000 gallons of blood each day! That's enough to fill a small swimming pool. This impressive amount ensures that oxygen reaches every cell in your body."
+            "funFact": "Your heart will beat about 2.5 billion times over your lifetime! When you're resting, it pumps about 5 quarts of blood every minute, but during exercise, it can pump more than 3 times that amount."
         },
         {
             "id": 6,
-            "text": "How do the small and large intestines work together in the digestive process?",
-            "options": [
-                {
-                    "text": "The small intestine absorbs nutrients while the large intestine absorbs water and removes waste",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how these organs work together - the small intestine first absorbs essential nutrients from food, then the large intestine handles water absorption and waste removal"
-                },
-                {
-                    "text": "Both intestines absorb nutrients equally from the food we eat",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The small intestine is specialized for nutrient absorption while the large intestine has different functions"
-                },
-                {
-                    "text": "The large intestine absorbs nutrients while the small intestine removes waste",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the actual functions - the small intestine absorbs nutrients and the large intestine handles waste removal"
-                },
-                {
-                    "text": "The small intestine stores food while the large intestine digests it",
-                    "isCorrect": 0,
-                    "explanation": "Neither intestine primarily stores food - they work together in sequence to process food and extract what the body needs"
-                }
-            ],
-            "funFact": "The small intestine, despite its name, is actually about 20 feet long - that's about four times longer than the large intestine! This extra length provides more surface area to absorb important nutrients from our food."
-        },
-        {
-            "id": 7,
             "text": "When you start exercising, your body needs more oxygen for your muscles. How do your body systems work together to meet this increased demand for oxygen?",
             "options": [
+                {
+                    "text": "Your bones produce more oxygen for the muscles to use",
+                    "isCorrect": 0,
+                    "explanation": "Bones do not produce oxygen. The oxygen needed by muscles comes from breathing through the lungs and is transported by blood."
+                },
+                {
+                    "text": "Your digestive system breaks down food faster to create more oxygen",
+                    "isCorrect": 0,
+                    "explanation": "The digestive system does not create oxygen. Oxygen comes from breathing through the respiratory system, not from food digestion."
+                },
                 {
                     "text": "Your heart rate increases to pump more oxygen-rich blood from the lungs to the muscles through blood vessels",
                     "isCorrect": 1,
@@ -177,76 +160,12 @@
                     "text": "Your muscles directly absorb oxygen from the air around you through your skin",
                     "isCorrect": 0,
                     "explanation": "Muscles cannot directly absorb oxygen through the skin. Oxygen must enter through the respiratory system and be transported by the circulatory system."
-                },
-                {
-                    "text": "Your digestive system breaks down food faster to create more oxygen",
-                    "isCorrect": 0,
-                    "explanation": "The digestive system does not create oxygen. Oxygen comes from breathing through the respiratory system, not from food digestion."
-                },
-                {
-                    "text": "Your bones produce more oxygen for the muscles to use",
-                    "isCorrect": 0,
-                    "explanation": "Bones do not produce oxygen. The oxygen needed by muscles comes from breathing through the lungs and is transported by blood."
                 }
             ],
             "funFact": "During intense exercise, your heart can pump up to 5 times more blood per minute compared to when you're resting! This increased blood flow helps deliver the extra oxygen your hardworking muscles need."
         },
         {
-            "id": 8,
-            "text": "How do the respiratory and circulatory systems work together to supply oxygen to your body's cells?",
-            "options": [
-                {
-                    "text": "The respiratory system takes in oxygen and delivers it directly to body cells, while the circulatory system only removes carbon dioxide",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The respiratory system cannot deliver oxygen directly to cells - it needs the circulatory system to transport the oxygen through blood vessels."
-                },
-                {
-                    "text": "The lungs take in oxygen, which then enters the bloodstream and is pumped by the heart throughout the body",
-                    "isCorrect": 1,
-                    "explanation": "Correct! The respiratory system (lungs) brings in oxygen which enters the blood vessels, and then the circulatory system (heart and blood vessels) transports this oxygen-rich blood to all body cells."
-                },
-                {
-                    "text": "The heart pumps blood to the lungs, which then directly supply oxygen to muscles without using blood vessels",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Oxygen must travel through blood vessels to reach body cells - it cannot be directly supplied from the lungs to muscles."
-                },
-                {
-                    "text": "The circulatory system works independently of the respiratory system, using stored oxygen in the heart",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The circulatory and respiratory systems must work together - the heart doesn't store oxygen, and the blood needs to constantly get fresh oxygen from the lungs."
-                }
-            ],
-            "funFact": "Your red blood cells are amazing oxygen carriers! A single drop of blood contains about 250 million red blood cells, and each of these cells makes about 170,000 trips through your body during its 4-month lifespan, delivering oxygen wherever it's needed."
-        },
-        {
-            "id": 9,
-            "text": "When you eat a sandwich, which sequence best describes how your digestive system structures work together to break down the food?",
-            "options": [
-                {
-                    "text": "Teeth chew food \u2192 Tongue moves food \u2192 Esophagus carries food \u2192 Stomach breaks down food with acids",
-                    "isCorrect": 1,
-                    "explanation": "This is the correct sequence showing how multiple digestive structures work together. The teeth first mechanically break down food, the tongue helps form it into a ball and move it, the esophagus transports it to the stomach, where acids further break it down."
-                },
-                {
-                    "text": "Stomach breaks down food \u2192 Teeth chew food \u2192 Tongue moves food \u2192 Esophagus carries food",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect because food must first be chewed by teeth before reaching the stomach. The stomach cannot be the first structure to process food."
-                },
-                {
-                    "text": "Tongue moves food \u2192 Esophagus carries food \u2192 Teeth chew food \u2192 Stomach breaks down food",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect because food needs to be chewed by teeth before the tongue can properly move it. The teeth cannot chew food after it has already moved down the esophagus."
-                },
-                {
-                    "text": "Esophagus carries food \u2192 Stomach breaks down food \u2192 Teeth chew food \u2192 Tongue moves food",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect because food must be processed by teeth and tongue before entering the esophagus. Once food moves down the esophagus, it cannot return to be chewed by teeth."
-                }
-            ],
-            "funFact": "The muscles in your esophagus are so strong that they can move food to your stomach even if you're eating upside down! This process is called peristalsis, and it's why astronauts can still eat in zero gravity."
-        },
-        {
-            "id": 10,
+            "id": 7,
             "text": "When a person breathes, which sequence correctly describes how oxygen gets from the air to different parts of the body?",
             "options": [
                 {
@@ -260,27 +179,103 @@
                     "explanation": "This sequence is incorrect because air must go through the lungs before entering blood vessels. The lungs are where oxygen transfers from the air into the blood."
                 },
                 {
-                    "text": "Air enters through nose \u2192 body cells \u2192 lungs \u2192 blood vessels",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect because body cells cannot receive oxygen directly from the air. Oxygen must first go through the lungs and blood vessels to reach body cells."
-                },
-                {
                     "text": "Air enters through blood vessels \u2192 nose \u2192 lungs \u2192 body cells",
                     "isCorrect": 0,
                     "explanation": "This sequence is incorrect because air cannot enter directly through blood vessels. Air must first enter through the nose and travel to the lungs."
+                },
+                {
+                    "text": "Air enters through nose \u2192 body cells \u2192 lungs \u2192 blood vessels",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect because body cells cannot receive oxygen directly from the air. Oxygen must first go through the lungs and blood vessels to reach body cells."
                 }
             ],
             "funFact": "Your lungs contain about 300 million tiny air sacs called alveoli. If you stretched them all out, they would cover an area about the size of a tennis court! This huge surface area helps your body absorb oxygen more efficiently."
         },
         {
+            "id": 8,
+            "text": "When you eat a sandwich, which sequence best describes how your digestive system structures work together to break down the food?",
+            "options": [
+                {
+                    "text": "Stomach breaks down food \u2192 Teeth chew food \u2192 Tongue moves food \u2192 Esophagus carries food",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect because food must first be chewed by teeth before reaching the stomach. The stomach cannot be the first structure to process food."
+                },
+                {
+                    "text": "Tongue moves food \u2192 Esophagus carries food \u2192 Teeth chew food \u2192 Stomach breaks down food",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect because food needs to be chewed by teeth before the tongue can properly move it. The teeth cannot chew food after it has already moved down the esophagus."
+                },
+                {
+                    "text": "Teeth chew food \u2192 Tongue moves food \u2192 Esophagus carries food \u2192 Stomach breaks down food with acids",
+                    "isCorrect": 1,
+                    "explanation": "This is the correct sequence showing how multiple digestive structures work together. The teeth first mechanically break down food, the tongue helps form it into a ball and move it, the esophagus transports it to the stomach, where acids further break it down."
+                },
+                {
+                    "text": "Esophagus carries food \u2192 Stomach breaks down food \u2192 Teeth chew food \u2192 Tongue moves food",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect because food must be processed by teeth and tongue before entering the esophagus. Once food moves down the esophagus, it cannot return to be chewed by teeth."
+                }
+            ],
+            "funFact": "The muscles in your esophagus are so strong that they can move food to your stomach even if you're eating upside down! This process is called peristalsis, and it's why astronauts can still eat in zero gravity."
+        },
+        {
+            "id": 9,
+            "text": "During sleep, which body system continues to work actively to ensure oxygen is delivered throughout the body?",
+            "options": [
+                {
+                    "text": "The circulatory system and respiratory system working together",
+                    "isCorrect": 1,
+                    "explanation": "Even during sleep, the heart continues pumping and the lungs keep functioning to ensure oxygen-rich blood reaches all parts of the body, maintaining essential life functions."
+                },
+                {
+                    "text": "Only the nervous system",
+                    "isCorrect": 0,
+                    "explanation": "While the nervous system remains active during sleep, it does not directly deliver oxygen to body tissues."
+                },
+                {
+                    "text": "Only the digestive system",
+                    "isCorrect": 0,
+                    "explanation": "Although the digestive system continues working during sleep, it is not responsible for oxygen delivery throughout the body."
+                },
+                {
+                    "text": "Only the muscular system",
+                    "isCorrect": 0,
+                    "explanation": "While some muscles remain active during sleep, the muscular system alone cannot deliver oxygen throughout the body."
+                }
+            ],
+            "funFact": "Your heart beats about 100,000 times each day - that's around 35 million times in a year! Even during sleep, your heart continues this incredible work to keep you alive."
+        },
+        {
+            "id": 10,
+            "text": "How do the small and large intestines work together in the digestive process?",
+            "options": [
+                {
+                    "text": "Both intestines absorb nutrients equally from the food we eat",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The small intestine is specialized for nutrient absorption while the large intestine has different functions"
+                },
+                {
+                    "text": "The small intestine stores food while the large intestine digests it",
+                    "isCorrect": 0,
+                    "explanation": "Neither intestine primarily stores food - they work together in sequence to process food and extract what the body needs"
+                },
+                {
+                    "text": "The small intestine absorbs nutrients while the large intestine absorbs water and removes waste",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes how these organs work together - the small intestine first absorbs essential nutrients from food, then the large intestine handles water absorption and waste removal"
+                },
+                {
+                    "text": "The large intestine absorbs nutrients while the small intestine removes waste",
+                    "isCorrect": 0,
+                    "explanation": "This reverses the actual functions - the small intestine absorbs nutrients and the large intestine handles waste removal"
+                }
+            ],
+            "funFact": "The small intestine, despite its name, is actually about 20 feet long - that's about four times longer than the large intestine! This extra length provides more surface area to absorb important nutrients from our food."
+        },
+        {
             "id": 11,
             "text": "How do body systems work differently during sleep compared to intense physical activity like running?",
             "options": [
-                {
-                    "text": "During sleep, all body systems completely shut down while during physical activity they are fully active",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Body systems continue working during sleep, just at different rates. Some systems like the immune system are actually more active during sleep."
-                },
                 {
                     "text": "During sleep, heart rate and breathing slow down while during physical activity these increase to supply more oxygen to muscles",
                     "isCorrect": 1,
@@ -295,23 +290,82 @@
                     "text": "During sleep, muscles are more active while during physical activity they are less active",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Muscles are generally more relaxed during sleep, while during physical activity they are actively contracting and using more energy."
+                },
+                {
+                    "text": "During sleep, all body systems completely shut down while during physical activity they are fully active",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Body systems continue working during sleep, just at different rates. Some systems like the immune system are actually more active during sleep."
                 }
             ],
             "funFact": "During deep sleep, your body releases growth hormones that help repair and build muscles - this is why getting enough sleep is just as important for athletes as their training sessions!"
         },
         {
             "id": 12,
-            "text": "What is the key difference between how the small intestine and large intestine process food during digestion?",
+            "text": "During an Olympic swimming race, multiple body systems work together to help an athlete perform at their best. Which sequence correctly shows how different systems coordinate to power the athlete's muscles during intense swimming?",
             "options": [
                 {
-                    "text": "The small intestine absorbs nutrients while the large intestine absorbs water and removes waste",
-                    "isCorrect": 1,
-                    "explanation": "The small intestine's primary function is to absorb nutrients from digested food, while the large intestine mainly absorbs water and helps remove waste from the body"
+                    "text": "Circulatory system takes in oxygen \u2192 Respiratory system moves blood \u2192 Muscular system uses blood for energy",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect. The respiratory system takes in oxygen, not the circulatory system. The circulatory system, not the respiratory system, moves blood through the body."
                 },
+                {
+                    "text": "Muscular system creates oxygen \u2192 Respiratory system moves oxygen \u2192 Circulatory system uses oxygen",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect. Muscles don't create oxygen - they use it. Oxygen must come from outside the body through the respiratory system."
+                },
+                {
+                    "text": "Respiratory system takes in oxygen \u2192 Circulatory system delivers oxygen to muscles \u2192 Muscular system uses oxygen for movement",
+                    "isCorrect": 1,
+                    "explanation": "This shows the correct sequence of how body systems work together - lungs take in oxygen, heart pumps oxygen-rich blood to muscles, and muscles use this oxygen to generate energy for movement."
+                },
+                {
+                    "text": "Muscular system demands oxygen \u2192 Circulatory system takes in air \u2192 Respiratory system delivers oxygen to muscles",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect. The respiratory system, not the circulatory system, must first take in air. The circulatory system's role is to transport oxygen, not to take in air."
+                }
+            ],
+            "funFact": "Olympic swimmers can have a resting heart rate as low as 40 beats per minute (compared to 60-100 in most people) due to their highly efficient circulatory systems. During intense swimming, their heart rate can increase to over 180 beats per minute to supply their muscles with enough oxygen!"
+        },
+        {
+            "id": 13,
+            "text": "If a person's lungs suddenly become unable to absorb oxygen efficiently, which other body system would be most immediately and severely affected?",
+            "options": [
+                {
+                    "text": "The immune system",
+                    "isCorrect": 0,
+                    "explanation": "Though the immune system needs oxygen to function properly, it would not be the most immediately impacted by reduced lung function compared to systems that directly depend on oxygen exchange."
+                },
+                {
+                    "text": "The digestive system",
+                    "isCorrect": 0,
+                    "explanation": "While the digestive system needs oxygen to function, it would not be the most immediately affected system. It can continue its basic functions even with temporarily reduced oxygen levels."
+                },
+                {
+                    "text": "The circulatory system",
+                    "isCorrect": 1,
+                    "explanation": "The circulatory system relies heavily on the lungs to provide oxygen-rich blood. Without efficient oxygen absorption, the heart would have to work harder to pump blood that contains less oxygen, directly impacting circulation throughout the body."
+                },
+                {
+                    "text": "The skeletal system",
+                    "isCorrect": 0,
+                    "explanation": "The skeletal system, while requiring oxygen for bone maintenance, would not show immediate severe effects from reduced oxygen absorption in the lungs."
+                }
+            ],
+            "funFact": "The heart and lungs work so closely together that they're often called the cardiopulmonary system. Every minute, your lungs typically process about 6 quarts of air while your heart pumps about 5 quarts of blood!"
+        },
+        {
+            "id": 14,
+            "text": "What is the key difference between how the small intestine and large intestine process food during digestion?",
+            "options": [
                 {
                     "text": "The small intestine removes waste while the large intestine absorbs nutrients",
                     "isCorrect": 0,
                     "explanation": "This is incorrect - the small intestine absorbs nutrients, not removes waste. The large intestine is responsible for waste removal"
+                },
+                {
+                    "text": "The small intestine absorbs nutrients while the large intestine absorbs water and removes waste",
+                    "isCorrect": 1,
+                    "explanation": "The small intestine's primary function is to absorb nutrients from digested food, while the large intestine mainly absorbs water and helps remove waste from the body"
                 },
                 {
                     "text": "The small intestine breaks down food while the large intestine stores it",
@@ -327,85 +381,31 @@
             "funFact": "If you were to stretch out your small intestine, it would be about 20 feet long - that's about the height of a two-story building! This length helps maximize the surface area for nutrient absorption."
         },
         {
-            "id": 13,
-            "text": "During exercise, when your heart rate increases, how does this change help your muscles function better?",
-            "options": [
-                {
-                    "text": "The faster heart rate pumps more oxygen-rich blood to the muscles",
-                    "isCorrect": 1,
-                    "explanation": "When heart rate increases during exercise, more blood circulates through the body, delivering more oxygen to the working muscles."
-                },
-                {
-                    "text": "The faster heart rate makes the muscles contract more quickly",
-                    "isCorrect": 0,
-                    "explanation": "Heart rate doesn't directly control muscle contraction speed - that's controlled by nerve signals from the brain."
-                },
-                {
-                    "text": "The faster heart rate warms up the muscles",
-                    "isCorrect": 0,
-                    "explanation": "While exercise does warm muscles, this happens primarily through movement and metabolism, not directly from increased heart rate."
-                },
-                {
-                    "text": "The faster heart rate makes the muscles stronger",
-                    "isCorrect": 0,
-                    "explanation": "Heart rate doesn't directly affect muscle strength - muscle strength comes from regular training and proper nutrition."
-                }
-            ],
-            "funFact": "An athlete's heart can pump up to 40 liters of blood per minute during intense exercise, compared to about 5 liters per minute at rest. That's enough to fill a kitchen sink in just one minute!"
-        },
-        {
-            "id": 14,
-            "text": "During an Olympic swimming race, multiple body systems work together to help an athlete perform at their best. Which sequence correctly shows how different systems coordinate to power the athlete's muscles during intense swimming?",
-            "options": [
-                {
-                    "text": "Respiratory system takes in oxygen \u2192 Circulatory system delivers oxygen to muscles \u2192 Muscular system uses oxygen for movement",
-                    "isCorrect": 1,
-                    "explanation": "This shows the correct sequence of how body systems work together - lungs take in oxygen, heart pumps oxygen-rich blood to muscles, and muscles use this oxygen to generate energy for movement."
-                },
-                {
-                    "text": "Muscular system demands oxygen \u2192 Circulatory system takes in air \u2192 Respiratory system delivers oxygen to muscles",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. The respiratory system, not the circulatory system, must first take in air. The circulatory system's role is to transport oxygen, not to take in air."
-                },
-                {
-                    "text": "Circulatory system takes in oxygen \u2192 Respiratory system moves blood \u2192 Muscular system uses blood for energy",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. The respiratory system takes in oxygen, not the circulatory system. The circulatory system, not the respiratory system, moves blood through the body."
-                },
-                {
-                    "text": "Muscular system creates oxygen \u2192 Respiratory system moves oxygen \u2192 Circulatory system uses oxygen",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Muscles don't create oxygen - they use it. Oxygen must come from outside the body through the respiratory system."
-                }
-            ],
-            "funFact": "Olympic swimmers can have a resting heart rate as low as 40 beats per minute (compared to 60-100 in most people) due to their highly efficient circulatory systems. During intense swimming, their heart rate can increase to over 180 beats per minute to supply their muscles with enough oxygen!"
-        },
-        {
             "id": 15,
-            "text": "Which characteristic of blood vessels allows them to efficiently transport materials throughout the body?",
+            "text": "How do different body systems work together to process food and deliver nutrients to cells?",
             "options": [
                 {
-                    "text": "Their thin tube-like structure that creates pathways for blood flow",
+                    "text": "The respiratory system breaks down food while the digestive system provides oxygen to cells",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly switches the roles of these systems - the digestive system handles food breakdown while the respiratory system handles oxygen intake."
+                },
+                {
+                    "text": "The circulatory system breaks down food and the muscular system delivers nutrients to cells",
+                    "isCorrect": 0,
+                    "explanation": "The circulatory system transports but doesn't break down food, and the muscular system is not responsible for nutrient delivery."
+                },
+                {
+                    "text": "The digestive system processes food and directly delivers nutrients to cells without help from other systems",
+                    "isCorrect": 0,
+                    "explanation": "The digestive system cannot directly deliver nutrients to cells - it needs the circulatory system to transport nutrients throughout the body."
+                },
+                {
+                    "text": "The digestive system breaks down food, the circulatory system transports nutrients, while the respiratory system provides oxygen needed for cellular energy production",
                     "isCorrect": 1,
-                    "explanation": "Blood vessels are designed as thin tubes that create an efficient network of pathways, allowing blood to flow and transport oxygen, nutrients, and waste throughout the body."
-                },
-                {
-                    "text": "Their ability to produce blood cells",
-                    "isCorrect": 0,
-                    "explanation": "Blood vessels do not produce blood cells. Blood cells are produced in bone marrow."
-                },
-                {
-                    "text": "Their ability to digest nutrients",
-                    "isCorrect": 0,
-                    "explanation": "Blood vessels transport nutrients but do not digest them. Digestion occurs in the digestive system, particularly in the stomach and intestines."
-                },
-                {
-                    "text": "Their ability to create oxygen",
-                    "isCorrect": 0,
-                    "explanation": "Blood vessels transport oxygen but do not create it. Oxygen enters the body through the respiratory system when we breathe."
+                    "explanation": "This correctly shows how these systems cooperate - digestive system processes food, circulatory system delivers nutrients, and respiratory system provides necessary oxygen for cells to use those nutrients."
                 }
             ],
-            "funFact": "If all the blood vessels in an adult human body were laid out in a line, they would stretch about 60,000 miles (100,000 kilometers) - that's long enough to circle Earth more than twice!"
+            "funFact": "Your small intestine, which absorbs most nutrients from food, is actually about 20 feet long when stretched out - that's about the height of a two-story building! This incredible length helps maximize nutrient absorption."
         }
     ]
 }

@@ -4,121 +4,89 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which of the following best describes what makes up Earth's geosphere?",
+            "text": "Which statement correctly explains why Earth is unique in its ability to support life compared to other planets in our solar system?",
             "options": [
                 {
-                    "text": "All rocks, soil, sediments, and minerals from the ground to Earth's core",
+                    "text": "Earth has the right mix of gases in its atmosphere to sustain life",
                     "isCorrect": 1,
-                    "explanation": "The geosphere includes all solid parts of Earth, from surface rocks and soil down to the core, making this the complete and correct description."
+                    "explanation": "Correct! While other planets have atmospheres, only Earth has the precise combination of gases (like oxygen and nitrogen) in the right proportions that make life as we know it possible."
                 },
                 {
-                    "text": "Only the rocks and minerals visible on Earth's surface",
+                    "text": "Earth has the thickest atmosphere of all planets",
                     "isCorrect": 0,
-                    "explanation": "This is incomplete as the geosphere extends far beyond just surface materials, going all the way to Earth's core."
+                    "explanation": "Incorrect. Venus actually has a much thicker atmosphere than Earth. The thickness of the atmosphere alone does not determine its ability to support life."
                 },
                 {
-                    "text": "The layer of air surrounding the Earth",
+                    "text": "Earth is the only planet with any kind of atmosphere",
                     "isCorrect": 0,
-                    "explanation": "This describes the atmosphere, not the geosphere. The geosphere consists of solid Earth materials, not gases."
+                    "explanation": "Incorrect. Most planets in our solar system have atmospheres. What makes Earth special is not the presence of an atmosphere, but its specific composition."
                 },
                 {
-                    "text": "All the water on Earth including oceans, lakes, and rivers",
+                    "text": "Earth is the only planet with a gaseous atmosphere",
                     "isCorrect": 0,
-                    "explanation": "This describes the hydrosphere, not the geosphere. The geosphere consists of solid Earth materials, not water."
+                    "explanation": "Incorrect. Other planets in our solar system also have atmospheres made of gases. For example, Venus and Mars both have atmospheres, though with different compositions."
                 }
             ],
-            "funFact": "The geosphere is so vast that scientists haven't been able to directly observe most of it! The deepest humans have ever drilled is about 7.6 miles into Earth's crust, yet Earth's radius is about 3,959 miles. That means we've only physically reached about 0.2% of the way to Earth's center!"
+            "funFact": "The Earth's atmosphere is about 78% nitrogen, 21% oxygen, and 1% other gases. This precise balance is maintained partly by living organisms themselves - plants produce oxygen through photosynthesis while animals consume oxygen and produce carbon dioxide, creating a remarkable natural cycle!"
         },
         {
             "id": 2,
-            "text": "A mountain range is located along the coast of a region. How does this mountain range most likely affect the weather patterns in the area?",
+            "text": "What is the primary cause of mushroom rock formations in desert regions?",
             "options": [
                 {
-                    "text": "The mountain range causes more rainfall on the side facing the ocean and creates a drier climate on the opposite side",
+                    "text": "Temperature changes causing the rock to split",
+                    "isCorrect": 0,
+                    "explanation": "While temperature changes can cause rocks to break down through thermal expansion and contraction, this process doesn't create the characteristic mushroom shape."
+                },
+                {
+                    "text": "Wind carrying sand particles that erode the bottom of rocks more than the top",
                     "isCorrect": 1,
-                    "explanation": "Mountains force air masses to rise, cool, and release moisture as rain on the windward (ocean-facing) side. The air is drier when it reaches the other side, creating a rain shadow effect."
+                    "explanation": "Wind-driven sand particles hit the lower portions of rocks more frequently, causing greater erosion at the base compared to the top, creating the distinctive mushroom shape over time."
                 },
                 {
-                    "text": "The mountain range creates equal amounts of rainfall on both sides",
+                    "text": "Rain water dissolving the bottom of rocks",
                     "isCorrect": 0,
-                    "explanation": "Mountain ranges typically create uneven rainfall patterns due to the rain shadow effect, not equal rainfall on both sides."
+                    "explanation": "While rain can cause erosion, the mushroom shape of these rocks is primarily caused by wind-driven sand particles, not by rain water dissolution."
                 },
                 {
-                    "text": "The mountain range prevents all rainfall from reaching either side",
+                    "text": "Plant roots breaking down the rock base",
                     "isCorrect": 0,
-                    "explanation": "Mountains don't prevent all rainfall - they influence its distribution, causing more rain on one side and less on the other."
-                },
-                {
-                    "text": "The mountain range has no effect on rainfall patterns in the region",
-                    "isCorrect": 0,
-                    "explanation": "Mountains significantly impact local weather patterns, especially rainfall distribution, through their interaction with air masses."
+                    "explanation": "Plant roots can cause weathering of rocks, but mushroom rocks typically form in desert environments where there is minimal vegetation."
                 }
             ],
-            "funFact": "The Atacama Desert in Chile is one of the driest places on Earth, receiving almost no rainfall. This extreme desert exists because it lies in the rain shadow of the Andes Mountains, which block moisture-carrying winds from the Amazon Basin!"
+            "funFact": "The largest mushroom rock formation in North America is found in Kansas at Mushroom Rock State Park. Some of these fascinating formations are estimated to be over 65 million years old!"
         },
         {
             "id": 3,
-            "text": "A scientist conducts an experiment with two aquariums, each filled with water. She heats the water in one aquarium to 80\u00b0F and keeps the other at 60\u00b0F. What will happen to the air temperature directly above each aquarium?",
+            "text": "What causes air pressure on Earth's surface?",
             "options": [
                 {
-                    "text": "The air temperature will be higher above the warmer water and lower above the cooler water",
+                    "text": "The weight of air particles pushing down",
                     "isCorrect": 1,
-                    "explanation": "Water temperature directly affects the air temperature above it. Warmer water transfers heat energy to the air above it, making it warmer, while cooler water results in cooler air above it."
+                    "explanation": "Air particles, though invisible, have mass and weight. Their combined weight pushing down on Earth's surface creates air pressure."
                 },
                 {
-                    "text": "The air temperature will be the same above both aquariums",
+                    "text": "The pull of the moon",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because water temperature affects the air temperature above it through heat transfer. The air temperatures will differ based on the water temperatures below."
+                    "explanation": "The moon's gravitational pull mainly affects ocean tides, not air pressure. Air pressure is caused by the weight of air particles in the atmosphere."
                 },
                 {
-                    "text": "The air temperature will be lower above the warmer water and higher above the cooler water",
+                    "text": "The rotation of the Earth",
                     "isCorrect": 0,
-                    "explanation": "This reverses the relationship between water and air temperature. Warm water heats the air above it, while cool water cools the air above it, not the other way around."
+                    "explanation": "While Earth's rotation affects wind patterns, it is not the direct cause of air pressure. Air pressure is caused by the weight of air particles above us."
+                },
+                {
+                    "text": "The heat from the sun",
+                    "isCorrect": 0,
+                    "explanation": "While the sun's heat can affect air movement and pressure changes, it is not the primary cause of air pressure itself. The weight of air particles creates air pressure."
                 }
             ],
-            "funFact": "This interaction between water and air temperature plays a crucial role in creating local weather patterns near large bodies of water. It's why coastal areas often have more moderate temperatures than inland regions - the ocean helps regulate air temperature!"
+            "funFact": "At sea level, the air pressure is about 14.7 pounds per square inch - that means there are nearly 15 pounds of air pushing down on every square inch of your body! Don't worry though - your body pushes back with equal force, so you don't feel crushed."
         },
         {
             "id": 4,
-            "text": "Which of the following groups of organisms would be considered part of Earth's biosphere?",
-            "options": [
-                {
-                    "text": "All plants, animals, and microscopic life forms",
-                    "isCorrect": 1,
-                    "explanation": "The biosphere includes all living things on Earth, from the smallest microorganisms to the largest plants and animals."
-                },
-                {
-                    "text": "Only plants and trees",
-                    "isCorrect": 0,
-                    "explanation": "This is incomplete - while plants are part of the biosphere, it includes all living organisms, not just plants."
-                },
-                {
-                    "text": "Only animals that live on land",
-                    "isCorrect": 0,
-                    "explanation": "This excludes aquatic animals and other life forms. The biosphere includes all living things regardless of where they live."
-                },
-                {
-                    "text": "Only humans and domesticated animals",
-                    "isCorrect": 0,
-                    "explanation": "This is too limited - the biosphere includes all living things, not just humans and their domesticated animals."
-                }
-            ],
-            "funFact": "The biosphere extends from about 10 kilometers into the atmosphere to the deepest ocean trenches, nearly 11 kilometers below sea level. Even in these extreme environments, life finds a way to survive!"
-        },
-        {
-            "id": 5,
             "text": "Which of the following correctly lists all four major spheres that make up planet Earth?",
             "options": [
-                {
-                    "text": "Geosphere, hydrosphere, atmosphere, biosphere",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. The geosphere (land), hydrosphere (water), atmosphere (air), and biosphere (living things) are the four major spheres that make up Earth."
-                },
-                {
-                    "text": "Lithosphere, oceanosphere, airosphere, lifesphere",
-                    "isCorrect": 0,
-                    "explanation": "While these terms try to describe similar concepts, these are not the correct scientific terms for Earth's spheres. The correct terms are geosphere, hydrosphere, atmosphere, and biosphere."
-                },
                 {
                     "text": "Geosphere, hydrosphere, stratosphere, ecosystem",
                     "isCorrect": 0,
@@ -128,18 +96,82 @@
                     "text": "Atmosphere, biosphere, hemisphere, ionosphere",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. While atmosphere and biosphere are correct, hemisphere refers to half of Earth's surface, and ionosphere is just one layer of the atmosphere. The geosphere and hydrosphere are missing."
+                },
+                {
+                    "text": "Geosphere, hydrosphere, atmosphere, biosphere",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The geosphere (land), hydrosphere (water), atmosphere (air), and biosphere (living things) are the four major spheres that make up Earth."
+                },
+                {
+                    "text": "Lithosphere, oceanosphere, airosphere, lifesphere",
+                    "isCorrect": 0,
+                    "explanation": "While these terms try to describe similar concepts, these are not the correct scientific terms for Earth's spheres. The correct terms are geosphere, hydrosphere, atmosphere, and biosphere."
                 }
             ],
             "funFact": "The four spheres of Earth are constantly interacting with each other! For example, when it rains (hydrosphere), the water erodes rocks (geosphere), which can affect plant growth (biosphere), while water vapor rises into the air (atmosphere)."
         },
         {
+            "id": 5,
+            "text": "Which natural process is primarily responsible for creating mushroom-shaped rock formations in desert regions?",
+            "options": [
+                {
+                    "text": "Temperature changes that crack the bottom of rocks",
+                    "isCorrect": 0,
+                    "explanation": "While temperature changes can cause rocks to crack through freeze-thaw cycles, this process affects rocks more uniformly and doesn't specifically target the bottom portion."
+                },
+                {
+                    "text": "Wind carrying sand particles that erode the bottom of rocks more than the top",
+                    "isCorrect": 1,
+                    "explanation": "Wind-blown sand particles strike the lower portions of rocks more frequently than the top, causing greater erosion at the base and creating the distinctive mushroom shape over time."
+                },
+                {
+                    "text": "Plant roots that break down the bottom of rocks",
+                    "isCorrect": 0,
+                    "explanation": "Plant roots can cause weathering, but desert regions typically have sparse vegetation, and root weathering would not create the characteristic mushroom shape."
+                },
+                {
+                    "text": "Rainfall that dissolves the bottom of rocks faster than the top",
+                    "isCorrect": 0,
+                    "explanation": "While rainfall can cause erosion, it typically affects rocks more uniformly and is not the primary cause of mushroom-shaped formations in desert regions."
+                }
+            ],
+            "funFact": "Similar mushroom-shaped rock formations can be found worldwide, including the famous Mushroom Rock State Park in Kansas, USA. These formations are also known as 'hoodoos' or 'pedestal rocks' and can take thousands of years to form through the persistent action of wind erosion."
+        },
+        {
             "id": 6,
+            "text": "Scientists are studying how wind affects rock formations in a desert. They observe that when wind carries sand particles at different speeds, it causes different amounts of erosion on the rocks. What would likely happen to rock formations when exposed to faster wind speeds compared to slower wind speeds?",
+            "options": [
+                {
+                    "text": "Wind speed would have no effect on the rate of rock erosion",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. Wind speed directly affects the force with which sand particles impact rocks, which influences the rate of erosion"
+                },
+                {
+                    "text": "Faster winds would cause more rapid erosion and create deeper carved patterns in the rocks",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Higher wind speeds carry sand particles with greater force, leading to increased erosion and more pronounced carving of the rock formations"
+                },
+                {
+                    "text": "Faster winds would actually protect rocks from erosion",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. Faster winds increase erosion by carrying sand particles with greater force - they don't protect rocks"
+                },
+                {
+                    "text": "Only extremely slow winds can cause rock erosion",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. While slow winds can cause erosion over very long periods, faster winds generally cause more rapid erosion due to greater force of impact"
+                }
+            ],
+            "funFact": "The process of wind erosion has created some of Earth's most spectacular natural formations, like the mushroom rocks found in many deserts. These unique shapes form when strong winds carrying sand erode the softer bottom portions of rocks more quickly than the harder top portions!"
+        },
+        {
+            "id": 7,
             "text": "A scientist is studying soil erosion on a hillside during rainfall. She sets up four test plots of equal size and slope, but with different amounts of grass coverage: Plot A has no grass (0% coverage), Plot B has scattered grass (25% coverage), Plot C has moderate grass (50% coverage), and Plot D has dense grass (75% coverage). After a heavy rainstorm, which plot would likely show the most soil erosion?",
             "options": [
                 {
-                    "text": "Plot A (0% grass coverage)",
-                    "isCorrect": 1,
-                    "explanation": "With no grass coverage, the soil is fully exposed to rainfall impact and water runoff, leading to maximum erosion. Plant roots help hold soil in place, and grass cover reduces the direct impact of raindrops on soil."
+                    "text": "Plot D (75% grass coverage)",
+                    "isCorrect": 0,
+                    "explanation": "Dense grass coverage provides the most protection against soil erosion through extensive root systems and significant reduction of raindrop impact, resulting in the least amount of erosion among all plots."
                 },
                 {
                     "text": "Plot B (25% grass coverage)",
@@ -147,20 +179,74 @@
                     "explanation": "While this plot would experience significant erosion, the scattered grass provides some protection to the soil through root systems and reduced raindrop impact, making erosion less severe than Plot A."
                 },
                 {
+                    "text": "Plot A (0% grass coverage)",
+                    "isCorrect": 1,
+                    "explanation": "With no grass coverage, the soil is fully exposed to rainfall impact and water runoff, leading to maximum erosion. Plant roots help hold soil in place, and grass cover reduces the direct impact of raindrops on soil."
+                },
+                {
                     "text": "Plot C (50% grass coverage)",
                     "isCorrect": 0,
                     "explanation": "Moderate grass coverage provides substantial protection against soil erosion through both root systems and reduced raindrop impact, resulting in less erosion than plots with less vegetation."
-                },
-                {
-                    "text": "Plot D (75% grass coverage)",
-                    "isCorrect": 0,
-                    "explanation": "Dense grass coverage provides the most protection against soil erosion through extensive root systems and significant reduction of raindrop impact, resulting in the least amount of erosion among all plots."
                 }
             ],
             "funFact": "A single raindrop hitting bare soil can splash particles up to 2 feet away and 2 feet high! This is why having plant coverage is so important - plants act like tiny umbrellas, breaking the fall of raindrops and preventing this splash erosion."
         },
         {
-            "id": 7,
+            "id": 8,
+            "text": "A student is investigating how the steepness of a hill affects soil erosion during rainfall. The student creates three identical soil slopes at different angles: 15\u00b0, 30\u00b0, and 45\u00b0. Equal amounts of water are poured from the same height onto each slope. Which pattern of soil erosion would the student most likely observe?",
+            "options": [
+                {
+                    "text": "The steepest slope (45\u00b0) will show the least soil erosion because water runs off too quickly to cause damage",
+                    "isCorrect": 0,
+                    "explanation": "Steeper slopes actually increase erosion as water moves faster and has more energy to carry soil particles"
+                },
+                {
+                    "text": "All slopes will show the same amount of erosion since the same amount of water was used",
+                    "isCorrect": 0,
+                    "explanation": "The angle of the slope affects water velocity and erosion rates, even when the same amount of water is used"
+                },
+                {
+                    "text": "The gentlest slope (15\u00b0) will show the most erosion because water has more time to soak into the soil",
+                    "isCorrect": 0,
+                    "explanation": "While water does have more time to soak in on gentle slopes, this actually reduces erosion by slowing water flow and allowing more infiltration"
+                },
+                {
+                    "text": "The steepest slope (45\u00b0) will show the most soil erosion, with decreasing erosion on gentler slopes",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Steeper slopes lead to faster water flow, which increases the water's energy and ability to erode and transport soil"
+                }
+            ],
+            "funFact": "The steepest natural slope that loose soil can maintain without collapsing is called the 'angle of repose' and is typically between 30-35 degrees. This is why many natural hillsides and sand dunes have similar slope angles!"
+        },
+        {
+            "id": 9,
+            "text": "A stream flowing at different speeds carries different sizes of rocks and sediments. Which of the following statements correctly describes the relationship between stream speed and the size of rocks it can transport?",
+            "options": [
+                {
+                    "text": "Slow-moving streams carry larger rocks while fast-moving streams carry smaller rocks",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. This is the opposite of what actually happens. Slower water has less energy and cannot transport large rocks."
+                },
+                {
+                    "text": "Fast-moving streams can carry larger rocks while slow-moving streams can only carry smaller rocks and sediments",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Faster water has more energy and can transport larger, heavier rocks. Slower water has less energy and can only move smaller, lighter materials."
+                },
+                {
+                    "text": "Stream speed has no effect on the size of rocks it can transport",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. The speed of water directly affects its ability to transport materials - faster water can move larger objects due to increased energy."
+                },
+                {
+                    "text": "All streams can carry rocks of any size regardless of their speed",
+                    "isCorrect": 0,
+                    "explanation": "Incorrect. The size of materials a stream can transport depends on its speed and energy - not all streams can move all sizes of rocks."
+                }
+            ],
+            "funFact": "The largest rocks moved by streams are called 'boulders' and can weigh several tons! During flash floods, when water speeds are extremely high, these enormous rocks can be moved downstream, reshaping the landscape dramatically."
+        },
+        {
+            "id": 10,
             "text": "A scientist is studying how different types of rocks break down during freeze-thaw cycles in a cold climate. The scientist places three rock samples in water and repeatedly freezes and thaws them over several weeks. Which observation would best demonstrate the effects of weathering on these rocks?",
             "options": [
                 {
@@ -187,121 +273,13 @@
             "funFact": "In areas with frequent freeze-thaw cycles, like mountains or cold regions, a single crack in a rock can grow larger over time as water repeatedly freezes and expands by about 9% of its volume, eventually splitting the rock apart - a process called 'frost wedging'!"
         },
         {
-            "id": 8,
-            "text": "A student is investigating how the steepness of a hill affects soil erosion during rainfall. The student creates three identical soil slopes at different angles: 15\u00b0, 30\u00b0, and 45\u00b0. Equal amounts of water are poured from the same height onto each slope. Which pattern of soil erosion would the student most likely observe?",
-            "options": [
-                {
-                    "text": "The steepest slope (45\u00b0) will show the least soil erosion because water runs off too quickly to cause damage",
-                    "isCorrect": 0,
-                    "explanation": "Steeper slopes actually increase erosion as water moves faster and has more energy to carry soil particles"
-                },
-                {
-                    "text": "The steepest slope (45\u00b0) will show the most soil erosion, with decreasing erosion on gentler slopes",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Steeper slopes lead to faster water flow, which increases the water's energy and ability to erode and transport soil"
-                },
-                {
-                    "text": "All slopes will show the same amount of erosion since the same amount of water was used",
-                    "isCorrect": 0,
-                    "explanation": "The angle of the slope affects water velocity and erosion rates, even when the same amount of water is used"
-                },
-                {
-                    "text": "The gentlest slope (15\u00b0) will show the most erosion because water has more time to soak into the soil",
-                    "isCorrect": 0,
-                    "explanation": "While water does have more time to soak in on gentle slopes, this actually reduces erosion by slowing water flow and allowing more infiltration"
-                }
-            ],
-            "funFact": "The steepest natural slope that loose soil can maintain without collapsing is called the 'angle of repose' and is typically between 30-35 degrees. This is why many natural hillsides and sand dunes have similar slope angles!"
-        },
-        {
-            "id": 9,
-            "text": "A steep hillside is experiencing soil erosion during heavy rains. Which type of plant coverage would be most effective in preventing soil erosion on this hillside?",
-            "options": [
-                {
-                    "text": "Dense grass with deep roots covering the entire hillside",
-                    "isCorrect": 1,
-                    "explanation": "Dense grass with deep roots is most effective because the roots hold soil particles together, while the grass coverage protects the soil surface from rain impact and slows water flow."
-                },
-                {
-                    "text": "A few scattered trees with no ground cover",
-                    "isCorrect": 0,
-                    "explanation": "Scattered trees alone provide minimal protection as large areas of exposed soil between trees remain vulnerable to erosion from rainwater."
-                },
-                {
-                    "text": "Small annual flowers with shallow roots",
-                    "isCorrect": 0,
-                    "explanation": "Annual flowers with shallow roots provide limited protection since their roots don't penetrate deep enough to hold soil effectively during heavy rains."
-                },
-                {
-                    "text": "No vegetation to allow natural erosion processes",
-                    "isCorrect": 0,
-                    "explanation": "Having no vegetation leaves soil completely exposed to rain and running water, leading to maximum erosion and potential landslides."
-                }
-            ],
-            "funFact": "The root systems of some prairie grasses can extend more than 15 feet deep into the soil! This extensive root network was one reason why the American Great Plains maintained its rich topsoil for thousands of years before being converted to farmland."
-        },
-        {
-            "id": 10,
-            "text": "A scientist is studying how different amounts of plant roots affect soil stability on a hillside. Which statement best describes the relationship between plant roots and soil erosion?",
-            "options": [
-                {
-                    "text": "More plant roots in the soil lead to decreased soil erosion because roots hold soil particles together",
-                    "isCorrect": 1,
-                    "explanation": "Plant roots create a network that binds soil particles together, preventing them from being easily washed or blown away. This increases soil stability and reduces erosion."
-                },
-                {
-                    "text": "More plant roots in the soil lead to increased soil erosion because roots break up the soil",
-                    "isCorrect": 0,
-                    "explanation": "While roots do grow through soil, they don't increase erosion. Instead, they create a stabilizing network that helps prevent erosion."
-                },
-                {
-                    "text": "The amount of plant roots has no effect on soil erosion because only water and wind cause erosion",
-                    "isCorrect": 0,
-                    "explanation": "Plant roots play a significant role in preventing erosion. They work alongside other factors to protect soil from water and wind erosion."
-                },
-                {
-                    "text": "More plant roots in the soil only affect erosion during rainy seasons",
-                    "isCorrect": 0,
-                    "explanation": "Plant roots protect against erosion year-round, not just during rainy seasons. They help prevent both water and wind erosion throughout the year."
-                }
-            ],
-            "funFact": "The largest known living root system belongs to a colony of quaking aspen trees in Utah, covering 106 acres underground! This massive root system not only connects the trees but also helps prevent soil erosion across the entire area."
-        },
-        {
             "id": 11,
-            "text": "In a mountainous region, scientists are studying how temperature changes affect rock weathering. They observe that during winter, water seeps into small cracks in rocks during the day when temperatures are above freezing, and then freezes at night when temperatures drop below freezing. What is the most likely effect of this repeated freeze-thaw cycle on the rocks?",
-            "options": [
-                {
-                    "text": "The rocks will become larger as water expands when it freezes",
-                    "isCorrect": 0,
-                    "explanation": "While water does expand when it freezes, this process breaks rocks apart rather than making them larger."
-                },
-                {
-                    "text": "The rocks will gradually break into smaller pieces",
-                    "isCorrect": 1,
-                    "explanation": "When water freezes in rock cracks, it expands and creates pressure that gradually breaks the rock apart through physical weathering."
-                },
-                {
-                    "text": "The rocks will become smoother and more rounded",
-                    "isCorrect": 0,
-                    "explanation": "Smoothing and rounding of rocks typically occurs through erosion from flowing water or wind, not from freeze-thaw cycles."
-                },
-                {
-                    "text": "The rocks will become more resistant to future weathering",
-                    "isCorrect": 0,
-                    "explanation": "Freeze-thaw cycles weaken rocks over time rather than making them more resistant to weathering."
-                }
-            ],
-            "funFact": "This type of weathering, called frost wedging, is particularly common in mountainous regions and can even crack massive boulders into pieces over time. The pressure from freezing water can be as strong as 2,000 pounds per square inch!"
-        },
-        {
-            "id": 12,
             "text": "In a mountain valley region, fog frequently forms in the morning but tends to stay concentrated on one side of the mountain. What best explains why the fog doesn't spread evenly across both sides of the mountain?",
             "options": [
                 {
-                    "text": "The mountain acts as a physical barrier that blocks the movement of fog, preventing it from spreading to the other side",
-                    "isCorrect": 1,
-                    "explanation": "Mountains act as geographic barriers that block the flow of air and water vapor. When fog encounters a mountain, it cannot easily pass over or around it, causing it to accumulate on one side."
+                    "text": "The fog is too heavy to rise over the mountain",
+                    "isCorrect": 0,
+                    "explanation": "While fog is made of water droplets, its uneven distribution is not due to its weight but rather the mountain acting as a physical barrier to air flow."
                 },
                 {
                     "text": "Fog only forms on the shadier side of mountains where there is less sunlight",
@@ -309,53 +287,112 @@
                     "explanation": "While temperature differences can affect fog formation, the uneven distribution is primarily due to the physical blocking effect of the mountain rather than shade differences."
                 },
                 {
+                    "text": "The mountain acts as a physical barrier that blocks the movement of fog, preventing it from spreading to the other side",
+                    "isCorrect": 1,
+                    "explanation": "Mountains act as geographic barriers that block the flow of air and water vapor. When fog encounters a mountain, it cannot easily pass over or around it, causing it to accumulate on one side."
+                },
+                {
                     "text": "Trees and vegetation on the mountain absorb the fog before it can reach the other side",
                     "isCorrect": 0,
                     "explanation": "While vegetation can interact with fog, it does not significantly absorb or prevent fog from moving to the other side. The mountain's physical structure is the main barrier."
-                },
-                {
-                    "text": "The fog is too heavy to rise over the mountain",
-                    "isCorrect": 0,
-                    "explanation": "While fog is made of water droplets, its uneven distribution is not due to its weight but rather the mountain acting as a physical barrier to air flow."
                 }
             ],
             "funFact": "This phenomenon of mountains blocking fog is similar to what creates 'rain shadows' - areas where one side of a mountain range receives much more rainfall than the other side. The Hawaiian islands are a perfect example, with their windward sides being lush and rainy while their leeward sides are typically much drier."
         },
         {
-            "id": 13,
-            "text": "A scientist is studying erosion rates at three different locations. Site A has strong winds blowing across bare rocks. Site B has a gentle stream flowing over rocks with dense vegetation cover. Site C has fast-moving water flowing over exposed rocks. At which site would you expect to observe the highest rate of erosion?",
+            "id": 12,
+            "text": "A student is studying how wind erosion creates unique rock formations in a desert. They notice that strong winds carrying sand particles are gradually wearing away the lower portion of large rocks more than their tops, creating mushroom-shaped formations. Which combination of Earth's spheres are primarily interacting in this process?",
             "options": [
                 {
-                    "text": "Site A with strong winds and bare rocks",
-                    "isCorrect": 0,
-                    "explanation": "While wind can cause erosion, it typically causes slower erosion compared to water, especially fast-moving water."
-                },
-                {
-                    "text": "Site B with gentle stream and vegetation",
-                    "isCorrect": 0,
-                    "explanation": "The presence of vegetation helps protect rocks from erosion, and gentle water flow causes minimal erosion compared to fast-moving water."
-                },
-                {
-                    "text": "Site C with fast-moving water and exposed rocks",
+                    "text": "Atmosphere and geosphere",
                     "isCorrect": 1,
-                    "explanation": "Fast-moving water is one of the most powerful erosional forces, especially when rocks are exposed with no vegetation to protect them."
+                    "explanation": "Wind (atmosphere) carrying sand particles erodes the rock (geosphere) over time, creating these distinctive formations. This is a direct interaction between air movement and rock surfaces."
+                },
+                {
+                    "text": "Geosphere and hydrosphere",
+                    "isCorrect": 0,
+                    "explanation": "While water erosion is important in many geological processes, the formation of mushroom rocks in deserts is specifically caused by wind erosion, not water."
+                },
+                {
+                    "text": "Hydrosphere and biosphere",
+                    "isCorrect": 0,
+                    "explanation": "While water and living things can cause erosion, this specific type of mushroom rock formation is caused by wind erosion, not by water or biological processes."
+                },
+                {
+                    "text": "Biosphere and atmosphere",
+                    "isCorrect": 0,
+                    "explanation": "Although living things can interact with air, the formation of mushroom rocks is primarily a result of wind erosion on rock surfaces, not biological processes."
                 }
             ],
-            "funFact": "The Colorado River carved the Grand Canyon over millions of years through water erosion. In some places, the canyon is over a mile deep, showing the incredible power of flowing water to shape our landscape!"
+            "funFact": "Mushroom rocks formed by wind erosion can be found in various desert regions worldwide. Notable examples exist in Mushroom Rock State Park in Kansas. These formations develop when wind-blown sand erodes the softer rock at the base while leaving the harder cap rock intact, creating their distinctive shape. This process can take thousands of years."
+        },
+        {
+            "id": 13,
+            "text": "A team of scientists is studying soil erosion on different hillsides. They create identical soil slopes with different angles and pour the same amount of water down each slope. Which statement best describes how the angle of the slope affects soil erosion?",
+            "options": [
+                {
+                    "text": "A flatter slope will result in more soil erosion because water stays in contact with soil longer",
+                    "isCorrect": 0,
+                    "explanation": "While water does stay in contact with soil longer on flatter slopes, the slower water movement actually results in less erosion due to decreased energy and speed"
+                },
+                {
+                    "text": "The angle of the slope has no effect on soil erosion",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The slope angle significantly affects water speed and energy, which directly impacts the amount of soil erosion"
+                },
+                {
+                    "text": "A steeper slope will result in more soil erosion because water flows faster downhill",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. On steeper slopes, water moves with greater speed and energy, carrying more soil particles downhill and causing increased erosion"
+                },
+                {
+                    "text": "Soil erosion only occurs on completely vertical slopes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Erosion occurs on slopes of all angles, though the rate varies with the steepness of the slope"
+                }
+            ],
+            "funFact": "The steepest natural slope possible for loose, dry sand is about 34 degrees, known as the 'angle of repose.' Any steeper, and the sand will naturally slide downhill under its own weight!"
         },
         {
             "id": 14,
-            "text": "In a classroom experiment, students observed that when hot water was added to one side of an aquarium with a sand mountain in the middle, the air temperature above the sand was affected. What would happen to the air temperature on the opposite side of the sand mountain?",
+            "text": "Wind erosion can shape rocks in unique ways. Which of the following best explains how wind and sand particles shape mushroom rocks?",
             "options": [
                 {
-                    "text": "The air temperature would remain unchanged since the sand mountain blocks the heat transfer",
-                    "isCorrect": 1,
-                    "explanation": "The sand mountain acts as a barrier, preventing the warm air from moving to the other side, demonstrating how land formations can affect local air temperatures"
+                    "text": "Wind blows stronger at the top of the rock, causing more erosion at the top than the bottom",
+                    "isCorrect": 0,
+                    "explanation": "While wind may be stronger at the top, it's actually the sand particles carried by wind near the ground that cause the most erosion, not the wind itself."
                 },
+                {
+                    "text": "Rain water collects at the bottom of the rock, dissolving the rock's base",
+                    "isCorrect": 0,
+                    "explanation": "While water can cause erosion, mushroom rocks are primarily formed by wind-driven sand particles, not by water erosion."
+                },
+                {
+                    "text": "Wind carries sand particles close to the ground, causing more erosion at the bottom of the rock than the top",
+                    "isCorrect": 1,
+                    "explanation": "Wind typically carries sand particles closer to the ground. These particles continuously hit and erode the bottom part of the rock more than the top, creating the distinctive mushroom shape over time."
+                },
+                {
+                    "text": "Plants growing at the base of the rock weaken the rock structure",
+                    "isCorrect": 0,
+                    "explanation": "While plants can affect rock weathering, mushroom rocks are typically formed in desert environments where wind-driven sand particles cause the distinctive erosion pattern."
+                }
+            ],
+            "funFact": "Mushroom rocks, also known as pedestal rocks, can be found in desert regions worldwide. One famous example is in Goblin Valley State Park, Utah, where hundreds of mushroom-shaped rocks create an otherworldly landscape!"
+        },
+        {
+            "id": 15,
+            "text": "In a classroom experiment, students observed that when hot water was added to one side of an aquarium with a sand mountain in the middle, the air temperature above the sand was affected. What would happen to the air temperature on the opposite side of the sand mountain?",
+            "options": [
                 {
                     "text": "The air temperature would increase just as much as the side with hot water",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because the sand mountain blocks the transfer of heat, preventing equal warming on both sides"
+                },
+                {
+                    "text": "The air temperature would remain unchanged since the sand mountain blocks the heat transfer",
+                    "isCorrect": 1,
+                    "explanation": "The sand mountain acts as a barrier, preventing the warm air from moving to the other side, demonstrating how land formations can affect local air temperatures"
                 },
                 {
                     "text": "The air temperature would increase more than the side with hot water",
@@ -369,33 +406,6 @@
                 }
             ],
             "funFact": "This principle of land formations affecting local temperatures helps explain why cities separated by mountains can have very different weather patterns, even when they're relatively close to each other!"
-        },
-        {
-            "id": 15,
-            "text": "In the formation of mushroom-shaped rocks in desert areas, why does wind erosion affect the bottom of the rock more than the top?",
-            "options": [
-                {
-                    "text": "Sand particles carried by wind are concentrated closer to the ground",
-                    "isCorrect": 1,
-                    "explanation": "Wind carries more sand particles near the ground level, causing increased erosion at the base of rocks compared to their tops"
-                },
-                {
-                    "text": "The top of the rock is harder than the bottom",
-                    "isCorrect": 0,
-                    "explanation": "Rock composition is typically uniform throughout. The difference in erosion is due to the distribution of sand particles in the wind, not rock hardness"
-                },
-                {
-                    "text": "Sunlight weakens the bottom of the rock more",
-                    "isCorrect": 0,
-                    "explanation": "Sunlight exposure is actually greater at the top of rocks. The differential erosion is caused by wind-carried sand particles, not sunlight"
-                },
-                {
-                    "text": "Rain hits the bottom of the rock more forcefully",
-                    "isCorrect": 0,
-                    "explanation": "Rain typically affects the top of rocks more than the bottom. The mushroom shape is created by wind-blown sand, not rainfall"
-                }
-            ],
-            "funFact": "These fascinating mushroom-shaped rocks, also known as 'hoodoos' or 'pedestal rocks', can be found in many desert regions worldwide, including the famous Goblin Valley State Park in Utah!"
         }
     ]
 }

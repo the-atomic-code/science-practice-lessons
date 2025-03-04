@@ -4,44 +4,71 @@
     "questions": [
         {
             "id": 1,
-            "text": "Why do members of the same monkey species often have different fur colors and facial features?",
+            "text": "Which statement about traits in living things is most accurate?",
             "options": [
                 {
-                    "text": "These differences help monkeys identify and recognize each other",
+                    "text": "Traits are always identical between parents and their offspring",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because while offspring inherit traits from their parents, these traits are not exactly identical - there are usually small variations"
+                },
+                {
+                    "text": "Traits are features that help organisms survive and are passed down from parents to offspring, though offspring may show some variation in these traits",
                     "isCorrect": 1,
-                    "explanation": "Different physical traits like fur color and facial features help monkeys tell each other apart, just like how we can recognize different people by their unique features."
+                    "explanation": "This is correct because traits are inheritable features that help organisms survive, and while offspring inherit traits from their parents, they may show variations in how these traits appear"
                 },
                 {
-                    "text": "The differences are caused by what the monkeys eat",
+                    "text": "Traits in offspring are completely different from their parents",
                     "isCorrect": 0,
-                    "explanation": "A monkey's diet doesn't determine its physical traits like fur color or facial features. These traits are inherited from parents."
+                    "explanation": "This is incorrect because offspring inherit traits from their parents and are very similar to them, though not exactly identical"
                 },
                 {
-                    "text": "Older monkeys look different from younger ones",
+                    "text": "Traits can only be passed down from the mother to the offspring",
                     "isCorrect": 0,
-                    "explanation": "While age can affect appearance, the variations in fur color and facial features exist between monkeys of the same age too."
-                },
-                {
-                    "text": "Male and female monkeys need to look different",
-                    "isCorrect": 0,
-                    "explanation": "While there can be differences between males and females, variations in fur color and facial features exist within the same gender too."
+                    "explanation": "This is incorrect because traits can be inherited from both parents, not just the mother"
                 }
             ],
-            "funFact": "Just like how every human has unique fingerprints, many primates including monkeys have unique face patterns! Scientists can use facial recognition technology to identify and track individual monkeys in the wild, helping them study monkey behavior and social relationships."
+            "funFact": "The color of a Siamese cat's fur is actually determined by temperature! The enzyme that controls fur color only works in cooler areas of the body, which is why Siamese cats have darker fur on their ears, face, paws, and tail. This is a fascinating example of how traits can be expressed differently even in the same animal."
         },
         {
             "id": 2,
-            "text": "A baby giraffe is born in a zoo. Which statement best describes how the baby giraffe will compare to its parents?",
+            "text": "When two brown rabbits have babies, which statement best describes how the baby bunnies might look?",
             "options": [
                 {
-                    "text": "The baby giraffe will look exactly like its mother",
-                    "isCorrect": 0,
-                    "explanation": "Offspring inherit traits from both parents, not just one parent, and they are never exact copies."
+                    "text": "Each baby bunny will have some traits from both parents, making them similar but not identical to either parent",
+                    "isCorrect": 1,
+                    "explanation": "Offspring inherit a mix of traits from both parents, which is why siblings can look different from each other and their parents."
                 },
+                {
+                    "text": "All baby bunnies will look exactly like their mother",
+                    "isCorrect": 0,
+                    "explanation": "Baby bunnies inherit traits from both parents, not just the mother."
+                },
+                {
+                    "text": "All baby bunnies will look exactly like their father",
+                    "isCorrect": 0,
+                    "explanation": "Baby bunnies inherit traits from both parents, not just the father."
+                },
+                {
+                    "text": "All baby bunnies will look exactly the same as each other",
+                    "isCorrect": 0,
+                    "explanation": "Even siblings get different combinations of traits from their parents, so they won't look exactly alike."
+                }
+            ],
+            "funFact": "A female rabbit (doe) can have up to 12 baby bunnies in one litter, and each baby bunny might have slightly different features like ear length, fur patterns, or body size due to the unique combination of traits they inherit from their parents!"
+        },
+        {
+            "id": 3,
+            "text": "A baby giraffe is born in a zoo. Which statement best describes how the baby giraffe will compare to its parents?",
+            "options": [
                 {
                     "text": "The baby giraffe will be very similar to its parents but have some unique differences",
                     "isCorrect": 1,
                     "explanation": "Young animals inherit traits from both parents but have their own unique combination of these traits, making them similar but not identical to their parents."
+                },
+                {
+                    "text": "The baby giraffe will only have traits from its father",
+                    "isCorrect": 0,
+                    "explanation": "Offspring inherit a mix of traits from both parents, not just from one parent."
                 },
                 {
                     "text": "The baby giraffe will look completely different from its parents",
@@ -49,96 +76,177 @@
                     "explanation": "While offspring have some unique traits, they still share many physical features with their parents and are clearly recognizable as the same type of animal."
                 },
                 {
-                    "text": "The baby giraffe will only have traits from its father",
+                    "text": "The baby giraffe will look exactly like its mother",
                     "isCorrect": 0,
-                    "explanation": "Offspring inherit a mix of traits from both parents, not just from one parent."
+                    "explanation": "Offspring inherit traits from both parents, not just one parent, and they are never exact copies."
                 }
             ],
             "funFact": "Giraffes have unique spot patterns that are as distinctive as human fingerprints - no two giraffes have exactly the same pattern! While baby giraffes inherit the general spotting trait from their parents, their specific pattern is unique to them."
         },
         {
-            "id": 3,
-            "text": "A gardener is growing tomato plants in their backyard. The gardener notices that while all the plants are clearly tomato plants, their leaves show some differences. Which statement best explains these variations in the tomato plants' leaves?",
+            "id": 4,
+            "text": "Which trait is shared by ALL chameleons as part of their basic body structure?",
             "options": [
                 {
-                    "text": "Plants of the same type can have small variations in their traits while still being recognizable as the same kind of plant",
+                    "text": "Blue-colored patterns",
+                    "isCorrect": 0,
+                    "explanation": "While some chameleons may have blue coloring, the specific colors and patterns vary between individuals and species. This is not a trait shared by all chameleons."
+                },
+                {
+                    "text": "Long tails",
+                    "isCorrect": 0,
+                    "explanation": "While chameleons have tails, the length can vary significantly between individuals and species. Some have short tails while others have long tails."
+                },
+                {
+                    "text": "Scales on their skin",
                     "isCorrect": 1,
-                    "explanation": "Plants of the same species can show natural variations in traits like leaf size and shape while maintaining the basic characteristics that identify them as that type of plant"
+                    "explanation": "All chameleons have scales on their skin - this is a fundamental trait shared by every chameleon regardless of size, color or pattern variations."
                 },
                 {
-                    "text": "The plants must be different types of vegetables since their leaves are not exactly the same",
+                    "text": "Large body size",
                     "isCorrect": 0,
-                    "explanation": "Having some differences in leaves doesn't mean they are different types of plants - variations are normal within the same plant type"
-                },
-                {
-                    "text": "All plants of the same type must have exactly identical leaves with no variations",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because even plants of the same type naturally show some variations in their features while still being the same kind of plant"
-                },
-                {
-                    "text": "The plants with different leaves must be diseased or unhealthy",
-                    "isCorrect": 0,
-                    "explanation": "Natural variations in leaf traits don't indicate disease - it's normal for plants of the same type to show some differences"
+                    "explanation": "Body size varies among chameleons - some species are quite small while others are larger. Size is not a universal trait shared by all chameleons."
                 }
             ],
-            "funFact": "Plant leaves can adapt their size and shape based on environmental conditions like sunlight and water availability. This ability to show variations while maintaining their core characteristics helps plants survive in different conditions!"
+            "funFact": "Chameleons have specialized transparent scales that protect their bodies. Their famous color-changing ability comes from special cells called chromatophores that lie beneath the skin surface, not within the scales themselves."
         },
         {
-            "id": 4,
+            "id": 5,
             "text": "In a family of chameleons, which of the following differences might you observe between siblings?",
             "options": [
-                {
-                    "text": "They might have different tail lengths and scale patterns",
-                    "isCorrect": 1,
-                    "explanation": "Chameleons from the same family can show variations in physical features like tail length and scale patterns while still maintaining their basic chameleon traits."
-                },
                 {
                     "text": "One might have scales while another has fur",
                     "isCorrect": 0,
                     "explanation": "All chameleons have scales - this is a fundamental trait of chameleons. Siblings cannot have completely different body coverings like scales versus fur."
                 },
                 {
-                    "text": "One might have six legs while another has four legs",
-                    "isCorrect": 0,
-                    "explanation": "The number of legs is a consistent trait in chameleons - they all have four legs. Variations between siblings occur in features like size and color, not in fundamental body structures."
+                    "text": "They might have different tail lengths and scale patterns",
+                    "isCorrect": 1,
+                    "explanation": "Chameleons from the same family can show variations in physical features like tail length and scale patterns while still maintaining their basic chameleon traits."
                 },
                 {
                     "text": "One might breathe underwater while another breathes air",
                     "isCorrect": 0,
                     "explanation": "All chameleons breathe air using lungs - this is a fundamental trait that doesn't vary between siblings. Variations occur in physical features, not in basic survival functions."
+                },
+                {
+                    "text": "One might have six legs while another has four legs",
+                    "isCorrect": 0,
+                    "explanation": "The number of legs is a consistent trait in chameleons - they all have four legs. Variations between siblings occur in features like size and color, not in fundamental body structures."
                 }
             ],
             "funFact": "Some chameleon species can change color not just for camouflage, but also to regulate their body temperature and communicate with other chameleons. The color changes are possible because of special cells called chromatophores in their skin."
         },
         {
-            "id": 5,
-            "text": "Which statement about traits in living things is most accurate?",
+            "id": 6,
+            "text": "A chameleon named Coco has a long tail and bright orange scales. Another chameleon named Leo has a short tail and blue scales. If they have a baby chameleon, which combination of traits could their baby have?",
             "options": [
                 {
-                    "text": "Traits are features that help organisms survive and are passed down from parents to offspring, though offspring may show some variation in these traits",
+                    "text": "Purple scales and medium tail",
+                    "isCorrect": 0,
+                    "explanation": "The baby can only inherit traits that its parents have. Since neither parent has purple scales, the baby cannot have purple scales."
+                },
+                {
+                    "text": "Both long and short tail",
+                    "isCorrect": 0,
+                    "explanation": "A baby chameleon can only have one type of tail - either long like Coco's or short like Leo's, not both at the same time."
+                },
+                {
+                    "text": "Short tail and orange scales",
                     "isCorrect": 1,
-                    "explanation": "This is correct because traits are inheritable features that help organisms survive, and while offspring inherit traits from their parents, they may show variations in how these traits appear"
+                    "explanation": "The baby can inherit the short tail from Leo and orange scales from Coco since offspring get a mix of traits from both parents."
                 },
                 {
-                    "text": "Traits are always identical between parents and their offspring",
+                    "text": "No tail and green scales",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because while offspring inherit traits from their parents, these traits are not exactly identical - there are usually small variations"
-                },
-                {
-                    "text": "Traits can only be passed down from the mother to the offspring",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because traits can be inherited from both parents, not just the mother"
-                },
-                {
-                    "text": "Traits in offspring are completely different from their parents",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because offspring inherit traits from their parents and are very similar to them, though not exactly identical"
+                    "explanation": "All chameleons have tails as it's a trait shared by all chameleons. Also, the baby cannot have green scales since neither parent has green scales."
                 }
             ],
-            "funFact": "The color of a Siamese cat's fur is actually determined by temperature! The enzyme that controls fur color only works in cooler areas of the body, which is why Siamese cats have darker fur on their ears, face, paws, and tail. This is a fascinating example of how traits can be expressed differently even in the same animal."
+            "funFact": "Chameleons don't just inherit colors from their parents - they can also change their color based on temperature, mood, and for communication with other chameleons!"
         },
         {
-            "id": 6,
+            "id": 7,
+            "text": "In a family of Siamese cats, the mother has blue eyes and dark-tipped ears, while the father has brown eyes and light-tipped ears. When they have kittens, which pattern of traits is most likely to be seen?",
+            "options": [
+                {
+                    "text": "All kittens will look exactly like the father",
+                    "isCorrect": 0,
+                    "explanation": "Offspring inherit traits from both parents, not just one parent."
+                },
+                {
+                    "text": "Each kitten will have a unique combination of traits from both parents",
+                    "isCorrect": 1,
+                    "explanation": "Young animals inherit a mix of traits from both parents, leading to variations among siblings while maintaining family resemblances."
+                },
+                {
+                    "text": "All kittens will look exactly like the mother",
+                    "isCorrect": 0,
+                    "explanation": "Offspring inherit traits from both parents, not just one parent."
+                },
+                {
+                    "text": "All kittens will look completely different from both parents",
+                    "isCorrect": 0,
+                    "explanation": "While offspring show variations, they maintain strong similarities to their parents and don't appear completely different."
+                }
+            ],
+            "funFact": "Siamese cats get their distinctive color points (dark ears, face, paws, and tail) due to a special gene that makes color appear more strongly in cooler parts of their body. This is why all Siamese kittens are born white - their body temperature is uniform at birth!"
+        },
+        {
+            "id": 8,
+            "text": "Which characteristics help identify ALL rabbits?",
+            "options": [
+                {
+                    "text": "White fur and pink eyes",
+                    "isCorrect": 0,
+                    "explanation": "These traits appear in some rabbits but are not required characteristics - rabbits can have different fur colors and eye colors while still being rabbits."
+                },
+                {
+                    "text": "Small size and ability to hop fast",
+                    "isCorrect": 0,
+                    "explanation": "Though rabbits can hop and many are small, size can vary within the species, and hopping speed is a behavior rather than a physical trait."
+                },
+                {
+                    "text": "Brown fur, long ears, and white tail",
+                    "isCorrect": 0,
+                    "explanation": "While some rabbits may have these features, fur color and exact ear length can vary among rabbits while still being part of the same species."
+                },
+                {
+                    "text": "Whiskers, two ears, soft fur, small tail, and large back feet",
+                    "isCorrect": 1,
+                    "explanation": "These are the defining physical traits that all rabbits share and help identify them as members of the rabbit species."
+                }
+            ],
+            "funFact": "Rabbits have nearly 360-degree vision but they can't see directly in front of their nose! This blind spot is why they constantly move their nose (called 'twitching') to help them sense what's right in front of them."
+        },
+        {
+            "id": 9,
+            "text": "A tomato plant with red fruits and broad leaves produced several offspring plants. Which combination of traits would be scientifically possible in one of its offspring plants?",
+            "options": [
+                {
+                    "text": "No fruits and no leaves",
+                    "isCorrect": 0,
+                    "explanation": "Offspring of a plant species must have the basic features of that species - a tomato plant offspring will always have fruits and leaves"
+                },
+                {
+                    "text": "Blue fruits with narrow leaves",
+                    "isCorrect": 0,
+                    "explanation": "Offspring traits typically stay within the natural range of the parent species - tomatoes cannot produce blue fruits or completely different leaf shapes"
+                },
+                {
+                    "text": "Red fruits and broad leaves identical in every way to the parent plant",
+                    "isCorrect": 0,
+                    "explanation": "Offspring plants are very similar to their parents but are never exactly identical, as there are always small variations in traits"
+                },
+                {
+                    "text": "Red fruits with slightly different leaf sizes",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because offspring inherit traits from parents but show small variations, like different leaf sizes while maintaining basic features like fruit color"
+                }
+            ],
+            "funFact": "While tomato offspring always look similar to their parents, wild tomatoes actually started out as tiny berries the size of peas! Through selective breeding over many generations, humans developed the large, juicy tomatoes we know today."
+        },
+        {
+            "id": 10,
             "text": "Which trait helps a giraffe survive in its natural habitat?",
             "options": [
                 {
@@ -165,142 +273,115 @@
             "funFact": "A giraffe's neck can be up to 8 feet long and contains the same number of vertebrae (seven) as a human neck - they're just much longer! This amazing adaptation allows giraffes to reach leaves up to 20 feet high in trees."
         },
         {
-            "id": 7,
-            "text": "Looking at three brown rabbits, two have long floppy ears and spotted fur, while one has short straight ears and plain fur. Which statement is most likely true about these rabbits?",
-            "options": [
-                {
-                    "text": "The two similar rabbits are siblings who inherited traits from the same parents, while the different rabbit is unrelated",
-                    "isCorrect": 1,
-                    "explanation": "Siblings often share similar traits inherited from their parents, making the two rabbits with matching features more likely to be related"
-                },
-                {
-                    "text": "All three rabbits must be siblings since they are all brown",
-                    "isCorrect": 0,
-                    "explanation": "Having one trait in common (brown color) doesn't necessarily mean animals are siblings - many unrelated rabbits can be brown"
-                },
-                {
-                    "text": "None of the rabbits can be related because they have some different features",
-                    "isCorrect": 0,
-                    "explanation": "Related animals can have some different features while still sharing others, as traits are inherited in different combinations from parents"
-                },
-                {
-                    "text": "The rabbit with different features must be the parent of the other two",
-                    "isCorrect": 0,
-                    "explanation": "Parents and offspring share some traits but can look quite different - having different features doesn't automatically indicate a parent-child relationship"
-                }
-            ],
-            "funFact": "Baby rabbits, called kits, can inherit over 30 different coat color variations from their parents, creating unique combinations even within the same litter!"
-        },
-        {
-            "id": 8,
-            "text": "A chameleon named Coco has a long tail and bright orange scales. Another chameleon named Leo has a short tail and blue scales. If they have a baby chameleon, which combination of traits could their baby have?",
-            "options": [
-                {
-                    "text": "Short tail and orange scales",
-                    "isCorrect": 1,
-                    "explanation": "The baby can inherit the short tail from Leo and orange scales from Coco since offspring get a mix of traits from both parents."
-                },
-                {
-                    "text": "Purple scales and medium tail",
-                    "isCorrect": 0,
-                    "explanation": "The baby can only inherit traits that its parents have. Since neither parent has purple scales, the baby cannot have purple scales."
-                },
-                {
-                    "text": "Both long and short tail",
-                    "isCorrect": 0,
-                    "explanation": "A baby chameleon can only have one type of tail - either long like Coco's or short like Leo's, not both at the same time."
-                },
-                {
-                    "text": "No tail and green scales",
-                    "isCorrect": 0,
-                    "explanation": "All chameleons have tails as it's a trait shared by all chameleons. Also, the baby cannot have green scales since neither parent has green scales."
-                }
-            ],
-            "funFact": "Chameleons don't just inherit colors from their parents - they can also change their color based on temperature, mood, and for communication with other chameleons!"
-        },
-        {
-            "id": 9,
-            "text": "In a desert environment, which trait variation would help a lizard survive better?",
-            "options": [
-                {
-                    "text": "Light-colored scales that match the sand",
-                    "isCorrect": 1,
-                    "explanation": "Light-colored scales help lizards blend in with desert sand, making it harder for predators to spot them and helping them survive better in their environment."
-                },
-                {
-                    "text": "Dark-colored scales",
-                    "isCorrect": 0,
-                    "explanation": "Dark-colored scales would make the lizard stand out against the light desert sand, making it easier for predators to spot them."
-                },
-                {
-                    "text": "Thick fur covering",
-                    "isCorrect": 0,
-                    "explanation": "Fur would make the lizard too hot in the desert environment. Lizards have scales which help them stay cool and conserve water."
-                },
-                {
-                    "text": "Large, leafy fins",
-                    "isCorrect": 0,
-                    "explanation": "Large fins would be more suitable for swimming in water. In a desert, they would make movement difficult and cause the lizard to lose more water through evaporation."
-                }
-            ],
-            "funFact": "Some desert lizards can change their color throughout the day to match their surroundings and regulate their body temperature. During the hot day, they become lighter in color to reflect more sunlight, while at night they may become darker to absorb more heat!"
-        },
-        {
-            "id": 10,
-            "text": "In a family of tigers, which pattern of inherited traits is most likely to be observed between parents and their cubs?",
-            "options": [
-                {
-                    "text": "Cubs are exact copies of their parents with identical stripes, size, and facial features",
-                    "isCorrect": 0,
-                    "explanation": "Offspring are never exact copies of their parents. While they share many traits, there are always some variations."
-                },
-                {
-                    "text": "Cubs have some features similar to both parents but with slight variations in their stripes and facial features",
-                    "isCorrect": 1,
-                    "explanation": "Offspring inherit traits from both parents but with natural variations, making them similar but not identical to either parent."
-                },
-                {
-                    "text": "Cubs look completely different from their parents with no shared physical traits",
-                    "isCorrect": 0,
-                    "explanation": "Offspring always share some physical traits with their parents due to inheritance of genetic characteristics."
-                },
-                {
-                    "text": "Cubs only inherit traits from the mother and look nothing like the father",
-                    "isCorrect": 0,
-                    "explanation": "Offspring inherit traits from both parents, not just from one parent."
-                }
-            ],
-            "funFact": "Tiger cubs are born blind and only open their eyes about a week after birth. Each tiger's stripe pattern is unique - like human fingerprints - and no two tigers have exactly the same stripe pattern!"
-        },
-        {
             "id": 11,
-            "text": "A botanist is studying maple trees in a garden. She notices that while all the maple leaves have the same basic star shape with pointed edges, some leaves are larger and darker green, while others are smaller and lighter green. What does this observation tell us about traits in plants?",
+            "text": "How do baby chameleons and baby monkeys both show patterns of inheritance from their parents, while also being different from them?",
             "options": [
                 {
-                    "text": "Plants of the same species can show some variation in their traits while maintaining key identifying features",
+                    "text": "Baby chameleons only inherit traits from their mothers while baby monkeys only inherit traits from their fathers",
+                    "isCorrect": 0,
+                    "explanation": "Offspring inherit a mix of traits from both parents, not just from one parent"
+                },
+                {
+                    "text": "Baby chameleons can inherit tail length from one parent, while baby monkeys can inherit fur color from either parent, showing how offspring get a mix of traits",
                     "isCorrect": 1,
-                    "explanation": "This is correct because even within the same species, individual plants can show variations in traits like size and color while keeping the characteristic features that make them recognizable as that species"
+                    "explanation": "This correctly shows how different traits can be inherited from different parents, while still allowing for variation in offspring"
                 },
                 {
-                    "text": "Plants growing in the same garden must be exactly identical",
+                    "text": "Baby chameleons and baby monkeys look exactly identical to their parents with no differences",
                     "isCorrect": 0,
-                    "explanation": "Even plants of the same species growing in the same location can show variations in their traits while still being recognizable as the same type of plant"
+                    "explanation": "While offspring inherit traits from parents, they are not exact copies and show variations in features like size, color, and other physical characteristics"
                 },
                 {
-                    "text": "Different colored leaves mean they must be different species of trees",
+                    "text": "Baby chameleons and baby monkeys look completely different from their parents with no similarities",
                     "isCorrect": 0,
-                    "explanation": "Color variation can occur within the same species and doesn't necessarily mean the plants are different species, especially if they share other key identifying features"
-                },
-                {
-                    "text": "The leaves must be from different seasons",
-                    "isCorrect": 0,
-                    "explanation": "While leaves can change with seasons, plants of the same species can show variations in leaf size and color even during the same season"
+                    "explanation": "Offspring share many important traits with their parents while having some variations - they are not completely different"
                 }
             ],
-            "funFact": "The variation in leaf traits within a single plant species helps them adapt to different environmental conditions. For example, leaves in shadier spots might grow larger to capture more sunlight, while leaves in direct sun might be smaller to reduce water loss!"
+            "funFact": "While chameleons are famous for changing colors, each individual chameleon has its own unique pattern of color changes that it inherits from its parents - just like how humans inherit unique combinations of features from their parents!"
         },
         {
             "id": 12,
+            "text": "Looking at a group of monkeys from the same species, which features would you expect to be most similar between parents and their offspring?",
+            "options": [
+                {
+                    "text": "Identical body size and shape",
+                    "isCorrect": 0,
+                    "explanation": "Body size and shape can vary significantly even between closely related individuals due to genetic variation and environmental factors."
+                },
+                {
+                    "text": "The exact length of facial features like nose and chin",
+                    "isCorrect": 0,
+                    "explanation": "Facial features like nose and chin shape show natural variation within a species, even between parents and offspring."
+                },
+                {
+                    "text": "The exact same fur color and facial patterns",
+                    "isCorrect": 0,
+                    "explanation": "While offspring inherit traits from parents, features like fur color and facial patterns can show natural variation even within families."
+                },
+                {
+                    "text": "Basic physical features like having two eyes, opposable thumbs, and a tail",
+                    "isCorrect": 1,
+                    "explanation": "Core physical features that define a species are consistently inherited from parents to offspring, helping ensure survival of the species."
+                }
+            ],
+            "funFact": "While primates share many physical traits, their fingerprints are unique - just like humans! Even identical twin monkeys have different fingerprints, showing how nature creates subtle variations even within families."
+        },
+        {
+            "id": 13,
+            "text": "When studying different species of monkeys, which characteristic is most useful for identifying the specific species, while others may vary between individuals within the same species?",
+            "options": [
+                {
+                    "text": "The basic body structure and facial features",
+                    "isCorrect": 1,
+                    "explanation": "The distinctive body structure and facial features are key identifying characteristics of different monkey species, while other traits like fur color or size may vary among individuals."
+                },
+                {
+                    "text": "The color of their fur",
+                    "isCorrect": 0,
+                    "explanation": "Fur color often varies among individuals within the same species and can even change with age or season, making it less reliable for species identification."
+                },
+                {
+                    "text": "The presence of opposable thumbs",
+                    "isCorrect": 0,
+                    "explanation": "While opposable thumbs are a common trait among monkeys, this feature is shared across different monkey species and doesn't help distinguish between species."
+                },
+                {
+                    "text": "The length of their tail",
+                    "isCorrect": 0,
+                    "explanation": "Tail length can vary among individuals within the same species and isn't typically the most reliable way to identify different monkey species."
+                }
+            ],
+            "funFact": "Some monkey species can actually recognize individual faces within their group, similar to how humans can recognize different faces. This ability helps them maintain complex social relationships within their communities."
+        },
+        {
+            "id": 14,
+            "text": "A scientist observes a family of rabbits through three generations. She notices that all the rabbits have some features in common, but each rabbit also has unique characteristics. Which of the following best describes how traits are passed from parent rabbits to their offspring?",
+            "options": [
+                {
+                    "text": "Baby rabbits look exactly like their mother and inherit no traits from their father",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because offspring inherit traits from both parents, not just the mother"
+                },
+                {
+                    "text": "Baby rabbits develop completely different traits that neither parent has",
+                    "isCorrect": 0,
+                    "explanation": "Offspring inherit their traits from their parents - they don't develop entirely new traits that neither parent possesses"
+                },
+                {
+                    "text": "All baby rabbits in a family look identical to each other and their parents",
+                    "isCorrect": 0,
+                    "explanation": "While related rabbits share many traits, they are not identical - each has a unique combination of traits from their parents"
+                },
+                {
+                    "text": "Baby rabbits receive a mix of traits from both parents, resulting in similarities and differences with each parent",
+                    "isCorrect": 1,
+                    "explanation": "Offspring inherit traits from both parents, which explains why baby rabbits share some characteristics with each parent while having their own unique combination of features"
+                }
+            ],
+            "funFact": "The color of a rabbit's fur can be influenced by a special type of inheritance where multiple genes work together. This is why two brown rabbits can sometimes have babies with different colored fur, like black or white!"
+        },
+        {
+            "id": 15,
             "text": "A scientist is studying a group of bean plant seedlings that all came from seeds of the same parent plant. Which trait would most likely vary among these seedling siblings?",
             "options": [
                 {
@@ -314,98 +395,17 @@
                     "explanation": "Even among siblings from the same parent plant, leaf size commonly shows natural variation due to genetic differences and environmental factors."
                 },
                 {
-                    "text": "Number of cotyledons (seed leaves)",
-                    "isCorrect": 0,
-                    "explanation": "The number of cotyledons is a fixed trait for a plant species - bean plants always have two cotyledons as they are dicots."
-                },
-                {
                     "text": "Type of root system",
                     "isCorrect": 0,
                     "explanation": "The type of root system (taproot for bean plants) is a fundamental characteristic that remains consistent within the same species."
+                },
+                {
+                    "text": "Number of cotyledons (seed leaves)",
+                    "isCorrect": 0,
+                    "explanation": "The number of cotyledons is a fixed trait for a plant species - bean plants always have two cotyledons as they are dicots."
                 }
             ],
             "funFact": "While individual plants may show variation in size and other features, the bean family (legumes or Fabaceae) is incredibly diverse with approximately 19,500 species worldwide, and common beans (Phaseolus vulgaris) alone have thousands of different varieties!"
-        },
-        {
-            "id": 13,
-            "text": "A scientist is studying a family of chameleons and observes the following physical traits: tail length, body size, scale patterns, and tongue length. Which trait is most likely to show significant variation among family members?",
-            "options": [
-                {
-                    "text": "Scale patterns",
-                    "isCorrect": 1,
-                    "explanation": "Scale patterns commonly vary among family members of chameleons, just like how human siblings can have different features while still being recognizably related."
-                },
-                {
-                    "text": "Tongue length",
-                    "isCorrect": 0,
-                    "explanation": "Tongue length is a fundamental trait that tends to be consistent within chameleon species as it's crucial for their survival and hunting method."
-                },
-                {
-                    "text": "Tail length",
-                    "isCorrect": 0,
-                    "explanation": "While tail length can vary somewhat among family members, it typically shows less variation than scale patterns as it's more genetically regulated within a species."
-                },
-                {
-                    "text": "Body size",
-                    "isCorrect": 0,
-                    "explanation": "Body size is influenced by both genetics and environmental factors like nutrition, but within a family of the same age and diet, it would show less variation than scale patterns."
-                }
-            ],
-            "funFact": "Chameleons' famous color-changing ability isn't just for camouflage! They also change colors to regulate their body temperature and to communicate with other chameleons about their mood and intentions."
-        },
-        {
-            "id": 14,
-            "text": "Three baby rabbits from the same parents look different from each other. The first baby has brown fur and long ears, the second has white fur and short ears, and the third has spotted fur and medium-length ears. Why do these siblings have different combinations of traits?",
-            "options": [
-                {
-                    "text": "Each baby rabbit inherits a random mix of traits from both parents",
-                    "isCorrect": 1,
-                    "explanation": "Baby rabbits can inherit different combinations of traits from their parents, which is why siblings can look different from each other while still resembling their parents in some ways."
-                },
-                {
-                    "text": "Baby rabbits always look exactly like their mother",
-                    "isCorrect": 0,
-                    "explanation": "Baby rabbits inherit traits from both parents, not just their mother. They don't look exactly like either parent."
-                },
-                {
-                    "text": "All baby rabbits from the same parents should look identical",
-                    "isCorrect": 0,
-                    "explanation": "Even though they have the same parents, baby rabbits can inherit different combinations of traits, making them look different from each other."
-                },
-                {
-                    "text": "Baby rabbits develop their traits based on what they eat",
-                    "isCorrect": 0,
-                    "explanation": "Physical traits like fur color and ear length are inherited from parents through genes, not determined by diet or environmental factors."
-                }
-            ],
-            "funFact": "In a single litter, rabbits can have up to 12 babies, and each one might have a unique combination of traits! This variety helps species survive by creating genetic diversity in the population."
-        },
-        {
-            "id": 15,
-            "text": "A scientist is studying three bean plants that were grown from seeds of the same parent plant. All three plants were grown in different locations: one in full sunlight, one in partial shade, and one in heavy shade. While all plants maintained typical bean plant characteristics like oval leaves and climbing stems, what pattern would you most likely observe in their growth?",
-            "options": [
-                {
-                    "text": "The plants would be completely identical regardless of their growing locations",
-                    "isCorrect": 0,
-                    "explanation": "While plants of the same species share basic traits, environmental factors like sunlight can influence their expression, leading to variations in size and appearance."
-                },
-                {
-                    "text": "The plant in full sunlight would likely be taller with larger leaves, while maintaining species-specific traits",
-                    "isCorrect": 1,
-                    "explanation": "Plants of the same species show variation in trait expression based on environmental conditions while maintaining their basic characteristics. More sunlight typically results in more robust growth."
-                },
-                {
-                    "text": "The plants would develop completely different leaf shapes to adapt to their light conditions",
-                    "isCorrect": 0,
-                    "explanation": "While plants can show variation in size and appearance, basic species characteristics like leaf shape are inherited traits that don't fundamentally change with environmental conditions."
-                },
-                {
-                    "text": "The shaded plants would develop new traits never seen in the parent plant",
-                    "isCorrect": 0,
-                    "explanation": "Environmental conditions can affect how traits are expressed, but they cannot cause plants to develop entirely new inherited characteristics not present in their parents."
-                }
-            ],
-            "funFact": "Plants have special light-sensing proteins called phototropins that help them detect and respond to different levels of sunlight. These proteins allow plants to adjust their growth patterns to maximize light absorption while maintaining their species-specific characteristics!"
         }
     ]
 }

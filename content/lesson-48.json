@@ -4,17 +4,44 @@
     "questions": [
         {
             "id": 1,
-            "text": "A tick attaches itself to a deer and feeds on the deer's blood. The tick gets nourishment, but the deer becomes weak and may get sick. What type of symbiotic relationship is this an example of?",
+            "text": "In different ecosystems around the world, a large predator hunts smaller prey animals. Which pattern would you expect to observe consistently across these predator-prey relationships?",
             "options": [
                 {
-                    "text": "Parasitism",
+                    "text": "The predator population helps control the prey population size, preventing overconsumption of plants",
                     "isCorrect": 1,
-                    "explanation": "This is parasitism because the tick (parasite) benefits by getting food while harming the deer (host) by making it weak and potentially sick."
+                    "explanation": "This is correct because predators play a vital role in maintaining ecosystem balance by preventing prey populations from growing too large and depleting plant resources."
                 },
+                {
+                    "text": "The predator completely eliminates the prey species from the ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "Predators rarely eliminate their prey completely, as this would also lead to their own extinction. A balance typically develops between predator and prey populations."
+                },
+                {
+                    "text": "The predator and prey populations remain exactly equal in size",
+                    "isCorrect": 0,
+                    "explanation": "Predator and prey populations typically do not remain equal in size. Usually, there are fewer predators than prey in a stable ecosystem."
+                },
+                {
+                    "text": "The prey population grows continuously without any impact from predators",
+                    "isCorrect": 0,
+                    "explanation": "Prey populations do not grow indefinitely - predators play an important role in controlling their numbers through hunting."
+                }
+            ],
+            "funFact": "The relationship between predator and prey populations often follows a cyclical pattern called the Lotka-Volterra model, where an increase in predator numbers leads to a decrease in prey, which then leads to a decrease in predators, allowing prey to increase again."
+        },
+        {
+            "id": 2,
+            "text": "A tick attaches itself to a deer and feeds on the deer's blood. The tick gets nourishment, but the deer becomes weak and may get sick. What type of symbiotic relationship is this an example of?",
+            "options": [
                 {
                     "text": "Mutualism",
                     "isCorrect": 0,
                     "explanation": "Mutualism involves both organisms benefiting from the relationship. Here, only the tick benefits while the deer is harmed."
+                },
+                {
+                    "text": "Parasitism",
+                    "isCorrect": 1,
+                    "explanation": "This is parasitism because the tick (parasite) benefits by getting food while harming the deer (host) by making it weak and potentially sick."
                 },
                 {
                     "text": "Commensalism",
@@ -30,7 +57,34 @@
             "funFact": "Some ticks can survive up to 2-3 years without feeding on blood! They enter a dormant state and wait patiently for a host to pass by, which they detect through breath, body odors, body heat, moisture, and vibrations."
         },
         {
-            "id": 2,
+            "id": 3,
+            "text": "A hawk and an owl both hunt for small rodents in the same forest area. How have these birds adapted over time to minimize competition for the same food source?",
+            "options": [
+                {
+                    "text": "The hawk hunts during the day while the owl hunts at night",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Over generations, hawks and owls have evolved to hunt at different times, allowing both species to thrive while hunting the same prey in the same ecosystem."
+                },
+                {
+                    "text": "The hawk and owl take turns hunting on alternate days",
+                    "isCorrect": 0,
+                    "explanation": "Animals don't consciously coordinate their hunting schedules. Their hunting patterns have evolved naturally over time."
+                },
+                {
+                    "text": "The hawk hunts only mice while the owl hunts only rats",
+                    "isCorrect": 0,
+                    "explanation": "Both hawks and owls hunt various types of rodents. They don't strictly limit themselves to specific rodent species."
+                },
+                {
+                    "text": "The hawk and owl have formed a hunting partnership",
+                    "isCorrect": 0,
+                    "explanation": "Hawks and owls are competitors, not cooperative hunters. They have adapted to avoid competition rather than work together."
+                }
+            ],
+            "funFact": "Owls have specially adapted feathers that allow them to fly almost silently, making them incredibly effective nighttime hunters. Their wing feathers have comb-like edges that break up airflow and reduce noise while flying."
+        },
+        {
+            "id": 4,
             "text": "Which of the following is the best example of a commensal relationship in nature?",
             "options": [
                 {
@@ -57,18 +111,18 @@
             "funFact": "Some species of remora fish have evolved a modified dorsal fin that acts like a suction cup, allowing them to attach to sharks, whales, sea turtles, and other marine animals. This amazing adaptation helps them travel long distances while expending very little energy!"
         },
         {
-            "id": 3,
+            "id": 5,
             "text": "In a forest ecosystem, two species of squirrels live in the same area. Both species primarily eat acorns from oak trees. During years when acorn production is low, how would this resource limitation most likely affect the interaction between these squirrel species?",
             "options": [
+                {
+                    "text": "The interaction between the squirrel species would remain unchanged",
+                    "isCorrect": 0,
+                    "explanation": "Resource availability directly affects interactions between organisms. When resources become limited, the intensity of competition increases rather than staying the same."
+                },
                 {
                     "text": "The squirrel species would develop a mutualistic relationship where they share acorns",
                     "isCorrect": 0,
                     "explanation": "Resource limitation typically leads to competition rather than mutualism. Squirrels won't share limited food resources as both species need them for survival."
-                },
-                {
-                    "text": "The squirrel species would compete more intensely for the limited acorns",
-                    "isCorrect": 1,
-                    "explanation": "When resources are scarce, organisms that require the same resource will compete more intensely for access to that limited resource to ensure their survival."
                 },
                 {
                     "text": "The squirrel species would switch to eating completely different foods",
@@ -76,102 +130,48 @@
                     "explanation": "While animals may broaden their diet when preferred food is scarce, an immediate complete switch to different food sources is unlikely, especially for dietary specialists."
                 },
                 {
-                    "text": "The interaction between the squirrel species would remain unchanged",
-                    "isCorrect": 0,
-                    "explanation": "Resource availability directly affects interactions between organisms. When resources become limited, the intensity of competition increases rather than staying the same."
+                    "text": "The squirrel species would compete more intensely for the limited acorns",
+                    "isCorrect": 1,
+                    "explanation": "When resources are scarce, organisms that require the same resource will compete more intensely for access to that limited resource to ensure their survival."
                 }
             ],
             "funFact": "Tree squirrels have excellent spatial memory and can remember the locations of thousands of nuts they've buried. They even practice 'deceptive caching' - pretending to bury nuts when other squirrels are watching to protect their actual food stores!"
         },
         {
-            "id": 4,
-            "text": "In a tropical rainforest, orchids often grow on tree branches high above the ground. Which statement best describes the relationship between the orchid and the tree?",
-            "options": [
-                {
-                    "text": "The orchid benefits by getting better access to sunlight, while the tree is neither helped nor harmed",
-                    "isCorrect": 1,
-                    "explanation": "This describes commensalism - the orchid gains an advantage (more sunlight) by growing on the tree, while the tree is unaffected by the orchid's presence"
-                },
-                {
-                    "text": "Both the orchid and the tree benefit from this relationship",
-                    "isCorrect": 0,
-                    "explanation": "This would describe mutualism, but the tree does not receive any benefit from the orchid growing on it"
-                },
-                {
-                    "text": "The orchid harms the tree by stealing its nutrients",
-                    "isCorrect": 0,
-                    "explanation": "This would describe parasitism, but tropical orchids do not take nutrients from their host trees - they only use them for physical support"
-                },
-                {
-                    "text": "The orchid and tree compete for sunlight and nutrients",
-                    "isCorrect": 0,
-                    "explanation": "This would describe competition, but the orchid and tree do not compete for resources - they use different sources of nutrients and occupy different spatial niches"
-                }
-            ],
-            "funFact": "Some tropical orchids have developed special roots called aerial roots that not only help them attach to tree branches but also absorb moisture and nutrients directly from the air and rainwater!"
-        },
-        {
-            "id": 5,
-            "text": "A lion catches and eats a gazelle in the African savanna. What type of ecological interaction is this an example of?",
-            "options": [
-                {
-                    "text": "Predation",
-                    "isCorrect": 1,
-                    "explanation": "This is predation because one organism (the lion) hunts and eats another organism (the gazelle). Predation helps maintain balance in ecosystems by controlling prey populations."
-                },
-                {
-                    "text": "Mutualism",
-                    "isCorrect": 0,
-                    "explanation": "Mutualism is when both organisms benefit from the relationship. In this case, the gazelle is harmed while the lion benefits, so this is not mutualism."
-                },
-                {
-                    "text": "Parasitism",
-                    "isCorrect": 0,
-                    "explanation": "Parasitism involves one organism living on or in another organism and harming it over time. Lions don't live on or in gazelles - they hunt and eat them quickly."
-                },
-                {
-                    "text": "Commensalism",
-                    "isCorrect": 0,
-                    "explanation": "Commensalism is when one organism benefits while the other is neither helped nor harmed. Since the gazelle is killed, this is not commensalism."
-                }
-            ],
-            "funFact": "Lions are such efficient predators that they succeed in catching their prey in only about 25% of their hunting attempts. This relatively low success rate helps maintain stable prey populations in the ecosystem."
-        },
-        {
             "id": 6,
-            "text": "Both mistletoe growing on trees and ticks feeding on mammals are examples of parasitic relationships. Which characteristic do these relationships share that makes them parasitic?",
+            "text": "In a tropical coral reef ecosystem, several species of corals are growing in close proximity to each other. Some corals grow faster and spread their colonies over larger areas, while others grow more slowly but can survive in less favorable conditions. Based on these interactions, what pattern would you expect to observe in the coral population over time?",
             "options": [
                 {
-                    "text": "The parasite benefits while the host is harmed",
+                    "text": "The faster-growing corals will completely eliminate all slower-growing species from the reef",
+                    "isCorrect": 0,
+                    "explanation": "While faster-growing corals may dominate some areas, they typically cannot eliminate all slower-growing species since different species can adapt to different conditions"
+                },
+                {
+                    "text": "The faster and slower-growing corals will establish distinct zones based on environmental conditions and resource availability",
                     "isCorrect": 1,
-                    "explanation": "This is correct. In both cases, the parasite (mistletoe or tick) benefits by getting nutrients while harming their host (tree or mammal). Mistletoe extracts water and nutrients from trees, sometimes killing them, while ticks feed on blood and can transmit diseases."
+                    "explanation": "This represents a common pattern in competitive interactions where species adapt to different niches, allowing multiple species to coexist by specializing in different areas or conditions"
                 },
                 {
-                    "text": "Both organisms benefit from the relationship",
+                    "text": "The slower-growing corals will eventually overtake the faster-growing species",
                     "isCorrect": 0,
-                    "explanation": "This describes mutualism, not parasitism. In parasitic relationships like mistletoe-tree and tick-mammal, only the parasite benefits while the host is harmed."
+                    "explanation": "Without some specific advantage, slower-growing corals generally cannot overtake faster-growing species in areas where both can survive"
                 },
                 {
-                    "text": "One organism benefits while the other is unaffected",
+                    "text": "All coral species will grow at the same rate once they adjust to competition",
                     "isCorrect": 0,
-                    "explanation": "This describes commensalism, not parasitism. In parasitic relationships, the host is actively harmed, not just unaffected."
-                },
-                {
-                    "text": "The organisms compete for the same resources",
-                    "isCorrect": 0,
-                    "explanation": "This describes competition, not parasitism. Parasites don't compete with their hosts - they directly feed off them or harm them in other ways."
+                    "explanation": "Different coral species maintain different growth rates due to their genetic makeup and survival strategies, they don't adjust to match each other's growth rates"
                 }
             ],
-            "funFact": "Some parasitic relationships are so specialized that the parasite can only survive on one specific host species. For example, the Australian Mistletoe Bird has evolved to specifically eat and spread mistletoe seeds, which are too sticky for other birds to handle!"
+            "funFact": "While most reef-building corals aren't bioluminescent, some coral reefs can glow at night due to other organisms living within the reef ecosystem. Corals engage in a fascinating slow-motion competition for space, with some species extending filaments that can digest the tissue of neighboring corals!"
         },
         {
             "id": 7,
             "text": "In a forest ecosystem, the rabbit population suddenly increases dramatically due to favorable weather conditions. Which of the following best describes how this would likely affect the fox population and help maintain ecosystem balance?",
             "options": [
                 {
-                    "text": "The fox population will increase gradually in response to more available prey, eventually helping control the rabbit population and prevent overgrazing of plants",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes the predator-prey relationship. As prey (rabbits) become more abundant, predator (fox) populations grow in response, which then helps regulate prey numbers and protect vegetation."
+                    "text": "The fox population will decrease since rabbits will eat all the available food in the ecosystem",
+                    "isCorrect": 0,
+                    "explanation": "More rabbits means more food available for foxes, not less. Foxes eat rabbits, not plants, so they benefit from having more prey available."
                 },
                 {
                     "text": "The fox population will immediately match the rabbit population increase to maintain perfect balance",
@@ -179,9 +179,9 @@
                     "explanation": "Predator populations don't respond instantly to prey changes. There is always a time lag as the predator population gradually grows in response to increased food availability."
                 },
                 {
-                    "text": "The fox population will decrease since rabbits will eat all the available food in the ecosystem",
-                    "isCorrect": 0,
-                    "explanation": "More rabbits means more food available for foxes, not less. Foxes eat rabbits, not plants, so they benefit from having more prey available."
+                    "text": "The fox population will increase gradually in response to more available prey, eventually helping control the rabbit population and prevent overgrazing of plants",
+                    "isCorrect": 1,
+                    "explanation": "This correctly describes the predator-prey relationship. As prey (rabbits) become more abundant, predator (fox) populations grow in response, which then helps regulate prey numbers and protect vegetation."
                 },
                 {
                     "text": "The fox population will remain constant since predator numbers are independent of prey availability",
@@ -193,35 +193,50 @@
         },
         {
             "id": 8,
-            "text": "A small island ecosystem has wolves as the top predator, deer as their prey, and various plant species. If all the wolves were removed from the island, what would most likely happen to the deer and plant populations over time?",
+            "text": "A wildlife researcher observes that after introducing a new herd of zebras to a grassland area, the population of native wildebeest has decreased significantly over the past year. Both species primarily feed on grass. What type of ecological interaction is most likely occurring between the zebras and wildebeest?",
             "options": [
                 {
-                    "text": "The deer population would increase rapidly and plant populations would decrease significantly due to overgrazing",
+                    "text": "Commensalism",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because commensalism involves one species benefiting while the other is unaffected. Here, the wildebeest population is being negatively affected."
+                },
+                {
+                    "text": "Parasitism",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because parasitism involves one organism living on or in another organism and harming it directly. Zebras are not parasites of wildebeest."
+                },
+                {
+                    "text": "Competition",
                     "isCorrect": 1,
-                    "explanation": "Without wolves to control the deer population, deer would reproduce rapidly and consume more plants, leading to a decline in plant populations - a classic example of how removing a predator disrupts ecosystem balance"
+                    "explanation": "This is correct because both zebras and wildebeest are competing for the same resource (grass). When resources are limited, competition between species can lead to population decline in one or both species."
                 },
                 {
-                    "text": "Both deer and plant populations would increase because there would be more resources available",
+                    "text": "Predation",
                     "isCorrect": 0,
-                    "explanation": "This overlooks the predator-prey relationship. Without predators, deer would overconsume plants, preventing plant population growth"
+                    "explanation": "This is incorrect because zebras and wildebeest do not prey on each other. Both species are herbivores that feed on grass."
                 },
                 {
-                    "text": "The deer population would decrease because they need wolves to find food sources",
+                    "text": "Mutualism",
                     "isCorrect": 0,
-                    "explanation": "Deer do not depend on wolves to find food. They are herbivores that can locate plant food independently"
-                },
-                {
-                    "text": "Plant and deer populations would remain stable because they don't depend on wolves",
-                    "isCorrect": 0,
-                    "explanation": "This ignores the important role predators play in controlling prey populations, which in turn affects plant populations"
+                    "explanation": "This is incorrect because mutualism involves both species benefiting from the interaction. Here, the wildebeest population is declining, indicating they are not benefiting."
                 }
             ],
-            "funFact": "A real-world example of this occurred in Yellowstone National Park when wolves were eliminated in the 1920s. The elk population exploded, leading to overgrazing. When wolves were reintroduced in 1995, it helped restore the ecological balance, even improving river systems as reduced grazing allowed riverside vegetation to recover."
+            "funFact": "In African savannas, different grazing animals have evolved to feed on different parts of grass plants - some prefer short grass, others tall grass, and some focus on fresh shoots. This specialization helps reduce competition and allows many species to coexist in the same ecosystem."
         },
         {
             "id": 9,
             "text": "In a tide pool ecosystem, barnacles attach themselves to rocks and filter small organisms from the water for food. Sea stars prey on the barnacles, while hermit crabs scavenge the leftover food particles from both barnacles and sea stars. Which pattern of interaction from a forest ecosystem is most similar to the relationship between hermit crabs and sea stars in the tide pool?",
             "options": [
+                {
+                    "text": "A tick feeding on a deer's blood",
+                    "isCorrect": 0,
+                    "explanation": "This is parasitism - where one organism benefits while harming the other. The hermit crab doesn't harm the sea star when consuming leftover food."
+                },
+                {
+                    "text": "A remora fish eating sharks' leftover prey",
+                    "isCorrect": 1,
+                    "explanation": "This is commensalism - where one organism benefits (the remora/hermit crab getting food) while the other is unaffected (the shark/sea star). This matches the tide pool relationship."
+                },
                 {
                     "text": "A hawk eating a rabbit",
                     "isCorrect": 0,
@@ -231,46 +246,36 @@
                     "text": "An owl and hawk competing for mice",
                     "isCorrect": 0,
                     "explanation": "This is competition - where two organisms compete for the same resource. The hermit crab and sea star don't compete, as they eat different food sources."
-                },
-                {
-                    "text": "A remora fish eating sharks' leftover prey",
-                    "isCorrect": 1,
-                    "explanation": "This is commensalism - where one organism benefits (the remora/hermit crab getting food) while the other is unaffected (the shark/sea star). This matches the tide pool relationship."
-                },
-                {
-                    "text": "A tick feeding on a deer's blood",
-                    "isCorrect": 0,
-                    "explanation": "This is parasitism - where one organism benefits while harming the other. The hermit crab doesn't harm the sea star when consuming leftover food."
                 }
             ],
             "funFact": "Hermit crabs don't just scavenge in tide pools - they also engage in 'shell swap meets' where dozens gather to trade shells as they grow. When a crab finds a better shell, it leaves its old one, which another crab can then claim, creating a chain reaction of shell switching!"
         },
         {
             "id": 10,
-            "text": "Both orchids growing on tree branches and microscopic mites living on human skin are examples of commensalism. What is the key characteristic that makes these relationships examples of commensalism?",
+            "text": "In a forest ecosystem, which of the following relationships represents a mutualistic interaction where both organisms benefit from the relationship?",
             "options": [
                 {
-                    "text": "One organism benefits while the other is neither helped nor harmed",
+                    "text": "A bee pollinating flowers while collecting nectar",
                     "isCorrect": 1,
-                    "explanation": "This correctly describes commensalism. In both cases, one organism (orchids/mites) benefits by getting resources (support/food) while the other (trees/humans) is unaffected."
+                    "explanation": "This is a mutualistic relationship because the bee gets nectar as food while the flower gets pollinated, helping it reproduce. Both organisms benefit from this interaction."
                 },
                 {
-                    "text": "Both organisms benefit from the relationship",
+                    "text": "Moss growing on the trunk of a tree",
                     "isCorrect": 0,
-                    "explanation": "This describes mutualism, not commensalism. In these examples, only the orchids and mites benefit, while trees and humans are unaffected."
+                    "explanation": "This is commensalism, where the moss benefits by having a place to grow, but the tree is neither helped nor harmed by the moss's presence."
                 },
                 {
-                    "text": "One organism benefits while the other is harmed",
+                    "text": "A squirrel eating acorns from an oak tree",
                     "isCorrect": 0,
-                    "explanation": "This describes parasitism, not commensalism. In these relationships, trees and humans are not harmed by the presence of orchids and mites respectively."
+                    "explanation": "This is not mutualism since only the squirrel benefits by getting food, while the oak tree loses its seeds and receives no benefit."
                 },
                 {
-                    "text": "The organisms compete for the same resources",
+                    "text": "A hawk catching and eating a mouse",
                     "isCorrect": 0,
-                    "explanation": "This describes competition, not commensalism. Orchids and mites are not competing with their hosts for resources."
+                    "explanation": "This is a predator-prey relationship, not mutualism. The hawk benefits by getting food, but the mouse is harmed."
                 }
             ],
-            "funFact": "Some species of mites that live on human skin are so specialized that they only live in specific areas - some prefer the forehead, while others live exclusively around the nose. Despite their presence, these mites are usually completely harmless to humans!"
+            "funFact": "One of the most remarkable examples of mutualism in forests occurs between trees and underground fungi called mycorrhizae. The fungi help trees absorb water and minerals from the soil, while the trees provide sugars to the fungi - this underground network is sometimes called the 'Wood Wide Web'!"
         },
         {
             "id": 11,
@@ -282,11 +287,6 @@
                     "explanation": "This correctly describes commensalism - the mites gain food and shelter without affecting their human hosts positively or negatively"
                 },
                 {
-                    "text": "Both mites and humans benefit from the relationship",
-                    "isCorrect": 0,
-                    "explanation": "This describes mutualism, not commensalism. There is no evidence that humans gain any benefit from face mites"
-                },
-                {
                     "text": "The mites harm humans while benefiting themselves",
                     "isCorrect": 0,
                     "explanation": "This describes parasitism. Face mites do not cause harm to their human hosts under normal circumstances"
@@ -295,19 +295,46 @@
                     "text": "The mites and humans compete for resources",
                     "isCorrect": 0,
                     "explanation": "This describes competition. Face mites and humans do not compete for the same resources - mites consume dead skin cells that humans don't use"
+                },
+                {
+                    "text": "Both mites and humans benefit from the relationship",
+                    "isCorrect": 0,
+                    "explanation": "This describes mutualism, not commensalism. There is no evidence that humans gain any benefit from face mites"
                 }
             ],
             "funFact": "Almost every adult human has face mites living in their skin pores! These microscopic creatures, known as Demodex, are so well adapted to living on human faces that they can't survive anywhere else. They're most active at night when they emerge from pores to mate on our skin surface."
         },
         {
             "id": 12,
-            "text": "Hawks and owls both hunt rodents in the same forest ecosystem. How do these predators avoid direct competition for the same prey?",
+            "text": "In a grassland ecosystem, if all fox populations were suddenly removed, what would be the most likely impact on the plant populations over time?",
             "options": [
                 {
-                    "text": "Hawks hunt during the day while owls hunt at night",
-                    "isCorrect": 1,
-                    "explanation": "This temporal separation allows both predators to thrive in the same ecosystem by hunting at different times, reducing direct competition for the same resources."
+                    "text": "Plant populations would immediately increase",
+                    "isCorrect": 0,
+                    "explanation": "This misunderstands the predator-prey-plant relationship. Removing foxes wouldn't directly benefit plants, but would allow herbivore populations to grow unchecked."
                 },
+                {
+                    "text": "Plant populations would remain unchanged",
+                    "isCorrect": 0,
+                    "explanation": "This overlooks the indirect relationship between predators and plants. Changes in predator populations affect their prey, which in turn impacts plant populations."
+                },
+                {
+                    "text": "Plant populations would gradually decrease",
+                    "isCorrect": 1,
+                    "explanation": "Without foxes to control rabbit populations, rabbit numbers would increase significantly. These rabbits would consume more plants, leading to a decline in plant populations over time."
+                },
+                {
+                    "text": "Plant populations would become more diverse",
+                    "isCorrect": 0,
+                    "explanation": "Without predators controlling herbivore populations, plant diversity would likely decrease as overgrazing would affect most plant species negatively."
+                }
+            ],
+            "funFact": "A single rabbit can eat up to half a pound of vegetation per day. In Australia during the 1800s, the introduction of rabbits without their natural predators led to one of the most dramatic examples of how disrupting predator-prey relationships can devastate plant ecosystems."
+        },
+        {
+            "id": 13,
+            "text": "Hawks and owls both hunt rodents in the same forest ecosystem. How do these predators avoid direct competition for the same prey?",
+            "options": [
                 {
                     "text": "Hawks eat only large prey while owls eat only small prey",
                     "isCorrect": 0,
@@ -322,90 +349,68 @@
                     "text": "Hawks hunt in trees while owls hunt on the ground",
                     "isCorrect": 0,
                     "explanation": "Both hawks and owls can hunt in various locations including trees and ground. Their hunting locations overlap significantly."
+                },
+                {
+                    "text": "Hawks hunt during the day while owls hunt at night",
+                    "isCorrect": 1,
+                    "explanation": "This temporal separation allows both predators to thrive in the same ecosystem by hunting at different times, reducing direct competition for the same resources."
                 }
             ],
             "funFact": "Some owls have asymmetrically positioned ear openings - one ear typically higher than the other. This unique adaptation helps them pinpoint prey locations in complete darkness with remarkable accuracy using sound alone!"
         },
         {
-            "id": 13,
-            "text": "In the African savanna, both cheetahs and lions hunt similar prey animals like gazelles. How have these predators evolved to minimize direct competition with each other?",
-            "options": [
-                {
-                    "text": "Cheetahs rely on speed and hunt during daytime, while lions use strength and often hunt at night",
-                    "isCorrect": 1,
-                    "explanation": "This adaptation allows both predators to successfully hunt the same prey by using different hunting strategies at different times, reducing direct competition"
-                },
-                {
-                    "text": "Cheetahs and lions actively cooperate and hunt together to share the prey",
-                    "isCorrect": 0,
-                    "explanation": "These predators do not cooperate - they are competitors who have evolved different strategies to avoid direct competition"
-                },
-                {
-                    "text": "Cheetahs only hunt smaller prey while lions exclusively hunt larger prey",
-                    "isCorrect": 0,
-                    "explanation": "Both predators can hunt similar sized prey, but they have evolved different hunting methods and timing rather than strictly dividing prey by size"
-                },
-                {
-                    "text": "Cheetahs and lions take turns hunting in the same territory on alternate days",
-                    "isCorrect": 0,
-                    "explanation": "Predators do not consciously coordinate or take turns - their different hunting strategies evolved naturally over time"
-                }
-            ],
-            "funFact": "A cheetah can accelerate from 0 to 60 miles per hour in just three seconds, making it the fastest land animal. This amazing speed is a specialized adaptation that allows it to catch prey in a different way than other big cats who rely more on strength and ambush tactics."
-        },
-        {
             "id": 14,
-            "text": "A scientist studying a forest ecosystem observes that certain species of fungi grow on tree roots. Upon further investigation, she discovers that the fungi help trees absorb nutrients from the soil while receiving sugars from the trees. However, she also finds parasitic fungi that damage tree tissues while extracting nutrients. How do these different fungal relationships most likely affect the stability of the forest ecosystem?",
+            "text": "How do hawks and owls avoid direct competition for the same prey, and how does this compare to the relationship between remora fish and sharks?",
             "options": [
                 {
-                    "text": "The mutualistic fungi contribute to ecosystem stability while parasitic fungi decrease it, as beneficial relationships support the survival of multiple species while harmful ones can reduce populations",
+                    "text": "Hawks and owls compete directly for prey at the same time, while remoras and sharks help each other hunt",
+                    "isCorrect": 0,
+                    "explanation": "Hawks and owls avoid direct competition by hunting at different times. Remoras and sharks do not help each other hunt - remoras simply benefit from shark leftovers."
+                },
+                {
+                    "text": "Hawks and owls hunt at different times of day, while remoras and sharks have a relationship where one benefits and the other is unaffected",
                     "isCorrect": 1,
-                    "explanation": "Mutualistic relationships help both species thrive and contribute to biodiversity, while parasitic relationships can harm or kill host species, potentially disrupting ecosystem balance"
+                    "explanation": "This is correct. Hawks hunt during daytime and owls hunt at night, allowing them to avoid competition. Remoras benefit from eating shark leftovers while not affecting the sharks - a commensal relationship."
                 },
                 {
-                    "text": "Both types of fungi increase ecosystem stability equally since any interaction between species helps maintain biodiversity",
+                    "text": "Hawks and owls actively cooperate in hunting, while remoras harm sharks by stealing their food",
                     "isCorrect": 0,
-                    "explanation": "Not all interactions contribute equally to stability - parasitic relationships can harm populations and reduce biodiversity while mutualistic ones support multiple species"
+                    "explanation": "Hawks and owls do not cooperate - they avoid competition through different hunting times. Remoras do not harm sharks by eating leftovers."
                 },
                 {
-                    "text": "Neither type of fungi affects ecosystem stability since fungi are too small to impact the larger ecosystem",
+                    "text": "Hawks hunt only small prey while owls hunt only large prey, and remoras protect sharks from predators",
                     "isCorrect": 0,
-                    "explanation": "Even small organisms can have significant impacts on ecosystem stability through their interactions with other species"
-                },
-                {
-                    "text": "Parasitic fungi contribute more to ecosystem stability than mutualistic fungi by controlling tree populations",
-                    "isCorrect": 0,
-                    "explanation": "While parasites can help control populations, their harmful effects generally reduce stability compared to mutual benefits that support multiple species"
+                    "explanation": "Hawks and owls can hunt similar sized prey but at different times. Remoras do not protect sharks - they just feed on leftover food without affecting the sharks."
                 }
             ],
-            "funFact": "Some trees can communicate and share resources with each other through vast underground networks of mutualistic fungi, nicknamed the 'Wood Wide Web'. These fungal networks can connect hundreds of trees, allowing them to send nutrients and warning signals to one another!"
+            "funFact": "Some species of remora fish have actually evolved a modified dorsal fin that acts like a suction cup, allowing them to attach to sharks and other marine animals. This amazing adaptation helps them travel long distances while expending minimal energy!"
         },
         {
             "id": 15,
-            "text": "In a tropical rainforest, two species of birds initially compete for the same type of fruit. During a particularly abundant season when fruits are plentiful everywhere, how would their relationship likely change?",
+            "text": "The relationship between sea anemones and clownfish has evolved over time, demonstrating how species can become interdependent. What aspect of this relationship best shows their mutual dependence for survival?",
             "options": [
                 {
-                    "text": "The birds would maintain the same competitive relationship",
-                    "isCorrect": 0,
-                    "explanation": "When resources are abundant, competition typically decreases since there are enough resources for all organisms"
-                },
-                {
-                    "text": "The competition would decrease as there are enough resources for both species",
+                    "text": "The anemone's tentacles protect the clownfish, while the clownfish chases away organisms that could harm the anemone",
                     "isCorrect": 1,
-                    "explanation": "When resources are plentiful, organisms that previously competed can coexist without significant competition since their needs can be met independently"
+                    "explanation": "This shows true mutual dependence as both species provide vital protection for each other, making their survival interconnected"
                 },
                 {
-                    "text": "The birds would start a predator-prey relationship",
+                    "text": "The clownfish uses the anemone for shelter, while providing no benefit to the anemone",
                     "isCorrect": 0,
-                    "explanation": "Birds that eat fruits (frugivores) would not suddenly change their diet to become predators just because of resource abundance"
+                    "explanation": "This describes commensalism, not mutualism, as only one species would benefit"
                 },
                 {
-                    "text": "The birds would form a mutualistic relationship",
+                    "text": "The anemone feeds on small particles of food that the clownfish leaves behind",
                     "isCorrect": 0,
-                    "explanation": "Resource abundance alone doesn't cause species to develop mutually beneficial relationships - these typically evolve over long periods"
+                    "explanation": "This would be similar to the remora-shark relationship, which is commensalism, not mutual dependence"
+                },
+                {
+                    "text": "The clownfish controls the anemone's behavior through chemical signals",
+                    "isCorrect": 0,
+                    "explanation": "This would be more characteristic of parasitism, where one organism controls another for its benefit"
                 }
             ],
-            "funFact": "Some bird species that compete for fruits actually help spread seeds through their droppings, leading to more fruit trees and potentially reducing future competition. This process, called seed dispersal, is crucial for maintaining plant diversity in tropical forests."
+            "funFact": "Clownfish have developed a special mucus coating that prevents them from being stung by the anemone's normally deadly tentacles. This adaptation took millions of years to evolve and is crucial for their unique partnership!"
         }
     ]
 }

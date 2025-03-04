@@ -4,39 +4,17 @@
     "questions": [
         {
             "id": 1,
-            "text": "A student wants to create a shady spot in their backyard for playing on hot sunny days. Which material would provide the best shade?",
-            "options": [
-                {
-                    "text": "A solid wooden panel",
-                    "isCorrect": 1,
-                    "explanation": "Solid materials like wood block sunlight most effectively, providing the best shade because they don't let light pass through."
-                },
-                {
-                    "text": "A clear glass window",
-                    "isCorrect": 0,
-                    "explanation": "Clear glass allows most sunlight to pass through it, making it a poor choice for creating shade."
-                },
-                {
-                    "text": "A thin plastic sheet",
-                    "isCorrect": 0,
-                    "explanation": "Thin plastic is partially transparent and allows significant sunlight to pass through, making it less effective at providing shade."
-                },
-                {
-                    "text": "A mesh screen",
-                    "isCorrect": 0,
-                    "explanation": "A mesh screen has many small holes that allow sunlight to pass through, making it less effective at blocking sunlight and creating shade."
-                }
-            ],
-            "funFact": "The world's largest umbrella, designed to provide shade in holy sites in Saudi Arabia, spans over 53 meters (174 feet) when opened and can shelter thousands of people from intense desert sun!"
-        },
-        {
-            "id": 2,
             "text": "A student wants to compare how quickly different materials heat up in sunlight. The student places four different materials in direct sunlight and measures their temperature every 5 minutes using a thermometer. Which data collection method would be best to analyze how the materials heat up differently?",
             "options": [
                 {
                     "text": "Recording the final temperature of each material after 30 minutes",
                     "isCorrect": 0,
                     "explanation": "This only shows the end result and misses how the materials heat up over time, making it difficult to compare their heating patterns."
+                },
+                {
+                    "text": "Taking one temperature reading in the middle of the experiment",
+                    "isCorrect": 0,
+                    "explanation": "A single measurement doesn't show how the temperature changes over time and isn't enough data to compare materials effectively."
                 },
                 {
                     "text": "Creating a data table showing temperature readings for each material at 5-minute intervals",
@@ -47,24 +25,100 @@
                     "text": "Measuring which material feels the hottest at the end of the experiment",
                     "isCorrect": 0,
                     "explanation": "Using touch to measure temperature is not scientific and can be dangerous. It also doesn't provide accurate data for comparison."
-                },
-                {
-                    "text": "Taking one temperature reading in the middle of the experiment",
-                    "isCorrect": 0,
-                    "explanation": "A single measurement doesn't show how the temperature changes over time and isn't enough data to compare materials effectively."
                 }
             ],
             "funFact": "Different materials heat up at different rates because of a property called specific heat capacity. Water has one of the highest heat capacities, which is why oceans heat up and cool down more slowly than land!"
         },
         {
-            "id": 3,
-            "text": "A group of students wants to create a shady spot for their outdoor reading area. They need to compare different materials to find the best shade solution. Which material would provide the most effective shade for their reading area?",
+            "id": 2,
+            "text": "A class is conducting an experiment to test different materials for making a long-lasting sunshade for their playground. They have four materials: clear plastic, thin cotton cloth, thick cardboard, and wood. Which material would be best at providing durable shade and protection from sunlight over time?",
             "options": [
                 {
-                    "text": "A thick canvas tent",
-                    "isCorrect": 1,
-                    "explanation": "A thick canvas tent is made of solid, dense material that blocks most sunlight, making it very effective at providing shade."
+                    "text": "Clear plastic",
+                    "isCorrect": 0,
+                    "explanation": "Clear plastic is transparent and allows most sunlight to pass through, making it a poor choice for providing shade."
                 },
+                {
+                    "text": "All materials would provide the same amount of shade",
+                    "isCorrect": 0,
+                    "explanation": "Different materials have different abilities to block sunlight and withstand environmental conditions. Materials that are solid, not see-through, and weather-resistant provide better long-term shade."
+                },
+                {
+                    "text": "Wood",
+                    "isCorrect": 1,
+                    "explanation": "Wood is solid, thick, not see-through, and weather-resistant when properly treated, making it the most effective material for blocking sunlight and providing durable shade over time."
+                },
+                {
+                    "text": "Thick cardboard",
+                    "isCorrect": 0,
+                    "explanation": "Thick cardboard would initially block sunlight effectively, but it is less durable when exposed to weather elements like rain or humidity, making it unsuitable for a long-lasting sunshade."
+                },
+                {
+                    "text": "Thin cotton cloth",
+                    "isCorrect": 0,
+                    "explanation": "While thin cotton provides some shade, its thin and partially see-through nature makes it less effective than thicker, solid materials for long-term shade."
+                }
+            ],
+            "funFact": "Desert nomads have traditionally used thick, dark-colored materials for their tents because these materials are excellent at blocking the intense desert sun. The thickness and darkness of the material helps keep the inside of their tents significantly cooler than the outside temperature!"
+        },
+        {
+            "id": 3,
+            "text": "A student wants to build a shelter to protect their ice cream from melting in the sun. Which material would work best for the shelter?",
+            "options": [
+                {
+                    "text": "Thin paper",
+                    "isCorrect": 0,
+                    "explanation": "While paper can provide some shade, it is too thin to block sunlight effectively compared to thicker, solid materials."
+                },
+                {
+                    "text": "A solid wooden board",
+                    "isCorrect": 1,
+                    "explanation": "A solid wooden board provides excellent shade as it is thick and completely blocks sunlight, making it the most effective at preventing melting."
+                },
+                {
+                    "text": "Window glass",
+                    "isCorrect": 0,
+                    "explanation": "Window glass is transparent and allows most sunlight to pass through, making it a poor choice for providing shade."
+                },
+                {
+                    "text": "Clear plastic sheet",
+                    "isCorrect": 0,
+                    "explanation": "Clear plastic allows most sunlight to pass through, providing very little shade and protection from melting."
+                }
+            ],
+            "funFact": "Desert nomads have traditionally used thick, dark-colored materials for their tents because these materials are most effective at blocking the intense desert sun, keeping the inside of their tents up to 15 degrees cooler than outside temperatures!"
+        },
+        {
+            "id": 4,
+            "text": "Two students want to test different ways to keep their ice cream from melting during lunch break. Student A puts their ice cream in a closed lunchbox. Student B wraps their ice cream in aluminum foil. What would be the best way to compare how well these methods work?",
+            "options": [
+                {
+                    "text": "Look at which ice cream looks more melted at the end",
+                    "isCorrect": 0,
+                    "explanation": "Just looking at the end result doesn't provide detailed data about how well each method worked over time"
+                },
+                {
+                    "text": "Ask other students which method they think would work better",
+                    "isCorrect": 0,
+                    "explanation": "Opinions without testing don't provide scientific evidence about which method works better"
+                },
+                {
+                    "text": "Use a thermometer to measure the temperature of each ice cream at regular time intervals",
+                    "isCorrect": 1,
+                    "explanation": "Using a thermometer provides accurate data about how well each method keeps the ice cream cold"
+                },
+                {
+                    "text": "Check which ice cream tastes better after lunch",
+                    "isCorrect": 0,
+                    "explanation": "Taste is subjective and doesn't help measure how well each method prevents melting"
+                }
+            ],
+            "funFact": "Ice cream manufacturers use special freezers that can keep ice cream at temperatures as low as -40\u00b0F (-40\u00b0C) during transport to prevent any melting before it reaches stores!"
+        },
+        {
+            "id": 5,
+            "text": "A group of students wants to create a shady spot for their outdoor reading area. They need to compare different materials to find the best shade solution. Which material would provide the most effective shade for their reading area?",
+            "options": [
                 {
                     "text": "A clear plastic sheet",
                     "isCorrect": 0,
@@ -76,6 +130,11 @@
                     "explanation": "A thin mesh screen has many small holes that allow sunlight to pass through, making it less effective at providing shade."
                 },
                 {
+                    "text": "A thick canvas tent",
+                    "isCorrect": 1,
+                    "explanation": "A thick canvas tent is made of solid, dense material that blocks most sunlight, making it very effective at providing shade."
+                },
+                {
                     "text": "A single layer of tissue paper",
                     "isCorrect": 0,
                     "explanation": "Tissue paper is very thin and allows a lot of light to pass through, making it ineffective for providing shade."
@@ -84,164 +143,34 @@
             "funFact": "The world's largest shade structure is in Medina, Saudi Arabia. It's a series of giant umbrellas that automatically open and close to protect people from the intense desert sun!"
         },
         {
-            "id": 4,
-            "text": "A scientist wants to test which surface heats up faster in sunlight - sand or grass. What would be the best way to compare how these surfaces heat up?",
-            "options": [
-                {
-                    "text": "Use a thermometer to measure and record the temperature of both surfaces over time",
-                    "isCorrect": 1,
-                    "explanation": "Using a thermometer is the most scientific way to compare how different surfaces heat up, as it provides accurate temperature measurements that can be compared"
-                },
-                {
-                    "text": "Touch both surfaces with hands to feel which one is hotter",
-                    "isCorrect": 0,
-                    "explanation": "Our sense of touch is not reliable for accurate temperature comparison as it is subjective and cannot measure exact temperatures"
-                },
-                {
-                    "text": "Look at which surface appears brighter in the sun",
-                    "isCorrect": 0,
-                    "explanation": "The brightness of a surface does not directly indicate how hot it gets. Some dark surfaces can get very hot despite not appearing bright"
-                },
-                {
-                    "text": "Place an ice cube on each surface and see which melts first",
-                    "isCorrect": 0,
-                    "explanation": "While this might give a rough idea, it's not as accurate as using a thermometer and doesn't provide specific temperature measurements"
-                }
-            ],
-            "funFact": "Different colored surfaces heat up at different rates in sunlight. Dark-colored surfaces typically heat up faster than light-colored surfaces because they absorb more sunlight instead of reflecting it!"
-        },
-        {
-            "id": 5,
-            "text": "Two students want to test different ways to keep their ice cream from melting during lunch break. Student A puts their ice cream in a closed lunchbox. Student B wraps their ice cream in aluminum foil. What would be the best way to compare how well these methods work?",
-            "options": [
-                {
-                    "text": "Check which ice cream tastes better after lunch",
-                    "isCorrect": 0,
-                    "explanation": "Taste is subjective and doesn't help measure how well each method prevents melting"
-                },
-                {
-                    "text": "Use a thermometer to measure the temperature of each ice cream at regular time intervals",
-                    "isCorrect": 1,
-                    "explanation": "Using a thermometer provides accurate data about how well each method keeps the ice cream cold"
-                },
-                {
-                    "text": "Look at which ice cream looks more melted at the end",
-                    "isCorrect": 0,
-                    "explanation": "Just looking at the end result doesn't provide detailed data about how well each method worked over time"
-                },
-                {
-                    "text": "Ask other students which method they think would work better",
-                    "isCorrect": 0,
-                    "explanation": "Opinions without testing don't provide scientific evidence about which method works better"
-                }
-            ],
-            "funFact": "Ice cream manufacturers use special freezers that can keep ice cream at temperatures as low as -40\u00b0F (-40\u00b0C) during transport to prevent any melting before it reaches stores!"
-        },
-        {
             "id": 6,
-            "text": "A group of students is testing different types of leaves to find out which ones provide the best shade. They place identical thermometers under different leaves for 30 minutes in direct sunlight and measure the temperature. Which observation would best help them determine the most effective leaf for providing shade?",
+            "text": "A group of students wants to design a sun shelter for their outdoor lunch area. They test four different designs and measure how hot it gets underneath each shelter after 30 minutes in the sun. Which design would work best for their lunch area?",
             "options": [
                 {
-                    "text": "Compare the temperature readings under each leaf after 30 minutes",
+                    "text": "Design A: A clear plastic sheet that lets in lots of light and is very lightweight",
+                    "isCorrect": 0,
+                    "explanation": "Clear plastic allows most sunlight to pass through, providing minimal shade and protection from heat"
+                },
+                {
+                    "text": "Design B: A thick canvas material that blocks sunlight completely but is difficult to set up",
+                    "isCorrect": 0,
+                    "explanation": "While this provides excellent shade, the difficulty in setup makes it impractical for daily use"
+                },
+                {
+                    "text": "Design D: A metal sheet that blocks all sunlight but gets very hot to touch",
+                    "isCorrect": 0,
+                    "explanation": "Metal conducts heat well and can become dangerously hot, creating safety concerns despite good shade"
+                },
+                {
+                    "text": "Design C: A light-colored fabric that blocks most sunlight and can be easily attached to poles",
                     "isCorrect": 1,
-                    "explanation": "The lower temperature reading indicates better shade protection, making this the most scientific way to compare the effectiveness of different leaves"
-                },
-                {
-                    "text": "Look at which leaf is the prettiest",
-                    "isCorrect": 0,
-                    "explanation": "The appearance of a leaf does not necessarily indicate how well it blocks sunlight"
-                },
-                {
-                    "text": "Feel how soft each leaf is",
-                    "isCorrect": 0,
-                    "explanation": "The texture of a leaf is not related to its ability to provide shade"
-                },
-                {
-                    "text": "Count how many leaves are on each branch",
-                    "isCorrect": 0,
-                    "explanation": "The number of leaves alone doesn't tell us how well a single leaf blocks sunlight"
+                    "explanation": "This design combines good shade protection with practical features, making it ideal for regular use"
                 }
             ],
-            "funFact": "Some desert plants have specially adapted leaves that can rotate throughout the day to maximize or minimize their exposure to sunlight, helping them survive in extreme conditions!"
+            "funFact": "Desert nomads have traditionally used lightweight, breathable fabrics for their tents that reflect sunlight while allowing hot air to escape - a natural air conditioning system that has worked for thousands of years!"
         },
         {
             "id": 7,
-            "text": "A group of students is testing different tent materials to find the best one for a camping trip in hot weather. They set up small model tents made from different materials in direct sunlight and measured the temperature inside each tent after 30 minutes. Which of the following results would help them choose the best tent material?",
-            "options": [
-                {
-                    "text": "Material A: transparent plastic sheet, inside temperature 95\u00b0F, easy to see through, lightweight",
-                    "isCorrect": 0,
-                    "explanation": "Transparent materials allow more sunlight to pass through, leading to higher temperatures inside. This would make the tent uncomfortably hot."
-                },
-                {
-                    "text": "Material B: thick canvas, inside temperature 82\u00b0F, completely blocks light, very heavy",
-                    "isCorrect": 0,
-                    "explanation": "While this material provides good shade and temperature control, its heavy weight makes it impractical for a camping tent."
-                },
-                {
-                    "text": "Material C: lightweight nylon with UV coating, inside temperature 85\u00b0F, blocks most light, easy to carry",
-                    "isCorrect": 1,
-                    "explanation": "This material offers the best combination of sun protection, temperature control, and practical features like being lightweight and portable."
-                },
-                {
-                    "text": "Material D: reflective foil sheet, inside temperature 80\u00b0F, blocks all light, tears easily",
-                    "isCorrect": 0,
-                    "explanation": "Although this material keeps the temperature low, its fragile nature makes it unsuitable for a tent that needs to be durable."
-                }
-            ],
-            "funFact": "Desert nomads have traditionally used dark-colored tents made from goat hair. When hot, the fabric's loose weave allows hot air to escape while still providing shade. When it rains, the fibers swell and the fabric becomes waterproof!"
-        },
-        {
-            "id": 8,
-            "text": "A student conducted an experiment to compare how different surfaces heat up in sunlight. They measured the temperature of three surfaces (sand, grass, and water) after 30 minutes of exposure to direct sunlight. Which surface likely heated up the fastest?",
-            "options": [
-                {
-                    "text": "Sand",
-                    "isCorrect": 1,
-                    "explanation": "Sand heats up quickly because it's made of small, dark particles that readily absorb and retain heat from sunlight."
-                },
-                {
-                    "text": "Grass",
-                    "isCorrect": 0,
-                    "explanation": "Grass heats up more slowly than sand because it contains water and reflects some sunlight through its green color."
-                },
-                {
-                    "text": "Water",
-                    "isCorrect": 0,
-                    "explanation": "Water heats up the slowest because it has a high heat capacity and some sunlight passes through it rather than being absorbed."
-                }
-            ],
-            "funFact": "In the Sahara Desert, surface temperatures can reach up to 170\u00b0F (77\u00b0C) on a sunny day due to the extreme heating of sand, while nearby oases with water remain much cooler!"
-        },
-        {
-            "id": 9,
-            "text": "A group of students conducted an experiment to test how well different materials block sunlight. They placed thermometers behind different barriers and measured the temperature after 30 minutes in direct sunlight. Which data set would best help them determine the most effective material for providing shade?",
-            "options": [
-                {
-                    "text": "Temperature readings behind a clear window, a wooden board, and a curtain taken at different times of day",
-                    "isCorrect": 0,
-                    "explanation": "Taking measurements at different times of day introduces an extra variable that makes it harder to compare the materials fairly."
-                },
-                {
-                    "text": "Temperature readings behind a clear window, a wooden board, and a curtain taken at the same time with the same type of thermometer",
-                    "isCorrect": 1,
-                    "explanation": "This provides a fair test comparing different materials under the same conditions, allowing students to determine which material blocks sunlight most effectively."
-                },
-                {
-                    "text": "Temperature readings behind a wooden board taken every 5 minutes for 30 minutes",
-                    "isCorrect": 0,
-                    "explanation": "Testing only one material doesn't allow comparison between different types of barriers to determine which works best."
-                },
-                {
-                    "text": "Temperature readings in direct sunlight without any barriers",
-                    "isCorrect": 0,
-                    "explanation": "Without testing barriers, there's no way to compare how well different materials provide shade."
-                }
-            ],
-            "funFact": "The best natural sunshade is provided by dense trees, which can block up to 95% of sunlight and reduce temperatures underneath by as much as 15 degrees Fahrenheit!"
-        },
-        {
-            "id": 10,
             "text": "A scientist tested different thicknesses of cloth curtains to find out which one provides better shade and keeps an area cooler. She measured the temperature behind each curtain after 1 hour in the sunlight. Which data table shows that thicker curtains are better at providing shade and keeping the area cooler?",
             "options": [
                 {
@@ -268,99 +197,138 @@
             "funFact": "Desert nomads traditionally use thick, dark-colored tents made of woven goat hair or wool. These materials can reduce the temperature inside the tent by up to 15 degrees compared to outside temperatures!"
         },
         {
-            "id": 11,
-            "text": "A student wants to test which material provides better shade protection on a hot sunny day. The student places two thermometers behind different materials - a window and a wooden board - and records the temperature every hour. After 3 hours, the thermometer behind the window reads 95\u00b0F while the thermometer behind the wooden board reads 82\u00b0F. What conclusion can the student make from this data?",
+            "id": 8,
+            "text": "A group of students wants to build a shelter to protect them from the hot sun during recess. They test different materials by placing them in sunlight and measuring their temperature after 30 minutes. Which pattern of temperature readings would help them choose the best material for their shelter?",
             "options": [
                 {
-                    "text": "The wooden board provides better shade protection than the window",
+                    "text": "All materials will show the same temperature increase in sunlight",
+                    "isCorrect": 0,
+                    "explanation": "Different materials heat up differently when exposed to sunlight due to their varying properties."
+                },
+                {
+                    "text": "The temperature of materials doesn't matter for providing shade",
+                    "isCorrect": 0,
+                    "explanation": "Temperature changes in materials indicate how much sunlight they absorb or reflect, which directly affects their ability to provide shade."
+                },
+                {
+                    "text": "Material that shows the highest temperature increase would provide the best shade",
+                    "isCorrect": 0,
+                    "explanation": "Materials that heat up quickly actually absorb more sunlight and provide less shade. These would make the shelter warmer inside."
+                },
+                {
+                    "text": "Material that shows the lowest temperature increase would provide the best shade",
                     "isCorrect": 1,
-                    "explanation": "The lower temperature behind the wooden board (82\u00b0F vs 95\u00b0F) shows it blocks more sunlight and provides better shade protection than the transparent window"
-                },
-                {
-                    "text": "The window provides better shade protection than the wooden board",
-                    "isCorrect": 0,
-                    "explanation": "The higher temperature behind the window (95\u00b0F vs 82\u00b0F) indicates it lets more sunlight through and provides less shade protection than the wooden board"
-                },
-                {
-                    "text": "Both materials provide equal shade protection",
-                    "isCorrect": 0,
-                    "explanation": "The temperature difference (13\u00b0F) shows the materials do not provide equal protection - the wooden board blocks more sunlight than the window"
-                },
-                {
-                    "text": "No conclusion can be made from this data",
-                    "isCorrect": 0,
-                    "explanation": "The temperature readings clearly show a difference between the two materials, allowing us to conclude which provides better shade protection"
+                    "explanation": "Materials that heat up less reflect more sunlight and provide better shade, making them ideal for a sun shelter."
                 }
             ],
-            "funFact": "The amount of sunlight blocked by different materials is called opacity. Some materials like metals can block nearly 100% of sunlight, while clear glass can let through up to 90% of visible light!"
+            "funFact": "Desert nomads traditionally used thick, light-colored materials for their tents because these materials reflect more sunlight and stay cooler. This same principle is used in modern architecture to design energy-efficient buildings!"
+        },
+        {
+            "id": 9,
+            "text": "A student conducted an experiment to compare how different surfaces heat up in sunlight. They measured the temperature of three surfaces (sand, grass, and water) after 30 minutes of exposure to direct sunlight. Which surface likely heated up the fastest?",
+            "options": [
+                {
+                    "text": "Water",
+                    "isCorrect": 0,
+                    "explanation": "Water heats up the slowest because it has a high heat capacity and some sunlight passes through it rather than being absorbed."
+                },
+                {
+                    "text": "Sand",
+                    "isCorrect": 1,
+                    "explanation": "Sand heats up quickly because it's made of small, dark particles that readily absorb and retain heat from sunlight."
+                },
+                {
+                    "text": "Grass",
+                    "isCorrect": 0,
+                    "explanation": "Grass heats up more slowly than sand because it contains water and reflects some sunlight through its green color."
+                }
+            ],
+            "funFact": "In the Sahara Desert, surface temperatures can reach up to 170\u00b0F (77\u00b0C) on a sunny day due to the extreme heating of sand, while nearby oases with water remain much cooler!"
+        },
+        {
+            "id": 10,
+            "text": "A student wants to compare how well different materials block sunlight by measuring temperatures in the shade they create. The student places thermometers behind different materials and records the temperature after 30 minutes in the sun. Which set of materials would be best to compare?",
+            "options": [
+                {
+                    "text": "A thick curtain and a clear glass window",
+                    "isCorrect": 1,
+                    "explanation": "A thick curtain and a clear window are good materials to compare because they have very different abilities to block sunlight - one is solid and opaque while the other is transparent, which will show clear differences in their shading effectiveness."
+                },
+                {
+                    "text": "A thick curtain and no material at all",
+                    "isCorrect": 0,
+                    "explanation": "Comparing a material to no material at all doesn't effectively test different materials' shading abilities - we already know direct sunlight will heat things more than shade."
+                },
+                {
+                    "text": "Two identical thick curtains",
+                    "isCorrect": 0,
+                    "explanation": "Using two identical curtains would not show any differences in shading ability since they are the same material with the same properties."
+                },
+                {
+                    "text": "Two clear glass windows",
+                    "isCorrect": 0,
+                    "explanation": "Using two identical windows would not show any differences in shading ability since they are the same material with the same properties."
+                }
+            ],
+            "funFact": "Desert nomads have long used dark-colored tents made of tightly woven fabric that not only provides shade but also allows hot air to escape through tiny gaps in the weave, creating a natural cooling effect!"
+        },
+        {
+            "id": 11,
+            "text": "A student wants to test which material would be better for making a beach umbrella that keeps people cool: cotton fabric or transparent plastic. The student places two identical thermometers in sunlight, one covered by cotton and one covered by transparent plastic. After 30 minutes in the sun, which thermometer will likely show a lower temperature?",
+            "options": [
+                {
+                    "text": "The thermometer covered by transparent plastic",
+                    "isCorrect": 0,
+                    "explanation": "Transparent plastic allows most sunlight to pass through, providing little shade. This means more heat reaches the thermometer, resulting in a higher temperature."
+                },
+                {
+                    "text": "Both thermometers will show the same temperature",
+                    "isCorrect": 0,
+                    "explanation": "Different materials block different amounts of sunlight. Since cotton blocks more sunlight than transparent plastic, the temperatures will not be the same."
+                },
+                {
+                    "text": "The thermometer covered by cotton fabric",
+                    "isCorrect": 1,
+                    "explanation": "Cotton fabric is thicker and less see-through, making it better at blocking sunlight and providing shade. This means less heat reaches the thermometer, resulting in a lower temperature."
+                }
+            ],
+            "funFact": "Desert nomads have traditionally worn thick, loose cotton clothing to stay cool in the hot sun. While it might seem counterintuitive to wear thick clothing in hot weather, the material actually provides excellent shade and protection from the sun's intense heat!"
         },
         {
             "id": 12,
-            "text": "Two students wanted to test which box design would keep ice from melting longer. They put identical ice cubes in different boxes and measured how long it took for the ice to melt completely:\n\nBox A (cardboard): Ice melted in 45 minutes\nBox B (insulated): Ice melted in 90 minutes\nBox C (transparent plastic): Ice melted in 30 minutes\n\nBased on this data, which conclusion about the box designs is correct?",
+            "text": "A group of students conducted an experiment to compare how well different surfaces heat up in sunlight. They placed identical dark-colored pieces of metal, wood, and plastic in direct sunlight for 30 minutes and measured their temperatures. Which material would most likely reach the highest temperature and be best suited for cooking an egg?",
             "options": [
                 {
-                    "text": "The insulated box (Box B) performed best because it kept the ice frozen longest by reducing heat transfer from the surrounding environment",
+                    "text": "Dark wooden surface",
+                    "isCorrect": 0,
+                    "explanation": "While dark wood absorbs solar radiation well, it is a poor conductor of heat and takes longer to reach high temperatures, making it less effective for cooking an egg."
+                },
+                {
+                    "text": "Dark plastic surface",
+                    "isCorrect": 0,
+                    "explanation": "While dark plastic absorbs solar radiation, it is not a good conductor of heat and might even melt at high temperatures, making it unsuitable for cooking an egg."
+                },
+                {
+                    "text": "Dark metal surface",
                     "isCorrect": 1,
-                    "explanation": "Box B took 90 minutes for the ice to melt, which was twice as long as Box A and three times longer than Box C, showing it was most effective at insulating the ice from the surrounding environment's heat."
-                },
-                {
-                    "text": "The transparent box (Box C) performed best because it allowed us to see the ice melting",
-                    "isCorrect": 0,
-                    "explanation": "Being able to see the ice doesn't help keep it frozen. The transparent box performed worst, likely because plastic materials often provide less insulation than the other materials tested."
-                },
-                {
-                    "text": "All boxes performed equally well since the ice eventually melted in all of them",
-                    "isCorrect": 0,
-                    "explanation": "The time differences clearly show the boxes did not perform equally. The final result (melting) being the same doesn't mean the performance was equal"
-                },
-                {
-                    "text": "The cardboard box (Box A) performed best because it's the most common material for boxes",
-                    "isCorrect": 0,
-                    "explanation": "How common a material is doesn't determine its performance. The data shows Box A took less time to melt than Box B"
+                    "explanation": "Dark metal is an excellent absorber of solar radiation and also a good conductor of heat. It can reach very high temperatures quickly when exposed to sunlight, making it the best surface for cooking an egg."
                 }
             ],
-            "funFact": "The same principle that keeps ice from melting in insulated boxes is used in vacuum flasks (thermoses), which can keep hot drinks hot and cold drinks cold for many hours by creating a vacuum between two walls that greatly reduces heat transfer!"
+            "funFact": "The hottest naturally occurring surface temperature ever recorded on Earth was 80.3\u00b0C (176.5\u00b0F) in the Lut Desert of Iran. At this temperature, you could actually fry an egg in just a few minutes!"
         },
         {
             "id": 13,
-            "text": "A student wants to test which shade material would best protect an ice cube from melting in the sun. The student has three materials: a piece of wood, a clear plastic sheet, and a cloth curtain. Each ice cube is placed under one of these materials. Which material would keep the ice cube from melting the longest?",
-            "options": [
-                {
-                    "text": "The piece of wood",
-                    "isCorrect": 1,
-                    "explanation": "Wood is a solid, opaque material that blocks sunlight most effectively, providing the best shade and slowing down the melting process the most."
-                },
-                {
-                    "text": "The clear plastic sheet",
-                    "isCorrect": 0,
-                    "explanation": "Clear plastic is see-through and allows most sunlight to pass through, making it the least effective at providing shade and protecting the ice cube."
-                },
-                {
-                    "text": "The cloth curtain",
-                    "isCorrect": 0,
-                    "explanation": "While a cloth curtain provides good shade, it is not as solid as wood and may allow some sunlight to pass through, making it less effective than wood."
-                },
-                {
-                    "text": "All materials would work equally well",
-                    "isCorrect": 0,
-                    "explanation": "Different materials have different abilities to block sunlight. Materials that are more see-through provide less shade than solid, opaque materials."
-                }
-            ],
-            "funFact": "Desert nomads have long used thick, dark-colored materials for their tents because these materials are extremely effective at blocking intense sunlight and keeping the inside temperature cooler, using the same scientific principle as in this experiment!"
-        },
-        {
-            "id": 14,
             "text": "A student wants to find out which color surface gets hotter in sunlight. The student places four squares of paper - white, black, red, and blue - in direct sunlight and measures their temperatures after 10 minutes using a thermometer. Which color would likely show the highest temperature?",
             "options": [
+                {
+                    "text": "Blue paper",
+                    "isCorrect": 0,
+                    "explanation": "Blue surfaces absorb some sunlight but not as much as black surfaces, so they get warm but not as hot as black surfaces."
+                },
                 {
                     "text": "Black paper",
                     "isCorrect": 1,
                     "explanation": "Black surfaces absorb more sunlight and convert it to heat energy, causing them to get hotter than lighter colored surfaces."
-                },
-                {
-                    "text": "White paper",
-                    "isCorrect": 0,
-                    "explanation": "White surfaces reflect most sunlight, absorbing less heat energy, so they stay cooler than darker surfaces."
                 },
                 {
                     "text": "Red paper",
@@ -368,39 +336,66 @@
                     "explanation": "Red surfaces absorb some sunlight but not as much as black surfaces, so they get warm but not as hot as black surfaces."
                 },
                 {
-                    "text": "Blue paper",
+                    "text": "White paper",
                     "isCorrect": 0,
-                    "explanation": "Blue surfaces absorb some sunlight but not as much as black surfaces, so they get warm but not as hot as black surfaces."
+                    "explanation": "White surfaces reflect most sunlight, absorbing less heat energy, so they stay cooler than darker surfaces."
                 }
             ],
             "funFact": "This is why many desert dwellers traditionally wear light-colored clothing - it helps keep them cooler by reflecting more sunlight. Similarly, many hot climate buildings are painted white to reduce heat absorption!"
         },
         {
-            "id": 15,
-            "text": "A scientist conducted an experiment to compare how quickly sand and grass heat up in sunlight. The scientist measured the temperature of both surfaces every hour for 4 hours. The sand temperature increased by 20\u00b0F while the grass temperature increased by 12\u00b0F. What can we conclude about these surfaces?",
+            "id": 14,
+            "text": "A group of students wanted to find out which material is better at blocking sunlight - a glass window or a wooden board. They placed a thermometer behind each material and recorded the temperature after 30 minutes in the sun. The thermometer behind the glass window showed 85\u00b0F while the thermometer behind the wooden board showed 75\u00b0F. What conclusion can they draw from this data?",
             "options": [
                 {
-                    "text": "Sand absorbs heat from sunlight faster than grass",
+                    "text": "No conclusion can be drawn because temperature differences could be due to other factors.",
+                    "isCorrect": 0,
+                    "explanation": "Since both measurements were taken at the same time under the same conditions, the temperature difference clearly shows how well each material blocks sunlight."
+                },
+                {
+                    "text": "The wooden board is better at blocking sunlight than the glass window because it resulted in a lower temperature.",
                     "isCorrect": 1,
-                    "explanation": "The larger temperature increase in sand (20\u00b0F) compared to grass (12\u00b0F) over the same time period shows that sand absorbs heat more quickly."
+                    "explanation": "The lower temperature behind the wooden board shows it blocks more sunlight, making it more effective at providing shade."
                 },
                 {
-                    "text": "Grass absorbs heat from sunlight faster than sand",
+                    "text": "Both materials are equally good at blocking sunlight since they both provided some shade.",
                     "isCorrect": 0,
-                    "explanation": "The data shows grass had a smaller temperature increase (12\u00b0F) compared to sand (20\u00b0F), so grass actually absorbs heat more slowly than sand."
+                    "explanation": "The temperature difference shows the materials are not equally effective - the wooden board blocks more sunlight than the glass window."
                 },
                 {
-                    "text": "Sand and grass absorb heat from sunlight at the same rate",
+                    "text": "The glass window is better at blocking sunlight than the wooden board because it resulted in a higher temperature.",
                     "isCorrect": 0,
-                    "explanation": "The temperature increase was different for sand (20\u00b0F) and grass (12\u00b0F), showing they do not absorb heat at the same rate."
-                },
-                {
-                    "text": "The experiment doesn't provide enough information to compare heat absorption",
-                    "isCorrect": 0,
-                    "explanation": "The experiment provides clear temperature changes over the same time period, which is sufficient to compare how quickly each surface absorbs heat."
+                    "explanation": "A higher temperature means more sunlight is getting through, so the glass window is actually less effective at blocking sunlight."
                 }
             ],
-            "funFact": "Desert sand can reach temperatures of up to 150\u00b0F (65\u00b0C) on a hot sunny day! This is why many desert animals are nocturnal and stay underground during the day to avoid the extreme heat."
+            "funFact": "The ability of a material to block sunlight is called its opacity. The most opaque materials can block nearly 100% of sunlight, while some materials like clean air are almost completely transparent, blocking less than 1% of sunlight!"
+        },
+        {
+            "id": 15,
+            "text": "An experiment was done to measure the temperature of different surfaces during a sunny day. A concrete surface reached 120\u00b0F at noon, while grass in the same location reached 85\u00b0F. Based on this data, what can we conclude about how these surfaces heat up in sunlight?",
+            "options": [
+                {
+                    "text": "Concrete and grass heat up equally when exposed to sunlight",
+                    "isCorrect": 0,
+                    "explanation": "The temperatures are clearly different (120\u00b0F vs 85\u00b0F), showing that these surfaces do not heat up equally."
+                },
+                {
+                    "text": "Grass heats up more than concrete when exposed to sunlight",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the data shows grass reached only 85\u00b0F while concrete reached 120\u00b0F under the same conditions."
+                },
+                {
+                    "text": "Concrete heats up more than grass when exposed to sunlight",
+                    "isCorrect": 1,
+                    "explanation": "The data shows concrete reached a higher temperature (120\u00b0F) than grass (85\u00b0F) under the same sunlight conditions, demonstrating that concrete absorbs and retains more heat."
+                },
+                {
+                    "text": "The temperature difference is due to time of day, not the surface type",
+                    "isCorrect": 0,
+                    "explanation": "Both measurements were taken at the same time (noon) in the same location, so the difference is due to the surface type, not time of day."
+                }
+            ],
+            "funFact": "The urban heat island effect occurs because cities have more concrete and asphalt surfaces that absorb heat, making urban areas several degrees warmer than surrounding rural areas with more grass and vegetation!"
         }
     ]
 }

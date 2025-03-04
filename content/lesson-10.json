@@ -4,89 +4,67 @@
     "questions": [
         {
             "id": 1,
-            "text": "How do cats' eyes help them survive as nighttime hunters?",
+            "text": "When a major environmental change occurs in a habitat, how might animals respond to survive?",
             "options": [
                 {
-                    "text": "Their eyes reflect light better at night, allowing them to see clearly in the dark",
+                    "text": "All animals will immediately develop new physical features to adapt",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Individual animals cannot immediately develop new physical features. Adaptations develop over many generations through natural selection."
+                },
+                {
+                    "text": "Animals may die, move to new locations, or adapt over many generations",
                     "isCorrect": 1,
-                    "explanation": "Cats' eyes have special adaptations that allow them to reflect and use light more efficiently, making them excellent night hunters"
+                    "explanation": "This is correct. When environments change dramatically, some animals may not survive, others might migrate to more suitable habitats, and some populations may develop adaptations over many generations."
                 },
                 {
-                    "text": "Their eyes produce their own light to help them see in the dark",
+                    "text": "All animals will migrate to a new habitat",
                     "isCorrect": 0,
-                    "explanation": "Cat eyes don't produce their own light - they are adapted to use available light more efficiently"
+                    "explanation": "This is incorrect. Not all animals have the ability or opportunity to migrate. Some may die if they cannot survive the changes, while others may stay and adapt over time."
                 },
                 {
-                    "text": "Their eyes are larger than other animals' eyes, letting in more sunlight",
+                    "text": "All animals will hibernate until the environment returns to normal",
                     "isCorrect": 0,
-                    "explanation": "While cat eyes are relatively large for their size, it's their internal structure rather than just size that helps them see at night"
-                },
-                {
-                    "text": "Their eyes change color at night to absorb more light",
-                    "isCorrect": 0,
-                    "explanation": "Cat eyes appear to change color due to light reflection, but they don't actually change color to help with night vision"
+                    "explanation": "This is incorrect. Hibernation is not a universal response to environmental changes, and not all environmental changes are temporary or reversible."
                 }
             ],
-            "funFact": "Cats can see with only one-sixth of the light that humans need to see clearly. Their eyes also have a wider field of view than humans - about 200 degrees compared to our 180 degrees!"
+            "funFact": "The Galapagos Islands' famous finches demonstrate how animals adapt over time - their beak shapes evolved over many generations to match the available food sources on different islands, leading Charles Darwin to develop his theory of evolution by natural selection."
         },
         {
             "id": 2,
-            "text": "Which of the following best explains how a hawk's beak helps it survive in its environment?",
+            "text": "What is the primary way in which a deer's strong leg muscles help it survive in its environment?",
             "options": [
                 {
-                    "text": "The hook-like beak helps hawks rip apart their prey for eating",
+                    "text": "The strong leg muscles allow deer to dig burrows for protection",
+                    "isCorrect": 0,
+                    "explanation": "Deer do not dig burrows. This is a behavior associated with other animals like rabbits or foxes."
+                },
+                {
+                    "text": "The strong leg muscles help deer fight back against predators",
+                    "isCorrect": 0,
+                    "explanation": "Deer primarily use flight rather than fight as a survival strategy. They rarely engage in physical combat with predators."
+                },
+                {
+                    "text": "The strong leg muscles allow deer to run at high speeds to escape from predators",
                     "isCorrect": 1,
-                    "explanation": "Hawks have evolved hook-like beaks specifically adapted for tearing and eating meat from their prey, which is essential for their survival as predators."
+                    "explanation": "Strong leg muscles enable deer to run up to 30 miles per hour, which is a crucial adaptation that helps them escape from predators and survive in their environment."
                 },
                 {
-                    "text": "The hook-like beak helps hawks drink nectar from flowers",
+                    "text": "The strong leg muscles help deer climb trees to avoid predators",
                     "isCorrect": 0,
-                    "explanation": "Hawks are predatory birds that eat meat, not nectar. Long, thin beaks are adaptations found in nectar-feeding birds like hummingbirds."
-                },
-                {
-                    "text": "The hook-like beak helps hawks scoop up fish from water",
-                    "isCorrect": 0,
-                    "explanation": "While some birds like pelicans have pouch-like beaks adapted for scooping fish, hawks have hook-like beaks adapted for tearing prey."
-                },
-                {
-                    "text": "The hook-like beak helps hawks build nests in trees",
-                    "isCorrect": 0,
-                    "explanation": "While hawks do build nests, their hook-like beaks evolved primarily as an adaptation for handling and eating prey, not for nest building."
+                    "explanation": "Deer are not adapted to climb trees. They rely on speed and agility on the ground for survival."
                 }
             ],
-            "funFact": "A hawk's beak is so sharp and strong that it can exert a force of up to 200 pounds per square inch when biting - that's strong enough to crush bones of their prey!"
+            "funFact": "While deer can run at speeds up to 30 miles per hour, they can also jump incredibly high - up to 8 feet vertically! This additional athletic ability, combined with their speed, makes them incredibly adept at escaping danger in various terrain types."
         },
         {
             "id": 3,
-            "text": "How do sloths' slow movement and ability to blend in with their surroundings work together to help them survive?",
-            "options": [
-                {
-                    "text": "Their slow movement and camouflage make them harder for predators to spot in the trees",
-                    "isCorrect": 1,
-                    "explanation": "When sloths move slowly and have coloring similar to trees, they become very difficult for predators to detect, increasing their chances of survival"
-                },
-                {
-                    "text": "Their slow movement helps them conserve energy while their coloring attracts mates",
-                    "isCorrect": 0,
-                    "explanation": "While sloths do conserve energy by moving slowly, their coloring is not used for attracting mates but rather for camouflage from predators"
-                },
-                {
-                    "text": "Their slow movement helps them catch prey while their coloring scares predators away",
-                    "isCorrect": 0,
-                    "explanation": "Sloths are not predators that chase prey, and their coloring is used for hiding rather than scaring other animals"
-                },
-                {
-                    "text": "Their slow movement allows them to sleep longer while their coloring keeps them cool",
-                    "isCorrect": 0,
-                    "explanation": "While sloths do sleep a lot, their slow movement and coloring are adaptations for avoiding predators, not for sleeping or temperature regulation"
-                }
-            ],
-            "funFact": "The algae that grows on sloths' fur not only helps them blend in with the trees but also provides nutrients to the sloth when they groom themselves - it's like having a living camouflage suit that's also a snack!"
-        },
-        {
-            "id": 4,
             "text": "Which statement best explains how a giraffe's tongue helps it obtain food from thorny plants?",
             "options": [
+                {
+                    "text": "The giraffe's tongue can break off thorns from the plants",
+                    "isCorrect": 0,
+                    "explanation": "Giraffes don't break thorns off plants with their tongues. This would be inefficient and potentially harmful to both the giraffe and the plant."
+                },
                 {
                     "text": "The giraffe's tongue can bend thorns back to safely reach leaves without getting pricked",
                     "isCorrect": 1,
@@ -101,28 +79,50 @@
                     "text": "The giraffe's tongue is so tough that thorns cannot pierce it",
                     "isCorrect": 0,
                     "explanation": "While giraffe tongues are tough, they don't rely on toughness to deal with thorns. Instead, they use their tongues to manipulate the thorns out of the way."
-                },
-                {
-                    "text": "The giraffe's tongue can break off thorns from the plants",
-                    "isCorrect": 0,
-                    "explanation": "Giraffes don't break thorns off plants with their tongues. This would be inefficient and potentially harmful to both the giraffe and the plant."
                 }
             ],
             "funFact": "A giraffe's tongue has another fascinating adaptation - its dark bluish-black color helps protect it from getting sunburned while the giraffe feeds for long hours in the bright African sun!"
+        },
+        {
+            "id": 4,
+            "text": "How do sloths' slow movement and ability to blend in with their surroundings work together to help them survive?",
+            "options": [
+                {
+                    "text": "Their slow movement helps them conserve energy while their coloring attracts mates",
+                    "isCorrect": 0,
+                    "explanation": "While sloths do conserve energy by moving slowly, their coloring is not used for attracting mates but rather for camouflage from predators"
+                },
+                {
+                    "text": "Their slow movement allows them to sleep longer while their coloring keeps them cool",
+                    "isCorrect": 0,
+                    "explanation": "While sloths do sleep a lot, their slow movement and coloring are adaptations for avoiding predators, not for sleeping or temperature regulation"
+                },
+                {
+                    "text": "Their slow movement helps them catch prey while their coloring scares predators away",
+                    "isCorrect": 0,
+                    "explanation": "Sloths are not predators that chase prey, and their coloring is used for hiding rather than scaring other animals"
+                },
+                {
+                    "text": "Their slow movement and camouflage make them harder for predators to spot in the trees",
+                    "isCorrect": 1,
+                    "explanation": "When sloths move slowly and have coloring similar to trees, they become very difficult for predators to detect, increasing their chances of survival"
+                }
+            ],
+            "funFact": "The algae that grows on sloths' fur not only helps them blend in with the trees but also provides nutrients to the sloth when they groom themselves - it's like having a living camouflage suit that's also a snack!"
         },
         {
             "id": 5,
             "text": "Which of the following best describes what an adaptation is?",
             "options": [
                 {
-                    "text": "A characteristic that helps an organism survive in its environment",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. An adaptation is any characteristic or feature that helps an organism survive in its specific environment, like a giraffe's long neck helping it reach leaves or a sloth's camouflage helping it hide from predators."
-                },
-                {
                     "text": "A change an animal makes to fit into a new place",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Adaptations are not immediate changes that animals can make. They develop over many generations through natural selection."
+                },
+                {
+                    "text": "Any change that happens to an animal during its lifetime",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Changes that happen during an animal's lifetime are not adaptations. True adaptations develop over many generations and are inherited characteristics."
                 },
                 {
                     "text": "A special skill that animals learn from their parents",
@@ -130,71 +130,49 @@
                     "explanation": "This is incorrect. While animals do learn skills from their parents, adaptations are inherited physical or behavioral characteristics, not learned skills."
                 },
                 {
-                    "text": "Any change that happens to an animal during its lifetime",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Changes that happen during an animal's lifetime are not adaptations. True adaptations develop over many generations and are inherited characteristics."
+                    "text": "A characteristic that helps an organism survive in its environment",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. An adaptation is any characteristic or feature that helps an organism survive in its specific environment, like a giraffe's long neck helping it reach leaves or a sloth's camouflage helping it hide from predators."
                 }
             ],
             "funFact": "The Arctic fox has one of the most remarkable adaptations - its fur changes color with the seasons! In winter, its coat turns white to blend with the snow, while in summer, it turns brown to match the tundra landscape."
         },
         {
             "id": 6,
-            "text": "The Serengeti region in Africa is home to many herbivores that feed on tree leaves. How have different animals developed different adaptations to access the same food source?",
+            "text": "A scientist is studying different species of moths in a forest. She observes that brown moths tend to survive better in areas with brown tree bark, while gray moths survive better in areas with gray tree bark. Which statement best explains this observation?",
             "options": [
                 {
-                    "text": "Giraffes use their long necks and tongues, while monkeys use their climbing abilities",
+                    "text": "Moths change their color depending on which tree they land on",
+                    "isCorrect": 0,
+                    "explanation": "Moths cannot quickly change their color to match their background. Their coloring is an inherited trait that develops over many generations through natural selection"
+                },
+                {
+                    "text": "The tree bark changes color to match the moths that land on it",
+                    "isCorrect": 0,
+                    "explanation": "Trees do not change their bark color to match moths. The bark color is a characteristic of the tree species and doesn't change based on the organisms that live on it"
+                },
+                {
+                    "text": "Moths that match their background color have a higher survival rate because predators have difficulty spotting them",
                     "isCorrect": 1,
-                    "explanation": "Different animals have evolved unique adaptations to access the same food source. Giraffes use their height and long tongues, while monkeys use their agility to climb trees, showing how different solutions can work for the same challenge."
+                    "explanation": "This is correct because camouflage is an adaptation that helps organisms blend in with their environment, making it harder for predators to find them, thus increasing their chances of survival"
                 },
                 {
-                    "text": "All animals in the Serengeti have developed long necks to reach tree leaves",
+                    "text": "Predators are colorblind and cannot see the moths at all",
                     "isCorrect": 0,
-                    "explanation": "Not all animals have developed the same adaptation. Different species have evolved different ways to access food based on their unique characteristics and abilities."
-                },
-                {
-                    "text": "Animals take turns using the same adaptation to access food",
-                    "isCorrect": 0,
-                    "explanation": "Animals don't share or take turns using adaptations. Each species has its own unique set of adaptations that have developed over many generations."
-                },
-                {
-                    "text": "Only the tallest animals can survive in the Serengeti because they can reach the leaves",
-                    "isCorrect": 0,
-                    "explanation": "Height is just one of many adaptations that can help animals access food. Animals of different sizes can survive using various other adaptations."
+                    "explanation": "Most predators that hunt moths, like birds, have excellent color vision and can see moths. They just have more difficulty spotting moths that blend in with their background"
                 }
             ],
-            "funFact": "The Serengeti ecosystem is so diverse that it supports over 70 different species of large mammals, each with its own unique set of adaptations for finding food, avoiding predators, and surviving in the environment!"
+            "funFact": "Some moth species, like the peppered moth in England, have shown rapid evolutionary changes in their coloring in response to environmental changes. During the Industrial Revolution, trees became darker from pollution, and within a few decades, dark-colored moths became much more common than light-colored moths because they were better camouflaged on the darker trees."
         },
         {
             "id": 7,
-            "text": "Why is the hummingbird's specialized feeding adaptation (its long, thin beak and hovering ability) particularly beneficial for its survival?",
-            "options": [
-                {
-                    "text": "It allows the hummingbird to access nectar that most other birds cannot reach, reducing competition for food",
-                    "isCorrect": 1,
-                    "explanation": "The hummingbird's long, thin beak and ability to hover let it feed from deep inside flowers where other birds cannot reach, giving it exclusive access to this food source"
-                },
-                {
-                    "text": "It helps the hummingbird catch insects more efficiently than other birds",
-                    "isCorrect": 0,
-                    "explanation": "While hummingbirds do eat some insects, their primary adaptation of a long thin beak is specialized for drinking nectar, not catching insects"
-                },
-                {
-                    "text": "It allows the hummingbird to store more food than other birds",
-                    "isCorrect": 0,
-                    "explanation": "The hummingbird's beak adaptation is not related to food storage - it's specifically designed for accessing nectar deep inside flowers"
-                },
-                {
-                    "text": "It makes the hummingbird fly faster than other birds",
-                    "isCorrect": 0,
-                    "explanation": "While hummingbirds are agile flyers, their specialized beak and hovering abilities are adaptations for feeding, not primarily for speed"
-                }
-            ],
-            "funFact": "Hummingbirds have incredibly fast metabolisms and must visit hundreds of flowers each day to survive. Their hearts can beat up to 1,260 times per minute during flight, making them one of the most energy-intensive animals relative to their size!"
-        },
-        {
-            "id": 8,
             "text": "How do a giraffe's adaptations work together to help it survive in the African savanna?",
             "options": [
+                {
+                    "text": "Its dark tongue scares away predators, while its long neck spots danger from far away",
+                    "isCorrect": 0,
+                    "explanation": "The dark coloring of the tongue is actually to prevent sunburn, not to scare predators. This doesn't explain how adaptations help giraffes access food"
+                },
                 {
                     "text": "Its long neck reaches high leaves, while its long, dark-tipped tongue safely grabs leaves between thorns",
                     "isCorrect": 1,
@@ -206,11 +184,6 @@
                     "explanation": "While giraffes do use their necks in fighting, this doesn't explain how their adaptations work together to help them access food and survive"
                 },
                 {
-                    "text": "Its dark tongue scares away predators, while its long neck spots danger from far away",
-                    "isCorrect": 0,
-                    "explanation": "The dark coloring of the tongue is actually to prevent sunburn, not to scare predators. This doesn't explain how adaptations help giraffes access food"
-                },
-                {
                     "text": "Its long neck stores water, while its tongue helps it drink from tall trees",
                     "isCorrect": 0,
                     "explanation": "Giraffes don't store water in their necks, and they typically drink from water sources on the ground. This misunderstands how their adaptations function"
@@ -219,13 +192,18 @@
             "funFact": "A giraffe's tongue can grow up to 50 centimeters (20 inches) long and is not only dark-colored to prevent sunburn, but also has antiseptic properties that help protect it from cuts while feeding on thorny acacia trees!"
         },
         {
-            "id": 9,
+            "id": 8,
             "text": "Echidnas have several remarkable adaptations, including a sensitive nose that can detect electrical signals, strong limbs for digging, and specialized body features for temperature regulation. How do these different adaptations work together to help echidnas survive in harsh Australian environments, including hot and arid regions?",
             "options": [
                 {
                     "text": "Its sensitive nose detects prey's electrical signals, and its strong feet allow it to dig burrows for both finding food and staying cool",
                     "isCorrect": 1,
                     "explanation": "This correctly describes how the echidna's adaptations work together - its specialized nose helps locate prey through electrical detection, while its powerful feet serve dual purposes of accessing food and creating shelter from heat"
+                },
+                {
+                    "text": "Its nose helps it find plant roots, and its feet help it swim in water holes",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - echidnas use their noses to detect insect prey through electrical signals, not plant roots, and they are not adapted for swimming"
                 },
                 {
                     "text": "Its sensitive nose helps it smell water sources, and its feet help it climb trees to find shade",
@@ -236,77 +214,99 @@
                     "text": "Its nose produces moisture to keep it hydrated, and its feet have special pads to protect from hot sand",
                     "isCorrect": 0,
                     "explanation": "This is incorrect - echidnas' noses don't produce moisture, and their feet are adapted for digging rather than having heat-resistant pads"
-                },
-                {
-                    "text": "Its nose helps it find plant roots, and its feet help it swim in water holes",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - echidnas use their noses to detect insect prey through electrical signals, not plant roots, and they are not adapted for swimming"
                 }
             ],
             "funFact": "Echidnas are one of only two types of mammals that lay eggs (the other being the platypus). Their unique combination of adaptations allows them to find food and survive in some of Australia's harshest environments!"
         },
         {
-            "id": 10,
-            "text": "How do different animals adapt to protect their vulnerable parts in their natural habitats?",
+            "id": 9,
+            "text": "How do the defensive adaptations of armadillos and lizards differ in protecting them from predators?",
             "options": [
                 {
-                    "text": "Armadillos have armored plates and can roll into a ball, while sloths use slow movement and camouflage",
+                    "text": "Both armadillos and lizards can detach body parts to escape from predators",
+                    "isCorrect": 0,
+                    "explanation": "Only lizards can detach body parts (their tails). Armadillos cannot detach any body parts - they rely on their armor and ability to roll into a ball."
+                },
+                {
+                    "text": "Both armadillos and lizards have hard armor to protect themselves",
+                    "isCorrect": 0,
+                    "explanation": "Only armadillos have armor plates. Lizards have scales but not armor, and rely on different adaptations like tail detachment for defense."
+                },
+                {
+                    "text": "Armadillos can detach their tails while lizards have protective armor",
+                    "isCorrect": 0,
+                    "explanation": "This reverses the adaptations - armadillos have the armor and cannot detach tails, while lizards can detach their tails but don't have armor."
+                },
+                {
+                    "text": "Armadillos have hard armor and can roll into a ball, while lizards can detach their tails to escape",
                     "isCorrect": 1,
-                    "explanation": "This correctly pairs different animals with their specific protective adaptations - armadillos use physical armor and defensive posture, while sloths rely on behavioral adaptations of slow movement and blending in."
-                },
-                {
-                    "text": "All animals run away quickly from predators as their main defense mechanism",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect as different animals have evolved various defensive adaptations beyond just speed - some use armor, camouflage, or other strategies better suited to their environment."
-                },
-                {
-                    "text": "Animals only use physical features like tough skin or shells for protection",
-                    "isCorrect": 0,
-                    "explanation": "This oversimplifies animal adaptations by focusing only on physical features while ignoring important behavioral adaptations like camouflage or movement patterns."
-                },
-                {
-                    "text": "Defensive adaptations are the same for all animals living in similar environments",
-                    "isCorrect": 0,
-                    "explanation": "Different animals, even in the same environment, can develop very different defensive adaptations based on their specific needs and characteristics."
+                    "explanation": "This describes the correct defensive adaptations - armadillos use protective armor and rolling behavior, while lizards can sacrifice their tail to escape predators."
                 }
             ],
-            "funFact": "The three-banded armadillo is one of only two armadillo species that can roll into a complete ball for protection. Their hard shell is actually made up of bones covered by horny scales called scutes!"
+            "funFact": "When a lizard detaches its tail (called autotomy), the detached tail continues to wiggle and move for several minutes, distracting the predator while the lizard escapes. The tail will eventually grow back, though the regenerated tail is not exactly the same as the original."
+        },
+        {
+            "id": 10,
+            "text": "The Serengeti region in Africa is home to many herbivores that feed on tree leaves. How have different animals developed different adaptations to access the same food source?",
+            "options": [
+                {
+                    "text": "All animals in the Serengeti have developed long necks to reach tree leaves",
+                    "isCorrect": 0,
+                    "explanation": "Not all animals have developed the same adaptation. Different species have evolved different ways to access food based on their unique characteristics and abilities."
+                },
+                {
+                    "text": "Giraffes use their long necks and tongues, while monkeys use their climbing abilities",
+                    "isCorrect": 1,
+                    "explanation": "Different animals have evolved unique adaptations to access the same food source. Giraffes use their height and long tongues, while monkeys use their agility to climb trees, showing how different solutions can work for the same challenge."
+                },
+                {
+                    "text": "Only the tallest animals can survive in the Serengeti because they can reach the leaves",
+                    "isCorrect": 0,
+                    "explanation": "Height is just one of many adaptations that can help animals access food. Animals of different sizes can survive using various other adaptations."
+                },
+                {
+                    "text": "Animals take turns using the same adaptation to access food",
+                    "isCorrect": 0,
+                    "explanation": "Animals don't share or take turns using adaptations. Each species has its own unique set of adaptations that have developed over many generations."
+                }
+            ],
+            "funFact": "The Serengeti ecosystem is so diverse that it supports over 70 different species of large mammals, each with its own unique set of adaptations for finding food, avoiding predators, and surviving in the environment!"
         },
         {
             "id": 11,
-            "text": "Which statement best explains how specialized sensory adaptations help different animals survive in their environments?",
+            "text": "Consider how an armadillo and a deer respond differently when faced with a mountain lion attack. Which comparison accurately describes their survival adaptations?",
             "options": [
                 {
-                    "text": "A dog's powerful sense of smell and an echidna's electrical sensing ability both serve the same purpose of finding their prey.",
+                    "text": "Both animals use their hard outer covering as their main defense",
                     "isCorrect": 0,
-                    "explanation": "While both are sensory adaptations, they serve different purposes. A dog's sense of smell helps with various tasks including finding food and detecting territory markers, while an echidna's electrical sensing is specifically adapted for finding ants and termites."
+                    "explanation": "This is incorrect. While armadillos do use their hard plates for protection, deer do not have armor plates - they rely on speed and agility to escape predators."
                 },
                 {
-                    "text": "Dogs have a more advanced sensory adaptation than echidnas because their sense of smell is a million times better than humans.",
+                    "text": "The armadillo uses speed to escape while the deer uses camouflage to hide",
                     "isCorrect": 0,
-                    "explanation": "We cannot compare the effectiveness of different adaptations this way - each adaptation is specialized for that animal's specific survival needs in their environment."
+                    "explanation": "This is incorrect. Armadillos are not fast runners - they rely on their armor plates for protection. While deer do have some camouflage, they primarily use their speed to escape predators."
                 },
                 {
-                    "text": "Each animal's unique sensory adaptation allows it to survive effectively in its specific environment by helping it find food in different ways.",
+                    "text": "The armadillo relies on its hard shell for protection while the deer depends on its speed to escape",
                     "isCorrect": 1,
-                    "explanation": "This correctly explains how different sensory adaptations help animals survive in their specific environments - dogs use smell to find food and detect territory, while echidnas use electrical sensing to locate insects."
+                    "explanation": "This is correct. Armadillos have evolved armor-like plates and can roll into a ball for physical protection, while deer have developed strong leg muscles to run at high speeds up to 30 mph to escape predators."
                 },
                 {
-                    "text": "Sensory adaptations like smell and electrical sensing develop during an animal's lifetime based on what they need to survive.",
+                    "text": "Both animals depend mainly on speed to outrun predators",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because these sensory adaptations develop over many generations through evolution, not during an individual animal's lifetime."
+                    "explanation": "This is incorrect. Only deer rely primarily on speed. Armadillos have evolved a different strategy - using their armor plates and ability to roll into a ball for protection."
                 }
             ],
-            "funFact": "While dogs are famous for their incredible sense of smell, bears actually have an even better sense of smell! A bear's sense of smell is about 7 times better than a bloodhound's, and they can smell food from over 18 miles away."
+            "funFact": "When rolling into a defensive ball, an armadillo's armor is so effective that only the tiny, endangered three-banded armadillo can fully enclose itself into a complete sphere - like a soccer ball with armor!"
         },
         {
             "id": 12,
             "text": "How do the giraffe's different adaptations work together as a system to help it survive in its environment?",
             "options": [
                 {
-                    "text": "Its long neck helps reach high leaves, its long tongue helps grab leaves while avoiding thorns, and its dark-tipped tongue prevents sunburn during feeding",
-                    "isCorrect": 1,
-                    "explanation": "This describes how multiple adaptations work together as an interconnected system - the neck provides access to food, the tongue assists in safe food collection, and the dark pigmentation protects the exposed tongue during feeding"
+                    "text": "Its long neck is the only important adaptation, while the tongue features are minor advantages",
+                    "isCorrect": 0,
+                    "explanation": "This underestimates the importance of multiple adaptations working together - the long tongue and its coloring are crucial for effective and safe feeding, not just minor advantages"
                 },
                 {
                     "text": "Its long neck helps see predators, its tongue helps clean its face, and its dark-tipped tongue helps attract mates",
@@ -314,58 +314,58 @@
                     "explanation": "While a long neck can help spot predators, this combination doesn't accurately describe how the adaptations work together for survival. The tongue's coloring is for protection from sun damage, not mate attraction"
                 },
                 {
+                    "text": "Its long neck helps reach high leaves, its long tongue helps grab leaves while avoiding thorns, and its dark-tipped tongue prevents sunburn during feeding",
+                    "isCorrect": 1,
+                    "explanation": "This describes how multiple adaptations work together as an interconnected system - the neck provides access to food, the tongue assists in safe food collection, and the dark pigmentation protects the exposed tongue during feeding"
+                },
+                {
                     "text": "Each adaptation works independently and doesn't affect how the other adaptations function",
                     "isCorrect": 0,
                     "explanation": "This misses how adaptations work together as a system - the long neck and tongue complement each other for feeding, while the dark tongue tip specifically protects during this feeding process"
-                },
-                {
-                    "text": "Its long neck is the only important adaptation, while the tongue features are minor advantages",
-                    "isCorrect": 0,
-                    "explanation": "This underestimates the importance of multiple adaptations working together - the long tongue and its coloring are crucial for effective and safe feeding, not just minor advantages"
                 }
             ],
             "funFact": "A giraffe's tongue can grow up to 20 inches (50 cm) long and is not only dark at the tip but also has antiseptic properties in its saliva, which helps protect it from infections when feeding on thorny acacia trees!"
         },
         {
             "id": 13,
-            "text": "Which statement most accurately compares the effectiveness of different camouflage adaptations in helping animals survive?",
+            "text": "A forest is being cleared for development, affecting two species of animals: a sloth that uses camouflage and slow movement to hide from predators, and a deer that uses speed to escape from predators. How would deforestation likely affect these animals differently?",
             "options": [
                 {
-                    "text": "Sloths with algae growing on their fur are better camouflaged than lizards that can match their background color because algae is always green like trees",
+                    "text": "Neither animal would be affected because adaptations are permanent features that work in any environment",
                     "isCorrect": 0,
-                    "explanation": "While algae helps sloths blend in, it's not always more effective than a lizard's ability to match its surroundings. Each adaptation is suited to the specific environment and lifestyle of the animal."
+                    "explanation": "Adaptations are only beneficial if they match the environment. Changes in habitat can make some adaptations less effective or even useless."
                 },
                 {
-                    "text": "The effectiveness of each animal's camouflage depends on how well it matches their specific habitat and lifestyle",
+                    "text": "Both animals would be equally affected since they both use their adaptations to avoid predators",
+                    "isCorrect": 0,
+                    "explanation": "While both animals use adaptations to avoid predators, the effectiveness of their adaptations depends on different environmental features. The loss of trees impacts them differently."
+                },
+                {
+                    "text": "The deer would be more severely affected because it needs more space to run than a sloth needs to hide",
+                    "isCorrect": 0,
+                    "explanation": "Deer can actually use their speed adaptation effectively in open areas. It's the sloth that would struggle more without trees for its specific adaptations."
+                },
+                {
+                    "text": "The sloth would be more severely affected because its adaptations depend on the presence of trees, while the deer could still use its speed adaptation in open areas",
                     "isCorrect": 1,
-                    "explanation": "This is correct because different environments require different types of camouflage. Sloths' algae works well in tropical forests, while lizards' color-matching works better in their varied habitats."
-                },
-                {
-                    "text": "Lizards that can match their background color are always better camouflaged than sloths with algae because they can change their appearance",
-                    "isCorrect": 0,
-                    "explanation": "While color-matching is effective, it's not always superior to the sloth's algae camouflage. Each adaptation's effectiveness depends on the specific environment and predator threats."
-                },
-                {
-                    "text": "Both types of camouflage are equally effective in all environments because they both help hide the animals",
-                    "isCorrect": 0,
-                    "explanation": "Different types of camouflage are not equally effective in all environments. Their effectiveness varies based on the specific habitat and circumstances."
+                    "explanation": "Sloths rely on trees for both camouflage and movement, making their adaptations useless without forest cover. Deer can still use their speed adaptation effectively in open areas."
                 }
             ],
-            "funFact": "Some animals can combine multiple types of camouflage! The arctic fox, for example, changes its coat color seasonally (like lizards) and has fur that can trap air bubbles to help insulate it, which also helps it blend in with snow (similar to how algae helps sloths blend with trees)."
+            "funFact": "Some sloths have algae growing on their fur, which helps them blend in with their forest environment even better! This unique adaptation shows how deeply connected some animals are to their specific habitats."
         },
         {
             "id": 14,
             "text": "A forest ecosystem has dense tree cover, high branches with leaves, and lots of predators. Which animal would be more likely to survive well in this environment and why?",
             "options": [
                 {
+                    "text": "A sloth, because it can outrun predators in the trees",
+                    "isCorrect": 0,
+                    "explanation": "Sloths don't survive by outrunning predators - they survive through camouflage and by moving so slowly that predators have difficulty spotting them."
+                },
+                {
                     "text": "A sloth, because its slow movement and camouflage help it blend with trees and avoid predators",
                     "isCorrect": 1,
                     "explanation": "Sloths are well-adapted to forest environments. Their slow movement makes them hard to spot, and their fur provides camouflage among tree branches."
-                },
-                {
-                    "text": "A deer, because its speed allows it to quickly escape from predators",
-                    "isCorrect": 0,
-                    "explanation": "While deer are fast runners, dense forest vegetation would limit their ability to run effectively. Their speed adaptation is more beneficial in open areas."
                 },
                 {
                     "text": "A deer, because it can easily jump between trees to escape predators",
@@ -373,9 +373,9 @@
                     "explanation": "Deer are not adapted to moving between trees - they are ground-dwelling animals that need open spaces to run and escape predators."
                 },
                 {
-                    "text": "A sloth, because it can outrun predators in the trees",
+                    "text": "A deer, because its speed allows it to quickly escape from predators",
                     "isCorrect": 0,
-                    "explanation": "Sloths don't survive by outrunning predators - they survive through camouflage and by moving so slowly that predators have difficulty spotting them."
+                    "explanation": "While deer are fast runners, dense forest vegetation would limit their ability to run effectively. Their speed adaptation is more beneficial in open areas."
                 }
             ],
             "funFact": "Sloths are such masters of camouflage that algae actually grows in their fur, making them look even more like part of the tree branches! This algae gives their fur a greenish tint that provides extra camouflage in their forest habitat."
@@ -385,24 +385,24 @@
             "text": "How do hawks and cats use different adaptations to hunt successfully in their environments?",
             "options": [
                 {
-                    "text": "Hawks have hook-like beaks for tearing prey while cats have specialized eyes for night vision",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Hawks and cats have evolved different adaptations that help them hunt effectively. Hawks' hooked beaks help them tear apart prey, while cats' specialized eyes allow them to hunt in low light conditions."
-                },
-                {
                     "text": "Both hawks and cats have sharp claws as their main hunting adaptation",
                     "isCorrect": 0,
                     "explanation": "While both animals have claws, their primary hunting adaptations are different. Hawks rely heavily on their hooked beaks, while cats depend on their night vision."
                 },
                 {
-                    "text": "Hawks hunt at night while cats hunt during the day",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Hawks are typically daytime hunters, while cats can hunt both day and night thanks to their night vision adaptation."
-                },
-                {
                     "text": "Both hawks and cats have excellent night vision for hunting",
                     "isCorrect": 0,
                     "explanation": "Hawks do not have specialized night vision like cats do. They rely on their sharp beaks and excellent daytime vision for hunting."
+                },
+                {
+                    "text": "Hawks have hook-like beaks for tearing prey while cats have specialized eyes for night vision",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Hawks and cats have evolved different adaptations that help them hunt effectively. Hawks' hooked beaks help them tear apart prey, while cats' specialized eyes allow them to hunt in low light conditions."
+                },
+                {
+                    "text": "Hawks hunt at night while cats hunt during the day",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Hawks are typically daytime hunters, while cats can hunt both day and night thanks to their night vision adaptation."
                 }
             ],
             "funFact": "A cat's night vision is so powerful that they only need one-sixth of the light that humans need to see clearly. Their eyes also contain a reflective layer called tapetum lucidum that makes their eyes appear to glow in the dark!"

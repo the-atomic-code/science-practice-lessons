@@ -4,39 +4,12 @@
     "questions": [
         {
             "id": 1,
-            "text": "A community wants to prevent soil erosion along a riverbank during heavy rains. Which of the following would be the most effective barrier to slow down water and prevent soil from washing away?",
-            "options": [
-                {
-                    "text": "Building a stone wall with drainage holes along the riverbank",
-                    "isCorrect": 1,
-                    "explanation": "A stone wall with drainage holes is most effective because it blocks and slows water flow while allowing controlled drainage, preventing soil erosion without causing water buildup"
-                },
-                {
-                    "text": "Placing a solid metal barrier along the riverbank",
-                    "isCorrect": 0,
-                    "explanation": "A solid metal barrier doesn't allow any water drainage, which can lead to water buildup and potential flooding or barrier failure during heavy rains"
-                },
-                {
-                    "text": "Spreading loose sand along the riverbank",
-                    "isCorrect": 0,
-                    "explanation": "Loose sand would quickly wash away with water flow, making it ineffective at preventing erosion and potentially adding to sediment downstream"
-                },
-                {
-                    "text": "Creating a barrier using plastic sheets",
-                    "isCorrect": 0,
-                    "explanation": "Plastic sheets don't provide long-term protection and can tear or be displaced by strong water flow, making them unreliable for erosion control"
-                }
-            ],
-            "funFact": "The ancient Romans were masters of erosion control! They developed an early form of retaining wall called 'opus reticulatum' that used diamond-shaped stones fitted together in a net-like pattern, which was both beautiful and effective at controlling soil erosion on hillsides."
-        },
-        {
-            "id": 2,
             "text": "A farmer notices that heavy rains are washing away the soil from his hillside farm. Which solution would be most effective in preventing soil erosion on the hillside?",
             "options": [
                 {
-                    "text": "Planting grass with deep roots across the hillside",
-                    "isCorrect": 1,
-                    "explanation": "Grass with deep roots helps hold soil in place. The roots create a network that binds the soil particles together, preventing them from being washed away by rain."
+                    "text": "Watering the hillside more frequently",
+                    "isCorrect": 0,
+                    "explanation": "Adding more water would increase erosion rather than prevent it, as excess water would wash away more soil."
                 },
                 {
                     "text": "Removing all vegetation from the hillside",
@@ -49,157 +22,125 @@
                     "explanation": "A smooth surface would actually increase erosion as water would flow faster down the hill without any obstacles to slow it down."
                 },
                 {
-                    "text": "Watering the hillside more frequently",
-                    "isCorrect": 0,
-                    "explanation": "Adding more water would increase erosion rather than prevent it, as excess water would wash away more soil."
+                    "text": "Planting grass with deep roots across the hillside",
+                    "isCorrect": 1,
+                    "explanation": "Grass with deep roots helps hold soil in place. The roots create a network that binds the soil particles together, preventing them from being washed away by rain."
                 }
             ],
             "funFact": "The roots of prairie grasses can grow up to 15 feet deep into the soil! This is one reason why the Great Plains of North America maintained rich soil for thousands of years before being converted to farmland."
         },
         {
-            "id": 3,
-            "text": "A farmer notices that strong winds are blowing away the topsoil from their farm. Which solution would be most effective in reducing wind erosion on the farm?",
+            "id": 2,
+            "text": "Why would placing stones on top of soil help prevent erosion?",
             "options": [
                 {
-                    "text": "Plant rows of tall trees along the edges of the farm",
+                    "text": "The stones turn into soil over time",
+                    "isCorrect": 0,
+                    "explanation": "Stones don't readily turn into soil - they protect the existing soil from being carried away"
+                },
+                {
+                    "text": "The stones act as a protective barrier that shields the soil from being washed away by water or blown away by wind",
                     "isCorrect": 1,
-                    "explanation": "Trees act as windbreaks by slowing down the wind speed near the ground, which reduces its ability to carry away soil particles."
+                    "explanation": "Stones create a protective layer that helps keep soil in place by blocking the direct impact of rain and wind"
                 },
                 {
-                    "text": "Remove all vegetation from the farm",
+                    "text": "The stones stop the wind completely",
                     "isCorrect": 0,
-                    "explanation": "Removing vegetation would expose more soil to wind erosion, making the problem worse since plant roots help hold soil in place."
+                    "explanation": "While stones help reduce wind erosion, they don't stop wind completely - they mainly prevent soil from being picked up by the wind"
                 },
                 {
-                    "text": "Water the soil more frequently",
+                    "text": "The stones absorb all the water so it never reaches the soil",
                     "isCorrect": 0,
-                    "explanation": "While moist soil is less likely to erode, this is a temporary solution that doesn't address the underlying problem of strong winds."
-                },
-                {
-                    "text": "Plow the soil more deeply",
-                    "isCorrect": 0,
-                    "explanation": "Deep plowing can actually increase erosion by breaking up soil structure and making it more vulnerable to wind."
+                    "explanation": "While stones can slow water flow, they don't absorb all the water - water can still pass between stones to reach the soil"
                 }
             ],
-            "funFact": "The Dust Bowl of the 1930s was one of the worst environmental disasters in U.S. history, caused by wind erosion after native grasslands were plowed up. After this, many farmers started planting trees as windbreaks, creating what became known as the Great Plains Shelterbelt."
+            "funFact": "Ancient farmers in Peru created stone terraces on hillsides over 1,000 years ago to prevent soil erosion and create flat farming areas. Many of these terraces are still in use today!"
+        },
+        {
+            "id": 3,
+            "text": "Which statement correctly describes how quickly erosion can change the shape of land?",
+            "options": [
+                {
+                    "text": "Erosion always takes millions of years to cause any noticeable changes to the land",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While some erosion processes take millions of years, erosion can also happen rapidly during events like floods or storms."
+                },
+                {
+                    "text": "Erosion can happen both slowly over long periods and quickly during events like floods",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Erosion typically occurs gradually over long periods, like in the formation of the Grand Canyon, but it can also happen rapidly during extreme events like floods or storms."
+                },
+                {
+                    "text": "Erosion always happens quickly, causing immediate visible changes to the land",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While erosion can sometimes happen quickly during events like floods, it usually occurs very slowly over long periods of time."
+                },
+                {
+                    "text": "Erosion only occurs slowly and gradually, never causing sudden changes to the land",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While erosion often occurs slowly, it can also cause sudden changes during extreme weather events."
+                }
+            ],
+            "funFact": "The Loess Plateau in China demonstrates both slow and rapid erosion. While it took millions of years for wind to deposit the plateau's distinctive yellow soil, modern soil erosion there can happen very quickly during heavy rainstorms, showing how erosion rates can vary dramatically."
         },
         {
             "id": 4,
-            "text": "What are the two main natural forces that cause erosion and change the shape of the Earth's surface?",
+            "text": "A community wants to prevent soil erosion along a riverbank during heavy rains. Which of the following would be the most effective barrier to slow down water and prevent soil from washing away?",
             "options": [
                 {
-                    "text": "Wind and water",
+                    "text": "Spreading loose sand along the riverbank",
+                    "isCorrect": 0,
+                    "explanation": "Loose sand would quickly wash away with water flow, making it ineffective at preventing erosion and potentially adding to sediment downstream"
+                },
+                {
+                    "text": "Creating a barrier using plastic sheets",
+                    "isCorrect": 0,
+                    "explanation": "Plastic sheets don't provide long-term protection and can tear or be displaced by strong water flow, making them unreliable for erosion control"
+                },
+                {
+                    "text": "Building a stone wall with drainage holes along the riverbank",
                     "isCorrect": 1,
-                    "explanation": "Wind and water are the primary natural forces that cause erosion. Wind can blow and carry soil particles, while water can wash away soil and carve through rock over time."
+                    "explanation": "A stone wall with drainage holes is most effective because it blocks and slows water flow while allowing controlled drainage, preventing soil erosion without causing water buildup"
                 },
                 {
-                    "text": "Heat and cold",
+                    "text": "Placing a solid metal barrier along the riverbank",
                     "isCorrect": 0,
-                    "explanation": "While temperature changes can cause weathering of rocks, they are not the main forces causing erosion and moving Earth's materials from one place to another."
-                },
-                {
-                    "text": "Sun and rain",
-                    "isCorrect": 0,
-                    "explanation": "While rain is a form of water that can cause erosion, the sun itself doesn't directly cause erosion. The main forces are wind and water (including rain, rivers, and ocean waves)."
-                },
-                {
-                    "text": "Earthquakes and volcanoes",
-                    "isCorrect": 0,
-                    "explanation": "While earthquakes and volcanoes can dramatically change the landscape, they are not the main forces that cause ongoing erosion of the Earth's surface."
+                    "explanation": "A solid metal barrier doesn't allow any water drainage, which can lead to water buildup and potential flooding or barrier failure during heavy rains"
                 }
             ],
-            "funFact": "The Colorado River took approximately 6 million years to carve the Grand Canyon through water erosion, creating one of the world's most spectacular examples of how natural forces can shape our landscape!"
+            "funFact": "The ancient Romans were masters of erosion control! They developed an early form of retaining wall called 'opus reticulatum' that used diamond-shaped stones fitted together in a net-like pattern, which was both beautiful and effective at controlling soil erosion on hillsides."
         },
         {
             "id": 5,
-            "text": "Which of the following best describes how wind can move sand and soil particles across distances?",
+            "text": "Which statement correctly describes how erosion can change the shape of land?",
             "options": [
                 {
-                    "text": "Wind can pick up and carry tiny particles of sand and soil, moving them from one location to another",
+                    "text": "Erosion only occurs slowly over millions of years, like in the formation of the Grand Canyon",
+                    "isCorrect": 0,
+                    "explanation": "While some erosion happens very slowly, it can also occur rapidly during events like floods"
+                },
+                {
+                    "text": "Erosion can happen both slowly over long periods and quickly during severe weather events",
                     "isCorrect": 1,
-                    "explanation": "Wind has the power to lift and transport small particles through the air, which is how wind erosion occurs"
+                    "explanation": "This is correct - erosion can occur gradually over millions of years (like the Grand Canyon) or rapidly during events like floods"
                 },
                 {
-                    "text": "Wind can only move particles when it's raining",
+                    "text": "Erosion only happens quickly during severe weather events like floods and storms",
                     "isCorrect": 0,
-                    "explanation": "Wind can move particles regardless of weather conditions - it doesn't need rain to transport sand and soil"
+                    "explanation": "Erosion can happen both quickly and slowly - it's not limited to just rapid events"
                 },
                 {
-                    "text": "Wind can only move particles downhill",
+                    "text": "Erosion only affects rocks and cannot change other parts of the land",
                     "isCorrect": 0,
-                    "explanation": "Wind can move particles in any direction, not just downhill, depending on which way the wind is blowing"
-                },
-                {
-                    "text": "Wind can only move large rocks and boulders",
-                    "isCorrect": 0,
-                    "explanation": "Wind typically moves smaller, lighter particles like sand and soil - it's not strong enough to move large rocks and boulders"
+                    "explanation": "Erosion affects many types of land features including soil, sand, and rocks"
                 }
             ],
-            "funFact": "The Sahara Desert's sand can travel incredibly far - scientists have found that winds carry Saharan dust particles all the way across the Atlantic Ocean to the Amazon rainforest, where they help fertilize the soil!"
+            "funFact": "The Badlands in South Dakota are eroding at an average rate of about 1 inch per year, which is considered extremely fast in geological terms. At this rate, they will completely erode away in another 500,000 years!"
         },
         {
             "id": 6,
-            "text": "During a heavy rainstorm, a neighborhood is experiencing rapid erosion that is threatening houses near a hillside. Which emergency solution would be most effective to quickly prevent further soil erosion?",
-            "options": [
-                {
-                    "text": "Place sandbags and barriers along the slope to redirect water flow",
-                    "isCorrect": 1,
-                    "explanation": "Sandbags and barriers provide immediate protection by redirecting water flow and preventing soil from washing away during emergency situations like floods"
-                },
-                {
-                    "text": "Plant grass and trees on the hillside",
-                    "isCorrect": 0,
-                    "explanation": "While planting vegetation is effective for long-term erosion control, it takes too long to establish and wouldn't help during an emergency situation"
-                },
-                {
-                    "text": "Add mulch to the soil surface",
-                    "isCorrect": 0,
-                    "explanation": "Mulch can help prevent erosion but would likely wash away in heavy rain and isn't suitable for emergency situations requiring immediate action"
-                },
-                {
-                    "text": "Install a permanent retaining wall",
-                    "isCorrect": 0,
-                    "explanation": "Building a retaining wall is a good long-term solution but takes too much time to construct during an emergency situation"
-                }
-            ],
-            "funFact": "The U.S. Army Corps of Engineers used over 120 million sandbags during the Great Mississippi Flood of 1993, demonstrating how simple solutions can be highly effective in preventing flood damage!"
-        },
-        {
-            "id": 7,
-            "text": "A coastal town is experiencing frequent flooding during storms, which is eroding their beachfront. The town engineers have proposed different dike designs to protect the coast. Which design would be most effective in preventing erosion during both regular rainfall and severe storms?",
-            "options": [
-                {
-                    "text": "A low, straight concrete wall built parallel to the beach",
-                    "isCorrect": 0,
-                    "explanation": "While a concrete wall provides some protection, its low height and straight design may not effectively handle severe storms, and waves could easily overtop it."
-                },
-                {
-                    "text": "A curved, terraced dike system with vegetation on each level",
-                    "isCorrect": 1,
-                    "explanation": "This design combines multiple protective features - the curved shape deflects wave energy, terraces reduce water force gradually, and vegetation helps stabilize the soil and absorb water."
-                },
-                {
-                    "text": "A tall metal barrier with small drainage holes at the bottom",
-                    "isCorrect": 0,
-                    "explanation": "Though tall, the metal barrier might be too rigid and the small drainage holes could get blocked, leading to water buildup and potential structure failure."
-                },
-                {
-                    "text": "Multiple small sand barriers spread across the beach",
-                    "isCorrect": 0,
-                    "explanation": "Small sand barriers would be easily washed away during severe storms and wouldn't provide consistent protection against regular water erosion."
-                }
-            ],
-            "funFact": "The Netherlands has been fighting sea-level rise for centuries using innovative dike systems. The Maeslantkering, one of their most impressive barriers, has giant arms as long as the Eiffel Tower is tall and can close automatically when storm surge threatens the coast!"
-        },
-        {
-            "id": 8,
             "text": "A homeowner living near a river notices that during heavy rains, soil from their backyard is being washed away towards the river. They want to prevent this erosion from damaging their property. Which solution would be most effective in preventing soil erosion in their backyard?",
             "options": [
-                {
-                    "text": "Plant grass and shrubs with deep root systems throughout the backyard",
-                    "isCorrect": 1,
-                    "explanation": "Plants with deep root systems help hold soil in place and create a network that prevents erosion. The roots also absorb water, reducing runoff."
-                },
                 {
                     "text": "Cover the entire backyard with plastic sheets",
                     "isCorrect": 0,
@@ -214,126 +155,202 @@
                     "text": "Create a large pit to collect water",
                     "isCorrect": 0,
                     "explanation": "A collection pit could become unstable when filled with water and might actually increase erosion around its edges as water overflows."
+                },
+                {
+                    "text": "Plant grass and shrubs with deep root systems throughout the backyard",
+                    "isCorrect": 1,
+                    "explanation": "Plants with deep root systems help hold soil in place and create a network that prevents erosion. The roots also absorb water, reducing runoff."
                 }
             ],
             "funFact": "Vetiver grass, known as the 'living nail,' can grow roots up to 20 feet deep and is used worldwide for erosion control. Its roots are so strong they can even grow through concrete!"
         },
         {
-            "id": 9,
-            "text": "A coastal community experiences both strong winter storms and mild summer rains that cause beach erosion throughout the year. Which combination of protection methods would best prevent erosion in all seasons?",
+            "id": 7,
+            "text": "A community garden is experiencing soil erosion from both wind and rain. The gardeners want to protect their soil both immediately and for the long term. Which combination of plants would provide the best protection against erosion?",
             "options": [
                 {
-                    "text": "Plant grass along the beach and install stone barriers",
+                    "text": "Only grass seeds",
+                    "isCorrect": 0,
+                    "explanation": "Grass provides good immediate protection for topsoil, but lacks the height and deep root structure needed for long-term protection against strong winds and heavy rains"
+                },
+                {
+                    "text": "Grass seeds and mature trees",
                     "isCorrect": 1,
-                    "explanation": "This combination provides year-round protection. The stone barriers help block strong storm waves, while grass roots hold soil in place during both mild rains and windy conditions."
+                    "explanation": "Grass provides immediate protection as it grows quickly and its dense root system holds topsoil, while mature trees offer long-term protection by blocking wind and their deep roots stabilize soil"
                 },
                 {
-                    "text": "Install stone barriers only",
+                    "text": "Only mature trees",
                     "isCorrect": 0,
-                    "explanation": "While stone barriers are effective against strong waves, they don't prevent erosion from rainfall and wind. This solution is incomplete for year-round protection."
+                    "explanation": "While trees provide excellent long-term protection, they leave gaps between them where soil can still erode, especially at ground level"
                 },
                 {
-                    "text": "Plant only tall trees",
+                    "text": "Widely spaced saplings",
                     "isCorrect": 0,
-                    "explanation": "Trees alone won't provide adequate protection against strong waves. While they help with wind erosion, their roots might be too deep to prevent surface soil erosion from rain."
-                },
-                {
-                    "text": "Add a layer of mulch only",
-                    "isCorrect": 0,
-                    "explanation": "Mulch alone would wash away during storms and provide minimal protection against strong waves. It's not a sustainable solution for coastal erosion."
+                    "explanation": "Young trees take time to grow and provide limited immediate protection, while wide spacing leaves too much soil exposed to erosion"
                 }
             ],
-            "funFact": "The Netherlands has been fighting coastal erosion for centuries using a combination of natural and engineered solutions. They created artificial sand dunes reinforced with special beach grass that can survive in salty conditions, protecting their coastline from the North Sea."
+            "funFact": "The ancient Aztecs developed sophisticated terraced gardens called 'chinampas' that prevented soil erosion while maximizing growing space. These gardens were so effective that some are still in use today after hundreds of years!"
+        },
+        {
+            "id": 8,
+            "text": "A coastal town is experiencing frequent flooding during storms, which is eroding their beachfront. The town engineers have proposed different dike designs to protect the coast. Which design would be most effective in preventing erosion during both regular rainfall and severe storms?",
+            "options": [
+                {
+                    "text": "A tall metal barrier with small drainage holes at the bottom",
+                    "isCorrect": 0,
+                    "explanation": "Though tall, the metal barrier might be too rigid and the small drainage holes could get blocked, leading to water buildup and potential structure failure."
+                },
+                {
+                    "text": "A low, straight concrete wall built parallel to the beach",
+                    "isCorrect": 0,
+                    "explanation": "While a concrete wall provides some protection, its low height and straight design may not effectively handle severe storms, and waves could easily overtop it."
+                },
+                {
+                    "text": "Multiple small sand barriers spread across the beach",
+                    "isCorrect": 0,
+                    "explanation": "Small sand barriers would be easily washed away during severe storms and wouldn't provide consistent protection against regular water erosion."
+                },
+                {
+                    "text": "A curved, terraced dike system with vegetation on each level",
+                    "isCorrect": 1,
+                    "explanation": "This design combines multiple protective features - the curved shape deflects wave energy, terraces reduce water force gradually, and vegetation helps stabilize the soil and absorb water."
+                }
+            ],
+            "funFact": "The Netherlands has been fighting sea-level rise for centuries using innovative dike systems. The Maeslantkering, one of their most impressive barriers, has giant arms as long as the Eiffel Tower is tall and can close automatically when storm surge threatens the coast!"
+        },
+        {
+            "id": 9,
+            "text": "Two farmers want to protect their fields from wind erosion. Farmer A plants a single row of tall trees along the edge of the field. Farmer B plants multiple rows of different plants - tall trees in the back, medium-sized shrubs in the middle, and dense grass in the front. Which design would be more effective at preventing soil erosion and why?",
+            "options": [
+                {
+                    "text": "Both designs would be equally effective at preventing soil erosion",
+                    "isCorrect": 0,
+                    "explanation": "The designs are not equally effective - multiple layers of vegetation provide better protection than a single row of trees"
+                },
+                {
+                    "text": "Neither design would be effective at preventing soil erosion",
+                    "isCorrect": 0,
+                    "explanation": "Vegetation barriers are proven methods for reducing wind erosion when properly designed"
+                },
+                {
+                    "text": "Farmer B's design, because multiple layers of vegetation provide better wind protection at all heights",
+                    "isCorrect": 1,
+                    "explanation": "Multiple rows of different-sized plants create a more complete barrier, blocking wind at various heights and providing maximum soil protection"
+                },
+                {
+                    "text": "Farmer A's design, because tall trees alone can block more wind than shorter plants",
+                    "isCorrect": 0,
+                    "explanation": "While tall trees can block wind, they leave gaps underneath through which wind can still erode soil"
+                }
+            ],
+            "funFact": "The dust storms of the 1930s Dust Bowl were partly caused by the removal of natural windbreaks. After this disaster, the U.S. government planted over 220 million trees in 'shelter belts' across the Great Plains to prevent future wind erosion!"
         },
         {
             "id": 10,
-            "text": "A farmer is concerned about soil erosion on a sloping field during heavy rainfall. Which mulching technique would be most effective in preventing soil from washing away on this steep terrain?",
+            "text": "A farmer wants to prevent soil erosion in their sloped field. They are considering different types of grass to plant. Which grass characteristics would be most effective at preventing soil erosion?",
             "options": [
                 {
-                    "text": "Spreading a thick layer of straw mulch held in place with netting",
+                    "text": "Fast-growing annual grass that needs to be replanted each year",
+                    "isCorrect": 0,
+                    "explanation": "Annual grasses that need replanting don't maintain consistent soil protection and their temporary root systems aren't as effective"
+                },
+                {
+                    "text": "Tall grass with thick leaves but minimal root development",
+                    "isCorrect": 0,
+                    "explanation": "Above-ground grass characteristics alone don't provide the soil stabilization needed - root system is crucial"
+                },
+                {
+                    "text": "Grass with shallow roots that grows quickly and spreads widely across the surface",
+                    "isCorrect": 0,
+                    "explanation": "While surface coverage helps, shallow roots don't provide strong soil stabilization needed to prevent erosion on slopes"
+                },
+                {
+                    "text": "Grass with deep, extensive root systems that create a dense network underground",
                     "isCorrect": 1,
-                    "explanation": "Straw mulch with netting is highly effective on slopes as it provides complete soil coverage, absorbs rainfall impact, and the netting keeps the mulch in place even during heavy rains."
-                },
-                {
-                    "text": "Placing a thin layer of wood chips loosely on the soil",
-                    "isCorrect": 0,
-                    "explanation": "Wood chips placed loosely can easily wash away on steep slopes during rainfall, providing inadequate protection against soil erosion."
-                },
-                {
-                    "text": "Applying a layer of small pebbles",
-                    "isCorrect": 0,
-                    "explanation": "While pebbles are heavy, they can roll downhill on steep slopes and don't provide complete soil coverage, allowing water to erode soil between the gaps."
-                },
-                {
-                    "text": "Using a single layer of newspaper",
-                    "isCorrect": 0,
-                    "explanation": "Newspaper would quickly break down when wet and blow away, providing very temporary and ineffective erosion control on a slope."
+                    "explanation": "Deep, extensive root systems hold soil particles together firmly and create a strong anchor system that effectively prevents erosion"
                 }
             ],
-            "funFact": "The ancient Incas were masters at preventing soil erosion on mountain slopes. They created terraced farming systems called 'andenes' that are still preventing soil erosion in the Andes Mountains after more than 500 years!"
+            "funFact": "The roots of some prairie grasses can extend more than 15 feet deep into the soil! This amazing root system not only prevents erosion but also helps prairie ecosystems survive droughts by accessing deep water sources."
         },
         {
             "id": 11,
-            "text": "A coastal town's beach is rapidly disappearing due to strong ocean waves during storms. The town council needs to decide on a solution to protect their beach. Which solution would be most effective in preventing further erosion of the beach while considering both immediate and long-term protection?",
+            "text": "A coastal town is experiencing severe beach erosion due to ocean waves. Which combination of erosion control methods would be most effective in protecting the beach?",
             "options": [
                 {
-                    "text": "Building a concrete seawall with vegetation planted behind it and creating sand dunes",
+                    "text": "Planting grass and installing a seawall",
                     "isCorrect": 1,
-                    "explanation": "This comprehensive approach combines multiple protective elements - the seawall blocks immediate wave impact, vegetation's roots help hold soil, and sand dunes provide natural barriers against storms."
+                    "explanation": "This combination provides both immediate and long-term protection. The seawall blocks powerful waves while grass roots help hold the soil in place."
                 },
                 {
-                    "text": "Only building a concrete seawall along the beach",
+                    "text": "Only installing a seawall",
                     "isCorrect": 0,
-                    "explanation": "While a seawall can block waves, using it alone may cause increased erosion at its edges and doesn't provide the additional protection that natural elements offer."
+                    "explanation": "Although a seawall blocks waves, without vegetation to hold the soil, erosion can still occur around and behind the structure."
                 },
                 {
-                    "text": "Only planting grass and shrubs along the beach",
+                    "text": "Spreading loose sand on the beach",
                     "isCorrect": 0,
-                    "explanation": "While vegetation helps hold soil with its roots, it alone cannot withstand strong wave action during storms and takes time to establish."
+                    "explanation": "Adding loose sand without any stabilizing elements would be ineffective as waves would quickly wash it away."
                 },
                 {
-                    "text": "Moving all buildings away from the beach",
+                    "text": "Only planting grass",
                     "isCorrect": 0,
-                    "explanation": "This avoids damage to buildings but doesn't address the actual problem of beach erosion and loss of the coastal environment."
+                    "explanation": "While grass roots help hold soil, they alone cannot withstand the strong force of ocean waves, making this solution inadequate for coastal protection."
                 }
             ],
-            "funFact": "The Netherlands has been fighting coastal erosion for centuries using a combination of engineered structures and natural solutions. Their innovative 'Sand Motor' project uses natural ocean currents to distribute sand along the coast, protecting over 20 kilometers of shoreline!"
+            "funFact": "The Netherlands has been fighting coastal erosion for centuries using a combination of natural and engineered solutions. They created artificial sand dunes reinforced with native beach grass, which has successfully protected their coastline for generations!"
         },
         {
             "id": 12,
-            "text": "A farmer wants to protect the soil in her fields from being blown away by strong winds. She is comparing different windbreak designs by measuring soil loss in pounds per acre over a year. Here are the results:\n\nDesign A: Single row of tall trees - 2000 lbs/acre soil loss\nDesign B: Double row of trees with shrubs - 500 lbs/acre soil loss\nDesign C: Wooden fence - 1500 lbs/acre soil loss\nDesign D: Single row of shrubs - 2500 lbs/acre soil loss\n\nWhich windbreak design was most effective at preventing wind erosion?",
+            "text": "A coastal community is experiencing beach erosion due to strong waves and wind. They want to implement multiple methods to protect their beach. Here are the erosion rates (in meters of beach lost per year) measured with different protection methods:\n\nNo protection: 2.5m/year\nSeawall only: 1.8m/year\nPlanted grass only: 1.5m/year\nSeawall + planted grass: 0.8m/year\nSeawall + planted grass + trees: 0.3m/year\n\nWhich combination of protection methods would be most effective in preserving the beach while considering both immediate and long-term effects?",
             "options": [
                 {
-                    "text": "Design A: Single row of tall trees",
+                    "text": "No protection",
                     "isCorrect": 0,
-                    "explanation": "While tall trees can help block wind, a single row leaves gaps that allow wind to pass through, resulting in significant soil loss of 2000 lbs/acre."
+                    "explanation": "Without any protection measures, the beach experiences the highest rate of erosion, making this the least effective approach for preserving the coastline."
                 },
                 {
-                    "text": "Design B: Double row of trees with shrubs",
+                    "text": "Seawall only",
+                    "isCorrect": 0,
+                    "explanation": "While a seawall provides some immediate protection from waves, it alone doesn't address wind erosion or provide long-term soil stability, resulting in continued significant erosion."
+                },
+                {
+                    "text": "Planted grass only",
+                    "isCorrect": 0,
+                    "explanation": "Though grass helps stabilize soil with its roots, it doesn't provide enough protection against strong waves, making it insufficient as a single solution for beach protection."
+                },
+                {
+                    "text": "Seawall + planted grass + trees",
                     "isCorrect": 1,
-                    "explanation": "This design was most effective, with only 500 lbs/acre soil loss. Multiple layers of vegetation at different heights create a more complete barrier against wind."
-                },
-                {
-                    "text": "Design C: Wooden fence",
-                    "isCorrect": 0,
-                    "explanation": "The solid fence blocks some wind but creates turbulent airflow that still causes significant soil loss (1500 lbs/acre), making it less effective than Design B."
-                },
-                {
-                    "text": "Design D: Single row of shrubs",
-                    "isCorrect": 0,
-                    "explanation": "Low-growing shrubs alone provide minimal wind protection, resulting in the highest soil loss (2500 lbs/acre) among all designs."
+                    "explanation": "This combination provides the most comprehensive protection by using multiple methods that work together - the seawall blocks immediate wave impact, while plants and trees provide additional stability through their root systems and wind protection."
                 }
             ],
-            "funFact": "The Great Plains Shelterbelt was a massive project in the 1930s where the U.S. government planted over 220 million trees from Texas to North Dakota to combat the severe soil erosion of the Dust Bowl, demonstrating one of the largest windbreak projects in history!"
+            "funFact": "The Netherlands has been successfully fighting coastal erosion for centuries using a combination of natural and engineered solutions. They created artificial sand dunes and planted special beach grasses that help trap sand, while also using innovative structures called 'sand motors' that work with natural ocean currents to distribute sand along the coast."
         },
         {
             "id": 13,
+            "text": "A community is concerned about soil erosion on a steep hillside near their homes. They need to choose between two solutions: planting a row of trees or building a stone barrier wall. Which solution would likely be more effective at preventing soil erosion on the steep hillside?",
+            "options": [
+                {
+                    "text": "Planting a row of trees",
+                    "isCorrect": 1,
+                    "explanation": "Trees provide multiple erosion control benefits: their roots hold soil in place, their canopy reduces rain impact, and fallen leaves create protective ground cover. They also continue to grow and strengthen their erosion control over time."
+                },
+                {
+                    "text": "Building a stone barrier wall",
+                    "isCorrect": 0,
+                    "explanation": "While stone barriers can block soil movement, they only work at one specific location and don't address the underlying soil stability. They can also be undermined by water flowing underneath and may fail during heavy rains."
+                }
+            ],
+            "funFact": "The root system of a single large tree can hold up to 7,000 pounds of soil in place! Trees also reduce erosion by intercepting rainfall - a mature tree canopy can catch and evaporate up to 30% of rainfall before it even reaches the ground."
+        },
+        {
+            "id": 14,
             "text": "A town near a river is experiencing soil erosion along its banks during rainy seasons. The town council needs to decide on a method to prevent the erosion. Which solution would be most effective while having the least impact on the natural environment?",
             "options": [
                 {
-                    "text": "Planting native trees and grasses along the riverbank",
-                    "isCorrect": 1,
-                    "explanation": "Native plants provide natural erosion control through their root systems, which hold soil in place. They also provide habitat for wildlife and maintain the natural ecosystem."
+                    "text": "Doing nothing and letting nature take its course",
+                    "isCorrect": 0,
+                    "explanation": "Ignoring erosion can lead to significant property damage and loss of land over time. Prevention is important for protecting both natural and human environments."
                 },
                 {
                     "text": "Building a concrete wall along the entire riverbank",
@@ -346,66 +363,39 @@
                     "explanation": "Removing vegetation actually increases erosion risk, and plastic sheets are not a sustainable solution. They can break down over time and pollute the river."
                 },
                 {
-                    "text": "Doing nothing and letting nature take its course",
-                    "isCorrect": 0,
-                    "explanation": "Ignoring erosion can lead to significant property damage and loss of land over time. Prevention is important for protecting both natural and human environments."
+                    "text": "Planting native trees and grasses along the riverbank",
+                    "isCorrect": 1,
+                    "explanation": "Native plants provide natural erosion control through their root systems, which hold soil in place. They also provide habitat for wildlife and maintain the natural ecosystem."
                 }
             ],
             "funFact": "The roots of some riparian (riverside) plants can extend more than 20 feet deep into the soil, creating a natural erosion control system that has evolved over millions of years!"
         },
         {
-            "id": 14,
-            "text": "A riverside park is experiencing severe erosion along its banks during rainy seasons. The park managers need to protect the land from washing away. Which combination of erosion control methods would be most effective for both immediate and long-term protection of the riverbank?",
-            "options": [
-                {
-                    "text": "Plant grass and trees along the bank, install a stone wall at the base, and add loose rocks (riprap) on the slope",
-                    "isCorrect": 1,
-                    "explanation": "This comprehensive solution provides immediate protection through the stone wall and riprap, while the vegetation's roots will develop over time to hold soil and provide lasting protection."
-                },
-                {
-                    "text": "Only install a stone wall at the base of the bank",
-                    "isCorrect": 0,
-                    "explanation": "While a stone wall provides immediate protection at the base, it doesn't protect the upper slope from erosion and might lead to increased erosion above the wall."
-                },
-                {
-                    "text": "Only plant grass and trees along the bank",
-                    "isCorrect": 0,
-                    "explanation": "Vegetation alone takes time to establish strong root systems and may not provide enough immediate protection during heavy rains."
-                },
-                {
-                    "text": "Only add loose rocks (riprap) on the slope",
-                    "isCorrect": 0,
-                    "explanation": "While riprap helps break water flow and provides some protection, it may shift during heavy rains without additional support from other methods."
-                }
-            ],
-            "funFact": "The ancient Romans were pioneers in erosion control, using a combination of vegetation and stone structures called 'terraces' to protect hillsides. Many of these structures are still effective after 2000 years!"
-        },
-        {
             "id": 15,
-            "text": "A coastal town experiences heavy rainfall and strong ocean waves that are causing beach erosion. Which combination of erosion control methods would be most effective in protecting both the beach and nearby soil?",
+            "text": "A coastal town's beach is rapidly disappearing due to strong ocean waves during storms. The town council needs to decide on a solution to protect their beach. Which solution would be most effective in preventing further erosion of the beach while considering both immediate and long-term protection?",
             "options": [
                 {
-                    "text": "Plant grass and trees along the beach, and install stone barriers near the water's edge",
+                    "text": "Moving all buildings away from the beach",
+                    "isCorrect": 0,
+                    "explanation": "This avoids damage to buildings but doesn't address the actual problem of beach erosion and loss of the coastal environment."
+                },
+                {
+                    "text": "Only building a concrete seawall along the beach",
+                    "isCorrect": 0,
+                    "explanation": "While a seawall can block waves, using it alone may cause increased erosion at its edges and doesn't provide the additional protection that natural elements offer."
+                },
+                {
+                    "text": "Building a concrete seawall with vegetation planted behind it and creating sand dunes",
                     "isCorrect": 1,
-                    "explanation": "This combination addresses both water and wind erosion. The vegetation's roots help hold soil in place while stone barriers help reduce the impact of waves on the beach."
+                    "explanation": "This comprehensive approach combines multiple protective elements - the seawall blocks immediate wave impact, vegetation's roots help hold soil, and sand dunes provide natural barriers against storms."
                 },
                 {
-                    "text": "Add more sand to the beach every month",
+                    "text": "Only planting grass and shrubs along the beach",
                     "isCorrect": 0,
-                    "explanation": "Simply adding more sand is a temporary solution that doesn't address the underlying causes of erosion and would need constant maintenance."
-                },
-                {
-                    "text": "Build a tall concrete wall along the entire beach",
-                    "isCorrect": 0,
-                    "explanation": "While a wall might block waves, it doesn't address soil erosion from rainfall and could actually increase erosion at its base due to wave reflection."
-                },
-                {
-                    "text": "Remove all vegetation to create more beach space",
-                    "isCorrect": 0,
-                    "explanation": "Removing vegetation would worsen erosion as there would be no root systems to hold the soil in place."
+                    "explanation": "While vegetation helps hold soil with its roots, it alone cannot withstand strong wave action during storms and takes time to establish."
                 }
             ],
-            "funFact": "The Netherlands has been fighting coastal erosion for centuries using a combination of natural and engineered solutions. They created artificial sand dunes planted with special grasses that act as natural barriers against the sea while protecting inland areas."
+            "funFact": "The Netherlands has been fighting coastal erosion for centuries using a combination of engineered structures and natural solutions. Their innovative 'Sand Motor' project uses natural ocean currents to distribute sand along the coast, protecting over 20 kilometers of shoreline!"
         }
     ]
 }

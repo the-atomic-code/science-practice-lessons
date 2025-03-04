@@ -4,87 +4,55 @@
     "questions": [
         {
             "id": 1,
-            "text": "What is the main difference between saltwater and freshwater on Earth?",
+            "text": "Which feature makes the Great Lakes a unique and important freshwater system in North America?",
             "options": [
                 {
-                    "text": "Saltwater contains dissolved salt while freshwater does not contain significant amounts of salt",
+                    "text": "They are completely frozen year-round",
+                    "isCorrect": 0,
+                    "explanation": "While the Great Lakes can partially freeze during winter, they are not frozen year-round like glaciers."
+                },
+                {
+                    "text": "They are filled with salt water",
+                    "isCorrect": 0,
+                    "explanation": "The Great Lakes contain fresh water, not salt water. Salt water is found in oceans."
+                },
+                {
+                    "text": "They flow directly into the Pacific Ocean",
+                    "isCorrect": 0,
+                    "explanation": "The Great Lakes drain eastward to the Atlantic Ocean via the St. Lawrence River, not westward to the Pacific Ocean."
+                },
+                {
+                    "text": "They are the largest group of interconnected freshwater lakes in North America",
                     "isCorrect": 1,
-                    "explanation": "This is correct! The main difference between saltwater and freshwater is the presence of dissolved salt. Oceans contain saltwater, while lakes, rivers, and glaciers contain freshwater."
-                },
-                {
-                    "text": "Saltwater is always warm while freshwater is always cold",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Both saltwater and freshwater can be warm or cold. The temperature is not what defines whether water is salt or fresh."
-                },
-                {
-                    "text": "Saltwater only exists in liquid form while freshwater can be liquid or solid",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Both saltwater and freshwater can exist in different forms. Saltwater can freeze, though at a lower temperature than freshwater."
-                },
-                {
-                    "text": "Saltwater moves while freshwater stays still",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Both saltwater (in oceans) and freshwater (in rivers) can move or be still. Movement is not what determines if water is salt or fresh."
+                    "explanation": "The Great Lakes form the largest system of connected freshwater lakes in North America, making them a vital freshwater resource."
                 }
             ],
-            "funFact": "While humans can't drink saltwater, many marine animals have special adaptations that allow them to process saltwater and extract the fresh water they need to survive!"
+            "funFact": "The Great Lakes contain about 21% of the world's surface fresh water and about 84% of North America's surface fresh water!"
         },
         {
             "id": 2,
-            "text": "Which physical characteristic BEST describes Earth's oceans?",
+            "text": "Which of the following bodies of water can exist in both liquid and solid states during different seasons?",
             "options": [
                 {
-                    "text": "They contain salt water",
+                    "text": "Lake",
                     "isCorrect": 1,
-                    "explanation": "Oceans are large bodies of salt water. The salt content is what makes ocean water different from fresh water found in lakes and rivers."
+                    "explanation": "Lakes can exist as liquid water in warmer temperatures and freeze into solid ice during cold winter months."
                 },
                 {
-                    "text": "They never freeze",
+                    "text": "Underground water",
                     "isCorrect": 0,
-                    "explanation": "Ocean water can freeze in very cold conditions, particularly near the poles where we find sea ice."
+                    "explanation": "Groundwater typically stays liquid because it's insulated by the Earth and rarely reaches freezing temperatures."
                 },
                 {
-                    "text": "They contain fresh water",
+                    "text": "Ocean",
                     "isCorrect": 0,
-                    "explanation": "Oceans contain salt water, not fresh water. Fresh water is found in lakes, rivers, and glaciers."
-                },
-                {
-                    "text": "They are surrounded by land",
-                    "isCorrect": 0,
-                    "explanation": "Unlike lakes which are surrounded by land, oceans are vast bodies of water that typically border continents."
+                    "explanation": "While oceans can have some ice floating in them, they don't typically freeze completely due to their salt content and vast size."
                 }
             ],
-            "funFact": "The ocean is so salty that there is enough salt in Earth's oceans to cover all the continents with a layer about 500 feet thick - that's about as tall as a 40-story building!"
+            "funFact": "The Great Lakes in North America can develop ice cover of up to 90% during extremely cold winters, but they never freeze completely due to their depth and constant motion!"
         },
         {
             "id": 3,
-            "text": "How do glaciers form in cold regions of Earth?",
-            "options": [
-                {
-                    "text": "Snow and ice pack together slowly over time to form hard, frozen fresh water",
-                    "isCorrect": 1,
-                    "explanation": "This is correct - glaciers form through a gradual process where layers of snow and ice compress and become dense over many years"
-                },
-                {
-                    "text": "Ocean water freezes quickly during winter storms",
-                    "isCorrect": 0,
-                    "explanation": "Glaciers are made of fresh water, not frozen ocean water, and they form slowly rather than quickly during storms"
-                },
-                {
-                    "text": "Rain freezes instantly when it hits very cold ground",
-                    "isCorrect": 0,
-                    "explanation": "Glaciers don't form from frozen rain - they require accumulated snow and ice that compresses over long periods"
-                },
-                {
-                    "text": "Underground springs bubble up and freeze on the surface",
-                    "isCorrect": 0,
-                    "explanation": "Glaciers form from snow accumulation on the surface, not from frozen underground springs"
-                }
-            ],
-            "funFact": "The largest glacier in the world is the Lambert-Fisher Glacier in Antarctica, which is about 60 miles wide and 250 miles long - that's larger than the entire state of Rhode Island!"
-        },
-        {
-            "id": 4,
             "text": "What causes rivers to flow from mountains to oceans?",
             "options": [
                 {
@@ -98,135 +66,103 @@
                     "explanation": "While wind can affect the surface of rivers, it is not the main force causing rivers to flow from mountains to oceans."
                 },
                 {
-                    "text": "The ocean pulls the water towards it",
-                    "isCorrect": 0,
-                    "explanation": "The ocean does not have a pulling force that draws river water. The downward force of gravity is what moves the water."
-                },
-                {
                     "text": "The rotation of the Earth moves the water",
                     "isCorrect": 0,
                     "explanation": "Earth's rotation affects large ocean currents but does not cause rivers to flow from mountains to oceans."
+                },
+                {
+                    "text": "The ocean pulls the water towards it",
+                    "isCorrect": 0,
+                    "explanation": "The ocean does not have a pulling force that draws river water. The downward force of gravity is what moves the water."
                 }
             ],
             "funFact": "The Amazon River, which flows due to gravity from the Andes Mountains to the Atlantic Ocean, discharges about 209,000 cubic meters of water per second - enough to fill approximately 5,000 Olympic-sized swimming pools every minute!"
         },
         {
-            "id": 5,
-            "text": "Which of the following bodies of water can exist in both liquid and solid states during different seasons?",
+            "id": 4,
+            "text": "Which of the following correctly describes where water can be found on Earth?",
             "options": [
                 {
-                    "text": "Lake",
+                    "text": "Water is found only in oceans and lakes",
+                    "isCorrect": 0,
+                    "explanation": "This is incomplete. While water is found in oceans and lakes, it can also be found in other places like rivers, glaciers, underground, and in the atmosphere."
+                },
+                {
+                    "text": "Water is found only in liquid form on Earth",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Water on Earth exists in liquid form (like in oceans and lakes), solid form (like in glaciers), and as water vapor in the atmosphere."
+                },
+                {
+                    "text": "Water is found only as fresh water on Earth",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Earth has both salt water (in oceans) and fresh water (in lakes, rivers, glaciers, underground, and in the atmosphere as water vapor)."
+                },
+                {
+                    "text": "Water is found in oceans, lakes, rivers, glaciers, underground, and in the atmosphere",
                     "isCorrect": 1,
-                    "explanation": "Lakes can exist as liquid water in warmer temperatures and freeze into solid ice during cold winter months."
-                },
-                {
-                    "text": "Ocean",
-                    "isCorrect": 0,
-                    "explanation": "While oceans can have some ice floating in them, they don't typically freeze completely due to their salt content and vast size."
-                },
-                {
-                    "text": "Underground water",
-                    "isCorrect": 0,
-                    "explanation": "Groundwater typically stays liquid because it's insulated by the Earth and rarely reaches freezing temperatures."
+                    "explanation": "This is correct! Water on Earth can be found in many different places - in oceans as salt water, in lakes, rivers, glaciers, and underground as fresh water, and as water vapor in the atmosphere."
                 }
             ],
-            "funFact": "The Great Lakes in North America can develop ice cover of up to 90% during extremely cold winters, but they never freeze completely due to their depth and constant motion!"
+            "funFact": "About 71% of Earth's surface is covered by water, earning it the nickname 'The Blue Planet' when viewed from space!"
+        },
+        {
+            "id": 5,
+            "text": "What percentage of Earth's water is freshwater?",
+            "options": [
+                {
+                    "text": "50%",
+                    "isCorrect": 0,
+                    "explanation": "The split between freshwater and saltwater is not equal. Freshwater makes up a much smaller percentage of Earth's total water."
+                },
+                {
+                    "text": "3%",
+                    "isCorrect": 1,
+                    "explanation": "Only 3% of Earth's water is freshwater, found in lakes, rivers, glaciers, and underground. This small percentage highlights why it's important to conserve freshwater."
+                },
+                {
+                    "text": "97%",
+                    "isCorrect": 0,
+                    "explanation": "97% is actually the percentage of saltwater on Earth, found in oceans. This is not the percentage of freshwater."
+                },
+                {
+                    "text": "25%",
+                    "isCorrect": 0,
+                    "explanation": "This is an overestimate. Freshwater is much more rare, making up only 3% of Earth's total water."
+                }
+            ],
+            "funFact": "Even though freshwater is only 3% of Earth's total water, about two-thirds of this freshwater is frozen in glaciers and ice caps, making liquid freshwater even more precious!"
         },
         {
             "id": 6,
-            "text": "What conditions are necessary for a glacier to form?",
+            "text": "Which group of organisms would most likely be found living together in a freshwater lake ecosystem?",
             "options": [
                 {
-                    "text": "Snow and ice must pack together slowly over time in a very cold environment",
+                    "text": "Frogs, ducks, and water lilies",
                     "isCorrect": 1,
-                    "explanation": "Glaciers form when snow and ice accumulate and compact over long periods in extremely cold conditions, creating massive chunks of frozen fresh water."
+                    "explanation": "These organisms are commonly found in freshwater lake ecosystems. Frogs and ducks depend on lakes for habitat and food, while water lilies are typical freshwater plants."
                 },
                 {
-                    "text": "Rain must freeze quickly during winter storms",
+                    "text": "Sharks, whales, and coral",
                     "isCorrect": 0,
-                    "explanation": "Quick freezing of rain does not form glaciers - glaciers require long-term accumulation and compression of snow and ice."
+                    "explanation": "These organisms are typically found in saltwater ocean environments, not freshwater lakes."
                 },
                 {
-                    "text": "Ocean water must freeze during cold seasons",
+                    "text": "Penguins, seals, and polar bears",
                     "isCorrect": 0,
-                    "explanation": "Glaciers are made of fresh water, not frozen ocean water. They form from snow accumulation, not from freezing salt water."
+                    "explanation": "These animals are found in polar regions and oceans, not in freshwater lake environments."
                 },
                 {
-                    "text": "Rivers must stop flowing and freeze completely",
+                    "text": "Cacti, lizards, and scorpions",
                     "isCorrect": 0,
-                    "explanation": "Frozen rivers do not form glaciers. Glaciers form from accumulated snow and ice in very cold regions, not from frozen rivers."
+                    "explanation": "These organisms are typically found in desert environments, not in freshwater lake ecosystems."
                 }
             ],
-            "funFact": "The largest glacier in the world is the Lambert-Fisher Glacier in Antarctica, which is about 60 miles wide and 250 miles long - larger than many countries!"
+            "funFact": "The largest freshwater lake system in the world is the Great Lakes of North America, containing about 21% of the world's surface fresh water. These lakes support over 3,500 species of plants and animals!"
         },
         {
             "id": 7,
-            "text": "What is the main characteristic that makes a lake different from other bodies of water like rivers and oceans?",
-            "options": [
-                {
-                    "text": "It is completely surrounded by land on all sides",
-                    "isCorrect": 1,
-                    "explanation": "Lakes are bodies of fresh water that are completely enclosed by land on all sides, making them distinct from rivers which flow from one place to another and oceans which are much larger and not surrounded by land."
-                },
-                {
-                    "text": "It contains only salt water",
-                    "isCorrect": 0,
-                    "explanation": "Unlike oceans which contain salt water, lakes typically contain fresh water. The presence of salt water is not what defines a lake."
-                },
-                {
-                    "text": "It always flows downhill",
-                    "isCorrect": 0,
-                    "explanation": "Flowing downhill is a characteristic of rivers, not lakes. Lake water is relatively still compared to river water."
-                },
-                {
-                    "text": "It is always frozen",
-                    "isCorrect": 0,
-                    "explanation": "While lakes can freeze in cold weather, being frozen is not a defining characteristic of lakes. Glaciers are the water bodies that remain frozen."
-                }
-            ],
-            "funFact": "The deepest lake in the world is Lake Baikal in Russia, which contains about 20% of Earth's unfrozen fresh water. It is so deep that if all the world's drinking water disappeared, Lake Baikal alone could supply the world's needs for about 40 years!"
-        },
-        {
-            "id": 8,
-            "text": "Which of the following bodies of water contain freshwater?",
-            "options": [
-                {
-                    "text": "Oceans and seas",
-                    "isCorrect": 0,
-                    "explanation": "Oceans and seas contain saltwater, not freshwater. They make up about 97% of Earth's water."
-                },
-                {
-                    "text": "Rivers, lakes, and glaciers",
-                    "isCorrect": 1,
-                    "explanation": "Rivers, lakes, and glaciers all contain freshwater. These are the main sources of freshwater on Earth."
-                },
-                {
-                    "text": "Pacific Ocean and Arctic Ocean",
-                    "isCorrect": 0,
-                    "explanation": "All oceans, including the Pacific and Arctic Oceans, contain saltwater."
-                },
-                {
-                    "text": "Underground caves filled with seawater",
-                    "isCorrect": 0,
-                    "explanation": "Underground caves filled with seawater contain saltwater, not freshwater."
-                }
-            ],
-            "funFact": "The Great Lakes of North America contain about 20% of the world's surface freshwater and enough water to cover the entire United States in about 9.5 feet of water!"
-        },
-        {
-            "id": 9,
             "text": "Match the correct form of water with where it is most commonly found:",
             "options": [
-                {
-                    "text": "Liquid water in glaciers",
-                    "isCorrect": 0,
-                    "explanation": "Glaciers contain frozen water (ice), not liquid water. They form in very cold places when snow and ice pack together over time."
-                },
-                {
-                    "text": "Solid ice in oceans",
-                    "isCorrect": 0,
-                    "explanation": "Oceans contain mostly liquid salt water. While there can be some ice in polar regions, oceans are primarily liquid."
-                },
                 {
                     "text": "Solid ice in glaciers",
                     "isCorrect": 1,
@@ -236,94 +172,190 @@
                     "text": "Solid ice in underground wells",
                     "isCorrect": 0,
                     "explanation": "Underground wells contain liquid groundwater, not ice. This water fills spaces between soil and rocks beneath Earth's surface."
+                },
+                {
+                    "text": "Liquid water in glaciers",
+                    "isCorrect": 0,
+                    "explanation": "Glaciers contain frozen water (ice), not liquid water. They form in very cold places when snow and ice pack together over time."
+                },
+                {
+                    "text": "Solid ice in oceans",
+                    "isCorrect": 0,
+                    "explanation": "Oceans contain mostly liquid salt water. While there can be some ice in polar regions, oceans are primarily liquid."
                 }
             ],
             "funFact": "The largest glacier in the world is the Lambert-Fisher Glacier in Antarctica, which is about 60 miles wide and 250 miles long - that's larger than many countries!"
         },
         {
-            "id": 10,
-            "text": "A community needs to access underground water for their daily needs. Which method would be most appropriate for obtaining groundwater?",
+            "id": 8,
+            "text": "Rivers flow from mountains to oceans. Which force is mainly responsible for making rivers flow downhill?",
             "options": [
                 {
-                    "text": "Digging a well and using a pump or bucket",
+                    "text": "Earth's rotation",
+                    "isCorrect": 0,
+                    "explanation": "Earth's rotation affects ocean currents but does not cause rivers to flow downhill."
+                },
+                {
+                    "text": "Gravity",
                     "isCorrect": 1,
-                    "explanation": "Wells are specifically designed to access groundwater by creating a deep hole that reaches the water table, allowing water to be extracted using pumps or buckets."
+                    "explanation": "Gravity pulls water downhill, causing rivers to flow from higher elevations like mountains to lower areas like oceans."
                 },
                 {
-                    "text": "Building a dam across a river",
+                    "text": "Magnetism",
                     "isCorrect": 0,
-                    "explanation": "Dams are used to store surface water from rivers, not to access groundwater that is found beneath the Earth's surface."
+                    "explanation": "Magnetic forces do not significantly affect water flow in rivers."
                 },
                 {
-                    "text": "Creating an artificial lake",
+                    "text": "Wind",
                     "isCorrect": 0,
-                    "explanation": "Artificial lakes collect surface water but cannot access groundwater that is stored in spaces between soil and rocks underground."
-                },
-                {
-                    "text": "Setting up rain collection barrels",
-                    "isCorrect": 0,
-                    "explanation": "Rain barrels collect precipitation from the sky, not groundwater that is stored beneath the Earth's surface."
+                    "explanation": "While wind can create waves on water surfaces, it is not the main force that makes rivers flow downhill."
                 }
             ],
-            "funFact": "About 30% of Earth's freshwater is groundwater, and nearly 50% of people in the United States rely on groundwater for their drinking water."
+            "funFact": "The Amazon River, the world's largest river by water volume, flows downhill with such force that it pushes freshwater nearly 100 miles out into the Atlantic Ocean before it fully mixes with the salt water!"
+        },
+        {
+            "id": 9,
+            "text": "What conditions are necessary for a glacier to form?",
+            "options": [
+                {
+                    "text": "Ocean water must freeze during cold seasons",
+                    "isCorrect": 0,
+                    "explanation": "Glaciers are made of fresh water, not frozen ocean water. They form from snow accumulation, not from freezing salt water."
+                },
+                {
+                    "text": "Rain must freeze quickly during winter storms",
+                    "isCorrect": 0,
+                    "explanation": "Quick freezing of rain does not form glaciers - glaciers require long-term accumulation and compression of snow and ice."
+                },
+                {
+                    "text": "Rivers must stop flowing and freeze completely",
+                    "isCorrect": 0,
+                    "explanation": "Frozen rivers do not form glaciers. Glaciers form from accumulated snow and ice in very cold regions, not from frozen rivers."
+                },
+                {
+                    "text": "Snow and ice must pack together slowly over time in a very cold environment",
+                    "isCorrect": 1,
+                    "explanation": "Glaciers form when snow and ice accumulate and compact over long periods in extremely cold conditions, creating massive chunks of frozen fresh water."
+                }
+            ],
+            "funFact": "The largest glacier in the world is the Lambert-Fisher Glacier in Antarctica, which is about 60 miles wide and 250 miles long - larger than many countries!"
+        },
+        {
+            "id": 10,
+            "text": "Why is it especially important to conserve freshwater on Earth?",
+            "options": [
+                {
+                    "text": "Because only 3% of Earth's water is freshwater",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Since freshwater makes up such a small percentage of Earth's total water, it's a precious resource that needs to be used carefully."
+                },
+                {
+                    "text": "Because freshwater is harder to find than saltwater",
+                    "isCorrect": 0,
+                    "explanation": "While freshwater is less abundant than saltwater, the main reason for conservation is the small total percentage of freshwater available on Earth."
+                },
+                {
+                    "text": "Because freshwater flows faster than saltwater",
+                    "isCorrect": 0,
+                    "explanation": "The speed of water flow is not related to whether it's fresh or salt water. The importance of conservation is due to freshwater's limited availability."
+                },
+                {
+                    "text": "Because freshwater evaporates more quickly than saltwater",
+                    "isCorrect": 0,
+                    "explanation": "The rate of evaporation is not the main reason for conserving freshwater. The limited total amount of freshwater on Earth is the key concern."
+                }
+            ],
+            "funFact": "The Great Lakes in North America contain about 20% of the world's surface freshwater and enough water to cover the entire United States in about 9.5 feet of water!"
         },
         {
             "id": 11,
-            "text": "In what physical state would you expect to find water in a glacier located near the North Pole?",
+            "text": "A small mountain stream flows into a lake, which eventually connects to a river that leads to the ocean. If pollution enters the mountain stream, which statement best describes how this could affect other water bodies?",
             "options": [
                 {
-                    "text": "Solid ice",
+                    "text": "The pollution will only affect the mountain stream and won't reach other water bodies",
+                    "isCorrect": 0,
+                    "explanation": "Water bodies are connected, so pollution can flow from one to another. The pollution would not stay confined to the mountain stream."
+                },
+                {
+                    "text": "The pollution will spread through the connected water bodies, potentially affecting the lake, river, and ocean",
                     "isCorrect": 1,
-                    "explanation": "Glaciers form in extremely cold regions where temperatures stay below freezing, causing water to remain in its solid state as ice."
+                    "explanation": "Since water flows from the stream to the lake, then to the river and ocean, pollution can travel through these connected water bodies."
                 },
                 {
-                    "text": "Liquid water",
+                    "text": "The lake will filter out all the pollution before it reaches other water bodies",
                     "isCorrect": 0,
-                    "explanation": "While some liquid water may exist within glaciers, the primary state of water in glaciers is solid ice due to the extremely cold temperatures."
+                    "explanation": "While lakes can naturally filter some pollutants, they cannot completely remove all pollution before water flows to other bodies."
                 },
                 {
-                    "text": "Water vapor",
+                    "text": "The pollution will only affect the ocean since it's the largest water body",
                     "isCorrect": 0,
-                    "explanation": "Water vapor is the gaseous state of water, which is not the primary form found in glaciers. The cold temperatures cause water to freeze into solid ice."
+                    "explanation": "Pollution affects all water bodies it passes through, not just the final destination."
                 }
             ],
-            "funFact": "The largest glacier in the world is the Lambert-Fisher Glacier in Antarctica, which is about 60 miles wide and 250 miles long - big enough to cover a significant portion of a small country!"
+            "funFact": "The world's largest river system, the Amazon River and its tributaries, connects thousands of streams and rivers across South America, showing how water bodies can be interconnected across an entire continent!"
         },
         {
             "id": 12,
-            "text": "A community needs to access groundwater to supply their houses. Which method would be most efficient for providing a steady water supply to multiple homes?",
+            "text": "What pattern can be observed in where most rivers start and end?",
             "options": [
                 {
-                    "text": "Using a powered pump system",
+                    "text": "Rivers typically start in oceans and flow into mountains",
+                    "isCorrect": 0,
+                    "explanation": "Water cannot flow uphill against gravity from oceans to mountains naturally."
+                },
+                {
+                    "text": "Rivers typically start in mountains and flow into oceans",
                     "isCorrect": 1,
-                    "explanation": "A powered pump system is most efficient for supplying multiple homes as it can continuously extract large volumes of water and maintain consistent pressure."
+                    "explanation": "Due to gravity, rivers flow downhill from higher elevations like mountains to lower elevations, eventually reaching oceans."
                 },
                 {
-                    "text": "Lowering individual buckets into wells",
+                    "text": "Rivers typically start and end at random locations",
                     "isCorrect": 0,
-                    "explanation": "Using buckets is labor-intensive and can only extract small amounts of water at a time, making it impractical for supplying multiple homes."
+                    "explanation": "River paths follow a predictable pattern based on gravity and elevation changes, not random locations."
                 },
                 {
-                    "text": "Waiting for natural springs to form",
+                    "text": "Rivers typically start and end in the same mountain",
                     "isCorrect": 0,
-                    "explanation": "Relying on natural springs is unreliable as they may not form where needed and their water flow can be inconsistent."
-                },
-                {
-                    "text": "Using a single hand pump",
-                    "isCorrect": 0,
-                    "explanation": "A hand pump requires manual operation and can't efficiently supply enough water for multiple homes consistently."
+                    "explanation": "Rivers don't circle back to their starting point - they flow downhill from higher to lower elevations."
                 }
             ],
-            "funFact": "The deepest hole ever drilled into Earth is the Kola Superdeep Borehole in Russia, reaching a depth of over 40,000 feet (12 kilometers)! While this was a scientific drilling project rather than a water well, it's interesting to compare it with residential water wells, which typically only need to be 100-500 feet deep to access good quality groundwater."
+            "funFact": "The Amazon River, Earth's largest river by water volume, starts high in the Andes Mountains of Peru and travels over 4,000 miles before reaching the Atlantic Ocean, demonstrating this mountain-to-ocean pattern on a massive scale!"
         },
         {
             "id": 13,
+            "text": "In which location would you most likely find water in its solid state year-round?",
+            "options": [
+                {
+                    "text": "An ocean near the equator",
+                    "isCorrect": 0,
+                    "explanation": "Oceans near the equator are warm and maintain liquid water due to constant heat from the sun."
+                },
+                {
+                    "text": "A river in California",
+                    "isCorrect": 0,
+                    "explanation": "Rivers in temperate regions like California typically contain liquid water, though they might partially freeze during very cold winter days."
+                },
+                {
+                    "text": "A glacier in Antarctica",
+                    "isCorrect": 1,
+                    "explanation": "Glaciers are found in extremely cold regions like Antarctica where temperatures stay below freezing throughout the year, keeping water in its solid state as ice."
+                },
+                {
+                    "text": "A lake in Florida",
+                    "isCorrect": 0,
+                    "explanation": "Lakes in warm regions like Florida maintain liquid water throughout the year due to temperatures well above freezing."
+                }
+            ],
+            "funFact": "The largest glacier in the world is the Lambert-Fisher Glacier in Antarctica, which is about 60 miles wide and more than 250 miles long. That's larger than many countries!"
+        },
+        {
+            "id": 14,
             "text": "A lake in a mountainous region receives water from melting glaciers and is home to trout that thrive in cold water. How does this lake's location likely affect its ecosystem?",
             "options": [
                 {
-                    "text": "The cold glacier water creates ideal conditions for cold-water fish species and unique plant life adapted to lower temperatures",
-                    "isCorrect": 1,
-                    "explanation": "Glacier-fed mountain lakes maintain cold temperatures, which support specialized cold-water species like trout and specific alpine plants"
+                    "text": "The lake would have exactly the same fish species as ocean waters",
+                    "isCorrect": 0,
+                    "explanation": "Freshwater lake species are different from ocean species, as they are adapted to different water conditions"
                 },
                 {
                     "text": "The lake's ecosystem would be identical to a lake at sea level since all lakes have the same conditions",
@@ -336,66 +368,39 @@
                     "explanation": "While cold, glacier-fed lakes can support many specially adapted organisms"
                 },
                 {
-                    "text": "The lake would have exactly the same fish species as ocean waters",
-                    "isCorrect": 0,
-                    "explanation": "Freshwater lake species are different from ocean species, as they are adapted to different water conditions"
+                    "text": "The cold glacier water creates ideal conditions for cold-water fish species and unique plant life adapted to lower temperatures",
+                    "isCorrect": 1,
+                    "explanation": "Glacier-fed mountain lakes maintain cold temperatures, which support specialized cold-water species like trout and specific alpine plants"
                 }
             ],
             "funFact": "The deepest lake in North America, Crater Lake in Oregon, was formed in a volcanic crater and is famous for having some of the purest and clearest water in the world!"
         },
         {
-            "id": 14,
-            "text": "Which statement correctly explains why rivers always flow downhill?",
-            "options": [
-                {
-                    "text": "The force of gravity pulls water downhill",
-                    "isCorrect": 1,
-                    "explanation": "Gravity is the force that pulls everything toward Earth's center, causing water in rivers to flow from higher to lower elevations."
-                },
-                {
-                    "text": "The wind pushes water downhill",
-                    "isCorrect": 0,
-                    "explanation": "While wind can affect water movement on the surface, it is not the main force that causes rivers to flow downhill."
-                },
-                {
-                    "text": "The Earth's rotation moves water downhill",
-                    "isCorrect": 0,
-                    "explanation": "Earth's rotation affects large ocean currents but does not determine the downhill flow of rivers."
-                },
-                {
-                    "text": "The temperature makes water flow downhill",
-                    "isCorrect": 0,
-                    "explanation": "Temperature can affect water's state (solid/liquid) but does not determine the direction of river flow."
-                }
-            ],
-            "funFact": "The Amazon River, which flows downhill from the Andes Mountains to the Atlantic Ocean, carries about 20% of all the river water that flows into the world's oceans!"
-        },
-        {
             "id": 15,
-            "text": "In which location would you most likely find water in its solid state year-round?",
+            "text": "Why is it important to conserve fresh water on Earth?",
             "options": [
                 {
-                    "text": "A glacier in Antarctica",
+                    "text": "Because fresh water evaporates faster than salt water",
+                    "isCorrect": 0,
+                    "explanation": "While evaporation rates can differ between fresh and salt water, this is not the main reason for conservation. The limited availability of fresh water is the key concern."
+                },
+                {
+                    "text": "Because only 3% of Earth's water is fresh water while 97% is salt water",
                     "isCorrect": 1,
-                    "explanation": "Glaciers are found in extremely cold regions like Antarctica where temperatures stay below freezing throughout the year, keeping water in its solid state as ice."
+                    "explanation": "Fresh water is a limited resource on Earth, making up only 3% of all water. This small percentage needs to be carefully conserved for drinking, agriculture, and other essential uses."
                 },
                 {
-                    "text": "A lake in Florida",
+                    "text": "Because fresh water freezes more quickly than salt water",
                     "isCorrect": 0,
-                    "explanation": "Lakes in warm regions like Florida maintain liquid water throughout the year due to temperatures well above freezing."
+                    "explanation": "While fresh water does freeze at a higher temperature than salt water, this is not why conservation is important. The scarcity of fresh water is the main concern."
                 },
                 {
-                    "text": "An ocean near the equator",
+                    "text": "Because fresh water is found only in rivers",
                     "isCorrect": 0,
-                    "explanation": "Oceans near the equator are warm and maintain liquid water due to constant heat from the sun."
-                },
-                {
-                    "text": "A river in California",
-                    "isCorrect": 0,
-                    "explanation": "Rivers in temperate regions like California typically contain liquid water, though they might partially freeze during very cold winter days."
+                    "explanation": "Fresh water is actually found in multiple places including lakes, rivers, glaciers, and underground - not just in rivers."
                 }
             ],
-            "funFact": "The largest glacier in the world is the Lambert-Fisher Glacier in Antarctica, which is about 60 miles wide and more than 250 miles long. That's larger than many countries!"
+            "funFact": "The Great Lakes in North America contain about 20% of Earth's surface fresh water, making them one of the most important fresh water resources in the world!"
         }
     ]
 }

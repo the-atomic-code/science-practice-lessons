@@ -4,33 +4,6 @@
     "questions": [
         {
             "id": 1,
-            "text": "What is a primary role of biochemists in developing synthetic materials for medical purposes?",
-            "options": [
-                {
-                    "text": "They study chemical reactions in living organisms to develop new medicines and treatments",
-                    "isCorrect": 1,
-                    "explanation": "Biochemists focus on understanding chemical reactions in living organisms, which allows them to develop new drugs and treatments for diseases like cancer"
-                },
-                {
-                    "text": "They only test existing medicines in laboratories to check their effectiveness",
-                    "isCorrect": 0,
-                    "explanation": "While testing medicines is part of their work, biochemists do much more - they actively study and develop new synthetic materials for medical use"
-                },
-                {
-                    "text": "They only manufacture medicines in large quantities",
-                    "isCorrect": 0,
-                    "explanation": "Manufacturing medicines is typically done by pharmaceutical companies, not biochemists. Biochemists focus on research and development of new treatments"
-                },
-                {
-                    "text": "They only market and distribute medical products",
-                    "isCorrect": 0,
-                    "explanation": "Marketing and distribution are business functions, not the role of biochemists who focus on scientific research and development"
-                }
-            ],
-            "funFact": "Many modern medicines we use today, like insulin for diabetes treatment, were developed through biochemical research. Initially, insulin had to be extracted from animal pancreases, but biochemists developed synthetic human insulin through genetic engineering in 1978, revolutionizing diabetes treatment."
-        },
-        {
-            "id": 2,
             "text": "Which of the following is a synthetic material commonly used in everyday life that is made from natural resources through chemical reactions?",
             "options": [
                 {
@@ -39,9 +12,9 @@
                     "explanation": "Plastic water bottles are synthetic materials created through chemical reactions using petroleum, a natural resource, as the raw material. The molecules are rearranged to form new substances with different properties."
                 },
                 {
-                    "text": "Cotton T-shirts harvested from plants",
+                    "text": "Granite countertops mined from quarries",
                     "isCorrect": 0,
-                    "explanation": "Cotton T-shirts are made from natural cotton fibers harvested directly from cotton plants. While they may be processed, they are not synthetic materials created through chemical reactions."
+                    "explanation": "Granite countertops are made from natural stone that is mined and cut. They are not synthetic materials as they are not created through chemical reactions."
                 },
                 {
                     "text": "Wooden furniture cut from trees",
@@ -49,22 +22,44 @@
                     "explanation": "Wooden furniture is made from natural wood obtained directly from trees. While it may be processed and shaped, it is not a synthetic material created through chemical reactions."
                 },
                 {
-                    "text": "Granite countertops mined from quarries",
+                    "text": "Cotton T-shirts harvested from plants",
                     "isCorrect": 0,
-                    "explanation": "Granite countertops are made from natural stone that is mined and cut. They are not synthetic materials as they are not created through chemical reactions."
+                    "explanation": "Cotton T-shirts are made from natural cotton fibers harvested directly from cotton plants. While they may be processed, they are not synthetic materials created through chemical reactions."
                 }
             ],
             "funFact": "The first fully synthetic plastic, Bakelite, was invented in 1907 by Leo Baekeland. It revolutionized the modern world by introducing an entirely new category of materials that could be molded into any shape and was resistant to heat and electricity."
         },
         {
+            "id": 2,
+            "text": "Which statement accurately describes a major environmental concern associated with synthetic materials like plastics?",
+            "options": [
+                {
+                    "text": "All synthetic materials naturally dissolve in water, causing ocean acidification",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Not all synthetic materials dissolve in water. Many plastics persist in water bodies as solid waste, forming large patches of debris."
+                },
+                {
+                    "text": "Plastics decompose quickly, releasing harmful chemicals into the soil within weeks",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Plastics actually take a very long time to decompose, which is why they accumulate in the environment and cause pollution problems."
+                },
+                {
+                    "text": "Synthetic materials like plastics take many years to break down and can accumulate as pollution in the environment",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The slow decomposition rate of plastics is a major environmental concern, leading to long-term accumulation and pollution problems in our ecosystems."
+                },
+                {
+                    "text": "Synthetic materials only affect urban areas and have no impact on natural ecosystems",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Synthetic materials can spread far from urban areas and significantly impact natural ecosystems worldwide, including marine environments and wildlife habitats."
+                }
+            ],
+            "funFact": "The Great Pacific Garbage Patch, a collection of marine debris in the North Pacific Ocean, is estimated to be twice the size of Texas and contains mostly plastic waste that has accumulated due to ocean currents!"
+        },
+        {
             "id": 3,
             "text": "Which best describes how fossil fuels form in nature?",
             "options": [
-                {
-                    "text": "From decayed plants and animals over millions of years",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Fossil fuels form when dead plants and animals decay and are buried under layers of rock over millions of years, where heat and pressure transform them into coal, oil, and natural gas."
-                },
                 {
                     "text": "From rocks and minerals combining underground",
                     "isCorrect": 0,
@@ -79,174 +74,71 @@
                     "text": "From synthetic materials created by humans",
                     "isCorrect": 0,
                     "explanation": "Incorrect. Fossil fuels are natural resources that form without human intervention, unlike synthetic materials which are created by humans through chemical processes."
+                },
+                {
+                    "text": "From decayed plants and animals over millions of years",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Fossil fuels form when dead plants and animals decay and are buried under layers of rock over millions of years, where heat and pressure transform them into coal, oil, and natural gas."
                 }
             ],
             "funFact": "The word 'fossil' in fossil fuels comes from the fact that these fuels contain fossilized remains of prehistoric plants and animals. Some of the oil and natural gas we use today comes from organisms that lived over 300 million years ago!"
         },
         {
             "id": 4,
-            "text": "Which statement best describes synthetic materials?",
+            "text": "Which of the following best describes natural resources?",
             "options": [
                 {
-                    "text": "Materials deliberately created by humans by combining substances through chemical reactions to create new properties",
+                    "text": "Products formed by mixing different chemicals together",
+                    "isCorrect": 0,
+                    "explanation": "This describes synthetic materials or chemical products, not natural resources which occur naturally."
+                },
+                {
+                    "text": "Materials that have been processed and refined by humans",
+                    "isCorrect": 0,
+                    "explanation": "This describes processed materials, not natural resources in their natural state."
+                },
+                {
+                    "text": "Materials created in laboratories through chemical reactions",
+                    "isCorrect": 0,
+                    "explanation": "This describes synthetic materials, not natural resources. Natural resources occur naturally without human intervention."
+                },
+                {
+                    "text": "Raw materials that occur naturally in the Earth without human intervention",
                     "isCorrect": 1,
-                    "explanation": "This is correct. Synthetic materials are intentionally created when humans mix substances that undergo chemical reactions to form new materials with desired properties."
-                },
-                {
-                    "text": "Materials that occur naturally in the Earth without any human intervention",
-                    "isCorrect": 0,
-                    "explanation": "This describes natural resources, not synthetic materials. Natural resources are used to create synthetic materials."
-                },
-                {
-                    "text": "Any material that humans can use for making products",
-                    "isCorrect": 0,
-                    "explanation": "This is too broad as it could include both natural and synthetic materials. Synthetic materials specifically require human intervention to create them."
-                },
-                {
-                    "text": "Materials that are formed by mixing substances without chemical changes",
-                    "isCorrect": 0,
-                    "explanation": "While some synthetic materials can form from mixtures, most synthetic materials involve chemical reactions where the atomic structures are rearranged."
+                    "explanation": "This correctly defines natural resources as materials that exist naturally without being manufactured or created by humans."
                 }
             ],
-            "funFact": "The first fully synthetic plastic, Bakelite, was invented in 1907 by Leo Baekeland. It revolutionized the modern world by introducing an era of inexpensive, mass-produced products that weren't limited by natural material availability."
+            "funFact": "The Earth's oldest known natural resource used by humans is stone. Stone tools dating back to 2.6 million years ago have been found in Ethiopia, marking the beginning of human technology and resource use!"
         },
         {
             "id": 5,
-            "text": "Which of the following is NOT a naturally occurring mineral found in Earth's crust?",
+            "text": "Which of the following best illustrates how synthetic materials have positively impacted medicine and healthcare?",
             "options": [
                 {
-                    "text": "Copper",
+                    "text": "The collection and storage of natural medicines in plastic containers",
                     "isCorrect": 0,
-                    "explanation": "Copper is a naturally occurring mineral that exists in Earth's crust and has been mined and used by humans for thousands of years."
+                    "explanation": "While plastic containers are synthetic materials, this answer focuses on storage rather than how synthetic materials themselves have improved medical treatments."
                 },
                 {
-                    "text": "Graphite",
+                    "text": "The distribution of existing medicines to new locations",
                     "isCorrect": 0,
-                    "explanation": "Graphite is a naturally occurring mineral form of carbon found in nature, commonly used in pencils and various industrial applications."
+                    "explanation": "This describes logistics of medicine distribution rather than how synthetic materials have improved healthcare through new medical developments."
                 },
                 {
-                    "text": "Zinc",
-                    "isCorrect": 0,
-                    "explanation": "Zinc is a naturally occurring mineral found in Earth's crust, often found combined with other elements in mineral deposits."
-                },
-                {
-                    "text": "Nylon",
+                    "text": "The development of new medications through chemical reactions to treat diseases like cancer",
                     "isCorrect": 1,
-                    "explanation": "Nylon is a synthetic material created by humans through chemical reactions. It is not a naturally occurring mineral but rather a manufactured polymer."
+                    "explanation": "Biochemists create synthetic medicines through chemical reactions, allowing them to develop targeted treatments for various diseases including cancer, which wouldn't be possible with natural materials alone."
+                },
+                {
+                    "text": "The use of only natural herbs and plants to make traditional medicines",
+                    "isCorrect": 0,
+                    "explanation": "While natural medicines are valuable, this doesn't represent synthetic materials' impact on healthcare. Synthetic materials involve chemical modifications of natural resources to create new substances."
                 }
             ],
-            "funFact": "The first synthetic fiber ever created was nylon, invented by Wallace Carothers at DuPont in 1935. It revolutionized the textile industry and was first used commercially in toothbrush bristles before becoming famous for its use in women's stockings!"
+            "funFact": "The first synthetic drug was aspirin, created in 1897. Before that, people chewed willow bark which contained a natural form of aspirin's active ingredient. The synthetic version provided more consistent dosing and fewer side effects, revolutionizing pain treatment."
         },
         {
             "id": 6,
-            "text": "A company wants to create a new type of container for storing hot beverages. Which natural resource would be most suitable for creating a synthetic material with the desired properties of being lightweight, heat-resistant, and moldable into different shapes?",
-            "options": [
-                {
-                    "text": "Petroleum",
-                    "isCorrect": 1,
-                    "explanation": "Petroleum can be processed to create heat-resistant plastics that are lightweight and can be molded into various shapes when soft, making it ideal for beverage containers."
-                },
-                {
-                    "text": "Copper ore",
-                    "isCorrect": 0,
-                    "explanation": "While copper is heat-resistant, it is heavy and not easily moldable into different shapes at normal temperatures, making it less suitable for lightweight beverage containers."
-                },
-                {
-                    "text": "Wood",
-                    "isCorrect": 0,
-                    "explanation": "Wood is not suitable as it cannot be easily molded into different shapes and may not maintain consistent heat resistance when processed into a synthetic material."
-                },
-                {
-                    "text": "Animal fats",
-                    "isCorrect": 0,
-                    "explanation": "Animal fats are better suited for creating products like biodiesel. They lack the heat resistance and structural stability needed for beverage containers."
-                }
-            ],
-            "funFact": "The first synthetic plastic, called Bakelite, was invented in 1907 and revolutionized modern manufacturing by providing an alternative to natural materials. It was commonly used in electrical insulators, radio and telephone casings, and even jewelry!"
-        },
-        {
-            "id": 7,
-            "text": "What is a key environmental advantage of using biodiesel as compared to conventional diesel fuel?",
-            "options": [
-                {
-                    "text": "Biodiesel produces fewer air pollution emissions due to its cleaner chemical composition",
-                    "isCorrect": 1,
-                    "explanation": "Biodiesel has a cleaner, less toxic chemical composition that results in reduced air pollution emissions when used in machines"
-                },
-                {
-                    "text": "Biodiesel requires no natural resources to produce",
-                    "isCorrect": 0,
-                    "explanation": "Biodiesel still requires natural resources like vegetable oils, animal fats, or cooking grease for production"
-                },
-                {
-                    "text": "Biodiesel engines never need maintenance",
-                    "isCorrect": 0,
-                    "explanation": "All engines require maintenance regardless of fuel type - this is not related to biodiesel's environmental benefits"
-                },
-                {
-                    "text": "Biodiesel production creates no waste products",
-                    "isCorrect": 0,
-                    "explanation": "Like any manufacturing process, biodiesel production does create some waste products, though it is generally more environmentally friendly"
-                }
-            ],
-            "funFact": "The first diesel engine, invented by Rudolf Diesel in 1893, was actually designed to run on peanut oil, not petroleum diesel. Only later did petroleum become the standard fuel source!"
-        },
-        {
-            "id": 8,
-            "text": "A city is planning to build a new bridge and needs to select the most appropriate materials. Which construction material would be best suited for the bridge's support structure, considering both functionality and environmental impact?",
-            "options": [
-                {
-                    "text": "Biodegradable plastic made from vegetable oils",
-                    "isCorrect": 0,
-                    "explanation": "While environmentally friendly, biodegradable plastics lack the strength and durability needed for bridge construction and would decompose over time, making them unsafe for this purpose."
-                },
-                {
-                    "text": "Reinforced concrete made from limestone and steel",
-                    "isCorrect": 1,
-                    "explanation": "Reinforced concrete combines the compressive strength of concrete with the tensile strength of steel, creating a durable material ideal for bridge construction. While it has some environmental impact, its longevity and stability make it the most practical choice."
-                },
-                {
-                    "text": "Pure natural granite",
-                    "isCorrect": 0,
-                    "explanation": "While granite is strong, it lacks the tensile strength needed for modern bridge construction and would be more prone to cracking under stress compared to engineered materials."
-                },
-                {
-                    "text": "Standard household plastic (polyethylene)",
-                    "isCorrect": 0,
-                    "explanation": "Regular plastic lacks the structural strength and durability required for bridge construction. It would deform under pressure and be unsafe for large-scale construction projects."
-                }
-            ],
-            "funFact": "The Roman Empire was one of the first civilizations to use concrete in construction, and some of their concrete structures, like the Pantheon dome, have survived for over 2,000 years! They created their concrete using volcanic ash, which actually made it more durable than many modern concrete formulations."
-        },
-        {
-            "id": 9,
-            "text": "How have synthetic materials revolutionized modern medicine's approach to treating diseases?",
-            "options": [
-                {
-                    "text": "Through the development of new drugs and vaccines created from natural resources using chemical reactions",
-                    "isCorrect": 1,
-                    "explanation": "Biochemists use natural resources to create synthetic medicines through chemical reactions, allowing for targeted treatment of diseases like cancer and COVID-19"
-                },
-                {
-                    "text": "By using only natural medicines without any chemical modifications",
-                    "isCorrect": 0,
-                    "explanation": "Modern medicine relies heavily on synthetic materials that are chemically modified from natural resources, not just natural medicines alone"
-                },
-                {
-                    "text": "Through the exclusive use of traditional healing methods",
-                    "isCorrect": 0,
-                    "explanation": "While traditional methods have value, modern medicine's advancement largely comes from developing synthetic materials through scientific research"
-                },
-                {
-                    "text": "By replacing all natural materials with artificial ones",
-                    "isCorrect": 0,
-                    "explanation": "Synthetic materials in medicine are created from natural resources, not by completely replacing natural materials"
-                }
-            ],
-            "funFact": "The first synthetic drug was aspirin, created in 1899. Before that, people chewed willow bark, which contains a natural version of aspirin's active ingredient. This discovery revolutionized pain management and sparked the development of many other synthetic medicines."
-        },
-        {
-            "id": 10,
             "text": "A local manufacturer is deciding whether to use natural leather or synthetic leather for making shoes. Which of the following factors would best support the choice of synthetic leather from both environmental and functional perspectives?",
             "options": [
                 {
@@ -273,61 +165,196 @@
             "funFact": "Modern synthetic leathers can be made from innovative materials like recycled plastic bottles or even pineapple leaves (called Pi\u00f1atex), showing how technology can transform everyday waste into useful synthetic materials!"
         },
         {
-            "id": 11,
-            "text": "Why does nylon, a synthetic material used in clothing and ropes, have strong and flexible properties compared to its natural raw materials?",
+            "id": 7,
+            "text": "What is a key environmental advantage of using biodiesel as compared to conventional diesel fuel?",
             "options": [
                 {
-                    "text": "The chemical reactions during nylon production create long chains of molecules that bond together tightly while remaining flexible",
+                    "text": "Biodiesel engines never need maintenance",
+                    "isCorrect": 0,
+                    "explanation": "All engines require maintenance regardless of fuel type - this is not related to biodiesel's environmental benefits"
+                },
+                {
+                    "text": "Biodiesel requires no natural resources to produce",
+                    "isCorrect": 0,
+                    "explanation": "Biodiesel still requires natural resources like vegetable oils, animal fats, or cooking grease for production"
+                },
+                {
+                    "text": "Biodiesel produces fewer air pollution emissions due to its cleaner chemical composition",
                     "isCorrect": 1,
-                    "explanation": "During nylon synthesis, chemical reactions create polymer chains that form strong intermolecular bonds while maintaining flexibility, giving nylon its characteristic properties"
+                    "explanation": "Biodiesel has a cleaner, less toxic chemical composition that results in reduced air pollution emissions when used in machines"
                 },
                 {
-                    "text": "Nylon simply inherits all its properties directly from the natural materials used to make it",
+                    "text": "Biodiesel production creates no waste products",
                     "isCorrect": 0,
-                    "explanation": "Synthetic materials like nylon have new properties different from their raw materials due to chemical restructuring during production"
-                },
-                {
-                    "text": "The natural materials are just physically mixed together without any chemical changes",
-                    "isCorrect": 0,
-                    "explanation": "Nylon's properties come from chemical reactions that rearrange atoms into new molecular structures, not just physical mixing"
-                },
-                {
-                    "text": "The flexibility comes from adding water during the manufacturing process",
-                    "isCorrect": 0,
-                    "explanation": "Nylon's flexibility is due to its molecular structure from chemical reactions, not from adding water during manufacturing"
+                    "explanation": "Like any manufacturing process, biodiesel production does create some waste products, though it is generally more environmentally friendly"
                 }
             ],
-            "funFact": "The discovery of nylon in 1935 revolutionized the textile industry as it was the first completely synthetic fiber to be commercialized. During World War II, nylon replaced silk in parachutes, which was a crucial development since Japan was the main silk supplier at the time."
+            "funFact": "The first diesel engine, invented by Rudolf Diesel in 1893, was actually designed to run on peanut oil, not petroleum diesel. Only later did petroleum become the standard fuel source!"
+        },
+        {
+            "id": 8,
+            "text": "A scientist wants to create a new synthetic material for making durable, waterproof sports clothing. Which combination of properties would best demonstrate that the resulting material is synthetic rather than natural?",
+            "options": [
+                {
+                    "text": "The material comes from plants that grow in nature",
+                    "isCorrect": 0,
+                    "explanation": "Materials that come directly from nature without human modification are natural resources, not synthetic materials"
+                },
+                {
+                    "text": "The material can be molded when heated and maintains its new shape after cooling",
+                    "isCorrect": 1,
+                    "explanation": "This is characteristic of synthetic materials like plastics, which can be deliberately engineered to have specific properties through chemical reactions, unlike natural materials"
+                },
+                {
+                    "text": "The material can be found in rock formations underground",
+                    "isCorrect": 0,
+                    "explanation": "Materials found in natural rock formations are minerals, which are natural resources rather than synthetic materials"
+                },
+                {
+                    "text": "The material dissolves easily in water",
+                    "isCorrect": 0,
+                    "explanation": "Solubility in water is a property that both natural and synthetic materials can have, so this alone doesn't indicate if a material is synthetic"
+                }
+            ],
+            "funFact": "The first fully synthetic plastic, Bakelite, was invented in 1907 and revolutionized modern manufacturing. It was used to make everything from telephone casings to jewelry, and its success launched the global plastics industry we know today."
+        },
+        {
+            "id": 9,
+            "text": "How have synthetic materials revolutionized modern medicine's approach to treating diseases?",
+            "options": [
+                {
+                    "text": "Through the exclusive use of traditional healing methods",
+                    "isCorrect": 0,
+                    "explanation": "While traditional methods have value, modern medicine's advancement largely comes from developing synthetic materials through scientific research"
+                },
+                {
+                    "text": "By using only natural medicines without any chemical modifications",
+                    "isCorrect": 0,
+                    "explanation": "Modern medicine relies heavily on synthetic materials that are chemically modified from natural resources, not just natural medicines alone"
+                },
+                {
+                    "text": "By replacing all natural materials with artificial ones",
+                    "isCorrect": 0,
+                    "explanation": "Synthetic materials in medicine are created from natural resources, not by completely replacing natural materials"
+                },
+                {
+                    "text": "Through the development of new drugs and vaccines created from natural resources using chemical reactions",
+                    "isCorrect": 1,
+                    "explanation": "Biochemists use natural resources to create synthetic medicines through chemical reactions, allowing for targeted treatment of diseases like cancer and COVID-19"
+                }
+            ],
+            "funFact": "The first synthetic drug was aspirin, created in 1899. Before that, people chewed willow bark, which contains a natural version of aspirin's active ingredient. This discovery revolutionized pain management and sparked the development of many other synthetic medicines."
+        },
+        {
+            "id": 10,
+            "text": "A city is planning to build a new bridge and needs to select the most appropriate materials. Which construction material would be best suited for the bridge's support structure, considering both functionality and environmental impact?",
+            "options": [
+                {
+                    "text": "Reinforced concrete made from limestone and steel",
+                    "isCorrect": 1,
+                    "explanation": "Reinforced concrete combines the compressive strength of concrete with the tensile strength of steel, creating a durable material ideal for bridge construction. While it has some environmental impact, its longevity and stability make it the most practical choice."
+                },
+                {
+                    "text": "Pure natural granite",
+                    "isCorrect": 0,
+                    "explanation": "While granite is strong, it lacks the tensile strength needed for modern bridge construction and would be more prone to cracking under stress compared to engineered materials."
+                },
+                {
+                    "text": "Biodegradable plastic made from vegetable oils",
+                    "isCorrect": 0,
+                    "explanation": "While environmentally friendly, biodegradable plastics lack the strength and durability needed for bridge construction and would decompose over time, making them unsafe for this purpose."
+                },
+                {
+                    "text": "Standard household plastic (polyethylene)",
+                    "isCorrect": 0,
+                    "explanation": "Regular plastic lacks the structural strength and durability required for bridge construction. It would deform under pressure and be unsafe for large-scale construction projects."
+                }
+            ],
+            "funFact": "The Roman Empire was one of the first civilizations to use concrete in construction, and some of their concrete structures, like the Pantheon dome, have survived for over 2,000 years! They created their concrete using volcanic ash, which actually made it more durable than many modern concrete formulations."
+        },
+        {
+            "id": 11,
+            "text": "A city is considering replacing traditional asphalt roads with a new synthetic material made from recycled plastic waste. Which statement best describes the potential societal impact of this change?",
+            "options": [
+                {
+                    "text": "The synthetic material would make roads less durable because natural materials are always stronger than synthetic ones",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - synthetic materials can often be engineered to be stronger than natural materials. The strength depends on the specific properties and composition, not whether it's natural or synthetic."
+                },
+                {
+                    "text": "The synthetic material would only have positive impacts, making it the perfect replacement for asphalt in all situations",
+                    "isCorrect": 0,
+                    "explanation": "This oversimplifies the complex nature of material choices. All materials, including synthetic ones, have both advantages and disadvantages that need to be carefully considered."
+                },
+                {
+                    "text": "The synthetic material would reduce landfill waste and provide durable roads, but might release microplastics into the environment over time",
+                    "isCorrect": 1,
+                    "explanation": "This accurately reflects both positive and negative impacts of synthetic materials - addressing one environmental problem (waste) while potentially creating another (microplastics), showing the complexity of material choices in society."
+                },
+                {
+                    "text": "The synthetic material would be too expensive to implement and therefore has no practical societal benefit",
+                    "isCorrect": 0,
+                    "explanation": "This incorrectly assumes cost is the only factor in determining societal benefit and ignores potential long-term benefits that could offset initial costs."
+                }
+            ],
+            "funFact": "Scientists have developed synthetic road materials that can self-heal small cracks using special polymers that react to heat or pressure, potentially reducing maintenance costs and extending road life!"
         },
         {
             "id": 12,
-            "text": "How does the work of biochemists contribute to the development of synthetic materials in medicine?",
+            "text": "During the production of plastic products from petroleum, how does the molecular structure change to create useful properties?",
             "options": [
                 {
-                    "text": "By studying chemical reactions in the body and developing new drugs to treat diseases like cancer",
+                    "text": "Small carbon-based molecules join together to form long chains called monomers, creating a flexible and durable material",
+                    "isCorrect": 0,
+                    "explanation": "While plastic formation does involve carbon-based molecules, monomers are actually the small units that join together to form polymers, not the other way around."
+                },
+                {
+                    "text": "Carbon molecules change their atomic structure but maintain their original size, creating a stronger material",
+                    "isCorrect": 0,
+                    "explanation": "The key to plastic formation is molecules joining together to form larger structures, not just rearranging while keeping the same size."
+                },
+                {
+                    "text": "Carbon molecules break apart into smaller pieces and remain separated, making the material soft and moldable",
+                    "isCorrect": 0,
+                    "explanation": "Breaking molecules apart without reforming bonds would not create a stable material with useful properties. Plastics require molecules joining together, not staying separated."
+                },
+                {
+                    "text": "Small carbon-based molecules called monomers join together to form long chains called polymers, creating a flexible and durable material",
                     "isCorrect": 1,
-                    "explanation": "Biochemists research chemical reactions in living organisms and use this knowledge to develop synthetic medicines and treatments for various diseases."
-                },
-                {
-                    "text": "By only focusing on creating alternative fuel sources",
-                    "isCorrect": 0,
-                    "explanation": "While some biochemists work on alternative fuels, this is just one area of their research. Their work in medicine and drug development is crucial for creating synthetic materials for medical treatments."
-                },
-                {
-                    "text": "By exclusively studying natural materials without creating synthetic ones",
-                    "isCorrect": 0,
-                    "explanation": "Biochemists don't just study natural materials - they actively work to create synthetic materials by understanding and manipulating chemical reactions."
-                },
-                {
-                    "text": "By analyzing genetic disorders without developing treatments",
-                    "isCorrect": 0,
-                    "explanation": "Biochemists study genetic disorders not just to understand them, but to develop synthetic materials and treatments to address these medical conditions."
+                    "explanation": "This correctly describes how small monomer molecules chemically bond to form long polymer chains, giving plastics their useful properties."
                 }
             ],
-            "funFact": "The development of synthetic insulin in the 1970s was a major breakthrough in biochemistry - it was the first human protein to be manufactured through genetic engineering, revolutionizing diabetes treatment."
+            "funFact": "The word 'plastic' comes from the Greek word 'plastikos', meaning moldable or shapeable. This property comes from the unique molecular structure of polymers that allows them to flow when heated but maintain their shape when cooled."
         },
         {
             "id": 13,
+            "text": "In the production of biodiesel fuel, vegetable oils undergo a chemical process called transesterification. Which statement best describes how this process creates a more effective fuel?",
+            "options": [
+                {
+                    "text": "The process only changes the physical properties of the oil without affecting its chemical composition",
+                    "isCorrect": 0,
+                    "explanation": "The process involves chemical reactions that change the molecular structure, not just physical changes"
+                },
+                {
+                    "text": "The process breaks down large oil molecules into smaller molecules, resulting in a fuel that burns more efficiently and produces fewer emissions",
+                    "isCorrect": 1,
+                    "explanation": "Transesterification converts large triglyceride molecules into smaller biodiesel molecules, making the fuel burn more cleanly and efficiently than the original oil"
+                },
+                {
+                    "text": "The process combines oil molecules to form larger molecules that contain more energy",
+                    "isCorrect": 0,
+                    "explanation": "This is the opposite of what happens - the process breaks down larger molecules rather than combining them"
+                },
+                {
+                    "text": "The process simply filters out impurities from the vegetable oil without changing its molecular structure",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - biodiesel production involves chemical changes to the molecular structure, not just filtering"
+                }
+            ],
+            "funFact": "A single gallon of used cooking oil can be converted into almost one gallon of biodiesel fuel, making it an efficient way to recycle waste oils from restaurants and food processing facilities!"
+        },
+        {
+            "id": 14,
             "text": "Which statement accurately compares the environmental impact of biodiesel and conventional diesel fuel?",
             "options": [
                 {
@@ -341,44 +368,17 @@
                     "explanation": "This is correct. Biodiesel's chemical composition results in cleaner emissions and reduced air pollution compared to conventional diesel fuel."
                 },
                 {
-                    "text": "Both biodiesel and conventional diesel have identical environmental impacts since they are both fuel sources",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Despite both being fuels, they have different environmental impacts due to their different chemical compositions and sources."
-                },
-                {
                     "text": "Conventional diesel is more environmentally friendly because it requires less processing than biodiesel",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. The amount of processing is not what determines environmental impact - conventional diesel actually has a greater negative environmental impact."
+                },
+                {
+                    "text": "Both biodiesel and conventional diesel have identical environmental impacts since they are both fuel sources",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Despite both being fuels, they have different environmental impacts due to their different chemical compositions and sources."
                 }
             ],
             "funFact": "One gallon of used cooking oil can be converted into approximately 0.8 gallons of biodiesel fuel through a chemical process called transesterification!"
-        },
-        {
-            "id": 14,
-            "text": "A chemist wants to develop a new synthetic fabric that is lightweight, water-resistant, and durable for outdoor clothing. Which natural resource would be most suitable as a starting material based on its molecular properties?",
-            "options": [
-                {
-                    "text": "Petroleum, due to its long carbon-chain molecules that can be rearranged into polymer structures",
-                    "isCorrect": 1,
-                    "explanation": "Petroleum contains long hydrocarbon chains that can be chemically processed to form polymers with desired properties like water resistance and durability"
-                },
-                {
-                    "text": "Minerals like copper and zinc, because they are naturally strong materials",
-                    "isCorrect": 0,
-                    "explanation": "While minerals are strong, their atomic structure is not suitable for creating flexible, lightweight fabrics through chemical reactions"
-                },
-                {
-                    "text": "Wood pulp, since it is already used to make natural fibers",
-                    "isCorrect": 0,
-                    "explanation": "Though wood pulp can make natural fibers, its cellulose structure doesn't provide the water resistance and durability needed for outdoor clothing"
-                },
-                {
-                    "text": "Sand, because it can withstand harsh weather conditions",
-                    "isCorrect": 0,
-                    "explanation": "Sand's silicon dioxide structure cannot be easily transformed into flexible polymers needed for fabric production"
-                }
-            ],
-            "funFact": "The first fully synthetic fiber, nylon, was invented in 1935 by Wallace Carothers at DuPont. It revolutionized the textile industry by providing an alternative to silk and became especially important during World War II for making parachutes and ropes."
         },
         {
             "id": 15,
@@ -390,11 +390,6 @@
                     "explanation": "Natural minerals can undergo chemical reactions where their atomic structures are rearranged to form synthetic materials with different properties that are useful for specific purposes"
                 },
                 {
-                    "text": "Synthetic materials occur naturally and minerals are made from them in laboratories",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - minerals occur naturally while synthetic materials are manufactured by humans through chemical processing of natural resources"
-                },
-                {
                     "text": "Minerals and synthetic materials have exactly the same properties and uses",
                     "isCorrect": 0,
                     "explanation": "This is incorrect - synthetic materials are specifically created to have different properties from the natural minerals they are derived from"
@@ -403,6 +398,11 @@
                     "text": "Minerals cannot be used to create synthetic materials because they are too stable",
                     "isCorrect": 0,
                     "explanation": "This is incorrect - minerals can undergo chemical reactions where their atomic structures are rearranged to form new synthetic materials"
+                },
+                {
+                    "text": "Synthetic materials occur naturally and minerals are made from them in laboratories",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - minerals occur naturally while synthetic materials are manufactured by humans through chemical processing of natural resources"
                 }
             ],
             "funFact": "The first fully synthetic plastic, Bakelite, was invented in 1907 by Leo Baekeland. It revolutionized the manufacturing world and started the global plastics industry we know today!"

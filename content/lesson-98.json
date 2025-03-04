@@ -4,98 +4,17 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which plant structure most directly helps attract pollinators to assist in reproduction?",
-            "options": [
-                {
-                    "text": "Colorful flower petals",
-                    "isCorrect": 1,
-                    "explanation": "Colorful petals are specifically adapted to attract pollinators like bees and butterflies, increasing the chances of successful reproduction through pollination."
-                },
-                {
-                    "text": "Strong roots",
-                    "isCorrect": 0,
-                    "explanation": "While roots are important for plant survival, they do not directly attract pollinators or aid in reproduction."
-                },
-                {
-                    "text": "Thick stems",
-                    "isCorrect": 0,
-                    "explanation": "Stems support the plant but do not play a direct role in attracting pollinators for reproduction."
-                },
-                {
-                    "text": "Green leaves",
-                    "isCorrect": 0,
-                    "explanation": "Leaves are essential for photosynthesis but do not directly attract pollinators for reproduction."
-                }
-            ],
-            "funFact": "Some flowers even have ultraviolet patterns on their petals that are invisible to humans but act as 'landing strips' to guide bees directly to their nectar and pollen!"
-        },
-        {
-            "id": 2,
-            "text": "What is the primary role of chromosomes in living organisms?",
-            "options": [
-                {
-                    "text": "They are coiled-up sections of DNA that contain genetic information",
-                    "isCorrect": 1,
-                    "explanation": "Chromosomes are tightly packed structures of DNA that efficiently store and organize genetic material within cells"
-                },
-                {
-                    "text": "They are loose strands that float freely in cells",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - chromosomes are not loose strands but rather highly organized, compact structures"
-                },
-                {
-                    "text": "They produce proteins directly",
-                    "isCorrect": 0,
-                    "explanation": "While chromosomes contain genes that code for proteins, they don't produce proteins directly - this happens through transcription and translation"
-                },
-                {
-                    "text": "They break down nutrients for energy",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect - breaking down nutrients is the role of cellular organelles like mitochondria, not chromosomes"
-                }
-            ],
-            "funFact": "If you stretched out all the DNA from a single human cell, it would be about 6 feet (2 meters) long! Chromosomes help package this long DNA efficiently so it fits inside our tiny cells."
-        },
-        {
-            "id": 3,
-            "text": "Which of the following statements correctly describes how genes are passed from parents to offspring in sexual reproduction?",
-            "options": [
-                {
-                    "text": "Each parent contributes half of their DNA to create genetically unique offspring",
-                    "isCorrect": 1,
-                    "explanation": "In sexual reproduction, each parent contributes half of their DNA, and these genetic materials combine to create offspring with unique genetic traits."
-                },
-                {
-                    "text": "One parent contributes all of their DNA to create identical offspring",
-                    "isCorrect": 0,
-                    "explanation": "This describes asexual reproduction, not sexual reproduction. In sexual reproduction, both parents contribute genetic material."
-                },
-                {
-                    "text": "Both parents contribute all of their DNA to create identical offspring",
-                    "isCorrect": 0,
-                    "explanation": "If both parents contributed all their DNA, the offspring would have double the normal amount of genetic material, which is not possible."
-                },
-                {
-                    "text": "Neither parent contributes DNA, but traits are randomly generated in offspring",
-                    "isCorrect": 0,
-                    "explanation": "Offspring must receive DNA from their parents - traits cannot be randomly generated without genetic material from parents."
-                }
-            ],
-            "funFact": "While humans have about 20,000 genes, some organisms have many more - rice plants have approximately 40,000 genes, and water fleas can have up to 31,000 genes!"
-        },
-        {
-            "id": 4,
             "text": "Which of the following animal behaviors is MOST likely to increase the chances of successful reproduction?",
             "options": [
+                {
+                    "text": "A squirrel storing nuts for winter",
+                    "isCorrect": 0,
+                    "explanation": "Food storage is a survival behavior that helps animals survive harsh conditions but is not directly related to improving reproductive success."
+                },
                 {
                     "text": "A male bird building an elaborate nest before mating season",
                     "isCorrect": 1,
                     "explanation": "Building nests is a proven behavioral adaptation that increases reproductive success by providing a safe place for eggs and chicks, protecting them from predators and harsh weather conditions."
-                },
-                {
-                    "text": "A lion sleeping during the day to conserve energy",
-                    "isCorrect": 0,
-                    "explanation": "While sleeping helps conserve energy, it is not directly related to increasing reproductive success. This is a general survival behavior rather than a specific reproductive strategy."
                 },
                 {
                     "text": "A snake basking in the sun to regulate body temperature",
@@ -103,125 +22,238 @@
                     "explanation": "Thermoregulation is important for survival but is not a specific behavioral adaptation for improving reproductive success."
                 },
                 {
-                    "text": "A squirrel storing nuts for winter",
+                    "text": "A lion sleeping during the day to conserve energy",
                     "isCorrect": 0,
-                    "explanation": "Food storage is a survival behavior that helps animals survive harsh conditions but is not directly related to improving reproductive success."
+                    "explanation": "While sleeping helps conserve energy, it is not directly related to increasing reproductive success. This is a general survival behavior rather than a specific reproductive strategy."
                 }
             ],
             "funFact": "Male bowerbirds are known to create incredibly complex and colorful courtship structures called bowers, sometimes using items like flowers, berries, and even human-made objects like bottle caps and pieces of glass to attract females. Some spend up to 80% of their time maintaining and decorating their bowers, which are distinct from the nests they build separately for raising young!"
         },
         {
-            "id": 5,
-            "text": "Which of the following statements correctly describes a dominant allele?",
+            "id": 2,
+            "text": "Which statement best describes what a gene is and its role in living organisms?",
             "options": [
                 {
-                    "text": "A dominant allele requires one copy to express a trait",
+                    "text": "A protein that controls how organisms look and function",
+                    "isCorrect": 0,
+                    "explanation": "While proteins influence how organisms look and function, genes are the DNA instructions for making these proteins, not the proteins themselves."
+                },
+                {
+                    "text": "A section of DNA containing instructions for making a specific protein",
                     "isCorrect": 1,
-                    "explanation": "This is correct. A dominant allele only needs one copy to produce a trait in an organism."
+                    "explanation": "This is correct. Genes are segments of DNA that contain the instructions needed to make specific proteins, which determine traits in organisms."
                 },
                 {
-                    "text": "A dominant allele requires two copies to express a trait",
+                    "text": "A chromosome that determines if traits will be dominant or recessive",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. This describes a recessive allele, not a dominant one. Dominant alleles only need one copy to express a trait."
+                    "explanation": "Chromosomes contain many genes, but they don't determine if traits are dominant or recessive. The specific alleles of genes determine dominance."
                 },
                 {
-                    "text": "A dominant allele is always more common in a population",
+                    "text": "A physical trait that is passed down from parents to offspring",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. Being dominant doesn't mean the allele is more common - it just means it needs only one copy to be expressed."
-                },
-                {
-                    "text": "A dominant allele is always beneficial for survival",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Whether an allele is dominant or recessive has no relation to whether it is beneficial for survival."
+                    "explanation": "While genes influence traits, they are not the traits themselves. Genes are the DNA instructions that lead to the development of traits."
                 }
             ],
-            "funFact": "The concept of dominant and recessive alleles was first discovered by Gregor Mendel in the 1860s through his experiments with pea plants. He noticed that some traits would mask others, which we now know as genetic dominance!"
+            "funFact": "The human genome contains approximately 20,000-25,000 genes, but these genes only make up about 1-2% of our total DNA. The rest of our DNA, once called 'junk DNA,' is now known to play important roles in regulating gene activity."
+        },
+        {
+            "id": 3,
+            "text": "Which behavioral strategy is MOST directly related to increasing an animal's chances of successful reproduction?",
+            "options": [
+                {
+                    "text": "A squirrel collecting and storing nuts for winter",
+                    "isCorrect": 0,
+                    "explanation": "Storing food is a survival behavior that helps animals live through harsh conditions, but it is not directly related to reproduction."
+                },
+                {
+                    "text": "A snake basking in the sun to warm up its body",
+                    "isCorrect": 0,
+                    "explanation": "While basking helps snakes regulate their body temperature, which is important for survival, it is not a behavior specifically evolved for reproduction."
+                },
+                {
+                    "text": "A frog making loud croaking sounds to attract potential mates",
+                    "isCorrect": 1,
+                    "explanation": "Mating calls, like a frog's croaking, are specifically evolved behaviors that directly attract mates for reproduction. This vocalization helps potential mates locate each other and signals readiness to reproduce."
+                },
+                {
+                    "text": "A rabbit running away from a predator",
+                    "isCorrect": 0,
+                    "explanation": "Escaping predators is a survival behavior. While staying alive is necessary for eventual reproduction, this is not a behavior specifically evolved for reproductive purposes."
+                }
+            ],
+            "funFact": "Some frogs can make calls so loud they can be heard from up to a mile away! Male spring peepers, tiny frogs only about an inch long, can produce calls reaching 90 decibels from just 20 inches away - that's as loud as a motorcycle!"
+        },
+        {
+            "id": 4,
+            "text": "What is the primary role of chromosomes in living organisms?",
+            "options": [
+                {
+                    "text": "They break down nutrients for energy",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - breaking down nutrients is the role of cellular organelles like mitochondria, not chromosomes"
+                },
+                {
+                    "text": "They produce proteins directly",
+                    "isCorrect": 0,
+                    "explanation": "While chromosomes contain genes that code for proteins, they don't produce proteins directly - this happens through transcription and translation"
+                },
+                {
+                    "text": "They are loose strands that float freely in cells",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - chromosomes are not loose strands but rather highly organized, compact structures"
+                },
+                {
+                    "text": "They are coiled-up sections of DNA that contain genetic information",
+                    "isCorrect": 1,
+                    "explanation": "Chromosomes are tightly packed structures of DNA that efficiently store and organize genetic material within cells"
+                }
+            ],
+            "funFact": "If you stretched out all the DNA from a single human cell, it would be about 6 feet (2 meters) long! Chromosomes help package this long DNA efficiently so it fits inside our tiny cells."
+        },
+        {
+            "id": 5,
+            "text": "Which of the following best describes structural strategies that organisms have evolved to improve their chances of reproduction?",
+            "options": [
+                {
+                    "text": "The only important structural adaptations are those that help attract mates",
+                    "isCorrect": 0,
+                    "explanation": "Structural adaptations for reproduction serve multiple purposes beyond mate attraction, including protecting offspring and ensuring seed dispersal."
+                },
+                {
+                    "text": "Structural features like claws and sharp teeth are the main adaptations that help organisms reproduce",
+                    "isCorrect": 0,
+                    "explanation": "While these features help with survival, they are not direct structural adaptations for reproduction like flower petals or protective pouches for offspring."
+                },
+                {
+                    "text": "Organisms only use behavioral strategies like mating calls and nest building to reproduce successfully",
+                    "isCorrect": 0,
+                    "explanation": "While behavioral strategies are important, organisms also rely on physical structures specifically evolved for reproduction, not just behaviors."
+                },
+                {
+                    "text": "Organisms have developed structural features like colorful flower petals, protective pouches, and specialized seeds that directly aid in reproduction and offspring survival",
+                    "isCorrect": 1,
+                    "explanation": "Structural adaptations like bright petals to attract pollinators, pouches to protect young, and specialized seeds for dispersal are key features that help ensure successful reproduction."
+                }
+            ],
+            "funFact": "The titan arum plant has evolved one of the largest flower structures in the world, reaching up to 10 feet tall! It uses this enormous structure along with a powerful rotting-flesh smell to attract pollinators from great distances."
         },
         {
             "id": 6,
-            "text": "A female octopus spends several months guarding her eggs, refusing to leave them even to find food. How does this behavior most likely affect the probability of successful reproduction?",
+            "text": "A male pufferfish creates intricate circular patterns in the sand on the ocean floor. How does this behavior most likely contribute to the species' reproduction?",
             "options": [
                 {
-                    "text": "It increases survival chances by protecting eggs from predators and maintaining proper conditions",
+                    "text": "It marks the pufferfish's territory to keep predators away",
+                    "isCorrect": 0,
+                    "explanation": "While territory marking occurs in some species, the pufferfish's sand patterns serve a reproductive purpose rather than a defensive one"
+                },
+                {
+                    "text": "It helps collect food particles from the ocean floor",
+                    "isCorrect": 0,
+                    "explanation": "The patterns are not created for feeding purposes - they are specifically made as part of the mating ritual to attract females"
+                },
+                {
+                    "text": "It creates a safe hiding spot for eggs after they are laid",
+                    "isCorrect": 0,
+                    "explanation": "While protection of eggs is important, the sand patterns are created before mating primarily as a courtship display, not for protecting eggs"
+                },
+                {
+                    "text": "It attracts female pufferfish by demonstrating the male's ability to create complex designs",
                     "isCorrect": 1,
-                    "explanation": "The mother's constant presence protects eggs from predators and ensures optimal conditions, significantly increasing the likelihood of egg survival and successful hatching."
-                },
-                {
-                    "text": "It decreases survival chances because the mother becomes too weak from not eating",
-                    "isCorrect": 0,
-                    "explanation": "While the mother does become weak, the benefits of protecting the eggs outweigh this cost. The behavior has evolved because it ultimately increases offspring survival."
-                },
-                {
-                    "text": "It has no effect on survival chances since eggs can develop on their own",
-                    "isCorrect": 0,
-                    "explanation": "Unguarded eggs are highly vulnerable to predators and environmental changes. Parental care significantly impacts egg survival rates."
-                },
-                {
-                    "text": "It only affects the mother's survival but not the eggs' survival",
-                    "isCorrect": 0,
-                    "explanation": "The mother's guarding behavior directly impacts egg survival by providing protection and maintaining necessary conditions for development."
+                    "explanation": "Creating intricate sand patterns is a behavioral adaptation that demonstrates the male's fitness and abilities to potential mates, increasing chances of successful reproduction"
                 }
             ],
-            "funFact": "Female octopuses are so dedicated to protecting their eggs that they will continue guarding them even when extremely hungry. After the eggs hatch, the weakened mother typically dies, having given everything to ensure her offspring's survival."
+            "funFact": "Male pufferfish spend about a week creating these intricate circular patterns in the sand, which can be up to 6 feet in diameter. They use their fins to create grooves and valleys, and decorate them with shells and coral - all to impress potential mates!"
         },
         {
             "id": 7,
-            "text": "Which combination best describes how plant seed dispersal and animal behavior work together to ensure successful plant reproduction?",
+            "text": "A flower has evolved to have a long, tubular shape with bright red petals and no scent. Which pollinator is this flower most likely adapted to attract?",
             "options": [
                 {
-                    "text": "Animals eat seeds and store them for winter, helping spread seeds to new locations where some forgotten seeds can grow",
+                    "text": "Butterflies",
+                    "isCorrect": 0,
+                    "explanation": "While butterflies can feed from tubular flowers, they are more attracted to flowers with flat platforms and bright colors like pink, purple, and yellow. They also rely on scent cues."
+                },
+                {
+                    "text": "Hummingbirds",
                     "isCorrect": 1,
-                    "explanation": "This is correct. When animals like squirrels store seeds for winter food, they often forget some seeds, which can then germinate and grow in new locations, increasing plant reproductive success."
+                    "explanation": "Hummingbirds are attracted to bright red flowers with long, tubular shapes that match their long beaks. These birds have poor sense of smell, so the flowers they pollinate typically don't produce strong scents."
                 },
                 {
-                    "text": "Animals eat all seeds they find immediately, preventing any seeds from growing into new plants",
+                    "text": "Moths",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. While animals do eat seeds, they don't eat all seeds immediately. Many animals store seeds, and some seeds survive to grow into new plants."
+                    "explanation": "Moths are typically active at night and are attracted to pale-colored flowers with strong, sweet fragrances. They don't respond well to red coloration."
                 },
                 {
-                    "text": "Plants produce poisonous seeds to prevent animals from eating them, ensuring all seeds stay in one location",
+                    "text": "Bees",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect. Many plants actually benefit from animals eating and dispersing their seeds. While some seeds are toxic, this isn't a common strategy for seed dispersal."
-                },
-                {
-                    "text": "Animals only eat the fruit and leave all seeds on the parent plant, keeping new plants close to the parent",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Animals often consume both fruits and seeds, and through their movement help disperse seeds away from parent plants, which is beneficial for plant reproduction."
+                    "explanation": "Bees are primarily attracted to yellow and blue flowers with landing platforms and sweet scents. They cannot see red well and prefer shorter, more open flower shapes."
                 }
             ],
-            "funFact": "Some plants have evolved seeds that can only germinate after passing through an animal's digestive system! The digestive acids actually help break down the seed coat, allowing water to enter and start the growing process."
+            "funFact": "Some flowers have evolved such specific relationships with their pollinators that they can only be pollinated by one species! The Darwin's orchid from Madagascar has a foot-long nectar tube and can only be pollinated by a single species of moth with an extremely long proboscis."
         },
         {
             "id": 8,
-            "text": "How does a bird's nest-building behavior contribute to increasing the probability of successful reproduction?",
+            "text": "A scientist is studying butterfly wing patterns and their role in reproduction. Which statement best explains how bright wing patterns affect butterfly reproduction?",
             "options": [
                 {
-                    "text": "The nest provides protection for eggs and young birds from cold temperatures and predators, increasing their chances of survival",
+                    "text": "Bright wing patterns help butterflies reproduce asexually",
+                    "isCorrect": 0,
+                    "explanation": "Butterflies reproduce sexually, not asexually. Wing patterns are used to attract mates for sexual reproduction"
+                },
+                {
+                    "text": "Bright wing patterns increase the probability of successful mating by helping butterflies attract suitable mates",
                     "isCorrect": 1,
-                    "explanation": "Building a nest is a crucial behavioral adaptation that helps protect offspring from environmental threats and predators, significantly improving their survival chances"
+                    "explanation": "Bright wing patterns are a key characteristic that helps butterflies attract mates, increasing their chances of successful reproduction"
                 },
                 {
-                    "text": "Nest building attracts potential mates by demonstrating the bird's strength",
+                    "text": "Bright wing patterns directly determine how many offspring a butterfly will have",
                     "isCorrect": 0,
-                    "explanation": "While some birds' nests may attract mates, the primary purpose is protecting offspring rather than mate attraction"
+                    "explanation": "Wing patterns affect mate attraction but do not directly determine number of offspring - that depends on many other factors"
                 },
                 {
-                    "text": "Nests store food for adult birds during breeding season",
+                    "text": "Bright wing patterns guarantee that butterflies will always find a mate",
                     "isCorrect": 0,
-                    "explanation": "Birds typically don't use nests for food storage - they're primarily built for protecting eggs and young birds"
-                },
-                {
-                    "text": "Nests serve as permanent homes for birds throughout the year",
-                    "isCorrect": 0,
-                    "explanation": "Most birds build nests specifically for breeding and raising young, not as permanent year-round homes"
+                    "explanation": "Multiple factors influence mating success - wing patterns alone cannot guarantee finding a mate, they only increase the probability"
                 }
             ],
-            "funFact": "The Sociable Weaver birds of Africa build massive communal nests that can house up to 100 pairs of birds and last for generations. These spectacular structures can weigh up to 2,000 pounds and are among the largest bird-built structures in the world!"
+            "funFact": "Some butterfly species have evolved wing patterns that are visible in ultraviolet light - colors that humans can't see but that are very attractive to other butterflies!"
         },
         {
             "id": 9,
+            "text": "How does a male frog's croaking behavior contribute to successful reproduction?",
+            "options": [
+                {
+                    "text": "The croaking helps attract female frogs by advertising the male's location and fitness",
+                    "isCorrect": 1,
+                    "explanation": "Frog croaking is a behavioral adaptation specifically evolved to attract mates. The sound carries information about the male's health and fitness, helping females locate and select suitable mates."
+                },
+                {
+                    "text": "The croaking helps teach baby frogs how to communicate",
+                    "isCorrect": 0,
+                    "explanation": "Frog croaking is not a teaching behavior. Young frogs develop their vocalizations naturally as they mature, without needing to learn from adults."
+                },
+                {
+                    "text": "The croaking marks the frog's territory to prevent competition",
+                    "isCorrect": 0,
+                    "explanation": "While some animals use sounds for territorial marking, frog croaking during breeding season is primarily for attracting mates rather than defending territory."
+                },
+                {
+                    "text": "The croaking scares away predators that might harm the eggs",
+                    "isCorrect": 0,
+                    "explanation": "While frogs do make defensive sounds, mating calls serve a different purpose. The primary function of croaking is mate attraction, not predator defense."
+                }
+            ],
+            "funFact": "Different frog species have unique croaking patterns - some sound like birds chirping, others like motors running, and some even sound like squeaky toys! These distinct calls help females identify males of their own species in crowded breeding areas."
+        },
+        {
+            "id": 10,
             "text": "A student is studying male weaver birds and notices that some males are more successful at attracting mates than others. Which statement best explains how nest-building behavior influences the probability of successful reproduction in weaver birds?",
             "options": [
+                {
+                    "text": "Females select mates randomly regardless of nest-building skills",
+                    "isCorrect": 0,
+                    "explanation": "Mate selection in weaver birds is not random - females actively evaluate males' nest-building abilities as an indicator of genetic quality"
+                },
                 {
                     "text": "Males who build larger and more complex nests have a higher chance of attracting mates because these nests demonstrate better parental capabilities",
                     "isCorrect": 1,
@@ -233,11 +265,6 @@
                     "explanation": "While nest appearance matters, it's the structural quality and complexity of the nest, not just color, that influences mate selection"
                 },
                 {
-                    "text": "Females select mates randomly regardless of nest-building skills",
-                    "isCorrect": 0,
-                    "explanation": "Mate selection in weaver birds is not random - females actively evaluate males' nest-building abilities as an indicator of genetic quality"
-                },
-                {
                     "text": "Only the location of the nest determines mating success",
                     "isCorrect": 0,
                     "explanation": "While nest location is important, the quality of construction is a key factor in demonstrating the male's fitness as a potential mate"
@@ -246,148 +273,67 @@
             "funFact": "Male weaver birds are such skilled architects that they can tie over 10,000 knots to create their intricate nests! They even create fake nests sometimes to practice and improve their weaving techniques before building the actual nest to attract a mate."
         },
         {
-            "id": 10,
-            "text": "Penguin parents spend several days hunting for food in the ocean to feed their chicks. How does this behavior most likely affect the probability of their offspring's survival?",
-            "options": [
-                {
-                    "text": "It increases survival probability by ensuring chicks receive adequate nutrition for growth and development",
-                    "isCorrect": 1,
-                    "explanation": "Parents hunting for food is crucial for chick survival since the chicks cannot hunt on their own and need proper nutrition to grow and develop successfully."
-                },
-                {
-                    "text": "It decreases survival probability by leaving chicks alone and vulnerable to predators",
-                    "isCorrect": 0,
-                    "explanation": "While chicks may be more vulnerable when parents hunt, the benefits of obtaining food outweigh this risk. Penguins have adapted strategies where one parent often stays with the chicks while the other hunts."
-                },
-                {
-                    "text": "It has no effect on survival probability since chicks can find their own food",
-                    "isCorrect": 0,
-                    "explanation": "Young penguin chicks cannot hunt for themselves and are completely dependent on their parents for food. Without parental hunting, chicks would not survive."
-                },
-                {
-                    "text": "It decreases survival probability by wasting energy that could be used for protecting the nest",
-                    "isCorrect": 0,
-                    "explanation": "Hunting for food is not a waste of energy - it is essential for chick survival. Without food from parents, chicks would starve even if the nest was well-protected."
-                }
-            ],
-            "funFact": "Emperor penguin parents can travel up to 120 kilometers (75 miles) from their nesting site to find food for their chicks. They can store the food in their stomachs for several days and regurgitate it to feed their young when they return."
-        },
-        {
             "id": 11,
-            "text": "A scientist is studying how different environmental conditions affect plant reproduction in a desert ecosystem. In which scenario would specialized plant structures most likely increase the probability of successful reproduction?",
-            "options": [
-                {
-                    "text": "Thick, waxy petals that prevent water loss but make it difficult for pollinators to access nectar",
-                    "isCorrect": 0,
-                    "explanation": "While waxy petals help prevent water loss, if they make it harder for pollinators to access nectar, this would decrease the chances of successful reproduction."
-                },
-                {
-                    "text": "Bright, scented flowers that bloom at night when moisture levels are higher",
-                    "isCorrect": 1,
-                    "explanation": "Night-blooming flowers with bright colors and strong scents attract nocturnal pollinators when conditions are more favorable for reproduction, increasing success rates."
-                },
-                {
-                    "text": "Small, dull-colored flowers that produce minimal nectar to conserve water",
-                    "isCorrect": 0,
-                    "explanation": "Small flowers with little nectar would be less attractive to pollinators, reducing the probability of successful reproduction."
-                },
-                {
-                    "text": "Flowers that remain closed during the day to prevent water loss",
-                    "isCorrect": 0,
-                    "explanation": "Permanently closed flowers would prevent pollinator access entirely, making successful reproduction unlikely despite water conservation."
-                }
-            ],
-            "funFact": "The Saguaro cactus, native to the Sonoran Desert, has adapted to bloom at night when temperatures are cooler. Its large white flowers emit a sweet fragrance that attracts bats and moths, which are its primary pollinators. The flowers close by the next morning, making efficient use of the desert's limited resources."
-        },
-        {
-            "id": 12,
-            "text": "A male peacock's colorful tail display serves as a crucial behavioral adaptation for reproduction. How does this elaborate display primarily affect the peacock's chances of successful reproduction compared to other behavioral adaptations like nest building?",
-            "options": [
-                {
-                    "text": "It attracts potential mates by signaling genetic fitness, making it more effective for reproduction than protective behaviors like nest building",
-                    "isCorrect": 1,
-                    "explanation": "The peacock's tail display directly influences mate selection by advertising genetic quality to peahens, making it a highly effective reproductive strategy"
-                },
-                {
-                    "text": "It helps protect offspring from predators better than nest building",
-                    "isCorrect": 0,
-                    "explanation": "While impressive, the tail display doesn't provide physical protection for offspring - that's actually the role of behaviors like nest building"
-                },
-                {
-                    "text": "It helps regulate body temperature of eggs better than a nest",
-                    "isCorrect": 0,
-                    "explanation": "The tail display has no direct effect on egg temperature regulation, which is actually accomplished through nesting behaviors"
-                },
-                {
-                    "text": "It provides better camouflage for hiding from predators than a nest",
-                    "isCorrect": 0,
-                    "explanation": "The bright, conspicuous tail display actually makes the peacock more visible to predators, unlike protective behaviors like nest building"
-                }
-            ],
-            "funFact": "A peacock's tail feathers can reach up to 6 feet in length and contain iridescent eyespots that appear to change color when viewed from different angles. Peahens typically choose males with the most elaborate and symmetrical tail displays, as these features indicate better genes and overall health!"
-        },
-        {
-            "id": 13,
-            "text": "Which statement correctly compares asexual and sexual reproduction in terms of their advantages for population growth and survival?",
-            "options": [
-                {
-                    "text": "Asexual reproduction allows for faster population growth, while sexual reproduction creates genetic diversity that can help species survive environmental changes",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because asexual reproduction only needs one parent and produces identical offspring rapidly, while sexual reproduction combines genes from two parents to create unique offspring with varied traits"
-                },
-                {
-                    "text": "Sexual reproduction leads to faster population growth, while asexual reproduction creates more genetic diversity",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because sexual reproduction typically takes longer due to needing two parents, and asexual reproduction actually creates identical copies with no genetic variation"
-                },
-                {
-                    "text": "Both types of reproduction lead to the same rate of population growth and genetic diversity",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the two types of reproduction have different advantages - asexual is faster but creates identical copies, while sexual is slower but creates genetic variation"
-                },
-                {
-                    "text": "Neither type of reproduction affects population growth rate or genetic diversity",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the method of reproduction significantly impacts both how quickly a population can grow and how much genetic variation exists in the population"
-                }
-            ],
-            "funFact": "Some organisms like starfish can reproduce both sexually and asexually! When conditions are good, they may reproduce asexually by regenerating from a broken arm to quickly increase their numbers. But when they need to adapt to changing environments, they can reproduce sexually to create genetically diverse offspring."
-        },
-        {
-            "id": 14,
             "text": "A group of organisms lives in an environment with rapidly changing conditions, including temperature fluctuations and varying food availability. Which reproductive strategy would likely be more advantageous for these organisms' long-term survival?",
             "options": [
-                {
-                    "text": "Sexual reproduction because it creates genetic variation that allows populations to adapt to changing conditions",
-                    "isCorrect": 1,
-                    "explanation": "Sexual reproduction combines genetic material from two parents, creating unique combinations of genes that increase genetic diversity. This variation improves the chances that some offspring will have traits suitable for survival in changing environments."
-                },
                 {
                     "text": "Asexual reproduction because it produces offspring more quickly and efficiently",
                     "isCorrect": 0,
                     "explanation": "While asexual reproduction is faster and requires less energy, it produces genetically identical offspring. This lack of variation makes populations vulnerable to environmental changes since all individuals would be affected similarly."
                 },
                 {
-                    "text": "Asexual reproduction because identical offspring ensure successful traits are preserved",
-                    "isCorrect": 0,
-                    "explanation": "Though asexual reproduction preserves successful traits, it doesn't allow for new combinations of genes. In changing environments, preserving only existing traits can be disadvantageous if those traits become less beneficial."
-                },
-                {
                     "text": "Sexual reproduction because it always produces stronger offspring",
                     "isCorrect": 0,
                     "explanation": "Sexual reproduction doesn't guarantee stronger offspring. Its advantage comes from creating genetic diversity, not necessarily producing superior individuals."
+                },
+                {
+                    "text": "Sexual reproduction because it creates genetic variation that allows populations to adapt to changing conditions",
+                    "isCorrect": 1,
+                    "explanation": "Sexual reproduction combines genetic material from two parents, creating unique combinations of genes that increase genetic diversity. This variation improves the chances that some offspring will have traits suitable for survival in changing environments."
+                },
+                {
+                    "text": "Asexual reproduction because identical offspring ensure successful traits are preserved",
+                    "isCorrect": 0,
+                    "explanation": "Though asexual reproduction preserves successful traits, it doesn't allow for new combinations of genes. In changing environments, preserving only existing traits can be disadvantageous if those traits become less beneficial."
                 }
             ],
             "funFact": "The bdelloid rotifer, a microscopic animal, has survived for millions of years without sexual reproduction. However, these organisms have evolved unique mechanisms to create genetic diversity by incorporating DNA from their environment into their genome!"
         },
         {
-            "id": 15,
+            "id": 12,
+            "text": "When comparing a kangaroo's pouch (structural adaptation) to a bird's nest-building behavior (behavioral adaptation) for protecting offspring, which statement accurately describes the energy trade-offs?",
+            "options": [
+                {
+                    "text": "Both structural and behavioral adaptations require equal energy investment throughout an organism's lifetime",
+                    "isCorrect": 0,
+                    "explanation": "Energy requirements differ significantly between structural and behavioral adaptations, with structural features requiring more initial but less ongoing energy compared to repeated behaviors."
+                },
+                {
+                    "text": "Structural adaptations like pouches require more initial energy investment but less ongoing energy compared to behavioral adaptations like nest-building",
+                    "isCorrect": 1,
+                    "explanation": "Structural adaptations require significant energy during development but become permanent features, while behavioral adaptations need repeated energy investment each time they're performed."
+                },
+                {
+                    "text": "Neither structural nor behavioral adaptations require significant energy investment for reproduction",
+                    "isCorrect": 0,
+                    "explanation": "Both types of adaptations require significant energy investment - structural adaptations during development and behavioral adaptations during each performance of the behavior."
+                },
+                {
+                    "text": "Behavioral adaptations require more initial energy but less maintenance energy than structural adaptations",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because behavioral adaptations like nest-building must be repeated, requiring new energy investment each time, while structural adaptations are maintained with minimal energy once developed."
+                }
+            ],
+            "funFact": "The kangaroo's pouch contains special muscles that can tighten to hold the joey securely while the mother hops, and it even has built-in antimicrobial properties to protect the developing baby from infections!"
+        },
+        {
+            "id": 13,
             "text": "A botanist is studying three flowering plant species in a desert environment where water is scarce and pollinator insects are active during early morning hours. Which combination of plant features would most likely result in the highest probability of successful reproduction?",
             "options": [
                 {
-                    "text": "Large bright petals, high nectar production, and heavy seeds",
+                    "text": "Large dull petals, low nectar production, and sticky seeds",
                     "isCorrect": 0,
-                    "explanation": "While bright petals attract pollinators, high nectar production requires lots of water which is scarce in deserts, and heavy seeds have limited dispersal range."
+                    "explanation": "Dull petals are less likely to attract pollinators, low nectar may not sustain pollinator visits, and sticky seeds have limited dispersal methods in a desert environment."
                 },
                 {
                     "text": "Small bright petals, moderate nectar production, and lightweight wind-dispersed seeds",
@@ -395,17 +341,71 @@
                     "explanation": "This combination optimizes resources - small bright petals attract early morning pollinators while conserving water, moderate nectar sustains pollinators without excessive water use, and lightweight seeds can disperse widely."
                 },
                 {
-                    "text": "Large dull petals, low nectar production, and sticky seeds",
-                    "isCorrect": 0,
-                    "explanation": "Dull petals are less likely to attract pollinators, low nectar may not sustain pollinator visits, and sticky seeds have limited dispersal methods in a desert environment."
-                },
-                {
                     "text": "No petals, high nectar production, and water-dispersed seeds",
                     "isCorrect": 0,
                     "explanation": "Without petals to attract pollinators, high nectar production wastes precious water, and water-dispersed seeds are poorly adapted to desert conditions."
+                },
+                {
+                    "text": "Large bright petals, high nectar production, and heavy seeds",
+                    "isCorrect": 0,
+                    "explanation": "While bright petals attract pollinators, high nectar production requires lots of water which is scarce in deserts, and heavy seeds have limited dispersal range."
                 }
             ],
             "funFact": "Desert plants like the Evening Primrose have evolved to bloom at night or early morning when temperatures are cooler and their pollinators (like moths and early-rising bees) are most active, demonstrating how timing can be just as important as physical features in reproductive success!"
+        },
+        {
+            "id": 14,
+            "text": "The male peacock spider performs an elaborate courtship dance, displaying its brightly colored abdomen flaps, drumming its legs, and making specific vibrations on the ground to attract females. How do these multiple behaviors work together to influence the probability of successful reproduction?",
+            "options": [
+                {
+                    "text": "The behaviors cancel each other out and reduce the chances of finding a mate",
+                    "isCorrect": 0,
+                    "explanation": "The behaviors are complementary, not contradictory - they work together to enhance mating success"
+                },
+                {
+                    "text": "The behaviors only work if performed in a specific sequence",
+                    "isCorrect": 0,
+                    "explanation": "While there may be patterns to the courtship display, success depends more on the combined effect than strict ordering"
+                },
+                {
+                    "text": "Each behavior independently guarantees successful reproduction regardless of the others",
+                    "isCorrect": 0,
+                    "explanation": "Reproductive success is not guaranteed by any single behavior - it depends on multiple factors working together to increase probability"
+                },
+                {
+                    "text": "The combination of visual, tactile, and vibrational signals increases the overall probability of attracting a mate",
+                    "isCorrect": 1,
+                    "explanation": "Multiple coordinated behaviors that engage different senses create a stronger mating display, improving the chances of successful reproduction"
+                }
+            ],
+            "funFact": "Male peacock spiders are tiny (3-5mm) but can see in color, which is rare for spiders! This allows them to precisely coordinate their colorful courtship displays, making them nicknamed 'nature's tiny dancers.'"
+        },
+        {
+            "id": 15,
+            "text": "If both parents have one dominant allele (F) for freckles and one recessive allele (f) for no freckles, what is the probability that their child will have freckles?",
+            "options": [
+                {
+                    "text": "100%",
+                    "isCorrect": 0,
+                    "explanation": "100% would only be possible if both parents had two dominant alleles (FF), but in this case, each parent has one dominant and one recessive allele."
+                },
+                {
+                    "text": "50%",
+                    "isCorrect": 0,
+                    "explanation": "50% is the probability of being heterozygous (Ff), but this doesn't account for the homozygous dominant (FF) possibility, which also results in freckles."
+                },
+                {
+                    "text": "75%",
+                    "isCorrect": 1,
+                    "explanation": "When both parents have Ff genotype, there's a 75% chance their child will inherit at least one dominant allele (FF, Ff, or fF), resulting in freckles."
+                },
+                {
+                    "text": "25%",
+                    "isCorrect": 0,
+                    "explanation": "25% represents the probability of inheriting two recessive alleles (ff), which would result in no freckles."
+                }
+            ],
+            "funFact": "The inheritance of freckles is just one example of dominant-recessive inheritance. Some traits, like human height or skin color, are influenced by multiple genes and environmental factors, making their inheritance patterns more complex!"
         }
     ]
 }

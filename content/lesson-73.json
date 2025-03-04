@@ -4,62 +4,67 @@
     "questions": [
         {
             "id": 1,
-            "text": "A family adopts a new puppy and wants to make sure it stays healthy. Which of the following statements best describes how environmental factors can influence the puppy's weight?",
+            "text": "Which of the following best explains why all bumblebees collect nectar and pollen and take it back to their hive?",
             "options": [
                 {
-                    "text": "The puppy's weight will be exactly the same as its parents' weight regardless of diet and exercise",
+                    "text": "Each bee decides on its own whether to collect nectar and pollen",
                     "isCorrect": 0,
-                    "explanation": "While genetics play a role in determining weight, environmental factors like diet and exercise can significantly influence a puppy's weight"
+                    "explanation": "This behavior is not a choice made by individual bees - it is an inherited trait that all bumblebees share as part of their natural behavior."
                 },
                 {
-                    "text": "A puppy that gets regular exercise and proper portions of food is likely to maintain a healthy weight",
+                    "text": "Each bumblebee learns this behavior by watching other bees",
+                    "isCorrect": 0,
+                    "explanation": "While bees can learn some behaviors, collecting nectar and pollen is an inherited trait that all bumblebees are born with, not a learned behavior."
+                },
+                {
+                    "text": "The environment forces bumblebees to collect nectar and pollen",
+                    "isCorrect": 0,
+                    "explanation": "While the environment provides the nectar and pollen, the behavior of collecting them is an inherited trait, not something forced by the environment."
+                },
+                {
+                    "text": "It is an inherited trait that all bumblebees share as part of their natural behavior",
                     "isCorrect": 1,
-                    "explanation": "Diet and exercise are environmental factors that directly influence a dog's weight, even though the tendency towards certain weights may be inherited"
-                },
-                {
-                    "text": "Only the puppy's inherited genes determine its weight, and nothing can change that",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because environmental factors like diet and exercise can significantly affect weight, even though genetics play a role"
-                },
-                {
-                    "text": "A puppy's weight is only determined by how much food it eats, and exercise has no effect",
-                    "isCorrect": 0,
-                    "explanation": "Both diet AND exercise are important environmental factors that influence a dog's weight"
+                    "explanation": "Collecting nectar and pollen is a behavioral trait inherited by all bumblebees. This behavior is passed down from parent bees to offspring and is essential for the survival of the colony."
                 }
             ],
-            "funFact": "Just like humans, dogs can be professional athletes! Working dogs like sled dogs need to consume up to 12,000 calories per day during intense training - that's 6 times more than the average pet dog needs, showing how dramatically exercise can affect a dog's nutritional needs."
+            "funFact": "A single bumblebee can visit up to 5,000 flowers in a single day while collecting nectar and pollen! Their incredible work ethic helps pollinate many important crops that humans depend on for food."
         },
         {
             "id": 2,
-            "text": "The poison dart frog's bright coloring and toxic nature are famous traits. How does the environment influence these traits in poison dart frogs?",
+            "text": "An alligator's scales appear darker in color compared to other alligators in its group. How does this trait help the alligator survive in its environment?",
             "options": [
                 {
-                    "text": "The frogs develop their poison by eating specific insects in their environment",
+                    "text": "The darker scales protect the alligator from sunburn",
+                    "isCorrect": 0,
+                    "explanation": "While scales do provide protection, their darkness is not primarily related to sun protection. The main advantage is heat absorption."
+                },
+                {
+                    "text": "The darker scales make the alligator more visible to prey",
+                    "isCorrect": 0,
+                    "explanation": "Being more visible to prey would actually be disadvantageous for the alligator, as it would make hunting more difficult."
+                },
+                {
+                    "text": "The darker scales help the alligator warm up faster in sunlight",
                     "isCorrect": 1,
-                    "explanation": "Correct! Poison dart frogs get their toxicity from the insects they consume in their natural habitat. This shows how the environment directly influences this trait."
+                    "explanation": "Darker colors absorb more sunlight and heat, allowing the alligator to warm up more quickly, which helps it become active sooner and have more energy for hunting and other activities."
                 },
                 {
-                    "text": "The frogs are born with poison that becomes stronger as they age",
+                    "text": "The darker scales make the alligator swim faster",
                     "isCorrect": 0,
-                    "explanation": "While the frogs are known for being poisonous, they aren't born with the poison. They acquire it from their diet in their natural environment."
-                },
-                {
-                    "text": "The bright colors develop naturally regardless of their diet",
-                    "isCorrect": 0,
-                    "explanation": "The frogs' bright colors are genetically determined and evolved as a warning signal (aposematic coloration) to predators about their toxicity. While their toxicity comes from their diet, the coloration itself is genetic and not directly caused by what they eat. The environment has influenced the evolution of these bright colors as a survival adaptation."
-                },
-                {
-                    "text": "The poison is produced through exposure to sunlight",
-                    "isCorrect": 0,
-                    "explanation": "The frogs' poison is not produced through exposure to sunlight. It comes from the specific insects they eat in their natural habitat."
+                    "explanation": "The color of scales does not affect swimming speed. Swimming ability is more related to body shape and muscle strength."
                 }
             ],
-            "funFact": "When poison dart frogs are raised in captivity and don't have access to their natural prey insects, they don't develop their toxic properties! This shows just how important environmental factors are in developing certain traits."
+            "funFact": "Alligators are ectothermic (cold-blooded) animals, which means they rely on external heat sources like the sun to regulate their body temperature. This is why features that help them absorb heat more efficiently, like darker scales, can be so important for their survival!"
         },
         {
             "id": 3,
             "text": "A young deer is born with light brown fur that matches the color of dried grass in its habitat. How does this inherited trait help the deer survive?",
             "options": [
+                {
+                    "text": "The brown color helps the deer find more food",
+                    "isCorrect": 0,
+                    "explanation": "The brown color of a deer's fur does not help it find food. The color primarily serves as camouflage to avoid being seen by predators."
+                },
                 {
                     "text": "The camouflage coloring helps the deer hide from predators in the grass",
                     "isCorrect": 1,
@@ -74,41 +79,36 @@
                     "text": "The brown fur helps the deer stay warm in cold weather",
                     "isCorrect": 0,
                     "explanation": "While fur does help deer stay warm, the specific brown color of the fur is not related to warmth. The color serves as camouflage for protection."
-                },
-                {
-                    "text": "The brown color helps the deer find more food",
-                    "isCorrect": 0,
-                    "explanation": "The brown color of a deer's fur does not help it find food. The color primarily serves as camouflage to avoid being seen by predators."
                 }
             ],
             "funFact": "Some deer species can change the color of their coat seasonally - becoming greyish-brown in summer and more bluish-grey in winter - to better match their changing environment throughout the year!"
         },
         {
             "id": 4,
-            "text": "Which of the following best explains why all bumblebees collect nectar and pollen and take it back to their hive?",
+            "text": "What is a common physical trait that all giraffes share?",
             "options": [
                 {
-                    "text": "It is an inherited trait that all bumblebees share as part of their natural behavior",
+                    "text": "White fur",
+                    "isCorrect": 0,
+                    "explanation": "Giraffes have spotted patterns in their fur, not solid white. Their spots can vary in color and pattern but are typically brown and tan."
+                },
+                {
+                    "text": "Long necks",
                     "isCorrect": 1,
-                    "explanation": "Collecting nectar and pollen is a behavioral trait inherited by all bumblebees. This behavior is passed down from parent bees to offspring and is essential for the survival of the colony."
+                    "explanation": "All giraffes have long necks as a common physical trait that is inherited from their parents. This is a species-specific characteristic."
                 },
                 {
-                    "text": "Each bumblebee learns this behavior by watching other bees",
+                    "text": "Short tails",
                     "isCorrect": 0,
-                    "explanation": "While bees can learn some behaviors, collecting nectar and pollen is an inherited trait that all bumblebees are born with, not a learned behavior."
+                    "explanation": "Giraffes actually have long tails, not short ones. Their tails help them swat away insects."
                 },
                 {
-                    "text": "The environment forces bumblebees to collect nectar and pollen",
+                    "text": "Blue eyes",
                     "isCorrect": 0,
-                    "explanation": "While the environment provides the nectar and pollen, the behavior of collecting them is an inherited trait, not something forced by the environment."
-                },
-                {
-                    "text": "Each bee decides on its own whether to collect nectar and pollen",
-                    "isCorrect": 0,
-                    "explanation": "This behavior is not a choice made by individual bees - it is an inherited trait that all bumblebees share as part of their natural behavior."
+                    "explanation": "Eye color varies among giraffes, and blue eyes are not a characteristic of giraffes. Their eyes are typically brown or dark."
                 }
             ],
-            "funFact": "A single bumblebee can visit up to 5,000 flowers in a single day while collecting nectar and pollen! Their incredible work ethic helps pollinate many important crops that humans depend on for food."
+            "funFact": "A giraffe's neck, despite being so long, has the same number of vertebrae (seven) as a human neck! The difference is that each vertebra in a giraffe's neck can be up to 10 inches long."
         },
         {
             "id": 5,
@@ -120,9 +120,9 @@
                     "explanation": "Poison dart frogs acquire their poison from eating certain insects in their natural habitat. When raised in captivity without access to these insects, they do not develop their toxic defense."
                 },
                 {
-                    "text": "They lose their poison when living with humans",
+                    "text": "They need specific plants to make their poison",
                     "isCorrect": 0,
-                    "explanation": "The frogs don't lose previously acquired poison - they simply never develop it without consuming specific insects that are the source of their toxins."
+                    "explanation": "While diet affects their toxicity, it's specifically the insects they eat, not plants, that are the source of their poison."
                 },
                 {
                     "text": "They are born with poison but it fades away in captivity",
@@ -130,80 +130,26 @@
                     "explanation": "The frogs are not born with poison. Their toxicity is an environmentally influenced trait that develops only when they consume certain insects."
                 },
                 {
-                    "text": "They need specific plants to make their poison",
+                    "text": "They lose their poison when living with humans",
                     "isCorrect": 0,
-                    "explanation": "While diet affects their toxicity, it's specifically the insects they eat, not plants, that are the source of their poison."
+                    "explanation": "The frogs don't lose previously acquired poison - they simply never develop it without consuming specific insects that are the source of their toxins."
                 }
             ],
             "funFact": "The golden poison frog is considered one of the most toxic animals on Earth - a single frog can contain enough poison to kill up to 20 humans! However, the same species raised in captivity is completely harmless."
         },
         {
             "id": 6,
-            "text": "A scientist is studying two groups of rainbow trout fish that came from the same parents. Group A is raised in water at 12\u00b0C (54\u00b0F) while Group B is raised in water at 18\u00b0C (64\u00b0F). After 6 months, the scientist observes that Group B fish are notably larger than Group A fish. What does this experiment demonstrate about inherited traits?",
-            "options": [
-                {
-                    "text": "Environmental factors like water temperature can influence how inherited traits like growth rate are expressed",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because the experiment shows how the same inherited genetic potential for growth can be expressed differently based on environmental conditions like water temperature"
-                },
-                {
-                    "text": "Warmer water changes the genes of the fish to make them grow bigger",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because environmental conditions don't change genes themselves, they influence how existing genes are expressed"
-                },
-                {
-                    "text": "The fish in Group B must have received different genes from their parents",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because all fish came from the same parents and therefore received the same mix of genetic traits - the difference was due to environment"
-                },
-                {
-                    "text": "Water temperature has no effect on inherited traits",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the experiment clearly shows that environmental factors like water temperature can affect how inherited traits are expressed"
-                }
-            ],
-            "funFact": "Fish are ectothermic (cold-blooded), meaning their body temperature matches their surroundings. Many fish species grow faster in warmer waters because their metabolism speeds up, as long as the temperature stays within their preferred range!"
-        },
-        {
-            "id": 7,
-            "text": "Two twin puppies, Max and Rocky, were adopted by different families at 8 weeks old. Max's family takes him on long daily walks and plays fetch with him regularly. Rocky's family is busy and he mostly stays indoors with limited exercise. After one year, what physical difference would you most likely observe between these puppies?",
-            "options": [
-                {
-                    "text": "Max would have more developed muscles than Rocky",
-                    "isCorrect": 1,
-                    "explanation": "Regular exercise leads to better muscle development. Even though the puppies share inherited traits, their different activity levels affect their physical development."
-                },
-                {
-                    "text": "Rocky would be taller than Max",
-                    "isCorrect": 0,
-                    "explanation": "Height is primarily determined by inherited genes rather than exercise levels. The amount of exercise wouldn't significantly impact height."
-                },
-                {
-                    "text": "Max would have different colored fur than Rocky",
-                    "isCorrect": 0,
-                    "explanation": "Fur color is an inherited trait that doesn't change based on exercise levels or environmental conditions."
-                },
-                {
-                    "text": "Rocky would have better eyesight than Max",
-                    "isCorrect": 0,
-                    "explanation": "Basic eyesight capability is an inherited trait that isn't significantly affected by exercise levels."
-                }
-            ],
-            "funFact": "Working dogs like sled dogs and herding dogs can develop up to 60% more muscle mass compared to inactive dogs of the same breed due to their regular physical activity, showing how environment can greatly influence certain physical traits!"
-        },
-        {
-            "id": 8,
             "text": "Two sunflower plants that are genetically identical are grown in different conditions. Plant A is grown in soil with proper nutrients, while Plant B is grown in soil lacking essential nutrients. Both plants receive the same amount of sunlight and water. Which statement best describes how these plants will likely develop?",
             "options": [
-                {
-                    "text": "Plant A will grow taller than Plant B despite having identical genetic traits",
-                    "isCorrect": 1,
-                    "explanation": "Even with identical genetic traits, the plant with proper nutrients (Plant A) will grow taller because environmental factors like soil nutrients influence how inherited traits are expressed"
-                },
                 {
                     "text": "Both plants will grow to the same height since they are genetically identical",
                     "isCorrect": 0,
                     "explanation": "While the plants have identical genes, environmental factors like nutrient availability affect how traits develop, so they won't grow to the same height"
+                },
+                {
+                    "text": "The plants' heights will be unaffected by soil nutrients",
+                    "isCorrect": 0,
+                    "explanation": "Soil nutrients are an important environmental factor that influences plant growth and development, even when plants have identical genetic traits"
                 },
                 {
                     "text": "Plant B will grow taller than Plant A to compensate for the lack of nutrients",
@@ -211,96 +157,231 @@
                     "explanation": "Plants don't grow taller to compensate for lack of nutrients. Instead, insufficient nutrients typically result in stunted growth"
                 },
                 {
-                    "text": "The plants' heights will be unaffected by soil nutrients",
-                    "isCorrect": 0,
-                    "explanation": "Soil nutrients are an important environmental factor that influences plant growth and development, even when plants have identical genetic traits"
+                    "text": "Plant A will grow taller than Plant B despite having identical genetic traits",
+                    "isCorrect": 1,
+                    "explanation": "Even with identical genetic traits, the plant with proper nutrients (Plant A) will grow taller because environmental factors like soil nutrients influence how inherited traits are expressed"
                 }
             ],
             "funFact": "While identical twins share the same DNA, environmental factors like diet and exercise can cause them to develop different heights, weights, and other physical characteristics - just like how identical plants can grow differently in varying conditions!"
         },
         {
-            "id": 9,
-            "text": "Two identical tomato plant seedlings were planted in identical pots with the same soil. Plant A was placed near a sunny window, while Plant B was placed in a dark corner. After two weeks, what differences would you most likely observe between the plants?",
+            "id": 7,
+            "text": "Two groups of deer live in different regions. Group A lives in a dense forest with dark green vegetation, while Group B lives in a grassland with light brown vegetation. Over many generations, which pattern would you expect to observe in these deer populations?",
             "options": [
                 {
-                    "text": "Plant A will be healthier with larger, greener leaves, while Plant B may be taller but spindlier with smaller, paler leaves",
+                    "text": "Both groups would develop spotted coats to blend in with both light and dark surroundings",
+                    "isCorrect": 0,
+                    "explanation": "Animals typically develop camouflage that matches their specific environment rather than trying to adapt to multiple environments at once."
+                },
+                {
+                    "text": "Group A deer would develop darker brown coats while Group B deer would develop lighter brown coats",
                     "isCorrect": 1,
-                    "explanation": "Plants need sunlight for photosynthesis. Plant A in the sunny location will develop sturdy stems and large, green leaves. Plant B in the dark will undergo etiolation - stretching taller seeking light, but developing weak, thin stems and smaller, paler leaves due to insufficient photosynthesis."
+                    "explanation": "The environment influences inherited traits through natural selection. Deer with coat colors that better match their environment are more likely to survive and pass on their traits to offspring."
                 },
                 {
-                    "text": "Plant B will be healthier with larger, greener leaves than Plant A",
+                    "text": "Group A and Group B would randomly switch coat colors every few generations",
                     "isCorrect": 0,
-                    "explanation": "Without adequate sunlight, Plant B cannot perform proper photosynthesis, leading to less healthy growth. Though it may grow taller seeking light (etiolation), its leaves will be smaller and paler compared to Plant A."
+                    "explanation": "Coat color variations are not random but are influenced by which traits help animals survive better in their specific environment."
                 },
                 {
-                    "text": "Both plants will be exactly the same size and appearance",
+                    "text": "Both groups would develop the same coat color regardless of their environment",
                     "isCorrect": 0,
-                    "explanation": "Even though the plants are genetically identical, environmental factors like sunlight significantly influence their growth and development. The different light conditions will lead to visible differences."
-                },
-                {
-                    "text": "The plants will only differ in leaf color but not in structure or size",
-                    "isCorrect": 0,
-                    "explanation": "Light affects not just leaf color but overall plant structure. Plant B in low light will develop a different growth pattern (typically etiolated - taller but weaker) compared to Plant A in sunlight."
+                    "explanation": "Different environments can lead to different traits being more advantageous for survival, resulting in variations between populations over time."
                 }
             ],
-            "funFact": "Plants growing in low-light conditions often develop longer, thinner stems in a process called etiolation. This is the plant's attempt to reach available light, but it results in weak, spindly growth - a perfect example of how environment can influence inherited traits!"
+            "funFact": "Some species of deer can actually change their coat color seasonally! For example, white-tailed deer grow darker gray coats in summer and lighter brown coats in winter to help them blend in with changing environmental colors."
+        },
+        {
+            "id": 8,
+            "text": "A scientist is studying corn plants grown in different conditions. One group of corn plants received plenty of water daily, while another group received only half the amount of water. After 8 weeks, the scientist measured the height of all plants. Which statement is most likely true about the corn plants?",
+            "options": [
+                {
+                    "text": "The corn plants that received less water were taller than those that received plenty of water",
+                    "isCorrect": 0,
+                    "explanation": "Plants need water for growth. Less water typically results in stunted growth, not increased height."
+                },
+                {
+                    "text": "The corn plants that received plenty of water were taller than those that received less water",
+                    "isCorrect": 1,
+                    "explanation": "Plants need adequate water to grow to their full potential. Even though height is an inherited trait, environmental factors like water availability can influence how tall a plant grows."
+                },
+                {
+                    "text": "The amount of water had no effect on plant height since height is an inherited trait",
+                    "isCorrect": 0,
+                    "explanation": "While height is an inherited trait, environmental factors like water availability can influence how this trait is expressed in plants."
+                },
+                {
+                    "text": "All corn plants grew to exactly the same height regardless of water received",
+                    "isCorrect": 0,
+                    "explanation": "Environmental factors like water availability can influence inherited traits. Plants that receive less water than needed typically don't grow as tall as those with adequate water."
+                }
+            ],
+            "funFact": "Some desert plants have adapted to grow exceptionally well with very little water. The Saguaro cactus can grow up to 40-60 feet tall despite living in areas that receive less than 12 inches of rain per year!"
+        },
+        {
+            "id": 9,
+            "text": "A scientist is studying two groups of rainbow trout fish that came from the same parents. Group A is raised in water at 12\u00b0C (54\u00b0F) while Group B is raised in water at 18\u00b0C (64\u00b0F). After 6 months, the scientist observes that Group B fish are notably larger than Group A fish. What does this experiment demonstrate about inherited traits?",
+            "options": [
+                {
+                    "text": "Water temperature has no effect on inherited traits",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the experiment clearly shows that environmental factors like water temperature can affect how inherited traits are expressed"
+                },
+                {
+                    "text": "Warmer water changes the genes of the fish to make them grow bigger",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because environmental conditions don't change genes themselves, they influence how existing genes are expressed"
+                },
+                {
+                    "text": "Environmental factors like water temperature can influence how inherited traits like growth rate are expressed",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because the experiment shows how the same inherited genetic potential for growth can be expressed differently based on environmental conditions like water temperature"
+                },
+                {
+                    "text": "The fish in Group B must have received different genes from their parents",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because all fish came from the same parents and therefore received the same mix of genetic traits - the difference was due to environment"
+                }
+            ],
+            "funFact": "Fish are ectothermic (cold-blooded), meaning their body temperature matches their surroundings. Many fish species grow faster in warmer waters because their metabolism speeds up, as long as the temperature stays within their preferred range!"
         },
         {
             "id": 10,
-            "text": "Scientists are studying two groups of the same species of butterflies living in different regions. This particular butterfly species is known for sequestering pigments from its food sources. Group A feeds primarily on flowering plants containing orange pigments that can be incorporated into wing structures, while Group B feeds on flowering plants with blue pigments that can be similarly incorporated. After several generations, what difference would you most likely observe between these butterfly populations?",
+            "text": "Two tiger cubs, Luna and Leo, were born to the same parents but were sent to different zoos. Luna lives in a zoo where she gets a rich protein diet and regular exercise in a large enclosure. Leo lives in a zoo with a standard diet and less exercise space. How would their physical traits likely differ after one year?",
             "options": [
                 {
-                    "text": "The wing colors of Group A butterflies would tend toward orange, while Group B would show more blue coloration",
+                    "text": "Luna would likely be more muscular and active, while Leo would likely be less muscular, despite having the same inherited traits",
                     "isCorrect": 1,
-                    "explanation": "In butterfly species capable of sequestering dietary pigments, the food source can influence wing coloration over generations. This represents one way environmental factors can affect physical traits, working alongside the butterfly's own melanin production and structural coloration"
+                    "explanation": "Environmental factors like diet and exercise can influence how inherited traits develop. Even with the same genetic potential, different conditions lead to different physical outcomes."
                 },
                 {
-                    "text": "Both groups would maintain exactly the same wing colors regardless of their diet",
+                    "text": "Leo would be healthier because less exercise means more energy conservation",
                     "isCorrect": 0,
-                    "explanation": "This overlooks how environmental factors like diet can influence the expression of traits in species capable of sequestering dietary pigments"
+                    "explanation": "Regular exercise and proper nutrition actually contribute to better health in tigers, just as in other animals. Less exercise typically leads to reduced muscle development."
                 },
                 {
-                    "text": "The butterflies would change wing colors daily based on what they eat",
+                    "text": "Luna would have different stripe patterns than Leo because of her different diet",
                     "isCorrect": 0,
-                    "explanation": "While diet affects wing color in pigment-sequestering species, the change occurs over generations, not daily"
+                    "explanation": "Stripe patterns are inherited traits that aren't influenced by diet or exercise. These patterns are determined by genetics, not environmental factors."
                 },
                 {
-                    "text": "Group A would become larger in size while Group B would become smaller",
+                    "text": "Luna and Leo would look exactly the same because they have the same parents",
                     "isCorrect": 0,
-                    "explanation": "While diet can affect size, this question focuses on coloration. There's no evidence that these specific pigments affect butterfly size"
+                    "explanation": "While inherited traits come from parents, environmental factors like diet and exercise can significantly influence how these traits develop in each individual."
                 }
             ],
-            "funFact": "Many butterflies get their wing colors not just from pigments, but also from tiny scales that create structural color through light refraction - similar to how soap bubbles create rainbow colors!"
+            "funFact": "Tigers in the wild naturally get extensive exercise hunting their prey, sometimes traveling up to 20 miles a day! This is why zoos work hard to create enrichment programs that keep tigers active and healthy."
         },
         {
             "id": 11,
-            "text": "Two baby birds of the same species are born with identical beak shapes. One lives in an area with many hard-shelled nuts, while the other lives in an area with mostly soft berries. After a year, scientists observe that the first bird has developed stronger jaw muscles and a more powerful bite than the second bird. What best explains this difference?",
+            "text": "Scientists are studying two groups of poison dart frogs. Group A frogs eat insects that contain toxic chemicals, while Group B frogs eat insects without toxic chemicals. Which statement is most likely true about these frogs?",
             "options": [
                 {
-                    "text": "The bird eating hard nuts developed stronger muscles because its environment required more force to crack open food",
+                    "text": "Group B frogs will be more poisonous than Group A frogs",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because frogs eating insects without toxic chemicals would not develop strong toxicity"
+                },
+                {
+                    "text": "Both groups of frogs will be equally poisonous regardless of their diet",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because poison dart frogs get their toxicity from the insects they eat, not just from their genes"
+                },
+                {
+                    "text": "Group A frogs will be more poisonous than Group B frogs",
                     "isCorrect": 1,
-                    "explanation": "This is correct because environmental factors like food type can influence how inherited traits (like beak shape) develop - the bird needed stronger muscles to crack nuts, so those muscles developed more."
+                    "explanation": "This is correct because poison dart frogs develop their toxicity from consuming insects that contain toxic chemicals"
                 },
                 {
-                    "text": "The birds must actually be from different species since they have different beak strengths",
+                    "text": "Neither group will be poisonous regardless of their diet",
                     "isCorrect": 0,
-                    "explanation": "The birds are confirmed to be the same species. Their different beak strengths developed due to their environments, not because they are different species."
-                },
-                {
-                    "text": "The second bird's genes must have changed to make it have weaker jaw muscles",
-                    "isCorrect": 0,
-                    "explanation": "Genes don't change based on environment. Rather, the environment influences how inherited traits develop."
-                },
-                {
-                    "text": "The birds' beaks changed shape completely to match their food sources",
-                    "isCorrect": 0,
-                    "explanation": "The basic beak shape stayed the same since it was inherited. Only the muscle strength changed due to environmental factors."
+                    "explanation": "This is incorrect because diet does determine toxicity - frogs eating insects with toxic chemicals will develop toxicity"
                 }
             ],
-            "funFact": "Darwin's finches on the Gal\u00e1pagos Islands show similar effects - while their beak shapes are inherited, studies have shown that the strength and development of their jaw muscles can be influenced by the types of food they eat during their lifetime."
+            "funFact": "In the wild, some poison dart frogs are so toxic that just touching them could be fatal to humans. However, the same species raised in captivity with different diets are completely harmless!"
         },
         {
             "id": 12,
+            "text": "Two deer fawns are born with identical spotted patterns on their fur. One fawn lives in a dense forest with dappled sunlight filtering through leaves, while the other lives in an open grassland. How might their survival rates likely differ?",
+            "options": [
+                {
+                    "text": "Both fawns would have equal survival rates because they have identical spotted patterns",
+                    "isCorrect": 0,
+                    "explanation": "Even with identical patterns, survival rates depend on how well the pattern matches the environment, not just the pattern itself"
+                },
+                {
+                    "text": "The survival rates would only depend on the number of predators in each area",
+                    "isCorrect": 0,
+                    "explanation": "While predator numbers matter, how well camouflage matches the environment plays a crucial role in survival, regardless of predator population"
+                },
+                {
+                    "text": "The grassland fawn would have a higher survival rate because spots are more visible in the forest",
+                    "isCorrect": 0,
+                    "explanation": "Spots actually become less visible in dappled forest light, while they stand out more in uniform grassland lighting"
+                },
+                {
+                    "text": "The forest fawn would likely have a higher survival rate because its spots match the pattern of light and shadows on the forest floor",
+                    "isCorrect": 1,
+                    "explanation": "The spotted pattern provides better camouflage in a forest environment where sunlight creates patches of light and shadow, making the fawn harder for predators to spot"
+                }
+            ],
+            "funFact": "Deer fawns are born nearly odorless, which combined with their spotted camouflage, helps protect them from predators who hunt by smell. The spots typically fade as the deer grows older and develops other defensive abilities."
+        },
+        {
+            "id": 13,
+            "text": "A group of young bumblebees from the same hive encounter a new type of flower they've never seen before. Which statement best describes how these bees will collect nectar from this flower?",
+            "options": [
+                {
+                    "text": "The bees will rely solely on their inherited behaviors and won't adapt their approach for the new flower",
+                    "isCorrect": 0,
+                    "explanation": "Bumblebees don't just use inherited behaviors - they also learn from their environment and can adapt their approach."
+                },
+                {
+                    "text": "The bees will wait to watch other insect species collect nectar first and copy their methods exactly",
+                    "isCorrect": 0,
+                    "explanation": "Bumblebees don't need to copy other species - they have their own inherited traits and learning abilities for nectar collection."
+                },
+                {
+                    "text": "Each bee will independently figure out how to collect nectar through trial and error, ignoring their inherited behaviors",
+                    "isCorrect": 0,
+                    "explanation": "While learning is important, bumblebees don't completely ignore their inherited behaviors. They use both inherited traits and environmental learning."
+                },
+                {
+                    "text": "The bees will use both their inherited nectar-gathering behaviors and learn from their experience with the new flower",
+                    "isCorrect": 1,
+                    "explanation": "Bumblebees have inherited traits for nectar gathering, but they also learn from their environment and experiences to become more efficient."
+                }
+            ],
+            "funFact": "Bumblebees can learn to solve complex puzzles and even teach these skills to other bees in their colony! Scientists have observed them learning to pull strings, move balls, and solve other tasks to access food rewards."
+        },
+        {
+            "id": 14,
+            "text": "Scientists studied Arctic foxes throughout the year and recorded their fur thickness. Which statement best explains how the foxes' fur changes with the seasons?",
+            "options": [
+                {
+                    "text": "Arctic foxes grow thicker fur in winter and thinner fur in summer as their genes respond to temperature changes",
+                    "isCorrect": 1,
+                    "explanation": "Environmental temperature influences how genes for fur growth are expressed, causing Arctic foxes to grow thicker fur in cold weather and thinner fur in warm weather"
+                },
+                {
+                    "text": "Arctic foxes manually shed their fur when it gets too warm",
+                    "isCorrect": 0,
+                    "explanation": "While foxes do shed, the change in fur thickness is controlled by their genes responding to temperature changes, not by conscious shedding"
+                },
+                {
+                    "text": "Arctic foxes grow new fur only once per year in autumn",
+                    "isCorrect": 0,
+                    "explanation": "Arctic foxes' fur thickness changes throughout the year in response to temperature, not just once annually"
+                },
+                {
+                    "text": "Arctic foxes' fur thickness stays constant throughout the year regardless of temperature",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because Arctic foxes' fur thickness changes in response to environmental temperature changes to help them survive"
+                }
+            ],
+            "funFact": "Arctic foxes don't just change their fur thickness - they also change their fur color! In winter, they are pure white to blend in with the snow, while in summer their fur turns brown or grey to match the tundra landscape."
+        },
+        {
+            "id": 15,
             "text": "A young deer encounters a wolf for the first time in the forest. How does the combination of inherited traits and environmental experience most likely help the deer survive this encounter?",
             "options": [
                 {
@@ -314,98 +395,17 @@
                     "explanation": "This correctly shows how inherited traits (instinct to flee) work together with environmental learning (knowledge of hiding spots) for survival"
                 },
                 {
-                    "text": "The deer relies completely on its inherited camouflage to stay hidden",
-                    "isCorrect": 0,
-                    "explanation": "While camouflage is important, survival depends on both inherited traits and learned behaviors, not just physical traits alone"
-                },
-                {
                     "text": "The deer must first observe other deer escaping from wolves to know how to react",
                     "isCorrect": 0,
                     "explanation": "Deer are born with natural instincts for predator avoidance and don't need to learn entirely from observing others"
+                },
+                {
+                    "text": "The deer relies completely on its inherited camouflage to stay hidden",
+                    "isCorrect": 0,
+                    "explanation": "While camouflage is important, survival depends on both inherited traits and learned behaviors, not just physical traits alone"
                 }
             ],
             "funFact": "Young deer, called fawns, are born with a natural ability to stay perfectly still when sensing danger - a behavior called 'freezing.' Their spotted coat provides camouflage in dappled sunlight, making this inherited freezing behavior even more effective in their forest environment."
-        },
-        {
-            "id": 13,
-            "text": "Four alligators are observed hunting in different environments. Which alligator would likely have the best chance of catching prey in a murky brown swamp?",
-            "options": [
-                {
-                    "text": "An alligator with bright green scales",
-                    "isCorrect": 0,
-                    "explanation": "Bright green scales would make the alligator stand out in a brown swamp, making it easily visible to prey."
-                },
-                {
-                    "text": "An alligator with dark brown scales",
-                    "isCorrect": 1,
-                    "explanation": "Dark brown scales would help the alligator blend in with the murky brown swamp water, making it harder for prey to spot it."
-                },
-                {
-                    "text": "An alligator with light gray scales",
-                    "isCorrect": 0,
-                    "explanation": "Light gray scales would contrast with the brown swamp water, making the alligator more noticeable to prey."
-                },
-                {
-                    "text": "An alligator with black and white spotted scales",
-                    "isCorrect": 0,
-                    "explanation": "Spotted scales would create a pattern that stands out in the uniform brown swamp water, making the alligator easily visible."
-                }
-            ],
-            "funFact": "Alligators can stay underwater for up to two hours when resting by slowing down their heart rate to just 2-3 beats per minute. This adaptation, combined with their camouflage, makes them incredibly effective ambush predators."
-        },
-        {
-            "id": 14,
-            "text": "Scientists are studying two groups of poison dart frogs. Group A frogs eat insects that contain toxic chemicals, while Group B frogs eat insects without toxic chemicals. Which statement is most likely true about these frogs?",
-            "options": [
-                {
-                    "text": "Both groups of frogs will be equally poisonous regardless of their diet",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because poison dart frogs get their toxicity from the insects they eat, not just from their genes"
-                },
-                {
-                    "text": "Group A frogs will be more poisonous than Group B frogs",
-                    "isCorrect": 1,
-                    "explanation": "This is correct because poison dart frogs develop their toxicity from consuming insects that contain toxic chemicals"
-                },
-                {
-                    "text": "Group B frogs will be more poisonous than Group A frogs",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because frogs eating insects without toxic chemicals would not develop strong toxicity"
-                },
-                {
-                    "text": "Neither group will be poisonous regardless of their diet",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because diet does determine toxicity - frogs eating insects with toxic chemicals will develop toxicity"
-                }
-            ],
-            "funFact": "In the wild, some poison dart frogs are so toxic that just touching them could be fatal to humans. However, the same species raised in captivity with different diets are completely harmless!"
-        },
-        {
-            "id": 15,
-            "text": "Two Labrador retriever puppies from the same litter were adopted by different families. After one year, despite having similar genetic potential for muscle development, the first dog became muscular and energetic while the second dog became overweight with low stamina. What best explains this difference in their physical traits?",
-            "options": [
-                {
-                    "text": "The first dog received regular exercise and proper nutrition while the second dog had limited physical activity and overfeeding",
-                    "isCorrect": 1,
-                    "explanation": "Environmental factors like exercise and diet can significantly influence how inherited traits like muscle development and stamina are expressed, even in genetically similar animals."
-                },
-                {
-                    "text": "The first dog inherited all the athletic genes while the second dog inherited none of them",
-                    "isCorrect": 0,
-                    "explanation": "Being from the same litter, both dogs had similar genetic potential. The difference in their physical traits was due to environmental factors, not different genes."
-                },
-                {
-                    "text": "The first dog developed new genes for athleticism through exercise",
-                    "isCorrect": 0,
-                    "explanation": "Exercise doesn't create new genes. Instead, environmental factors like exercise influence how existing genes are expressed."
-                },
-                {
-                    "text": "The second dog's genes changed due to lack of exercise",
-                    "isCorrect": 0,
-                    "explanation": "Genes don't change due to lack of exercise. Environmental factors affect how genes are expressed without changing the genes themselves."
-                }
-            ],
-            "funFact": "Dogs are excellent examples of how environment affects traits. Working dogs like police K-9s and farm dogs often develop more muscle mass and stamina than their house-dwelling siblings, even when they're from the same breed or litter, due to their different lifestyles and activity levels."
         }
     ]
 }

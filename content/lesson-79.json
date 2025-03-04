@@ -4,8 +4,40 @@
     "questions": [
         {
             "id": 1,
+            "text": "What can scientists conclude when they find marine fossils like seashells and fish remains embedded in rocks at high elevations in mountain ranges?",
+            "options": [
+                {
+                    "text": "The fossils were created by mineral deposits in mountain caves",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The marine fossils are actual remains or impressions of once-living organisms that were preserved in sedimentary layers, not mineral formations that occurred in caves."
+                },
+                {
+                    "text": "Floods carried dead sea creatures up the mountains",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While floods can move materials, they cannot explain marine fossils embedded within the mountain's rock layers. These fossils were preserved when the sediments were originally deposited underwater."
+                },
+                {
+                    "text": "The area where the mountain is now located was once covered by water",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The presence of marine fossils in mountain rocks indicates that the area was once underwater, and geological processes like tectonic activity later pushed these rock layers upward to form mountains."
+                },
+                {
+                    "text": "Ancient sea creatures could live on land and climb mountains",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Marine organisms are adapted to live in water and cannot survive on land. The fossils indicate the environment was different in the past, not that the organisms had different abilities."
+                }
+            ],
+            "funFact": "Mount Everest, the world's highest peak, contains marine fossils including remains of creatures that lived in an ancient ocean called the Tethys Sea about 400 million years ago! These fossils are now found at elevations over 29,000 feet above sea level."
+        },
+        {
+            "id": 2,
             "text": "What is the correct sequence of events that leads to the formation of sedimentary rock?",
             "options": [
+                {
+                    "text": "Sediments are heated, melted, and then reformed into layers",
+                    "isCorrect": 0,
+                    "explanation": "Sedimentary rocks form through the compression and cementation of sediments, not through melting and reforming."
+                },
                 {
                     "text": "Sediments are layered, compressed by weight above, and cemented together by natural processes",
                     "isCorrect": 1,
@@ -20,50 +52,45 @@
                     "text": "Rocks are compressed, heated, and then reshaped into new layers",
                     "isCorrect": 0,
                     "explanation": "This better describes the formation of metamorphic rocks through heat and pressure, not sedimentary rocks."
-                },
-                {
-                    "text": "Sediments are heated, melted, and then reformed into layers",
-                    "isCorrect": 0,
-                    "explanation": "Sedimentary rocks form through the compression and cementation of sediments, not through melting and reforming."
                 }
             ],
             "funFact": "The Grand Canyon reveals rock layers spanning over 2 billion years of Earth's history, with more than 40 major sedimentary layers visible in its walls. Each layer tells a different story about Earth's past environments - from ancient seas to vast deserts."
         },
         {
-            "id": 2,
-            "text": "Which tool do scientists primarily use to organize and track major events in Earth's 4.6-billion-year history?",
+            "id": 3,
+            "text": "Why are fossils more commonly found in sedimentary rocks compared to other types of rocks?",
             "options": [
                 {
-                    "text": "The geologic time scale",
+                    "text": "Sedimentary rocks are older than other rock types, so they have had more time to form fossils",
+                    "isCorrect": 0,
+                    "explanation": "Sedimentary rocks are not necessarily older than other rock types. Age is not what determines fossil presence - it's the rock formation process."
+                },
+                {
+                    "text": "Living organisms are only found in areas where sedimentary rocks form",
+                    "isCorrect": 0,
+                    "explanation": "Living organisms exist in many different environments, not just where sedimentary rocks form. The preservation process, not the location of organisms, determines where fossils are found."
+                },
+                {
+                    "text": "Sedimentary rocks form when sediments are layered and compressed, making them ideal for preserving organisms that get buried",
                     "isCorrect": 1,
-                    "explanation": "The geologic time scale is the primary tool scientists use to organize Earth's history, using rock layers and fossils to determine the sequence of major events."
+                    "explanation": "Organisms that die get buried in sediment layers which are then compressed over time, preserving the remains as fossils. This process of layering and compression is unique to sedimentary rocks."
                 },
                 {
-                    "text": "Carbon dating",
+                    "text": "Sedimentary rocks are the only type of rocks that contain minerals necessary for fossil formation",
                     "isCorrect": 0,
-                    "explanation": "While carbon dating is useful for dating relatively recent organic materials, it cannot be used to organize all of Earth's history since it only works for materials up to about 60,000 years old."
-                },
-                {
-                    "text": "Written historical records",
-                    "isCorrect": 0,
-                    "explanation": "Written historical records only cover a tiny fraction of Earth's history - just a few thousand years. They cannot help organize events from billions of years ago."
-                },
-                {
-                    "text": "Tree ring patterns",
-                    "isCorrect": 0,
-                    "explanation": "Tree ring patterns (dendrochronology) can only date materials back a few thousand years and cannot help organize the vast majority of Earth's history."
+                    "explanation": "The mineral content of rocks is not what determines fossil preservation. It's the process of how the rock forms that matters."
                 }
             ],
-            "funFact": "The oldest known rocks on Earth are found in northwestern Canada and are about 4 billion years old, helping scientists understand what Earth was like during its early history!"
+            "funFact": "The largest fossils ever found are dinosaur trace fossils - specifically sauropod trackways. One trackway in France extends for nearly 155 meters and contains 110 consecutive footprints!"
         },
         {
-            "id": 3,
+            "id": 4,
             "text": "What evidence from rock layers supports the sudden increase in animal diversity during the Cambrian explosion?",
             "options": [
                 {
-                    "text": "A dramatic increase in diverse animal fossils appears in rock layers from the Cambrian period, compared to older layers showing mainly microbial fossils",
-                    "isCorrect": 1,
-                    "explanation": "The Cambrian explosion is evidenced by a sudden appearance of diverse animal fossils in Cambrian rock layers, contrasting with simpler life forms found in older rocks"
+                    "text": "Only dinosaur fossils are found in Cambrian rock layers, showing limited diversity",
+                    "isCorrect": 0,
+                    "explanation": "Dinosaurs had not yet evolved during the Cambrian period - the fossils from this time are mainly marine invertebrates"
                 },
                 {
                     "text": "Rock layers from the Cambrian period contain fewer fossils than older layers, showing a decrease in life forms",
@@ -71,9 +98,9 @@
                     "explanation": "This is incorrect - Cambrian layers actually show an increase in fossil diversity compared to older layers"
                 },
                 {
-                    "text": "Only dinosaur fossils are found in Cambrian rock layers, showing limited diversity",
-                    "isCorrect": 0,
-                    "explanation": "Dinosaurs had not yet evolved during the Cambrian period - the fossils from this time are mainly marine invertebrates"
+                    "text": "A dramatic increase in diverse animal fossils appears in rock layers from the Cambrian period, compared to older layers showing mainly microbial fossils",
+                    "isCorrect": 1,
+                    "explanation": "The Cambrian explosion is evidenced by a sudden appearance of diverse animal fossils in Cambrian rock layers, contrasting with simpler life forms found in older rocks"
                 },
                 {
                     "text": "Cambrian rock layers contain the same types of fossils as all other time periods",
@@ -84,171 +111,100 @@
             "funFact": "The Cambrian explosion occurred around 541 million years ago and lasted about 25 million years - a relatively short time in geological terms. During this period, nearly all major animal body plans (phyla) that exist today first appeared in the fossil record!"
         },
         {
-            "id": 4,
-            "text": "What can scientists conclude when they find marine fossils like seashells and fish remains embedded in rocks at high elevations in mountain ranges?",
-            "options": [
-                {
-                    "text": "The area where the mountain is now located was once covered by water",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. The presence of marine fossils in mountain rocks indicates that the area was once underwater, and geological processes like tectonic activity later pushed these rock layers upward to form mountains."
-                },
-                {
-                    "text": "Ancient sea creatures could live on land and climb mountains",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Marine organisms are adapted to live in water and cannot survive on land. The fossils indicate the environment was different in the past, not that the organisms had different abilities."
-                },
-                {
-                    "text": "Floods carried dead sea creatures up the mountains",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While floods can move materials, they cannot explain marine fossils embedded within the mountain's rock layers. These fossils were preserved when the sediments were originally deposited underwater."
-                },
-                {
-                    "text": "The fossils were created by mineral deposits in mountain caves",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. The marine fossils are actual remains or impressions of once-living organisms that were preserved in sedimentary layers, not mineral formations that occurred in caves."
-                }
-            ],
-            "funFact": "Mount Everest, the world's highest peak, contains marine fossils including remains of creatures that lived in an ancient ocean called the Tethys Sea about 400 million years ago! These fossils are now found at elevations over 29,000 feet above sea level."
-        },
-        {
             "id": 5,
-            "text": "What evidence supports the theory that a meteor impact caused the mass extinction of dinosaurs?",
+            "text": "Which statement correctly describes how geologists determine the relative ages of undisturbed rock layers?",
             "options": [
                 {
-                    "text": "A distinctive rock layer containing high levels of meteor dust and showing a sharp decline in dinosaur fossils above it",
+                    "text": "The age of rock layers is random and cannot be determined by their position",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The position of rock layers follows a predictable pattern based on when they were deposited, allowing scientists to determine their relative ages."
+                },
+                {
+                    "text": "Newer sedimentary rock layers are found on top of older rock layers",
                     "isCorrect": 1,
-                    "explanation": "The KT boundary layer contains meteor dust and marks a clear division between abundant dinosaur fossils below and their absence above, providing strong evidence for the meteor impact extinction theory."
+                    "explanation": "This is correct! When sediments are deposited over time, newer layers accumulate on top of existing layers, forming a sequence where older layers are at the bottom and newer layers are at the top."
                 },
                 {
-                    "text": "Volcanic rocks showing increased volcanic activity at the time of dinosaur extinction",
+                    "text": "Newer sedimentary rock layers are found below older rock layers",
                     "isCorrect": 0,
-                    "explanation": "While volcanic activity occurred during Earth's history, the primary evidence for dinosaur extinction comes from the meteor impact layer, not volcanic rocks."
+                    "explanation": "This is incorrect. In undisturbed rock layers, the opposite is true - newer layers are found on top of older layers due to the process of sediment deposition over time."
                 },
                 {
-                    "text": "Gradual changes in dinosaur fossils showing they slowly evolved into modern birds",
+                    "text": "All rock layers in an area are formed at the same time",
                     "isCorrect": 0,
-                    "explanation": "While some dinosaurs evolved into birds, this was not related to the mass extinction event. The evidence shows a sudden disappearance of most dinosaur species."
-                },
-                {
-                    "text": "Ice age deposits indicating climate change killed the dinosaurs",
-                    "isCorrect": 0,
-                    "explanation": "The dinosaur extinction wasn't caused by an ice age. The evidence in rock layers clearly points to a sudden event - the meteor impact."
+                    "explanation": "This is incorrect. Rock layers form over long periods of time through the gradual deposition of sediments, not all at once."
                 }
             ],
-            "funFact": "The meteor that caused the dinosaur extinction was about 6 miles (10 kilometers) wide and left behind a crater off the coast of Mexico that's 93 miles (150 kilometers) wide. The impact was so powerful it ejected debris all around the planet!"
+            "funFact": "The principle that younger rock layers are found above older layers is called the Law of Superposition, first proposed by Nicolas Steno in 1669. This fundamental principle revolutionized our understanding of Earth's history and remains a cornerstone of modern geology."
         },
         {
             "id": 6,
-            "text": "Marine fossils like seashells and coral have been discovered in rock layers high up in the Himalayan mountains. What does this evidence suggest about Earth's past?",
+            "text": "When magma intrudes through layers of sedimentary rock and solidifies, which statement correctly describes how this helps geologists determine the relative ages of these geological features?",
             "options": [
                 {
-                    "text": "The mountains were once underwater and were pushed up by geological forces over millions of years",
+                    "text": "The age relationship between the intrusion and sedimentary layers cannot be determined",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. The principle of cross-cutting relationships allows us to determine that intrusions are always younger than the rocks they cut through."
+                },
+                {
+                    "text": "The intrusion must be younger than the sedimentary layers it cuts through",
                     "isCorrect": 1,
-                    "explanation": "The presence of marine fossils in mountain rocks indicates these areas were once ocean floors that were uplifted through tectonic processes, demonstrating how Earth's surface has dramatically changed over time."
+                    "explanation": "This is correct. Any feature that cuts through existing rock layers must be younger than those layers, as the layers had to exist first for the intrusion to cut through them."
                 },
                 {
-                    "text": "Ancient sea creatures climbed up the mountains and died there",
+                    "text": "The intrusion must be the same age as the sedimentary layers it cuts through",
                     "isCorrect": 0,
-                    "explanation": "Marine organisms cannot survive on land or at high altitudes. The fossils were formed when these creatures died in their marine environment, which was later uplifted."
+                    "explanation": "This is incorrect. The intrusion cannot be the same age as the layers it cuts through, as the layers had to exist first before the magma could intrude through them."
                 },
                 {
-                    "text": "Great floods carried sea creatures up to the mountain tops",
+                    "text": "The intrusion must be older than the sedimentary layers it cuts through",
                     "isCorrect": 0,
-                    "explanation": "While floods can move materials, they cannot explain marine fossils embedded within the mountain's rock layers. These fossils were preserved in marine sediments before mountain formation."
-                },
-                {
-                    "text": "The fossils formed in freshwater lakes that existed on the mountains",
-                    "isCorrect": 0,
-                    "explanation": "The specific types of marine fossils found can only form in saltwater environments, not in freshwater lakes. Their presence indicates a marine environment existed before mountain formation."
+                    "explanation": "This is incorrect. An intrusion must be younger than the rocks it cuts through since the rocks had to exist first for the magma to intrude through them."
                 }
             ],
-            "funFact": "Mount Everest, the world's highest peak, contains marine limestone layers with fossils of ancient sea creatures that lived approximately 450 million years ago, when that rock was forming at the bottom of a tropical sea!"
+            "funFact": "The principle of cross-cutting relationships was first formulated by James Hutton in the late 1700s and was one of the fundamental principles that helped establish geology as a modern science. This principle is still used today to determine the relative ages of rocks and geological features worldwide."
         },
         {
             "id": 7,
-            "text": "Which statement best explains how the Grand Canyon's rock layers help scientists understand Earth's geological history?",
+            "text": "Which statement best explains how volcanic eruptions help scientists establish the timing of events in Earth's history?",
             "options": [
                 {
-                    "text": "The exposed rock layers in the Grand Canyon reveal how water erosion over millions of years has uncovered progressively older rock formations, with the oldest rocks at the bottom",
+                    "text": "The temperature of volcanic rocks tells scientists exactly when the eruption occurred",
+                    "isCorrect": 0,
+                    "explanation": "The temperature of volcanic rocks cannot tell us the exact timing of ancient eruptions. The rocks cool relatively quickly after eruption and do not preserve temperature information over geological time."
+                },
+                {
+                    "text": "Volcanic eruptions destroy all evidence of previous events, creating a fresh starting point",
+                    "isCorrect": 0,
+                    "explanation": "Volcanic eruptions add new layers but do not destroy all evidence below them. The underlying rock layers and fossils are preserved, maintaining the record of earlier events."
+                },
+                {
+                    "text": "Volcanic deposits create distinct layers that can be used as markers to determine if other events happened before or after the eruption",
                     "isCorrect": 1,
-                    "explanation": "Correct! The Grand Canyon's distinctive layers were exposed through long-term erosion by the Colorado River, revealing a vertical timeline of Earth's history with older rocks at deeper levels"
+                    "explanation": "Volcanic eruptions leave behind distinctive ash and rock layers that serve as time markers. Events preserved in layers below the volcanic deposit occurred before the eruption, while those above occurred after."
                 },
                 {
-                    "text": "The rock layers in the Grand Canyon formed suddenly during a single catastrophic flood event that carved out the entire canyon",
+                    "text": "Volcanic eruptions always occur at regular intervals, allowing scientists to count backwards in time",
                     "isCorrect": 0,
-                    "explanation": "While water played a key role, the Grand Canyon formed gradually over millions of years, not in a single event"
-                },
-                {
-                    "text": "The different colored rock layers in the Grand Canyon were created by volcanic activity that occurred simultaneously across the region",
-                    "isCorrect": 0,
-                    "explanation": "The different rock layers represent various time periods and formation processes, not just volcanic activity"
-                },
-                {
-                    "text": "The rock layers in the Grand Canyon are randomly arranged and don't provide any information about Earth's history",
-                    "isCorrect": 0,
-                    "explanation": "The rock layers are actually arranged in a specific order that helps scientists understand the sequence of geological events"
+                    "explanation": "Volcanic eruptions do not occur at regular intervals. Their timing is unpredictable and varies based on geological conditions."
                 }
             ],
-            "funFact": "The oldest rocks found at the bottom of the Grand Canyon are nearly 2 billion years old, while the youngest rocks at the rim are about 270 million years old - meaning the Grand Canyon's layers represent almost half of Earth's entire history!"
+            "funFact": "The largest known volcanic eruption in Earth's history occurred 252 million years ago in what is now Siberia. It lasted for nearly a million years and contributed to the largest mass extinction event ever, known as the Great Dying, where about 90% of all species disappeared!"
         },
         {
             "id": 8,
-            "text": "How do earthquakes contribute to the discovery of new fossils and our understanding of Earth's history?",
-            "options": [
-                {
-                    "text": "By shaking and cracking Earth's crust, exposing previously buried rock layers and fossils",
-                    "isCorrect": 1,
-                    "explanation": "Earthquakes create cracks and move rock layers, revealing fossils and rock formations that were previously hidden deep underground. This helps scientists study Earth's past."
-                },
-                {
-                    "text": "By creating new fossils when organisms are trapped during the earthquake",
-                    "isCorrect": 0,
-                    "explanation": "Fossilization is a long process that occurs over thousands of years, not during sudden events like earthquakes. Earthquakes help expose existing fossils rather than create new ones."
-                },
-                {
-                    "text": "By destroying younger rock layers to reveal only the oldest fossils",
-                    "isCorrect": 0,
-                    "explanation": "Earthquakes don't selectively destroy rock layers. They can expose various layers from different time periods, not just the oldest ones."
-                },
-                {
-                    "text": "By melting rocks to form new sedimentary layers containing fossils",
-                    "isCorrect": 0,
-                    "explanation": "Earthquakes don't melt rocks or create new sedimentary layers. Sedimentary rocks form gradually through deposition and compression of sediments."
-                }
-            ],
-            "funFact": "The strongest earthquake ever recorded was a magnitude 9.5 in Chile in 1960. It exposed numerous marine fossils in coastal areas, leading to important paleontological discoveries that helped scientists better understand the region's ancient marine life."
-        },
-        {
-            "id": 9,
-            "text": "Which statement best explains how sedimentary rocks help preserve evidence of ancient life forms?",
-            "options": [
-                {
-                    "text": "Sediment layers deposit on top of organisms and compress over time, creating fossils within the rock layers",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. When organisms die, they can be covered by sediment. As more layers accumulate, the pressure compacts the sediment and preserves the organism as a fossil."
-                },
-                {
-                    "text": "Organisms actively burrow into sedimentary rocks to create fossils",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Fossils aren't created by organisms burrowing into rocks - they form when organisms are buried by sediment that later becomes rock."
-                },
-                {
-                    "text": "Sedimentary rocks dissolve organisms and leave behind hollow spaces",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Sedimentary rocks don't dissolve organisms. Rather, they preserve the remains or impressions of organisms through burial and compression."
-                },
-                {
-                    "text": "Organisms are transformed into sedimentary rocks through metamorphic processes",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Fossils in sedimentary rocks form through burial and compression of remains, not through metamorphic transformation of the organisms themselves."
-                }
-            ],
-            "funFact": "The oldest known fossils are microscopic remains of bacteria found in rocks that are approximately 3.5 billion years old! These ancient microorganisms were preserved in sedimentary rocks formed in shallow waters, giving us a glimpse into Earth's earliest life forms."
-        },
-        {
-            "id": 10,
             "text": "Scientists have discovered multiple evidence types that help them reconstruct Earth's history. Which combination of evidence provides the most complete picture for organizing Earth's 4.6-billion-year timeline?",
             "options": [
+                {
+                    "text": "Only evidence from major geological events",
+                    "isCorrect": 0,
+                    "explanation": "Major events like meteor impacts provide important timeline markers, but without rock layers and fossils, we would miss the continuous record of Earth's history between these events."
+                },
+                {
+                    "text": "Only fossil records from different time periods",
+                    "isCorrect": 0,
+                    "explanation": "Fossil records alone, while valuable, wouldn't provide the complete context that rock layers and major geological events offer for organizing Earth's timeline."
+                },
                 {
                     "text": "Rock layers, fossil records, and major geological events",
                     "isCorrect": 1,
@@ -258,132 +214,73 @@
                     "text": "Only rock layers and their relative positions",
                     "isCorrect": 0,
                     "explanation": "While rock layer positions are important, using only this evidence would miss crucial information from fossils and major events that help date and organize Earth's history."
-                },
-                {
-                    "text": "Only fossil records from different time periods",
-                    "isCorrect": 0,
-                    "explanation": "Fossil records alone, while valuable, wouldn't provide the complete context that rock layers and major geological events offer for organizing Earth's timeline."
-                },
-                {
-                    "text": "Only evidence from major geological events",
-                    "isCorrect": 0,
-                    "explanation": "Major events like meteor impacts provide important timeline markers, but without rock layers and fossils, we would miss the continuous record of Earth's history between these events."
                 }
             ],
             "funFact": "The oldest rock ever found on Earth is a zircon crystal from Australia that's about 4.4 billion years old - almost as old as Earth itself! Scientists used multiple dating methods to determine its age, showing how different types of evidence work together to understand Earth's history."
         },
         {
+            "id": 9,
+            "text": "Which principle helps geologists determine the relative ages of undisturbed sedimentary rock layers?",
+            "options": [
+                {
+                    "text": "All rock layers are formed at the same time",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Rock layers form over long periods of time, with newer layers being deposited on top of existing layers."
+                },
+                {
+                    "text": "Younger rock layers are typically found below older rock layers",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. In undisturbed sedimentary rock layers, the opposite is true - younger layers are found on top of older layers."
+                },
+                {
+                    "text": "Younger rock layers are typically found above older rock layers",
+                    "isCorrect": 1,
+                    "explanation": "This is correct! This principle, known as the Law of Superposition, states that in undisturbed rock sequences, younger sedimentary rocks are deposited on top of older rocks."
+                },
+                {
+                    "text": "Rock layers of the same age are always the same thickness",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. Rock layers of the same age can vary in thickness depending on the amount of sediment deposited and other geological processes."
+                }
+            ],
+            "funFact": "The Law of Superposition was first proposed by Danish scientist Nicolas Steno in 1669, making it one of the oldest principles in geology. This fundamental concept helps scientists reconstruct billions of years of Earth's history!"
+        },
+        {
+            "id": 10,
+            "text": "How do scientists use evidence from rock layers to identify and understand the Cambrian explosion?",
+            "options": [
+                {
+                    "text": "By studying the sudden appearance of many new fossils of complex organisms in rock layers from this time period",
+                    "isCorrect": 1,
+                    "explanation": "The Cambrian explosion is identified by a dramatic increase in the diversity of fossils found in rock layers from this period, showing the first appearance of many complex organisms."
+                },
+                {
+                    "text": "By counting the number of rock layers formed during this period",
+                    "isCorrect": 0,
+                    "explanation": "The number of rock layers alone doesn't indicate the emergence of new life forms - it's the fossil content within these layers that provides evidence of the Cambrian explosion."
+                },
+                {
+                    "text": "By measuring the radioactive elements in volcanic rocks from this period",
+                    "isCorrect": 0,
+                    "explanation": "While radiometric dating is useful for determining absolute ages, the Cambrian explosion is primarily identified through the fossil evidence in rock layers."
+                },
+                {
+                    "text": "By examining the chemical composition of rocks from this time",
+                    "isCorrect": 0,
+                    "explanation": "The chemical composition of rocks alone cannot tell us about the emergence of new life forms during the Cambrian explosion."
+                }
+            ],
+            "funFact": "The Cambrian explosion occurred around 540 million years ago and lasted about 25 million years - a relatively short time in geological terms. During this period, nearly all major animal body plans (phyla) that exist today first appeared in the fossil record!"
+        },
+        {
             "id": 11,
-            "text": "In rock layers containing fossils, which sequence of observations would provide evidence for the evolution of life from simple to more complex organisms over time?",
-            "options": [
-                {
-                    "text": "Simple microbial fossils in lower layers, followed by marine invertebrates in middle layers, and vertebrate fossils in upper layers",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows the progression of life from simple to complex organisms as evidenced in the fossil record, with oldest fossils at the bottom and youngest at the top"
-                },
-                {
-                    "text": "Vertebrate fossils in lower layers, followed by marine invertebrates in middle layers, and microbial fossils in upper layers",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is backwards - simpler organisms appeared before complex ones in Earth's history, not after them"
-                },
-                {
-                    "text": "Mixed fossils of microbes, invertebrates, and vertebrates appearing randomly throughout all rock layers",
-                    "isCorrect": 0,
-                    "explanation": "Random distribution of fossils would not show evolutionary progression - fossils appear in a clear sequence from simple to complex life forms"
-                },
-                {
-                    "text": "Only vertebrate fossils throughout all rock layers, with no evidence of simpler life forms",
-                    "isCorrect": 0,
-                    "explanation": "Complex vertebrates evolved from simpler organisms - their fossils would not be found alone throughout all rock layers"
-                }
-            ],
-            "funFact": "The Cambrian explosion, occurring around 541 million years ago, was a relatively brief period when most major animal body plans appeared in the fossil record, marking one of the most important evolutionary events in Earth's history."
-        },
-        {
-            "id": 12,
-            "text": "A geologist discovers alternating layers of rock containing fossils in a cliff face. The bottom layer contains marine fossils like fish and shells. The next layer up contains land-based fossils like tree leaves and small mammals. This pattern of marine and land fossils repeats several times up the cliff. What does this alternating pattern of fossils suggest about this location's past?",
-            "options": [
-                {
-                    "text": "The area repeatedly switched between being underwater and above water over long periods of time",
-                    "isCorrect": 1,
-                    "explanation": "The alternating layers of marine and terrestrial fossils indicate that this area went through cycles of being underwater (forming marine fossils) and being dry land (forming terrestrial fossils) over geological time"
-                },
-                {
-                    "text": "Marine animals periodically evolved into land animals at this location",
-                    "isCorrect": 0,
-                    "explanation": "Evolution occurs over much longer timescales and doesn't explain the back-and-forth pattern between marine and land fossils. The fossils represent different environments rather than evolutionary changes"
-                },
-                {
-                    "text": "Floods regularly washed land animals into the ocean at this spot",
-                    "isCorrect": 0,
-                    "explanation": "While floods can move fossils, they wouldn't create distinct alternating layers of marine and terrestrial fossils. The pattern suggests longer-term environmental changes"
-                },
-                {
-                    "text": "The fossils were mixed up by earthquakes and volcanic activity",
-                    "isCorrect": 0,
-                    "explanation": "If earthquakes or volcanoes had disturbed the layers, the fossils would appear jumbled rather than in clear alternating layers of marine and terrestrial organisms"
-                }
-            ],
-            "funFact": "Similar alternating patterns of marine and terrestrial fossils can be found in the walls of the Grand Canyon, revealing that what is now desert was once covered by shallow seas multiple times over hundreds of millions of years!"
-        },
-        {
-            "id": 13,
-            "text": "Look at this sequence of events in a rock formation:\n1. Formation of horizontal sedimentary layers\n2. Magma intrusion through older rocks\n3. Erosion of top layers\n\nWhich of these correctly orders these events from oldest to most recent?",
-            "options": [
-                {
-                    "text": "2, 1, 3",
-                    "isCorrect": 0,
-                    "explanation": "This order is incorrect because magma intrusions must cut through existing rock layers, so they cannot occur before the layers form."
-                },
-                {
-                    "text": "1, 2, 3",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Sedimentary layers must form first, then magma can intrude through these existing layers, and finally erosion can wear away the top layers."
-                },
-                {
-                    "text": "3, 1, 2",
-                    "isCorrect": 0,
-                    "explanation": "This order is impossible because erosion cannot occur before the rock layers exist to be eroded."
-                },
-                {
-                    "text": "1, 3, 2",
-                    "isCorrect": 0,
-                    "explanation": "This order is incorrect because it doesn't follow the principle of cross-cutting relationships. Magma intrusions must cut through existing rock, and in this scenario, the intrusion is described as occurring through older rocks before the erosion event."
-                }
-            ],
-            "funFact": "The principle of cross-cutting relationships was first described by James Hutton in the late 1700s. He realized that any geological feature that cuts through rock must be younger than the rock it cuts through - a fundamental principle still used by geologists today!"
-        },
-        {
-            "id": 14,
-            "text": "A geologist discovers a deep canyon with exposed rock layers. At the bottom of the canyon, there are visible signs of river erosion patterns. What can this evidence tell us about how the deeper rock layers became exposed?",
-            "options": [
-                {
-                    "text": "The river's erosion gradually cut through the rock layers, exposing older layers at the bottom",
-                    "isCorrect": 1,
-                    "explanation": "Rivers can slowly erode rock layers over time, cutting deeper channels and exposing progressively older rock layers underneath. This process of weathering and erosion is a key way geologists can study Earth's history."
-                },
-                {
-                    "text": "The older rocks pushed themselves up through newer layers to become visible",
-                    "isCorrect": 0,
-                    "explanation": "While rock layers can be pushed up through tectonic activity, the erosion patterns indicate this canyon was formed by the river cutting down through the layers over time."
-                },
-                {
-                    "text": "Earthquakes suddenly split the ground to reveal the deeper layers",
-                    "isCorrect": 0,
-                    "explanation": "While earthquakes can expose rock layers through faulting, the presence of river erosion patterns indicates this canyon was formed gradually through weathering and erosion processes."
-                },
-                {
-                    "text": "The deeper rocks naturally dissolve faster than surface rocks",
-                    "isCorrect": 0,
-                    "explanation": "Deeper rocks don't naturally dissolve faster than surface rocks. The exposure of deeper layers in this case is due to the river's erosional force cutting through the layers over time."
-                }
-            ],
-            "funFact": "The Grand Canyon took approximately 70 million years to form through river erosion, exposing rock layers that are up to 2 billion years old. Each exposed layer represents a different chapter in Earth's geological history!"
-        },
-        {
-            "id": 15,
             "text": "In a rock formation, scientists discovered several fossils in different layers. From bottom to top, the layers contain: Layer 1 (bottom) - trilobite fossils, Layer 2 - early fish fossils, Layer 3 - early amphibian fossils, Layer 4 (top) - early reptile fossils. Which organism existed first on Earth?",
             "options": [
+                {
+                    "text": "Early amphibians",
+                    "isCorrect": 0,
+                    "explanation": "Early amphibians were found in Layer 3, above both trilobites and fish, showing they appeared later in Earth's history."
+                },
                 {
                     "text": "Trilobites",
                     "isCorrect": 1,
@@ -395,17 +292,120 @@
                     "explanation": "While early fish appeared before amphibians and reptiles, they were found in Layer 2, above the trilobites, indicating they appeared after trilobites."
                 },
                 {
-                    "text": "Early amphibians",
-                    "isCorrect": 0,
-                    "explanation": "Early amphibians were found in Layer 3, above both trilobites and fish, showing they appeared later in Earth's history."
-                },
-                {
                     "text": "Early reptiles",
                     "isCorrect": 0,
                     "explanation": "Early reptiles were found in the topmost layer (Layer 4), indicating they appeared most recently among these organisms."
                 }
             ],
             "funFact": "Trilobites were one of the most successful groups of animals ever to exist, surviving for over 270 million years before going extinct about 252 million years ago. They were so abundant that today they are among the most commonly found fossils worldwide!"
+        },
+        {
+            "id": 12,
+            "text": "Look at this sequence of events in a rock formation:\n1. Formation of horizontal sedimentary layers\n2. Magma intrusion through older rocks\n3. Erosion of top layers\n\nWhich of these correctly orders these events from oldest to most recent?",
+            "options": [
+                {
+                    "text": "2, 1, 3",
+                    "isCorrect": 0,
+                    "explanation": "This order is incorrect because magma intrusions must cut through existing rock layers, so they cannot occur before the layers form."
+                },
+                {
+                    "text": "3, 1, 2",
+                    "isCorrect": 0,
+                    "explanation": "This order is impossible because erosion cannot occur before the rock layers exist to be eroded."
+                },
+                {
+                    "text": "1, 3, 2",
+                    "isCorrect": 0,
+                    "explanation": "This order is incorrect because it doesn't follow the principle of cross-cutting relationships. Magma intrusions must cut through existing rock, and in this scenario, the intrusion is described as occurring through older rocks before the erosion event."
+                },
+                {
+                    "text": "1, 2, 3",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Sedimentary layers must form first, then magma can intrude through these existing layers, and finally erosion can wear away the top layers."
+                }
+            ],
+            "funFact": "The principle of cross-cutting relationships was first described by James Hutton in the late 1700s. He realized that any geological feature that cuts through rock must be younger than the rock it cuts through - a fundamental principle still used by geologists today!"
+        },
+        {
+            "id": 13,
+            "text": "Scientists discovered a rock formation with four distinct layers containing fossils. Layer 1 (bottom) contains only simple microbial fossils. Layer 2 contains extinct marine invertebrates. Layer 3 contains both dinosaur fossils and extinct mammals. Layer 4 (top) contains fossils of mammals that still exist today. What can we conclude about the relative ages of these layers?",
+            "options": [
+                {
+                    "text": "The age of the layers cannot be determined from fossil evidence",
+                    "isCorrect": 0,
+                    "explanation": "Fossil evidence is a reliable way to determine relative ages of rock layers. The progression from ancient life forms to modern species helps establish the relative timing of layer formation."
+                },
+                {
+                    "text": "Layer 4 is the youngest and Layer 1 is the oldest layer",
+                    "isCorrect": 1,
+                    "explanation": "Since newer rock layers form on top of older layers, Layer 4 is the youngest. The presence of only microbial fossils in Layer 1 indicates it's from Earth's earliest life forms, making it the oldest."
+                },
+                {
+                    "text": "All layers formed at the same time but contain different organisms",
+                    "isCorrect": 0,
+                    "explanation": "Rock layers form sequentially over time, not simultaneously. The progression of fossils from simple life forms to complex modern organisms indicates different time periods."
+                },
+                {
+                    "text": "Layer 1 is the youngest and Layer 4 is the oldest layer",
+                    "isCorrect": 0,
+                    "explanation": "This contradicts the principle that newer layers form on top of older layers. Additionally, the fossil progression from microbes to modern mammals shows an evolutionary sequence from old to new."
+                }
+            ],
+            "funFact": "The oldest known fossils on Earth are of microscopic organisms found in rocks that are approximately 3.5 billion years old! These ancient microbes were similar to today's bacteria and were the only form of life on Earth for nearly 2 billion years."
+        },
+        {
+            "id": 14,
+            "text": "Marine fossils have been discovered high up in the Himalayan Mountains. What is the most likely explanation for finding these aquatic remains at such high elevations?",
+            "options": [
+                {
+                    "text": "The area where the Himalayas now stand was once covered by an ancient ocean",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. The presence of marine fossils in mountains indicates that these areas were once underwater before geological processes lifted them up to form mountains."
+                },
+                {
+                    "text": "The marine organisms climbed up the mountains before they became fossils",
+                    "isCorrect": 0,
+                    "explanation": "Marine organisms cannot survive on land or climb mountains. This explanation contradicts basic biological principles."
+                },
+                {
+                    "text": "Ancient floods carried marine organisms up the mountains",
+                    "isCorrect": 0,
+                    "explanation": "While floods can move materials, they cannot deposit marine fossils consistently throughout mountain ranges. The systematic presence of marine fossils indicates a more fundamental geological process."
+                },
+                {
+                    "text": "The fossils were carried up by volcanic activity",
+                    "isCorrect": 0,
+                    "explanation": "Volcanic activity typically destroys fossils rather than preserving them. The widespread presence of intact marine fossils suggests a different geological process."
+                }
+            ],
+            "funFact": "The Himalayas continue to grow about 5 millimeters (0.2 inches) taller each year due to ongoing tectonic plate collision, the same process that lifted ancient seafloor containing marine fossils to their current elevation."
+        },
+        {
+            "id": 15,
+            "text": "Scientists discovered a rock formation containing fossilized seashells high up in the Rocky Mountains. What can this evidence tell us about the environmental conditions of this area in the past?",
+            "options": [
+                {
+                    "text": "This area was once underwater and was later uplifted through geological processes",
+                    "isCorrect": 1,
+                    "explanation": "The presence of marine fossils in mountain regions indicates that these areas were once ocean floors that were later pushed upward through tectonic activity"
+                },
+                {
+                    "text": "Ancient sea creatures climbed up the mountains",
+                    "isCorrect": 0,
+                    "explanation": "Marine creatures cannot survive on land or climb mountains. Their fossils in mountainous regions indicate geological changes rather than animal behavior"
+                },
+                {
+                    "text": "The fossils were carried up the mountain by floods",
+                    "isCorrect": 0,
+                    "explanation": "Floods cannot transport and deposit fossils embedded in rock layers high up in mountains. The fossils were formed when the area was underwater"
+                },
+                {
+                    "text": "The seashells were left behind by early human settlements",
+                    "isCorrect": 0,
+                    "explanation": "The fossilized seashells are much older than human civilization and are preserved within rock layers, indicating they were naturally deposited when the area was an ocean"
+                }
+            ],
+            "funFact": "The highest marine fossil ever found was discovered in the Himalayas at an elevation of over 26,000 feet - nearly the height of Mount Everest! These fossils were once part of the ocean floor before the Indian and Eurasian tectonic plates collided to form the mountain range."
         }
     ]
 }

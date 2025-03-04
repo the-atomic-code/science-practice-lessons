@@ -4,35 +4,13 @@
     "questions": [
         {
             "id": 1,
-            "text": "A student performed several tests on a substance before and after a reaction. Which observation would provide the strongest evidence that a chemical reaction occurred?",
-            "options": [
-                {
-                    "text": "The substance changed from a solid to a liquid",
-                    "isCorrect": 0,
-                    "explanation": "This is a physical change (phase change) where no new substance is formed. The same substance just changes its state while maintaining its chemical composition."
-                },
-                {
-                    "text": "The substance permanently changed color",
-                    "isCorrect": 1,
-                    "explanation": "A permanent change in color often indicates that a new substance has formed with different chemical composition and properties, suggesting a chemical reaction has occurred."
-                },
-                {
-                    "text": "The substance was split into smaller pieces",
-                    "isCorrect": 0,
-                    "explanation": "Breaking a substance into smaller pieces is a physical change. The chemical composition remains the same, just in smaller portions."
-                },
-                {
-                    "text": "The substance became colder to touch",
-                    "isCorrect": 0,
-                    "explanation": "Temperature change alone does not indicate a chemical reaction. Many physical changes also involve temperature changes."
-                }
-            ],
-            "funFact": "Scientists often use multiple indicators together to confirm chemical reactions, including color changes, gas formation, temperature changes, and precipitation. The famous 'elephant toothpaste' experiment shows multiple indicators at once - color change, foam formation, and heat release!"
-        },
-        {
-            "id": 2,
             "text": "During a chemical reaction, iron (Fe) atoms combine with oxygen (O\u2082) molecules to form iron oxide (rust). Which statement best describes what happens to the atoms during this reaction?",
             "options": [
+                {
+                    "text": "New iron and oxygen atoms are created when rust forms",
+                    "isCorrect": 0,
+                    "explanation": "Atoms cannot be created in chemical reactions. The new substance (rust) forms from the existing iron and oxygen atoms rearranging themselves."
+                },
                 {
                     "text": "The atoms rearrange to form new substances, but the total number of iron and oxygen atoms remains the same",
                     "isCorrect": 1,
@@ -44,11 +22,6 @@
                     "explanation": "Atoms cannot be destroyed in chemical reactions. They only rearrange to form new substances while their total number remains constant."
                 },
                 {
-                    "text": "New iron and oxygen atoms are created when rust forms",
-                    "isCorrect": 0,
-                    "explanation": "Atoms cannot be created in chemical reactions. The new substance (rust) forms from the existing iron and oxygen atoms rearranging themselves."
-                },
-                {
                     "text": "The iron atoms transform into oxygen atoms during rust formation",
                     "isCorrect": 0,
                     "explanation": "Atoms of one element cannot transform into atoms of another element during chemical reactions. They only rearrange while maintaining their identity."
@@ -57,94 +30,207 @@
             "funFact": "The rusting of iron costs the global economy over $2.5 trillion annually! This makes understanding and preventing rust formation one of the most economically important applications of chemical reaction knowledge."
         },
         {
-            "id": 3,
-            "text": "Which of the following best describes what a molecule is?",
-            "options": [
-                {
-                    "text": "A molecule is made up of multiple atoms bonded together to form a specific substance",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. A molecule is formed when two or more atoms combine through chemical bonds. For example, oxygen (O2) is a molecule made of two oxygen atoms bonded together."
-                },
-                {
-                    "text": "A molecule is the smallest particle of matter that exists",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Atoms are the smallest particles of matter, while molecules are made up of multiple atoms bonded together."
-                },
-                {
-                    "text": "A molecule is another name for an atom",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Atoms and molecules are different - atoms are the basic building blocks, while molecules are formed when multiple atoms bond together."
-                },
-                {
-                    "text": "A molecule only exists during a chemical reaction",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Molecules exist as stable structures both before and after chemical reactions, not just during reactions. They only rearrange during reactions."
-                }
-            ],
-            "funFact": "The smallest molecule is diatomic hydrogen (H2), made of just two hydrogen atoms bonded together. Among the largest natural molecules are DNA molecules, with human chromosome 1 containing a DNA strand with billions of atoms. Some synthetic polymers and proteins can also reach enormous molecular sizes!"
-        },
-        {
-            "id": 4,
+            "id": 2,
             "text": "During a chemical reaction between hydrogen and oxygen to form water, what happens to the total number of atoms?",
             "options": [
                 {
-                    "text": "The total number of atoms stays exactly the same",
+                    "text": "New atoms are created during the reaction",
+                    "isCorrect": 0,
+                    "explanation": "Chemical reactions cannot create new atoms. The atoms present in the reactants just rearrange to form the products, with no new atoms being created."
+                },
+                {
+                    "text": "Some atoms are destroyed during the reaction",
+                    "isCorrect": 0,
+                    "explanation": "Atoms cannot be destroyed during chemical reactions. They simply rearrange to form new molecules while maintaining the same total number of atoms."
+                },
+                {
+                    "text": "The total number of atoms remains exactly the same",
                     "isCorrect": 1,
-                    "explanation": "According to the Law of Conservation of Matter, atoms cannot be created or destroyed in a chemical reaction - they only rearrange to form new substances. The total number of atoms remains constant."
+                    "explanation": "According to the Law of Conservation of Matter, atoms cannot be created or destroyed in a chemical reaction - they only rearrange to form new substances. The total number of atoms before and after the reaction stays constant."
                 },
                 {
-                    "text": "Some atoms are lost as energy during the reaction",
+                    "text": "Half the atoms combine to form new atoms",
                     "isCorrect": 0,
-                    "explanation": "Atoms cannot be converted into energy during chemical reactions. While energy may be released, the atoms themselves are conserved and simply rearrange."
-                },
-                {
-                    "text": "New atoms are created when water molecules form",
-                    "isCorrect": 0,
-                    "explanation": "Chemical reactions cannot create new atoms. The water molecules are formed by rearranging the existing hydrogen and oxygen atoms."
-                },
-                {
-                    "text": "The number of atoms doubles as molecules combine",
-                    "isCorrect": 0,
-                    "explanation": "While molecules combine in chemical reactions, this does not create more atoms. The same atoms are just arranged differently."
+                    "explanation": "Atoms do not combine to form new atoms in chemical reactions. They maintain their identity and only rearrange to form new molecules."
                 }
             ],
-            "funFact": "The Law of Conservation of Matter was first clearly stated by Antoine Lavoisier in 1789. He demonstrated this by carefully weighing substances before and after reactions in sealed containers, showing that the total mass stayed the same!"
+            "funFact": "The Law of Conservation of Matter was first stated by Antoine Lavoisier in 1789. He discovered this fundamental principle by carefully measuring the mass of substances before and after reactions in sealed containers, finding that the total mass always remained the same!"
         },
         {
-            "id": 5,
-            "text": "When iron reacts with oxygen in the air, rust (iron oxide) forms. Which statement best explains how the properties of rust are different from the properties of iron?",
+            "id": 3,
+            "text": "When iron reacts with oxygen in the air, rust (iron oxide) is formed. Which statement best describes what happens to the atoms during this chemical reaction?",
             "options": [
                 {
-                    "text": "Rust is reddish-brown and not magnetic, while iron is gray and magnetic",
+                    "text": "The iron and oxygen atoms rearrange to form a new substance with different properties, while the total number of atoms remains the same",
                     "isCorrect": 1,
-                    "explanation": "This is correct because chemical reactions form new substances with different properties. When iron reacts with oxygen, the resulting rust has different color and magnetic properties than the original iron."
+                    "explanation": "During a chemical reaction, atoms rearrange to form new molecules with different properties. The total number of atoms is conserved - no atoms are created or destroyed."
                 },
                 {
-                    "text": "Rust has more atoms than iron because oxygen was added",
+                    "text": "New iron and oxygen atoms are created to form the rust",
                     "isCorrect": 0,
-                    "explanation": "While oxygen atoms combine with iron atoms in rust formation, the total number of each type of atom is conserved. The different properties are due to the new arrangement of atoms, not having more atoms."
+                    "explanation": "Chemical reactions do not create new atoms. The atoms from the reactants simply rearrange to form the products."
                 },
+                {
+                    "text": "Some iron and oxygen atoms are destroyed during the reaction to create rust",
+                    "isCorrect": 0,
+                    "explanation": "Atoms cannot be created or destroyed in a chemical reaction. They only rearrange to form new substances."
+                },
+                {
+                    "text": "The iron atoms transform into oxygen atoms to make rust",
+                    "isCorrect": 0,
+                    "explanation": "Atoms of one element cannot transform into atoms of another element during a chemical reaction. They only rearrange while maintaining their identity."
+                }
+            ],
+            "funFact": "The rusting of iron costs the global economy over $2.5 trillion annually! This is why scientists and engineers work hard to develop rust-resistant materials and protective coatings."
+        },
+        {
+            "id": 4,
+            "text": "When iron reacts with oxygen in the air, rust (iron oxide) forms. Which statement best explains how the properties of rust are different from the properties of iron?",
+            "options": [
                 {
                     "text": "Rust and iron have identical properties because they contain the same iron atoms",
                     "isCorrect": 0,
                     "explanation": "Even though rust contains the same iron atoms, the chemical reaction creates a new substance with different properties. The arrangement of atoms, not just their presence, determines properties."
                 },
                 {
+                    "text": "Rust is reddish-brown and not magnetic, while iron is gray and magnetic",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because chemical reactions form new substances with different properties. When iron reacts with oxygen, the resulting rust has different color and magnetic properties than the original iron."
+                },
+                {
                     "text": "Rust weighs less than iron because it crumbles easily",
                     "isCorrect": 0,
                     "explanation": "The crumbly texture of rust is a physical property and doesn't determine mass. In fact, when iron rusts, it gains mass because oxygen atoms from the air combine with the iron atoms."
+                },
+                {
+                    "text": "Rust has more atoms than iron because oxygen was added",
+                    "isCorrect": 0,
+                    "explanation": "While oxygen atoms combine with iron atoms in rust formation, the total number of each type of atom is conserved. The different properties are due to the new arrangement of atoms, not having more atoms."
                 }
             ],
             "funFact": "The rusting of iron costs the global economy over $2.5 trillion annually! This is why scientists and engineers work hard to develop rust-resistant materials and protective coatings for metal structures."
         },
         {
+            "id": 5,
+            "text": "When you observe water freezing in an ice cube tray, which type of change is occurring and why?",
+            "options": [
+                {
+                    "text": "Neither physical nor chemical change, because the water is just getting colder",
+                    "isCorrect": 0,
+                    "explanation": "Changes in temperature that lead to state changes are physical changes. The process of freezing is definitely a change, specifically a physical change."
+                },
+                {
+                    "text": "Chemical change, because the water molecules are breaking apart to form ice",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. During freezing, water molecules don't break apart - they just move closer together and arrange themselves in a crystal structure while remaining H2O."
+                },
+                {
+                    "text": "Chemical change, because the properties of water change when it becomes ice",
+                    "isCorrect": 0,
+                    "explanation": "While the properties do change, this alone doesn't make it a chemical change. Chemical changes require the formation of new substances, which doesn't happen during freezing."
+                },
+                {
+                    "text": "Physical change, because the water molecules only change their arrangement without forming new substances",
+                    "isCorrect": 1,
+                    "explanation": "Correct! When water freezes, the molecules simply move closer together and arrange themselves in a crystal pattern. No new substance is formed, making this a physical change."
+                }
+            ],
+            "funFact": "Water is one of the few substances that expands when it freezes, which is why ice floats! This unique property is crucial for life on Earth, as it allows aquatic organisms to survive under frozen lakes and oceans."
+        },
+        {
             "id": 6,
+            "text": "A student observes two different changes in substances during a science experiment:\n\nChange 1: An ice cube melts into liquid water\nChange 2: A shiny copper penny turns green over time\n\nWhich observation would definitively indicate that a chemical reaction has occurred?",
+            "options": [
+                {
+                    "text": "The penny changing from shiny to green",
+                    "isCorrect": 1,
+                    "explanation": "The penny turning green indicates copper reacting with oxygen, carbon dioxide, and moisture in the air to form new substances (such as copper carbonate or copper hydroxide) with different properties, which is a chemical reaction."
+                },
+                {
+                    "text": "The penny becoming less shiny",
+                    "isCorrect": 0,
+                    "explanation": "While this is part of the chemical reaction occurring, just a change in appearance alone doesn't prove a chemical reaction. The formation of a new substance is the key evidence."
+                },
+                {
+                    "text": "The ice cube changing from a solid to a liquid",
+                    "isCorrect": 0,
+                    "explanation": "This is a physical change where water molecules simply move farther apart. No new substances are formed and the chemical composition remains H2O."
+                },
+                {
+                    "text": "The ice cube becoming smaller as it melts",
+                    "isCorrect": 0,
+                    "explanation": "Change in size during melting is a physical change. The water molecules remain unchanged, they just spread out more."
+                }
+            ],
+            "funFact": "The green substance that forms on copper, called patina, actually helps protect the underlying copper from further corrosion. This is why the Statue of Liberty, made of copper, has turned green over time but remains structurally sound!"
+        },
+        {
+            "id": 7,
+            "text": "Which statement correctly explains why catalysts do not affect the conservation of mass in a chemical reaction?",
+            "options": [
+                {
+                    "text": "A catalyst adds mass at the start of the reaction but removes the same amount at the end",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because catalysts do not add or remove mass during reactions - they simply help speed up the process"
+                },
+                {
+                    "text": "A catalyst breaks down all molecules into atoms which then recombine with the same total mass",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because while atoms rearrange during reactions, catalysts don't necessarily break all molecules into individual atoms"
+                },
+                {
+                    "text": "A catalyst changes the properties of substances without changing their atomic composition",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because catalysts don't directly change properties - they only speed up the reaction that leads to new properties"
+                },
+                {
+                    "text": "A catalyst speeds up the reaction but does not become part of the final products, so the total number of atoms in the reactants equals the total number of atoms in the products",
+                    "isCorrect": 1,
+                    "explanation": "This is correct because catalysts only help facilitate the reaction without being consumed, ensuring mass is conserved between reactants and products"
+                }
+            ],
+            "funFact": "The word 'catalyst' comes from the Greek words 'kata' (down) and 'lyein' (to loosen). Some reactions that would take millions of years without a catalyst can happen in seconds with the right catalyst!"
+        },
+        {
+            "id": 8,
+            "text": "When steel wool is burned, it combines with oxygen to form iron oxide. Which explanation best describes how testing properties like magnetism and flammability helps confirm that a chemical reaction has occurred?",
+            "options": [
+                {
+                    "text": "The iron oxide formed has different properties than the original steel wool - it is no longer flammable and less magnetic, indicating new substances have formed",
+                    "isCorrect": 1,
+                    "explanation": "When a chemical reaction occurs, the products have different properties than the reactants. Testing properties before and after confirms if new substances formed."
+                },
+                {
+                    "text": "The iron oxide weighs more than the steel wool, showing that new substances were created during the reaction",
+                    "isCorrect": 0,
+                    "explanation": "Mass is conserved in chemical reactions - the total mass of products equals the mass of reactants. Change in mass does not indicate a chemical reaction."
+                },
+                {
+                    "text": "The color change from gray to rust color is enough evidence of a chemical reaction, so testing other properties is unnecessary",
+                    "isCorrect": 0,
+                    "explanation": "While color change can suggest a reaction occurred, testing multiple properties provides stronger evidence of new substance formation."
+                },
+                {
+                    "text": "The properties remain exactly the same before and after burning because atoms are conserved in the reaction",
+                    "isCorrect": 0,
+                    "explanation": "Although atoms are conserved, they rearrange to form new substances with different properties. Properties do change in chemical reactions."
+                }
+            ],
+            "funFact": "The rusting of iron, which forms iron oxide, is actually the same chemical reaction as burning steel wool - just much slower! Both involve iron combining with oxygen, but rusting occurs gradually at room temperature while burning happens rapidly at high temperatures."
+        },
+        {
+            "id": 9,
             "text": "Consider these two chemical reactions:\n\nReaction 1: Hydrogen and oxygen combine to form water\n2H2 + O2 \u2192 2H2O\n\nReaction 2: Iron and oxygen combine to form iron oxide (rust)\n4Fe + 3O2 \u2192 2Fe2O3\n\nWhich statement correctly explains why mass is conserved in both reactions?",
             "options": [
                 {
                     "text": "The atoms from the reactants rearrange to form products, with the same number and types of atoms on both sides of each reaction",
                     "isCorrect": 1,
                     "explanation": "This is correct because in both reactions, the total number of each type of atom remains the same before and after the reaction, just arranged differently in new molecules"
+                },
+                {
+                    "text": "The mass is conserved because the products always weigh more than the reactants to balance the equation",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because the products do not always weigh more than the reactants - the total mass stays exactly the same"
                 },
                 {
                     "text": "New atoms are created during the reactions to form the products, but they have the same mass as the original atoms",
@@ -155,206 +241,98 @@
                     "text": "Some atoms are destroyed during the reactions, but their mass is transferred to the remaining atoms",
                     "isCorrect": 0,
                     "explanation": "This is incorrect because atoms cannot be destroyed in chemical reactions, and mass cannot be transferred between atoms"
-                },
-                {
-                    "text": "The mass is conserved because the products always weigh more than the reactants to balance the equation",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because the products do not always weigh more than the reactants - the total mass stays exactly the same"
                 }
             ],
             "funFact": "The Law of Conservation of Mass was first discovered by Antoine Lavoisier in the late 1700s. He proved it by conducting reactions in sealed containers and showing that the total mass remained the same before and after the reaction. This discovery revolutionized chemistry and earned him the title 'Father of Modern Chemistry'!"
         },
         {
-            "id": 7,
-            "text": "During the combustion of propane (C3H8) with oxygen (O2), the following reaction occurs: C3H8 + 5O2 \u2192 3CO2 + 4H2O. Which statement best explains how atoms are rearranged in this reaction while following the law of conservation of matter?",
-            "options": [
-                {
-                    "text": "The oxygen atoms from O2 combine with carbon and hydrogen atoms from propane to form new molecules, with the same total number of each type of atom present before and after the reaction",
-                    "isCorrect": 1,
-                    "explanation": "This correctly describes how atoms rearrange while maintaining their total number - the 3 carbon atoms, 8 hydrogen atoms, and 10 oxygen atoms are present both before and after the reaction, just in different arrangements"
-                },
-                {
-                    "text": "Some atoms are destroyed during the combustion process, but new atoms are created to form the products CO2 and H2O",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because atoms cannot be created or destroyed in a chemical reaction - they can only be rearranged into new combinations"
-                },
-                {
-                    "text": "The oxygen molecules break apart but the propane molecule stays intact, and they simply mix together to form the products",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because both reactant molecules (propane and oxygen) break apart and their atoms rearrange to form the new product molecules"
-                },
-                {
-                    "text": "Extra oxygen atoms appear in the products because oxygen from the air is added during combustion",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because no new atoms are added during the reaction - the number of oxygen atoms in the products must equal the number in the reactants"
-                }
-            ],
-            "funFact": "The combustion of propane in gas grills releases about 50 megajoules of energy per kilogram of fuel burned - enough energy to cook dozens of hamburgers! This energy comes from the breaking and reforming of chemical bonds during the reaction."
-        },
-        {
-            "id": 8,
-            "text": "Emma is baking a chocolate cake for her friend's birthday in a sealed laboratory oven where no moisture or gases can escape. She carefully measures and mixes all her ingredients: 2 cups flour (240g), 2 cups sugar (400g), 3 eggs (150g), 1 cup milk (240g), \u00bd cup oil (120g), and \u00bc cup cocoa powder (25g) - totaling 1175g. After baking the cake for 35 minutes at 350\u00b0F, what should be the mass of the finished cake (assuming no ingredients were spilled during the process)?",
-            "options": [
-                {
-                    "text": "1175g",
-                    "isCorrect": 1,
-                    "explanation": "According to the Law of Conservation of Mass, the total mass remains constant during a chemical reaction. While the ingredients undergo chemical changes during baking, the total number of atoms remains the same, just rearranged into new molecules."
-                },
-                {
-                    "text": "Less than 1175g because some ingredients evaporated during baking",
-                    "isCorrect": 0,
-                    "explanation": "In this sealed laboratory oven, no moisture or gases can escape. While evaporation occurs during regular baking, in this closed system all water molecules remain within the contained environment, ensuring the total mass is conserved."
-                },
-                {
-                    "text": "More than 1175g because heat adds mass to the cake",
-                    "isCorrect": 0,
-                    "explanation": "Heat energy does not add mass to the cake. It only provides the energy needed for the chemical reactions to occur, causing the ingredients to form new substances with different properties."
-                },
-                {
-                    "text": "Less than 1175g because chemical reactions consume mass",
-                    "isCorrect": 0,
-                    "explanation": "Chemical reactions do not consume mass. They only rearrange the atoms present in the reactants to form new products. The number of atoms before and after the reaction stays the same."
-                }
-            ],
-            "funFact": "The chemical reactions that occur during cake baking are responsible for its fluffy texture! When baking soda or powder reacts with acidic ingredients, it produces carbon dioxide gas bubbles. These bubbles get trapped in the batter as it solidifies, creating the cake's soft, spongy structure."
-        },
-        {
-            "id": 9,
-            "text": "In a chemical reaction, iron (Fe) atoms combine with oxygen (O2) molecules to form iron oxide (Fe2O3). Looking at the molecular diagram below, which statement best explains why this reaction demonstrates conservation of matter?\n\nReactants: 4Fe + 3O2\nProducts: 2Fe2O3",
-            "options": [
-                {
-                    "text": "The total number of iron and oxygen atoms remains the same before and after the reaction, just in a different arrangement",
-                    "isCorrect": 1,
-                    "explanation": "There are 4 Fe atoms and 6 O atoms on both sides of the reaction. The atoms are simply rearranged to form new molecules, demonstrating conservation of matter."
-                },
-                {
-                    "text": "New atoms are created during the reaction to form iron oxide",
-                    "isCorrect": 0,
-                    "explanation": "Atoms cannot be created or destroyed in a chemical reaction. They only rearrange to form new substances."
-                },
-                {
-                    "text": "Some atoms are lost when iron and oxygen combine",
-                    "isCorrect": 0,
-                    "explanation": "No atoms are lost during chemical reactions. The Law of Conservation of Matter states that atoms are conserved in all chemical processes."
-                },
-                {
-                    "text": "The iron atoms transform into oxygen atoms during the reaction",
-                    "isCorrect": 0,
-                    "explanation": "Atoms cannot transform into different types of atoms during chemical reactions. Each type of atom maintains its identity."
-                }
-            ],
-            "funFact": "The rusting of iron is a real-world example of this reaction! When iron reacts with oxygen in the presence of water, it forms rust (iron oxide). This is why leaving a bicycle out in the rain can cause it to rust over time."
-        },
-        {
             "id": 10,
-            "text": "A student observes two different changes in substances during a science experiment:\n\nChange 1: An ice cube melts into liquid water\nChange 2: A shiny copper penny turns green over time\n\nWhich observation would definitively indicate that a chemical reaction has occurred?",
+            "text": "When iron rusts, it combines with oxygen from the air. A piece of iron weighing 56 grams completely rusts over time. What would be the mass of the rust formed?",
             "options": [
                 {
-                    "text": "The ice cube changing from a solid to a liquid",
+                    "text": "56 grams",
                     "isCorrect": 0,
-                    "explanation": "This is a physical change where water molecules simply move farther apart. No new substances are formed and the chemical composition remains H2O."
+                    "explanation": "This is incorrect because when iron rusts, it combines with oxygen atoms from the air, adding mass to the final product."
                 },
                 {
-                    "text": "The penny changing from shiny to green",
+                    "text": "80 grams",
                     "isCorrect": 1,
-                    "explanation": "The penny turning green indicates copper reacting with oxygen, carbon dioxide, and moisture in the air to form new substances (such as copper carbonate or copper hydroxide) with different properties, which is a chemical reaction."
+                    "explanation": "This is correct because when iron combines with oxygen to form rust (primarily iron(III) oxide, Fe\u2082O\u2083), the mass of the oxygen atoms adds to the original mass of iron. For 56 grams of iron, the resulting rust weighs approximately 80 grams."
                 },
                 {
-                    "text": "The ice cube becoming smaller as it melts",
+                    "text": "40 grams",
                     "isCorrect": 0,
-                    "explanation": "Change in size during melting is a physical change. The water molecules remain unchanged, they just spread out more."
+                    "explanation": "This is incorrect because rust cannot weigh less than the original iron. Mass is conserved in chemical reactions, and additional mass from oxygen is added."
                 },
                 {
-                    "text": "The penny becoming less shiny",
+                    "text": "72 grams",
                     "isCorrect": 0,
-                    "explanation": "While this is part of the chemical reaction occurring, just a change in appearance alone doesn't prove a chemical reaction. The formation of a new substance is the key evidence."
+                    "explanation": "This is incorrect. This would be the mass if iron(II) oxide (FeO) formed, but common rust is primarily iron(III) oxide (Fe\u2082O\u2083), which has a higher oxygen content."
+                },
+                {
+                    "text": "0 grams",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because matter cannot be destroyed. The iron atoms are still present in the rust, along with the oxygen atoms that combined with them."
                 }
             ],
-            "funFact": "The green substance that forms on copper, called patina, actually helps protect the underlying copper from further corrosion. This is why the Statue of Liberty, made of copper, has turned green over time but remains structurally sound!"
+            "funFact": "The reddish-brown color of rust comes from the way iron and oxygen atoms are arranged in the rust molecule. This arrangement affects how the rust molecule interacts with light, causing it to appear reddish-brown to our eyes!"
         },
         {
             "id": 11,
-            "text": "Which model correctly shows the conservation of atoms in a chemical reaction between iron (Fe) and oxygen (O2)?",
+            "text": "Which molecular model correctly represents the combustion of propane (C3H8) while demonstrating conservation of atoms?",
             "options": [
                 {
-                    "text": "4Fe + 3O2 \u2192 2Fe2O3 (all atoms stay the same)",
-                    "isCorrect": 1,
-                    "explanation": "This model correctly shows that the number of iron atoms (4) and oxygen atoms (6) remains the same on both sides of the equation. The atoms just rearrange to form a new compound."
+                    "text": "C3H8 + 5O2 \u2192 3CO + 4H2O",
+                    "isCorrect": 0,
+                    "explanation": "This model is incorrect because it doesn't conserve oxygen atoms. While hydrogen and carbon atoms are conserved, the products have fewer oxygen atoms than the reactants."
                 },
                 {
-                    "text": "4Fe + 3O2 \u2192 Fe4O5 (atoms combine)",
+                    "text": "C3H8 + 4O2 \u2192 3CO2 + 4H2O",
                     "isCorrect": 0,
-                    "explanation": "This model is incorrect because it shows only 5 oxygen atoms in the product while starting with 6 oxygen atoms. Atoms cannot disappear in a chemical reaction."
+                    "explanation": "This model is incorrect because it doesn't have enough oxygen molecules in the reactants to form the products. The reaction needs 5 O2 molecules to form 3 CO2 and 4 H2O molecules."
                 },
                 {
-                    "text": "2Fe + O2 \u2192 2Fe2O3 (atoms multiply)",
+                    "text": "C3H8 + 3O2 \u2192 3CO2 + 2H2O",
                     "isCorrect": 0,
-                    "explanation": "This model is incorrect because it shows atoms being created. The product has 4 iron atoms while starting with only 2, which violates conservation of matter."
+                    "explanation": "This model is incorrect because it doesn't conserve atoms. The reactants have 3 carbon, 8 hydrogen, and 6 oxygen atoms, while the products have 3 carbon, 4 hydrogen, and 8 oxygen atoms."
                 },
-                {
-                    "text": "4Fe + 3O2 \u2192 Fe3O5 + Fe (atoms split)",
-                    "isCorrect": 0,
-                    "explanation": "This model is incorrect because it shows only 5 oxygen atoms in the products while starting with 6 oxygen atoms. Atoms cannot disappear in a chemical reaction, even when the products are separated."
-                }
-            ],
-            "funFact": "The rust that forms on iron is actually iron oxide (Fe2O3), created through this exact reaction! The reddish-brown color of rust comes from the unique arrangement of iron and oxygen atoms in the compound."
-        },
-        {
-            "id": 12,
-            "text": "Which statement accurately describes what happens to atoms during physical and chemical changes?",
-            "options": [
-                {
-                    "text": "In both physical and chemical changes, atoms rearrange to form new substances with different properties.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Only chemical changes involve the rearrangement of atoms to form new substances. Physical changes do not create new substances."
-                },
-                {
-                    "text": "In physical changes, atoms rearrange to form new substances, while in chemical changes, atoms only change their state.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. This statement reverses the characteristics of physical and chemical changes. Physical changes do not form new substances."
-                },
-                {
-                    "text": "In physical changes, atoms maintain their original arrangements, while in chemical changes, atoms rearrange to form new substances.",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Physical changes only affect the state or form of matter without creating new substances, while chemical changes involve atoms rearranging to form new substances with different properties."
-                },
-                {
-                    "text": "In physical changes, atoms are destroyed, while in chemical changes, new atoms are created.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Atoms are never created or destroyed in any type of change. The Law of Conservation of Matter states that atoms are conserved in all processes."
-                }
-            ],
-            "funFact": "When water changes from liquid to ice, the molecules arrange themselves in a crystalline structure that's actually less densely packed than in liquid water (which is why ice floats). But when water splits into hydrogen and oxygen through electrolysis, the atoms actually rearrange to form completely new molecules - that's why electrolysis is a chemical change while freezing is a physical change!"
-        },
-        {
-            "id": 13,
-            "text": "Consider the following chemical reaction: When propane (C3H8) burns with oxygen (O2) to form carbon dioxide (CO2) and water (H2O). Which of the following reactions correctly shows that atoms are conserved during this chemical reaction?",
-            "options": [
                 {
                     "text": "C3H8 + 5O2 \u2192 3CO2 + 4H2O",
                     "isCorrect": 1,
-                    "explanation": "This equation is correctly balanced, showing that the number and types of atoms remain the same on both sides. There are 3 carbon atoms, 8 hydrogen atoms, and 10 oxygen atoms on each side."
-                },
-                {
-                    "text": "C3H8 + 3O2 \u2192 3CO2 + 4H2O",
-                    "isCorrect": 0,
-                    "explanation": "This equation is incorrect because the oxygen atoms are not conserved. The left side has 6 oxygen atoms while the right side has 10 oxygen atoms."
-                },
-                {
-                    "text": "C3H8 + 5O2 \u2192 2CO2 + 4H2O",
-                    "isCorrect": 0,
-                    "explanation": "This equation is incorrect because the carbon atoms are not conserved. The left side has 3 carbon atoms while the right side only has 2 carbon atoms."
-                },
-                {
-                    "text": "C3H8 + 5O2 \u2192 3CO2 + 3H2O",
-                    "isCorrect": 0,
-                    "explanation": "This equation is incorrect because the hydrogen atoms are not conserved. The left side has 8 hydrogen atoms while the right side only has 6 hydrogen atoms."
+                    "explanation": "This model correctly shows how atoms rearrange during propane combustion while maintaining the same number of each type of atom. There are 3 carbon, 8 hydrogen, and 10 oxygen atoms on both sides."
                 }
             ],
-            "funFact": "The combustion of propane in your gas grill is a perfect example of the Law of Conservation of Matter in action! While it might seem like the propane 'disappears' when it burns, all of its atoms are actually still present - they've just rearranged themselves into new molecules that you might not be able to see, like carbon dioxide and water vapor."
+            "funFact": "Propane combustion is an exothermic reaction that releases energy in the form of heat and light. This is why propane is commonly used as a fuel for heating homes, cooking on gas grills, and powering vehicles!"
         },
         {
-            "id": 14,
+            "id": 12,
+            "text": "In a chemical reaction, hydrogen peroxide (H2O2) decomposes into water (H2O) and oxygen (O2). Which arrangement of atoms correctly shows the products of this reaction, maintaining conservation of matter?",
+            "options": [
+                {
+                    "text": "2H2O2 \u2192 2H2O + 2O2",
+                    "isCorrect": 0,
+                    "explanation": "This arrangement violates conservation of matter. While the hydrogen atoms are conserved (4 H), there are too many oxygen atoms in the products (6 O) compared to the reactants (4 O)."
+                },
+                {
+                    "text": "2H2O2 \u2192 H2O + O2",
+                    "isCorrect": 0,
+                    "explanation": "This arrangement violates conservation of matter. The reactants have 4 H atoms and 4 O atoms, but the products only have 2 H atoms and 3 O atoms total."
+                },
+                {
+                    "text": "2H2O2 \u2192 2H2O + O2",
+                    "isCorrect": 1,
+                    "explanation": "This correctly shows conservation of atoms. The reactants have 4 H atoms and 4 O atoms, and the products also have 4 H atoms (in water) and 4 O atoms (2 in water and 2 in oxygen gas)."
+                },
+                {
+                    "text": "H2O2 \u2192 H2O + O2",
+                    "isCorrect": 0,
+                    "explanation": "This arrangement violates conservation of matter. The reactant has 2 H atoms and 2 O atoms, while the products have 2 H atoms but 3 O atoms total."
+                }
+            ],
+            "funFact": "Hydrogen peroxide's decomposition is why it's stored in dark bottles! Light exposure speeds up this reaction, which is why hydrogen peroxide bottles are typically brown or opaque to help preserve the chemical longer."
+        },
+        {
+            "id": 13,
             "text": "A chemical reaction occurs when iron (Fe) atoms combine with oxygen (O) molecules. If 4 iron atoms react with 3 oxygen molecules (O2), which arrangement correctly shows the products that would form while conserving all atoms?",
             "options": [
                 {
@@ -381,31 +359,58 @@
             "funFact": "The reaction between iron and oxygen that forms Fe2O3 is actually what we commonly call rust! This reaction happens all around us and costs billions of dollars annually in damage to buildings, vehicles, and infrastructure."
         },
         {
-            "id": 15,
-            "text": "During the combustion of propane (C3H8) with oxygen (O2), what is the correct arrangement of atoms in the products that demonstrates conservation of matter?",
+            "id": 14,
+            "text": "Consider the following chemical equations for the reaction between iron (Fe) and oxygen (O2):\n\nEquation 1: 4Fe + 3O2 \u2192 2Fe2O3\nEquation 2: 2Fe + 3O2 \u2192 2Fe2O3\n\nWhich equation correctly shows the conservation of mass in this reaction?",
             "options": [
                 {
-                    "text": "3CO2 + 4H2O",
+                    "text": "Both equations are correct",
+                    "isCorrect": 0,
+                    "explanation": "Only Equation 1 correctly shows conservation of mass. Equation 2 has an unequal number of iron atoms on each side of the equation."
+                },
+                {
+                    "text": "Equation 1",
                     "isCorrect": 1,
-                    "explanation": "This is correct because all atoms from the reactants are conserved in the products - 3 carbon atoms, 8 hydrogen atoms, and 10 oxygen atoms are present on both sides of the reaction."
+                    "explanation": "In Equation 1, there are 4 Fe atoms and 6 O atoms on both sides. On the left, 3O2 provides 6 O atoms, and on the right, 2Fe2O3 contains 2 \u00d7 2 = 4 Fe atoms and 2 \u00d7 3 = 6 O atoms. The atoms are conserved."
                 },
                 {
-                    "text": "2CO2 + 4H2O",
+                    "text": "Neither equation is correct",
                     "isCorrect": 0,
-                    "explanation": "This arrangement is incorrect because it only shows 2 carbon atoms in the products when there were 3 carbon atoms in the propane reactant."
+                    "explanation": "Equation 1 is correct as it shows conservation of mass with equal numbers of each type of atom on both sides of the equation."
                 },
                 {
-                    "text": "3CO2 + 3H2O",
+                    "text": "Equation 2",
                     "isCorrect": 0,
-                    "explanation": "This arrangement is incorrect because it only shows 6 hydrogen atoms in the products when there were 8 hydrogen atoms in the propane reactant."
-                },
-                {
-                    "text": "3CO + 4H2O",
-                    "isCorrect": 0,
-                    "explanation": "This arrangement is incorrect because it doesn't use all the oxygen atoms from the reactants - CO has one oxygen atom while CO2 has two, which is needed to conserve all oxygen atoms."
+                    "explanation": "In Equation 2, the number of iron atoms is not conserved. The left side has 2 iron atoms, while the right side has 4 iron atoms (2Fe2O3), violating the law of conservation of mass."
                 }
             ],
-            "funFact": "Propane combustion is an exothermic reaction that releases about 2,220 kilojoules of energy per mole of propane burned, which is why it's so effective as a fuel for heating and cooking!"
+            "funFact": "The rusting of iron is a real-world example of this reaction between iron and oxygen. The reddish-brown rust that forms on iron objects is actually iron(III) oxide (Fe2O3), and despite the change in appearance, the total mass of all atoms involved remains the same!"
+        },
+        {
+            "id": 15,
+            "text": "Consider the following chemical reaction: When propane (C3H8) burns with oxygen (O2) to form carbon dioxide (CO2) and water (H2O). Which of the following reactions correctly shows that atoms are conserved during this chemical reaction?",
+            "options": [
+                {
+                    "text": "C3H8 + 5O2 \u2192 3CO2 + 4H2O",
+                    "isCorrect": 1,
+                    "explanation": "This equation is correctly balanced, showing that the number and types of atoms remain the same on both sides. There are 3 carbon atoms, 8 hydrogen atoms, and 10 oxygen atoms on each side."
+                },
+                {
+                    "text": "C3H8 + 3O2 \u2192 3CO2 + 4H2O",
+                    "isCorrect": 0,
+                    "explanation": "This equation is incorrect because the oxygen atoms are not conserved. The left side has 6 oxygen atoms while the right side has 10 oxygen atoms."
+                },
+                {
+                    "text": "C3H8 + 5O2 \u2192 2CO2 + 4H2O",
+                    "isCorrect": 0,
+                    "explanation": "This equation is incorrect because the carbon atoms are not conserved. The left side has 3 carbon atoms while the right side only has 2 carbon atoms."
+                },
+                {
+                    "text": "C3H8 + 5O2 \u2192 3CO2 + 3H2O",
+                    "isCorrect": 0,
+                    "explanation": "This equation is incorrect because the hydrogen atoms are not conserved. The left side has 8 hydrogen atoms while the right side only has 6 hydrogen atoms."
+                }
+            ],
+            "funFact": "The combustion of propane in your gas grill is a perfect example of the Law of Conservation of Matter in action! While it might seem like the propane 'disappears' when it burns, all of its atoms are actually still present - they've just rearranged themselves into new molecules that you might not be able to see, like carbon dioxide and water vapor."
         }
     ]
 }

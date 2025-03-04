@@ -7,11 +7,6 @@
             "text": "What is the primary purpose of building a prototype during the engineering design process?",
             "options": [
                 {
-                    "text": "To demonstrate and test the functionality of a design solution before final production",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Prototypes are preliminary models built specifically to test how well a design works and demonstrate its functionality before moving forward with final production."
-                },
-                {
                     "text": "To make the final product that will be sold to customers",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Prototypes are not final products - they are preliminary test models used to evaluate and improve the design."
@@ -20,6 +15,11 @@
                     "text": "To create detailed marketing materials for the product",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. While prototypes might be photographed for documentation, their main purpose is testing functionality, not marketing."
+                },
+                {
+                    "text": "To demonstrate and test the functionality of a design solution before final production",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Prototypes are preliminary models built specifically to test how well a design works and demonstrate its functionality before moving forward with final production."
                 },
                 {
                     "text": "To determine the initial cost of materials needed",
@@ -31,6 +31,60 @@
         },
         {
             "id": 2,
+            "text": "In an engineering project, which of the following best represents a criterion for success?",
+            "options": [
+                {
+                    "text": "The time limit given to complete the project",
+                    "isCorrect": 0,
+                    "explanation": "This is a constraint that limits the project, not a criterion that defines success. Time limitations restrict how the work can be done."
+                },
+                {
+                    "text": "The maximum budget allowed for the project",
+                    "isCorrect": 0,
+                    "explanation": "This is actually a constraint, not a criterion. A constraint limits what can be done, while criteria define what needs to be achieved."
+                },
+                {
+                    "text": "The minimum speed a new electric car must achieve",
+                    "isCorrect": 1,
+                    "explanation": "This is a criterion because it specifies a requirement that must be met for the design to be considered successful. Criteria are measurable requirements for success."
+                },
+                {
+                    "text": "The specific materials that must be used",
+                    "isCorrect": 0,
+                    "explanation": "Material requirements are constraints that limit design choices, not criteria that define success. They restrict what can be used in the solution."
+                }
+            ],
+            "funFact": "Engineers working on the Mars Rover missions had to meet specific criteria like the ability to analyze soil samples and travel certain distances, while dealing with constraints like the extreme Martian environment and limited power supply. Meeting these criteria while working within the constraints led to groundbreaking innovations in space exploration technology!"
+        },
+        {
+            "id": 3,
+            "text": "Which of the following best describes a constraint in the engineering design process?",
+            "options": [
+                {
+                    "text": "A method for testing and improving the final design",
+                    "isCorrect": 0,
+                    "explanation": "This describes optimization in the design process, not a constraint. Constraints are limitations that exist throughout the design process."
+                },
+                {
+                    "text": "A limitation that restricts how the design solution can be developed",
+                    "isCorrect": 1,
+                    "explanation": "Correct! Constraints are limitations placed on design solutions, such as available materials, cost, or time restrictions that engineers must work within."
+                },
+                {
+                    "text": "A brainstorming technique used to generate new ideas",
+                    "isCorrect": 0,
+                    "explanation": "This describes part of the idea generation process, not a constraint. Constraints are limitations on the design solution."
+                },
+                {
+                    "text": "A requirement that determines if the design solution is successful",
+                    "isCorrect": 0,
+                    "explanation": "This actually describes a criterion, not a constraint. Criteria are requirements for success, while constraints are limitations on the design."
+                }
+            ],
+            "funFact": "The first suspension bridge designs had an interesting constraint - they could only use materials that could be found locally, like vines and bamboo. Today's modern suspension bridges still follow the same basic principles but use steel cables that can support much more weight!"
+        },
+        {
+            "id": 4,
             "text": "In a robotics project, a team of engineers needs to evaluate different designs for a rescue robot that can navigate through disaster debris. Which method would be most effective for systematically comparing the different robot designs?",
             "options": [
                 {
@@ -39,14 +93,14 @@
                     "explanation": "A decision matrix allows systematic evaluation of each design against defined criteria, making it an effective tool for comparing multiple solutions objectively."
                 },
                 {
-                    "text": "Choosing the design that looks the most impressive",
-                    "isCorrect": 0,
-                    "explanation": "Making decisions based on appearance alone is not systematic and ignores important functional requirements and constraints."
-                },
-                {
                     "text": "Picking the design that is cheapest to build",
                     "isCorrect": 0,
                     "explanation": "While cost is one constraint, focusing only on cost ignores other important criteria and doesn't provide a systematic evaluation of all aspects."
+                },
+                {
+                    "text": "Choosing the design that looks the most impressive",
+                    "isCorrect": 0,
+                    "explanation": "Making decisions based on appearance alone is not systematic and ignores important functional requirements and constraints."
                 },
                 {
                     "text": "Testing each design once and selecting the fastest one",
@@ -57,116 +111,67 @@
             "funFact": "Engineers at search and rescue organizations often test their robots in specially designed obstacle courses that simulate various disaster scenarios, including collapsed buildings and rough terrain. These tests help refine designs that can potentially save lives in real emergencies."
         },
         {
-            "id": 3,
-            "text": "An engineering team is designing a new water filtration system for a community. They need to evaluate three different design solutions based on the following criteria and constraints:\n\nCriteria:\n- Must filter 1000 gallons per day\n- Must remove 99% of contaminants\n\nConstraints:\n- Budget: $5000\n- Implementation time: 2 weeks\n- Must use locally available materials\n\nWhich approach would be most effective to systematically evaluate these design solutions?",
-            "options": [
-                {
-                    "text": "Choose the solution that looks the most promising based on initial impressions without detailed analysis",
-                    "isCorrect": 0,
-                    "explanation": "Making decisions based on initial impressions without systematic evaluation can overlook important factors and lead to suboptimal solutions"
-                },
-                {
-                    "text": "Create a decision matrix comparing how well each solution meets the criteria and constraints, then calculate overall scores",
-                    "isCorrect": 1,
-                    "explanation": "A decision matrix provides a systematic way to evaluate multiple solutions against defined criteria and constraints, allowing for objective comparison"
-                },
-                {
-                    "text": "Select the least expensive solution without considering other factors",
-                    "isCorrect": 0,
-                    "explanation": "Focusing only on cost ignores other important criteria and constraints that could affect the success of the solution"
-                },
-                {
-                    "text": "Test each solution once and pick the one that performs best in that single test",
-                    "isCorrect": 0,
-                    "explanation": "A single test is not sufficient for thorough evaluation and may not account for all criteria and constraints"
-                }
-            ],
-            "funFact": "Decision matrices became an important tool in engineering during the Apollo space program in the 1960s, helping NASA engineers systematically evaluate complex design choices for spacecraft components!"
-        },
-        {
-            "id": 4,
-            "text": "What are the three main phases of the engineering design process in the correct sequence?",
-            "options": [
-                {
-                    "text": "Define the problem, develop ideas, optimize the design solution",
-                    "isCorrect": 1,
-                    "explanation": "This is the correct sequence of the three main phases. Engineers first clearly define the problem and its requirements, then develop possible solutions through brainstorming and research, and finally test and improve their design to optimize it."
-                },
-                {
-                    "text": "Develop ideas, optimize the design solution, define the problem",
-                    "isCorrect": 0,
-                    "explanation": "While these are the three main phases, this sequence is incorrect. The problem must be defined first before solutions can be developed and optimized."
-                },
-                {
-                    "text": "Optimize the design solution, define the problem, develop ideas",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. It's not possible to optimize a solution before defining the problem and developing possible solutions."
-                },
-                {
-                    "text": "Define the problem, optimize the design solution, develop ideas",
-                    "isCorrect": 0,
-                    "explanation": "While defining the problem comes first, you cannot optimize a solution before developing ideas and possible solutions to test."
-                }
-            ],
-            "funFact": "While the engineering design process can have anywhere from 6 to 19 steps depending on how it's broken down, these three main phases remain consistent across all versions. The process is iterative, meaning engineers often move back and forth between phases as they work to improve their designs!"
-        },
-        {
             "id": 5,
-            "text": "When comparing two different engineering designs for a solar-powered car, which factor would be most important in determining the better design?",
+            "text": "How do Computer-Aided Design (CAD) models help engineers during the design process?",
             "options": [
                 {
-                    "text": "How well each design meets the established criteria and constraints",
+                    "text": "They only help in creating basic 2D drawings of the design",
+                    "isCorrect": 0,
+                    "explanation": "Modern CAD systems do much more than 2D drawings - they create detailed 3D models that can simulate movement and interactions between components."
+                },
+                {
+                    "text": "They allow engineers to visualize how different parts interact and move together before building physical prototypes",
                     "isCorrect": 1,
-                    "explanation": "Engineers systematically evaluate competing designs by measuring how well they satisfy both the requirements (criteria) and limitations (constraints) of the problem."
+                    "explanation": "CAD models enable engineers to create virtual 3D representations that show how components work together, saving time and resources before physical construction begins."
                 },
                 {
-                    "text": "Which design looks more aesthetically pleasing",
+                    "text": "They eliminate the need for physical prototypes entirely",
                     "isCorrect": 0,
-                    "explanation": "While aesthetics might be one criterion, it alone is not the most important factor. The overall evaluation must consider all established criteria and constraints systematically."
+                    "explanation": "CAD models complement but don't replace physical prototypes, which are still important for testing real-world performance and identifying issues."
                 },
                 {
-                    "text": "Which design was created first",
+                    "text": "They automatically solve all engineering problems without requiring any human input",
                     "isCorrect": 0,
-                    "explanation": "The order in which designs are created does not determine their effectiveness. What matters is how well each design meets the established requirements and limitations."
-                },
-                {
-                    "text": "How much time was spent developing each design",
-                    "isCorrect": 0,
-                    "explanation": "The amount of time spent developing a design is not the key factor in determining its effectiveness. The focus should be on how well the design meets the specified criteria and constraints."
+                    "explanation": "While CAD models are helpful tools, they don't automatically solve problems - engineers must still apply their knowledge and skills to develop solutions."
                 }
             ],
-            "funFact": "The first solar-powered car race, the World Solar Challenge, was held in 1987 in Australia. The winning car averaged 67 kilometers per hour (42 mph) using only the power of the sun, demonstrating how engineering design processes can lead to remarkable technological achievements!"
+            "funFact": "The first CAD systems were developed in the 1960s by automotive and aerospace companies. Today's CAD software can even simulate real-world physics, allowing engineers to test things like fluid dynamics and structural stress without physical models!"
         },
         {
             "id": 6,
-            "text": "A city planner is evaluating three solutions to reduce noise pollution from a busy highway near a residential area:\n\nSolution A: Install sound-absorbing barriers (estimated cost: $1.2M, reduces noise by 8-10 decibels, requires replacement every 15 years)\n\nSolution B: Plant dense tree barriers (estimated cost: $400K, reduces noise by 5-7 decibels, requires annual maintenance)\n\nSolution C: Resurface the road with noise-reducing pavement (estimated cost: $2M, reduces noise by 3-4 decibels, requires replacement every 7 years)\n\nWhich solution would be most effective based on a systematic evaluation of the criteria (noise reduction) and constraints (cost and maintenance)?",
+            "text": "A team of biomedical engineers is developing a robotic surgical device to assist in minimally invasive procedures. After testing three prototype designs, they collected the following data on precision (measured as average deviation from target in millimeters) and operation time (in minutes):\n\nPrototype A: 2.1 mm deviation, 45 minutes\nPrototype B: 1.8 mm deviation, 55 minutes\nPrototype C: 1.5 mm deviation, 65 minutes\n\nWhat optimization strategy would most effectively improve the device's performance while maintaining a balance between precision and operation time?",
             "options": [
                 {
-                    "text": "Solution A: Sound-absorbing barriers",
+                    "text": "Abandon the slower prototypes and only develop Prototype A further",
+                    "isCorrect": 0,
+                    "explanation": "While Prototype A is the fastest, focusing only on speed while ignoring the precision improvements achieved in other prototypes would not optimize overall performance."
+                },
+                {
+                    "text": "Select Prototype B as is since it represents the middle ground",
+                    "isCorrect": 0,
+                    "explanation": "Simply selecting the middle-performing prototype without optimization wouldn't lead to the best possible solution and ignores the potential for combining beneficial features."
+                },
+                {
+                    "text": "Combine Prototype A's faster operation system with Prototype C's precision mechanisms",
                     "isCorrect": 1,
-                    "explanation": "Sound-absorbing barriers provide the highest noise reduction (8-10 dB) with moderate installation cost and low maintenance requirements, making it the most balanced and effective solution."
+                    "explanation": "This strategy optimally balances both criteria by combining the best aspects of two designs - the speed of Prototype A and the precision of Prototype C, likely leading to a better overall performance."
                 },
                 {
-                    "text": "Solution B: Dense tree barriers",
+                    "text": "Focus solely on improving Prototype C's precision further",
                     "isCorrect": 0,
-                    "explanation": "While tree barriers have the lowest initial cost, they provide less noise reduction than Solution A and require frequent maintenance, making them less effective overall."
-                },
-                {
-                    "text": "Solution C: Noise-reducing pavement",
-                    "isCorrect": 0,
-                    "explanation": "This solution has the highest cost, lowest noise reduction, and requires frequent replacement, making it the least effective option when evaluating all criteria and constraints."
+                    "explanation": "While Prototype C has the best precision, focusing only on improving it further would likely increase operation time even more, creating an imbalance in performance criteria."
                 }
             ],
-            "funFact": "The human ear can detect sound differences as small as 1 decibel, but a reduction of 10 decibels is perceived as cutting the loudness in half. This makes seemingly small decibel reductions quite significant for improving quality of life!"
+            "funFact": "Modern robotic surgical systems can achieve precision levels of less than 0.1 millimeters, allowing surgeons to perform complex procedures that would be impossible with human hands alone. The first FDA-approved robotic surgery system was introduced in 2000, and since then, millions of procedures have been performed using robotic assistance."
         },
         {
             "id": 7,
             "text": "A farming community needs to select a water conservation method for their agricultural practices. They have three competing solutions to evaluate:\n\nSolution A: Drip irrigation system\n- Water savings: 40% reduction\n- Implementation cost: $50,000\n- Crop yield impact: 5% increase\n\nSolution B: Moisture sensors and smart sprinklers\n- Water savings: 30% reduction\n- Implementation cost: $35,000\n- Crop yield impact: 3% increase\n\nSolution C: Drought-resistant crop varieties\n- Water savings: 25% reduction\n- Implementation cost: $20,000\n- Crop yield impact: No change\n\nWhich solution would be most effective based on a systematic evaluation of the criteria and constraints?",
             "options": [
                 {
-                    "text": "Solution A: Drip irrigation system",
-                    "isCorrect": 1,
-                    "explanation": "While having the highest implementation cost, Solution A provides the best overall performance with maximum water savings (40%) and highest crop yield increase (5%), making it the most effective long-term solution."
+                    "text": "Solution C: Drought-resistant crop varieties",
+                    "isCorrect": 0,
+                    "explanation": "While Solution C has the lowest implementation cost, it provides the least water savings and no improvement in crop yield, making it the least effective option for meeting the water conservation goals."
                 },
                 {
                     "text": "Solution B: Moisture sensors and smart sprinklers",
@@ -174,21 +179,70 @@
                     "explanation": "Solution B offers moderate performance in all criteria but doesn't maximize the benefits in any area, making it less effective than Solution A for long-term water conservation and crop yield improvement."
                 },
                 {
-                    "text": "Solution C: Drought-resistant crop varieties",
-                    "isCorrect": 0,
-                    "explanation": "While Solution C has the lowest implementation cost, it provides the least water savings and no improvement in crop yield, making it the least effective option for meeting the water conservation goals."
+                    "text": "Solution A: Drip irrigation system",
+                    "isCorrect": 1,
+                    "explanation": "While having the highest implementation cost, Solution A provides the best overall performance with maximum water savings (40%) and highest crop yield increase (5%), making it the most effective long-term solution."
                 }
             ],
             "funFact": "Drip irrigation was first developed in Israel in the 1960s and has revolutionized agricultural water conservation worldwide. Modern drip systems can achieve water use efficiency rates of up to 95%, compared to 65-75% for conventional irrigation methods."
         },
         {
             "id": 8,
+            "text": "An engineering team is testing three different wind turbine blade designs to determine which one performs best. They collected the following data over a 24-hour period:\n\nDesign A:\n- Energy Output: 120 kWh\n- Blade stress test rating: 7/10\n\nDesign B:\n- Energy Output: 150 kWh\n- Blade stress test rating: 4/10\n\nDesign C:\n- Energy Output: 100 kWh\n- Blade stress test rating: 9/10\n\nConsidering both energy generation and durability requirements, which design solution best optimizes both criteria?",
+            "options": [
+                {
+                    "text": "Design B",
+                    "isCorrect": 0,
+                    "explanation": "While Design B has the highest energy output (150 kWh), its low durability rating (4/10) makes it a risky choice that could lead to frequent blade replacements and maintenance issues."
+                },
+                {
+                    "text": "Design C",
+                    "isCorrect": 0,
+                    "explanation": "Although Design C has excellent durability (9/10), its relatively low energy output (100 kWh) means it doesn't optimize both criteria effectively - it sacrifices too much power generation for durability."
+                },
+                {
+                    "text": "Design A",
+                    "isCorrect": 1,
+                    "explanation": "Design A provides a good balance between energy output (120 kWh) and durability (7/10 stress test rating), making it the most optimal solution that satisfies both criteria without sacrificing too much of either requirement."
+                }
+            ],
+            "funFact": "Wind turbine blades can be longer than a football field! The world's longest wind turbine blade is 107 meters (351 feet) long, created by LM Wind Power. Engineers must carefully balance size, weight, and durability when designing these massive structures."
+        },
+        {
+            "id": 9,
+            "text": "A team of environmental engineers is evaluating three potential solutions to reduce plastic waste in oceans: A) Installing river barriers to catch plastic before it reaches the ocean, B) Developing new biodegradable plastics, and C) Implementing a plastic bottle deposit system. Using a decision matrix with criteria weighted equally (Environmental Impact: 1-10, Cost: 1-10 with 10 being lowest cost, Implementation Time: 1-10 with 10 being fastest), which solution appears most effective based on the following scores?\n\nSolution A - Environmental Impact: 8, Cost: 5, Implementation Time: 7\nSolution B - Environmental Impact: 9, Cost: 4, Implementation Time: 4\nSolution C - Environmental Impact: 7, Cost: 8, Implementation Time: 8",
+            "options": [
+                {
+                    "text": "Solution A with a total score of 20",
+                    "isCorrect": 0,
+                    "explanation": "While Solution A has balanced scores, its total is actually 20 (8+5+7), not the highest among the options when properly summed."
+                },
+                {
+                    "text": "Solution C with a total score of 23",
+                    "isCorrect": 1,
+                    "explanation": "Solution C has the highest total score of 23 (7+8+8), making it the most effective overall when considering all three criteria equally."
+                },
+                {
+                    "text": "All solutions are equally effective with a score of 20",
+                    "isCorrect": 0,
+                    "explanation": "The solutions have different total scores (A=20, B=17, C=23) and are not equally effective when all criteria are considered."
+                },
+                {
+                    "text": "Solution B with a total score of 17",
+                    "isCorrect": 0,
+                    "explanation": "Solution B's total score is 17 (9+4+4), which is the lowest total among all solutions despite having the highest environmental impact score."
+                }
+            ],
+            "funFact": "Decision matrices were first widely used in engineering during the Apollo space program in the 1960s to help NASA engineers systematically evaluate complex design choices for spacecraft components."
+        },
+        {
+            "id": 10,
             "text": "A city wants to improve the energy efficiency of its public library building. They have collected data on different solutions and their impacts. Which approach would be most effective based on systematic evaluation of the following criteria and constraints?\n\nCriteria:\n- Must reduce energy consumption by at least 30%\n- Must have a payback period of less than 10 years\n\nConstraints:\n- Maximum budget: $500,000\n- Minimal disruption to library operations\n\nSolution Data:\nA. Install solar panels\n- 35% energy reduction\n- Cost: $400,000\n- 8-year payback period\n- 2-week installation closure\n\nB. Upgrade HVAC system\n- 25% energy reduction\n- Cost: $300,000\n- 6-year payback period\n- Weekend-only installation\n\nC. Add building insulation\n- 32% energy reduction\n- Cost: $250,000\n- 5-year payback period\n- No closure needed",
             "options": [
                 {
-                    "text": "Install solar panels",
-                    "isCorrect": 0,
-                    "explanation": "While solar panels meet the energy reduction criterion (35% > 30%) and payback period (8 < 10 years), the 2-week closure would significantly disrupt library operations."
+                    "text": "Add building insulation",
+                    "isCorrect": 1,
+                    "explanation": "Building insulation is the optimal solution as it meets all criteria (32% energy reduction > 30%, 5-year payback < 10 years) and constraints (under budget at $250,000, no closure needed)."
                 },
                 {
                     "text": "Upgrade HVAC system",
@@ -196,70 +250,21 @@
                     "explanation": "The HVAC upgrade fails to meet the minimum energy reduction criterion (25% < 30%), though it meets other constraints."
                 },
                 {
-                    "text": "Add building insulation",
-                    "isCorrect": 1,
-                    "explanation": "Building insulation is the optimal solution as it meets all criteria (32% energy reduction > 30%, 5-year payback < 10 years) and constraints (under budget at $250,000, no closure needed)."
+                    "text": "Install solar panels",
+                    "isCorrect": 0,
+                    "explanation": "While solar panels meet the energy reduction criterion (35% > 30%) and payback period (8 < 10 years), the 2-week closure would significantly disrupt library operations."
                 }
             ],
             "funFact": "Building insulation can be made from recycled materials like old newspapers, denim jeans, and even mushroom roots, making it both energy-efficient and environmentally sustainable!"
-        },
-        {
-            "id": 9,
-            "text": "A team of engineers is designing emergency shelters for areas prone to hurricanes. They have developed three prototype designs: \n\nShelter A: A dome-shaped structure using reinforced concrete with steel supports\nShelter B: A rectangular structure using lightweight aluminum with cross-bracing\nShelter C: A hexagonal structure using composite materials with modular components\n\nThe design criteria require the shelter to withstand 150 mph winds and accommodate 10 people, while the constraints include a maximum cost of $50,000 and construction time of 48 hours. Which systematic approach would be most effective in evaluating these competing designs?",
-            "options": [
-                {
-                    "text": "Create a decision matrix that rates each shelter design against all criteria and constraints, using a numerical scoring system to compare total performance",
-                    "isCorrect": 1,
-                    "explanation": "A decision matrix is the most systematic and objective way to evaluate multiple designs against multiple criteria and constraints, allowing for quantitative comparison of overall performance."
-                },
-                {
-                    "text": "Choose the design that uses the strongest materials, since that is the most important factor for hurricane resistance",
-                    "isCorrect": 0,
-                    "explanation": "This approach only considers one criterion (material strength) while ignoring other important criteria and constraints like cost, construction time, and capacity."
-                },
-                {
-                    "text": "Test each design in real hurricane conditions and select the one that survives",
-                    "isCorrect": 0,
-                    "explanation": "This approach would be dangerous, impractical, and extremely costly. Engineers use modeling and controlled testing rather than full-scale disaster scenarios."
-                },
-                {
-                    "text": "Select the least expensive design since it best meets the cost constraint",
-                    "isCorrect": 0,
-                    "explanation": "This approach only considers one constraint (cost) while ignoring all other criteria and constraints. A systematic evaluation must consider all factors."
-                }
-            ],
-            "funFact": "The geodesic dome, invented by architect Buckminster Fuller, is one of the strongest architectural designs and can withstand extreme weather conditions while using minimal materials. This innovative design has inspired many modern disaster-resistant structures."
-        },
-        {
-            "id": 10,
-            "text": "A city needs to build a new bridge across a river to connect two growing neighborhoods. The bridge must support at least 100 tons of weight and cost no more than $5 million. Engineers have proposed three designs (A, B, and C) with different specifications. Which statement correctly describes how a systematic decision matrix would be used in this situation?",
-            "options": [
-                {
-                    "text": "All three designs should be included in the decision matrix and evaluated against multiple criteria, even if some designs don't meet all minimum requirements.",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. A decision matrix is designed to compare multiple options across various criteria to make an informed decision. All proposed designs should be included and evaluated, even if some fail to meet certain minimum requirements. This allows engineers to see trade-offs and potentially revise designs that excel in some areas but fall short in others."
-                },
-                {
-                    "text": "Only Design A should be included in the decision matrix because it's the only one that meets both the weight and cost requirements.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. A decision matrix is meant to compare multiple options across various criteria, not just evaluate a single option that meets minimum requirements. Excluding designs B and C would prevent engineers from seeing potential trade-offs or advantages that might outweigh their shortcomings."
-                },
-                {
-                    "text": "Decision matrices cannot be used when any proposed design fails to meet minimum requirements.",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Decision matrices are specifically useful for comparing options with different strengths and weaknesses. The fact that some designs don't meet all requirements doesn't prevent the use of a decision matrix; rather, it makes such a systematic comparison even more valuable to understand trade-offs."
-                }
-            ],
-            "funFact": "The \u00c7anakkale 1915 Bridge in Turkey, opened in 2022, is the world's longest suspension bridge, spanning 2,023 meters (6,637 feet). The '1915' in its name commemorates a WWI battle, not its construction year. It's designed to withstand strong earthquakes and high winds while allowing large ships to pass underneath."
         },
         {
             "id": 11,
             "text": "Which approach would be most effective for developing potential solutions during the engineering design process?",
             "options": [
                 {
-                    "text": "Immediately building a prototype without any planning",
+                    "text": "Only conducting online research of existing solutions",
                     "isCorrect": 0,
-                    "explanation": "Building a prototype without planning can waste resources and time, as the solution may not effectively address the problem's criteria and constraints."
+                    "explanation": "Relying solely on existing solutions limits creativity and innovation, and may not address the specific criteria and constraints of the current problem."
                 },
                 {
                     "text": "Individual brainstorming followed by group brainstorming and research",
@@ -267,125 +272,125 @@
                     "explanation": "This approach allows for both independent creative thinking and collaborative idea development, followed by research to validate and enhance the ideas."
                 },
                 {
-                    "text": "Only conducting online research of existing solutions",
-                    "isCorrect": 0,
-                    "explanation": "Relying solely on existing solutions limits creativity and innovation, and may not address the specific criteria and constraints of the current problem."
-                },
-                {
                     "text": "Selecting the first idea that seems feasible",
                     "isCorrect": 0,
                     "explanation": "Choosing the first idea without exploring alternatives often leads to suboptimal solutions and misses opportunities for innovation."
+                },
+                {
+                    "text": "Immediately building a prototype without any planning",
+                    "isCorrect": 0,
+                    "explanation": "Building a prototype without planning can waste resources and time, as the solution may not effectively address the problem's criteria and constraints."
                 }
             ],
             "funFact": "The Post-it Note, one of 3M's most successful products, was invented through a failed experiment to create a super-strong adhesive. This shows how the engineering design process can lead to unexpected but valuable solutions!"
         },
         {
             "id": 12,
-            "text": "In an engineering project, a team needs to evaluate two different solutions for a new robotic arm design. Which combination of evaluation methods would be most effective for comparing the solutions?",
+            "text": "A robotics team is developing a new automated sorting system for a recycling facility. After initial testing, they found that their prototype successfully sorts 75% of items correctly, but they want to improve this performance. Which step of the engineering design process best describes what they should do next?",
             "options": [
                 {
-                    "text": "Using only CAD models to evaluate both solutions",
-                    "isCorrect": 0,
-                    "explanation": "While CAD models are useful for visualizing designs, they alone cannot test physical functionality and real-world performance."
-                },
-                {
-                    "text": "Using only physical prototypes to evaluate both solutions",
-                    "isCorrect": 0,
-                    "explanation": "Physical prototypes are important for testing, but they are time-consuming and expensive to modify, making early design comparisons difficult."
-                },
-                {
-                    "text": "Using CAD models first, followed by physical prototypes of the most promising design",
+                    "text": "Test and analyze the current design to identify specific areas for improvement",
                     "isCorrect": 1,
-                    "explanation": "This approach is most effective as it allows quick visualization and modification through CAD models first, then validates the best design through physical testing."
+                    "explanation": "This represents the optimization phase where engineers analyze test results to identify weaknesses and develop improvements that better meet the design criteria and constraints."
                 },
                 {
-                    "text": "Building physical prototypes first, then creating CAD models afterward",
+                    "text": "Document the current performance and conclude the project since a working solution exists",
                     "isCorrect": 0,
-                    "explanation": "This approach is inefficient as it requires building expensive prototypes before using easier-to-modify CAD models for design improvements."
+                    "explanation": "Engineering design doesn't end with the first working solution. Optimization is a crucial phase where solutions are improved to better meet the criteria and constraints."
+                },
+                {
+                    "text": "Move on to developing a completely different solution approach",
+                    "isCorrect": 0,
+                    "explanation": "Creating an entirely new solution would be inefficient when the current design shows promise. The engineering process allows for iterative improvements to existing solutions."
+                },
+                {
+                    "text": "Start over with defining the problem since the initial solution wasn't perfect",
+                    "isCorrect": 0,
+                    "explanation": "While defining the problem is important, it's not necessary to restart the entire process when improvements are needed. The iterative nature of engineering allows for continuous improvement of existing solutions."
                 }
             ],
-            "funFact": "Modern aerospace companies often use virtual reality (VR) alongside CAD models and prototypes to evaluate designs, allowing engineers to interact with virtual versions of their designs before building physical models."
+            "funFact": "The development of modern recycling sorting systems has benefited greatly from iterative design improvements. Today's advanced recycling facilities can use artificial intelligence and machine learning to continuously improve their sorting accuracy to over 95%!"
         },
         {
             "id": 13,
-            "text": "Why is thorough documentation important during the engineering design process?",
+            "text": "A team of engineers is designing a new electric car and needs to evaluate three different battery designs. They have created a decision matrix with the following criteria and their relative weights (out of 10): Cost (8), Energy Efficiency (9), and Durability (7). If Battery A scores 7, 8, and 6, Battery B scores 8, 6, and 8, and Battery C scores 6, 9, and 7 on these criteria respectively, which battery design should they choose based on the weighted scores?",
             "options": [
                 {
-                    "text": "It helps track design changes and decision-making rationale over time",
+                    "text": "Battery C with a total weighted score of 178",
                     "isCorrect": 1,
-                    "explanation": "Documentation creates a record of design choices, criteria evaluations, and improvements, allowing engineers to make informed decisions and learn from past iterations."
+                    "explanation": "This is correct. When multiplying each score by its weight (8\u00d76 + 9\u00d79 + 7\u00d77 = 48 + 81 + 49 = 178), Battery C has the highest total weighted score."
                 },
                 {
-                    "text": "It is only needed to satisfy management requirements",
+                    "text": "Battery A with a total weighted score of 170",
                     "isCorrect": 0,
-                    "explanation": "Documentation serves a crucial practical purpose beyond administrative requirements, helping engineers improve their designs systematically."
+                    "explanation": "This calculation multiplies each score by its weight (8\u00d77 + 9\u00d78 + 7\u00d76 = 56 + 72 + 42 = 170), but it's not the highest total."
                 },
                 {
-                    "text": "It is only important during the final testing phase",
+                    "text": "All batteries perform equally well",
                     "isCorrect": 0,
-                    "explanation": "Documentation is valuable throughout the entire design process, not just during testing, as it helps track the evolution of ideas and solutions from start to finish."
+                    "explanation": "The weighted scores are different for each battery (A=170, B=174, C=178), so they don't perform equally."
                 },
                 {
-                    "text": "It is only necessary when working with large teams",
+                    "text": "Battery B with a total weighted score of 174",
                     "isCorrect": 0,
-                    "explanation": "Documentation is important regardless of team size, as it helps maintain consistency, evaluate progress, and improve designs systematically."
+                    "explanation": "This calculation multiplies each score by its weight (8\u00d78 + 9\u00d76 + 7\u00d78 = 64 + 54 + 56 = 174), but it's not the highest total."
                 }
             ],
-            "funFact": "The Apollo 11 moon landing mission generated over 400,000 pages of technical documentation, highlighting how systematic documentation has been crucial in achieving major engineering feats throughout history."
+            "funFact": "Decision matrices were first widely used in the aerospace industry during the Space Race of the 1960s to help engineers make complex decisions about spacecraft design. Today, they're used in everything from choosing smartphone features to designing renewable energy systems!"
         },
         {
             "id": 14,
-            "text": "An engineering team is designing a solar-powered car for a competition. The original design criteria required the car to reach a speed of 60 mph and travel 200 miles on a single charge. Due to new competition rules, the speed requirement has been reduced to 45 mph, but the range requirement has increased to 300 miles. How would these changes in criteria most likely affect the evaluation of different design solutions?",
+            "text": "An engineering team is designing a new solar-powered car for a competition. They have two different design solutions to evaluate: Design A uses lightweight materials but is more expensive, while Design B uses heavier but cheaper materials. Which systematic approach would be most effective in comparing these designs?",
             "options": [
                 {
-                    "text": "Solutions with larger batteries and more efficient motors would likely rank higher than before",
+                    "text": "Select Design B since it's the cheaper option",
+                    "isCorrect": 0,
+                    "explanation": "This approach only considers cost and ignores other important criteria and systematic evaluation"
+                },
+                {
+                    "text": "Create a decision matrix that evaluates both designs against specific criteria like weight, cost, and performance",
                     "isCorrect": 1,
-                    "explanation": "With increased range requirements but lower speed requirements, designs focusing on energy efficiency and storage capacity would become more favorable than those optimized for speed."
+                    "explanation": "A decision matrix is a systematic tool that allows fair comparison of designs against multiple criteria and constraints"
                 },
                 {
-                    "text": "Solutions with more powerful engines would rank higher than before",
+                    "text": "Choose Design A immediately since lightweight materials always perform better",
                     "isCorrect": 0,
-                    "explanation": "More powerful engines would be less important with the reduced speed requirement and could actually decrease efficiency, making it harder to meet the increased range requirement."
+                    "explanation": "This approach ignores the systematic evaluation process and doesn't consider all criteria and constraints like cost"
                 },
                 {
-                    "text": "Solutions with lighter materials would no longer matter in the evaluation",
+                    "text": "Test each design once and pick the faster one",
                     "isCorrect": 0,
-                    "explanation": "Lighter materials would still be important for efficiency and range, even with reduced speed requirements. Weight affects both speed and energy consumption."
-                },
-                {
-                    "text": "The ranking of different solutions would remain exactly the same",
-                    "isCorrect": 0,
-                    "explanation": "Changes in design criteria significantly affect how solutions are evaluated. Different solutions may perform better or worse under new criteria."
+                    "explanation": "This approach is too limited, considering only one criterion and not systematically evaluating all aspects"
                 }
             ],
-            "funFact": "The world's fastest solar-powered car, the Sunswift 7, set a Guinness World Record in 2022 by traveling at an average speed of 53 mph over 620 miles in under 12 hours, demonstrating how engineers must balance speed and range in solar vehicle design."
+            "funFact": "The world's first solar-powered car race, the World Solar Challenge, was held in 1987 in Australia. The winning car traveled 3,000 kilometers (1,864 miles) using only the power of the sun, averaging 67 kilometers per hour (42 mph)!"
         },
         {
             "id": 15,
-            "text": "An engineering team is designing a new medical device to monitor patient vital signs. Which factor would be most important to consider when evaluating competing design solutions for this device?",
+            "text": "A team of engineers is developing a new electric car. They have two competing designs - Design A and Design B. The criteria for success are: maximum speed of at least 100 mph, range of at least 300 miles per charge, and production cost under $35,000. The constraints are: must use existing battery technology and must meet all current safety regulations. Design A has a maximum speed of 120 mph, range of 250 miles, and costs $32,000 to produce. Design A uses existing battery technology and meets all current safety regulations. Design B has a maximum speed of 95 mph, range of 350 miles, and costs $38,000 to produce. Design B also uses existing battery technology and meets all current safety regulations. Which design solution better meets the criteria and constraints?",
             "options": [
                 {
-                    "text": "How well each solution meets the established criteria and constraints",
+                    "text": "Design A better meets the criteria and constraints",
                     "isCorrect": 1,
-                    "explanation": "When evaluating competing solutions, the most important factor is systematically analyzing how well each solution meets the defined criteria (requirements) and constraints (limitations) of the design problem."
+                    "explanation": "Design A meets 2 out of 3 criteria (speed and cost) and both constraints. Design B only meets 1 criterion (range) and exceeds the cost constraint."
                 },
                 {
-                    "text": "Which solution looks the most aesthetically pleasing",
+                    "text": "Design B better meets the criteria and constraints",
                     "isCorrect": 0,
-                    "explanation": "While appearance can be one criterion, it should not be the primary factor in evaluating medical device designs. The focus should be on functionality and meeting all essential requirements."
+                    "explanation": "While Design B has better range, it fails to meet the speed criterion and exceeds the cost constraint, making it less optimal overall."
                 },
                 {
-                    "text": "Which solution is the newest or most innovative",
+                    "text": "Both designs equally meet the criteria and constraints",
                     "isCorrect": 0,
-                    "explanation": "Innovation alone doesn't guarantee the best solution. The design must effectively meet all specified requirements and work within given limitations."
+                    "explanation": "The designs are not equally successful - Design A meets more criteria and stays within constraints compared to Design B."
                 },
                 {
-                    "text": "Which solution is the least expensive to produce",
+                    "text": "Neither design meets the criteria and constraints",
                     "isCorrect": 0,
-                    "explanation": "Cost may be one constraint, but it shouldn't be the sole determining factor. The solution must satisfy all criteria and constraints, not just economic ones."
+                    "explanation": "While neither design meets all criteria perfectly, Design A satisfies most requirements and constraints, making it a viable solution."
                 }
             ],
-            "funFact": "Engineers often use decision matrices to evaluate competing designs. This tool helps them systematically score each solution against multiple criteria, making the evaluation process more objective and data-driven."
+            "funFact": "Electric cars have actually been around since the 1800s! The first successful electric car in the United States was developed in 1890. They were popular until gasoline-powered cars became more practical in the early 1900s."
         }
     ]
 }

@@ -4,179 +4,201 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which best describes how a battery converts chemical energy into electrical energy?",
+            "text": "Which statement correctly describes how a coal-fired power plant converts energy into electricity?",
             "options": [
                 {
-                    "text": "The chemical reactions inside the battery release electrons that flow through wires to create electrical energy",
+                    "text": "The power plant creates new electrical energy from coal",
+                    "isCorrect": 0,
+                    "explanation": "Power plants don't create new energy. They convert existing energy from one form to another, following the law of conservation of energy."
+                },
+                {
+                    "text": "The chemical energy in coal is converted to heat, which produces steam to spin turbines connected to generators, converting motion energy into electrical energy",
                     "isCorrect": 1,
-                    "explanation": "Chemical reactions in batteries release electrons that create an electric current when connected in a circuit"
+                    "explanation": "This correctly describes the energy conversion process: chemical energy (coal) \u2192 heat energy \u2192 motion energy (steam turbines) \u2192 electrical energy."
                 },
                 {
-                    "text": "The battery generates new energy from nothing and transforms it into electricity",
+                    "text": "The power plant generates unlimited electrical energy from a limited amount of coal",
                     "isCorrect": 0,
-                    "explanation": "Energy cannot be created or generated from nothing - it can only be converted from one form to another"
+                    "explanation": "This violates the law of conservation of energy. The amount of electrical energy produced is limited by the amount of chemical energy stored in the coal."
                 },
                 {
-                    "text": "The battery absorbs light energy and transforms it into electrical energy",
+                    "text": "The power plant directly converts coal into electrical energy without any intermediate steps",
                     "isCorrect": 0,
-                    "explanation": "Batteries use chemical energy stored in their materials, not light energy, to produce electricity"
-                },
-                {
-                    "text": "The battery uses motion energy to spin a generator that creates electricity",
-                    "isCorrect": 0,
-                    "explanation": "Batteries don't have moving parts - they rely on chemical reactions rather than motion to produce electricity"
+                    "explanation": "The conversion of coal to electricity involves multiple energy transformations and isn't direct. It requires intermediate steps involving heat and motion energy."
                 }
             ],
-            "funFact": "The first battery was invented in 1800 by Alessandro Volta and was made by stacking alternating layers of zinc, cardboard soaked in salt water, and silver. This 'voltaic pile' was the first device to produce a steady electric current!"
+            "funFact": "The largest coal-fired power plant in North America, the Robert W. Scherer Power Plant in Georgia, can convert enough chemical energy from coal to produce electricity for about 3.5 million homes!"
         },
         {
             "id": 2,
-            "text": "When a light bulb is turned on, it converts electrical energy into light energy. However, not all the electrical energy becomes light. What else happens to some of the electrical energy in a light bulb?",
+            "text": "Which statement correctly describes how plants use light energy from the sun for growth?",
             "options": [
                 {
-                    "text": "It is converted into heat energy",
+                    "text": "Plants store light energy directly in their leaves without converting it to other forms",
+                    "isCorrect": 0,
+                    "explanation": "Plants don't store light energy directly - they must first convert it to chemical energy through photosynthesis"
+                },
+                {
+                    "text": "Plants absorb heat energy from sunlight to melt nutrients in the soil",
+                    "isCorrect": 0,
+                    "explanation": "While plants do receive heat from the sun, they don't use it to melt nutrients. They use light energy in photosynthesis to make their own food"
+                },
+                {
+                    "text": "Plants convert light energy into chemical energy they can use to grow and produce food",
                     "isCorrect": 1,
-                    "explanation": "Light bulbs are not 100% efficient - they convert some electrical energy into heat energy, which is why light bulbs feel warm when they have been on for a while."
+                    "explanation": "Plants capture sunlight and through photosynthesis convert it into chemical energy stored in food, which they use for growth and other life processes"
                 },
                 {
-                    "text": "It is stored in the light bulb for later use",
+                    "text": "Plants reflect light energy back into space which helps them grow taller",
                     "isCorrect": 0,
-                    "explanation": "Light bulbs don't store energy - they convert electrical energy into other forms immediately as electricity flows through them."
-                },
-                {
-                    "text": "It disappears completely",
-                    "isCorrect": 0,
-                    "explanation": "Energy cannot disappear or be destroyed - it can only be converted from one form to another according to the law of conservation of energy."
-                },
-                {
-                    "text": "It is converted back into chemical energy",
-                    "isCorrect": 0,
-                    "explanation": "Light bulbs don't convert electrical energy back into chemical energy - they transform electrical energy into light and heat energy."
+                    "explanation": "Plants actually absorb light energy rather than reflect it. Reflecting light would not provide them with the energy they need for growth"
                 }
             ],
-            "funFact": "Traditional incandescent light bulbs actually convert about 95% of their electrical energy into heat and only 5% into light! This is why newer LED bulbs, which are much more efficient at producing light, can help save energy and reduce electricity bills."
+            "funFact": "Some plants can detect and grow towards light sources through a process called phototropism. This allows them to maximize their exposure to sunlight and optimize their energy capture for growth!"
         },
         {
             "id": 3,
-            "text": "How do solar cells convert energy from sunlight into a form that can power electronic devices?",
+            "text": "Which of the following best describes what energy is?",
             "options": [
                 {
-                    "text": "Solar cells convert light energy directly into electrical energy that can flow through wires",
+                    "text": "The ability to do work or make things happen",
                     "isCorrect": 1,
-                    "explanation": "Solar cells are designed to convert light energy into electrical energy through a process called the photovoltaic effect, allowing the energy to power devices"
+                    "explanation": "This is correct! Energy is defined as the ability to do work, which means it can make things happen - from powering your video games to helping you ride a bike."
                 },
                 {
-                    "text": "Solar cells first convert light into heat, which then becomes electrical energy",
+                    "text": "A type of force that only moves objects",
                     "isCorrect": 0,
-                    "explanation": "While solar thermal systems use sunlight to create heat, solar cells (photovoltaic cells) directly convert light to electricity without a heat step"
+                    "explanation": "This is incorrect. While energy can cause motion, it does much more than just move objects. Energy can also produce light, sound, and heat."
                 },
                 {
-                    "text": "Solar cells store sunlight in batteries which later release electrical energy",
+                    "text": "Something that can only be created by machines",
                     "isCorrect": 0,
-                    "explanation": "Solar cells don't store sunlight - they convert it immediately to electricity. Batteries are separate devices that can store the electrical energy"
+                    "explanation": "This is incorrect. Energy is not just created by machines - it exists in many forms in nature, like sunlight, and can be converted from one form to another."
                 },
                 {
-                    "text": "Solar cells reflect sunlight onto generators that produce electricity",
+                    "text": "Electricity stored in batteries",
                     "isCorrect": 0,
-                    "explanation": "Solar cells don't reflect light or use generators - they directly convert light energy to electrical energy through their semiconductor materials"
+                    "explanation": "This is incorrect. While batteries do store energy, this is just one form of energy. Energy exists in many forms like light, sound, heat, and motion."
                 }
             ],
-            "funFact": "The photovoltaic effect, which allows solar cells to convert light to electricity, was first discovered by French physicist Edmond Becquerel in 1839 when he was just 19 years old!"
+            "funFact": "Did you know that the energy you get from eating one chocolate chip cookie could charge a smartphone for about 10 minutes? Our bodies are incredibly efficient at converting the chemical energy in food into other forms of energy we need!"
         },
         {
             "id": 4,
-            "text": "Which of the following best describes motion energy?",
+            "text": "A drummer is playing their drum set at a concert. How does the sound reach the audience members in the back of the venue?",
             "options": [
                 {
-                    "text": "The energy an object has due to its movement",
+                    "text": "The sound waves travel through the air from the drum to the listeners' ears",
                     "isCorrect": 1,
-                    "explanation": "Motion energy is indeed the energy that an object possesses because it is moving. For example, a rolling ball has motion energy."
+                    "explanation": "Sound energy transfers through waves that travel through the air from the source (drum) to the receiver (ears)"
                 },
                 {
-                    "text": "The energy stored in batteries",
+                    "text": "The drum shoots tiny particles that hit the listeners' ears",
                     "isCorrect": 0,
-                    "explanation": "Energy stored in batteries is chemical energy, not motion energy. This energy can be converted to motion energy through devices like motors."
+                    "explanation": "Sound does not transfer through particles being shot - it transfers through waves in the air"
                 },
                 {
-                    "text": "The energy from the sun",
+                    "text": "The drum creates light that carries the sound to listeners",
                     "isCorrect": 0,
-                    "explanation": "The sun primarily provides light and heat energy, not motion energy. While solar energy can be converted to motion energy, it is not motion energy itself."
+                    "explanation": "Sound transfers through sound waves in the air, not through light waves"
                 },
                 {
-                    "text": "The energy that creates sound",
+                    "text": "The sound teleports instantly from the drum to the listeners",
                     "isCorrect": 0,
-                    "explanation": "While sound is created by vibrations (a type of motion), motion energy specifically refers to the energy of objects moving through space."
+                    "explanation": "Sound takes time to travel through the air - it does not teleport or transfer instantly"
                 }
             ],
-            "funFact": "The motion energy of Earth's rotation is so enormous that it causes our planet to bulge slightly at the equator, making Earth not perfectly spherical but slightly flattened at the poles!"
+            "funFact": "The speed of sound in air is about 343 meters per second (767 mph) at room temperature. This means that at a large concert venue that's 100 meters long, it takes about 0.3 seconds for the sound to reach people in the back!"
         },
         {
             "id": 5,
-            "text": "At a rock concert, a person standing close to the speakers can feel the music vibrating in their chest. What scientific principle explains this sensation?",
-            "options": [
-                {
-                    "text": "Sound waves create physical vibrations that can be strong enough to be felt by the body",
-                    "isCorrect": 1,
-                    "explanation": "Sound waves are vibrations that travel through matter. When sound is intense enough, like at a concert, these vibrations are strong enough to be physically felt in our bodies."
-                },
-                {
-                    "text": "The speakers produce heat that causes the chest to vibrate",
-                    "isCorrect": 0,
-                    "explanation": "While speakers can produce some heat, the vibration felt in the chest is due to sound waves, not heat energy."
-                },
-                {
-                    "text": "Light from the concert stage causes the vibration sensation",
-                    "isCorrect": 0,
-                    "explanation": "Light energy cannot create the physical vibrations felt in the chest. The sensation comes from sound waves."
-                },
-                {
-                    "text": "The music creates an electrical field that makes the body vibrate",
-                    "isCorrect": 0,
-                    "explanation": "The vibration sensation is not caused by electrical fields but by physical sound waves moving through the air and into the body."
-                }
-            ],
-            "funFact": "The human body is mostly water, which makes it an excellent conductor of sound vibrations. This is why you can feel very low-frequency sounds (bass) in your chest - the sound waves are actually moving the water molecules in your body!"
-        },
-        {
-            "id": 6,
-            "text": "A student builds a simple device with a hand crank connected to a small generator that powers a light bulb. What is the correct sequence of energy transformations that occurs when the student turns the hand crank to light up the bulb?",
+            "text": "When someone pedals a bicycle connected to a generator to power a light bulb, what is the sequence of energy conversions that takes place?",
             "options": [
                 {
                     "text": "Motion energy \u2192 Electrical energy \u2192 Light energy",
                     "isCorrect": 1,
-                    "explanation": "When the hand crank is turned, motion energy is converted to electrical energy by the generator. The electrical energy then flows through wires to the light bulb, where it is converted to light energy."
+                    "explanation": "This is correct! The motion of pedaling creates motion energy, which the generator converts to electrical energy, and finally the light bulb converts electrical energy into light energy."
+                },
+                {
+                    "text": "Chemical energy \u2192 Motion energy \u2192 Light energy",
+                    "isCorrect": 0,
+                    "explanation": "While chemical energy from food does help the person pedal, this sequence misses the crucial electrical energy step that happens in the generator."
                 },
                 {
                     "text": "Electrical energy \u2192 Motion energy \u2192 Light energy",
                     "isCorrect": 0,
-                    "explanation": "This sequence is incorrect because the energy transformation begins with motion energy from turning the crank, not electrical energy."
-                },
-                {
-                    "text": "Light energy \u2192 Motion energy \u2192 Electrical energy",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is backwards. The energy transformation starts with motion and ends with light, not the other way around."
+                    "explanation": "This sequence is incorrect because electrical energy comes from converting the motion energy, not the other way around."
                 },
                 {
                     "text": "Motion energy \u2192 Light energy \u2192 Electrical energy",
                     "isCorrect": 0,
-                    "explanation": "While the process starts correctly with motion energy, light energy is the final form, not an intermediate step in powering the bulb."
+                    "explanation": "This sequence is out of order. The generator must first convert motion to electrical energy before it can be converted to light."
                 }
             ],
-            "funFact": "The same principle of converting motion energy to electrical energy is used in some emergency flashlights that you can shake or crank to power up - no batteries needed! This technology helps provide light in areas without reliable electricity access."
+            "funFact": "The world's first bicycle-powered generator was created in the late 1800s. Today, some gyms use exercise bikes connected to generators to help power their facilities, turning workout energy into useful electricity!"
+        },
+        {
+            "id": 6,
+            "text": "A science class is designing a bicycle-powered generator for their school's science fair. They need to convert the motion energy from pedaling into electrical energy to power small devices. The students have four different design proposals. Which design would be the safest and most cost-effective way to convert motion energy into electrical energy?",
+            "options": [
+                {
+                    "text": "Create friction between the wheel and a metal plate to generate electricity",
+                    "isCorrect": 0,
+                    "explanation": "This design would waste energy as heat through friction and could be dangerous. It's not an efficient or safe way to generate electrical energy."
+                },
+                {
+                    "text": "Connect the bicycle wheel to a generator that transforms the spinning motion into electrical energy",
+                    "isCorrect": 1,
+                    "explanation": "This is the most effective and safe design. The generator properly converts mechanical energy from the wheel's motion into electrical energy that can power devices."
+                },
+                {
+                    "text": "Use multiple batteries connected to the wheel to store motion energy",
+                    "isCorrect": 0,
+                    "explanation": "Batteries store electrical energy but cannot directly convert motion energy. This design wouldn't work as batteries can't transform motion into electricity."
+                },
+                {
+                    "text": "Attach the bicycle wheel directly to copper wires that connect to the devices",
+                    "isCorrect": 0,
+                    "explanation": "This design is unsafe as direct contact between the wheel and wires could cause damage and wouldn't effectively convert motion energy to electrical energy."
+                }
+            ],
+            "funFact": "The first bicycle-powered generators were used in the early 1900s for powering early radio sets and lighting systems in rural areas before widespread electricity was available. Today, some gyms use exercise bikes connected to generators to help power their facilities!"
         },
         {
             "id": 7,
+            "text": "A student is experimenting with a bicycle generator setup to power different devices. The setup includes a bicycle connected to a generator, which can power a light bulb and charge a phone. When the student pedals the bicycle, which sequence of energy transformations occurs to light up the bulb?",
+            "options": [
+                {
+                    "text": "Motion energy \u2192 Electrical energy \u2192 Light energy",
+                    "isCorrect": 1,
+                    "explanation": "This is correct! When pedaling, your motion energy turns the generator, which converts it to electrical energy. The electrical energy then flows through wires to the light bulb, where it's converted to light energy."
+                },
+                {
+                    "text": "Electrical energy \u2192 Motion energy \u2192 Light energy",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect. The energy transformation begins with motion (pedaling), not electrical energy. The generator converts motion to electrical energy, not the other way around."
+                },
+                {
+                    "text": "Motion energy \u2192 Light energy \u2192 Electrical energy",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is out of order. The generator must first convert motion energy to electrical energy before it can be converted to light energy in the bulb."
+                },
+                {
+                    "text": "Chemical energy \u2192 Motion energy \u2192 Light energy",
+                    "isCorrect": 0,
+                    "explanation": "While chemical energy from your muscles helps you pedal, this sequence misses the crucial electrical energy stage that occurs when the generator converts motion energy to electrical energy."
+                }
+            ],
+            "funFact": "The same principle used in bicycle generators is used in many hydroelectric dams, where falling water (motion energy) spins turbines connected to generators, producing enough electrical energy to power thousands of homes!"
+        },
+        {
+            "id": 8,
             "text": "A string of holiday lights is plugged into an electrical outlet. When the lights are turned on, they feel warm to the touch. This warmth indicates that not all electrical energy is being converted to light. What is happening to the 'lost' electrical energy in this system?",
             "options": [
                 {
                     "text": "The electrical energy is being converted to heat energy",
                     "isCorrect": 1,
                     "explanation": "When electrical energy flows through the light bulbs, some energy is converted to heat due to resistance in the wires and bulbs. This is an example of energy transfer, not energy loss."
-                },
-                {
-                    "text": "The electrical energy disappears completely",
-                    "isCorrect": 0,
-                    "explanation": "Energy cannot disappear or be destroyed. It always converts from one form to another according to the law of conservation of energy."
                 },
                 {
                     "text": "The electrical energy is stored in the light bulbs",
@@ -187,149 +209,78 @@
                     "text": "The electrical energy returns to the power outlet",
                     "isCorrect": 0,
                     "explanation": "Once electrical energy enters the circuit, it doesn't return to the outlet unchanged. It is converted to other forms of energy like light and heat."
+                },
+                {
+                    "text": "The electrical energy disappears completely",
+                    "isCorrect": 0,
+                    "explanation": "Energy cannot disappear or be destroyed. It always converts from one form to another according to the law of conservation of energy."
                 }
             ],
             "funFact": "Modern LED holiday lights are much more efficient than traditional incandescent bulbs, converting about 90% of electrical energy to light and only 10% to heat. In contrast, old-style incandescent bulbs convert about 90% of electrical energy to heat and only 10% to light!"
         },
         {
-            "id": 8,
-            "text": "In a musical greeting card, what is the sequence of energy transfers that occurs when you open the card and hear the music?",
-            "options": [
-                {
-                    "text": "Chemical energy in battery \u2192 Electrical energy in wires \u2192 Sound energy from speaker",
-                    "isCorrect": 1,
-                    "explanation": "This is the correct sequence. The battery's chemical energy is converted to electrical energy that flows through wires, which then powers a speaker that converts it to sound energy we can hear."
-                },
-                {
-                    "text": "Sound energy in battery \u2192 Electrical energy in wires \u2192 Chemical energy from speaker",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Batteries store chemical energy, not sound energy, and speakers produce sound energy, not chemical energy."
-                },
-                {
-                    "text": "Electrical energy in battery \u2192 Chemical energy in wires \u2192 Sound energy from speaker",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. Batteries store chemical energy (not electrical), and wires carry electrical energy (not chemical energy)."
-                },
-                {
-                    "text": "Chemical energy in battery \u2192 Sound energy in wires \u2192 Electrical energy from speaker",
-                    "isCorrect": 0,
-                    "explanation": "This sequence is incorrect. The energy in wires is electrical (not sound), and speakers produce sound energy (not electrical)."
-                }
-            ],
-            "funFact": "The first musical greeting card was invented in 1979 by Taiwanese inventor James Wong. Today, musical greeting cards use tiny microchips to store the music digitally, but they still rely on the same basic principle of energy conversion from chemical to electrical to sound!"
-        },
-        {
             "id": 9,
-            "text": "You want to design a water wheel system to power an LED light. Which combination of components would create a working system that converts the energy of flowing water into electrical energy?",
+            "text": "A student is experimenting with a simple circuit containing a battery, wires, and a buzzer. What would happen to the sound from the buzzer if the student replaces the battery with one that has twice the voltage?",
             "options": [
                 {
-                    "text": "Water wheel connected to a generator, which is connected to the LED",
+                    "text": "The buzzer will produce a softer sound because the extra voltage reduces energy conversion",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect - more voltage means more electrical energy is available for conversion to sound energy, not less"
+                },
+                {
+                    "text": "The buzzer will stop working because too much voltage will break it",
+                    "isCorrect": 0,
+                    "explanation": "While extremely high voltages could damage a buzzer, simply doubling the voltage within the device's operating range will just result in louder sound"
+                },
+                {
+                    "text": "The sound will remain exactly the same because voltage doesn't affect sound production",
+                    "isCorrect": 0,
+                    "explanation": "The amount of electrical energy available does affect the sound production - more voltage means more energy for conversion to sound"
+                },
+                {
+                    "text": "The buzzer will produce a louder sound because more electrical energy is being converted to sound energy",
                     "isCorrect": 1,
-                    "explanation": "This is correct. The water wheel converts motion energy of flowing water into rotational motion, the generator converts this motion energy into electrical energy, which then powers the LED."
-                },
-                {
-                    "text": "Water wheel connected directly to the LED",
-                    "isCorrect": 0,
-                    "explanation": "This won't work because the mechanical energy from the water wheel needs to be converted to electrical energy first using a generator."
-                },
-                {
-                    "text": "Water wheel connected to a battery, which is connected to the LED",
-                    "isCorrect": 0,
-                    "explanation": "While a battery can power an LED, it cannot convert mechanical energy to electrical energy. A generator is needed for this conversion."
-                },
-                {
-                    "text": "Water wheel connected to a solar cell, which is connected to the LED",
-                    "isCorrect": 0,
-                    "explanation": "Solar cells convert light energy to electrical energy, not mechanical energy. A generator is needed to convert the water wheel's motion into electricity."
+                    "explanation": "A higher voltage battery provides more electrical energy, which leads to stronger vibrations in the buzzer and therefore a louder sound"
                 }
             ],
-            "funFact": "The world's first hydroelectric power plant was built in 1878 at Cragside in Northumberland, England. It used a water wheel to power a single light bulb in the house of Lord Armstrong, making it the first house in the world to be lit by hydroelectricity!"
+            "funFact": "Many musical instruments actually use electrical energy conversion similar to buzzers! Electric guitars convert string vibrations to electrical signals, which are then converted back to amplified sound through speakers."
         },
         {
             "id": 10,
-            "text": "A toy car manufacturer wants to create a car that runs using solar power. Which combination of devices would be needed to convert sunlight into motion for the car?",
+            "text": "A science class is designing passive solar heaters for keeping food warm during outdoor events. They have access to different materials to test. Which material would be most effective for converting sunlight into heat energy in their solar heater design?",
             "options": [
                 {
-                    "text": "Solar cell and electric motor",
+                    "text": "Black metal sheet",
                     "isCorrect": 1,
-                    "explanation": "A solar cell converts sunlight into electrical energy, and an electric motor converts electrical energy into motion energy, making this the correct combination for a solar-powered car."
+                    "explanation": "Black metal is excellent at absorbing light energy and converting it to heat energy. It also conducts heat well, making it very effective for solar heating."
                 },
                 {
-                    "text": "Battery and electric motor",
+                    "text": "Shiny aluminum foil",
                     "isCorrect": 0,
-                    "explanation": "While a battery and motor can power a car, this combination doesn't include a way to convert sunlight into electrical energy, which is necessary for solar power."
+                    "explanation": "Shiny aluminum foil reflects most light energy rather than absorbing it, making it poor at converting light to heat energy."
                 },
                 {
-                    "text": "Solar cell and generator",
+                    "text": "Clear glass panel",
                     "isCorrect": 0,
-                    "explanation": "A generator converts motion energy into electrical energy, which is the opposite of what's needed. A motor is needed to convert electrical energy into motion."
+                    "explanation": "While clear glass allows light to pass through, it doesn't effectively convert light energy to heat energy since most light passes through rather than being absorbed."
                 },
                 {
-                    "text": "Solar cell and battery",
+                    "text": "White plastic sheet",
                     "isCorrect": 0,
-                    "explanation": "While a solar cell converts sunlight to electricity and a battery can store it, this combination lacks a motor to convert the electrical energy into motion."
+                    "explanation": "White surfaces reflect most light energy rather than absorbing it, making white plastic inefficient at converting light energy to heat energy."
                 }
             ],
-            "funFact": "The world's largest solar-powered car race, the World Solar Challenge, takes place in Australia where teams drive over 3,000 kilometers across the continent using only energy from the sun!"
+            "funFact": "The world's largest solar thermal power plant, located in the Mojave Desert, uses over 300,000 mirrors to concentrate sunlight onto black-coated tubes containing water, converting light energy into heat energy to generate electricity!"
         },
         {
             "id": 11,
-            "text": "When roasting a marshmallow over a campfire, several energy transfers occur. What is the primary direction of heat energy transfer in this scenario?",
-            "options": [
-                {
-                    "text": "From the marshmallow to the fire",
-                    "isCorrect": 0,
-                    "explanation": "Heat energy always transfers from warmer objects to cooler objects. The fire is much hotter than the marshmallow, so heat transfers from the fire to the marshmallow, not the other way around."
-                },
-                {
-                    "text": "From the fire to the marshmallow",
-                    "isCorrect": 1,
-                    "explanation": "Correct! Heat energy always moves from warmer objects to cooler ones. The hot fire transfers heat energy to the cooler marshmallow, causing it to warm up and become soft and gooey."
-                },
-                {
-                    "text": "Equally in both directions between the fire and marshmallow",
-                    "isCorrect": 0,
-                    "explanation": "While there is some heat transfer in both directions, the net transfer of heat energy is from the hotter object (fire) to the cooler object (marshmallow), not equally in both directions."
-                },
-                {
-                    "text": "There is no heat transfer occurring",
-                    "isCorrect": 0,
-                    "explanation": "Heat transfer is definitely occurring - this is why the marshmallow gets warm and soft. Without heat transfer from the fire to the marshmallow, no changes would occur in the marshmallow's temperature or texture."
-                }
-            ],
-            "funFact": "The perfect temperature for roasting marshmallows is around 300\u00b0F (149\u00b0C). At this temperature, the sugar molecules in the marshmallow begin to break down and caramelize, creating that delicious golden-brown exterior while keeping the inside soft and gooey!"
-        },
-        {
-            "id": 12,
-            "text": "A solar-powered toy car has three main components: solar panels on the top, an electric motor, and wheels. What is the complete chain of energy transformations that occurs when the car moves in sunlight?",
-            "options": [
-                {
-                    "text": "Light energy \u2192 Electrical energy \u2192 Motion energy",
-                    "isCorrect": 1,
-                    "explanation": "Solar panels convert light energy to electrical energy, which is then converted to motion energy by the motor to move the wheels."
-                },
-                {
-                    "text": "Heat energy \u2192 Electrical energy \u2192 Motion energy",
-                    "isCorrect": 0,
-                    "explanation": "While the sun produces heat, it's the light energy that solar panels convert to electrical energy, not heat energy."
-                },
-                {
-                    "text": "Light energy \u2192 Motion energy \u2192 Electrical energy",
-                    "isCorrect": 0,
-                    "explanation": "This reverses the order - light energy must first be converted to electrical energy before it can be transformed into motion energy."
-                },
-                {
-                    "text": "Light energy \u2192 Heat energy \u2192 Motion energy",
-                    "isCorrect": 0,
-                    "explanation": "Solar panels convert light directly to electrical energy, not heat energy, before it becomes motion energy."
-                }
-            ],
-            "funFact": "The first practical solar-powered car was built in 1955 by William G. Cobb of General Motors. Though small in size (just 15 inches long), it demonstrated how sunlight could be used to power transportation, paving the way for today's solar vehicles!"
-        },
-        {
-            "id": 13,
             "text": "A solar-powered calculator is being used in different locations throughout the day. In which situation would the energy conversion from light to electrical energy be most efficient?",
             "options": [
+                {
+                    "text": "Using the calculator at sunset",
+                    "isCorrect": 0,
+                    "explanation": "The low angle and reduced intensity of sunlight at sunset provides less light energy for conversion, reducing the efficiency of the solar cell."
+                },
                 {
                     "text": "Using the calculator inside a dimly lit room",
                     "isCorrect": 0,
@@ -344,73 +295,117 @@
                     "text": "Using the calculator on a cloudy afternoon",
                     "isCorrect": 0,
                     "explanation": "Cloud cover reduces the amount of light reaching the solar cell, resulting in less efficient energy conversion."
-                },
-                {
-                    "text": "Using the calculator at sunset",
-                    "isCorrect": 0,
-                    "explanation": "The low angle and reduced intensity of sunlight at sunset provides less light energy for conversion, reducing the efficiency of the solar cell."
                 }
             ],
             "funFact": "The first solar-powered calculator was invented in 1978 by Sharp Corporation. Modern solar calculators can work for several days even after brief exposure to light because they combine solar cells with rechargeable batteries to store excess energy!"
         },
         {
-            "id": 14,
-            "text": "In a simple electronic setup, there are three devices connected to a battery: a light bulb, a speaker, and a small motor. How is the electrical energy from the battery transformed differently in each device?",
+            "id": 12,
+            "text": "In a solar-powered toy car system, energy undergoes multiple conversions: sunlight \u2192 electrical energy (via solar cell) \u2192 motion (via motor). Where in this system would energy loss most likely occur, and what could be done to minimize it?",
             "options": [
                 {
-                    "text": "The light bulb converts electrical energy to light energy, the speaker converts it to sound energy, and the motor converts it to motion energy",
-                    "isCorrect": 1,
-                    "explanation": "Each device transforms electrical energy into a different form - the light bulb produces light, the speaker creates sound waves, and the motor generates mechanical motion"
+                    "text": "At the solar cell, and painting it black would increase energy conversion",
+                    "isCorrect": 0,
+                    "explanation": "While solar cells do have some energy loss, painting them black would actually reduce their efficiency. Solar cells are designed with specific materials to optimize photon absorption."
                 },
+                {
+                    "text": "At the toy car's wheels, and using larger wheels would eliminate all energy loss",
+                    "isCorrect": 0,
+                    "explanation": "While larger wheels might reduce some friction with the ground, they cannot eliminate all energy loss. Energy is still lost through friction between the wheels and the surface, as well as air resistance."
+                },
+                {
+                    "text": "At the motor-to-motion conversion, and adding lubricant to moving parts would help reduce friction losses",
+                    "isCorrect": 1,
+                    "explanation": "Motors convert electrical energy to motion, but friction between moving parts causes energy loss as heat. Proper lubrication reduces this friction, maximizing the energy available for motion."
+                },
+                {
+                    "text": "In the wires, and making them thicker would eliminate all energy loss",
+                    "isCorrect": 0,
+                    "explanation": "While thicker wires can reduce energy loss due to resistance, they cannot eliminate all energy loss. Some electrical energy will always be converted to heat in the wires."
+                }
+            ],
+            "funFact": "The most efficient electric motors today can convert up to 97% of electrical energy into mechanical energy, but early electric motors in the 1800s were only about 50% efficient. This improvement is mainly due to better materials and designs that reduce energy losses from friction and heat."
+        },
+        {
+            "id": 13,
+            "text": "In a simple electronic setup, there are three devices connected to a battery: a light bulb, a speaker, and a small motor. How is the electrical energy from the battery transformed differently in each device?",
+            "options": [
                 {
                     "text": "All three devices convert electrical energy into heat energy only",
                     "isCorrect": 0,
                     "explanation": "While some heat is produced as a byproduct, each device primarily converts electrical energy into a different form of energy for its main function"
                 },
                 {
-                    "text": "The light bulb and speaker both produce sound energy, while the motor produces motion energy",
-                    "isCorrect": 0,
-                    "explanation": "The light bulb produces light energy, not sound energy. Only the speaker is designed to produce sound energy"
-                },
-                {
                     "text": "All three devices convert electrical energy into motion energy",
                     "isCorrect": 0,
                     "explanation": "Only the motor is designed to convert electrical energy primarily into motion energy. The light bulb and speaker convert energy into light and sound respectively"
+                },
+                {
+                    "text": "The light bulb converts electrical energy to light energy, the speaker converts it to sound energy, and the motor converts it to motion energy",
+                    "isCorrect": 1,
+                    "explanation": "Each device transforms electrical energy into a different form - the light bulb produces light, the speaker creates sound waves, and the motor generates mechanical motion"
+                },
+                {
+                    "text": "The light bulb and speaker both produce sound energy, while the motor produces motion energy",
+                    "isCorrect": 0,
+                    "explanation": "The light bulb produces light energy, not sound energy. Only the speaker is designed to produce sound energy"
                 }
             ],
             "funFact": "While these devices convert electrical energy into their primary forms (light, sound, or motion), they all produce some heat as a byproduct. This is why electronic devices feel warm after being used for a while!"
         },
         {
-            "id": 15,
-            "text": "A science class is designing devices to convert electrical energy into different forms of energy. They need to choose materials for each device. Which material would be most effective for converting electrical energy into heat energy?",
+            "id": 14,
+            "text": "In a science demonstration, a drummer plays a bass drum next to a bowl of water. As the drum is played, ripples appear on the water's surface. What best explains how energy is being transferred from the drum to create these ripples?",
             "options": [
                 {
-                    "text": "Nichrome wire",
+                    "text": "Light from the drum reflects off the water surface causing the ripples to form",
+                    "isCorrect": 0,
+                    "explanation": "Light reflection does not cause water ripples. The ripples are caused by sound energy transfer, not light energy."
+                },
+                {
+                    "text": "Sound waves from the drum travel through the air and transfer energy to the water molecules, causing them to move up and down",
                     "isCorrect": 1,
-                    "explanation": "Nichrome wire has high electrical resistance, making it excellent for converting electrical energy into heat energy through resistance heating. It also withstands high temperatures without oxidizing quickly."
+                    "explanation": "Sound travels as waves through air by transferring energy from molecule to molecule. When these waves reach the water, they transfer their energy to the water molecules, creating visible ripples."
                 },
                 {
-                    "text": "Copper wire",
+                    "text": "Heat from the drum warms the air which then creates the ripples in the water",
                     "isCorrect": 0,
-                    "explanation": "Copper wire has high electrical conductivity and low electrical resistance. While it can produce some heat when current flows through it, its low resistance makes it less efficient for converting electrical energy into heat compared to high-resistance materials."
+                    "explanation": "While drums can produce some heat, the ripples are not caused by heat transfer. They are created by sound wave energy moving through the air."
                 },
                 {
-                    "text": "Glass rod",
+                    "text": "The drum creates wind that blows across the water surface making ripples",
                     "isCorrect": 0,
-                    "explanation": "Glass is an insulator and does not conduct electricity well, making it ineffective for converting electrical energy into heat energy."
-                },
-                {
-                    "text": "Rubber tube",
-                    "isCorrect": 0,
-                    "explanation": "Rubber is an insulator that blocks electrical current, preventing the conversion of electrical energy into heat energy."
-                },
-                {
-                    "text": "Plastic strip",
-                    "isCorrect": 0,
-                    "explanation": "Plastic is an electrical insulator and cannot effectively convert electrical energy into heat energy."
+                    "explanation": "The drum's vibrations create sound waves, not wind. The ripples are formed by sound energy transfer through the air, not by moving air (wind)."
                 }
             ],
-            "funFact": "The heating elements in common household appliances like toasters and electric kettles use special metal alloys like nichrome that are specifically designed to convert electrical energy into heat energy efficiently while withstanding high temperatures."
+            "funFact": "Some aquatic animals like whales use sound waves underwater to communicate over vast distances - up to hundreds of miles! The sound waves travel much faster and farther in water than in air because water molecules are packed more closely together."
+        },
+        {
+            "id": 15,
+            "text": "When a bicycle is used to power a small fan, which sequence correctly shows how energy is transferred from the cyclist to the fan blades?",
+            "options": [
+                {
+                    "text": "Electrical energy \u2192 Motion energy \u2192 Generator \u2192 Fan motor \u2192 Motion energy",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect because it starts with electrical energy. The energy transfer begins with the motion energy from pedaling."
+                },
+                {
+                    "text": "Motion energy \u2192 Fan motor \u2192 Electrical energy \u2192 Generator \u2192 Motion energy",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect because it places the fan motor before the generator. The generator must first convert motion energy to electrical energy."
+                },
+                {
+                    "text": "Motion energy \u2192 Electrical energy \u2192 Generator \u2192 Motion energy \u2192 Fan motor",
+                    "isCorrect": 0,
+                    "explanation": "This sequence is incorrect because it shows electrical energy before the generator. The generator is what converts motion energy into electrical energy."
+                },
+                {
+                    "text": "Motion energy \u2192 Generator \u2192 Electrical energy \u2192 Fan motor \u2192 Motion energy",
+                    "isCorrect": 1,
+                    "explanation": "This is the correct sequence. The cyclist's pedaling creates motion energy, which the generator converts to electrical energy. The fan motor then converts this electrical energy back into motion energy to spin the blades."
+                }
+            ],
+            "funFact": "The first bicycle-powered generator was invented in the late 1800s. Today, some gyms use exercise bikes connected to generators to help power their facilities, turning human workout energy into usable electricity!"
         }
     ]
 }

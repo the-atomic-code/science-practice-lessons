@@ -4,6 +4,87 @@
     "questions": [
         {
             "id": 1,
+            "text": "An urban planning team wants to reduce the temperature of streets during hot summer days. Which solution would be most effective in achieving this goal based on scientific principles of heat reflection?",
+            "options": [
+                {
+                    "text": "Paint the roads with reflective white paint",
+                    "isCorrect": 1,
+                    "explanation": "White paint reflects more sunlight than dark surfaces, reducing heat absorption and lowering surface temperatures on paved areas."
+                },
+                {
+                    "text": "Cover the roads with a layer of black asphalt",
+                    "isCorrect": 0,
+                    "explanation": "Black surfaces absorb more heat from sunlight, which would increase rather than decrease street temperatures."
+                },
+                {
+                    "text": "Install metal plates over the road surface",
+                    "isCorrect": 0,
+                    "explanation": "Metal conducts heat well and can become very hot in sunlight, potentially making the temperature problem worse."
+                },
+                {
+                    "text": "Add a layer of transparent glass coating",
+                    "isCorrect": 0,
+                    "explanation": "Glass can create a greenhouse effect, trapping heat and potentially increasing street temperatures."
+                }
+            ],
+            "funFact": "The concept of using light-colored surfaces to reduce heat is called the 'albedo effect.' Cities like Los Angeles have experimented with painting streets white and have recorded temperature reductions of up to 10-15 degrees Fahrenheit on treated surfaces compared to untreated asphalt!"
+        },
+        {
+            "id": 2,
+            "text": "Which testing method would best help engineers determine the effectiveness of different roof designs in protecting against high winds?",
+            "options": [
+                {
+                    "text": "Testing different roofing materials without considering the roof shape",
+                    "isCorrect": 0,
+                    "explanation": "This method ignores the critical factor of roof shape, which significantly affects how wind forces interact with the structure."
+                },
+                {
+                    "text": "Conducting computer simulations without any physical testing",
+                    "isCorrect": 0,
+                    "explanation": "While computer simulations are useful, they need to be validated with physical testing to ensure real-world effectiveness."
+                },
+                {
+                    "text": "Building full-scale roofs and waiting for natural high wind events to occur",
+                    "isCorrect": 0,
+                    "explanation": "This method would be impractical, expensive, and potentially dangerous. It also wouldn't allow for controlled testing conditions."
+                },
+                {
+                    "text": "Creating scale models and using a controlled air source to simulate wind conditions while measuring structural integrity",
+                    "isCorrect": 1,
+                    "explanation": "This method allows for controlled testing conditions, repeatable experiments, and safe measurement of how different roof designs respond to wind forces."
+                }
+            ],
+            "funFact": "The study of how wind interacts with buildings is called wind engineering, and researchers often use specialized wind tunnels that can simulate wind speeds of up to 200 mph to test building designs!"
+        },
+        {
+            "id": 3,
+            "text": "Which statement best describes the location and characteristics of Tornado Alley in the United States?",
+            "options": [
+                {
+                    "text": "Tornado Alley stretches from California to Washington and experiences earthquakes more than tornadoes",
+                    "isCorrect": 0,
+                    "explanation": "This describes the Pacific coast, which is prone to earthquakes, not Tornado Alley"
+                },
+                {
+                    "text": "Tornado Alley stretches from Arizona to Montana and experiences lightning storms more than tornadoes",
+                    "isCorrect": 0,
+                    "explanation": "While this region does experience thunderstorms, it does not accurately describe Tornado Alley's location or its primary weather characteristic"
+                },
+                {
+                    "text": "Tornado Alley stretches from Texas to North Dakota and experiences more tornadoes than any other region in the United States",
+                    "isCorrect": 1,
+                    "explanation": "This accurately describes both the geographic location and the defining characteristic of Tornado Alley - it has the highest frequency of tornadoes in the country"
+                },
+                {
+                    "text": "Tornado Alley stretches from Florida to Maine and experiences hurricanes more than tornadoes",
+                    "isCorrect": 0,
+                    "explanation": "This describes the Atlantic coast, which is prone to hurricanes, not Tornado Alley"
+                }
+            ],
+            "funFact": "Tornadoes in Tornado Alley can reach wind speeds of up to 300 miles per hour - strong enough to lift cars off the ground and even drive straws through tree trunks!"
+        },
+        {
+            "id": 4,
             "text": "How does a lightning rod protect a building during a lightning strike?",
             "options": [
                 {
@@ -17,152 +98,71 @@
                     "explanation": "Lightning rods provide a safe path for electrical energy to travel through the rod and directly into the ground, protecting the building's structure and electrical systems."
                 },
                 {
-                    "text": "It prevents lightning from striking the building by repelling it",
-                    "isCorrect": 0,
-                    "explanation": "Lightning rods don't repel lightning - they actually provide an attractive path for lightning to strike, then safely redirect it."
-                },
-                {
                     "text": "It converts the electrical energy from lightning into heat that dissipates in the air",
                     "isCorrect": 0,
                     "explanation": "Lightning rods don't convert electrical energy to heat. They simply provide a conductive path to the ground."
+                },
+                {
+                    "text": "It prevents lightning from striking the building by repelling it",
+                    "isCorrect": 0,
+                    "explanation": "Lightning rods don't repel lightning - they actually provide an attractive path for lightning to strike, then safely redirect it."
                 }
             ],
             "funFact": "A single bolt of lightning can contain up to 1 billion volts of electricity - that's enough energy to power a regular household for several months! This is why having proper protection through lightning rods is so important for tall buildings."
         },
         {
-            "id": 2,
-            "text": "When testing how different roof designs perform in strong winds, which variable should be kept constant to ensure a fair test?",
-            "options": [
-                {
-                    "text": "The speed of the wind",
-                    "isCorrect": 1,
-                    "explanation": "The wind speed must remain constant across all trials to fairly compare how different roof designs perform. If wind speed varies, we cannot determine if differences in performance are due to the roof design or the changing wind conditions."
-                },
-                {
-                    "text": "The shape of the roof",
-                    "isCorrect": 0,
-                    "explanation": "The roof shape is actually the independent variable being tested. It needs to change between trials to compare how different designs perform against wind forces."
-                },
-                {
-                    "text": "The amount of damage",
-                    "isCorrect": 0,
-                    "explanation": "The amount of damage is the dependent variable or outcome being measured. It will change based on how well each roof design performs and should not be controlled."
-                },
-                {
-                    "text": "The direction of the roof",
-                    "isCorrect": 0,
-                    "explanation": "Changing the roof's orientation would create an unfair test. The direction the roof faces relative to the wind should remain constant to properly compare different designs."
-                }
-            ],
-            "funFact": "Engineers often use wind tunnels to test building designs. The largest wind tunnel in the world is NASA's National Full-Scale Aerodynamics Complex, which can generate winds up to 115 miles per hour and is large enough to test full-size aircraft!"
-        },
-        {
-            "id": 3,
-            "text": "How does collecting and analyzing weather data over many years help communities prepare for extreme weather events?",
-            "options": [
-                {
-                    "text": "It helps predict exactly when and where extreme weather will occur.",
-                    "isCorrect": 0,
-                    "explanation": "While data helps identify patterns, it cannot predict the exact timing and location of extreme weather events with complete certainty."
-                },
-                {
-                    "text": "It helps identify patterns and seasonal trends that can guide preparation efforts.",
-                    "isCorrect": 1,
-                    "explanation": "Historical weather data reveals patterns like hurricane seasons and high-risk areas, allowing communities to prepare appropriately during those times."
-                },
-                {
-                    "text": "It prevents all damage from extreme weather events.",
-                    "isCorrect": 0,
-                    "explanation": "While data helps in preparation, it cannot prevent all damage from extreme weather events - it only helps reduce potential impacts."
-                },
-                {
-                    "text": "It eliminates the need for engineering solutions.",
-                    "isCorrect": 0,
-                    "explanation": "Data collection and engineering solutions work together - data helps inform where and what type of engineering solutions are needed."
-                }
-            ],
-            "funFact": "The National Weather Service maintains weather records dating back to 1870, making it one of the longest continuous scientific data collection efforts in the United States!"
-        },
-        {
-            "id": 4,
-            "text": "An engineer is designing a safe room in a house located in a tornado-prone area. Which feature would be most effective in protecting the occupants during a tornado?",
-            "options": [
-                {
-                    "text": "Special reinforced building panels designed to withstand high winds",
-                    "isCorrect": 1,
-                    "explanation": "Special reinforced building panels are specifically engineered to withstand tornado-force winds, making them the most effective choice for protecting occupants in a safe room during a tornado"
-                },
-                {
-                    "text": "Standard wooden walls with extra insulation",
-                    "isCorrect": 0,
-                    "explanation": "Standard wooden walls, even with extra insulation, are not strong enough to withstand the extreme forces of tornado winds that can reach up to 300 mph"
-                },
-                {
-                    "text": "Regular drywall panels painted with weather-resistant coating",
-                    "isCorrect": 0,
-                    "explanation": "Weather-resistant coating on regular drywall panels does not provide the structural strength needed to protect against the powerful winds of a tornado"
-                },
-                {
-                    "text": "Double-layered glass windows",
-                    "isCorrect": 0,
-                    "explanation": "Glass windows, even when double-layered, are particularly vulnerable during tornadoes and can shatter under high wind pressure, making them unsuitable for a safe room"
-                }
-            ],
-            "funFact": "The strongest tornadoes can generate winds so powerful that they can drive a piece of straw straight through a wooden board! This is why specially engineered building materials are crucial for tornado safety rooms."
-        },
-        {
             "id": 5,
-            "text": "What is the main advantage of a hip roof compared to a gable roof in areas that experience high winds?",
+            "text": "When testing different flood protection methods, which type of evidence would be most useful for determining which solution works best?",
             "options": [
                 {
-                    "text": "A hip roof deflects wind upward along its slanted sides, reducing direct force against the roof",
+                    "text": "Recording how long it takes to build each barrier",
+                    "isCorrect": 0,
+                    "explanation": "Construction time, while practical to know, doesn't indicate how effective the barrier is at preventing flooding."
+                },
+                {
+                    "text": "Observing if the barriers remain standing after the test",
+                    "isCorrect": 0,
+                    "explanation": "While structural integrity is important, it doesn't directly measure how well the barrier prevents flooding, which is the main purpose."
+                },
+                {
+                    "text": "Noting the appearance of each barrier after testing",
+                    "isCorrect": 0,
+                    "explanation": "The appearance after testing doesn't provide concrete evidence about how well the barrier performed its function of flood prevention."
+                },
+                {
+                    "text": "Measuring the amount of water that gets past each barrier",
                     "isCorrect": 1,
-                    "explanation": "Hip roofs have all sides slanted, which helps deflect wind upward rather than allowing it to push directly against flat surfaces, making them more resistant to wind damage"
-                },
-                {
-                    "text": "A hip roof is lighter in weight than a gable roof",
-                    "isCorrect": 0,
-                    "explanation": "The weight of the roof is not the key factor in wind resistance - it's the shape and how it handles wind forces that matters"
-                },
-                {
-                    "text": "A hip roof allows wind to pass through special vents",
-                    "isCorrect": 0,
-                    "explanation": "While roof ventilation is important, the wind resistance of hip roofs comes from their slanted sides deflecting wind, not from venting"
-                },
-                {
-                    "text": "A hip roof is taller than a gable roof",
-                    "isCorrect": 0,
-                    "explanation": "The height of the roof is not what provides wind resistance - it's the angled design that deflects wind forces"
+                    "explanation": "Measuring the amount of water that passes each barrier provides quantitative data to directly compare the effectiveness of different solutions."
                 }
             ],
-            "funFact": "The hip roof design has been used for thousands of years, dating back to ancient Roman architecture. It became particularly popular in areas prone to hurricanes and tropical storms, as its aerodynamic shape helps it withstand powerful winds."
+            "funFact": "The Netherlands, a country where much of the land is below sea level, has developed some of the world's most advanced flood protection systems, including massive storm surge barriers that can automatically close when water levels rise too high!"
         },
         {
             "id": 6,
-            "text": "A team of engineers wants to test the effectiveness of recurved seawalls in protecting coastal areas from flooding. Which testing method would best help determine if recurved seawalls are more effective than traditional straight seawalls?",
+            "text": "A meteorologist wants to test how accurately different weather prediction systems can forecast hurricanes in the Atlantic Ocean. Which testing approach would provide the most reliable comparison while controlling variables?",
             "options": [
                 {
-                    "text": "Build two scale models - one with a recurved seawall and one with a straight seawall. Use a wave machine to generate identical waves and measure the amount of water that gets past each seawall.",
+                    "text": "Test System A during June-August and System B during September-November",
+                    "isCorrect": 0,
+                    "explanation": "Testing different systems during different months introduces seasonal variation as a variable, making it impossible to fairly compare their performance."
+                },
+                {
+                    "text": "Test System A in one geographic region and System B in another region simultaneously",
+                    "isCorrect": 0,
+                    "explanation": "Testing in different geographic regions introduces location as an uncontrolled variable, preventing a fair comparison of the systems."
+                },
+                {
+                    "text": "Test both systems simultaneously during the entire hurricane season and compare their predictions",
                     "isCorrect": 1,
-                    "explanation": "This method allows for controlled testing by keeping wave conditions identical while only varying the seawall design. Measuring water penetration provides quantitative data to compare effectiveness."
+                    "explanation": "Testing both systems at the same time controls for seasonal variations and other variables, allowing for a fair comparison of their accuracy."
                 },
                 {
-                    "text": "Install different seawalls along various beaches and observe which areas experience less flooding during storms over several years.",
+                    "text": "Test each system only during peak hurricane conditions",
                     "isCorrect": 0,
-                    "explanation": "This method lacks controlled variables since different beaches experience different wave conditions, making it difficult to make direct comparisons between seawall designs."
-                },
-                {
-                    "text": "Create computer simulations of different seawall designs without physical testing.",
-                    "isCorrect": 0,
-                    "explanation": "While simulations are useful, they need to be validated with physical testing to ensure they accurately represent real-world conditions and wave behavior."
-                },
-                {
-                    "text": "Test a recurved seawall during calm weather conditions only.",
-                    "isCorrect": 0,
-                    "explanation": "Testing only in calm conditions doesn't evaluate the seawall's performance during extreme weather events when protection is most needed."
+                    "explanation": "Testing only during peak conditions doesn't provide a complete picture of system performance and introduces bias in the results."
                 }
             ],
-            "funFact": "The curved shape of recurved seawalls was inspired by nature! Engineers noticed how curved surfaces in coastal rock formations naturally deflected wave energy back toward the ocean, leading to this innovative design in coastal protection."
+            "funFact": "The first successful hurricane forecast was made in 1848 by Lieutenant William Reid, who used wind pattern observations to predict a hurricane's path in the West Indies. Today, hurricane prediction systems use complex computer models and satellite data to track storms."
         },
         {
             "id": 7,
@@ -179,59 +179,22 @@
                     "explanation": "This uncontrolled real-world comparison has too many varying factors like house size, age, maintenance, and exact wind conditions each house experiences"
                 },
                 {
-                    "text": "Build two model houses with different sized roofs and materials, testing the hip roof with a small fan and the gable roof with a large industrial fan",
-                    "isCorrect": 0,
-                    "explanation": "Using different materials and wind forces means multiple variables are changing at once, making it impossible to determine if differences are due to the roof design alone"
-                },
-                {
                     "text": "Test a single model house by replacing its roof between trials, using different wind speeds and directions for each roof type",
                     "isCorrect": 0,
                     "explanation": "Changing both the wind conditions and roof type between trials means you cannot make a fair comparison of how each roof design performs under the same conditions"
+                },
+                {
+                    "text": "Build two model houses with different sized roofs and materials, testing the hip roof with a small fan and the gable roof with a large industrial fan",
+                    "isCorrect": 0,
+                    "explanation": "Using different materials and wind forces means multiple variables are changing at once, making it impossible to determine if differences are due to the roof design alone"
                 }
             ],
             "funFact": "The hip roof design dates back to ancient Rome, where architects discovered that sloped roofs on all sides helped buildings better withstand both heavy rains and strong Mediterranean winds. This architectural innovation spread across Europe and continues to influence modern building design."
         },
         {
             "id": 8,
-            "text": "A team of engineers wants to test different building elevation methods to protect coastal homes from flooding. Which testing approach would best help identify potential weaknesses while ensuring a fair comparison?",
-            "options": [
-                {
-                    "text": "Test different elevation heights using the same model house and simulated wave conditions, measuring water damage at each height",
-                    "isCorrect": 1,
-                    "explanation": "This approach controls variables by using the same house model and wave conditions, while only changing elevation height. This allows for clear identification of which heights are effective or ineffective at preventing flood damage."
-                },
-                {
-                    "text": "Test different sized houses at various elevations with varying wave conditions to simulate real-world scenarios",
-                    "isCorrect": 0,
-                    "explanation": "Using different house sizes and wave conditions introduces too many variables at once, making it impossible to determine which factor specifically caused success or failure."
-                },
-                {
-                    "text": "Test only the highest elevation possible to ensure maximum protection from flooding",
-                    "isCorrect": 0,
-                    "explanation": "Testing only one elevation height doesn't allow for comparison or identification of potential failure points at different heights. It also doesn't consider practical constraints like cost and feasibility."
-                },
-                {
-                    "text": "Test each elevation height with a different construction material to find the strongest combination",
-                    "isCorrect": 0,
-                    "explanation": "Changing both elevation height and material simultaneously makes it impossible to determine which factor is responsible for success or failure in flood protection."
-                }
-            ],
-            "funFact": "The ancient city of Venice, Italy has been dealing with flooding for centuries and uses a unique system called MOSE (MOdulo Sperimentale Elettromeccanico) - a series of mobile gates that can be raised to protect the city from high tides."
-        },
-        {
-            "id": 9,
             "text": "A team of engineers wants to test how different building materials perform during tornado-like conditions. Which experimental setup would best help them conduct a fair test of the materials?",
             "options": [
-                {
-                    "text": "Test different materials simultaneously in a wind tunnel with controlled wind speed, measuring how long each material maintains structural integrity",
-                    "isCorrect": 1,
-                    "explanation": "This setup controls the key variable (wind speed) while testing multiple materials under identical conditions, allowing for direct comparison of their performance"
-                },
-                {
-                    "text": "Test each material on different days using natural wind conditions, recording when the materials fail",
-                    "isCorrect": 0,
-                    "explanation": "Natural wind conditions vary day to day, making it impossible to ensure each material faces the same conditions - this is not a fair test"
-                },
                 {
                     "text": "Test all materials at once in an open field during tornado season",
                     "isCorrect": 0,
@@ -241,66 +204,76 @@
                     "text": "Test each material with increasingly stronger winds until failure, without recording specific wind speeds",
                     "isCorrect": 0,
                     "explanation": "Without measuring the specific wind speeds at failure, there would be no way to make quantitative comparisons between materials"
+                },
+                {
+                    "text": "Test different materials simultaneously in a wind tunnel with controlled wind speed, measuring how long each material maintains structural integrity",
+                    "isCorrect": 1,
+                    "explanation": "This setup controls the key variable (wind speed) while testing multiple materials under identical conditions, allowing for direct comparison of their performance"
+                },
+                {
+                    "text": "Test each material on different days using natural wind conditions, recording when the materials fail",
+                    "isCorrect": 0,
+                    "explanation": "Natural wind conditions vary day to day, making it impossible to ensure each material faces the same conditions - this is not a fair test"
                 }
             ],
             "funFact": "The strongest wind speed ever recorded in a tornado was 301 mph in Bridge Creek, Oklahoma during the May 3, 1999 tornado outbreak. Engineers use specialized wind tunnels that can simulate these extreme conditions to test building materials in a safe, controlled environment."
         },
         {
-            "id": 10,
-            "text": "A meteorologist wants to test how accurately different weather prediction systems can forecast hurricanes in the Atlantic Ocean. Which testing approach would provide the most reliable comparison while controlling variables?",
+            "id": 9,
+            "text": "A team of scientists tested three different designs to protect coastal areas from flooding: a high sea wall, a rock barrier, and a recurved wall. They used a wave machine and measured the amount of water that got past each barrier. Which evidence best supports determining the most effective flood barrier design?",
             "options": [
                 {
-                    "text": "Test System A during June-August and System B during September-November",
+                    "text": "Counting how many waves hit each barrier during testing",
                     "isCorrect": 0,
-                    "explanation": "Testing different systems during different months introduces seasonal variation as a variable, making it impossible to fairly compare their performance."
+                    "explanation": "The number of waves isn't a good measure of effectiveness since it doesn't tell us how much water got past each barrier."
                 },
                 {
-                    "text": "Test both systems simultaneously during the entire hurricane season and compare their predictions",
+                    "text": "Measuring the amount of floodwater collected behind each barrier (1000 mL with no barrier, 300 mL with sea wall, 100 mL with rocks, and less than 100 mL with recurved wall)",
                     "isCorrect": 1,
-                    "explanation": "Testing both systems at the same time controls for seasonal variations and other variables, allowing for a fair comparison of their accuracy."
+                    "explanation": "This quantitative data directly shows how well each design performed at preventing flooding, allowing for clear comparison between solutions."
                 },
                 {
-                    "text": "Test System A in one geographic region and System B in another region simultaneously",
+                    "text": "Timing how long it took to build each barrier design",
                     "isCorrect": 0,
-                    "explanation": "Testing in different geographic regions introduces location as an uncontrolled variable, preventing a fair comparison of the systems."
+                    "explanation": "Construction time doesn't indicate how well a barrier prevents flooding - it's the performance that matters for determining effectiveness."
                 },
                 {
-                    "text": "Test each system only during peak hurricane conditions",
+                    "text": "Observing how tall each barrier design was compared to the others",
                     "isCorrect": 0,
-                    "explanation": "Testing only during peak conditions doesn't provide a complete picture of system performance and introduces bias in the results."
+                    "explanation": "The height alone doesn't determine effectiveness - the design and how it interacts with waves matters more than just height."
                 }
             ],
-            "funFact": "The first successful hurricane forecast was made in 1848 by Lieutenant William Reid, who used wind pattern observations to predict a hurricane's path in the West Indies. Today, hurricane prediction systems use complex computer models and satellite data to track storms."
+            "funFact": "The ancient Romans were among the first to use curved sea walls in their harbor designs. They discovered that curved walls could redirect wave energy back out to sea, similar to modern recurved walls used today!"
+        },
+        {
+            "id": 10,
+            "text": "A team of engineers wants to test how effective different lightning protection systems are for buildings. Which experimental setup would best help them evaluate and compare different grounding methods?",
+            "options": [
+                {
+                    "text": "Create a computer simulation showing how lightning might affect buildings",
+                    "isCorrect": 0,
+                    "explanation": "While simulations are useful, physical testing is necessary to identify real-world failure points and actual effectiveness of different grounding methods."
+                },
+                {
+                    "text": "Test one type of grounding system repeatedly on the same model house",
+                    "isCorrect": 0,
+                    "explanation": "Testing only one system doesn't allow comparison between different methods. Multiple solutions need to be tested to determine which works best."
+                },
+                {
+                    "text": "Build identical model houses with different grounding systems and expose them to simulated lightning strikes, measuring any damage to internal electrical systems",
+                    "isCorrect": 1,
+                    "explanation": "This setup allows for controlled testing by keeping the house models identical except for the grounding systems being tested. Measuring internal electrical damage provides clear data about effectiveness."
+                },
+                {
+                    "text": "Place lightning rods on different types of buildings and wait for natural lightning strikes to occur",
+                    "isCorrect": 0,
+                    "explanation": "This method lacks control since building types differ and natural lightning is unpredictable. It doesn't allow for systematic comparison of different grounding methods."
+                }
+            ],
+            "funFact": "The Empire State Building is struck by lightning around 25 times per year! Its lightning protection system includes multiple lightning rods and a complex grounding network that safely channels the electrical energy into the ground."
         },
         {
             "id": 11,
-            "text": "A team of engineers tested different methods to protect coastal areas from flooding. They measured the amount of water that got past each barrier during identical wave tests. Which data provides the strongest evidence for determining the most effective flood prevention method?",
-            "options": [
-                {
-                    "text": "A recurved wall allowed the least water to pass through, with less than 100 mL collected, compared to 300 mL with a straight seawall and over 1000 mL with no barrier",
-                    "isCorrect": 1,
-                    "explanation": "This data compares multiple solutions under controlled conditions and shows clear measurements of the dependent variable (amount of water), making it strong evidence for determining effectiveness"
-                },
-                {
-                    "text": "The recurved wall looked stronger and more stable than the other barriers during the wave tests",
-                    "isCorrect": 0,
-                    "explanation": "Visual observations without measurements are not reliable scientific evidence for comparing effectiveness of different solutions"
-                },
-                {
-                    "text": "The straight seawall was taller than the recurved wall, so it must have worked better at stopping waves",
-                    "isCorrect": 0,
-                    "explanation": "Making assumptions based on a single feature (height) without testing and measuring actual performance does not provide good evidence"
-                },
-                {
-                    "text": "Local engineers recommended using recurved walls because they have worked well in other locations",
-                    "isCorrect": 0,
-                    "explanation": "Recommendations based on past experience, while valuable, do not provide direct evidence of effectiveness compared to controlled testing with measurements"
-                }
-            ],
-            "funFact": "The curved shape of recurved seawalls was inspired by nature - similar to how the curved shell of mollusks helps protect them from powerful ocean waves by redirecting the wave's energy away from them!"
-        },
-        {
-            "id": 12,
             "text": "Why do engineers recommend hip roofs over gable roofs in areas that experience strong winds?",
             "options": [
                 {
@@ -309,9 +282,9 @@
                     "explanation": "The slanted sides of hip roofs help redirect wind energy upward instead of allowing it to push directly against flat surfaces, making them more resistant to wind damage"
                 },
                 {
-                    "text": "Hip roofs are cheaper to construct than gable roofs",
+                    "text": "Hip roofs are easier to maintain than gable roofs",
                     "isCorrect": 0,
-                    "explanation": "The cost of construction is not the reason engineers recommend hip roofs. The recommendation is based on their superior wind resistance"
+                    "explanation": "Maintenance requirements do not factor into the engineering recommendation. The focus is on the roof's ability to withstand high winds"
                 },
                 {
                     "text": "Hip roofs are more aesthetically pleasing than gable roofs",
@@ -319,21 +292,48 @@
                     "explanation": "Appearance is not the engineering consideration here. The recommendation is based on how the roof design handles strong winds"
                 },
                 {
-                    "text": "Hip roofs are easier to maintain than gable roofs",
+                    "text": "Hip roofs are cheaper to construct than gable roofs",
                     "isCorrect": 0,
-                    "explanation": "Maintenance requirements do not factor into the engineering recommendation. The focus is on the roof's ability to withstand high winds"
+                    "explanation": "The cost of construction is not the reason engineers recommend hip roofs. The recommendation is based on their superior wind resistance"
                 }
             ],
             "funFact": "The same principle of deflection used in hip roof design is also used in automotive aerodynamics - the sloped shape of car hoods helps redirect air flow over the vehicle, reducing air resistance and improving fuel efficiency!"
+        },
+        {
+            "id": 12,
+            "text": "An engineering team is designing a safe room to protect people during tornadoes. They tested four different designs and measured how well each structure withstood tornado-force winds in a wind tunnel. Which test results would provide the strongest evidence that Design A is the most effective for tornado protection?",
+            "options": [
+                {
+                    "text": "Design A was the most expensive to build compared to Designs B, C, and D",
+                    "isCorrect": 0,
+                    "explanation": "Cost alone does not indicate effectiveness - performance data is needed to evaluate structural integrity"
+                },
+                {
+                    "text": "Design A maintained structural integrity at 250 mph winds, while Designs B, C, and D failed at 150-200 mph winds",
+                    "isCorrect": 1,
+                    "explanation": "This provides clear comparative data showing Design A performed significantly better than others at higher wind speeds typical of tornadoes"
+                },
+                {
+                    "text": "Design A used more materials than Designs B, C, and D",
+                    "isCorrect": 0,
+                    "explanation": "Using more materials does not necessarily mean better protection - actual performance testing is needed"
+                },
+                {
+                    "text": "Design A was preferred by 75% of homeowners in a survey",
+                    "isCorrect": 0,
+                    "explanation": "Personal preferences do not provide evidence of structural effectiveness against tornado winds"
+                }
+            ],
+            "funFact": "The most violent tornadoes can generate winds over 300 mph, which is strong enough to lift a car weighing 2-3 tons off the ground and turn it into a dangerous projectile!"
         },
         {
             "id": 13,
             "text": "A city experiences both hurricanes and tornadoes. Which combination of building design features would be most effective in protecting homes from both types of extreme weather events?",
             "options": [
                 {
-                    "text": "Hip roof and reinforced safe room",
-                    "isCorrect": 1,
-                    "explanation": "Hip roofs deflect high winds due to their slanted sides, while reinforced safe rooms provide protection during both hurricanes and tornadoes. This combination addresses both wind-related threats effectively."
+                    "text": "Hip roof and curved windows",
+                    "isCorrect": 0,
+                    "explanation": "Though hip roofs help with wind resistance, curved windows aren't a proven protection method. This combination leaves the home vulnerable during severe storms."
                 },
                 {
                     "text": "Gable roof and high seawall",
@@ -341,14 +341,14 @@
                     "explanation": "While a seawall helps with flooding, gable roofs are vulnerable to high winds due to their flat sides. This combination doesn't adequately protect against wind damage from both types of storms."
                 },
                 {
-                    "text": "Hip roof and curved windows",
-                    "isCorrect": 0,
-                    "explanation": "Though hip roofs help with wind resistance, curved windows aren't a proven protection method. This combination leaves the home vulnerable during severe storms."
-                },
-                {
                     "text": "Flat roof and reinforced safe room",
                     "isCorrect": 0,
                     "explanation": "While a safe room provides good protection, flat roofs are not optimal for high winds. This design would be vulnerable to wind damage during both types of storms."
+                },
+                {
+                    "text": "Hip roof and reinforced safe room",
+                    "isCorrect": 1,
+                    "explanation": "Hip roofs deflect high winds due to their slanted sides, while reinforced safe rooms provide protection during both hurricanes and tornadoes. This combination addresses both wind-related threats effectively."
                 }
             ],
             "funFact": "The strongest tornado ever recorded had winds of up to 301 miles per hour, while the strongest hurricane had sustained winds of 200 miles per hour. Engineers must design buildings to withstand these extreme forces of nature!"
@@ -358,16 +358,6 @@
             "text": "How do historical hurricane patterns help engineers design better solutions for protecting coastal areas?",
             "options": [
                 {
-                    "text": "By showing when and where hurricanes are most likely to occur, allowing engineers to develop appropriate preventive measures for those regions",
-                    "isCorrect": 1,
-                    "explanation": "Historical data shows that hurricanes in the Atlantic occur between June and November, helping engineers design and implement appropriate protective measures like seawalls and elevated buildings in coastal areas during these times."
-                },
-                {
-                    "text": "By showing that hurricanes are completely random events that cannot be predicted",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. While exact hurricane paths may vary, historical data reveals clear patterns in their timing and general locations, which helps in preparation and design of protective measures."
-                },
-                {
                     "text": "By proving that engineering solutions are not needed since hurricanes never hit the same area twice",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Historical data shows that certain coastal areas regularly experience hurricanes, making engineering solutions essential for protection."
@@ -376,36 +366,46 @@
                     "text": "By demonstrating that all coastal areas face equal hurricane risk throughout the year",
                     "isCorrect": 0,
                     "explanation": "This is incorrect. Historical patterns show that hurricane risk varies by location and season, not all coastal areas face equal risk year-round."
+                },
+                {
+                    "text": "By showing when and where hurricanes are most likely to occur, allowing engineers to develop appropriate preventive measures for those regions",
+                    "isCorrect": 1,
+                    "explanation": "Historical data shows that hurricanes in the Atlantic occur between June and November, helping engineers design and implement appropriate protective measures like seawalls and elevated buildings in coastal areas during these times."
+                },
+                {
+                    "text": "By showing that hurricanes are completely random events that cannot be predicted",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect. While exact hurricane paths may vary, historical data reveals clear patterns in their timing and general locations, which helps in preparation and design of protective measures."
                 }
             ],
             "funFact": "The Saffir-Simpson Hurricane Wind Scale, developed in 1971, uses historical hurricane data to categorize storms from 1 to 5 based on sustained wind speeds. This classification helps engineers design structures that can withstand specific categories of hurricanes."
         },
         {
             "id": 15,
-            "text": "An engineering team is designing a safe room to protect people during tornadoes. They tested four different designs and measured how well each structure withstood tornado-force winds in a wind tunnel. Which test results would provide the strongest evidence that Design A is the most effective for tornado protection?",
+            "text": "An engineering team is testing two different roof designs to determine which one performs better in high winds. In their experiment, they use a powerful fan to simulate strong winds and observe how each roof design responds. Which data would provide the strongest evidence that one roof design is more wind-resistant than the other?",
             "options": [
                 {
-                    "text": "Design A maintained structural integrity at 250 mph winds, while Designs B, C, and D failed at 150-200 mph winds",
+                    "text": "The time taken to construct each roof design",
+                    "isCorrect": 0,
+                    "explanation": "Construction time doesn't provide information about how well a roof withstands wind forces."
+                },
+                {
+                    "text": "The cost of materials used to build each roof design",
+                    "isCorrect": 0,
+                    "explanation": "While cost is important for practical purposes, it doesn't indicate how well a roof performs in high winds."
+                },
+                {
+                    "text": "The appearance of each roof design before testing",
+                    "isCorrect": 0,
+                    "explanation": "The visual appearance of a roof doesn't indicate its ability to resist wind forces."
+                },
+                {
+                    "text": "The amount of movement observed in each roof design when exposed to the same wind speed",
                     "isCorrect": 1,
-                    "explanation": "This provides clear comparative data showing Design A performed significantly better than others at higher wind speeds typical of tornadoes"
-                },
-                {
-                    "text": "Design A was the most expensive to build compared to Designs B, C, and D",
-                    "isCorrect": 0,
-                    "explanation": "Cost alone does not indicate effectiveness - performance data is needed to evaluate structural integrity"
-                },
-                {
-                    "text": "Design A was preferred by 75% of homeowners in a survey",
-                    "isCorrect": 0,
-                    "explanation": "Personal preferences do not provide evidence of structural effectiveness against tornado winds"
-                },
-                {
-                    "text": "Design A used more materials than Designs B, C, and D",
-                    "isCorrect": 0,
-                    "explanation": "Using more materials does not necessarily mean better protection - actual performance testing is needed"
+                    "explanation": "Measuring roof movement under controlled wind conditions directly shows how well each design resists wind forces, making it valid evidence for comparing wind resistance."
                 }
             ],
-            "funFact": "The most violent tornadoes can generate winds over 300 mph, which is strong enough to lift a car weighing 2-3 tons off the ground and turn it into a dangerous projectile!"
+            "funFact": "The strongest tornado ever recorded had winds reaching up to 301 miles per hour! This incredible wind speed was documented during the Bridge Creek-Moore tornado in Oklahoma on May 3, 1999."
         }
     ]
 }

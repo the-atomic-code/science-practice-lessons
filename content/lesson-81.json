@@ -4,8 +4,121 @@
     "questions": [
         {
             "id": 1,
+            "text": "Which states mark the northern and southern boundaries of Tornado Alley in the United States?",
+            "options": [
+                {
+                    "text": "Kansas and Nebraska",
+                    "isCorrect": 0,
+                    "explanation": "Though Kansas and Nebraska are in the heart of Tornado Alley and experience many tornadoes, they are not the northern and southern boundaries. The region extends beyond these states."
+                },
+                {
+                    "text": "Oklahoma and South Dakota",
+                    "isCorrect": 0,
+                    "explanation": "While these states are part of Tornado Alley, they are not its northern and southern boundaries. Tornado Alley extends further south to Texas and further north to North Dakota."
+                },
+                {
+                    "text": "Texas and North Dakota",
+                    "isCorrect": 1,
+                    "explanation": "Tornado Alley stretches from Texas in the south to North Dakota in the north, forming a corridor where tornadoes occur more frequently than in other parts of the United States."
+                },
+                {
+                    "text": "Florida and Minnesota",
+                    "isCorrect": 0,
+                    "explanation": "While these states do experience severe weather, they do not mark the boundaries of Tornado Alley. Florida experiences more hurricanes than tornadoes, and Minnesota is too far east to be part of Tornado Alley."
+                }
+            ],
+            "funFact": "The term 'Tornado Alley' was first used in 1952 by U.S. Air Force meteorologists Major Ernest J. Fawbush and Captain Robert C. Miller, who were studying severe weather patterns to help protect military installations."
+        },
+        {
+            "id": 2,
+            "text": "What feature best explains why tornadoes can cause such extensive damage to buildings and structures?",
+            "options": [
+                {
+                    "text": "Their extremely high wind speeds of up to 300 miles per hour",
+                    "isCorrect": 1,
+                    "explanation": "Tornadoes can generate winds up to 300 mph, which is powerful enough to lift and throw buildings, cars, and trees. These extreme wind speeds are the primary reason tornadoes can cause such devastating damage."
+                },
+                {
+                    "text": "Their ability to produce lightning",
+                    "isCorrect": 0,
+                    "explanation": "Although tornadoes often occur during thunderstorms that produce lightning, tornadoes themselves don't directly produce lightning. The extensive structural damage is caused by their powerful rotating winds, not by lightning."
+                },
+                {
+                    "text": "Their height reaching up to the clouds",
+                    "isCorrect": 0,
+                    "explanation": "While tornadoes can be very tall, it's not their height that causes the most damage. The destructive power comes from their wind speeds and rotating motion."
+                },
+                {
+                    "text": "Their duration lasting several hours",
+                    "isCorrect": 0,
+                    "explanation": "Most tornadoes actually last only a few minutes. The extensive damage they cause is due to their extremely high wind speeds, not their duration."
+                }
+            ],
+            "funFact": "The most violent tornadoes can sometimes throw debris more than a mile high into the air, and some have been known to strip asphalt from roads and create deep impact craters in the ground!"
+        },
+        {
+            "id": 3,
+            "text": "What is the primary way a lightning rod protects a building during a lightning strike?",
+            "options": [
+                {
+                    "text": "It redirects the electrical energy from lightning into the ground through connected wires",
+                    "isCorrect": 1,
+                    "explanation": "Lightning rods are designed to provide a safe path for electrical energy to travel directly into the ground, protecting the building's structure and electrical systems."
+                },
+                {
+                    "text": "It absorbs and stores the electrical energy from lightning",
+                    "isCorrect": 0,
+                    "explanation": "Lightning rods don't store electricity - this would be dangerous. They channel it safely to the ground instead."
+                },
+                {
+                    "text": "It repels lightning strikes away from the building",
+                    "isCorrect": 0,
+                    "explanation": "Lightning rods don't repel lightning. They provide a preferred path for lightning that would strike the building anyway."
+                },
+                {
+                    "text": "It converts lightning's electrical energy into heat that dissipates in the air",
+                    "isCorrect": 0,
+                    "explanation": "Lightning rods don't convert electricity to heat. They conduct the electrical energy directly into the ground."
+                }
+            ],
+            "funFact": "The tallest building in the world, the Burj Khalifa in Dubai, can be struck by lightning up to 100 times per year! Its advanced lightning protection system, including multiple lightning rods, keeps the structure and its occupants safe."
+        },
+        {
+            "id": 4,
+            "text": "What makes it possible for meteorologists to establish the specific calendar dates (June 1-November 30) of the Atlantic hurricane season?",
+            "options": [
+                {
+                    "text": "Modern satellite technology",
+                    "isCorrect": 0,
+                    "explanation": "While satellites help track hurricanes once they form, the seasonal timing prediction comes from historical patterns, not satellite technology."
+                },
+                {
+                    "text": "Ocean temperature measurements",
+                    "isCorrect": 0,
+                    "explanation": "While ocean temperature affects hurricane formation and is crucial for predicting specific hurricanes, the fixed calendar dates of the hurricane season are based on historical patterns observed over centuries."
+                },
+                {
+                    "text": "Historical data showing consistent patterns over centuries",
+                    "isCorrect": 1,
+                    "explanation": "Centuries of data have shown that hurricanes in the Atlantic Ocean consistently form between June 1st and November 30th, allowing reliable predictions of hurricane season timing."
+                },
+                {
+                    "text": "Wind speed measurements",
+                    "isCorrect": 0,
+                    "explanation": "Wind speed measurements help track hurricanes but don't determine the seasonal calendar dates of the Atlantic hurricane season."
+                }
+            ],
+            "funFact": "The Atlantic hurricane season peaks in September, with September 10th being the statistical peak day for tropical cyclone activity. This is when ocean temperatures are typically warmest and atmospheric conditions are most favorable for hurricane development."
+        },
+        {
+            "id": 5,
             "text": "A town in Kansas wants to protect its residents during tornado season. What would be the most effective engineering solution to ensure people's safety during a tornado?",
             "options": [
+                {
+                    "text": "Build taller buildings to rise above tornado paths",
+                    "isCorrect": 0,
+                    "explanation": "Building height does not protect against tornadoes, as tornadoes can affect structures of any height and taller buildings may actually be more vulnerable to strong winds."
+                },
                 {
                     "text": "Build safe rooms with special reinforced panels that can withstand tornado-force winds",
                     "isCorrect": 1,
@@ -20,203 +133,19 @@
                     "text": "Paint the buildings with reflective white paint",
                     "isCorrect": 0,
                     "explanation": "While reflective white paint can help reduce heat in urban areas, it does not provide protection against tornado winds."
-                },
-                {
-                    "text": "Build taller buildings to rise above tornado paths",
-                    "isCorrect": 0,
-                    "explanation": "Building height does not protect against tornadoes, as tornadoes can affect structures of any height and taller buildings may actually be more vulnerable to strong winds."
                 }
             ],
             "funFact": "The strongest tornado ever recorded had winds reaching approximately 300-318 miles per hour! This occurred during the Bridge Creek-Moore tornado in Oklahoma on May 3, 1999, and engineers used this data to develop even stronger building materials for tornado protection."
         },
         {
-            "id": 2,
-            "text": "Which states mark the northern and southern boundaries of Tornado Alley in the United States?",
-            "options": [
-                {
-                    "text": "Texas and North Dakota",
-                    "isCorrect": 1,
-                    "explanation": "Tornado Alley stretches from Texas in the south to North Dakota in the north, forming a corridor where tornadoes occur more frequently than in other parts of the United States."
-                },
-                {
-                    "text": "Florida and Minnesota",
-                    "isCorrect": 0,
-                    "explanation": "While these states do experience severe weather, they do not mark the boundaries of Tornado Alley. Florida experiences more hurricanes than tornadoes, and Minnesota is too far east to be part of Tornado Alley."
-                },
-                {
-                    "text": "Oklahoma and South Dakota",
-                    "isCorrect": 0,
-                    "explanation": "While these states are part of Tornado Alley, they are not its northern and southern boundaries. Tornado Alley extends further south to Texas and further north to North Dakota."
-                },
-                {
-                    "text": "Kansas and Nebraska",
-                    "isCorrect": 0,
-                    "explanation": "Though Kansas and Nebraska are in the heart of Tornado Alley and experience many tornadoes, they are not the northern and southern boundaries. The region extends beyond these states."
-                }
-            ],
-            "funFact": "The term 'Tornado Alley' was first used in 1952 by U.S. Air Force meteorologists Major Ernest J. Fawbush and Captain Robert C. Miller, who were studying severe weather patterns to help protect military installations."
-        },
-        {
-            "id": 3,
-            "text": "What is the main reason why painting roads with reflective white paint helps reduce urban heat during extreme temperatures?",
-            "options": [
-                {
-                    "text": "The white paint reflects sunlight and solar energy back into the atmosphere, reducing heat absorption",
-                    "isCorrect": 1,
-                    "explanation": "White surfaces reflect more sunlight than dark surfaces, preventing the roads from absorbing and storing heat, which helps lower temperatures in urban areas"
-                },
-                {
-                    "text": "The white paint creates a cooling chemical reaction with the road surface",
-                    "isCorrect": 0,
-                    "explanation": "The paint doesn't create any chemical cooling reaction - it works through reflection of sunlight"
-                },
-                {
-                    "text": "The white paint increases airflow above the road surface",
-                    "isCorrect": 0,
-                    "explanation": "While airflow can help cool areas, the paint's color doesn't affect air movement above the road"
-                },
-                {
-                    "text": "The white paint absorbs heat from the air and transfers it underground",
-                    "isCorrect": 0,
-                    "explanation": "The paint doesn't absorb or transfer heat - it works by reflecting sunlight away from the surface"
-                }
-            ],
-            "funFact": "This cooling strategy using reflective surfaces is part of what scientists call the 'albedo effect' - lighter colored surfaces reflect more sunlight and stay cooler than darker surfaces. This principle is also why wearing light-colored clothing can help keep you cooler on hot sunny days!"
-        },
-        {
-            "id": 4,
-            "text": "How does a recurved seawall help protect coastal areas from flooding compared to a straight seawall?",
-            "options": [
-                {
-                    "text": "The recurved seawall sends waves back toward the ocean while a straight seawall only blocks them",
-                    "isCorrect": 1,
-                    "explanation": "Recurved seawalls are more effective because they not only block incoming waves but also redirect their energy back toward the ocean, providing better flood protection."
-                },
-                {
-                    "text": "The recurved seawall is taller than a straight seawall",
-                    "isCorrect": 0,
-                    "explanation": "The effectiveness of a recurved seawall is not due to its height but rather its curved shape that redirects wave energy."
-                },
-                {
-                    "text": "The recurved seawall absorbs more water than a straight seawall",
-                    "isCorrect": 0,
-                    "explanation": "Seawalls are not designed to absorb water - they are barriers that block or redirect waves."
-                },
-                {
-                    "text": "The recurved seawall allows waves to pass underneath it",
-                    "isCorrect": 0,
-                    "explanation": "Seawalls are designed to block waves, not allow them to pass underneath. The curved shape redirects waves rather than letting them through."
-                }
-            ],
-            "funFact": "The ancient Romans were among the first to use curved structures in their harbor designs. They discovered that curved breakwaters were more effective at protecting ports from destructive waves than straight walls."
-        },
-        {
-            "id": 5,
-            "text": "What makes it possible for meteorologists to establish the specific calendar dates (June 1-November 30) of the Atlantic hurricane season?",
-            "options": [
-                {
-                    "text": "Historical data showing consistent patterns over centuries",
-                    "isCorrect": 1,
-                    "explanation": "Centuries of data have shown that hurricanes in the Atlantic Ocean consistently form between June 1st and November 30th, allowing reliable predictions of hurricane season timing."
-                },
-                {
-                    "text": "Modern satellite technology",
-                    "isCorrect": 0,
-                    "explanation": "While satellites help track hurricanes once they form, the seasonal timing prediction comes from historical patterns, not satellite technology."
-                },
-                {
-                    "text": "Ocean temperature measurements",
-                    "isCorrect": 0,
-                    "explanation": "While ocean temperature affects hurricane formation and is crucial for predicting specific hurricanes, the fixed calendar dates of the hurricane season are based on historical patterns observed over centuries."
-                },
-                {
-                    "text": "Wind speed measurements",
-                    "isCorrect": 0,
-                    "explanation": "Wind speed measurements help track hurricanes but don't determine the seasonal calendar dates of the Atlantic hurricane season."
-                }
-            ],
-            "funFact": "The Atlantic hurricane season peaks in September, with September 10th being the statistical peak day for tropical cyclone activity. This is when ocean temperatures are typically warmest and atmospheric conditions are most favorable for hurricane development."
-        },
-        {
             "id": 6,
-            "text": "A coastal city wants to protect its beachfront properties from flooding during storms. Scientists collected data during storm testing of different protection methods:\n\nNo protection: 1000mL water flooding\nHigh seawall: 300mL water flooding\nRock barriers: 100mL water flooding\nRecurved wall: 50mL water flooding\n\nWhich protection method would you recommend to the city planners, considering both effectiveness and practical implementation?",
-            "options": [
-                {
-                    "text": "A recurved wall that redirects waves back to sea",
-                    "isCorrect": 1,
-                    "explanation": "The recurved wall showed the best performance in flood prevention (only 50mL flooding) and is a practical solution that redirects wave energy back to sea rather than just blocking it."
-                },
-                {
-                    "text": "No protection to save construction costs",
-                    "isCorrect": 0,
-                    "explanation": "While this saves money initially, the data shows severe flooding (1000mL) without protection, which could lead to much higher costs in property damage."
-                },
-                {
-                    "text": "Rock barriers along the entire coastline",
-                    "isCorrect": 0,
-                    "explanation": "While rock barriers showed good performance (100mL flooding), they weren't as effective as the recurved wall and would require extensive maintenance and replacement."
-                },
-                {
-                    "text": "A simple high seawall",
-                    "isCorrect": 0,
-                    "explanation": "The high seawall was less effective than both rock barriers and recurved walls, allowing 300mL of flooding, and doesn't address the energy of the waves."
-                }
-            ],
-            "funFact": "The ancient Romans were among the first to use curved structures in their harbor designs to protect ships from waves. This same principle is used in modern recurved seawalls to protect coastal areas from storm surges."
-        },
-        {
-            "id": 7,
-            "text": "A city is experiencing high temperatures during summer months and wants to reduce the heat impact in urban areas. Which solution would be most effective in lowering surface temperatures on city streets?",
-            "options": [
-                {
-                    "text": "Painting the roads with reflective white paint",
-                    "isCorrect": 1,
-                    "explanation": "Reflective white paint helps lower surface temperatures by reflecting sunlight back into the atmosphere instead of absorbing it, which reduces heat buildup on paved surfaces."
-                },
-                {
-                    "text": "Adding more traffic signals",
-                    "isCorrect": 0,
-                    "explanation": "Traffic signals do not affect surface temperatures as they don't influence how much heat is absorbed or reflected by the road surface."
-                },
-                {
-                    "text": "Installing speed bumps",
-                    "isCorrect": 0,
-                    "explanation": "Speed bumps are for traffic control and do not affect surface temperatures of roads or help reduce urban heat."
-                },
-                {
-                    "text": "Widening the roads",
-                    "isCorrect": 0,
-                    "explanation": "Widening roads would actually increase the surface area of dark pavement, potentially making the urban heat problem worse."
-                }
-            ],
-            "funFact": "Urban areas can be up to 7\u00b0F warmer than surrounding rural areas due to the 'urban heat island effect' caused by dark surfaces like roads and buildings absorbing more heat. This is why cities are exploring innovative cooling solutions like reflective surfaces!"
-        },
-        {
-            "id": 8,
-            "text": "A coastal city wants to protect its beachfront properties from flooding during storms. Engineers tested three different flood barrier designs using a wave simulation machine and collected data on the amount of water that got past each barrier: Design A (straight seawall): 300mL of water passed, Design B (rock barrier): 100mL of water passed, Design C (curved seawall): less than 100mL of water passed. Based on this evidence, which design would be most effective at protecting the properties and why?",
-            "options": [
-                {
-                    "text": "Design C (curved seawall) because it redirects wave energy back to the ocean while blocking water",
-                    "isCorrect": 1,
-                    "explanation": "The curved seawall was most effective as it not only blocks the water but also reflects wave energy back to sea, resulting in the least amount of flooding"
-                },
-                {
-                    "text": "Design A (straight seawall) because it creates the strongest barrier against the waves",
-                    "isCorrect": 0,
-                    "explanation": "While a straight seawall does block waves, it allowed 300mL of water through, making it less effective than the other designs"
-                },
-                {
-                    "text": "Design B (rock barrier) because it completely absorbs the wave energy",
-                    "isCorrect": 0,
-                    "explanation": "The rock barrier spreads out wave energy and was more effective than the straight wall, but still allowed more water through than the curved seawall"
-                }
-            ],
-            "funFact": "The ancient Romans were among the first to use curved surfaces in their architectural designs to deflect forces. This principle is still used today in modern flood defense systems around the world!"
-        },
-        {
-            "id": 9,
             "text": "A coastal town is planning to protect homes from flooding during storm surges. Which building elevation technique would provide the most effective protection against flooding while maintaining structural stability?",
             "options": [
+                {
+                    "text": "Building homes with basement foundations",
+                    "isCorrect": 0,
+                    "explanation": "Basements in coastal areas are particularly vulnerable to flooding and can compromise the entire structure's stability during storm surges."
+                },
                 {
                     "text": "Building homes on top of stilts or elevated foundations",
                     "isCorrect": 1,
@@ -228,11 +157,6 @@
                     "explanation": "Ground-level construction leaves homes vulnerable to flooding as water can easily enter the living space during storm surges."
                 },
                 {
-                    "text": "Building homes with basement foundations",
-                    "isCorrect": 0,
-                    "explanation": "Basements in coastal areas are particularly vulnerable to flooding and can compromise the entire structure's stability during storm surges."
-                },
-                {
                     "text": "Building homes on sand-filled foundations",
                     "isCorrect": 0,
                     "explanation": "Sand-filled foundations can become unstable during flooding and may lead to structural failure when exposed to water."
@@ -241,18 +165,99 @@
             "funFact": "The practice of building homes on stilts dates back thousands of years to ancient civilizations in Southeast Asia, where communities developed this technique to protect against seasonal monsoon flooding. This traditional building method continues to influence modern coastal architecture."
         },
         {
+            "id": 7,
+            "text": "A coastal city is redesigning their building codes to better protect houses from hurricane-force winds. Which roof design would be most effective in reducing wind damage to homes in this area?",
+            "options": [
+                {
+                    "text": "A hip roof with all sides slanted upward",
+                    "isCorrect": 1,
+                    "explanation": "Hip roofs are most effective against high winds because their slanted sides deflect wind upward rather than allowing it to push directly against flat surfaces. This design reduces the force of wind impact on the roof structure."
+                },
+                {
+                    "text": "A flat roof with no slope",
+                    "isCorrect": 0,
+                    "explanation": "Flat roofs are not ideal for high-wind areas as they can create lift when strong winds blow across them, potentially causing significant damage to the roof structure."
+                },
+                {
+                    "text": "A curved roof that dips in the middle",
+                    "isCorrect": 0,
+                    "explanation": "A curved roof that dips in the middle could collect water and create additional stress on the structure, while not effectively deflecting wind forces."
+                },
+                {
+                    "text": "A gable roof with straight up-and-down sides",
+                    "isCorrect": 0,
+                    "explanation": "Gable roofs with straight sides are less effective in high winds because they present flat surfaces that wind can push directly against, increasing the risk of roof damage or removal."
+                }
+            ],
+            "funFact": "The concept of sloped roofs for wind resistance was understood even by ancient civilizations. Traditional Japanese architecture, for example, developed steep sloping roofs that helped buildings survive centuries of typhoons and strong winds."
+        },
+        {
+            "id": 8,
+            "text": "A coastal city wants to protect its beachfront properties from flooding during storms. Scientists collected data during storm testing of different protection methods:\n\nNo protection: 1000mL water flooding\nHigh seawall: 300mL water flooding\nRock barriers: 100mL water flooding\nRecurved wall: 50mL water flooding\n\nWhich protection method would you recommend to the city planners, considering both effectiveness and practical implementation?",
+            "options": [
+                {
+                    "text": "No protection to save construction costs",
+                    "isCorrect": 0,
+                    "explanation": "While this saves money initially, the data shows severe flooding (1000mL) without protection, which could lead to much higher costs in property damage."
+                },
+                {
+                    "text": "A recurved wall that redirects waves back to sea",
+                    "isCorrect": 1,
+                    "explanation": "The recurved wall showed the best performance in flood prevention (only 50mL flooding) and is a practical solution that redirects wave energy back to sea rather than just blocking it."
+                },
+                {
+                    "text": "A simple high seawall",
+                    "isCorrect": 0,
+                    "explanation": "The high seawall was less effective than both rock barriers and recurved walls, allowing 300mL of flooding, and doesn't address the energy of the waves."
+                },
+                {
+                    "text": "Rock barriers along the entire coastline",
+                    "isCorrect": 0,
+                    "explanation": "While rock barriers showed good performance (100mL flooding), they weren't as effective as the recurved wall and would require extensive maintenance and replacement."
+                }
+            ],
+            "funFact": "The ancient Romans were among the first to use curved structures in their harbor designs to protect ships from waves. This same principle is used in modern recurved seawalls to protect coastal areas from storm surges."
+        },
+        {
+            "id": 9,
+            "text": "A coastal town is planning to build new homes in an area that experiences multiple weather hazards including hurricanes, strong winds, and frequent lightning storms. Which combination of protective features would be most effective for these homes?",
+            "options": [
+                {
+                    "text": "Flat roof, lightning rod, and concrete foundation",
+                    "isCorrect": 0,
+                    "explanation": "Flat roofs are not ideal for high winds, and a standard concrete foundation without elevation would be vulnerable to flood damage from hurricanes."
+                },
+                {
+                    "text": "Gable roof, high seawall, and metal siding",
+                    "isCorrect": 0,
+                    "explanation": "Gable roofs are vulnerable to strong winds, and while seawalls can help with flooding, metal siding without proper grounding could increase lightning risks."
+                },
+                {
+                    "text": "Hip roof, concrete walls, and ground-level construction",
+                    "isCorrect": 0,
+                    "explanation": "While hip roofs are good for wind protection, ground-level construction is vulnerable to flooding, and there's no protection against lightning strikes."
+                },
+                {
+                    "text": "Hip roof, lightning rod, and elevated construction on stilts",
+                    "isCorrect": 1,
+                    "explanation": "This combination provides the best protection against multiple hazards - hip roofs deflect strong winds, lightning rods safely direct electrical charges to the ground, and elevated construction protects against flooding from hurricanes."
+                }
+            ],
+            "funFact": "The insurance industry often offers reduced premiums for homes that incorporate multiple weather protection features, as these homes typically suffer less damage during extreme weather events."
+        },
+        {
             "id": 10,
             "text": "A house is struck by lightning during a severe thunderstorm. Which statement best explains how a lightning rod protects the house's electrical appliances from damage?",
             "options": [
                 {
-                    "text": "The lightning rod absorbs and stores the electrical energy from the lightning strike",
-                    "isCorrect": 0,
-                    "explanation": "Lightning rods don't store electricity - they provide a safe path for it to travel to the ground"
-                },
-                {
                     "text": "The lightning rod conducts the electrical energy safely into the ground through metal wires",
                     "isCorrect": 1,
                     "explanation": "This is correct - lightning rods protect buildings by providing a direct path for lightning's electrical energy to travel safely into the ground"
+                },
+                {
+                    "text": "The lightning rod converts the electrical energy into heat that dissipates in the air",
+                    "isCorrect": 0,
+                    "explanation": "Lightning rods don't convert electricity to heat - they channel it directly into the ground"
                 },
                 {
                     "text": "The lightning rod blocks and reflects the lightning strike away from the house",
@@ -260,9 +265,9 @@
                     "explanation": "Lightning rods don't block or reflect lightning - they provide a controlled path for the electricity"
                 },
                 {
-                    "text": "The lightning rod converts the electrical energy into heat that dissipates in the air",
+                    "text": "The lightning rod absorbs and stores the electrical energy from the lightning strike",
                     "isCorrect": 0,
-                    "explanation": "Lightning rods don't convert electricity to heat - they channel it directly into the ground"
+                    "explanation": "Lightning rods don't store electricity - they provide a safe path for it to travel to the ground"
                 }
             ],
             "funFact": "A single lightning bolt can contain up to 1 billion volts of electricity - that's enough energy to power a typical American household for about 3 months! This is why having proper lightning protection is so important for buildings."
@@ -272,9 +277,9 @@
             "text": "When do coastal communities along the Atlantic Ocean typically prepare for potential hurricanes?",
             "options": [
                 {
-                    "text": "June 1st to November 30th",
-                    "isCorrect": 1,
-                    "explanation": "Historical data shows that hurricanes in the Atlantic Ocean consistently develop during this period, allowing communities to prepare in advance for these weather events."
+                    "text": "April 1st to May 31st",
+                    "isCorrect": 0,
+                    "explanation": "While spring storms can occur, this is not the established hurricane season. Communities typically prepare for the season that begins June 1st."
                 },
                 {
                     "text": "January 1st to March 31st",
@@ -282,113 +287,49 @@
                     "explanation": "This is not the typical hurricane season. The winter months actually have very low hurricane activity in the Atlantic Ocean."
                 },
                 {
-                    "text": "April 1st to May 31st",
-                    "isCorrect": 0,
-                    "explanation": "While spring storms can occur, this is not the established hurricane season. Communities typically prepare for the season that begins June 1st."
-                },
-                {
                     "text": "December 1st to February 28th",
                     "isCorrect": 0,
                     "explanation": "Winter months have the lowest hurricane activity in the Atlantic Ocean. Communities focus their hurricane preparations for the warmer months."
+                },
+                {
+                    "text": "June 1st to November 30th",
+                    "isCorrect": 1,
+                    "explanation": "Historical data shows that hurricanes in the Atlantic Ocean consistently develop during this period, allowing communities to prepare in advance for these weather events."
                 }
             ],
             "funFact": "Hurricanes need warm ocean water (at least 80\u00b0F/27\u00b0C) to form and strengthen. This is why hurricane season coincides with the warmest months of the year when ocean temperatures are highest!"
         },
         {
             "id": 12,
-            "text": "When a large ocean wave hits a recurved seawall, what happens to the wave's energy that makes this design particularly effective at preventing flooding?",
+            "text": "Why are hip roofs more effective at withstanding high winds compared to gable roofs?",
             "options": [
                 {
-                    "text": "The curved surface redirects the wave's energy upward and back toward the ocean",
+                    "text": "Hip roofs are heavier and cannot be lifted by wind",
+                    "isCorrect": 0,
+                    "explanation": "The wind resistance of hip roofs comes from their aerodynamic design, not their weight. Weight alone does not determine wind resistance"
+                },
+                {
+                    "text": "The slanted sides of hip roofs deflect wind upward, reducing direct pressure against the roof",
                     "isCorrect": 1,
-                    "explanation": "The curved shape of a recurved seawall converts the horizontal energy of incoming waves into vertical and backward motion, effectively sending the water back to sea instead of letting it flow over the wall."
+                    "explanation": "Hip roofs have all sides slanted, which causes wind to flow up and over the roof rather than pushing directly against it, making them more wind-resistant"
                 },
                 {
-                    "text": "The wall absorbs all the wave's energy, making the water completely still",
+                    "text": "Hip roofs are made of stronger materials than gable roofs",
                     "isCorrect": 0,
-                    "explanation": "Seawalls don't actually absorb all wave energy - they redirect it. A wall that simply absorbed energy would eventually become damaged from repeated wave impacts."
+                    "explanation": "The effectiveness of hip roofs against wind is due to their shape, not the materials used. Both types can be made from the same materials"
                 },
                 {
-                    "text": "The curved shape splits the wave into smaller waves that are less powerful",
+                    "text": "Hip roofs have a smaller surface area exposed to wind",
                     "isCorrect": 0,
-                    "explanation": "While the wave's impact is reduced, the main function isn't to split the wave but to redirect its energy upward and outward back toward the ocean."
-                },
-                {
-                    "text": "The wall stores the wave's energy underground through special materials",
-                    "isCorrect": 0,
-                    "explanation": "Recurved seawalls work through their shape redirecting energy, not through special energy-storing materials or underground components."
+                    "explanation": "Hip roofs don't necessarily have less surface area - their advantage comes from how the angled sides interact with wind direction"
                 }
             ],
-            "funFact": "Ancient Romans were among the first to use curved structures in harbor design. They discovered that curved breakwaters could better protect their ports from powerful Mediterranean waves than straight walls could."
+            "funFact": "The hip roof design has been used for thousands of years, dating back to ancient Roman architecture. This design was particularly popular in areas prone to hurricanes and tropical storms, showing how ancient builders understood aerodynamic principles even before modern engineering!"
         },
         {
             "id": 13,
-            "text": "A coastal town is considering different seawall designs to protect against flooding during storms. Which characteristic of a recurved seawall makes it more effective at flood control compared to a straight seawall?",
-            "options": [
-                {
-                    "text": "The recurved seawall redirects wave energy back toward the ocean",
-                    "isCorrect": 1,
-                    "explanation": "Correct! The curved shape of a recurved seawall deflects incoming waves back toward the ocean, reducing the amount of water that comes over the wall and providing better flood protection."
-                },
-                {
-                    "text": "The recurved seawall is taller than straight seawalls",
-                    "isCorrect": 0,
-                    "explanation": "The effectiveness of a recurved seawall is not due to its height, but rather its shape that redirects waves. Both straight and recurved seawalls can be built to various heights."
-                },
-                {
-                    "text": "The recurved seawall absorbs more wave energy",
-                    "isCorrect": 0,
-                    "explanation": "Recurved seawalls don't primarily work by absorbing energy - they work by redirecting the wave energy back to the ocean. Energy absorption is more characteristic of other flood control methods like rock barriers."
-                },
-                {
-                    "text": "The recurved seawall blocks more water due to being wider",
-                    "isCorrect": 0,
-                    "explanation": "The width of the seawall is not what makes recurved seawalls more effective. Their effectiveness comes from their curved shape that redirects waves back to sea."
-                }
-            ],
-            "funFact": "The concept of using curved surfaces to redirect waves has also inspired the design of modern breakwaters in major ports around the world, helping to protect ships and harbor infrastructure from powerful ocean waves."
-        },
-        {
-            "id": 14,
-            "text": "A coastal city is considering different methods to protect beachfront homes from hurricane damage. Here are the costs and benefits of two approaches:\n\nMethod 1: Installing curved seawalls\n- Initial cost: $2 million\n- Expected damage prevention: $5 million per major hurricane\n\nMethod 2: Raising homes on stilts\n- Initial cost: $3 million\n- Expected damage prevention: $4 million per major hurricane\n\nConsidering the initial investment and potential damage prevention over multiple hurricane seasons, which method would be most cost-effective for the city?",
-            "options": [
-                {
-                    "text": "Method 1 (curved seawalls), because it has a lower initial cost and higher damage prevention value",
-                    "isCorrect": 1,
-                    "explanation": "With a lower initial investment ($2M vs $3M) and higher damage prevention ($5M vs $4M), curved seawalls provide better value. The net benefit per hurricane is $3M for seawalls compared to $1M for stilts."
-                },
-                {
-                    "text": "Method 2 (raised homes), because it provides more permanent protection",
-                    "isCorrect": 0,
-                    "explanation": "While raised homes do provide good protection, the higher initial cost and lower damage prevention make this less cost-effective than seawalls, regardless of permanence."
-                },
-                {
-                    "text": "Both methods are equally cost-effective since they both prevent millions in damage",
-                    "isCorrect": 0,
-                    "explanation": "The methods are not equally cost-effective. When comparing both initial costs and prevention values, Method 1 provides better financial returns per hurricane event."
-                },
-                {
-                    "text": "Neither method is cost-effective because the initial costs are too high",
-                    "isCorrect": 0,
-                    "explanation": "Both methods actually provide positive returns on investment when compared to the damage they prevent, making them cost-effective solutions despite high initial costs."
-                }
-            ],
-            "funFact": "The Netherlands has been using curved seawalls, called 'recurved walls,' for centuries to protect their low-lying coastal areas. These walls not only block incoming waves but also redirect wave energy back to the sea, providing double protection against flooding."
-        },
-        {
-            "id": 15,
             "text": "A coastal community is considering different construction methods to protect homes from flooding during hurricanes. Which of the following statements accurately describes the advantage of building houses on stilts compared to traditional ground-level construction?",
             "options": [
-                {
-                    "text": "Houses on stilts allow water to flow underneath during floods, keeping living spaces above water level",
-                    "isCorrect": 1,
-                    "explanation": "Building homes on stilts is an effective flood prevention strategy as it elevates the living space above potential flood waters, allowing storm surge and flood waters to pass beneath without damaging the main structure."
-                },
-                {
-                    "text": "Houses on stilts are completely immune to all types of storm damage",
-                    "isCorrect": 0,
-                    "explanation": "While stilts help protect against flooding, they don't make houses immune to other types of storm damage like wind damage or debris impact."
-                },
                 {
                     "text": "Houses on stilts redirect flood water to neighboring properties",
                     "isCorrect": 0,
@@ -398,9 +339,73 @@
                     "text": "Houses on stilts prevent hurricanes from reaching the coastline",
                     "isCorrect": 0,
                     "explanation": "Building methods like stilts can't prevent hurricanes or alter their path. They only help minimize damage from flooding that occurs during storms."
+                },
+                {
+                    "text": "Houses on stilts are completely immune to all types of storm damage",
+                    "isCorrect": 0,
+                    "explanation": "While stilts help protect against flooding, they don't make houses immune to other types of storm damage like wind damage or debris impact."
+                },
+                {
+                    "text": "Houses on stilts allow water to flow underneath during floods, keeping living spaces above water level",
+                    "isCorrect": 1,
+                    "explanation": "Building homes on stilts is an effective flood prevention strategy as it elevates the living space above potential flood waters, allowing storm surge and flood waters to pass beneath without damaging the main structure."
                 }
             ],
             "funFact": "The practice of building houses on stilts dates back thousands of years and can be found in traditional architecture around the world, from the Pacific Islands to Southeast Asia. This time-tested method continues to prove effective in modern coastal construction."
+        },
+        {
+            "id": 14,
+            "text": "A coastal city is considering different methods to protect beachfront homes from hurricane damage. Here are the costs and benefits of two approaches:\n\nMethod 1: Installing curved seawalls\n- Initial cost: $2 million\n- Expected damage prevention: $5 million per major hurricane\n\nMethod 2: Raising homes on stilts\n- Initial cost: $3 million\n- Expected damage prevention: $4 million per major hurricane\n\nConsidering the initial investment and potential damage prevention over multiple hurricane seasons, which method would be most cost-effective for the city?",
+            "options": [
+                {
+                    "text": "Both methods are equally cost-effective since they both prevent millions in damage",
+                    "isCorrect": 0,
+                    "explanation": "The methods are not equally cost-effective. When comparing both initial costs and prevention values, Method 1 provides better financial returns per hurricane event."
+                },
+                {
+                    "text": "Method 2 (raised homes), because it provides more permanent protection",
+                    "isCorrect": 0,
+                    "explanation": "While raised homes do provide good protection, the higher initial cost and lower damage prevention make this less cost-effective than seawalls, regardless of permanence."
+                },
+                {
+                    "text": "Neither method is cost-effective because the initial costs are too high",
+                    "isCorrect": 0,
+                    "explanation": "Both methods actually provide positive returns on investment when compared to the damage they prevent, making them cost-effective solutions despite high initial costs."
+                },
+                {
+                    "text": "Method 1 (curved seawalls), because it has a lower initial cost and higher damage prevention value",
+                    "isCorrect": 1,
+                    "explanation": "With a lower initial investment ($2M vs $3M) and higher damage prevention ($5M vs $4M), curved seawalls provide better value. The net benefit per hurricane is $3M for seawalls compared to $1M for stilts."
+                }
+            ],
+            "funFact": "The Netherlands has been using curved seawalls, called 'recurved walls,' for centuries to protect their low-lying coastal areas. These walls not only block incoming waves but also redirect wave energy back to the sea, providing double protection against flooding."
+        },
+        {
+            "id": 15,
+            "text": "When a large ocean wave hits a recurved seawall, what happens to the wave's energy that makes this design particularly effective at preventing flooding?",
+            "options": [
+                {
+                    "text": "The wall absorbs all the wave's energy, making the water completely still",
+                    "isCorrect": 0,
+                    "explanation": "Seawalls don't actually absorb all wave energy - they redirect it. A wall that simply absorbed energy would eventually become damaged from repeated wave impacts."
+                },
+                {
+                    "text": "The curved surface redirects the wave's energy upward and back toward the ocean",
+                    "isCorrect": 1,
+                    "explanation": "The curved shape of a recurved seawall converts the horizontal energy of incoming waves into vertical and backward motion, effectively sending the water back to sea instead of letting it flow over the wall."
+                },
+                {
+                    "text": "The wall stores the wave's energy underground through special materials",
+                    "isCorrect": 0,
+                    "explanation": "Recurved seawalls work through their shape redirecting energy, not through special energy-storing materials or underground components."
+                },
+                {
+                    "text": "The curved shape splits the wave into smaller waves that are less powerful",
+                    "isCorrect": 0,
+                    "explanation": "While the wave's impact is reduced, the main function isn't to split the wave but to redirect its energy upward and outward back toward the ocean."
+                }
+            ],
+            "funFact": "Ancient Romans were among the first to use curved structures in harbor design. They discovered that curved breakwaters could better protect their ports from powerful Mediterranean waves than straight walls could."
         }
     ]
 }

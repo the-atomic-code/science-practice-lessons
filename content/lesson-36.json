@@ -4,13 +4,116 @@
     "questions": [
         {
             "id": 1,
-            "text": "A scientist observed that on a hot summer day, the air temperature above a lake was cooler than the air temperature above the nearby land. What best explains this observation?",
+            "text": "Which of the following is NOT part of Earth's hydrosphere?",
             "options": [
                 {
-                    "text": "The water in the lake absorbs heat energy more slowly than land, keeping the air above it cooler",
+                    "text": "Air bubbles trapped in glaciers",
                     "isCorrect": 1,
-                    "explanation": "Water has a higher heat capacity than land, meaning it takes longer to heat up and cool down. This property helps keep the air temperature above water bodies more moderate."
+                    "explanation": "Air bubbles in glaciers are part of the atmosphere, even though they are trapped in ice. The hydrosphere includes only water in all its forms."
                 },
+                {
+                    "text": "Underground water tables",
+                    "isCorrect": 0,
+                    "explanation": "Groundwater, including underground water tables, is a key component of the hydrosphere."
+                },
+                {
+                    "text": "Frozen polar ice caps",
+                    "isCorrect": 0,
+                    "explanation": "Ice caps are part of the hydrosphere since they are made of frozen water."
+                },
+                {
+                    "text": "Ocean water",
+                    "isCorrect": 0,
+                    "explanation": "Oceans make up the largest part of Earth's hydrosphere, containing about 97% of Earth's water."
+                }
+            ],
+            "funFact": "While we can see most of Earth's water in oceans and lakes, about 30% of all freshwater on Earth is actually hidden underground in aquifers - vast underground reservoirs of water flowing through rock and soil!"
+        },
+        {
+            "id": 2,
+            "text": "Which statement best describes how recycling paper impacts Earth's spheres?",
+            "options": [
+                {
+                    "text": "Recycling paper reduces deforestation (biosphere), conserves water (hydrosphere), reduces landfill use (geosphere), and decreases air pollution (atmosphere).",
+                    "isCorrect": 1,
+                    "explanation": "Recycling paper affects all spheres: saving trees impacts the biosphere, using less water affects the hydrosphere, reducing landfill waste impacts the geosphere, and decreasing pollution affects the atmosphere."
+                },
+                {
+                    "text": "Recycling paper mainly impacts the hydrosphere by reducing water pollution from paper mills.",
+                    "isCorrect": 0,
+                    "explanation": "Although recycling does help reduce water pollution, its effects extend to all four spheres, not just the hydrosphere."
+                },
+                {
+                    "text": "Recycling paper primarily affects the atmosphere by reducing carbon emissions from paper production.",
+                    "isCorrect": 0,
+                    "explanation": "While recycling does reduce air pollution, it impacts all spheres, not just the atmosphere."
+                },
+                {
+                    "text": "Recycling paper only affects the biosphere by saving trees and the geosphere by reducing landfill waste.",
+                    "isCorrect": 0,
+                    "explanation": "This is incomplete. Recycling paper impacts all four spheres, not just the biosphere and geosphere."
+                }
+            ],
+            "funFact": "Recycling one ton of paper saves about 17 trees, 7,000 gallons of water, 380 gallons of oil, 3.3 cubic yards of landfill space, and enough energy to power the average American home for six months!"
+        },
+        {
+            "id": 3,
+            "text": "What percentage of Earth's water is found in the oceans?",
+            "options": [
+                {
+                    "text": "75%",
+                    "isCorrect": 0,
+                    "explanation": "While this is a large percentage, it underestimates the amount of water in Earth's oceans. The actual percentage is much higher at 97%."
+                },
+                {
+                    "text": "25%",
+                    "isCorrect": 0,
+                    "explanation": "This greatly underestimates the amount of water in Earth's oceans. The oceans contain most of Earth's water at 97%."
+                },
+                {
+                    "text": "97%",
+                    "isCorrect": 1,
+                    "explanation": "Correct! The vast majority (97%) of Earth's water is found in the oceans. This is a crucial fact about Earth's hydrosphere."
+                },
+                {
+                    "text": "50%",
+                    "isCorrect": 0,
+                    "explanation": "This significantly underestimates the amount of water in Earth's oceans. The oceans contain 97% of Earth's water, not 50%."
+                }
+            ],
+            "funFact": "The remaining 3% of Earth's water is found in glaciers, groundwater, rivers, lakes, and as water vapor in the atmosphere. Most of this freshwater is actually frozen in glaciers and ice caps!"
+        },
+        {
+            "id": 4,
+            "text": "Which layer of Earth's atmosphere is primarily responsible for producing our daily weather patterns?",
+            "options": [
+                {
+                    "text": "Mesosphere",
+                    "isCorrect": 0,
+                    "explanation": "The mesosphere is too high and cold for weather formation. It's where meteors typically burn up but doesn't affect our daily weather."
+                },
+                {
+                    "text": "Troposphere",
+                    "isCorrect": 1,
+                    "explanation": "The troposphere is the lowest layer of the atmosphere where most weather phenomena occur, including cloud formation, precipitation, and wind patterns."
+                },
+                {
+                    "text": "Thermosphere",
+                    "isCorrect": 0,
+                    "explanation": "The thermosphere is one of the uppermost layers where space weather occurs, but it's too high to influence our daily weather patterns."
+                },
+                {
+                    "text": "Stratosphere",
+                    "isCorrect": 0,
+                    "explanation": "While the stratosphere contains the ozone layer and affects global wind patterns, daily weather occurs primarily in the troposphere below it."
+                }
+            ],
+            "funFact": "The troposphere, where our weather occurs, is actually the thinnest layer of the atmosphere - only about 7-10 miles thick! Yet despite being so thin, it contains about 80% of the atmosphere's total mass and almost all of Earth's water vapor."
+        },
+        {
+            "id": 5,
+            "text": "A scientist observed that on a hot summer day, the air temperature above a lake was cooler than the air temperature above the nearby land. What best explains this observation?",
+            "options": [
                 {
                     "text": "The lake reflects all heat energy back into space, preventing the air from warming up",
                     "isCorrect": 0,
@@ -25,234 +128,109 @@
                     "text": "The lake blocks all sunlight from reaching the air above it",
                     "isCorrect": 0,
                     "explanation": "Lakes don't block sunlight from reaching the air above them. Sunlight passes through both air and water, but water and land absorb and release heat differently."
+                },
+                {
+                    "text": "The water in the lake absorbs heat energy more slowly than land, keeping the air above it cooler",
+                    "isCorrect": 1,
+                    "explanation": "Water has a higher heat capacity than land, meaning it takes longer to heat up and cool down. This property helps keep the air temperature above water bodies more moderate."
                 }
             ],
             "funFact": "The unique heat-absorbing properties of water help create local weather patterns called lake-effect weather. In winter, this can lead to heavy snowfall near large lakes as cold air moves across the relatively warmer water!"
         },
         {
-            "id": 2,
-            "text": "In the Hawaiian islands, some areas receive heavy rainfall while nearby areas remain dry like a desert. Which of the following best explains this pattern?",
-            "options": [
-                {
-                    "text": "Mountain ranges block moist air and cause rain to fall on one side, leaving the other side dry",
-                    "isCorrect": 1,
-                    "explanation": "Mountains force moist air to rise, cool, and release rain on the windward side. The leeward side receives less rainfall, creating a rain shadow effect."
-                },
-                {
-                    "text": "Ocean currents determine exactly where it rains on the islands",
-                    "isCorrect": 0,
-                    "explanation": "While ocean currents influence climate, the dramatic rainfall differences between nearby areas are primarily caused by the islands' topography."
-                },
-                {
-                    "text": "Plant life determines which areas receive more rainfall",
-                    "isCorrect": 0,
-                    "explanation": "While plants can affect local moisture levels, the major rainfall patterns are determined by the interaction between mountains and wind patterns."
-                },
-                {
-                    "text": "The islands' soil type controls where rain clouds form",
-                    "isCorrect": 0,
-                    "explanation": "Soil type does not significantly influence where rain clouds form. The mountain-wind interaction is the primary factor."
-                }
-            ],
-            "funFact": "Mount Waialeale on Kauai, Hawaii receives an average of 450 inches of rain per year, making it one of the wettest spots on Earth, while areas just a few miles away receive less than 10 inches annually!"
-        },
-        {
-            "id": 3,
-            "text": "Which layer of Earth's atmosphere is primarily responsible for producing our daily weather patterns?",
-            "options": [
-                {
-                    "text": "Troposphere",
-                    "isCorrect": 1,
-                    "explanation": "The troposphere is the lowest layer of the atmosphere where most weather phenomena occur, including cloud formation, precipitation, and wind patterns."
-                },
-                {
-                    "text": "Stratosphere",
-                    "isCorrect": 0,
-                    "explanation": "While the stratosphere contains the ozone layer and affects global wind patterns, daily weather occurs primarily in the troposphere below it."
-                },
-                {
-                    "text": "Mesosphere",
-                    "isCorrect": 0,
-                    "explanation": "The mesosphere is too high and cold for weather formation. It's where meteors typically burn up but doesn't affect our daily weather."
-                },
-                {
-                    "text": "Thermosphere",
-                    "isCorrect": 0,
-                    "explanation": "The thermosphere is one of the uppermost layers where space weather occurs, but it's too high to influence our daily weather patterns."
-                }
-            ],
-            "funFact": "The troposphere, where our weather occurs, is actually the thinnest layer of the atmosphere - only about 7-10 miles thick! Yet despite being so thin, it contains about 80% of the atmosphere's total mass and almost all of Earth's water vapor."
-        },
-        {
-            "id": 4,
-            "text": "Which best explains how wind shapes rock formations in desert areas?",
-            "options": [
-                {
-                    "text": "Wind carries sand particles that gradually carve away at the bottom of rocks more than the top",
-                    "isCorrect": 1,
-                    "explanation": "Wind carries sand particles close to the ground, causing more erosion at the base of rocks than at the top, creating distinctive mushroom-shaped formations over time."
-                },
-                {
-                    "text": "Wind pushes rocks until they roll and crash into each other",
-                    "isCorrect": 0,
-                    "explanation": "Wind itself is not strong enough to move large rocks. Rock formations are shaped by wind carrying smaller particles like sand that erode the rock surface."
-                },
-                {
-                    "text": "Wind creates cracks in rocks which then split apart",
-                    "isCorrect": 0,
-                    "explanation": "While rocks can crack and split, this is typically due to temperature changes and water freezing, not direct wind action."
-                },
-                {
-                    "text": "Wind blows equally on all sides of rocks wearing them down uniformly",
-                    "isCorrect": 0,
-                    "explanation": "Wind erosion is not uniform - it affects the lower portions of rocks more because sand particles are carried closer to the ground."
-                }
-            ],
-            "funFact": "The distinctive mushroom rocks found in many deserts can take thousands of years to form through wind erosion. Some famous examples can be found in Goblin Valley State Park in Utah, where hundreds of these mushroom-shaped rocks create an otherworldly landscape."
-        },
-        {
-            "id": 5,
-            "text": "Why are all living organisms on Earth dependent on multiple Earth systems for their survival?",
-            "options": [
-                {
-                    "text": "Living organisms need water from the hydrosphere, gases from the atmosphere, and nutrients from the geosphere",
-                    "isCorrect": 1,
-                    "explanation": "Living things require water for essential life processes, oxygen and other gases from the air to breathe, and nutrients from the soil and rocks to grow and survive."
-                },
-                {
-                    "text": "Living organisms only need water from the hydrosphere to survive",
-                    "isCorrect": 0,
-                    "explanation": "While water is essential, organisms also need air to breathe and nutrients from the land to survive. They cannot live with just water alone."
-                },
-                {
-                    "text": "Living organisms can survive using only resources from the atmosphere",
-                    "isCorrect": 0,
-                    "explanation": "Air alone is not sufficient for survival. Organisms also need water and nutrients from other Earth systems."
-                },
-                {
-                    "text": "Living organisms create their own resources and don't need other Earth systems",
-                    "isCorrect": 0,
-                    "explanation": "No organism can create all its required resources. All living things depend on water, air, and nutrients from different Earth systems."
-                }
-            ],
-            "funFact": "Plants demonstrate this interconnection beautifully - they take in water through their roots, carbon dioxide from the air, and minerals from the soil to produce their own food through photosynthesis!"
-        },
-        {
             "id": 6,
-            "text": "In a wetland ecosystem, how does the interaction between water and soil help support plant life?",
+            "text": "A steep coastal cliff is experiencing erosion over time. Which sequence correctly describes how Earth's spheres interact in this process?",
             "options": [
                 {
-                    "text": "The water and soil work together to provide nutrients and stability for plant roots while maintaining proper moisture levels",
+                    "text": "Plants (biosphere) die at the cliff top, then wind (atmosphere) blows away the soil, causing rocks (geosphere) to fall into the ocean (hydrosphere).",
+                    "isCorrect": 0,
+                    "explanation": "While these spheres are involved, this sequence incorrectly suggests plant death initiates cliff erosion, when water action at the base is typically the primary driver."
+                },
+                {
+                    "text": "Ocean waves (hydrosphere) hit the cliff base, weakening the rock (geosphere). Strong winds (atmosphere) further erode the weakened rock, and eventually plants (biosphere) lose their anchor points and fall.",
                     "isCorrect": 1,
-                    "explanation": "Water in wetlands combines with soil to create the perfect environment for plants by providing dissolved nutrients, physical support, and consistent moisture needed for growth"
+                    "explanation": "This correctly shows how multiple spheres interact in sequence during coastal erosion - water weakens the rock structure, wind assists in erosion, affecting the vegetation."
                 },
                 {
-                    "text": "The water simply flows over the soil without any significant interaction",
+                    "text": "Rainfall (hydrosphere) dissolves all cliff rocks (geosphere) immediately, causing plants (biosphere) to fall into calm ocean waters (hydrosphere).",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because water and soil actively interact rather than remaining separate, creating important conditions for life"
+                    "explanation": "This incorrectly suggests rainfall alone causes immediate dissolution of rocks. Coastal erosion is a gradual process involving multiple spheres over time."
                 },
                 {
-                    "text": "The soil blocks water from reaching plant roots",
+                    "text": "Wind (atmosphere) creates large waves (hydrosphere), which eventually flood the plants (biosphere), turning all the rock (geosphere) into sand.",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because soil actually helps distribute water to plant roots rather than blocking it"
-                },
-                {
-                    "text": "The water washes away all nutrients from the soil",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because while some nutrients may dissolve in water, the interaction actually helps distribute nutrients rather than depleting them"
+                    "explanation": "This sequence oversimplifies the erosion process and incorrectly suggests all rock turns to sand. It also misrepresents the role of waves in coastal erosion."
                 }
             ],
-            "funFact": "Wetlands are sometimes called 'nature's kidneys' because they filter water and remove pollutants, just like kidneys clean blood in our bodies. They cover only about 6% of Earth's land surface but store approximately 12% of all carbon in the biosphere!"
+            "funFact": "One of the fastest rates of coastal erosion in the world occurs at the Holderness Coast in the United Kingdom, where the coastline retreats by about 2 meters per year on average. That's approximately the length of a small car being lost to the sea annually!"
         },
         {
             "id": 7,
-            "text": "A new mountain range forms in a previously flat coastal region. How would this change in the landscape most likely affect the local weather patterns?",
+            "text": "Sand dunes in a desert are constantly changing their shape and size. Which interaction between Earth's spheres is primarily responsible for the formation and modification of these sand dunes?",
             "options": [
                 {
-                    "text": "The mountains would force air masses to rise, leading to increased precipitation on the windward side and drier conditions on the leeward side",
+                    "text": "The hydrosphere interacts with the geosphere when rain falls on the sand",
+                    "isCorrect": 0,
+                    "explanation": "While rain can affect desert landscapes, in most deserts rainfall is minimal and is not the primary force shaping sand dunes."
+                },
+                {
+                    "text": "The hydrosphere interacts with the biosphere when plants grow in the desert",
+                    "isCorrect": 0,
+                    "explanation": "While desert plants do need water to survive, this interaction is not the main force behind sand dune formation and modification."
+                },
+                {
+                    "text": "The atmosphere interacts with the geosphere when wind moves sand particles",
                     "isCorrect": 1,
-                    "explanation": "When air encounters mountains, it is forced upward. As the air rises, it cools and condenses, forming clouds and precipitation on the windward side. The air descending on the other side is dry, creating a rain shadow effect."
+                    "explanation": "Wind (atmosphere) carries and deposits sand particles (geosphere), creating and reshaping sand dunes over time. This is the primary interaction responsible for dune formation."
                 },
                 {
-                    "text": "The mountains would have no effect on local weather since weather patterns are controlled only by ocean temperatures",
+                    "text": "The biosphere interacts with the geosphere when animals burrow in the sand",
                     "isCorrect": 0,
-                    "explanation": "Weather patterns are influenced by multiple factors, including landforms like mountains. The interaction between the atmosphere and geosphere significantly impacts local weather conditions."
-                },
-                {
-                    "text": "The mountains would cause temperatures to increase uniformly across the region due to their dark surface absorbing more sunlight",
-                    "isCorrect": 0,
-                    "explanation": "While mountains can affect temperature, they don't cause uniform temperature increases across regions. Their effects on weather are more complex and include changes in precipitation patterns and wind flow."
-                },
-                {
-                    "text": "The mountains would prevent all clouds from forming in the region by blocking air movement",
-                    "isCorrect": 0,
-                    "explanation": "Mountains don't prevent cloud formation entirely. Instead, they influence where clouds form by affecting air movement and creating different conditions on their windward and leeward sides."
+                    "explanation": "Although desert animals do burrow in sand, their impact on dune formation is minimal compared to the effects of wind on sand movement."
                 }
             ],
-            "funFact": "The Atacama Desert in Chile is one of the driest places on Earth, receiving almost no rainfall. This extreme desert exists largely because the Andes Mountains block moisture-carrying air masses from reaching the region, demonstrating the powerful effect mountains can have on local climate patterns."
+            "funFact": "The largest sand dunes in the world can reach heights of over 1,000 feet! These massive dunes are found in Namibia's Namib Desert and took millions of years to form through the continuous interaction between wind and sand."
         },
         {
             "id": 8,
-            "text": "A gardener is trying to understand why her garden soil is so rich and fertile. Which combination of Earth's spheres interact to create and maintain healthy soil?",
+            "text": "A glacier in the Arctic is melting at an increasing rate due to warming temperatures. Which sequence correctly shows how this change in one sphere affects other Earth spheres?",
             "options": [
                 {
-                    "text": "Geosphere (rock particles) and biosphere (decomposing organisms) work together to form soil",
+                    "text": "Melting glacier (hydrosphere) \u2192 rising sea levels (hydrosphere) \u2192 flooding of coastal habitats (biosphere) \u2192 changes in marine ecosystems (biosphere)",
                     "isCorrect": 1,
-                    "explanation": "Rock particles from the geosphere provide minerals, while decomposing organisms from the biosphere add organic matter, creating nutrient-rich soil"
+                    "explanation": "This shows the correct cascade of effects starting from the melting glacier, affecting sea levels, then impacting coastal habitats and marine life"
                 },
                 {
-                    "text": "Only the geosphere is involved because soil is made of rock particles",
+                    "text": "Melting glacier (hydrosphere) \u2192 more rainfall (atmosphere) \u2192 more erosion (geosphere) \u2192 extinction of all species (biosphere)",
                     "isCorrect": 0,
-                    "explanation": "While rock particles are important, soil formation requires more than just the geosphere - organic matter from living things is crucial"
+                    "explanation": "This sequence oversimplifies the relationships and incorrectly suggests that melting glaciers directly lead to increased rainfall and total extinction"
                 },
                 {
-                    "text": "Only the biosphere is involved because plants need soil to grow",
+                    "text": "Melting glacier (hydrosphere) \u2192 less reflection of sunlight (atmosphere) \u2192 more plants growing (biosphere) \u2192 more rocks forming (geosphere)",
                     "isCorrect": 0,
-                    "explanation": "Though the biosphere contributes organic matter, soil also requires mineral components from rock particles in the geosphere"
+                    "explanation": "While melting glaciers do affect sunlight reflection, this sequence incorrectly suggests that it leads directly to increased plant growth and rock formation"
                 },
                 {
-                    "text": "The atmosphere and hydrosphere alone create soil through weathering",
+                    "text": "Melting glacier (hydrosphere) \u2192 more mountains exposed (geosphere) \u2192 stronger winds (atmosphere) \u2192 fewer animals (biosphere)",
                     "isCorrect": 0,
-                    "explanation": "While weathering by air and water helps break down rocks, soil formation requires both mineral particles and organic matter from living things"
+                    "explanation": "This sequence incorrectly suggests that exposed mountains directly cause stronger winds which then reduce animal populations"
                 }
             ],
-            "funFact": "It can take up to 1,000 years for nature to create just 1 inch of topsoil, as this process requires the slow breakdown of rocks and the gradual accumulation of organic matter from countless generations of living organisms."
+            "funFact": "The Greenland Ice Sheet is losing about 267 billion metric tons of ice per year! As this freshwater enters the oceans, it not only raises sea levels but also affects ocean currents, which in turn influences weather patterns around the world."
         },
         {
             "id": 9,
-            "text": "If there was a significant decrease in global rainfall, which Earth system would experience the most immediate and widespread effects?",
-            "options": [
-                {
-                    "text": "Hydrosphere",
-                    "isCorrect": 1,
-                    "explanation": "The hydrosphere would be most immediately affected as it includes all water bodies. Reduced rainfall would directly impact rivers, lakes, groundwater levels, and soil moisture content."
-                },
-                {
-                    "text": "Atmosphere",
-                    "isCorrect": 0,
-                    "explanation": "While the atmosphere is involved in the water cycle, it would not be the most immediately affected. Changes in humidity would occur, but the primary impact would be on water bodies and water availability on Earth's surface."
-                },
-                {
-                    "text": "Geosphere",
-                    "isCorrect": 0,
-                    "explanation": "The geosphere would experience effects from reduced rainfall over time through decreased erosion and weathering, but these changes would be gradual compared to the immediate impact on water bodies."
-                },
-                {
-                    "text": "Biosphere",
-                    "isCorrect": 0,
-                    "explanation": "While living things would be significantly affected by reduced rainfall, the immediate impact would be on the hydrosphere first, which would then affect the biosphere through reduced water availability."
-                }
-            ],
-            "funFact": "Water continuously moves between Earth's spheres in what we call the water cycle. In just one hour, the Sun causes about one trillion kilograms of water to evaporate from Earth's surface, maintaining this vital cycle that connects all of Earth's systems!"
-        },
-        {
-            "id": 10,
             "text": "A forest fire has broken out in a densely wooded area. How does this event primarily affect Earth's spheres and what secondary impact occurs?",
             "options": [
                 {
                     "text": "Primary: Biosphere (destruction of plants and animals), Secondary: Atmosphere (increased carbon dioxide levels)",
                     "isCorrect": 1,
                     "explanation": "Forest fires directly impact living things (biosphere) by destroying vegetation and wildlife. This leads to increased carbon dioxide in the atmosphere as the burning organic matter releases stored carbon."
+                },
+                {
+                    "text": "Primary: Geosphere (soil composition changes), Secondary: Hydrosphere (reduced water absorption)",
+                    "isCorrect": 0,
+                    "explanation": "Changes to soil composition are not the primary impact of a forest fire. The immediate effect is on living organisms, followed by atmospheric changes."
                 },
                 {
                     "text": "Primary: Atmosphere (smoke production), Secondary: Geosphere (soil erosion)",
@@ -263,136 +241,72 @@
                     "text": "Primary: Hydrosphere (water evaporation), Secondary: Biosphere (loss of habitat)",
                     "isCorrect": 0,
                     "explanation": "Water evaporation is not the primary impact of a forest fire. The destruction of living things occurs first, followed by atmospheric changes."
-                },
-                {
-                    "text": "Primary: Geosphere (soil composition changes), Secondary: Hydrosphere (reduced water absorption)",
-                    "isCorrect": 0,
-                    "explanation": "Changes to soil composition are not the primary impact of a forest fire. The immediate effect is on living organisms, followed by atmospheric changes."
                 }
             ],
             "funFact": "Some plant species actually require forest fires for their seeds to germinate! These plants, called pyrophytes, have evolved to depend on periodic fires for reproduction, showing how Earth's systems can adapt to seemingly destructive events."
         },
         {
-            "id": 11,
-            "text": "A coastal town experiences a significant increase in ocean temperature during summer months. Which of the following effects would most likely occur in the local environment?",
+            "id": 10,
+            "text": "When water evaporates from the ocean, how does this process affect multiple Earth spheres?",
             "options": [
                 {
-                    "text": "Increased cloud formation leading to more frequent rainfall and changes in local marine life populations",
+                    "text": "The water simply moves from the ocean to the air without affecting any other Earth systems",
+                    "isCorrect": 0,
+                    "explanation": "This oversimplifies the process by ignoring how water vapor in the atmosphere affects weather and living things"
+                },
+                {
+                    "text": "The process only affects the temperature of the ocean water",
+                    "isCorrect": 0,
+                    "explanation": "While evaporation does affect water temperature, this answer ignores the broader impacts on atmospheric conditions and life"
+                },
+                {
+                    "text": "The water disappears completely from Earth's systems",
+                    "isCorrect": 0,
+                    "explanation": "Water doesn't disappear - it changes form and moves between Earth's spheres in a continuous cycle"
+                },
+                {
+                    "text": "The hydrosphere loses water, which becomes water vapor in the atmosphere, eventually leading to cloud formation that can support life in the biosphere through precipitation",
                     "isCorrect": 1,
-                    "explanation": "Warmer ocean water increases evaporation, leading to more cloud formation and rainfall. The temperature change also affects marine ecosystems as some species may need to migrate to cooler waters."
-                },
-                {
-                    "text": "Decreased cloud formation and increased desert-like conditions along the coast",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because warmer ocean temperatures actually increase water evaporation and cloud formation, not decrease it."
-                },
-                {
-                    "text": "No change in weather patterns but significant changes in marine life",
-                    "isCorrect": 0,
-                    "explanation": "Ocean temperature directly affects both weather patterns and marine life - not just marine life alone. The interconnected nature of Earth's systems means both would be affected."
-                },
-                {
-                    "text": "Changes in weather patterns but no effect on marine ecosystems",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because ocean temperature changes affect both atmospheric conditions and marine life. The systems are interconnected and changes in one affect the other."
+                    "explanation": "This correctly shows how evaporation creates connections between multiple spheres - water moves from hydrosphere to atmosphere, affecting weather patterns that impact life"
                 }
             ],
-            "funFact": "The Gulf Stream, a warm ocean current in the Atlantic Ocean, can raise air temperatures of nearby coastal areas by up to 15\u00b0F! This shows how powerful the interaction between ocean temperatures and local climate can be."
+            "funFact": "The water cycle processes about 495,000 cubic kilometers of water per year - that's equivalent to about 198 billion Olympic swimming pools worth of water cycling through Earth's spheres!"
+        },
+        {
+            "id": 11,
+            "text": "When a plastic bottle is recycled instead of being thrown in a landfill, which of Earth's spheres are positively impacted?",
+            "options": [
+                {
+                    "text": "Geosphere only",
+                    "isCorrect": 0,
+                    "explanation": "Recycling does more than just reduce landfill use - it helps protect water, air, and living things as well."
+                },
+                {
+                    "text": "Geosphere and hydrosphere only",
+                    "isCorrect": 0,
+                    "explanation": "While recycling does help protect land and water resources, it also impacts other spheres of Earth by reducing air pollution and protecting living organisms."
+                },
+                {
+                    "text": "All four spheres - geosphere, hydrosphere, atmosphere, and biosphere",
+                    "isCorrect": 1,
+                    "explanation": "Recycling reduces landfill use (geosphere), prevents water pollution (hydrosphere), reduces air pollution from manufacturing (atmosphere), and protects wildlife habitats (biosphere)."
+                },
+                {
+                    "text": "Biosphere and atmosphere only",
+                    "isCorrect": 0,
+                    "explanation": "While recycling helps protect living things and air quality, it also has significant benefits for land and water resources."
+                }
+            ],
+            "funFact": "A single recycled plastic bottle saves enough energy to power a 60-watt light bulb for up to 6 hours! This energy savings helps reduce greenhouse gas emissions and protect multiple Earth systems at once."
         },
         {
             "id": 12,
-            "text": "How do mountain ranges affect the distribution of rainfall in surrounding areas?",
-            "options": [
-                {
-                    "text": "Mountain ranges block wind and force air to rise, causing more rainfall on the windward side and creating drier conditions on the leeward side",
-                    "isCorrect": 1,
-                    "explanation": "As air encounters mountains, it is forced upward. This rising air cools and condenses, forming clouds and precipitation on the windward side. After passing over the mountain, the now-dry air descends, creating drier conditions."
-                },
-                {
-                    "text": "Mountain ranges have no effect on rainfall distribution since precipitation is controlled only by temperature",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Mountain ranges significantly influence precipitation patterns by affecting wind movement and air pressure."
-                },
-                {
-                    "text": "Mountain ranges cause equal amounts of rainfall on all sides regardless of wind direction",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Rainfall is not distributed equally around mountains. The windward side typically receives more precipitation than the leeward side."
-                },
-                {
-                    "text": "Mountain ranges reduce rainfall in all surrounding areas by blocking cloud formation",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect. Rather than blocking cloud formation everywhere, mountains actually enhance cloud formation and precipitation on their windward sides."
-                }
-            ],
-            "funFact": "The Atacama Desert in Chile is one of the driest places on Earth partly because it lies in the rain shadow of the Andes Mountains. The mountains block moisture-carrying winds from the Amazon Basin, creating extremely arid conditions on their western side."
-        },
-        {
-            "id": 13,
-            "text": "When groundwater levels decrease in an area, which of the following changes would you expect to observe in the local environment?",
-            "options": [
-                {
-                    "text": "Surface vegetation wilts and soil becomes more compact",
-                    "isCorrect": 1,
-                    "explanation": "Lower groundwater levels reduce water availability to plant roots, causing wilting. The soil also compacts due to loss of water between soil particles."
-                },
-                {
-                    "text": "Surface vegetation grows taller and soil becomes more porous",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because reduced groundwater actually limits plant growth and makes soil more compact, not more porous."
-                },
-                {
-                    "text": "Surface vegetation remains unchanged while soil turns to mud",
-                    "isCorrect": 0,
-                    "explanation": "This is incorrect because less groundwater means drier, not muddier soil, and plants would be affected by the reduced water availability."
-                },
-                {
-                    "text": "Surface vegetation dies while soil becomes more porous",
-                    "isCorrect": 0,
-                    "explanation": "While vegetation may die from lack of water, the soil would become more compact, not more porous, due to reduced water content."
-                }
-            ],
-            "funFact": "Plants can adapt to changing groundwater levels by developing deeper root systems! Some desert plants have roots that extend over 50 feet deep to reach underground water sources."
-        },
-        {
-            "id": 14,
-            "text": "In a coastal region, how do cliffs along the shoreline affect the interaction between ocean currents and wind patterns?",
-            "options": [
-                {
-                    "text": "The cliffs block both ocean currents and winds, preventing any interaction between them",
-                    "isCorrect": 0,
-                    "explanation": "Cliffs don't completely block ocean currents or winds - they modify their patterns and create specific interaction zones"
-                },
-                {
-                    "text": "The cliffs force ocean currents and winds to move parallel to the coastline, enhancing their interaction",
-                    "isCorrect": 1,
-                    "explanation": "Coastal cliffs channel both water and air movements along the shore, creating concentrated zones where ocean currents and winds interact more intensely"
-                },
-                {
-                    "text": "The cliffs have no effect on the interaction between ocean currents and winds",
-                    "isCorrect": 0,
-                    "explanation": "Landforms like cliffs significantly influence both water and air movements, affecting how they interact"
-                },
-                {
-                    "text": "The cliffs only affect wind patterns but not ocean currents",
-                    "isCorrect": 0,
-                    "explanation": "Coastal cliffs influence both wind patterns and ocean currents, not just winds alone"
-                }
-            ],
-            "funFact": "Some of the world's strongest wind-water interactions occur along coastal cliffs in regions like Norway's fjords, where steep cliffs can create unique microclimates and influence local weather patterns dramatically!"
-        },
-        {
-            "id": 15,
             "text": "In Hawaii, the eastern side of a mountain receives abundant rainfall while the western side remains relatively dry. What best explains this pattern of rainfall distribution?",
             "options": [
                 {
-                    "text": "The mountain blocks rain clouds, causing them to release moisture on the windward (eastern) side while leaving the leeward (western) side dry",
-                    "isCorrect": 1,
-                    "explanation": "Mountains force air masses to rise, cool, and release precipitation on the windward side. Once the air passes over the mountain, it has lost most of its moisture, creating drier conditions on the leeward side."
-                },
-                {
-                    "text": "The western side of mountains naturally repels water due to their mineral composition",
+                    "text": "The rotation of the Earth pushes rain clouds away from the western side",
                     "isCorrect": 0,
-                    "explanation": "The mineral composition of mountains does not affect rainfall patterns. The distribution is caused by the interaction between air movement and terrain."
+                    "explanation": "Earth's rotation does not directly cause this rainfall pattern. The mountain's physical presence affecting air movement is the primary factor."
                 },
                 {
                     "text": "Ocean currents only bring rain to the eastern sides of islands",
@@ -400,12 +314,98 @@
                     "explanation": "While ocean currents influence climate, the rainfall pattern is primarily caused by the interaction between wind, mountains, and air moisture, not ocean currents alone."
                 },
                 {
-                    "text": "The rotation of the Earth pushes rain clouds away from the western side",
+                    "text": "The western side of mountains naturally repels water due to their mineral composition",
                     "isCorrect": 0,
-                    "explanation": "Earth's rotation does not directly cause this rainfall pattern. The mountain's physical presence affecting air movement is the primary factor."
+                    "explanation": "The mineral composition of mountains does not affect rainfall patterns. The distribution is caused by the interaction between air movement and terrain."
+                },
+                {
+                    "text": "The mountain blocks rain clouds, causing them to release moisture on the windward (eastern) side while leaving the leeward (western) side dry",
+                    "isCorrect": 1,
+                    "explanation": "Mountains force air masses to rise, cool, and release precipitation on the windward side. Once the air passes over the mountain, it has lost most of its moisture, creating drier conditions on the leeward side."
                 }
             ],
             "funFact": "This rainfall pattern creates what's known as a 'rain shadow effect.' Mount Waialeale in Kauai, Hawaii, demonstrates this dramatically - it receives about 450 inches of rain annually on its eastern side, making it one of the wettest spots on Earth, while areas just a few miles to the west receive only about 10 inches per year!"
+        },
+        {
+            "id": 13,
+            "text": "A coastal town experiences a significant increase in ocean temperature during summer months. Which of the following effects would most likely occur in the local environment?",
+            "options": [
+                {
+                    "text": "Decreased cloud formation and increased desert-like conditions along the coast",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because warmer ocean temperatures actually increase water evaporation and cloud formation, not decrease it."
+                },
+                {
+                    "text": "Changes in weather patterns but no effect on marine ecosystems",
+                    "isCorrect": 0,
+                    "explanation": "This is incorrect because ocean temperature changes affect both atmospheric conditions and marine life. The systems are interconnected and changes in one affect the other."
+                },
+                {
+                    "text": "Increased cloud formation leading to more frequent rainfall and changes in local marine life populations",
+                    "isCorrect": 1,
+                    "explanation": "Warmer ocean water increases evaporation, leading to more cloud formation and rainfall. The temperature change also affects marine ecosystems as some species may need to migrate to cooler waters."
+                },
+                {
+                    "text": "No change in weather patterns but significant changes in marine life",
+                    "isCorrect": 0,
+                    "explanation": "Ocean temperature directly affects both weather patterns and marine life - not just marine life alone. The interconnected nature of Earth's systems means both would be affected."
+                }
+            ],
+            "funFact": "The Gulf Stream, a warm ocean current in the Atlantic Ocean, can raise air temperatures of nearby coastal areas by up to 15\u00b0F! This shows how powerful the interaction between ocean temperatures and local climate can be."
+        },
+        {
+            "id": 14,
+            "text": "If global temperatures rise significantly, which sequence of changes is most likely to occur across Earth's systems?",
+            "options": [
+                {
+                    "text": "Warmer atmosphere \u2192 instant rock erosion \u2192 disappearing oceans \u2192 extinction of all life",
+                    "isCorrect": 0,
+                    "explanation": "This sequence exaggerates the speed and scale of changes. While warming can affect erosion and life, the changes wouldn't be this extreme or immediate."
+                },
+                {
+                    "text": "Warmer atmosphere \u2192 more plants growing \u2192 lower sea levels \u2192 new mountains forming",
+                    "isCorrect": 0,
+                    "explanation": "While a warmer atmosphere might affect plant growth, it wouldn't directly cause lower sea levels or mountain formation. This sequence doesn't reflect the actual relationships between Earth's systems."
+                },
+                {
+                    "text": "Warmer atmosphere \u2192 fewer clouds \u2192 more mountains \u2192 larger oceans",
+                    "isCorrect": 0,
+                    "explanation": "This sequence incorrectly suggests that atmospheric warming would lead to mountain formation and ocean growth. These relationships between systems are not scientifically accurate."
+                },
+                {
+                    "text": "Warmer atmosphere \u2192 melting glaciers \u2192 rising sea levels \u2192 flooding of coastal areas",
+                    "isCorrect": 1,
+                    "explanation": "This correctly shows how a change in the atmosphere (warming) affects the hydrosphere (melting ice and rising seas), which then impacts the geosphere (coastal flooding), demonstrating the interconnected nature of Earth's systems."
+                }
+            ],
+            "funFact": "The last time Earth experienced a major warming period about 125,000 years ago, sea levels were 5-8 meters higher than today, showing how changes in one sphere can have dramatic effects on others over long periods."
+        },
+        {
+            "id": 15,
+            "text": "How would a large volcanic eruption most likely affect Earth's atmosphere and hydrosphere?",
+            "options": [
+                {
+                    "text": "The volcanic gases would improve air quality and make lakes more alkaline",
+                    "isCorrect": 0,
+                    "explanation": "Volcanic eruptions typically release harmful gases and acidic compounds that decrease air quality and can make water bodies more acidic, not alkaline."
+                },
+                {
+                    "text": "The volcanic gases would only affect the immediate area around the volcano",
+                    "isCorrect": 0,
+                    "explanation": "Volcanic emissions can travel long distances through atmospheric circulation, affecting air and water quality far from the eruption site."
+                },
+                {
+                    "text": "The volcanic activity would have no effect on air or water composition",
+                    "isCorrect": 0,
+                    "explanation": "Volcanic eruptions significantly impact both air and water composition through the release of gases, ash, and various chemical compounds."
+                },
+                {
+                    "text": "The volcanic ash and gases would decrease air quality and make water bodies more acidic",
+                    "isCorrect": 1,
+                    "explanation": "Volcanic eruptions release ash and gases like sulfur dioxide that pollute the air, and when these combine with water, they form acid rain that increases the acidity of water bodies."
+                }
+            ],
+            "funFact": "The 1991 eruption of Mount Pinatubo in the Philippines was so powerful that it cooled Earth's average temperature by about 0.5\u00b0C (0.9\u00b0F) for about two years by releasing particles into the atmosphere that reflected sunlight back into space!"
         }
     ]
 }

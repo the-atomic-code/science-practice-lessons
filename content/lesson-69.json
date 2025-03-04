@@ -4,44 +4,39 @@
     "questions": [
         {
             "id": 1,
-            "text": "Which statement best explains why flamingos become pink?",
+            "text": "Which of the following best describes how animals use the energy they get from food?",
             "options": [
                 {
-                    "text": "The carotenoids from their diet of small crustaceans (which eat algae) get broken down and deposited in their feathers during growth",
+                    "text": "Animals only use food energy for movement",
+                    "isCorrect": 0,
+                    "explanation": "While movement is one important use of food energy, animals also need energy for other vital functions like growth, repair, and maintaining body temperature."
+                },
+                {
+                    "text": "Animals use food energy for body repair, growth, movement, and maintaining body warmth",
                     "isCorrect": 1,
-                    "explanation": "This is correct - the red pigments (carotenoids) from small crustaceans in their diet are broken down during digestion and get incorporated into the flamingos' growing feathers, giving them their pink color. These crustaceans obtain the pigments from the algae they consume."
+                    "explanation": "Animals need energy from food for multiple purposes: repairing damaged tissues, growing bigger, moving around, and keeping their bodies at the right temperature."
                 },
                 {
-                    "text": "The algae in their habitat dyes their feathers pink from the outside",
+                    "text": "Animals use food energy only for growing taller",
                     "isCorrect": 0,
-                    "explanation": "The pink color doesn't come from external staining - it comes from chemicals that are digested and deposited internally during feather growth"
+                    "explanation": "Growth is just one of several ways animals use food energy. They also need energy for repair, movement, and maintaining body temperature."
                 },
                 {
-                    "text": "The flamingos absorb sunlight which turns their feathers pink",
+                    "text": "Animals store all food energy and never use it",
                     "isCorrect": 0,
-                    "explanation": "While sunlight is important for algae growth in their habitat, the pink color comes from carotenoid pigments in their diet, not from sunlight"
-                },
-                {
-                    "text": "The flamingos produce pink pigments naturally as they grow",
-                    "isCorrect": 0,
-                    "explanation": "Flamingos don't produce the pink color on their own - they get it from the carotenoids in their food chain"
+                    "explanation": "Animals must use the energy from food for survival - they cannot simply store it without using it for vital body functions."
                 }
             ],
-            "funFact": "If you visit a zoo, you might notice that flamingos there are fed special food containing similar red-orange pigments to maintain their pink color, since they don't have access to their natural diet of crustaceans that eat carotenoid-rich algae!"
+            "funFact": "A hummingbird must visit hundreds of flowers each day to get enough energy from nectar to power its incredibly fast wing movements - beating up to 80 times per second! This shows how important food energy is for animal movement."
         },
         {
             "id": 2,
             "text": "A student observes plants growing in a water-based system without any soil. What does this observation help demonstrate about how plants get their energy?",
             "options": [
                 {
-                    "text": "Plants get their energy from the sun through photosynthesis, not from soil",
-                    "isCorrect": 1,
-                    "explanation": "This is correct. Hydroponic plants growing without soil demonstrate that soil is not the source of energy for plants - they get their energy through photosynthesis using sunlight."
-                },
-                {
-                    "text": "Plants get their energy from the minerals dissolved in water",
+                    "text": "Plants can create their own energy without any external source",
                     "isCorrect": 0,
-                    "explanation": "While minerals in water are important for plant growth, they don't provide the energy plants need. Energy comes from sunlight through photosynthesis."
+                    "explanation": "Plants cannot create energy from nothing - they must get it from an external source, which is sunlight through the process of photosynthesis."
                 },
                 {
                     "text": "Plants don't need energy to grow if they have enough water",
@@ -49,15 +44,47 @@
                     "explanation": "This is incorrect. All living things, including plants, need energy to grow. Plants get this energy from sunlight, not from water."
                 },
                 {
-                    "text": "Plants can create their own energy without any external source",
+                    "text": "Plants get their energy from the minerals dissolved in water",
                     "isCorrect": 0,
-                    "explanation": "Plants cannot create energy from nothing - they must get it from an external source, which is sunlight through the process of photosynthesis."
+                    "explanation": "While minerals in water are important for plant growth, they don't provide the energy plants need. Energy comes from sunlight through photosynthesis."
+                },
+                {
+                    "text": "Plants get their energy from the sun through photosynthesis, not from soil",
+                    "isCorrect": 1,
+                    "explanation": "This is correct. Hydroponic plants growing without soil demonstrate that soil is not the source of energy for plants - they get their energy through photosynthesis using sunlight."
                 }
             ],
             "funFact": "The largest hydroponic farm in the world is in Dubai and covers 130,000 square feet! It can produce over 2,700 kilograms of leafy greens daily while using 95% less water than traditional farming methods."
         },
         {
             "id": 3,
+            "text": "During photosynthesis, what do plants convert sunlight, water, and carbon dioxide into?",
+            "options": [
+                {
+                    "text": "Soil minerals",
+                    "isCorrect": 0,
+                    "explanation": "Plants get minerals from soil, but they don't create minerals during photosynthesis. Photosynthesis produces sugar using sunlight, water, and carbon dioxide."
+                },
+                {
+                    "text": "Oxygen only",
+                    "isCorrect": 0,
+                    "explanation": "While oxygen is produced during photosynthesis as a byproduct, the main product that plants make for their food is sugar."
+                },
+                {
+                    "text": "Vitamins",
+                    "isCorrect": 0,
+                    "explanation": "While plants do produce some vitamins, the primary product of photosynthesis is sugar, which provides energy for the plant's growth and survival."
+                },
+                {
+                    "text": "Sugar",
+                    "isCorrect": 1,
+                    "explanation": "Plants use sunlight energy to convert water and carbon dioxide into sugar through photosynthesis. This sugar provides energy for the plant's growth and can later be used as food by animals."
+                }
+            ],
+            "funFact": "A single leaf can contain billions or even trillions of chlorophyll molecules that help capture sunlight for photosynthesis. These chlorophyll molecules are also what give leaves their green color!"
+        },
+        {
+            "id": 4,
             "text": "A student learns that a hamburger they ate for lunch provided them with energy. What is the original source of this energy?",
             "options": [
                 {
@@ -84,90 +111,149 @@
             "funFact": "In just one hour, the Sun delivers more energy to Earth than humanity uses in an entire year! Through photosynthesis, plants capture only about 1% of the sunlight that reaches them, yet this small fraction powers nearly all life on Earth."
         },
         {
-            "id": 4,
-            "text": "Which of the following best describes how animals use the energy they get from food?",
+            "id": 5,
+            "text": "Which of the following best explains how animals use the energy they get from food?",
             "options": [
                 {
                     "text": "Animals use food energy for body repair, growth, movement, and maintaining body warmth",
                     "isCorrect": 1,
-                    "explanation": "Animals need energy from food for multiple purposes: repairing damaged tissues, growing bigger, moving around, and keeping their bodies at the right temperature."
+                    "explanation": "Food provides animals with essential energy that they use for multiple vital functions including repairing their bodies, growing, moving around, and keeping their bodies warm."
                 },
                 {
                     "text": "Animals only use food energy for movement",
                     "isCorrect": 0,
-                    "explanation": "While movement is one important use of food energy, animals also need energy for other vital functions like growth, repair, and maintaining body temperature."
+                    "explanation": "This is incorrect because animals use food energy for multiple purposes, not just movement. They also need energy for growth, body repair, and maintaining body temperature."
                 },
                 {
-                    "text": "Animals store all food energy and never use it",
+                    "text": "Animals only use food energy to maintain body warmth",
                     "isCorrect": 0,
-                    "explanation": "Animals must use the energy from food for survival - they cannot simply store it without using it for vital body functions."
+                    "explanation": "This is incomplete because while maintaining body warmth is one use of food energy, animals also need energy for movement, growth, and body repair."
                 },
                 {
-                    "text": "Animals use food energy only for growing taller",
+                    "text": "Animals store all food energy and don't use it",
                     "isCorrect": 0,
-                    "explanation": "Growth is just one of several ways animals use food energy. They also need energy for repair, movement, and maintaining body temperature."
+                    "explanation": "This is incorrect because animals actively use the energy from food rather than just storing it. They need this energy for various bodily functions to survive."
                 }
             ],
-            "funFact": "A hummingbird must visit hundreds of flowers each day to get enough energy from nectar to power its incredibly fast wing movements - beating up to 80 times per second! This shows how important food energy is for animal movement."
-        },
-        {
-            "id": 5,
-            "text": "Which of the following items would qualify as food for humans?",
-            "options": [
-                {
-                    "text": "A slice of bread",
-                    "isCorrect": 1,
-                    "explanation": "Bread provides both energy and building blocks for growth and repair, making it a true food source for humans."
-                },
-                {
-                    "text": "A vitamin C tablet",
-                    "isCorrect": 0,
-                    "explanation": "While vitamins provide building blocks, they don't provide energy, so they don't qualify as food."
-                },
-                {
-                    "text": "A wooden spoon",
-                    "isCorrect": 0,
-                    "explanation": "Although wood comes from plants, humans cannot digest it to obtain energy or building blocks."
-                },
-                {
-                    "text": "A leather belt",
-                    "isCorrect": 0,
-                    "explanation": "Though leather comes from animals, it has been processed in a way that makes it impossible for humans to digest and use for energy or building blocks."
-                }
-            ],
-            "funFact": "Some termites can actually digest wood because they have special bacteria in their digestive systems that break down cellulose, the main component of wood, into usable energy and nutrients. This is something that human digestive systems cannot do!"
+            "funFact": "A hummingbird uses so much energy that it must eat almost constantly during the day, consuming up to twice its body weight in nectar daily to maintain its rapid wing movements and high body temperature!"
         },
         {
             "id": 6,
-            "text": "A scientist is studying plants growing hydroponically (in water without soil). The scientist observes that these plants grow just as well as plants in soil when provided with adequate water, nutrients, and sunlight. What does this observation best demonstrate about plants' energy source?",
+            "text": "A lion eats a zebra, which had been grazing on grass in the savanna. How did the lion obtain energy for its growth and body repair through this food chain?",
             "options": [
                 {
-                    "text": "Plants get their energy primarily from sunlight rather than soil",
+                    "text": "The energy came from the sun through plants to the zebra to the lion",
                     "isCorrect": 1,
-                    "explanation": "Hydroponic plants growing successfully without soil proves that soil is not the primary energy source. Plants obtain their energy through photosynthesis using sunlight."
+                    "explanation": "The sun's energy was captured by grass through photosynthesis, transferred to the zebra when it ate the grass, and finally to the lion when it ate the zebra."
                 },
                 {
-                    "text": "Plants get their energy equally from both soil and sunlight",
+                    "text": "The lion got its energy directly from the grass in the savanna",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because hydroponic plants grow without soil, showing that soil is not necessary for plants to obtain energy."
+                    "explanation": "Lions are carnivores and cannot digest grass directly. They get their energy by eating other animals that have eaten plants."
                 },
                 {
-                    "text": "Plants get their energy mainly from the nutrients in water",
+                    "text": "The lion directly absorbed energy from the sun while hunting",
                     "isCorrect": 0,
-                    "explanation": "While nutrients are important for plant growth, they don't provide energy. Plants get their energy through photosynthesis using sunlight."
+                    "explanation": "Animals cannot directly use sunlight for energy like plants do. They must get their energy through eating other organisms."
                 },
                 {
-                    "text": "Plants create their own energy without any external source",
+                    "text": "The energy originated from the soil where the grass grew",
                     "isCorrect": 0,
-                    "explanation": "This violates the law of conservation of energy. Plants don't create energy; they transform light energy from the sun into chemical energy through photosynthesis."
+                    "explanation": "Plants get their energy from the sun, not from soil. Soil provides minerals but not the energy needed for growth."
                 }
             ],
-            "funFact": "The largest hydroponic farm in the world is in Dubai and covers 130,000 square feet! It can produce over 2,700 kilograms of leafy greens daily while using 95% less water than traditional farming methods."
+            "funFact": "A lion needs to eat about 5-7 kg (11-15 pounds) of meat per day to maintain its energy needs. This is equivalent to roughly 50 hamburgers!"
         },
         {
             "id": 7,
+            "text": "A student is studying how different foods affect their body's energy levels during various activities. Which of the following best describes how food provides energy for different body functions?",
+            "options": [
+                {
+                    "text": "Different foods provide energy for specific body functions - proteins only for muscle repair, carbohydrates only for movement, and fats only for warmth",
+                    "isCorrect": 0,
+                    "explanation": "While different nutrients have primary roles, the body can use energy from various food sources flexibly for different functions"
+                },
+                {
+                    "text": "Food only provides building blocks for growth and repair, while energy comes directly from breathing oxygen",
+                    "isCorrect": 0,
+                    "explanation": "While oxygen is needed to release energy from food, the energy itself comes from the food we eat, not directly from oxygen"
+                },
+                {
+                    "text": "Only sugar-rich foods provide energy, while other foods are only used for growth and repair",
+                    "isCorrect": 0,
+                    "explanation": "Many types of food, not just sugary foods, can provide energy for the body's various functions"
+                },
+                {
+                    "text": "All types of food can provide energy that the body can use for repair, growth, movement, and maintaining body temperature",
+                    "isCorrect": 1,
+                    "explanation": "The body can convert energy from different food sources to power various functions like repair, growth, movement, and maintaining warmth"
+                }
+            ],
+            "funFact": "Your body is incredibly efficient at converting food into usable energy! A single peanut contains enough energy to power your brain for about 30 minutes of thinking."
+        },
+        {
+            "id": 8,
+            "text": "Which of the following correctly shows how energy from the sun is transferred to a bear's muscles for movement?",
+            "options": [
+                {
+                    "text": "Sun \u2192 Soil \u2192 Plants \u2192 Bear \u2192 Muscle movement",
+                    "isCorrect": 0,
+                    "explanation": "Plants get their energy from the sun through photosynthesis, not from soil. Soil provides minerals but not the energy needed for growth."
+                },
+                {
+                    "text": "Sun \u2192 Plants (photosynthesis) \u2192 Berries \u2192 Bear \u2192 Muscle movement",
+                    "isCorrect": 1,
+                    "explanation": "This shows the correct energy transfer pathway. Plants capture sun's energy through photosynthesis to make food (berries), which the bear eats to get energy for muscle movement."
+                },
+                {
+                    "text": "Plants \u2192 Sun \u2192 Berries \u2192 Bear \u2192 Muscle movement",
+                    "isCorrect": 0,
+                    "explanation": "The sun is the original source of energy. Plants use this energy to make food through photosynthesis, not the other way around."
+                },
+                {
+                    "text": "Sun \u2192 Bear \u2192 Plants \u2192 Berries \u2192 Muscle movement",
+                    "isCorrect": 0,
+                    "explanation": "Bears cannot directly use sun's energy. They must get it from eating plants or other animals that have stored the sun's energy."
+                }
+            ],
+            "funFact": "A grizzly bear can consume up to 90 pounds of food per day when preparing for hibernation - that's a lot of stored solar energy! During this time, they can gain up to 3 pounds per day."
+        },
+        {
+            "id": 9,
+            "text": "A polar bear living in the Arctic mainly eats seals. The seals eat fish, and the fish eat small marine plants called algae. How does the polar bear get its energy that originally came from the sun?",
+            "options": [
+                {
+                    "text": "The polar bear gets its energy directly from the sun while basking in the sunlight",
+                    "isCorrect": 0,
+                    "explanation": "Unlike plants, animals cannot convert sunlight directly into energy. They must get their energy by eating other organisms."
+                },
+                {
+                    "text": "The sun's energy moves through this food chain: sun \u2192 algae \u2192 fish \u2192 seals \u2192 polar bear",
+                    "isCorrect": 1,
+                    "explanation": "This shows the correct path of energy transfer from the sun through the food chain to the polar bear. The algae use sunlight to make food through photosynthesis, and this energy moves up the food chain."
+                },
+                {
+                    "text": "The polar bear gets its energy from the cold Arctic environment",
+                    "isCorrect": 0,
+                    "explanation": "The cold environment does not provide energy to the polar bear. All energy in food chains starts with the sun and moves through producers (plants) to consumers (animals)."
+                },
+                {
+                    "text": "The sun heats up the Arctic ice which provides energy to the polar bear",
+                    "isCorrect": 0,
+                    "explanation": "Animals cannot get their energy from ice or water. They need to eat food that contains energy that originally came from plants."
+                }
+            ],
+            "funFact": "A polar bear's thick layer of blubber (fat) helps store energy from its food. This stored energy allows it to survive for up to several months without eating during times when seals are scarce!"
+        },
+        {
+            "id": 10,
             "text": "In a forest ecosystem, a caterpillar eats leaves from a plant, and later a bird eats the caterpillar. Which statement correctly describes how energy flows through this food chain?",
             "options": [
+                {
+                    "text": "Energy begins in the soil, moves to the plant roots, then to the caterpillar, and finally to the bird",
+                    "isCorrect": 0,
+                    "explanation": "While plants need soil for minerals and water, the energy for making food comes from the sun, not from the soil."
+                },
                 {
                     "text": "The sun's energy is first captured by the plant through photosynthesis, then transferred to the caterpillar, and finally to the bird",
                     "isCorrect": 1,
@@ -182,230 +268,144 @@
                     "text": "The caterpillar produces its own energy which it shares with both the plant and the bird",
                     "isCorrect": 0,
                     "explanation": "Caterpillars cannot produce their own energy. Like all animals, they must obtain energy by eating other organisms."
-                },
-                {
-                    "text": "Energy begins in the soil, moves to the plant roots, then to the caterpillar, and finally to the bird",
-                    "isCorrect": 0,
-                    "explanation": "While plants need soil for minerals and water, the energy for making food comes from the sun, not from the soil."
                 }
             ],
             "funFact": "A single green leaf can convert about 6% of the sunlight it receives into sugar through photosynthesis. This might seem small, but when you consider all the leaves on Earth, plants produce over 100 billion tons of sugar each year!"
         },
         {
-            "id": 8,
-            "text": "Which of the following body functions requires the most energy from food?",
-            "options": [
-                {
-                    "text": "Moving around and exercising",
-                    "isCorrect": 1,
-                    "explanation": "Physical activities like moving and exercising require the most energy from food since they involve continuous muscle contractions and energy expenditure."
-                },
-                {
-                    "text": "Growing taller",
-                    "isCorrect": 0,
-                    "explanation": "While growth requires energy, it happens gradually over time and doesn't need as much immediate energy as physical activity."
-                },
-                {
-                    "text": "Healing a small cut",
-                    "isCorrect": 0,
-                    "explanation": "Wound healing is localized and requires relatively less energy compared to whole-body activities like movement."
-                },
-                {
-                    "text": "Maintaining body temperature when sitting still",
-                    "isCorrect": 0,
-                    "explanation": "While maintaining body temperature requires constant energy, it uses less energy than active physical movement."
-                }
-            ],
-            "funFact": "A one-hour session of intense exercise can burn energy equivalent to that stored in about two bananas. This energy originally came from the sun through photosynthesis in the banana plant!"
-        },
-        {
-            "id": 9,
-            "text": "Which example best demonstrates how energy from the sun is transformed into chemical energy in food?",
-            "options": [
-                {
-                    "text": "A flamingo eating algae, which converts the red pigments into pink feathers",
-                    "isCorrect": 0,
-                    "explanation": "While flamingos do get their pink color from algae, this example shows how pigments are used, not how solar energy becomes chemical energy in food."
-                },
-                {
-                    "text": "A plant using sunlight, water, and carbon dioxide to produce sugar through photosynthesis",
-                    "isCorrect": 1,
-                    "explanation": "This correctly shows how plants convert solar energy into chemical energy stored in sugar molecules through photosynthesis."
-                },
-                {
-                    "text": "A cow absorbing nutrients directly from sunlight while grazing in a field",
-                    "isCorrect": 0,
-                    "explanation": "Animals cannot convert sunlight directly into chemical energy - they must get their energy by eating plants or other animals."
-                },
-                {
-                    "text": "A hydroponic plant absorbing minerals from water to create energy",
-                    "isCorrect": 0,
-                    "explanation": "While hydroponic plants do absorb minerals from water, they still need sunlight to create energy through photosynthesis. Minerals alone cannot provide energy."
-                }
-            ],
-            "funFact": "Plants are so efficient at converting sunlight to chemical energy that scientists are studying their photosynthesis process to develop better solar panels and renewable energy technologies!"
-        },
-        {
-            "id": 10,
-            "text": "A lion eats a zebra, which had been grazing on grass in the savanna. How did the lion obtain energy for its growth and body repair through this food chain?",
-            "options": [
-                {
-                    "text": "The lion directly absorbed energy from the sun while hunting",
-                    "isCorrect": 0,
-                    "explanation": "Animals cannot directly use sunlight for energy like plants do. They must get their energy through eating other organisms."
-                },
-                {
-                    "text": "The energy came from the sun through plants to the zebra to the lion",
-                    "isCorrect": 1,
-                    "explanation": "The sun's energy was captured by grass through photosynthesis, transferred to the zebra when it ate the grass, and finally to the lion when it ate the zebra."
-                },
-                {
-                    "text": "The lion got its energy directly from the grass in the savanna",
-                    "isCorrect": 0,
-                    "explanation": "Lions are carnivores and cannot digest grass directly. They get their energy by eating other animals that have eaten plants."
-                },
-                {
-                    "text": "The energy originated from the soil where the grass grew",
-                    "isCorrect": 0,
-                    "explanation": "Plants get their energy from the sun, not from soil. Soil provides minerals but not the energy needed for growth."
-                }
-            ],
-            "funFact": "A lion needs to eat about 5-7 kg (11-15 pounds) of meat per day to maintain its energy needs. This is equivalent to roughly 50 hamburgers!"
-        },
-        {
             "id": 11,
-            "text": "A scientist monitors the daily energy usage of a student and finds that: \n- 45% of food energy is used for maintaining body temperature\n- 30% is used for movement and physical activities\n- 15% is used for growth and repair\n- 10% is used for brain function and thinking\n\nWhich bodily function requires the most energy from the food we eat?",
+            "text": "In a simple food chain consisting of grass \u2192 rabbit \u2192 fox, what would happen to the energy flow if all the grass disappeared?",
             "options": [
                 {
-                    "text": "Maintaining body temperature",
+                    "text": "The energy flow would reverse direction from fox to rabbit to grass",
+                    "isCorrect": 0,
+                    "explanation": "Energy flow in food chains is one-way, from producers (plants) to consumers (animals). It cannot flow backwards."
+                },
+                {
+                    "text": "The entire food chain would collapse since the primary energy source is removed",
                     "isCorrect": 1,
-                    "explanation": "According to the data, 45% of food energy is used to maintain body temperature, which is the highest percentage among all bodily functions."
+                    "explanation": "Grass captures energy from the sun through photosynthesis. Without grass, there would be no way to convert sun's energy into food energy, causing the whole chain to break down."
                 },
                 {
-                    "text": "Movement and physical activities",
+                    "text": "Foxes would still get energy since they can eat rabbits directly",
                     "isCorrect": 0,
-                    "explanation": "Movement and physical activities use 30% of food energy, which is the second highest but not the most energy-consuming function."
+                    "explanation": "Without grass, rabbits would have no food source and would not survive, which means foxes would also lose their food source. All energy in this chain originally comes from plants."
                 },
                 {
-                    "text": "Growth and repair",
+                    "text": "Rabbits and foxes would switch to getting energy directly from the sun",
                     "isCorrect": 0,
-                    "explanation": "Growth and repair processes use 15% of food energy, which is less than both temperature maintenance and movement."
-                },
-                {
-                    "text": "Brain function and thinking",
-                    "isCorrect": 0,
-                    "explanation": "Brain function and thinking use 10% of food energy, which is the lowest percentage among the listed functions."
+                    "explanation": "Animals cannot perform photosynthesis and cannot directly use the sun's energy. They must get their energy by eating other organisms."
                 }
             ],
-            "funFact": "While humans use most of their energy to maintain body temperature, some animals like hummingbirds use up to 80% of their energy for movement! They need to eat almost their own body weight in nectar each day to sustain their incredibly fast wing movements."
+            "funFact": "Some deep-sea organisms live near hydrothermal vents where bacteria get energy from chemicals rather than sunlight - one of the few ecosystems on Earth not powered by solar energy!"
         },
         {
             "id": 12,
             "text": "When meat is cooked, which change in the food helps our bodies get more energy and nutrients from it?",
             "options": [
                 {
-                    "text": "The cooking process breaks down proteins and makes them easier to digest",
-                    "isCorrect": 1,
-                    "explanation": "Cooking breaks down complex protein structures, making them easier for our digestive system to process and extract energy and nutrients."
-                },
-                {
                     "text": "Cooking adds new energy to the meat",
                     "isCorrect": 0,
                     "explanation": "Cooking doesn't add new energy to food - it just makes the existing energy and nutrients more accessible to our bodies."
                 },
                 {
-                    "text": "Heat from cooking creates new proteins",
-                    "isCorrect": 0,
-                    "explanation": "Cooking doesn't create new proteins - it only changes the structure of existing proteins to make them more digestible."
+                    "text": "The cooking process breaks down proteins and makes them easier to digest",
+                    "isCorrect": 1,
+                    "explanation": "Cooking breaks down complex protein structures, making them easier for our digestive system to process and extract energy and nutrients."
                 },
                 {
                     "text": "Cooking removes all harmful substances so we get pure energy",
                     "isCorrect": 0,
                     "explanation": "While cooking can kill harmful bacteria, it doesn't remove all substances or provide 'pure' energy - it primarily makes nutrients more accessible."
+                },
+                {
+                    "text": "Heat from cooking creates new proteins",
+                    "isCorrect": 0,
+                    "explanation": "Cooking doesn't create new proteins - it only changes the structure of existing proteins to make them more digestible."
                 }
             ],
             "funFact": "The practice of cooking meat dates back at least 1.8 million years ago! This early adoption of cooking helped our ancestors get more energy from their food, which may have contributed to the evolution of larger human brains."
         },
         {
             "id": 13,
-            "text": "A scientist conducts an experiment where different food items are mixed with an oxidizer and set on fire. Which conclusion about the stored energy in foods is best supported by observing that foods burn when mixed with an oxidizer?",
+            "text": "Which food chain would transfer the most energy from the sun to humans?",
             "options": [
                 {
-                    "text": "Foods contain stored chemical energy that can be released through a chemical reaction with oxygen",
+                    "text": "Sun \u2192 corn \u2192 chicken \u2192 human",
                     "isCorrect": 1,
-                    "explanation": "The burning of food when mixed with an oxidizer demonstrates that foods contain stored chemical energy that can be released through oxidation, which is a chemical reaction with oxygen"
+                    "explanation": "This chain has the same number of steps as the grass-cow-human chain, but corn has higher energy content than grass, and chickens require less energy to maintain their smaller bodies compared to cows. This results in more efficient energy transfer to humans."
                 },
                 {
-                    "text": "Foods gain energy from the oxidizer which allows them to burn",
+                    "text": "Sun \u2192 grass \u2192 cow \u2192 human",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because the oxidizer only provides oxygen to help release the energy already stored in the food - it does not provide the energy itself"
+                    "explanation": "This chain has fewer steps, which generally makes it efficient. However, cows must use substantial energy to maintain their large bodies and to digest complex cellulose in grass through their specialized digestive system."
                 },
                 {
-                    "text": "Only processed foods contain enough energy to burn with an oxidizer",
+                    "text": "Sun \u2192 algae \u2192 small fish \u2192 larger fish \u2192 human",
                     "isCorrect": 0,
-                    "explanation": "Both natural and processed foods contain stored energy that can be released through oxidation - the ability to burn is not limited to processed foods"
+                    "explanation": "This chain has more steps than the other options. With each additional trophic level, approximately 90% of energy is lost, making this less efficient."
                 },
                 {
-                    "text": "The heat from burning comes from the oxidizer, not the food",
+                    "text": "Sun \u2192 grass \u2192 mouse \u2192 snake \u2192 hawk \u2192 human",
                     "isCorrect": 0,
-                    "explanation": "The heat energy released during burning comes from the chemical energy stored in the food, not from the oxidizer which only facilitates the reaction"
+                    "explanation": "This is the longest food chain presented, with five steps between the sun and humans. The multiple energy transfers result in significant energy loss, making it least efficient."
                 }
             ],
-            "funFact": "The same chemical process that allows foods to burn with an oxidizer - oxidation - is similar to how our cells break down food for energy, just much more slowly and in a controlled way. This cellular process is called cellular respiration!"
+            "funFact": "According to ecological efficiency principles, only about 10% of energy is transferred between each trophic level in a food chain. This is why eating plants directly is typically more energy-efficient than consuming animals that ate those plants!"
         },
         {
             "id": 14,
-            "text": "A student conducted an experiment with three identical plants, placing them in different light conditions for two weeks while providing the same amount of water and nutrients. Plant A was kept in full sunlight, Plant B in partial shade, and Plant C in complete darkness. Which plant would likely produce the most food through photosynthesis?",
+            "text": "A student is conducting an experiment to understand what plants need to grow and use the sun's energy effectively. Which setup would best demonstrate that plants can grow without soil?",
             "options": [
                 {
-                    "text": "Plant A in full sunlight",
+                    "text": "Growing plants in a container with water containing dissolved minerals and exposing them to sunlight",
                     "isCorrect": 1,
-                    "explanation": "Plants need sunlight to perform photosynthesis and produce food. Full sunlight provides the maximum energy needed for this process."
+                    "explanation": "This is a hydroponic system that shows plants only need water, minerals, and sunlight to grow - soil is not essential for capturing the sun's energy"
                 },
                 {
-                    "text": "Plant B in partial shade",
+                    "text": "Growing plants in a sealed container with just air",
                     "isCorrect": 0,
-                    "explanation": "While plants can survive in partial shade, they produce less food than plants in full sunlight due to reduced energy from the sun for photosynthesis."
+                    "explanation": "Plants need water and minerals in addition to air and sunlight to grow and perform photosynthesis"
                 },
                 {
-                    "text": "Plant C in complete darkness",
+                    "text": "Growing plants in soil without any water",
                     "isCorrect": 0,
-                    "explanation": "Plants cannot produce food without sunlight. In complete darkness, photosynthesis cannot occur, and the plant will eventually die."
+                    "explanation": "Water is essential for photosynthesis - plants cannot grow or use the sun's energy without water, even in soil"
                 },
                 {
-                    "text": "All plants would produce the same amount of food",
+                    "text": "Growing plants in soil and keeping them in complete darkness",
                     "isCorrect": 0,
-                    "explanation": "The amount of food produced through photosynthesis directly depends on the amount of sunlight available. Plants in different light conditions will produce different amounts of food."
+                    "explanation": "Without sunlight, plants cannot perform photosynthesis to produce food, even with soil present"
                 }
             ],
-            "funFact": "Some plants have adapted to grow in very low light conditions by developing larger leaves to capture more sunlight, or by growing closer to the forest floor where they can capture light that filters through the canopy. However, even these shade-loving plants still need some sunlight to produce their food!"
+            "funFact": "The world's largest hydroponic farm is located in Dubai and covers 130,000 square feet! It can produce over 2,700 pounds of leafy greens daily without using any soil."
         },
         {
             "id": 15,
-            "text": "A student wants to compare the nutritional value of two snacks: a candy bar and a serving of broccoli. Which statement best describes how these foods contribute to the body's needs?",
+            "text": "Consider a gazelle that eats grass and a lion that eats gazelles. How can the energy used by both animals be traced back to the sun?",
             "options": [
                 {
-                    "text": "The candy bar and broccoli provide equal amounts of materials for body growth and repair",
-                    "isCorrect": 0,
-                    "explanation": "Candy contains mostly sugar, while broccoli provides multiple nutrients like proteins, vitamins, and minerals needed for growth and repair"
-                },
-                {
-                    "text": "Both foods provide energy, but broccoli also contains materials needed for body growth and repair",
+                    "text": "The sun's energy flows: sun \u2192 grass \u2192 gazelle \u2192 lion",
                     "isCorrect": 1,
-                    "explanation": "While both foods provide energy, broccoli contains additional nutrients like proteins, fiber, iron, and vitamins that help with body growth and repair"
+                    "explanation": "This shows the correct energy flow. The sun's energy is first captured by grass through photosynthesis, then transferred to the gazelle when it eats the grass, and finally to the lion when it eats the gazelle."
                 },
                 {
-                    "text": "Only the candy bar provides energy since it contains sugar",
+                    "text": "Only the gazelle gets energy from the sun through grass; the lion gets its energy from somewhere else",
                     "isCorrect": 0,
-                    "explanation": "Both foods provide energy, not just candy. Additionally, the type of energy from candy is quick but short-lasting compared to complex nutrients in vegetables"
+                    "explanation": "All energy in a food chain can be traced back to the sun. The lion gets its energy from eating the gazelle, which got its energy from grass, which got its energy from the sun."
                 },
                 {
-                    "text": "Neither food provides materials for body growth and repair",
+                    "text": "The sun's energy flows: sun \u2192 lion \u2192 gazelle \u2192 grass",
                     "isCorrect": 0,
-                    "explanation": "This is incorrect because broccoli contains important nutrients like proteins and minerals that are essential for body growth and repair"
+                    "explanation": "This is the reverse of the correct energy flow. Energy always starts with the sun being captured by plants through photosynthesis, then moves up the food chain."
+                },
+                {
+                    "text": "The sun's energy flows directly to both animals: sun \u2192 gazelle and sun \u2192 lion",
+                    "isCorrect": 0,
+                    "explanation": "Animals cannot directly use the sun's energy. They must get their energy by eating plants or other animals that have eaten plants."
                 }
             ],
-            "funFact": "One cup of broccoli contains more vitamin C than an orange! Vitamin C is essential for the growth and repair of tissues in all parts of your body."
+            "funFact": "A single lion may need to eat up to 15% of its body weight in a single meal - that's like a 400-pound lion eating 60 pounds of meat! This shows how much energy needs to be transferred through the food chain to sustain large predators."
         }
     ]
 }
